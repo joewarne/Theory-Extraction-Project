@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Quadriceps torque complexity before and after anterior cruciate ligament reconstruction</title>
+				<funder ref="#_rfJ5H6h #_2XtCNeD">
+					<orgName type="full">University of Michigan</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-09-22">22 September 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Alexa</forename><forename type="middle">K</forename><surname>Johnson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Kinesiology</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kazandra</forename><forename type="middle">M</forename><surname>Rodriguez</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Kinesiology</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Adam</forename><forename type="middle">S</forename><surname>Lepley</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Kinesiology</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Riann</forename><forename type="middle">M</forename><surname>Palmieri-Smith</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Kinesiology</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Orthopedic Surgery</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Quadriceps torque complexity before and after anterior cruciate ligament reconstruction</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2023-09-22">22 September 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3399FED56F8C4BACBF5FB12CA732886B</idno>
+					<idno type="DOI">10.1016/j.jsams.2023.09.009</idno>
+					<note type="submission">Received 3 October 2022 Received in revised form 8 September 2023 Accepted 14 September 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>ACL Entropy Knee Strength Muscle</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The purpose of this project was to longitudinally examine quadriceps torque complexity in a group of individuals who tore their ACL and underwent ACL reconstruction. Design: Cohort analysis. Methods: Thirty-four individuals completed maximal effort bilateral isometric strength testing after ACL injury but pre-surgery, five months' post-surgery (mid-point of rehabilitation), and when cleared to return to activity. Sample entropy, a nonlinear analysis of quadriceps torque control (complexity), was calculated from maximal isometric contractions. Two 3 × 2 repeated measures analysis of variance were used to examine changes over time and between limbs for quadriceps torque complexity and peak torque. Results: Quadriceps peak torque was lower in the involved limb when compared to the uninvolved limb at every time point (p &lt; 0.001). Peak torque of the involved limb was decreased at mid-point of rehabilitation compared to before surgery (p = 0.023) and at mid-point compared to return to activity (p = 0.041). Quadriceps sample entropy was higher in the involved limb compared to the uninvolved limb at the mid-point of rehabilitation (p &lt; 0.001) and return to activity (p &lt; 0.001), indicating greater complexity. The involved limb also demonstrated increased torque sample entropy from pre-surgery to mid-point of rehabilitation (p = 0.023), but not from pre-surgery to return to activity (p = 0.169) or from mid-point to return to activity (p = 0.541). Conclusions: Not only does quadriceps strength decline with ACL reconstruction, but quality of the quadriceps muscle contraction is also compromised. Increased torque complexity experienced in the ACL limb after reconstruction may contribute to impaired physical function in individuals following ACL reconstruction.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Anterior cruciate ligament (ACL) injuries affect approximately 250,000 young active individuals every year <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> and these injuries are commonly treated with surgical reconstruction. <ref type="bibr" target="#b2">3</ref> Following ACL reconstruction, quadriceps dysfunction (e.g., weakness and atrophy) is regularly present and can persist for years afterwards. <ref type="bibr" target="#b3">4</ref> As quadriceps dysfunction prevents successful return to physical activity <ref type="bibr" target="#b4">5</ref> and puts long-term knee joint health at risk, <ref type="bibr" target="#b5">6</ref> it is of substantial clinical interest.</p><p>Quadriceps dysfunction after ACL reconstruction has primarily been quantified by examining the maximal knee extension torque output during isometric contractions. <ref type="bibr" target="#b3">4</ref> While maximal quadriceps torque (i.e., strength) is an important clinical metric used to identify muscle weakness and is important for creating rehabilitation milestones following ACL reconstruction, it only considers a single point of the torque curve (e.g., the peak). By only assessing the peak torque, information is simply gleaned on the quantity, but not quality, of the torque generated by the muscle. The quality of a muscle contraction is important to understand because it provides information about neuromuscular function <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> and muscles' motor unit properties. <ref type="bibr" target="#b8">9</ref> From a qualitative perspective a high quality muscle contraction would present with a torque curve that shows minimal irregularities and smaller fluctuations of the data points, and would be suggestive of exceptional force control. <ref type="bibr" target="#b9">10</ref> While a low-quality torque curve would be "noisier" showing many fluctuations in torque that are of greater magnitude suggesting less control. Torque quality is also thought to affect overall coordination and motor task performance. <ref type="bibr" target="#b10">11</ref> For example, Pua et al., found that after ACL injury more irregular quadriceps force control was related to inferior single limb hop performance. <ref type="bibr" target="#b11">12</ref> Thus, indicating that quadriceps torque quality also likely provides increased clinical knowledge of movement dysfunction. Understanding quadriceps torque quality should allow for further understanding of quadriceps function after ACL reconstruction.</p><p>A variety of approaches have been utilized to quantify the quality of a quadriceps contraction. For example, quadriceps force control, measured via root mean square error, has been shown to decrease after ACL injury <ref type="bibr" target="#b12">13</ref> and 18 months after reconstruction <ref type="bibr" target="#b13">14</ref> when compared to uninjured control participants. Research has also determined that approximately four years following ACL reconstruction individuals are still presenting with increased quadriceps torque variability, measured via coefficient of variation. <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b14">15</ref> However, the above-mentioned methods applied to the torque signal to asses quality are limited in that they use linear-based calculations (quantifying torque deviations around a fixed point within a time-series). <ref type="bibr" target="#b15">16</ref> However, Slifkin and Newell <ref type="bibr" target="#b15">16</ref> identified that there is an irregular temporal structure in muscle force fluctuations, suggesting that nonlinear analyses are necessary.</p><p>Nonlinear analyses assess the deviation of the time series (not around a fixed point) and thus are more sensitive to the fluctuation patterns of the interacting elements (e.g., motoneurons, myofibrils, tendon units) involved in muscle contraction. <ref type="bibr" target="#b16">17</ref> Nonlinear analyses have been applied to assess the quality of quadriceps contractions in individuals with ACL injury <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b17">18</ref> and ACL reconstruction. <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20</ref> These data show that torque complexity of quadriceps isokinetic maximal contractions (calculated with a wavelet transformation <ref type="bibr" target="#b11">12</ref> and a frequency analysis in the power domain <ref type="bibr" target="#b17">18</ref> ) is higher in those with an ACL injury compared to their uninvolved limb. <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b17">18</ref> Similarly, additional work found increased complexity of isometric quadriceps contractions in individuals following ACL reconstruction (measured via approximate entropy), when compared to healthy control participants, <ref type="bibr" target="#b20">21</ref> Lastly, Czaplicki et al., <ref type="bibr" target="#b18">19</ref> found increased quadriceps isokinetic torque complexity, via a wavelet transformation, at six months following ACL reconstruction when compared to healthy control participants. Most of this research has focused on quantifying quadriceps torque complexity during isokinetic strength, though the evaluation of torque quality and its relationship to muscle motor unit properties are best represented when assessing isometric strength. <ref type="bibr" target="#b8">9</ref> The single paper looking at isometric torque complexity assessed it at a single time point after surgery and thus limits our understanding of how isometric torque complexity changes over time and/or is affected by rehabilitation. <ref type="bibr" target="#b20">21</ref> Sample entropy is one form of nonlinear analysis and has not been used previously to characterize torque fluctuations in individuals after ACL reconstruction. Applying sample entropy to the knee extensor torque signal allows one to establish the predictability of the signal between successive data points (i.e., if successive data points are closer in value to each other there would be less complexity/higher quality in the torque signal). <ref type="bibr" target="#b21">22</ref> This analysis also allows for increased understanding of the torque curve by characterizing the ability of the muscle to have rapid and accurate force adaptation. <ref type="bibr" target="#b6">7</ref> Thus, using sample entropy, a nonlinear approach to assess torque control, will allow for additional information to be gleaned about the torque time curve compared to previous works that have used linear analyses to assess muscle complexity in isometric torque. From a neurophysiological standpoint, it has been identified that alterations in force fluctuations are regulated by motor unit discharge rates as well as the contractile properties of the motor units, <ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b23">24</ref> in which muscles with few motor units exhibit greater force fluctuations (i.e., increased torque complexity). <ref type="bibr" target="#b22">23</ref> Following ACL injury and reconstruction there have been documented alterations in muscle fiber conduction velocity, muscle denervation, and changes is muscle fiber typing, <ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b25">26</ref> all of which could contribute to altered muscle quality and increased force fluctuations. Therefore, the purpose of this project was to longitudinally examine quadriceps isometric torque complexity, quantified using sample entropy, in a group of individuals who tore their ACL and underwent ACL reconstruction. We hypothesized that following ACL injury and reconstruction individuals would demonstrate increased torque complexity in the involved limb compared to the uninvolved limb, and that torque complexity would not return to uninjured limb levels by the time of return to activity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methods</head><p>This study is a prospective descriptive cohort study, in which thirtyfour individuals who had recently sustained a primary unilateral ACL tear but had not yet undergone reconstructive surgery were recruited to participate. Individuals were enrolled in this study if they were between the ages of 14 and 30 years old, sustained an ACL tear while participating in an organized sport, and were scheduled to undergo ACL reconstruction using an autograft. Individuals were excluded if they had undergone any prior knee surgery, sustained a previous ACL injury, or were expected to receive reconstruction to any other ligament besides the ACL at the time of surgery. All participants and their parent/ guardian (if applicable) read and signed an informed consent/assent approved by the University Institutional Review Board (#00110455).</p><p>Participants completed three testing sessions, 1) PRE testing 75.6 ± 52.6 days after injury but 5.9 ± 4.0 days prior to surgical reconstruction, 2) Approximately 5.0 ± 0.5 months post-surgery (MID) to assess a midpoint in the rehabilitation process, and 3) at the time that the participant was cleared to return to activity (RTA; 9.4 ± 1.7 months following surgery) by their physician, including a successful completion of a return to sport test. Participants in this study were prescribed the rehabilitation protocol for our clinic, which can be found in Appendix A. The minimal functional RTA criteria in our clinic for patients to be medically cleared to return to physical activity are as follows: 1) Completing an ACL limb single-leg leg press of 15 repetitions with a load of 100 % body weight, 2) A single-leg forward hop for distance recording ≥95 % symmetry ((ACL limb / NonACL limb) * 100) between limbs, 3) A two-legged deep squat for qualitative symmetry, and 4) A single-leg deep squat for qualitative symmetry between limbs in the hip, knee, and ankle, as well as trunk control. These functional criteria are in addition to a physician examination for: 1) appropriate joint laxity, 2) full knee joint range of motion, and 3) no knee joint effusion.</p><p>Quadriceps strength testing at all sessions consisted of completing bilateral maximal isometric quadriceps strength tests using an isokinetic dynamometer (Biodex Medical Systems, Shirley, NY, USA). In accordance with manufacturer recommendations, individuals were seated in the dynamometer with their hips and knees flexed to 90°, utilizing cross-body and waist straps. Individuals completed a warmup protocol that consisted of 3 submaximal practice trials with a 2-minute rest between efforts. Participants were then instructed to produce three maximal isometric contractions (MVIC) and hold each of these for 5 s. All participants completed testing on their non-ACL limb first and then subsequently for their ACL limb. During each contraction, verbal encouragement instructing participants to kick out as hard as they can was provided along with real-time visual feedback of their torque curve.</p><p>Raw quadriceps torque was recorded with a sampling rate of 2000 Hz from the Biodex via a custom LabVIEW program (LabVIEW version 8.5, National Instruments, Austin TX, USA). Peak quadriceps torque was recorded from the MVIC trial with the largest peak torque value and was normalized to body weight. Using the same trial, sample entropy was calculated as SampEn(m, r, N) =ln(A/B). Where, m (set to 2 for clinical data) <ref type="bibr" target="#b21">22</ref> was the number of data points in which the distance between data points was compared to fit within, r, which was the similarity criterion and set to 0.2 times the standard deviation. N was the total window of data, we selected 4000 data points, representing 2 s of the isometric torque curve beginning at the point in which the torque curve plateaus. A represents the number of sequential data points (m + 1) that fall within r, and B is the number of sequential data points (m) that fall within r. <ref type="bibr" target="#b21">22</ref> A time series with similar distances between data points indicated predictability and results in lower sample entropy values, while large differences between data points indicated complexity, resulting in greater entropy values. A higher entropy value was represented by larger fluctuations in the plateau of the maximal contraction torque signal (less consistent muscle function, more complexity, Fig. <ref type="figure" target="#fig_0">1B</ref>), while a lower entropy value is represented by smaller fluctuations with more predictable plateaus (e.g., a sustained muscle contraction) of the torque signal (Fig. <ref type="figure" target="#fig_0">1A</ref>).</p><p>A post-hoc power analysis utilizing previous literature assessing torque variability after ACL reconstruction was performed using G*Power 3.1, with an indicated effect size of f = 0.35, and it was estimated that 20 individuals were needed to achieve a minimum of 80 % power with α = 0.05. Two separate 3 × 2 (time × limb) repeated measures analysis of variance were used to examine changes over time and between limbs for quadriceps SampEn and peak quadriceps torque in statistical software SPSS (version 27, IBM, Armonk, NY, USA). Univariate F tests and Bonferroni multiple comparison procedures were used post hoc in the case of significant interactions. Cohen's d effect sizes (ES) and confidence intervals (CI) were also reported for increased understanding of the data. Calculations of percent change for SampEn and peak torque from baseline (100 -((baseline data / post-surgery data) * 100)), of each limb separately, were conducted to help provide descriptive analysis of the data. Additionally, Pearson Correlation Coefficients (r) were conducted to better understand the relationship between peak MVIC and quadriceps sample entropy. All data were assessed for normality via Shapiro-Wilks test and found to be normally distributed. Significance was set a priori at p &lt; 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>All 34 subjects completed testing at every time point. Demographic data for the subjects is presented in Table <ref type="table" target="#tab_0">1</ref>. A significant limb × time interaction was found for quadriceps torque sample entropy (p &lt; 0.001; Fig. <ref type="figure" target="#fig_2">2A</ref>) and peak MVIC (p &lt; 0.001; Fig. <ref type="figure" target="#fig_2">2B</ref>). Quadriceps torque sample entropy was higher in the involved limb compared to the uninvolved limb at MID (ACL mean = 0.19 ± 0.14; NonACL mean = 0.08 ± 0.04; ES: 0.97, CI: 0.44, 1.49; p &lt; 0.001) and RTA (ACL mean = 0.17   There was no significant relationship between peak MVIC and quadriceps torque sample entropy at any time point for either limb (Table <ref type="table" target="#tab_1">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>The current study is the first to our knowledge to longitudinally assess torque complexity using sample entropy after ACL injury and through ACL reconstruction and rehabilitation. Quadriceps torque complexity was not different between limbs after ACL injury, however, a 42 % increase in torque complexity in the involved limb was detected from pre-surgery to ~5 months after ACL reconstruction, with a 57 % difference between the ACL and non-ACL limbs at this time point. The higher torque complexity in the ACL reconstructed limb persisted at the time individuals returned to physical activity with a 52 % difference noted between limbs. Overall, these findings support that at the time when individuals are cleared to return to physical activity, after ACL reconstruction, they still have altered quadriceps control compared to their uninvolved limb.</p><p>The increase in quadriceps torque complexity that we identified in the ACL reconstructed limb compared to the non-injured limb after surgery agrees with prior literature also using non-linear analyses. Bodkin et al. <ref type="bibr" target="#b20">21</ref> found increased quadriceps isometric torque complexity, assessed using approximate entropy, 6 months after ACL reconstruction when compared to the contralateral limb and compared to healthy individuals. Czaplicki et al., <ref type="bibr" target="#b18">19</ref> using wavelet analyses, also noted greater irregularities of isokinetic quadriceps torque six months after ACL reconstruction compared to uninjured controls. Our work also agrees with findings assessed with linear analyses and that showed increased torque variability in individuals after ACL reconstruction compared to healthy individuals, 18 months 14 and 3.5 years 10 after surgery suggesting that even following successful surgery and rehabilitation quadriceps torque complexity/force control is still impaired in the ACL limb. Thus, our work along with others support that quadriceps control is affected by ACL reconstruction and we believe that post-surgical rehabilitation and exercises after formal release from rehabilitation should consider not only strength recovery, but also improving the control/decreasing the complexity of quadriceps contractions.</p><p>There are two possible interpretations of our finding of increased torque complexity after ACL reconstruction. One perspective is that greater variability in the torque signal is clinically positive as some have suggested that increased complexity in the torque signal reflects the adaptability of one's motor output in response to the demands of a task. <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b15">16</ref> In other words, greater complexity may reflect that a person has more neuromuscular strategies being used (e.g. more central and/ or peripheral approaches contributing to the excitatory and inhibitory traits of the motor unit pool) to maintain force control and thus are more adaptable to outside perturbations. <ref type="bibr" target="#b10">11</ref> Research that examines how fatigue affects torque complexity, consistently shows that fatigue decreases torque complexity, and it is often argued that this is a negative consequence because fatigue reduces muscle adaptability and limits the neuromuscular strategies employed to maintain a contraction. <ref type="bibr" target="#b10">11</ref> On the other hand, it could be postulated that an increase in torque complexity or a less smooth, more variable muscle contraction is the result of impaired motor coordination. <ref type="bibr" target="#b22">23</ref> Increased variability in the torque signal of ACL patients using other metrics (e.g., coefficient of variation, root mean square error, approximate entropy) <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b20">21</ref> is interpreted in this manner and we agree with this interpretation. We would also argue that if increased torque complexity is reflective of improved adaptability then it should not be necessary to employ multiple neuromuscular strategies to complete a relatively simple, uniplanar dynamic activity like an isometric quadriceps contraction. <ref type="bibr" target="#b24">25</ref> If ACL patients needed to use a variety of approaches to maintain a simple quadriceps contraction, then during a more dynamic and difficult movement (e.g. walking, cutting or landing) we believe that even more strategies would be necessary leading to increased complications. A) Quadriceps torque complexity differences from prior to ACLR but after injury (PRE), to approximately halfway through rehab (MID) and at the time participants were cleared to return to physical activity (RTA). B) Maximal isometric strength differences from prior to ACLR but after injury (PRE), to approximately halfway through rehab (MID) and at the time participants were cleared to return to physical activity (RTA). Anecdotally, the increases in quadriceps torque complexity can be identified clinically as the inability to maintain a consistent level quadriceps torque reading during a maximal voluntary isometric contraction. When visually looking at the torque curve, it is easy to see the increases in complexity by the large fluctuations during the plateau of the MVIC contraction (Fig. <ref type="figure" target="#fig_0">1</ref>). We believe this further highlights that the increased complexity noted in the ACL reconstructed limb is not a positive or beneficial phenomenon, but rather represents a lack of quadriceps force control (or an inability to consistently maintain a higher torque). This also may have implications for athletes that are consistently required to perform at high levels, as the inability to sustain a consistent quadriceps contraction could lead to decreased performance and/or increased injury risk. Previous research has identified that after ACL injury those with irregular isokinetic force control are more likely to have poor performance in a single limb hop. <ref type="bibr" target="#b11">12</ref> If the relationship between torque complexity and performance persists following surgery it may have implications for injury risk, especially for those who have recently been cleared to return to activity, where graft injury or contralateral knee injuries have been shown to be present in almost 30 % of individuals after ACL reconstruction. <ref type="bibr" target="#b25">26</ref> Future research should continue to explore the relationship between quadriceps force control and performance after ACL reconstruction, as well as interventions capable of improving torque complexity.</p><p>The mechanisms resulting in altered torque complexity are unclear, but could be the result of neurophysiological changes occurring to the quadriceps after surgery. Previous research has found alterations in muscle fiber typing after ACL reconstruction. <ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b27">28</ref> Despite serious rehabilitation and targeted strengthening, decreases in type IIA muscle fibers (muscle fibers responsible for maximal strength effort) and increases in type IIA/X fiber types (highly fatigueable muscle fibers) have been reported after ACL reconstruction, at the time patients returned to activity. <ref type="bibr" target="#b27">28</ref> Previous research has indicated that shift from type IIA to type IIA/X hybrid muscle fiber types is representative of muscle disuse and detraining. <ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b27">28</ref> This change in fiber type may be one reason that the quadriceps muscle struggles to sustain a consistent contraction. Another possible mechanism leading to altered torque complexity after ACL reconstruction may be impaired timing of action potentials. In healthy muscle, the change in force fluctuations has been attributed to timing of action potentials. <ref type="bibr" target="#b22">23</ref> Davi et al. found slower fascicle shortening velocity in ACL reconstructed limbs compared to uninvolved limbs, <ref type="bibr" target="#b28">29</ref> thus increased force fluctuations may be a cause of slower action potential firing and shortening velocity that is required to sustain consistent maximal force in the quadriceps. Future studies need to be conducted to better understand the physiological mechanisms and consequences of quadriceps torque complexity after ACL reconstruction.</p><p>While greater quadriceps torque complexity was noted after ACL reconstruction, we failed to identify differences between limbs after the ACL injury, prior to the ACL reconstruction. This finding agrees with work by Skurvydas et al. <ref type="bibr" target="#b29">30</ref> who found no difference in quadriceps isometric torque control (using a nonlinear approach) in ACL-deficient limbs compared to the healthy contralateral limb, but disagrees with prior work by Pua et al. <ref type="bibr" target="#b11">12</ref> showing decreased isokinetic force control in the ACL-deficient limb compared to the uninjured limb. Pua et al. <ref type="bibr" target="#b11">12</ref> studied isokinetic contractions where we examined isometric contractions which may help explain differences. Our work does also partially disagree with work by Hollman et al. <ref type="bibr" target="#b30">31</ref> who used nonlinear fractal scaling to examine sub-maximal isometric quadriceps force control between limbs in ACL-deficient participants. They noted that force steadiness/control was less in the ACL-limb compared to the control limb at 25 % and 35 % of the MVIC, but didn't show differences between limbs at 10 % and 50 % of the MVIC (they also failed to detect between limb differences with coefficient of variation). The lack of between limb differences at 100 % of MVIC in the current study and the 50 % in the Hollman study 31 may suggest that torque or force complexity may not be affected at higher levels of contraction after ACL injury.</p><p>While our work and that of some others does suggest that there may not be differences in torque complexity/control in ACL-deficient subjects it is quite possible that there are bilateral changes in torque complexity that may arise after ACL injury that would not be detectable by making between limb comparisons. Recent work by Qiu et al. <ref type="bibr" target="#b31">32</ref> supports this idea as they found differences between ACL limb and healthy control subjects in various measurements of quadriceps function (i.e. strength, activation, and rate of torque development). More work needs to be conducted to determine if ACL injury alters quadriceps torque complexity bilaterally using nonlinear analytic techniques. Furthermore, it would be of value to assess the sensitivity of the different metrics utilized to quantify torque complexity in ACL patients given that a variety of measures are used <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b30">31</ref> and there is no agreement on which is best. We would argue that the literature preliminarily supports sample entropy as a superior approach to some of the others (e.g., approximate entropy) as it a more accurate for shorter data series, like those seen with quadriceps isometric contractions and has also been shown to reduce biases. <ref type="bibr" target="#b21">22</ref> A decrease in the non-ACL limb torque complexity was noted for our participants at the time of return to physical activity when compared to after ACL injury. This significant decrease in quadriceps torque complexity in the non-ACL limb may be a result of successful rehabilitation. Alternatively, it is possible that the decrease in non-ACL limb torque complexity is the result of the non-ACL limb adapting or compensating to make up for impairments in the ACL limb.</p><p>While not surprising, quadriceps strength was lower in the ACLreconstructed limb compared to the uninjured limb at all-time points. Further, strength in the ACL-reconstructed limb decreased from presurgery to 5 months after reconstruction, but increased from 5 months after surgery to the time when patients returned activity. The results of lower strength in the affected limb after ACL injury and reconstruction are supported by a plethora of studies. <ref type="bibr" target="#b3">4</ref> While quadriceps strength of the ACL-reconstructed limb does appear to improve throughout the course of rehabilitation, it does not have equivalent strength to that of the uninjured limb at the time of return to activity. Quadriceps strength deficits in conjunction with increased torque complexity suggest that force production and control are negatively influenced by ACL injury and reconstruction and should continue to be a focus for clinicians.</p><p>The lack of correlation between quadriceps peak torque and quadriceps torque complexity indicates that examining torque complexity provides additional information related to quadriceps function that is not available from traditional discrete, magnitude-based (e.g. peak torque) analyses. The poor relationship between these variables also suggests that it is possible for a patient to present with a strong quadriceps, but still have poor control of the muscle.</p><p>There are limitations to this study that are important to recognize. First, our data is limited to the quadriceps torque signal to assess the quality of the muscle contraction. Utilizing electromyography during maximal torque production would allow us to glean important information on how muscle electrical activity is changing throughout rehabilitation, especially on an individual muscle contribution level. Additionally, this analysis did not include a healthy uninjured control group for comparison. Future work including a control group would better help us understand how torque complexity may change in both the uninvolved and involved limbs immediately after injury, and over time. It is also important to note that while all participants were skeletally mature and none underwent a pediatric ACL reconstruction, we do include a wide age range (14-30) in our study that did not focus on only an adult or adolescent population. Similarly, we include all, bone patellar tendon bone, quadriceps tendon and hamstring graft types in this study, but with a higher number of patellar tendon grafts (n = 25; Table <ref type="table" target="#tab_0">1</ref>) which may influence our results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>In conclusion, we identified that following ACL reconstruction there are increases in quadriceps torque complexity and peak torque between</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Representative torque curve and entropy values of the Non-ACL limb (A) and the ACL limb (B) during the maximal voluntary isometric contraction from a single subject. A lower entropy value (A) is represented by smaller fluctuations with more predictable plateaus of the torque signal while a higher entropy value (B) is represented by larger fluctuations in the plateau of the maximal contraction torque signal.</figDesc><graphic coords="3,54.37,53.18,486.68,280.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>0.001). Further, peak MVIC of the involved limb was lower at MID compared to PRE (ES: 0.59, CI: 0.08, 1.10; p = 0.023) and MID compared to RTA (ES: -0.41, CI: -0.91, 0.10; p = 0.041), with no differences between PRE and RTA (ES: 0.21, CI: -0.29, 0.71; p = 0.865).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. The gray line representing the involved (ACL) limb, and the black line representing the uninvolved (Non-ACL limb). *Differences between the involved and uninvolved limb, ¥ difference between PRE and MID in the involved limb, # difference between PRE and RTA in the uninvolved limb, £ difference between MID and RTA in the involved limb.A) Quadriceps torque complexity differences from prior to ACLR but after injury (PRE), to approximately halfway through rehab (MID) and at the time participants were cleared to return to physical activity (RTA). B) Maximal isometric strength differences from prior to ACLR but after injury (PRE), to approximately halfway through rehab (MID) and at the time participants were cleared to return to physical activity (RTA).</figDesc><graphic coords="4,42.12,53.18,511.17,155.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Demographic information for patients. Where appropriate data presented as Mean (SD). BPTB = bone patellar tendon bone graft, HAM = hamstring graft, QUAD = quadriceps tendon graft. When reporting meniscal pathologies, one individual's surgery resulted in both a meniscectomy and a meniscal repair.</figDesc><table><row><cell>Biological sex</cell><cell>19 females, 15 males</cell></row><row><cell>Age</cell><cell>16.5 (2.7) yrs</cell></row><row><cell></cell><cell>Range: 14-30 yrs</cell></row><row><cell>Mass</cell><cell>75.5 (18.6) kg</cell></row><row><cell>Height</cell><cell>1.72 (0.10) m</cell></row><row><cell>Pre-injury Tegner score</cell><cell>9.1 (0.9)</cell></row><row><cell>Meniscal pathologies</cell><cell>No damage = 17</cell></row><row><cell></cell><cell>Meniscectomy = 4</cell></row><row><cell></cell><cell>Meniscus repair = 11</cell></row><row><cell></cell><cell>Debridement = 3</cell></row><row><cell>Graft types</cell><cell>25 BPTB, 6 HAM, 3 QUAD</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Pearson Correlation Coefficients to understand relationships between peak MVIC and sample entropy at each time, on each limb individually, represented as r (p-value).</figDesc><table><row><cell></cell><cell>BASE ACL SE</cell><cell>Base NonACL SE</cell><cell>MID ACL SE</cell><cell>MID NonACL SE</cell><cell>RTA ACL SE</cell><cell>RTA NonALC SE</cell></row><row><cell>BASE ACL MVIC</cell><cell>0.00 (0.99)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>BASE NonACL MVIC</cell><cell></cell><cell>-0.28 (0.13)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>POST ACL MVIC</cell><cell></cell><cell></cell><cell>-0.20 (0.26)</cell><cell></cell><cell></cell></row><row><cell>POST NonACL MVIC</cell><cell></cell><cell></cell><cell></cell><cell>0.09 (0.61)</cell><cell></cell></row><row><cell>RTA ACL MVIC</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>-0.29 (0.09)</cell></row><row><cell>RTA NonACL MVIC</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>-0.32 (0.06)</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The authors would like to acknowledge <rs type="person">Michael Curran</rs> for his assistance in data collection. Funding for this study was provided by the <rs type="funder">University of Michigan</rs> <rs type="programName">Mcubed Program</rs>.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding Information</head><p>This project was funded by the <rs type="funder">University of Michigan</rs> <rs type="programName">MCubed Program</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_rfJ5H6h">
+					<orgName type="program" subtype="full">Mcubed Program</orgName>
+				</org>
+				<org type="funding" xml:id="_2XtCNeD">
+					<orgName type="program" subtype="full">MCubed Program</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>limbs that continue at least until the time when participants are cleared to return to activity. These increases in quadriceps torque complexity are likely representative of patients' inability to sustain a consistent, controlled quadriceps contraction.</p><p>Supplementary data to this article can be found online at <ref type="url" target="https://doi.org/10.1016/j.jsams.2023.09.009">https://doi.  org/10.1016/j.jsams.2023.09.009</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Confirmation of Ethical Compliance</head><p>This study met and followed all ethical guidelines via approval by the University of Michigan Institutional Review Board under HUM#00110455. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of Interest Statement</head><p>Alexa K. Johnson, Kazandra Rodriguez, Adam Lepley, and Riann Palmieri-Smith all report no competing interests, conflicts of interest, or other kinds of associations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Understanding and preventing noncontact anterior cruciate ligament injuries: a review of the Hunt Valley II meeting</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Y</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Albohm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Arendt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1512" to="1532" />
+			<date type="published" when="2005-01">January 2005. 2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Griffin LY, Albohm MJ, Arendt EA et al. Understanding and preventing noncontact an- terior cruciate ligament injuries: a review of the Hunt Valley II meeting, January 2005. Am J Sports Med 2006;34(9):1512-1532.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Anterior cruciate ligament injury incidence in adolescent athletes: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Bram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Magee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Mehta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1962" to="1972" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bram JT, Magee LC, Mehta NN et al. Anterior cruciate ligament injury incidence in adolescent athletes: a systematic review and meta-analysis. Am J Sports Med 2021;49(7):1962-1972.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Evidence-based recommendations for the management of anterior cruciate ligament (ACL) rupture</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Filbay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Grindem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Best Pract Res Clin Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="33" to="47" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Filbay SR, Grindem H. Evidence-based recommendations for the management of an- terior cruciate ligament (ACL) rupture. Best Pract Res Clin Rheumatol 2019;33(1):33- 47.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Quadriceps strength and volitional activation after anterior cruciate ligament reconstruction: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lisee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Lepley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Birchmeier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Health</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="163" to="179" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lisee C, Lepley AS, Birchmeier T et al. Quadriceps strength and volitional activation after anterior cruciate ligament reconstruction: a systematic review and meta-analy- sis. Sports Health 2019;11(2):163-179.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Quadriceps function, knee pain, and self-reported outcomes in patients with anterior cruciate ligament reconstruction</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Lepley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pietrosimone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Cormier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="337" to="346" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lepley AS, Pietrosimone B, Cormier ML. Quadriceps function, knee pain, and self-re- ported outcomes in patients with anterior cruciate ligament reconstruction. J Athl Train 2018;53(4):337-346.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Association of quadriceps strength symmetry and surgical status with clinical osteoarthritis 5 years after anterior cruciate ligament rupture</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Arhos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Thoma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Grindem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="386" to="391" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arhos EK, Thoma LM, Grindem H et al. Association of quadriceps strength symmetry and surgical status with clinical osteoarthritis 5 years after anterior cruciate ligament rupture. Arthritis Care Res (Hoboken) 2020;74(3):386-391.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Alterations in peripheral joint muscle force control in adults with musculoskeletal disease, injury, surgery, or arthroplasty: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pethick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liew</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page">102696</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pethick J, Clark NC, Liew B. Alterations in peripheral joint muscle force control in adults with musculoskeletal disease, injury, surgery, or arthroplasty: a systematic re- view and meta-analysis. J Electromyogr Kinesiol 2022;66:102696.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Physiological complexity: influence of ageing, disease and neuromuscular fatigue on muscle force and torque fluctuations</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pethick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Winter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burnley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2046" to="2059" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pethick J, Winter SL, Burnley M. Physiological complexity: influence of ageing, dis- ease and neuromuscular fatigue on muscle force and torque fluctuations. Exp Physiol 2021;106(10):2046-2059.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Models of recruitment and rate coding organization in motor-unit pools</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Fuglevand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Winter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Patla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2470" to="2488" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fuglevand AJ, Winter DA, Patla AE. Models of recruitment and rate coding organiza- tion in motor-unit pools. J Neurophysiol 1993;70(6):2470-2488.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Knee-extension torque variability and subjective knee function in patients with a history of anterior cruciate ligament reconstruction</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goetschius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="22" to="27" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goetschius J, Hart JM. Knee-extension torque variability and subjective knee function in patients with a history of anterior cruciate ligament reconstruction. J Athl Train 2016;51(1):22-27.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Prolonged depression of knee-extensor torque complexity following eccentric exercise</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pethick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Whiteaway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Winter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="100" to="111" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pethick J, Whiteaway K, Winter SL et al. Prolonged depression of knee-extensor torque complexity following eccentric exercise. Exp Physiol 2019;104(1):100-111.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Associations of isokinetic knee steadiness with hop performance in patients with ACL deficiency</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Pua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Ong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Ho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Knee Surg Sports Traumatol Arthrosc</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2185" to="2195" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pua YH, Ong PH, Ho JY et al. Associations of isokinetic knee steadiness with hop per- formance in patients with ACL deficiency. Knee Surg Sports Traumatol Arthrosc 2015;23(8):2185-2195.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Deficits in quadriceps force control after anterior cruciate ligament injury: potential central mechanisms</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perraton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bennell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="505" to="512" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ward SH, Perraton L, Bennell K et al. Deficits in quadriceps force control after an- terior cruciate ligament injury: potential central mechanisms. J Athl Train 2019;54(5):505-512.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Impaired voluntary quadriceps force control following anterior cruciate ligament reconstruction: relationship with knee function</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perraton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Crossley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Knee Surg Sports Traumatol Arthrosc</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1424" to="1431" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Perraton L, Clark R, Crossley K et al. Impaired voluntary quadriceps force control fol- lowing anterior cruciate ligament reconstruction: relationship with knee function. Knee Surg Sports Traumatol Arthrosc 2017;25(5):1424-1431.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Knee extension torque variability after exercise in ACL reconstructed knees</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goetschius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Kuenze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1165" to="1170" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goetschius J, Kuenze CM, Hart JM. Knee extension torque variability after exercise in ACL reconstructed knees. J Orthop Res 2015;33(8):1165-1170.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Variability and noise in continuous force production</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Slifkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Newell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mot Behav</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="141" to="150" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Slifkin AB, Newell KM. Variability and noise in continuous force production. J Mot Behav 2000;32(2):141-150.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Gauging the fractal dimension of response times from cognitive tasks, Contemporary Nonlinear Methods for Behavioral Scientists: A Webbook Tutorial</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Holden</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="267" to="318" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Holden JG. Gauging the fractal dimension of response times from cognitive tasks, Contemporary Nonlinear Methods for Behavioral Scientists: A Webbook Tutorial, 2005. p. 267-318.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Frequency content asymmetry of the isokinetic curve between ACL deficient and healthy knee</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tsepis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Giakas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vagenas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="857" to="864" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tsepis E, Giakas G, Vagenas G et al. Frequency content asymmetry of the isokinetic curve between ACL deficient and healthy knee. J Biomech 2004;37(6):857-864.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Using the discrete wavelet transform in assessing the effectiveness of rehabilitation in patients after ACL reconstruction</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Czaplicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kuniszyk-Jóźkowiak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jaszczuk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Bioeng Biomech</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="139" to="146" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Czaplicki A, Kuniszyk-Jóźkowiak W, Jaszczuk J et al. Using the discrete wavelet trans- form in assessing the effectiveness of rehabilitation in patients after ACL reconstruc- tion. Acta Bioeng Biomech 2017;19(3):139-146.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Recurrence quantification analysis of isokinetic strength tests: a comparison of the anterior cruciate ligament reconstructed and the uninjured limb</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Chaney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Krause</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Hollman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Biomech</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page">105929</biblScope>
+			<date type="published" when="2023">2023</date>
+			<pubPlace>Bristol, Avon</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chaney GK, Krause DA, Hollman JH et al. Recurrence quantification analysis of isokinetic strength tests: a comparison of the anterior cruciate ligament recon- structed and the uninjured limb. Clin Biomech (Bristol, Avon) 2023;104:105929.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Torque complexity of maximal knee extensor isometric contraction in individuals following anterior cruciate ligament reconstruction</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Bodkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Pethick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Dooley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Biomech</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page">105932</biblScope>
+			<date type="published" when="2023">2023</date>
+			<pubPlace>Bristol, Avon</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bodkin SG, Pethick JT, Dooley EA et al. Torque complexity of maximal knee extensor iso- metric contraction in individuals following anterior cruciate ligament reconstruction. Clin Biomech (Bristol, Avon) 2023;104:105932.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Physiological time-series analysis using approximate entropy and sample entropy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Richman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Moorman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Heart Circ Physiol</title>
+		<imprint>
+			<biblScope unit="volume">278</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2039" to="H2049" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Richman JS, Moorman JR. Physiological time-series analysis using approximate en- tropy and sample entropy. Am J Physiol Heart Circ Physiol 2000;278(6):H2039-H2049.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Force steadiness: from motor units to voluntary actions</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Enoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Farina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiology (Bethesda)</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="114" to="130" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Enoka RM, Farina D. Force steadiness: from motor units to voluntary actions. Physiology (Bethesda) 2021;36(2):114-130.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Motor unit recruitment strategies and muscle properties determine the influence of synaptic noise on force steadiness</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Dideriksen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Negro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Enoka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="3357" to="3369" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dideriksen JL, Negro F, Enoka RM et al. Motor unit recruitment strategies and muscle properties determine the influence of synaptic noise on force steadiness. J Neurophysiol 2012;107(12):3357-3369.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Weaker quadriceps corticomuscular coherence in individuals after ACL reconstruction during force tracing</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Sherman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baumeister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Stock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="625" to="632" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sherman DA, Baumeister J, Stock MS et al. Weaker quadriceps corticomuscular coher- ence in individuals after ACL reconstruction during force tracing. Med Sci Sports Exerc 2023;55(4):625-632.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Predicting anterior cruciate ligament reinjury from return-to-activity assessments at 6 months postsurgery: a prospective cohort study</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Bodkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Diduch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="325" to="333" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bodkin SG, Hertel J, Diduch DR et al. Predicting anterior cruciate ligament reinjury from return-to-activity assessments at 6 months postsurgery: a prospective cohort study. J Athl Train 2022;57(4):325-333.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Muscle atrophy after ACL injury: implications for clinical practice</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Lepley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Davi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Burland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Health</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="579" to="586" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lepley LK, Davi SM, Burland JP et al. Muscle atrophy after ACL injury: implications for clinical practice. Sports Health 2020;12(6):579-586.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Cellular and morphological alterations in the vastus lateralis muscle as the result of ACL injury and reconstruction</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Noehren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hardy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Am</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="1541" to="1547" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Noehren B, Andersen A, Hardy P et al. Cellular and morphological alterations in the vastus lateralis muscle as the result of ACL injury and reconstruction. J Bone Joint Surg Am 2016;98(18):1541-1547.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Suppressed quadriceps fascicle behavior is present in the surgical limbs of those with a history of ACL reconstruction</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Davi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Brancati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Distefano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page">110808</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davi SM, Brancati RJ, DiStefano LJ et al. Suppressed quadriceps fascicle behavior is present in the surgical limbs of those with a history of ACL reconstruction. J Biomech 2021;129:110808.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Extension and flexion torque variability in ACL deficiency</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Skurvydas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Masiulis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gudas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Knee Surg Sports Traumatol Arthrosc</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1307" to="1313" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Skurvydas A, Masiulis N, Gudas R et al. Extension and flexion torque variability in ACL deficiency. Knee Surg Sports Traumatol Arthrosc 2011;19(8):1307-1313.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Diminished neuromuscular system adaptability following anterior cruciate ligament injury: examination of knee muscle force variability and complexity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Hollman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nagai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Bates</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Biomech</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page">105513</biblScope>
+			<date type="published" when="2021">2021</date>
+			<pubPlace>Bristol, Avon</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hollman JH, Nagai T, Bates NA et al. Diminished neuromuscular system adaptability following anterior cruciate ligament injury: examination of knee muscle force vari- ability and complexity. Clin Biomech (Bristol, Avon) 2021;90:105513.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Bilateral impairments of quadriceps neuromuscular function occur early after anterior cruciate ligament injury</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Ong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">2022</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Qiu J, Jiang T, Ong MT et al. Bilateral impairments of quadriceps neuromuscular func- tion occur early after anterior cruciate ligament injury. Res Sports Med 2022:1-14.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

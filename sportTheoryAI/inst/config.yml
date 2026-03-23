@@ -1,0 +1,41 @@
+# sportTheoryAI configuration
+# Edit model.name to switch models. Do not change reproducibility parameters.
+
+ollama:
+  base_url: "http://localhost:11434"
+  endpoint: "/api/generate"
+  timeout_seconds: 120
+
+model:
+  name: "llama3"          # change to "mistral" or any Ollama model
+  temperature: 0          # FIXED — do not change for reproducibility
+  top_p: 1                # FIXED — do not change for reproducibility
+  top_k: 1                # FIXED — do not change for reproducibility
+  seed: 42                # FIXED — ensures deterministic generation
+  num_predict: 1024       # max tokens in response
+
+prompts:
+  # v1: original — extracts explicit/implicit theories (primary/secondary role)
+  theory_extraction_v1: "theory_extraction_v1.txt"
+
+  # v2: adds operational/contextual classification and tested_prediction
+  theory_extraction_v2: "theory_extraction_v2.txt"
+
+  # default used by extract_theory() and build_prompt()
+  default_theory_extraction: "theory_extraction_v2.txt"
+
+  # hypothesis extraction: finds hypotheses and links them to theories
+  hypothesis_extraction: "hypothesis_extraction_v1.txt"
+
+  # discussion analysis: assesses theory re-engagement in discussion sections
+  discussion_analysis: "discussion_analysis_v1.txt"
+
+prompt:
+  # kept for backwards compatibility with build_prompt()
+  template_file: "theory_extraction_v2.txt"
+  version: "2.0.0"
+
+logging:
+  enabled: true
+  log_file: "sportTheoryAI_log.jsonl"
+  log_prompts: false      # set true during development/debugging

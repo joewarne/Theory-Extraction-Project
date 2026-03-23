@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Biceps Femoris Fascicle Behavior during Submaximal and Maximal Slow Speed Contractions</title>
+				<funder>
+					<orgName type="full">American College of Sports Medicine</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Edith Cowan University School of Medical and Health Sciences (Australia)</orgName>
+				</funder>
+				<funder ref="#_9PmYR6p">
+					<orgName type="full">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)-Brazil (Programa de Doutorado Sanduíche no Exterior</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>11/26/2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Clarissa</forename><forename type="middle">M</forename><surname>Brusco</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physical Education, Physiotherapy and Dance</orgName>
+								<orgName type="laboratory">Exercise Research Laboratory</orgName>
+								<orgName type="institution" key="instit1">Universidade Federal do Rio Grande do Sul</orgName>
+								<orgName type="institution" key="instit2">Porto Alegre, RS</orgName>
+								<address>
+									<country>BRAZIL;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Exercise and Health Sciences</orgName>
+								<orgName type="laboratory">Centre for Human Performance</orgName>
+								<orgName type="institution">Edith Cowan University</orgName>
+								<address>
+									<settlement>Joondalup</settlement>
+									<country key="AU">AUSTRALIA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ronei</forename><forename type="middle">S</forename><surname>Pinto</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physical Education, Physiotherapy and Dance</orgName>
+								<orgName type="laboratory">Exercise Research Laboratory</orgName>
+								<orgName type="institution" key="instit1">Universidade Federal do Rio Grande do Sul</orgName>
+								<orgName type="institution" key="instit2">Porto Alegre, RS</orgName>
+								<address>
+									<country>BRAZIL;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><roleName>Ph.D</roleName><forename type="first">Anthony</forename><forename type="middle">J</forename><surname>Blazevich</surname></persName>
+							<email>a.blazevich@ecu.edu.au.</email>
+							<affiliation key="aff1">
+								<orgName type="department">School of Exercise and Health Sciences</orgName>
+								<orgName type="laboratory">Centre for Human Performance</orgName>
+								<orgName type="institution">Edith Cowan University</orgName>
+								<address>
+									<settlement>Joondalup</settlement>
+									<country key="AU">AUSTRALIA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">School of Exercise</orgName>
+								<orgName type="institution" key="instit1">Bio- medical and Health Sciences</orgName>
+								<orgName type="institution" key="instit2">Edith Cowan University</orgName>
+								<address>
+									<addrLine>270 Joondalup Drive, Joondalup</addrLine>
+									<postCode>6027</postCode>
+									<settlement>Perth</settlement>
+									<region>Western Australia</region>
+									<country>Australia;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Biceps Femoris Fascicle Behavior during Submaximal and Maximal Slow Speed Contractions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">11/26/2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A44110843273A48668EA8B145F706422</idno>
+					<idno type="DOI">10.1249/MSS.0000000000003217</idno>
+					<note type="submission">Submitted for publication December 2022. Accepted for publication May 2023.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:14+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Purpose: The present study compared the effects of contraction intensity (submaximal vs maximal) and mode (concentric vs eccentric) on biceps femoris long head (BFlh) fascicle lengthening, rotation, and architectural gear ratio at long and short muscle lengths. Methods: Data were captured from 18 healthy adults (10 men and 8 women) without history of right hamstring strain injury. BFlh fascicle length (L f ), fascicle angle (FA), and muscle thickness (MT) were assessed in real time using two serially aligned ultrasound devices while submaximal and maximal concentric and eccentric isokinetic knee flexions were performed at 30°•s -1 . Ultrasound videos were exported and edited to create a single, synchronized video, and three fascicles were analyzed through the range of motion (10°to 80°). Changes (Δ) in L f , FA, MT, and muscle gear at long (60°to 80°knee angle; 0°= full knee extension) and short (10°to 30°) muscle lengths and across the full knee flexion range were measured and compared. Results: Greater ΔL f was observed at long muscle length (P &lt; 0.001) during both submaximal and maximal eccentric and concentric contractions. When the full length range was analyzed, a slightly greater ΔMT was observed in concentric contractions (P = 0.03). No significant differences between submaximal and maximal contractions were observed for ΔL f , ΔFA, or ΔMT. No changes were detected in the calculated muscle gear between muscle lengths, intensities, or conditions (P &gt; 0.05). Conclusions: Although gear ratio ranged ~1.0 to 1.1 under most conditions, the increased fascicle lengthening observed at long muscle lengths might influence acute myofiber damage risk but also speculatively play a role in chronic hypertrophic responses to training.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F</head><p>ibers within pennate muscles change in both length and angle during contraction. The change in angle, i.e., fiber rotation, contributes to whole-muscle length change in addition to that imposed by fiber length change, thus influencing both the magnitude and velocity of muscle strain during dynamic contractions <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b1">2)</ref>. The reduction in fiber length change per whole-muscle length change induced by fiber rotation has important functional implications, including increasing fiber force according to force-length and forcevelocity relationships as well as reducing the magnitude of acute exercise-induced damage and thus muscle fiber functional decline during repetitive eccentric contractions <ref type="bibr" target="#b2">(3)</ref>. Additionally, reduced fiber length change resulting in an increased mean fiber length during contraction might also speculatively enhance the hypertrophic stimulus to repeated bouts of contractions, given that training at longer muscle (or muscle fiber) lengths is associated with greater increases in muscle mass <ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref><ref type="bibr" target="#b5">(6)</ref>.</p><p>Multiple factors influence the degree of fiber rotation during contraction. For example, reduced fiber rotation has been observed in contractions performed with heavier loads (higher muscle forces), thus increasing the requirement for muscle fiber length change and reducing the muscle's operating gear (muscle length change/fascicle length change ratio) <ref type="bibr" target="#b0">(1)</ref>. By contrast, increased fiber rotation is observed in contractions performed under lower loads, decreasing relative muscle fiber length change and increasing muscle gear. Additionally, the total contribution of rotation to muscle length change has been shown to be greater in eccentric than concentric contractions in animal models <ref type="bibr" target="#b2">(3)</ref>, which may offer a protective effect against muscle damage or injury by reducing negative fiber strain. The greater force produced during maximal eccentric than isometric or concentric contractions affects fascicle behavior <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b2">3)</ref>; however, additional intrinsic (within fiber; e.g., non-linear passive force-elongation properties) and extrinsic (e.g., extramuscular pressures) factors as well as the muscle length (which affects intramuscular pressure) might also influence behavior in muscles operating within synergistic groups <ref type="bibr" target="#b1">(2)</ref>. Nonetheless, fiber behaviors are often studied in isolated muscle preparations <ref type="bibr" target="#b6">(7)</ref>, and considering that length-dependent muscle (and intramuscular) activation variations will affect fascicle behaviors <ref type="bibr" target="#b7">(8)</ref>, in vivo behaviors might be expected to differ from those measured ex vivo.</p><p>One muscle that has been the target of a substantial recent research effort is the biceps femoris long head (BFlh), as it is the most susceptible muscle to strain injury during running in humans <ref type="bibr" target="#b8">(9)</ref>. Strain injuries occur when the hamstring muscletendon unit lengthens while receiving substantial activation from the central nervous system <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b10">11)</ref>. Fiber (or fascicle) strain within BFlh is unlikely to mirror whole-muscle strain, yet the extent of BFlh fascicle rotation and length change during dynamic contractions remains relatively unexplored <ref type="bibr" target="#b11">(12,</ref><ref type="bibr" target="#b12">13)</ref>. It is therefore not known whether fascicle length change and rotation differ between concentric and eccentric contractions and whether this difference is muscle length dependent. The acquisition of such information should further our understanding of the conditions under which strain injuries occur and provide a platform to align fascicle behaviors with injury risk.</p><p>Given the above, the aim of the present study was to compare BFlh fascicle strain and rotation at long and short lengths between submaximal and maximal concentric and eccentric contractions. We tested the hypotheses that fascicle behavior would differ by both contraction mode and intensity and that these effects would be muscle length dependent.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>Participants. Twenty-two healthy physically active adults without history of right hamstring strain injury participated in the study. Due to probe-fascicle misalignments, fascicles visible in one ultrasound field could not always be confidently identified in the second ultrasound field, preventing accurate whole-fascicle length assessment in some individuals. For this reason, images of three participants were excluded. Additionally, one participant did not move through the full knee joint range of motion during data collection. Therefore, 18 participants (10 men and 8 women; age, 26.5 ± 4.1 yr; height, 171.1 ± 6.9 cm; body mass, 70.4 ± 8.6 kg) were included in the analysis. The experimental protocol was approved by the Human Research Ethics Committee of Edith Cowan University (22326); written informed consent was given by all participants before participation.</p><p>Experimental design. To assess BFlh fascicle length (L f ), fascicle angle (FA), and muscle thickness (MT) changes during dynamic knee flexion contractions, two ultrasound systems were used simultaneously to visualize entire fascicles (or their majority), as done previously in vastus lateralis <ref type="bibr" target="#b13">(14)</ref> and biceps femoris <ref type="bibr" target="#b14">(15)</ref>. To achieve these aims, the participants visited the laboratory on two occasions, 7-d apart at the same time of day. In the first visit, participants were familiarized with the isokinetic, concentric-eccentric knee flexion exercise protocol to be performed in the subsequent testing session. Two to three attempts of each exercise were performed; however, if the participant reported not to be confident with any task, then further attempts were performed until complete confidence was expressed. In the second visit, concentric and eccentric contractions performed at 30°•s -1 were evaluated with simultaneous BFlh ultrasound assessment at submaximal (maintaining a target torque of ~55% of maximal isometric contraction torque) and maximal intensities. All participants were asked not to perform exhaustive or unaccustomed lower-limb exercise for 48 h before each testing session.</p><p>Exercise protocol. Dynamic concentric and eccentric knee flexions were performed with the right limb on an isokinetic dynamometer (Biodex System 3 Pro; Biodex Medical Systems, Shirley, NY). The participants lay prone with the hip placed on a large triangular pad to maintain a flexed position at ~45°. The dynamometer's axis of rotation was aligned with the lateral femoral condyle of the tested limb while straps were secured across the torso to restrict compensatory movements (Fig. <ref type="figure">1</ref>). A warm-up consisting of 10 submaximal, concentric, and eccentric contractions at 60% of self-controlled perceived maximum effort was performed at 60°•s -1 ; the slightly faster speed used in warm-up (compared with 30°•s -1 in testing) was chosen to minimize time under tension and thus risk of fatigue. The exercise test protocol consisted of isometric and dynamic knee flexions performed in the following order: maximal isometric knee flexion, consecutive submaximal concentric and eccentric knee flexions at 30°•s -1 , and maximal concentric and eccentric knee flexions at 30°•s -1 (see hereinafter). BFlh ultrasound images were recorded during concentric and eccentric phases.</p><p>Before the dynamic test contractions were performed, two maximal isometric knee flexions were performed with the knee flexed at 40°(i.e., at approximately mid-range where peak torque is observed <ref type="bibr" target="#b15">[16]</ref>, 0°= full extension) with 3-min rest between trials, although a third trial was performed if &gt;10% difference in peak torque was observed between the two trials. Then, during the submaximal concentric and eccentric test contractions at 30°•s -1 , the participants were instructed to flex their knee while maintaining a torque level between 50% and 60% of their maximal isometric contraction torque, and as close as possible to the center of those lines, i.e., 55% torque, through a joint range of motion of 0°to 90°(contractions were checked to ensure that a full range of motion [ROM] was completed). A large monitor was placed in front of the participants showing the 50% and 60% target boundaries in real time along with the torque trace. The participants were verbally and visually stimulated to sustain the target torque. It was determined a priori that if a participant was unable to sustain the target torque (i.e., torque was visually observed to deviate outside the target lines), then a new trial would be allowed; however, no participant needed to perform additional trials. The contraction in which the participant maintained torque closest to 55% of maximum with the least calculated absolute error of the target torque through the range of motion was selected for analysis, while for maximal trials, the concentric and eccentric repetition in which the greatest torque was produced was selected. For both submaximal and maximal dynamic contractions, one attempt of four consecutive concentric-eccentric repetitions was performed at each intensity. The first (concentric) and last (eccentric) contractions were subsequently removed from analysis, leaving three concentric and eccentric contractions for interrogation. Unfiltered torque and joint position data (analog-digital conversion rate = 2000 Hz) obtained during the isokinetic contractions were time synchronized to the ultrasound systems using a digital trigger signal fed from the computer running LabChart DAQ software (ADInstruments, Sydney, Australia) to both ultrasound systems.</p><p>Ultrasound imaging. Ultrasound images were acquired with two ultrasound devices (Prosound F75 and α10; Aloka Co. Ltd., Japan) in B-mode using linear probes with 50-mm fields of view (operating at 13 MHz, and 60-mm depth; Aloka Co. Ltd.) by an operator who had completed &gt;12 months of sonographic training and had &gt;300 practice scans. For all assessments, the ultrasound probes were coated with water-soluble gel to improve acoustic contact between the probe and skin, allowing for a higher image quality and for minimal pressure to be applied to the skin. To ensure image acquisition at all times, even when muscle changed in shape during contraction, a large amount of gel was applied for the probe to remain in contact with the skin at all times.</p><p>To determine the region of interest (ROI) for image acquisition, a point 50% of the distance from the greater trochanter to femoral lateral condyle was identified. After the participant was placed in the prone position on the isokinetic dynamometer, the two transducers were longitudinally aligned in the fascicle plane with both superficial and deep (mid-belly/intramuscular) aponeuroses as close to parallel as could be identified, and the hyperechoic lines delineating the BFlh fascicles (i.e., perimysial membranes) permitted a clear visualization of the fascicles inserting onto the deep aponeurosis. To determine the ROI, the participant's knee was first kept in a flexed position ~20°, and once a possible ROI was determined, the participant was asked to freely move the lower limb into knee flexion then extension. They were then also asked to flex the knee in a "mild isometric contraction" to ensure muscle visualization was clear during active muscle shortening/lengthening while taking care to produce images in which the interspaces among the fascicles remained as continuous and visible as could be achieved, and the superficial and mid-belly aponeuroses remained as parallel to each other as possible. Extensive piloting indicated that this procedure resulted in the capture of the most useable images during subsequent testing (see Fig. <ref type="figure" target="#fig_1">2</ref> for sample images). Once the optimum ROI was identified, the two ultrasound probes were positioned longitudinally over the BFlh with 1-cm distance between image windows; this distance was perfectly obtained when the probes sat together in series and did not need to be measured. The probes were placed within a custom-constructed device to improve probe stability and ensure that perpendicular positioning to the muscle was maintained. The devices were strapped to the leg using elastic bandage (Elastoplast Sport, Elastoplast) to maintain probe position during the testing at a sampling rate of 25 (Prosound α10, Aloka) and 30 Hz (Prosound F75, Aloka). This double-probe ultrasound technique, used for capturing long fascicles in skeletal muscles, has been validated for use by comparison against the extended field-of-view ultrasound imaging technique <ref type="bibr" target="#b13">(14)</ref>.</p><p>Ultrasound image analysis. Videos from both ultrasounds were exported to an external computer and synchronized with the data exported from the dynamometer. Before analyses, videos were arranged in a collage matrix using Camtasia Techsmith software (Version 2019.0.0) to create a single, synchronized video of the whole ultrasound recording area during dynamic contraction. Care was taken to align the superficial and deep aponeuroses between videos and to accurately replicate the 1-cm spacing between the video edges. As the isokinetic dynamometer and ultrasound systems were synchronized, it was possible to specify in the videos the time at which each contraction was performed and the specific ROM reached; therefore, marks specifying the frames corresponding to every 10°of range of motion from 10°to 80°were inserted in the videos to guide and facilitate subsequent analysis, which were performed on one frame at each ROM. Videos were exported from Camtasia Techsmith to Fiji software (Version 1.53; National Institutes of Health, Bethesda, MD) for analyses, as described below. An example of a video edited and analyzed is provided in the Supplemental Video (see Supplemental Digital Content 1, <ref type="url" target="http://links.lww.com/MSS/C867">http://links.lww.com/MSS/C867</ref>).</p><p>Muscle (BFlh) architecture assessments. BFlh fascicle length (L f ), FA, and MT of three clearly observable fascicles were analyzed every 10°of knee range of motion from 10°to 80°of knee flexion, and the mean of the three fascicles was used for analysis. Fascicle length (L f ) was measured using the segmented line tool to follow the line of the fascicle as it curved, and L f was measured from the deep aponeurosis origin to its insertion onto the superficial aponeurosis. A fascicle was considered to be appropriate for analysis when a clear visualization of the insertion onto the deep aponeurosis was possible, a clear fascicular pathway was observed from the proximal to the distal end through the images obtained by the ultrasound systems, and the fascicle insertion was clear throughout the full range of motion, as shown in Figure <ref type="figure" target="#fig_1">2</ref>. To ensure clear image acquisition during contraction with minimal probe pressure on the skin, substantial transmission gel was applied to the probe surface within the holder; direct skin contact of the probe was therefore not required. FA was measured as the angle between the deep (mid-muscle) aponeurosis to the superficial aponeurosis along the fascicle. MT was measured as the vertical distance on the image from each fascicle insertion onto the deep aponeurosis to the superficial aponeurosis, and the mean value of the three fascicles was used for analysis. After determining the fascicles to be measured, the same three fascicles were tracked every 10°of ROM along the whole ROM (see Supplemental Video, Supplemental Digital Content 1, which demonstrates a sample of video analyses, <ref type="url" target="http://links.lww.com/MSS/C867">http://links.  lww.com/MSS/C867</ref>). Post hoc changes (Δ) in L f , FA, and MT over the ROMs 10°to 30°(long muscle length), 60°to 80°(short muscle length), and 10°to 80°(full length range) were calculated as fascicle shortening during concentric contractions and as fascicle lengthening during eccentric contractions; these values were submitted to statistical analysis. An example of muscle architecture assessment can be found at Figure <ref type="figure" target="#fig_1">2</ref>.</p><p>Muscle gear was subsequently calculated as the ratio of the change in muscle segment length, with the muscle segment defined as the linear distance along the muscle from the fascicle's origin to insertion <ref type="bibr" target="#b6">(7)</ref>   muscle lengths and through full length ranges, whereas values at 60°were used as references to calculate percentage changes at short muscle lengths.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Differences (mean and SD) in absolute ΔL f , ΔFA, ΔMT, and muscle gear at long and short muscle lengths and over the whole range of motion (10°to 80°) during submaximal and maximal concentric and eccentric knee flexions are shown in Table <ref type="table" target="#tab_0">1</ref> and Figure <ref type="figure">3</ref>.</p><p>Relative ΔL f values during submaximal concentric and eccentric contractions were -11.2% ± 7.7% and 12.6% ± 5.2% at long muscle lengths (10°to 30°), -7.5% ± 6.5% and 7.4% ± 5.9% at short muscle lengths (60°to 80°), and -34.7% ± 7.9% and 35.1% ± 6.9% over the full length range (10°to 80°), respectively. During maximal concentric and eccentric contractions, ΔL f values were -12.6% ± 8.9% and 15.4% ± 7.0% at long muscle lengths (10°to 30°), -8.7% ± 4.8% and 6.5% ± 5.4% at short muscle length (60°t o 80°), and -34.1% ± 6.5% and 33.0% ± 7.3% through the full length range (10°to 80°), respectively. A significant main effect of muscle length ( P &lt; 0.001) was observed in which greater ΔL f was observed at longer muscle lengths (10°to 30°). No significant main effects of contraction mode ( P = 0.94) or contraction intensity ( P = 0.16) were observed. No significant muscle length Â intensity ( P = 0.29), muscle length Â contraction mode ( P = 0.17), contraction intensity Â contraction mode ( P = 0.85), or muscle length Â contraction intensitycontraction mode ( P = 0.48) interactions were observed; thus, the greater ΔL f detected at longer muscle lengths was consistent between contraction intensities and modes. When ΔL f was analyzed through the whole ROM, no significant main effects of contraction intensity ( P = 0.66) or mode ( P = 0.17), and no main significant contraction intensity Â contraction mode interactions, were observed ( P = 0.50).</p><p>ΔFA values during submaximal concentric and eccentric contractions were 10.2% ± 14.2% and 12.2% ± 12.1% at long muscle lengths, 8.4% ± 12.6% and 7.9% ± 11.1% at short muscle lengths, and 54.3% ± 42.6% and 53.4% ± 44.3% through the full length range, respectively. During maximal concentric and eccentric contractions, ΔFA values were 11.7% ± 15.4% and 16.7% ± 17.1% at long muscle lengths, 6.0% ± 8.3% and 5.8% ± 10.6% at short muscle lengths, and 43.4% ± 37.5% and 48.4% ± 39.3% through the full length range, respectively. No significant main effects of muscle length ( P = 0.39), contraction intensity ( P = 0.78), or contraction mode ( P = 0.29) were observed; i.e., no significant differences in ΔFA were observed between conditions. No muscle length Â intensity ( P = 0.19), muscle length Â contraction mode ( P = 0.21), contraction intensity Â contraction mode ( P = 0.59), or muscle length Â contraction intensity Â contraction mode ( P = 0.54) interactions were detected; thus, ΔFA was consistent across the different muscle lengths, contraction modes, and intensities. When ΔFA was analyzed through the whole ROM, no significant main effects of contraction intensity ( P = 0.09) or contraction mode ( P = 0.23) and no main significant contraction intensity Â contraction mode interactions were observed ( P = 0.33).</p><p>ΔMT values during submaximal concentric and eccentric contractions were 0.1% ± 4.3% and 0.9% ± 3.0% at long muscle lengths, -0.7% ± 2.8% and 0.5% ± 4.3% at short muscle lengths, and -0.5% ± 6.8% and 1.6% ± 7.9% through the full length range, respectively. During maximal concentric and eccentric contractions, ΔMT values were -0.5% ± 3.1% and 0.2% ± 3.5% at long muscle lengths, -1.0% ± 2.7% and 0.9% ± 3.1% at short muscle length, and -2.4% ± 7.4% and 0.1% ± 8.7% through the full length range, respectively. No significant main effects of muscle length ( P = 0.53), contraction intensity ( P = 0.08), or contraction mode ( P = 0.27) were observed. Furthermore, no muscle length Â intensity ( P = 0.97), muscle length Â contraction mode ( P = 0.89), contraction intensity Â contraction mode ( P = 0.18), or muscle length Â contraction intensity Â contraction mode ( P = 0.83) interactions were detected. When ΔMT was analyzed through the whole ROM, no significant main effect of contraction intensity was observed in MT ( P = 0.11); however, a significant main effect of contraction mode was observed ( P = 0.03) in which a greater ΔMT was detected in concentric contractions. No main significant contraction intensity Â contraction mode interactions were observed ( P = 0.93). For muscle gear, no significant main effects of muscle length ( P = 0.50), contraction mode ( P = 0.18), or contraction intensity ( P = 0.55) were observed. No significant muscle length Â intensity ( P = 0.60), muscle length Â contraction mode ( P = 0.17), contraction intensity Â contraction mode ( P = 0.22), or muscle length Â contraction intensity Â contraction mode ( P = 0.29) interactions were observed. When muscle gear was analyzed through the whole ROM, no significant main effects of contraction intensity ( P = 0.73) or mode ( P = 0.20), and no main significant contraction intensity Â contraction mode interactions, were observed ( P = 0.64).</p><p>Peak torques produced during the maximal concentric and eccentric contractions were 90.2 ± 22.3 and 101.6 ± 25.0 NÁm, respectively. Mean torques produced during submaximal concentric contractions were 56.7 ± 2.5 and 58.9 ± 1.1 NÁm at long muscle lengths, 50.8 ± 1.6 and 59.2 ± 4.5 NÁm at short muscle lengths, and 53.6 ± 3.2 and 59.5 ± 2.6 NÁm through the full ROM, respectively. Additionally, mean torques produced during maximal concentric and eccentric contractions were 77.2 ± 2.6 and 82.3 ± 4.0 NÁm at long muscle lengths, 56.5 ± 5.0 and 72.6 ± 8.7 NÁm at short muscle lengths, and 67.0 ± 10.1 and 79.6 ± 8.0 Nm when analyzed through the full ROM. For Δtorque, no main significant effect of contraction mode ( P = 0.08) was observed; however, significant main effects of muscle length ( P = 0.04) and contraction intensity ( P = 0.001) were observed, such that greater torque was produced (i) at longer muscle lengths and (ii) during the maximal intensity contractions. A significant muscle length Â contraction intensity ( P = 0.007) interaction subsequently indicated that while greater torque was produced in maximal contractions at both shorter ( P = 0.005) and longer ( P = 0.001) muscle lengths, the greater torque at longer lengths resulted from the increase during maximal rather than submaximal contractions ( P = 0.04); torque in submaximal contractions did not differ between muscle lengths. No significant contraction mode Â muscle length ( P = 0.31), contraction mode Â contraction intensity ( P = 0.06), or contraction mode Â muscle length Â contraction intensity ( P = 0.60) interactions were observed.</p><p>Although not discussed in the present study, for a better understanding of the interindividual differences in L f , PA, and MT, individual values are presented in Supplemental Figure <ref type="figure">1A</ref>, <ref type="figure">B</ref>, and <ref type="figure">C</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>The main findings of the present study were that (i) a greater change in fascicle length (ΔL f ) was observed at longer than shorter muscle lengths in both concentric and eccentric contractions regardless of contraction intensity, (ii) both ΔL f and the change in FA (ΔFA) were similar in submaximal and maximal concentric and eccentric contractions, indicating that muscle force level and contraction mode did not detectably affect fascicle behavior, (iii) ΔL f and ΔFA across the full range of motion were similar between concentric and eccentric contractions at both contraction intensities when analyzed though the whole ROM (from 10°to 80°), thus validating the analysis of nonconsecutive repetitions, and (iv) muscle gear was, on average, low and positive (~1.1) and did not vary statistically by muscle length, contraction mode, or intensity.</p><p>The first major finding of the present study is that a greater ΔL f in BFlh was observed with the knee at more extended joint angles (and thus when the hamstrings were at longer lengths), which is consistent with the findings of Van Hooren et al. <ref type="bibr" target="#b12">(13)</ref> and Pincheira et al. <ref type="bibr" target="#b14">(15)</ref>, who found that BFlh fascicle length did not change substantially until the end of the range of motion (i.e., long muscle length) during a Nordic hamstring curl exercise. Raiteri et al. <ref type="bibr" target="#b16">(17)</ref>, on the other hand, reported statistical increases in L f during the Nordic hamstring curl within a limited range used for analysis of ~53°to 37°of knee flexion (i.e., before full knee extension was reached). Nonetheless, comparisons between the current data and those collected in tasks such as the Nordic hamstrings exercise show that the hip angle may change during the Nordic exercises but was fixed in the current study; it is not possible to know the effect of hip angle changes without kinematic data collection or muscle length estimation through modeling. Also, in the present study, the torque was held constant across the ROM, whereas in the Nordic exercise, it increases markedly as the knee extends (as the body is lowered) <ref type="bibr" target="#b14">(15)</ref>. Regardless, collectively, such findings have several important practical implications. In relation to intra-cellular signaling, increased fiber strain during strength training has been shown to promote both a robust protein synthesis signaling response (e.g., Akt/mTOR and p70S6k signaling <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b18">19]</ref>) and greater local (distal muscle site) pY397-FAK levels, although <ref type="bibr">Franchi et al. (20)</ref> observed similar muscle protein synthesis increases after 8 wk of concentric compared with eccentric training. The increased fiber strain has also resulted in greater whole-muscle hypertrophy after a period of training (4-6) and increased resting sarcomere length <ref type="bibr" target="#b11">(12)</ref>. Thus, the greater fascicle strain observed at longer muscle lengths might partly explain the greater muscle hypertrophic responses observed when training at long muscle lengths using consecutive concentric-eccentric contraction repetitions <ref type="bibr" target="#b3">(4,</ref><ref type="bibr" target="#b4">5)</ref>. Conversely, increased fiber strain, during eccentric contractions in particular, has been shown to induce greater fiber injury, increasing the potential for either or both exercise-induced muscle damage and/or acute muscle injury <ref type="bibr" target="#b20">(21,</ref><ref type="bibr" target="#b21">22)</ref>. It will be of future interest to determine whether individuals who show greater resistance to acute damage or injury also show a reduced fascicle strain during eccentric contractions, and whether acute interventions such as local muscle fatigue or chronic interventions such as strength or flexibility training alter the fascicle strain response during either the concentric or eccentric contractions.</p><p>The findings of greater fascicle elongation at longer muscle lengths indicate that greater whole BFlh muscle lengthening must have occurred when the knee extended nearer to anatomical position, and that ΔL f is thus strongly dependent on muscle length in vivo. One might speculate that changes in muscle moment arms contributed to a greater muscle length change at more extended angles; that is, an increasing moment arm would have required greater muscle length change to achieve a given joint angle rotation. However, this is not consistent with published data showing a decrease in BFlh (and general hamstrings) moment arm at more extended knee angles <ref type="bibr" target="#b22">(23)</ref><ref type="bibr" target="#b23">(24)</ref><ref type="bibr" target="#b24">(25)</ref>. An alternative explanation is that early joint rotation from flexion toward extension is accompanied by relatively greater stretch of the series elastic component than the muscle during isokinetic eccentric contractions, with later fascicle lengthening as muscle forces no longer increase, resulting in greater muscle length change, similar to the suggestions of <ref type="bibr">Pincheira et al. (15)</ref>. This is partly consistent with the data of both Van Hooren et al. <ref type="bibr" target="#b12">(13)</ref> and Pincheira et al. <ref type="bibr" target="#b14">(15)</ref> who showed that the fascicle lengthening that typically occurred later in the Nordic hamstring exercise was accompanied by decreased muscle activity (electromyogram amplitude) (see Fig. <ref type="figure" target="#fig_1">2</ref> of Ref. <ref type="bibr" target="#b12">[13]</ref>). Despite the differences in torque production between the present study (being similar throughout the ROM) and the previous studies of Nordic hamstring curl (increasing gradually then rapidly decreasing at the end of ROM <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b14">15]</ref>), fascicles behaved in a similar manner in both exercise tasks. Nonetheless, muscle activity was not measured in the present study, so care must be taken when comparing the results of the present study to those of previous researchers <ref type="bibr" target="#b12">(13,</ref><ref type="bibr" target="#b14">15)</ref>. Possibly, a combination of factors explains the finding, including alterations in intra-and intermuscle activation and both intrinsic and extrinsic muscle pressures (impacting muscle shape change and thus fascicle behavior <ref type="bibr" target="#b25">[26]</ref>), and it will be of great interest to determine whether similar fascicle behaviors are observed in future experiments across different exercise tasks (i.e., during tasks such as running or kicking).</p><p>An important finding was that the fascicle lengthening and rotation behaviors observed under the conditions of the present study differ from previous studies using ex vivo, single-muscle models of the lateral gastrocnemius of the wild turkey <ref type="bibr" target="#b6">(7)</ref> and plantaris muscle of bullfrogs (3) (among others), which reported a reduced fascicle lengthening during eccentric contractions; i.e., the muscles operated in relatively high gear when contracting eccentrically <ref type="bibr" target="#b2">(3)</ref>. Such fascicle behavior should protect the muscle from excessive fascicular strain, indicating that both fascicle rotation and series elastic elongation act as mechanical buffers during active lengthening <ref type="bibr" target="#b2">(3,</ref><ref type="bibr" target="#b26">27)</ref>. However, considerable differences in study designs likely underpin the between-study differences. Primarily, Azizi and Roberts (3) analyzed behaviors in vitro during isotonic phases of the contractions so that changes in muscle force and tendon length could not influence fascicle behavior. However, in the present study, the participants either varied their torque, and thus muscle force, greatly (e.g., during maximal contractions, see Fig. <ref type="figure">3D</ref>) or maintained relatively constant torque (e.g., during submaximal contractions), in which case muscle force variations would have been relatively smaller and result primarily from the changing moment arm. Instead, the joint rotation amplitude and velocity were held constant in the present study, and thus, the muscle length change would have varied between conditions as the muscle forces varied. This allowed, for example, for greater fascicle length change at the longer than shorter muscle lengths despite the same angular rotation being observed. In the present study, BFlh fascicle behavior was tested in vivo, so numerous synergist muscles possibly influenced BFlh length change, force production, and, ultimately, fascicle behavior through lateral pressure generation <ref type="bibr" target="#b27">(28)</ref>. Cumulatively, these substantial methodological differences (and others not listed herein) likely explain the differing between-study results and indicate that in vivo behaviors of one muscle within a synergist group may be difficult to predict from data obtained from isolated muscles ex vivo.</p><p>A similar magnitude of ΔL f and ΔFA was observed in submaximal and maximal contractions when whole ROM (from 80°to 10°) was analyzed, which was expected given that the same range of motion was used. This result is, however, important for study validation since the fascicle analyses were not necessarily performed on consecutive contractions (Table <ref type="table" target="#tab_0">1</ref>, Fig. <ref type="figure">3</ref>). Additionally, the muscle length-dependent pattern of length change was also consistent between contraction modes, indicating that the pattern of fascicle lengthening and shortening may not differ between phases when consecutive eccentric-concentric contractions are performed. It is of interest to determine whether this is typically the case across muscles and under different contraction conditions. Limited evidence thus far indicates that, in some cases, fascicle behaviors may vary with contraction mode in some muscles when the contractions are performed nonconsecutively (e.g., in vastus intermedius but not vastus lateralis <ref type="bibr" target="#b13">[14]</ref>), but it is unclear whether this is the case for consecutive contractions, as often performed during cyclic human movement tasks such as repetitive contractions in strength training or in running and cycling exercises.</p><p>Previous observations indicate that MT is dependent upon contraction intensity <ref type="bibr" target="#b6">(7,</ref><ref type="bibr" target="#b25">26)</ref>. However, no evidence was found for this in the present study as a very small and practically inconsequential ΔMT (&lt;1 mm increase) was observed only during concentric contractions when the full length range was analyzed. As MT was not a primary outcome, the probe was primarily aligned to achieve the most accurate L f and FA measurements, so we cannot exclude the possibility that, during contraction, the ultrasound transducer was not perfectly aligned to accurately capture MT. Regardless, the lack of detection of changes in MT probably indicates that any real changes that occurred would have been relatively small. Therefore, significant changes in muscle width likely occurred in order to maintain volume as the muscle length changed; this shape change can be more specifically examined in future studies.</p><p>Given that fascicle length changes varied with muscle length, one might have expected muscle gear, the ratio of muscle-to-fascicle shortening, to vary accordingly. However, muscle gear was relatively unaffected by muscle length or velocity and remained relatively constant ~1.1 (except for some variability under some conditions), similar to that observed by Dick and Wakeling <ref type="bibr" target="#b28">(29)</ref>. The relatively low gear is consistent with previous studies showing that low gears are used when muscle forces are high <ref type="bibr" target="#b29">(30)</ref>; muscle forces must have been sufficiently high at both contraction intensities in the current study to reduce gear approximately to its minimum. The additional fascicle lengthening observed at longer lengths most likely resulted from additional muscle stretch (at least of the muscle segment encapsulated by the fascicles studied) as the muscle lengthened rather than by substantial changes in fascicle rotation or muscle shape change. The similar gear ratio observed between contraction modes is also consistent with previous data, with low gears being used during active lengthening when muscle forces are high <ref type="bibr" target="#b2">(3)</ref>. Thus, under all conditions, simultaneous alterations in both muscle and fascicle lengthening served to maintain gear under the relatively high muscle forces produced during contractions in the current experiments. In the present study, a single individual showed minimal fascicle lengthening during the submaximal concentric contractions at the short muscle length, which resulted in a higher mean muscle gear (1.8 ± 1.6) for this condition.</p><p>Limitations. A possible limitation of the present study is that dynamic contractions induce variable changes across the muscle-tendon unit, and although great effort was made to correctly align the transducers to the fascicle plane, we cannot exclude the possibility that fascicles moved slightly out of the recording plane during parts of the contraction. Our main concerns were to capture fascicle lengths and angles in the correct plane across the whole contraction range of motion, and the simultaneous use of two ultrasound probes allowed us to obtain a greater window width to capture the full length of fascicles as well as to manipulate the orientation of each probe independently. In the case that fascicles moved out of the ultrasound field of view, a degree of error is induced. However, the effect of this error is reduced by using the same ultrasound placements across conditions, reducing random error. Also worthy of noting is that BFlh has a heterogeneous fiber architecture and activation along its length (e.g., greater fascicle length and lower FA proximally <ref type="bibr" target="#b30">[31,</ref><ref type="bibr" target="#b31">32]</ref>), allowing fascicle behavior to vary intramuscularly. Thus, although we expect that data captured in the muscle's mid-region to provide an average estimate of overall fascicle behavior (as observed in gastrocnemius medialis, for example, <ref type="bibr" target="#b32">[33]</ref>), fascicle behaviors in other BFlh regions might of course differ somewhat.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>We observed greater fascicle length changes at longer BFlh muscle lengths (i.e., as the knee progressed toward extension), with this effect being similar during submaximal and maximal eccentric and concentric contractions. Thus, BFlh fascicle behavior varied substantially with muscle length in vivo, although the effects of joint torque (and thus muscle force) and contraction mode were less substantive. The increased fascicle strain observed at long muscle lengths might be expected to promote acute molecular signaling responses and subsequently enhance hypertrophic responses to continued exercise training but also, potentially, acutely increase fiber damage (or injury) risk, especially during eccentric contractions.</p><p>Perspectives. Future research might examine whether between-subject differences in the degree of fascicle lengthening, and the proportion of this that occurs with the muscle at longer lengths, are associated with either force production capacity or acute muscle damage or injury, and whether interventions such as exercise training or detraining influence fascicle behaviors during dynamic contraction. It is not known whether or to what extent the alterations in architectural parameters induced by training or detraining will impact fascicle behavior and muscle gearing, so this requires detailed investigation in future studies.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>to the change in L f , over the ROMs 10°t o 30°(long muscle length), 60°to 80°(short muscle length), and 10°to 80°(full length range). Statistical analysis. Normality of data was confirmed using the Shapiro-Wilk test. To examine fascicle behavior at long (Δ10°to 30°) and short (Δ60°to 80°) muscle lengths during submaximal and maximal concentric and eccentric contractions, three-way analyses of variance (ANOVA) with repeated measures (position [long vs short] Â contraction intensity [submaximal vs maximal] Â contraction mode [concentric vs eccentric]) were used. To examine fascicle behavior from long to short muscle length (Δ10 to 80), two-way ANOVA with repeated measures (contraction intensity [submaximal vs maximal] Â contraction mode [concentric vs eccentric]) were used. The torques produced at long and short muscle lengths during submaximal and maximal contractions were compared using three-way ANOVA with repeated measures (position [long vs short] Â contraction intensity [submaximal vs maximal]contraction mode [concentric vs eccentric]). Separate analyses were performed for L f , FA, MT, and muscle gear. Significance level was set at α ≤ 0.05. All analyses were performed with SPSS software 20.0 (IBM, Somers, NY), and results are reported as mean ± SD. For both concentric and eccentric contractions, L f , FA, and MT values at 10°were used as references to calculate the percentage changes in these variables at long</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIGURE 2 -</head><label>2</label><figDesc>FIGURE 2-Example of fascicle length (L f ), FA, and MT analyses during submaximal (A and B) and maximal (C and D) eccentric contractions with the knee at 10°(A and C) and 80°(B and D) of flexion. Note that the deep aponeurosis does not follow a linear path from the proximal (left image of the collage) to the distal (right image of the collage) part of the muscle because of the slightly different probe orientations required to fully capture the fascicles variation between muscle sites and the difference of muscle architecture along the BF. To best capture the fascicle path, care was taken to ensure that the superficial aponeurosis was continuous from one image to the other.</figDesc><graphic coords="4,133.23,37.87,318.69,168.83" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><figDesc>(see Supplemental Digital Content 2, Mean ± SD and individual values of fascicle length, FA, and MT during submaximal and maximal concentric and eccentric contractions, http://links.lww.com/MSS/C868).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1 .</head><label>1</label><figDesc>Absolute change of fascicle length (ΔL f ), FA (ΔFA), and MT (ΔMT) at long (Δ10°to 30°) and short (Δ60°to 80°) muscle lengths as well as through the full range of motion (Δ10°to 80°) during submaximal and maximal concentric and eccentric knee flexions.</figDesc><table><row><cell>Submaximal</cell><cell></cell><cell>Maximal</cell><cell></cell></row><row><cell>Concentric</cell><cell>Eccentric</cell><cell>Concentric</cell><cell>Eccentric</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>The authors thank the study participants for their participation. The authors would like to thank <rs type="funder">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)-Brazil (Programa de Doutorado Sanduíche no Exterior</rs><rs type="grantNumber">/88881.190159/2018-01</rs>) and <rs type="funder">Edith Cowan University School of Medical and Health Sciences (Australia)</rs> for financial support to C. M. B. The authors declare no conflict of interests. The results of the study are presented clearly and honestly without fabrication, falsification, or inappropriate data manipulation. The results of the present study do not constitute endorsement by the <rs type="funder">American College of Sports Medicine</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_9PmYR6p">
+					<idno type="grant-number">/88881.190159/2018-01</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Muscle fiber angle, segment bulging and architectural gear ratio in segmented musculature</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Brainerd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Azizi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">208</biblScope>
+			<biblScope unit="page" from="3249" to="3261" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note>Pt 17</note>
+	<note type="raw_reference">Brainerd EL, Azizi E. Muscle fiber angle, segment bulging and ar- chitectural gear ratio in segmented musculature. J Exp Biol. 2005; 208(Pt 17):3249-61.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Structural determinants of muscle gearing during dynamic contractions</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Eng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Azizi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Roberts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Integr Comp Biol</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="207" to="218" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Eng CM, Azizi E, Roberts TJ. Structural determinants of muscle gearing during dynamic contractions. Integr Comp Biol. 2018;58(2):207-18.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Geared up to stretch: pennate muscle behavior during active lengthening</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Azizi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Roberts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">217</biblScope>
+			<biblScope unit="page" from="376" to="381" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>Pt 3</note>
+	<note type="raw_reference">Azizi E, Roberts TJ. Geared up to stretch: pennate muscle behavior during active lengthening. J Exp Biol. 2014;217(Pt 3):376-81.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Partial range of motion training elicits favorable improvements in muscular adaptations when carried out at long muscle lengths</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Pedrosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">V</forename><surname>Lima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Schoenfeld</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1250" to="1260" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pedrosa GF, Lima FV, Schoenfeld BJ, et al. Partial range of motion training elicits favorable improvements in muscular adaptations when carried out at long muscle lengths. Eur J Sport Sci. 2022;22(8): 1250-60.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Impact of range of motion during ecologically valid resistance training protocols on muscle size, subcutaneous fat, and strength</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Mcmahon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Morse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Burden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Winwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Onambele</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="245" to="255" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McMahon GE, Morse CI, Burden A, Winwood K, Onambele GL. Impact of range of motion during ecologically valid resistance train- ing protocols on muscle size, subcutaneous fat, and strength. J Strength Cond Res. 2014;28(1):245-55.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Neuromuscular adaptations associated with knee joint angle-specific force change</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Noorkoiv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nosaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Blazevich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1525" to="1537" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Noorkoiv M, Nosaka K, Blazevich AJ. Neuromuscular adaptations associated with knee joint angle-specific force change. Med Sci Sports Exerc. 2014;46(8):1525-37.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Variable gearing in pennate muscles</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Azizi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Brainerd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Roberts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci U S A</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1745" to="1750" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Azizi E, Brainerd EL, Roberts TJ. Variable gearing in pennate mus- cles. Proc Natl Acad Sci U S A. 2008;105(5):1745-50.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Effect of altering starting length and activation timing of muscle on fiber strain and muscle damage</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Butterfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Herzog</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1489" to="1498" />
+			<date type="published" when="1985">1985. 2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Butterfield TA, Herzog W. Effect of altering starting length and acti- vation timing of muscle on fiber strain and muscle damage. J Appl Physiol (1985). 2006;100(5):1489-98.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Epidemiology of muscle injuries in professional football (soccer)</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ekstrand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hagglund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Walden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1226" to="1232" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ekstrand J, Hagglund M, Walden M. Epidemiology of muscle inju- ries in professional football (soccer). Am J Sports Med. 2011;39(6): 1226-32.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Hamstring muscle kinematics during treadmill sprinting</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Thelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Chumanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Hoerth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="108" to="114" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thelen DG, Chumanov ES, Hoerth DM, et al. Hamstring muscle ki- nematics during treadmill sprinting. Med Sci Sports Exerc. 2005; 37(1):108-14.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Risk factors for hamstring muscle strain injury in sport: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Freckleton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pizzari</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="351" to="358" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Freckleton G, Pizzari T. Risk factors for hamstring muscle strain in- jury in sport: a systematic review and meta-analysis. Br J Sports Med. 2013;47(6):351-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Biceps femoris long head sarcomere and fascicle length adaptations after 3 weeks of eccentric exercise training</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Pincheira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Boswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Franchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Delp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Lichtwark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Health Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="43" to="49" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pincheira PA, Boswell MA, Franchi MV, Delp SL, Lichtwark GA. Biceps femoris long head sarcomere and fascicle length adaptations after 3 weeks of eccentric exercise training. J Sport Health Sci. 2022;11(1):43-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Muscle forces and fascicle behavior during three hamstring exercises</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Van Hooren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vanwanseele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Rossom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="997" to="1012" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Van Hooren B, Vanwanseele B, van Rossom S, et al. Muscle forces and fascicle behavior during three hamstring exercises. Scand J Med Sci Sports. 2022;32(6):997-1012.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Vastus intermedius vs vastus lateralis fascicle behaviors during maximal concentric and eccentric contractions</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nosaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tomita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Blazevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Akima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1018" to="1026" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ando R, Nosaka K, Tomita A, Watanabe K, Blazevich AJ, Akima H. Vastus intermedius vs vastus lateralis fascicle behaviors during max- imal concentric and eccentric contractions. Scand J Med Sci Sports. 2018;28(3):1018-26.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Isometric fascicle behaviour of the biceps femoris long head muscle during Nordic hamstring exercise variations</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Pincheira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Riveros-Matthey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Lichtwark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sci Med Sport</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="684" to="689" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pincheira PA, Riveros-Matthey C, Lichtwark GA. Isometric fascicle behaviour of the biceps femoris long head muscle during Nordic hamstring exercise variations. J Sci Med Sport. 2022;25(8):684-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Establishing reference values for isometric knee extension and flexion strength</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sarabon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Kozinc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Perman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">767941</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sarabon N, Kozinc Z, Perman M. Establishing reference values for isometric knee extension and flexion strength. Front Physiol. 2021; 12:767941.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Biceps femoris long head muscle fascicles actively lengthen during the Nordic hamstring exercise</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Raiteri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Beller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Sports Act Living</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">669813</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Raiteri BJ, Beller R, Hahn D. Biceps femoris long head muscle fasci- cles actively lengthen during the Nordic hamstring exercise. Front Sports Act Living. 2021;3:669813.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Activation of mTORC1 signalling in rat skeletal muscle is independent of the EC-coupling sequence but dependent on tension per se in a dose-response relationship</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rindom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Kristensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Overgaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Vissing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">V</forename><surname>De Paoli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol (Oxf )</title>
+		<imprint>
+			<biblScope unit="volume">227</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">13336</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rindom E, Kristensen AM, Overgaard K, Vissing K, de Paoli FV. Ac- tivation of mTORC1 signalling in rat skeletal muscle is independent of the EC-coupling sequence but dependent on tension per se in a dose-response relationship. Acta Physiol (Oxf ). 2019;227(3):e13336.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Active and passive tension interact to promote Akt signaling with muscle contraction</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Russ</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="88" to="95" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Russ DW. Active and passive tension interact to promote Akt signaling with muscle contraction. Med Sci Sports Exerc. 2008;40(1):88-95.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Regional regulation of focal adhesion kinase after concentric and eccentric loading is related to remodelling of human skeletal muscle</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Franchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ruoss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Valdivieso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol (Oxf )</title>
+		<imprint>
+			<biblScope unit="volume">223</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">13056</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Franchi MV, Ruoss S, Valdivieso P, et al. Regional regulation of fo- cal adhesion kinase after concentric and eccentric loading is related to remodelling of human skeletal muscle. Acta Physiol (Oxf ). 2018; 223(3):e13056.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Effect of elbow joint angle on the magnitude of muscle damage to the elbow flexors</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nosaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sakamoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="22" to="29" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nosaka K, Sakamoto K. Effect of elbow joint angle on the magnitude of muscle damage to the elbow flexors. Med Sci Sports Exerc. 2001; 33(1):22-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Proximal hamstring strains of stretching type in different sports: injury situations, clinical and magnetic resonance imaging characteristics, and return to sport</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Askling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tengvar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Saartok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Thorstensson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1799" to="1804" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Askling CM, Tengvar M, Saartok T, Thorstensson A. Proximal ham- string strains of stretching type in different sports: injury situations, clinical and magnetic resonance imaging characteristics, and return to sport. Am J Sports Med. 2008;36(9):1799-804.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Muscle balance at the knee-moment arms for the normal knee and the ACL-minus knee</title>
+		<author>
+			<persName><forename type="first">Ivey</forename><surname>Buford Wl</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><surname>Fm</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Malone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Rehabil Eng</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="367" to="379" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Buford WL Jr, Ivey FM Jr, Malone JD, et al. Muscle balance at the knee-moment arms for the normal knee and the ACL-minus knee. IEEE Trans Rehabil Eng. 1997;5(4):367-79.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Lines of action and moment arms of the major force-carrying structures crossing the human knee joint</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Herzog</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Read</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Anat</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="issue">Pt 2</biblScope>
+			<biblScope unit="page" from="213" to="230" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Herzog W, Read LJ. Lines of action and moment arms of the major force-carrying structures crossing the human knee joint. J Anat. 1993;182(Pt 2):213-30.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Hamstrings force-length relationships and their implications for angle-specific joint torques: a narrative review</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kellis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Blazevich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Sports Sci Med Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">166</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kellis E, Blazevich AJ. Hamstrings force-length relationships and their implications for angle-specific joint torques: a narrative review. BMC Sports Sci Med Rehabil. 2022;14(1):166.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Transverse strains in muscle fascicles during voluntary contraction: a 2D frequency decomposition of B-mode ultrasound images</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wakeling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Randhawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Biomed Imaging</title>
+		<imprint>
+			<biblScope unit="page">352910</biblScope>
+			<date type="published" when="2014">2014. 2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wakeling JM, Randhawa A. Transverse strains in muscle fascicles dur- ing voluntary contraction: a 2D frequency decomposition of B-mode ultrasound images. Int J Biomed Imaging. 2014;2014:352910.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Behavior of human muscle fascicles during shortening and lengthening contractions in vivo</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Narici</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1090" to="1096" />
+			<date type="published" when="1985">1985. 2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reeves ND, Narici MV. Behavior of human muscle fascicles during shortening and lengthening contractions in vivo. J Appl Physiol (1985). 2003;95(3):1090-6.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Movement mechanics as a determinate of muscle structure, recruitment and coordination</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wakeling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Blake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rana</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos Trans R Soc Lond B Biol Sci</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="1554" to="1564" />
+			<date type="published" when="1570">2011. 1570</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wakeling JM, Blake OM, Wong I, Rana M, Lee SS. Movement me- chanics as a determinate of muscle structure, recruitment and coordina- tion. Philos Trans R Soc Lond B Biol Sci. 2011;366(1570):1554-64.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Shifting gears: dynamic muscle shape changes and force-velocity behavior in the medial gastrocnemius</title>
+		<author>
+			<persName><forename type="first">Tjm</forename><surname>Dick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wakeling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1433" to="1442" />
+			<date type="published" when="1985">1985. 2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dick TJM, Wakeling JM. Shifting gears: dynamic muscle shape changes and force-velocity behavior in the medial gastrocnemius. J Appl Physiol (1985). 2017;123(6):1433-42.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Muscle gearing during isotonic and isokinetic movements in the ankle plantarflexors</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Randhawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Jackman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wakeling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="437" to="447" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Randhawa A, Jackman ME, Wakeling JM. Muscle gearing during isotonic and isokinetic movements in the ankle plantarflexors. Eur J Appl Physiol. 2013;113(2):437-47.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Muscle architecture variations along the human semitendinosus and biceps femoris (long head) length</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kellis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Galanis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Natsis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kapetanos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1237" to="1243" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kellis E, Galanis N, Natsis K, Kapetanos G. Muscle architecture var- iations along the human semitendinosus and biceps femoris (long head) length. J Electromyogr Kinesiol. 2010;20(6):1237-43.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Region-dependent hamstrings activity in Nordic hamstring exercise and stiff-leg deadlift defined with high-density electromyography</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hegyi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Peter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Finni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Cronin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="992" to="1000" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hegyi A, Peter A, Finni T, Cronin NJ. Region-dependent hamstrings activity in Nordic hamstring exercise and stiff-leg deadlift defined with high-density electromyography. Scand J Med Sci Sports. 2018;28(3):992-1000.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">In vivo intramuscular fascicle-aponeuroses dynamics of the human medial gastrocnemius during plantarflexion and dorsiflexion of the foot</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hodgson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Edgerton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sinha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1276" to="1284" />
+			<date type="published" when="1985">1985. 2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shin DD, Hodgson JA, Edgerton VR, Sinha S. In vivo intramuscular fascicle-aponeuroses dynamics of the human medial gastrocnemius during plantarflexion and dorsiflexion of the foot. J Appl Physiol (1985). 2009;107(4):1276-84.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

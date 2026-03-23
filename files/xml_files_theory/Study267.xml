@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The impact of a training intervention with spatial occlusion goggles on controlling and passing a football</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2019-04-27">27 April 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Alan</forename><surname>Dunton</surname></persName>
+							<email>alan.dunton@cit.ie</email>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Sport, Leisure, &amp; Childhood Studies</orgName>
+								<orgName type="institution">Cork Institute of Technology</orgName>
+								<address>
+									<settlement>Cork</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Sport, Leisure &amp; Childhood Studies</orgName>
+								<orgName type="institution" key="instit1">Cork Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">Bishopstown Campus</orgName>
+								<address>
+									<settlement>Cork</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Cian</forename><surname>O'neill</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Sport, Leisure, &amp; Childhood Studies</orgName>
+								<orgName type="institution">Cork Institute of Technology</orgName>
+								<address>
+									<settlement>Cork</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Edward</forename><forename type="middle">K</forename><surname>Coughlan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Dept. of Sport, Leisure, &amp; Childhood Studies</orgName>
+								<orgName type="institution">Cork Institute of Technology</orgName>
+								<address>
+									<settlement>Cork</settlement>
+									<country key="IE">Ireland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The impact of a training intervention with spatial occlusion goggles on controlling and passing a football</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-04-27">27 April 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">89847A8B194005A7DDF799E725CADE28</idno>
+					<idno type="DOI">10.1080/24733938.2019.1616106</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:20+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Spatial occlusion</term>
+					<term>Football</term>
+					<term>Training intervention</term>
+					<term>Skill acquisition</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction:</head><p>The current study analysed the impact of spatial occlusion training on control and pass accuracy in football. Occlusion was achieved using goggles that removed the sight of the lower limbs and football as it was projected towards the participants. Methods: Fifteen skilled male football players were randomly assigned to one of three groups; Occlusion, Practice and Control. Participants were required to control a projected football, before passing it to one of two designated targets, while concurrently identifying a series of randomly generated numbers. Pass direction was determined by a directional arrow that accompanied each number, which coincided with the football release. The study design consisted of a pre-test, training intervention (400 trials), post-test and 2-day retention test. The performance was evaluated via three variables: outcome error, control error and number call error. Results: The results demonstrated a significant decrease in outcome error (p &lt; 0.05) and number call error (p &lt; 0.05) for the Occlusion group from pre-test to post and retention test. No significant decrease was experienced from post-test to retention test (p &gt; 0.05), demonstrating a learning effect. Conclusion: This suggests that reducing visual information during training may have a positive impact on performance once full visual conditions are restored.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>In sports such as football (association football), skills such as anticipation and decision-making have been used to identify the difference between elite and sub-elite players <ref type="bibr" target="#b13">(Ward and Williams 2003)</ref>. The research method often used to analyse these differences is visual occlusion, which is the process of limiting the vision of an object, limb or critical information source from the visuomotor workspace and can be classified as temporal or spatial occlusion <ref type="bibr" target="#b12">(Vickers 2007)</ref>. Temporal occlusion is the process of removing or masking visual information over different time periods during a complex motor task such as the milliseconds (ms) before and after ball-racket contact for a tennis serve. This differs from spatial occlusion, which removes specific sources of information from the visuomotor workspace such as a limb, racket, limb and racket or torso during the execution of a complex motor task, such as the tennis serve <ref type="bibr" target="#b4">(Jones and Miles 1978;</ref><ref type="bibr" target="#b0">Abernethy 1990)</ref>.</p><p>Subsequent to the research of <ref type="bibr" target="#b13">Ward and Williams (2003)</ref>; a number of researchers sought to improve the search behaviours of football players to impact on anticipation, decision-making and reactive agility through video-based temporal occlusion training <ref type="bibr" target="#b9">(Poulter et al. 2005;</ref><ref type="bibr" target="#b7">Murgia et al. 2014;</ref><ref type="bibr" target="#b8">Nimmerichter et al. 2015)</ref>. The literature primarily focused on improving football goalkeepers' ability to correctly identify the direction of a penalty kick <ref type="bibr" target="#b9">(Poulter et al. 2005;</ref><ref type="bibr" target="#b10">Savelsbergh et al. 2010;</ref><ref type="bibr" target="#b7">Murgia et al. 2014)</ref>. Initially, the research of <ref type="bibr" target="#b9">Poulter et al. (2005)</ref> sought to compare performance and visual search behaviours as a function of instruction during the early stage of motor learning. However, confounding results were demonstrated with the placebo group experiencing a positive change similar to that of the implicit and explicit group. One of the primary factors for these results may be due to the short intervention of a single day. <ref type="bibr" target="#b9">Poulter et al. (2005)</ref> also suggested that the extended viewing of general football footage for the placebo group may have indirectly provided a link between body position and ball direction. Contrary to the results demonstrated by <ref type="bibr" target="#b9">Poulter et al. (2005)</ref>, others demonstrated that those who took part in the video-based training that highlighted critical information sources significantly improved visual search behaviours <ref type="bibr" target="#b10">(Savelsbergh et al. 2010)</ref>, as well as those who took part in video-based temporal occlusion training significantly improving prediction accuracy for the direction of penalty kicks <ref type="bibr" target="#b7">(Murgia et al. 2014)</ref>.</p><p>The research of <ref type="bibr" target="#b8">Nimmerichter et al. (2015)</ref> moved away from goalkeepers' in football and assessed decision-making and on pitch reactive agility <ref type="bibr" target="#b11">(Sheppard et al. 2006)</ref> of football players following a temporal occlusion training intervention. Results displayed a significant improvement in response time, and response accuracy. Findings also demonstrated that participants who took part in the temporal occlusion training were the only group to significantly improve sprint times in the reactive agility test. This may be as a result of participants being able to identify postural cues that dictated the directional movement earlier in the reactive sprint test.</p><p>To date, visual occlusion research in football has predominantly been focused on the impact of video-based temporal occlusion on anticipation and decision-making skills (for an overview in sport, see <ref type="bibr" target="#b5">Mann and Savelsbergh 2015)</ref>. Research by <ref type="bibr" target="#b14">Williams and Weigelt (2002)</ref> assessed the relationship between vision and perception during lower limb interceptive actions in two football studies with high-skilled and low-skilled participants. The first study assessed the participants' ability to control a passed football, with the second study assessing a football passing task. In study one, results demonstrated that high-skilled participants were more consistent at orientating the non-kicking foot relative to the kicking foot at ball contact. This suggests that high-skilled participants made more gross postural adjustments based on information gathered earlier in the ball flight. Findings from the second study suggested that vision of the foot may be more important in a passing task versus a control task, with the greatest decrement in performance for the high-skilled group coming when the final stages of ball flight and the foot were occluded. This suggests that an ability to see the ball over the final proportion of its flight is more important than having the sight of the feet in a kicking task.</p><p>These results demonstrate a reliance on visual information over the final stages of ball flight as performance decreased during occlusion conditions. It is important to note that the research of <ref type="bibr" target="#b14">Williams and Weigelt (2002)</ref> was designed to assess performance, rather than assess the potential training benefits of lower limb occlusion. This is an important consideration when looking at the practical implications of spatial occlusion, as training in detrimental visual condition may improve performance once full visual condition return. It is also worth noting the change in use of temporal and spatial occlusion across this research timeline, which now encapsulates a more applied setting during the assessment and training of complex motor skills. This change provides a more translational impact for the practical applications of visual occlusion in sports such as football.</p><p>Current research suggests there is a significant reliance on visual information during the performance of complex motor skills in football <ref type="bibr">(Williams &amp; Weigelt, 2004;</ref><ref type="bibr" target="#b3">Fransen et al. 2017)</ref>. Unlike traditional visual occlusion research, the current research served to assess the impact of a training intervention designed to reduce visual information available, using spatial occlusion goggles, on participants' ability to control and pass a football while concurrently directing visual attention outward. By incorporating a concurrent number call task, the current research explored whether it is possible to improve the performance of a complex football task while maintaining or improving the ability to guide visual attention outward. It was expected that those who used the spatial occlusion goggles during the training intervention would benefit through (i) a significant improvement in pass accuracy, reducing outcome error, (ii) a significant improvement in football control, reducing control error and (iii) a significant improvement in concurrent number call task, reducing number call error, once full visual conditions were returned. A central element of the expected results of the research was that any reduction experienced in number call error would not occur as a result of an increase in control or outcome error.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methodology</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Fifteen skilled male football players (M = 22.1 years, SD = 3.2) were recruited for this study. Three of the participants were fulltime professional football players, with the remaining 12 playing at the highest level of football at university level in Ireland. Participants had a minimum of 12 years playing experience and participated in a minimum of two pitch-based training sessions per week with their respective teams. Sample size was determined by accessible skilled population and participant's ability to commit to six contact sessions across an 8-day period <ref type="bibr" target="#b6">(Müller et al. 2015)</ref>. Each participant had normal or corrected-to-normal vision. Ethical approval was attained from the host institution's Research Ethics Committee.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials, apparatus and experimental set-up</head><p>The experimental design covered a 20 m x 6 m surface area (Figure <ref type="figure" target="#fig_0">1a</ref>,<ref type="figure">b</ref>). The set-up begins at the top of the testing area where a portable projector, connected to a Dell laptop projected the required display on to the screen using Microsoft Office PowerPoint presentation software.</p><p>The custom-built football projection machine was located 1 m behind the portable projector with a football rack containing white Nike (Size 5) footballs located to the right of this apparatus. The tyres of the football projection machine that facilitated delivery of the football rotated between 845-855 rpm with a tyre pressure of 100 psi. A customised black canvas cover was placed directly in front of the projection machine in order to cover the sight of the portable projector, the projection machine, the football rack and the ball feeder. This was to avoid participants identifying pre-release cues for the football. A 30 cm x 30 cm hole was cut out of the centre of the black canvas to facilitate a clear and unobstructed passage for football delivery.</p><p>The artificial grass playing surface 'Synthi Green Sports Surfaces Limited, Co. Cork, Ireland' was located 1.5 m in front of the black canvas and was 9 m x 3.7 m in size. Two small custom-built goals (115 cm wide x 80 cm high), complete with football nets attached to allow for multiple footballs to be secured, were placed 4 m from the front of the synthetic grass surface on both sides. A designated zone (2 m x 3.7 m in size) that restricted participants from moving too close to the goals was situated at the back of the playing surface. Participants wore Sennheiser EK 100 lapel microphones 'Sennheiser, Marlow, United Kingdom' to facilitate the recording of the audio output (i.e. number call task), which was synced with a Sony HDR video camera located at the back of the testing area to record testing sessions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedure</head><p>This study was designed to analyse the impact of a training intervention using spatial occlusion goggles 'CU Sport, Tralee, Ireland' (Figure <ref type="figure" target="#fig_1">2</ref>) on controlling and passing a football in a tailored football task. Participants were instructed to wear their normal training gear including football boots to simulate their standard training environment. On arrival, each participant was given an information sheet that outlined the study in detail and related consent form. A lapel microphone was attached to the participants during each testing phase with the receiver wirelessly connected to the video camera.</p><p>Each test phase commenced with the participant standing in the designated participant zone with a 5-s countdown, displayed in large red numbers, projected on to the screen at the top of the testing area. At the end of the five second countdown, a series of randomly organised numbers from 0 to 9 were projected in white on to the screen every half second. Once the numbers began to appear, participants were required to call every number that was displayed. A different series of numbers was used for each test, with each series counterbalanced for every participant. Participants were informed that any number they missed would be recorded as a number call error. Every 3, 4 or 5 seconds, a white arrow would appear next to the number on the display pointing to the right or the left. As the directional arrow appeared, the tester fed a football into the ball machine to be projected toward the participant; directional arrows were also randomly organised. The footballs were fed with the same pattern facing up each time for consistency of approach. The variation in time of football delivery was to avoid participants developing a rhythmic pattern to the testing phase. The speed of the football at the point of release was 40 km/h with the football landing 5.4m away from the ball machine. Participants were allowed to self-select their dominant or non-dominant foot to perform the task. Participants had one touch to control the  ball and one touch to pass it in to one of the two small goals as indicated by the arrow displayed.</p><p>Three familiarisation trials were conducted before the data collection process commenced. The testing phases consisted of 20 repetitions whereby the participants had to control and pass a football into one of the designated goals. All participants completed a pre-test of 20 trials in full visual conditions before being randomly assigned to one of three groups: spatial occlusion -OCC (n = 5; Mean age = 21.4 years, SD = 2.7), practice -PRA (n = 5; mean age = 22.2 years, SD = 1.4) or control -CON (n = 5; mean age = 20.9. years, SD = 1.3). Participants in the OCC and PRA groups subsequently completed a 4-day training intervention comprised of 400 trials; each day consisted of 100 trials segmented into four sets of 25 trials. A trial was classified as the controlling and passing of a football. The OCC group completed the training intervention wearing spatial occlusion goggles designed to eliminate the vision of the low-grade visual field, encompassing the lower limbs and football as it reached the participants. The PRA group completed the same training intervention as the OCC group; however, they completed the training intervention with full visual conditions available. The CON group completed the tests only. Following the training intervention, each group completed the post-test and a 2-day retention test which were identical to the pre-test with full visual conditions available.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis</head><p>There were three variables selected for analysis; outcome error, control error and number call error. Outcome error was recoded when participants missed the designated target area (goal) or passed the football into the wrong target area as dictated by the arrow presenting on the screen. Control error was recorded as any ball that travelled beyond a one-step radius after the first touch, or any time the participants took more than one touch to control the football. Number call error was recorded as each number missed or called out incorrectly. The use of a number call test such as this facilitated the quantification of participants' visual attention while concurrently performing the task of controlling and passing a football.</p><p>A 3 group x 3 test ANOVA was conducted to analyse the impact of the occlusion goggles training intervention on all performance variables. The alpha level required for significance for all tests were set at p &lt; 0.05 with the confidence interval level set at 95%. Partial eta squared was used to assess effect size.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Outcome error</head><p>A 3 group x 3 test ANOVA was also conducted to analyse the impact of the training intervention on outcome error results. There was a significant main effect for Group, Wilks Lambda = .63, F (2, 11) = 4.12, p = .035, η 2 p .36, accompanied by a significant interaction effect for Group X Test, Wilks Lambda = .45, F (4, 22) = 4.27, p = .040, η 2 p .33. The OCC group was the only group to present a significant decrease in outcome error (p &lt; 0.05) from pre-test (5.2) to post-test (1.4) and a significant decrease (p &lt; 0.05) from pre-test (5.2) to retention test (2.6) (Figure <ref type="figure">4</ref>). There was also no significant change from post-test to retention test (p &gt; 0.05) for this group, which demonstrates a learning effect. There was no significant change evident for the PRA or CON groups.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Control error</head><p>A 3 group x 3 test ANOVA was also conducted to analyse the impact of the training intervention on control error results.</p><p>There was no significant main effect experienced for Group, Wilks Lambda = .99, F (2, 11) = 0.87, p = .918, η 2 p .015. However, there was a significant interaction effect for Group X Test, Wilks Lambda = .41, F (4, 22) = 3.12, p = .036, η 2 p .36. Despite the interaction effect, there was no significant change for the OCC group for any test. There was also no significant change for the PRA or CON group across the testing period (Figure <ref type="figure">5</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Number call error</head><p>Results from the 3 × 3 ANOVA showed a significant main effect for Group, Wilks Lambda = .53, F (2, 11) = 4.96, p = .029, η 2 p .47, and a significant interaction effect for Group X Test was also found, Wilks Lambda = .32, F (4, 22) = 4.20, p = .011, η 2 p .43) for Number Call Error. Post-Hoc analyses revealed a significant decrease in number call error for the OCC group (p &lt; 0.05) from pre-test (32.2) to post-test (8.6), while further analysis demonstrated a significant decrease in number call error (p &lt; 0.05) from pre-test (32.3) to retention test (10.8) (Figure <ref type="figure">3</ref>). There was no significant change from post-test to retention test (p &gt; 0.05) for the OCC group, which demonstrates a learning effect for this cohort. Despite a decrease in number call error from pre-test (22.4) to posttest (17.3), there was no significant change for the PRA group (p&gt; 0.05). There was no significant change experienced from pre-test to retention test (p &gt; 0.05) for the PRA group. There was no significant change from pre-test to post-test (p &gt; 0.05) for the CON group or from pre-test to retention test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The purpose of the current research was to assess the impact of spatial occlusion goggles on skilled football players' ability to control and pass a football. In addition, the participants' ability to maintain visual attention on an external stimulus while performing the assigned complex football task was also of interest. Therefore, the experimental design was implemented to assess how training in these detrimental viewing conditions would impact participant performance once full visual conditions were restored.</p><p>An analysis of results demonstrated that the OCC group experienced a significant improvement in two of the three selected performance variables by decreasing outcome error and number call error. These results are similar to the findings of Savelsbergh et al. ( <ref type="formula">2010</ref>  <ref type="bibr" target="#b10">Savelsbergh et al. (2010)</ref> are comparable to the significant improvement in outcome and number call variables for participants in the OCC group in the current research. It is important to note that the improvements experienced in search behaviours or visual attention did not arise due to the detriment of the performance variable in both studies. Additionally, a significant increase in the performance variable was experienced in the current research demonstrating the benefits of spatial occlusion as a training tool for football players.</p><p>Results obtained from outcome error in the current research suggest that the use of spatial occlusion goggles in an applied setting can positively impact performance. Removing the sight of the later stages of ball flight and 0 2 4 6 8 10 Pre-Test Post Test Retention Test r o r r E e m o c t u O n a e M Testing Phase Outcome Error Spatial Occlusion Practice Control * Figure 4. Mean outcome error for each group across each testing phase. 0 2 4 6 8 10 Pre-Test Post Test Retention Test Mean Control Error Testing Phase Control Error Spatial Occlusion Practice Control Figure 5. Mean control error for each group across each testing phase.</p><p>lower limbs of the participants positively impacted performance once full visual conditions were returned as pass accuracy error significantly decreased. Similar improvements were also observed by <ref type="bibr" target="#b8">Nimmerichter et al. (2015)</ref> when participants performed an applied transfer test, originally designed by <ref type="bibr" target="#b11">Sheppard et al. (2006)</ref>, to assess how temporal occlusion training would impact the applied setting. The positive improvements displayed in the applied setting suggests that the use of temporal or spatial occlusion as a training intervention may have a positive transfer to the game of football and may be beneficial to performance. Despite a significant decrease in outcome errors, no significant change was evident for control error across any group. It was expected that the OCC group would experience a significant decrease in control error following the training intervention to support the work of <ref type="bibr">Williams &amp; Weigelt (2004)</ref>, where results showed that skilled participants were more consistent at orientating the non-kicking leg based on information obtained earlier in ball flight. A potential explanation for the absence of a significant change for the OCC group was the classification of control error. As previously stated, control error was determined by the participants missing the ball or having to take more than one step to pass the football after their first touch rather than specific control techniques. The purpose of this was to avoid suggesting that there is an optimal way for participants to control a passed football.</p><p>Number call error data demonstrated that those in the OCC group had significantly improved their ability to pick up information from the screen display. The importance of random number generation as a performance variable was grounded in research conducted by <ref type="bibr" target="#b2">Deubel and Schneider (1996)</ref> which states that it is not possible to disassociate gaze and visual attention. This means that eye movements coincide with an obligatory shift of visual attention. The significant decrease in number call error suggests that participants in the OCC group were able to read the flight of the football earlier and consequently direct more visual attention outward. The use of spatial occlusion goggles in the current research, instead of a temporal occlusion paradigm, guided the visual system outward toward an external stimulus. It is important to note that the decrease in number call error did not negatively impact the other performance variables as a trade-off for visual attention. These results reinforce insights gained from <ref type="bibr" target="#b3">Fransen et al. (2017)</ref> who suggested that training in restricted visual conditions would reduce a reliance on visual information while performing complex motor skills. An important consideration that strengthens the use of the spatial occlusion goggles as a training tool is that there was no significant change experienced by the PRA or CON groups across tests.</p><p>Results from the current research provide strong evidence for the practical application of spatial occlusion goggles as a training tool in football where the low-grade visual field, i.e., the lower portion of the total area of vision, is pertinent for performance. There was no significant change observed for the PRA or CON groups for any test or variable. However, there were significant decreases in number call error and outcome error in the OCC group, with no detrimental impact on control error. If we can improve a players' ability to place more visual attention outward to the playing environment we create greater opportunities for positional awareness and decisionmaking. As the examination of visual occlusion as a training tool continues to progress, future research in the domain should address real-world tasks in a more ecologically valid environment. The importance of an ecologically valid environment is highlighted in the performer-environment relationship, which has previously been addressed by <ref type="bibr" target="#b1">Araújo et al. (2006)</ref> where they explain the impact of interactions between individuals on decision-making in sport. The spatial occlusion tool used in the current study could assist with that progression from the laboratory to real-world settings and improve the translational impact of future research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Disclosure statement</head><p>No potential conflict of interest was reported by the authors.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. a:Scaled overview of the entire experimental setup. b: Front and partial side view of experimental set-up design.</figDesc><graphic coords="5,106.70,53.24,396.00,364.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Spatial Occlusion Goggles used by participants in the OCC Group during the training Intervention.</figDesc><graphic coords="5,48.64,462.22,249.60,144.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><figDesc>) who used video-based perceptual training to highlight critical information sources and Murgia et al. (2014) who also explored a form of visual occlusion as a training intervention. The significant improvements in visual search behaviour and performance variables demonstrated by the perceptual training group in the research of</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .Figure 4 .Figure 5 .</head><label>345</label><figDesc>Figure 3. Mean number call error for each group across each testing phase.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Anticipation in squash: differences in advance cue utilization between expert and novice players</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Abernethy</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640419008732128</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="17" to="34" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abernethy B. 1990. Anticipation in squash: differences in advance cue utilization between expert and novice players. J Sports Sci. 8:17-34. doi:10.1080/02640419008732128.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The ecological dynamics of decision-making in sport</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Araújo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Davids</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hristovski</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2006.07.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychol Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="653" to="676" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Araújo D, Davids K, Hristovski R. 2006. The ecological dynamics of decision-making in sport. Psychol Sport Exerc. 7(6):653-676. doi:10.1016/j.psychsport.2006.07.002.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Saccade target selection and object recognition: evidence for a common attentional mechanism</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Deubel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Schneider</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vision Res</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="1827" to="1837" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Deubel H, Schneider W. 1996. Saccade target selection and object recog- nition: evidence for a common attentional mechanism. Vision Res. 36:1827-1837.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The influence of restricted visual feedback on dribbling performance in youth soccer players</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fransen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lovell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bennett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Deprez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Deconinck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lenoir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Coutts</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/mc.2015-0059</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Motor Control</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="158" to="167" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fransen J, Lovell T, Bennett K, Deprez D, Deconinck F, Lenoir M, Coutts A. 2017. The influence of restricted visual feedback on dribbling perfor- mance in youth soccer players. Motor Control. 21(2):158-167. doi:10.1123/mc.2015-0059.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Use of ad\avance cues in predicting the flight of a lawn tennis ball</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Miles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hum Mov Stud</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="231" to="235" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jones C, Miles J. 1978. Use of ad\avance cues in predicting the flight of a lawn tennis ball. J Hum Mov Stud. 4:231-235.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Issues in the measurement of anticipation</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Mann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gjp</forename><surname>Savelsbergh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Routledge handbook of sport expertise</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Baker</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><surname>Farrow</surname></persName>
+		</editor>
+		<meeting><address><addrLine>UK</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="166" to="175" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mann LD, Savelsbergh GJP. 2015. Issues in the measurement of anticipa- tion. In: Baker J, Farrow D, editors. Routledge handbook of sport expertise. UK: Routledge; p. 166-175.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Methodological considerations for investigating expert interceptive skill in in situ settings</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brenton</forename><forename type="middle">J</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rosalie</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Psychol Assoc</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Müller S, Brenton J, Rosalie S. 2015. Methodological considerations for investigating expert interceptive skill in in situ settings. Am Psychol Assoc. 15:1-13.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Using perceptual home-training to improve anticipation skills of soccer goalkeepers</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Murgia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sors</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Muroni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Santoro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Prpic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Galmonte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Agostini</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2014.07.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychol Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="642" to="648" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Murgia M, Sors F, Muroni A, Santoro I, Prpic V, Galmonte A, Agostini T. 2014. Using perceptual home-training to improve anticipation skills of soccer goalkeepers. Psychol Sport Exerc. 15(6):642-648. doi:10.1016/j. psychsport.2014.07.009.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Effects of video-based visual training on decision-making and reactive agility in adolescent football players</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nimmerichter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wirth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Haller</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/sports4010001</idno>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">1</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nimmerichter A, Weber N, Wirth K, Haller A. 2015. Effects of video-based visual training on decision-making and reactive agility in adolescent football players. Sports. 4(1):1. doi:10.3390/sports4010001.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The effect of learning condition on perceptual anticipation, awareness, and visual search</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Poulter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Berry</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.humov.2005.06.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Hum Mov Sci</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="345" to="361" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Poulter D, Jackson R, Wann J, Berry D. 2005. The effect of learning condi- tion on perceptual anticipation, awareness, and visual search. Hum Mov Sci. 24(3):345-361. doi:10.1016/j.humov.2005.06.005.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Anticipation of penalty kicking direction can be improved by directing attention through perceptual learning</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Savelsbergh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Gastel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Van Kampen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Psychol</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="24" to="41" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Savelsbergh G, J. Van Gastel P, Van Kampen P. 2010. Anticipation of penalty kicking direction can be improved by directing attention through perceptual learning. Int J Sport Psychol. 41:24-41.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">An evaluation of a new test of reactive agility and its relationship to sprint speed and change of direction speed</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sheppard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Doyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sheppard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Newton</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jsams.2006.05.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sci Med Sport</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="342" to="349" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sheppard J, Young W, Doyle T, Sheppard T, Newton R. 2006. An evaluation of a new test of reactive agility and its relationship to sprint speed and change of direction speed. J Sci Med Sport. 9(4):342-349. doi:10.1016/j. jsams.2006.05.019.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Perception, cognition, and decision training: the quiet eye in action</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Vickers</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<publisher>Human Kinetics</publisher>
+			<pubPlace>Champaign, IL</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vickers JN. 2007. Perception, cognition, and decision training: the quiet eye in action. Champaign, IL: Human Kinetics.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Perceptual and cognitive skill development in soccer: the multidimensional nature of expert performance</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Williams</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/jsep.25.1.93</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Exerc Psychol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="93" to="111" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ward P, Williams A. 2003. Perceptual and cognitive skill development in soccer: the multidimensional nature of expert performance. J Sport Exerc Psychol. 25(1):93-111. doi:10.1123/jsep.25.1.93.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Vision and proprioception in interceptive actions</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Weigelt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Interceptive actions in sport: information and movement</title>
+		<editor>
+			<persName><forename type="first">K</forename><surname>Davids</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">G</forename><surname>Savelsbergh</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bennett</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Van Der Kamp</surname></persName>
+		</editor>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page" from="96" to="105" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Williams A, Weigelt C. 2002. Vision and proprioception in interceptive actions. In: Davids K, Savelsbergh G, Bennett SJ, Van der Kamp J, editors. Interceptive actions in sport: information and movement. London: Routledge; p. 96-105.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

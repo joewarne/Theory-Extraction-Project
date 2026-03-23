@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Effects of the Elevation Training Mask® 2.0 on dyspnea and respiratory muscle mechanics, electromyography, and fatigue during exhaustive cycling in healthy humans</title>
+				<funder ref="#_ycjaNCX">
+					<orgName type="full">Natural Sciences and Engineering Research Council</orgName>
+					<orgName type="abbreviated">NSERC</orgName>
+				</funder>
+				<funder ref="#_JrqVdmk">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_txD6UQ5">
+					<orgName type="full">Canadian Institutes of Health</orgName>
+				</funder>
+				<funder ref="#_fxdtqfP">
+					<orgName type="full">Michael Smith Foundation for Health Research</orgName>
+				</funder>
+				<funder ref="#_hvZ7MYJ #_zZA5pjW">
+					<orgName type="full">NSERC</orgName>
+				</funder>
+				<funder ref="#_KfSFg7Q">
+					<orgName type="full">Canada</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-09-03">3 September 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Kyle</forename><forename type="middle">G</forename><surname>Boyle</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Centre for Heart and Lung Innovation</orgName>
+								<orgName type="institution" key="instit1">Providence Health Care Research Institute</orgName>
+								<orgName type="institution" key="instit2">The University of British Columbia</orgName>
+								<orgName type="institution" key="instit3">St. Paul&apos;s Hospital</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Physical Therapy</orgName>
+								<orgName type="department" key="dep2">Faculty of Medicine</orgName>
+								<orgName type="institution">The University of British Columbia</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gabby</forename><surname>Napoleone</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Centre for Heart and Lung Innovation</orgName>
+								<orgName type="institution" key="instit1">Providence Health Care Research Institute</orgName>
+								<orgName type="institution" key="instit2">The University of British Columbia</orgName>
+								<orgName type="institution" key="instit3">St. Paul&apos;s Hospital</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Biomedical Physiology and Kinesiology</orgName>
+								<orgName type="department" key="dep2">Faculty of Science</orgName>
+								<orgName type="institution">Simon Fraser University</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andrew</forename><forename type="middle">H</forename><surname>Ramsook</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Centre for Heart and Lung Innovation</orgName>
+								<orgName type="institution" key="instit1">Providence Health Care Research Institute</orgName>
+								<orgName type="institution" key="instit2">The University of British Columbia</orgName>
+								<orgName type="institution" key="instit3">St. Paul&apos;s Hospital</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Physical Therapy</orgName>
+								<orgName type="department" key="dep2">Faculty of Medicine</orgName>
+								<orgName type="institution">The University of British Columbia</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Reid</forename><forename type="middle">A</forename><surname>Mitchell</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Centre for Heart and Lung Innovation</orgName>
+								<orgName type="institution" key="instit1">Providence Health Care Research Institute</orgName>
+								<orgName type="institution" key="instit2">The University of British Columbia</orgName>
+								<orgName type="institution" key="instit3">St. Paul&apos;s Hospital</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Physical Therapy</orgName>
+								<orgName type="department" key="dep2">Faculty of Medicine</orgName>
+								<orgName type="institution">The University of British Columbia</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Jordan</forename><forename type="middle">A</forename><surname>Guenette</surname></persName>
+							<email>jordan.guenette@hli.ubc.ca</email>
+							<affiliation key="aff0">
+								<orgName type="department">Centre for Heart and Lung Innovation</orgName>
+								<orgName type="institution" key="instit1">Providence Health Care Research Institute</orgName>
+								<orgName type="institution" key="instit2">The University of British Columbia</orgName>
+								<orgName type="institution" key="instit3">St. Paul&apos;s Hospital</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Physical Therapy</orgName>
+								<orgName type="department" key="dep2">Faculty of Medicine</orgName>
+								<orgName type="institution">The University of British Columbia</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">School of Kinesiology</orgName>
+								<orgName type="department" key="dep2">Faculty of Education</orgName>
+								<orgName type="institution">The University of British Columbia</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Effects of the Elevation Training Mask® 2.0 on dyspnea and respiratory muscle mechanics, electromyography, and fatigue during exhaustive cycling in healthy humans</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-09-03">3 September 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6E6C7D4DD32289EC19DDFD419C516A5D</idno>
+					<idno type="DOI">10.1016/j.jsams.2021.08.022</idno>
+					<note type="submission">Received 11 June 2021 Received in revised form 27 August 2021 Accepted 29 August 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:19+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Diaphragm Exercise performance Breathlessness Respiratory loading</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objectives: Examine the effects of the Elevation Training Mask® 2.0 (ETM) on dyspnea, and respiratory muscle function and fatigue during exercise. Design: Randomized crossover. Methods: 10 healthy participants completed 2 time-to-exhaustion (TTE) cycling tests while wearing the ETM or under a sham control condition. During the sham, participants were told they were breathing air equivalent to "9000 ft" (matched to the selected resistance valves on the ETM according to the manufacturer), but they were breathing room air. Dyspnea and leg discomfort were assessed using the modified 0-10 category-ratio Borg scale. Qualitative dyspnea descriptors at peak exercise were selected from a list of 15. Crural diaphragmatic electromyography (EMG di ) and transdiaphragmatic pressure (P di ) were measured via a multipair esophageal electrode balloon catheter. Participants performed maximal respiratory maneuvers before and after exercise to estimate the degree of respiratory muscle fatigue. Results: Exercise with the ETM resulted in a significant decrease in TTE (p = 0.015), as well as increased dyspnea at baseline (p = 0.032) and during the highest equivalent submaximal exercise time (p = 0.0001). The increase in dyspnea with the ETM was significantly correlated with the decrease in exercise time (r = 0.73, p = 0.020). EMG di and P di were significantly increased with the ETM at all time points (all p &lt; 0.05). There was a significant increase in the selection frequency of "my breath does not go in all the way" at peak exercise with the ETM (p = 0.02). The ETM did not induce respiratory muscle fatigue. Conclusions: Exercising with the ETM appears to decrease exercise performance, in part, by increasing the sensation of dyspnea.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The Elevation Training Mask® 2.0 (ETM) was originally purported to simulate high altitude and has been growing in popularity. The ETM causes modest decreases in oxygen saturation (S p O 2 ) during exercise in some, <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> but not all studies. <ref type="bibr" target="#b4">5</ref> In addition, there are no hematological changes in healthy participants following 6-week cycle training with the ETM. <ref type="bibr" target="#b5">6</ref> Therefore, any hypoxemia with the ETM is not caused by simulating altitude, but likely due to its modest dead space and impairment of alveolar ventilation as previously suggested. <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b3">4</ref> It is likely that these findings resulted in a shift in marketing from an altitude to a respiratory muscle loading device.</p><p>Several weeks of isolated respiratory muscle training can improve exercise performance. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> However, increasing the respiratory load simultaneously during endurance training may actually decrease overall exercise performance compared to endurance training without added respiratory resistance. This could happen because of the increase in transdiaphragmatic pressure (P di ) and potential for respiratory muscle fatigue, which might reduce overall training load on the locomotor muscles by decreasing exercise time and/or intensity. <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10</ref> However, this hypothesis remains speculative as no studies have evaluated P di and respiratory muscle fatigue with the ETM.</p><p>Increases in dyspnea may also reduce exercise time/intensity and thus subsequent training load on the locomotor muscles during combined respiratory loading and whole-body exercise. This hypothesis is based on the link between increased dyspnea and decreased performance. <ref type="bibr" target="#b10">11</ref> Emerging evidence suggests that exertional dyspnea is primarily caused by an increased awareness of inspiratory neural drive (IND), estimated using diaphragm electromyography (EMG di ). <ref type="bibr" target="#b11">12</ref> Wearing the ETM during acute bouts of exercise has been shown to increase dyspnea <ref type="bibr" target="#b3">4</ref> ; however, the qualitative descriptors of dyspnea, and whether EMG di also increases remains unknown. Accordingly, the purpose of this study was to determine the effect of the ETM on exercise time-to-exhaustion (TTE), dyspnea, diaphragmatic function, and respiratory muscle fatigue in healthy humans. We hypothesized that the ETM would decrease TTE and increase dyspnea, EMG di , P di , and respiratory muscle fatigue compared to control exercise.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methods</head><p>This study received ethical approval (H16-02589) with participants providing written informed consent and took place over 3 visits separated by at least 48 h. Participants were instructed to avoid caffeine and exercise prior to each visit. Visit 1 included spirometry <ref type="bibr" target="#b12">13</ref> until both forced vital capacity (FVC) and forced expiratory volume in 1second (FEV 1 ) were reproducible within 0.15 l. Participants then underwent an incremental cycling test (Velotron, Racermate, Seattle, WA, USA) starting at 50 W for females and 100 W for males, with 25 W stepwise increases every 2 min until exhaustion. Following 30 min of rest, participants underwent a familiarization TTE constant load cycling test at 85% of maximum incremental work rate, which is an intensity known to cause respiratory muscle fatigue. <ref type="bibr" target="#b13">14</ref> TTE tests are reproducible even in naive participants, <ref type="bibr" target="#b14">15</ref> and therefore only one familiarization test was performed to diminish the learning effect. Heart rate (HR) (Polar H10, Polar Electro, Kempele, Finland) and ventilatory/metabolic data (TrueOne 2400, Parvo Medics, Sandy, Ut, USA) were recorded during both exercise tests.</p><p>During the subsequent visits, participants repeated the TTE test under two randomized conditions: 1) ETM with the resistance valves set to mimic "9000 ft" according to the manufacturer; and 2) a sham condition where participants were told they were breathing a gas mixture equivalent to 9000 ft, but were actually breathing room air. The deception involved participants breathing through a mouthpiece connected to a two-way-non-rebreathing valve in which the inspiratory port appeared to be connected to a filled 50 l Douglas bag. Participants were led to believe that we were testing the effectiveness of the ETM to simulate altitude and that the control condition was the "gold standard". The sham served as a control and to minimize the nocebo effect of the ETM. To avoid participants becoming unblinded, we only recruited individuals that were naïve to exercise physiology experiments. Participants were unblinded at the end of the study, and no participants indicated they were aware of the deception.</p><p>Crural EMG di was recorded via a multipair esophageal electrode catheter (Yinghui Medical Technology Co. LTD, Guangzhou, China). The catheter itself is 2.8 mm in diameter and consists of 9 1 cm silver electrodes that make up 5 recording pairs distanced 3.4 cm apart. The catheter was inserted through the nose following numbing with a topical anesthetic and positioned to optimize the EMG di signals. Catheter position was secured in place when the EMG amplitude in the middle recording pair was lowest and highest in the two furthest outer pairs during spontaneous breathing. <ref type="bibr" target="#b15">16</ref> Raw EMG di signals were amplified and band pass filtered between 20 and 1000 Hz (bio-amplifier model RA-8, Yinghui Medical Technology Co. LTD, Guangzhou, China) and converted to root mean square using a 0.1 s moving average window. Values were selected on a breath-by-breath basis between QRS complexes. The value selected for each breath was the highest value recorded in the 5 electrode pairs. EMG di was expressed as a percentage of the highest value obtained during inspiratory capacity maneuvers on a given visit. The same catheter was used and placed in the same position within the same nostril on both visits.</p><p>The catheter used to measure EMG di included two balloons connected to differential pressure transducers (DP15-34, Validyne Engineering, Northridge, CA, USA) to measure gastric (P ga ) and esophageal (P es ) pressures. Esophageal and gastric balloons were filled with 0.5 and 1.2 ml of air, respectively. P di was calculated as the difference between P ga and P es . Maximal P di swings were quantified during inspiration while decreases in volitional pressure generation following exercise was used to determine the presence of respiratory muscle fatigue. Briefly, participants performed maximal sniffs, maximal inspiratory pressure (MIP) maneuvers at residual volume, and maximal expiratory pressure (MEP) maneuvers at total lung capacity <ref type="bibr" target="#b16">17</ref> before, immediately after, and 15 min after exercise in an upright seated position. A decrease in peak P di during a sniff or the highest 1-second mean P di and mouth pressure (P m ) during a MIP maneuver was used to investigate inspiratory muscle fatigue, whereas a decrease in the highest 1-second mean P ga and P m during a MEP maneuver was used to investigate expiratory muscle fatigue. All maneuvers were repeated 3-10 times, with the average of the highest three maneuvers within 10% being used in the analysis. The threshold for fatigue was either a decrease ≥15% or double the coefficient of variation if it was ≥15% for a given maneuver during the same visit. Finally, the tension time index of the diaphragm (TTI di ) was calculated by multiplying the ratio between mean inspiratory P di and the maximum P di achieved during a MIP maneuver performed on the same visit by the duty cycle.</p><p>Cardiorespiratory data could not be collected during the ETM condition. However, breathing frequency (f b ) was quantified by counting EMG di bursts. HR was recorded as in visit 1 and SpO 2 was measured via finger pulse oximetry (Radical-7, Masimo Corporation, Irvine, CA, USA). During exercise, dyspnea and leg discomfort were assessed every minute. Dyspnea was defined as "the sensation of laboured or difficult breathing" and leg discomfort was defined as "the sensation of fatigue in the leg muscles." Both sensations were evaluated using the modified 0-10 category-ratio Borg scale 18 in which 0 represented "no breathing/leg discomfort" and 10 represented "the most breathing/leg discomfort ever experienced or imagined." Participants were also asked every 2 min to select their most prominent dyspnea descriptor as either 1) "My breathing requires more work and effort"; 2) "I cannot get enough air in"; 3) "I cannot get enough air out"; or 4) "None apply". <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20</ref> Following exercise termination, participants then selected qualitative dyspnea descriptors experienced at peak exercise using a modified list of 15 from Simon et al. <ref type="bibr" target="#b20">21</ref> Lastly, participants selected their primary reason for stopping exercise as "breathing discomfort", "leg discomfort", "a combination of breathing and leg discomfort" or "other" and attributed a percentage towards stopping to either breathing or leg discomfort.</p><p>All signals were collected using a data acquisition system (PowerLab 16/35, ADInstruments, Colorado Springs, CO, USA) at 2000 Hz. Physiological variables were averaged over a 30-second time period in which no sensory responses were obtained every 2 min. Normality was tested using the Shapiro-Wilk test. A two-way repeated-measures ANOVA (condition and time) was used to detect differences in exercise responses at baseline; the highest equivalent submaximal exercise time (HESET) a participant achieved on both visits; and peak exercise, defined as the final 30 s of exercise. Bonferroni post hoc comparisons were made between conditions at the same time points. A two-way repeated-measures ANOVA (condition and time) was also used to detect differences in respiratory muscle fatigue, with Tukey's post hoc test used to detect differences between time points in the same condition. Spearman's correlation coefficient was used to determine the relationship between changes in TTE and dyspnea, while a Pearson correlation coefficient was used to assess the relationship between changes in TTE and volitional respiratory muscle pressure generation from preexercise to immediately post exercise between conditions. Differences in TTE and the percentage contribution towards stopping exercise were assessed with paired t-tests. Differences between peak dyspnea descriptors were compared using McNemar's test. Statistical significance was set at p &lt; 0.05. Values are mean ± SD unless otherwise stated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>Fourteen participants were recruited but only 10 completed all visits and have data presented. Table <ref type="table" target="#tab_0">1</ref> shows participant characteristics and peak exercise data. Participants displayed normal spirometry (i.e., FEV 1 &gt; 80% predicted <ref type="bibr" target="#b21">22</ref> and FEV 1 /FVC &gt;0.70).</p><p>There was a decrease in TTE with the ETM compared to sham (5.9 ± 3.0 vs. 9.5 ± 5.6 min, p = 0.015) (Fig. <ref type="figure" target="#fig_0">1C</ref>). Table <ref type="table">2</ref> shows TTE responses at baseline, HESET and peak. There was a significant effect of condition (p = 0.0003) and time (p &lt; 0.0001) on EMG di , which significantly increased with the ETM at baseline (p = 0.001), HESET (p = 0.004) and peak (p = 0.010). Similarly, P di swings showed a main effect of condition (p = 0.0005) and time (p &lt; 0.0001) and significantly increased with the ETM at all time points (baseline p = 0.001; HESET p = 0.037; peak p = 0.042). There was a significant main effect of condition and time (p = 0.0024 and p &lt; 0.0001, respectively) on f b with a significant decrease with the ETM at baseline only (p = 0.015). There was no effect of condition or time on SpO 2 (both p &gt; 0.05) and an effect of time only (p &lt; 0.0001) for HR.</p><p>Perceptual responses are shown in Fig. <ref type="figure" target="#fig_0">1</ref>. There was a significant effect of condition (p = 0.0002) and time (p &lt; 0.0001) on Borg dyspnea ratings with an increase in dyspnea by an average of 0.4 ± 0.4 and 4.0 ± 1.7 units at baseline (p = 0.032) and HESET (p = 0.0001), respectively, but no significant difference at peak (p = 0.082). The mean change in dyspnea across the three analysis time points between conditions was significantly correlated with the changes in TTE (r = 0.73, p = 0.020). There was a significant main effect of time (p &lt; 0.0001) but not condition (p = 0.67) on leg discomfort. At HESET, 5 additional participants selected "I cannot get enough air in" as their primary dyspnea descriptor compared to the control condition, while 3 additional participants selected this descriptor with the ETM at peak. At peak exercise, "my breath does not go in all the way" was the only dyspnea descriptor that showed significant differences in selection frequency (p = 0.02) (Fig. <ref type="figure" target="#fig_0">1A</ref>) although "I feel that I am suffocating" and "I cannot take a deep breath in" approached statistical significance (both p = 0.06). During the sham trial, no participants selected "breathing discomfort" as their primary reason for stopping exercise, while 6 participants selected it as their primary reason with the ETM. The percentage contribution between "breathing discomfort" and "leg discomfort" as the primary reason for stopping exercise was 37 ± 21% and 63 ± 21%, respectively, in the sham trial (p = 0.004), which was nearly reversed with the ETM ("breathing discomfort" = 67 ± 22%, "leg discomfort" = 33 ± 22%, p = 0.004).</p><p>There was no effect of time nor condition on P di during maximal sniffs or P di and P m during MIP maneuvers (all p &gt; 005). There was an effect of time only on both P ga (p = 0.028) and P m (p = 0.027) during MEP maneuvers. Post hoc comparisons revealed there were no significant differences between any time points in both conditions (all p &gt; 0.05). Individually, 2 participants met our definition of fatigue in P di during a maximal sniff in the sham condition compared to 3 with the ETM. During MIP maneuvers, 2 participants showed fatigue in P di in both conditions. Similarly, fatigue was observed in P m in 2 participants in the sham condition compared to 1 with the ETM. During MEP maneuvers, 2 and 4 participants showed fatigue in P ga and P m , respectively, in both conditions. There were no significant correlations between the change in TTE and change in pre/post exercise volitional pressure generation between conditions with any maneuver (sniff: P di r = -0.17; MIP: P di r = -0.32, P m r = -0.18; MEP: P ga r = 0.08, P m r = 0.20; all p &gt; 0.05). There was a significant effect of time (p &lt; 0.0001) and condition (p = 0.0008) on TTI di . Post hoc tests revealed TTI di was significantly increased with the ETM at all time points (baseline p = 0.005; HESET p = 0.005; peak p = 0.016). Individually, 2 participants had a TTI di &gt; 0.15 at both HESET and peak in the sham trial, while 5 participants did at the same time points during exercise with the ETM.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>The ETM was shown to: 1) increase dyspnea intensity ratings and the selection frequency of "I cannot get enough air in"; 2) reduce TTE, which was significantly correlated with the increase in dyspnea ratings; 3) increase EMG di and P di ; and 4) not increase the occurrence of respiratory muscle fatigue compared to control.</p><p>The ETM has been shown to reduce exercise performance during both incremental 1 and constant load exercise. <ref type="bibr" target="#b3">4</ref> The present study demonstrated a mean reduction in TTE of 33 ± 26%. An increase in dyspnea is one mechanism by which the ETM could reduce TTE. Both the present study and the work of others <ref type="bibr" target="#b3">4</ref> showed a significant increase in dyspnea ratings during submaximal exercise with the ETM. We also showed a strong correlation between the change in dyspnea and TTE between ETM and sham. The increase in dyspnea with the ETM is likely due, at least in part, to the significant increase in IND, as reflected by the increase in EMG di . The increase in IND appears to have been caused by the substantial increase in P di needed to overcome the increased resistance of the ETM compared to the sham. IND may also increase due to modest hypoxemia caused by the increased dead space of the ETM, which has been shown by some <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> but not others. <ref type="bibr" target="#b4">5</ref> However, S p O 2 did not change between conditions in the present study and is therefore an unlikely contributor to the increased IND. It is also possible that dyspnea may have increased due, in part, to a small dead space-induced increase in minute ventilation (V ̇E), which could not be measured in the ETM condition in this study. However, this is unlikely given that breathing frequency was actually lower with the ETM during exercise, and previous work shows a decrease rather than an increase in V ̇E with the ETM. <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b4">5</ref> Nevertheless, we cannot draw definitive conclusions regarding V ̇E since we were unable to measure V T in this study. Another potential mechanism of increased dyspnea is dynamic hyperinflation; however, we were unable to determine if hyperinflation occurred in our subjects since we could not measure inspiratory capacity in the ETM condition. Finally, we must acknowledge that increases in facial skin temperature, temperature of the inhaled air, and increased humidity could potentially contribute to higher dyspnea with the ETM, although this requires further investigation. <ref type="bibr" target="#b22">23</ref> The ETM could also limit TTE due to increased respiratory muscle contractions and respiratory muscle fatigue. Two possible mechanisms for this are 1) the influence of respiratory muscle fatigue on dyspnea <ref type="bibr" target="#b10">11</ref> and 2) the respiratory muscle metaboreflex, a sympathetically mediated reflex that diverts blood away from the locomotor muscles following increased respiratory muscle work to the point of fatigue. <ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b24">25</ref> There was an effect of time on maximal expiratory, but not inspiratory pressure generation. However, post hoc tests revealed no significant differences in maximal expiratory pressures between time points in both conditions. Thus, on average, there was no effect of the ETM on respiratory muscle fatigue. There were a handful of participants that met our definition of fatigue but this did not differ appreciably from the sham condition. Thus, it is unlikely that the increased dyspnea with the ETM was related to respiratory muscle fatigue. Despite the lack of evidence of respiratory muscle fatigue, it is still possible that the ETM could have triggered the respiratory metaboreflex and could therefore have contributed to the reduced TTE. However, the lack of change in leg discomfort ratings and HR indirectly suggest that the metaboreflex was likely not the primary contributor to reduced exercise performance in this study, despite the difference in TTI di between conditions. Collectively, the findings of this study suggests that dyspnea, and not increased respiratory muscle fatigue or an increase in the respiratory metaboreflex, is probably the primary mechanism by which the ETM limits exercise performance. This suggestion is further supported by a greater selection frequency of multiple distressing qualitative descriptors of dyspnea and that 80% of our participant's selected breathing discomfort alone or in combination with leg discomfort as the primary reason for stopping exercise with the ETM compared to only 30% in the sham condition.</p><p>This study reinforces the fact that the ETM is a respiratory muscle loading device. Indeed, baseline P di swings with the ETM were 37% of the maximum P di achieved during a pre-exercise MIP maneuver, 65% at HESET, and 63% at peak, respectively. Many inspiratory muscle training programs are performed at 30-60% of MIP, which can increase respiratory muscle strength. <ref type="bibr" target="#b25">26</ref> Therefore, it seems reasonable to speculate that the ETM could provide a sufficient respiratory muscle training load to improve respiratory muscle strength. Increasing the strength of the respiratory muscles can improve whole-body exercise performance. <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b26">27</ref> However, given that the ETM acutely decreases performance as shown by us and others, <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b3">4</ref> we believe that using the ETM may be counterproductive, at least during high-intensity whole-body exercise training where overall training intensity should not be compromised. For instance, athletes may need to reduce the exercise intensity to complete a given training session in order to compensate for the increased respiratory load and dyspnea. It is possible the ETM may be better suited during lower intensity exercise sessions (e.g. warm-up, cool-downs, recovery workouts, or even during resistance training <ref type="bibr" target="#b27">28</ref> ). This approach would allow individuals to gain the benefits of training the respiratory muscles without having to compromise the intensity and quality of their high-intensity whole-body training sessions. However, we acknowledge that this remains speculative since the incorporation of the ETM in various exercise training programs still needs to be further explored.</p><p>There are several limitations of this study. First, the use of volitional pressure generation maneuvers to assess fatigue has a number of drawbacks including the reliance on participant motivation. For this reason, the criteria for variability allowed between maneuvers was only 10%. A non-volitional method such as supramaximal phrenic nerve stimulation would remove motivation as a potential confounder and should be further explored. Second, the exercise intensity used does not reflect the effect of the ETM during light or moderate intensity exercise. Third, we only tested one resistance setting and one ETM model, and therefore our findings cannot be extrapolated to the other resistance settings or masks (e.g. ETM 3.0). Fourth, there is no optimal control condition when testing the ETM. Lastly, given that the catheter was positioned to optimize EMG di , the P es balloon may not have been in the optimal position in some participants. However, the same catheter was always placed in the same position between visits. Future studies are needed to validate P es when assessed using a catheter optimized to measure EMG via the occlusion technique.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>Exercising with the ETM limits exercise performance due, in part, to an increase in the intensity of dyspnea and not an increase in respiratory muscle fatigue. The ETM also significantly increases the selection frequency of unpleasant qualitative descriptors of dyspnea along with increases in EMG di and P di during exercise. Future studies are needed to determine the most appropriate training sessions to use the ETM in order to maximize the benefits of the device without compromising the quality of individual whole-body exercise training sessions.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. A: selection frequency of 15 dyspnea descriptors post exercise. B: reasons for stopping exercise. C: box and whisker plot and individual data points for time-to-exhaustion tests. Solid line in box and whisker plots represents median value, while whiskers represent minimum and maximum exercise times. Dashed lines connect individual participant data between conditions. D: selection frequency of "my breathing requires more work and effort". E: selection frequency of "I cannot get enough air in". F: selection frequency of "I cannot get enough air out". G: dyspnea intensity ratings over time. H: leg discomfort ratings over time. I: diaphragmatic EMG over time. Values on panels D-F are plotted across measurement time points all participants achieved [2nd minute, highest equivalent submaximal exercise time (HESET) and peak]. Values on panels G, H and I are plotted at analysis time points [baseline (0 min), HESET and peak]. Triangle represents HESET in panels D-I. Panels A, B, D-F are percent of participants, while panels G-I are mean ± SD. *, p &lt; 0.05 statistically significant between conditions.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Participant characteristics and peak exercise responses. .G. Boyle, G. Napoleone, A.H. Ramsook et al. Journal of Science and Medicine in Sport 25 (2022) 167-172</figDesc><table><row><cell>Demographics/Anthropometrics</cell><cell></cell></row><row><cell>Sex, M:F</cell><cell>5:5</cell></row><row><cell>Age, years</cell><cell>28 ± 5</cell></row><row><cell>Height, cm</cell><cell>174.2 ± 8.5</cell></row><row><cell>Mass, kg</cell><cell>74.7 ± 9.6</cell></row><row><cell>BMI, kg•m -2</cell><cell>24.5 ± 1.9</cell></row><row><cell>Spirometry</cell><cell></cell></row><row><cell>FVC, l</cell><cell>5.34 ± 1.03</cell></row><row><cell>FVC, % predicted</cell><cell>108 ± 14</cell></row><row><cell>FEV 1 , l</cell><cell>4.36 ± 0.94</cell></row><row><cell>FEV 1 , % predicted</cell><cell>104 ± 9</cell></row><row><cell>FEV 1 /FVC, %</cell><cell>79 ± 6</cell></row><row><cell>Peak incremental exercise</cell><cell></cell></row><row><cell>Work Rate, W</cell><cell>298 ± 55</cell></row><row><cell>V Ȯ2, l•min -1</cell><cell>3.45 ± 0.94</cell></row><row><cell>V Ȯ2 , ml•kg -1 •min -1</cell><cell>46.0 ± 9.6</cell></row><row><cell>V ĊO 2 , l•min -1</cell><cell>3.79 ± 1.04</cell></row><row><cell>RER</cell><cell>1.10 ± 0.08</cell></row><row><cell>HR, beats•min -1</cell><cell>178 ± 14</cell></row><row><cell>V ̇E, l•min-1</cell><cell>131.8 ± 41.9</cell></row><row><cell>V T , l</cell><cell>2.71 ± 0.62</cell></row><row><cell>f b , breaths•min -1 V ̇E/VȮ 2 V ̇E/V ĊO 2</cell><cell>47.7 ± 8.5 37.6 ± 5.4 34.2 ± 3.2</cell></row><row><cell>Dyspnea, 0-10 Borg scale</cell><cell>7.2 ± 2.5</cell></row><row><cell>Leg discomfort, 0-10 Borg scale</cell><cell>8.5 ± 1.4</cell></row></table><note><p>Spirometry data are from 7 participants due to technical issues with 3 participants. Abbreviations: M, male; F, female; BMI, body mass index; FVC, forced vital capacity; FEV 1 , forced expiratory volume in 1 s; VȮ 2 , oxygen consumption; VĊO 2 , carbon dioxide production; RER, respiratory exchange ratio; HR, heart rate; V ̇E, minute ventilation; V T , tidal volume; f b , breathing frequency; V ̇E/V Ȯ2 , ventilatory equivalent for oxygen; V̇E/V ĊO 2 , ventilatory equivalent for carbon dioxide. Values are mean ± SD. K</p></note></figure>
+		</body>
+		<back>
+
+			
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>We thank our research participants for enthusiastically volunteering for this study.</p></div>
+			</div>
+
+
+			<div type="funding">
+<div><head>Funding information</head><p>This study was funded by a <rs type="grantName">Discovery Grant</rs> from the <rs type="funder">Natural Sciences and Engineering Research Council (NSERC)</rs> of <rs type="funder">Canada</rs>. Gabby Napoleone was supported by an <rs type="grantName">Undergraduate Student Research Award</rs> from the <rs type="funder">NSERC</rs>. <rs type="person">Andrew Ramsook</rs> was supported by a <rs type="funder">NSERC</rs> <rs type="grantName">Canada Graduate Scholarship</rs>. <rs type="person">Reid A. Mitchell</rs> was supported by a <rs type="grantName">Postgraduate Scholarship</rs> from the <rs type="funder">NSERC</rs> and a <rs type="grantName">University of British Columbia 4-year fellowship</rs>. <rs type="person">Jordan A. Guenette</rs> was supported by a <rs type="grantName">Scholar Award</rs> from the <rs type="funder">Michael Smith Foundation for Health Research</rs> and a <rs type="funder">Canadian Institutes of Health</rs> <rs type="grantName">Research Clinical Rehabilitation New Investigator Award</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_ycjaNCX">
+					<orgName type="grant-name">Discovery Grant</orgName>
+				</org>
+				<org type="funding" xml:id="_KfSFg7Q">
+					<orgName type="grant-name">Undergraduate Student Research Award</orgName>
+				</org>
+				<org type="funding" xml:id="_hvZ7MYJ">
+					<orgName type="grant-name">Canada Graduate Scholarship</orgName>
+				</org>
+				<org type="funding" xml:id="_zZA5pjW">
+					<orgName type="grant-name">Postgraduate Scholarship</orgName>
+				</org>
+				<org type="funding" xml:id="_JrqVdmk">
+					<orgName type="grant-name">University of British Columbia 4-year fellowship</orgName>
+				</org>
+				<org type="funding" xml:id="_fxdtqfP">
+					<orgName type="grant-name">Scholar Award</orgName>
+				</org>
+				<org type="funding" xml:id="_txD6UQ5">
+					<orgName type="grant-name">Research Clinical Rehabilitation New Investigator Award</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of interest statement</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Confirmation of ethical compliance</head><p>The research study conformed to the Declaration of Helsinki, excluding registration of a database, and received ethical approval from The University of British Columbia and Providence Health Care Research Institute Ethics Board (UBC-PHC REB Number: H16-02589). The research in this manuscript has not been published nor submitted elsewhere, nor will it be submitted elsewhere until a final decision from the Journal of Science and Medicine in Sport is made. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Oxygenation responses while wearing the Elevation Training Mask during an incremental cycling test</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Romero-Arenas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lopez-Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Colomer-Poveda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="page" from="1897" to="1904" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Romero-Arenas S, Lopez-Perez E, Colomer-Poveda D et al. Oxygenation responses while wearing the Elevation Training Mask during an incremental cycling test. J Strength Cond Res 2019:1897-1904.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Functional&quot; respiratory muscle training during endurance exercise causes modest hypoxemia but overall is well tolerated</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Granados</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Gillum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Castillo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="755" to="762" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Granados J, Gillum TL, Castillo W et al. &quot;Functional&quot; respiratory muscle training dur- ing endurance exercise causes modest hypoxemia but overall is well tolerated. J Strength Cond Res 2016;30(3):755-762.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The elevation training mask induces modest hypoxaemia but does not affect heart rate variability during cycling in healthy adults</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>John</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Sport</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="105" to="112" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jung HC, Lee NH, John SD et al. The elevation training mask induces modest hypoxaemia but does not affect heart rate variability during cycling in healthy adults. Biol Sport 2019;36(2):105-112.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Psychophysiological responses during a cycling test to exhaustion while wearing the Elevation Training Mask</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Lopez-Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Romero-Arenas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Colomer-Poveda</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0000000000003626</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lopez-Perez ME, Romero-Arenas S, Colomer-Poveda D et al. Psychophysiological re- sponses during a cycling test to exhaustion while wearing the Elevation Training Mask. J Strength Cond Res 2020. doi:10.1519/JSC.0000000000003626.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The effect of an airflow restriction mask (ARM) on metabolic, ventilatory, and electromyographic responses to continuous cycling exercise</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Barbieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Gaspari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Teodoro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">237010</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barbieri JF, Gaspari AF, Teodoro CL et al. The effect of an airflow restriction mask (ARM) on metabolic, ventilatory, and electromyographic responses to continuous cy- cling exercise. PLoS One 2020;15(8):e0237010.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Effect of wearing the Elevation Training Mask on aerobic capacity, lung function, and hematological variables</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Porcari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Probst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Forrester</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci Med</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="379" to="386" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Porcari JP, Probst L, Forrester K et al. Effect of wearing the Elevation Training Mask on aerobic capacity, lung function, and hematological variables. J Sports Sci Med 2016;15 (2):379-386.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Inspiratory muscle fatigue in trained cyclists: effects of inspiratory muscle training</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Romer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Mcconnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="785" to="792" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Romer LM, McConnell AK, Jones DA. Inspiratory muscle fatigue in trained cyclists: ef- fects of inspiratory muscle training. Med Sci Sports Exerc 2002;34(5):785-792.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Respiratory muscle training improves swimming endurance in divers</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Wylegala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Pendergast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Gosselin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="393" to="404" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wylegala JA, Pendergast DR, Gosselin LE et al. Respiratory muscle training improves swimming endurance in divers. Eur J Appl Physiol 2007;99(4):393-404.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Exercise performance after ventilatory work</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heintzelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">I</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol Respir Environ Exerc Physiol</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1581" to="1585" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martin B, Heintzelman M, Chen HI. Exercise performance after ventilatory work. J Appl Physiol Respir Environ Exerc Physiol 1982;52(6):1581-1585.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Effects of respiratory muscle work on exercise performance</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Harms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Wetter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">St</forename><surname>Croix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="131" to="138" />
+			<date type="published" when="1985">1985. 2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harms CA, Wetter TJ, St Croix CM et al. Effects of respiratory muscle work on exercise performance. J Appl Physiol (1985) 2000;89(1):131-138.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The effect of diaphragm fatigue on the multidimensional components of dyspnoea and diaphragm electromyography during exercise in healthy males</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Boyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Ramsook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">598</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="3223" to="3237" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boyle KG, Mitchell RA, Ramsook AH et al. The effect of diaphragm fatigue on the mul- tidimensional components of dyspnoea and diaphragm electromyography during ex- ercise in healthy males. J Physiol 2020;598(15):3223-3237.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Physiological mechanisms of sex differences in exertional dyspnoea: role of neural respiratory motor drive</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Schaeffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Mendonca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Levangie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="427" to="441" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schaeffer MR, Mendonca CT, Levangie MC et al. Physiological mechanisms of sex dif- ferences in exertional dyspnoea: role of neural respiratory motor drive. Exp Physiol 2014;99(2):427-441.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Standardisation of spirometry</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hankinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Brusasco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur Respir J</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="319" to="338" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Miller MR, Hankinson J, Brusasco V et al. Standardisation of spirometry. Eur Respir J 2005;26(2):319-338.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Exercise-induced diaphragmatic fatigue in healthy humans</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Babcock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">E</forename><surname>Suman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">460</biblScope>
+			<biblScope unit="page" from="385" to="405" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Johnson BD, Babcock MA, Suman OE et al. Exercise-induced diaphragmatic fatigue in healthy humans. J Physiol 1993;460:385-405.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The repeatability of submaximal endurance exercise testing in cystic fibrosis</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Barry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Gallagher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pediatr Pulmonol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="75" to="82" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barry SC, Gallagher CG. The repeatability of submaximal endurance exercise testing in cystic fibrosis. Pediatr Pulmonol 2007;42(1):75-82.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Diaphragm electromyography using an oesophageal catheter: current concepts</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Moxham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Polkey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Sci (Lond)</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="233" to="244" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Luo YM, Moxham J, Polkey MI. Diaphragm electromyography using an oesophageal catheter: current concepts. Clin Sci (Lond) 2008;115(8):233-244.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">ERS statement on respiratory muscle testing at rest and during exercise</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Laveneziana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Albuquerque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aliverti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur Respir J</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Laveneziana P, Albuquerque A, Aliverti A et al. ERS statement on respiratory muscle testing at rest and during exercise. Eur Respir J 2019;53(6).</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Psychophysical bases of perceived exertion</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Borg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="377" to="381" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Borg GA. Psychophysical bases of perceived exertion. Med Sci Sports Exerc 1982;14 (5):377-381.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Sex differences in the intensity and qualitative dimensions of exertional dyspnea in physically active young adults</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Cory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Schaeffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Wilkie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="998" to="1006" />
+			<date type="published" when="1985">1985. 2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cory JM, Schaeffer MR, Wilkie SS et al. Sex differences in the intensity and qualitative dimensions of exertional dyspnea in physically active young adults. J Appl Physiol (1985) 2015;119(9):998-1006.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Evolution of dyspnea during exercise in chronic obstructive pulmonary disease: impact of critical volume constraints</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Laveneziana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Webb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ora</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Respir Crit Care Med</title>
+		<imprint>
+			<biblScope unit="volume">184</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1367" to="1373" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Laveneziana P, Webb KA, Ora J et al. Evolution of dyspnea during exercise in chronic obstructive pulmonary disease: impact of critical volume constraints. Am J Respir Crit Care Med 2011;184(12):1367-1373.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Distinguishable types of dyspnea in patients with shortness of breath</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Schwartzstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Weiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Rev Respir Dis</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1009" to="1014" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simon PM, Schwartzstein RM, Weiss JW et al. Distinguishable types of dyspnea in pa- tients with shortness of breath. Am Rev Respir Dis 1990;142(5):1009-1014.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Multi-ethnic reference values for spirometry for the 3-95-yr age range: the global lung function 2012 equations</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Quanjer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stanojevic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Cole</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur Respir J</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1324" to="1343" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Quanjer PH, Stanojevic S, Cole TJ et al. Multi-ethnic reference values for spirometry for the 3-95-yr age range: the global lung function 2012 equations. Eur Respir J 2012;40(6):1324-1343.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Face masks and the cardiorespiratory response to physical activity in health and disease</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Hopkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Dominelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Am Thorac Soc</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="399" to="407" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hopkins SR, Dominelli PB, Davis CK et al. Face masks and the cardiorespiratory re- sponse to physical activity in health and disease. Ann Am Thorac Soc 2021;18(3): 399-407.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Fatiguing inspiratory muscle work causes reflex reduction in resting leg blood flow in humans</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Sheel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Derchak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Morgan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">537</biblScope>
+			<biblScope unit="page" from="277" to="289" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note>Pt 1</note>
+	<note type="raw_reference">Sheel AW, Derchak PA, Morgan BJ et al. Fatiguing inspiratory muscle work causes re- flex reduction in resting leg blood flow in humans. J Physiol 2001;537(Pt 1):277-289.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Effects of respiratory muscle work on respiratory and locomotor blood flow during exercise</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Dominelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Archiza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Ramsook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1535" to="1547" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dominelli PB, Archiza B, Ramsook AH et al. Effects of respiratory muscle work on re- spiratory and locomotor blood flow during exercise. Exp Physiol 2017;102(11):1535- 1547.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Effects of respiratory muscle training on performance in athletes: a systematic review with meta-analyses</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hajghanbari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yamabayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Buna</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1643" to="1663" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">HajGhanbari B, Yamabayashi C, Buna TR et al. Effects of respiratory muscle training on performance in athletes: a systematic review with meta-analyses. J Strength Cond Res 2013;27(6):1643-1663.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Effect of respiratory muscle training on exercise performance in healthy individuals: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Illi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Held</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Frank</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="707" to="724" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Illi SK, Held U, Frank I et al. Effect of respiratory muscle training on exercise perfor- mance in healthy individuals: a systematic review and meta-analysis. Sports Med 2012;42(8):707-724.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Acute effects of the Elevation Training Mask on strength performance in recreational weight lifters</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Jagim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Dominy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Camic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="482" to="489" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jagim AR, Dominy TA, Camic CL et al. Acute effects of the Elevation Training Mask on strength performance in recreational weight lifters. J Strength Cond Res 2018;32(2): 482-489.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Boyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Napoleone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Ramsook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Science and Medicine in Sport</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="167" to="172" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">K.G. Boyle, G. Napoleone, A.H. Ramsook et al. Journal of Science and Medicine in Sport 25 (2022) 167-172</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

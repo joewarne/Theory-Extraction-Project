@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Shoulder-Abduction Angle and Trapezius Muscle Activity During Scapular-Retraction Exercise</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>MSc</roleName><forename type="first">Dilara</forename><surname>Kara</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Hacettepe University</orgName>
+								<address>
+									<settlement>Samanpazarı Ankara</settlement>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Hacettepe University</orgName>
+								<address>
+									<postCode>06100</postCode>
+									<settlement>Samanpazarı Ankara</settlement>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD; Irem</roleName><forename type="first">Gulcan</forename><surname>Harput</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Hacettepe University</orgName>
+								<address>
+									<settlement>Samanpazarı Ankara</settlement>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><surname>Duzgun</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Hacettepe University</orgName>
+								<address>
+									<settlement>Samanpazarı Ankara</settlement>
+									<country key="TR">Turkey</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Shoulder-Abduction Angle and Trapezius Muscle Activity During Scapular-Retraction Exercise</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">82DD9F19EF8179F6F747417326E11A26</idno>
+					<idno type="DOI">10.4085/1062-6050-0053.21</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:20+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>electromyography</term>
+					<term>scapula</term>
+					<term>resistance training</term>
+					<term>superficial back muscles</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Context: Scapular-retraction exercises are often prescribed to enhance scapular stabilization.</p><p>Objective: To investigate upper trapezius (UT), middle trapezius (MT), and lower trapezius (LT) activities and UT/MT and UT/LT ratios during scapular-retraction exercises with elastic resistance at different shoulder-abduction angles.</p><p>Design: Descriptive laboratory study.</p><p>Setting: Biomechanical analysis laboratory.</p><p>Patients or Other Participants: Thirty-five asymptomatic individuals.</p><p>Main Outcome Measure(s): Surface electromyography was used to evaluate UT, MT, and LT activities during the scapular-retraction exercise at 08, 458, 908, and 1208 of shoulder abduction.</p><p>Results: The mean muscle activity ranged from 15.8% to 54.7% maximal voluntary isometric contraction (MVIC) for UT, 30.5% to 51.6% MVIC for MT, and 21.4% to 25.5% MVIC for LT. A significant muscle 3 angle interaction was found (P , .001).</p><p>Post hoc analysis revealed that the MT was more activated than the UT and LT during both retraction at 08 (P , .001 and P ¼ .01, respectively) and 1208 (P ¼ .03 and P ¼ .002, respectively). During retraction at 458 and 908, the LT generated less activity than the UT (P ¼ .02 and P ¼ .03, respectively) and MT (P , .001 and P ¼ .002, respectively). Further, UT/MT and UT/LT ratios during retraction at 08 were lower than at 458 (P ¼ .03 and P ¼ .001, respectively) and 908 (P , .001 and P , .001, respectively). Retraction at 908 resulted in a higher UT/LT ratio than at 458 (P ¼ .004) and 1208 (P ¼ .004).</p><p>Conclusions: Due to less UT relative to MT activity, retraction at 08, 458, and 1208 can be preferable in early shoulder training or rehabilitation. Additionally, retraction at 908 was the most effective exercise in activating all parts of the trapezius muscle.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>T he trapezius muscle, with its 3 distinct parts, plays an important role in scapular stabilization. <ref type="bibr" target="#b0">1</ref> Notably, scapular stabilization is vital for accurate and effective glenohumeral-joint movements during overhead activities. <ref type="bibr" target="#b2">2</ref> During glenohumeral elevation, the scapula rotates upwardly and externally and tilts posteriorly. <ref type="bibr" target="#b3">3</ref> These scapular movements occur via coordinated activation of the serratus anterior, upper trapezius (UT), middle trapezius (MT), and lower trapezius (LT) muscles. Alterations in the activity of the parts of the trapezius muscle, such as excessive activation of the UT combined with decreased activation of the LT and MT, result in reduced scapular upward rotation, increased internal rotation, and anterior tilt. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b4">[4]</ref><ref type="bibr" target="#b5">[5]</ref><ref type="bibr" target="#b6">[6]</ref> These kinematic alterations may reduce the subacromial space and place excessive loads on the rotator cuff muscles as the arm elevates. <ref type="bibr" target="#b0">1</ref> Previous investigators <ref type="bibr" target="#b4">[4]</ref><ref type="bibr" target="#b5">[5]</ref><ref type="bibr" target="#b6">[6]</ref> have shown that postural, kinematic, and muscle-activity changes were all linked to symptoms of shoulder disorders.</p><p>Scapular-retraction exercises are often prescribed in both the prevention and treatment of shoulder injuries. <ref type="bibr" target="#b7">[7]</ref><ref type="bibr" target="#b8">[8]</ref><ref type="bibr" target="#b9">[9]</ref> Some researchers found that scapular protraction narrowed the subacromial space, which may be linked to subacromial impingement syndrome <ref type="bibr" target="#b10">[10]</ref><ref type="bibr" target="#b11">[11]</ref><ref type="bibr" target="#b12">[12]</ref> and poor scapulothoracic muscle-activation ratios. <ref type="bibr" target="#b10">10,</ref><ref type="bibr" target="#b13">13,</ref><ref type="bibr" target="#b14">14</ref> Conversely, scapular retrac-tion is thought to minimize the anterior tilt and internal rotation of the scapula, <ref type="bibr" target="#b8">8</ref> maintaining the subacromial space during shoulder elevation. <ref type="bibr" target="#b10">10,</ref><ref type="bibr" target="#b12">12,</ref><ref type="bibr" target="#b15">15</ref> The retracted scapula also serves as a stable base for the rotator cuff muscles and improves their force generation and stabilization function. <ref type="bibr" target="#b2">2,</ref><ref type="bibr" target="#b16">16</ref> One of the most important points to consider when applying scapular-retraction exercises is to keep the UT/ MT and UT/LT muscle-activation ratios at low levels. <ref type="bibr" target="#b7">7</ref> Individuals with prominence of the medial scapular border may benefit from incorporation of MT-enhanced exercises in their training programs. Individuals with either excessive scapular internal rotation-anterior tilt or reduced scapular upward rotation may benefit from LT-enhanced exercises. <ref type="bibr" target="#b0">1</ref> In previous studies, <ref type="bibr" target="#b8">8,</ref><ref type="bibr" target="#b14">14,</ref><ref type="bibr" target="#b17">[17]</ref><ref type="bibr" target="#b18">[18]</ref><ref type="bibr" target="#b19">[19]</ref> the scapular-retraction exercises were performed in predominantly prone positions, and some authors <ref type="bibr" target="#b20">[20]</ref><ref type="bibr" target="#b21">[21]</ref><ref type="bibr" target="#b22">[22]</ref> also compared trapezius muscle-activation levels among different retraction exercises performed in prone, sitting, and standing positions. Scapular retraction in an upright standing position is more functional as it provides core activation as well as lower extremity muscle activation compared with the prone and sitting positions. The shoulder-abduction angle is often modified during scapular-retraction exercise, especially to produce lower UT/MT and UT/LT ratios. However, how the shoulder-abduction angle affects the activity of the trapezius muscle parts during scapular retraction in a standing position is unknown. Contraction of the scapular retractors in different shoulder-abduction angles while standing may alter the length-tension relationship of the muscles, resulting in variable activation of the parts of the trapezius muscle. Therefore, our first purpose was to investigate UT, MT, and LT activation levels during scapular-retraction exercise with elastic resistance at different abduction angles in asymptomatic individuals. Elastic resistance was chosen because the exercises could be performed slowly and in a controlled manner. <ref type="bibr" target="#b20">20</ref> Our second purpose was to compare UT, MT, and LT activation levels and UT/MT and UT/LT activation ratios during scapular retraction at each abduction angle. This information would enhance the existing knowledge about trapezius-activation patterns and guide practitioners in selecting appropriate exercises for their patients. We hypothesized that higher shoulder-abduction angles would lead to increased activation of all parts of the trapezius and increased UT/MT and UT/LT activation ratios during scapular-retraction exercises.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Thirty-five asymptomatic individuals (17 men, 18 women; age ¼ 28.9 6 7.5 years, height ¼ 171.3 6 8.2 cm, body mass index ¼ 23.5 6 3.1 kg/m 2 ) participated in this investigation. Individuals were included if they were between 18 and 40 years of age, had no complaints of shoulder pain or instability, had no history of surgery of the shoulder or surrounding region, or had no history of systemic or neurologic diseases. Before enrollment in the investigation, all individuals gave written informed consent. This study was approved by the Hacettepe University Institutional Review Board.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedures</head><p>An 8-channel surface electromyography system (Telemyo DTS System; Noraxon) was used to measure UT, MT, and LT muscle activities. Bipolar Ag/AgCl electrodes (interelectrode distance ¼ 20 mm) were placed over the muscles according to the Surface ElectroMyography for the Noninvasive Assessment of Muscles (SENIAM) European Recommendations for Surface ElectroMyography. <ref type="bibr" target="#b23">23</ref> Before electrode placement, we prepared the electrode sites of the body by shaving and cleaning the skin surface to minimize skin impedance (,10 kX). Electrodes for the UT were placed midway between the acromion and the seventh cervical vertebra; for the MT, in the middle of the medial side of the scapula and the third thoracic vertebra; and for the LT, at two-thirds of the line from the trigonum spinae to the eighth thoracic vertebra. The sampling rate was 1500 Hz, common-mode rejection ratio was .80 dB, and gain was set at 1000 (baseline noise ,1 lV root mean square). Synchronized video capture with a rate of 50 frames/second (Webcam C500; Logitech International SA) was used during all measurements to identify the different phases of the exercises.</p><p>Exercise Testing. In all participants, both shoulders were tested. For each muscle, maximal voluntary isometric contractions (MVICs) were recorded before the exercise testing. To prevent order bias, the MVICs and the exercises were performed in randomized order. All MVIC measurements were obtained by the same investigator, and strong oral encouragement was given to promote maximal effort during the measurements. We chose the MVIC testing positions based on evidence from previous investigations. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b17">17,</ref><ref type="bibr" target="#b24">24,</ref><ref type="bibr" target="#b25">25</ref> Before data collection, the MVIC test positions were taught to each individual. For the UT MVIC measurements, the unsupported seated-T position was used. Resistance was applied over the elbow while the shoulder was in 908 of abduction. The MT was tested in the prone-T thumbs-up position, and resistance was applied over the elbow while the shoulder was in 908 of horizontal abduction with external rotation. The LT was tested in the prone-V thumbs-up position with the arm placed diagonally overhead and parallel to the fibers of the LT. One practice trial was performed in each MVIC position, followed by 3 test trials. Each MVIC trial lasted 5 seconds with 30 seconds of rest between trials. A 1-minute rest was allowed between MVIC test positions.</p><p>Retraction exercises at 08, 458, 908, and 1208 of shoulder abduction with elastic resistance were performed while the participants stood upright with their feet positioned shoulder-width apart (Figure <ref type="figure" target="#fig_0">1</ref>). Before data collection, they performed each exercise without elastic resistance (TheraBand, The Hygenic Corp) to become familiar with the movement and then repeated the exercise with elastic resistance. To standardize the amount of resistance across participants, we used the OMNI perceived exertion scale. Colado et al <ref type="bibr" target="#b26">26</ref> reported the intersession reliability of this scale as 0.72 to 0.76. Scapular retraction at 908 of shoulder abduction was chosen to determine the amount of band resistance. Participants performed this exercise with increasing resistance for 10 repetitions until the level of perceived effort was rated between 6 and 8 (somewhat hard to hard) on a 0 to 10 scale (0 ¼ extremely easy, 10 ¼ extremely hard).</p><p>After the practice trials, the participants were instructed in the resisted scapular retraction at each shoulderabduction angle (08, 458, 908, and 1208); this exercise was carried out 3 times with 5 seconds' rest between repetitions. A 2-minute rest was given between exercises to minimize the effect of muscle fatigue. All exercises were performed with 908 of elbow flexion except during the retraction exercise at 1208. Due to the nature of this exercise, retraction at 1208 (also known as high-row exercise) <ref type="bibr" target="#b21">21,</ref><ref type="bibr" target="#b25">25,</ref><ref type="bibr" target="#b27">27</ref> was performed from the elbow in full extension to 908 of flexion (Figure <ref type="figure" target="#fig_0">1</ref>). All exercises were performed from scapular protraction to full retraction. Wooden bars were used to guide the position of the elbows during the exercise to maintain the designated upper extremity angle. The participants were instructed to stand with feet shoulderwidth apart and perform full scapular retraction with their elbows positioned at their sides. In scapular retraction, they were asked to squeeze the shoulder blades without shoulder elevation or increased lumbar lordosis and focus on the interscapular region during the exercise. Each exercise consisted of 3-second concentric, 3-second isometric, and 3-second eccentric phases. A metronome (60 beeps/min) was used to standardize the velocity of each phase. Only data from the isometric phase were used for analysis.</p><p>Data Analysis. MyoResearch XP Master Edition software (Noraxon) was used for signal processing. Electro-myography signals were filtered with a band-pass filter (20 to 500 Hz) and smoothed using a root mean square algorithm with a 100-millisecond moving window. Data from each muscle contraction during scapular retraction were normalized to the maximal activity measured during the MVICs. The average values from 3 repetitions were calculated and expressed as a percentage of MVIC (%MVIC). Muscle activity in a range from 0% to 20% MVIC was considered low activity; 21% to 40% MVIC, moderate activity; 41% to 60% MVIC, high activity; and .60% MVIC, very high activity. <ref type="bibr" target="#b28">28</ref> Also, we calculated the UT/MT and UT/LT ratios using the average of the %MVICs to determine the appropriate exercise for low muscle ratios.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical Analysis</head><p>We used SPSS (version 21.0; IBM Corp) for all statistical analyses. The Kolmogorov-Smirnov test was applied to see if the distribution of the data was normal. A paired t test was used to compare individual muscle activity at each angle between the extremities. To assess muscle activity among the exercises, a 2-way repeated-measures analysis of variance (ANOVA) was conducted with muscle (3 levels) and angle (4 levels) as within-subject factors. One-way ANOVA was used to determine whether the UT/MT and UT/LT ratios differed among the exercises. Post hoc pairwise comparisons were performed using a Bonferroni correction. The significance level was set at a , .05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Only dominant-shoulder muscle activities were reported as the paired t tests revealed no differences between extremities for the UT, MT, and LT activities at each angle (P values . .05). The mean muscle activity during the 4 exercises ranged from 15.8% to 54.7% MVIC for the UT, from 30.5% to 51.6% MVIC for the MT, and from 21.4% to 25.5% MVIC for the LT (Table <ref type="table" target="#tab_0">1</ref> and Figure <ref type="figure" target="#fig_1">2</ref>).</p><p>We found a significant muscle 3 angle interaction for the retraction exercise (F 6,204 ¼ 18.31, P , .001). Post hoc tests revealed that the MT was more activated than the UT and LT during retraction at both 08 (P , .001 and P ¼ .01 respectively) and 1208 of shoulder abduction (P ¼ .03 and P ¼ .002, respectively). No differences occurred between the UT and LT activities in retraction at 08 (P ¼ .10) and 1208 of abduction (P ¼ .17). During retraction at 458 and 908 of shoulder abduction, the LT generated less activity than the UT (P ¼ .02 and P ¼ .03, respectively) and MT (P , .001 and P ¼ .002, respectively). No differences were present between the UT and MT activities in retraction at 458 (P ¼ .07) and 908 of abduction (P ¼ .56; Table <ref type="table" target="#tab_2">2</ref>). When we compared activity of the different parts of the trapezius, post hoc tests indicated that the highest UT activity was observed at 908 of shoulder abduction and the lowest at 08 (P values , .001). The MT generated the highest activity during retraction at 908 of shoulder abduction and the lowest activity at 08 (P values , .001).</p><p>The LT activity at 1208 of shoulder abduction was higher during retraction than at 08 (P ¼ .004). No other differences were demonstrated among the exercises for LT activity (Table <ref type="table" target="#tab_1">3</ref>).</p><p>An angle main effect was found for the UT/MT (F 3,102 ¼ 9.75, P , .001) and UT/LT (F 3,102 ¼ 15.82, P , .001) ratios. Post hoc tests indicated that the UT/MT ratio during retraction at 08 was lower than at 458 (P ¼ .03) and 908 (P , .001) of shoulder abduction. Additionally, the UT/MT ratio was higher during retraction at 908 than at 458 (P ¼ .01). No differences were present in the UT/MT ratios for retraction at 08 and 1208 (P ¼ .09) or 908 and 1208 (P ¼ .10) of shoulder abduction.</p><p>The UT/LT ratio during retraction at 08 was lower than at 458 (P ¼ .001) and 908 (P , .001) of shoulder abduction. Additionally, retraction at 908 resulted in a higher UT/LT ratio than at 458 (P ¼ .004) and 1208 (P ¼ .004) of shoulder abduction. The UT/LT ratios were not different between retraction at 08 and 1208 (P ¼ .22) or 458 and 1208 (P ¼ 1.00) of shoulder abduction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Our main objective was to compare the muscle-activation levels of the 3 distinct parts of the trapezius during retraction exercise at different shoulder-abduction angles. According to our results, retraction at 08 and 1208 generated more MT activity relative to the UT and LT. Retraction at 458 and 908 produced greater MT and UT activity compared with LT activity. The exercise generally resulted in moderate-to-high (31% to 60% MVIC) MT and low-tomoderate (16% to 30% MVIC) LT activity. The UT activity varied from low to high (16% to 55%), depending on the shoulder angle. The highest UT, MT, and LT muscle activities were observed with retraction at 908 and the lowest at 08. Generally, we found that trapezius muscle activity increased as the shoulder angle increased during the retraction exercise, excluding retraction at 1208 of shoulder abduction. The increased muscle activation with a rise in shoulder-abduction angle can be explained by the increase in upward rotation, external rotation, and posterior tilt of the scapula during shoulder elevation. Because retraction at 1208 of abduction was performed from the overhead position downward, decreases in shoulder abduction and in scapular upward rotation may have led to lower UT and MT muscle activities compared with retraction at 908. In a recent investigation, Contemori et al <ref type="bibr" target="#b14">14</ref>   trapezius muscle activity during glenohumeral abduction performed between 158 and 1208 in different combinations of scapular positions (neutral, retracted, protracted) while standing. Retraction of the scapula led to increased activation of all trapezial parts as the shoulder-abduction angle increased, consistent with our findings. However, their trapezius muscle-activation levels were greater than ours in all shoulder-abduction angles. These variations might be due to several factors. Contemori et al <ref type="bibr" target="#b14">14</ref> performed scapular retraction during dynamic shoulder abduction in a standing position, so that the trapezius worked against gravity. Also, scapular retraction was conducted with full elbow extension, which overloaded the trapezius more than the scapular-retraction exercise with 908 of elbow flexion. Several researchers <ref type="bibr" target="#b21">21,</ref><ref type="bibr" target="#b27">27,</ref><ref type="bibr" target="#b29">29,</ref><ref type="bibr" target="#b30">30</ref> investigated trapezius muscle activity during scapular retraction or rowing exercises with a pulley apparatus or tubing resistance or without resistance in standing position. De Mey et al <ref type="bibr" target="#b21">21</ref> evaluated UT and LT activity during scapular-retraction kinetic chain exercises at approximately 908 of elevation with pulley resistance (5 to 10 kg). They found that both muscle-activation levels were below 20% In addition, they reported greater LT versus UT activity during all exercises. Castelein et al <ref type="bibr" target="#b29">29</ref> examined trapezius muscle activity during overhead retraction (without resistance) in a standing position similar to our retraction at 1208 exercise and described low UT, MT, and LT activities (,30% MVIC). The overhead retraction used in their study was without resistance and may have caused less trapezius muscle activity compared with our results (25.5% to 43.8%, respectively). McCabe et al <ref type="bibr" target="#b30">30</ref> measured trapezius muscle activity during unilateral scapular-retraction exercise performed at 808 of shoulder elevation with elastic resistance in a standing position. They noted moderate to marked (50% to 62% MVIC) UT, MT, and LT activity. Furthermore, Myers et al <ref type="bibr" target="#b27">27</ref> demonstrated 35.5% to 51.2% MVIC LT activity during unilateral low, middle, and high scapular rows with resistance-tubing exercises. They also stated that the lowest LT activity occurred during the middle-row exercise. Trapezius activity levels in these 2 investigations were slightly higher than ours. First, the 2 groups of researchers tested the isotonic phases of the exercises instead of the isometric phase, which might have led to greater muscle-activation levels than ours. Second, they used unilateral scapular retraction, which might have caused greater muscle activity levels than the exercise performed bilaterally. Moreover, lower UT activities in our research might be due to the oral feedback provided by the examiner during the exercise to participants to not shrug their shoulders.</p><p>To date, many authors <ref type="bibr" target="#b8">8,</ref><ref type="bibr" target="#b14">14,</ref><ref type="bibr" target="#b17">[17]</ref><ref type="bibr" target="#b18">[18]</ref><ref type="bibr" target="#b19">[19]</ref> have reported trapezius muscle activity during retraction exercises at different shoulder-abduction angles in the prone position. Oyama et al <ref type="bibr" target="#b8">8</ref> explored trapezius muscle activity while participants lay prone and performed scapular retractions at 08, 458, 908, and 1208 of shoulder abduction. Although the increases in UT, MT, and LT muscle activity with shoulder abduction paralleled our results, all of the trapezius muscle-activation levels were higher than ours. The exercises were performed against gravity in Oyama et al's work, <ref type="bibr" target="#b8">8</ref> which might have loaded the trapezius more than in a standing position. Further, trapezial activation might have been more isolated in the prone position due to the limited contributions of the core and lower extremity muscles in that position. Therefore, scapular retraction at different shoulder-abduction angles in a standing position may be useful in early training or shoulder rehabilitation to train conscious trapezius muscle control in a functional position for use in the kinetic chain. Lower UT muscle-activation levels in standing versus prone position might be helpful in individuals with prominent medial or inferior scapular borders. However, if the goal is to increase UT activity, such as in individuals with existing prominence of the superior scapular border, scapular retraction in standing position may not be as beneficial as in prone position.</p><p>One crucial point to be considered in exercise selection is the activation ratios for the parts of the trapezius muscle. We observed lower UT/MT and UT/LT ratios in retraction at 08 and higher ratios in retraction at 908 of shoulder abduction. Retraction at 458 and 1208 generated similar UT/ MT and UT/LT ratios. Lopes et al <ref type="bibr" target="#b31">31</ref> indicated that individuals with obvious scapular dyskinesis had reduced scapular external rotation and increased UT activity compared with those who did not have dyskinesis. Therefore, exercises with lower UT/MT or UT/LT ratios are considered most appropriate for improving scapular muscle performance, especially in individuals with abnormal scapular motion. <ref type="bibr" target="#b2">2</ref> Based on these results, we concluded that all exercise variations except retraction at 908 may be useful in the early phases of training or rehabilitation because of their appropriate trapezius muscle balance activation. However, in later stages, retraction at 908 would be more helpful, especially if the goal is to increase muscleactivation levels of the entire trapezius. This study had several limitations. First, participants were young adults without shoulder symptoms. Thus, the results may not be generalizable to different age groups or individuals with shoulder conditions due to variable scapular kinematics. Furthermore, although this investigation provided useful information regarding trapezius muscle activity during retraction exercise at different shoulder-abduction angles, we did not investigate associated scapular kinematics. Examining scapular kinematics simultaneously with muscle activity during the exercises would provide additional information for practitioners in selecting appropriate exercise for their clients.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>Overall, our results suggested that the scapular-retraction exercises at different angles of shoulder abduction with elastic resistance activated the UT and MT more than the LT. Notably, individuals with existing prominence of the medial scapular border may benefit from these exercises because they primarily activate the MT muscle. The lowest UT/MT and UT/LT ratios were in retraction at 08. Retraction at 458 and 1208 also elicited low ratios. Therefore, retraction at 08, 458, and 1208 of abduction can be performed to decrease UT relative to MT activity, depending on the goal in early shoulder training and rehabilitation. Additionally, if the goal is to maximize MT and LT activations regardless of UT activity, retraction at 908 may be used in exercise programs as it elicited the highest MT and LT activations.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Retraction exercise at various shoulder-abduction angles.</figDesc><graphic coords="3,95.02,41.44,426.39,378.82" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Mean normalized activity of the upper trapezius, middle trapezius, and lower trapezius at each abduction angle.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>compared theNormalized Activity of Each Muscle and Activation Ratios at Each Abduction Angle</figDesc><table><row><cell></cell><cell></cell><cell cols="2">Mean 6 SD</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Maximal Voluntary Isometric Contraction, %</cell><cell></cell><cell cols="2">Activation Ratio</cell></row><row><cell>Degrees</cell><cell>UT</cell><cell>MT</cell><cell>LT</cell><cell>UT/MT</cell><cell>UT/LT</cell></row><row><cell>0</cell><cell>15.8 6 11.8</cell><cell>30.5 6 16.1</cell><cell>21.4 6 15.2</cell><cell>0.67 6 0.11</cell><cell>1.09 6 0.95</cell></row><row><cell>45</cell><cell>33.3 6 18.8</cell><cell>43.1 6 24.7</cell><cell>24.0 6 15.4</cell><cell>0.97 6 0.11</cell><cell>1.82 6 1.08</cell></row><row><cell>90</cell><cell>54.7 6 24.6</cell><cell>51.6 6 24.5</cell><cell>25.2 6 13.4</cell><cell>1.25 6 0.13</cell><cell>2.71 6 1.63</cell></row><row><cell>120</cell><cell>40.0 6 17.9</cell><cell>43.8 6 27.7</cell><cell>25.5 6 14.4</cell><cell>1.00 6 0.14</cell><cell>1.61 6 1.38</cell></row><row><cell cols="4">Abbreviations: LT, lower trapezius; MT, middle trapezius; UT, upper trapezius.</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 3 .</head><label>3</label><figDesc>Post hoc Pairwise Comparisons of Mean Normalized Activity of Each Trapezius Muscle at Various Shoulder-Abduction Angles</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">Shoulder-Abduction Angles, 8</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Trapezius</cell><cell>0-45</cell><cell></cell><cell>0-90</cell><cell></cell><cell>0-120</cell><cell></cell><cell>45-90</cell><cell></cell><cell>45-120</cell><cell></cell><cell>90-120</cell><cell></cell></row><row><cell>Muscle</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>001</cell><cell>2.35 6 2.3</cell><cell>.33</cell><cell cols="2">23.72 6 3.2 ,.001</cell></row><row><cell>Middle</cell><cell cols="6">À12.52 6 2.7 ,.001 À21.12 6 3.1 ,.001 À13.25 6 3.1 ,.001</cell><cell cols="3">À8.60 6 1.9 ,.001 À0.73 6 1.5</cell><cell>.62</cell><cell>7.87 6 2.5</cell><cell>.003</cell></row><row><cell>Lower</cell><cell>À2.49 6 1.9</cell><cell>.20</cell><cell>À3.77 6 2.2</cell><cell>.09</cell><cell>À4.07 6 1.3</cell><cell>.004</cell><cell>À1.28 6 1.6</cell><cell>.42</cell><cell>À1.57 6 1.8</cell><cell>.39</cell><cell>À0.30 6 2.0</cell><cell>.89</cell></row></table><note><p>Mean 6 SD P Value Mean 6 SD P Value Mean 6 SD P Value Mean 6 SD P Value Mean 6 SD P Value Mean 6 SD P Value Upper À17.52 6 2.6 ,.001 À38.90 6 4.1 ,.001 À15.17 6 2.7 ,.001 À21.38 6 3.2 ,.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc>Post hoc Pairwise Comparisons of Mean Normalized Activity for Trapezius Muscle Parts at Each Angle</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell cols="2">Maximal Voluntary Isometric Contraction, %</cell><cell></cell><cell></cell></row><row><cell></cell><cell>UT-MT</cell><cell></cell><cell>UT-LT</cell><cell></cell><cell>MT-LT</cell><cell></cell></row><row><cell>Degrees</cell><cell>Mean 6 SD</cell><cell>P Value</cell><cell>Mean 6 SD</cell><cell>P Value</cell><cell>Mean 6 SD</cell><cell>P Value</cell></row><row><cell>0</cell><cell>À14.70 6 3.3</cell><cell>,.001</cell><cell>À5.65 6 3.5</cell><cell>.10</cell><cell>9.04 6 3.5</cell><cell>.01</cell></row><row><cell>45</cell><cell>À9.70 6 5.2</cell><cell>.07</cell><cell>9.37 6 4.0</cell><cell>.02</cell><cell>19.07 6 5.0</cell><cell>,.001</cell></row><row><cell>90</cell><cell>3.09 6 5.2</cell><cell>.55</cell><cell>29.47 6 4.8</cell><cell>,.001</cell><cell>26.40 6 4.9</cell><cell>,.001</cell></row><row><cell>120</cell><cell>À12.77 6 5.7</cell><cell>.03</cell><cell>5.46 6 3.9</cell><cell>.16</cell><cell>18.22 6 5.3</cell><cell>.002</cell></row><row><cell cols="4">Abbreviations: LT, lower trapezius; MT, middle trapezius; UT, upper trapezius.</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Downloaded from http://meridian.allenpress.com/jat/article-pdf/56/12/1327/2984343/i1062-6050-56-12-1327.pdf by guest on 01 July 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Volume 56 Number 12 December 2021 Downloaded from http://meridian.allenpress.com/jat/article-pdf/56/12/1327/2984343/i1062-6050-56-12-1327.pdf by guest on 01 July 2024</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Kinesiologic considerations for targeting activation of scapulothoracic muscles</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Camargo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Neumann</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>part 2: trapezius</note>
+	<note type="raw_reference">Camargo PR, Neumann DA. Kinesiologic considerations for targeting activation of scapulothoracic muscles, part 2: trapezius.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1016/j.bjpt.2019.01.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Braz J Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="467" to="475" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Braz J Phys Ther. 2019;23(6):467-475. doi:10.1016/j.bjpt.2019.01. 011</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Evaluation and management of scapular dyskinesis in overhead athletes</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Kibler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sciascia</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12178-019-09591-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Rev Musculoskelet Med</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="515" to="526" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kibler WB, Sciascia A. Evaluation and management of scapular dyskinesis in overhead athletes. Curr Rev Musculoskelet Med. 2019;12(4):515-526. doi:10.1007/s12178-019-09591-1</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Direct 3dimensional measurement of scapular kinematics during dynamic movements in vivo</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Mcclure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Michener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Sennett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Karduna</surname></persName>
+		</author>
+		<idno type="DOI">10.1067/mse.2001.112954</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Shoulder Elbow Surg</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="269" to="277" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McClure PW, Michener LA, Sennett BJ, Karduna AR. Direct 3- dimensional measurement of scapular kinematics during dynamic movements in vivo. J Shoulder Elbow Surg. 2001;10(3):269-277. doi:10.1067/mse.2001.112954</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Scapular positioning and movement in unimpaired shoulders, shoulder impingement syndrome, and glenohumeral instability</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Struyf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Baeyens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mottram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Meeusen</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1600-0838.2010.01274.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="352" to="358" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Struyf F, Nijs J, Baeyens JP, Mottram S, Meeusen R. Scapular positioning and movement in unimpaired shoulders, shoulder impingement syndrome, and glenohumeral instability. Scand J Med Sci Sports. 2011;21(3):352-358. doi:10.1111/j.1600-0838. 2010.01274.x</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Anatomical and biomechanical mechanisms of subacromial impingement syndrome</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Michener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Mcclure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Karduna</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0268-0033(03)00047-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Biomech</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="369" to="379" />
+			<date type="published" when="2003">2003</date>
+			<pubPlace>Bristol, Avon</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Michener LA, McClure PW, Karduna AR. Anatomical and biomechanical mechanisms of subacromial impingement syndrome. Clin Biomech (Bristol, Avon). 2003;18(5):369-379. doi:10.1016/ s0268-0033(03)00047-0</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The association of scapular kinematics and glenohumeral joint pathologies</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Ludewig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Reynolds</surname></persName>
+		</author>
+		<idno type="DOI">10.2519/jospt.2009.2808</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="90" to="104" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ludewig PM, Reynolds JF. The association of scapular kinematics and glenohumeral joint pathologies. J Orthop Sports Phys Ther. 2009;39(2):90-104. doi:10.2519/jospt.2009.2808</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Scapulothoracic and scapulohumeral exercises: a narrative review of electromyographic studies</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cricchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Frazer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jht.2011.06.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Hand Ther</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="322" to="334" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cricchio M, Frazer C. Scapulothoracic and scapulohumeral exercises: a narrative review of electromyographic studies. J Hand Ther. 2011;24(4):322-334. doi:10.1016/j.jht.2011.06.001</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Threedimensional scapular and clavicular kinematics and scapular muscle activity during retraction exercises</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Oyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Wassinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Lephart</surname></persName>
+		</author>
+		<idno type="DOI">10.2519/jospt.2010.3018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="169" to="179" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oyama S, Myers JB, Wassinger CA, Lephart SM. Three- dimensional scapular and clavicular kinematics and scapular muscle activity during retraction exercises. J Orthop Sports Phys Ther. 2010;40(3):169-179. doi:10.2519/jospt.2010.3018</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Effectiveness of strengthening and stretching exercises for the postural correction of abducted scapulae: a review</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hrysomallis</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0b013e3181c069d8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="567" to="574" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hrysomallis C. Effectiveness of strengthening and stretching exercises for the postural correction of abducted scapulae: a review. J Strength Cond Res. 2010;24(2):567-574. doi:10.1519/JSC. 0b013e3181c069d8</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Relationship between middle trapezius muscle activation and acromiohumeral distance change during shoulder elevation with scapular retraction</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Guney-Deniz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Harput</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Toprak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Duzgun</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/jsr.2018-0131</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="266" to="271" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guney-Deniz H, Harput G, Toprak U, Duzgun I. Relationship between middle trapezius muscle activation and acromiohumeral distance change during shoulder elevation with scapular retrac- tion. J Sport Rehabil. 2019;28(3):266-271. doi:10.1123/jsr.2018- 0131</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The influence of scapular retraction and protraction on the width of the subacromial space. An MRI study</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Solem-Bertoft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Thuomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Westerberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Orthop Relat Res</title>
+		<imprint>
+			<biblScope unit="volume">296</biblScope>
+			<biblScope unit="page" from="99" to="103" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Solem-Bertoft E, Thuomas KA, Westerberg CE. The influence of scapular retraction and protraction on the width of the subacromial space. An MRI study. Clin Orthop Relat Res. 1993;296:99-103.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Effect of posture on acromiohumeral distance with arm elevation in subjects with and without rotator cuff disease using ultrasonography</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kalra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Seitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Boardman</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Iii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Michener</surname></persName>
+		</author>
+		<idno type="DOI">10.2519/jospt.2010.3155</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="633" to="640" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kalra N, Seitz AL, Boardman ND III, Michener LA. Effect of posture on acromiohumeral distance with arm elevation in subjects with and without rotator cuff disease using ultrasonography. J Orthop Sports Phys Ther. 2010;40(10):633-640. doi:10.2519/jospt. 2010.3155</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Effect of the scapula reposition test on shoulder impingement symptoms and elevation strength in overhead athletes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Tate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcclure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kareha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Irwin</surname></persName>
+		</author>
+		<idno type="DOI">10.2519/jospt.2008.2616</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="4" to="11" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tate AR, McClure P, Kareha S, Irwin D. Effect of the scapula reposition test on shoulder impingement symptoms and elevation strength in overhead athletes. J Orthop Sports Phys Ther. 2008;38(1):4-11. doi:10.2519/jospt.2008.2616</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Effects of scapular retraction/ protraction position and scapular elevation on shoulder girdle muscle activity during glenohumeral abduction</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Contemori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Panichi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Biscarini</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.humov.2019.01.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Hum Mov Sci</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="55" to="66" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Contemori S, Panichi R, Biscarini A. Effects of scapular retraction/ protraction position and scapular elevation on shoulder girdle muscle activity during glenohumeral abduction. Hum Mov Sci. 2019;64:55-66. doi:10.1016/j.humov.2019.01.005</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Acromiohumeral distance during neuromuscular electrical stimulation of the lower trapezius and serratus anterior muscles in healthy participants</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Bdaiwi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Mackenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Herrington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Horsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Cools</surname></persName>
+		</author>
+		<idno type="DOI">10.4085/1062-6050-50.4.03</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="713" to="718" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bdaiwi AH, Mackenzie TA, Herrington L, Horsley I, Cools AM. Acromiohumeral distance during neuromuscular electrical stimula- tion of the lower trapezius and serratus anterior muscles in healthy participants. J Athl Train. 2015;50(7):713-718. doi:10.4085/1062- 6050-50.4.03</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Evaluation of apparent and absolute supraspinatus strength in patients with shoulder injury using the scapular retraction test</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Kibler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sciascia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dome</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0363546506288728</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1643" to="1647" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kibler WB, Sciascia A, Dome D. Evaluation of apparent and absolute supraspinatus strength in patients with shoulder injury using the scapular retraction test. Am J Sports Med. 2006;34(10):1643-1647. doi:10.1177/0363546506288728</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Normalization procedures using maximum voluntary isometric contractions for the serratus anterior and trapezius muscles during surface EMG analysis</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Ekstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Soderberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Donatelli</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jelekin.2004.09.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="418" to="428" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ekstrom RA, Soderberg GL, Donatelli RA. Normalization proce- dures using maximum voluntary isometric contractions for the serratus anterior and trapezius muscles during surface EMG analysis. J Electromyogr Kinesiol. 2005;15(4):418-428. doi:10. 1016/j.jelekin.2004.09.006</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Comparison of the trapezius and serratus anterior muscles isolation ratio during different shoulder abduction exercises</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Yoo</surname></persName>
+		</author>
+		<idno type="DOI">10.1589/jpts.29.964</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Phys Ther Sci</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="964" to="965" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yoo WG. Comparison of the trapezius and serratus anterior muscles isolation ratio during different shoulder abduction exercises. J Phys Ther Sci. 2017;29(6):964-965. doi:10.1589/jpts.29.964</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A comparison of trapezius muscle activities of different shoulder abduction angles and rotation conditions during prone horizontal abduction</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Mun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1589/jpts.27.97</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Phys Ther Sci</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="97" to="100" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lim JY, Lee JS, Mun BM, Kim TH. A comparison of trapezius muscle activities of different shoulder abduction angles and rotation conditions during prone horizontal abduction. J Phys Ther Sci. 2015;27(1):97-100. doi:10.1589/jpts.27.97</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Electromyographic activity and applied load during shoulder rehabilitation exercises using elastic resistance</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Hintermeister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Lange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Schultheis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Bey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Hawkins</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/03635465980260021001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="210" to="220" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hintermeister RA, Lange GW, Schultheis JM, Bey MJ, Hawkins RJ. Electromyographic activity and applied load during shoulder rehabilitation exercises using elastic resistance. Am J Sports Med. 1998;26(2):210-220. doi:10.1177/03635465980260021001</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Kinetic chain influences on upper and lower trapezius muscle activation during eight variations of a scapular retraction exercise in overhead athletes</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>De Mey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Danneels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cagnie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Van Den Bosch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Flier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Cools</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jsams.2012.04.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sci Med Sport</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="65" to="70" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">De Mey K, Danneels L, Cagnie B, Van den Bosch L, Flier J, Cools AM. Kinetic chain influences on upper and lower trapezius muscle activation during eight variations of a scapular retraction exercise in overhead athletes. J Sci Med Sport. 2013;16(1):65-70. doi:10.1016/ j.jsams.2012.04.008</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Electromyographic activity of scapular muscle control in free-motion exercise</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tsuruike</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Ellenbecker</surname></persName>
+		</author>
+		<idno type="DOI">10.4085/1062-6050-51.4.10</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="195" to="204" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nakamura Y, Tsuruike M, Ellenbecker TS. Electromyographic activity of scapular muscle control in free-motion exercise. J Athl Train. 2016;51(3):195-204. doi:10.4085/1062-6050-51.4.10</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Development of recommendations for SEMG sensors and sensor placement procedures</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Hermens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Freriks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Disselhorst-Klug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rau</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s1050-6411(00)00027-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="361" to="374" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hermens HJ, Freriks B, Disselhorst-Klug C, Rau G. Development of recommendations for SEMG sensors and sensor placement procedures. J Electromyogr Kinesiol. 2000;10(5):361-374. doi:10. 1016/s1050-6411(00)00027-4</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Optimal normalization tests for muscle activation of the levator scapulae, pectoralis minor, and rhomboid major: an electromyography study using maximum voluntary isometric contractions</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Castelein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cagnie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Parlevliet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Danneels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cools</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apmr.2015.06.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Phys Med Rehab</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1820" to="1827" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Castelein B, Cagnie B, Parlevliet T, Danneels L, Cools A. Optimal normalization tests for muscle activation of the levator scapulae, pectoralis minor, and rhomboid major: an electromyography study using maximum voluntary isometric contractions. Arch Phys Med Rehab. 2015;96(10):1820-1827. doi:10.1016/j.apmr.2015.06.004</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Rehabilitation of scapular muscle balance: which exercises to prescribe?</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Cools</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Dewitte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lanszweert</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0363546507303560</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1744" to="1751" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cools AM, Dewitte V, Lanszweert F, et al. Rehabilitation of scapular muscle balance: which exercises to prescribe? Am J Sports Med. 2007;35(10):1744-1751. doi:10.1177/0363546507303560</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Concurrent validation of the OMNI-resistance exercise scale of perceived exertion with Thera-band resistance bands</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Colado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Garcia-Masso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Triplett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Flandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Borreani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tella</forename><forename type="middle">V</forename></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0b013e318245c0c9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="3018" to="3024" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Colado JC, Garcia-Masso X, Triplett TN, Flandez J, Borreani S, Tella V. Concurrent validation of the OMNI-resistance exercise scale of perceived exertion with Thera-band resistance bands. J Strength Cond Res. 2012;26(11):3018-3024. doi:10.1519/JSC. 0b013e318245c0c9</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">On-the-field resistance-tubing exercises for throwers: an electromyographic analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Pasquale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Laudner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Sell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Bradley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Lephart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="15" to="22" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Myers JB, Pasquale MR, Laudner KG, Sell TC, Bradley JP, Lephart SM. On-the-field resistance-tubing exercises for throwers: an electromyographic analysis. J Athl Train. 2005;40(1):15-22.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">An electromyographic analysis of the upper extremity in pitching</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Digiovine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Jobe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Perry</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1058-2746(09)80011-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Shoulder Elbow Surg</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="15" to="25" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Digiovine NM, Jobe FW, Pink M, Perry J. An electromyographic analysis of the upper extremity in pitching. J Shoulder Elbow Surg. 1992;1(1):15-25. doi:10.1016/S1058-2746(09)80011-6</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Modifying the shoulder joint position during shrugging and retraction exercises alters the activation of the medial scapular muscles</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Castelein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cools</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Parlevliet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cagnie</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.math.2015.09.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Man Ther</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="250" to="255" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Castelein B, Cools A, Parlevliet T, Cagnie B. Modifying the shoulder joint position during shrugging and retraction exercises alters the activation of the medial scapular muscles. Man Ther. 2016;21:250-255. doi:10.1016/j.math.2015.09.005</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Surface electromygraphic analysis of the lower trapezius muscle during exercises performed below ninety degrees of shoulder elevation in healthy subjects</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Mccabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Orishimo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Mchugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Nicholas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Am J Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="34" to="43" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCabe RA, Orishimo KF, McHugh MP, Nicholas SJ. Surface electromygraphic analysis of the lower trapezius muscle during exercises performed below ninety degrees of shoulder elevation in healthy subjects. N Am J Sports Phys Ther. 2007;2(1):34-43.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Visual scapular dyskinesis: kinematics and muscle activity alterations in patients with subacromial impingement syndrome</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Lopes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Timmons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Ciconelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Michener</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apmr.2014.09.029</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Phys Med Rehab</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="298" to="306" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lopes AD, Timmons MK, Grover M, Ciconelli RM, Michener LA. Visual scapular dyskinesis: kinematics and muscle activity alter- ations in patients with subacromial impingement syndrome. Arch Phys Med Rehab. 2015;96(2):298-306. doi:10.1016/j.apmr.2014.09. 029</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

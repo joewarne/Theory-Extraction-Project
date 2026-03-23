@@ -1,0 +1,1379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Dynamic Ankle Orthosis Reduces Tibial Compressive Force and Increases Ankle Motion Compared With a Walking Boot</title>
+				<funder>
+					<orgName type="full">American College of Sports Medicine</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">University of Tennessee Research Foundation Maturation Grant Program</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024">25/2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Perri</forename><forename type="middle">A</forename><surname>Johnson</surname><genName>JR</genName></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Tennessee Health Science Center</orgName>
+								<address>
+									<settlement>Memphis</settlement>
+									<region>TN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><roleName>Ph.D</roleName><forename type="first">Max</forename><forename type="middle">R</forename><surname>Paquette</surname></persName>
+							<email>mrpqette@memphis.edu</email>
+							<affiliation key="aff1">
+								<orgName type="institution">University of Memphis</orgName>
+								<address>
+									<settlement>Memphis</settlement>
+									<region>TN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Denis</forename><forename type="middle">J</forename><surname>Diangelo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Tennessee Health Science Center</orgName>
+								<address>
+									<settlement>Memphis</settlement>
+									<region>TN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Memphis</orgName>
+								<address>
+									<addrLine>171b Elma Roane Fieldhouse</addrLine>
+									<postCode>38152</postCode>
+									<settlement>Memphis</settlement>
+									<region>TN</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Dynamic Ankle Orthosis Reduces Tibial Compressive Force and Increases Ankle Motion Compared With a Walking Boot</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024">25/2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">981061281452D8F4A64E0F1D543D119B</idno>
+					<idno type="DOI">10.1249/MSS.0000000000003234</idno>
+					<note type="submission">Submitted for publication November 2022. Accepted for publication May 2023.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:14+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Purpose: Tibial bone stress injuries are a common overuse injury among runners and military cadets. Current treatment involves wearing an orthopedic walking boot for 3 to 12 wk, which limits ankle motion and leads to lower limb muscle atrophy. A dynamic ankle orthosis (DAO) was designed to provide a distractive force that offloads in-shoe vertical force and retains sagittal ankle motion during walking. It remains unclear how tibial compressive force is altered by the DAO. This study compared tibial compressive force and ankle motion during walking between the DAO and an orthopedic walking boot. Methods: Twenty young adults walked on an instrumented treadmill at 1.0 m•s -1 in two brace conditions: DAO and walking boot. Three-dimensional kinematic, ground reaction forces, and in-shoe vertical force data were collected to calculate peak tibial compressive force. Paired t-tests and Cohen's d effect sizes were used to assess mean differences between conditions. Results: Peak tibial compressive force (P = 0.023; d = 0.5) and Achilles tendon force (P = 0.017; d = 0.5) were moderately lower in the DAO compared with the walking boot. Sagittal ankle excursion was 54.9% greater in the DAO compared with the walking boot (P = 0.05; d = 3.1). Conclusions: The findings from this study indicated that the DAO moderately reduced tibial compressive force and Achilles tendon force and allowed more sagittal ankle excursion during treadmill walking compared with an orthopedic walking boot.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>R</head><p>unning is a common form of exercise that has many health benefits, but unfortunately, overuse injury rates and incidences are high among distance runners. The repetitive nature of running at submaximal levels causes the mechanical properties of bone to degrade over time, leading to increased strain and the development of microfractures. This phenomenon is commonly referred to as fatigue <ref type="bibr" target="#b0">(1)</ref><ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref>. When provided with sufficient time to rest, bone can remodel and adapt to the loading environment <ref type="bibr" target="#b4">(5)</ref>. However, when the rate of bone damage outweighs the rate of repair, microcrack propagation can lead to stress fractures <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b5">(6)</ref><ref type="bibr" target="#b6">(7)</ref><ref type="bibr" target="#b7">(8)</ref>. Tibial bone stress injuries (TBSI) are a common overuse injury accounting for 21.9%-69% of stress fracture incidence among runners <ref type="bibr" target="#b8">(9,</ref><ref type="bibr" target="#b9">10)</ref> and 24%-51.2% of stress fractures in military cadets <ref type="bibr" target="#b10">(11)</ref><ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref>. TBSI most commonly occur in the middle to distal third of the anterior tibia from rapid increases in physical activity or running exposure <ref type="bibr" target="#b13">(14)</ref>.</p><p>A period of reduced loading experienced at the injured site is often recommended after the initial diagnosis of a TBSI <ref type="bibr" target="#b14">(15)</ref>. Current standard of care consists of TBSI patients wearing a walking boot to immobilize the lower limb during the recovery period. The severity of the stress fracture will often dictate the period of time the TBSI patient will wear a boot. Even for low-risk stress fracture injuries that are generally treated with conservative methods compared with high-risk stress fracture injuries that require surgical treatment, patients are typically prescribed boot wear for 3-12 wk, depending on the level of severity of the injury, before returning to running activities <ref type="bibr" target="#b12">(13,</ref><ref type="bibr" target="#b14">(15)</ref><ref type="bibr" target="#b15">(16)</ref><ref type="bibr" target="#b16">(17)</ref>. General rehabilitation methods for handling stress fractures are separated into two phases. Phase 1 (acute phase) requires a period of immobilization and reduced loading where rest, ice, compression, and elevation is needed <ref type="bibr" target="#b17">(18)</ref>. When the patient is pain-free, they can enter the second phase of rehab incorporating progressive loading <ref type="bibr" target="#b14">(15,</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b17">18)</ref>. Although walking boots are the current standard of care, there is no knowledge if, or how, they affect loading mechanics on the tibia.</p><p>Most studies on TBSIs have focused on clinical outcomes <ref type="bibr" target="#b12">(13,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20)</ref> and do not examine the mechanical loading environment of bone when wearing a walking boot. Findings from studies focused on the biomechanics of walking boots found that they provide a reduction in forefoot pressure, but conflicting evidence suggest they moderately reduce or increase heel pressure <ref type="bibr" target="#b20">(21)</ref><ref type="bibr" target="#b21">(22)</ref><ref type="bibr" target="#b22">(23)</ref><ref type="bibr" target="#b23">(24)</ref>. Walking boots also limit sagittal ankle motion causing reduced muscle activity, which could, and generally does, lead to muscle atrophy of the gastrocnemius, soleus, and peroneal muscles <ref type="bibr" target="#b24">(25)</ref><ref type="bibr" target="#b25">(26)</ref><ref type="bibr" target="#b26">(27)</ref><ref type="bibr" target="#b27">(28)</ref>. Muscular atrophy contributes to prolonged rehabilitation time, which delays return to training or competition in athletes. Furthermore, Bailón-Plaza and Van Der Meulen (29) studied fracture healing of sheep tibia under different loading and timing of mechanical stimulations, and determined the axial loading stiffness over a 100-N load range divided by the average nodal displacement of the cortex. They observed that moderate mechanical loading provides a positive loading environment for quicker bone ossification and increased stiffness at the injured site compared with intact bone. By week 12, the stiffness of the stimulated bone group had reached 70%-94% of the intact bone compared with half of the unstimulated bone group reaching 70%-80% stiffness and the other half reaching 30%-33% stiffness of the intact bone. Furthermore, devices that allow appropriate mechanical loading of the tibia and minimize lower limb muscle atrophy during rehabilitation may help improve return to training or competition time in athletes or military personnel. Surprisingly, no studies have assessed the mechanical loading of the tibia in a walking boot, or in alternative rehabilitation devices, during daily walking activities.</p><p>A novel dynamic ankle orthosis (DAO), consisting of a calf sleeve, modified shoe, and two pneumatic cylinders (Fig. <ref type="figure">1A</ref>), was recently designed to apply a distractive force to offload the foot and ankle while also retaining natural ankle motion during level walking <ref type="bibr" target="#b29">(30)</ref>. During treadmill walking when compared with a no-brace condition, the DAO was able to significantly reduce peak plantar pressure under toes 2-5 by 12% and under the hallux by 24%, whereas a double upright ankle foot orthosis increased peak plantar pressure under toes 2-5 and hallux by 14% and 6%, respectively <ref type="bibr" target="#b29">(30)</ref>. A second study assessing the effects of acute DAO wear on perceived function and underfoot forces in symptomatic patients who have experienced mechanical foot and ankle pain symptoms found that the DAO moderately reduced vertical in-shoe force compared with a no-brace condition during overground walking <ref type="bibr" target="#b30">(31)</ref>.</p><p>Although the DAO has been shown to reduce peak vertical in-shoe force while retaining natural ankle motion in healthy adults, its effectiveness to reduce the loading environment experienced by the tibia while walking remains unknown. The rationale behind the DAO is to reduce the loading environment to theoretically reduce the stress and therefore reduce the strain on the bone and improving healing. The purpose of this study was to determine the biomechanical effects of a DAO on tibial bone loading and sagittal ankle motion compared with a standard-of-care walking boot in healthy individuals during treadmill walking. We hypothesized that the DAO would reduce the tibial compressive force and allow greater sagittal ankle excursion compared with the walking boot.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>Participants. A priori power analysis using an effect size f of 0.32 (from estimated Achilles tendon force between a walking boot and the DAO in preliminary analyses), α set to 0.05, and power of 0.8 for two within-subject repeated measurements suggested that a minimum of 18 participants were necessary to obtain the statistical effect size and power to test our hypotheses. Therefore, 20 participants were recruited (10 men, 10 women; 23 ± 2.4 yr; 1.7 ± 0.01 m; 69.1 ± 11.4 kg) for this study. Inclusion criteria were participants between the ages of 18 and 40 yr having a body mass less than 90 kg (due to instrument weight limitations) and no lower limb or low back injuries in the past 12 months. Participants were excluded if they had any chronic disorders or orthopedic conditions that could influence walking mechanics (including lower back pain or injury), or if they were pregnant at the time of the study. Participants were informed of all procedures and potential risks, and signed a written consent form approved by the institutional review board before data collection.</p><p>Orthosis conditions. Two brace conditions were tested: the DAO (0.78 ± 0.12 kg) and a standard-of-care walking boot (Össur FormFit Walker Air; 0.5 ± 0.06 kg; Fig. <ref type="figure">1B</ref>). The shoe used for the DAO condition (model 501; New Balance, Boston, MA) was modified with a metal stirrup and plate embedded in the sole of the shoe, which provided connection to the upper orthosis components. Previous validation testing showed that the DAO provided comparable ranges of movement to the intact ankle joint allowing for at least 10°of dorsiflexion, 15°of plantarflexion, and at least 10°of inversion and eversion <ref type="bibr" target="#b29">(30)</ref>. In a previous study with the DAO, a targeted offloading of at least 10% of the participants' body weight (BW) was recommended by orthotists regarding the level of offloading necessary to achieve pain reduction <ref type="bibr" target="#b29">(30)</ref>. In this study, the DAO was activated to offloaded 10% BW based on the static protocol outlined hereinafter. The heel portion of the foam material of the walking boot was removed to secure reflective markers on the heel to track foot motion during testing.</p><p>Experimental protocol. The two brace conditions were randomized and worn on the participant's right limb. For the DAO condition, static offloading (10% BW target) was determined during standing by taking the percent difference in the insole force reading before and after pressurizing the pneumatic cylinders. The static protocol was performed five times per participant to ensure proper offloading. Static offloading of 12.6% ± 0.02% was achieved from testing. Each brace condition was worn for 5 to 10 min during both standing and walking before data collection to provide a period of brace familiarization <ref type="bibr" target="#b27">(28,</ref><ref type="bibr" target="#b29">30,</ref><ref type="bibr" target="#b31">(32)</ref><ref type="bibr" target="#b32">(33)</ref><ref type="bibr" target="#b33">(34)</ref>. Meyer et al. <ref type="bibr" target="#b31">(32)</ref> and <ref type="bibr">Zeni and Higginson (33)</ref> have shown this familiarization time to be sufficient for kinematic and kinetic variables, respectively.</p><p>Individual retroreflective markers were positioned on the first and fifth metatarsal heads, medial and lateral malleoli, and medial and lateral femoral epicondyles to define segment dimensions and joint coordinate systems, and to establish a relationship between joint centers and anatomical tracking markers. Clusters of tracking markers were placed on the right rearfoot and shank in different positions for each brace condition to track each segment. For the DAO condition, tracking markers were positioned on the posterior region of the shank on the DAO calf sleeve component. A heel cluster of three tracking markers rigidly attached to a thermoplastic plate was securely positioned on the posterior aspect of the shoe. For the walking boot condition, a cluster of four tracking markers were positioned at the posterior-lateral and proximal portion of the skank above the walking boot brace. An eight-camera three-dimensional (3D) motion capture software with Qualisys Track Manager software (240 Hz; Qualisys AB, Gothenburg, Sweden) captured 3D kinematic data, whereas a force instrumented split-belt treadmill (1200 Hz; Bertec, Inc, Columbus, OH) collected 3D ground reaction force (GRF) data and a wireless vertical force-sensing insole (100 Hz, loadsol; Novel, St. Paul, MN) was inserted into the braced shoe to measure in-shoe vertical reaction force (RF z ) during treadmill walking. Insole force data were calibrated using the manufacturer procedure before testing in each brace condition. After a 1-s standing calibration trial, anatomical markers were removed before treadmill walking. Participants walked on the 3D force treadmill at 1.0 m•s -1 for 5 min to become acclimated to each brace condition before data collection. After walking on the force treadmill for an additional 2 min, 3D kinematic, kinetic, and insole vertical force data were captured for 30 s. At the start of each walking condition, participants took a forceful step with their right foot on the treadmill to identify an instant in time, detected from all three instruments, to synchronize all data. Participants were allowed to rest for at least 5 min, or until they felt well rested, between brace conditions to minimize fatigue effects. From the 30-s worth of data captured, nine sequential steps were used from each brace condition for data analysis. After each testing trial, participants rated their comfort level in each brace condition using a custom visual analog scale. Comfort was rated with 0, "very comfortable"; 2, "comfortable"; 4, "moderately comfortable"; 6, "moderately uncomfortable"; 8, "uncomfortable"; and 10, "extremely uncomfortable."</p><p>Data analyses. 3D kinematic, insole force, and GRF data were processed and analyzed for nine sequential steps using Visual 3D software (C-Motion, Germantown, MD) and MATLAB (MathWorks, Natick, MA). The raw kinematic, insole force, and GRF data were interpolated to fill data gaps no greater than 10 frames and filtered using a Butterworth low-pass filter with cutoff frequencies of 6, 15, and 15 Hz, respectively. Right-hand rule with Cardan rotational sequence (x-y-z) was used for 3D angular kinematic computations, where x represents rotations about the mediolateral axis, y represents the rotation about the anteroposterior axis, and z represents the rotation about the vertical axis of the distal segment. Sagittal plane ankle kinematics were resolved in the shank coordinate system, and all variables were analyzed during the stance phase of gait. A vertical force threshold of 25 N was used to define heel contact and toe-off for both the insole force and GRF data. 3D kinematic, treadmill kinetic, and insole force data were used to calculate the moment acting about the ankle joint at time of peak plantarflexor moment. High validity and day-to-day reliability have been shown when comparing GRF variables from the loadsol compared with an instrumented treadmill <ref type="bibr" target="#b34">(35)</ref>.</p><p>The 3D kinematic and treadmill GRF data were time-synced with the time point of the insole RF z data by the participants taking a forceful step with their right foot to synchronize kinematic and kinetic data to determine the net ankle moment at peak plantarflexor moment for inverse dynamic calculations (Fig. <ref type="figure">2</ref>). Because the force treadmill did not account for any reduction in the vertical GRF component due to the offloading effect of the DAO, the vertical GRF vector was replaced with RF z . It is also important to note that the information from the instrumented force treadmill and force-sensing insole provides different force vector data. The instrumented treadmill provided the resultant GRF, whereas the force-sensing insole provided the vertical force component only. An image of the participants' lateral right foot, from the lateral malleolus to Achilles tendon, was taken and uploaded to ImageJ (National Institutes of Health, University of Wisconsin). From this image, the anteroposterior distance between the lateral malleolus and the superficial surface of the Achilles tendon was determined to represent the sagittal plane Achilles tendon moment arm (d AT ) to the ankle joint. Variables used in the calculations were extracted in Visual 3D (excluding RF z ) and include the moment about the ankle, M A ; moment of inertia about the ankle, I A ; angular acceleration, α; mass of the foot, M F ; linear acceleration, a y ; linear acceleration moment arm, z A1 ; vertical acceleration, a z ; vertical acceleration moment arm, y A1 ; RF z , RF z moment arm, y A2 ; propulsive GRF (GRF y ), GRF y moment arm, z A1 + z A2 ; and gravity, g, as seen in equation 1 hereinafter.</p><formula xml:id="formula_0">M A ¼ I A a À m F Â a y À Á Â z A1 Â Ã À m F Â a z ð ÞÂy A1 Â Ã À RF z Â y A2 À Á À GRF y Â z A1 þ z A2 ð Þ Â Ã þ m F Â g ð ÞÂy A1 Â Ã ½1 F AT ¼ M A d AT ½2 F A ¼ F z ′ cos β ð Þ ½3 F tibia ¼ F AT þ F A ½4</formula><p>Achilles tendon force, F AT, represents the muscle forces acting on the tibia. F z ′ represents the summation of the vertical forces acting on the tibia (i.e., equal and opposite to the summation of forces at the ankle, F z ) at angle β (angle of tibia at peak plantarflexor moment) and used to obtain the reaction force at the ankle, F A , acting along the longitudinal axis of the tibia. The peak compressive force, F tibia , acting on the tibia was the addition of the ankle reaction force, F A , and muscular forces, F AT <ref type="bibr" target="#b35">(36)</ref><ref type="bibr" target="#b36">(37)</ref><ref type="bibr" target="#b37">(38)</ref>. Peak plantarflexor moment was chosen as the specific time of interest because it is the point in stance phase, at the start of push-off, where the calf muscles are most involved in assisting with propelling the body forward <ref type="bibr" target="#b38">(39)</ref>. The RF z at the time of peak plantarflexor moment was extracted from the time series using a custom MATLAB script. Sagittal plane ankle excursion was defined by the period after heel contact to peak dorsiflexion after mid stance. Vertical impulse was determined as the area under the force time interval from the force insoles. Stance time and step length were measured during gait. The percent offloading provided by the DAO compared with the walking boot was determined by taking the difference between the peak force in the DAO, Force DAO , and the peak force in the waking boot, Force WB , divided by the peak force in the walking boot (equation 5).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>%offloading ¼</head><p>Force WB -Force DAO Force WB Â 100 ½5</p><p>Statistical analyses. A Shapiro-Wilk test was used to assess normality of the data per condition for each dependent variable. A paired t-test was used to determine brace effect for all dependent variables that passed normality. Cohen's d effect size was determined to assess the effect size for differences between dependent variables (i.e., small: d &lt; 0.2, medium: 0.2 ≤ d &lt; 0.8, large: d ≥ 0.8). Step length, cadence, and brace comfort score failed normality (i.e., nonparametric); therefore, a Wilcoxon sign rank test was used to compare means. A significance level of P &lt; 0.05 was used for all tests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Peak tibial compressive force (10.8%; Fig. <ref type="figure" target="#fig_0">3</ref>) and Achilles tendon force (11.9%; Fig. <ref type="figure" target="#fig_1">4</ref>) were lower in the DAO compared with the walking boot (Table <ref type="table" target="#tab_0">1</ref>). Ankle dorsiflexion excursion (Fig. <ref type="figure" target="#fig_2">5</ref>) was reduced by 54.9% in the walking boot compared with the DAO (Table <ref type="table" target="#tab_0">1</ref>). Stance time was longer in the DAO compared with the walking boot (Table <ref type="table" target="#tab_0">1</ref>). Vertical impulse, step length, cadence, and brace comfort rating were not significantly different between brace conditions (Table <ref type="table" target="#tab_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>The overall goal of this study was to compare the effects of a DAO on lower extremity loading biomechanics during treadmill walking with those of a standard-of-care walking boot in young healthy adults. Peak tibial compressive force was lower in the DAO compared with the walking boot. This finding supports our first hypothesis that the DAO moderately reduced the tibial compressive force and further confirms that the recommended DAO offload setting of 10% was sufficient to create a significant difference in the amount of tibial force reduction (i.e., 10.8%). Given the calculations for tibial compressive force, the lower estimated peak Achilles tendon force (d = 0.51) due to lower net peak plantarflexor moment explains the lower peak tibial compressive force (d = 0.48) in the DAO. Furthermore, at the time of peak plantarflexor moment, there was no difference in the RF z reported by the force insoles between the DAO and walking boot. However, the shorter moment arm of RFz relative to the ankle joint explains the lower peak plantarflexor moment in the DAO compared with walking boot (Fig. <ref type="figure" target="#fig_3">6</ref>). The shallow rocker sole contributed to less dorsiflexion throughout the stance phase, and rigid design of the walking boot was responsible for the longer moment arm of RF z relative to the ankle joint at the time of peak plantarflexor moment. On the other hand, the DAO had a shorter forefoot rocker point (and moment arm) compared with the walking boot, and the unconstrained ankle joint of the DAO allowed the participant to raise their heel and pivot about the metatarsophalangeal joint in late stance, which reduced the moment arm of RF z relative to the ankle joint. With extended DAO wear during the healing stages of a TBSI, bone union may occur at a faster rate allowing quicker return to sport. Thus, future studies should investigate the influence of DAO wear during a TBSI recovery phase to possibly improve bone healing compared with a standard-of-care walking boot.</p><p>Of additional clinical interest, the lower Achilles tendon force in the DAO could potentially benefit individuals recovering from Achilles injury. Current evidence on Achilles tendon rehabilitation suggests that progressive loading (i.e., lower to higher tensile forces) of the tendon is most effective <ref type="bibr" target="#b39">(40)</ref>. Thus, use of the DAO in early stages of Achilles tendon rehabilitation or possibly after Achilles tendon surgery to keep tendon loading lower may be of clinical interest. Furthermore, and in agreement with our second hypothesis, the DAO allowed greater sagittal ankle excursion compared with the walking boot from heel contact to peak dorsiflexion in late stance. The smaller ankle excursion observed in the walking boot (13°) may limit or reduce muscle activity and possibly contribute to muscle atrophy in the gastrocnemius, soleus, and peroneal muscles (25-28). Nahm et al. <ref type="bibr" target="#b40">(41)</ref> observed that participants experienced between 3°and 8°of sagittal tibiotalar motion while wearing the different walking boot conditions compared with a regular shoe. Zhang et al. <ref type="bibr" target="#b41">(42)</ref> observed between 5°and 7°o f sagittal ankle excursion in individuals wearing short-leg walking boots during walking. Although the DAO allowed more ankle excursion, to a degree similar to natural sagittal plane ankle motion (25°-30°) <ref type="bibr" target="#b42">(43,</ref><ref type="bibr" target="#b43">44)</ref> and may provide more involvement of the plantarflexor muscles, it remains unknown if muscle atrophy would occur during extended walking boot wear during the recovery phase of a post-TBSI. Thus, future studies should investigate the influence of DAO wear during a TBSI recovery phase to observe the amount of muscle atrophy experienced compared with a standard-of-care walking boot.   The Achilles tendon loads determined in this study were comparable to other findings in the literature <ref type="bibr" target="#b44">(45,</ref><ref type="bibr" target="#b45">46)</ref> (Fig. <ref type="figure" target="#fig_4">7A</ref>). Hullfish et al. <ref type="bibr" target="#b44">(45)</ref> observed Achilles tendon loads of 2 BW compared with our results of 5.8 BW and 6.6 BW in the DAO and walking boot, respectively. Hullfish et al. developed a simplified protocol to quantify the load at the Achilles tendon using Loadsol insole vertical force data and a load cell attached to the inline of the posterior strut of a walking boot but did not measure ankle excursion. Their assumption that the ankle remained fixed in the walking boot and did not allow for any ankle movement created an overconstrained system that negated any Achilles tendon involvement, which may have led to a lower estimation of the Achilles tendon loading. Our model used a motion capture system and found that the walking boot allowed some ankle joint movement (Fig. <ref type="figure" target="#fig_1">4</ref>). Some discrepancies exist on where the moment arm length was measured from that could explain the larger differences in the Achilles tendon force values. Our moment arm of 3.1 cm was measure relative to the lateral malleoli, whereas Hullfish et al. reference other studies (citing 5.4 cm) <ref type="bibr" target="#b46">(47,</ref><ref type="bibr" target="#b47">48)</ref> as measured from the medial malleoli or midpoint between the lateral and medial malleoli.</p><p>Figure <ref type="figure" target="#fig_4">7B</ref> provides a comparison of our tibial force values with other biomechanical studies <ref type="bibr" target="#b35">(36,</ref><ref type="bibr" target="#b36">37,</ref><ref type="bibr" target="#b45">46)</ref> for walking and running. In the walking study by Meardon et al. <ref type="bibr" target="#b45">(46)</ref>, the peak tibial bone loads for a group of recreational runners were 5000 N (6.36 BW) and 3800 N (6.65 BW) in men and women, respectively, and were very similar to our findings. <ref type="bibr">Scott and Winter (36)</ref> developed a mathematical model to predict the loads at chronic injury sites during running. They observed an average peak tibial compressive force of 12.32 BW during stance phase. As one would expect, the peak tibia loads during running were greater than our measured values for walking.</p><p>The findings of this study are limited to acute brace wear because participants were only allowed 5 to 10 min to become acclimated to the brace condition. To understand the long-term effects on bone health and/or healing from DAO use compared with a walking boot, a randomized control trial over multiple weeks is needed. Brace sizes were limited to three options for the DAO (small, medium, and large) and two options for the walking boot (medium and large). Any brace adjustments were limited to what was feasible with available brace sizes rather than creating patient-specific braces. The shoe worn on the participants contralateral limb was not adjusted to account for limb length discrepancies; however, this is reflective of how, in a clinical setting, patients will often wear their own shoe during the prescribed walking boot period. Therefore, our results are reflective of most clinical scenarios. Peak impact and push-off forces have been shown to differ between overground and treadmill walking when wearing the DAO <ref type="bibr" target="#b30">(31)</ref>. The differences in sampling rates between the  force insoles and instrumented treadmill may not provide the exact same GRF values. However, use of force insoles inside the shoe, between the brace and the foot, was important to capture the offloading effect of each brace condition during testing. In this study, treadmill walking was chosen to control participant walking speed during testing, and therefore, current findings may not be generalizable to overground conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>The findings from this study indicated that the DAO moderately reduced tibial compressive force and Achilles tendon force and allowed more sagittal ankle excursion during tread-mill walking compared with an orthopedic boot. These acute differences between the DAO and a standard-of-care walking boot could have positive benefits on TBSI rehabilitation. Future studies will utilize cadaver specimens to measure and confirm if the DAO is reducing the tibial bone strain. In addition, we plan to investigate the long-term effects of DAO wear on bone health and healing in athletes recovering from TBSI. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIGURE 3 -</head><label>3</label><figDesc>FIGURE 3-Peak tibial compressive force at peak plantarflexor moment during treadmill walking of the right limb for the DAO and walking boot conditions. *Significant difference compared with walking boot (P &lt; 0.05).</figDesc><graphic coords="5,41.44,37.87,239.22,200.07" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIGURE 4 -</head><label>4</label><figDesc>FIGURE 4-Achilles tendon force at peak plantarflexor moment during treadmill walking of the right limb for the DAO and walking boot conditions. *Significant difference compared with walking boot (P &lt; 0.05).</figDesc><graphic coords="5,304.50,37.87,239.22,267.02" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIGURE 5 -</head><label>5</label><figDesc>FIGURE 5-Sagittal plane ankle joint curves during treadmill walking of the right limb for the DAO and walking boot brace conditions. *Significant difference compared with walking boot.</figDesc><graphic coords="6,133.23,37.87,318.69,199.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>FIGURE 6 -</head><label>6</label><figDesc>FIGURE 6-Achilles tendon moment arm relative to the ankle joint in the walking boot (A) and DAO (B).</figDesc><graphic coords="6,304.50,480.08,239.22,202.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>FIGURE 7 -</head><label>7</label><figDesc>FIGURE 7-Achilles tendon force expressed as BW from the current study compared with previous literature. α: Studies only provided the tibial compressive load. The Achilles tendon force was estimated by assuming the reaction force at the ankle to be similar to the GRF for walking or running, and subtracting the value from the tibial compressive load, provided an estimated value of the (A) Achilles tendon force and (B) peak tibial compressive force expressed as BW from the current study compared with previous literature. β: Studies provided the tibial compressive force in newtons. The tibial compressive force was divided by the participant average body weight to provide an estimate in units of body weight.</figDesc><graphic coords="7,133.23,37.87,318.69,391.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="2,125.75,522.94,333.57,168.83" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="4,41.44,37.87,239.22,323.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1 .</head><label>1</label><figDesc>Kinetic, kinematic, and spatiotemporal variables for each brace condition at prescribed treadmill walking speed (mean ± SD).</figDesc><table><row><cell>Variables</cell><cell>DAO</cell><cell>Walking Boot</cell><cell>P</cell><cell>Effect Size (d )</cell></row><row><cell>Peak tibial compressive</cell><cell>6.9 ± 1.5</cell><cell>7.6 ± 1.7</cell><cell>0.030</cell><cell>0.45</cell></row><row><cell>force (BW)*</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Achilles tendon force (BW)*</cell><cell>5.9 ± 1.4</cell><cell>6.6 ± 1.6</cell><cell>0.021</cell><cell>0.49</cell></row><row><cell>Dorsiflexion excursion ( )*</cell><cell>29.2 ± 3.0</cell><cell cols="2">13.2 ± 4.1 &lt;0.001</cell><cell>3.19</cell></row><row><cell>Vertical impulse (N•s)</cell><cell cols="3">420.2 ± 76.0 414.1 ± 73.1 0.075</cell><cell>0.34</cell></row><row><cell>Stance time (s)*</cell><cell cols="3">0.77 ± 0.04 0.74 ± 0.04 &lt;0.001</cell><cell>1.07</cell></row><row><cell>Step length (m)</cell><cell cols="3">0.58 ± 0.05 0.57 ± 0.03 0.198</cell><cell>0.20</cell></row><row><cell>Cadence (steps per minute)</cell><cell>105 ± 11</cell><cell>105 ± 6</cell><cell>0.422</cell><cell>0.13</cell></row><row><cell>Brace comfort scores</cell><cell>3.9 ± 2.6</cell><cell>5.0 ± 2.7</cell><cell>0.108</cell><cell>0.29</cell></row><row><cell cols="5">Brace comfort scores: 0 = very comfortable, 10 = very uncomfortable. Statistical analyses</cell></row><row><cell cols="5">for step length and cadence were performed using a Wilcoxon sign rank test.</cell></row><row><cell>*Brace effect (P &lt; 0.05).</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>This study was supported by the <rs type="funder">University of Tennessee Research Foundation Maturation Grant Program</rs>. The authors declare no conflict of interest. The results of the study are presented clearly, honestly, and without fabrication, falsification, or inappropriate data manipulation. The results of the present study do not constitute endorsement by the <rs type="funder">American College of Sports Medicine</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Basic biomechanical measurements of bone: a tutorial</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Burr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bone</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="595" to="608" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Turner CH, Burr DB. Basic biomechanical measurements of bone: a tutorial. Bone. 1993;14(4):595-608.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Cyclic mechanical property degradation during fatigue loading of cortical bone</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Pattin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Caler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Carter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="69" to="79" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pattin CA, Caler WE, Carter DR. Cyclic mechanical property degradation during fatigue loading of cortical bone. J Biomech. 1996;29(1):69-79.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The effect of muscle fatigue on in vivo tibial strains</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Milgrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Radeva-Petrova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Finestone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="845" to="850" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Milgrom C, Radeva-Petrova DR, Finestone A, et al. The effect of mus- cle fatigue on in vivo tibial strains. J Biomech. 2007;40(4):845-50.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Bone stress injuries</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hoenig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Ackerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Beck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Dis Primers</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">26</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoenig T, Ackerman KE, Beck BR, et al. Bone stress injuries. Nat Rev Dis Primers. 2022;8(1):26.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<monogr>
+		<title level="m" type="main">The Law of Bone Remodelling</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wolff</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Springer Science &amp; Business Media</publisher>
+			<biblScope unit="page">310</biblScope>
+			<pubPlace>Berlin, Germany</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wolff J. The Law of Bone Remodelling. Berlin, Germany: Springer Science &amp; Business Media; 2012. p. 310.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Experimental stress fractures of the tibia. Biological and mechanical aetiology in rabbits</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Burr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Milgrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Boyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Higgins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Robin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Radin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Br</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="370" to="375" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burr DB, Milgrom C, Boyd RD, Higgins WL, Robin G, Radin EL. Experimental stress fractures of the tibia. Biological and mechanical aetiology in rabbits. J Bone Joint Surg Br. 1990;72(3):370-5.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Bone, exercise, and stress fractures</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Burr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exerc Sport Sci Rev</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="171" to="194" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burr DB. Bone, exercise, and stress fractures. Exerc Sport Sci Rev. 1997;25:171-94.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The use of external transducers for estimating bone strain at the distal tibia during impact activity</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Meardon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Derrick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech Eng</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">51009</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Edwards WB, Ward ED, Meardon SA, Derrick TR. The use of exter- nal transducers for estimating bone strain at the distal tibia during im- pact activity. J Biomech Eng. 2009;131(5):051009.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Stress fractures: a review of 180 cases</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Brukner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bradshaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Crossley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin J Sport Med</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="85" to="89" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brukner P, Bradshaw C, Khan KM, White S, Crossley K. Stress frac- tures: a review of 180 cases. Clin J Sport Med. 1996;6(2):85-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Stress fractures in athletes. A study of 320 cases</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">O</forename><surname>Matheson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Clement</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Mckenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Taunton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lloyd-Smith</forename><surname>Dr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Macintyre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="46" to="58" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matheson GO, Clement DB, Mckenzie DC, Taunton JE, Lloyd- Smith DR, Macintyre JG. Stress fractures in athletes. A study of 320 cases. Am J Sports Med. 1987;15(1):46-58.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Determinants of stress fracture risk in United States Military Academy cadets</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cosman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ruffing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zion</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bone</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="359" to="366" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cosman F, Ruffing J, Zion M, et al. Determinants of stress fracture risk in United States Military Academy cadets. Bone. 2013;55(2):359-66.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Stress fractures in military recruits. A prospective study showing an unusually high incidence</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Milgrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Giladi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Br</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="732" to="735" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Milgrom C, Giladi M, Stein M, et al. Stress fractures in military re- cruits. A prospective study showing an unusually high incidence. J Bone Joint Surg Br. 1985;67(5):732-5.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Incidence and time to return to training for stress fractures during military basic training</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Keenan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Med</title>
+		<imprint>
+			<biblScope unit="page">282980</biblScope>
+			<date type="published" when="2014">2014. 2014</date>
+			<publisher>Hindawi Publ Corp</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wood AM, Hales R, Keenan A, et al. Incidence and time to return to training for stress fractures during military basic training. J Sports Med (Hindawi Publ Corp). 2014;2014:282980.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Common running injuries: evaluation and management</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Moody</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Fam Physician</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="510" to="516" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arnold MJ, Moody AL. Common running injuries: evaluation and management. Am Fam Physician. 2018;97(8):510-6.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Optimal load for managing low-risk tibial and metatarsal bone stress injuries in runners: the science behind the clinical reasoning</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Warden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Willy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="322" to="330" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Warden SJ, Edwards WB, Willy RW. Optimal load for managing low-risk tibial and metatarsal bone stress injuries in runners: the sci- ence behind the clinical reasoning. J Orthop Sports Phys Ther. 2021;51(7):322-30.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Rehabilitation and return to running after lower limb stress fractures</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Liem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Truswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Harrast</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Sports Med Rep</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="200" to="207" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liem BC, Truswell HJ, Harrast MA. Rehabilitation and return to running after lower limb stress fractures. Curr Sports Med Rep. 2013;12(3):200-7.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Diagnosis, treatment, and rehabilitation of stress fractures in the lower extremity in runners</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kahanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Eberman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Games</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wasik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Open Access J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="87" to="95" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kahanov L, Eberman LE, Games KE, Wasik M. Diagnosis, treat- ment, and rehabilitation of stress fractures in the lower extremity in runners. Open Access J Sports Med. 2015;6:87-95.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Stress fractures and rehabilitation</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Dugan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Weber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Med Rehabil Clin N Am</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="401" to="416" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note>viii</note>
+	<note type="raw_reference">Dugan SA, Weber KM. Stress fractures and rehabilitation. Phys Med Rehabil Clin N Am. 2007;18(3):401-16; viii.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Stress fractures: diagnosis, treatment, and prevention</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kapil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Fam Physician</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="39" to="46" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Patel DS, Roth M, Kapil N. Stress fractures: diagnosis, treatment, and prevention. Am Fam Physician. 2011;83(1):39-46.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Improving the management of tibia stress fractures: a collaborative, outpatient clinic-based quality improvement project</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Meyering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Zychowicz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Orthop Nurs</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="84" to="85" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roberts CL, Meyering CD, Zychowicz ME. Improving the management of tibia stress fractures: a collaborative, outpatient clinic-based qual- ity improvement project. Orthop Nurs. 2014;33(2):75-83; quiz 84-5.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A comparison study of plantar foot pressure in a standardized shoe, total contact cast, and prefabricated pneumatic walking brace</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Baumhauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wervey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mcwilliams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Shereff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Foot Ankle Int</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="26" to="33" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baumhauer JF, Wervey R, McWilliams J, Harris GF, Shereff MJ. A comparison study of plantar foot pressure in a standardized shoe, total contact cast, and prefabricated pneumatic walking brace. Foot Ankle Int. 1997;18(1):26-33.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The effect of partial weight bearing in a walking boot on plantar pressure distribution and center of pressure</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>North</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Q</forename><surname>Potter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Kubiak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sjm</forename><surname>Bamberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Hitchcock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gait Posture</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="646" to="649" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">North K, Potter MQ, Kubiak EN, Bamberg SJM, Hitchcock RW. The effect of partial weight bearing in a walking boot on plantar pressure distribution and center of pressure. Gait Posture. 2012;36(3):646-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Alterations in plantar pressure with different walking boot designs</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Diliberto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Baumhauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Wilding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Nawoczenski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Foot Ankle Int</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="55" to="60" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">DiLiberto FE, Baumhauer JF, Wilding GE, Nawoczenski DA. Alter- ations in plantar pressure with different walking boot designs. Foot Ankle Int. 2007;28(1):55-60.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Center of pressure in a walking boot shifts posteriorly in patients following lower leg fracture</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lajevardi-Khosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bamberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rothberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kubiak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Petelenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hitchcock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gait Posture</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="218" to="221" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lajevardi-Khosh A, Bamberg S, Rothberg D, Kubiak E, Petelenz T, Hitchcock R. Center of pressure in a walking boot shifts posteriorly in patients following lower leg fracture. Gait Posture. 2019;70:218-21.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The efficacy of two methods of ankle immobilization in reducing gastrocnemius, soleus, and peroneal muscle activity during stance phase of gait</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Kadel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Segal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Orendurff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sangeorzan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Foot Ankle Int</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="406" to="409" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kadel NJ, Segal A, Orendurff M, Shofer J, Sangeorzan B. The effi- cacy of two methods of ankle immobilization in reducing gastrocne- mius, soleus, and peroneal muscle activity during stance phase of gait. Foot Ankle Int. 2004;25(6):406-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Atrophy resistant vs. atrophy susceptible skeletal muscles: &quot;aRaS&quot; as a novel experimental paradigm to study the mechanisms of human disuse atrophy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Bass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ejo</forename><surname>Hardy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Inns</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">653060</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bass JJ, Hardy EJO, Inns TB, et al. Atrophy resistant vs. atrophy sus- ceptible skeletal muscles: &quot;aRaS&quot; as a novel experimental paradigm to study the mechanisms of human disuse atrophy. Front Physiol. 2021;12:653060.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Changes in gait mechanics and muscle activity with wedge height in an orthopaedic boot</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Zellers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Tucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Higginson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Manal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Grävare</forename><surname>Silbernagel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gait Posture</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="59" to="64" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zellers JA, Tucker LA, Higginson JS, Manal K, Grävare Silbernagel K. Changes in gait mechanics and muscle activity with wedge height in an orthopaedic boot. Gait Posture. 2019;70:59-64.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Alterations in neuromuscular activation patterns associated with walking in short-leg walking boots</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Powell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Clowers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Keefer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Health Sci</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="43" to="48" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Powell D, Clowers K, Keefer M, Zhang S. Alterations in neuromus- cular activation patterns associated with walking in short-leg walking boots. J Sport Health Sci. 2012;1(1):43-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Beneficial effects of moderate, early loading and adverse effects of delayed or excessive loading on bone healing</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bailón-Plaza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Van</forename><surname>Der Meulen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mch</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1069" to="1077" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bailón-Plaza A, Van Der Meulen MCH. Beneficial effects of moder- ate, early loading and adverse effects of delayed or excessive loading on bone healing. J Biomech. 2003;36(8):1069-77.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Biomechanical comparison of a new dynamic ankle orthosis to a standard ankle-foot orthosis during walking</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Diangelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Powell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Paquette</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech Eng</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">51003</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chung CL, DiAngelo DJ, Powell DW, Paquette MR. Biomechanical comparison of a new dynamic ankle orthosis to a standard ankle-foot orthosis during walking. J Biomech Eng. 2020;142(5):051003.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Impact of a dynamic ankle orthosis on acute pain and function in patients with mechanical foot and ankle pain</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Paquette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Diangelo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Biomech</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page">105281</biblScope>
+			<date type="published" when="2021">2021</date>
+			<pubPlace>Bristol, Avon</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chung CL, Paquette MR, DiAngelo DJ. Impact of a dynamic ankle orthosis on acute pain and function in patients with mechanical foot and ankle pain. Clin Biomech (Bristol, Avon). 2021;83:105281.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Familiarization with treadmill walking: how much is enough?</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Killeen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Easthope</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">5232</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Meyer C, Killeen T, Easthope CS, et al. Familiarization with tread- mill walking: how much is enough? Sci Rep. 2019;9(1):5232.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Gait parameters and stride-to-stride variability during familiarization to walking on a split-belt treadmill</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Zeni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Higginson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Biomech</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="383" to="386" />
+			<date type="published" when="2010">2010</date>
+			<pubPlace>Bristol, Avon</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zeni JA, Higginson JS. Gait parameters and stride-to-stride variabil- ity during familiarization to walking on a split-belt treadmill. Clin Biomech (Bristol, Avon). 2010;25(4):383-6.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Plantar pressures in fiberglass total contact casts vs. a new diabetic walking boot</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Pollo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Brodsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Crenshaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kirksey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Foot Ankle Int</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="45" to="49" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pollo FE, Brodsky JW, Crenshaw SJ, Kirksey C. Plantar pressures in fiberglass total contact casts vs. a new diabetic walking boot. Foot Ankle Int. 2003;24(1):45-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Validation of a wireless shoe insole for ground reaction force measurement</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Deneweth</forename><surname>Zendler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zernicke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1129" to="1138" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burns GT, Deneweth Zendler J, Zernicke RF. Validation of a wire- less shoe insole for ground reaction force measurement. J Sports Sci. 2019;37(10):1129-38.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Internal forces of chronic running injury sites</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Winter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="357" to="369" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scott SH, Winter DA. Internal forces of chronic running injury sites. Med Sci Sports Exerc. 1990;22(3):357-69.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Ground reaction force metrics are not strongly correlated with tibial bone load when running across speeds and slopes: implications for science, sport and wearable tech</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Matijevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Branscombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Zelik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">210000</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matijevich ES, Branscombe LM, Scott LR, Zelik KE. Ground reac- tion force metrics are not strongly correlated with tibial bone load when running across speeds and slopes: implications for science, sport and wearable tech. PLoS One. 2019;14(1):e0210000.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Combining wearable sensor signals, machine learning and biomechanics to estimate tibial bone force and damage during running</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Matijevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Volgyesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Derry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Zelik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum Mov Sci</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page">102690</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matijevich ES, Scott LR, Volgyesi P, Derry KH, Zelik KE. Combin- ing wearable sensor signals, machine learning and biomechanics to estimate tibial bone force and damage during running. Hum Mov Sci. 2020;74:102690.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Moments of force and mechanical power in jogging</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Winter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="91" to="97" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Winter DA. Moments of force and mechanical power in jogging. J Biomech. 1983;16(1):91-7.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Achilles pain, stiffness, and muscle power deficits: midportion Achilles tendinopathy revision 2018</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chimenti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cuddeford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1" to="38" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martin RL, Chimenti R, Cuddeford T, et al. Achilles pain, stiffness, and muscle power deficits: midportion Achilles tendinopathy revi- sion 2018. J Orthop Sports Phys Ther. 2018;48(5):A1-38.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Ankle motion and offloading in short leg cast and low and high fracture boots</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nahm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Bey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guthrie</forename><surname>St</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Foot Ankle Int</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1416" to="1423" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nahm N, Bey MJ, Liu S, Guthrie ST. Ankle motion and offloading in short leg cast and low and high fracture boots. Foot Ankle Int. 2019; 40(12):1416-23.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Ground reaction force and 3D biomechanical characteristics of walking in short-leg walkers</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Clowers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Powell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gait Posture</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="487" to="492" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang S, Clowers KG, Powell D. Ground reaction force and 3D bio- mechanical characteristics of walking in short-leg walkers. Gait Posture. 2006;24(4):487-92.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Biomechanics of the ankle. I. Surface velocity and instant center of rotation in the sagittal plane</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sammarco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="231" to="234" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sammarco J. Biomechanics of the ankle. I. Surface velocity and in- stant center of rotation in the sagittal plane. Am J Sports Med. 1977; 5(6):231-4.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Force and motion analysis of the normal, diseased, and prosthetic ankle joint</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Stauffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Y</forename><surname>Chao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Brewster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Orthop Relat Res</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="189" to="196" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stauffer RN, Chao EY, Brewster RC. Force and motion analysis of the normal, diseased, and prosthetic ankle joint. Clin Orthop Relat Res. 1977;127:189-96.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Instrumented immobilizing boot paradigm quantifies reduced Achilles tendon loading during gait</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Hullfish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Baxter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page">109925</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hullfish TJ, O&apos;Connor KM, Baxter JR. Instrumented immobilizing boot paradigm quantifies reduced Achilles tendon loading during gait. J Biomech. 2020;109:109925.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Peak and per-step tibial bone stress during walking and running in female and male recreational runners</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Meardon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Derrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Willson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2227" to="2237" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Meardon SA, Derrick TR, Willson JD, et al. Peak and per-step tibial bone stress during walking and running in female and male recrea- tional runners. Am J Sports Med. 2021;49(8):2227-37.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Moment arms of the ankle throughout the range of motion in three planes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Mccullough</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Ringleb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Arai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Kitaoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Kaufman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Foot Ankle Int</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="300" to="306" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCullough MB, Ringleb SI, Arai K, Kitaoka HB, Kaufman KR. Moment arms of the ankle throughout the range of motion in three planes. Foot Ankle Int. 2011;32(3):300-6.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Inferring muscle-tendon unit power from ankle joint power during the push-off phase of human walking: insights from a multiarticular EMG-driven model</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Honert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Zelik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">163169</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Honert EC, Zelik KE. Inferring muscle-tendon unit power from ankle joint power during the push-off phase of human walking: insights from a multiarticular EMG-driven model. PLoS One. 2016;11(10): e0163169.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

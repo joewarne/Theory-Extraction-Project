@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Effect of muscle length in a handgrip task on corticomotor excitability of extrinsic and intrinsic hand muscles under resting and submaximal contraction conditions</title>
+				<funder ref="#_4ut7NbB #_yYA6Ud6">
+					<orgName type="full">FAPESP</orgName>
+				</funder>
+				<funder ref="#_XD7wJsq">
+					<orgName type="full">FAPESP&apos;s Research, Innovation and Dissemination Center for Neuromathematics-NeuroMat</orgName>
+				</funder>
+				<funder ref="#_VgCKXAr">
+					<orgName type="full">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</orgName>
+				</funder>
+				<funder ref="#_gshkFYk">
+					<orgName type="full">Financiadora de Estudos e projetos FINEP</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Faculdade de Filosofia, Ciências e Letras de Ribeirão Preto (FFCLRP/ USP)</orgName>
+				</funder>
+				<funder ref="#_vX4kvMZ">
+					<orgName type="full">Financiadora de Estudos e Projetos (FINEP)</orgName>
+				</funder>
+				<funder ref="#_gvTyHWY #_GkPMfna">
+					<orgName type="full">Conselho Nacional de Desenvolvimento Científico e Tecnológico</orgName>
+				</funder>
+				<funder ref="#_nqMCe9j #_Qz6jZWE">
+					<orgName type="full">Academy of Finland</orgName>
+				</funder>
+				<funder ref="#_BMt9Npy">
+					<orgName type="full">Fundação de Amparo à Pesquisa do Estado de São Paulo</orgName>
+					<orgName type="abbreviated">FAPESP</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Jane and Aatos Erkko Foundation</orgName>
+				</funder>
+				<funder ref="#_sYYtrCd">
+					<orgName type="full">Fundação de Amparo à Pesquisa do Estado do Rio de Janeiro</orgName>
+					<orgName type="abbreviated">FAPERJ</orgName>
+				</funder>
+				<funder ref="#_bAckNhD">
+					<orgName type="full">Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)</orgName>
+				</funder>
+				<funder ref="#_uUU4yAA">
+					<orgName type="full">European Research Council</orgName>
+					<orgName type="abbreviated">ERC</orgName>
+				</funder>
+				<funder ref="#_6uVjHJV #_suYe33A">
+					<orgName type="full">CNPq</orgName>
+				</funder>
+				<funder ref="#_4x5bM9w">
+					<orgName type="full">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior -Brasil</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Victor</forename><forename type="middle">Hugo</forename><surname>Moraes</surname></persName>
+							<idno type="ORCID">0000-0001-5395-9061</idno>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratório de Neurociências e Reabilitação</orgName>
+								<orgName type="institution" key="instit1">Instituto de Neurologia Deolindo Couto</orgName>
+								<orgName type="institution" key="instit2">Universidade Federal do Rio de Janeiro</orgName>
+								<address>
+									<settlement>Rio de Janeiro</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Laboratório de Neurobiologia do Movimento do Instituto de Biofísica Carlos Chagas Filho</orgName>
+								<orgName type="institution">Universidade Federal do Rio de Janeiro</orgName>
+								<address>
+									<settlement>Rio de Janeiro</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Departamento de Biociências e Atividades Físicas</orgName>
+								<orgName type="department" key="dep2">Escola de Educação Física e Desportos</orgName>
+								<orgName type="institution">Universidade Federal do Rio de Janeiro</orgName>
+								<address>
+									<settlement>Rio de Janeiro</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Claudia</forename><forename type="middle">D</forename><surname>Vargas</surname></persName>
+							<idno type="ORCID">0000-0001-6202-3580</idno>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratório de Neurociências e Reabilitação</orgName>
+								<orgName type="institution" key="instit1">Instituto de Neurologia Deolindo Couto</orgName>
+								<orgName type="institution" key="instit2">Universidade Federal do Rio de Janeiro</orgName>
+								<address>
+									<settlement>Rio de Janeiro</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Laboratório de Neurobiologia do Movimento do Instituto de Biofísica Carlos Chagas Filho</orgName>
+								<orgName type="institution">Universidade Federal do Rio de Janeiro</orgName>
+								<address>
+									<settlement>Rio de Janeiro</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bia</forename><forename type="middle">L</forename><surname>Ramalho</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratório de Neurociências e Reabilitação</orgName>
+								<orgName type="institution" key="instit1">Instituto de Neurologia Deolindo Couto</orgName>
+								<orgName type="institution" key="instit2">Universidade Federal do Rio de Janeiro</orgName>
+								<address>
+									<settlement>Rio de Janeiro</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Centro de Pesquisa</orgName>
+								<address>
+									<country>Inovação</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Renan</forename><forename type="middle">H</forename><surname>Matsuda</surname></persName>
+							<idno type="ORCID">0000-0002-1927-4824</idno>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Neuroscience and Biomedical Engineering</orgName>
+								<orgName type="institution">Aalto University School of Science</orgName>
+								<address>
+									<settlement>Espoo</settlement>
+									<country key="FI">Finland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department" key="dep1">Departamento de Física</orgName>
+								<orgName type="department" key="dep2">Faculdade de Filosofia</orgName>
+								<orgName type="institution" key="instit1">Ciências e Letras de Ribeirão Preto</orgName>
+								<orgName type="institution" key="instit2">Universidade de São Paulo</orgName>
+								<address>
+									<settlement>Ribeirão Preto</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Victor</forename><forename type="middle">H</forename><surname>Souza</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Neuroscience and Biomedical Engineering</orgName>
+								<orgName type="institution">Aalto University School of Science</orgName>
+								<address>
+									<settlement>Espoo</settlement>
+									<country key="FI">Finland</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department" key="dep1">Departamento de Física</orgName>
+								<orgName type="department" key="dep2">Faculdade de Filosofia</orgName>
+								<orgName type="institution" key="instit1">Ciências e Letras de Ribeirão Preto</orgName>
+								<orgName type="institution" key="instit2">Universidade de São Paulo</orgName>
+								<address>
+									<settlement>Ribeirão Preto</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department" key="dep1">Faculdade de Fisioterapia</orgName>
+								<orgName type="department" key="dep2">Juiz de Fora</orgName>
+								<orgName type="institution" key="instit1">Programa de Pós-Graduação em Ciências da Reabilitação e Desempenho Físico-Funcional</orgName>
+								<orgName type="institution" key="instit2">Universidade Federal de Juiz de Fora</orgName>
+								<address>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Luis</forename><surname>Aureliano Imbiriba</surname></persName>
+							<idno type="ORCID">0000-0002-9274-7253</idno>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Departamento de Biociências e Atividades Físicas</orgName>
+								<orgName type="department" key="dep2">Escola de Educação Física e Desportos</orgName>
+								<orgName type="institution">Universidade Federal do Rio de Janeiro</orgName>
+								<address>
+									<settlement>Rio de Janeiro</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Marco</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Antonio</forename><forename type="middle">C</forename><surname>Garcia</surname></persName>
+							<email>marco.garcia@ufjf.br</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratório de Neurociências e Reabilitação</orgName>
+								<orgName type="institution" key="instit1">Instituto de Neurologia Deolindo Couto</orgName>
+								<orgName type="institution" key="instit2">Universidade Federal do Rio de Janeiro</orgName>
+								<address>
+									<settlement>Rio de Janeiro</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department" key="dep1">Faculdade de Fisioterapia</orgName>
+								<orgName type="department" key="dep2">Juiz de Fora</orgName>
+								<orgName type="institution" key="instit1">Programa de Pós-Graduação em Ciências da Reabilitação e Desempenho Físico-Funcional</orgName>
+								<orgName type="institution" key="instit2">Universidade Federal de Juiz de Fora</orgName>
+								<address>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department" key="dep1">Grupo de Estudos em Neuro Biomecânica</orgName>
+								<orgName type="department" key="dep2">Faculdade de Fisioterapia</orgName>
+								<orgName type="institution">Universidade Federal de Juiz de Fora</orgName>
+								<address>
+									<settlement>Juiz de Fora</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marco</forename><forename type="middle">Antonio</forename><surname>Cavalcanti</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marco</forename><surname>Antonio</surname></persName>
+							<idno type="ORCID">0000-0002-8225-6573</idno>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Garcia</surname></persName>
+							<idno type="ORCID">0000-0002-8225-6573</idno>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Difusão em Neuromatemática (NeuroMat)</orgName>
+								<orgName type="department" key="dep2">Instituto de Matemática e Estatística</orgName>
+								<orgName type="institution">Universidade de São Paulo</orgName>
+								<address>
+									<settlement>São Paulo</settlement>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff9">
+								<orgName type="department">Faculdade de Fisioterapia</orgName>
+								<orgName type="institution" key="instit1">Programa de Pós-Graduação em Ciências da Reabilitação e Desempenho Físico Funcional</orgName>
+								<orgName type="institution" key="instit2">Universidade Federal de Juiz de Fora</orgName>
+								<address>
+									<addrLine>Av. Eugênio do Nascimento, s/n -Cidade Universitária, Dom Bosco</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff10">
+								<orgName type="department">Juiz de Fora</orgName>
+								<address>
+									<postCode>36038-330</postCode>
+									<region>MG</region>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Effect of muscle length in a handgrip task on corticomotor excitability of extrinsic and intrinsic hand muscles under resting and submaximal contraction conditions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8281814DA5FBC2E937D4FC56E4BB17F9</idno>
+					<idno type="DOI">10.1111/sms.14477</idno>
+					<note type="submission">Received: 7 January 2023 | Revised: 10 July 2023 | Accepted: 13 August 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:20+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The neurophysiological mechanisms underlying muscle force control for different wrist postures still need to be better understood. To further elucidate these mechanisms, the present study aimed to investigate the effects of wrist posture on the corticospinal excitability by transcranial magnetic stimulation (TMS) of extrinsic (flexor [FCR] and extensor carpi radialis [ECR]) and intrinsic (flexor pollicis brevis (FPB)) muscles at rest and during a submaximal handgrip strength task.</p><p>Fourteen subjects (24.06 ± 2.28 years) without neurological or motor disorders were included. We assessed how the wrist posture (neutral: 0°; flexed: +45°; extended: -45°) affects maximal handgrip strength (HGS max ) and the motor evoked potentials (MEP) amplitudes during rest and active muscle contractions. HGS max was higher at 0° (133%) than at -45° (93.6%; p &lt; 0.001) and +45° (73.9%; p &lt; 0.001).</p><p>MEP amplitudes were higher for the FCR at +45° (83.6%) than at -45° (45.2%; p = 0.019) and at +45° (156%; p &lt; 0.001) and 0° (146%; p = 0.014) than at -45° (106%) at rest and active condition, respectively. Regarding the ECR, the MEP amplitudes were higher at -45° (113%) than at +45° (60.8%; p &lt; 0.001) and 0° (72.6%; p = 0.008), and at -45° (138%) than +45° (96.7%; p = 0.007) also at rest and active | 2525   </p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUCTION</head><p>Joint postural changes can alter muscle lengths and, consequently, their capacity to generate force. The wellknown underlying mechanisms that explain such behavior in muscle performance are based on the crossbridge cycle and the length-tension curve, which determine the interaction level between actin-myosin filaments. <ref type="bibr" target="#b0">1</ref> In turn, depending on the force needed to regulate one or more joints, the central nervous system (CNS) will adopt different drive strategies to recruit and grade motor unit firing rate to optimize muscle force production. <ref type="bibr" target="#b1">2</ref> However, the neurophysiological mechanisms that underlie such muscle gradation force processes on different muscle lengths are not yet fully understood.</p><p>Previous studies have reported that postural changes and different muscle lengths can lead to corticospinal modulation of motor evoked potentials (MEP) elicited by single transcranial magnetic stimulation (TMS) pulses. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4</ref> Notably, certain findings provide evidence for remote corticospinal modulation effects on intrinsic muscles, such as the abductor digiti minimi (ADM), <ref type="bibr" target="#b4">5</ref> and on extrinsic muscles, such as the flexor and extensor carpi radialis (FCR and ECR), <ref type="bibr" target="#b5">6</ref> resulting from shoulder adjustments. In contrast, previous studies have demonstrated a lack of significant remote corticospinal modulation effect on the abductor pollicis brevis (APB), an intrinsic hand muscle, under postural wrist changes. <ref type="bibr" target="#b6">7</ref> Divergence in these findings may suggest that the presence or not of a remote corticospinal modulation might be task-dependent, <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b8">9</ref> which may help to clarify muscle recruitment patterns and functional synergies in rehabilitation and sports performance.</p><p>Regarding manual task performance, the maximum handgrip strength (HGS max ), adopted in sports and clinical routines as an evaluation and prognostic index, <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11</ref> is influenced by the posture of the wrist joint. <ref type="bibr" target="#b11">12</ref> On this premise, HGS max is conventionally performed between 0° (neutral position) and 35° of wrist extension <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> as the extrinsic hand muscles, such as the superficial and deep muscle fingers flexors, have their length modified by the angle between the hand and forearm. Unlike a simple finger action such as thumb flexion, the performance of a complex manual task as a handgrip may lead to corticospinal modulation of intrinsic and extrinsic muscles, even without changes in their length. From this perspective, a handgrip may generate greater corticospinal facilitation of the synergistic muscle network involved in the task than a uni-articular one. <ref type="bibr" target="#b7">8</ref> Nevertheless, to the best of our knowledge, no previous study has evaluated whether the corticospinal excitability of extrinsic and intrinsic hand muscles is similarly modulated under different wrist postures during relaxed and contracted conditions while performing a handgrip task. Based on this new knowledge, it would be possible to comprehend better the interplay between the neural control of handgrip and the mechanical properties of muscle tissue under different conditions.</p><p>Therefore, the objective of the current study was to investigate the corticospinal excitability of intrinsic and two extrinsic hand muscles under both resting and contracted conditions at different wrist postures/angles (0°, +45°, and -45°). We hypothesized that different wrist postures would result in varying strength levels in HG-S max . Additionally, we expected to find a relationship between MEP amplitude and posture, whereby postures that generate muscle shortening would increase MEP amplitude. Further, we posit a corticospinal modulatory effect of the intrinsic hand muscle even if it has not modified its length.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Subjects</head><p>Fourteen male subjects (age: 24.06 ± 2.28 years; height: 1.74 ± 0.07 m; body weight: 76.71 ± 8.14 kg) without any neurological or motor disorders were included in the present study. Handedness was assessed with the modified version of the Edinburgh Handedness Inventory (<ref type="url" target="http://www.brainmapping.org/shared/Edinburgh.php">http://www.brain mappi ng.org/share d/Edinb urgh.php</ref>). Subjects were considered consistently right-handed (+68.1 ± 15.3).</p><p>The local ethical committee approved the study (CAAE: 23410513.0.0000.5407). All subjects underwent TMS according to the safety screening questionnaire for TMS and signed informed consent before the experimental session.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Instrumentation</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1">| Dynamometry</head><p>The handgrip tasks were performed using a handgrip dynamometer (Cefise-Sport Biotechnology; resolution 0.1 kgf or 1 N; weight 1.5 kg; total capacity 100 kgf; dimensions: 230 × 135 × 45 mm), and the data were acquired using the N2000 PRO system (Cefise-Sport Biotechnology). To assess the maximum handgrip strength (HGS max ) in various wrist postures, a 46 mm fixed handle was utilized. The assessment process involved seating a volunteer comfortably on a chair with their forearms supported on a wooden structure. The right wrist was then positioned at three different angles: flexion (+45°), extension (-45°), and neutral (0°). The wrist angles were identified based on the angle between the radial styloid process and the center of the dynamometer's handle.</p><p>The subjects were instructed to maintain the wrist posture while performing maximum handgrip force on the dynamometer. Appendix S1 provides additional details regarding this experimental step. Each trial lasted 5 s, with three attempts at each angle performed in a pseudorandomized order. The mean of the three tests for each wrist angle was defined as the HGS max .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2">| Surface EMG recording</head><p>Surface electromyographic (sEMG) signals were recorded from the flexor pollicis brevis (FPB), an intrinsic hand muscle, and two extrinsic hand muscles (flexor carpi radialis [FCR] and extensor carpi radialis [ECR]) from the dominant side. MEPs were recorded at rest and during a submaximal handgrip strength task (5% of HGS max : HGS 5% ) at the three different wrist angles. Surface electrodes (silver/silver chloride [Ag-AgCl]; 1 cm diameter; 2223 BRQ-3M) were placed in a pseudo-monopolar montage with one electrode over the muscle's innervation zone <ref type="bibr" target="#b14">15</ref> and the other over the nearest bony prominence. The skin was shaved and washed with neutral soap before placing the electrodes. Electrode placements were based on visual identification using isometric contractions and anatomical references suggested by the Atlas of Innervation Zones. <ref type="bibr" target="#b14">15</ref> Additional details regarding electrode placement and signal acquisition system characteristics are available in Appendix S1.</p><p>To check whether fluctuations in baseline myoelectric activity could limit our interpretation of the results, we measured the mean root mean square (RMS) values in a 500 ms window before the MEPs using a custom Python script (<ref type="url" target="https://github.com/rmatsuda/RMS-noise-TMS-MEPs">https://github.com/rmats uda/RMS-noise  -TMS-MEPs</ref>). It helped to control the baseline myoelectric activity and ensure a good signal-to-noise ratio. As a result, we obtained higher RMS values in all three monitored muscles during the active condition. The RMS values (μV; mean ± standard deviation) were: FCR: 8.6 ± 4.9 and 25.3 ± 14.0; ECR: 29.9 ± 13.3 and 68.9 ± 19.9; FPB: 54.6 ± 33.4 and 145.0 ± 57.2, under resting and active handgrip conditions, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.3">| Transcranial magnetic stimulation</head><p>Corticospinal excitability was assessed using single TMS pulses delivered with a figure-of-eight coil (model FEC-01-100, 75 mm in diameter) connected to a Magstim 200 2 stimulator (The Magstim Company Ltd., Spring Gardens). Coil positioning was guided using the neuronavigation software InVesalius Navigator (<ref type="url" target="https://github.com/invesalius/invesalius3">https://github.com/inves  alius/ inves alius3</ref>) <ref type="bibr" target="#b15">16</ref> connected to the motion tracker Fastrak system (Polhemus). The FCR muscle hotspot was identified as the TMS coil location on the participant's dominant hemisphere (left), eliciting the highest peak-topeak MEP amplitudes for single-pulse TMS with a fixed supra-threshold intensity. We chose this hotspot because of the important function of the FCR as a wrist flexor <ref type="bibr" target="#b16">17</ref> and the large overlap of the forearm and hand cortical representations. <ref type="bibr" target="#b17">18</ref> The hotspot search was performed with the coil tangential to the scalp and approximately perpendicular to the central sulcus (45° to the sagittal plane), inducing a posterior-anterior current on the cortical surface. <ref type="bibr" target="#b17">18</ref> The hotspot was marked on a cloth cap and digitized with the neuronavigation system to help the experimenter keep the same TMS coil position and orientation during the experimental session. The resting motor threshold (rMT) of the FCR was defined as the lowest intensity of the TMS stimulator that evoked at least three out of six MEP amplitudes equal to or greater than 100 μV. <ref type="bibr" target="#b17">18</ref> This protocol was implemented to reduce variability and increase the consistency of the obtained MEPs. The subjects were instructed to keep the forearm and wrist in the neutral position, that is, with a 0° angle between the radial styloid process and the center of the dynamometer handle during the hotspot and rMT determinations. MEPs were obtained with stimulation intensity at 120% of the rMT applied to the FCR hotspot during data acquisition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| Experimental procedures</head><p>In both resting and handgrip contraction conditions, subjects sat with shoulders abducted at 30°, and elbows flexed at 90° in front of a monitor with visual feedback of HGS (for the active state) to maintain HGS 5% . A wooden holder kept the dynamometer and forearms positioned with the right wrist at the postures 0°, +45°, and -45° (Figure <ref type="figure">1</ref>). Further details regarding the anatomical references adopted as parameters for the adjustments of the three wrist joint angles are also available in Appendix S1. In both conditions, the subjects kept their hand holding the dynamometer (resting condition without gripping), equalizing (as much as possible) the tactile feedback between the active and resting conditions.</p><p>First, we collected the HGS max with the wrist positioned at each of the three wrist postures. The HGS max allowed us to determine the relative load levels (HGS 5% ) from each wrist angle, which were required for the active handgrip condition. When compared using a one-way ANOVA, the absolute HGS 5% values used in the different wrist postures were significantly different (F 2,25.7 = 13.8; p &lt; 0.001). Tukey's post-hoc test verified that the mean values across subjects were higher at 0° (18.6 ± 4.29) than at -45° (13.5 ± 4.89; p = 0.010) and + 45° (10.5 ± 3.75; p &lt; 0.001). Then, we recorded between 20 and 30 MEPs, with intervals between single pulses of 5 and 10 s in each following condition: three at rest under different wrist angles (0°, +45°, and -45°); and three during a handgrip task at HGS 5% using the same wrist angles. The order of the six conditions was pseudo-randomized for each volunteer. The myoelectric activity in each condition was continuously recorded for 3′30″ to collect the MEPs. Subjects were given a break of at least 2 min between conditions to prevent fatigue or reduced alertness. Since the application of the pulses depended on the subject maintaining the target force (active condition), the interval between pulses needed to vary between 5 and 10 s, generating between 20 and 30 MEPs per condition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| Data and statistical analysis</head><p>The sEMG signals were processed using the Signal Hunter 19 software (Figure <ref type="figure">2</ref>) (<ref type="url" target="https://github.com/biomaglab/signalhunter">https://github.com/bioma  glab/signa lhunter</ref>). The MEPs were extracted within a time window between 15 and 60 ms after the TMS pulse to quantify their peak-to-peak amplitudes. The absolute MEP amplitudes for each muscle in each wrist posture and condition (resting and contraction) are presented in</p><formula xml:id="formula_0">F I G U R E 1</formula><p>The experimental setup was represented schematically as follows: (A) Subjects were seated with their forearms positioned on a wooden holder in a relaxed state. A computer screen was placed in front of them, providing visual force feedback during the active task, which involved exerting 5% of HGS max (HGS 5% ). The neutral (0°) (B), flexion (+45°) (C), and extension (-45°) (D) postures/angles were applied to the wrist joint during the MEP recording under both rest and active conditions, as observed from a top view. Appendix S2. First, the mean MEP amplitude across trials was calculated for each condition and subject. Then, the relative values of HGS max and MEP amplitudes were obtained using the ratio between every variable obtained in the test (HGS max or mean MEP amplitude) and the mean across all conditions of the same variable (e.g., (mean MEP amplitude/mean MEP amplitudes of all conditions) × 100). Finally, these relative average values were used for statistical analysis.</p><p>The statistical analysis was done in the software Jamovi (version 2.3). To assess whether the data met the assumptions for independent measures analysis of variance (ANOVA), data distribution were visually inspected using Q-Q plots and Levene's test was applied to verify the homogeneity of variances. We used a one-way ANOVA to assess the effect of wrist angle (+45° [flexion], -45° [extension], and 0° [neutral]) on the HGS max . We used a twoway ANOVA to assess the effect of wrist angle and task condition (rest and HGS 5% ) on the MEP amplitude. The comparisons of HGSmax and MEP amplitude between the rest and handgrip conditions were determined using the mean across the three angles at rest multiplied by the mean across the three angles during handgrip. Post-hoc multiple comparisons were performed with Tukey's posthoc test with correction for family-wise error rate. Our results are presented as mean (±standard deviation). The p value was set at 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">| RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">| Maximal handgrip strength (HGS max )</head><p>There was an effect of the wrist angle on the HGS max . The relative HGS max was significantly greater at 0° (133 ± 18.6%) than -45° (93.6 ± 18.4%; p &lt; 0.001) and +45° (73.9 ± 16.1%; p &lt; 0.001) (F 2,25.9 = 39.0; p &lt; 0.001). Additionally, -45° was significantly greater than +45° (p = 0.015; Figure <ref type="figure">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">| MEP amplitude</head><p>A two-way ANOVA was performed to compare the effect of wrist angle, condition, and the interaction of both factors on the relative MEP amplitude for each muscle (Figure <ref type="figure" target="#fig_0">4</ref>). The relative MEP amplitude varied depending on the wrist angle (F 2,78 = 14.21; p &lt; 0.001) for the FCR muscle. At rest, Tukey's test for multiple comparisons revealed that the mean MEP amplitude was significantly greater at +45° (83.6 ± 23.3%) than at -45° (45.2 ± 16.7%; p = 0.019). During the active condition, the MEP amplitude was significantly greater at +45° (156 ± 30.3%; p &lt; 0.001) and 0° (146 ± 39.1%; p = 0.014) than at -45° (106 ± 44.7%). Also, the MEP amplitude in FCR was greater in the active (136 ± 43.4%) than in the resting condition (61 ± 26.7%; F I G U R E 2 An illustrative example of MEP profiles recorded from a volunteer during the HGS 5% task. The MEPs are arranged in rows (muscle) and columns (wrist angle). The gray lines represent all MEP trials, and the black line represents the mean MEP profile across the corresponding trials. The peak-to-peak amplitude of the mean MEP is indicated with red crosses and the latency with a green vertical line.</p><p>F 1,78 = 122.52; p &lt; 0.001). There was no significant interaction between wrist angle and condition (F 2,78 = 1.73; p = 0.183).</p><p>In the ECR muscle, the relative MEP amplitude also varied depending on the wrist angle (F 2,78 = 17.11; p &lt; 0.001). At rest, the mean MEP amplitude was significantly greater at -45° (113 ± 27.5%) than at +45° (60.8 ± 19.2%; p &lt; 0.001) and 0° (72.6 ± 29.0%; p = 0.008). During the active handgrip condition, we found that the MEP amplitude at -45° (138 ± 40.7%) was significantly greater than +45° (96.7 ± 28.2%; p = 0.007). In addition, there was an effect of condition (F 1,78 = 30.05; p &lt; 0.001), where the MEP amplitude in active (119 ± 37.9%) was greater than at rest (82.3 ± 33.8%). Again, there was no significant interaction between wrist angle and condition (F 2,78 = 1.04; p = 0.358).</p><p>Finally, the relative MEP amplitudes of the FPB were not different in the different wrist postures/angles (F 2,78 = 1.66; p = 0.198). However, the MEP amplitude was significantly greater during active (128 ± 41.5%) than at rest (71.1 ± 43.7%; F 1,78 = 40.54; p &lt; 0.001). In addition, there was a significant interaction between wrist angle and condition (F 2,78 = 3.68; p = 0.030), showing that the effects of wrist posture depended on the handgrip condition. We performed a post-hoc analysis to evaluate the differences in MEP amplitudes from the FPB muscle across the tested conditions. We observed significant higher MEP amplitudes at 0°-active (131 ± 48.3; p &lt; 0.001), -45°-active (131 ± 44.9; p &lt; 0.001), and +45°active (122 ± 31.9; p = 0.002) compared to 0°-rest (60.1 ± 41.6%). Moreover, 0°-active MEP amplitudes were significantly higher than -45°-rest (53.7 ± 28.9; p &lt; 0.001). Additionally, -45°-active (p &lt; 0.001), +45°rest (99.5 ± 46.0; p = 0.046), and +45°-active (p &lt; 0.001) MEP amplitudes were significantly higher than at -45°-rest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">| Handgrip strength</head><p>This study aimed to investigate the effects of wrist angle on handgrip strength capacity. The performance on the HGS max was different for each of the tested wrist joint angles (+45°, 0°, and -45°). The neutral posture (0°) led to the maximum handgrip strength, while the wrist flexion at +45° led to the weakest. Previous studies have shown that the wrist angle influences the HGS max . <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b19">20</ref> The optimal wrist posture for achieving HGS max is characterized by wrist extension, typically within a range of 35°, with minor variations due to ulnar deviation. <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13</ref> It supports our findings and indicates that wrist flexion and extension greater than 40° lead to lower performance in maximal handgrip strength. It is worth noting that methodological factors, such as the control of radial-ulnar deviations and handle length, can pose challenges in comparing results, as O'Driscoll shows. <ref type="bibr" target="#b11">12</ref> To examine the contribution of the FPB muscle in opposing the four fingers during handgrip, we utilized the smallest feasible grip with our equipment in this investigation. Utilizing a fixed handle throughout the three postures and relying on relative HGS values potentially reduced these issues.</p><p>It is well-known that angular changes in one or more joints can alter the muscle capacity to generate force. This premise is based on the length versus tension relationship curves. <ref type="bibr" target="#b0">1</ref> The reduction in HGS max observed at +45° and -45° is attributed to decreased mechanical efficiency during the task, as the rate of crossbridge formation is reduced due to the change in length of the finger's superficial and deep flexor muscles. 21</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">| MEP amplitude modulation at rest</head><p>We observed that the MEP amplitude at rest was greater at wrist angles that shortened muscle length: flexion for the FCR and extension for the ECR; and smaller when the muscle length was increased: extension for the FCR and flexion for the ECR. Lewis et al. <ref type="bibr" target="#b6">7</ref> observed that wrist flexion led to an increase in MEP amplitude during static and passive postural changes, while wrist extension led to a decrease in MEP amplitude in the FCR muscle. Other authors also reported this effect during passive wrist movement. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b21">22</ref> Forman et al. <ref type="bibr" target="#b3">4</ref> suggested that the reduced afferent input of the muscle spindle caused by the change in muscle length would be responsible for modulating the corticospinal excitability. Accordingly, a shortened muscle would evoke a reduction in muscle spindle firing rate, signaling an unfavorable condition for force production and ultimately increasing corticospinal motor output. Therefore, our findings at rest are likely explained by two complementary mechanisms: First, input from visual <ref type="bibr" target="#b22">23</ref> and proprioceptive receptors inform the CNS about the muscle status to generate force and contribute to the movement. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b23">24</ref> Direct evidence of the role of the muscle spindle in monitoring muscle length to update the motor cortex and spinal motoneurons about joint position sense has already been brought forward. This evidence includes maintenance of position sense and motion even after ligament and joint capsule replacement, dependence on the integrity of afferent projections from muscle spindles for joint position sense, and errors in position sense caused by muscle vibrations. <ref type="bibr" target="#b23">24</ref> Second, by reaching the motor cortex, these sensory inputs could increase the corticospinal activity, making a TMS pulse capable of activating a broader population of spinal <ref type="bibr" target="#b24">25</ref> and cortical neurons. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b25">26</ref> Thus, we could detect an increase in MEP amplitude due to increased excitability of the corticomotor pathway.</p><p>We also investigated whether corticospinal excitability modulation would occur in the intrinsic hand muscle (FPB, supplied by the median nerve), even without changing its length on different wrist angles. The FPB did not show similar modulation to that observed for the FCR, that is, larger MEP amplitudes at wrist flexion and smaller MEP amplitudes at wrist extension. It indicates that the modulation of the corticospinal excitability of the FPB, which has not changed its length, is not entirely related to changes in the excitability of the FCR. Mogk et al. <ref type="bibr" target="#b26">27</ref> found corticospinal modulation even without changes in muscle length (e.g., the modulation of the corticospinal excitability of the posterior deltoid muscle derived from a change in forearm posture). These findings are also corroborated by Forman et al., <ref type="bibr" target="#b5">6</ref> who showed modulation in the corticospinal excitability of the forearm muscles in different shoulder postures.</p><p>On the other hand, Ginanneschi et al. <ref type="bibr" target="#b27">28</ref> have observed corticospinal modulation in an intrinsic hand muscle after changing the shoulder posture. These findings suggest that proprioceptive receptors from more proximal joints, such as the shoulder, can modulate the cortical and spinal excitability of intrinsic hand muscles in addition to muscle length. Thus, it was expected that changes in wrist posture could modulate the corticospinal excitability of the FPB, mainly because FPB and FCR share the same innervation. Additional hypotheses regarding the shared innervation of FPB and FCR muscles and its potential contribution to their corticospinal modulation <ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref> can be found in the Appendix S3.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">| MEP amplitude modulation during handgrip task</head><p>In the present study, MEP amplitudes of the FCR and ECR muscles were similarly modulated in each wrist angle during both conditions (rest and HGS 5% ). As well as at rest, this similarity indicates that corticospinal excitability also adapts to different muscle lengths during active situations of low force production (5% of maximum voluntary isometric contractions [MVIC]). However, studies along these lines have shown controversial results. For example, Collins and Button <ref type="bibr" target="#b31">32</ref> observed smaller MEP amplitudes in the biceps brachii with the shoulder at 90° of flexion (shortened muscle) than 0° during a contraction (10% of MVIC). Some studies have observed no effect of muscle length on MEP amplitudes in voluntary conditions. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b32">33</ref> Conversely, others corroborate our findings and show greater MEP amplitudes in muscleshortening postures during voluntary contraction. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b33">34</ref> The mechanisms presented to explain the modulations observed during rest, such as greater mobilization of cortical neurons and reduced firing rate of the muscle spindle during muscle shortening, could also explain the results during the handgrip task. These mechanisms, in theory, can be even more effective as the kinesthetic input caused by passive movements (and possibly also during active conditions) is higher than in the resting state, as already reported. <ref type="bibr" target="#b22">23</ref> As for the conflicting results of corticospinal excitability in different muscle lengths during active conditions, they may be the result of other experimental conditions, such as the type of muscle length manipulation (active × passive × static, differences in the rate of change of length as a function of time), differences in active conditions (precision grip, handgrip, uni-articular movements), differences in EMG and TMS settings, investigated muscle, or even the variability of the corticospinal excitability and MEP amplitude itself.</p><p>The present study did not observe corticospinal excitability modulation in FPB under active conditions across wrist postures. Forman et al. <ref type="bibr" target="#b5">6</ref> observed that neuron reactivity for the FCR at 5% of maximal voluntary excitation (peak myoelectric activity of the maximal voluntary handgrip force) was significantly higher with the shoulder abducted than flexed. Furthermore, the corticospinal excitability of the ECR was markedly higher at 45° than at 90° and 120° shoulder flexion at 30% of the maximal voluntary handgrip. Interestingly, Gagné and Schneider 9 investigated the effects of wrist angle changes on the corticospinal excitability of the first dorsal interosseous (FDI) muscle during a precision grip task. They found that modulations in FDI were only observed during active and passive wrist flexion and extension but not under static conditions. These findings, although somewhat controversial, suggest that changes in the length of forearm muscles that share innervation with the FDI, such as the ulnar flexor carpi, may have some effect on proximal-distal synergistic modulation. Perez and Rothwell 35 also observed corticospinal excitability modulation in the FDI in different postures (neutral, pronated, and supinated forearm) during the precision grip of a small cylinder but not in the other two intrinsic hand muscles (ADM and APB).</p><p>These and other studies suggest corticospinal excitability modulation under volitional conditions could be task and muscle dependent. <ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b35">36</ref> Hasegawa et al. <ref type="bibr" target="#b35">36</ref> have indicated that precision and power grip tasks may recruit different corticospinal circuits, where precision grip tasks would induce greater MEP amplitude amplitudes in intrinsic hand muscles. Therefore, we hypothesize that during a fine grasp task, where there is greater activation of cortical and spinal neuron populations, there could be greater synergistic recruitment between FCR and FPB. Precision tasks elicit greater activity of monosynaptic corticomotor neurons, leading to a larger neuronal population being activated in M1 through TMS. Additionally, there is a greater size and degree of connectivity between monosynaptic corticomotor neurons in such tasks. <ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b36">37</ref> It is worth mentioning that FPB participation has been previously observed during hand grip tasks involving objects such as a cylinder. <ref type="bibr" target="#b37">38</ref> However, in our handgrip task, the volunteer was not required to stabilize the dynamometer, which may have contributed to the reduced FPB contribution. Nevertheless, if this was a determining factor, we believe that modulations in the excitability of the FPB muscle would have been detected, at least while at rest. Using a handgrip task, no synergistic modulation was observed between FCR and FPB during changes in wrist angle. It is also possible that HGS 5% was too low to observe these effects. Further studies are needed, possibly using a precision task, monitoring other intrinsic hand muscles and/or using a higher intensity task.</p><p>This study showed for the first time that during a lowintensity handgrip task under different wrist postures, no synergistic facilitation/inhibition was observed between the FCR and FPB. In addition, it brings new findings about the corticospinal excitability of an intrinsic hand muscle that does not modify its length during a handgrip task. This study corroborates previous findings on the influence of muscle length on corticospinal excitability, both at rest and under active conditions. Moreover, these results point to a modulation of the corticospinal pathway whose effects are related to the need to supply eventual mechanical deficits resulting from the muscular length and, therefore, to set up a motor unit recruitment pattern to ensure its effectiveness on generating force.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4">| Limitations of the study</head><p>Using a standard grip size on the dynamometer may have caused the handle to be positioned over the thenar region for some subjects, leading to decreased FPB function during the handgrip. Additionally, the magnitude of the submaximal contraction was kept low to reduce the influence of oscillations in myoelectric activity on the collected MEPs. Nevertheless, a more intense task could have led to synchronous modulations between the FCR and the FPB.</p><p>Furthermore, while it is clear that different wrist postures affect the length of the extrinsic muscles that cross the wrist joint, the magnitude of this change cannot be determined. Additionally, although the FPB does not change its length during a handgrip task, it may have undergone minimal changes in length due to the two degrees of freedom of the trapeziometacarpal joint. <ref type="bibr" target="#b38">39</ref> Finally, the exact position of the thumb was not monitored, making it challenging to ensure that its length remained constant during the experiment.</p><p>Despite these limitations, the study significantly contributes to investigating synergistic modulations between proximal and distal muscles during a functional handgrip task. In summary, the complexity of controlling mechanical variables makes it challenging to compare with uniarticular tasks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5">| Perspectives</head><p>The handgrip is a functional task of fundamental importance in daily and sports activities. <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11</ref> Sports that necessitate handgrip while adopting various wrist postures (e.g., golf, tennis, table tennis) should consider the presence of inefficient wrist postures that could impact force generation capability. For instance, when maintained for a prolonged time, the increased corticospinal activity of wrist muscles in less efficient postures (e.g., increased FCR sEMG activity in wrist flexion) can result in reduced performance and increased risk of injury. On the other hand, sports that require manual dexterity while maintaining different wrist postures (e.g. archery and sport shooting) may benefit from these findings as different wrist postures do not modify the activation of the intrinsic muscles of the hand. From a clinical point of view, these results may be relevant for patients in rehabilitation after wrist/hand injury or surgery. The therapeutic approach to regain handgrip capacity can initiate with postures that facilitate the corticospinal pathway, thereby promoting muscle recruitment and progressing to more complex postures with higher demands on corticospinal activity (wrist flexion). In addition, given the independence between the function of the flexor muscles of the wrist and the thenar muscles of the hand, rehabilitation programs should encompass the functional recovery of the wrist and thumb in parallel.</p><p>In conclusion, this study also reinforces the need for a better understanding of the synergy between the intrinsic and extrinsic muscles of the hand during different postures/angles and wrist conditions in healthy individuals, which may help better contribute to sports performance and rehabilitation programs.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>F I G U R E 4</head><label>4</label><figDesc>Boxplots with minimum, maximum, first, second, and third quartile values of relative MEP amplitude values for FCR, ECR, and FPB muscles at rest and during the active handgrip conditions (HGS 5% ) in the three different wrist angles: extension (-45°), neutral (0°), and flexion (+45°) in healthy subjects (n = 14). Statistically significant differences are represented as (*) p &lt; 0.001, (**) p = 0.007, (#) p = 0.008, (##) p = 0.014 and (###) p = 0.019. F I G U R E 3 Boxplots with minimum, maximum, first, second, and third quartile values of HGS max in the three different wrist angles: extension (-45°), neutral (0°), and flexion (+45°) in healthy subjects (n = 14). The relative values of the HGS max were significantly higher at 0° than at +45° and -45°. (#) p = 0.015; (*) p &lt; 0.001.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="4,47.48,387.02,500.31,291.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="5,48.19,46.70,498.90,276.19" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>16000838, 2023, 12, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14477 by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [08/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNO WLE DGE MENTS</head><p>We thank <rs type="person">Professor Oswaldo Baffa</rs> from <rs type="funder">Faculdade de Filosofia, Ciências e Letras de Ribeirão Preto (FFCLRP/ USP)</rs>, who contributed to the neuronavigation and coregistration system Invesalius.</p></div>
+<div><head>FUNDING INFORMATION</head><p>This study was financed in part by the <rs type="funder">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior -Brasil</rs> (<rs type="grantNumber">CAPES) -Finance Code 001</rs>. VHS received funding from the <rs type="funder">Jane and Aatos Erkko Foundation</rs>, the <rs type="funder">Academy of Finland</rs> (decision #<rs type="grantNumber">349985</rs>), and the <rs type="funder">European Research Council (ERC)</rs> under the European Union's <rs type="programName">Horizon 2020 research and innovation programme</rs> (grant agreement #<rs type="grantNumber">810377</rs>). BR was funded by the <rs type="funder">Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP)</rs> (grant #<rs type="grantNumber">2022/00582-9</rs>) and by the <rs type="funder">Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)</rs> (grant #<rs type="grantNumber">141723/2015-7</rs>). RHM was funded by <rs type="funder">CNPq</rs> (grant #<rs type="grantNumber">141056/2018-5</rs>) and <rs type="funder">FAPESP</rs> (grant #<rs type="grantNumber">2022/14526-3</rs>). This research was supported by <rs type="funder">CNPq</rs> (grant #<rs type="grantNumber">310397/2021</rs>), <rs type="funder">Fundação de Amparo à Pesquisa do Estado do Rio de Janeiro (FAPERJ)</rs> (CNE #<rs type="grantNumber">202.785/2018</rs> and <rs type="grantNumber">E-26/010.002418/2019</rs>), and <rs type="funder">Financiadora de Estudos e Projetos (FINEP)</rs>; <rs type="projectName">PROIN-FRA HOSPITALAR</rs> grant #<rs type="grantNumber">18.569-8</rs>. This research is also part of the activities of <rs type="funder">FAPESP's Research, Innovation and Dissemination Center for Neuromathematics-NeuroMat</rs> (<rs type="funder">FAPESP</rs> grant <rs type="grantNumber">#2013/07699-0</rs>).</p></div>
+			</div>
+			<div type="funding">
+<div><p><rs type="funder">Academy of Finland</rs>, Grant/Award Number: <rs type="grantNumber">349985</rs>; <rs type="funder">Conselho Nacional de Desenvolvimento Científico e Tecnológico</rs>, Grant/Award Number: <rs type="grantNumber">141723/2015-7</rs>, <rs type="grantNumber">141056/2018-5</rs> and <rs type="grantNumber">310397/2021</rs>; <rs type="funder">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</rs>, Grant/Award Number: <rs type="grantNumber">001</rs>; <rs type="funder">Financiadora de Estudos e projetos FINEP</rs>, Grant/Award Number: 18.569-8; <rs type="person">Fundação Carlos Chagas Filho de Amparo à Pesquisa</rs> do</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_4x5bM9w">
+					<idno type="grant-number">CAPES) -Finance Code 001</idno>
+				</org>
+				<org type="funding" xml:id="_nqMCe9j">
+					<idno type="grant-number">349985</idno>
+				</org>
+				<org type="funding" xml:id="_uUU4yAA">
+					<idno type="grant-number">810377</idno>
+					<orgName type="program" subtype="full">Horizon 2020 research and innovation programme</orgName>
+				</org>
+				<org type="funding" xml:id="_BMt9Npy">
+					<idno type="grant-number">2022/00582-9</idno>
+				</org>
+				<org type="funding" xml:id="_bAckNhD">
+					<idno type="grant-number">141723/2015-7</idno>
+				</org>
+				<org type="funding" xml:id="_6uVjHJV">
+					<idno type="grant-number">141056/2018-5</idno>
+				</org>
+				<org type="funding" xml:id="_4ut7NbB">
+					<idno type="grant-number">2022/14526-3</idno>
+				</org>
+				<org type="funding" xml:id="_suYe33A">
+					<idno type="grant-number">310397/2021</idno>
+				</org>
+				<org type="funding" xml:id="_sYYtrCd">
+					<idno type="grant-number">202.785/2018</idno>
+				</org>
+				<org type="funded-project" xml:id="_vX4kvMZ">
+					<idno type="grant-number">E-26/010.002418/2019</idno>
+					<orgName type="project" subtype="full">PROIN-FRA HOSPITALAR</orgName>
+				</org>
+				<org type="funding" xml:id="_XD7wJsq">
+					<idno type="grant-number">18.569-8</idno>
+				</org>
+				<org type="funding" xml:id="_yYA6Ud6">
+					<idno type="grant-number">#2013/07699-0</idno>
+				</org>
+				<org type="funding" xml:id="_Qz6jZWE">
+					<idno type="grant-number">349985</idno>
+				</org>
+				<org type="funding" xml:id="_gvTyHWY">
+					<idno type="grant-number">141723/2015-7</idno>
+				</org>
+				<org type="funding" xml:id="_GkPMfna">
+					<idno type="grant-number">141056/2018-5</idno>
+				</org>
+				<org type="funding" xml:id="_VgCKXAr">
+					<idno type="grant-number">310397/2021</idno>
+				</org>
+				<org type="funding" xml:id="_gshkFYk">
+					<idno type="grant-number">001</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head><p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST STATEMENT</head><p>VHM, CDV, BR, VHS, RHM, LAI, and MACG declare that they have no conflict of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPORTING INFORMATION</head><p>Additional supporting information can be found online in the Supporting Information section at the end of this article.</p><p>How to cite this article: Moraes VH, Vargas CD, Ramalho BL, et al. Effect of muscle length in a handgrip task on corticomotor excitability of extrinsic and intrinsic hand muscles under resting and submaximal contraction conditions. Scand J Med Sci Sports. 2023;33:2524-2533. doi:10.1111/sms.14477  </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Skeletal muscle mechanics: implications for rehabilitation</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Lieber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bodine-Fowler</forename><surname>Sc</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="844" to="856" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lieber RL, Bodine-Fowler SC. Skeletal muscle mechanics: im- plications for rehabilitation. Phys Ther. 1993;73:844-856.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The effect of muscle length on motor unit discharge characteristics in human tibialis anterior muscle</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Vander Linden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Kukulka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Soderberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="210" to="218" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vander Linden DW, Kukulka CG, Soderberg GL. The effect of muscle length on motor unit discharge characteristics in human tibialis anterior muscle. Exp Brain Res. 1991;84:210-218.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Corticomotor excitability of wrist flexor and extensor muscles during active and passive movement</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nosaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Thickbroom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum Mov Sci</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="494" to="501" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chye L, Nosaka K, Murray L, Edwards D, Thickbroom G. Corticomotor excitability of wrist flexor and extensor mus- cles during active and passive movement. Hum Mov Sci. 2010;29:494-501.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Muscle length and joint angle influence spinal but not corticospinal excitability to the biceps brachii across forearm postures</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Forman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abdel</forename><forename type="middle">-</forename><surname>Malek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bunce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cmf</forename><surname>Holmes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mwr</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="413" to="423" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Forman DA, Abdel-Malek D, Bunce CMF, Holmes MWR. Muscle length and joint angle influence spinal but not cortico- spinal excitability to the biceps brachii across forearm postures. J Neurophysiol. 2019;122:413-423.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Cortico-motoneuronal output to intrinsic hand muscles is differentially influenced by static changes in shoulder positions</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dominici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Popa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ginanneschi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mazzocchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rossi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">164</biblScope>
+			<biblScope unit="page" from="500" to="504" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dominici F, Popa T, Ginanneschi F, Mazzocchio R, Rossi A. Cortico-motoneuronal output to intrinsic hand muscles is dif- ferentially influenced by static changes in shoulder positions. Exp Brain Res. 2005;164:500-504.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The effects of upper limb posture and a sub-maximal gripping task on corticospinal excitability to muscles of the forearm</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Forman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baarbé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Daligadu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Holmes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="95" to="101" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Forman DA, Baarbé J, Daligadu J, Murphy B, Holmes MW. The effects of upper limb posture and a sub-maximal gripping task on corticospinal excitability to muscles of the forearm. J Electromyogr Kinesiol. 2016;27:95-101.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Phasic modulation of corticomotor excitability during passive movement of the upper limb: effects of movement frequency and muscle specificity</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Byblow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Carson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">900</biblScope>
+			<biblScope unit="page" from="282" to="294" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lewis GN, Byblow WD, Carson RG. Phasic modulation of cor- ticomotor excitability during passive movement of the upper limb: effects of movement frequency and muscle specificity. Brain Res. 2001;900:282-294.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Task-dependent modulation of excitatory and inhibitory functions within the human primary motor cortex</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tinazzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Farina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tamburin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">150</biblScope>
+			<biblScope unit="page" from="222" to="229" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tinazzi M, Farina S, Tamburin S, et al. Task-dependent modu- lation of excitatory and inhibitory functions within the human primary motor cortex. Exp Brain Res. 2003;150:222-229.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Dynamic changes in corticospinal control of precision grip during wrist movements</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gagné</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schneider</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">1164</biblScope>
+			<biblScope unit="page" from="32" to="43" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gagné M, Schneider C. Dynamic changes in corticospinal control of precision grip during wrist movements. Brain Res. 2007;1164:32-43.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Get a grip: individual variations in grip strength are a marker of brain health</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Carson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurobiol Aging</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="189" to="222" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carson RG. Get a grip: individual variations in grip strength are a marker of brain health. Neurobiol Aging. 2018;71:189-222.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A brief review of handgrip strength and sport performance</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cronin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lawton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kilding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Mcmaster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="3187" to="3217" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cronin J, Lawton T, Harris N, Kilding A, McMaster DT. A brief review of handgrip strength and sport performance. J Strength Cond Res. 2017;31:3187-3217.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The relationship between wrist position, grasp size, and grip strength</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>O'driscoll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Horii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ness</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Cahalan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Richards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">An</forename><surname>Kn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hand Surg</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="169" to="177" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O&apos;Driscoll SW, Horii E, Ness R, Cahalan TD, Richards RR, An KN. The relationship between wrist position, grasp size, and grip strength. J Hand Surg. 1992;17:169-177.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Effects of grip span, wrist position, hand and gender on grip strength</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ramakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Bronkema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Hallbeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Hum Factors Ergon Soc Annu Meet</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="554" to="558" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ramakrishnan B, Bronkema LA, Hallbeck MS. Effects of grip span, wrist position, hand and gender on grip strength. Proc Hum Factors Ergon Soc Annu Meet. 1994;38:554-558.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The effect of wrist position, angular velocity, and exertion direction on simultaneous maximal grip force and wrist torque under the isokinetic conditions</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Hallbeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Ind Ergon</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="133" to="143" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jung MC, Hallbeck MS. The effect of wrist position, angular velocity, and exertion direction on simultaneous maximal grip force and wrist torque under the isokinetic conditions. Int J Ind Ergon. 2002;29:133-143.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Atlas of Muscle Innervation Zones: Understanding Surface Electromyography and its Applications</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barbero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Merletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rainoldi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Springer Science &amp; Business Media</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barbero M, Merletti R, Rainoldi A. Atlas of Muscle Innervation Zones: Understanding Surface Electromyography and its Applications. Springer Science &amp; Business Media; 2012.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Development and characterization of the InVesalius Navigator software for navigated transcranial magnetic stimulation</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">H</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Matsuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Asc</forename><surname>Peres</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci Methods</title>
+		<imprint>
+			<biblScope unit="volume">309</biblScope>
+			<biblScope unit="page" from="109" to="120" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Souza VH, Matsuda RH, Peres ASC, et al. Development and characterization of the InVesalius Navigator software for nav- igated transcranial magnetic stimulation. J Neurosci Methods. 2018;309:109-120.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Architecture of selected wrist flexor and extensor muscles</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Lieber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Fazeli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Botte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hand Surg</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="244" to="250" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lieber RL, Fazeli BM, Botte MJ. Architecture of selected wrist flexor and extensor muscles. J Hand Surg. 1990;15:244-250.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Forearm and hand muscles exhibit high Coactivation and overlapping of cortical motor representations</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Tardelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">H</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Matsuda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Topogr</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="322" to="336" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tardelli GP, Souza VH, Matsuda RH, et al. Forearm and hand muscles exhibit high Coactivation and overlapping of cortical motor representations. Brain Topogr. 2022;35:322-336.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<monogr>
+		<title level="m" type="main">SignalHunter Software for electrophysiological data analysis and visualization</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">H</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Peres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zacharias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Baffa</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Souza VH, Peres A, Zacharias L, Baffa O. SignalHunter Software for electrophysiological data analysis and visualiza- tion. 2018.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The effects of posture on forearm muscle loading during gripping</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mogk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Keir</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ergonomics</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="956" to="975" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mogk J, Keir P. The effects of posture on forearm muscle load- ing during gripping. Ergonomics. 2003;46:956-975.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Comparative study of grip strength in different positions of shoulder and elbow with wrist in neutral and extension positions</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">B</forename><surname>Parvatikar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Mukkannavar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exerc Sci Physiother</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="67" to="75" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Parvatikar VB, Mukkannavar PB. Comparative study of grip strength in different positions of shoulder and elbow with wrist in neutral and extension positions. J Exerc Sci Physiother. 2009;5:67-75.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Amplitude of muscle stretch modulates corticomotor gain during passive movement</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Coxon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Stinear</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Byblow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">1031</biblScope>
+			<biblScope unit="page" from="109" to="117" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Coxon JP, Stinear JW, Byblow WD. Amplitude of muscle stretch modulates corticomotor gain during passive movement. Brain Res. 2005;1031:109-117.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Multimodal sensorimotor integration of visual and kinaesthetic afferents modulates motor circuits in humans</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Zschorlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Behrendt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mhe</forename><surname>Lussanet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">187</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zschorlich VR, Behrendt F, Lussanet MHE. Multimodal senso- rimotor integration of visual and kinaesthetic afferents modu- lates motor circuits in humans. Brain Sci. 2021;11:187.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The proprioceptive senses: their roles in signaling body shape, body position and movement, and muscle force</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Proske</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Gandevia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="1651" to="1697" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Proske U, Gandevia SC. The proprioceptive senses: their roles in signaling body shape, body position and movement, and muscle force. Physiol Rev. 2012;92:1651-1697.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Arm posture-dependent changes in corticospinal excitability are largely spinal in origin</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Nuzzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Trajano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Barry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Gandevia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="2076" to="2082" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nuzzo JL, Trajano GS, Barry BK, Gandevia SC, Taylor JL. Arm posture-dependent changes in corticospinal excitability are largely spinal in origin. J Neurophysiol. 2016;115:2076-2082.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Neuronal responses to magnetic stimulation reveal cortical reactivity and connectivity</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Ilmoniemi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Virtanen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ruohonen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuroreport</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="3537" to="3540" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ilmoniemi RJ, Virtanen J, Ruohonen J, et al. Neuronal re- sponses to magnetic stimulation reveal cortical reactivity and connectivity. Neuroreport. 1997;8:3537-3540.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Corticomotor excitability of arm muscles modulates according to static position and orientation of the upper limb</title>
+		<author>
+			<persName><forename type="first">Jpm</forename><surname>Mogk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Perreault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Stinear</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="2046" to="2054" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mogk JPM, Rogers LM, Murray WM, Perreault EJ, Stinear JW. Corticomotor excitability of arm muscles modulates accord- ing to static position and orientation of the upper limb. Clin Neurophysiol. 2014;125:2046-2054.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Changes in corticomotor excitability of hand muscles in relation to static shoulder positions</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ginanneschi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Del</forename><surname>Santo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dominici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mazzocchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rossi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="page" from="374" to="382" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ginanneschi F, Del Santo F, Dominici F, Gelli F, Mazzocchio R, Rossi A. Changes in corticomotor excitability of hand mus- cles in relation to static shoulder positions. Exp Brain Res. 2005;161:374-382.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Flexor Pollicis brevis muscle. Anatomical study and clinical implications</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Caetano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Nakamichi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alves</forename><surname>De Andrade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Open Orthop J</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1321" to="1329" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Caetano EB, Nakamichi YC, Alves de Andrade R, et al. Flexor Pollicis brevis muscle. Anatomical study and clinical implica- tions. Open Orthop J. 2017;11:1321-1329.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Anatomy and function of the Thenar muscles</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Michelsen-Jost</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hand Clin</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gupta S, Michelsen-Jost H. Anatomy and function of the Thenar muscles. Hand Clin. 2012;28:1-7.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Atlas of Human Anatomy</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Netter</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<publisher>Elsevier</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Netter FH. Atlas of Human Anatomy. Elsevier; 2006.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The effect of shoulder position on motor evoked and maximal muscle compound action potentials of the biceps brachii</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Button</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurosci Lett</title>
+		<imprint>
+			<biblScope unit="volume">665</biblScope>
+			<biblScope unit="page" from="206" to="211" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Collins BW, Button DC. The effect of shoulder position on motor evoked and maximal muscle compound action poten- tials of the biceps brachii. Neurosci Lett. 2018;665:206-211.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Modulations in corticomotor excitability during passive upper-limb movement: is there a cortical influence?</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Byblow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">943</biblScope>
+			<biblScope unit="page" from="263" to="275" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lewis GN, Byblow WD. Modulations in corticomotor excitabil- ity during passive upper-limb movement: is there a cortical in- fluence? Brain Res. 2002;943:263-275.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Changes in corticospinal and spinal excitability to the biceps Brachii with a neutral vs. pronated handgrip position differ between arm cycling and tonic elbow flexion</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Forman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Richards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Forman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mwr</forename><surname>Holmes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Power</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Hum Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">503</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Forman DA, Richards M, Forman GN, Holmes MWR, Power KE. Changes in corticospinal and spinal excitability to the bi- ceps Brachii with a neutral vs. pronated handgrip position dif- fer between arm cycling and tonic elbow flexion. Front Hum Neurosci. 2016;10:503.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Distinct influence of hand posture on cortical activity during human grasping</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Rothwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="4882" to="4889" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Perez MA, Rothwell JC. Distinct influence of hand pos- ture on cortical activity during human grasping. J Neurosci. 2015;35:4882-4889.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Further insight into the task-dependent excitability of motor evoked potentials in first dorsal interosseous muscle in humans</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hasegawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kasai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tsuji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yahagi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="387" to="396" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hasegawa Y, Kasai T, Tsuji T, Yahagi S. Further insight into the task-dependent excitability of motor evoked potentials in first dorsal interosseous muscle in humans. Exp Brain Res. 2001;140:387-396.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Motor cortical function and the precision grip</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Geevasinga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Menon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Kiernan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vucic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Rep</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">12120</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Geevasinga N, Menon P, Kiernan MC, Vucic S. Motor cortical function and the precision grip. Physiol Rep. 2014;2:e12120.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Quantification of functional hand grip using electromyography and inertial sensor-derived accelerations: clinical implications</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Martin-Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cuesta</forename><forename type="middle">-</forename><surname>Vargas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed Eng Online</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">161</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martin-Martin J, Cuesta-Vargas AI. Quantification of functional hand grip using electromyography and inertial sensor-derived ac- celerations: clinical implications. Biomed Eng Online. 2014;13:161.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Determination of the number of degrees of freedom of the trapeziometacarpal joint-An in vitro study</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chèze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dumas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Comtet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rumelhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fayet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IRBM</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="272" to="277" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chèze L, Dumas R, Comtet JJ, Rumelhart C, Fayet M. Determination of the number of degrees of freedom of the tra- peziometacarpal joint-An in vitro study. IRBM. 2012;33:272-277.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

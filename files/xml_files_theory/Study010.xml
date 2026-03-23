@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Changes in Physical Performance Throughout Professional Soccer Match-Play</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">M</forename><surname>Oliva-Lozano</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Health Research Centre</orgName>
+								<orgName type="institution">University of Almería</orgName>
+								<address>
+									<settlement>Almería</settlement>
+									<country>Spain;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paulino</forename><surname>Granero-Gil</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Russian Football National Team</orgName>
+								<address>
+									<settlement>Moscow</settlement>
+									<country>Russia;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Marco</forename><surname>Panascì</surname></persName>
+							<email>marco.panasci87@gmail.com</email>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Experimental Medicine</orgName>
+								<orgName type="department" key="dep2">Section of Human Physiology</orgName>
+								<orgName type="institution">University of Genoa</orgName>
+								<address>
+									<settlement>Genoa</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Centro Polifunzionale di Scienze Motorie</orgName>
+								<orgName type="institution">University of Genoa</orgName>
+								<address>
+									<settlement>Genoa</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Changes in Physical Performance Throughout Professional Soccer Match-Play</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5DF156CFE893886CE459648EA8344862</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:08+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>GPS</term>
+					<term>game</term>
+					<term>evolution</term>
+					<term>fatigue</term>
+					<term>monitoring</term>
+					<term>period</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Oliva-Lozano, JM, Granero-Gil, P, and Panascì, M. Changes in physical performance throughout professional soccer match-play. J Strength Cond Res XX(X): 000-000, 2023-The aim of this study was to explore the changes in physical performance by playing position throughout professional soccer match-play. Global Positioning Systems were used for the collection of external load measures during 35 matches. Each match was divided into 15-minute periods. Physical performance varied according to the period in distance covered (F 5 25.69; p , 0.001; partial eta-squared [hp 2 ] 5 0.11), sprinting distance (SPD, F 5 4.35; p , 0.001; hp 2 5 0.02), sprinting actions (SPAs, F 5 5.19; p , 0.001), high-intensity accelerations (Acc+3, F 5 2.18; p 5 0.05; hp 2 5 0.01), high-intensity decelerations (Dec+3, F 5 4.51; p , 0.001; hp 2 5 0.02), and high-metabolic load distance (HMLD, F 5 5.59; p , 0.001; hp 2 5 0.03). The period with the greatest mean physical performance was usually from the first half of the matches: 0-15 minutes (distance, Acc+3, and Dec+3) and 30-45 minutes (HMLD, SPA, and SPD). However, the lowest mean physical performance compared with the rest of 15-minute periods was observed in the 60-75-minute period (distance, HMLD, Acc+3, and Dec+3), except for SPA and SPD (15-30 minutes and 75-90 minutes). Overall, no significant differences (p . 0.05) were observed in the physical performance between the extratime periods. In addition, the playing position had a significant effect on all performance variables (F 5 39.99-133.29; p , 0.001; hp 2 5 0.14-0.34). Central defenders showed the lowest physical performance throughout the periods of match-play, whereas wide midfielders showed the greatest physical performance in all variables, except for distance covered, in which midfielders had the greatest performance. In conclusion, there were changes in physical performance during the matches depending on the period of match-play and playing position.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The use of Global Positioning Systems (GPS) in soccer teams allows to measure any variable related to relationship between time and positioning such as distance covered, velocity, or acceleration during the training sessions and official matches of each player <ref type="bibr" target="#b2">(3)</ref>. This technology allows to keep an accurate balance between training stress and recovery, thereby maximizing performance potential while minimizing the risk of overtraining <ref type="bibr" target="#b11">(12)</ref>. This is why the interest in the application of technology for monitoring the physical performances has been significantly developed in recent years.</p><p>Soccer is characterized by periods of high-intensity activity that are interspersed with lower intensity actions <ref type="bibr" target="#b22">(23)</ref>. During a match, players perform different activities such as changing of direction, jumping, shooting, tackling, sprinting, controlling the ball under pressure, and running at different speeds, which involve high metabolic (aerobic and anaerobic energy production) and physiological requirements <ref type="bibr" target="#b9">(10)</ref>. Soccer players who complete the full duration of the match may cover ;10.2 km and ;600 m at highintensity running <ref type="bibr" target="#b13">(14)</ref>. Specifically, sprinting actions (SPAs) usually have a tactical purpose, which is specific to each playing position <ref type="bibr" target="#b19">(20)</ref>, and may lead to situations like scoring a goal <ref type="bibr" target="#b7">(8)</ref>.</p><p>Previous research observed that the capacity to perform accelerations and decelerations, or sprints decreases during the last 15 minutes of match-play <ref type="bibr" target="#b21">(22,</ref><ref type="bibr" target="#b26">27)</ref>. The level of glycogen in players' muscle fibers decreases during the match causing a reduction of the number of sprints, accelerations, and decelerations <ref type="bibr" target="#b12">(13,</ref><ref type="bibr" target="#b27">28)</ref>. In addition, several studies demonstrated that physical performance during competitive matches is influenced by the playing position <ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref><ref type="bibr" target="#b5">(6)</ref>. For example, the total distance covered and high-intensity distance covered by midfielders (MFs), full-backs (FBs), and wide midfielders (WMFs) during a soccer match are higher than the distances covered by forwards (FWs) or central defenders (CDs) <ref type="bibr" target="#b5">(6)</ref>. In addition, the highest sprinting distances (SPDs) through a competitive soccer match are achieved by the players disposed in wide position on the pitch compared with the central players <ref type="bibr" target="#b10">(11)</ref>.</p><p>Physical performance of match day has been examined using different external load parameters, considering contextual variables such as playing position <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b3">4)</ref> or players' level <ref type="bibr" target="#b16">(17)</ref>, and dividing the full match into different periods <ref type="bibr" target="#b6">(7,</ref><ref type="bibr" target="#b20">21)</ref>. However, to the best of our knowledge, little research is available analyzing a combination of external load parameters with a specific focus on high-intensity actions such as SPD, SPAs, high-intensity accelerations (Acc13), high-intensity decelerations (Dec13), and highmetabolic load distance (HMLD), dividing the duration of the full match into 15-minute periods. This information would allow coaches to design specific training strategies that allow the players to maintain a good level of performance across various phases of the game.</p><p>Therefore, the aims of this study were (a) to analyze the changes in physical performance of the professional soccer players during the different 15-minute periods of match and (b) to investigate the effect that the playing position had on the changes in physical performance throughout match-play. The hypotheses were that the greatest performance would be during the first 15minute period of the match regardless of the playing position and that the lowest physical performance would be found toward the end of the match (60-75 minutes and 75-90 minutes).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Approach to the Problem</head><p>This was an observational longitudinal study that considered 35 matches of a professional soccer team competing in the first league from Hungary. Performance tracking technology, which was based on the GPS, was used for data collection during match days. To explore the changes in physical performance throughout matchplay, each match was divided into periods of 15 minutes. The extratime from each match was also included as an additional period for each match half, although the length of this period varied according to the matches. Before the beginning of the experimental protocol, all subjects were fully informed about the study aims and procedure, and they provided their written informed consent to participate in the study. The club authorized the data collection during the season and the experimental protocol conformed to the code of Ethics of the World Medical Association (Declaration of Helsinki III), and it was approved by the Ethics Committee of the University of Almeria (UALBIO2020/032).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Subjects</head><p>Twenty-six professional soccer players (age: 27.3 6 2.7 years; height: 1.8 6 0.1 m; body mass: 78.8 6 6.6 kg) took part in the study. The following playing positions were included in the study: MFs (n 5 8), CDs (n 5 6), FBs (n 5 4), FWs (n 5 4), and WMFs (n 5 4). The players were excluded from the analysis when the total duration of the match was not completed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedures</head><p>WIMU Pro units (RealTrack Systems, Almería, Spain) were used for data collection of the matches. These units were based on GPS technology that collected data at 10 Hz. All units were calibrated before the start of the session following the manufacturer's instructions <ref type="bibr" target="#b18">(19,</ref><ref type="bibr" target="#b23">24)</ref>. Then, 1 member of the research team placed the tracking systems in the back pocket of a chest vest (Ras án, Valencia, Spain). The same member of the research team transferred the data to SPro software (RealTrack Systems) through the Smart Station (RealTrack Systems) after each match. The SPro software created the "Intervals Pro" report and the following variables were analyzed: total distance covered (m), HMLD (meters covered when player's metabolic power was above 25.5 W•kg 2 </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical Analyses</head><p>The normality of the variables was assessed through Kolmogorov-Smirnov and homogeneity of variance through the Levene's test. Descriptive statistics (mean and SD) were calculated to obtain the physical performance required throughout professional soccer matches. A 2-way analysis of variance with the Bonferroni post hoc test was conducted to analyze the changes in physical performance during the match. Playing position and the periods of the match (i.e., each 15-minute period for 90 minutes) were set as independent variables. The extratime periods for each match half were removed from this analysis because these periods are shorter, do not have a regular duration, and could likely affect the outcomes of the 2-way analysis. Partial eta-squared (hp 2 ) was used to analyze the effect size (large effect: $0.14, medium effect: 0.06-0.14, and small effect: 0.01-0.06). The statistical analysis was conducted on SPSS Statistics version 28 (IBM Corp., Armonk, NY), and the statistical significance was set at p , 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Figure <ref type="figure" target="#fig_0">1</ref> shows the changes in physical performance throughout professional soccer match-play. The physical performance varied according to the period of the match in all variables: distance covered (F 5 25.69; p , 0.001; hp 2 5 0.11, medium effect), SPD (F 5 4.35; p , 0.001; hp 2 5 0.02, small effect), SPAs (F 5 5.19; p , 0.001; hp 2 5 0.03, small effect), Acc13 (F 5 2.18; p 5 0.05; hp 2 5 0.01, medium effect), Dec13 (F 5 4.51; p , 0.001; hp 2 5 0.02, small effect), and HMLD (F 5 5.59; p , 0.001; hp 2 5 0.03, small effect). Specifically, the period with the greatest mean physical performance was usually from the first half of the matches: 0-15 minutes (distance: 1801. <ref type="bibr" target="#b28">29</ref> 6 183.10 m; Acc13: 9.05 6 4.01 accelerations; Dec13: 12.56 6 5.06 decelerations) and 30-45 minutes (HMLD: 172.32 6 63.86 m; SPAs: 1.69 6 1.42 actions; SPD: 33.53 6 32.04 m). However, the lowest mean physical performance compared with the rest of 15-minute periods was observed in the 60-75-minute period (distance: 1,546.97 6 195.81 m; HMLD: 145.41 6 54.45 m; Acc13: 7.68 6 3.20 accelerations; Dec13: 10.21 6 4.16 decelerations), except for SPA (15-30 minutes: 1.20 6 1.29 actions; 75-90 minutes: 1.21 6 1.29 actions) and SPD (15-30 minutes: 23.99 6 27.46 m; 75-90 minutes: 24.51 6 28.63 m).</p><p>The playing position had a significant effect on all variables: distance covered (F 5 83.87; p , 0.001; hp 2 5 0.25, large effect), SPD (F 5 64.58; p , 0.001; hp 2 5 0.20, large effect), SPA (F 5 69.72; p , 0.001; hp 2 5 0.21, large effect), ACC HIGH (F 5 39.99; p , 0.001; hp 2 5 0.14, large effect), DEC HIGH (F 5 78.63; p , 0.001; hp 2 5 0.24, large effect), and HMLD (F 5 133.29; p , 0.001; hp 2 5 0.34, large effect). Specifically, CDs showed the lowest physical performance throughout the periods of matchplay, whereas WMFs showed the greatest physical performance in all variables, except for distance covered, in which MFs had the greatest performance. Table <ref type="table" target="#tab_1">1</ref> shows the changes in physical performance throughout professional soccer match-play by playing position. However, no significant interactions between playing position and the periods of the match were observed for any of the variables: distance covered (F 5 0.36; p 5 0.99; hp 2 5 0.01, small effect), SPD (F 5 1.53; p 5 0.06; hp 2 5 0.03, small effect), SPA (F 5 1.55; p 5 0.06; hp 2 5 0.03, small effect), ACC HIGH (F 5 0.62; p 5 0.90; hp 2 5 0.01, small effect), DEC HIGH (F 5 1.42; p 5 0.11; hp 2 5 0.03, small effect), or HMLD (F 5 0.40; p 5 0.99; hp 2 5 0.01, small effect).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The purpose of this study was to investigate the change in physical performance throughout professional soccer matchplay. This investigation shows that there were changes in physical performance during the matches depending on the period. Overall, the period with the greatest mean physical Physical Performance Changes During Soccer Matches (2023) 00:00 performance was usually from the first half of the matches: 0-15 minutes (distance, Acc13, and Dec13) and 30-45 minutes (HMLD, SPA, and SPD). However, the lowest mean physical performance compared with the rest of the 15-minute periods was observed in the 60-75-minute period (distance, HMLD, Acc13, and Dec13), except for SPA and SPD (15-30 minutes and 75-90 minutes). The playing position had a significant effect on all physical performance variables. Central defenders showed the lowest physical performance throughout the periods of match-play, whereas WMFs showed the greatest physical performance in all variables, except for distance covered, in which MFs had the greatest performance. However, the interaction between playing position and period of the match was not significant for any of the variables.</p><p>The results of our study demonstrated that the highest values of distance, Acc13, and Dec13 have been reached during the first period of the match (0-15 minutes). These parameters are probably influenced by factors such as the desire to obtain a tactical superiority on the opponent team, positive ergogenic effects of the warm-up prematch, or the higher level of neuromuscular freshness in the first 15 minutes of the match. Moreover, our data agree with those obtained in a previous study <ref type="bibr" target="#b26">(27)</ref>, which observed that the distance covered and the highintensity acceleration and deceleration distances performed by the soccer players were higher during the first 15 minutes of the match than those reached in the other bouts of the match. Furthermore, the present data, in average, indicated that HMLD, SPD, and SPA reached during the third period (30-45 minutes) were significantly higher than those measured during the other periods of the match. These variables usually go together because the sprinting activity is related to the HMLD (although, to the best of our knowledge, there are no other studies evaluating the differences of this variable during the different periods of the match), which represents the meters covered when player's metabolic power is high (e.g., above 25.5 W•kg 21 ) (18). Concerning this, previous studies conversely have indicated that the greatest sprint performance was found during the first (0-15 minutes) and fourth (45-60 minutes) periods, with a reduction in performance during the last phases of each match half <ref type="bibr" target="#b16">(17,</ref><ref type="bibr" target="#b21">22)</ref>. For example, Mohr et al. <ref type="bibr" target="#b16">(17)</ref> found that in top-level Danish professional soccer players, the SPD performed (30 km•h 21 ) during the match was higher during the first period of the match than the other periods. In addition, a recent study showed that the greatest amount of sprints above 30 km•h 21 in Spanish LaLiga were found in 0-15 minutes and 75-90 minutes <ref type="bibr" target="#b19">(20)</ref>. The difference of results between previous research and our data could be explained by different reasons, such as effect of contextual variables, the use of optical tracking methods vs. data collected by GPS, or the different categorization of sprint thresholds. Furthermore, this study showed that the lowest mean physical performance compared with the rest of the 15-minute periods was generally observed in the second half. Previous studies suggested that fatigue decreased the capacity to maintain the same physical work throughout the soccer match <ref type="bibr" target="#b6">(7,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b16">17)</ref>. In particular, during the last phase of the match, the neuromuscular fatigue significantly increases, which induces a reduction of physical performance of the players <ref type="bibr" target="#b8">(9)</ref>. For example, the players reached the lowest amount of Acc13 and Dec13 in the 60-75-minute period. A reduction of acceleration and deceleration ability through competitive match is induced by the decrease of glycogen level, lower concentration of muscle creatine-phosphate, and dehydration provoking physical fatigue, which induces a decline in the capacity to develop the muscular force (2). Our study found the lowest values in the 60-75minute period for all variables, except for SPA and SPD (15-30 minutes and 75-90 minutes). From our perspective, fatigue should not be considered as the only 1 variable explaining this decline in performance. The effective playing time is a key variable because it is reduced in the last phases of the match (e.g., 0-15 minutes: 66.3% of the total playing time; 75-90 minutes: 55% of the total playing time) <ref type="bibr" target="#b14">(15)</ref>.</p><p>Another main finding of the study was that the playing position had a significant effect on all performance variables, with the CDs and WMFs showing the lowest and greatest, respectively, physical performance throughout the periods of match-play, except for distance covered, in which MFs had the greatest performance. One of main reasons that may explain these results is tactical purpose of each position and density of players in the area in which each player is usually located <ref type="bibr" target="#b15">(16,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20)</ref>. For example, these results agree with some previous studies showing that external playing positions (e.g., FBs or WMFs) may achieve greater high-intensity actions than internal positions (e.g., CDs or MFs) <ref type="bibr" target="#b3">(4,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b27">28)</ref>. Nonetheless, a recent study suggested that there were differences in physical performance depending on team formation <ref type="bibr" target="#b15">(16)</ref>. For instance, formations with 3 defenders increased the SPD of CDs and FBs compared with formations with 4 defenders <ref type="bibr" target="#b15">(16)</ref>.</p><p>The present study has some limitations. First, GPS technology was used for the data collection. Second, the sprint analysis is limited to a specific speed, acceleration, and deceleration threshold. Third, this study did not measure physiological measures (e.g., heart rate response) of the players during the match, which may be relevant parameters of performance <ref type="bibr" target="#b28">(29)</ref>. Fourth, the effect of the score during the 15-minute periods of the matches on performance was not analyzed. Finally, to expand the analysis of running performance in different periods of the match, it could be interesting to conduct a similar study considering the effective playing time <ref type="bibr" target="#b24">(25)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Practical Applications</head><p>The study shows that there were changes in physical performance during the matches depending on the period of matchplay. Coaches should pay attention to neuromuscular activation during warm-ups and consider the time difference until the start of the match because the period with the greatest mean physical performance was usually 0-15 minutes for distance, Acc13, and Dec13. This study also found that the lowest mean physical performance compared with the rest of the 15-minute periods was observed in the 60-75-minute period (distance, HMLD, Acc13, and Dec13), except for SPA and SPD (15-30 minutes and 75-90 minutes).The data collection of the players' physical performance may also increase the capacity to prevent the muscle injuries, but these results should be interpreted with caution by the soccer fitness coaches because the decline of physical performance during the match may be due to game interruptions and lower effective playing time. In addition, this investigation observed that playing position had a significant effect on all physical performance variables, which suggests that an individualized training approach is necessary to optimize performance and reduce injury risk. For instance, a CD usually does not sprint as much as a WMF, and the tactical purpose and context in which they develop the actions are different.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>1 )</head><label>1</label><figDesc>, Acc13 (above 3 m•s 22 ), Dec13 (below 23 m•s 22 ), SPD (meters covered above 25.2 km•h 21 ), and SPAs (above 25.2 km•h 21 ) (23).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Description of physical performance throughout professional soccer match-play. m, total distance; HMLD, high-metabolic load distance; Acc+3, highintensity accelerations; Dec+3, high-intensity decelerations; SPD, sprinting distance; SPAs, sprinting actions; CDs, central defenders; FBs, full-backs; FWs, forwards; MFs, midfielders; WMFs, wide midfielders.</figDesc><graphic coords="3,168.21,60.83,263.49,335.91" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1</head><label>1</label><figDesc>Evolution of physical performance during professional soccer match-play by playing position.* 125.74 † ‡ §‖ 1,561.50 6 154.46 §{ 1,639.74 6 232.90 § 1,546.80 6 155.76 §{ 1,423.34 6 175.41 † ‡‖{# 1,552.13 6 200.36 §{ FBs 1856.73 6 180.78 † ‡ § 1727.61 6 186.08 §{ 1803.93 6 208.02 § 1,692.32 6 174.79{ 1,577.08 6 217.07 †‖{# 1762.77 6 199.66 §</figDesc><table><row><cell cols="2">Variable Position</cell><cell>0'-15'</cell><cell>15'-30'</cell><cell>30'-45'</cell><cell>45'-60'</cell><cell>60'-75'</cell><cell>75'-90'</cell></row><row><cell>Total distance (m)</cell><cell cols="2">CDs 1,667.49 6 FWs 1732.04 6 104.11</cell><cell>1,616.03 6 170.39</cell><cell cols="2">1724.94 6 200.44 1,666.16 6 126.54</cell><cell>1,564.44 6 101.59</cell><cell>1,635.72 6 240.90</cell></row><row><cell></cell><cell>MFs</cell><cell cols="6">1942.85 6 129.36 † ‡ § 1817.70 6 160.76 §{ 1885.58 6 214.62 § 1799.25 6 147.72 §{ 1,661.37 6 149.56 † ‡‖{# 1835.06 6 191.13 §</cell></row><row><cell></cell><cell>WMFs</cell><cell>1734.03 6 171.26 §</cell><cell>1,628.73 6 154.81</cell><cell cols="2">1752.77 6 247.52 § 1,660.04 6 186.64</cell><cell>1,527.66 6 154.67{#</cell><cell>1,648.67 6 260.59</cell></row><row><cell cols="2">SPD (m) CDs</cell><cell>19.40 6 17.38</cell><cell>9.86 6 16.92</cell><cell>14.72 6 18.83</cell><cell>10.45 6 14.11</cell><cell>13.17 6 18.87</cell><cell>8.70 6 14.73</cell></row><row><cell></cell><cell>FBs</cell><cell>35.49 6 23.73</cell><cell>29.65 6 28.76#</cell><cell>50.19 6 30.39 †‖</cell><cell>39.21 6 31.31</cell><cell>37.00 6 30.64</cell><cell>32.79 6 28.69#</cell></row><row><cell></cell><cell>FWs</cell><cell>22.03 6 17.16#</cell><cell>35.70 6 37.55</cell><cell>60.16 6 41.98{</cell><cell>44.78 6 29.76</cell><cell>37.74 6 23.09</cell><cell>41.17 6 32.10</cell></row><row><cell></cell><cell>MFs</cell><cell>21.88 6 24.73</cell><cell>21.29 6 20.35</cell><cell>25.45 6 26.12</cell><cell>24.75 6 25.00</cell><cell>20.00 6 19.06</cell><cell>21.00 6 24.19</cell></row><row><cell></cell><cell>WMFs</cell><cell>37.24 6 43.57</cell><cell>50.41 6 33.26</cell><cell>54.48 6 34.10</cell><cell>41.03 6 27.93</cell><cell>54.09 6 26.34</cell><cell>50.62 6 38.08</cell></row><row><cell>SPAs</cell><cell>CDs</cell><cell>1.00 6 0.82</cell><cell>0.44 6 0.69</cell><cell>0.81 6 0.93</cell><cell>0.54 6 0.67</cell><cell>0.67 6 0.78</cell><cell>0.48 6 0.77</cell></row><row><cell>(count)</cell><cell>FBs</cell><cell>1.95 6 1.23</cell><cell>1.43 6 1.27#</cell><cell>2.43 6 1.43 †‖</cell><cell>1.81 6 1.35</cell><cell>1.76 6 1.32</cell><cell>1.69 6 1.41#</cell></row><row><cell></cell><cell>FWs</cell><cell>1.73 6 1.19</cell><cell>1.73 6 1.85</cell><cell>3.00 6 1.61</cell><cell>1.73 6 1.01</cell><cell>2.09 6 1.38</cell><cell>1.64 6 1.21</cell></row><row><cell></cell><cell>MFs</cell><cell>1.31 6 1.36</cell><cell>1.16 6 1.09</cell><cell>1.35 6 1.01</cell><cell>1.16 6 1.11</cell><cell>1.06 6 0.92</cell><cell>1.10 6 1.20</cell></row><row><cell></cell><cell>WMFs</cell><cell>1.58 6 1.47#</cell><cell>2.55 6 1.40</cell><cell>2.65 6 1.46{</cell><cell>2.15 6 1.04</cell><cell>2.55 6 1.05</cell><cell>2.26 6 1.37</cell></row><row><cell>Acc13</cell><cell>CDs</cell><cell>7.00 6 2.66</cell><cell>6.56 6 3.48</cell><cell>7.54 6 4.03</cell><cell>6.83 6 3.13</cell><cell>5.93 6 2.49</cell><cell>6.59 6 3.40</cell></row><row><cell>(count)</cell><cell>FBs</cell><cell>9.93 6 4.30</cell><cell>8.45 6 4.07</cell><cell>8.90 6 3.18</cell><cell>8.48 6 3.79</cell><cell>8.24 6 3.43</cell><cell>8.62 6 4.71</cell></row><row><cell></cell><cell>FWs</cell><cell>9.27 6 4.69</cell><cell>8.55 6 3.14</cell><cell>8.09 6 4.25</cell><cell>7.55 6 3.45</cell><cell>8.64 6 3.20</cell><cell>6.73 6 3.23</cell></row><row><cell></cell><cell>MFs</cell><cell>9.84 6 4.24</cell><cell>8.90 6 3.72</cell><cell>9.35 6 3.77</cell><cell>9.16 6 3.25</cell><cell>8.06 6 3.04</cell><cell>8.80 6 3.42</cell></row><row><cell></cell><cell>WMFs</cell><cell>10.74 6 3.65</cell><cell>12.10 6 3.91</cell><cell>12.45 6 2.95</cell><cell>11.95 6 4.10</cell><cell>9.80 6 2.84</cell><cell>11.16 6 4.73</cell></row><row><cell>Dec13</cell><cell>CDs</cell><cell>8.96 6 3.07</cell><cell>8.70 6 3.35</cell><cell>9.46 6 3.46</cell><cell>9.54 6 3.40</cell><cell>8.06 6 3.15</cell><cell>8.61 6 3.48</cell></row><row><cell>(count)</cell><cell>FBs</cell><cell>14.31 6 4.58 † §</cell><cell>11.55 6 3.84{</cell><cell>12.12 6 3.04</cell><cell>12.64 6 3.64</cell><cell>11.31 6 4.52{</cell><cell>12.60 6 4.92</cell></row><row><cell></cell><cell>FWs</cell><cell>9.82 6 2.40</cell><cell>10.55 6 3.17</cell><cell>11.45 6 3.73</cell><cell>9.36 6 3.30</cell><cell>9.91 6 4.21</cell><cell>8.73 6 4.67</cell></row><row><cell></cell><cell>MFs</cell><cell>13.96 6 5.18 ‡ §‖</cell><cell>12.29 6 4.03</cell><cell>12.20 6 4.08</cell><cell>10.86 6 3.71{</cell><cell>10.43 6 3.74{</cell><cell>10.71 6 4.37{</cell></row><row><cell></cell><cell>WMFs</cell><cell>16.89 6 4.59</cell><cell>15.85 6 4.68</cell><cell>16.70 6 4.51</cell><cell>16.20 6 3.65</cell><cell>13.35 6 4.04</cell><cell>16.58 6 5.51</cell></row><row><cell>HMLD</cell><cell>CDs</cell><cell>125.40 6 34.54</cell><cell>105.67 6 35.19</cell><cell>123.13 6 43.95</cell><cell>118.94 6 38.70</cell><cell>104.38 6 39.40</cell><cell>102.26 6 35.41</cell></row><row><cell>(m)</cell><cell>FBs</cell><cell>199.83 6 60.72 §‖</cell><cell>176.68 6 58.01</cell><cell>192.37 6 52.03</cell><cell>186.07 6 55.39</cell><cell>165.15 6 53.01{</cell><cell>164.95 6 49.99{</cell></row><row><cell></cell><cell>FWs</cell><cell>165.97 6 46.58</cell><cell>165.59 6 59.15</cell><cell>186.08 6 62.53</cell><cell>165.37 6 32.56</cell><cell>158.05 6 41.77</cell><cell>159.62 6 74.48</cell></row><row><cell></cell><cell>MFs</cell><cell>176.60 6 56.98 §</cell><cell>163.28 6 52.23</cell><cell>178.97 6 56.46 §</cell><cell>169.00 6 43.07</cell><cell>147.33 6 42.64{#</cell><cell>159.34 6 55.56</cell></row><row><cell></cell><cell>WMFs</cell><cell>216.69 6 52.25</cell><cell>220.83 6 47.69</cell><cell>239.17 6 59.46</cell><cell>230.12 6 52.57</cell><cell>204.02 6 45.15</cell><cell>220.15 6 57.84</cell></row><row><cell>†159-30'.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>‡459-60'.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>§609-75'.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>‖759-90'.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">{Statistical differences (p , 0.05) from period 1 (09-159).</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>#309-45'.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p>*m, total distance; HMLD, high-metabolic load distance; Acc13, high-intensity accelerations; Dec13, high-intensity decelerations; SPD, sprinting distance; SPAs, sprinting actions; CDs, central defenders; FBs, full-backs; FWs, forwards; MFs, midfielders; WMFs, wide midfielders.</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The authors thank the club for authorizing the data collection during the season. The authors have no conflicts of interest to disclose. <rs type="person">J. M. Oliva-Lozano</rs>, <rs type="person">P. Granero-Gil</rs>: research concept and study design; <rs type="person">J. M. Oliva-Lozano</rs>, <rs type="person">M. Panascì</rs>: literature review, <rs type="person">J. M. Oliva-Lozano</rs>, <rs type="person">P. Granero-Gil</rs>: data collection; <rs type="person">J. M. Oliva-Lozano</rs>, <rs type="person">M. Panascì</rs>: data analysis and interpretation; <rs type="person">J. M. Oliva-Lozano</rs>, <rs type="person">P. Granero-Gil</rs>: statistical analyses; <rs type="person">J. M. Oliva-Lozano</rs>, <rs type="person">M. Panascì</rs>: writing of the manuscript; <rs type="person">J. M. Oliva-Lozano</rs>, <rs type="person">P. Granero-Gil</rs>: reviewing/editing a draft of the manuscript.</p></div>
+			</div>			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Match-related physical performance in professional soccer: Position or player specific?</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Altmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Forcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ruf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">256695</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Altmann S, Forcher L, Ruf L, et al. Match-related physical performance in professional soccer: Position or player specific? PLoS One 16: e0256695, 2021.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Metabolic response and fatigue in soccer</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bangsbo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Iaia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Krustrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="111" to="127" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bangsbo J, Iaia FM, Krustrup P. Metabolic response and fatigue in soccer. Int J Sports Physiol Perform 2: 111-127, 2007.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A comparison of GPS workload demands in match play and small-sided games by the positional role in youth soccer</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Beenham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Barron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Hurst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Figueirdo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Atkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hum Kinet</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="129" to="137" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beenham M, Barron DJ, Fry J, Hurst HH, Figueirdo A, Atkins S. A comparison of GPS workload demands in match play and small-sided games by the positional role in youth soccer. J Hum Kinet 57: 129-137, 2017.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Differences in GPS variables according to playing formations and playing positions in U19 male soccer players</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Borghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Colombo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">La</forename><surname>Torre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Banfi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bonato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vitale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="225" to="239" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Borghi S, Colombo D, La Torre A, Banfi G, Bonato M, Vitale JA. Dif- ferences in GPS variables according to playing formations and playing positions in U19 male soccer players. Res Sports Med 29: 225-239, 2021.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The effect of playing formation on high-intensity running and technical profiles in English FA Premier League soccer matches</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Bradley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Carling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Archer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="821" to="830" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bradley PS, Carling C, Archer D, et al. The effect of playing formation on high-intensity running and technical profiles in English FA Premier League soccer matches. J Sports Sci 29: 821-830, 2011.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Evolution of match performance parameters for various playing positions in the English Premier League</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Barnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Archer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hogg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Bradley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum Mov Sci</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bush M, Barnes C, Archer DT, Hogg B, Bradley PS. Evolution of match performance parameters for various playing positions in the English Premier League. Hum Mov Sci 39: 1-11, 2015.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Are declines in physical performance associated with a reduction in skill-related performance during professional soccer match-play?</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Carling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dupont</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="63" to="71" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carling C, Dupont G. Are declines in physical performance associated with a reduction in skill-related performance during professional soccer match-play? J Sports Sci 29: 63-71, 2011.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Straight sprinting is the most frequent action in goal situations in professional football</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Faude</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Meyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="625" to="631" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Faude O, Koch T, Meyer T. Straight sprinting is the most frequent action in goal situations in professional football. J Sports Sci 30: 625-631, 2012.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">High-intensity acceleration and deceleration demands in elite team sports competitive match play: A systematic review and meta-analysis of observational studies</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Harper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Carling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kiely</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<date type="published" when="1923">1923-1947, 2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harper DJ, Carling C, Kiely J. High-intensity acceleration and de- celeration demands in elite team sports competitive match play: A sys- tematic review and meta-analysis of observational studies. Sports Med 49: 1923-1947, 2019.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">In-season adaptations to intense intermittent training and sprint interval training in sub-elite football players</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hostrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Gunnarsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fiorenza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="669" to="677" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hostrup M, Gunnarsson TP, Fiorenza M, et al. In-season adaptations to intense intermittent training and sprint interval training in sub-elite football players. Scand J Med Sci Sports 29: 669-677, 2019.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Acceleration and sprint profiles of a professional elite football team in match play</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ingebrigtsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dalen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Hjelde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Drust</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Wisløff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="101" to="110" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ingebrigtsen J, Dalen T, Hjelde GH, Drust B, Wisløff U. Acceleration and sprint profiles of a professional elite football team in match play. Eur J Sport Sci 15: 101-110, 2015.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Preventing overtraining in athletes in high-intensity sports and stress/recovery monitoring</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kellmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="95" to="102" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kellmann M. Preventing overtraining in athletes in high-intensity sports and stress/recovery monitoring. Scand J Med Sci Sports 20: 95-102, 2010.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Muscle and blood metabolites during a soccer game: Implications for sprint performance</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Krustrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Steensberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bencke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kjaer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bangsbo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="1165" to="1174" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Krustrup P, Mohr M, Steensberg A, Bencke J, Kjaer M, Bangsbo J. Muscle and blood metabolites during a soccer game: Implications for sprint per- formance. Med Sci Sports Exerc 38: 1165-1174, 2006.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Evolution of physical and technical parameters in the Spanish LaLiga 2012-2019</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lago-Peñas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lorenzo-Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ópez-Del Campo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Resta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Med Footb</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="41" to="46" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lago-Peñas C, Lorenzo-Martinez M, L ópez-Del Campo R, Resta R, Rey E. Evolution of physical and technical parameters in the Spanish LaLiga 2012-2019. Sci Med Footb 7: 41-46, 2023.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Decline in match running performance in football is affected by an increase in game interruptions</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Linke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Link</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lames</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci Med</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="662" to="667" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Linke D, Link D, Weber H, Lames M. Decline in match running perfor- mance in football is affected by an increase in game interruptions. J Sports Sci Med 17: 662-667, 2018.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Position specific running performances in professional football (soccer): Influence of different tactical formations</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Modric</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Versic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sekulic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">161</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Modric T, Versic S, Sekulic D. Position specific running performances in professional football (soccer): Influence of different tactical formations. Sports 8: 161, 2020.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Match performance of high-standard soccer players with special reference to development of fatigue</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Krustrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bangsbo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="519" to="528" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mohr M, Krustrup P, Bangsbo J. Match performance of high-standard soccer players with special reference to development of fatigue. J Sports Sci 21: 519-528, 2003.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Key load indicators and load variability in professional soccer players: A full season study</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Oliva-Lozano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Barbier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fortes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Muyor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="201" to="203" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oliva-Lozano JM, Barbier X, Fortes V, Muyor JM. Key load indicators and load variability in professional soccer players: A full season study. Res Sports Med 31: 201-203, 2023.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Acceleration and sprint profiles of professional male football players in relation to playing position</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Oliva-Lozano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fortes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Krustrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Muyor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">236959</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oliva-Lozano JM, Fortes V, Krustrup P, Muyor JM. Acceleration and sprint profiles of professional male football players in relation to playing position. PLoS One 15: e0236959, 2020.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">When and how do professional soccer players experience maximal intensity sprints in LaLiga?</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Oliva-Lozano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fortes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ópez-Del Campo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Resta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Muyor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Med Footb</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oliva-Lozano JM, Fortes V, L ópez-Del Campo R, Resta R, Muyor JM. When and how do professional soccer players experience maximal intensity sprints in LaLiga? Sci Med Footb 1-10: 2022.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">When and how do elite soccer players sprint in match play? A longitudinal study in a professional soccer league</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Oliva-Lozano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fortes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Muyor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oliva-Lozano JM, Fortes V, Muyor JM. When and how do elite soccer players sprint in match play? A longitudinal study in a professional soccer league. Res Sports Med 31: 1-12, 2021.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">When and how do elite soccer players sprint in match play? A longitudinal study in a professional soccer league</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Oliva-Lozano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fortes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Muyor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oliva-Lozano JM, Fortes V, Muyor JM. When and how do elite soccer players sprint in match play? A longitudinal study in a professional soccer league. Res Sports Med 31: 1-12, 2023.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">When do soccer players experience the most demanding passages of match play? A longitudinal study in a professional team</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Oliva-Lozano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Martínez-Puertas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fortes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Muyor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="101" to="111" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oliva-Lozano JM, Martínez-Puertas H, Fortes V, Muyor JM. When do soccer players experience the most demanding passages of match play? A longitudinal study in a professional team. Res Sports Med 31: 101-111, 2023.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Worst case scenario match analysis and contextual variables in professional soccer players: A longitudinal study</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Oliva-Lozano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rojas-Valverde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ómez-Carmona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Fortes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pino-Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Sport</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="429" to="436" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oliva-Lozano JM, Rojas-Valverde D, G ómez-Carmona CD, Fortes V, Pino-Ortega J. Worst case scenario match analysis and contextual vari- ables in professional soccer players: A longitudinal study. Biol Sport 37: 429-436, 2020.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Elite soccer players do not cover less distance in the second half of the matches when game interruptions are considered</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kalén</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lorenzo-Martínez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ópez-Del Campo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nevado-Garrosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lago-Peñas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res Published December</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rey E, Kalén A, Lorenzo-Martínez M, L ópez-Del Campo R, Nevado- Garrosa F, Lago-Peñas C. Elite soccer players do not cover less distance in the second half of the matches when game interruptions are considered. J Strength Cond Res Published December 17, 2020. Online ahead of print.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Characteristics of very high intensity runs of soccer players in relation to their playing position and playing half in the 2013-14 Spanish la Liga season</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rivilla-García</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Calvo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jiménez-Rubio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hum Kinet</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="213" to="222" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rivilla-García J, Calvo LC, Jiménez-Rubio S, et al. Characteristics of very high intensity runs of soccer players in relation to their playing position and playing half in the 2013-14 Spanish la Liga season. J Hum Kinet 66: 213-222, 2019.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Changes in acceleration and deceleration capacity throughout professional soccer match-play</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sparkes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Northeast</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="2839" to="2844" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Russell M, Sparkes W, Northeast J, et al. Changes in acceleration and deceleration capacity throughout professional soccer match-play. J Strength Cond Res 30: 2839-2844, 2016.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Position-specific acceleration and deceleration profiles in elite youth and senior soccer players</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Vigh-Larsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Dalgas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Andersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1114" to="1122" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vigh-Larsen JF, Dalgas U, Andersen TB. Position-specific acceleration and deceleration profiles in elite youth and senior soccer players. J Strength Cond Res 32: 1114-1122, 2018.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The effect of two different speed endurance training protocols on a multiple shuttle run performance in young elite male soccer players</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Vitale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Povia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Vitale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="436" to="449" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vitale JA, Povia V, Vitale ND, et al. The effect of two different speed endurance training protocols on a multiple shuttle run performance in young elite male soccer players. Res Sports Med 26: 436-449, 2018.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

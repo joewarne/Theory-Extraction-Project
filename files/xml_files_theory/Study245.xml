@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Individuals with chronic ankle instability show altered regional activation of the peroneus longus muscle during ankle eversion</title>
+				<funder ref="#_mNRtmnH">
+					<orgName type="full">National Research and Development Agency (in Spanish, ANID) of Chile -FONDECYT Iniciación</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Research and Development Agency (in Spanish, ANID) of Chile -FONDECYT Iniciación</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Guillermo</forename><surname>Mendez-Rebolledo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Facultad de Salud</orgName>
+								<orgName type="laboratory">Laboratorio de Investigación Somatosensorial y Motora</orgName>
+								<orgName type="institution" key="instit1">Escuela de Kinesiología</orgName>
+								<orgName type="institution" key="instit2">Universidad Santo Tomás</orgName>
+								<address>
+									<settlement>Talca</settlement>
+									<country key="CL">Chile</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rodrigo</forename><surname>Guzmán-Venegas</surname></persName>
+							<idno type="ORCID">0000-0003-0567-4867</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Facultad de Medicina</orgName>
+								<orgName type="laboratory">Laboratorio Integrativo de Biomecánica y Fisiología del Esfuerzo (LIBFE)</orgName>
+								<orgName type="institution">Universidad de los Andes</orgName>
+								<address>
+									<addrLine>Escuela de Kinesiología</addrLine>
+									<settlement>Santiago</settlement>
+									<country key="CL">Chile</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Carlos</forename><surname>Cruz-Montecinos</surname></persName>
+							<idno type="ORCID">0000-0002-3835-3368</idno>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Physical Therapy</orgName>
+								<orgName type="department" key="dep2">Faculty of Medicine</orgName>
+								<orgName type="institution">University of Chile</orgName>
+								<address>
+									<settlement>Santiago</settlement>
+									<country key="CL">Chile</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kohei</forename><surname>Watanabe</surname></persName>
+							<idno type="ORCID">0000-0002-8918-5181</idno>
+							<affiliation key="aff3">
+								<orgName type="department">School of Health and Sport Science</orgName>
+								<orgName type="laboratory">Laboratory of Neuromuscular Biomechanics</orgName>
+								<orgName type="institution">Chukyo University</orgName>
+								<address>
+									<settlement>Toyota</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Joaquín</forename><surname>Calatayud</surname></persName>
+							<idno type="ORCID">0000-0002-8670-8346</idno>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Physiotherapy</orgName>
+								<orgName type="laboratory">Exercise Intervention for Health Research Group (EXINH-RG)</orgName>
+								<orgName type="institution">University of Valencia</orgName>
+								<address>
+									<settlement>Valencia</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eduardo</forename><surname>Martinez-Valdes</surname></persName>
+							<email>e.a.martinezvaldes@bham.ac.uk</email>
+							<idno type="ORCID">0000-0002-5790-7514</idno>
+							<affiliation key="aff5">
+								<orgName type="department">School of Sport, Exercise and Rehabilitation Sciences</orgName>
+								<orgName type="laboratory">Centre of Precision Rehabilitation for Spinal Pain (CPR Spine)</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Guillermo</forename><surname>Mendez-Reb</surname></persName>
+							<email>guillermomendezre@santotomas.cl</email>
+							<idno type="ORCID">0000-0001-7948-3807</idno>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department">Facultad de Salud</orgName>
+								<orgName type="laboratory">Laboratorio de Investigación Somatosensorial y Motora</orgName>
+								<orgName type="institution">Universidad Santo Tomás</orgName>
+								<address>
+									<addrLine>Escuela de Kinesiología</addrLine>
+									<settlement>Talca</settlement>
+									<country key="CL">Chile</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department">School of Sport, Exercise and Rehabilitation Sciences</orgName>
+								<orgName type="laboratory">Centre of Precision Rehabilitation for Spinal Pain (CPR Spine)</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Individuals with chronic ankle instability show altered regional activation of the peroneus longus muscle during ankle eversion</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4026145C9D0D3B76E79487EDE264090E</idno>
+					<idno type="DOI">10.1111/sms.14535</idno>
+					<note type="submission">Received: 19 April 2023 | Revised: 26 October 2023 | Accepted: 31 October 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:19+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Individuals with chronic ankle instability (CAI) present muscular weakness and potential changes in the activation of the peroneus longus muscle, which likely explains the high recurrence of ankle sprains in this population. However, there is conflicting evidence regarding the role of the peroneus longus activity in CAI, possibly due to the limited spatial resolution of the surface electromyography (sEMG) methods (i.e., bipolar sEMG). Recent studies employing high-density sEMG (HD-sEMG) have shown that the peroneus longus presents differences in regional activation, however, it is unknown whether this regional activation is maintained under pathological conditions such as CAI. This study aimed to compare the myoelectric activity, using HD-sEMG, of each peroneus longus compartment (anterior and posterior) between individuals with and without CAI. Eighteen healthy individuals (No-CAI group) and 18 individuals with CAI were recruited. In both groups, the center of mass (COM) and the sEMG amplitude at each compartment were recorded during ankle eversion at different force levels. For the posterior compartment, the sEMG amplitude of CAI group was significantly lower than the No-CAI group (mean difference = 5.6% RMS; 95% CI = 3.4-7.6; p = 0.0001). In addition, it was observed a significant main effect for group (F 1,32 = 9.608; p = 0.0040) with an anterior displacement of COM for the CAI group. These findings suggest that CAI alters the regional distribution of This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUCTION</head><p>Lateral ankle sprains are the most common musculoskeletal injuries of the lower extremities suffered by adolescents, young adults, and physically active people. <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> Moreover, a significant number of people experience persistent problems (up to 70%), including repetitive episodes of ankle sprains and weakness of the peroneus muscles. <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b4">5</ref> Most importantly, these two impairments are considered as the primary manifestation of chronic ankle instability (CAI). <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref> The signs and symptoms of CAI are the consequence of a set of pathomechanical, sensory-perceptual, and motor-behavioral impairments that explain recurrent ankle sprains. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b5">6</ref> Individuals who experience a lateral ankle sprain might present arthrogenic muscle inhibition in the acute stage of the injury. <ref type="bibr" target="#b7">8</ref> If this inhibition persists over time, it could generate weakness of the eversor ankle muscles. <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10</ref> Indeed, a lower eversion force of the peroneus longus muscle has been observed in individuals with CAI compared to individuals without a history of ankle sprains. <ref type="bibr" target="#b8">9</ref> High density surface electromyography (HD-sEMG) has been used to determine regional variations in myoelectric activation in a number of muscles and motor tasks. <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> A recent study employing HD-sEMG reported that the peroneus longus muscle presents differences in regional activation across different ankle movements. <ref type="bibr" target="#b14">15</ref> Specifically, during an eversion of the ankle, a greater activation of the anterior and posterior muscle compartments is observed, whereas during plantarflexion, a lower activation of the posterior compartment has been reported. This regional activation of the peroneus longus is related to its anatomical and biomechanical organization, <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref> contributing mainly to eversion movement during motor tasks like walking, jumping, and running. Despite of these within-muscle variations in activity, some investigations using conventional bipolar single-channel methods have reported no differences in surface electromyographic (sEMG) amplitude of the peroneus longus between individuals with CAI and healthy controls. <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b18">19</ref> It is possible that the myoelectric behavior of the peroneus longus in people with CAI presents altered activation across different muscle compartments, which could be reflected by HD-sEMG instead of typical bipolar sEMG, since the latter considers the muscle as a unit represented in a small territory (~1 cm 2 ), ignoring the compartmental organization and regional activation of the peroneus longus muscle. For instance, multiple studies have reported changes in regional activation strategies in several musculoskeletal conditions such as rectus femoris tendon injury, <ref type="bibr" target="#b19">20</ref> low back pain, <ref type="bibr" target="#b20">21</ref> and anterior knee pain. <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b21">22</ref> These findings highlight the importance of assessing regional adjustments in muscle activity during musculoskeletal disorders as these changes may shed light on the motor adaptations responsible for appearance and recurrence of symptoms.</p><p>Therefore, the purpose of this investigation was to compare peroneus longus regional myoelectric distribution and magnitude of activation between individuals with and without CAI. We hypothesized that the posterior peroneus longus compartment would present a lower EMG amplitude in the CAI group compared to No-CAI group, since this is the main muscle compartment contributing to ankle eversion. <ref type="bibr" target="#b14">15</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| MATERIALS AND METHODS</head><p>This study followed a case and control design. All procedures were carried out following the Code of Ethics of the World Medical Association (Declaration of Helsinki) for experiments on humans and the STROBE statement. Participants were selected through a non-probability sample at the Kinesic Clinic of the Universidad Santo Tomás. The research participants under 18 years of age, as well as their guardians or parents, read and signed an informed assent; and those participants aged 18 or over read and signed an informed consent. All documents and research were evaluated and approved by the scientific ethics committee of Universidad Santo Tomás (CEC4-2022-ID3.22) and Universidad Católica del Maule (CEC57-2022), Chile. Male participants with CAI (CAI group) and healthy volunteers with no history of lateral ankle sprain (No-CAI group) were recruited. For both groups, all participants met the following inclusion criteria; volunteers between 10 and 19 years old, considered the most common age for muscle activity of the peroneus longus during ankle eversion. In practice, altered regional activation may impact strengthening programs, prevention, and rehabilitation of CAI.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>K E Y W O R D S</head><p>ankle sprain, chronic ankle instability, electromyography, fibularis longus, high-density surface electromyography, neuromuscular control, regional activation, rehabilitation suffering lateral ankle sprains and CAI <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b3">4</ref> ; and moderate physical activity level of 30 min per session at least three times per week. For the CAI group, all participants met the following inclusion criteria as recommended by the International Ankle Consortium: <ref type="bibr" target="#b22">23</ref> (i) the first sprain occurred more than 1 year ago, (ii) no sprain in the 6 weeks prior to testing, and (iii) scored ≥11 on the Identification of Functional Ankle Instability questionnaire. Individuals were excluded from both groups if any of the following were reported: (i) a history of lower extremity surgery, or (ii) a history of any disease or condition that may influence neuromuscular control or impede a person's ability to complete the tests. Finally, participants in the No-CAI group should not have a history of ankle sprains. A questionnaire of baseline characteristics and medical history was applied to each of the participants (see Table <ref type="table">1</ref>).</p><p>A model of repeated measures analysis of variance (ANOVA), including within-between interaction, was used for sample size calculation. Eighteen participants per group were required to find an effect size of 0.26. This effect size considers an alpha level of 0.05, a beta risk of 0.2, a correlation among repeated measures of 0.5 and a loss of 10% of participants during the processing of EMG signals. The effect size estimate was based on the partial eta squared (η2p) recommended for applied science research. <ref type="bibr" target="#b23">24</ref> To calculate the sample size, the GPower software (Version 3.1.9.6, Franz Faul, Universiät Kiel, Germany) was used.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Procedure</head><p>The procedures were performed in a session with a duration of about 60 min per participant. In the CAI group, injured ankle was evaluated; and in the No-CAI group, the dominant ankle was evaluated. Ankle dominance was determined through self-reported leg dominance. <ref type="bibr" target="#b24">25</ref> Each participant answered the following question: "if you were asked to shoot a ball on a target, which leg would you use to shoot the ball?". The body mass was assessed with a scale (Seca, Hamburg, Germany; 0.1 kg accuracy); and standing and sitting height were measured using a stadiometer (Seca, model 220, USA; 0.1 cm accuracy). Stage of biological maturation (peak height velocity) were assessed using a previously validated regression equation applied on youth. <ref type="bibr" target="#b25">26</ref> Using this method, maturity offset (calculation of years from peak height velocity) was completed. In the CAI and No-CAI groups, the HD-sEMG amplitude of the peroneus longus compartments (anterior and posterior) was assessed during submaximal voluntary isometric</p><p>No-CAI Group CAI Group p-Value Age (years old) 18.2 ± 1.5 17.8 ± 1.5 0.4754 Body mass (kg) 71.5 ± 11.0 68.7 ± 8.3 0.4178 Height (m) 1.73 ± 0.08 1.73 ± 0.04 0.9886 Body mass index (kg/m 2 ) 23.9 ± 2.4 23.0 ± 2.5 0.3144 PHV (years old) 15.5 ± 0.6 15.8 ± 1.1 0.3474 Maturity offset (years from PHV) 2.7 ± 1.3 2.0 ± 1.0 0.1375 Physical activity (h/week) 3.5 ± 0.7 4.1 ± 1.0 0.0910 Maximum force (kg) 8.12 ± 3.35 6.13 ± 2.26 0.0255 Number of dominant ankles evaluated [n (%)] 17 (100) 17 (100) -Ankle sprain episodes (n) -3.1 ± 1.0 -Last ankle sprain episode ---2-5 months [n (%)] 7 (41.2) -6-12 months [n (%)] -5 (29.4) -&gt;12 months [n (%)] -5 (29.4) -Giving way or feeling of instability episodes (n) -4.0 ± 1.8 -Interruption of physical activity (days) -25.4 ± 23.1 -IFAI questionnaire (score) -19.9 ± 3.2 -Note: * All participants from both groups (No-CAI and CAI) were male sex. Abbreviations: CAI, chronic ankle instability; IFAI, identification of functional ankle instability questionnaire; No-CAI, no chronic ankle instability; PHV, peak height velocity. T A B L E 1 Baseline characteristics of participants by group. Data were shown as mean and standard deviation or percentage frequency.</p><p>contractions (SMVIC) at 10%, 30%, 50%, and 70% of the maximum voluntary isometric contraction (MVIC).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| MVIC</head><p>An ankle ergometer (501 584, Enraf Nonius, Rotterdam, The Netherlands) with a calibrated force transducer (CCT Transducer s.a.s, Turin, Italy) was used to evaluate the MVIC of eversion. Force data were amplified with a general-purpose amplification device (Forza-B, OT Biolettronica, Turin, Italy). For this, the authors followed the protocol reported in a previous investigation. <ref type="bibr" target="#b14">15</ref> The force transducer was adjusted to coincide with the subtalar joint axes for eversion movement. At the beginning of the MVIC, the participants became familiar with the dynamometer and the protocol, practicing contractions at submaximal force levels. All participants were asked to perform three maximum isometric contractions against the force transducer, with one-minute rest between each contraction. A researcher vigorously encouraged the participant to maintain maximal isometric contraction for 5 sec. The magnitude of the MVIC was defined as the maximum force value recorded in the three trials.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| High-density surface electromyography</head><p>An ultrasound device (Philips Lumify, Philips Medical Systems, Bothell, WA) with a 12-4 MHz linear array probe was used to identify the muscle compartments (anterior and posterior) of the peroneus longus, and to assess the correct location of the HD-sEMG electrode grid on these compartments. This procedure was applied following previous recommendations. <ref type="bibr" target="#b26">27</ref> The anterior and posterior borders of the peroneus longus were identified and marked on the skin with the probe oriented transversely; similarly, the muscle-tendon junction was identified and marked on the skin with the ultrasound probe oriented longitudinally along the leg. A researcher shaved the skin hair on the anterolateral region of the dominant leg and cleaned it with an abrasive paste and water. Then, the center of a linear electrode array (inter-electrode distance of 2.5 mm, SA 16/5, Bioelettronica, Torino, Italy) was placed on the 32% of a reference line (between the top of the head and the lateral malleolus of the fibula) <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b27">28</ref> to assess the correct propagation direction of motor unit action potential (MUAP). Once identified, a semi-disposable adhesive grid of 64 electrodes (13 rows and 5 columns of electrodes with 8 mm inter-electrode distance; GR8MM1305, OT Bioelecttronica, Torino, Italy) with conductive paste was placed (Figure <ref type="figure" target="#fig_0">1</ref>). The columns of the electrode grid represented two superficial neuromuscular compartments of the peroneus longus according to the following organization: columns 1 and 2 (anterior compartment) and columns 4 and 5 (posterior compartment). <ref type="bibr" target="#b14">15</ref> The use of above procedures (i.e., ultrasound, anatomical landmarks, and linear electrode array) allowed to place consistently the HD-sEMG electrode grid on the anterior and posterior compartments. Monopolar EMG signals were recorded at a sampling frequency of 2048 Hz, amplified by a factor of 150, filtered with an 8th order Bessel bandpass filter at 10-500 Hz (anti-aliasing filter). The analogue signal recorded by the force transducer was amplified by a factor of 200 and sampled at 2048 Hz. Force and HD-EMG signals were converted to digital form by a 16-bit analog-to-digital converter (EMG-Quattrocento, Bioelettronica, Torino, Italy) and acquired with the software OTBiolab (OT Bioelettronica, Turin, Italy). Finally, the HD-sEMG activity and isometric eversion strength were recorded during the execution of the SMVIC protocol (10%, 30%, 50%, and 70% MVIC). Volunteers performed one attempt for each force level in a random order. Each attempt lasted 9 sec, with a two-min rest period between attempts. Participants were allowed to practice each of the tests for one time to familiarize with the task. They received real time visual and auditory feedback of their ankle eversion force and were instructed to match as precisely as possible a trapezoidal template showed on a monitor to help control force magnitude. The absence of sound meant that the participants were at the desirable target ±3% MVIC error. A deviation out of this range triggered an audible sound with either a higher or lower frequency. The monitor was located 120 cm from the participant and at a height adjustable to the vision of each participant. Any off-axis force was avoided for the ankle ergometer, which only allowed the ankle eversion movement. In addition, a researcher controlled the ankle eversion force observing the eversion movement on the ankle ergometer and the force displayed on the monitor. During the execution of the trials, pain was assessed using the numeric rating scale (NRS). If any participant had pain of intensity equal or greater than 3/10 (on an 11-point NRS: 0 being "no pain," 10 being "worst pain imaginable") during the trials, assessment was immediately discontinued.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| Data processing</head><p>The signals were band-pass filtered using a 2nd order 10-500 Butterworth filter (OT BioLab V1.5.8, OTBioelettronica, Turin, Italy). Sixty-four monopolar EMG signals were differentiated in a cephalocaudal direction of the electrode grid to form 59 differential signals organized in columns 1 and 2 (anterior compartment) and columns 4 and 5 (posterior compartment). The processing of the sEMG signals of eversion movement considered two stages. First, the sEMG amplitude was calculated using root mean square (RMS). For each column and level of SMVIC, a 500 ms window without overlap was used for the 5 sec which the participants were asked to sustain the contraction, obtaining 10 normalized sEMG amplitudes (normalization process performed using MVIC). Subsequently, the 10 sEMG amplitude values of columns 1 and 2 were averaged, obtaining the mean sEMG amplitude of the anterior compartment. Similarly, the 10 sEMG amplitudes of columns 4 and 5 were averaged, obtaining the mean sEMG amplitude of the posterior compartment. Second, the topographic distribution of the sEMG amplitude was described through the center of mass (COM) position in the anteroposterior (COMx) and cephalocaudal (COMy) components in relation to the position of the electrode grid. For this, the COMx and COMy were calculated with the RMS of the 59 sEMG signals. Finally, topographic maps were constructed to describe the distribution of the sEMG amplitude of the compartments at each level of SMVIC (Figure <ref type="figure" target="#fig_0">1</ref>). The maps were constructed with the RMS values and the position coordinates of each of the 59 sEMG signals. These data were 2D interpolated using a smoothing spline model and eight-factor smoothing. All the above procedures were performed with IgorPro 6.0 software (WaveMetrics Inc, Portland, USA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">| Statistical analysis</head><p>For all analyses, an alpha of 0.05 was considered and GraphPad Prism (version 9.0.0) software was used (GraphPad Software, San Diego, California USA). All variables were tested for normality using the Shapiro-Wilk test. A descriptive statistical analysis (mean and standard deviation) was calculated for the COM and the sEMG amplitude at each compartment (anterior and posterior), group (CAI and No-CAI), and force level (10%, 30%, 50%, and 70% MVIC). The Geisser-Greenhouse correction was used when the assumption of sphericity was not met. To determine possible interactions in sEMG activity between compartments, groups, and force levels, a three-way ANOVA (2 x 2 x 4) with repeated measures was applied. In addition, to determine possible interactions between groups and force levels, a two-way ANOVA (2 x 4) was applied for COMx and COMy. In the case of interactions, a posthoc analysis with Tukey's multiple comparison test was performed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">| RESULTS</head><p>None of the participants experienced pain with an intensity that prevented the evaluation (CAI = 0.24 ± 0.56; No-CAI = 0.18 ± 0.53). From 36 participants evaluated, two participants (one per group) were not included in the analysis because they presented sEMG signals unsuitable for processing (excessive noise and artifacts). Therefore, 17 volunteers for the CAI group and 17 volunteers for the No-CAI group were included in the analysis. There were no significant differences between groups for age, body mass, height, body mass index, and physical activity (Table <ref type="table">1</ref>). Only individuals with CAI of their dominant ankle were included in the study to minimize potential laterality effects when comparing against individuals in the No-CAI group. Furthermore, no participant in the CAI group had a history of bilateral CAI. In the No-CAI group, all ankles evaluated were dominant. Similarly, no differences in maturity offset (p = 0.1375) was observed between groups. All the participants were in a postpubescent phase (&gt;1.0 years from PHV). This decreased the likelihood of differences in musculoskeletal and neuromuscular adaptations between phases of growth and development (i.e., prepubescent, pubescent, and postpubescent). Significant differences (p = 0.0255; mean difference [MD] = 1.98 kg; 95% CI = 0.01-3.99) in maximum force were observed between No-CAI and CAI groups.</p><p>The sEMG amplitude and COM data presented a normal distribution and were expressed as means and standard deviations (Table <ref type="table">2</ref>). Figure <ref type="figure" target="#fig_0">1</ref> shows a representative distribution of sEMG amplitude throughout the compartments of the peroneus longus. In general, a greater activation (intense colors: orange and red) of the posterior compartment was observed in the No-CAI group, compared to a more homogeneous distribution and decreased sEMG activation of the anterior and posterior compartments in the CAI group.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">| Electromyography amplitude</head><p>ANOVA did not reveal a significant interaction effect between compartments, groups, and force levels (F 3,96 = 1.15; p = 0.3323). However, ANOVA revealed a significant interaction effect between compartments and groups (F 1,32 = 10.68; p = 0.0026). For the posterior compartment, sEMG amplitude of the CAI group was significantly lower than the No-CAI group (MD = 5.6% RMS; 95% CI = 3.4-7.6% RMS; p = 0.0001) (Figure <ref type="figure">2</ref>). For the anterior compartment, there was no difference in sEMG amplitude between CAI and No-CAI groups (MD = -0.6% RMS; 95% CI = -2.8 to 1.4% RMS; p = 0.8599). In the No-CAI group, the EMG amplitude of posterior compartment was significantly higher than the anterior compartment (MD = -6.6% RMS; 95% CI = -8.6 to -4.4% RMS; p = 0.0001). In CAI group, there was no difference in</p><p>T A B L E 2 Descriptive statistics. Means and standard deviation of force, center of mass in anteroposterior position (COMx), center of mass in cephalocaudal position (COMy), and normalized electromyographic amplitude of peroneus longus muscle compartments during the ankle movement at different percentages of maximum voluntary isometric contraction. 10% MVIC 30% MVIC 50% MVIC 70% MVIC No-CAI group Anterior compartment (% RMS) 39.7 ± 7.9 44.8 ± 7.0 47.4 ± 7.4 48.4 ± 7.8 Posterior compartment (% RMS) 46.3 ± 9.9 51.2 ± 9.7 55.9 ± 9.0 56.1 ± 8.3 COMx (mm) 16.2 ± 0.5 16.6 ± 0.5 16.7 ± 0.4 16.8 ± 0.4 COMy (mm) 44.2 ± 4.5 44.5 ± 3.0 44.5 ± 3.9 44.6 ± 3.9 Force (kg) 0.82 ± 0.35 2.43 ± 1.07 4.01 ± 1.72 5.76 ± 2.42 CAI group Anterior compartment (% RMS) 45.0 ± 9.7 45.5 ± 10.1 45.6 ± 9.8 46.7 ± 8.6 Posterior compartment (% RMS) 45.4 ± 6.3 45.8 ± 7.3 45.9 ± 4.9 46.0 ± 5.6 COMx (mm) 16.7 ± 0.5 17.0 ± 0.5 17.0 ± 0.3 17.1 ± 0.4 COMy (mm) 45.3 ± 5.2 45.5 ± 5.3 44.9 ± 4.8 45.8 ± 4.2 Force (kg) 0.91 ± 0.42 2.58 ± 1.19 4.07 ± 1.71 4.90 ± 1.92 Abbreviations: CAI, chronic ankle instability; COMx, center of mass in anteroposterior position; COMy, center of mass in cephalocaudal position; MVIC, maximum voluntary isometric contraction; No-CAI, no chronic ankle instability; RMS, root mean square.</p><p>sEMG amplitude between compartments (MD = -0.4% RMS; 95% CI = -2.5 to 1.7% RMS; p = 0.9692).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">| COM</head><p>The ANOVA did not show a significant interaction effect between intensity and group for COMx (F 3,96 = 1.096; p = 0.3547) and COMy (F 3,96 = 0.2699; p = 0.8469). However, it was observed a significant main effect for group (F 1,32 = 9.608; p = 0.0040) with a displacement of COMx in a posteroanterior direction for the CAI group (Figure <ref type="figure">3A</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| DISCUSSION</head><p>In this study we compared the myoelectric activity of each peroneus longus compartment (anterior and posterior) between individuals with and without CAI. An alteration of the regional myoelectric activity of the peroneus longus muscle was observed in individuals with CAI.</p><p>During ankle eversion, individuals with CAI presented lower sEMG amplitude than those without CAI in the posterior compartment of the peroneus longus muscle. Consequently, the COM sEMG amplitude was displaced in a posteroanterior direction in individuals with CAI, that is, towards the anterior compartment of the peroneus longus muscle. These findings supported our hypothesis. This is the first study reporting such findings, considering compartmental anatomic organization and regional muscle activation of peroneus longus recorded by HD-sEMG. Previous reports investigated the myoelectric activity in people with repetitive lateral ankle sprain using bipolar sEMG without considering the compartmental organization of this muscle. <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b18">19</ref> Our study highlights that the assessment of the myoelectric activity of the peroneus longus over a small representative area of its entire superficial muscular territory does not allow investigating differences in neuromuscular behavior adequately, especially in chronic pathological conditions such as CAI.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">| Regional myoelectric activity in CAI</head><p>We found that individuals with CAI presented lower sEMG amplitude in the posterior compartment than 16.0 16.5 17.0 17.5 40 42 44 46 48 50 COMx (mm) COMy (mm) No-CAI CAI 16000838, 2024, 1, Downloaded from <ref type="url" target="https://onlinelibrary.wiley.com/doi/10.1111/sms.14535">https://onlinelibrary.wiley.com/doi/10.1111/sms.14535</ref> by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [10/08/2024]. See the Terms and Conditions (<ref type="url" target="https://onlinelibrary.wiley.com/terms-and-conditions">https://onlinelibrary.wiley.com/terms-and-conditions</ref>) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p><p>controls. This likely indicates a lower activation of motor units to sustain the eversion force of the ankle, movement particularly relevant to counteract ankle inversion during running, jumping, and landing. <ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b29">30</ref> Furthermore, in individuals with CAI, the COM of the RMS shifted in a posteroanterior direction compared with healthy individuals. Thus, the findings of this investigation suggest that the posterior compartment of the peroneus longus was potentially inhibited by the presence of CAI. It is possible that this selective inhibition is the result of the interaction of pathomechanical, sensory-perceptual, and motor-behavioral impairments that explain recurrent lateral ankle sprains. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b30">31</ref> In this context, it has been observed that after the acute injury there is a physiological response consisting of edema and pain, <ref type="bibr" target="#b5">6</ref> and a consequent alteration of reflexes (i.e., H-reflex) and neuromuscular inhibition (e.g., arthrogenic muscle inhibition and muscle weakness). <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b8">9</ref> However, if the person fails to recover in a physiological period, the central nervous system (at spinal and/or supraspinal levels) does not restore its state of homeostasis <ref type="bibr" target="#b31">32</ref> due to altered afferent and efferent inputs (i.e., neural drive), and the consequent reduction in the number of MUAP received by the muscle. <ref type="bibr" target="#b32">33</ref> However, this approach fails to fully explain the selective inhibition of the posterior compartment of the peroneus longus muscle, which could be subject to spinal or supraspinal adaptations. In this context, differences in the average muscle fiber conduction velocity (MFCV) of the compartments of the peroneus longus have been observed in healthy individuals. <ref type="bibr" target="#b26">27</ref> Specifically, the posterior compartment showed an increase in MFCV during eversion compared to plantarflexion, showing the relevance of muscle fiber proprieties of this compartment to perform an ankle stabilizing movement as eversion. This may indirectly suggest differences in the activation of muscle fibers of different sizes depending on the motor task. For instance, the existence of a higher proportion of large muscle fibers in the posterior compartment of the peroneus longus could be possible, and hypothetically, these fibers could be more affected in individuals with CAI. Nevertheless, these hypotheses must be tested. On the other hand, the identification of the motor unit discharge patterns as a more direct estimate of the neural drive to certain muscle regions, <ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b33">34</ref> could help to explain the activation and/or inhibition of the posterior compartment of the peroneus longus. The influence at the supraspinal level of motor control could have a role in the alteration of the regional activation, since a lower volume and area of the peroneus longus recruitment map in the motor cortex of individuals with CAI compared to healthy subjects has been reported. <ref type="bibr" target="#b34">35</ref> In this same context, it has been observed that some individuals with CAI can walk and run, but at the expense of motor adaptations-perhaps at spinal or supraspinal levels-to cope with injury and compensate for the decreased eversion force, such as overactivation of the tibialis anterior and extensor digitorum longus. <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b18">19</ref> These motor adaptations facilitate the introduction and normalization of unfamiliar somatosensory signals and altered motor responses to the central nervous system, which chronically predisposes the individual to recurrent ankle sprains and potentially develop CAI.</p><p>These motor adaptations may be accompanied by changes in biomechanical and viscoelastic properties of the ankle muscles in people with a history of ankle sprain. For example, it has been observed that the gastrocnemius lateralis and tibialis anterior exhibit greater tone and stiffness in individuals with CAI compared to healthy controls when measured using myometry. <ref type="bibr" target="#b35">36</ref> Indeed, changes in soft-tissue mechanical properties can lead to changes in both the magnitude and regional distribution of muscle activity, as recently reported by De la Fuente et al. (2023). <ref type="bibr" target="#b36">37</ref> For these reasons, knowing the regional differences in mechanical properties and compensatory neuromuscular patterns could help to understand the association with the results observed in the regional activation pattern of the peroneus longus.</p><p>On the other hand, significant differences in maximum force were observed between No-CAI and CAI groups. These differences were an expected finding by our research team, since lower eversion force is a common impairment observed individuals with a history of lateral ankle sprains. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b8">9</ref> Previous studies, <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b18">19</ref> have suggested that the decrease in eversion force of individuals with CAI is not associated with a decrease in the recruitment of motor units. However, these observations must be interpreted with caution since these studies did not use HD-sEMG to assess regional activity while recording eversion force production. For these reasons, we hypothesize that eversion force is positively related to regional activation of the peroneus longus muscle. For example, in healthy subjects, greater eversion force is related to greater motor unit recruitment; in subjects with CAI, a lower eversion force could be related to a lower recruitment of motor units from the posterior compartment, a muscle region that seems to be potentially inhibited according to the recent findings of our study. However, these hypotheses should be tested in future research, employing techniques allowing a direct assessment of motor unit firing properties.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">| Regional myoelectric activity in healthy ankle</head><p>Previous reports have shown that the activation intensity of the peroneus longus does not significantly increase with force in healthy individuals (i.e., with no history of lateral ankle sprains). <ref type="bibr" target="#b14">15</ref> Likewise, in the present investigation both the anterior and posterior compartments presented similar sEMG amplitudes at low, moderate, and high force levels in healthy individuals. It is possible that the recruitment of most motor units of the peroneus longus is achieved at low or moderate contraction intensities, and therefore, the force contribution of the peroneus longus could "saturate" at low or moderate contraction intensities. In this scenario, the increase in force eversion would be given by the activation of other synergist muscles, such as the peroneus brevis and tibialis anterior. <ref type="bibr" target="#b28">29</ref> On the other hand, the No-CAI group had greater sEMG amplitude in the posterior compartment than in the anterior compartment. A previous report supports this finding from a biomechanical point of view. <ref type="bibr" target="#b16">17</ref> Electrical stimulation of the motor point of the posterior compartment of the peroneus longus causes higher acceleration in the medio-lateral axis of the foot compared with the stimulation of the motor point of the anterior compartment, suggesting a greater contribution of the posterior compartment to the eversion movement. <ref type="bibr" target="#b16">17</ref> In other human muscles, differences in regional muscle activity have been observed. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref><ref type="bibr" target="#b39">[40]</ref> For instance, a higher sEMG amplitude of the proximal region of the rectus femoris during hip flexion has been reported. <ref type="bibr" target="#b13">14</ref> Also, regional differences were found in Nordic hamstring and stiff-leg deadlift exercises for biceps femoris long head and semitendinosus muscles. <ref type="bibr" target="#b37">38,</ref><ref type="bibr" target="#b38">39</ref> Various authors have pointed out that skeletal muscle may exhibit a linear or non-linear sEMG/force relationship depending on anatomical, biomechanical, and neurophysiological characteristics, of which the composition and distribution of muscle fibers, number and type of motor units, and force-generating patterns seem to be the main factors. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b40">41</ref> For these reasons, it is possible that the differences in the amplitude of activation between the compartments of the peroneus longus could be due to the regional distribution and composition of motor units.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">| Strengths and limitations</head><p>The HD-sEMG signals in the present study followed strict protocols for signal acquisition, including the use of ultrasound for verification of the electrode grid location. Furthermore, the use of HD-sEMG, instead of bipolar sEMG, highlights the need to assess the myoelectric activity of the peroneus longus over the entire superficial muscle territory and thus adequately investigating the differences in neuromuscular behavior in chronic pathological conditions. Although the included volunteers were selected according to rigorous criteria and international recommendations for the recruitment of participants with CAI, the present investigation was unable to identify subgroups of patients (i.e., perceived ankle instability, recurrent ankle sprains, and perceived ankle instability in combination with recurrent ankle sprains), which could have facilitated the identification of specific sources of dysfunctions.</p><p>Another limitation of the research was the non-inclusion of female participants. The available scientific evidence indicates differences in the discharge rate of motor units throughout the menstrual cycle, <ref type="bibr" target="#b41">42</ref> however, it is unknown whether or how the menstrual cycle affects the sEMG amplitude and regional activation. A recent paper by Guo et al., 2022 showed that greater testosterone levels are associated with reduced MUAP complexity. <ref type="bibr" target="#b42">43</ref> Therefore, the influence of hormones (whether testosterone or estrogen/progesterone) should be considered as potential factor affecting regional sEMG amplitude estimates in both sexes. <ref type="bibr" target="#b43">44</ref> These issues need to be addressed in future studies comparing regional activation responses of the peroneus longus muscle in males and females. Additionally, individual anatomy and possible differences between groups could influence the current findings. Previous anatomical research has indicated that the compartments of the peroneus longus have a longitudinal topographic distribution in a bipennate muscle conformation, <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b17">18</ref> with a muscle belly of a relatively consistent size (width = 3.5 cm; length = 12.4 cm), in close contact with the skin. <ref type="bibr" target="#b42">43</ref> These anatomical features allowed the same electrode grid configuration (13 x 5; 8 mm interelectrode distance) to be used across participants. In turn, these anatomical characteristics met the recommendations for placing an electrode grid with a lower probability of EMG signal differences between participants and crosstalk between neighboring muscles. <ref type="bibr" target="#b44">45</ref> In a complementary manner, a linear electrode array and ultrasound were used to place the HD-sEMG electrode grid in the peroneus longus compartments, and thus avoid possible misalignment of the muscle fibers of the electrode in the transverse or deep directions between the participants. Furthermore, it was possible that some participants in the CAI group presented atrophy of the peroneus longus, which could have influenced regional myoelectric activation. However, enrolled participants were in the period of growth and development (postpubescent), which reduced the likelihood of long-standing muscle atrophy and the potential influence of muscular factors affecting myoelectric results.</p><p>On the other hand, the present investigation did not consider other synergistic muscles responsible for eversion, such as the peroneus brevis, extensor digitorum longus, and tibialis anterior, which could have influenced the increase in force at high intensities of contraction to compensate the decreased eversion force. For this reason, it is necessary to carry out future investigations that consider the regional activation of synergistic muscles between healthy and unstable ankles. Finally, the measurements were focused on the dominant leg in both groups. Future studies are needed to confirm these findings also comparing the non-dominant leg.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4">| Perspectives</head><p>Findings of this study suggest that CAI alter the regionspecific functional role of peroneus longus muscle during ankle eversion; and highlight the importance of assessing regional adjustments in muscle activity during musculoskeletal disorders as these changes may shed light on the motor adaptations responsible for appearance and recurrence of symptoms. In practice, regional muscle activation may impact muscle strengthening programs, <ref type="bibr" target="#b45">46</ref> and even more, impact prevention, treatment, and rehabilitation of CAI. Specialists could potentially focus their designs considering lower extremity exercises that increase neuromuscular recruitment of the posterior compartment to reestablish the balance between regions of the peroneus longus muscle and thus stabilize the ankle against forced inversion mechanisms during walking, running, and jumping. To fulfill this purpose, future studies will be needed to investigate which ankle exercises increase the myoelectric activity of the posterior compartment of the peroneus longus and potentially improve lower limb neuromuscular control and functionality.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">| CONCLUSIONS</head><p>During ankle eversion, individuals with CAI present lower sEMG amplitude than those without CAI in the posterior compartment of the peroneus longus. These findings suggest that CAI alters the region-specific functional role of peroneus longus muscle during ankle eversion.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>F I G U R E 1</head><label>1</label><figDesc>Example of the electrode grid and topographic maps of the peroneus longus myoelectrical activity of a healthy individual and another with chronic ankle instability. Surface electrodes arranged in five columns which represented the anterior (columns 1/2) and posterior (columns 4/5) compartments. In addition, the figure shows examples of topographic maps of the amplitude of the electromyographic activity recorded during 10, 30, 50, and 70% of maximum voluntary isometric contraction (MVIC).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>F I G U R E 2 3</head><label>23</label><figDesc>Separated scattered plot of surface electromyography amplitude (mean and standard deviation) of each compartment (anterior and posterior) of the peroneus longus during eversion. No-CAI, no chronic ankle instability; CAI, chronic ankle instability. The significant difference between groups or compartments is indicated by clapped line with a p-value according to the following symbology: **** = p &lt; 0.0001.Center of mass in X and Y positions for both groups. No-CAI, no chronic ankle instability; CAI, chronic ankle instability. The significant difference between groups is indicated by clapped line with a p-value according to the following symbology: **** = p &lt; 0.0001.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>16000838, 2024, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14535 by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [10/08/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>This work was financed by a grant from the <rs type="funder">National Research and Development Agency (in Spanish, ANID) of Chile -FONDECYT Iniciación</rs>: <rs type="grantNumber">11220160</rs>.</p></div>
+			</div>
+			<div type="funding">
+<div><p>National <rs type="funder">Research and Development Agency (in Spanish, ANID) of Chile -FONDECYT Iniciación</rs>, Grant/Award Number: 11220160</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_mNRtmnH">
+					<idno type="grant-number">11220160</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head><p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST STATEMENT</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Risk factors for lateral ankle sprains and chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Delahunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Remus</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="611" to="616" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Delahunt E, Remus A. Risk factors for lateral ankle sprains and chronic ankle instability. J Athl Train. 2019;54:611-616.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">2016 consensus statement of the international ankle consortium: prevalence, impact and long-term consequences of lateral ankle sprains</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Gribble</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bleakley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Caulfield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="1493" to="1495" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gribble PA, Bleakley CM, Caulfield BM, et al. 2016 consensus statement of the international ankle consortium: prevalence, impact and long-term consequences of lateral ankle sprains. Br J Sports Med. 2016;50:1493-1495.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Epidemiology of ankle sprains and chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Herzog</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Kerr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Wikstrom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="603" to="610" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Herzog MM, Kerr ZY, Marshall SW, Wikstrom EA. Epidemiology of ankle sprains and chronic ankle instability. J Athl Train. 2019;54:603-610.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The epidemiology of ankle sprains in the United States</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Waterman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Owens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Davey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Zacchilli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Belmont</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Jt Surg</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="2279" to="2284" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Waterman BR, Owens BD, Davey S, Zacchilli MA, Belmont PJ. The epidemiology of ankle sprains in the United States. J Bone Jt Surg. 2010;92:2279-2284.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The incidence and prevalence of ankle sprain injury: a systematic review and meta-analysis of prospective epidemiological studies</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Doherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Delahunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Caulfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bleakley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="123" to="140" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doherty C, Delahunt E, Caulfield B, Hertel J, Ryan J, Bleakley C. The incidence and prevalence of ankle sprain injury: a sys- tematic review and meta-analysis of prospective epidemiologi- cal studies. Sports Med. 2014;44:123-140.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">An updated model of chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Corbett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="572" to="588" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hertel J, Corbett RO. An updated model of chronic ankle insta- bility. J Athl Train. 2019;54:572-588.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Clinical assessment of acute lateral ankle sprain injuries (ROAST): 2019 consensus statement and recommendations of the international ankle consortium</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Delahunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bleakley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Bossard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="1304" to="1310" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Delahunt E, Bleakley CM, Bossard DS, et al. Clinical assess- ment of acute lateral ankle sprain injuries (ROAST): 2019 con- sensus statement and recommendations of the international ankle consortium. Br J Sports Med. 2018;52:1304-1310.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Chronic ankle instability and neural excitability of the lower extremity</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Mcleod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Gribble</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Pietrosimone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="847" to="853" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McLeod MM, Gribble PA, Pietrosimone BG. Chronic ankle in- stability and neural excitability of the lower extremity. J Athl Train. 2015;50:847-853.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The peroneal strength deficits in patients with chronic ankle instability compared to ankle sprain copers and normal individuals</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">F</forename><surname>Soohoo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Foot Ankle Surg</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="231" to="236" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cho BK, Park JK, Choi SM, Kang SW, SooHoo NF. The pero- neal strength deficits in patients with chronic ankle instability compared to ankle sprain copers and normal individuals. Foot Ankle Surg. 2019;25:231-236.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Eversion strength and surface electromyography measures with and without chronic ankle instability measured in 2 positions</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Donnelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Donovan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Foot Ankle Int</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="769" to="778" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Donnelly L, Donovan L, Hart JM, Hertel J. Eversion strength and surface electromyography measures with and without chronic ankle instability measured in 2 positions. Foot Ankle Int. 2017;38:769-778.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Regional vastus medialis and vastus lateralis activation in females with patellofemoral pain</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gallina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wakeling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Hodges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Garland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="411" to="420" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gallina A, Wakeling JM, Hodges PW, Hunt MA, Garland SJ. Regional vastus medialis and vastus lateralis activation in females with patellofemoral pain. Med Sci Sports Exerc. 2019;51:411-420.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Regional changes in muscle activity do not underlie the repeated bout effect in the human gastrocnemius muscle</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Pincheira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Martinez-Valdes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Guzman-Venegas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="799" to="812" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pincheira PA, Martinez-Valdes E, Guzman-Venegas R, et al. Regional changes in muscle activity do not underlie the re- peated bout effect in the human gastrocnemius muscle. Scand J Med Sci Sports. 2021;31:799-812.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Novel insights into biarticular muscle actions gained from high-density electromyogram</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Vieira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gallina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kouzaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Moritani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exerc Sport Sci Rev</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="179" to="187" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Watanabe K, Vieira TM, Gallina A, Kouzaki M, Moritani T. Novel insights into biarticular muscle actions gained from high-den- sity electromyogram. Exerc Sport Sci Rev. 2021;49:179-187.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Task-dependent spatial distribution of neural activation pattern in human rectus femoris muscle</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kouzaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Moritani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="251" to="258" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Watanabe K, Kouzaki M, Moritani T. Task-dependent spatial distribution of neural activation pattern in human rectus femo- ris muscle. J Electromyogr Kinesiol. 2012;22:251-258.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Contribution of the peroneus longus neuromuscular compartments to eversion and plantarflexion of the ankle</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mendez-Rebolledo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guzmán-</forename><surname>Venegas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Valencia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PloS One</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">250159</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mendez-Rebolledo G, Guzmán-Venegas R, Valencia O, Watanabe K. Contribution of the peroneus longus neuro- muscular compartments to eversion and plantarflexion of the ankle. PloS One. 2021;16:e0250159.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Gross anatomic evidence of partitioning in the human fibularis longus and brevis muscles</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Bakkum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Adamcryck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Keyes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Anat</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="381" to="385" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bakkum BW, Russell K, Adamcryck T, Keyes M. Gross ana- tomic evidence of partitioning in the human fibularis longus and brevis muscles. Clin Anat. 1996;9:381-385.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Evaluation of the neuromuscular compartments in the peroneus longus muscle through electrical stimulation and accelerometry</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Méndez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">F</forename><surname>Gatica</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Guzmán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Soto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Braz J Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="427" to="434" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Méndez GA, Gatica VF, Guzmán EE, Soto AE. Evaluation of the neuromuscular compartments in the peroneus longus mus- cle through electrical stimulation and accelerometry. Braz J Phys Ther. 2013;17:427-434.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Anatomical study of the fibularis longus muscle motor points and electrical stimulation therapy application</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mendez Rebolledo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Coronado</forename><surname>Gallardo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Suazo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Morphol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="699" to="703" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mendez Rebolledo G, Coronado Gallardo R, Suazo GI. Anatomical study of the fibularis longus muscle motor points and electrical stimulation therapy application. Int J Morphol. 2009;27:699-703.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Comparison of the strength and electromyography of the evertor muscles with and without toe flexion in patients with chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">J</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Gwak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">I</forename><surname>Yoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">Y</forename><surname>Kwon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Foot Ankle Int</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="479" to="485" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ahn SH, Hwang UJ, Gwak GT, Yoo HI, Kwon OY. Comparison of the strength and electromyography of the evertor muscles with and without toe flexion in patients with chronic ankle in- stability. Foot Ankle Int. 2020;41:479-485.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Central tendon injury impairs regional neuromuscular activation of the rectus femoris muscle</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kubo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nakazato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Koyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hiranuma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">150</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kubo Y, Watanabe K, Nakazato K, Koyama K, Hiranuma K. Central tendon injury impairs regional neuromuscular activa- tion of the rectus femoris muscle. Sports. 2021;9:150.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">People with chronic low back pain display spatial alterations in high-density surface EMG-torque oscillations</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arvanitidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jiménez-Grande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Haouidji-Javaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Falla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Martinez-Valdes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">15178</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arvanitidis M, Jiménez-Grande D, Haouidji-Javaux N, Falla D, Martinez-Valdes E. People with chronic low back pain display spatial alterations in high-density surface EMG-torque oscilla- tions. Sci Rep. 2022;12:15178.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Location-specific responses to nociceptive input support the purposeful nature of motor adaptation to pain</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gallina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Salomoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Garland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Hodges</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pain</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<biblScope unit="page" from="2192" to="2200" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gallina A, Salomoni SE, Hall LM, Tucker K, Garland SJ, Hodges PW. Location-specific responses to nociceptive input support the purposeful nature of motor adaptation to pain. Pain. 2018;159:2192-2200.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Selection criteria for patients with chronic ankle instability in controlled research: a position statement of the international ankle consortium</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Gribble</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Delahunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bleakley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="585" to="591" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gribble PA, Delahunt E, Bleakley C, et al. Selection criteria for patients with chronic ankle instability in controlled research: a position statement of the international ankle consortium. J Orthop Sports Phys Ther. 2013;43:585-591.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Calculating and reporting effect sizes to facilitate cumulative science: a practical primer for t-tests and ANOVAs</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lakens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Psychol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lakens D. Calculating and reporting effect sizes to facilitate cumulative science: a practical primer for t-tests and ANOVAs. Front Psychol. 2013;4:1-12.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">How to determine leg dominance: the agreement between self-reported and observed performance in healthy adults</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Van Melick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Meddeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Hoogeboom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mwg</forename><surname>Nijhuis-Van Der Sanden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Reh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PloS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">e0189876</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Van Melick N, Meddeler BM, Hoogeboom TJ, Nijhuis-van Der Sanden MWG, Reh VC. How to determine leg dominance: the agreement between self-reported and observed performance in healthy adults. PloS One. 2017;12:e0189876.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">An assessment of maturity from anthropometric measurements</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Mirwald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Baxter-Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Beunen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="689" to="694" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mirwald RL, Baxter-Jones AD, Bailey DA, Beunen GP. An as- sessment of maturity from anthropometric measurements. Med Sci Sports Exerc. 2002;34:689-694.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Task-related differences in peroneus longus muscle fiber conduction velocity</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mendez-Rebolledo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guzmán-</forename><surname>Venegas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Orozco-Chavez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Cruz-Montecinos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Martinez-Valdes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page">102795</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mendez-Rebolledo G, Guzmán-Venegas R, Orozco-Chavez I, Cruz-Montecinos C, Watanabe K, Martinez-Valdes E. Task-related differences in peroneus longus muscle fiber con- duction velocity. J Electromyogr Kinesiol. 2023;71:102795.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Understanding Surface Electromyography and its Applications Springer</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barbero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Merletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rainoldi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Springer</publisher>
+			<biblScope unit="page">305</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barbero M, Merletti R, Rainoldi A. Understanding Surface Electromyography and its Applications Springer. Atlas Of Muscle Innervation Zones; Springer; 2012:305.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Peroneal muscle activity during different types of walking</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bavdek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zdolšek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Strojnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dolenec</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Foot Ankle Res</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">50</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bavdek R, Zdolšek A, Strojnik V, Dolenec A. Peroneal muscle activity during different types of walking. J Foot Ankle Res. 2018;11:50.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Longer reaction time of the fibularis longus muscle and reduced postural control in basketball players with functional ankle instability: a pilot study</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Méndez-Rebolledo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Guzmán-Muñoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gatica-Rojas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zbinden-Foncea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther Sport</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="242" to="247" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Méndez-Rebolledo G, Guzmán-Muñoz E, Gatica-Rojas V, Zbinden-Foncea H. Longer reaction time of the fibularis lon- gus muscle and reduced postural control in basketball players with functional ankle instability: a pilot study. Phys Ther Sport. 2015;16:242-247.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Measurement and relationships of proprioceptive isokinetic repositioning, postural control, and a self-reported questionnaire in patients with chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saavedra-Miranda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mendez-Rebolledo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Isokinet Exerc Sci</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="33" to="39" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saavedra-Miranda M, Mendez-Rebolledo G. Measurement and relationships of proprioceptive isokinetic repositioning, pos- tural control, and a self-reported questionnaire in patients with chronic ankle instability. Isokinet Exerc Sci. 2017;25:33-39.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Acute lateral ankle sprain to chronic ankle instability: a pathway of dysfunction</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Miklovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Donovan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Protzuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Feger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Sportsmed</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="116" to="122" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Miklovic TM, Donovan L, Protzuk OA, Kang MS, Feger MA. Acute lateral ankle sprain to chronic ankle instability: a path- way of dysfunction. Phys Sportsmed. 2018;46:116-122.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Surface electromyographic amplitude does not identify differences in neural drive to synergistic muscles</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Martinez-Valdes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Negro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Falla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Nunzio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Farina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page" from="1071" to="1079" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martinez-Valdes E, Negro F, Falla D, De Nunzio AM, Farina D. Surface electromyographic amplitude does not identify dif- ferences in neural drive to synergistic muscles. J Appl Physiol. 2018;124:1071-1079.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Consensus for experimental design in electromyography (CEDE) project: single motor unit matrix</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Martinez-Valdes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Enoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Holobar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page">102726</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martinez-Valdes E, Enoka RM, Holobar A, et al. Consensus for experimental design in electromyography (CEDE) project: sin- gle motor unit matrix. J Electromyogr Kinesiol. 2023;68:102726.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Potential corticomotor plasticity in those with and without chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Kosik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Terada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Drinkard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Mccann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Gribble</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="141" to="149" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kosik KB, Terada M, Drinkard CP, Mccann RS, Gribble PA. Potential corticomotor plasticity in those with and without chronic ankle instability. Med Sci Sports Exerc. 2017;49:141-149.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Biomechanical and viscoelastic properties of the ankle muscles in men with previous history of ankle sprain</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Serra-Añó</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Inglés</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">V</forename><surname>Espí-López</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sempere-Rubio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Aguilar-Rodríguez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page">110191</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Serra-Añó P, Inglés M, Espí-López GV, Sempere-Rubio N, Aguilar-Rodríguez M. Biomechanical and viscoelastic proper- ties of the ankle muscles in men with previous history of ankle sprain. J Biomech. 2021;115:110191.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Distal overactivation of gastrocnemius medialis in persistent plantarflexion weakness following Achilles tendon repair</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>De La Fuente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Martinez-Valdes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Da Rocha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Geremia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Vaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Carpes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">148</biblScope>
+			<biblScope unit="page">111459</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">De la Fuente C, Martinez-Valdes E, da Rocha ES, Geremia JM, Vaz MA, Carpes FP. Distal overactivation of gastrocnemius me- dialis in persistent plantarflexion weakness following Achilles tendon repair. J Biomech. 2023;148:111459.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">High-density electromyography activity in various hamstring exercises</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hegyi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Csala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Péter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Finni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Cronin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="34" to="43" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hegyi A, Csala D, Péter A, Finni T, Cronin NJ. High-density electromyography activity in various hamstring exercises. Scand J Med Sci Sports. 2019;29:34-43.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Region-dependent hamstrings activity in Nordic hamstring exercise and stiff-leg deadlift defined with high-density electromyography</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hegyi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Péter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Finni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Cronin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="992" to="1000" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hegyi A, Péter A, Finni T, Cronin NJ. Region-dependent ham- strings activity in Nordic hamstring exercise and stiff-leg dead- lift defined with high-density electromyography. Scand J Med Sci Sports. 2018;28:992-1000.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Nonuniform excitation of the pectoralis major muscle during flat and inclined bench press exercises</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">V</forename><surname>Cabral</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lml</forename><surname>De Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Vieira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="381" to="390" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cabral HV, de Souza LML, Oliveira LF, Vieira TM. Non- uniform excitation of the pectoralis major muscle during flat and inclined bench press exercises. Scand J Med Sci Sports. 2022;32:381-390.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Linear and non-linear surface EMG/force relationships in human muscles. An anatomical/ functional argument for the existence of both</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bigland-Ritchie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Phys Med</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="287" to="299" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Woods JJ, Bigland-Ritchie B. Linear and non-linear surface EMG/force relationships in human muscles. An anatomical/ functional argument for the existence of both. Am J Phys Med. 1983;62:287-299.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Menstrual cycle mediates vastus medialis and vastus medialis oblique muscle activity</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Tenan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Hackney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Griffin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="2151" to="2157" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tenan MS, Peng YL, Hackney AC, Griffin L. Menstrual cycle mediates vastus medialis and vastus medialis oblique muscle activity. Med Sci Sports Exerc. 2013;45:2151-2157.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Circulating testosterone and dehydroepiandrosterone are associated with individual motor unit features in untrained and highly active older men</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Piasecki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Swiecicka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">GeroScience</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="1215" to="1228" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guo Y, Piasecki J, Swiecicka A, et al. Circulating testosterone and dehydroepiandrosterone are associated with individual motor unit features in untrained and highly active older men. GeroScience. 2022;44:1215-1228.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Sex differences in motor unit behaviour: a review</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lulic-Kuryllo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Inglis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page">102689</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lulic-Kuryllo T, Inglis JG. Sex differences in motor unit be- haviour: a review. J Electromyogr Kinesiol. 2022;66:102689.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Anatomy of the long peroneal muscle of the leg</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Bogacka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dziedzic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Komarnitki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ciszek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Folia Morphol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="284" to="288" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bogacka U, Dziedzic D, Komarnitki I, Ciszek B. Anatomy of the long peroneal muscle of the leg. Folia Morphol. 2017;76:284-288.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Cross-talk from adjacent muscle has a negligible effect on surface electromyographic activity of vastus intermedius muscle during isometric contraction</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Akima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="280" to="e289" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Watanabe K, Akima H. Cross-talk from adjacent muscle has a negligible effect on surface electromyographic activity of vastus intermedius muscle during isometric contraction. J Electromyogr Kinesiol. 2009;19:e280-e289.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

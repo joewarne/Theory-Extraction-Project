@@ -1,0 +1,2211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Journal of Physiology Sex differences in fatigability and recovery relative to the intensity-duration relationship</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2019-09-17">17 September 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Paul</forename><surname>Ansdell</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Health and Life Sciences</orgName>
+								<orgName type="institution">Northumbria University</orgName>
+								<address>
+									<settlement>Newcastle Upon Tyne</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Call</forename><forename type="middle">G</forename><surname>Brownste</surname></persName>
+							<idno type="ORCID">0000-0003-2973-5337</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Health and Life Sciences</orgName>
+								<orgName type="institution">Northumbria University</orgName>
+								<address>
+									<settlement>Newcastle Upon Tyne</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Inter-university Laboratory of Human Movement Biology</orgName>
+								<orgName type="institution" key="instit1">Université Lyon</orgName>
+								<orgName type="institution" key="instit2">UJM-Saint-Etienne</orgName>
+								<address>
+									<settlement>Saint-Etienne</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jakob</forename><surname>Škarabot</surname></persName>
+							<idno type="ORCID">0000-0002-5415-8044</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Health and Life Sciences</orgName>
+								<orgName type="institution">Northumbria University</orgName>
+								<address>
+									<settlement>Newcastle Upon Tyne</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kirsty</forename><forename type="middle">M</forename><surname>Hick</surname></persName>
+							<idno type="ORCID">0000-0001-9029-2171</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Health and Life Sciences</orgName>
+								<orgName type="institution">Northumbria University</orgName>
+								<address>
+									<settlement>Newcastle Upon Tyne</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Glyn</forename><surname>Howatson</surname></persName>
+							<idno type="ORCID">0000-0002-5057-9191</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Health and Life Sciences</orgName>
+								<orgName type="institution">Northumbria University</orgName>
+								<address>
+									<settlement>Newcastle Upon Tyne</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">School of Environmental Sciences and Development</orgName>
+								<orgName type="laboratory">Water Research Group</orgName>
+								<orgName type="institution">Northwest University</orgName>
+								<address>
+									<settlement>Potchefstroom</settlement>
+									<country key="ZA">South Africa</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kevin</forename><surname>Thomas</surname></persName>
+							<idno type="ORCID">0000-0001-8494-2043</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Health and Life Sciences</orgName>
+								<orgName type="institution">Northumbria University</orgName>
+								<address>
+									<settlement>Newcastle Upon Tyne</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sandra</forename><forename type="middle">K</forename><surname>Hunter</surname></persName>
+							<idno type="ORCID">0000-0003-2973-5337</idno>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Physical Therapy</orgName>
+								<orgName type="institution">Marquette University</orgName>
+								<address>
+									<settlement>Milwaukee</settlement>
+									<region>WI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Stuart</forename><surname>Goodall</surname></persName>
+							<email>stuart.goodall@northumbria.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Health and Life Sciences</orgName>
+								<orgName type="institution">Northumbria University</orgName>
+								<address>
+									<settlement>Newcastle Upon Tyne</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Hogan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Bruno</forename><surname>Grassi</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Faculty of Health and Life Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Sport, Exercise and Rehabilitation</orgName>
+								<orgName type="institution">Northumbria University</orgName>
+								<address>
+									<postCode>NE1 8ST</postCode>
+									<settlement>Newcastle upon Tyne</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Journal of Physiology Sex differences in fatigability and recovery relative to the intensity-duration relationship</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-09-17">17 September 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">31A0788851FE8EE23014B2155E4E6586</idno>
+					<idno type="DOI">10.1113/JP278699</idno>
+					<note type="submission">Received 25 July 2019; accepted after revision 12 September 2019; first</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:09+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>exercise</term>
+					<term>fatigue</term>
+					<term>neuromuscular</term>
+					<term>NIRS</term>
+					<term>recovery</term>
+					<term>sex</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Females demonstrate greater fatigue resistance than males during contractions at intensities relative to maximum force. However, previous studies have not accounted for the influence of metabolic thresholds on fatigability.</p><p>r This study is the first to test whether sex differences in fatigability exist when exercise intensity is normalised relative to a metabolic threshold: the critical intensity derived from assessment of the intensity-duration relationship during intermittent, isometric knee extensor contractions.</p><p>r We show that critical intensity in females occurred at a higher percentage of maximum force compared to males. Furthermore, females demonstrated greater fatigue resistance at exercise intensities above and below this metabolic threshold.</p><p>r Our data suggest that the sex difference was mediated by lesser deoxygenation of the knee extensors during exercise.</p><p>r These data highlight the importance of accounting for metabolic thresholds when comparing fatigability between sexes, whilst emphasising the notion that male data are not generalisable to female populations.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Insight into the metabolic demands of a fatiguing task and the mechanisms responsible for the attainment of task failure can be gained by determining the intensity-duration relationship, which is well described in males <ref type="bibr" target="#b47">(Poole et al. 1988;</ref><ref type="bibr" target="#b16">Dekerle et al. 2003;</ref><ref type="bibr" target="#b33">Jones et al. 2008;</ref><ref type="bibr" target="#b64">Vanhatalo et al. 2010)</ref>. The duration that exercise can be maintained is progressively reduced as the intensity of the contraction increases, and the relationship becomes hyperbolic once a metabolic threshold, hereafter termed the critical intensity, has been exceeded <ref type="bibr" target="#b32">(Jones et al. 2010;</ref><ref type="bibr" target="#b46">Poole et al. 2016)</ref>. This phenomenon has been frequently reported during dynamic tasks (e.g. cycling and knee extension, <ref type="bibr" target="#b33">Jones et al. 2008;</ref><ref type="bibr" target="#b64">Vanhatalo et al. 2010)</ref>, and a similar relationship exists for intermittent, isometric tasks <ref type="bibr" target="#b11">(Burnley, 2009;</ref><ref type="bibr" target="#b13">Burnley et al. 2012)</ref>. The critical intensity, the asymptote of the hyperbolic curve, represents the maximal sustainable work rate at which energy supply can be provided and sustained from oxidative metabolism <ref type="bibr" target="#b46">(Poole et al. 2016;</ref><ref type="bibr">Burnley &amp; Jones, 2018)</ref>. Below the critical intensity, substrate-level phosphorylation and the production of intramuscular metabolites are maintained at a steady state, and fatigability occurs due to a mild degree of muscular impairment, as well as an attenuation of the nervous system to activate the working muscle(s) <ref type="bibr" target="#b33">(Jones et al. 2008;</ref><ref type="bibr" target="#b5">Black et al. 2017;</ref><ref type="bibr">Burnley &amp; Jones, 2018)</ref>. Exercise performed at greater intensities requires ATP to be resynthesised from substrate-level phosphorylation, leading to a progressive loss of intramuscular homeostasis and a shorter time to task failure <ref type="bibr" target="#b33">(Jones et al. 2008;</ref><ref type="bibr" target="#b64">Vanhatalo et al. 2010;</ref><ref type="bibr" target="#b51">Schäfer et al. 2019)</ref>. When compared with exercise below the critical intensity, exercise above the threshold is associated with a 4-5 times faster rate of fatigability <ref type="bibr" target="#b13">(Burnley et al. 2012;</ref><ref type="bibr" target="#b60">Thomas et al. 2016</ref>). However, this has been described primarily in young males <ref type="bibr" target="#b11">(Burnley, 2009;</ref><ref type="bibr" target="#b13">Burnley et al. 2012)</ref>. One study included both sexes, but did not conduct a sex comparison of the intensity-duration relationship <ref type="bibr" target="#b45">(Pethick et al. 2016)</ref>. Whether the critical intensity differs between males and females for tasks where the sex difference in fatigability is commonly reported (e.g. intermittent isometric contractions, <ref type="bibr" target="#b30">Hunter et al. 2004;</ref><ref type="bibr" target="#b2">Ansdell et al. 2017</ref>) is unknown, and could provide a physiological mechanism to explain these previous findings.</p><p>A range of reported physiological differences between males and females would suggest the critical intensity could differ between sexes for intermittent isometric tasks. Females are reported to be less fatigable than males across a range of exercise tasks and muscle groups, for contractions performed at the same intensity relative to maximal strength <ref type="bibr">(Hunter, 2009</ref><ref type="bibr" target="#b28">(Hunter, , 2016a))</ref>. The sex difference in fatigability is dependent upon the intensity and contraction modality of the task <ref type="bibr" target="#b69">(Yoon et al. 2007;</ref><ref type="bibr" target="#b50">Russ et al. 2008;</ref><ref type="bibr">Hunter, 2016a,b)</ref>. During intermittent isometric contractions, females demonstrate greater fatigue resistance compared to males, even when matched for maximal strength. The magnitude of the sex difference in fatigability might also be magnified at lower contraction intensities <ref type="bibr" target="#b30">(Hunter et al. 2004;</ref><ref type="bibr" target="#b2">Ansdell et al. 2017)</ref>, but it remains unclear whether the relationship between contraction intensity and task duration (time to task failure, i.e. fatigability) differs between males and females, and whether the underlying neural and contractile mechanisms of fatigue differ. A crucial determinant of the intensity-duration relationship is oxygen delivery to the skeletal muscle, with positive correlations between critical intensity and the fraction of inspired oxygen <ref type="bibr" target="#b64">(Vanhatalo et al. 2010;</ref><ref type="bibr">Dekerle et al. 2012)</ref>. Critical power (during cycling exercise), for example, is positively correlated with type I fibre proportion and muscle capillarity of the knee extensor muscles <ref type="bibr" target="#b63">(Vanhatalo et al. 2016;</ref><ref type="bibr">Mitchell et al. 2018)</ref>. Typically, females have a greater proportion of type I muscle fibres <ref type="bibr" target="#b55">(Simoneau &amp; Bouchard, 1989;</ref><ref type="bibr" target="#b58">Staron et al. 2000;</ref><ref type="bibr" target="#b49">Roepstorff et al. 2006)</ref>, which are less fatigable than type 2 fibres <ref type="bibr">(Schiaffino &amp; Reggiani, 2011)</ref>. Females also exhibit greater capillarisation per unit of vastus lateralis muscle <ref type="bibr" target="#b49">(Roepstorff et al. 2006</ref>) and an augmented vasodilatory response of the femoral artery during exercise <ref type="bibr" target="#b43">(Parker et al. 2007)</ref>. Furthermore, females exhibit greater skeletal muscle oxygenation and less deoxygenation during upper and lower limb exercise than males when assessed with near-infrared spectroscopy (NIRS; <ref type="bibr" target="#b37">Mantooth et al. 2018;</ref><ref type="bibr" target="#b38">Marshall et al. 2019)</ref>. Whether these physiological sex differences could influence the critical intensity of the intensity-duration relationship for intermittent isometric contraction task is unknown.</p><p>Finally, recovery of exercise is also influenced by the aforementioned properties of skeletal muscle and could therefore differ between males and females; however, the extent of possible sex differences and the involved mechanisms of neuromuscular recovery are not understood. Limited evidence exists examining the sex difference of recovery for short durations after exercise (10-20 min), showing that force producing capacity of female knee extensors recovers more rapidly than males <ref type="bibr" target="#b52">(Senefeld et al. 2018)</ref>. Greater capillary density of the exercising muscle(s) can increase the rate of recovery from fatigue <ref type="bibr">(Tesch &amp; Wright, 1983;</ref><ref type="bibr" target="#b15">Casey et al. 1996)</ref>, possibly due to an increased rate of metabolite clearance and ATP/phosphocreatine re-synthesis post-exercise <ref type="bibr" target="#b15">(Casey et al. 1996;</ref><ref type="bibr" target="#b36">McDonough et al. 2004)</ref>, or a reversal in disruptions to calcium handling <ref type="bibr" target="#b22">(Fitts &amp; Balog, 1996)</ref>. The latter has been shown to differ between sexes during exercise <ref type="bibr" target="#b25">(Harmer et al. 2014)</ref>. There is a paucity of data relating to sex differences in recovery, and of the neural and contractile mechanisms involved following fatiguing exercise.</p><p>The present study had three primary aims: (i) to compare the relative torque (%MVC) at which critical intensity is achieved within the intensity-duration relationship for intermittent, isometric tasks in males and females; (ii) determine the mechanisms that contribute to fatigability during intermittent isometric tasks at intensities of torque above and below the critical intensity in males and females; and (iii) compare the rate of recovery following fatiguing exercise and the underpinning neuromuscular mechanisms. We hypothesised the following. (i) Due to greater oxygen availability within the muscle, females would demonstrate a higher critical intensity than men when expressed relative to MVC. (ii) There would be no sex difference in the time to task failure when the tasks were compared at the same metabolic intensity of contraction, relative to critical intensity. (iii) Recovery from fatiguing exercise would be more rapid in females than males due to the properties of contractile elements of the muscle. To understand the mechanisms of fatigability and recovery both above and below the critical intensity in males and females, we used motor nerve and cortical stimulation to delineate the contractile and neural responses to exercise, as well as NIRS to determine oxygenation of the muscles.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethical approval</head><p>The study received institutional ethical approval from the Northumbria University Health and Life Sciences Research Ethics Committee (submission reference: 2434) and was conducted according to all aspects of the Declaration of Helsinki, apart from registration in a database. Participants provided written, informed consent to volunteer for the study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Using the effect size for the sex difference in exercise tolerance at 50% MVC from <ref type="bibr" target="#b2">Ansdell et al. (2017)</ref>, a power calculation (α = 0.05, power 0.80) determined that a sample size of 16 participants was required. Therefore, to maximise statistical power, 10 males (mean ± SD; age: 26 ± 5 years, height: 178 ± 8 cm, mass: 83.4 ± 14.4 kg) and 10 females (age: 24 ± 2 years, height: 168 ± 9 cm, mass 68.5 ± 7.7 kg) were recruited to take part in the study. The females that volunteered were all using monophasic oral contraceptive pills (&gt;6 months), and were tested in the 21-day consumption period of the pill cycle in order to negate the effects of endogenous hormones on neuromuscular function and fatigability <ref type="bibr" target="#b1">(Ansdell et al. 2019)</ref>. Participants arrived at the laboratory rested and hydrated, with strenuous physical activity avoided for 48 h, and caffeine and alcohol prohibited for 24 h.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental design</head><p>All participants visited the laboratory seven times, completing a familiarisation visit, four constant intensity trials to estimate critical intensity, then trials 10% above and below critical torque (see 'Experimental protocol'). Testing took place over a 3-to 5-week period, with a minimum of 48 h between visits to permit full recovery of fatigue <ref type="bibr" target="#b14">(Carroll et al. 2017)</ref>. The time of day for each testing session was replicated (±1 h) to account for diurnal variations in maximal force-generating capacity and corticospinal excitability <ref type="bibr" target="#b59">(Tamm et al. 2009)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental protocol</head><p>Visit 1: familiarisation. Participants were seated in the isometric dynamometer with hip and knee angles at 90°. This set-up was replicated for all visits. Electrical nerve stimulation threshold was determined, followed by transcranial magnetic stimulation (TMS) hotspot, active motor</p><p>C 2019 The Authors. The Journal of Physiology C 2019 The Physiological Society 14697793, 2019, 23, Downloaded from <ref type="url" target="https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699">https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699</ref> by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [15/12/2024]. See the Terms and Conditions (<ref type="url" target="https://onlinelibrary.wiley.com/terms-and-conditions">https://onlinelibrary.wiley.com/terms-and-conditions</ref>) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License J Physiol 597.23</p><p>threshold (aMT) and voluntary activation (VA) stimulator intensity determination (described below). Following this, a baseline neuromuscular function assessment was performed. After 5 min of passive rest, participants performed the fatiguing task at 60% MVC. An MVC and electrical stimulation was performed each minute throughout the fatiguing task. Immediately following the fatiguing task, participants performed a 'post-exercise' neuromuscular assessment.</p><p>Visits 2-5: critical intensity estimation trials. To establish critical intensity, participants performed four trials to task failure. These involved intermittent isometric knee-extensor contractions at submaximal intensities between 40 and 80% MVC. The first trial was set at 60% MVC, based on the pre-exercise MVC in the first trial. The following three estimation trials were set at intensities that elicit task failure between 2 and 15 min in a randomised order <ref type="bibr" target="#b11">(Burnley, 2009;</ref><ref type="bibr" target="#b13">Burnley et al. 2012)</ref>. Participants were instructed to match a target force displayed using a visual guideline on a computer screen ß1 m in front of them, and were blinded to the time elapsed in each trial. The contraction regime for all trials involved 3 s contractions interspersed with 2 s rest, with an MVC and electrical stimulation performed at the end of each minute. This contraction duty cycle has previously displayed sex differences independent of strength, and therefore occlusion differences between males and females <ref type="bibr" target="#b30">(Hunter et al. 2004;</ref><ref type="bibr" target="#b2">Ansdell et al. 2017)</ref>. Task failure was deemed as a failure to meet the target force three consecutive times despite strong verbal encouragement. Participants were informed each time they failed to reach the target force. Before the submaximal task, participants performed five 3 s MVCs separated by 30 s, with electrical stimulation during and 2 s after the final three contractions. Immediately following task failure this was repeated with three MVCs and superimposed electrical stimulations.</p><p>Visits 6 and 7: critical intensity trials. The supra-(+10%) and sub-(-10%) critical intensity trials began with electrical nerve stimulation and TMS thresholds being determined. Baseline near-infrared spectroscopy (NIRS) values were recorded once participants were seated in the dynamometer in the same position as the fatiguing task. NIRS data were captured for the entirety of the trials, and were used to measure changes in muscle oxygenation during the fatiguing task. Cardiac output (Q), heart rate (HR) and mean arterial pressure (MAP) were measured throughout the trial via a fingertip arterial pressure cuff (Finometer Midi, Finapres Medical System, Arnhem, The Netherlands). Participants completed a standardised isometric warm-up <ref type="bibr" target="#b24">(Gruet et al. 2014)</ref>, before a baseline neuromuscular function assessment. After 5 min of passive rest, participants completed an intermittent isometric fatiguing task to failure at an intensity relative to their critical intensity (+10 or -10%). An MVC with electrical stimulation during and ß2 s following was performed and delivered at the end of each minute of the task to assess neuromuscular function (see below). The -10% trial was terminated after 45 min, as this intensity contraction could theoretically be maintained indefinitely without task failure <ref type="bibr" target="#b13">(Burnley et al. 2012)</ref>. Therefore, male and female fatigability was compared after an identical 'dose' of exercise. The intensity for the first critical intensity trial was randomised and counterbalanced. Upon task failure or termination, a post-test neuromuscular function assessment (see below) was immediately performed, then repeated at 15, 30 and 45 min post-exercise.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Intensity-duration relationship</head><p>Critical intensity and curvature constant (W ) were estimated from the force-impulse relationship of the four submaximal trials. A linear regression between force impulse at task failure from the four submaximal trials against time to task failure (TTF) was plotted to determine the characteristics of the relationship. The slope of the regression determined critical intensity, and the y-intercept determined W <ref type="bibr" target="#b11">(Burnley 2009</ref><ref type="bibr" target="#b13">, Burnley et al. 2012)</ref>. Critical intensity was expressed in Newtons, and as %MVC to account for sex differences in absolute force production.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measurements</head><p>Neuromuscular function. Participants completed five isometric knee-extensor MVCs separated by 30 s, with electrical nerve stimulation delivered during and after the final three contractions to quantify voluntary activation (VA MNS ) and quadriceps-potentiated twitch force (Q tw.pot ). In the final two visits (critical intensity trials) voluntary activation was also assessed with TMS (VA TMS ) using two sets of five contractions (100, 87.5, 75, 62.5 and 50% MVC, <ref type="bibr" target="#b17">Dekerle et al. 2019)</ref>; single pulse TMS was delivered during each contraction. Finally, short interval cortical inhibition (SICI) and corticospinal excitability were assessed during a 10% MVC contraction.</p><p>Force and EMG. Participants were seated on an isometric dynamometer, with force (N) measured using a calibrated load cell (MuscleLab force sensor 300, Ergotest technology, Porsgrunn, Norway). The load cell was attached to the participant's dominant right leg, superior to the ankle malleoli, using a cuff. The load cell height was adjusted to ensure a direct line with the applied force for each participant. Participants were seated upright with knee and hip angles kept at 90°flexion. Electromyography (EMG) of the knee extensors was recorded from the rectus femoris (RF), with antagonist knee flexor activity recorded from the long head of the biceps femoris (BF). Skin was shaved and cleaned, surface electrodes (Ag/AgCl; Kendall H87PG/F, Covidien, Mansfield, MA, USA) were then placed 2 cm apart over the muscle belly, according to SENIAM guidelines <ref type="bibr" target="#b26">(Hermens et al. 2000)</ref>, with a reference electrode placed over the patella. EMG electrodes recorded signals during maximal and submaximal contractions and were quantified as root mean square amplitude (rmsEMG). Compound muscle action potentials (maximal M-wave) following motor nerve stimulation, and MEPs elicited by TMS were also recorded. Surface electrode signals were amplified (×1000; 1902, Cambridge Electronic Design (CED), Cambridge, UK), band-pass filtered (20-2000 Hz), digitised (4 kHz, micro 1401, CED) and acquired for off-line analysis (Spike2 version 7.01, CED).</p><p>Transcranial magnetic stimulation. Single and paired pulse magnetic stimuli of 1 ms duration were delivered over the contralateral motor cortex (postero-anterior intracranial current flow) with a concave double cone coil (110 mm diameter, maximum output 1.4 T) powered by a BiStim unit and two Magstim 200 2 stimulators (The Magstim Company, Whitland, UK). Optimal stimulation location was located by stimulating at ß50% maximum stimulator output during a 10% MVC contraction. The position eliciting the greatest MEP amplitude in the RF, and a concurrent small MEP in the antagonist BF muscle, was marked with indelible ink to ensure consistent placement within trials. Stimulator output for aMT was defined as the lowest stimulus intensity required to elicit a MEP of at least 0.2 mV in three out five stimulations in the RF during the 10% MVC contraction. Mean aMT was not different between males and females (39 ± 7 vs. 43 ± 10%, P = 0.379), or between visits (41 ± 9 vs. 41 ± 9%, P = 0.423). Conditioning pulses were delivered at 70% aMT, 2 ms prior to a test stimulus at 120% aMT during a 10% MVC contraction <ref type="bibr" target="#b6">(Brownstein et al. 2018)</ref>. Ten unconditioned and 10 conditioned stimuli were delivered and the resultant MEP amplitudes were averaged and presented as a normalised value ((conditioned MEP/unconditioned MEP) × 100) as an index of SICI. The average amplitude of the unconditioned pulse normalised to maximal M-wave was used as an index of corticospinal excitability (MEP/M max ). Stimulator output for VA TMS was determined as the greatest mean superimposed twitch (SIT) elicited by two pulses delivered during a ß6 s contraction at 50% MVC, as TMS intensity was increased in a step-wise (i.e. 5% increments) fashion from 50% maximal stimulator output <ref type="bibr" target="#b60">(Thomas et al. 2016;</ref><ref type="bibr" target="#b7">Brownstein et al. 2017)</ref>. Each contraction was separated by 30 s rest. Mean stimulator intensity was not different between males and females (63 ± 6 vs. 66 ± 11%, P = 0.462) or between visits (66 ± 10 vs. 63 ± 7%, P = 0.218). The intensities used activated a large proportion of the motoneuron pool for the RF that was not different between trials at baseline (53 ± 13% vs. 53 ± 16% M max , P = 0.920). The TMS pulse also avoided substantial activation of the antagonist (biceps femoris) with small incidental MEPs recorded at baseline (0.68 ± 0.52 vs. 0.70 ± 0.1 mV, P = 0.902).</p><p>Motor nerve stimulation. Single electrical stimuli (200 µs duration) were delivered to the femoral nerve via 32 mm-diameter surface electrodes (CF3200; Nidd Valley Medical, Bordon, Hampshire, UK) using a constant-current stimulator (DS7AH, Digitimer, Welwyn Garden City, UK). The cathode was placed high in the femoral triangle over the nerve, and the anode positioned mid-way between the greater trochanter and iliac crest. The cathode was repositioned until the largest knee extensor twitch amplitude (Q tw ) and maximal RF M-wave (M max ) was elicited at rest. Stimulations began at 20 mA, and increased by 20 mA until a plateau in Q tw and M max -wave amplitude occurred. This value was then increased by 30% to ensure supramaximal stimulations during the protocol. Mean stimulus intensity was not different between sexes (276 ± 142 vs. 190 ± 75 mA, P = 0.057) or between visits (241 ± 104 vs. 229 ± 107 mA, P = 0.492).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Near-infrared spectroscopy.</head><p>A multi-distance, continuous-wave, single channel NIRS (NIRO-200NX, Hamamatsu, Hamamatsu City, Japan) evaluated changes in vastus lateralis muscle oxy-(O 2 Hb), and deoxy-(HHb) haemoglobin concentrations (µM), as well as tissue oxygenation index (TOI = O 2 Hb/(O 2 Hb + HHb) × 100), sampled at a rate of 1 Hz. The light-emitting probe comprised diodes operating at three wavelengths (735, 810 and 850 nm), and an emitter-detector distance of 3 cm. The probe was placed on the vastus lateralis, 20 cm above the fibular head lateral side of the patella <ref type="bibr" target="#b34">(Keane et al. 2018)</ref>. Optodes were held in place by an elasticised, tensor bandage and covered by an opaque, dark material to avoid motion and ambient light influences. Pre-exercise, participants remained seated and avoided muscle contraction for 5 min to establish baseline muscle oxygenation, with the final 30 s used as the pre-exercise value. During the fatiguing tasks, the 30 s window around 25, 50 and 75% of the task, as well as the final 30 s of the task (100%), were expressed as changes from baseline (%).</p><p>Haemodynamic monitoring. Mean arterial blood pressure and heart rate were measured continuously throughout the final two testing visits using finger arterial pressure pulse wave analysis (Finometer Midi, Finapres Medical System, Arnhem, The Netherlands). This system was also used to estimate Q̇using the Modelflow equation</p><p>C 2019 The Authors. The Journal of Physiology C 2019 The Physiological Society 14697793, 2019, 23, Downloaded from <ref type="url" target="https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699">https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699</ref> by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [15/12/2024]. See the Terms and Conditions (<ref type="url" target="https://onlinelibrary.wiley.com/terms-and-conditions">https://onlinelibrary.wiley.com/terms-and-conditions</ref>) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License <ref type="bibr" target="#b67">(Wesseling et al. 1993</ref>). An appropriately sized cuff was placed between the distal and proximal interphalangeal joint of the middle finger. To minimise the effect of arm and hand movement during the trials, arm position was maintained stationary throughout the trial. To account for hydrostatic pressure differences between the level of the hand and heart, a height correction unit was used. The Finapres was activated prior to the exercise tasks to allow calibration via the Physiocal function within the BeatScope software. This technique has previously been validated and shown to be reliable at rest and in exercise conditions <ref type="bibr" target="#b42">(Parati et al. 1989;</ref><ref type="bibr" target="#b65">Waldron et al. 2017)</ref>. Signals were linearly interpolated and resampled at 1 Hz <ref type="bibr" target="#b20">(Faisal et al. 2009)</ref>, then a 5 s rolling average was used to smooth the data <ref type="bibr" target="#b4">(Beltrame et al. 2017</ref>), before 30 s time intervals were taken pre-exercise, 25, 50, 75 and 100% of time to task failure. Pre-exercise, participants remained seated for 5 min to establish baseline values, with the final 30 s used as pre-exercise values.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis</head><p>Voluntary activation using motor nerve stimulation was determined using the twitch interpolation method <ref type="bibr" target="#b40">(Merton, 1954)</ref> by comparing the amplitude of the superimposed twitch (SIT) with the amplitude of the potentiated resting twitch (Q tw.pot ) using the following formula: VA MNS (%) = [1 -(SIT/Q tw.pot )] × 100. Voluntary activation using TMS was assessed during two sets of contractions at 100, 87.5, 75, 62.5 and 50% MVC <ref type="bibr" target="#b17">(Dekerle et al. 2019)</ref>. Single pulse TMS was delivered during each contraction, and the linear regression between SIT amplitude and contraction intensity was extrapolated to the y-intercept to obtain an estimated resting twitch (ERT; <ref type="bibr" target="#b62">Todd et al. 2003)</ref>. In order to achieve significant linearity (P &lt; 0.05), a total of 5 out of 850 SITs across all trials were excluded (0.6%), which led to five regressions containing 9 data points rather than 10 (1 pre-exercise, 4 post-exercise). As a result, mean r 2 values for ERTs were linear throughout the study (0.93 ± 0.06). The SIT during 100% MVC was compared with the ERT using the following formula: VA TMS (%) = [1 -(SIT/ERT)] × 100. Short interval intracortical inhibition was quantified as the percentage ratio between the amplitude of conditioned MEPs to the amplitude of unconditioned MEPs. Corticospinal excitability was determined by expressing the mean MEP amplitude during the 10% MVC as a percentage of M max . The root mean square of EMG activity (rmsEMG) was recorded during the preceding 100 ms before each stimulation, and the middle 500 ms epoch of each 3 s contraction during the fatiguing task. rmsEMG was then expressed as a percentage of M max . The NIRS (O 2 Hb, HHb, TOI) and Finapres (HR, Q, MAP) data were expressed as a percentage of baseline, and the 30 s epochs throughout exercise are presented as %.</p><p>Despite a linear relationship between TTF and work done in the estimation trials (r 2 = 0.98), and a physiologically normal value for the critical intensity (22.7% MVC), one female participant demonstrated a large 95% confidence interval for the estimate of critical intensity (±13% MVC). As a result, there were no signs of fatigability during the supra-critical intensity trial (i.e. MVC did not decrease) during the +10% trial, thus the trial was terminated after 90 min, and the participant was excluded from further analyses. It was likely that this participant was exercising below the 'true' critical intensity. Similarly, one male was excluded due to a large 95% confidence interval (±12% MVC), which resulted in the the intensity-duration relationship estimates residing &gt;3 SDs from the mean value for males (critical intensity = 31.3% MVC, W = 2005 N s), likely caused by premature task failure in the higher intensity estimation trial(s).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>Data are presented as the mean ± SD within the text and figures. Normal Gaussian distribution of data was confirmed using the Kolmogorov-Smirnov test. If a violation was detected, the data were logarithmically transformed. This occurred for rmsEMG/M max during the fatiguing tasks, therefore statistical tests were performed on the transformed data, but in text and figures the non-transformed data are presented. The α for all statistical tests was set at P &lt; 0.05.</p><p>For variables assessed pre-, during and post-exercise (MVC, VA MNS , Q tw.pot , rmsEMG, O 2 Hb, HHb, TOI, HR, CO and MAP) a two-way (2 × 5) repeated measures ANOVA was used to assess differences between sex (male vs. female) and over time (Pre, 25%, 50%, 75% TTF and Post). For variables that were assessed pre-and post-exercise (ERT, VA TMS , M max , MEP/M max , SICI) a two-way 2 × 2 repeated measures ANOVA was used to assess differences between sex (male vs. female) and over time (Pre vs. Post). For variables that were assessed during the recovery period (MVC, VA MNS , Q tw.pot , ERT, VA TMS , M max , MEP/M max , SICI) a two-way (2 × 4) repeated measures ANOVA was used to assess difference between sex (male vs. female) and over time (Post, and 15, 30 and 45 min post-exercise). If significant main or interaction effects were observed, these were followed up by post hoc Bonferroni-corrected pairwise comparisons.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Intensity-duration relationship</head><p>The trials to estimate the intensity-duration relationship ranged from 1.6 to 16.0 min in duration (Table <ref type="table" target="#tab_2">1</ref>). In order to match the TTFs between sexes, the trial intensities were required to be greater in females than the males Values are means ± SD. 95% CIs: 95% confidence intervals for the linear regressions, MVC: maximal voluntary contraction, TTF: time to task failure. * Greater than males (P &lt; 0.001).</p><p>(mean difference of 10-11% MVC for the four trials, all P &lt; 0.001). Furthermore, the relationship between TTF and impulse across the four trials was linear (r 2 range: 0.89-1.00) for all participants (Fig. <ref type="figure" target="#fig_0">1A</ref>).</p><p>Maximal voluntary contraction was greater in males compared to females (708 ± 119 N vs. 458 ± 59 N, P &lt; 0.001); however, absolute critical intensity was not significantly different (143 ± 26 N vs. 123 ± 26 N, P = 0.109). When normalised to MVC, females had a greater critical intensity compared to males (24.7 ± 2.5 vs. 20.8 ± 2.3% MVC, P = 0.003, Fig. <ref type="figure" target="#fig_0">1B</ref>); however, there was no difference in W (18,206 ± 6331 vs. 18,765 ± 5762 N s, P = 0.850, Fig. <ref type="figure" target="#fig_0">1C</ref>).</p><p>Males and females demonstrated a consistent decline in MVC, Q tw.pot and VA MNS across the four estimation trials (Fig. <ref type="figure">2</ref>, trial × time interactions P ࣙ 0.144).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supra (+10%)-critical intensity trials</head><p>Fatigability. The intensity-duration relationship predicted that time to task failure would occur in 1365 ± 598 s for males versus 1520 ± 474 s for females (P = 0.553). However, during the actual task, females had a greater time to task failure for the intermittent isometric contraction tasks performed at 110% of critical intensity compared to males (3742 ± 1035 vs. 1826 ± 765 s, P &lt; 0.001, Fig. <ref type="figure" target="#fig_1">3</ref>). This meant that the intensity-duration relationship did not significantly underestimate time to task failure for the male group (P = 0.173) but did underestimate the female group's performance (P &lt; 0.001).</p><p>Throughout the +10% task and at task failure MVC, Q tw.pot , VA MNS , VA TMS and MEP/M max all decreased (all time effects P &lt; 0.001, Figs <ref type="figure">4</ref> and <ref type="figure" target="#fig_2">5</ref>), whilst rmsEMG/M max increased (P &lt; 0.001, Table <ref type="table" target="#tab_4">2</ref>). However, SICI (P = 0.232) and M max (P = 0.109) did not change. When comparing the changes between sexes, MVC (F 2.2,34.5 = 4.36, P = 0.017, η p ² = 0.214) and Q tw.pot (F 4,64 = 2.52, P = 0.049, η p ² = 0.136) decreased more in males compared with the females (Fig. <ref type="figure">4A</ref> and <ref type="figure">B</ref>), whilst the rmsEMG/M max increased more in the males than the J Physiol 597.23</p><p>females (F 2.2,34.5 = 7.33, P = 0.002, η p ² = 0.314). However, VA MNS , VA TMS , MEP/M max and SICI were not different between the sexes (P ࣙ 0.062).</p><p>Recovery. In the 45 min recovery period, MVC, Q tw.pot , VA MNS , VA TMS and MEP/M max all demonstrated a return towards baseline (recovery effects all P &lt; 0.001, Figs <ref type="figure">4</ref> and <ref type="figure" target="#fig_2">5</ref>). Females however, demonstrated a faster recovery for Q tw.pot (F 3,48 = 3.13, P = 0.034, η p ² = 0.164) and VA TMS (F 1.8,25.4 = 3.63, P = 0.045, η p ² = 0.206), with no difference in recovery for MVC, VA MNS or MEP/M max (P ࣙ 0.096).</p><p>Oxygenation and haemodynamics. Muscle oxygenation was altered during the +10% fatiguing task (Fig. <ref type="figure" target="#fig_3">6</ref>), with O 2 Hb (F 1.4,22.5 = 7.00, P = 0.009, η p ² = 0.304), HHb (F 1.4,22.5 = 11.53, P = 0.003, η p ² = 0.419) and TOI (F 1.1,18.3 = 7.12, P = 0.004, η p ² = 0.393) all demonstrating changes from baseline. Females demonstrated a lesser increase in HHb (F 1.4,22.5 = 8.96, P = 0.007, η p ² = 0.359) and decrease in TOI (F 1.2,18.3 = 7.12, P = 0.013, η p ² = 0.308) than males (Fig. <ref type="figure" target="#fig_3">6B</ref> and <ref type="figure">C</ref>). For O 2 Hb, females demonstrated an increase from baseline, whilst males decreased (F 1.4,22.5 = 8.05, P = 0.005, η p ² = 0.335, Fig. <ref type="figure" target="#fig_3">6A</ref>).</p><p>The +10% fatiguing task induced changes in cardiovascular function (Table <ref type="table" target="#tab_4">2</ref>) with HR (F 4,64 = 47.39, Figure 2. Pre-post changes in neuromuscular function across the four estimation trials A, maximum voluntary contraction (MVC). B, potentiated quadriceps twitch force (Q tw.pot ). C, voluntary activation (assessed with motor nerve stimulation, VA MNS ). TTF: time to task failure. [Colour figure can be viewed at wileyonlinelibrary.com] C 2019 The Authors. The Journal of Physiology C 2019 The Physiological Society</p><p>14697793, 2019, 23, Downloaded from <ref type="url" target="https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699">https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699</ref> by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [15/12/2024]. See the Terms and Conditions (<ref type="url" target="https://onlinelibrary.wiley.com/terms-and-conditions">https://onlinelibrary.wiley.com/terms-and-conditions</ref>) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License J Physiol 597.23 Sex differences in fatigability and recovery 5585 P &lt; 0.001, η p ² = 0.748), Q̇(F 4,64 = 19.70, P &lt; 0.001, η p ² = 0.552) and MAP (F 4,64 = 12.24, P &lt; 0.001, η p ² = 0.433) all increasing. Females demonstrated a lesser increase in HR (F 4,64 = 8.99, P &lt; 0.001, η p ² = 0.360) and Q̇(F 4,64 = 4.02, P = 0.006, η p ² = 0.201), but not MAP (P = 0.175). Sub (-10%)-critical intensity trials Fatigability. All participants successfully completed the 45 min of exercise below critical intensity and did not reach task failure. MVC, Q tw.pot , M max , VA MNS and VA TMS all decreased (time effects: P ࣘ 0.016) throughout Figure 4. Changes in neuromuscular parameters assessed during the +10% exercise task and recovery period A, maximum voluntary contraction (MVC). B, potentiated quadriceps twitch force (Q tw.pot ). C, voluntary activation assessed with motor nerve stimulation (VA MNS ). Continuous lines and circles represent the group mean values and the dashed lines represent individual participants. * Different from 0 min (P &lt; 0.05), $ significantly different from 60 min (P &lt; 0.05), # different between males and females (P &lt; 0.05). [Colour figure can be viewed at wileyonlinelibrary.com] C 2019 The Authors. The Journal of Physiology C 2019 The Physiological Society 14697793, 2019, 23, Downloaded from <ref type="url" target="https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699">https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699</ref> by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [15/12/2024]. See the Terms and Conditions (<ref type="url" target="https://onlinelibrary.wiley.com/terms-and-conditions">https://onlinelibrary.wiley.com/terms-and-conditions</ref>) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License was demonstrated for Q tw.pot (F 1.97,31.49 = 5.31, P = 0.011, η p ² = 0.249) indicating a lesser decrease over the course of the intermittent isometric task. Post hoc differences are displayed in Fig. 7 and  <ref type="bibr">(F 1.96,31</ref>.37 = 6.72, P = 0.004, η p ² = 0.296) all increased throughout the intermittent isometric task (Table <ref type="table" target="#tab_4">2</ref>), with a sex × time interaction for HR (F 2.59,41.49 = 5.59, P = 0.004, η p ² = 0.259), indicating a greater increase in HR in males than females.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The present study aimed to compare the intensityduration relationship between males and females during intermittent, isometric knee extensor exercise, and assess whether a sex difference in fatigability and recovery existed when exercise was normalised to the critical intensity. Our data show that females demonstrated a greater relative critical intensity during intermittent isometric knee extensor exercise compared with males. Contrary to our hypothesis, however, females lasted approximately twice as long as males for an open-ended exercise 10% above this threshold. Following exercise normalised to 110 and 90% of critical intensity, females demonstrated a lower degree of contractile impairment, and a faster rate of recovery following the 110% trial. Furthermore, these factors are likely related to the fact that females demonstrated lesser deoxygenation during exercise, which provides a plausible explanation for the observed sex differences in exercise tolerance and fatigability.</p><p>C 2019 The Authors. The Journal of Physiology C 2019 The Physiological Society</p><p>14697793, 2019, 23, Downloaded from <ref type="url" target="https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699">https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699</ref> by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [15/12/2024]. See the Terms and Conditions (<ref type="url" target="https://onlinelibrary.wiley.com/terms-and-conditions">https://onlinelibrary.wiley.com/terms-and-conditions</ref>) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Intensity-duration relationship</head><p>Of the two parameters of the intensity-duration relationship, a sex difference was observed for critical intensity, but not W . Females had a critical threshold ß4% MVC greater than males, due to a steeper slope in the TTF-impulse relationship (Fig. <ref type="figure" target="#fig_0">1A</ref>) and smaller absolute MVC. Critical intensity notes the maximal sustainable metabolic rate during exercise, at which oxidative energy provision is sufficient and reaches a steady state <ref type="bibr" target="#b46">(Poole et al. 2016)</ref>. Increasing the fraction of inspired oxygen (F iO 2 ) during exercise increases critical intensity <ref type="bibr" target="#b64">(Vanhatalo et al. 2010)</ref>, whereas decreasing F iO 2 reduces the maximal sustainable intensity <ref type="bibr">(Dekerle et al. 2012)</ref>. Similarly, complete blood flow occlusion reduces critical power to less than zero <ref type="bibr">(Broxterman et al. 2015a)</ref>. Differences in skeletal muscle properties between males and females could explain the difference in critical intensity. It is well established that in the vastus lateralis, females possess a greater relative proportion of type I muscle fibres <ref type="bibr" target="#b55">(Simoneau &amp; Bouchard, 1989;</ref><ref type="bibr" target="#b58">Staron et al. 2000;</ref><ref type="bibr" target="#b49">Roepstorff et al. 2006</ref>) and greater capillary density <ref type="bibr" target="#b49">(Roepstorff et al. 2006)</ref> than males. When combined with a greater vasodilatory response of the femoral artery to exercise in females <ref type="bibr" target="#b43">(Parker et al. 2007)</ref>, it is likely that these factors permit greater delivery of oxygenated blood to the muscle tissues of the knee extensors, contributing to an ability to sustain greater relative rates of oxidative metabolism (i.e. critical intensity) than males. These observations could explain why females were able to attain a higher relative critical intensity than males in the present study. Indeed, recent evidence suggests that type I fibre percentage and muscle capillarisation are positively correlated with critical power during cycling exercise <ref type="bibr" target="#b63">(Vanhatalo et al. 2016;</ref><ref type="bibr">Mitchell et al. 2018)</ref>. Mitchell et al.</p><p>(2018) suggested that greater capillary supply likely leads to greater oxygen supply and extraction during exercise.</p><p>To support this, during the +10% trial in the present study, a sex difference was observed for HHb, with females demonstrating lesser increases in deoxygenation from resting values (Figs <ref type="figure" target="#fig_2">5</ref> and <ref type="figure" target="#fig_4">7</ref>). Therefore, the present data suggest that females are able to maintain elevated delivery of oxygen to the knee extensors, leading to a greater relative rate of maximal sustainable oxidative metabolism.</p><p>The curvature constant of the intensity-duration relationship (W ) was not different between sexes. Whilst less is known about the origins and determinants of W <ref type="bibr" target="#b46">(Poole et al. 2016)</ref>, evidence suggests that there is no relationship between it and skeletal muscle properties <ref type="bibr" target="#b63">(Vanhatalo et al. 2016;</ref><ref type="bibr">Mitchell et al. 2018</ref>). More likely, W is related to the depletion of intramuscular energy stores (e.g. phosphocreatine, PCr) and accumulation of C 2019 The Authors. The Journal of Physiology C 2019 The Physiological Society 14697793, 2019, 23, Downloaded from <ref type="url" target="https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699">https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699</ref> by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [15/12/2024]. See the Terms and Conditions (<ref type="url" target="https://onlinelibrary.wiley.com/terms-and-conditions">https://onlinelibrary.wiley.com/terms-and-conditions</ref>) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License J Physiol 597.23</p><p>metabolites (e.g. P i , H + , ADP; <ref type="bibr" target="#b64">Vanhatalo et al. 2010)</ref>. This notion has been suggested to oversimplify such a concept, with the possibility of a different source of W between whole-body and single-muscle exercise <ref type="bibr" target="#b46">(Poole et al. 2016)</ref>. However, in single-muscle exercise, <ref type="bibr">Broxterman et al. (2015b)</ref> suggested that W might be related to the maximum tolerable degree of neuromuscular dysfunction. Considering there was no difference in the % in MVC, Q tw . pot and VA MNS between males and females at task failure in the +10% trial (Fig. <ref type="figure" target="#fig_1">3A</ref>), this notion could explain why W was not different between sexes in the intermittent, isometric model used in the present study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fatigability and recovery above critical intensity</head><p>Despite normalising exercise to the intensity-duration relationship, which is a key step when modelling fatigability <ref type="bibr">(Burnley &amp; Jones, 2018)</ref>, females outlasted males during the open-ended isometric intermittent contraction task (Fig. <ref type="figure" target="#fig_1">3</ref>). A similar W in males and females would suggest that task failure should occur in a similar time, as evidence previously suggested task failure occurs once this work capacity is completely utilised and a 'critical metabolic milleu' is attained <ref type="bibr" target="#b64">(Vanhatalo et al. 2010)</ref>. One potential explaination could be the absolute C 2019 The Authors. The Journal of Physiology C 2019 The Physiological Society force produced by females was ß40% lower than males in the present study. This meant for a male and female with identical critical intensity (%MVC) and W , the impulse (N s -1 ) per contraction was lower in absolute terms during the +10% fatiguing task for contractions at similar %MVC. This led to a slower rate of W utilisation and decrease in indices of neuromuscular function during the fatiguing task (e.g. MVC, Q tw.pot , VA MNS ), until a constant degree of post-exercise dysfunction was reached at task failure (Fig. <ref type="figure">4</ref>). In the present dataset it was not possible to post hoc match individual male and female participants for critical intensity, W and MVC within &lt;10% of each other, therefore it is not possible to discount the potential effect of absolute force. The sex difference in critical intensity and fatigability above critical intensity can therefore explain previous studies that have normalised to an arbitrary percentage of MVC and shown a sex difference in fatigability (e.g. 50% MVC, <ref type="bibr" target="#b30">Hunter et al. 2004;</ref><ref type="bibr" target="#b2">Ansdell et al. 2017)</ref>. For example, at 50% MVC, males would be exercising at a greater relative intensity above their threshold and therefore would experience a faster rate of fatigue <ref type="bibr" target="#b13">(Burnley et al. 2012</ref>), but also, as a consequence of greater absolute force production, deplete W faster.</p><p>The intensity-duration relationship also underestimated time to task failure for the female group in the present study. One explaining factor for this could be W reconstitution in the 2 s recovery period between each 3 s contraction. Indeed, <ref type="bibr" target="#b10">Broxterman et al. (2016)</ref> reported that predicted performance is underestimated if W reconstitution is not accounted for during intermittent tasks, and this can be affected by a duty cycle of contractions. <ref type="bibr" target="#b10">Broxterman et al. (2016)</ref> also suggested that W reconstitution could be influenced by oxygen delivery and extraction, with augmented oxygenation speeding the recovery of depleted energy stores, and removal of fatigue-inducing metabolites. Therefore, when considering the NIRS data in the present study, it could be speculated that females were able to reconstitute W faster than males, which would explain why females demonstrated greater times to task failure and slower rates of contractile dysfunction in the +10% trial. The present data cannot directly answer the question of a sex difference in W reconstitution but this could be an area of research to further explain the sex difference in fatigability.</p><p>Following the +10% trial, females demonstrated a faster rate of recovery for Q tw.pot (Fig. <ref type="figure" target="#fig_1">3B</ref>), which supports the conclusions of <ref type="bibr" target="#b52">Senefeld et al. (2018)</ref> who demonstrated a similar pattern following a fixed-duration dynamic fatiguing task. Rapid recovery of contractile function is likely related to the removal of potassium ions from the C 2019 The Authors. The Journal of Physiology C 2019 The Physiological Society</p><p>14697793, 2019, 23, Downloaded from <ref type="url" target="https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699">https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699</ref> by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [15/12/2024]. See the Terms and Conditions (<ref type="url" target="https://onlinelibrary.wiley.com/terms-and-conditions">https://onlinelibrary.wiley.com/terms-and-conditions</ref>) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p><p>T-tubules, permitting repolarisation <ref type="bibr" target="#b0">(Allen et al. 2008)</ref>, whereas further recovery of contractile function following long-duration isometric exercise is related predominantly to restoration of intracellular calcium handling/sensitivity, rather than metabolite clearance <ref type="bibr" target="#b14">(Carroll et al. 2017)</ref>. Female skeletal muscle demonstrates a 24% lower maximal rate of Ca 2+ -ATPase activity <ref type="bibr" target="#b25">(Harmer et al. 2014</ref>), which has previously been suggested to lead to lower calcium-related impairments during exercise, and create a more fatigue-resistant muscle compared to males <ref type="bibr" target="#b25">(Hunter, 2014)</ref>. Thus, it could be the case that differences in calcium handling in female skeletal muscle translated to better post-exercise recovery kinetics. Although somewhat speculative, calcium handling has been studied in vitro to support the sex difference in fatigability <ref type="bibr" target="#b25">(Harmer et al. 2014)</ref>, but no similar data in cell models exists to compare recovery of calcium handling between males and females after exercise. Therefore, calcium-related properties of skeletal muscle could help to explain why female contractile function recovered quicker in the present study, but further research to support this proposition is warranted.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fatigability and recovery below critical intensity</head><p>For the same duration of exercise below critical intensity, both sexes experienced an initial decrease in MVC and Q tw.pot and then no further impairment throughout the fatiguing task (Fig. <ref type="figure" target="#fig_3">6</ref>). Whilst females experienced a lesser decrease from baseline, the attainment of a constant degree of contractile dysfunction is consistent with the notion that exercise below the critical intensity reaches a 'steady-state' of metabolic adjustment <ref type="bibr">(Burnley &amp; Jones, 2018)</ref>. A similar study in males <ref type="bibr" target="#b13">(Burnley et al. 2012</ref>) speculated that the origins of contractile dysfunction below threshold might be related to the effects glycogen depletion had on calcium transients in skeletal muscle <ref type="bibr">(Ørtenblad et al. 2013)</ref>. During whole-body exercise, females oxidise relatively more fat than carbohydrate compared to males <ref type="bibr" target="#b48">(Roepstorff et al. 2002</ref><ref type="bibr" target="#b49">(Roepstorff et al. , 2006))</ref>; when combined with the more fatigue-resistant calcium properties in female muscles <ref type="bibr" target="#b25">(Harmer et al. 2014)</ref>, this could explain why the post-exercise % in Q tw.pot was less in females (Fig. <ref type="figure" target="#fig_4">7C</ref>). Similar to the +10% trial, females were better able to maintain oxygen availability within the working muscles (Fig. <ref type="figure" target="#fig_4">7A</ref>); however, this is not thought to be a limiting factor to exercise performance below critical intensity <ref type="bibr" target="#b46">(Poole et al. 2016)</ref>, as oxidative metabolism is not at maximal rates. Post-exercise, MVC, Q tw.pot and VA all demonstrated returns towards baseline; however, male Q tw.pot was still reduced 45 min post-exercise. If muscle glycogen-related factors are the cause of this contractile impairment below threshold, the continued impairment at 45 min would be expected, as complete re-synthesis can take &gt;2 h following single-limb exercise <ref type="bibr" target="#b44">(Pascoe et al. 1993)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Further considerations</head><p>The responses to corticospinal stimulation (MEP/M max ) showed divergent effects when comparing pre-and post-exercise changes above and below critical intensity. Following the +10% trial, a depression was observed (Fig. <ref type="figure" target="#fig_2">5B</ref>), whereas following the -10% trial, a facilitatory effect occurred (Fig. <ref type="figure" target="#fig_4">7D</ref>). During whole-body exercise, fatigue induced at high intensities is suggested to activate group III/IV afferent neurons, causing inhibition of spinal motoneurons <ref type="bibr" target="#b66">(Weavil et al. 2016</ref>) and increasing GABAergic inhibition within the motor cortex <ref type="bibr" target="#b53">(Sidhu et al. 2018)</ref>. These adjustments are suggested to reduce the capacity of the central nervous system to activate the working muscles during exercise <ref type="bibr" target="#b52">(Sidhu et al. 2017)</ref>; this could explain why the reduction in corticospinal excitability was only observed above critical intensity, when decreases in measures of VA were also demonstrated. The present study assessed the activity of group III/IV neurons indirectly through the monitoring of the metaboreflex, and demonstrated an augmented response above threshold (Table <ref type="table" target="#tab_4">2</ref>). Interestingly, females had a lesser increase in HR and Q̇during the +10% trial, which could explain the slower rate of central nervous system dysfunction (Fig. <ref type="figure">4C</ref>). This likely occurred independent of the sex difference in maximal strength, as <ref type="bibr" target="#b30">Hunter et al. (2004)</ref> demonstrated in the upper limbs. In contrast, moderate intensity exercise increases corticospinal excitability <ref type="bibr" target="#b35">(Lulic et al. 2017)</ref>. This effect occurs at lower intensities without the development of fatigue or the attainment of task failure; such an effect was observed in the present study, where facilitatory effects were only evident during exercise below critical intensity, alongside minor decrements in VA. The critical intensity might therefore provide an integrative neuromuscular threshold at which facilitatory neuroplasticity is attainable after exercise beneath. Future research should investigate the effects of exercise intensity on both MEPs and spinal evoked potentials in the lower limbs (e.g. <ref type="bibr">Škarabot et al. 2019)</ref> to discern the aetiology of exercise-induced neuroplasticity.</p><p>The present study utilised an intermittent, isometric model of exercise <ref type="bibr" target="#b11">(Burnley, 2009;</ref><ref type="bibr" target="#b13">Burnley et al. 2012)</ref> to compare the intensity-duration relationship between sexes. Whilst the principles of the model remain the same across different exercise modalities <ref type="bibr" target="#b32">(Jones et al. 2010)</ref>, it is well established that the determinants of exercise tolerance differ between single-limb and whole-body exercise <ref type="bibr" target="#b31">(Hureau et al. 2018;</ref><ref type="bibr" target="#b61">Thomas et al. 2018)</ref>. Indeed <ref type="bibr" target="#b46">Poole et al. (2016)</ref> suggested that in single-limb exercise, W likely constitutes substrate depletion and metabolite accumulation, whereas during whole-body exercise, W is likely influenced by cardiopulmonary limiting factors to exercise. Indeed, despite a sex difference present for the cardiovascular response to isometric exercise (HR and Q, Table <ref type="table" target="#tab_4">2</ref>), the present study showed submaximal end-exercise values for these parameters, implying that oxygen delivery was not the limiting factor to exercise, but rather oxygen extraction determined exercise tolerance. Therefore, whether the conclusions of the present study apply to whole-body exercise remains to be determined.</p><p>To further support the notion that females possess more fatigue-resistant knee extensors, the rise in rmsEMG/M max was smaller compared to males during the +10% task (Table <ref type="table" target="#tab_4">2</ref>). Despite the known limitations <ref type="bibr" target="#b21">(Farina et al. 2014;</ref><ref type="bibr" target="#b19">Enoka &amp; Duchateau, 2015)</ref> associated with surface EMG, increases are suggested to reflect additional neural drive and recruitment of further motor units, as the contractile apparatus become fatigued <ref type="bibr" target="#b23">(Gandevia, 2001)</ref>. Therefore the smaller increase in rmsEMG/M max could suggest that female musculature was able to sustain the required intensity with a reduced need for additional neural drive and motor unit activation. This could also explain the smaller decrease in Q tw.pot experienced during the tasks, further supporting the notion that the sex differences in skeletal muscle properties influence fatigability during intermittent isometric exercise. Further research could employ the use of high density EMG, which is capable of discerning motor unit properties <ref type="bibr" target="#b39">(Merletti et al. 2008)</ref> without the limitations associated with bipolar surface EMG <ref type="bibr" target="#b21">(Farina et al. 2014;</ref><ref type="bibr" target="#b19">Enoka &amp; Duchateau, 2015)</ref>.</p><p>The NIRS data in the present study has the potential to be affected by the differences between participants' subcutaneous adipose tissue thickness. It is well established that females have a greater amount of subcutaneous fat compared to males <ref type="bibr" target="#b68">(Westerbacka et al. 2004</ref>), which has previously been shown to attenuate the optical density of the NIR signal <ref type="bibr" target="#b27">(Homma et al. 1996</ref>). The NIRS system used in the present study was a spatially resolved spectroscopy system, which enhances the signal from deeper tissues, whilst reducing the contribution from more superficial tissues (i.e. skin and subcutaneous fat; <ref type="bibr">Messere &amp; Roatta, 2013)</ref>. Furthermore, this form of NIRS provides a relative index of tissue oxygenation (TOI) in which both the numerator (O 2 Hb) and denominator (O 2 Hb + HHb) are affected equally by adipose tissue thickness, therefore a correction might not be necessary <ref type="bibr" target="#b3">(Barstow, 2019)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>The present study is the first to demonstrate that females can sustain a greater relative work intensity compared with males during single-limb exercise, as shown by the greater critical intensity. Importantly, when exercise intensity was normalised to this threshold, females out-performed males during the open-ended task, and showed reduced fatigability during a fixed workload task. These sex differences in the intensity-duration relationship and fatigue resistance are likely related to a greater ability to preserve oxygen availability within the knee extensors during exercise, as demonstrated by the NIRS data. Following exercise, a faster rate of recovery was observed for contractile function in females, suggesting that, in addition to possessing more fatigue-resistant skeletal muscle, females are able to resolve exercise-induced dysfunction at a faster rate. These data explain previous findings related to sex differences in fatigability tasks, whilst providing the first sex comparison of fatigability during work normalised to a metabolic threshold. Furthermore, the difference between sexes highlights the importance of individualising exercise and recovery prescription to males and females, rather than generalising from previously generated male-only data within the literature.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Characteristics of the intensity-duration relationship for males and females A, linear relationships between impulse and time to task failure across the four estimation trials. B, critical intensities expressed as a percentage of MVC. C, W in both sexes. [Colour figure can be viewed at wileyonlinelibrary.com]</figDesc><graphic coords="7,331.98,236.30,196.70,410.03" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Time to task failure during intermittent, isometric knee extensor exercise at 110% of critical intensity Individual participants are represented as the dots, and group mean and standard deviations are illustrated by the horizontal bars. [Colour figure can be viewed at wileyonlinelibrary.com]</figDesc><graphic coords="8,322.79,130.40,198.24,132.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Neuromuscular changes across the fatiguing task (+10%) and the recovery period A, voluntary activation (transcranial magnetic stimulation, VA TMS ). B, motor evoked potentials (normalised to M max , MEP/M max ). C, short interval intracortical inhibition (SICI). * Different from Pre (P &lt; 0.05), $ significantly different from Post (P &lt; 0.05). [Colour figure can be viewed at wileyonlinelibrary.com]</figDesc><graphic coords="10,56.76,134.53,216.00,490.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Near-infrared spectroscopy variables throughout the fatiguing task (+10%) A, oxyhaemoglobin (O 2 Hb). B, deoxyhaemoglobin (HHb). C, tissue oxygenation index (TOI). # Significantly different between males and females (P &lt; 0.05), * significantly different from Pre (P &lt; 0.05). [Colour figure can be viewed at wileyonlinelibrary.com]</figDesc><graphic coords="12,83.28,384.77,420.00,284.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Neuromuscular changes across the fatiguing task (-10%) and the recovery period A, maximal voluntary contraction. B, voluntary activation (transcranial magnetic stimulation). C, potentiated twitch force. D, motor evoked potential amplitude normalised to M max . E, voluntary activation (motor nerve stimulation). F, short interval intracortical inhibition. * Significantly different from Pre (P &lt; 0.05), $ significantly different from Post (P &lt; 0.05). [Colour figure can be viewed at wileyonlinelibrary.com]</figDesc><graphic coords="13,73.74,218.48,456.00,440.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Near-infrared spectroscopy variables throughout the fatiguing task (-10%) A, oxyhaemoglobin. B, deoxyhaemoglobin. C, tissue oxygenation index. # Significantly different between males and females (P &lt; 0.05). [Colour figure can be viewed at wileyonlinelibrary.com]</figDesc><graphic coords="14,56.78,384.97,473.28,293.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="9,225.81,171.01,324.00,543.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 1 . Intensity, times to task failure, impulse for the critical intensity estimation trials and confidence intervals for critical intensity</head><label>1</label><figDesc>2019 The Authors. The Journal of Physiology C 2019 The Physiological Society 14697793, 2019, 23, Downloaded from https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699 by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [15/12/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</figDesc><table><row><cell></cell><cell></cell><cell>Males</cell><cell></cell><cell></cell><cell>Females</cell><cell></cell></row><row><cell></cell><cell>%MVC</cell><cell>TTF (s)</cell><cell>Impulse (N s -1 )</cell><cell>%MVC</cell><cell>TTF (s)</cell><cell>Impulse (N s -1 )</cell></row><row><cell>Trial 1</cell><cell>61 ± 2</cell><cell>217 ± 38</cell><cell>50,188 ± 10,600</cell><cell>71 ± 3  *</cell><cell>216 ± 139</cell><cell>52,353 ± 22,164</cell></row><row><cell>Trial 2</cell><cell>56 ± 2</cell><cell>335 ± 102</cell><cell>74,185 ± 27,746</cell><cell>66 ± 3  *</cell><cell>355 ± 158</cell><cell>70,105 ± 23,355</cell></row><row><cell>Trial 3</cell><cell>51 ± 2</cell><cell>427 ± 117</cell><cell>82,614 ± 22,044</cell><cell>61 ± 3  *</cell><cell>486 ± 163</cell><cell>94,263 ± 33,207</cell></row><row><cell>Trial 4</cell><cell>46 ± 2</cell><cell>647 ± 186</cell><cell>120,318 ± 33,089</cell><cell>57 ± 4  *</cell><cell>760 ± 148</cell><cell>141,504 ± 47,839</cell></row><row><cell>r 2</cell><cell></cell><cell>0.98 ± 0.03</cell><cell></cell><cell></cell><cell>0.99 ± 0.01</cell><cell></cell></row><row><cell>95% CIs (±%MVC)</cell><cell></cell><cell>5.9 ± 4.3</cell><cell></cell><cell></cell><cell>6.8 ± 4.2</cell><cell></cell></row></table><note><p>C</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 2 .</head><label>2</label><figDesc>Recovery. In the 45 min recovery period the MVC, Q tw.pot , VA MNS and VA TMS increased (recovery effects: P ࣘ 0.032).Muscle oxygenation was altered during the intermittent isometric task (Fig.8). Whilst O 2 Hb (F 1.6,26.5 = 10.27, P = 0.001, η p ² = 0.391) increased, HHb did not change (P = 0.945) and TOI decreased(F 1.36,21.71  = 4.98, P = 0.027, η Q̇(F 2.83,45.23 = 4.06, P = 0.014, η p ² = 0.380) and MAP</figDesc><table><row><cell>Conversely, M max (P = 0.267), MEP/M max (P = 0.080)</cell></row><row><cell>and SICI (P = 0.085) demonstrated no recovery effects.</cell></row><row><cell>Of the variables demonstrating recovery effects, VA TMS</cell></row><row><cell>demonstrated a sex × time interaction (F 1.45,20.26 = 4.57,</cell></row><row><cell>P = 0.033, η p ² = 0.246), indicating a faster recovery in</cell></row><row><cell>females compared with males. No other variables (MVC,</cell></row><row><cell>Q tw.pot and VA MNS ) demonstrated this sex by time inter-</cell></row><row><cell>action (P ࣙ 0.069).</cell></row></table><note><p>Oxygenation and haemodynamics.</p><p>p ² = 0.237). Of these variables, O 2 Hb demonstrated a sex × time interaction (F 1.64,26.25 = 3.77, P = 0.044, η p ² = 0.191), indicating a greater increase in females compared with males.</p><p>Heart rate (F 2.6,41.5 = 18.42, P &lt; 0.001, η p ² = 0.535),</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 2 . Neuromuscular and cardiovascular function throughout the fatigue and recovery periods in both +10% and -10% trials</head><label>2</label><figDesc>Significantly different from Pre (P &lt; 0.05), # significantly different from Post (P &lt; 0.05), $ significantly greater than Females. ERT: estimated resting twitch; M max : maximal compound action potential; rmsEMG: root mean square EMG; TTF: time to task failure; 1st set: 1st of the intermittent contractions. 2019 The Authors. The Journal of Physiology C 2019 The Physiological Society</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell cols="3">110% critical intensity</cell><cell></cell><cell></cell><cell cols="3">90% critical intensity</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">Neuromuscular function</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Pre</cell><cell>Post</cell><cell>Post 15</cell><cell>Post 30</cell><cell>Post 45</cell><cell>Pre</cell><cell>Post</cell><cell>Post15</cell><cell>Post30</cell><cell>Post 45</cell></row><row><cell>ERT (N)</cell><cell>Males</cell><cell>167 ± 66</cell><cell>130 ± 67  *</cell><cell>135 ± 60 #</cell><cell>133 ± 66</cell><cell>132 ± 63</cell><cell>167 ± 63</cell><cell>124 ± 52  *</cell><cell>122 ± 47</cell><cell>120 ± 44</cell><cell>110 ± 39</cell></row><row><cell></cell><cell>Females</cell><cell>151 ± 43</cell><cell>101 ± 23  *</cell><cell>134 ± 27 #</cell><cell>127 ± 23</cell><cell>129 ± 45</cell><cell>149 ± 33</cell><cell>131 ± 37  *</cell><cell>123 ± 37</cell><cell>135 ± 39</cell><cell>132 ± 30</cell></row><row><cell>M max (mV)</cell><cell>Males</cell><cell cols="10">6.55 ± 2.57 5.89 ± 2.54 5.86 ± 2.28 5.95 ± 2.51 6.41 ± 2.56 6.33 ± 2.44 5.52 ± 2.58  *  5.61 ± 2.39 5.75 ± 2.48 5.19 ± 2.32</cell></row><row><cell></cell><cell cols="10">Females 5.18 ± 2.95 4.75 ± 2.28 4.36 ± 2.32 4.47 ± 2.07 4.59 ± 2.80 4.98 ± 2.40 4.39 ± 1.66 4.43 ± 1.57 4.27 ± 1.63</cell><cell>4.2 ± 1.52</cell></row><row><cell>Pre-stimulus</cell><cell>Males</cell><cell cols="10">0.62 ± 0.27 0.65 ± 0.28 0.67 ± 0.28 0.70 ± 0.29 0.66 ± 0.30 0.64 ± 0.23 0.84 ± 0.34 0.80 ± 0.33 0.81 ± 0.32 0.90 ± 0.36</cell></row><row><cell>rmsEMG</cell><cell cols="2">Females 0.75 ± 0.34</cell><cell cols="9">0.8 ± 0.77 0.82 ± 0.56 0.87 ± 0.49 0.87 ± 0.64 0.73 ± 0.39 0.85 ± 0.53 0.79 ± 0.54 0.79 ± 0.46 0.77 ± 0.46</cell></row><row><cell>(%M max )</cell><cell></cell><cell>1 st set</cell><cell>25% TTF</cell><cell>50% TTF</cell><cell>75% TTF</cell><cell>100% TTF</cell><cell>1 st set</cell><cell>25% TTF</cell><cell>50% TTF</cell><cell>75% TTF</cell><cell>100% TTF</cell></row><row><cell>rmsEMG during</cell><cell>Males</cell><cell>16 ± 8</cell><cell>2 2± 13  *</cell><cell>24 ± 12  *</cell><cell>25 ± 10  * ,$</cell><cell>27 ± 11  * ,$</cell><cell>8 ± 3</cell><cell>8± 3</cell><cell>8± 3</cell><cell>8± 4</cell><cell>8± 3</cell></row><row><cell>task (%M max )</cell><cell>Females</cell><cell>16 ± 5</cell><cell>1 9± 8</cell><cell>1 7± 5</cell><cell>1 7± 4</cell><cell>1 7± 4</cell><cell>8± 4</cell><cell>9± 3</cell><cell>9± 4</cell><cell>8± 4</cell><cell>9± 4</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">Cardiovascular function</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Pre</cell><cell>25% TTF</cell><cell>50% TTF</cell><cell>75% TTF</cell><cell>100% TTF</cell><cell>Pre</cell><cell>25% TTF</cell><cell>50% TTF</cell><cell>75% TTF</cell><cell>100% TTF</cell></row><row><cell>Heart rate</cell><cell>Males</cell><cell>78 ± 5</cell><cell>9 5± 12  *</cell><cell>99 ± 10  *</cell><cell>108 ± 16  *</cell><cell>116 ± 16  * ,$</cell><cell>71 ± 11  *</cell><cell>88 ± 20  *</cell><cell>92 ± 18  *</cell><cell>91 ± 19  *</cell><cell>91 ± 17  *</cell></row><row><cell>(beats min -1 )</cell><cell>Females</cell><cell>80 ± 13</cell><cell>91 ± 18  *</cell><cell>94 ± 21  *</cell><cell>94 ± 21  *</cell><cell>96 ± 19  *</cell><cell>81 ± 14</cell><cell>86 ± 13</cell><cell>87 ± 13</cell><cell>87 ± 12</cell><cell>87 ± 12</cell></row><row><cell>Cardiac output</cell><cell>Males</cell><cell cols="6">8.1 ± 2.2  6</cell><cell>7.4 ± 1.8</cell><cell>7.5 ± 1.7  *</cell><cell>7.6 ± 1.8  *</cell><cell>7.6 ± 1.7  *</cell></row><row><cell>(L min -1 )</cell><cell cols="2">Females 6.0 ± 1.8</cell><cell>7.2 ± 1.9  *</cell><cell>7.0 ± 1.6  *</cell><cell>6.9 ± 1.6</cell><cell>6.8 ± 1.5</cell><cell>6.0 ± 1.3</cell><cell>6.2 ± 1.3</cell><cell>6.3 ± 1.4</cell><cell>6.3 ± 1.4</cell><cell>6.3 ± 1.2</cell></row><row><cell>Mean arterial</cell><cell>Males</cell><cell>90 ± 13</cell><cell>98 ± 13</cell><cell>100 ± 15</cell><cell>104 ± 18  *</cell><cell>107 ± 15  *</cell><cell>94 ± 8</cell><cell>9 4± 10</cell><cell>95 ± 13</cell><cell>97 ± 10</cell><cell>101 ± 13</cell></row><row><cell>pressure</cell><cell>Females</cell><cell>93 ± 11</cell><cell>104 ± 12  *</cell><cell>104 ± 12</cell><cell>101 ± 12</cell><cell>105 ± 11  *</cell><cell>93 ± 14</cell><cell>98 ± 15</cell><cell>99 ± 13</cell><cell>100 ± 13</cell><cell>100 ± 15</cell></row><row><cell>(mmHg)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p>* ,$ 10.0 ± 2.3 * ,$ 10.3 ± 2.0 * ,$ 10.6 ± 2.2 * ,$ 10.4 ± 2.2 * ,$ 6.8 ± 1.* C 14697793, 2019, 23, Downloaded from https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699 by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [15/12/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License J Physiol 597.23</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>J Physiol 597.23</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>14697793, 2019, 23, Downloaded from https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699 by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [15/12/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We thank <rs type="person">Mr Tom Pearson</rs> of <rs type="affiliation">Cambridge Electronic Design Ltd</rs> for his assistance creating scripts that facilitated data analysis.</p></div>
+			</div>
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding</head><p>No funding was received for the completion of this work.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>J Physiol 597.23</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>No conflicts of interest, financial or otherwise, are declared by the authors.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head><p>All work was completed at Northumbria University. P.A., G.H., K.T. and S.G. conceived and designed the experiments; P.A., C.G.B. and J.S. performed the experiments; P.A. analysed the data; P.A., K.M.H., K.T., G.H., S.K.H. and S.G. interpreted the results of the experiments; P.A. drafted the manuscript; P.A., C.G.B., J.S., K.M.H., G.H., K.T., S.K.H. and S.G. edited the manuscript. All authors approved the final manuscript and agree to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved. All persons designated as authors qualify for authorship, and all those who qualify for authorship are listed.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Skeletal muscle fatigue: cellular mechanisms</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Lamb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Westerblad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="287" to="332" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Allen DG, Lamb GD &amp; Westerblad H (2008). Skeletal muscle fatigue: cellular mechanisms. Physiol Rev 88, 287-332.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Menstrual cycle associated modulations in neuromuscular function and fatigability of the knee extensors in eumenorrheic females</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ansdell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Brownstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Škarabot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Hicks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dcm</forename><surname>Simoes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Howatson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goodall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="1701" to="1712" />
+			<date type="published" when="1985">2019. 1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ansdell P, Brownstein CG, Škarabot J, Hicks KM, Simoes DCM, Thomas K, Howatson G, Hunter SK &amp; Goodall S (2019). Menstrual cycle associated modulations in neuromuscular function and fatigability of the knee extensors in eumenorrheic females. J Appl Physiol (1985) 126, 1701-1712.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Contraction intensity and sex differences in knee-extensor fatigability</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ansdell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Howatson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goodall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="68" to="74" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ansdell P, Thomas K, Howatson G, Hunter S &amp; Goodall S (2017). Contraction intensity and sex differences in knee-extensor fatigability. J Electromyogr Kinesiol 37, 68-74.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Understanding near infrared spectroscopy and its application to skeletal muscle research</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Barstow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="1360" to="1376" />
+			<date type="published" when="1985">2019. 1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barstow TJ (2019). Understanding near infrared spectroscopy and its application to skeletal muscle research. J Appl Physiol (1985) 126, 1360-1376.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Sex differences in the oxygen delivery, extraction, and uptake during moderate-walking exercise transition</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Beltrame</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Villar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Hughson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Physiol Nutr Metab</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="994" to="1000" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beltrame T, Villar R &amp; Hughson RL (2017). Sex differences in the oxygen delivery, extraction, and uptake during moderate-walking exercise transition. Appl Physiol Nutr Metab 42, 994-1000.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Muscle metabolic and neuromuscular determinants of fatigue during cycling in different exercise intensity domains</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Bowtell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stj</forename><surname>Mcdonagh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Blackwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Wylie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Mileva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sumners</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="446" to="459" />
+			<date type="published" when="1985">2017. 1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Black MI, Bowtell JL, McDonagh STJ, Blackwell JR, Kelly J, Bailey SJ, Thompson C, Jones AM, Wylie LJ, Mileva KN, Sumners P &amp; Vanhatalo A (2017). Muscle metabolic and neuromuscular determinants of fatigue during cycling in different exercise intensity domains. J Appl Physiol (1985) 122, 446-459.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">An optimal protocol for measurement of corticospinal excitability, short intracortical inhibition and intracortical facilitation in the rectus femoris</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Brownstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ansdell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Škarabot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Howatson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goodall</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Thomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurol Sci</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="45" to="56" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brownstein CG, Ansdell P, Škarabot J, Howatson G, Goodall S &amp; Thomas K (2018). An optimal protocol for measurement of corticospinal excitability, short intracortical inhibition and intracortical facilitation in the rectus femoris. J Neurol Sci 15, 45-56.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Etiology and recovery of neuromuscular fatigue following competitive soccer match-play</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Brownstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Dent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Hicks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Howatson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goodall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Thomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">831</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brownstein CG, Dent JP, Parker P, Hicks KM, Howatson G, Goodall S &amp; Thomas K (2017). Etiology and recovery of neuromuscular fatigue following competitive soccer match-play. Front Physiol 8, 831.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Influence of blood flow occlusion on muscle oxygenation characteristics and the parameters of the power-duration relationship</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Broxterman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Ade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Wilcox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Schlup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Barstow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="880" to="889" />
+			<date type="published" when="1985">2015. 1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Broxterman RM, Ade CJ, Craig JC, Wilcox SL, Schlup SJ &amp; Barstow TJ (2015a). Influence of blood flow occlusion on muscle oxygenation characteristics and the parameters of the power-duration relationship. J Appl Physiol (1985) 118, 880-889.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Online Library for rules of use; OA articles are governed by the applicable Creative Commons License Broxterman RM</title>
+		<author>
+			<persName><forename type="first">C ;</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Wilcox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Jia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barstow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1113/JP278699by&lt;Shibboleth&gt;member@tudublin.ie</idno>
+		<idno>15/12/2024</idno>
+		<ptr target="https://onlinelibrary.wiley.com/terms-and-conditions)onWiley" />
+	</analytic>
+	<monogr>
+		<title level="m">The Journal of Physiology C 2019 The Physiological Society 14697793</title>
+		<imprint>
+			<date type="published" when="2015">2019. 2019. 2015</date>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="4043" to="4054" />
+		</imprint>
+	</monogr>
+	<note>See the Terms and Conditions The Authors</note>
+	<note type="raw_reference">C 2019 The Authors. The Journal of Physiology C 2019 The Physiological Society 14697793, 2019, 23, Downloaded from https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699 by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [15/12/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License Broxterman RM, Craig JC, Smith JR, Wilcox SL, Jia C, Warren S &amp; Barstow TJ (2015b). 593, 4043-4054.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">W expenditure and reconstitution during severe intensity constant power exercise: mechanistic insight into the determinants of W</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Broxterman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Skiba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Wilcox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Ade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Barstow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Rep</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">12856</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Broxterman RM, Skiba PF, Craig JC, Wilcox SL, Ade CJ &amp; Barstow TJ (2016). W expenditure and reconstitution during severe intensity constant power exercise: mechanistic insight into the determinants of W . Physiol Rep 4, e12856.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Estimation of critical torque using intermittent isometric maximal voluntary contractions of the quadriceps in humans</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burnley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Power-duration relationship: Physiology, fatigue, and the limits of human performance</title>
+		<imprint>
+			<date type="published" when="1985">2009. 1985. 2018</date>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="975" to="983" />
+		</imprint>
+	</monogr>
+	<note>J Appl Physiol</note>
+	<note type="raw_reference">Burnley M (2009). Estimation of critical torque using intermittent isometric maximal voluntary contractions of the quadriceps in humans. J Appl Physiol (1985) 106, 975-983. Burnley M &amp; Jones AM (2018). Power-duration relationship: Physiology, fatigue, and the limits of human performance.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Eur J Sport Sci 18, 1-12.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Distinct profiles of neuromuscular fatigue during muscle contractions below and above the critical torque in humans</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burnley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="215" to="223" />
+			<date type="published" when="1985">2012. 1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burnley M, Vanhatalo A &amp; Jones AM (2012). Distinct profiles of neuromuscular fatigue during muscle contractions below and above the critical torque in humans. J Appl Physiol (1985) 113, 215-223.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Recovery of central and peripheral neuromuscular fatigue after exercise</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Carroll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Gandevia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="1068" to="1076" />
+			<date type="published" when="1985">2017. 1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carroll TJ, Taylor JL &amp; Gandevia SC (2017). Recovery of central and peripheral neuromuscular fatigue after exercise. J Appl Physiol (1985) 122, 1068-1076.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Casey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Constantin-Teodosiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Howell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hultman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Greenhaff</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page" from="38" to="E43" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Casey A, Constantin-Teodosiu D, Howell S, Hultman E &amp; Greenhaff PL (1996). 271, E38-E43.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Maximal lactate steady state, respiratory compensation threshold and critical power</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dekerle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Baron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dupont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vanvelcenaher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pelayo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="281" to="288" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dekerle J, Baron B, Dupont L, Vanvelcenaher J &amp; Pelayo P (2003). Maximal lactate steady state, respiratory compensation threshold and critical power. Eur J Appl Physiol 89, 281-288.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Improving the measurement of TMS-assessed voluntary activation in the knee extensors</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dekerle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Greenhouse-Tucknott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wrightson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Schafer</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ansdell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dekerle J, Greenhouse-Tucknott A, Wrightson J, Schafer L &amp; Ansdell P (2019). Improving the measurement of TMS-assessed voluntary activation in the knee extensors.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Influence of moderate hypoxia on tolerance to high-intensity exercise</title>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Dekerle</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Mucci</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">H</forename><surname>Carter</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="327" to="335" />
+			<date type="published" when="2012">0216981. 2012</date>
+		</imprint>
+	</monogr>
+	<note>PLoS One</note>
+	<note type="raw_reference">PLoS One 14, e0216981. Dekerle J, Mucci P &amp; Carter H (2012). Influence of moderate hypoxia on tolerance to high-intensity exercise. Eur J Appl Physiol 112, 327-335.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Inappropriate interpretation of surface EMG signals and muscle fiber characteristics impedes understanding of the control of neuromuscular function</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Enoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Duchateau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="1516" to="1518" />
+			<date type="published" when="1985">2015. 1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Enoka RM &amp; Duchateau J (2015). Inappropriate interpretation of surface EMG signals and muscle fiber characteristics impedes understanding of the control of neuromuscular function. J Appl Physiol (1985) 119, 1516-1518.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Prior moderate and heavy exercise accelerate oxygen uptake and cardiac output kinetics in endurance athletes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Faisal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Beavers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Hughson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="1553" to="1563" />
+			<date type="published" when="1985">2009. 1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Faisal A, Beavers KR, Robertson AD &amp; Hughson RL (2009). Prior moderate and heavy exercise accelerate oxygen uptake and cardiac output kinetics in endurance athletes. J Appl Physiol (1985) 106, 1553-1563.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The extraction of neural strategies from the surface EMG: an update</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Farina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Merletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Enoka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="1215" to="1230" />
+			<date type="published" when="1985">2014. 1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Farina D, Merletti R &amp; Enoka RM (2014). The extraction of neural strategies from the surface EMG: an update. J Appl Physiol (1985) 117, 1215-1230.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Effect of intracellular and extracellular ion changes on E-C coupling and skeletal muscle fatigue</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Fitts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Balog</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol Scand</title>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="page" from="169" to="181" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fitts RH &amp; Balog EM (1996). Effect of intracellular and extracellular ion changes on E-C coupling and skeletal muscle fatigue. Acta Physiol Scand 156, 169-181.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Spinal and supraspinal factors in human muscle fatigue</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Gandevia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="1725" to="1789" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gandevia SC (2001). Spinal and supraspinal factors in human muscle fatigue. Physiol Rev 81, 1725-1789.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Dynamics of corticospinal changes during and after high-intensity quadriceps exercise</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gruet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Temesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rupp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Verges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Millet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Gandevia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="1053" to="1064" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gruet M, Temesi J, Rupp T, Levy P, Verges S, Millet GY Gandevia SC (2014). Dynamics of corticospinal changes during and after high-intensity quadriceps exercise. Exp Physiol 99, 1053-1064.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Effects of type 1 diabetes, sprint training and sex on skeletal muscle sarcoplasmic reticulum Ca 2+ uptake and Ca 2+ -ATPase activity</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Harmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Ruell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mckenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Thom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Chisholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Flack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">592</biblScope>
+			<biblScope unit="page" from="523" to="535" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harmer AR, Ruell PA, Hunter SK, McKenna MJ, Thom JM, Chisholm DJ &amp; Flack JR (2014). Effects of type 1 diabetes, sprint training and sex on skeletal muscle sarcoplasmic reticulum Ca 2+ uptake and Ca 2+ -ATPase activity. J Physiol 592, 523-535.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Development of recommendations for SEMG sensors and sensor placement procedures</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Hermens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Freriks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Disselhorst-Klug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="361" to="374" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hermens HJ, Freriks B, Disselhorst-Klug C &amp; Rau G (2000). Development of recommendations for SEMG sensors and sensor placement procedures. J Electromyogr Kinesiol 10, 361-374.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Sex differences in human fatigability: Mechanisms and insight to physiological responses</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Homma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukunaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kagaya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exerc Sport Sci Rev</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="768" to="789" />
+			<date type="published" when="1996">1996. 2014</date>
+		</imprint>
+	</monogr>
+	<note>Hunter SK mechanisms of task-specific muscle fatigue Acta Physiol</note>
+	<note type="raw_reference">Homma S, Fukunaga T, Kagaya A (1996). mechanisms of task-specific muscle fatigue. Exerc Sport Sci Rev 37, 113-122. Hunter SK (2014). Sex differences in human fatigability: Mechanisms and insight to physiological responses. Acta Physiol 210, 768-789.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The relevance of sex differences in performance fatigability</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Hunter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="2247" to="2256" />
+			<date type="published" when="2016">2016a</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hunter SK (2016a). The relevance of sex differences in performance fatigability. Med Sci Sports Exerc 48, 2247-2256.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Sex differences in fatigability of dynamic contractions</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Hunter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="250" to="255" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hunter SK (2016b). Sex differences in fatigability of dynamic contractions. Exp Physiol 101, 250-255.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Men are more fatigable than strength-matched women when performing intermittent submaximal contractions</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Critchlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I-S &amp;</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Enoka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="2125" to="2132" />
+			<date type="published" when="1985">2004. 1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hunter SK, Critchlow A, Shin I-S &amp; Enoka RM (2004). Men are more fatigable than strength-matched women when performing intermittent submaximal contractions. J Appl Physiol (1985) 96, 2125-2132.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The &quot;sensory tolerance limit&quot;: A hypothetical construct determining exercise performance?</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Hureau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Romer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Amann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="13" to="24" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hureau TJ, Romer LM &amp; Amann M (2018). The &quot;sensory tolerance limit&quot;: A hypothetical construct determining exercise performance? Eur J Sport Sci 18, 13-24.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Critical power: Implications for determination of VO2max and exercise tolerance</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burnley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Morton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Poole</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="1876" to="1890" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jones AM, Vanhatalo A, Burnley M, Morton RH &amp; Poole DC (2010). Critical power: Implications for determination of VO2max and exercise tolerance. Med Sci Sports Exerc 42, 1876-1890.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Muscle metabolic responses to exercise above and below the &quot;critical power&quot; assessed using 31 P-MRS</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Wilkerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dimenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fulford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Poole</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Integr Comp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">294</biblScope>
+			<biblScope unit="page" from="585" to="R593" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jones AM, Wilkerson DP, DiMenna F, Fulford J &amp; Poole DC (2008). Muscle metabolic responses to exercise above and below the &quot;critical power&quot; assessed using 31 P-MRS. Am J Physiol Integr Comp Physiol 294, R585-R593.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Effects of Montmorency tart cherry (L. Prunus Cerasus) consumption on nitric oxide biomarkers and exercise performance</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Keane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Howatson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sport</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1746" to="1756" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Keane KM, Bailey SJ, Vanhatalo A, Jones AM &amp; Howatson G (2018). Effects of Montmorency tart cherry (L. Prunus Cerasus) consumption on nitric oxide biomarkers and exercise performance. Scand J Med Sci Sport 28, 1746-1756.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Physical activity levels determine exercise induced changes in brain excitability</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lulic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>El-Sayes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Fassett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Nelson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">173672</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lulic T, El-Sayes J, Fassett HJ &amp; Nelson AJ (2017). Physical activity levels determine exercise induced changes in brain excitability. PLoS One 12, e0173672.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Recovery of microvascular P O2 during the exercise off-transient in muscles of different fiber type</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcdonough</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Behnke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">I</forename><surname>Musch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Poole</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="1039" to="1044" />
+			<date type="published" when="1985">2004. 1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McDonough P, Behnke BJ, Musch TI &amp; Poole DC (2004). Recovery of microvascular P O2 during the exercise off-transient in muscles of different fiber type. J Appl Physiol (1985) 96, 1039-1044.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Task and sex differences in muscle oxygenation during handgrip fatigue development</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Mantooth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rhee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Cavuoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ergonomics</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1646" to="1656" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mantooth WP, Mehta RK, Rhee J &amp; Cavuoto LA (2018). Task and sex differences in muscle oxygenation during handgrip fatigue development. Ergonomics 61, 1646-1656.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Metcalf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Hagstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Siegler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Enoka</surname></persName>
+		</author>
+		<idno type="DOI">10.1113/JP278699by&lt;Shibboleth&gt;member@tudublin.ie</idno>
+		<idno>15/12/2024</idno>
+		<ptr target="https://onlinelibrary.wiley.com/terms-and-conditions" />
+	</analytic>
+	<monogr>
+		<title level="m">C 2019 The Physiological Society 14697793</title>
+		<imprint>
+			<publisher>Wiley Online Library for rules of use</publisher>
+			<date type="published" when="2019">2019. 2019</date>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">23</biblScope>
+		</imprint>
+	</monogr>
+	<note>See the Terms and Conditions OA articles are governed by the applicable Creative Commons License J Physiol</note>
+	<note type="raw_reference">Marshall PW, Metcalf E, Hagstrom AD, Cross R, Siegler JC &amp; Enoka RM (2019). C 2019 The Physiological Society 14697793, 2019, 23, Downloaded from https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699 by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [15/12/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License J Physiol 597.23</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Analysis of motor units with high-density surface electromyography</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Merletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Holobar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Farina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="879" to="890" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Merletti R, Holobar A &amp; Farina D (2008). Analysis of motor units with high-density surface electromyography. J Electromyogr Kinesiol 18, 879-890.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">type I muscle fibers in endurance-trained individuals</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Merton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="737" to="745" />
+			<date type="published" when="1954">1954. 1985</date>
+		</imprint>
+	</monogr>
+	<note>Voluntary strength and fatigue J Physiol</note>
+	<note type="raw_reference">Merton PA (1954). Voluntary strength and fatigue. J Physiol 123, 553-564. type I muscle fibers in endurance-trained individuals. J Appl Physiol (1985) 125, 737-745.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Muscle glycogen stores and fatigue</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ørtenblad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Westerblad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nielsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">591</biblScope>
+			<biblScope unit="page" from="4405" to="4413" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ørtenblad N, Westerblad H &amp; Nielsen J (2013). Muscle glycogen stores and fatigue. J Physiol 591, 4405-4413.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Comparison of finger and intra-arterial blood pressure monitoring at rest and during laboratory testing</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Parati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Casadei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Groppelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Di</forename><surname>Rienzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mancia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hypertension</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="647" to="655" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Parati G, Casadei R, Groppelli A, Di Rienzo M &amp; Mancia G (1989). Comparison of finger and intra-arterial blood pressure monitoring at rest and during laboratory testing. Hypertension 13, 647-655.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Smithmyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Pelberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Mishkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Herr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Proctor</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1985">2007. 1985</date>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="1583" to="1591" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Parker BA, Smithmyer SL, Pelberg JA, Mishkin AD, Herr MD &amp; Proctor DN (2007). (1985) 103, 1583-1591.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Glycogen resynthesis in skeletal muscle following resistive exercise</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Pascoe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Costill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Fink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Robergs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Zachwieja</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="349" to="354" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pascoe DD, Costill DL, Fink WJ, Robergs RA &amp; Zachwieja JJ (1993). Glycogen resynthesis in skeletal muscle following resistive exercise. Med Sci Sport Exerc 25, 349-354.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Loss of knee extensor torque complexity during fatiguing isometric muscle contractions occurs exclusively above the critical torque</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pethick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Winter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burnley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Integr Comp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">310</biblScope>
+			<biblScope unit="page" from="1144" to="R1153" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pethick J, Winter SL &amp; Burnley M (2016). Loss of knee extensor torque complexity during fatiguing isometric muscle contractions occurs exclusively above the critical torque. Am J Physiol Integr Comp Physiol 310, R1144-R1153.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Critical power: An important fatigue threshold in exercise physiology</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Poole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burnley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Rossiter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="2320" to="2334" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Poole DC, Burnley M, Vanhatalo A, Rossiter HB &amp; Jones AM (2016). Critical power: An important fatigue threshold in exercise physiology. Med Sci Sports Exerc 48, 2320- 2334.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Metabolic and respiratory profile of the upper limit for prolonged exercise in man</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Poole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Whipp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ergonomics</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1265" to="1279" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Poole DC, Ward SA, Gardner GW &amp; Whipp BJ (1988). Metabolic and respiratory profile of the upper limit for prolonged exercise in man. Ergonomics 31, 1265-1279.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b48">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><surname>Roepstorff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Steffensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Madsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Stallknecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I-L</forename><surname>Kanstrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kiens</surname></persName>
+		</author>
+		<title level="m">Metab 282</title>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page" from="435" to="E447" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roepstorff C, Steffensen CH, Madsen M, Stallknecht B, Kanstrup I-L, Richter EA &amp; Kiens B (2002). Metab 282, E435-E447.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Higher skeletal muscle α2AMPK activation and lower energy charge and fat</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Roepstorff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Thiele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hillig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Pilegaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jfp</forename><surname>Wojtaszewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kiens</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="volume">574</biblScope>
+			<biblScope unit="page" from="125" to="138" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roepstorff C, Thiele M, Hillig T, Pilegaard H, Richter EA, Wojtaszewski JFP &amp; Kiens B (2006). Higher skeletal muscle α2AMPK activation and lower energy charge and fat 574, 125-138.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Contrasting influences of age and sex on muscle fatigue</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Russ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Towse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Wigmore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>Lanza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Kent-Braun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="234" to="241" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Russ DW, Towse TF, Wigmore DM, Lanza IR &amp; Kent-Braun JA (2008). Contrasting influences of age and sex on muscle fatigue. Med Sci Sports Exerc 40, 234-241.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b51">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">U</forename><surname>Schäfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dekerle</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="1447" to="1531" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schäfer LU, Hayes M &amp; Dekerle J (2019). 91, 1447-1531.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Group III/IV locomotor muscle afferents alter motor cortical and corticospinal excitability and promote central fatigue during cycling exercise</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Senefeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Elliott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sk ;</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Sidhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Weavil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Mangum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Jessop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Richardson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="44" to="55" />
+			<date type="published" when="2017">2018. 2017</date>
+			<publisher>Morgan DE &amp; Amann M</publisher>
+		</imprint>
+	</monogr>
+	<note>Sex differences in mechanisms of recovery after isometric and dynamic fatiguing tasks Clin Neurophysiol</note>
+	<note type="raw_reference">Senefeld J, Pereira HM, Elliott N, Yoon T &amp; Hunter SK (2018). Sex differences in mechanisms of recovery after isometric and dynamic fatiguing tasks. Med Sci Sports Exerc 50, 1070-1083. Sidhu SK, Weavil JC, Mangum TS, Jessop JE, Richardson RS, Morgan DE &amp; Amann M (2017). Group III/IV locomotor muscle afferents alter motor cortical and corticospinal excitability and promote central fatigue during cycling exercise. Clin Neurophysiol 128, 44-55.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b53">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Sidhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Weavil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Thurston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rosenberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Jessop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Richardson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>McNeil CJ &amp; Amann M</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sidhu SK, Weavil JC, Thurston TS, Rosenberger D, Jessop JE, Wang E, Richardson RS, McNeil CJ &amp; Amann M (2018).</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b54">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">596</biblScope>
+			<biblScope unit="page" from="4789" to="4801" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">J Physiol 596, 4789-4801.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Human variation in skeletal muscle fiber-type proportion and enzyme activities</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Simoneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bouchard</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simoneau JA &amp; Bouchard C (1989). Human variation in skeletal muscle fiber-type proportion and enzyme activities.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b56">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">257</biblScope>
+			<biblScope unit="page" from="567" to="E572" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Am J Physiol 257, E567-E572.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b57">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Škarabot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ansdell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Brownstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Howatson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goodall</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Durbaba</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="1254" to="1267" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Škarabot J, Ansdell P, Brownstein CG, Thomas K, Howatson G, Goodall S &amp; Durbaba R (2019). , 1254-1267.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Fiber type composition of the vastus lateralis muscle of young men and women</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Staron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Hagerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Hikida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Hostler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Crill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Ragg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Toma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Histochem Cytochem</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="623" to="629" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Staron RS, Hagerman FC, Hikida RS, Murray TF, Hostler DP, Crill MT, Ragg KE &amp; Toma K (2000). Fiber type composition of the vastus lateralis muscle of young men and women. J Histochem Cytochem 48, 623-629.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b59">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Tamm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Lagerquist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Ley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Occup Physiol</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="98" to="103" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tamm AS, Lagerquist O, Ley AL &amp; Collins DF (2009). Occup Physiol 52, 98-103.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Intensity-dependent contribution of neuromuscular fatigue after constant-load cycling</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elmeua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Howatson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goodall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1751" to="1760" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thomas K, Elmeua M, Howatson G &amp; Goodall S (2016). Intensity-dependent contribution of neuromuscular fatigue after constant-load cycling. Med Sci Sports Exerc 48, 1751-1760.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b61">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goodall</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Howatson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="240" to="246" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thomas K, Goodall S &amp; Howatson G (201846, 240-246.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Measurement of voluntary activation of fresh and fatigued human muscles using transcranial magnetic stimulation</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Gandevia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">551</biblScope>
+			<biblScope unit="page" from="661" to="671" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Todd G, Taylor JL &amp; Gandevia SC (2003). Measurement of voluntary activation of fresh and fatigued human muscles using transcranial magnetic stimulation. J Physiol 551, 661-671.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b63">
+	<analytic>
+		<title level="a" type="main">The mechanistic bases of the power-time relationship: muscle metabolic responses and relationships to muscle fibre type</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Dimenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Blackwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Wylie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bangsbo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Krustrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">594</biblScope>
+			<biblScope unit="page" from="4407" to="4423" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vanhatalo A, Black MI, DiMenna FJ, Blackwell JR, Schmidt JF, Thompson C, Wylie LJ, Mohr M, Bangsbo J, Krustrup P &amp; Jones AM (2016). The mechanistic bases of the power-time relationship: muscle metabolic responses and relationships to muscle fibre type. J Physiol 594, 4407-4423.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Influence of hyperoxia on muscle metabolic responses and the power-duration relationship during severe-intensity exercise in humans: A 31 P magnetic resonance spectroscopy study</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fulford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Dimenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="528" to="540" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vanhatalo A, Fulford J, Dimenna FJ &amp; Jones AM (2010). Influence of hyperoxia on muscle metabolic responses and the power-duration relationship during severe-intensity exercise in humans: A 31 P magnetic resonance spectroscopy study. Exp Physiol 95, 528-540.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Inter-day reliability of Finapres R cardiovascular measurements during rest and exercise</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Waldron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Patterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Jeffries</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med Int Open</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="9" to="E15" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Waldron M, Patterson SD &amp; Jeffries O (2017). Inter-day reliability of Finapres R cardiovascular measurements during rest and exercise. Sports Med Int Open 2, E9-E15.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Fatigue diminishes motoneuronal excitability during cycling exercise</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Weavil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Sidhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Mangum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Amann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="1743" to="1751" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weavil JC, Sidhu SK, Mangum TS, Richardson RS &amp; Amann M (2016). Fatigue diminishes motoneuronal excitability during cycling exercise. J Neurophysiol 116, 1743-1751.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Computation of aortic flow from pressure in humans using a nonlinear, three-element model</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Wesseling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Jansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Settels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Schreuder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="2566" to="2573" />
+			<date type="published" when="1985">1993. 1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wesseling KH, Jansen JR, Settels JJ &amp; Schreuder JJ (1993). Computation of aortic flow from pressure in humans using a nonlinear, three-element model. J Appl Physiol (1985) 74, 2566-2573.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Women and men have similar amounts of liver and intra-abdominal fat, despite more subcutaneous fat in women: Implications for sex differences in markers of cardiovascular risk</title>
+		<author>
+			<persName><forename type="first">C ;</forename><surname>Westerbacka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cornér</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tiikkainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tamminen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vehkavaara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Häkkinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Fredriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yki-Järvinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+		<idno type="DOI">10.1113/JP278699by&lt;Shibboleth&gt;member@tudublin.ie</idno>
+		<idno>15/12/2024</idno>
+		<ptr target="https://onlinelibrary.wiley.com/terms-and-conditions" />
+	</analytic>
+	<monogr>
+		<title level="m">The Journal of Physiology C 2019 The Physiological Society 14697793</title>
+		<imprint>
+			<publisher>Wiley Online Library</publisher>
+			<date type="published" when="2004">2019. 2019. 2004</date>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1360" to="1369" />
+		</imprint>
+	</monogr>
+	<note>See the Terms and Conditions The Authors on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</note>
+	<note type="raw_reference">C 2019 The Authors. The Journal of Physiology C 2019 The Physiological Society 14697793, 2019, 23, Downloaded from https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP278699 by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [15/12/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License Westerbacka J, Cornér A, Tiikkainen M, Tamminen M, Vehkavaara S, Häkkinen AM, Fredriksson J &amp; Yki-Järvinen H (2004). Women and men have similar amounts of liver and intra-abdominal fat, despite more subcutaneous fat in women: Implications for sex differences in markers of cardiovascular risk. Diabetologia 47, 1360-1369.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Mechanisms of fatigue differ after low-and high-force fatiguing contractions in men and women</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Delap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ee &amp;</forename><surname>Griffith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Hunter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Muscle Nerve</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="515" to="524" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yoon T, Delap BS, Griffith EE &amp; Hunter SK (2007). Mechanisms of fatigue differ after low-and high-force fatiguing contractions in men and women. Muscle Nerve 36, 515-524.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

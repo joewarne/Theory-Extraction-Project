@@ -1,0 +1,1925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Eight-week neuromuscular electrical stimulation training produces muscle strength gains and hypertrophy, and partial muscle quality improvement in the knee extensors</title>
+				<funder ref="#_f8Wz2ZU">
+					<orgName type="full">JSPS KAKENHI</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Fostering Joint International Research)</orgName>
+				</funder>
+				<funder ref="#_Srv42qe">
+					<orgName type="full">Japan Society for the Promotion of Science</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-02-23">23 Feb 2024.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Ryota</forename><surname>Akagi</surname></persName>
+							<email>rakagi12@sic.shibaura-it.ac.jp</email>
+							<idno type="ORCID">0000-0002-9422-6830</idno>
+							<affiliation key="aff0">
+								<orgName type="department">College of Systems Engineering and Science</orgName>
+								<orgName type="institution">Shibaura Institute of Technology</orgName>
+								<address>
+									<settlement>Saitama</settlement>
+									<country>Japan;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Graduate School of Engineering and Science</orgName>
+								<orgName type="institution">Shibaura Institute of Technology</orgName>
+								<address>
+									<settlement>Saitama</settlement>
+									<country>Japan;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yusuke</forename><surname>Miyokawa</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Systems Engineering and Science</orgName>
+								<orgName type="institution">Shibaura Institute of Technology</orgName>
+								<address>
+									<settlement>Saitama</settlement>
+									<country>Japan;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daigo</forename><surname>Shiozaki</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Graduate School of Engineering and Science</orgName>
+								<orgName type="institution">Shibaura Institute of Technology</orgName>
+								<address>
+									<settlement>Saitama</settlement>
+									<country>Japan;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yoshinari</forename><surname>Yajima</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Systems Engineering and Science</orgName>
+								<orgName type="institution">Shibaura Institute of Technology</orgName>
+								<address>
+									<settlement>Saitama</settlement>
+									<country>Japan;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Koki</forename><surname>Yamada</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Graduate School of Engineering and Science</orgName>
+								<orgName type="institution">Shibaura Institute of Technology</orgName>
+								<address>
+									<settlement>Saitama</settlement>
+									<country>Japan;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kosuke</forename><surname>Kano</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Graduate School of Informatics and Engineering</orgName>
+								<orgName type="institution">The University of Electro-Communications</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country>Japan;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yuto</forename><surname>Hashimoto</surname></persName>
+							<idno type="ORCID">0000-0003-2705-1601</idno>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Exercise Physiology</orgName>
+								<orgName type="institution">Nippon Sport Science University</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Takanobu</forename><surname>Okamoto</surname></persName>
+							<idno type="ORCID">0000-0003-1978-2455</idno>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Exercise Physiology</orgName>
+								<orgName type="institution">Nippon Sport Science University</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Soichi</forename><surname>Ando</surname></persName>
+							<idno type="ORCID">0000-0003-0896-7008</idno>
+							<affiliation key="aff2">
+								<orgName type="department">Graduate School of Informatics and Engineering</orgName>
+								<orgName type="institution">The University of Electro-Communications</orgName>
+								<address>
+									<settlement>Tokyo</settlement>
+									<country>Japan;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">College of Systems Engineering and Science</orgName>
+								<orgName type="institution">Shibaura Institute of Technology</orgName>
+								<address>
+									<addrLine>307 Fukasaku Minuma- ku Saitama-shi 9422-6830 Yuto Hashimoto http://orcid.org/0000-0003-2705-1601 Takanobu Okamoto http://orcid.org</addrLine>
+									<postCode>337-8570 0000-0002 0000-0003-1978-2455</postCode>
+									<settlement>Saitama Ryota Akagi http://orcid.org/ Soichi Ando</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Eight-week neuromuscular electrical stimulation training produces muscle strength gains and hypertrophy, and partial muscle quality improvement in the knee extensors</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">Print</idno>
+						<imprint>
+							<date type="published" when="2024-02-23">23 Feb 2024.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1503F16ECB57A28CA87E0AFF67573092</idno>
+					<idno type="DOI">10.1080/02640414.2024.2318540</idno>
+					<note type="submission">Received 30 July 2023 Accepted 7 February 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Isometric torque</term>
+					<term>isotonic power</term>
+					<term>muscle volume</term>
+					<term>echo intensity</term>
+					<term>shear modulus</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This study investigated the effect of an 8-week neuromuscular electrical stimulation (NMES) training programme (3 days/week) on muscle quantity and quality and single-joint performance in the knee extensors. Thirty-nine untrained young male participants were randomly assigned to NMES training (n = 21) and control (n = 18) groups. The 8-week NMES training induced significant increase in the isometric maximal voluntary contraction (MVC) torque of the knee extensors (≈9.3%), muscle volume of the individual and entire quadriceps muscles determined by magnetic resonance imaging (≈3.3%-6.4%), and a significant decrease in the ultrasound echo intensity of the vastus lateralis (≈-4.0%); however, hypertrophy of the vastus intermedius (i.e., the deep muscle) was limited (≈3.3%). In the NMES training group, the repeated measures correlations of the isometric MVC torque with the muscle volume of the entire quadriceps muscle and each quadriceps muscle were significant (r rm (20) = 0.551-0.776), whereas that of the isometric MVC torque with the ultrasound echo intensity of the vastus lateralis was not significant. These findings suggest that NMES training produces muscle strength gains, muscle hypertrophy, and partial muscle quality improvement and that the NMES traininginduced muscle strength gains is caused by muscle hypertrophy in the knee extensors.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Neuromuscular electrical stimulation (NMES) training does not require voluntary muscle contraction. Hence, this training method is frequently used for patients with disabilities such as spinal cord injury <ref type="bibr">(Gorgey et al., 2016)</ref>, chronic obstructive pulmonary disease <ref type="bibr" target="#b46">(Veldman et al., 2016)</ref>, and chronic heart failure <ref type="bibr" target="#b46">(Veldman et al., 2016)</ref> and for patients who have undergone total knee arthroplasty <ref type="bibr" target="#b43">(Stevens-Lapsley et al., 2012)</ref> or anterior cruciate ligament reconstruction <ref type="bibr" target="#b23">(Labanca et al., 2022)</ref> to maintain or improve their joint performance and/or body composition. Furthermore, because NMES devices are portable and easy to operate, NMES training is used as a convenient strength training tool for healthy individuals <ref type="bibr" target="#b15">(Gondin et al., 2005)</ref>. According to the latest review <ref type="bibr" target="#b33">(Mukherjee et al., 2023)</ref> that investigated studies on NMES training for healthy adults published from 2008 to 2020, all the included studies reported that NMES intervention induced significant strength gains in the participants. Thus, it appears that muscle strength gains associated with NMES training can be achieved not only in people with the aforementioned disabilities but also in healthy individuals.</p><p>Muscle hypertrophy associated with long-term resistance training contributes to muscle strength gains <ref type="bibr" target="#b14">(Erskine et al., 2014)</ref>, and this is expected to occur with NMES training. However, NMES training-induced muscle hypertrophy has been assessed using muscle thickness and/or cross-sectional area (CSA), and to the best of our knowledge, no evaluation of the effect of NMES on muscle hypertrophy in terms of muscle volume using a pre-test -post-test -control design has been conducted. Since muscle thickness and CSA are determined using a single cross-sectional image, the risk of underestimating/overestimating the degree of muscle hypertrophy is high. Furthermore, muscle volume is a major determinant of maximum isometric joint torque and is a more accurate index of muscle size than muscle thickness and CSA in evaluating muscle strength <ref type="bibr" target="#b3">(Akagi et al., 2009)</ref>. Therefore, determining the muscle volume is essential to clarify the true effect of NMES training on muscle hypertrophy.</p><p>One challenge with conventional NMES training is its difficulty in electrically stimulating deep muscles. In a previous study of patients with acute anterior cruciate ligament tears who underwent anterior cruciate ligament surgery <ref type="bibr" target="#b18">(Hasegawa et al., 2011)</ref>, a 4-week NMES training increased the muscle thickness of the rectus femoris (RF) and vastus lateralis (VL) but did not change that of the vastus intermedius (VI), suggesting difficulties in electrically stimulating deep muscles. Regarding the quadriceps femoris (QF), <ref type="bibr" target="#b28">Mazzoli et al. (2018)</ref> described that the contribution of the VI to the knee extension mechanism should not be neglected. <ref type="bibr" target="#b5">Ando et al. (2015)</ref> reported that the muscle thickness of the VI is a better predictor of maximal knee extensor strength than that of the superficial QF muscles (i.e., the RF, VL, and vastus medialis <ref type="bibr">[VM]</ref>). Therefore, if the VI can be sufficiently stimulated and hypertrophied by NMES training, knee extensor strength can be increased more effectively.</p><p>Recently, an increasing interest in muscle quality and quantity when examining their relationship with physical performance has been observed. For instance, some muscle quality indices are separately associated with joint-level power-related measures of knee extensors <ref type="bibr" target="#b20">(Hirata et al., 2022)</ref>. When using an ultrasound apparatus, the echo intensity and shear modulus of a muscle are used to evaluate the intramuscular fat content <ref type="bibr" target="#b2">(Akagi et al., 2018;</ref><ref type="bibr" target="#b19">Hioki et al., 2023)</ref> and muscle stiffness <ref type="bibr" target="#b8">(Bernabei et al., 2020)</ref>, respectively, and are considered as one of the muscle quality indices. It has been reported that the lower the muscle echo intensity, the higher the muscle strength <ref type="bibr" target="#b2">(Akagi et al., 2018;</ref><ref type="bibr" target="#b7">Bali et al., 2020;</ref><ref type="bibr" target="#b32">Mota &amp; Stock, 2017;</ref><ref type="bibr" target="#b51">Wilhelm et al., 2014;</ref><ref type="bibr" target="#b52">Yoshiko et al., 2023)</ref> and physical performance <ref type="bibr" target="#b38">(Rech et al., 2014;</ref><ref type="bibr" target="#b51">Wilhelm et al., 2014)</ref>. Similarly, muscle shear modulus has been reported to be related to multi-joint <ref type="bibr" target="#b6">(Ando et al., 2021;</ref><ref type="bibr" target="#b12">Ema, 2023)</ref> and sports performances <ref type="bibr" target="#b29">(Miyamoto et al., 2019)</ref>. However, whether stiffer or softer muscles are better for those performances depends on their type. NMES training-induced changes in muscle echo intensity have been previously investigated <ref type="bibr" target="#b19">(Hioki et al., 2023)</ref>. On the other hand, no studies have examined the effect of NMES training on muscle shear modulus. Therefore, clarifying the effect of NMES training on muscle quantity and quality, which can be evaluated using an ultrasound apparatus, is necessary.</p><p>This study aimed to investigate the effect of NMES training on muscle quantity and quality and single-joint performance in knee extensors using a newly developed NMES device expected to provide sufficient NMES to deep muscles. We adopted 8 weeks as the training period for muscle hypertrophy based on the views of <ref type="bibr" target="#b48">(Wakahara et al., 2019)</ref>. Furthermore, this study's hypotheses were as follows: 1) the 8-week NMES training can improve muscle quantity and quality and single-joint performance and 2) the improvements in muscle quantity and quality correlate with that of the single-joint performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample size calculation and participants</head><p>In this study, two groups were established as follows: the NMES training and control groups. Since this study's primary outcomes were indices of muscle quantity and quality and single-joint performance in the knee extensors before and after the 8-week intervention (0 and 8 weeks, respectively), an a priori sample size estimation was performed for a two-way repeated measures analysis of variance (ANOVA) using the G*Power software package (version 3.1.9.4; Kiel University, Kiel, Germany) before recruiting participants. The input parameters were as follows: Statistical test = ANOVA: Repeated measures, within-between interaction; Effect size: f = 0.25 (medium) <ref type="bibr" target="#b10">(Cohen, 1988)</ref>; α err prob = 0.05; Power (1 -β err prob) = 0.80; Number of groups = 2 (as described above, the NMES training and control groups); Number of measurements = 2; Corr among rep measures = 0.50; and Nonsphericity correction e = 1. Therefore, the overall sample size was 34. Considering potential dropouts, this study recruited a slightly larger number of participants (39 young male participants) and randomly assigned more participants to the NMES training group (21 young male participants; age: 22 ± 2 years, height: 169.3 ± 5.9 cm, body mass: 59.5 ± 8.6 kg; mean ± standard deviation (SD)) than to the control group (18 young male participants; age: 22 ± 2 years, height: 172.2 ± 5.8 cm, body mass: 61.6 ± 7.9 kg; mean ± SD). No statistically significant group differences were observed in age, height, and body mass (p = 0.137-0.567). None of the participants had a previous or current knee injury and had not undergone lower-body resistance training for at least 6 months. All the 39 participants completed the study. This study was approved by the Ethics Committee of the Shibaura Institute of Technology  and Nippon Sport Science University (No. 022-H204) and was conducted in accordance with the guidelines outlined in the Declaration of Helsinki. The participants were informed of the study's purpose and potential risks and provided written informed consent before participation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental procedures</head><p>A schema of the experimental procedures is shown in Figure <ref type="figure" target="#fig_0">1</ref>. At 0 weeks, the participants completed the following three sessions: one to familiarize themselves with joint torque and power measurements, one to measure the muscle size, and one to perform ultrasonic, isometric, and isotonic measurements. After the familiarization session, the session to measure the muscle size was conducted with at least 2 days between sessions. Subsequently, the session to measure other parameters was performed at least 1 day after the muscle size measurement session. At 8 weeks, measurement sessions for muscle size (one day) and other parameters (another day) were held on different days in this order. For the NMES training group, sessions to measure muscle size and other parameters were conducted 2-4 days and 3-6 days after the last training session, respectively. Furthermore, the measurements were only recorded for the right leg.</p><p>In the familiarization session, the participants sat on the reclining seat of a dynamometer (CON-TREX MJ, Physiomed, Schnaittach, Germany) with the hip at 80° flexion (anatomical position = 0°) and performed several isometric maximal voluntary contractions (MVCs) (knee joint angle: 90° flexion [anatomical position = 0°]) and isotonic contractions at maximal effort (resistance: 20% of isometric MVC torque; knee joint angle: 110°-40° flexion) of the knee extensors. In the muscle size measurement session, the volumes of the RF, VL, VI, and VM were determined using a magnetic resonance scanner <ref type="bibr">(Echelon Oval, Hitachi, Ltd., Tokyo, Japan)</ref>. Therefore, in the session to measure other parameters, the shear modulus and echo intensity of the RF and VL, isometric MVC torque, isotonic peak power, potentiated twitch torque, voluntary activation (VA%), and root mean square values of the surface electromyography signals (RMS-EMGs) of the RF, VL, VM, and biceps femoris (BF) were determined. Strong verbal encouragement was provided to the participants during the isometric and isotonic measurements. Additionally, the torque and angle and surface electromyography (EMG) data were obtained using a dynamometer (CON-TREX MJ, Physiomed) and a standard EMG system (Bagnoli 8 EMG System, DELSYS, USA), respectively. The torque, angle, and EMG data were recorded at a sampling frequency of 2000 Hz on a personal computer using the LabChart software (version 8.1.16, AD Instruments, Australia) after a 16-bit analogue-to-digital conversion (PowerLab16/35, ADInstruments, Australia) to allow synchronization where appropriate. Furthermore, the temperature in the experimental room, where all measurements excluding the muscle size measurements, was maintained at approximately 23°C throughout the measurements; however, that of the experimental room where the muscle size measurements were performed was approximately 21°C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Intervention</head><p>During the 8-week intervention period, all participants were requested to conduct their daily activities and eat as usual. Participants in the control group were asked to refrain from resistance training during the study period, while those in the NMES training group performed the 8-week NMES training for 3 days per week in our laboratory, with at least 24 h of rest between the training sessions. The participants in the NMES training group sat on a chair with their hips and knees at approximately 90° flexion and the ankle at 0° (anatomical position). They wore the three belt electrodes (silver thread electrodes) of an NMES device (Dr. Moritani EMS, Insuretech Industries Inc., Japan) wetted with water around their abdomen (one-belt electrode: approximately 68 cm × 4 cm; distance between the two buttons connecting the NMES device = approximately 54 cm) and near the distal ends of both thighs (two-belt electrodes: approximately 38 cm × 4 cm) (Figure <ref type="figure" target="#fig_1">2</ref>). This method, known as belt electrode skeletal muscle electrical stimulation <ref type="bibr" target="#b17">(Hamada et al., 2023;</ref><ref type="bibr" target="#b22">Honda et al., 2021;</ref><ref type="bibr" target="#b45">Tomida &amp; Nakae, 2020)</ref>, is considered to induce contractions in larger muscles, including deeper muscles, compared to conventional NMES which uses pad-type electrodes and induces muscle contractions in a limited area between the electrodes on the skin. Furthermore, it is thought that this type of NMES produces less pain during muscle contraction exercises due to the dispersed distribution of electricity <ref type="bibr" target="#b22">(Honda et al., 2021)</ref>. The NMES device used in the present study is also planned to allow for strong contractions of the inner muscles by delivering electrical impulses that simulate motor unit recruitment and rate-coding patterns observed during MVCs through the belt electrodes with a contact area dozens of times larger than that of a conventional stimulating electrode (PAT.P). The NMES training comprises a 2-min warm-up, 9-min main training programmes containing five different NMES programmes with varying stimulation pulse frequencies (12-60 Hz) and pulse widths (10-300 μs), and 2-min cooling down. The stimulation pulse frequencies and pulse widths of this device are designed to increase or decrease simultaneously. Unlike conventional NMES devices that use alternating positive and negative rectangular waves <ref type="bibr" target="#b34">(Nishikawa et al., 2023)</ref>, this device is made to have an independent circuit design that can output positive and negative rectangular waves simultaneously. In other words, this NMES device is designed to deliver highly effective neuromuscular stimulation, even at low stimulation voltages, by simultaneously applying current in both anterograde and retrograde directions, effectively doubling the potential difference. The NMES intensity, which could be adjusted in 30 steps (up to 100 mA in 3.3 mA increments) and was displayed numerically in 30 steps on the NMES device, was set to the maximum intensity that each participant could reportedly tolerate, and this was adjusted daily. During the training session, we recorded the values of these 30 steps on a measurement form. The participants were instructed to maintain the aforementioned sitting posture as much as possible and to avoid unnecessary muscle contractions. All participants in the NMES training group completed the 8-week NMES training without dropping out. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Positions for the ultrasonic measurements and EMG activities</head><p>The thigh length of the participants from the greater trochanter to the popliteal crease was first measured using a steel tape in 0.5 cm increments while they were standing upright to determine the measurement positions for the muscle shear modulus, echo intensity, and EMG activities. Following our previous study <ref type="bibr" target="#b0">(Akagi et al., 2022)</ref>, marks were placed at the distal 20% (for VM EMG activity), 50% (for RF and BF EMG activities and VL shear modulus and echo intensity), and 70% (for VL EMG activity and RF shear modulus and echo intensity) of the thigh length.</p><p>The participants were then placed on a bed in the prone position. The centre of the width in the mediolateral direction and fascicle longitudinal direction of the BF at the distal 50% of the thigh length was confirmed using an ultrasound apparatus (ACUSON S3000, Siemens Medical Solutions) coupled with a 45-mm linear transducer array (9L4 Transducer, 4-9 MHz, Siemens Medical Solutions), to which a water-soluble transmission gel was attached. A pre-amplified bipolar active surface EMG electrode (electrode shape: parallel bar, size: 1 mm width × 10 mm length, and inter-electrode distance: 10 mm; DE-2.1, DELSYS, USA) with band-pass filtering between 20 and 450 Hz was placed at the abovementioned location after preparing the skin by shaving, abrasion with sandpaper, and cleaning with alcohol.</p><p>Subsequently, the participants sat on a reclining seat of the dynamometer (CON-TREX MJ, Physiomed, Schnaittach, Germany) with the hip at 80° and the knee at 90° flexion. The pelvis and torso were secured to the reclining seat and dynamometer with nonelastic straps and/or a seatbelt. Care was taken to adjust the centres of rotation of the knee joint and dynamometer. An ankle adapter attached to the lever arm was also positioned slightly proximal to the lateral malleolus using a nonelastic strap. The participants' postures were as described above in all measurements, excluding the isotonic measurements. To determine the measurement sites of the muscle shear modulus and echo intensity, the centres of the widths in the mediolateral direction of the RF and VL were confirmed at the distal 70% and 50% of the thigh length, respectively, using the ultrasound apparatus. Similarly, the centres of the widths in the mediolateral direction and fascicle longitudinal directions of the RF, VL, and VM were confirmed at the distal 50%, 70%, and 20% of the thigh length, respectively, to identify the locations of the EMG electrode attachment. Finally, the preamplified bipolar active surface EMG electrodes for the RF, VL, and VM were placed at each of the sites described above to coincide with the fascicle longitudinal directions, and a reference electrode was placed over the left lateral malleolus.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ultrasonic measurements</head><p>Regarding RF and VL, the muscle shear modulus and echo intensity were measured using longitudinal shear wave elastography and transverse B-mode ultrasound images, respectively, obtained using the ultrasound apparatus. An examiner gently placed the linear transducer array longitudinally (for muscle shear modulus) or transversely (for echo intensity) at the abovementioned sites using a water-soluble transmission gel until the required ultrasound images were obtained to avoid exerting pressure on the target muscle. Next, the ultrasound system was optimized to visualize the muscles and tendons with appropriate penetration, while the bars for adjusting the brightness at each depth were aligned to the far right. The imaging mode used for the study was tissue harmonic imaging with a 7 MHz receiving frequency, and the imaging gain and dynamic range were set at 0 dB and 70 dB to ensure the smooth visualization of the muscles. During the measurement, the examiner was careful not to apply pressure on the target muscle to avoid influencing the values of muscle shear moduli and echo intensity. Regarding the muscle shear modulus, the examiner obtained an elastography image on a scale from blue (soft) to red (hard), depending on the magnitude of the shear wave propagation speed. Before storage, the elastography images were investigated to assess whether the shear wave was sufficient to yield accurate measurements using the ultrasound apparatus, which displayed colour-coded images on a scale from green (good) to orange (bad). We considered the image quality to be acceptable if yellow-to-orange pixels occupied ≤ 20% area of a colour-coded image within the region of interest (ROI) of a colour map. The measurements were repeated until three elastographic images of each muscle were of sufficient quality. Furthermore, three transverse B-mode ultrasound images of each muscle were obtained for each participant for the echo intensity. Finally, all obtained images were transferred from the ultrasound apparatus to a personal computer in the DICOM format.</p><p>The method for analyzing the elastographic image followed that described in our previous study <ref type="bibr" target="#b0">(Akagi et al., 2022)</ref>. The ROI on each colour map was made as large as possible while excluding non-target tissues (for example, subcutaneous adipose tissues, aponeuroses, and non-target muscles, among others) using an image processing software (ImageJ 1.52a, National Institutes of Health, Bethesda, USA). Additionally, the average value of the shear wave propagation speed over the ROI was computed for each image using an analysis software written in MATLAB <ref type="bibr">(MATLAB R2018a, MathWorks;</ref><ref type="bibr" target="#b21">Hirata et al., 2020)</ref>. The coefficient of variation (CV) and intraclass correlation coefficient for case 1,3 (ICC(1,3)) for the measured values of shear wave propagation speed were calculated to assess the examiner's accuracy. The CV and ICC(1,3) for the three values (39 participants × 2-time points [0 and 8 weeks]) were 2.9% ± 2.2% and 0.964 (p &lt; 0.001) for the RF and 2.4% ± 1.4% and 0.973 (p &lt; 0.001) for the VL, respectively. For each RF and VL, the product of the square of the average value of the shear wave propagation speed in the three images and muscle density was calculated as the muscle shear modulus <ref type="bibr" target="#b35">(Nordez &amp; Hug, 2010)</ref>. In this study, the muscle density was assumed as 1,084 kg/m 3 based on a previous study <ref type="bibr" target="#b49">(Ward &amp; Lieber, 2005)</ref>.</p><p>The echo intensity was evaluated once per image in a computer-assisted 8-bit greyscale analysis using the standard histogram function in the ImageJ software (version 1.52a, National Institutes of Health, Bethesda, USA). An ROI as large as possible, excluding the surrounding fascia, was selected for each muscle <ref type="bibr" target="#b2">(Akagi et al., 2018;</ref><ref type="bibr" target="#b9">Caresio et al., 2015)</ref>. The mean echo intensity of the regions was expressed as a value between 0 (black) and 255 (white), and the mean values of the three measurements were used for further analyses. In this study, the CV and ICC(1,3) for the three values (39 participants × 2-time points [0 and 8 weeks]) were 0.3% ± 0.2% and 1.000 (p &lt; 0.001) for the RF and 0.4% ± 0.3% and 0.999 (p &lt; 0.001) for the VL, respectively.</p><p>Before starting the measurement at 0 weeks, the day-to-day repeatability of the ultrasonic measurements was evaluated in eight young male participants using the CV of the values for each of the 2 days. The CVs for the muscle shear modulus were 5.4% ± 7.5% and 5.3% ± 2.9% for the RF and VL, respectively, whereas those for the echo intensity were 4.8% ± 7.0% and 2.9% ± 1.8% for the RF and VL, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Isometric measurements</head><p>The isometric measurement methods used in the present study were in accordance with those described in our previous study <ref type="bibr" target="#b0">(Akagi et al., 2022)</ref>.</p><p>QF twitch responses were obtained using a constant-current variable-voltage stimulator (DS7AH, Digitimer Ltd., Welwyn Garden City, UK) with a controller (SEN-3401, Nihon Kohden, Tokyo, Japan) before the isometric and isotonic measurements. A cathode (2 × 2 cm) and anode (4 × 5 cm) were placed in the femoral triangle and midway between the superior aspect of the greater trochanter and inferior border of the iliac crest, respectively, to percutaneously stimulate the femoral nerve with rectangular pulse widths of 200 μs. The stimulus intensity was gradually increased (in 10-mA increments from 20 mA) until a plateau in the twitch torque was attained, and supramaximal stimulus intensity was set at the electrical current calculated by multiplying the stimulus intensity by 1.4 (303 ± 111 mA and 312 ± 102 mA at 0 and 8 weeks, respectively). Resting-evoked twitch responses were obtained two times every 10 s to determine the twitch torque of the knee extensors and the peak-to-peak compound muscle action potential amplitude (Mmax) of the RF, VL, and VM. Higher values of the twitch torque and Mmax of each muscle were used for further analysis.</p><p>After performing warm-up procedures, which comprise submaximal contractions, the peak torque during the 3-s isometric MVC of the knee extensors was determined two times with a 1-min interval. If the difference between the two peak torque values was &gt; 10% of the higher torque, additional contractions were performed until the difference between the highest and second-highest values was ˂10% of the highest value; 1 min of rest was allowed between contractions. When determining the peak torque during the isometric MVC of the knee extensors, two supramaximal twitch stimulations were interpolated approximately 2 and 3 s after the beginning and end of the MVC, respectively, to determine the potentiated twitch torque and VA% (= [1 -(superimposed twitch torque/potentiated resting twitch torque)] × 100). Additionally, the RMS-EMGs of the RF, VL, VM, and BF during the isometric MVC of the knee extensors were evaluated over a 0.5-s period around the peak torque. The highest peak torque value was determined as the isometric MVC torque, and the potentiated twitch torque, VA%, and RMS-EMG values of the RF, VL, VM, and BF in the task with the highest peak torque were used for further analysis. The RMS-EMG values of the RF, VL, and VM were normalized using the Mmax of the RF, VL, and VM, respectively. Moreover, isometric MVC of the knee flexors was performed two times with a 1-min interval, and the RMS-EMG of the BF determined over a 0.5-s period around the peak torque in the task with the highest value of isometric MVC torque of the knee flexors was used to normalize the RMS-EMG of the BF during MVC of the knee extensors. The torque data were low-pass filtered at 500 Hz when the isometric MVC torque, the potentiated twitch torque, and VA% were analyzed offline.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Isotonic measurements</head><p>Similar to the isometric measurements, the isotonic measurement methods were in accordance with those described in our previous study <ref type="bibr" target="#b0">(Akagi et al., 2022)</ref>.</p><p>Maximal-effort isotonic contractions of the knee extensors with a resistance set to 20% of the isometric MVC torque at 0 weeks were performed three times every 3-4 s from a knee joint angle of 110° to 40°. Immediately the lever arm with the ankle adapter reached the end of the range of motion (i.e., a knee joint angle of 40°), it automatically returned to its initial position (i.e., a knee joint angle of 110°) for 1 s while the participants were fully relaxed. The highest value of the three peak power measurements was used for further analysis. As previously reported <ref type="bibr" target="#b0">(Akagi et al., 2022)</ref>, a dynamometer (CON-TREX MJ; Physiomed) generated an additional breaking force as the lever arm approached the end of the range of motion, which could result in torque and power spikes. Therefore, the power of the first peak was evaluated. The RMS-EMGs of the RF, VL, VM, and BF, which were assessed over a time interval of 0-100 ms from the onset of movement of the lever arm in the task with the highest peak power, were normalized with a similar method used under isometric conditions. Furthermore, when analyzing the isotonic peak power offline, the torque and angular velocity data were low-pass filtered at 20 Hz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Muscle size measurements</head><p>A series of transverse images of the relaxed right thigh were obtained using a 1.5-T whole-body magnetic resonance imaging scanner (Echelon Oval, Hitachi, Ltd., Tokyo, Japan) with a T1-weighted spin-echo sequence (repetition time: 520 ms; echo time, 8.0 ms; slice thickness: 5 mm; and interspaced distance: 0 mm). Imaging was performed with a field of view of 256 × 256 mm and a matrix size of 512 × 512. Within the device, the participants lay in the supine position with torso and spine coils placed on the posterior and anterior parts of their right thigh, respectively. Care was taken to avoid deforming the muscles using a handmade device composed of polystyrene foam. The outlines of the RF, VL, VM, and VI were digitized from the scanned images, and each CSA was measured once by a highly trained analyst using a personal computer with an image analysis software package (sliceOmatic ver 5.0 Rev-2d, TomoVision, Canada). Non-contractile tissue was excluded because it was imaged at tones differing from those of the contractile tissue. Each muscle volume was automatically calculated by multiplying the sum of the CSA of each muscle group along its length by an interval of 5 mm using an image analysis software package. Additionally, the muscle volume of the QF was calculated as the sum of the muscle volumes of the RF, VL, VI, and VM.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Habitual physical activity measurements</head><p>The participants were instructed to wear a device (Active style Pro HJA-750C, Omron Health Care, Kyoto, Japan) to assess their habitual physical activity while performing activities of daily living for 11 days during the intervention period, excluding the time spent bathing or sleeping. The data from the days when the participants wore the device for &gt;500 min/day, which were recorded in a diary, were used for the analysis. The analysis period (4-11 days) met the criteria used in a previous study <ref type="bibr" target="#b50">(Watanabe et al., 2020)</ref>. Furthermore, the mean magnitude of physical activity was determined per day at three levels as follows: light (&lt;3.0 metabolic equivalents), moderate (3.0-5.9 metabolic equivalents), and vigorous (≥6.0 metabolic equivalents) intensity levels <ref type="bibr" target="#b25">(Lyden et al., 2011)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analyses</head><p>First, the normality of the data in each group at 0 and 8 weeks was assessed using the Shapiro -Wilk test. Therefore, the normality of the data for the VA%, normalized RMS-EMG of each muscle during isometric and isotonic measurements, muscle volume of the QF, muscle shear modulus and echo intensity of the RF, and magnitudes of physical activity for light and vigorous intensity levels were not confirmed for any of the combinations (time × group). Considering the experimental design, the data of these parameters were log-transformed before conducting the following statistical analyses, except for calculating the repeated measures correlation.</p><p>Regarding the isometric MVC torque; isotonic peak power; twitch torque; VA%; muscle volumes of the RF, VL, VI, VM, and QF; echo intensity and shear modulus of the RF and VL; and normalized RMS-EMG of the RF, VL, VM, and BF during isometric and isotonic contractions, a two-way ANOVA with one withingroup (time [0 and 8 weeks]) and one between-group (group [NMES training and control groups]) factors was used. When a significant interaction was observed, an additional ANOVA was conducted to examine simple main effects. Considering the experimental design, we interpreted the presence of an NMES training effect for parameters with the significant time × group interaction and with no significant difference at 0 weeks between the groups. In this case, an effect size index for the pre-test -post-test -control design (d ppc ) was calculated following a previous study <ref type="bibr" target="#b31">(Morris, 2008)</ref>. If the NMES traininginduced change in isometric MVC torque and/or isotonic peak power was significant, the repeated measures correlation was calculated using a web and standalone application for repeated measures correlation (rmcorrShiny) <ref type="bibr" target="#b27">(Marusich &amp; Bakdash, 2021)</ref> to examine the overall within-individual relationship with the other parameters that were significantly changed by the NMES training. Additionally, if the muscle volume in ≥ 3 of the RF, VL, VI, and VM significantly increased with NMES training, a oneway ANOVA with one within-group factor (muscle) was performed to investigate inter-muscle differences in the percentage increase from 0 to 8 weeks. When the main effect of muscle was significant, the Bonferroni multiple-comparison test was conducted so that the statistical analysis software described below would automatically calculate a P-value adjusted for the number of combinations. To confirm the similarity in the magnitude of physical activity between the groups, a two-way ANOVA with one within-group <ref type="bibr">(level [light, moderate, and vigorous]</ref>) and one between-group (group [NMES and control groups]) factor was used.</p><p>Furthermore, for ease of interpretation, data in the text and figures are presented as means ± SDs of raw data, with or without log transformation. Statistical significance was set at p &lt; 0.05. When a one-way or two-way ANOVA was performed, η 2 is listed with the interaction and main effect results as the effect size. All statistical analyses were performed using statistical analysis software (SPSS 25.0, IBM, USA) and a spreadsheet (Excel 2016, Microsoft, USA). The d ppc or η 2 value was interpreted as d ppc &lt;0.200 or η 2 &lt;0.010 for trivial, 0.200 ≤ d ppc &lt;0.500 or 0.010 ≤ η 2 &lt;0.060 for small, 0.500 ≤ d ppc &lt;0.800 or 0.060 ≤ η 2 &lt;0.140 for medium, and d ppc ≥0.800 or η 2 ≥0.140 for large effects <ref type="bibr" target="#b10">(Cohen, 1988)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Isometric measurements</head><p>The means and SDs and the values of F, P, and η 2 for the parameters related to isometric measurements are summarized in Table <ref type="table" target="#tab_0">1</ref>.</p><p>Figure <ref type="figure" target="#fig_2">3</ref>(a) shows the isometric MVC torque at 0 and 8 weeks in the NMES training and control groups. A significant time × group interaction was observed (p = 0.010). Additionally, the simple main effect of time was significant in the NMES training group (0 &lt; 8 weeks; p &lt; 0.001) but not in the control group. No simple main effect of group was found at both 0 and 8 weeks. The d ppc was 0.377 (small).</p><p>Regarding the twitch torque (Figure <ref type="figure" target="#fig_2">3</ref>(b)), a time × group interaction and main effects of time and group were not significant. Similarly, no significant time × group interaction and main effects of time and group were found for the VA% (Figure <ref type="figure" target="#fig_2">3(c)</ref>).</p><p>Furthermore, regarding the normalized RMS-EMG, no significant time × group interaction and main effects of time and group were found in the RF (Figure <ref type="figure" target="#fig_3">4</ref>(a)), VL (Figure <ref type="figure" target="#fig_3">4(b)</ref>), and BF (Figure <ref type="figure" target="#fig_3">4(d)</ref>). However, for the normalized RMS-EMG of the VM (Figure <ref type="figure" target="#fig_3">4</ref>(c)), a significant main effect of time (0 &lt; 8 weeks; p = 0.008) was observed without a significant time × group interaction or main effect of group.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Isotonic measurements</head><p>The means and SDs and the values of F, P, and η 2 for the parameters related to isotonic measurements are summarized in Table <ref type="table" target="#tab_1">2</ref>.</p><p>Figure <ref type="figure" target="#fig_4">5</ref> shows the isotonic peak power at 0 and 8 weeks in the NMES training and control groups. No significant time × group interaction and main effects of time and group were found.</p><p>The normalized RMS-EMG of each muscle is shown in Figure <ref type="figure" target="#fig_5">6</ref>. Regarding the RF (Figure <ref type="figure" target="#fig_5">6</ref>(a)), VL (Figure <ref type="figure" target="#fig_5">6</ref>(b)), and BF (Figure <ref type="figure" target="#fig_5">6(d)</ref>), no significant time × group interaction and main effects of time and group were found. However, for the VM (Figure <ref type="figure" target="#fig_5">6</ref>(c)), a main effect of time (0 &lt; 8 weeks; p = 0.029) was significant, but the time × group interaction and main effect of group were not significant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Muscle volume</head><p>The means and SDs and the values of F, P, and η 2 for the muscle volume of the RF, VL, VI, VM, and QF are summarized in Table <ref type="table" target="#tab_2">3</ref>.</p><p>Figure <ref type="figure" target="#fig_7">7</ref> presents the muscle volume at 0 and 8 weeks in the NMES training and control groups. For all muscles, a significant time × group interaction was found (p ≤0.004), and a simple main effect of time was significant in the NMES training group (0 &lt; 8 weeks; p &lt; 0.001), but not in the control group. A simple main effect of group was not significant at both 0 and 8 weeks. The values of d ppc for the RF, VL, VI, VM, and QF were 0.219 (small), 0.421 (small), 0.167 (trivial), 0.264 (small), and 0.293 (small), respectively.</p><p>For the percentage increases in the muscle volume of the RF (4.3% ± 3.3%), VL (6.4% ± 3.3%), VI (3.3% ± 3.5%), and VM (5.2% ± 3.2%) from 0 to 8 weeks in the NMES training group, a main effect of muscle was significant (F[2.497,49.934] = 3.696, p = 0.024, η 2 = 0.156 [large]); however, the Bonferroni multiple comparison test applied to the six combinations did not reveal any significant differences in the percentage increase between specific muscles (adjusted p = 0.066-1.000). Specifically, the corresponding percentage increase in the muscle volume of the QF was 4.9% ± 2.0%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ultrasonic measurements</head><p>The means and SDs and the values of F, P, and η 2 for the parameters related to ultrasonic measurements are summarized in Table <ref type="table" target="#tab_3">4</ref>.</p><p>For the muscle stiffness of the RF (Figure <ref type="figure" target="#fig_8">8</ref>(a)) and VL (Figure <ref type="figure" target="#fig_8">8</ref>(b)), no significant time × group interaction and a main effect of group were found; however, a significant main effect of time was observed (0 &lt; 8 weeks; p = 0.001).</p><p>No significant time × group interaction or main effects of time and group was found for the RF (Figure <ref type="figure" target="#fig_8">8(c)</ref>) regarding echo intensity. In contrast, a significant time × group interaction (p = 0.004) was observed for the VL (Figure <ref type="figure" target="#fig_8">8(d)</ref>). Additionally, the simple main effect of time was significant in the NMES training group (0 &lt; 8 weeks; p = 0.025) but not in the control group. No significant simple main effect of group was found both at 0 and 8 weeks. The d ppc was 0.703 (medium). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Repeated measures correlations of isometric MVC torque with other parameters</head><p>Significant effects of NMES training were found on isometric MVC torque; muscle volume of the RF, VL, VI, VM, and QF; and echo intensity of the VL. Therefore, the repeated measures correlations of the isometric MVC torque with the RF, VL, VI, VM, and QF muscle volumes and the echo intensity of the VL were calculated (Figure <ref type="figure" target="#fig_9">9</ref>). The repeated measures correlations between the isometric MVC torque and each muscle volume were significant (RF: r rm (20) = 0.655, p &lt; 0.001; VL: r rm (20) = 0.769, p &lt; 0.001; VI: r rm (20) = 0.551, p = 0.008; VM: r rm (20) = 0.714, p &lt; 0.001; QF: r rm (20) = 0.776, p &lt; 0.001), whereas no significant repeated measures correlation was found between the isometric MVC torque and echo intensity of the VL (r rm (20) = -0.088, p = 0.698).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Habitual physical activity</head><p>Among the 39 participants, data from two who did not meet the criteria described in the "Materials and Methods" section were excluded from the analysis. The magnitudes of physical activity in the NMES training group (n = 20) were 402 ± 130 min/day, 67 ± 30 min/day, and 2 ± 1 min/day for light, moderate, and vigorous intensity levels, respectively. The magnitudes of physical activity in the control group (n = 17) were 370 ± 132 min/day,  64 ± 21 min/day, and 2 ± 2 min/day for light, moderate and vigorous intensity levels, respectively. The level × group interaction (F[2,70] = 0.166, p = 0.847, η 2 &lt;0.001 [trivial]) and a main effect of group (F[1,35] = 0.686, p = 0.413, η 2 = 0.019 [small]) were not significant. Therefore, these results confirm the similarity in the magnitude of physical activity between the groups. Discussion This study's main findings are as follows: 1) an 8-week NMES training programme increased the isometric MVC torque and muscle volume and partly decreased the muscle echo intensity and 2) the repeated measures correlations of isometric MVC torque with muscle volume were significant for knee extensors. These results suggest that the NMES training-induced improvement in single-joint performance evaluated under isometric conditions was caused by muscle hypertrophy, partly supporting this study's hypotheses. The isometric MVC torque was improved by the 8-week NMES training programme (Figure 3(a)) with a small effect size (d ppc = 0.377). Here, we would like to compare the effect size of the present study on muscle strength gains with those of (n = 21) and control (n = 18) groups. The RF, VL, and VM values were normalized to the peak-to-peak compound muscle action potential amplitude (%Mmax), while those of the BF were normalized to those during knee flexor maximal voluntary contraction (%MVC). Black circles and thick solid lines in the vertical direction indicate means and standard deviations, respectively. The thin dashed lines indicate individual data. Data are presented as raw values with or without log transformation. No significant time × group interactions were found in all muscles. † † indicates a significant main effect of time (P &lt; 0.01). RMS-EMG: root mean square value of surface electromyography signal, Mmax: peak-to-peak compound muscle action potential amplitude, MVC: maximal voluntary contraction, RF: rectus femoris, VL: vastus lateralis, VM: vastus medialis, BF: biceps femoris, NMES: neuromuscular electrical stimulation, SD: standard deviation.  previous studies. A brief review article <ref type="bibr" target="#b33">(Mukherjee et al., 2023)</ref> described that the all 10 previous studies included in the systematic review reported significant muscle strength gains as an outcome of the NMES treatment. Of the 10 previous studies, two measured isometric MVC torque, used NMES training alone for 4 <ref type="bibr" target="#b24">(Lategan et al., 2014)</ref> or 12 <ref type="bibr" target="#b41">(Son et al., 2014)</ref> weeks, and provided detailed muscle strength data. Therefore, we calculated the values of d ppc using these data to be 0.309 (small) and 0.901 (large) for Lategan et al. <ref type="bibr" target="#b24">(Lategan et al., 2014)</ref> and Son et al <ref type="bibr" target="#b41">(Son et al., 2014)</ref>, respectively. Since the value of d ppc (0.377) and length of the training period (8 weeks) were between those of the previous studies and no training effect on twitch torque was observed <ref type="bibr">(Figure 3(b)</ref>) in this study, additional training effects on isometric MVC torque can be expected with a further continuation of the NMES training employed in this study. However, the differences between NMES and voluntary resistance training should also be considered based on their effects on isometric MVC torque. Rahmati et al. <ref type="bibr" target="#b37">(Rahmati et al., 2021)</ref> described that this effect appeared to be lower for NMES training than for voluntary resistance training. A previous study <ref type="bibr" target="#b42">(Sterczala et al., 2020)</ref> where four lower-body exercises, including complex multi-joint movements and single-joint isolation exercises, were performed at a similar training period (8 weeks) and frequency (3 days per week) identical to that in this study calculated the d ppc for the improvement of the isometric MVC torque of the knee extensors to be 0.691 (medium). Furthermore, although the training period was shorter (4 weeks) with the same number of training days per week (3 days) in our previous study <ref type="bibr" target="#b13">(Ema et al., 2018)</ref>, the corresponding d ppc exceeded 1 (1.134; large) when training using the same movement as the isometric MVC torque measurement. NMES and voluntary muscle contraction constitute different modes of muscle activation, and the long-term application of each mode can induce different muscle adaptations <ref type="bibr" target="#b36">(Paillard, 2008)</ref>.  Therefore, the trade-off between the simplicity of NMES training without voluntary contraction and its musclestrengthening effects should be noted. The 8-week NMES training programme induced hypertrophy in all muscles, including the VI, which is the only deep muscle in the QF (Figure <ref type="figure" target="#fig_7">7</ref>). This supports the effectiveness of the NMES device used in this study. Many studies have evaluated NMES training-associated muscle hypertrophy using muscle CSA <ref type="bibr" target="#b15">(Gondin et al., 2005</ref><ref type="bibr" target="#b16">(Gondin et al., , 2006) )</ref> and/or thickness <ref type="bibr" target="#b18">(Hasegawa et al., 2011)</ref>. However, these studies only assessed the CSAs of the muscles, and there is a real risk of overestimating/underestimating muscle hypertrophy. To the best of our knowledge, this is the first study to investigate the effect of NMES training on hypertrophy determined by muscle volume using a pre-testpost-test -control design. Specifically, this study is the first step towards properly evaluating the effects of NMES training on muscle hypertrophy. On the other hand, more attention may need to be paid to the presence or absence of inter-muscle differences in the effects of NMES training on muscle hypertrophy in the QF. Although no clear difference was found in the percentage increase in muscle volume from 0 to 8 weeks in the NMES training group between the VI and other muscles, a significant main effect of muscle on the corresponding percentage increase was found, and the d ppc for the muscle volume of the VI (0.167) was interpreted as trivial. Based on these results, the stimulation of deep muscles (i.e., the VI) may have been weaker than that of superficial muscles (i.e., the RF, VL, and VM). In other words, it is possible that the NMES device used in this study did not stimulate the VI as much as anticipated. However, given that a significant difference in the effect size of muscle strength gains was observed between the 8-week (the present study) and 12-week <ref type="bibr" target="#b41">(Son et al., 2014)</ref> NMES training, and that statistically significant muscle hypertrophy of the VI occurred, the shorter duration of the NMES training intervention in the present study could have influenced the muscle volume of the VI. As the training of the VI to effectively improve knee extensor strength is important, future studies will be needed to determine whether hypertrophy of the VI occurs as expected with a longer NMES training period than that in the present study. Regarding the effect of NMES training on the hypertrophy of the superficial muscles, the d ppc values for the RF (0.219), VL (0.421), and VM (0.264) were also smaller than those of squat training for the same 8-week period (RF: 0.28, VL: 0.64, and VM: 0.64) <ref type="bibr" target="#b1">(Akagi et al., 2020)</ref>. Thus, the simplicity of NMES training without voluntary contraction must have limited the training effect on muscle hypertrophy as well as on muscle strength gains as described in the previous paragraph.</p><p>The repeated measures correlations of the isometric MVC torque of the knee extensors with the muscle volume of each muscle and the QF were all significant (Figure <ref type="figure" target="#fig_9">9</ref>) without neuromuscular adaptation evaluated under isometric conditions (Figures <ref type="figure" target="#fig_1">2(c)</ref> and <ref type="figure" target="#fig_2">3</ref>). These results suggest that the muscle hypertrophy achieved in the knee extensors is responsible for the NMES training-induced increase in isometric MVC torque. This hypothesis is logical as muscle volume is a major determinant of isometric MVC torque in the knee extensors <ref type="bibr" target="#b3">(Akagi et al., 2009)</ref>. However, it was difficult to determine why neuromuscular adaptations were not observed in this study. Generally, neuromuscular adaptations occur after a short NMES training period (4-5 weeks) <ref type="bibr" target="#b16">(Gondin et al., 2006;</ref><ref type="bibr" target="#b26">Maffiuletti et al., 2002;</ref><ref type="bibr" target="#b47">Vitry et al., 2019)</ref>. In this study, measurements were not performed midway   through the 8-week training period; however, it is unlikely that neuromuscular adaptations disappeared by the end of the 8-week training period. Certainly, studies <ref type="bibr" target="#b15">(Gondin et al., 2005;</ref><ref type="bibr" target="#b26">Maffiuletti et al., 2002)</ref> where neuromuscular adaptations were evaluated using RMS-EMG/Mmax before and after NMES training are available, and the RMS-EMG/Mmax of one or more of the synergistic muscles did not change. Therefore, this study may be a similar case.</p><p>In contrast to the isometric MVC torque, the 8-week NMES training did not change the isotonic peak power (Figure <ref type="figure" target="#fig_4">5</ref>) without neuromuscular adaptation of each muscle (Figure <ref type="figure" target="#fig_5">6</ref>). During NMES, large fast-twitch motor units are activated before slowtwitch motor units, suggesting the "reversed size principle" of motor unit recruitment by NMES <ref type="bibr" target="#b30">(Moritani, 2021)</ref>. Given this suggestion, it is natural to assume that isotonic peak power also improves with NMES training. Nevertheless, a discrepancy was found between the effects of NMES training on isotonic peak power and isometric MVC torque, which could be attributed to training specificity. Moreover, the NMES training used in this study did not induce a significant change in the knee joint angle and probably did not cause an increase in joint angular velocity and, consequently, isotonic peak power. Paillard <ref type="bibr" target="#b36">(Paillard, 2008)</ref> reported that NMES and voluntary muscle contraction constitute different modes of muscle activation and induce different acute physiological effects on the neuromuscular system and that the combination of NMES and voluntary muscle contraction probably mask training specificity. Isotonic contractions, where the load remains constant, but the velocity can vary, are considered more relevant to normal voluntary activity than isokinetic and isometric contractions. Therefore, a future challenge is to combine NMES training with voluntary resistance training to increase isotonic peak power.</p><p>Regarding the indices of muscle quality obtained from the ultrasonic measurements, the effect of NMES training was observed only for the echo intensity of the VL (Figure <ref type="figure" target="#fig_8">8(d)</ref>). In a previous study of 15 weeks of resistance training of the QF <ref type="bibr" target="#b39">(Santos et al., 2018)</ref>, the echo intensity of the VL at 39% of the distance between the upper edge of the patella (0%) and the anterior superior iliac spine (100%) decreased after 6 weeks. Meanwhile that of the VL at 56% and that of the RF at 22% of the corresponding distance showed no change after 15 weeks. Considering that the measurement site for the echo intensity of the VL in the present study (50%) was located between the measurement sites (39% and 56%) in the abovementioned previous study, the present results are generally consistent with that of the previous study <ref type="bibr" target="#b39">(Santos et al., 2018)</ref>. In other words, even if the NMES training intervention period had been longer, the echo intensity of the RF would not have changed. A review study on muscle echo intensity <ref type="bibr" target="#b44">(Stock &amp; Thompson, 2021)</ref> did not reach a consensus regarding changes in muscle echo intensity due to chronic resistance training. Hence, it is also unclear why muscle echo intensity changes with resistance training. Santos et al. <ref type="bibr" target="#b39">(Santos et al., 2018)</ref> suggested that the difference in training effects on the echo intensity of the VL and RF may be attributed to the different anatomical features of the two muscles, but it is currently difficult to provide a clear explanation in this regard. It has been found that muscle echo intensity negatively correlates with isometric MVC torque not only in older individuals but also in young individuals <ref type="bibr" target="#b2">(Akagi et al., 2018;</ref><ref type="bibr" target="#b32">Mota &amp; Stock, 2017;</ref><ref type="bibr" target="#b52">Yoshiko et al., 2023)</ref>. However, no significant repeated measures correlation was found between isometric MVC torque and echo intensity of the VL in this study (Figure <ref type="figure" target="#fig_9">9</ref>(f)). Therefore, these results suggest that the muscle echo intensity improvement did not influence the isometric MVC torque. On the other hand, the effect of NMES training on muscle shear modulus was not observed in this study <ref type="bibr">(Figure 8(a,</ref><ref type="bibr">b)</ref>). A meta-analysis in a systematic review <ref type="bibr" target="#b11">(Dankel &amp; Razzano, 2020)</ref> revealed no effect of long-term resistance training on changes in muscle shear modulus, and the included studies' results are consistent with our findings. Previous studies <ref type="bibr" target="#b7">(Bali et al., 2020;</ref><ref type="bibr" target="#b32">Mota &amp; Stock, 2017;</ref><ref type="bibr" target="#b51">Wilhelm et al., 2014)</ref> have reported that muscle shear modulus positively correlates with dynamic explosive performance requiring highvelocity muscle contraction. Therefore, considering the abovementioned findings, it should be noted that no NMES traininginduced changes were observed in either isotonic peak power or muscle shear modulus.</p><p>In the present study, muscle strength gains, muscle hypertrophy, and muscle quality improvement of the knee extensors were achieved through NMES training using a newly developed NMES device expected to provide sufficient NMES to deep muscles, even in healthy people. This suggests that NMES training would be more effective for people who use their QF less frequently or are unable to move them voluntarily due to knee disability. In other words, the NMES device used in this experiment is expected to be a very useful rehabilitation/training tool, especially for people with knee disorders. We intend to demonstrate the effectiveness of the NMES device through actual training intervention for such people in the future.</p><p>This study had some limitations. First, individual differences in the effects of NMES training may have depended on those in pain tolerance to NMES and/or habitual physical activity. To investigate this possibility, we calculated the correlation coefficients of the average NMES intensity (calculated by current value; 83.0 ± 4.9 mA [range: 74.7-94.1 mA]) during the training period and the magnitudes of physical activity with the percentage change in MVC torque before and after training. The results showed no significant correlations of the average intensity level during the training period (r = -0.039, p = 0.867) and the magnitudes of physical activity for light (r = 0.113, p = 0.636), moderate (r = -0.017, p = 0.942), and vigorous (r = -0.197, p = 0.404) intensity levels with the percentage change in MVC torque before and after training. These results suggest that individual differences in pain tolerance to NMES and/or habitual physical activity had little influence on our results. However, it should also be noted here that the present study did not measure joint torque of the knee extensors during NMES. In previous studies <ref type="bibr" target="#b4">(Almeida et al., 2019;</ref><ref type="bibr" target="#b40">Snyder-Mackler et al., 1994;</ref><ref type="bibr" target="#b43">Stevens-Lapsley et al., 2012)</ref>, the intensity of NMES during the training period was determined by the ratio of the muscle strength induced by NMES to the muscle strength during MVC. This ratio was found to be correlated with the muscle strength gains associated with NMES training for people with disabilities. It is not clear whether the findings obtained for people with disabilities can be directly applied to the present study; however, further research is needed to consider these points. Second, the measured data for each parameter were available only before and after 8 weeks of training. Naturally, it is difficult to determine the timing and degree of change in each parameter during the 8 weeks and to clarify how the NMES training programme induced muscle hypertrophy and strength gains. Finally, ultrasonic measurements were performed at only one site for both the RF and VL. As described earlier, 15 weeks of resistance training for the QF resulted in significant differences in echo intensity changes between measurement sites of the VL, while no significant differences in echo intensity changes were observed between measurement sites of the RF <ref type="bibr" target="#b39">(Santos et al., 2018)</ref>. Thus, the influence of the ultrasound measurement site on the results of the present study should not be ignored. However, ultrasound measurements in the present study should have been performed close to the respective muscle belly of the VL and RF. Therefore, it can be inferred that NMES training-induced changes in muscle quality were somewhat accurately captured in the present study.</p><p>In conclusion, this study investigated the effects of an 8-week NMES training programme on muscle quantity and quality and single-joint performance of the knee extensors. The NMES training programme increased isometric MVC torque and muscle volume and partly decreased muscle echo intensity, indicating that singlejoint performance under isometric conditions and muscle quantity and quality improved to some extent. The repeated measures correlations of isometric MVC torque with muscle volume were also significant. Therefore, the NMES training-induced improvement in single-joint performance under isometric conditions is suggested to be caused by muscle hypertrophy.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Schema of the experimental procedures.</figDesc><graphic coords="4,106.70,53.21,396.00,499.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Description of a neuromuscular electrical stimulation device. The lengths displayed in the figure are approximated. NMES, neuromuscular electrical stimulation.</figDesc><graphic coords="5,124.72,346.81,360.00,382.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Isometric maximal voluntary contraction (MVC) torque (a), twitch torque (b), and voluntary activation (VA%) (c) of the knee extensors before (0 weeks) and after (8 weeks) the 8-week intervention in the neuromuscular electrical stimulation (NMES) training (n = 21) and control (n = 18) groups. Black circles and thick solid lines in the vertical direction indicate means and standard deviations, respectively. The thin dashed lines indicate individual data. Data are presented as raw values with or without log transformation. A significant time × group interaction was found for only isometric MVC torque. *** indicates a significant simple main effect of time (P &lt; 0.001).</figDesc><graphic coords="10,154.72,53.19,300.00,460.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Root mean square value of surface electromyography signal (RMS-EMG) of the rectus femoris (RF) (a), vastus lateralis (VL) (b) and medialis (VM) (c), and biceps femoris (BF) (d) under isometric conditions before (0 weeks) and after (8 weeks) the 8-week intervention in the neuromuscular electrical stimulation (NMES) training</figDesc><graphic coords="11,154.72,53.22,300.00,668.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Isotonic peak power of the knee extensors before (0 weeks) and after (8 weeks) the 8-week intervention in the neuromuscular electrical stimulation (NMES) training (n = 21) and control (n = 18) groups. Black circles and thick solid lines in the vertical direction indicate means and standard deviations, respectively. The thin dashed lines indicate individual data. Data are presented as raw values with or without log transformation. No significant time × group interaction was found.</figDesc><graphic coords="12,154.66,347.65,300.12,152.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Root mean square value of surface electromyography signal (RMS-EMG) of the rectus femoris (RF) (a), vastus lateralis (VL) (b) and medialis (VM) (c), and biceps femoris (BF) (d) under isotonic conditions before (0 weeks) and after (8 weeks) the 8-week intervention in the neuromuscular electrical stimulation (NMES) training (n = 21) and control (n = 18) groups. The RF, VL, and VM values were normalized to the peak-to-peak compound muscle action potential amplitude (%Mmax), while</figDesc><graphic coords="13,154.72,53.22,300.00,661.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><figDesc>those of the BF were normalized to those during knee flexor maximal voluntary contraction (%MVC). Black circles and thick solid lines in the vertical direction indicate means and standard deviations, respectively. The thin dashed lines indicate individual data. Data are presented as raw values with or without log transformation. No significant time × group interactions were found in all muscles. † indicates a significant main effect of time (P &lt; 0.05).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Muscle volume of the rectus femoris (RF) (a); vastus lateralis (VL) (b), intermedius (VI) (c), and medialis (VM) (d); and quadriceps femoris (QF) (e) before (0 weeks) and after (8 weeks) the 8-week intervention in the neuromuscular electrical stimulation (NMES) training (n = 21) and control (n = 18) groups. Black circles and thick solid lines in the vertical direction indicate the mean and standard deviation, respectively. The thin dashed lines indicate individual data. Data are presented as raw values with or without log transformation. There was a significant time × group interaction for all muscles. *** indicates a significant simple main effect of time (P &lt; 0.001).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Shear modulus of the rectus femoris (RF) (a) and vastus lateralis (VL) (b) and echo intensity of the RF (c) and VL (d) before (0 weeks) and after (8 weeks) the 8-week intervention in the neuromuscular electrical stimulation (NMES) training (n = 21) and control (n = 18) groups. Black circles and thick solid lines in the vertical direction indicate means and standard deviations, respectively. The thin dashed lines indicate individual data. Data are presented as raw values with or without log transformation. A significant time × group interaction was found only for echo intensity of the VL. * indicates a significant simple main effect of time (P &lt; 0.05).† † indicates a significant main effect of time (P &lt; 0.01).</figDesc><graphic coords="17,154.72,53.19,300.00,644.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 9 .</head><label>9</label><figDesc>Figure 9. Repeated measures correlations of isometric maximal voluntary contraction (MVC) torque with muscle volume of the rectus femoris (RF) (a); vastus lateralis (VL) (b), intermedius (VI) (c), and medialis (VM) (d); and quadriceps femoris (QF) (e) and echo intensity of the VL (f) in the neuromuscular electrical stimulation (NMES) training group (n = 21).</figDesc><graphic coords="19,124.72,53.21,360.00,471.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="15,172.74,53.20,264.00,700.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Means and standard deviations and values of F, P, and η 2 for the parameters related to isometric measurements.</figDesc><table><row><cell>parameter</cell><cell>group/time</cell><cell>mean ± SD</cell><cell>interaction/main effect/simple main effect</cell><cell>F</cell><cell>P</cell><cell>η 2</cell></row><row><cell cols="2">isometric MVC torque NMES group at 0 weeks</cell><cell>174 ± 42</cell><cell>interaction</cell><cell></cell><cell></cell><cell></cell></row><row><cell>(Nm)</cell><cell>NMES group at 8 weeks</cell><cell>190 ± 50</cell><cell>time × group</cell><cell cols="2">F[1,37] = 7.394 0.010</cell><cell>0.127 [medium]</cell></row><row><cell></cell><cell cols="2">control group at 0 weeks 165 ± 28</cell><cell>simple main effect</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">control group at 8 weeks 167 ± 32</cell><cell>time: NMES group</cell><cell cols="2">F[1,37] = 22.405 &lt;0.001</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell></cell><cell>time: control group</cell><cell cols="2">F[1,37] = 0.458 0.503</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group: 0 weeks</cell><cell cols="2">F[1,37] = 0.607 0.441</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group: 8 weeks</cell><cell cols="2">F[1,37] = 2.814 0.102</cell><cell>-</cell></row><row><cell>twitch torque</cell><cell>NMES group at 0 weeks</cell><cell>30 ± 9</cell><cell>interaction</cell><cell></cell><cell></cell><cell></cell></row><row><cell>(Nm)</cell><cell>NMES group at 8 weeks</cell><cell>31 ± 9</cell><cell>time × group</cell><cell cols="2">F[1,37] = 0.492 0.488</cell><cell>0.012 [small]</cell></row><row><cell></cell><cell>control group at 0 weeks</cell><cell>29 ± 7</cell><cell>main effect</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>control group at 8 weeks</cell><cell>30 ± 8</cell><cell>time</cell><cell cols="2">F[1,37] = 2.704 0.109</cell><cell>0.067 [medium]</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group</cell><cell cols="2">F[1,37] = 0.065 0.799</cell><cell>0.002 [trivial]</cell></row><row><cell>VA%</cell><cell>NMES group at 0 weeks</cell><cell>90.3 ± 6.5</cell><cell>interaction</cell><cell></cell><cell></cell><cell></cell></row><row><cell>(%)</cell><cell>NMES group at 8 weeks</cell><cell>93.4 ± 5.8</cell><cell>time × group</cell><cell cols="2">F[1,37] = 1.329 0.256</cell><cell>0.032 [small]</cell></row><row><cell></cell><cell cols="2">control group at 0 weeks 92.2 ± 5.3</cell><cell>main effect</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">control group at 8 weeks 92.9 ± 5.4</cell><cell>time</cell><cell cols="2">F[1,37] = 3.553 0.067</cell><cell>0.085 [medium]</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group</cell><cell cols="2">F[1,37] = 0.224 0.639</cell><cell>0.006 [trivial]</cell></row><row><cell>RMS-EMG of the RF</cell><cell>NMES group at 0 weeks</cell><cell>17.9 ± 6.7</cell><cell>interaction</cell><cell></cell><cell></cell><cell></cell></row><row><cell>(%Mmax)</cell><cell>NMES group at 8 weeks</cell><cell>15.1 ± 7.9</cell><cell>time × group</cell><cell cols="2">F[1,37] = 2.097 0.156</cell><cell>0.051 [small]</cell></row><row><cell></cell><cell cols="2">control group at 0 weeks 16.4 ± 8.9</cell><cell>main effect</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">control group at 8 weeks 15.9 ± 8.0</cell><cell>time</cell><cell cols="2">F[1,37] = 2.267 0.141</cell><cell>0.055 [small]</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group</cell><cell cols="2">F[1,37] = 0.232 0.633</cell><cell>0.006 [trivial]</cell></row><row><cell>RMS-EMG of the VL</cell><cell>NMES group at 0 weeks</cell><cell>6.8 ± 3.6</cell><cell>interaction</cell><cell></cell><cell></cell><cell></cell></row><row><cell>(%Mmax)</cell><cell>NMES group at 8 weeks</cell><cell>7.8 ± 3.8</cell><cell>time × group</cell><cell cols="2">F[1,37] = 0.902 0.348</cell><cell>0.023 [small]</cell></row><row><cell></cell><cell>control group at 0 weeks</cell><cell>6.9 ± 4.8</cell><cell>main effect</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>control group at 8 weeks</cell><cell>7.0 ± 4.9</cell><cell>time</cell><cell cols="2">F[1,37] = 1.137 0.293</cell><cell>0.029 [small]</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group</cell><cell cols="2">F[1,37] = 0.676 0.416</cell><cell>0.018 [small]</cell></row><row><cell>RMS-EMG of the VM</cell><cell>NMES group at 0 weeks</cell><cell cols="2">21.8 ± 11.6 interaction</cell><cell></cell><cell></cell><cell></cell></row><row><cell>(%Mmax)</cell><cell>NMES group at 8 weeks</cell><cell cols="2">25.6 ± 10.8 time × group</cell><cell cols="2">F[1,37] = 0.536 0.469</cell><cell>0.012 [small]</cell></row><row><cell></cell><cell cols="3">control group at 0 weeks 21.5 ± 11.8 main effect</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">control group at 8 weeks 22.2 ± 7.8</cell><cell>time</cell><cell cols="2">F[1,37] = 7.877 0.008</cell><cell>0.173 [large]</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group</cell><cell cols="2">F[1,37] = 0.300 0.587</cell><cell>0.008 [trivial]</cell></row><row><cell>RMS-EMG of the BF</cell><cell>NMES group at 0 weeks</cell><cell>12.6 ± 3.9</cell><cell>interaction</cell><cell></cell><cell></cell><cell></cell></row><row><cell>(%MVC)</cell><cell>NMES group at 8 weeks</cell><cell cols="2">18.9 ± 13.0 time × group</cell><cell cols="2">F[1,37] = 1.621 0.211</cell><cell>0.041 [small]</cell></row><row><cell></cell><cell cols="3">control group at 0 weeks 17.7 ± 14.4 main effect</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">control group at 8 weeks 16.0 ± 9.6</cell><cell>time</cell><cell cols="2">F[1,37] = 1.191 0.282</cell><cell>0.030 [small]</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group</cell><cell cols="2">F[1,37] = 0.005 0.944</cell><cell>&lt; 0.001 [trivial]</cell></row></table><note><p>MVC: maximal voluntary contraction, VA%: voluntary activation, RMS-EMG: root mean square value of surface electromyography signal, Mmax: peak-to-peak compound muscle action potential amplitude, RF: rectus femoris, VL: vastus lateralis, VM: vastus medialis, BF: biceps femoris, NMES: neuromuscular electrical stimulation, SD: standard deviation.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Means and standard deviations and values of F, P, and η 2 for the parameters related to isotonic measurements.</figDesc><table><row><cell>parameter</cell><cell>group/time</cell><cell>mean ± SD</cell><cell>interaction/main effect</cell><cell>F</cell><cell>P</cell><cell>η 2</cell><cell></cell></row><row><cell>isotonic peak power</cell><cell>NMES group at 0 weeks</cell><cell>548 ± 93</cell><cell>interaction</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>(W)</cell><cell>NMES group at 8 weeks</cell><cell>566 ± 114</cell><cell>time × group</cell><cell>F[1,37] = 0.099</cell><cell>0.755</cell><cell>0.002</cell><cell>[trivial]</cell></row><row><cell></cell><cell>control group at 0 weeks</cell><cell>518 ± 114</cell><cell>main effect</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>control group at 8 weeks</cell><cell>544 ± 98</cell><cell>time</cell><cell>F[1,37] = 3.800</cell><cell>0.059</cell><cell>0.093</cell><cell>[medium]</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group</cell><cell>F[1,37] = 0.678</cell><cell>0.415</cell><cell>0.018</cell><cell>[small]</cell></row><row><cell>RMS-EMG of the RF</cell><cell>NMES group at 0 weeks</cell><cell>20.7 ± 7.7</cell><cell>interaction</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>(%Mmax)</cell><cell>NMES group at 8 weeks</cell><cell>18.1 ± 9.9</cell><cell>time × group</cell><cell>F[1,37] = 1.067</cell><cell>0.308</cell><cell>0.027</cell><cell>[small]</cell></row><row><cell></cell><cell>control group at 0 weeks</cell><cell>19.6 ± 9.4</cell><cell>main effect</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>control group at 8 weeks</cell><cell>18.4 ± 8.2</cell><cell>time</cell><cell>F[1,37] = 1.824</cell><cell>0.185</cell><cell>0.046</cell><cell>[small]</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group</cell><cell>F[1,37] = 0.075</cell><cell>0.786</cell><cell>0.002</cell><cell>[trivial]</cell></row><row><cell>RMS-EMG of the VL</cell><cell>NMES group at 0 weeks</cell><cell>8.1 ± 3.6</cell><cell>interaction</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>(%Mmax)</cell><cell>NMES group at 8 weeks</cell><cell>8.7 ± 4.0</cell><cell>time × group</cell><cell>F[1,37] = 0.312</cell><cell>0.580</cell><cell>0.008</cell><cell>[trivial]</cell></row><row><cell></cell><cell>control group at 0 weeks</cell><cell>6.8 ± 3.8</cell><cell>main effect</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>control group at 8 weeks</cell><cell>8.8 ± 7.4</cell><cell>time</cell><cell>F[1,37] = 1.894</cell><cell>0.177</cell><cell>0.048</cell><cell>[small]</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group</cell><cell>F[1,37] = 1.257</cell><cell>0.269</cell><cell>0.033</cell><cell>[small]</cell></row><row><cell>RMS-EMG of the VM</cell><cell>NMES group at 0 weeks</cell><cell>23.9 ± 13.9</cell><cell>interaction</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>(%Mmax)</cell><cell>NMES group at 8 weeks</cell><cell>26.8 ± 11.4</cell><cell>time × group</cell><cell>F[1,37] = 0.057</cell><cell>0.813</cell><cell>0.001</cell><cell>[trivial]</cell></row><row><cell></cell><cell>control group at 0 weeks</cell><cell>24.0 ± 15.2</cell><cell>main effect</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>control group at 8 weeks</cell><cell>26.4 ± 13.5</cell><cell>time</cell><cell>F[1,37] = 5.151</cell><cell>0.029</cell><cell>0.122</cell><cell>[medium]</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group</cell><cell>F[1,37] = 0.069</cell><cell>0.794</cell><cell>0.002</cell><cell>[trivial]</cell></row><row><cell>RMS-EMG of the BF</cell><cell>NMES group at 0 weeks</cell><cell>17.1 ± 7.3</cell><cell>interaction</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>(%MVC)</cell><cell>NMES group at 8 weeks</cell><cell>21.2 ± 14.0</cell><cell>time × group</cell><cell>F[1,37] = 0.071</cell><cell>0.791</cell><cell>0.002</cell><cell>[trivial]</cell></row><row><cell></cell><cell>control group at 0 weeks</cell><cell>19.3 ± 14.2</cell><cell>main effect</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>control group at 8 weeks</cell><cell>19.3 ± 11.5</cell><cell>time</cell><cell>F[1,37] = 1.114</cell><cell>0.298</cell><cell>0.029</cell><cell>[small]</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group</cell><cell>F[1,37] = 0.029</cell><cell>0.865</cell><cell>&lt;0.001</cell><cell>[trivial]</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Means and standard deviations and values of F, P, and η 2 for the muscle volume of the rectus femoris, vastus lateralis, vastus intermedius, vastus medialis, and</figDesc><table><row><cell>quadriceps femoris.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>parameter</cell><cell>group / time</cell><cell>mean ± SD</cell><cell>interaction / simple main effect</cell><cell>F</cell><cell>p</cell><cell>η 2</cell></row><row><cell>muscle volume of the RF (cm 3 )</cell><cell>NMES group at 0 weeks NMES group at 8 weeks</cell><cell>217 ± 36 227 ± 38</cell><cell>interaction time × group</cell><cell>F [1,37] = 13.779</cell><cell>0.001</cell><cell>0.183 [large]</cell></row><row><cell></cell><cell>control group at 0 weeks</cell><cell>221 ± 37</cell><cell>simple main effect</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>control group at 8 weeks</cell><cell>222 ± 36</cell><cell>time: NMES group</cell><cell>F [1,37] = 40.773</cell><cell>&lt; 0.001</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell></cell><cell>time: control group</cell><cell>F [1,37] = 0.728</cell><cell>0.399</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group: 0 weeks</cell><cell>F [1,37] = 0.081</cell><cell>0.777</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group: 8 weeks</cell><cell>F [1,37] = 0.161</cell><cell>0.691</cell><cell>-</cell></row><row><cell>muscle volume of the VL (cm 3 )</cell><cell>NMES group at 0 weeks NMES group at 8 weeks</cell><cell>581±91 617 ± 90</cell><cell>interaction time × group</cell><cell>F [1,37] = 69.660</cell><cell>&lt; 0.001</cell><cell>0.426 [large]</cell></row><row><cell></cell><cell>control group at 0 weeks</cell><cell>588 ± 87</cell><cell>simple main effect</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>control group at 8 weeks</cell><cell>586 ± 85</cell><cell>time: NMES group</cell><cell>F [1,37] = 136.645</cell><cell>&lt; 0.001</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell></cell><cell>time: control group</cell><cell>F [1,37] = 0.304</cell><cell>0.585</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group: 0 weeks</cell><cell>F [1,37] = 0.061</cell><cell>0.806</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group: 8 weeks</cell><cell>F [1,37] = 1.214</cell><cell>0.278</cell><cell>-</cell></row><row><cell>muscle volume of the VI (cm 3 )</cell><cell>NMES group at 0 weeks NMES group at 8 weeks</cell><cell>472 ± 81 488 ± 86</cell><cell>interaction time × group</cell><cell>F [1,37] = 9.509</cell><cell>0.004</cell><cell>0.151 [large]</cell></row><row><cell></cell><cell>control group at 0 weeks</cell><cell>469 ± 75</cell><cell>simple main effect</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>control group at 8 weeks</cell><cell>471 ± 77</cell><cell>time: NMES group</cell><cell>F [1,37] = 27.531</cell><cell>&lt; 0.001</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell></cell><cell>time: control group</cell><cell>F [1,37] = 0.430</cell><cell>0.516</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group: 0 weeks</cell><cell>F [1,37] = 0.019</cell><cell>0.890</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group: 8 weeks</cell><cell>F [1,37] = 0.414</cell><cell>0.524</cell><cell>-</cell></row><row><cell>muscle volume of the VM (cm 3 )</cell><cell>NMES group at 0 weeks NMES group at 8 weeks</cell><cell>393 ± 67 413 ± 70</cell><cell>interaction time × group</cell><cell>F [1,37] = 22.094</cell><cell>&lt; 0.001</cell><cell>0.230 [large]</cell></row><row><cell></cell><cell>control group at 0 weeks</cell><cell>387 ± 61</cell><cell>simple main effect</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>control group at 8 weeks</cell><cell>390 ± 55</cell><cell>time: NMES group</cell><cell>F [1,37] = 62.975</cell><cell>&lt; 0.001</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell></cell><cell>time: control group</cell><cell>F [1,37] = 0.886</cell><cell>0.353</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group: 0 weeks</cell><cell>F [1,37] = 0.063</cell><cell>0.803</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group: 8 weeks</cell><cell>F [1,37] = 1.219</cell><cell>0.277</cell><cell>-</cell></row><row><cell>muscle volume of the QF (cm 3 )</cell><cell>NMES group at 0 weeks NMES group at 8 weeks</cell><cell>1663 ± 257 1744 ± 266</cell><cell>interaction time × group</cell><cell>F [1,37] = 81.847</cell><cell>&lt; 0.001</cell><cell>0.368 [large]</cell></row><row><cell></cell><cell>control group at 0 weeks</cell><cell>1665 ± 225</cell><cell>simple main effect</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>control group at 8 weeks</cell><cell>1669 ± 221</cell><cell>time: NMES group</cell><cell cols="2">F [1,37] = 200.413 &lt; 0.001</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell></cell><cell>time: control group</cell><cell>F [1,37] = 0.605</cell><cell>0.442</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group: 0 weeks</cell><cell>F [1,37] = 0.004</cell><cell>0.951</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group: 8 weeks</cell><cell>F [1,37] = 0.771</cell><cell>0.386</cell><cell>-</cell></row><row><cell cols="7">NMES: neuromuscular electrical stimulation, RF: rectus femoris, VL: vastus lateralis, VI: vastus intermedius, VM: vastus medialis, QF: quadriceps femoris, SD: standard</cell></row><row><cell>deviation.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 .</head><label>4</label><figDesc>Means and standard deviations and values of F, P, and η 2 for the parameters related to ultrasonic measurements.</figDesc><table><row><cell>parameter</cell><cell>group/time</cell><cell>mean ± SD</cell><cell>interaction/main effect/simple main effect</cell><cell>F</cell><cell>P</cell><cell>η 2</cell><cell></cell></row><row><cell>muscle stiffness of the RF</cell><cell>NMES group at 0 weeks</cell><cell>5.2 ± 1.2</cell><cell>interaction</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>(kPa)</cell><cell>NMES group at 8 weeks</cell><cell>6.3 ± 1.3</cell><cell>time × group</cell><cell>F[1,37] = 1.433</cell><cell>0.239</cell><cell>0.027</cell><cell>[small]</cell></row><row><cell></cell><cell>control group at 0 weeks</cell><cell>5.1 ± 1.2</cell><cell>main effect</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>control group at 8 weeks</cell><cell>5.7 ± 1.4</cell><cell>time</cell><cell>F[1,37] = 14.010</cell><cell>0.001</cell><cell>0.267</cell><cell>[large]</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group</cell><cell>F[1,37] = 1.041</cell><cell>0.314</cell><cell>0.027</cell><cell>[small]</cell></row><row><cell>muscle stiffness of the VL</cell><cell>NMES group at 0 weeks</cell><cell>7.8 ± 1.6</cell><cell>interaction</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>(kPa)</cell><cell>NMES group at 8 weeks</cell><cell>8.7 ± 1.8</cell><cell>time × group</cell><cell>F[1,37] = 0.182</cell><cell>0.672</cell><cell>0.004</cell><cell>[trivial]</cell></row><row><cell></cell><cell>control group at 0 weeks</cell><cell>7.8 ± 1.0</cell><cell>main effect</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>control group at 8 weeks</cell><cell>8.4 ± 1.7</cell><cell>time</cell><cell>F[1,37] = 9.311</cell><cell>0.004</cell><cell>0.200</cell><cell>[large]</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group</cell><cell>F[1,37] = 0.079</cell><cell>0.781</cell><cell>0.002</cell><cell>[trivial]</cell></row><row><cell>echo intensity of the RF</cell><cell>NMES group at 0 weeks</cell><cell>71 ± 10</cell><cell>interaction</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>(a.u.)</cell><cell>NMES group at 8 weeks</cell><cell>71 ± 10</cell><cell>time × group</cell><cell>F[1,37] = 0.481</cell><cell>0.492</cell><cell>0.013</cell><cell>[small]</cell></row><row><cell></cell><cell>control group at 0 weeks</cell><cell>75 ± 12</cell><cell>main effect</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>control group at 8 weeks</cell><cell>75 ± 10</cell><cell>time</cell><cell>F[1,37] = 0.139</cell><cell>0.712</cell><cell>0.004</cell><cell>[trivial]</cell></row><row><cell></cell><cell></cell><cell></cell><cell>group</cell><cell>F[1,37] = 1.603</cell><cell>0.213</cell><cell>0.042</cell><cell>[small]</cell></row><row><cell>echo intensity of the VL</cell><cell>NMES group at 0 weeks</cell><cell>79 ± 9</cell><cell>interaction</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>(a.u.)</cell><cell>NMES group at 8 weeks</cell><cell>76 ± 9</cell><cell>time × group</cell><cell>F[1,37] = 9.274</cell><cell>0.004</cell><cell>0.200</cell><cell>[large]</cell></row><row><cell></cell><cell>control group at 0 weeks</cell><cell>76 ± 10</cell><cell>simple main effect</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>control group at 8 weeks</cell><cell>79 ± 10</cell><cell>time: NMES group</cell><cell>F[1,37] = 5.455</cell><cell>0.025</cell><cell>-</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>time: control group</cell><cell>F[1,37] = 3.951</cell><cell>0.054</cell><cell>-</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>group: 0 weeks</cell><cell>F[1,37] = 0.850</cell><cell>0.363</cell><cell>-</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>group: 8 weeks</cell><cell>F[1,37] = 1.597</cell><cell>0.214</cell><cell>-</cell><cell></cell></row></table><note><p>RF: rectus femoris, VL: vastus lateralis, NMES: neuromuscular electrical stimulation, SD: standard deviation.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>R. AKAGI ET AL.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>This study was partially supported by <rs type="funder">JSPS KAKENHI</rs> Grant Number <rs type="grantNumber">JP17KK0174</rs> (<rs type="programName">Fund for the Promotion of Joint International Research</rs>, <rs type="funder">Fostering Joint International Research)</rs> (to RA). We would like to thank <rs type="person">Dr. Toshio Moritani</rs> (president of <rs type="affiliation">Osekkai Club Inc., Japan</rs>) for lending us an NMES device (<rs type="person">Dr. Moritani EMS</rs>) and <rs type="person">Mr. Taishi Matsui</rs> for his assistance with data analysis. Dr. Moritani was not involved in the experimental results or their interpretation. We would like to thank <rs type="institution">Editage</rs> (<ref type="url" target="http://www.editage.com">www.editage.com</ref>) for English language editing.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding</head><p>The work was supported by the <rs type="funder">Japan Society for the Promotion of Science</rs> [<rs type="grantNumber">JP17KK0174</rs>].</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_f8Wz2ZU">
+					<idno type="grant-number">JP17KK0174</idno>
+					<orgName type="program" subtype="full">Fund for the Promotion of Joint International Research</orgName>
+				</org>
+				<org type="funding" xml:id="_Srv42qe">
+					<idno type="grant-number">JP17KK0174</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Disclosure statement</head><p>No potential conflict of interest was reported by the author(s).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability statement</head><p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Trade-off between maximal power output and fatigue resistance of the knee extensors for older men</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Akagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nomura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kawashima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Oba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tsuchiya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Power</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hirata</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/japa.2021-0384</idno>
+		<ptr target="https://doi.org/10.1123/japa.2021-0384" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Aging and Physical Activity</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1003" to="1013" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Akagi, R., Nomura, Y., Kawashima, C., Ito, M., Oba, K., Tsuchiya, Y., Power, G. A., &amp; Hirata, K. (2022). Trade-off between maximal power output and fatigue resistance of the knee extensors for older men. Journal of Aging and Physical Activity, 30(6), 1003-1013. https://doi.org/ 10.1123/japa.2021-0384</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Eight-week low-intensity squat training at slow speed simultaneously improves knee and hip flexion and extension strength</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Akagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hirata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Imaizumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tanimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hirata</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2020.00893</idno>
+		<ptr target="https://doi.org/10.3389/fphys.2020.00893" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Physiology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">893</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Akagi, R., Sato, S., Hirata, N., Imaizumi, N., Tanimoto, H., Ando, R., Ema, R., &amp; Hirata, K. (2020). Eight-week low-intensity squat training at slow speed simultaneously improves knee and hip flexion and extension strength. Frontiers in Physiology, 11, 893. https://doi.org/10.3389/fphys.2020. 00893</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Muscle size-strength relationship including ultrasonographic echo intensity and voluntary activation level of a muscle group</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Akagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kawaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Miyamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ema</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.archger.2017.12.012</idno>
+		<ptr target="https://doi.org/10.1016/j.archger.2017.12.012" />
+	</analytic>
+	<monogr>
+		<title level="j">Archives of Gerontology and Geriatrics</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="185" to="190" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Akagi, R., Suzuki, M., Kawaguchi, E., Miyamoto, N., Yamada, Y., &amp; Ema, R. (2018). Muscle size-strength relationship including ultrasonographic echo intensity and voluntary activation level of a muscle group. Archives of Gerontology and Geriatrics, 75, 185-190. https://doi.org/10. 1016/j.archger.2017.12.012</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Muscle volume compared to cross-sectional area is more appropriate for evaluating muscle strength in young and elderly individuals</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Akagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Takai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ohta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukunaga</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/ageing/afp122</idno>
+		<ptr target="https://doi.org/10.1093/ageing/afp122" />
+	</analytic>
+	<monogr>
+		<title level="j">Age &amp; Ageing</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="564" to="569" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Akagi, R., Takai, Y., Ohta, M., Kanehisa, H., Kawakami, Y., &amp; Fukunaga, T. (2009). Muscle volume compared to cross-sectional area is more appro- priate for evaluating muscle strength in young and elderly individuals. Age &amp; Ageing, 38(5), 564-569. https://doi.org/10.1093/ageing/afp122</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Dose-response relationship between neuromuscular electrical stimulation and muscle function in people with rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Almeida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Khoja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Piva</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/ptj/pzz079</idno>
+		<ptr target="https://doi.org/10.1093/ptj/pzz079" />
+	</analytic>
+	<monogr>
+		<title level="j">Physical Therapy</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1167" to="1176" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Almeida, G. J., Khoja, S. S., &amp; Piva, S. R. (2019). Dose-response relationship between neuromuscular electrical stimulation and muscle function in people with rheumatoid arthritis. Physical Therapy, 99(9), 1167-1176. https://doi.org/10.1093/ptj/pzz079</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Local architecture of the vastus intermedius is a better predictor of knee extension force than that of the other quadriceps femoris muscle heads</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Umemura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Akima</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/cpf.12173</idno>
+		<ptr target="https://doi.org/10.1111/cpf.12173" />
+	</analytic>
+	<monogr>
+		<title level="j">Clinical Physiology and Functional Imaging</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="376" to="382" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ando, R., Saito, A., Umemura, Y., &amp; Akima, H. (2015). Local architecture of the vastus intermedius is a better predictor of knee extension force than that of the other quadriceps femoris muscle heads. Clinical Physiology and Functional Imaging, 35(5), 376-382. https://doi.org/10. 1111/cpf.12173</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Relationship between resting medial gastrocnemius stiffness and drop jump performance</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ando</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hirata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tanimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Imaizumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hirata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Akagi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jelekin.2021.102549</idno>
+		<ptr target="https://doi.org/10.1016/j.jelekin.2021.102549" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Electromyography and Kinesiology</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page">102549</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ando, R., Sato, S., Hirata, N., Tanimoto, H., Imaizumi, N., Suzuki, Y., Hirata, K., &amp; Akagi, R. (2021). Relationship between resting medial gastrocnemius stiffness and drop jump performance. Journal of Electromyography and Kinesiology, 58, 102549. https://doi.org/10.1016/j.jelekin.2021.102549</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Muscle strength, not age, explains unique variance in echo intensity</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">U</forename><surname>Bali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Harmon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Burton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Mercer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">W</forename><surname>Lawless</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Stock</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.exger.2020.111047</idno>
+		<ptr target="https://doi.org/10.1016/j.exger.2020.111047" />
+	</analytic>
+	<monogr>
+		<title level="j">Experimental Gerontology</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page">111047</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bali, A. U., Harmon, K. K., Burton, A. M., Phan, D. C., Mercer, N. E., Lawless, N. W., &amp; Stock, M. S. (2020). Muscle strength, not age, explains unique variance in echo intensity. Experimental Gerontology, 139, 111047. https://doi.org/10.1016/j.exger.2020.111047</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Shear wave velocity is sensitive to changes in muscle stiffness that occur independently from changes in force</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bernabei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Perreault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Sandercock</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.00112.2019</idno>
+		<ptr target="https://doi.org/10.1152/japplphysiol.00112.2019" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="8" to="16" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bernabei, M., Lee, S. S. M., Perreault, E. J., &amp; Sandercock, T. G. (2020). Shear wave velocity is sensitive to changes in muscle stiffness that occur independently from changes in force. Journal of Applied Physiology, 128(1), 8-16. https://doi.org/10.1152/japplphysiol.00112.2019</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Muscle echo intensity: Reliability and conditioning factors</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Caresio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Molinari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Emanuel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Minetto</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/cpf.12175</idno>
+		<ptr target="https://doi.org/10.1111/cpf.12175" />
+	</analytic>
+	<monogr>
+		<title level="j">Clinical Physiology and Functional Imaging</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="393" to="403" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Caresio, C., Molinari, F., Emanuel, G., &amp; Minetto, M. A. (2015). Muscle echo intensity: Reliability and conditioning factors. Clinical Physiology and Functional Imaging, 35(5), 393-403. https://doi.org/10.1111/cpf.12175</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+		<title level="m">Statistical power analysis for the behavioral sciences</title>
+		<imprint>
+			<publisher>Lawrence Erlbaum Associates</publisher>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note>nd ed.</note>
+	<note type="raw_reference">Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd ed.). Lawrence Erlbaum Associates.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The impact of acute and chronic resistance exercise on muscle stiffness: A systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Dankel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Razzano</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40477-020-00486-3</idno>
+		<ptr target="https://doi.org/10.1007/s40477-020-00486-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Ultrasound</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="473" to="480" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dankel, S. J., &amp; Razzano, B. M. (2020). The impact of acute and chronic resistance exercise on muscle stiffness: A systematic review and meta-analysis. Journal of Ultrasound, 23(4), 473-480. https://doi.org/10. 1007/s40477-020-00486-3</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Association between elastography-assessed muscle mechanical properties and high-speed dynamic performance</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ema</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17461391.2022.2097129</idno>
+		<ptr target="https://doi.org/10.1080/17461391.2022.2097129" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Sport Science</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1233" to="1239" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ema, R. (2023). Association between elastography-assessed muscle mechanical properties and high-speed dynamic performance. European Journal of Sport Science, 23(7), 1233-1239. https://doi.org/10. 1080/17461391.2022.2097129</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Neuromuscular adaptations induced by adjacent joint training</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Akagi</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sms.13008</idno>
+		<ptr target="https://doi.org/10.1111/sms.13008" />
+	</analytic>
+	<monogr>
+		<title level="j">Scandinavian Journal of Medicine &amp; Science in Sports</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="947" to="960" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ema, R., Saito, I., &amp; Akagi, R. (2018). Neuromuscular adaptations induced by adjacent joint training. Scandinavian Journal of Medicine &amp; Science in Sports, 28(3), 947-960. https://doi.org/10.1111/sms.13008</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The contribution of muscle hypertrophy to strength changes following resistance training</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Erskine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fletcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Folland</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-014-2855-4</idno>
+		<idno>1007/s00421-014-2855-4</idno>
+		<ptr target="https://doi.org/10" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1239" to="1249" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Erskine, R. M., Fletcher, G., &amp; Folland, J. P. (2014). The contribution of muscle hypertrophy to strength changes following resistance training. European Journal of Applied Physiology, 114(6), 1239-1249. https://doi.org/10. 1007/s00421-014-2855-4</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Electromyostimulation training effects on neural drive and muscle architecture</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gondin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Guette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ballay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Martin</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/01.mss.0000175090.49048.41</idno>
+		<ptr target="https://doi.org/10.1249/01.mss.0000175090.49048.41" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and Science in Sports and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1291" to="1299" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gondin, J., Guette, M., Ballay, Y., &amp; Martin, A. (2005). Electromyostimulation training effects on neural drive and muscle architecture. Medicine and Science in Sports and Exercise, 37(8), 1291-1299. https://doi.org/10.1249/ 01.mss.0000175090.49048.41</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Effects of once weekly NMES training on knee extensors fatigue and body composition in a person with spinal cord injury</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gondin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Guette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ballay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Martin</surname></persName>
+		</author>
+		<idno type="DOI">10.1179/2045772314Y.0000000293</idno>
+		<ptr target="https://doi.org/10.1179/2045772314Y.0000000293" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Applied Physiology</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Gorgey</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Caudill</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Khalil</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="99" to="102" />
+			<date type="published" when="2006">2006. 2016</date>
+		</imprint>
+	</monogr>
+	<note>Neural and muscular changes to detraining after electrostimulation training The Journal of Spinal Cord Medicine</note>
+	<note type="raw_reference">Gondin, J., Guette, M., Ballay, Y., &amp; Martin, A. (2006). Neural and muscular changes to detraining after electrostimulation training. European Journal of Applied Physiology, 97(2), 165-173. https://doi.org/10.1007/s00421- 006-0159-z Gorgey, A. S., Caudill, C., &amp; Khalil, R. E. (2016). Effects of once weekly NMES training on knee extensors fatigue and body composition in a person with spinal cord injury. The Journal of Spinal Cord Medicine, 39(1), 99-102. https://doi.org/10.1179/2045772314Y.0000000293</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Belt electrode-skeletal muscle electrical stimulation during early hematopoietic post-transplantation to prevent skeletal muscle atrophy and weakness</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Miyasaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Murao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Matsushita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kajimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Otagaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Asano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nankaku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kondo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Arai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kanda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Takaori-Kondo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ikeguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Matsuda</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jtct.2022.09.030</idno>
+		<ptr target="https://doi.org/10.1016/j.jtct.2022.09.030" />
+	</analytic>
+	<monogr>
+		<title level="j">Transplantation and Cellular Therapy</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>e51.1-.e51.7.</note>
+	<note type="raw_reference">Hamada, R., Sato, S., Miyasaka, J., Murao, M., Matsushita, M., Kajimoto, T., Otagaki, A., Asano, T., Nankaku, M., Kondo, T., Arai, Y., Kanda, J., Takaori- Kondo, A., Ikeguchi, R., &amp; Matsuda, S. (2023). Belt electrode-skeletal muscle electrical stimulation during early hematopoietic post-transplantation to prevent skeletal muscle atrophy and weakness. Transplantation and Cellular Therapy, 29(1),.e51.1-.e51.7. https://doi.org/ 10.1016/j.jtct.2022.09.030</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Effect of early implementation of electrical muscle stimulation to prevent muscle atrophy and weakness in patients after anterior cruciate ligament reconstruction</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hasegawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Arai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tamaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Moritani</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jelekin.2011.01.005</idno>
+		<ptr target="https://doi.org/10.1016/j.jelekin.2011.01.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Electromyography and Kinesiology</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="622" to="630" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hasegawa, S., Kobayashi, M., Arai, R., Tamaki, A., Nakamura, T., &amp; Moritani, T. (2011). Effect of early implementation of electrical muscle stimulation to prevent muscle atrophy and weakness in patients after anterior cruciate ligament reconstruction. Journal of Electromyography and Kinesiology, 21 (4), 622-630. https://doi.org/10.1016/j.jelekin.2011.01.005</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Effect of electromyostimulation training on intramuscular fat accumulation determined by ultrasonography in older adults</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hioki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Imai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yasuda</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-022-05074-3</idno>
+		<ptr target="https://doi.org/10.1007/s00421-022-05074-3" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="271" to="282" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hioki, M., Takahashi, H., Saito, A., Imai, M., &amp; Yasuda, H. (2023). Effect of electromyostimulation training on intramuscular fat accumulation determined by ultrasonography in older adults. European Journal of Applied Physiology, 123(2), 271-282. https://doi.org/10.1007/s00421- 022-05074-3</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Muscle quality indices separately associate with joint-level power-related measures of the knee extensors in older males</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hirata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nomura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kawashima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tsuchiya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ooba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Power</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Tillin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Akagi</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-022-05005-2</idno>
+		<ptr target="https://doi.org/10.1007/s00421-022-05005-2" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2271" to="2281" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hirata, K., Ito, M., Nomura, Y., Kawashima, C., Tsuchiya, Y., Ooba, K., Yoshida, T., Yamada, Y., Power, G. A., Tillin, N. A., &amp; Akagi, R. (2022). Muscle quality indices separately associate with joint-level power-related measures of the knee extensors in older males. European Journal of Applied Physiology, 122(10), 2271-2281. https://doi. org/10.1007/s00421-022-05005-2</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Can static stretching reduce stiffness of the triceps surae in older men?</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hirata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yamadera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Akagi</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0000000000002186</idno>
+		<ptr target="https://doi.org/10.1249/MSS.0000000000002186" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and Science in Sports and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="673" to="679" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hirata, K., Yamadera, R., &amp; Akagi, R. (2020). Can static stretching reduce stiffness of the triceps surae in older men? Medicine and Science in Sports and Exercise, 52(3), 673-679. https://doi.org/10.1249/MSS.0000000000002186</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Effect of belt electrode-skeletal muscle electrical stimulation on immobilization-induced muscle fibrosis</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Honda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kajiwara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kondo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kataoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sakamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Akimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nawata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Okita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Gomes</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0244120</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0244120" />
+	</analytic>
+	<monogr>
+		<title level="j">PLOS ONE</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">244120</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Honda, Y., Tanaka, N., Kajiwara, Y., Kondo, Y., Kataoka, H., Sakamoto, J., Akimoto, R., Nawata, A., Okita, M., &amp; Gomes, A. V. (2021). Effect of belt electrode-skeletal muscle electrical stimulation on immobilization-induced muscle fibrosis. PLOS ONE, 16(5), e0244120. https://doi.org/10.1371/journal.pone.0244120</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Early superimposed NMES training is effective to improve strength and function following ACL reconstruction with hamstring graft regardless of tendon regeneration</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Labanca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Rocchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Giannini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Faloni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Montanari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Mariani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Macaluso</surname></persName>
+		</author>
+		<idno type="DOI">10.52082/jssm.2022.91</idno>
+		<ptr target="https://doi.org/10.52082/jssm.2022.91" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Science and Medicine</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="91" to="103" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Labanca, L., Rocchi, J. E., Giannini, S., Faloni, E. R., Montanari, G., Mariani, P. P., &amp; Macaluso, A. (2022). Early superimposed NMES training is effective to improve strength and function following ACL reconstruc- tion with hamstring graft regardless of tendon regeneration. Journal of Sports Science and Medicine, 21, 91-103. https://doi.org/10.52082/jssm. 2022.91</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Electrical muscle stimulation (EMS) training of the hamstrings</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lategan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Crafford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Suliman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Govender</surname></persName>
+		</author>
+		<ptr target="https://hdl.handle.net/10520/EJC155181" />
+	</analytic>
+	<monogr>
+		<title level="j">African Journal for Physical Health Education, Recreation and Dance</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="439" to="452" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lategan, L., Crafford, K., Suliman, F., &amp; Govender, N. (2014). Electrical muscle stimulation (EMS) training of the hamstrings. African Journal for Physical Health Education, Recreation and Dance, 20(21), 439-452. https://hdl. handle.net/10520/EJC155181</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">A comprehensive evaluation of commonly used accelerometer energy expenditure and MET prediction equations</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lyden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Kozey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Staudenmeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Freedson</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-010-1639-8</idno>
+		<ptr target="https://doi.org/10.1007/s00421-010-1639-8" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="187" to="201" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lyden, K., Kozey, S. L., Staudenmeyer, J. W., &amp; Freedson, P. S. (2011). A comprehensive evaluation of commonly used accelerometer energy expenditure and MET prediction equations. European Journal of Applied Physiology, 111(2), 187-201. https://doi.org/10.1007/s00421-010-1639-8</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Activation of human plantar flexor muscles increases after electromyostimulation training</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Maffiuletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pensini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Martin</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.00884.2001</idno>
+		<ptr target="https://doi.org/10.1152/japplphysiol.00884" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1383" to="1392" />
+			<date type="published" when="2001">2002. 2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maffiuletti, N. A., Pensini, M., &amp; Martin, A. (2002). Activation of human plantar flexor muscles increases after electromyostimulation training. Journal of Applied Physiology, 92(4), 1383-1392. https://doi.org/10. 1152/japplphysiol.00884.2001</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Marusich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Bakdash</surname></persName>
+		</author>
+		<idno type="DOI">10.12688/f1000research.55027.1</idno>
+		<ptr target="https://doi.org/10.12688/f1000research.55027.1" />
+		<title level="m">rmcorrShiny: A web and standalone application for repeated measures correlation. F1000 Research</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">697</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marusich, L. R., &amp; Bakdash, J. Z. (2021). rmcorrShiny: A web and standalone application for repeated measures correlation. F1000 Research, 10, 697. https://doi.org/10.12688/f1000research.55027.1</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Electromyographic activity of the vastus intermedius muscle in patients with stiff-knee gait after stroke. A retrospective observational study</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mazzoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Giannotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Manca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Longhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Prati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cosma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ferraresi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Morelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zerbinati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Masiero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Merlo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.gaitpost.2017.07.002</idno>
+		<ptr target="https://doi.org/10.1016/j.gaitpost.2017.07.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Gait &amp; Posture</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="273" to="278" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mazzoli, D., Giannotti, E., Manca, M., Longhi, M., Prati, P., Cosma, M., Ferraresi, G., Morelli, M., Zerbinati, P., Masiero, S., &amp; Merlo, A. (2018). Electromyographic activity of the vastus intermedius muscle in patients with stiff-knee gait after stroke. A retrospective observational study. Gait &amp; Posture, 60, 273-278. https://doi.org/10.1016/j.gaitpost.2017.07.002</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Muscle stiffness of the vastus lateralis in sprinters and long-distance runners</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Miyamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hirata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0000000000002024</idno>
+		<ptr target="https://doi.org/10.1249/MSS.0000000000002024" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and Science in Sports and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2080" to="2087" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Miyamoto, N., Hirata, K., Inoue, K., &amp; Hashimoto, T. (2019). Muscle stiffness of the vastus lateralis in sprinters and long-distance runners. Medicine and Science in Sports and Exercise, 51(10), 2080-2087. https://doi.org/10. 1249/MSS.0000000000002024</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Electrical muscle stimulation: Application and potential role in aging society</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Moritani</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jelekin.2021.102598</idno>
+		<ptr target="https://doi.org/10.1016/j.jelekin.2021.102598" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Electromyography and Kinesiology</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page">102598</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moritani, T. (2021). Electrical muscle stimulation: Application and potential role in aging society. Journal of Electromyography and Kinesiology, 61, 102598. https://doi.org/10.1016/j.jelekin.2021.102598</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Estimating effect sizes from pretest-posttest-control group designs</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Morris</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1094428106291059</idno>
+		<ptr target="https://doi.org/10.1177/1094428106291059" />
+	</analytic>
+	<monogr>
+		<title level="j">Organizational Research Methods</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="364" to="386" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morris, S. B. (2008). Estimating effect sizes from pretest-posttest-control group designs. Organizational Research Methods, 11(2), 364-386. https://doi.org/10.1177/1094428106291059</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Rectus femoris echo intensity correlates with muscle strength, but not endurance, in younger and older men</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Stock</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ultrasmedbio.2017.04.010</idno>
+		<ptr target="https://doi.org/10.1016/j.ultrasmedbio.2017.04.010" />
+	</analytic>
+	<monogr>
+		<title level="j">Ultrasound in Medicine and Biology</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1651" to="1657" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mota, J. A., &amp; Stock, M. S. (2017). Rectus femoris echo intensity correlates with muscle strength, but not endurance, in younger and older men. Ultrasound in Medicine and Biology, 43(8), 1651-1657. https://doi.org/10. 1016/j.ultrasmedbio.2017.04.010</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Electrical stimulation and muscle strength gains in healthy adults: A systematic review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mukherjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Fok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Van Mechelen</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0000000000004359</idno>
+		<ptr target="https://doi.org/10.1519/JSC.0000000000004359" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Strength &amp; Conditioning Research</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="938" to="950" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mukherjee, S., Fok, J. R., &amp; van Mechelen, W. (2023). Electrical stimulation and muscle strength gains in healthy adults: A systematic review. Journal of Strength &amp; Conditioning Research, 37(4), 938-950. https://doi.org/10. 1519/JSC.0000000000004359</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Electrical muscle stimulation in young adults: effect of muscle volume on brain-derived neurotrophic factor levels</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nishikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sakaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kawade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Maeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hyngstrom</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-022-05078-z</idno>
+		<ptr target="https://doi.org/10.1007/s00421-022-05078-z" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="361" to="366" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nishikawa, Y., Sakaguchi, H., Kawade, S., Maeda, N., Tanaka, S., &amp; Hyngstrom, A. (2023). Electrical muscle stimulation in young adults: effect of muscle volume on brain-derived neurotrophic factor levels. European Journal of Applied Physiology, 123(2), 361-366. https://doi. org/10.1007/s00421-022-05078-z</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Muscle shear elastic modulus measured using supersonic shear imaging is highly related to muscle activity level</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nordez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hug</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.01323.2009</idno>
+		<ptr target="https://doi.org/10.1152/japplphysiol.01323" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1389" to="1394" />
+			<date type="published" when="2009">2010. 2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nordez, A., &amp; Hug, F. (2010). Muscle shear elastic modulus measured using supersonic shear imaging is highly related to muscle activity level. Journal of Applied Physiology, 108(5), 1389-1394. https://doi.org/10. 1152/japplphysiol.01323.2009</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Combined application of neuromuscular electrical stimulation and voluntary muscular contractions</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Paillard</surname></persName>
+		</author>
+		<idno type="DOI">10.2165/00007256-200838020-00005</idno>
+		<ptr target="https://doi.org/10.2165/00007256-200838020-00005" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="161" to="177" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paillard, T. (2008). Combined application of neuromuscular electrical stimu- lation and voluntary muscular contractions. Sports Medicine, 38(2), 161-177. https://doi.org/10.2165/00007256-200838020-00005</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Effects of neuromuscular electrical stimulation on quadriceps muscle strength and mass in healthy young and older adults: a scoping review</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rahmati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gondin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Malakoutinia</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/ptj/pzab144</idno>
+		<ptr target="https://doi.org/10.1093/ptj/pzab144" />
+	</analytic>
+	<monogr>
+		<title level="j">Physical Therapy</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">144</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rahmati, M., Gondin, J., &amp; Malakoutinia, F. (2021). Effects of neuromuscular electrical stimulation on quadriceps muscle strength and mass in healthy young and older adults: a scoping review. Physical Therapy, 101(9), zab144. https://doi.org/10.1093/ptj/pzab144</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Echo intensity is negatively associated with functional capacity in older women</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Radaelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Goltz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Da Rosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Pinto</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11357-014-9708-2</idno>
+		<ptr target="https://doi.org/10.1007/s11357-014-9708-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Age (Dordr)</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">9708</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rech, A., Radaelli, R., Goltz, F. R., da Rosa, L. H., Schneider, C. D., &amp; Pinto, R. S. (2014). Echo intensity is negatively associated with functional capacity in older women. Age (Dordr), 36(5), 9708. https://doi.org/10.1007/s11357- 014-9708-2</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Muscle thickness and echo-intensity changes of the quadriceps femoris muscle during a strength training program</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Valamatos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mil-Homens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Armada-Da-Silva</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.radi.2018.03.010</idno>
+		<idno>03.010</idno>
+		<ptr target="https://doi.org/10.1016/j.radi" />
+	</analytic>
+	<monogr>
+		<title level="j">Radiography (Lond)</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="75" to="e84" />
+			<date type="published" when="2018">2018. 2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Santos, R., Valamatos, M. J., Mil-Homens, P., &amp; Armada-da-Silva, P. A. S. (2018). Muscle thickness and echo-intensity changes of the quadri- ceps femoris muscle during a strength training program. Radiography (Lond), 24(4), e75-e84. https://doi.org/10.1016/j.radi. 2018.03.010</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Use of electrical stimulation to enhance recovery of quadriceps femoris muscle force production in patients following anterior cruciate ligament reconstruction</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Snyder-Mackler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Delitto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Stralka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Bailey</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/ptj/74.10.901</idno>
+		<ptr target="https://doi.org/10.1093/ptj/74.10.901" />
+	</analytic>
+	<monogr>
+		<title level="j">Physical Therapy</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="901" to="907" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Snyder-Mackler, L., Delitto, A., Stralka, S. W., &amp; Bailey, S. L. (1994). Use of electrical stimulation to enhance recovery of quadriceps femoris muscle force production in patients following anterior cruciate ligament reconstruction. Physical Therapy, 74(10), 901-907. https://doi.org/10. 1093/ptj/74.10.901</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Effects of involuntary eccentric contraction training by neuromuscular electrical stimulation on the enhancement of muscle strength</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Son</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.clinbiomech.2014.06.003</idno>
+		<ptr target="https://doi.org/10.1016/j.clinbiomech.2014.06.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Clinical Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="767" to="772" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Son, J., Lee, D., &amp; Kim, Y. (2014). Effects of involuntary eccentric contraction training by neuromuscular electrical stimulation on the enhancement of muscle strength. Clinical Biomechanics, 29(7), 767-772. https://doi.org/ 10.1016/j.clinbiomech.2014.06.003</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Eight weeks of resistance training increases strength, muscle cross-sectional area and motor unit size, but does not alter firing rates in the vastus lateralis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Sterczala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Dimmick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Wray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Trevino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Herda</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-019-04273-9</idno>
+		<ptr target="https://doi.org/10.1007/s00421-019-04273-9" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="281" to="294" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sterczala, A. J., Miller, J. D., Dimmick, H. L., Wray, M. E., Trevino, M. A., &amp; Herda, T. J. (2020). Eight weeks of resistance training increases strength, muscle cross-sectional area and motor unit size, but does not alter firing rates in the vastus lateralis. European Journal of Applied Physiology, 120 (1), 281-294. https://doi.org/10.1007/s00421-019-04273-9</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Early neuromuscular electrical stimulation to improve quadriceps muscle strength after total knee arthroplasty: A randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Stevens-Lapsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Balter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wolfe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Eckhoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Kohrt</surname></persName>
+		</author>
+		<idno type="DOI">10.2522/ptj.20110124</idno>
+		<ptr target="https://doi.org/10.2522/ptj" />
+	</analytic>
+	<monogr>
+		<title level="j">Physical Therapy</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="210" to="226" />
+			<date type="published" when="2012">2012. 20110124</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stevens-Lapsley, J. E., Balter, J. E., Wolfe, P., Eckhoff, D. G., &amp; Kohrt, W. M. (2012). Early neuromuscular electrical stimulation to improve quadriceps muscle strength after total knee arthroplasty: A randomized controlled trial. Physical Therapy, 92(2), 210-226. https://doi.org/10.2522/ptj. 20110124</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Echo intensity as an indicator of skeletal muscle quality: Applications, methodology, and future directions</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Stock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Thompson</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-020-04556-6</idno>
+		<ptr target="https://doi.org/10.1007/s00421-020-04556-6" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="369" to="380" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stock, M. S., &amp; Thompson, B. J. (2021). Echo intensity as an indicator of skeletal muscle quality: Applications, methodology, and future directions. European Journal of Applied Physiology, 121(2), 369-380. https://doi.org/10.1007/s00421-020-04556-6</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Efficacy of belt electrode skeletal muscle electrical stimulation on muscle flexibility of lower limbs: A randomized controlled pilot trial</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tomida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nakae</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/MD.0000000000023156</idno>
+		<ptr target="https://doi.org/10.1097/MD.0000000000023156" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">47</biblScope>
+			<biblScope unit="page">23156</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tomida, K., &amp; Nakae, H. (2020). Efficacy of belt electrode skeletal muscle electrical stimulation on muscle flexibility of lower limbs: A randomized controlled pilot trial. Medicine, 99(47), e23156. https://doi.org/10.1097/ MD.0000000000023156</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Effects of neuromuscular electrical stimulation training on endurance performance</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Veldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gondin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Place</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Maffiuletti</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2016.00544</idno>
+		<ptr target="https://doi.org/10.3389/fphys.2016.00544" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Physiology</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">544</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Veldman, M. P., Gondin, J., Place, N., &amp; Maffiuletti, N. A. (2016). Effects of neuromuscular electrical stimulation training on endurance performance. Frontiers in Physiology, 7, 544. https://doi.org/10.3389/ fphys.2016.00544</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Torque gains and neural adaptations following low-intensity motor nerve electrical stimulation training</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vitry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Papaiordanidou</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.00513.2019</idno>
+		<ptr target="https://doi.org/10.1152/japplphysiol.00513.2019" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1469" to="1477" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vitry, F., Martin, A., &amp; Papaiordanidou, M. (2019). Torque gains and neural adaptations following low-intensity motor nerve electrical stimulation training. Journal of Applied Physiology, 127(5), 1469-1477. https://doi. org/10.1152/japplphysiol.00513.2019</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Effects of neuromuscular electrical stimulation training on muscle size in collegiate track and field athletes</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wakahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shiraogawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Eynon</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0224881</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0224881" />
+	</analytic>
+	<monogr>
+		<title level="j">PLOS ONE</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">224881</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wakahara, T., Shiraogawa, A., &amp; Eynon, N. (2019). Effects of neuromuscular electrical stimulation training on muscle size in collegiate track and field athletes. PLOS ONE, 14(11), e0224881. https://doi.org/10.1371/journal. pone.0224881</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Density and hydration of fresh and fixed human skeletal muscle</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Lieber</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbiomech.2004.10.001</idno>
+		<ptr target="https://doi.org/10.1016/j.jbiomech.2004.10.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2317" to="2320" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ward, S. R., &amp; Lieber, R. L. (2005). Density and hydration of fresh and fixed human skeletal muscle. Journal of Biomechanics, 38(11), 2317-2320. https://doi.org/10.1016/j.jbiomech.2004.10.001</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Objectively measured daily step counts and prevalence of frailty in 3,616 older adults</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Group</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jgs.16655</idno>
+		<ptr target="https://doi.org/10.1111/jgs.16655" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Geriatrics Society</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2310" to="2318" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Watanabe, D., Yoshida, T., Watanabe, Y., Yamada, Y., Kimura, M., &amp; Group, K. S. (2020). Objectively measured daily step counts and preva- lence of frailty in 3,616 older adults. Journal of the American Geriatrics Society, 68(10), 2310-2318. https://doi.org/10.1111/jgs.16655</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Relationship between quadriceps femoris echo intensity, muscle power, and functional capacity of older men</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Wilhelm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Minozzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Radaelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Botton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Pinto</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11357-014-9625-4</idno>
+		<ptr target="https://doi.org/10.1007/s11357-014-9625-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Age (Dordr)</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">9625</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilhelm, E. N., Rech, A., Minozzo, F., Radaelli, R., Botton, C. E., &amp; Pinto, R. S. (2014). Relationship between quadriceps femoris echo intensity, muscle power, and functional capacity of older men. Age (Dordr), 36(3), 9625. https://doi.org/10.1007/s11357-014-9625-4</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Relative contribution of neuromuscular activation, muscle size, and muscle quality to maximum strength output of the thigh muscles in young individuals</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yoshiko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Akima</surname></persName>
+		</author>
+		<idno type="DOI">10.14814/phy2.15563</idno>
+		<ptr target="https://doi.org/10.14814/phy2.15563" />
+	</analytic>
+	<monogr>
+		<title level="j">Physiological Reports</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">15563</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yoshiko, A., Watanabe, K., &amp; Akima, H. (2023). Relative contribution of neuromuscular activation, muscle size, and muscle quality to max- imum strength output of the thigh muscles in young individuals. Physiological Reports, 11(1), e15563. https://doi.org/10.14814/phy2. 15563</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The effectiveness of 3D multiple object tracking training on decision-making in soccer</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Sebastian</forename><surname>Harenberg</surname></persName>
+							<email>sharenbe@stfx.ca</email>
+							<idno type="ORCID">0000-0003-0748-1823</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Human Kinetics</orgName>
+								<orgName type="institution">Francis Xavier University</orgName>
+								<address>
+									<settlement>St Antigonish</settlement>
+									<region>NS</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zachary</forename><surname>Mccarver</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Sport and Exercise Science</orgName>
+								<orgName type="institution">University of Northern Colorado</orgName>
+								<address>
+									<settlement>Greeley</settlement>
+									<region>CO</region>
+									<country>United States;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Justin</forename><surname>Worley</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Kinesiology</orgName>
+								<orgName type="institution">Michigan State University</orgName>
+								<address>
+									<settlement>East Lansing</settlement>
+									<region>MI</region>
+									<country>United States;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dennis</forename><surname>Murr</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Sport Psychology and Research Methods</orgName>
+								<orgName type="institution">Eberhard Karls University</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+									<country>Germany;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Justine</forename><surname>Vosloo</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Exercise Sciences and Athletic Training</orgName>
+								<orgName type="institution">Ithaca College</orgName>
+								<address>
+									<settlement>Ithaca</settlement>
+									<region>NY</region>
+									<country>United States;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rumit</forename><surname>Singh Kakar</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Human Movement Science</orgName>
+								<orgName type="institution">Oakland University</orgName>
+								<address>
+									<settlement>Rochester</settlement>
+									<region>MI</region>
+									<country>United States;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rob</forename><surname>Mccaffrey</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Faculty of Kinesiology</orgName>
+								<orgName type="institution">University of Regina</orgName>
+								<address>
+									<settlement>Regina</settlement>
+									<region>SK</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kim</forename><surname>Dorsch</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Faculty of Kinesiology</orgName>
+								<orgName type="institution">University of Regina</orgName>
+								<address>
+									<settlement>Regina</settlement>
+									<region>SK</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Oliver</forename><surname>Höner</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Sport Psychology and Research Methods</orgName>
+								<orgName type="institution">Eberhard Karls University</orgName>
+								<address>
+									<settlement>Tübingen</settlement>
+									<country>Germany;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department">Department of Human Kinetics</orgName>
+								<orgName type="institution">St. Francis Xavier University</orgName>
+								<address>
+									<addrLine>4130 University Ave</addrLine>
+									<settlement>Antigonish</settlement>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The effectiveness of 3D multiple object tracking training on decision-making in soccer</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">762553658B7F60BA8BDA74D85135A51A</idno>
+					<idno type="DOI">10.1080/24733938.2021.1965201</idno>
+					<note type="submission">Accepted 22 July 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:12+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Perceptual cognitive skills</term>
+					<term>multiple object tracking</term>
+					<term>technology</term>
+					<term>collegiate athletes</term>
+					<term>decision making</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Soccer requires athletes to make quick decisions in dynamic environments. Several offcourt technology-based interventions have been developed to train these perceptual cognitive skills. However, the evidence for training transfer using technologies to athletic performance has been sparse. Previous research found 3-dimensional multiple object tracking (3D MOT) training to cause a significant increase in quality of passing decision-making. Limitations to the research warrant further investigation of this association. Purpose: To re-examine the effectiveness of 3D MOT on training decision-making. Methods: Thirty-one NCAA Division III soccer players (female n = 16) were randomized to 3D MOT training or a control task. The experimental group received 10 training sessions over a span of 4 weeks. Results: The manipulation check indicated a significant training effect in 3D MOT performance for the intervention but not the control group (F (1,29) = 21.46, p &lt; .001, n p 2 = .43). Non-significant changes with small effect sizes (n p 2 = .01-.03) in decision-making and measures of near-transfer were found.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion:</head><p>The findings challenge the association between 3D MOT training and increased quality of decision-making in soccer.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Soccer athletes execute movements under immense time constraints in highly dynamic environments. The ability to anticipate the flow of a game (e.g., opponent's or ball movement) and make appropriate decisions based on this information are vital for success <ref type="bibr" target="#b25">(Williams and Jackson 2019;</ref><ref type="bibr" target="#b24">Williams et al. 2020)</ref>. Accordingly, <ref type="bibr" target="#b12">Mann et al. (2007)</ref> defined perceptualcognitive skills as 'the ability to identify and acquire environmental information for the integration of existing knowledge such that appropriate responses can be selected and executed <ref type="bibr">' (p. 457)</ref>. These skills include several cognitive processes (e.g., anticipation, decision-making, visual search, pattern recognition) that soccer athletes apply in sport-specific situations. Several models <ref type="bibr" target="#b0">(Cañal-Bruland &amp; Mann, 2015;</ref><ref type="bibr" target="#b15">Raab 2002;</ref><ref type="bibr" target="#b22">Williams 2009</ref>) exist that explain the interrelation of perceptual cognitive skills for decision-making and anticipation under pressure. The current evidence indicates that experts are generally superior in the execution of such skills compared to novice athletes <ref type="bibr" target="#b12">(Mann et al. 2007)</ref>.</p><p>The advancement of technology permits the display of dynamic visual scenes in immersive contexts, such as 3D visualization and virtual reality, using electronic devices (e.g., computers, head-mounted displays). As such, athletes can be trained cognitively off the field in addition to regular practices. Cognitive training in athletes has become a popular area for research and business. Several products are commercially available, ranging from LED Light equipment to Virtual Reality applications. While the diversity of products to train perceptual cognitive skills has increased drastically, evidence of the effectiveness of such modalities is still developing <ref type="bibr" target="#b26">(Zentgraf et al. 2017)</ref>.</p><p>A central question that remains largely unclear is which type of technology-assisted perceptual cognitive training may provide the best transfer effect to a specific task or sport. Theories explaining the underlying mechanisms of transfer between technology-assisted perceptual cognitive training and real-life performance in sport are sparse <ref type="bibr" target="#b13">(Müller and Rosalie 2019)</ref>. The appropriate design of perceptual cognitive training tasks with a targeted transfer effect to a cognitive or motor skill in mind remains unclear. To provide a better understanding, <ref type="bibr" target="#b7">Hadlow et al. (2018)</ref> proposed the Modified Perceptual Training Framework, providing a theoretical foundation for the evaluation of different technologies. In particular, the authors argue that the transfer of perceptual-cognitive training depends on three factors:</p><p>The first factor is the perceptual function that is trained. In other words, the complexity of the visual-cognitive skill similar to the targeted task in real-life. For example, a VR football task may not accurately display some important contextual cues that would normally play a role in making decisions on the field. The second factor is the visual similarity of the presented stimulus. That is, how similar is the visual scene presented in the technology is to real life. As an example, players and objects in a virtual environment may look and move very differently compared to real-life. The third factor is the response to the stimulus. This factor captures the representativeness of the athlete's interaction with the virtual world. For example, in some VR environments, the player can walk 'freely' in the virtual world by using designed passive treadmills whereas in other virtual environments movement is impossible or requires the use of handheld controllers. <ref type="bibr" target="#b7">Hadlow et al. (2018)</ref> argue that technologies high in sport-specific similarity on these three factors should have larger transfer effects to sport performance compared to technologies that are low in similarity.</p><p>Because of an absence in theory in the design of many commercially available cognitive training devices, it is unsurprising that the existing preliminary evidence on their effectiveness for cognitive training is mixed. The current evidence has been summarized in two systematic reviews <ref type="bibr" target="#b26">(Zentgraf et al. 2017;</ref><ref type="bibr" target="#b10">Harris et al. 2018)</ref>. Both reviews showed that most studies suffered from important limitations, including different frequencies of training, lack of power, and absence of active control groups. While the reviewed studies did not indicate a uniform transfer effect to performance, a few technologies showed more promise than others.</p><p>One training modality that was favorably mentioned by both reviews is three-dimensional multiple object tracking (3D MOT). The technology targets different domains of attention (e.g., sustained, divided) and processing speed, which are claimed to be important for cognitive performance in soccer <ref type="bibr" target="#b4">(Faubert and Sidebottom 2012)</ref>. In the seminal study in a team sport athlete population, <ref type="bibr" target="#b2">Faubert (2013)</ref> demonstrated that professional athletes had superior abilities to train on the 3D MOT software compared to semi-professional and amateurlevel athletes. The study provided first evidence that highperforming athletes may be superior in rapidly learning complex and dynamic visual scenes. Since its release, the training and transfer effects of 3D MOT have been tested in several sports <ref type="bibr" target="#b11">(Magine et al. 2014;</ref><ref type="bibr" target="#b3">Faubert and Barthes 2018;</ref><ref type="bibr" target="#b17">Romeas et al. 2019)</ref>, and other performance domains (e.g., laparoscopic surgery; <ref type="bibr" target="#b8">Harenberg et al. 2016)</ref>.</p><p>For soccer, 3D MOT training may be particularly applicable because athletes need to track multiple objects (e.g., ball, opponents, teammates) frequently. <ref type="bibr" target="#b18">Romeas et al. (2016)</ref> examined the effectiveness of 3D MOT training on decision-making. Twenty-three participants from a Canadian university soccer team were assigned into an experimental (n = 9), an active (n = 7) group, and a passive control (n = 7) group. The experimental group was trained on 3D MOT for 10 times (for approximately 25 minutes) over a five-week span. The active control group watched 10 20-minute 3-dimensional highlight videos of the 2010 FIFA World Cup followed by a quiz. The passive group did not receive any interventions. Despite the different treatments for active and passive control groups, the authors decided to combine the groups for analysis purposes. An adapted decision-making coding instrument that ranks the quality of passing, shooting, and dribbling decisions in a series of 5 vs. 5 soccer games <ref type="bibr" target="#b6">(Gabbett et al. 2008</ref>) was used as the main dependent variable. The 3D MOT group improved passing decision-making accuracy, while the combined control group maintained their score from pre-to post-test. Differences in dribbling and shooting decision-making were nonsignificant. The authors interpreted the findings as support for transfer of 3D MOT to soccer decision-making performance.</p><p>While <ref type="bibr" target="#b18">Romeas et al. (2016)</ref> findings may have important implications for cognitive training in soccer athletes, it is important to note that the study was not free of limitations. For example, <ref type="bibr" target="#b21">Vater et al. (2021)</ref> criticized the assessment of decision-making used in the study. While the video-taped on-field assessment method has been used in previous research <ref type="bibr" target="#b6">(Gabbett et al. 2008)</ref>, the reliability and validity of the assessment has yet to be demonstrated. In addition, the authors only used a single assessor, which further limits the validity of the findings. Changes in near-transfer effects (e.g., by employing other measures of attention or processing speed) were not assessed. Second, a theoretical interpretation of the evidence for far-transfer was absent. It remains unclear why the transfer only occurred in passing decision-making and not in the other tested domains (shooting and dribbling), which may equally require the tracking of multiple objects <ref type="bibr" target="#b21">(Vater et al. 2021)</ref>. Third, <ref type="bibr" target="#b18">Romeas et al. (2016)</ref> recruited only a small sample size (n = 23, &lt; 10 athletes per group; <ref type="bibr" target="#b26">Zentgraf et al. 2017;</ref><ref type="bibr" target="#b21">Vater et al. 2021)</ref>, which was not sufficiently justified (e.g., via a power analysis). Lastly, the combination of the active and passive control groups, most likely to enhance statistical power, may be questionable because no placebo treatment (i.e., 3D video) was administered to the passive control group. Taken together, <ref type="bibr" target="#b21">Vater et al. (2021)</ref> stated that 'recommending this "training effect" to soccer coaches seems inadequate with the explained limitations <ref type="bibr">' (p. 15)</ref>.</p><p>In light of the limitations of <ref type="bibr" target="#b18">Romeas et al. (2016)</ref> study, further investigation in the effectiveness of 3D MOT training to enhance decision-making in a soccer context with a larger sample size, more objective assessments, and a control task for all participants in the control group may be warranted <ref type="bibr" target="#b21">(Vater et al. 2021)</ref>. This is the purpose of the present study. Based on the theoretical assumptions of 3D MOT <ref type="bibr" target="#b4">(Faubert and Sidebottom 2012</ref>) and existing evidence <ref type="bibr" target="#b18">(Romeas et al. 2016;</ref><ref type="bibr" target="#b5">Fleddermann et al. 2019)</ref>, it was hypothesized that 3D MOT training will lead to positive effects in near (i.e., measures of attention) and far-transfer (i.e., decision-making).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Participants were recruited from soccer teams at a single NCAA Division III institution. A priori power analysis using G*Power 3.1 revealed a required sample size of 28 participants to detect a previously reported effect size, as published by Romeas and colleagues (i.e., η p 2 = .16), at a power of .80. Athletes were included if they were at least 18 years of age. Exclusion criteria were a diagnosis of ADHD, a concussion in the past 6 months, and severe visual impairment (e.g., unable to read font size 16). Fortyone athletes attended the information session. Out of the 41 athletes, 36 decided to take part in the study. Due to time constraints, 31 (86.1%) participants (female n = 16, male n = 15) completed the study. A flow chart of the recruitment and retention is presented in Figure <ref type="figure" target="#fig_0">1</ref>. The demographics of the sample are summarized in Table <ref type="table" target="#tab_0">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedure</head><p>Ethical approval was obtained at the participating institution.</p><p>The coaches of the male and female soccer teams provided permission to invite their athletes. Participants completed a consent form and were scheduled for a pre-test appointment.</p><p>The athletes were randomized into the experimental (3D MOT) or active control group (3D Videos) via statistical software. The stimuli for the experimental and control group were consistent with those described in <ref type="bibr" target="#b18">Romeas et al. (2016)</ref>. The athletes  3D Videos. The 3D videos were game replays of the group and final stages of the 2010 FIFA World Cup. Similar to the intervention group, the control group were placed on a chair in front of a 55-inch 3D TV (Sony Model XBR55X930D) while wearing 3D glasses. The participants watched scenes from different games for approximately 25 minutes for each session. For the final six sessions, participants re-watched the scenes and were interviewed afterwards about specific aspects of the games.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measurement</head><p>Similar to <ref type="bibr" target="#b18">Romeas et al. (2016)</ref>, 3D MOT changes from pre-and post-test between the experimental and control group were analyzed as a manipulation check. As the Neutrotracker is supposed to train various domains of attention, extensively validated psychological tests of selective and divided attention as well as processing speed were chosen to measure the neartransfer of the 3D MOT training. Similar forms of near-transfer tests have been used in previous research <ref type="bibr" target="#b5">(Fleddermann et al. 2019)</ref>. As <ref type="bibr" target="#b18">Romeas et al. (2016)</ref> claimed a far transfer to passing decision-making, a video-based test battery of passing situations was chosen.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Manipulation check</head><p>Each participant (intervention and control) completed one 3D MOT session consisting of three repetitions of 20 trials (Neurotracker -core module) at pre-and post-test. The program calculates the individual's speed threshold (i.e., a standardized score based on centimeters per second of the average ball movement on correct trials) of each repetition of 20 trials. The average of the three repetitions was calculated and used as the outcome measure. Due to the training, the experimental group should significantly increase their 3D MOT performance, while the performance of the control group should not.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Near-transfer</head><p>Stroop. The Stroop Test is included in the Delis-Kaplan Executive Function System (D-KEFS; <ref type="bibr" target="#b1">Delis et al. 2001)</ref> and was used to assess selective attention of the participants. The test requires participants to look at a series of colored words, which are presented in incongruent colors. The participant was required to state the font color of the word font and not the color the word might state as fast as possible without errors. The recorded outcome for this study was the number of correct responses in a 60-second trial. Each participant completed a 10second familiarization trial. An app version of the Stroop Test on a 10-inch tablet was used.</p><p>Trails B. The Trails Making Test -Version B was used as an assessment of processing speed, divided attention, and executive function <ref type="bibr" target="#b20">(Tombaugh 2004</ref>). The test is part of the Halstead-Reitan Battery <ref type="bibr" target="#b16">(Reitan and Wolfson 1985)</ref> and requires the participant to connect a sequence of numbers and letters (i.e., 1,A,2,B,3,C . . .) as quickly as possible without errors. The outcome was recorded in total time in seconds. Each participant completed a brief familiarization trial before the test. The Trails B was administered in form of an app on a 10-inch tablet.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Far-Transfer</head><p>Decision-Making. For the assessment of decision-making, a video-based diagnostic battery with a soccer-specific motor response was used <ref type="bibr" target="#b14">(Murr et al. 2021)</ref>. The generation and validation of the diagnostic battery is described elsewhere <ref type="bibr" target="#b14">(Murr et al. 2021)</ref>. While viewing the videos (four different categories including 12 video scenes, respectively), the participant was instructed to be a player in ball possession. For each round, a dynamic scene with up to three teammates (in green) and three opponents (in red) unfolded in different locations on the pitch (i.e., four different video scene categories). The player was instructed to be on the team in green and play the ball to the player with the most space or shoot to the goal (i.e., in the striker category). The passing options developed to the left, center, or right of the participant's point of view. An auditory signal during the black screen indicated the start of a new video. Exactly six seconds later, a frozen image of a scene appeared. This image permitted the participant to get oriented in the video. The image was frozen for 1.5 seconds. Afterwards, the clip was played (each clip was between 5-6 seconds in length). Each situation had one player that clearly generated more space than the other options, and hence presented the best passing option. Once the situation was over, a black screen appeared.</p><p>In the laboratory, the videos were presented to the participants via a projector on a 254 cm-diagonal screen. The participants were placed 5 m away from the screen in a central position, with a ball on their feet. Three pop-up nets were placed centrally and to the left and right under the screen (see Figure <ref type="figure" target="#fig_1">2</ref>). The player was instructed to play the ball to the left, center, or right, corresponding with the correct response identified in the video, as quickly as possible. As a familiarization, the participant was shown three trial videos in each category (which were not part of the test battery) before the 12 testing video scenes were demonstrated.</p><p>For the present study, the choices were recorded as 1 (correct decision) or 0 (incorrect decision) for each video scene. The outcome was the combined percentage of all correct choices across all 48 testing video scenes. Athletes were permitted to make a decision at least 1 second after the conclusion of the video or their trial would be marked as an error. If the athlete did not hit the target with the ball, it was marked as an error.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>The characteristics of the experimental and control group at pre-test were compared with chi-square analysis for categorical data and independent t-tests for continuous data. All analyses with effect sizes are reported in Table <ref type="table" target="#tab_0">1</ref>. To compare the improvements in the dependent variables (i.e., 3D <ref type="bibr">MOT, Stroop, Trails B, Decision-Making)</ref> between the groups over time, four mixed-models analyses of variance (ANOVA) with a between-group factor (i.e., group) and a repeated factor (i.e., time) were calculated. Eta squared effect sizes were calculated for all ANOVAs. Post-hoc tests were calculated using Holm's correction and Cohen's d effect sizes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participant characteristics</head><p>Participants in the experimental and control group did not differ significantly in the demographic variables as well as the dependent variables at baseline (see Table <ref type="table" target="#tab_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Manipulation check</head><p>The analysis revealed that the experimental group but not the control group improved their 3D MOT speed threshold (Interaction effect: F (1,29) = 21.46, p &lt; .001, η p 2 = .43; main effect for time: F (1,29) = 16.73, p &lt; .001, η p 2 = .37; main effect for group: F (1,29) = 10.72, p = .003, η p 2 = .27), supporting the internal validity of the current intervention. Post-hoc analyses showed that the experimental group improved their 3D MOT performance by 46.1% (p &lt; .001, d = 1.35) while the control group's performance only changed marginally (-2.1%, p = 1.00, d = -.09) from preto post-test. Post-hoc analyses are summarized in Table <ref type="table">2</ref>. All individual and group changes are displayed in Figure <ref type="figure" target="#fig_2">3</ref>. Table 2. Post-Hoc Comparisons from Pre-to Post-Test within Groups Control Experimental Variable Pre Test M (SD) Post Test M (SD) p, d Pre Test M (SD) Post Test M (SD) p, d 3D MOT 1.47 (.38) 1.44 (.34) 1.00, .09 1.52 (.40) 2.22 (.51) &lt;.001, 1.35 Stroop 46.93 (10.46) 54.13 (12.19) &lt;.001, 1.47 49.88 (11.12) 55.13 (14.33) .004, .86 Trails B 52.26 (11.88) 41.87 (8.98) .024, .75 53.33 (12.91) 45.19 (11.97) .068, .69 Decision Making .63(.11) .64 (.12) 1.00, .13 .59 (.09) .63 (.12) 1.00, .29 Note: Holm correction p used for post-hoc tests, d = Cohen's d effect size</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Near-transfer</head><p>Stroop Test. The ANOVA revealed a significant main effect for time (F (1,29) = 39.04, p &lt; .001, η p 2 = .57). However, the main effect for group (F (1,29) = .21, p = .65, η p 2 = .01) and the interaction effect were non-significant (F (1,29) = .26, p = .34, η p 2 = .03). Taken together, this indicates that both groups improved their correct responses on the Stroop test at a similar rate over time. Accordingly, post-hoc tests revealed significant changes from pre-to post-test for the experimental (p = .004, d = .86) and the control group (p &lt; .001, d = 1.47) with medium to large effect sizes.</p><p>Trails B. The ANOVA revealed a significant main effect for time (F (1,29) = 16.09, p &lt; .001, η p 2 = .36). However, the main effect for group (F (1,29) = .40, p = .53, η p 2 = .01) and the interaction effect were non-significant (F (1,29) = .24, p = .63, η p 2 = .01). The findings indicate that both groups improved in the speed of completion of the task in a similar fashion over time. Post-hoc tests revealed a significant improvement from pre-to post-test on the Trails B task in the control group (p = .02, d = .75), while the improvement in the experimental approached significance (p = .07, d = .69). Both improvements showed medium effect sizes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Far-transfer</head><p>Decision-making. The ANOVA revealed a non-significant main effect for time (F (1,29) = 1.44, p = .24, η p 2 = .05) and for group (F (1,29) = .56, p = .46, η p 2 = .02). The interaction effect was nonsignificant as well (F (1,29) = .24, p = .63, η p 2 = .01). This indicates that both groups did not improve on the decision-making task. Accordingly, the post-hoc tests for the experimental (p = 1.00, d = .29) and control group (p = 1.00, d = .13) from pre-to posttest were non-significant with small effect sizes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The purpose of the present study was to reexamine the impact of 3D MOT training on decision-making in soccer athletes. The present study utilized a similar interventional protocol of previous research <ref type="bibr" target="#b18">(Romeas et al. 2016</ref>) and added some methodological improvements (i.e., larger sample size based on power analysis, near-transfer assessment, validated test of decisionmaking in soccer). While the manipulation check confirmed the enhancement of 3D MOT performance due to the intervention, the hypothesis that the 3D MOT training would lead to improvements in near-and far-transfer was not confirmed. The experimental group experienced a significant gain in 3D MOT performance (46.1%), while the control group did not (-2.1%). While there was a significant improvement over time on the near-transfer measures, both groups improved at the same rate, indicating that the improvement could be due to repetition/ training rather than the intervention. The lack of a near-transfer of 3D MOT training is in line with recent evidence. For example, <ref type="bibr" target="#b9">Harris et al. (2020)</ref> also found no evidence of near transfer after a 12-week 3D MOT training in 84 undergraduate students. The present findings also stand in contrast to other studies. For example, <ref type="bibr" target="#b19">Scharfen and Memmert (2021)</ref> found a small near-transfer effect after a 10-week 3D MOT training protocol in a sample of 29 elite youth soccer athletes. <ref type="bibr" target="#b5">Fleddermann et al. (2019)</ref> found larger near-transfer effects in processing speed and sustained attention among a sample of 22 volleyball athletes. These finding could not be confirmed in the present study.</p><p>Moreover, the present study examined the far transfer effect of the 3D MOT training to decision-making. Both groups only improved marginally (experimental group: 3.65% and control group: 1.52%) and non-significantly on the decision-making task. The findings question a potential transfer of the 3D MOT training to decision-making in soccer athletes, which is consistent with existing research in sport. For example, two studies showed no far-transfer effects of 3D MOT training to decisionmaking performance in soccer <ref type="bibr" target="#b19">(Scharfen and Memmert 2021)</ref> and volleyball <ref type="bibr" target="#b5">(Fleddermann et al. 2019)</ref>. However, the lack of a far-transfer effect in the present study contradicts other research evidence in sport. Most notably, the transfer effect of 3D MOT to passing decision-making detected in <ref type="bibr" target="#b18">Romeas et al. (2016)</ref> study could not be replicated in the present study.</p><p>The lack of far-transfer effects of 3D MOT may be attributable to the specificity of the training task. That is, 3D MOT may resemble some aspects of dynamic situations in soccer, yet, may not replicate the entire complexity of a sportspecific situation. <ref type="bibr" target="#b17">Romeas et al. (2019)</ref> stated that 3D MOT 'lacks specificity and does not include the combination of perception and action that is typically present in the sport environment' (p. 2). Accordingly, Hadlow and colleagues' MPTF suggests that the transfer of 3D MOT should slightly exceed those of touch-boards (e.g., D2, Fitlights), but are inferior to more immersive approaches (e.g., virtual reality). As such, VR-supported perceptual cognitive training may be more advantageous to train decision-making in soccer as the technology permits the display of scenes that are more sport-specific and realistic in visualization and task response. Future research in this area is warranted.</p><p>The findings of the present study should be interpreted in light of its limitations. While the study employed a randomizedcontrolled design, the lack of blinding of participants may have affected the results. Unfortunately, blinding was not possible because athletes were recruited from a male and female soccer team from the same institution. Because of the frequent interactions between teammates, there may have been information exchanged on the training conditions. The recruitment from a single NCAA Division III institution further limits the generalizability of the present study to other contexts. While <ref type="bibr" target="#b18">Romeas et al. (2016)</ref> recruited from a similar population (i.e., Canadian university soccer athletes), higher-level athletes may respond differently to the 3D MOT training <ref type="bibr" target="#b2">(Faubert 2013)</ref>. In addition, the use of a passive control group would improve the design of the present study because it may reveal any change in task performance without a placebo treatment. Future research with larger sample sizes to test treatments in multiple experimental and control groups may be warranted. Similar to <ref type="bibr" target="#b18">Romeas et al. (2016)</ref> the present study employed a rather short intervention (10 training session over 4 weeks), which are more feasible in a busy university sport season. Research examining longitudinal effects of 3D MOT is presently absent but is an area worth exploring in the future.</p><p>A last limitation revolves around the assessment of transfer used in this study. For near-transfer, standardized and wellvalidated tests of attention were used. Because the experimental and control group improved significantly on both tests, a learning effect is very likely, inhibiting the assessment of the contribution of 3D MOT on the tested cognitive domains. While a practice trial for both tests were provided to all participants at each test time, a possible avenue to prevent the presence of a learning effect may be the provision of additional practice trials before the actual measurement.</p><p>While standardization for the assessment of far transfer provides an important advantage for internal validity, it should be noted that the external validity of the test, in other words the real-life representativeness, may be jeopardized. The scenes of the chosen test only mimicked a handful of sport-specific situations that a player may encounter during a soccer match, but not the entire complexity of a soccer competition. This issue is common in transfer testing in the perceptual cognitive training literature. <ref type="bibr" target="#b23">Williams (2019)</ref> argued that a truly representative design does not only capture potential links between perception and action but rather captures the full demands of competition with the highest degrees of specificity. For example, tests could include competition-specific stressors, such as crowd noise or a stadium atmosphere. Virtual reality applications may be used to introduce some of these stressors during tests. Because of the requirements in resources to create such tests, such as VR programming experience, it was deemed impossible for the present study. Nonetheless, future studies in perceptual cognitive training may utilize more representative and specific designs in transfer testing.</p><p>The current study adds to the mixed results of the transfer of perceptual cognitive training, and particularly 3D MOT, to enhance decision-making in soccer athletes <ref type="bibr" target="#b26">(Zentgraf et al. 2017;</ref><ref type="bibr" target="#b10">Harris et al. 2018</ref>). The results did not confirm an association of 3D MOT and decision-making in soccer. Researchers, sport psychology practitioners, coaches, and athletes should be aware that 3D MOT and other modalities of perceptual training may, if at all, only marginally improve perceptual cognitive skills and cognitive performance in sport. This interpretation aligns with the review of <ref type="bibr" target="#b21">Vater et al. (2021)</ref>, which suggests that the promotion of the Neurotracker as a training tool for athletes is premature as its near-and far-transfer effects are 'not there or not very solid' (p. 22) However, the effectiveness of 3D MOT might be improvable by combining it with other tasks. For example, 3D MOT could be performed with background videos of sport scenes or actual skill execution <ref type="bibr" target="#b17">(Romeas et al. 2019)</ref>. Whether 3D MOT dual-task approaches could be effective to improve decision-making in soccer may be the aim of future research endeavors.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Flow Chart of Participant Recruitment and Retention</figDesc><graphic coords="3,106.30,53.21,396.84,239.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Test Setup of Decision-Making Video Battery Note: Distance in picture was reduced for demonstration</figDesc><graphic coords="5,106.30,53.23,396.84,213.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Changes in Individual and Group Scores across Time for all Tests Note: light grey = control; dark grey = experimental; black = means with 95% confidence intervals</figDesc><graphic coords="6,106.30,53.21,396.84,366.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Descriptives of the Sample Demographics and Dependent Variables. Continuous variables are presented in Means and Standard Deviations, Categorical variables are presented in counts and percentages. completed the pre-test and were scheduled for 10 training sessions over a four-week span. At the end of the training sessions, athletes were scheduled for a post-test. All tests and training sessions were conducted by trained research assistants.</figDesc><table><row><cell></cell><cell>All</cell><cell>Experimental</cell><cell>Control</cell><cell></cell></row><row><cell>Variable</cell><cell>(N = 31)</cell><cell>(n = 16)</cell><cell>(n = 15)</cell><cell>p, ES</cell></row><row><cell>Age</cell><cell>19.13</cell><cell>19.31</cell><cell>18.93</cell><cell>.40</cell></row><row><cell></cell><cell>(.92)</cell><cell>(1.14)</cell><cell>(.59)</cell><cell></cell></row><row><cell>Sex</cell><cell>Male = 15</cell><cell>Male = 8 (50%)</cell><cell>Male = 7 (46.67%)</cell><cell>.85</cell></row><row><cell></cell><cell>Female = 16</cell><cell>Female = 8 (50%)</cell><cell>Female = 8 (53.33%)</cell><cell></cell></row><row><cell>Experience Soccer</cell><cell>13.97</cell><cell>13.50</cell><cell>14.47</cell><cell>.14</cell></row><row><cell>(in years)</cell><cell>(2.04)</cell><cell>(1.97)</cell><cell>(2.07)</cell><cell></cell></row><row><cell>Experience Collegiate Soccer (in years)</cell><cell>1.68</cell><cell>1.75</cell><cell>1.60</cell><cell>.68</cell></row><row><cell></cell><cell>(.79)</cell><cell>(.86)</cell><cell>(.86)</cell><cell></cell></row><row><cell>3D MOT Pre</cell><cell>1.50</cell><cell>1.52</cell><cell>1.47</cell><cell>.75</cell></row><row><cell>(speed threshold)</cell><cell>(.39)</cell><cell>(.40)</cell><cell>(.38)</cell><cell></cell></row><row><cell>3D MOT Post</cell><cell>1.84</cell><cell>2.22</cell><cell>1.44</cell><cell>&lt;.001, g = 1.72</cell></row><row><cell>(speed threshold)</cell><cell>(.58)</cell><cell>(.51)</cell><cell>(.34)</cell><cell></cell></row><row><cell>Stroop Pre</cell><cell>48.45</cell><cell>49.88</cell><cell>46.93</cell><cell>.25</cell></row><row><cell>(correct responses)</cell><cell>(10.73)</cell><cell>(11.12)</cell><cell>(10.46)</cell><cell></cell></row><row><cell>Stroop Post</cell><cell>54.65</cell><cell>55.13</cell><cell>54.13</cell><cell>.11</cell></row><row><cell>(correct responses)</cell><cell>(13.12)</cell><cell>(14.33)</cell><cell>(12.19)</cell><cell></cell></row><row><cell>Trails B Pre</cell><cell>52.81</cell><cell>53.33</cell><cell>52.26</cell><cell>.81</cell></row><row><cell>(in seconds)</cell><cell>(12.22)</cell><cell>(12.91)</cell><cell>(11.88)</cell><cell></cell></row><row><cell>Trails B Post</cell><cell>43.58</cell><cell>45.19</cell><cell>41.87</cell><cell>.31</cell></row><row><cell>(in seconds)</cell><cell>(10.59)</cell><cell>(11.97)</cell><cell>(8.98)</cell><cell></cell></row><row><cell>Decision Making Pre</cell><cell>60.82</cell><cell>59.11</cell><cell>62.64</cell><cell>.35</cell></row><row><cell>(% Accuracy)</cell><cell>(10.20)</cell><cell>(9.34)</cell><cell>(11.07)</cell><cell></cell></row><row><cell>Decision Making Post</cell><cell>63.44</cell><cell>62.76</cell><cell>64.17</cell><cell>.74</cell></row><row><cell>(% Accuracy)</cell><cell>(11.51)</cell><cell>(11.63)</cell><cell>(11.74)</cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding</head></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Disclosure statement</head><p>No potential conflict of interest was reported by the author(s).</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Time to broaden the scope of research on anticipatory behavior: a case for the role of probabilistic information</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cañal-Bruland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mann</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2015.01518</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Psychol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1" to="3" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cañal-Bruland R, Mann DL. 2015. Time to broaden the scope of research on anticipatory behavior: a case for the role of probabilistic information. Front Psychol. 6:1-3. doi:10.3389/fpsyg.2015.01518</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Delis Kaplan Executive Function System: examiner&apos;s manual</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Delis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kaplan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kramer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<publisher>Psychological Corporation</publisher>
+			<pubPlace>San Antonio (TX)</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Delis DC, Kaplan E, Kramer JH. 2001. Delis Kaplan Executive Function System: examiner&apos;s manual. San Antonio (TX): Psychological Corporation.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Professional athletes have extraordinary skills for rapidly learning complex and neutral dynamic visual scenes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Faubert</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep01154</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="22" to="24" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Faubert J. 2013. Professional athletes have extraordinary skills for rapidly learning complex and neutral dynamic visual scenes. Sci Rep. 3(1):22-24. doi:10.1038/srep01154.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Prior perceptual-cognitive training builds mental resistance during acute physical fatigue in professional rugby athletes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Faubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barthes</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/505313</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BioRxiv</title>
+		<imprint>
+			<biblScope unit="volume">505313</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Faubert J, Barthes S. 2018. Prior perceptual-cognitive training builds mental resistance during acute physical fatigue in professional rugby athletes. BioRxiv. 505313. doi:10.1101/505313</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Perceptual-cognitive training of athletes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Faubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sidebottom</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/jcsp.6.1.85</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Sport Psychol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="85" to="102" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Faubert J, Sidebottom L. 2012. Perceptual-cognitive training of athletes. J Clin Sport Psychol. 6(1):85-102. doi:10.1123/jcsp.6.1.85.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Off-court generic perceptual-cognitive training in elite volleyball athletes: task-specific effects and levels of transfer</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fleddermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Heppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zentgraf</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2019.01599</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Psychol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1599</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fleddermann M, Heppe H, Zentgraf K. 2019. Off-court generic perceptual-cognitive training in elite volleyball athletes: task-specific effects and levels of transfer. Front Psychol. 10:1599. doi:10.3389/ fpsyg.2019.01599</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Does improved decision-making ability reduce the physiological demands of game-based activities in field sport athletes?</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Gabbett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Carius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mulvey</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0b013e3181887f34</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Condition Res</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2027" to="2035" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gabbett TJ, Carius J, Mulvey M. 2008. Does improved decision-making ability reduce the physiological demands of game-based activities in field sport athletes? J Strength Condition Res. 22(6):2027-2035. doi:10.1519/JSC.0b013e3181887f34.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Modified perceptual training in sport: a new classification framework</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Hadlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Panchuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Portus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Abernethy</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jsams.2018.01.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sci Med Sport</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="950" to="958" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hadlow SM, Panchuk D, Mann DL, Portus MR, Abernethy B. 2018. Modified perceptual training in sport: a new classification framework. J Sci Med Sport. 21(9):950-958. doi:10.1016/j.jsams.2018.01.011.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Can Multiple Object Tracking Predict Laparoscopic Surgical Skills?</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mccaffrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Butz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Post</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howlett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Dorsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lyster</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jsurg.2015.11.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Surg Educ</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="386" to="390" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harenberg S, McCaffrey R, Butz M, Post D, Howlett J, Dorsch KD, Lyster K. 2016. Can Multiple Object Tracking Predict Laparoscopic Surgical Skills? J Surg Educ. 73(3):386-390. doi:10.1016/j.jsurg.2015.11.013.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Testing the effects of 3D Multiple Object Tracking training on near, mid and far transfer</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sjr</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Meder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Vine</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2020.00196</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Psychol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harris DJ, Wilson MR, Smith SJR, Meder N, Vine SJ. 2020. Testing the effects of 3D Multiple Object Tracking training on near, mid and far transfer. Front Psychol. 11:1-7. doi:10.3389/fpsyg.2020.00196</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A systematic review of commercial cognitive training devices: implications for use in sport</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Vine</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2018.00709</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Psychol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">709</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harris DJ, Wilson MR, Vine SJ. 2018. A systematic review of commercial cognitive training devices: implications for use in sport. Front Psychol. 9:709. doi:10.3389/fpsyg.2018.00709</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Visual tracking speed is related to basketball-specific measures of performance in NBA players</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Magine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Hoffman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Wells</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Rogowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Townsend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Stout</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0000000000000550</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Condition Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2406" to="2412" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Magine GT, Hoffman JR, Wells AJ, Gonzalez AM, Rogowski JP, Townsend JR, Stout JR. 2014. Visual tracking speed is related to basketball-specific measures of performance in NBA players. J Strength Condition Res. 28 (9):2406-2412. doi:10.1519/JSC.0000000000000550.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Perceptual-cognitive expertise in sport: a meta-analysis</title>
+		<author>
+			<persName><forename type="first">Dty</forename><surname>Mann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Janelle</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/jsep.29.4.457</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Exerc Psychol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="457" to="478" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mann DTY, Williams AM, Ward P, Janelle CM. 2007. Perceptual-cognitive expertise in sport: a meta-analysis. J Sport Exerc Psychol. 29(4):457-478. doi:10.1123/jsep.29.4.457.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Transfer of expert visual-perceptual-motor skill in sport</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rosalie</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Anticipation and Decision Making in Sport</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Jackson</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="375" to="394" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Müller S, Rosalie S. 2019. Transfer of expert visual-perceptual-motor skill in sport. In: Williams AM, Jackson RC, editors. Anticipation and Decision Making in Sport. Routledge; p. 375-394. New York, USA.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Decision-making skills of high-performance youth soccer players</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Murr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Larkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Höner</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12662-020-00687-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">German J Exerc Sport Res</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="102" to="111" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Murr D, Larkin P, Höner O. 2021. Decision-making skills of high-performance youth soccer players. German J Exerc Sport Res. 51(1):102-111. doi:10.1007/s12662-020-00687-2.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">T-ECHO: model of decision making to explain behaviour in experiments and simulations under time pressure</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Raab</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1469-0292(01)00014-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychol Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="151" to="171" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Raab M. 2002. T-ECHO: model of decision making to explain behaviour in experiments and simulations under time pressure. Psychol Sport Exerc. 3 (2):151-171. doi:10.1016/S1469-0292(01)00014-0.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<monogr>
+		<title level="m" type="main">The Halstead-Reitan Neuropsycholgical Test Battery: therapy and clinical interpretation</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Reitan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wolfson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1985">1985</date>
+			<publisher>Neuropsychological Press</publisher>
+			<pubPlace>Tucson (AZ)</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reitan RM, Wolfson D. 1985. The Halstead-Reitan Neuropsycholgical Test Battery: therapy and clinical interpretation. Tucson (AZ): Neuropsychological Press.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Combining 3D-MOT with sport decision-making for perceptual-cognitive training in virtual reality</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Romeas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chaumillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Labbe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Faubert</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0031512519860286</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Percept Mot Skills</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="27" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Romeas T, Chaumillon R, Labbe D, Faubert J. 2019. Combining 3D-MOT with sport decision-making for perceptual-cognitive training in virtual reality. Percept Mot Skills. 1-27. doi:10.1177/0031512519860286</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">3D-Multiple Object Tracking training task improves passing decision-making accuracy in soccer players</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Romeas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guldner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Faubert</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2015.06.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychol Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Romeas T, Guldner A, Faubert J. 2016. 3D-Multiple Object Tracking training task improves passing decision-making accuracy in soccer players. Psychol Sport Exerc. 22:1-9. doi:10.1016/j.psychsport.2015.06.002</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Cognitive training in elite soccer players: evidence of narrow, but not broad transfer to visual and executive function</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Scharfen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Memmert</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12662-020-00699-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">German J Exerc Sport Res</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="135" to="145" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scharfen HE, Memmert D. 2021. Cognitive training in elite soccer players: evidence of narrow, but not broad transfer to visual and executive function. German J Exerc Sport Res. 51(2):135-145. doi:10.1007/s12662- 020-00699-y.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Trail making test A and B: normative data stratified by age and education</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Tombaugh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0887-6177(03)00039-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Archives Clin Neuropsychol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="203" to="214" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tombaugh TN. 2004. Trail making test A and B: normative data stratified by age and education. Archives Clin Neuropsychol. 19(2):203-214. doi:10.1016/S0887-6177(03)00039-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A critical systematic review of the Neurotracker perceptual-cognitive training tool</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vater</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Holocombe</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/s13423-021-01892-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pschyo Bulleting Rev. 2021</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vater C, Gray R, Holocombe A. 2021. A critical systematic review of the Neurotracker perceptual-cognitive training tool. Pschyo Bulleting Rev. 2021. doi:10.3758/s13423-021-01892-2</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Perceiving the intentions of others: how do skilled performers make anticipation judgments?</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0079-6123(09)01307-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prog Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="73" to="83" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Williams AM. 2009. Perceiving the intentions of others: how do skilled performers make anticipation judgments? Prog Brain Res. 174:73-83. doi:10.1016/S0079-6123(09)01307-7</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Perceptual-cognitive expertise and simulation-based training in sport</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Skill Acquisition in Sport</title>
+		<editor>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Hodges</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="237" to="254" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Williams AM. 2019. Perceptual-cognitive expertise and simulation-based training in sport. In: Hodges NA, Williams AM, editors. Skill Acquisition in Sport. Taylor &amp; Francis; p. 237-254.New York, USA: Routledge.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Anticipation</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Casanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Toledo</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-28099-8</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Encyclopedia of Personality and Individual Differences. 1st ed</title>
+		<editor>
+			<persName><forename type="first">V</forename><surname>Zeigler-Hill</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Shackelford</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Williams AM, Casanova F, Toledo I. 2020. Anticipation. In: Zeigler-Hill V, Shackelford TK, editors. Encyclopedia of Personality and Individual Differences. 1st ed. Berlin: Springer; doi:10.1007/978-3-319-28099-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Anticipation in sport: fifty years on, what have we learned and what research still needs to be undertaken?</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Jackson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2018.11.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychol Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="16" to="24" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Williams AM, Jackson RC. 2019. Anticipation in sport: fifty years on, what have we learned and what research still needs to be undertaken? Psychol Sport Exerc. 42:16-24. doi:10.1016/j.psychsport.2018.11.014</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Training in interaktiven Sportarten</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zentgraf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Heppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M-T</forename><surname>Fleddermann</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12662-017-0441-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">German J Exerc Sport Res</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="2" to="14" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zentgraf K, Heppe H, Fleddermann M-T. 2017. Training in interaktiven Sportarten. German J Exerc Sport Res. 47(1):2-14. doi:10.1007/s12662- 017-0441-8.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

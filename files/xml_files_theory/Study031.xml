@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Neuromuscular and metabolic responses during repeated bouts of loaded downhill walking</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>PhD</roleName><forename type="first">Emeric</forename><surname>Chalchat</surname></persName>
+							<email>emchalchat@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Recherche Biomédicale des Armées</orgName>
+								<orgName type="institution">Bretigny-Sur-Orge</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Université Clermont Auvergne</orgName>
+								<address>
+									<postCode>AME2P F-63000</postCode>
+									<settlement>Clermont-Ferrand</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Julien</forename><surname>Siracusa</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Recherche Biomédicale des Armées</orgName>
+								<orgName type="institution">Bretigny-Sur-Orge</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="laboratory">LBEPS</orgName>
+								<orgName type="institution" key="instit1">Univ Evry</orgName>
+								<orgName type="institution" key="instit2">IRBA</orgName>
+								<orgName type="institution" key="instit3">Université Paris Saclay</orgName>
+								<address>
+									<postCode>91025</postCode>
+									<settlement>Evry</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Luis</forename><surname>Peñailillo</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Exercise and Rehabilitation Sciences Institute</orgName>
+								<orgName type="department" key="dep2">School of Physical Therapy</orgName>
+								<orgName type="department" key="dep3">Faculty of Rehabilitation Sciences</orgName>
+								<orgName type="institution">Universidad Andres Bello</orgName>
+								<address>
+									<postCode>7591538</postCode>
+									<settlement>Santiago</settlement>
+									<country key="CL">Chile</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alexandra</forename><surname>Malgoyre</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Recherche Biomédicale des Armées</orgName>
+								<orgName type="institution">Bretigny-Sur-Orge</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="laboratory">LBEPS</orgName>
+								<orgName type="institution" key="instit1">Univ Evry</orgName>
+								<orgName type="institution" key="instit2">IRBA</orgName>
+								<orgName type="institution" key="instit3">Université Paris Saclay</orgName>
+								<address>
+									<postCode>91025</postCode>
+									<settlement>Evry</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Cyprien</forename><surname>Bourrilhon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Recherche Biomédicale des Armées</orgName>
+								<orgName type="institution">Bretigny-Sur-Orge</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="laboratory">LBEPS</orgName>
+								<orgName type="institution" key="instit1">Univ Evry</orgName>
+								<orgName type="institution" key="instit2">IRBA</orgName>
+								<orgName type="institution" key="instit3">Université Paris Saclay</orgName>
+								<address>
+									<postCode>91025</postCode>
+									<settlement>Evry</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Keyne</forename><surname>Charlot</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Recherche Biomédicale des Armées</orgName>
+								<orgName type="institution">Bretigny-Sur-Orge</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="laboratory">LBEPS</orgName>
+								<orgName type="institution" key="instit1">Univ Evry</orgName>
+								<orgName type="institution" key="instit2">IRBA</orgName>
+								<orgName type="institution" key="instit3">Université Paris Saclay</orgName>
+								<address>
+									<postCode>91025</postCode>
+									<settlement>Evry</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vincent</forename><surname>Martin</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Université Clermont Auvergne</orgName>
+								<address>
+									<postCode>AME2P F-63000</postCode>
+									<settlement>Clermont-Ferrand</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">Institut Universitaire de France (IUF)</orgName>
+								<address>
+									<settlement>Paris</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sebastian</forename><surname>Garcia-Vicencio</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Recherche Biomédicale des Armées</orgName>
+								<orgName type="institution">Bretigny-Sur-Orge</orgName>
+								<address>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="laboratory">LBEPS</orgName>
+								<orgName type="institution" key="instit1">Univ Evry</orgName>
+								<orgName type="institution" key="instit2">IRBA</orgName>
+								<orgName type="institution" key="instit3">Université Paris Saclay</orgName>
+								<address>
+									<postCode>91025</postCode>
+									<settlement>Evry</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Institut de Recherche Biomédicale des Armées</orgName>
+								<orgName type="institution">Human Motion Analysis</orgName>
+								<address>
+									<addrLine>1 place du général Valérie André</addrLine>
+									<postCode>91223</postCode>
+									<settlement>Humanfab Aix-en-Provence Bretigny-Sur-Orge</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Neuromuscular and metabolic responses during repeated bouts of loaded downhill walking</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0D2C1ACF139832218276A1A4DDDEDD36</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:10+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Eccentric exercise</term>
+					<term>Muscle damage</term>
+					<term>Fatigue</term>
+					<term>Muscle stiffness</term>
+					<term>Elastography</term>
+					<term>Repeated bout effect</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction:</head><p>The aim of this study was to compare vastus lateralis (VL) and rectus femoris (RF) muscles for their nervous and mechanical adaptations during two bouts of downhill walking (DW) with load carriage performed two weeks apart. Moreover, we investigated cardio-metabolic and perceived exertion responses during both DW bouts.</p><p>Methods: Seventeen participants performed two 45-min sessions of loaded DW (30% of body mass; slope: -25 %; speed: 4.5 km•h -1 ) separated by two weeks. Rating of perceived exertion (RPE), cost of walking (Cw), heart rate (HR), and EMG activity of thigh muscles were assessed during the DW. Muscle shear elastic modulus (µ) of RF and VL were assessed before each exercise bout. Maximal voluntary contraction (MVC) torque was assessed before (PRE), immediately after (POST), 24 and 48h after the two exercise bouts.</p><p>Results: MVC torque decreased from POST (-23.7±9.2%) to 48h (-19.2±11.9%) after the first exercise (Ex1), whereas it was significantly reduced only at POST (-14.6±11.0%) after the second exercise (Ex2) (p &lt; 0.001). RPE (Ex1: 12.3±1.9; Ex2: 10.8±2.0), HR (Ex1: 156±23 bpm; Ex2: 145±25 bpm), Cw (Ex1: 4.5±0.9 J•m -1 •kg -1 ; Ex2: 4.1±0.7 J•m -1 •kg -1 ) and RF EMG activity (Ex1: 0.071±0.028 mV; Ex2: 0.041±0.014 mV) were significantly decreased during Ex2 compared to Ex1 (p &lt; 0.01). RF μ was significantly greater in Ex2 (0.44±0.18) compared to Ex1 (0.56±0.27; p &lt; 0.001).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion:</head><p>The RF muscle displayed specific mechanical and nervous adaptations to repeated DW bouts as compared to VL. Moreover, the muscle adaptations conferred by the first bout of DW could have induced greater exercise efficiency, inducing lesser perceived exertion and cardio-metabolic demand when the same exercise was repeated two weeks later.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Exercise including unaccustomed eccentric (i.e., lengthening) contractions induces muscle damage that is characterized by a wide range of symptoms such as a prolonged reduction of muscle force and power production (i.e., muscle function) after exercise <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b1">2)</ref>.</p><p>Moreover, the reduction in muscle function is accompanied by the changes in other indirect markers of exercise-induced muscle damage (EIMD) (e.g., muscle soreness, increases in muscle stiffness and proteins in the blood or reduced range of motion) which can last for several days to weeks after exercise <ref type="bibr" target="#b2">(3)</ref>. However, when a secondary bout of eccentric exercise is performed, muscle damage is much less, probably due to the neuromuscular (NM) system becomes less susceptible to EIMD <ref type="bibr" target="#b3">(4,</ref><ref type="bibr" target="#b4">5)</ref>. This protective effect against muscle damage is widely known as the repeated bout effect (RBE) and has been related to cellular, neural, inflammatory, mechanical adaptations, and extracellular matrix remodeling that might work independently or synergistically to generate muscle protection against subsequent damage <ref type="bibr" target="#b5">(6)</ref>.</p><p>Interestingly, Penailillo et al. <ref type="bibr" target="#b6">(7)</ref> showed a lower metabolic cost during the second bout of eccentric cycling compared to the first bout performed two weeks before. However, although positive adaptations to repeated eccentric exercise may have a beneficial effect on aerobic performance in healthy and pathological populations <ref type="bibr" target="#b7">(8)</ref>, the exact mechanisms involved in this adaptation are not fully understood.</p><p>Previous studies suggested that neural adaptations may occur in response to a single eccentric exercise <ref type="bibr" target="#b8">(9,</ref><ref type="bibr" target="#b9">10)</ref> or eccentric training <ref type="bibr" target="#b10">(11)</ref>, and may lead to a reduced energy cost during a repeated bout of eccentric exercise, translating into lower cardio-metabolic responses <ref type="bibr" target="#b6">(7,</ref><ref type="bibr" target="#b8">9)</ref>. Specifically, the central nervous system may adjust its recruitment strategies to distribute the mechanical stress over a greater motor unit pool to protect the muscle from damage during a subsequent exercise. Penailillo et al. <ref type="bibr" target="#b8">(9)</ref> found lesser EMG activity responses during the second eccentric bout compared to the first performed two weeks before. However, some studies <ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b13">(14)</ref> failed to find differences in EMG activity between two eccentric exercises performed 1-4 weeks apart. Hyldahl et al. <ref type="bibr" target="#b5">(6)</ref> also reported that skeletal muscle extracellular matrix remodeling could increase passive stiffness of the whole muscle the weeks following a bout of eccentric exercise to confer protection against a subsequent damaging exercise bout.</p><p>As a result, muscles could become more resistant to mechanical strain during the second bout.</p><p>Consistent with the assumption that the muscle could become more resistant to overstretching, it has been recently shown that mechanical changes (i.e., increase in muscle stiffness) could partly contribute to explain the RBE (i.e., lower fatigue and quicker force-generating capacity recovery) <ref type="bibr" target="#b14">(15)</ref>. As EIMD could induce an increase in EMG activity during submaximal contractions <ref type="bibr" target="#b15">(16)</ref>, the protection conferred by mechanical adaptations would translate into a lesser EMG activity increase during a second bout of eccentric exercise at the same workload.</p><p>The protection conferred by neural or mechanical adaptations to eccentric exercise may have two complementary effects: it may accelerate the recovery after the damaging exercise and it could modify the NM strategies to limit the development of NM fatigue and muscle damage during the course of the repeated exercise bout. Indeed, it has been shown that NM fatigue was lower immediately after a second bout compared to a first bout <ref type="bibr" target="#b16">(17,</ref><ref type="bibr" target="#b17">18)</ref>.</p><p>Traditionally, the literature on the RBE has essentially focused on the recovery kinetics of symptoms and NM properties. Yet, understanding how the NM system behaves during a repeated bout of eccentric exercise is fundamental for our knowledge and understanding of the RBE phenomenon. Moreover, it has been shown that mechanical and neural adaptations and protection conferred by an eccentric exercise/training vary between individual muscles within a muscle group. Long-term changes in muscle stiffness was different between knee extensor muscles (i.e., Rectus Femoris (RF) vs. Vastus Lateralis (VL)) after a single eccentric exercise <ref type="bibr" target="#b14">(15)</ref>. It is possible that RF and VL are heterogeneously stretched during the DW exercise. Thus, as RF μ was more affected than VL μ after a DW, it could be that the mechanical stress induced by the walking position during loaded DW placed greater strain on the RF than the VL, leading to different adaptations <ref type="bibr" target="#b5">(6)</ref>. Indeed, the trunk position and the load distribution during loaded DW favors hip extension, which induces a relatively greater lengthening of RF than VL due to their biomechanical properties (i.e., mono-and bi-articular muscles). Consequently, RF may exercise at a longer muscle length and could be more susceptible to muscle damage and adaptations. Moreover, changes in maximal voluntary EMG activity were different between plantar flexors muscles (i.e., Soleus vs. Gastrocnemius Medialis) after a 4-week eccentric training <ref type="bibr" target="#b10">(11)</ref>. It is therefore suggested that changes in neuromechanical coupling during the course of two eccentric exercises performed several weeks apart may differ between muscles within a muscle group. However, it is not known whether the mechanical adaptations to eccentric exercise/training could differently affect muscle activation, an indicator of NM efficiency and fatigue, during an ecological exercise task (e.g., locomotion). Therefore, the aim of this study was to investigate how VL and RF activity adapt during two downhill walking (DW) with load carriage performed two weeks apart, a model known to induce mechanical adaptations on RF but not on VL <ref type="bibr" target="#b14">(15)</ref>. We hypothesized that neural and mechanical adaptations conferred by the repeated bout effect would be greater in RF than VL due to exercise model specificity. Moreover, we hypothesized a lesser cardio-metabolic demand and perceived exertion responses during the second exercise bout compared to the first.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Seventeen young males (age: 31.6 ± 5.7 years, body mass: 77.8 ± 11.1 kg, height: 180 ± 6 cm, body mass index: 24.0 ± 2.4 kg•m -2 , and fat mass: 15.6 ± 5.3 %) were fully informed of the experimental procedures, gave their written informed consent and agreed to participate in this study. The sample size was calculated on the basis of an α level of 0.05 and a power (1 -α) of 0.8, based on the difference in EMG activity between initial and secondary bouts of eccentric exercise reported previously <ref type="bibr" target="#b8">(9)</ref>. Participants performed regular physical activity (between 3 and 8 h•w -1 ), had no recent history of muscular, joint, or bone disorders, and did not take any medication or supplementation that could affect NM responses. None of them experienced strenuous mountain trekking and/or DW and none had been involved in a resistance-training program in the past 6 months. Participants were instructed not to perform unaccustomed activities and any interventions that may interfere with recovery such as massage, icing, nutritional supplementation, and anti-inflammatory drugs during the experimental period. Each participant performed a familiarization session, consisting of a complete medical examination, including the collection of anthropometric data and complete familiarization with the experimental measurements. No DW was performed during the familiarization session to avoid any adaptation related to the repeated bout effect. The study was conducted in accordance with the Declaration of Helsinki <ref type="bibr" target="#b18">(19)</ref> and was approved by the Regional Ethics Committee (CPP Ile-de-France 8, France, registration number: 2019-A01210-57, SMILE).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study design</head><p>A schematic representation of the protocol is shown in Figure <ref type="figure" target="#fig_1">1</ref>. Participants performed two 45-min DW bouts on a treadmill (pulsar 3p 4.0, HP cosmos, Warwickshire, UK) separated by two weeks at a gradient of -25 % while carrying a load equivalent to 30 % of the body mass (carrying: a weighted vest: 10 % of the body mass; a backpack: 20 % of their body mass). Each participant performed DW bouts at the same time of day (in the morning) to control for withinparticipant diurnal variation. Before DW exercises, participants performed a 5-min warm-up consisting in walking while carrying loads with progressive increases of velocity (from 2.5 to 4.5 km•h -1 ) and gradient (from 0 to -25 %). The exercise started when the treadmill gradient was set to -25 % and velocity to 4.5 km•h -1 and the participants were instructed to walk at their own preferred stride length and frequency. Five participants were not able to finish the 45-min walking bout and performed the first exercise bout to exhaustion (30.2 ± 8.6 min). These participants performed the same exercise duration during the second exercise.</p><p>Surface EMG amplitude of VL, RF and biceps femoris (BF), spatio-temporal gait parameters (number of steps, and stance, and swing duration), metabolic variables including heart rate (HR), oxygen consumption (VO2), and rating of perceived exertion (RPE) were obtained during walking. Maximal voluntary contraction (MVC) torque and quadriceps muscle soreness were assessed before (PRE), immediately after (POST), and 24 and 48 h after the two DW bouts, as indirect markers of muscle damage. Resting shear elastic modulus (µ) of the VL and the RF were assessed by shear wave elastography (SWE) before each exercise (i.e., 14 days apart), as markers of muscle stiffness adaptations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measurements Before and after exercise</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Maximal voluntary contraction torque</head><p>MVC torque was measured using an isokinetic dynamometer (Cybex Norm, Lumex, Ronkonkoma, NY, United States). Participants were comfortably positioned on an adjustable chair with the hip joint flexed at 70° (0° = neutral supine position). The axis of rotation of the dynamometer was aligned with the femoral condyles of the femur and the lever arm was attached 1-2 cm above the malleolus with a Velcro strap. All measurements were taken from the participant's right leg (knee angle = 90°; 0° = knee fully extended). Torque data were corrected for gravity, digitized and exported at a rate of 2 kHz to an external analog-to-digital converter (Powerlab 16/35; ADInstruments, New South Wales, Australia) driven by the Labchart pro 8.1 software (ADInstruments, New South Wales, Australia). During each 5-s MVC, the participants were instructed to grip the lateral handles of the seat in order to stabilize the pelvis and were strongly encouraged by the investigator to push as fast and hard as possible.</p><p>Two MVC were performed with a 2-min rest period between each contraction. MVC torque was determined as the peak torque reached during the maximal effort and the higher value was used for further analyses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Muscle soreness</head><p>The magnitude of muscle soreness of the whole quadriceps was assessed using a visual analog scale, consisting of a 100-mm line representing "no pain" at one end (0 mm), and "very, very painful" at the other (100 mm), while performing a single squat over a 90°of knee range of motion.</p><p>An algometer (NOD, OT Bioelettronica, Turino, Italy) with a rigid plastic rod covered by a rubber surface with an area of 1.0 cm 2 and a scale ranging from 0 to 500 kPa was used to measure muscle pain pressure threshold (PPT). First, the procedures were explained clearly to the subject. The participants were evaluated in a sitting position with the knee placed at 90° of flexion (0° = knee fully extended), in a relaxed state. The compression pressure was applied on the mid portion of the VL and RF muscles. The pressure was applied vertically, and it increased at a constant rate of 50 kPa per second. Participants were asked to say "stop" when feeling muscle pain or discomfort. Two repetitive measurements were performed for each muscle at an interval of 60 s.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resting shear elastic modulus</head><p>An ultrafast ultrasound scanner (Aixplorer version 12.2; Supersonic Imagine, Aix-en-Provence, France) coupled with a linear transducer array (SuperLinear 15-4; Supersonic Imagine, Aix-en-Provence, France) was used in both SWE (musculoskeletal preset, penetration, no persistence) and research modes, as previously proposed <ref type="bibr" target="#b19">(20)</ref>. The B-mode ultrasound was first set to determine the optimal transducer location and maximize the alignment between the transducer and the direction of the RF and VL muscle fascicles.</p><p>Transducer alignment was considered correct when muscle fascicles and aponeurosis could be delineated across the image without interruption. The transducer was then fixed at 50 % of the total muscle length respectively using a dynamic probe fixation device (with 360° adjustments, USONO, Eindhoven, Netherlands) placed over the skin, which was coated with a water-soluble transmission gel (Aquasonic, Parker laboratory, Fairfield, NJ, United States) to ensure acoustic coupling. This fixation allows to avoid any movement which could affect the position and the orientation of the probe, and avoid excessive pressure applied to the muscle. The position of the probe was marked on the skin using a permanent marker to ensure the same positioning along the experiment.</p><p>A fixed-size rectangular region of interest (ROI), i.e., the region in which shear-wave propagation was analyzed within the muscle, was placed in the middle of the B-mode image below the superficial aponeurosis within the VL and RF muscle belly. The position of the ROI was carefully located on the B-mode image during the familiarization session to be sure to keep the same ROI at each measurement point (before each exercise). Five-second SWE sequences (frame rate: 1-2 Hz) were performed at rest for VL and RF muscles with the knee joint positioned at 90° and 120° (0° = knee fully extended).</p><p>A two-dimensional real-time shear wave velocity (in m•s -1 ) color map with a spatial resolution of 1 × 1 mm was obtained, as previously described <ref type="bibr" target="#b14">(15,</ref><ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22)</ref>. The shear wave velocity raw data was then transferred to a workstation, converted to shear elastic modulus (μ) and analyzed using a MATLAB script developed in our laboratory (MathWorks, Natick, MA, United States). The μ was obtained as follows:</p><formula xml:id="formula_0">µ = 𝜌 • 𝑉𝑠²</formula><p>where ρ is the muscle density (1,000 kg•m -3 ) and Vs is the shear wave velocity (in m•s -1 ). The μ values were averaged over the ROI (a ~36 × 114 matrix) without the empty (0 m•s -1 ) and saturated (16.32 m•s -1 ) values, and the average of 5-8 consecutive reconstructed images from raw data (available for Aixplorer version 12.2 with research pack) was used for subsequent analyses. As previously described by Lacourpaille et al. <ref type="bibr" target="#b22">(23)</ref>, the slope of the relationship between the change in μ and the knee joint angle of 90° and 120° at each time point (before each exercise) was calculated to compare VL and RF μ, regardless of their relative length.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>During exercises</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Spatio-temporal parameters of DW</head><p>Participants were equipped with four tri-axial inertial sensors with EMG all-in-one system (Trigno Avanti System, Delsys, Boston, Massachusetts, USA) to assess the kinematic and synchronize it to EMG data from RF, VL and BF muscles. Sensors were attached with tape and placed above and posterior to the right and left ankles (over the soleus muscle) and on the proximal third of the leg over the tibialis anterior muscle. The sampling frequency was set to 143 Hz and 3D signals were synchronized and continuously recorded over the entire DW exercise using an external analog-to-digital converter (Powerlab 16/35; ADInstruments, New South Wales, Australia) driven by the LabChart pro 8.1 software (ADInstruments, New South Wales, Australia). Signals were then filtered using a second-order zero-lag bidirectional Butterworth filter (cutoff of 10 Hz) <ref type="bibr" target="#b23">(24)</ref>. Primary kinematic parameters, including 3D angular velocity and 3D accelerations, were used to label automatically each gait phase from foot switches (foot contact and foot off). The gait event was defined as 0 to 100 % from the first left heel contact to the next one. The heel contact was identified as the negative peaks of mediallateral angular velocity obtained from the gyroscope occurring in heel contact before the instant of the minimum peak of anterior-posterior acceleration. Then, four phases during stance were defined: loading response, midstance, terminal stance, and pre-swing. Since foot switches provide no information during the swing, the swing phase was defined as the total duration of the swing, i.e., not defined into any subphases. To confirm the first heel contact, a video camera synchronized to signals (video capture module) driven by the LabChart Pro 8.1 software (ADInstruments, New South Wales, Australia) was used. Stance, and swing duration were expressed as a mean for each exercise. A semi-automated MATLAB2019a script developed in our laboratory (MathWorks, Natick, MA, United States) was used for the entire analysis. The number of steps and the mean of the entire exercise for stance and swing duration were assessed to test if the walking kinematics were different between the first (Ex1) and the second (Ex2) exercise.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EMG activity</head><p>The EMG signals of the VL, RF, and BF muscles were recorded during DW exercises using active double-differential electrodes with a wireless system (Trigno Avanti System, Delsys, Boston, Massachusetts, USA). The recording electrodes were taped lengthwise to the skin, as recommended by SENIAM <ref type="bibr" target="#b24">(25)</ref>. The skin was prepared by shaving, gently abrading with sandpaper, and cleaning with alcohol. The position of the EMG electrodes was determined according to SENIAM recommendations <ref type="bibr" target="#b24">(25)</ref> and was marked on the skin using a permanent marker to ensure the same positioning along the experiment. The sampling frequency was set at 2000 Hz and the EMG data was passed through a fourth-order zero-lag Butterworth filter using 20-450 Hz digital band-pass filter in order to eliminate noise. EMG data was then smoothed using a root mean square algorithm with a 10-ms window to produce a linear envelope from which the absolute average peak amplitude (mV) of the stance (~0-35 % of the step duration: loading response) and swing (~60-100 % of the step duration) phases was calculated (Figure <ref type="figure">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cost of walking and heart rate</head><p>Breath-by-breath VO2 and VCO2 were measured using a metabolic cart (Quark CPET; Cosmed, Rome, Italy). HR was monitored by a three-channel electrocardiogram consisting in a chest belt (Custo belt, Custo med GmbH, Ottobreunn, Germany) connected to a transmitter (Custo guard, Custo med GmbH, Ottobreunn, Germany). VO2, VCO2 and HR were continuously recorded during each 45-min DW bouts and before warm-up (i.e., at rest in the standing position while carrying loads for 3 min).</p><p>Energy expenditure (EE) was calculated from VO2 and VCO2 (in L•min -1 ) using the EE (in kcal•min -1 ) was then converted in J•min -1 . The cost of walking (Cw in J•m -1 •kg - 1 ) representing the energy required to walk 1 m normalized to kg of body mass was then calculated using this equation <ref type="bibr" target="#b26">(27)</ref>:</p><formula xml:id="formula_1">𝐶 𝑤 = EE 𝐷𝑊 -𝐸𝐸 𝑟𝑒𝑠𝑡 75 • 𝐵𝑀</formula><p>where EEDW and EErest are the EE in J•min -1 during the DW and the 3-min rest period, respectively, 75 the distance (in m) walked in 1 min, and BM the body mass (in kg).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rating of perceived exertion</head><p>RPE measurements were taken using Borg's 6-20 scale at 1, 5, 15, 25, 35, 40, and 45 min of exercise.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RPE, Cw, HR and EMG activity synchronization</head><p>A mean of Cw, HR, and RF and VL EMG activity were calculated for every 5 % of the total DW duration. RPE data were linearly interpolated every 5 % of the total DW duration.</p><p>RF and VL EMG activity were analyzed during the stance phase (i.e., ~0-35 % of the step duration; Figure <ref type="figure">2</ref>) because these muscles are the most active in response to body weight support during this phase <ref type="bibr" target="#b27">(28)</ref>. RF and VL EMG activity were also analyzed during the swing phase (i.e., ~35-100 % of the step duration) to compare result with those of Penailillo et al. <ref type="bibr" target="#b8">(9)</ref> observed during the recovery phase of eccentric cycling. BF EMG activity was analyzed during ~60-100% of the step duration phase (i.e., second part of the swing phase) because this muscle is the most active during this phase. BF EMG activity was also analyzed during the stance phase (i.e., ~0-35 % of the step duration) to evaluate any difference in co-activation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>The data were screened for normality of the distribution and homogeneity of variances using the Shapiro-Wilk normality and Levene´s tests, respectively. MVC torque, RPE, Cw, HR, EMG activity data were analyzed by two-way ANOVA (time × exercise) with repeated measures for paired values. When an interaction between time and exercise was found by the two-way ANOVA, a Bonferroni post-hoc test was applied to test for differences between the means. For muscle soreness, because of the absence of a normal distribution according to the Shapiro-Wilk test, we performed a non-parametric Friedman analysis of variance to assess the main effect of time on muscle soreness. Dunn's multiple comparisons were used to identify which time points were significantly different to baseline for these variables. Statistical differences between matched time points (i.e., Ex1 vs. Ex2) were assessed using Mann-Whitney U test. Each P value was adjusted to account for multiple comparisons. Betweenexercises (i.e., Ex 1 vs. Ex 2) differences of RF and VL µ, the number of steps, and mean values of the entire exercise for stance and swing duration were analyzed using a paired-sample t-test.</p><p>Statistical tests were performed using the Statistica 8.0 sofware (StatSoft, Inc, USA). The results are presented as the means ± SD. Significance was defined as P &lt; 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Before and after exercise</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MVC torque</head><p>Absolute PRE values of MVC torque were not different between Ex1 and Ex2 (315 ± 50 Nm vs. 311 ± 70 Nm, p = 0.81). A significant interaction (time × exercise; p &lt; 0.001) was found for MVC torque (Figure <ref type="figure">3</ref>). MVC torque decreased until 48 h after Ex1, whereas it was significantly lesser only at POST after the Ex2 (Figure <ref type="figure">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Muscle soreness</head><p>A significant effect of time was found for muscle soreness (p &lt; 0.001). Muscle soreness increased until 48 h after both Ex1 and Ex2 (Figure <ref type="figure" target="#fig_3">4A</ref>). However, muscle soreness was significantly lesser after Ex2 than after Ex1 (Figure <ref type="figure" target="#fig_3">4A</ref>).</p><p>A significant effect of time was found for RF and VL PPT (p &lt; 0.001), but no significant difference was found between RF and VL PPT (p = 0.09). RF PPT decreased only 48 h after Ex1 (Figure <ref type="figure" target="#fig_3">4B</ref>), whereas VL PPT decreased from 24 h to 48 h after Ex1 (Figure <ref type="figure" target="#fig_3">4C</ref>). Moreover, PPT was significantly higher after Ex2 than Ex1 at 48 h for RF (Figure <ref type="figure" target="#fig_3">4B</ref>) and from 24 h to 48 h for VL (Figure <ref type="figure" target="#fig_3">4C</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Resting shear elastic modulus</head><p>RF μ PRE value was significantly greater before Ex2 compared to Ex1 (Figure <ref type="figure" target="#fig_4">5</ref>). Such a difference was not observed for VL μ PRE values between Ex1 and Ex2 (Figure <ref type="figure" target="#fig_4">5</ref>)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>During exercises</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Spatio-temporal parameters of DW</head><p>The number of steps (Ex1: 2238 ± 668 steps; Ex2: 2147 ± 698 steps; p = 0.12) and mean of the entire exercise for the stance (Ex1: 0.66 ± 0.05 s; Ex2: 0.66 ± 0.05 s; p = 0.70) and swing (Ex1: 0.43 ± 0.03 s; Ex2: 0.44 ± 0.03 s; p = 0.24) durations were not different between Ex1 and Ex2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EMG activity</head><p>A significant interaction effect (time × exercise; p &lt; 0.001) was found for RF EMG activity during the stance phase (Figure <ref type="figure" target="#fig_5">6A</ref>). RF EMG activity increased later and started to plateau earlier in the Ex2 compared the Ex1 (Figure <ref type="figure" target="#fig_5">6A</ref>). RF EMG activity was significantly lower during the Ex2 compared to Ex1 during the entire exercise (Figure <ref type="figure" target="#fig_5">6A</ref>). During the swing phase, no significant interaction (time × exercise; p = 0.99) or time effect (p = 0.90) was found for RF EMG activity. However, a significant effect of exercise was found: RF EMG activity was, on average, lower during Ex2 than Ex 1 (Ex1: 0.023 ± 0.007 mV; Ex2: 0.016 ± 0.004 mV; p &lt; 0.001).</p><p>No significant interaction (time × exercise; p = 0.54) or exercise effect (p = 0.35) was found for VL EMG activity during the stance phase (Figure <ref type="figure" target="#fig_5">6B</ref>). However, a significant effect of time (p &lt; 0.001) was found: VL EMG activity increased and started to plateau at 35-40 % of the total exercise duration (Figure <ref type="figure" target="#fig_5">6B</ref>). During the swing phase, no significant interaction (time × exercise; p = 0.99) or exercise (p = 0.24) and time (p = 0.07) effect was found for VL EMG activity.</p><p>No significant interaction (time × exercise; p = 0.20), exercise (p = 0.91) or time (p = 0.69) effect was found for BF EMG activity during the swing phase (Figure <ref type="figure" target="#fig_5">6C</ref>). Similarly, no significant interaction (time × exercise; p = 0.96), exercise (p = 0.10) or time (p = 0.90) effect was found for BF EMG activity during the stance phase.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cost of walking</head><p>A significant interaction (time × exercise; p = 0.002) was found for Cw (Figure <ref type="figure" target="#fig_6">7A</ref>). Cw increased throughout the exercise, except between 5-10 % of total exercise duration, for both exercises (Figure <ref type="figure" target="#fig_6">7A</ref>). Cw was significantly lower during Ex2 compared to the Ex1, except at the beginning of the exercise (5-10 % and 15-30 % of total exercise duration; Figure <ref type="figure" target="#fig_6">7A</ref>). Cw stabilized later during Ex1 than Ex 2 (80-85 % vs. 60-65 % of total exercise duration for Ex1 and Ex2 respectively (Figure <ref type="figure" target="#fig_6">7A</ref>)).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Heart rate</head><p>A significant interaction (time × exercise; p = 0.009) was found for HR (Figure <ref type="figure" target="#fig_6">7B</ref>).</p><p>HR increased throughout the exercise for both exercises, except between 5-10 % of total exercise duration, for the Ex1 (Figure <ref type="figure" target="#fig_6">7B</ref>). HR was significantly lower during Ex2 compared to Ex1 (Figure <ref type="figure" target="#fig_6">7B</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rating of perceived exertion</head><p>A significant interaction (time × exercise; p &lt; 0.001) was found for RPE (Figure <ref type="figure" target="#fig_6">7C</ref>).</p><p>RPE increased throughout the exercise for both exercises (Figure <ref type="figure" target="#fig_6">7C</ref>). RPE was significantly lower during Ex2 compared to Ex1 (Figure <ref type="figure" target="#fig_6">7C</ref>).</p><p>protective effect against muscle damage related to cellular, neural, inflammatory and mechanical adaptations.</p><p>In the present study, the protective effect was also illustrated by a lower perceived exertion and a better walking performance (i.e., lower RPE and Cw) during Ex2 compared to Ex1. These results are partially in line with Penailillo et al. <ref type="bibr" target="#b6">(7)</ref> who found a lower HR after a second eccentric cycling bout compared to the same exercise performed two weeks before, but no significant differences in RPE and VO2 between these two exercises. Penailillo et al. <ref type="bibr" target="#b6">(7)</ref> also found lower blood lactate levels during the second bout compared to the first bout, suggesting lower metabolic stress during the repeat eccentric exercise bout. These are interesting results demonstrating that positive adaptations associated to eccentrically-biased exercises also induce changes in the cardio-metabolic responses, which may determine aerobic performance in healthy and pathological populations. However, the underlying mechanisms inducing these adaptations were unknown until now.</p><p>The results of the present study revealed that RF EMG activity was lower during Ex2 compared to Ex1 during both the stance (i.e., eccentric phase) and swing phases, whereas no differences in VL EMG activity was found between Ex1 and Ex2 regardless of the phase (i.e., stance or swing) investigated. This is not consistent with Penailillo et al. <ref type="bibr" target="#b8">(9)</ref> who found a more efficient motor pattern (i.e., lower VL EMG activity) of the recovery phase of a cycle revolution during a secondary eccentric cycling bout compared to the initial bout. These inconsistencies could be due to the loaded DW, inducing specific adaptations on the RF <ref type="bibr" target="#b14">(15)</ref> and the fact that the type of eccentric exercise could differently affect individual muscles within a muscle group <ref type="bibr" target="#b30">(31)</ref>. This is specifically relevant considering that loaded DW favors hip extension due to the trunk position and the load distribution, and that RF is a bi-articular muscle in comparison to VL. RF would exercise at a longer muscle length and would be more susceptible to muscle damage and adaptations. Indeed, it has been shown that exercising at a greater muscle length induces more muscle damage and greater protection against EIMD (i.e., greater adaptations) <ref type="bibr" target="#b31">(32)</ref>. The results of the present study are not aligned with some studies that found no differences in EMG activity between two eccentric exercises (knee flexors, elbow flexors, plantar flexors) performed 1-4 weeks apart <ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b13">(14)</ref>. As these authors found no mechanical changes <ref type="bibr" target="#b11">(12)</ref> or no evidence for mechanical changes <ref type="bibr" target="#b12">(13,</ref><ref type="bibr" target="#b13">14)</ref> between the first and the second eccentric exercise, it could be that mechanical and neural adaptation are related. For instance, Penailillo et al. <ref type="bibr" target="#b8">(9)</ref> found both mechanical (i.e., lesser fascicle elongation) and neural (i.e., lesser EMG activity) adaptations during the second eccentric bout compared to the first performed two weeks before.</p><p>In the present study, it should be noted that EMG activity was lower during Ex2 compared to Ex1 only for RF, which is the only muscle mechanically adapted (i.e., long-term increase in µ) to Ex1. Indeed, VL µ was not different between Ex1 and Ex2, whereas BF was not eccentrically activated during the DW. However, it is difficult to know if the lower RF EMG activity observed at the beginning of Ex2 compared to Ex1 is due to better neural strategy <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b10">11)</ref> or due to better mechanical efficiency. Lemire et al. <ref type="bibr" target="#b32">(33)</ref> showed that lower limb musculotendinous stiffness was a significant predictor of downhill running performance, whereas Saunders et al. <ref type="bibr" target="#b33">(34)</ref> suggested that an increase in muscle stiffness could positively impact functional submaximal tasks that involve stretch-shortening cycle such as walking or running. The results of the current study seem to support this hypothesis.</p><p>RF EMG activity increased to a smaller extent during Ex2 compared to Ex1, as we found that RF EMG activity started to plateau earlier in Ex2 (15-20 % of total exercise duration) compared to Ex1 (45-50 % of total exercise duration). The increase in RF EMG activity throughout Ex2 compared to Ex1 was likely due to lower NM fatigue during Ex2 (35). This lower increase in RF EMG activity (i.e., lower NM fatigue) could be explained by a more efficient motor recruitment pattern and/or by a more efficient force transmission due to mechanical adaptation (i.e. stiffer muscle) (34). This greater efficiency could translate into a lesser cardio-metabolic demand and perceived exertion during Ex2. Changes in motor recruitment pattern could be explained by different mechanisms such as (I) a shift in motor unit recruitment toward low-threshold motor units during the second bout (6), (II) an enhanced synchronization of motor units (6), (III) a lower antagonist muscle activation (36) although no significant difference in BF EMG activity during the stance phase in the present study, and (IV) an attenuation of supra-spinal fatigue (18). Moreover, Hyldahl et al. (6) reported that muscle stiffness might increase by skeletal muscle extracellular matrix remodeling following eccentric exercise, which may protect muscle from damage during a subsequent eccentric exercise. It could be that the greater muscle stiffness of RF before Ex2 (i.e., 14 days after Ex1) limited the sarcolemma disruption during Ex2 compared to Ex1 due to more robust muscle and/or connective tissue, limiting NM fatigue. The lower NM fatigue (i.e. lower increase in RF EMG activity) observed in Ex2 of the present study seems to translate into lower deterioration of walking performance, as Cw started to plateau earlier in Ex2 (60-65 % of the entire exercise duration) than in Ex1 (80-85 % of the entire exercise duration).</p><p>These findings indicate that a single bout of DW may be a good strategy to improve the walking efficiency and limit the deterioration of walking performance during subsequent DW bouts. This modality of eccentric exercise could be implemented in clinical setups to induce neuromuscular adaptations. Specifically, adjusting load carriage would be a valuable alternative to walking speed modulation or classical high-intensity resistance exercise.</p><p>However, the value of this application still needs to be evidenced. Furthermore, it is not known if the adaptations to a single bout of DW could be transferred to other activities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>Protective adaptations conferred by the first bout of DW induced a lower perceived exertion and cardio-metabolic responses when the same exercise was repeated two weeks later (i.e., better walking efficiency). Neural and mechanical adaptations could explain these findings, especially from RF muscle adaptations (i.e., decreased EMG activity and increased muscle stiffness). Indeed, no adaptation was found on VL after a single DW bout, likely due to the specificity of DW, probably due to the walking position in relationship to the treadmill.</p><p>Further research is needed to investigate factors explaining the relationship between the type of eccentric exercise and the muscle-specific adaptations. treadmill for 45 min while carrying a load equivalent to 30% of their body mass (treadmill gradient: -25 %, speed: 4.5 km•h-1) separated by 14 days (top). During exercises, rating of perceived exertion (red), gas exchanges (green), heart rate (blue), muscle activity (orange) of the Rectus femoris (1), Vastus lateralis (2) and Biceps femoris (3), and the spatio-temporal parameters (red) were obtained during walking.  rectus femoris (RF) and (C) vastus lateralis (VL) for exercise 1 and exercise 2. Significantly different from PRE value: *: p &lt; 0.05, **: p &lt; 0.01, ***: p &lt; 0.001. Significant difference between Ex1 and Ex2: $: p &lt; 0.05, $$: p &lt; 0.01. $$$: significant difference between exercise 1 and exercise 2 at p &lt; 0.001. activity of the stance phase (mean of 0-35% of the step duration) and (C) Biceps femoris EMG activity of the swing phase (mean of 35-100 % of the stride duration) during exercise 1 (Ex1) and exercise 2 (Ex2). Significantly different from PRE value: *: p &lt; 0.05, **: p &lt; 0.01, ***: p &lt; 0.001. Significant difference between Ex1 and Ex2: $$$ (p &lt; 0.001). Plateau correspond to the first time (% exercise) at which the value is not significantly different from the end-exercise value. perceived exertion (RPE) during exercise 1 (Ex1) and exercise (Ex2). Significantly different from PRE value: *: p &lt; 0.05, **: p &lt; 0.01, ***: p &lt; 0.001. Significant difference between Ex1 and Ex2: $: p &lt; 0.05, $$: p &lt; 0.01, $$$: p &lt; 0.001. Plateau correspond to the first time (% exercise) at which the value is not significantly different from the end-exercise value.</p><note type="other">Figure legends</note></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Jeukendrup and Wallis equation (26): 𝐸𝐸 = (0.575 • 𝑉𝑂 2 ) + (4.435 • 𝑉𝐶𝑂 2 )</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Design of the study. Participants performed 2 bouts of downhill walking on a</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .Figure 3 .</head><label>23</label><figDesc>Figure 2. Mean ± SD of (A) Rectus Femoris (RF), (B) Vastus Lateralis, and (C) Biceps</figDesc><graphic coords="24,72.00,109.68,362.64,635.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Time course of (A) muscle soreness, and pain pressure threshold (PPT) for (B)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. RF and VL shear elastic modulus (slope) at PRE for exercise 1 and exercise 2.</figDesc><graphic coords="27,72.00,97.68,450.00,150.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Time course of (A) Rectus femoris (RF) and (B) Vastus lateralis (VL) EMG</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Time course of (A) cost of walking (Cw), (B) heart rate (HR), and (C) rate of</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="25,72.00,164.88,454.80,315.00" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We would like to thank <rs type="person">Benoît Lepetit</rs>, <rs type="person">Stéphane Baugé</rs>, <rs type="person">Phillippe Colin</rs>, <rs type="person">Caroline Dussault</rs>, <rs type="person">Stéphanie Bourdon</rs>, <rs type="person">Pierre-Emmanuel Tardo-Dino</rs>, <rs type="person">Walid Bouaziz</rs> and <rs type="person">Olivier Nespoulous</rs> for their technical and/or medical support.</p><p>No support was provided for this study by any manufacturer of the instruments used.</p><p>Additionally, the results of the present study do not represent an endorsement of any product by the authors or the ACSM. No conflicts of interest, financial or otherwise, are declared by the authors. Further, the authors declare that the results of the study are presented clearly, honestly, and without fabrication, falsification, or inappropriate data manipulation.</p></div>
+			</div>			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The present study compared perceived exertion, cardio-metabolic (i.e., Cw and HR) and neuromechanical coupling (i.e., RF and VL EMG activity and mechanical properties) changes during two loaded DW bouts (Ex1 and Ex2) performed two weeks apart. The results support the hypothesis that neural and mechanical adaptations conferred by the repeated bout effect would be greater in RF than VL due to exercise model specificity. Moreover, the results support the hypothesis that cardio-metabolic demand and perceived exertion responses were lower throughout the second exercise bout compared to the first.</p><p>The two DW bouts were performed with the same kinematics, as evidenced by the similarity of the number of steps, and mean stance and swing duration. However, the RPE, HR, Cw, and RF EMG activity were significantly lower during Ex1 and Ex2. The results showed that RF EMG activity was lower and increased less during Ex2 compared to Ex1, whereas no significant difference in EMG activity was found for VL. These changes in RF EMG activity between Ex2 and Ex1 were observed with a concomitant increase in RF stiffness (i.e., µ) observed before Ex2 (i.e. 14 days after Ex1). Taken together, these results support the hypothesis that Ex1 conferred adaptations protecting specifically the RF muscle (i.e., increase in muscle stiffness and lower EMG activity in Ex2). These adaptations could be involved in the better walking performance (i.e., better walking efficiency and lower HR) and the lower perceived exertion observed during Ex2 than Ex1.</p><p>In line with previous studies (29, 30) that compared two loaded walking bouts (slope:</p><p>-28%; velocity: 5 km•h -1 ; load: 10 % of body mass; 1 week apart), the results of the present study showed a protective effect of Ex1 on Ex2 (i.e., RBE). Similar to these previous studies, we found a prolonged MVC torque loss (i.e., &gt; 24 h after the exercise) of the knee extensors after Ex1 (~20-25 %; moderate muscle damage (2, 3)) whereas MVC torque had already recovered 24 h after Ex2. Moreover, muscle soreness, another marker of EIMD <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b2">3)</ref>, was less affected after Ex2 compared to Ex1. Hyldahl et al. <ref type="bibr" target="#b5">(6)</ref> explained this phenomenon as a</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Measurement tools used in the study of eccentric contraction-induced injury</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Lowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Armstrong</surname></persName>
+		</author>
+		<idno type="DOI">10.2165/00007256-199927010-00004</idno>
+		<idno type="PMID">10028132</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports medicine</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="43" to="59" />
+			<date type="published" when="1999-02-24">1999. 1999/02/24</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Warren GL, Lowe DA, Armstrong RB. Measurement tools used in the study of eccentric contraction-induced injury. Sports medicine. 1999;27(1):43-59. Epub 1999/02/24. doi: 10.2165/00007256-199927010-00004. PubMed PMID: 10028132.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Leucocytes, cytokines and satellite cells: what role do they play in muscle damage and regeneration following eccentric exercise? Exercise immunology review</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Paulsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">R</forename><surname>Mikkelsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Raastad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Peake</surname></persName>
+		</author>
+		<idno type="PMID">22876722</idno>
+		<imprint>
+			<date type="published" when="2012-08-11">2012. 2012/08/11</date>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="42" to="97" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paulsen G, Mikkelsen UR, Raastad T, Peake JM. Leucocytes, cytokines and satellite cells: what role do they play in muscle damage and regeneration following eccentric exercise? Exercise immunology review. 2012;18:42-97. Epub 2012/08/11. PubMed PMID: 22876722.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Appropriateness of indirect markers of muscle damage following lower limbs eccentric-biased exercises: A systematic review with metaanalysis</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chalchat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Gaston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Charlot</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0271233</idno>
+		<idno type="PMID">35834532</idno>
+		<idno type="PMCID">PMC9282447</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PloS one</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chalchat E, Gaston AF, Charlot K, et al. Appropriateness of indirect markers of muscle damage following lower limbs eccentric-biased exercises: A systematic review with meta- analysis. PloS one. 2022;17(7):e0271233. Epub 2022/07/15. doi: 10.1371/journal.pone.0271233. PubMed PMID: 35834532; PubMed Central PMCID: PMCPMC9282447.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Muscle function after exercise-induced muscle damage and rapid adaptation</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Clarkson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nosaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Braun</surname></persName>
+		</author>
+		<idno type="PMID">1569847</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and science in sports and exercise</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="512" to="520" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Clarkson PM, Nosaka K, Braun B. Muscle function after exercise-induced muscle damage and rapid adaptation. Medicine and science in sports and exercise. 1992;24(5):512- 20. Epub 1992/05/01. PubMed PMID: 1569847.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">How long does the protective effect on eccentric exercise-induced muscle damage last?</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nosaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sakamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Newton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sacco</surname></persName>
+		</author>
+		<idno type="PMID">11528337</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and science in sports and exercise</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1490" to="1495" />
+			<date type="published" when="2001">2001. 2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nosaka K, Sakamoto K, Newton M, Sacco P. How long does the protective effect on eccentric exercise-induced muscle damage last? Medicine and science in sports and exercise. 2001;33(9):1490-5. Epub 2001/08/31. PubMed PMID: 11528337.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Mechanisms and mediators of the skeletal muscle repeated bout effect. Exercise and sport sciences reviews</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Hyldahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nosaka</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/JES.0000000000000095</idno>
+		<idno type="PMID">27782911</idno>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="24" to="33" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hyldahl RD, Chen TC, Nosaka K. Mechanisms and mediators of the skeletal muscle repeated bout effect. Exercise and sport sciences reviews. 2017;45(1):24-33. doi: 10.1249/JES.0000000000000095. PubMed PMID: 27782911.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Metabolic and muscle damage profiles of concentric versus repeated eccentric cycling</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Penailillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blazevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Numazawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nosaka</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0b013e31828f8a73</idno>
+		<idno type="PMID">23475167</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and science in sports and exercise</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1773" to="1781" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Penailillo L, Blazevich A, Numazawa H, Nosaka K. Metabolic and muscle damage profiles of concentric versus repeated eccentric cycling. Medicine and science in sports and exercise. 2013;45(9):1773-81. doi: 10.1249/MSS.0b013e31828f8a73. PubMed PMID: 23475167.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Eccentric Muscle Contractions: Risks and Benefits</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hody</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Croisier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rogister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Leprince</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2019.00536</idno>
+		<idno type="PMID">31130877</idno>
+		<idno type="PMCID">PMC6510035</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in physiology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">536</biblScope>
+			<date type="published" when="2019-05-28">2019. 2019/05/28</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hody S, Croisier JL, Bury T, Rogister B, Leprince P. Eccentric Muscle Contractions: Risks and Benefits. Frontiers in physiology. 2019;10:536. Epub 2019/05/28. doi: 10.3389/fphys.2019.00536. PubMed PMID: 31130877; PubMed Central PMCID: PMCPMC6510035.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Muscle fascicle behavior during eccentric cycling and its relation to muscle soreness</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Penailillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Blazevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nosaka</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0000000000000473</idno>
+		<idno type="PMID">25116087</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and science in sports and exercise</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="708" to="717" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Penailillo L, Blazevich AJ, Nosaka K. Muscle fascicle behavior during eccentric cycling and its relation to muscle soreness. Medicine and science in sports and exercise. 2015;47(4):708-17. doi: 10.1249/MSS.0000000000000473. PubMed PMID: 25116087.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Adaptations in biceps brachii unit activity after repeated bouts of eccentric exercise in elbow flexor muscles</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Dartnall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Nordstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Semmler</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jn.00854.2010</idno>
+		<idno type="PMID">21248060</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of neurophysiology</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1225" to="1235" />
+			<date type="published" when="2011-01-21">2011. 2011/01/21</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dartnall TJ, Nordstrom MA, Semmler JG. Adaptations in biceps brachii unit activity after repeated bouts of eccentric exercise in elbow flexor muscles. Journal of neurophysiology. 2011;105(3):1225-35. Epub 2011/01/21. doi: 10.1152/jn.00854.2010. PubMed PMID: 21248060.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Spinal reflex plasticity during maximal dynamic contractions after eccentric training</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Duclay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Robbe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pousson</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0b013e31816184dc</idno>
+		<idno type="PMID">18317371</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and science in sports and exercise</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="722" to="734" />
+			<date type="published" when="2008">2008. 2008/03/05</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Duclay J, Martin A, Robbe A, Pousson M. Spinal reflex plasticity during maximal dynamic contractions after eccentric training. Medicine and science in sports and exercise. 2008;40(4):722-34. Epub 2008/03/05. doi: 10.1249/MSS.0b013e31816184dc. PubMed PMID: 18317371.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The repeated bout effect can occur without mechanical and neuromuscular changes after a bout of eccentric exercise</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Pincheira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Hoffman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Cresswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Carroll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nat</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Lichtwark</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sms.13222</idno>
+		<idno type="PMID">29790207</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scandinavian journal of medicine &amp; science in sports</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2123" to="2134" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pincheira PA, Hoffman BW, Cresswell AG, Carroll TJ, Brown NAT, Lichtwark GA. The repeated bout effect can occur without mechanical and neuromuscular changes after a bout of eccentric exercise. Scandinavian journal of medicine &amp; science in sports. 2018;28(10):2123- 34. doi: 10.1111/sms.13222. PubMed PMID: 29790207.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Electromyographic analysis of repeated bouts of eccentric exercise</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Mchugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Connolly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Eston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Gartman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Gleim</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/026404101750095295</idno>
+		<idno type="PMID">11256821</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of sports sciences</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="163" to="170" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McHugh MP, Connolly DA, Eston RG, Gartman EJ, Gleim GW. Electromyographic analysis of repeated bouts of eccentric exercise. Journal of sports sciences. 2001;19(3):163- 70. doi: 10.1080/026404101750095295. PubMed PMID: 11256821.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The repeated-bout effect: influence on biceps brachii oxygenation and myoelectrical activity</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Muthalib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Millet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ferrari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nosaka</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.00191.2010</idno>
+		<idno type="PMID">21330620</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of applied physiology</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1390" to="1399" />
+			<date type="published" when="1985">1985. 2011. 2011/02/19</date>
+			<pubPlace>Bethesda, Md</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muthalib M, Lee H, Millet GY, Ferrari M, Nosaka K. The repeated-bout effect: influence on biceps brachii oxygenation and myoelectrical activity. Journal of applied physiology (Bethesda, Md : 1985). 2011;110(5):1390-9. Epub 2011/02/19. doi: 10.1152/japplphysiol.00191.2010. PubMed PMID: 21330620.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Muscle Shear Elastic Modulus Provides an Indication of the Protection Conferred by the Repeated Bout Effect</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chalchat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Siracusa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bourrilhon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charlot</forename><forename type="middle">K</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Garcia-Vicencio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2022.877485</idno>
+		<idno type="PMID">35574495</idno>
+		<idno type="PMCID">PMC9098813</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in physiology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">877485</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chalchat E, Siracusa J, Bourrilhon C, Charlot K, Martin V, Garcia-Vicencio S. Muscle Shear Elastic Modulus Provides an Indication of the Protection Conferred by the Repeated Bout Effect. Frontiers in physiology. 2022;13:877485. Epub 2022/05/17. doi: 10.3389/fphys.2022.877485. PubMed PMID: 35574495; PubMed Central PMCID: PMCPMC9098813.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Low-frequency fatigue and neuromuscular performance after exercise-induced damage to elbow flexor muscles</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Dundon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cirillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Semmler</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.01339.2007</idno>
+		<idno type="PMID">18687978</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of applied physiology</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="1985">1985. 2008</date>
+			<pubPlace>Bethesda, Md</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dundon JM, Cirillo J, Semmler JG. Low-frequency fatigue and neuromuscular performance after exercise-induced damage to elbow flexor muscles. Journal of applied physiology (Bethesda, Md : 1985). 2008;105(4):1146-55. Epub 2008/08/09. doi: 10.1152/japplphysiol.01339.2007. PubMed PMID: 18687978.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Neuromuscular, biomechanical, and energetic adjustments following repeated bouts of downhill running</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Khassetarash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vernillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Krüger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Millet</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jshs.2021.06.001</idno>
+		<idno type="PMID">34098176</idno>
+		<idno type="PMCID">PMC9189713</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of sport and health science</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="319" to="329" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Khassetarash A, Vernillo G, Krüger RL, Edwards WB, Millet GY. Neuromuscular, biomechanical, and energetic adjustments following repeated bouts of downhill running. Journal of sport and health science. 2022;11(3):319-29. Epub 2021/06/08. doi: 10.1016/j.jshs.2021.06.001. PubMed PMID: 34098176; PubMed Central PMCID: PMCPMC9189713.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Neuromuscular changes and the rapid adaptation following a bout of damaging eccentric exercise</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goodall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barwood</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/apha.12844</idno>
+		<idno type="PMID">27981782</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta physiologica</title>
+		<imprint>
+			<biblScope unit="volume">220</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="486" to="500" />
+			<date type="published" when="2016">2017. 2016/12/17</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goodall S, Thomas K, Barwood M, et al. Neuromuscular changes and the rapid adaptation following a bout of damaging eccentric exercise. Acta physiologica. 2017;220(4):486-500. Epub 2016/12/17. doi: 10.1111/apha.12844. PubMed PMID: 27981782.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Helsinki Declaration revisions</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schuklenk</surname></persName>
+		</author>
+		<idno type="PMID">16334459</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Issues Med Ethics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">29</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schuklenk U. Helsinki Declaration revisions. Issues Med Ethics. 2001;9(1):29. Epub 2005/12/13. PubMed PMID: 16334459.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Supersonic shear imaging: a new technique for soft tissue elasticity mapping</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bercoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tanter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fink</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/tuffc.2004.1295425</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="396" to="409" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bercoff J, Tanter M, Fink M. Supersonic shear imaging: a new technique for soft tissue elasticity mapping. IEEE Transactions on Ultrasonics, Ferroelectrics and Frequency Control. 2004;51(4):396-409. doi: 10.1109/tuffc.2004.1295425.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Changes in the Viscoelastic Properties of the Vastus Lateralis Muscle With Fatigue</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chalchat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Gennisson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Peñailillo</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2020.00307</idno>
+		<idno type="PMID">32390859</idno>
+		<idno type="PMCID">PMC7194212</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in physiology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chalchat E, Gennisson JL, Peñailillo L, et al. Changes in the Viscoelastic Properties of the Vastus Lateralis Muscle With Fatigue. Frontiers in physiology. 2020;11:307. Epub 2020/05/12. doi: 10.3389/fphys.2020.00307. PubMed PMID: 32390859; PubMed Central PMCID: PMCPMC7194212.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Contractile properties are less affected at long than short muscle length after eccentric exercise</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chalchat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Siracusa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bourrilhon</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-023-05134-2</idno>
+		<idno type="PMID">36645479</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European journal of applied physiology</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chalchat E, Siracusa J, Bourrilhon C, et al. Contractile properties are less affected at long than short muscle length after eccentric exercise. European journal of applied physiology. 2023. Epub 2023/01/17. doi: 10.1007/s00421-023-05134-2. PubMed PMID: 36645479.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Early detection of exercise-induced muscle damage using elastography</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lacourpaille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nordez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Doguet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Andrade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guilhem</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-017-3695-9</idno>
+		<idno type="PMID">28780603</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European journal of applied physiology</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2047" to="2056" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lacourpaille L, Nordez A, Hug F, Doguet V, Andrade R, Guilhem G. Early detection of exercise-induced muscle damage using elastography. European journal of applied physiology. 2017;117(10):2047-56. doi: 10.1007/s00421-017-3695-9. PubMed PMID: 28780603.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Orientation-Invariant Spatio-Temporal Gait Analysis Using Foot-Worn Inertial Sensors</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Guimarães</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sousa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Correia</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/s21113940</idno>
+		<idno type="PMID">34200492</idno>
+		<idno type="PMCID">PMC8201315</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sensors (Basel)</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Guimarães V, Sousa I, Correia MV. Orientation-Invariant Spatio-Temporal Gait Analysis Using Foot-Worn Inertial Sensors. Sensors (Basel). 2021;21(11). Epub 2021/07/03. doi: 10.3390/s21113940. PubMed PMID: 34200492; PubMed Central PMCID: PMCPMC8201315.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Development of recommendations for SEMG sensors and sensor placement procedures</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Hermens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Freriks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Disselhorst-Klug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rau</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s1050-6411(00)00027-4</idno>
+		<idno type="PMID">11018445</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of electromyography and kinesiology : official journal of the International Society of Electrophysiological Kinesiology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="361" to="374" />
+			<date type="published" when="2000">2000. 2000/10/06</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hermens HJ, Freriks B, Disselhorst-Klug C, Rau G. Development of recommendations for SEMG sensors and sensor placement procedures. Journal of electromyography and kinesiology : official journal of the International Society of Electrophysiological Kinesiology. 2000;10(5):361-74. Epub 2000/10/06. doi: 10.1016/s1050-6411(00)00027-4. PubMed PMID: 11018445.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Measurement of substrate oxidation during exercise by means of gas exchange measurements</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Jeukendrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Wallis</surname></persName>
+		</author>
+		<idno type="DOI">10.1055/s-2004-830512</idno>
+		<idno type="PMID">15702454</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International journal of sports medicine</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<date type="published" when="2005-02-11">2005. 2005/02/11</date>
+		</imprint>
+	</monogr>
+	<note>Suppl 1:S28-37</note>
+	<note type="raw_reference">Jeukendrup AE, Wallis GA. Measurement of substrate oxidation during exercise by means of gas exchange measurements. International journal of sports medicine. 2005;26 Suppl 1:S28-37. Epub 2005/02/11. doi: 10.1055/s-2004-830512. PubMed PMID: 15702454.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Economy of running: beyond the measurement of oxygen uptake</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Fletcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Esau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Macintosh</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.00307.2009</idno>
+		<idno type="PMID">19833811</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of applied physiology</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1918" to="1922" />
+			<date type="published" when="1985">1985. 2009. 2009/10/17</date>
+			<pubPlace>Bethesda, Md</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fletcher JR, Esau SP, Macintosh BR. Economy of running: beyond the measurement of oxygen uptake. Journal of applied physiology (Bethesda, Md : 1985). 2009;107(6):1918-22. Epub 2009/10/17. doi: 10.1152/japplphysiol.00307.2009. PubMed PMID: 19833811.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Vastus lateralis fascicle length changes during stair ascent and descent</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Chleboun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Harrigal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Odenthal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Shula-Blanchard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Steed</surname></persName>
+		</author>
+		<idno type="DOI">10.2519/jospt.2008.2816</idno>
+		<idno type="PMID">18827324</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of orthopaedic and sports physical therapy</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="624" to="631" />
+			<date type="published" when="2008">2008. 2008/10/02</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chleboun GS, Harrigal ST, Odenthal JZ, Shula-Blanchard LA, Steed JN. Vastus lateralis fascicle length changes during stair ascent and descent. The Journal of orthopaedic and sports physical therapy. 2008;38(10):624-31. Epub 2008/10/02. doi: 10.2519/jospt.2008.2816. PubMed PMID: 18827324.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Muscular adaptations to short-term low-frequency downhill walking training</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maeo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<idno type="DOI">10.1055/s-0034-1385885</idno>
+		<idno type="PMID">25285470</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International journal of sports medicine</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="150" to="156" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maeo S, Yamamoto M, Kanehisa H. Muscular adaptations to short-term low-frequency downhill walking training. International journal of sports medicine. 2015;36(2):150-6. doi: 10.1055/s-0034-1385885. PubMed PMID: 25285470.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Downhill walking training with and without exercise-induced muscle damage similarly increase knee extensor strength</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maeo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2016.1149607</idno>
+		<idno type="PMID">26920254</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of sports sciences</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="2018" to="2026" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maeo S, Yamamoto M, Kanehisa H. Downhill walking training with and without exercise-induced muscle damage similarly increase knee extensor strength. Journal of sports sciences. 2016;34(21):2018-26. doi: 10.1080/02640414.2016.1149607. PubMed PMID: 26920254.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Localization of muscle damage within the quadriceps femoris induced by different types of eccentric exercises</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maeo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Otsuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Shan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawakami</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sms.12880</idno>
+		<idno type="PMID">28314055</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scandinavian journal of medicine &amp; science in sports</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="95" to="106" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maeo S, Saito A, Otsuka S, Shan X, Kanehisa H, Kawakami Y. Localization of muscle damage within the quadriceps femoris induced by different types of eccentric exercises. Scandinavian journal of medicine &amp; science in sports. 2018;28(1):95-106. doi: 10.1111/sms.12880. PubMed PMID: 28314055.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Partial protection against muscle damage by eccentric actions at short muscle lengths. Medicine and science in sports and exercise</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nosaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Newton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sacco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lavender</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/01.mss.0000162691.66162.00</idno>
+		<idno type="PMID">15870627</idno>
+		<imprint>
+			<date type="published" when="2005-05-05">2005. 2005/05/05</date>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="746" to="753" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nosaka K, Newton M, Sacco P, Chapman D, Lavender A. Partial protection against muscle damage by eccentric actions at short muscle lengths. Medicine and science in sports and exercise. 2005;37(5):746-53. Epub 2005/05/05. doi: 10.1249/01.mss.0000162691.66162.00. PubMed PMID: 15870627.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Physiological factors determining downhill vs uphill running endurance performance</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lemire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Hureau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Favret</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jsams.2020.06.004</idno>
+		<idno type="PMID">32646746</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of science and medicine in sport</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="85" to="91" />
+			<date type="published" when="2020-07-11">2021. 2020/07/11</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lemire M, Hureau TJ, Favret F, et al. Physiological factors determining downhill vs uphill running endurance performance. Journal of science and medicine in sport. 2021;24(1):85-91. Epub 2020/07/11. doi: 10.1016/j.jsams.2020.06.004. PubMed PMID: 32646746.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Factors affecting running economy in trained distance runners</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">U</forename><surname>Saunders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Pyne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Telford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hawley</surname></persName>
+		</author>
+		<idno type="DOI">10.2165/00007256-200434070-00005</idno>
+		<idno type="PMID">15233599</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports medicine</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="465" to="485" />
+			<date type="published" when="2004-07-06">2004. 2004/07/06</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saunders PU, Pyne DB, Telford RD, Hawley JA. Factors affecting running economy in trained distance runners. Sports medicine. 2004;34(7):465-85. Epub 2004/07/06. doi: 10.2165/00007256-200434070-00005. PubMed PMID: 15233599.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Myoelectrical manifestations of localized muscular fatigue in humans</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Luca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename></persName>
+		</author>
+		<idno type="PMID">6391814</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Crit Rev Biomed Eng</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="251" to="279" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">De Luca CJ. Myoelectrical manifestations of localized muscular fatigue in humans. Crit Rev Biomed Eng. 1984;11(4):251-79. Epub 1984/01/01. PubMed PMID: 6391814.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Adaptations in antagonist co-activation: Role in the repeated-bout effect</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Hight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Bemben</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Black</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0189323</idno>
+		<idno type="PMID">29216288</idno>
+		<idno type="PMCID">PMC5720767</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PloS one</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hight RE, Beck TW, Bemben DA, Black CD. Adaptations in antagonist co-activation: Role in the repeated-bout effect. PloS one. 2017;12(12):e0189323. Epub 2017/12/08. doi: 10.1371/journal.pone.0189323. PubMed PMID: 29216288; PubMed Central PMCID: PMCPMC5720767.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

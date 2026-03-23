@@ -1,0 +1,1641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Effects of Kinesio taping on lower limb biomechanical characteristics during unexpected jumping in patients with chronic ankle instability</title>
+				<funder ref="#_BfmhR7D">
+					<orgName type="full">Young and Middle-Aged Scientific Research Team Project of Wuhan Sports University</orgName>
+				</funder>
+				<funder ref="#_9cJpWmr">
+					<orgName type="full">Research Fund for Young Teachers of Wuhan Sports University and Donghu Scholar Program of Wuhan Sports University</orgName>
+				</funder>
+				<funder ref="#_BhQZcpR">
+					<orgName type="full">Five-Year-Plan Advantageous and Characteristic Disciplines (Groups) of Colleges and Universities in Hubei Province</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Ling</forename><surname>Wang</surname></persName>
+							<idno type="ORCID">0000-0002-1122-8209</idno>
+							<affiliation key="aff0">
+								<orgName type="department">School of Sports Medicine</orgName>
+								<orgName type="institution">Wuhan Sports University</orgName>
+								<address>
+									<settlement>Wuhan Hubei</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Key Laboratory of Sports Engineering of General Administration of Sport of China</orgName>
+								<orgName type="institution">Wuhan Sports University</orgName>
+								<address>
+									<settlement>Wuhan</settlement>
+									<region>Hubei</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Peng</forename><surname>Chen</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">School of Exercise and Health</orgName>
+								<orgName type="institution">Shanghai University of Sport</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Yue</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">Taihe Hospital</orgName>
+								<address>
+									<settlement>Shiyan Hubei</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Siyu</forename><surname>Fan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Sports Medicine</orgName>
+								<orgName type="institution">Wuhan Sports University</orgName>
+								<address>
+									<settlement>Wuhan Hubei</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Guanglan</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Sports Medicine</orgName>
+								<orgName type="institution">Wuhan Sports University</orgName>
+								<address>
+									<settlement>Wuhan Hubei</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Shaohui Jia</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Sports Medicine</orgName>
+								<orgName type="institution">Wuhan Sports University</orgName>
+								<address>
+									<settlement>Wuhan Hubei</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="laboratory">Hubei Provincial Key Laboratory of Sports Training and Monitoring</orgName>
+								<orgName type="institution">Wuhan Sports University</orgName>
+								<address>
+									<settlement>Wuhan Hubei</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zhihao</forename><surname>Guo</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Key Laboratory of Sports Engineering of General Administration of Sport of China</orgName>
+								<orgName type="institution">Wuhan Sports University</orgName>
+								<address>
+									<settlement>Wuhan</settlement>
+									<region>Hubei</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Engineering Research Center of Sports Health Intelligent Equipment of Hubei Province</orgName>
+								<orgName type="institution">Wuhan Sports University</orgName>
+								<address>
+									<settlement>Wuhan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Cheng</forename><surname>Zheng</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Sports Medicine</orgName>
+								<orgName type="institution" key="instit1">Affiliated Hospital</orgName>
+								<orgName type="institution" key="instit2">Wuhan Sports University</orgName>
+								<address>
+									<settlement>Wuhan</settlement>
+									<region>Hubei</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department">Department of Sports Medicine</orgName>
+								<orgName type="institution" key="instit1">Affiliated Hospital</orgName>
+								<orgName type="institution" key="instit2">Wuhan Sports University</orgName>
+								<address>
+									<addrLine>461 Luoyu Road, Hongshan</addrLine>
+									<postCode>430079</postCode>
+									<region>Wuhan Hubei</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="department">Zhihao Guo, Engineering Research Center of Sports Health Intelligent Equipment of Hubei Province</orgName>
+								<orgName type="laboratory">Research Fund for Young Teachers of Wuhan Sports University and Donghu Scholar Program of Wuhan Sports University (2019)</orgName>
+								<orgName type="institution">Wuhan Sports University</orgName>
+								<address>
+									<addrLine>461 Luoyu Road, Hongshan</addrLine>
+									<postCode>430079</postCode>
+									<region>Wuhan Hubei</region>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff9">
+								<orgName type="institution">Young and Middle- Aged Scientific Research Team Project of Wuhan Sports University</orgName>
+								<address>
+									<settlement>Grant/</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Effects of Kinesio taping on lower limb biomechanical characteristics during unexpected jumping in patients with chronic ankle instability</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7AB5122BE0A2C8A50CC19588B2D7E1A0</idno>
+					<idno type="DOI">10.1111/sms.14566</idno>
+					<note type="submission">Received: 12 October 2023 | Revised: 6 December 2023 | Accepted: 5 January 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Purpose:</head><p>The current biomechanical research on the application of Kinesio taping (KT) to patients with chronic ankle instability (CAI) has focused on testing the expected movements. However, unexpected movements are more common in actual sports. Therefore, the present study aimed to investigate the effects of KT on the biomechanical characteristics of the knee and ankle joints during unexpected jumping movements.</p><p>Methods: Twenty-one patients with unilateral CAI were recruited to capture the biomechanical parameters during unexpected jumping movements under different interventions: no taping (NT), placebo taping (PT), and KT. A one-way repeated measures analysis of variance was used to compare the differences in knee and ankle biomechanical characteristics among patients with CAI between the three intervention conditions.</p><p>Results: At initial contact, the KT group demonstrated a significant decrease in ankle plantarflexion and knee flexion angles compared to the NT group (p &lt; 0.05).</p><p>At the early landing phase, the KT group had a significant increase in peak ankle dorsiflexion angle, peak ankle eversion angle, peak ankle dorsiflexion moment, and peak ankle eversion moment compared to the NT and PT groups (p &lt; 0.05).</p><p>Furthermore, the KT group had a significantly reduced peak knee flexion angle, Characteristic Disciplines (Groups) of Colleges and Universities in Hubei Province under Grant, Grant/Award Number: 2021-05 peak knee eversion angle, and peak vertical ground reaction force (p &lt; 0.05) compared to the NT and PT groups.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion:</head><p>KT significantly improves the sprain-prone touchdown posture of patients with CAI. And reducing the risk of ankle sprains during the early landing phase by promoting ankle dorsiflexion and eversion angles and moments.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUCTION</head><p>Ankle injuries are common in sports and comprise 20% of all sports-related injuries. <ref type="bibr" target="#b0">1</ref> Approximately 85% of these injuries are lateral ankle sprains, which commonly occur during activities such as jumping, cutting, and sudden stopping. <ref type="bibr" target="#b1">2</ref> However, postinjury rehabilitation and care of lateral ankle sprains are often overlooked, leading to the development of chronic ankle instability (CAI). <ref type="bibr" target="#b2">3</ref> CAI is characterized by self-reported instability and functional decline, which specifically manifests as ankle "giving way" and repeated sprains. Therefore, the recurrence rate of sprains remains high, perpetuating a vicious cycle of sprain and reinjury. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> Increased ankle plantarflexion and inversion angles, elevated inversion angular velocity and peak vertical ground reaction force (vGRF), and reduced time to peak vGRF are potential contributing factors to the recurrence of ankle sprains in patients with CAI. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> Kinesio taping (KT) is a sports taping that can provide stability and support for joints through elasticity, extensibility, and stretchability mechanisms, thereby helping to adjust joint positions, ultimately modulating limb force lines and attenuate joint impact force. <ref type="bibr" target="#b7">8</ref> Previous studies have shown that KT has a positive effect on improving the biomechanical characteristics of the lower extremities. 9,10 Migel et al. <ref type="bibr" target="#b10">11</ref> demonstrated that KT decreased excessive inversion in early stance among patients with CAI. However, Kuni et al. <ref type="bibr" target="#b8">9</ref> indicated that KT did not influence foot kinematics during landing in patients with CAI. These contradictory findings may be attributed to the disparities in test movements, as the impact of KT on various jumping movements could vary. <ref type="bibr" target="#b11">12</ref> Furthermore, existing studies have predominantly employed assessments of KT effects on lower limb biomechanical characteristics in patients with CAI under conditions of a single movement and fixed direction. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b13">14</ref> In such expected jumping, patients with CAI may adapt their landing strategies through feed-forward mechanisms, masking abnormal biomechanical performance and thus concealing the positive effects of KT. However, real-world sports activities are characterized by rapid and unpredictable movements, often involving unexpected jumping.</p><p>The mechanism by which KT works is not yet clear. One theory suggests that it is primarily based on the tension of the taping, as well as the pressure and shear force generated by taping, which stimulates skin sensation and proprioception. <ref type="bibr" target="#b14">15</ref> Additionally, there is research indicating that placebo taping (PT) can also improve the function of participants based on the expectancy effect. <ref type="bibr" target="#b15">16</ref> However, few studies have explored the effect of PT on biomechanics in patients with CAI. Therefore, it remains unclear whether KT exhibits a placebo effect. In this study, we employed a signal light system to randomly generate instructions for three jumping movements, thus simulating an environment of unexpected jumping. The aim was to compare the effects of no taping (NT), PT, and KT on the lower limb biomechanical characteristics of patients with CAI during unexpected jumping maneuvers. We hypothesized that KT can reduce ankle plantarflexion angle and increase ankle dorsiflexion and eversion angles and moments compared with NT and PT.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Participants</head><p>Twenty-one patients with unilateral CAI (10 left-side CAI, 11 right-side CAI; 11 male, 10 female; age 22.0 ± 2.9 years, height 174.1 ± 9.2 cm, mass 69.2 ± 13.6 kg, and Cumberland ankle instability tool [CAIT] score 16.4 ± 5.4 points) were recruited from Wuhan Sports University. The inclusion criteria were as follows: (1) a history of at least one significant ankle sprain, and the initial sprain occurred at least 12 months before enrollment in the study; (2) a CAIT score of ≤24 5 ; (3) "giving way" and/or recurrent sprain and/or "feeling of instability" in the affected ankle; and (4) regularly engaging in sports for at least 3 h per week and no interventions such as taping or bracing were employed during sports. <ref type="bibr" target="#b16">17</ref> The exclusion criteria were as follows: (1) surgeries, fractures, or acute skeletal muscle</p><formula xml:id="formula_0">| 3 of 11 WANG et al.</formula><p>injuries to the lower extremity within the past 3 months;</p><p>(2) other ankle or foot diseases; and (3) a history of allergy to KT. This study was approved by the local ethics committee (No. 2022068). All participants were informed regarding the experimental procedures and signed informed consent was obtained before data collection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Taping procedure</head><p>The participants were taped (Kindmax taping 5 cm × 5 m) by a certified taping specialist. Before taping, the designated area was shaved and disinfected with alcohol. The taping protocol was derived from the study conducted by Lin et al., <ref type="bibr" target="#b17">18</ref> and the required length for achieving 50% tension was calculated by modifying the formula proposed by Nunes et al. <ref type="bibr" target="#b18">19</ref> The formula for taping cutting length calculation was as follows:</p><p>Herein, the total length of the anchor and tail was 8 cm, and the pretension of the taping was 1.1. The taping methods used were as follows: (1) Tibialis anterior: I-shaped taping technique. The participant actively performed ankle plantarflexion to enhance muscle tension, then fixed the anchor on the tibial tuberosity, applied the taping to cover the tibialis anterior muscle belly, and fixed the tail to the anterior part of the foot. (Figure <ref type="figure">1A</ref>) (2) Peroneus longus: I-shaped taping technique. The participant performed ankle inversion to increase muscle tension, then fixed the anchor on the fibular head, applied the taping to cover the peroneus longus muscle belly, and fixed the tail above the medial malleolus. (Figure <ref type="figure">1B</ref>) (3) Gastrocnemius: Y-shaped taping technique. The participant performed ankle dorsiflexion to increase muscle tension, then fixed the anchor on the sole of the foot, applied two strips of taping to cover the gastrocnemius muscle belly, and fixed the tails separately on the medial and lateral epicondyle of the femur. (Figure <ref type="figure">1C</ref>) The PT group received the same taping procedures as the KT group but without applying tension, and the NT group received no taping. All participants received three types of interventions, with a random sequence and a 24 h interval between each condition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| Data collection</head><p>The participants wore standardized tight-fitting suits and were barefoot. After a 10-min warm-up, the intervention was conducted, followed by the attachment of 38 marker points on the bilateral lower limbs according to the modified Helen Hayes model. <ref type="bibr" target="#b19">20</ref> (Table <ref type="table">1</ref> and Figure <ref type="figure" target="#fig_0">2</ref>) Subsequently, nine jumping movements were performed: three left-sided jumping (LSJ), three right-sided jumping (RSJ), and three bilateral jumping. The intervention and jumping sequences were generated using an Excel random function. The participants were blinded to the sequence. The jumping movements were modified from the study of McLean et al. <ref type="bibr" target="#b20">21</ref> The participants stood at the</p><p>Taping cutting length = actual length -8 cm 1.5 + 8 cm × 1.1 F I G U R E 1 Taping procedures in the KT group. tibialis anterior (A); peroneus longus (B) and gastrocnemius(C). The arrows denote the direction of taping application.</p><p>starting point of 2 m behind the force plate and ran at a speed of 2.7 ± 0.2 m/s, then jumped according to the signal light color located 2.5 m in front of the force plate. When the blue light turned on, the participants ran and landed their affected leg on the right force plate, followed by a quick jumping to the left force plate. When the green light turned on, the participants ran and landed their affected leg on the left force plate, then jumped to the right force plate. When the red light turned on, the participants ran and landed both legs on the left and right force plates, then jumped vertically. (Figure <ref type="figure">3</ref>) The signal light was triggered within 1 s after the participants initiated their running. Along the direction of the runway, a pair of infrared grating timers was positioned 50 cm ahead of the front edge of the first force plate and 10 cm behind it. The participant's velocity was calculated based on the distance between the two sets of gratings and the time taken to complete it. Prior to formal testing, the participants completed 6-10 practices to ensure they could run at the speed required for this study (2.7 ± 0.2 m/s) during subsequent testing. A 9-camera infrared high-speed motion capture system (Sampled at 200 Hz, Vicon T40, Oxford, UK) was utilized to capture the kinematic parameters during the jumping movements, whereas four ground-embedded force plates (Sampled at 1000HZ, Kistler 9260AA6, Winterthur, Switzerland) was employed to collect the kinetic parameters of the jumping movements. Singleleg jump landing is considered a high-risk maneuver for ankle sprains due to the large impulsive forces involved. <ref type="bibr" target="#b3">4</ref> Hence, the present study exclusively selected single-leg jumping movements for between-group analysis. Bilateral jumping was only employed to increase the jumping patterns to create an unexpected environment, preventing participants from anticipating the testing actions due to a limited variety of jumps.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| Data processing</head><p>Visual 3D software (C-Motion, Germantown, Maryland, USA) was used to process the data, and Butterworth digital filter (12 Hz cutoff frequency) was used to filter the marker data. Kinematic and kinetic data of the involved knee and ankle were collected in initial contact and the early landing phase (from initial contact to 200 ms after initial contact) during the jumping movement. <ref type="bibr" target="#b21">22</ref> Jump landing was defined as the one time point when vGRF exceeded 50 N. <ref type="bibr" target="#b22">23</ref> Kinematic data consisted of knee and ankle angle at initial contact, peak knee and ankle angle, peak knee and ankle angular velocity, and time to peak vGRF at the early landing phase. Kinetic data included peak vGRF and peak knee, and ankle moment at the early landing phase. Inverse dynamics was used to calculate vGRF and knee and ankle moment, and all kinetic data were normalized to body weight. Knee and ankle joint angle and angular velocity were calculated with reference to the proximal segment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">| Statistical analysis</head><p>G Power 3.1.2 was used to calculate the sample size based on an effect size of 0.3, power of 0.8, and α level of 0.05, requiring a minimum of 21 patients. The data were analyzed using SPSS version 26.0, and the results were presented as mean ± standard deviation. The normality of the data was assessed and confirmed to follow a normal distribution. Consequently, one-way repeated measures analysis of variance was employed to compare the kinematic and kinetic data among the NT, PT, and KT groups. Pairwise differences between the three intervention methods were determined using the Bonferroni post-hoc test. The significance level was set at p ≤ 0.05.</p><p>T A B L E 1 Annotated in English abbreviations of 38 marker points. Name Marker points pasting position Name Marker points pasting position RASIS Right anterior superior iliac spine LASIS Left anterior superior iliac spine RICST Right iliac crest LICST Left iliac crest RPSIS Right posterior superior iliac spine LPSIS Left posterior superior iliac spine RTROC Right greater trochanter of the femur LTROC Left greater trochanter of the femur RTH1-4 Four markers on the right thigh LTH1-4 Four markers on the left thigh RLEP Right lateral femoral condyle LLEP Left lateral femoral condyle RMEP Right medial femoral condyle LMEP Left medial femoral condyle RSK1-4 Four markers on the right shank LTH1-4 Four markers on the left shank RLME Right lateral malleolus LLME Left lateral malleolus RMME Right medial malleolus LMME Left medial malleolus RHEEL Right heel LHEEL Left heel RHM1 Right first metatarsal head LHM1 Right first metatarsal head RHM5 Right fifth metatarsal head LHM5 Left fifth metatarsal head 3 | RESULTS</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">| Kinematic characteristics</head><p>At initial contact, the KT group demonstrated a significant reduction in ankle plantarflexion angle compared to the NT group in both LSJ and RSJ movements (p = 0.001, p = 0.048). The PT group exhibited a significant decrease in ankle plantarflexion angle (p &lt; 0.001) in LSJ compared to the NT group. Furthermore, in LSJ, the KT group showed a significantly lower knee flexion angle than the NT group (p = 0.002). In RSJ, the KT group exhibited a significantly lower knee flexion angle (p = 0.002, p = 0.028) than the NT and PT groups. (Table <ref type="table">2</ref>). At the early landing phase, the KT group exhibited a significant increase in peak ankle dorsiflexion angle (p = 0.012, p = 0.015), peak ankle eversion angle (p = 0.043, p = 0.004), and time to peak vGRF (p = 0.035, p = 0.022) and a significant decrease in peak knee flexion angle (p &lt; 0.001, p &lt; 0.001), peak knee valgus angle (p = 0.015, p = 0.038), and peak knee flexion angular velocity (p &lt; 0.001, p = 0.002) in LSJ as compared to the NT and PT groups. The KT group exhibited a significant decrease in peak knee valgus angular velocity (p = 0.028) in LSJ compared to the NT group. In RSJ, the KT group showed a significant increase in peak ankle dorsiflexion angle (p &lt; 0.001, p = 0.001), peak ankle eversion angle (p = 0.042, p = 0.037), and time to peak vGRF (p = 0.024, p = 0.031) and a significant decrease in peak knee flexion angle (p = 0.037, p = 0.015) and peak knee flexion angular velocity (p &lt; 0.001, p = 0.002) as compared to the NT and PT groups. (Table <ref type="table">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">| Kinetic characteristics</head><p>At the early landing phase, the KT group demonstrated a significantly lower peak vGRF (p = 0.023, p = 0.026), higher peak ankle dorsiflexion moment (p = 0.003, p = 0.002), and higher peak ankle eversion moment (p = 0.003, p = 0.002) in LSJ compared to both the NT and PT groups. In RSJ, the KT group showed a significantly lower peak vGRF (p = 0.009, p = 0.023) and higher peak ankle eversion</p><p>T A B L E 2 Effects of KT on the kinematic characteristics of the lower limb at initial contact and the early landing phase. Data are presented as mean ± SD. LSJ RSJ NT PT KT NT PT KT Initial contact moment Ankle plantarflexion angle (°) 24.98 ± 7.41 17.60 ± 4.86 c 18.05 ± 6.86 a 18.45 ± 4.83 17.19 ± 3.90 15.14 ± 3.71 a Ankle inversion/eversion angle (°) 4.33 ± 0.91 4.45 ± 0.87 4.33 ± 0.95 4.31 ± 1.04 4.39 ± 1.10 4.06 ± 0.97 Knee flexion angle (°) 14.70 ± 3.68 13.72 ± 3.28 11.31 ± 3.12 a 14.81 ± 4.10 14.14 ± 4.21 11.41 ± 3.48 a,b Knee varus/valgus angle (°) 3.10 ± 1.67 2.87 ± 2.07 2.58 ± 1.78 3.48 ± 2.62 3.24 ± 2.78 2.72 ± 1.81 Early landing phase Time to peak vGRF (ms) 89.12 ± 15.53 86.38 ± 11.99 96.23 ± 11.36 a,b 90.70 ± 7.91 91.77 ± 9.85 97.81 ± 9.43 a,b Peak ankle dorsiflexion angle (°) 4.16 ± 2.41 4.19 ± 2.76 6.07 ± 1.40 a,b 3.10 ± 1.28 3.76 ± 1.10 5.37 ± 1.76 a,b Peak ankle eversion angle (°) 7.58 ± 2.27 6.90 ± 1.77 9.31 ± 2.03 a,b 7.47 ± 2.06 7.45 ± 1.77 9.23 ± 1.81 a,b Peak knee flexion angle (°) 39.47 ± 3.37 39.69 ± 3.91 27.91 ± 4.88 a,b 43.45 ± 9.60 42.50 ± 6.47 38.02 ± 5.24 a,b Peak knee valgus angle (°) 3.84 ± 1.62 3.49 ± 1.79 2.43 ± 1.09 a,b 4.12 ± 2.77 3.55 ± 2.54 3.63 ± 2.40 Peak ankle dorsiflexion angular velocity (°/s) 465.59 ± 21.10 468.69 ± 16.96 473.54 ± 18.58 455.96 ± 12.76 459.03 ± 15.53 461.07 ± 16.19 Peak ankle eversion angular velocity (°/s) 112.53 ± 4.58 112.97 ± 5.69 115.12 ± 5.05 112.51 ± 7.64 112.75 ± 3.93 115.19 ± 4.07 Peak knee flexion angular velocity (°/s) 271.62 ± 13.35 265.20 ± 19.42 239.22 ± 23.54 a,b 270.56 ± 16.36 268.56 ± 23.30 242.48 ± 20.74 a,b Peak knee valgus angular velocity (°/s) 97.17 ± 2.63 96.49 ± 3.07 95.35 ± 2.66 a 93.74 ± 4.30 93.47 ± 4.95 92.08 ± 4.66 Abbreviations: KT, kinesio taping; LSJ, left-sided jumping; NT, no taping; PT, placebo taping; RSJ, right-sided jumping; vGRF, vertical ground reaction force. a Significant difference between the KT and NT groups. b Significant difference between the KT and PT groups. c Significant difference between the PT and NT groups. 16000838, 2024, 1, Downloaded from <ref type="url" target="https://onlinelibrary.wiley.com/doi/10.1111/sms.14566">https://onlinelibrary.wiley.com/doi/10.1111/sms.14566</ref> by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [10/08/2024]. See the Terms and Conditions (<ref type="url" target="https://onlinelibrary.wiley.com/terms-and-conditions">https://onlinelibrary.wiley.com/terms-and-conditions</ref>) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License | 7 of 11 WANG et al.</p><p>moment (p &lt; 0.001, p &lt; 0.001) compared to the NT and PT groups (Table <ref type="table">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| DISCUSSION</head><p>Current studies evaluating the effects of KT on lower limb biomechanics in patients with CAI have been mostly conducted using the expected pattern. A study indicated that patients with CAI exhibit different biomechanical patterns and muscle activation under unexpected conditions compared to expected conditions. <ref type="bibr" target="#b23">24</ref> Dicus et al. <ref type="bibr" target="#b24">25</ref> questioned the validity of testing expected movements, arguing that expected conditions cause participants to predict actions in advance, affecting neuromuscular preparation and the speed of bodily compensatory biomechanics. Therefore, it is difficult to generalize these results to environments outside the laboratory. In real life, resprains in patients with CAI often occur in unexpected situations, that is, ankle sprains occur in the face of a sudden external stimulus during an unprepared state, which is very different from expected movements. The present study selected unexpected jumping movements that are close to actual sports for testing to clarify the potential impact of KT on the biomechanical characteristics of lower limbs in patients with CAI.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">| Kinematics</head><p>Excessive ankle plantarflexion angle during landing can lead to an increase in ankle inversion angle, thus increasing the tension on the lateral ankle ligaments and exacerbating the risk of sprain. <ref type="bibr" target="#b25">26</ref> In this study, the Y-shaped taping technique was applied to the gastrocnemius muscle. Previous research demonstrated that this taping method can reduce gastrocnemius muscle activity, <ref type="bibr" target="#b26">27</ref> thereby aiding in the reduction in ankle joint plantarflexion angle.</p><p>The result of this study also indicated that KT application significantly reduced the ankle plantarflexion angle at initial contact. A study reported that KT application can stimulate cutaneous mechanoreceptors and increase proprioceptive input, enhancing the participants' accuracy in perceiving movement direction and joint position. <ref type="bibr" target="#b27">28</ref> This may contribute to the reduced ankle plantarflexion angle. Interestingly, compared to the NT group, the PT group showed a significantly lower ankle dorsiflexion angle at initial contact. Yin et al. <ref type="bibr" target="#b28">29</ref> suggested that KT can provide psychological support and enhance the subjective sense of safety and stability in patients with CAI, thereby contributing to improved postural control. The PT group applied the same taping method as the KT group but without tension. This might be because the application of the taping made the participants feel like they were undergoing treatment, providing a psychological sense of stability. Participants may have increased confidence in the task due to the expectancy effect, thereby reducing ankle plantarflexion angle at initial contact. Therefore, one of the mechanisms underlying the efficacy of KT application may be attributed to its psychological placebo effect.</p><p>Reduced ankle dorsiflexion and eversion range of motion are important predictors of ankle sprains. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b29">30</ref> Increased ankle dorsiflexion can lower the center of mass and increased eversion can consequently reduce the tension on the lateral ankle ligaments, thereby facilitating postural stability during landing. <ref type="bibr" target="#b30">31</ref> In the present study, a significant increase in peak ankle dorsiflexion and eversion angles at the early landing phase with KT application was observed. Conversely, Williams et al. <ref type="bibr" target="#b31">32</ref> reported a minimal impact of KT application on ankle range of motion. These inconsistencies may be related to variations in the study population and testing protocols. While they included diverse populations consisting of both healthy individuals and those with sports injuries, our study focused solely on patients with CAI. A study indicated that individuals with poorer function tend to be more sensitive T A B L E 3 Effects of KT on the kinetic characteristics of the lower limb at the early landing phase. Data are presented as mean ± SD.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>LSJ</head><p>RSJ NT PT KT NT PT KT Peak vGRF (BW) 1.92 ± 0.29 1.98 ± 0.38 1.67 ± 0.34 a,b 1.90 ± 0.21 1.86 ± 0.32 1.59 ± 0.38 a,b Peak ankle dorsiflexion moment (Nm/kg) 0.34 ± 0.18 0.41 ± 0.10 0.57 ± 0.18 a,b 0.35 ± 0.17 0.36 ± 0.12 0.37 ± 0.13 Peak ankle eversion moment (Nm/kg) 0.25 ± 0.11 0.25 ± 0.14 0.40 ± 0.12 a,b 0.25 ± 0.10 0.24 ± 0.09 0.45 ± 0.11 a,b Peak knee flexion moment (Nm/kg) 0.37 ± 0.04 0.36 ± 0.04 0.35 ± 0.08 0.38 ± 0.04 0.38 ± 0.02 0.37 ± 0.02 Peak knee valgus moment (Nm/kg) 0.58 ± 0.02 0.58 ± 0.02 0.57 ± 0.02 0.57 ± 0.03 0.57 ± 0.03 0.56 ± 0.02 Abbreviations: BW, body weight; KT, kinesio taping; LSJ, left-sided jumping; N, Newton; NT, no taping; PT, placebo taping; RSJ, right-sided jumping; vGRF, vertical ground reaction force. a Significant difference between the KT and NT groups. b Significant difference between the KT and PT groups.</p><p>to the stimulation of KT, resulting in a more pronounced therapeutic effect. <ref type="bibr" target="#b32">33</ref> By contrast, individuals in the healthy population tend to have normal functionality, which may lead to a lesser room for improvement. Furthermore, the randomization of testing tasks and directions in this study attenuated the regulatory role of the central nervous system, making the defects exhibited by patients with CAI more pronounced and severe during landing. <ref type="bibr" target="#b33">34</ref> Therefore, KT may be more effective in increasing ankle dorsiflexion and eversion angles. Patients with CAI exhibit heightened peak vGRF and accelerated time to peak vGRF during the landing phase, resulting in a dramatic increase of ankle joint loading as the first joint in contact with the ground. As compensation on the same side, the body tends to redistribute a substantial load to proximal joints, such as augmenting knee flexion angle to provide cushioning. <ref type="bibr" target="#b6">7</ref> This load transfer strategy is prone to central adaptive changes, ankle joint functional degradation, and a reduction in the contribution of knee extensors to trunk postural stability, leading to impaired trunk postural control and alterations in the lower limb joint force line, increasing the risk of lower limb injury. <ref type="bibr" target="#b34">35</ref> A systematic review by Fox et al. <ref type="bibr" target="#b35">36</ref> revealed that strategies aiming to enhance vGRF absorption through increased knee flexion angle may have an impact on sports performance during directional changes, such as cutting. The present study showed that KT intervention significantly reduced knee flexion angle at initial contact and peak knee flexion angle at the early landing phase. Considering the concurrent findings of increased ankle dorsiflexion and eversion angles, KT intervention can help to improve the abnormal compensatory patterns. It may make patients with CAI to adjust their strategies for absorbing vGRF by emphasizing greater ankle dorsiflexion angle rather than increasing knee flexion angle, thereby reducing knee joint compensation.</p><p>Kramer et al. <ref type="bibr" target="#b36">37</ref> reported that 52%-60% of patients with anterior cruciate ligment (ACL) injury had a history of multiple ankle sprains. A study indicated that patients with CAI present a high risk of ACL injury during landing. <ref type="bibr" target="#b37">38</ref> Increased knee valgus angle is one of the high-risk factors for ACL injury and a significant biomechanical characteristic change caused by landing phase compensation strategy in patients with CAI. <ref type="bibr" target="#b38">39,</ref><ref type="bibr" target="#b39">40</ref> The present study demonstrated a significant reduction in peak knee valgus angle at the early landing phase in the KT group. Sigward et al. <ref type="bibr" target="#b40">41</ref> found a significant negative correlation between ankle dorsiflexion range of motion and knee frontal plane excursion in female soccer players during a drop land task. The study by Macrum et al. <ref type="bibr" target="#b41">42</ref> also showed that limited dorsiflexion movement can lead to increased medial knee joint excursion and knee valgus during squatting tasks. Mauntel et al. <ref type="bibr" target="#b42">43</ref> suggested that this may be due to limited dorsiflexion leading to excessive rearfoot pronation, subsequently causing compensatory increases in lower limb internal rotation, which could result in knee valgus. The reason for decreased peak knee valgus angle in the KT group may be associated with the increase in peak ankle dorsiflexion angle. Therefore, the use of ankle KT may have a potential role in reducing the risk of ACL injury during unexpected jumping. However, this hypothesis requires further validation in prospective cohort studies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">| Kinetics</head><p>Peak vGRF represents the maximum impact force experienced by the body during landing, whereas time to peak vGRF is associated with the ability to absorb vGRF after landing. Under conditions of constant vGRF, a longer time to peak vGRF is advantageous for absorbing vGRF. <ref type="bibr" target="#b43">44</ref> The present study demonstrated a significant decrease in peak vGRF at the early landing phase in the KT group, contrary to the results reported by Cheraghi et al. <ref type="bibr" target="#b12">13</ref> They revealed that KT increased ankle plantarflexion angular velocity, which elevates the rate of loading force and has a potentially adverse effect on the vGRF absorption. The taping methods they employed imposed mechanical constraints, which potentially compromised the body's capacity to regulate plantarflexion motion during jumping, resulting in an elevation of ankle plantarflexion angular velocity. In this study, we applied the I-shaped facilitation taping technique to the anterior tibialis muscle, which is believed to enhance muscle contraction. <ref type="bibr" target="#b44">45</ref> And our findings revealed an amelioration in ankle joint dorsiflexion angle. Lower limb sagittal plane motion serves as the primary pathway for absorbing vGRF. <ref type="bibr" target="#b45">46</ref> An increase in ankle dorsiflexion angle results in a larger gap between the foot and the ground. This prolongs the time of foot contact with the ground, thereby extending the buffering of vGRF through dorsiflexion motion and subsequently reducing peak vGRF. <ref type="bibr" target="#b46">47</ref> As the ankle joint transitions from plantarflexion to dorsiflexion, the arm of force length of the anterior tibialis increases. <ref type="bibr" target="#b47">48</ref> Consequently, decreased ankle plantarflexion angle at initial contact favors the arm of force length of the anterior tibialis, placing it in a more mechanically advantageous position during dorsiflexion motion, thus facilitating the absorption of vGRF after landing. <ref type="bibr" target="#b48">49</ref> The load of landing during jumping is predominantly concentrated at the ankle joint, but most patients with CAI tend to off-load ankle joint load to the knee joint due to the fear of ankle injury, which consequently increases the risk of knee joint injury. <ref type="bibr" target="#b49">50,</ref><ref type="bibr" target="#b50">51</ref> The present study revealed a notable augmentation in ankle dorsiflexion and eversion moment at the early landing phase in the KT group. These changes in biomechanical characteristics favor the restoration of normal joint loading patterns and prevent ankle joint degeneration. It is noteworthy to mention that the KT group demonstrated a reduction in peak knee flexion and eversion moments compared to the NT and PT groups. This could imply that KT has the potential effect of reducing the demand for knee joint contraction and altering the knee joint compensation pattern. However, the differences were not statistically significant. Therefore, the effect of KT on knee joint moment in patients with CAI remains to be further verified.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">| Limitations</head><p>Nonetheless, this study has some limitations. First, only the immediate and not the long-term effects of KT were analyzed. Athletes often proceed to the field shortly after the application of KT in practical sports scenarios. Second, surface electromyography devices require placement on the muscle surface, which has the potential to influence the direction of the force exerted by KT. Consequently, muscle activity assessment was not conducted in this study. Therefore, future studies enhancing taping techniques and employing more advanced and accurate surface electromyography devices to examine muscle activity during unexpected jumping movements are warranted.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4">| Perspectives</head><p>The present study indicated that KT can improve the sprain-prone touchdown posture of patients with CAI during unexpected jumping by decreasing ankle plantarflexion angle at initial contact. Furthermore, KT induced higher peak ankle dorsiflexion and eversion angles and moments, as well as lower peak knee flexion angle and moment in patients with CAI at the early landing phase. This suggested that KT may enable patients with CAI to absorb excessive loads by increasing ankle joint angles and moments rather than knee joint compensation. These biomechanical changes aid in improving joint loading patterns and lowering the risk of ankle sprains in patients with CAI. However, further research is needed to validate these conclusions. This work may help investigate the potential effects of KT on the biomechanical characteristics of unexpected jumping in patients with CAI. And providing valuable information on the application of KT for ankle sprain prevention in patients with CAI.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>F I G U R E 2</head><label>2</label><figDesc>Calibrated position of 38 marker points. F I G U R E 3 Diagram of unexpected jumping patterns. Running (A); Single-leg landing on the right force plate (B); Single-leg jumping to the left force plate (C) and Landing (D). with the right leg as the affected side, taking blue light turning on as an example. Solid arrows indicating the movement direction.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>| 9 of 11 WANG</head><label>11</label><figDesc>et al.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="3,219.38,476.23,330.26,259.47" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>16000838, 2024, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14566 by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [10/08/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><head>FUNDING INFORMATION</head><p>This work was supported by the <rs type="funder">Research Fund for Young Teachers of Wuhan Sports University and Donghu Scholar Program of Wuhan Sports University</rs> (<rs type="grantNumber">2019</rs>), <rs type="funder">Young and Middle-Aged Scientific Research Team Project of Wuhan Sports University</rs> (No. <rs type="grantNumber">21KT14</rs>), and The 14th <rs type="funder">Five-Year-Plan Advantageous and Characteristic Disciplines (Groups) of Colleges and Universities in Hubei Province</rs> under Grant (<rs type="grantNumber">2021-05</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_9cJpWmr">
+					<idno type="grant-number">2019</idno>
+				</org>
+				<org type="funding" xml:id="_BfmhR7D">
+					<idno type="grant-number">21KT14</idno>
+				</org>
+				<org type="funding" xml:id="_BhQZcpR">
+					<idno type="grant-number">2021-05</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head><p>The data supporting the findings of this study are available from the corresponding authors upon request.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PATIENT CONSENT STATEMENT</head><p>All participants were informed regarding the experimental procedures and signed informed consent was obtained before data collection.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>Ling Wang, Peng Chen and Cheng Zheng designed the study. Ling Wang and Peng Chen wrote the manuscript.</p><p>Yue Ding and Siyu Fan performed the testing. Guanglan Wang and Shaohui Jia analyzed the data. Zhihao Guo and Cheng Zheng provided critical revision.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACKNO WLE DGE MENTS</head><p>The authors would like to thank the Key Laboratory of Sports Engineering of the General Administration of Sport of China, Wuhan Sports University for providing experimental site and instrumentation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST STATEMENT</head><p>The authors declare no conflict in interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Understanding acute ankle ligamentous sprain injury in sports</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Fong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Mok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med Arthrosc Rehabil Ther Technol</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">14</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fong DT, Chan YY, Mok KM, et al. Understanding acute ankle ligamentous sprain injury in sports. Sports Med Arthrosc Rehabil Ther Technol. 2009;1:14.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Ankle injuries in basketball: injury rate and risk factors</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Mckay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Goldie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Payne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Oakes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="103" to="108" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McKay GD, Goldie PA, Payne WR, Oakes BW. Ankle injuries in basketball: injury rate and risk factors. Br J Sports Med. 2001;35(2):103-108.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Acute lateral ankle sprain to chronic ankle instability: a pathway of dysfunction</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Miklovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Donovan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Protzuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Feger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Sportsmed</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="116" to="122" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Miklovic TM, Donovan L, Protzuk OA, Kang MS, Feger MA. Acute lateral ankle sprain to chronic ankle instability: a path- way of dysfunction. Phys Sportsmed. 2018;46(1):116-122.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The incidence and prevalence of ankle sprain injury: a systematic review and meta-analysis of prospective epidemiological studies</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Doherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Delahunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Caulfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bleakley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="123" to="140" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doherty C, Delahunt E, Caulfield B, Hertel J, Ryan J, Bleakley C. The incidence and prevalence of ankle sprain injury: a sys- tematic review and meta-analysis of prospective epidemiologi- cal studies. Sports Med. 2014;44(1):123-140.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Selection criteria for patients with chronic ankle instability in controlled research: a position statement of the international ankle consortium</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Gribble</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Delahunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bleakley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="585" to="591" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gribble PA, Delahunt E, Bleakley C, et al. Selection criteria for patients with chronic ankle instability in controlled research: a position statement of the international ankle consortium. J Orthop Sports Phys Ther. 2013;43(8):585-591.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Hop-stabilization training and landing biomechanics in athletes with chronic ankle instability: a randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Ardakani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Wikstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Minoonejad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rajabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sharifnezhad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1296" to="1303" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ardakani MK, Wikstrom EA, Minoonejad H, Rajabi R, Sharifnezhad A. Hop-stabilization training and landing biome- chanics in athletes with chronic ankle instability: a randomized controlled trial. J Athl Train. 2019;54(12):1296-1303.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Altered movement strategies during jump landing/cutting in patients with chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Son</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Seeley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Hopkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1130" to="1140" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kim H, Son SJ, Seeley MK, Hopkins JT. Altered move- ment strategies during jump landing/cutting in patients with chronic ankle instability. Scand J Med Sci Sports. 2019;29(8):1130-1140.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Kinesio Taping Association. Kinesio Taping Perfect Manual: Amazing Taping Therapy to Eliminate Pain and Muscle Disorders</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ojku</forename><surname>Tomoki</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">1998</biblScope>
+			<biblScope unit="page" from="117" to="118" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kase K, Hashimoto T, Tomoki OJKU, Kinesio Taping Association. Kinesio Taping Perfect Manual: Amazing Taping Therapy to Eliminate Pain and Muscle Disorders. Vol 6-10. Kinesio; 1998:117-118.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Effect of kinesiotaping, non-elastic taping and bracing on segmental foot kinematics during drop landing in healthy subjects and subjects with chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kuni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mussler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kalkum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schmitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Wolf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiotherapy</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="287" to="293" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kuni B, Mussler J, Kalkum E, Schmitt H, Wolf SI. Effect of kinesiotaping, non-elastic taping and bracing on segmen- tal foot kinematics during drop landing in healthy subjects and subjects with chronic ankle instability. Physiotherapy. 2016;102(3):287-293.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Effects of kinesiotaping and athletic taping on ankle kinematics during walking in individuals with chronic ankle instability: a pilot study</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Yen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Folmar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Friend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Chui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gait Posture</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="118" to="123" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yen SC, Folmar E, Friend KA, Wang YC, Chui KK. Effects of kinesiotaping and athletic taping on ankle kinematics during walking in individuals with chronic ankle instability: a pilot study. Gait Posture. 2018;66:118-123.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Gait biomechanics following taping and bracing in patients with chronic ankle instability: a critically appraised topic</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Migel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Wikstrom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="373" to="376" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Migel K, Wikstrom E. Gait biomechanics following taping and bracing in patients with chronic ankle instability: a critically appraised topic. J Sport Rehabil. 2020;29(3):373-376.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Short-term effects of Kinesio taping on muscle recruitment order during a vertical jump: a pilot study</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mendez-Rebolledo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ramirez-Campillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Guzman-Muñoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gatica-Rojas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dabanch-Santis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Diaz-Valenzuela</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="319" to="326" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mendez-Rebolledo G, Ramirez-Campillo R, Guzman-Muñoz E, Gatica-Rojas V, Dabanch-Santis A, Diaz-Valenzuela F. Short-term effects of Kinesio taping on muscle recruitment order during a vertical jump: a pilot study. J Sport Rehabil. 2018;27(4):319-326.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Effects of ankle Kinesio™ taping on jump biomechanics in collegiate athletes with chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cheraghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boozari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Svoboda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Kovačikova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Needle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sarvestan</surname></persName>
+		</author>
+		<idno type="DOI">/10.1007/s11332-021-00863-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sport Sci Health</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="839" to="846" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cheraghi M, Boozari S, Svoboda Z, Kovačikova Z, Needle AR, Sarvestan J. Effects of ankle Kinesio™ taping on jump biomechanics in collegiate athletes with chronic ankle in- stability. Sport Sci Health. 2022;18:839-846. doi:10.1007/ s11332-021-00863-3</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Effect of ankle kinesio taping on vertical jump with run-up and countermovement jump in athletes with ankle functional instability</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Phys Ther Sci</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2087" to="2090" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ho YH, Lin CF, Chang CH, Wu HW. Effect of ankle kinesio taping on vertical jump with run-up and countermovement jump in athletes with ankle functional instability. J Phys Ther Sci. 2015;27(7):2087-2090.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The placebo effect of ankle taping in ankle instability</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sawkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Refshauge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kilbreath</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="781" to="787" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sawkins K, Refshauge K, Kilbreath S, et al. The placebo ef- fect of ankle taping in ankle instability. Med Sci Sports Exerc. 2007;39(5):781-787.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Effect of kinesiology tape on measurements of balance in subjects with chronic ankle instability: a randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">Torre-</forename><surname>De La</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Domingo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Alguacil-Diego</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Molina-Rueda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Phys Med Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2169" to="2175" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">de la Torre-Domingo C, Alguacil-Diego IM, Molina-Rueda F, et al. Effect of kinesiology tape on measurements of bal- ance in subjects with chronic ankle instability: a random- ized controlled trial. Arch Phys Med Rehabil. 2015;96(12): 2169-2175.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The effect of ankle bracing on kinematics in simulated sprain and drop landings: a double-blind, placebo-controlled study</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Agres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chrysanthou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Raffalt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1480" to="1487" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Agres AN, Chrysanthou M, Raffalt PC. The effect of ankle bracing on kinematics in simulated sprain and drop landings: a double-blind, placebo-controlled study. Am J Sports Med. 2019;47(6):1480-1487.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Effects of different ankle supports on the single-leg lateral drop landing following muscle fatigue in athletes with functional ankle instability</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Environ Res Public Health</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">3438</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lin CC, Chen SJ, Lee WC, Lin CF. Effects of different ankle sup- ports on the single-leg lateral drop landing following muscle fa- tigue in athletes with functional ankle instability. Int J Environ Res Public Health. 2020;17(10):3438.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Effect of kinesio taping on jumping and balance in athletes: a crossover randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Nunes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Noronha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Cunha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ruschel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Borges</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="3183" to="3189" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nunes GS, de Noronha M, Cunha HS, Ruschel C, Borges NG. Effect of kinesio taping on jumping and balance in athletes: a crossover randomized controlled trial. J Strength Cond Res. 2013;27(11):3183-3189.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The ankle kinematic reference of normal gait pattern in Thai adults</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Klaewkasikum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Patathong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Angsanuntsukh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Woratanarat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sanguantrakul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Woratanarat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Surg</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">915090</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Klaewkasikum K, Patathong T, Angsanuntsukh C, Woratanarat T, Sanguantrakul J, Woratanarat P. The ankle kinematic reference of normal gait pattern in Thai adults. Front Surg. 2022;9:915090.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Fatigue-induced ACL injury risk stems from a degradation in central control</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Mclean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Samorezov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1661" to="1672" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McLean SG, Samorezov JE. Fatigue-induced ACL injury risk stems from a degradation in central control. Med Sci Sports Exerc. 2009;41(8):1661-1672.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Taping benefits ankle joint landing kinematics in subjects with chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>De Ridder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Willems</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vanrenterghem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="162" to="167" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">De Ridder R, Willems T, Vanrenterghem J, et al. Taping benefits ankle joint landing kinematics in subjects with chronic ankle instability. J Sport Rehabil. 2020;29(2):162-167.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Single leg hop for distance symmetry masks lower limb biomechanics: time to discuss hop distance as decision criterion for return to sport after ACL reconstruction?</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kotsifaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Whiteley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Rossom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="249" to="256" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kotsifaki A, Whiteley R, Van Rossom S, et al. Single leg hop for distance symmetry masks lower limb biomechanics: time to discuss hop distance as decision criterion for return to sport after ACL reconstruction? Br J Sports Med. 2022;56(5):249-256.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Neuromuscular control in individuals with chronic ankle instability: a comparison of unexpected and expected ankle inversion perturbations during a single leg drop-landing</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum Mov Sci</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="133" to="141" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simpson JD, Stewart EM, Turner AJ, et al. Neuromuscular control in individuals with chronic ankle instability: a compar- ison of unexpected and expected ankle inversion perturbations during a single leg drop-landing. Hum Mov Sci. 2019;64:133-141.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Unanticipated ankle inversions are significantly different from anticipated ankle inversions during drop landings: overcoming anticipation bias</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Dicus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Seegmiller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Biomech</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="148" to="155" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dicus JR, Seegmiller JG. Unanticipated ankle inversions are significantly different from anticipated ankle inversions during drop landings: overcoming anticipation bias. J Appl Biomech. 2012;28(2):148-155.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The influence of foot positioning on ankle sprains</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Neptune</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Van Den Bogert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Nigg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="513" to="519" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wright IC, Neptune RR, van den Bogert AJ, Nigg BM. The influence of foot positioning on ankle sprains. J Biomech. 2000;33(5):513-519.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The immediate effects of Kinesio taping on running biomechanics, muscle activity, and perceived changes in comfort, stability and running performance in healthy runners, and the implications to the management of iliotibial band syndrome</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Watcharakhueankhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sinsurin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jaysrichai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Richards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gait Posture</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="179" to="185" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Watcharakhueankhan P, Chapman GJ, Sinsurin K, Jaysrichai T, Richards J. The immediate effects of Kinesio taping on run- ning biomechanics, muscle activity, and perceived changes in comfort, stability and running performance in healthy runners, and the implications to the management of iliotibial band syn- drome. Gait Posture. 2022;91:179-185.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The effects of Kinesiotape applied to the lateral aspect of the ankle: relevance to ankle sprains-a systematic review</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bialocerkowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">124214</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilson B, Bialocerkowski A. The effects of Kinesiotape applied to the lateral aspect of the ankle: relevance to ankle sprains-a systematic review. PLoS One. 2015;10(6):e0124214.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Acute effect of kinesiology taping on postural stability in individuals with unilateral chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">192</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yin L, Wang L. Acute effect of kinesiology taping on postural stability in individuals with unilateral chronic ankle instability. Front Physiol. 2020;11:192.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The effect of reduced ankle dorsiflexion on lower extremity mechanics during landing: a systematic review</title>
+		<author>
+			<persName><forename type="first">Mason-Mackay Ar</forename><surname>Whatman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sci Med Sport</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="451" to="458" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mason-Mackay AR, Whatman C, Reid D. The effect of reduced ankle dorsiflexion on lower extremity mechanics during land- ing: a systematic review. J Sci Med Sport. 2017;20(5):451-458.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A laboratory captured &apos;giving way&apos; episode during a single-leg landing task in an individual with unilateral chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Kosik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Hoch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Heebner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hartzell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Gribble</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="153" to="158" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kosik KB, Hoch MC, Heebner NR, Hartzell J, Gribble PA. A laboratory captured &apos;giving way&apos; episode during a single-leg landing task in an individual with unilateral chronic ankle in- stability. J Biomech. 2019;90:153-158.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Kinesio taping in treatment and prevention of sports injuries: a meta-analysis of the evidence for its effectiveness</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Whatman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Hume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sheerin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="153" to="164" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Williams S, Whatman C, Hume PA, Sheerin K. Kinesio taping in treatment and prevention of sports injuries: a meta-analysis of the evidence for its effectiveness. Sports Med. 2012;42(2):153-164.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Prolonged use of Kinesiotaping does not enhance functional performance and joint proprioception in healthy young males: randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Magalhães</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bottaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Freitas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Carmo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jpc</forename><surname>Matheus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Carregaro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Braz J Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="213" to="222" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Magalhães I, Bottaro M, Freitas JR, Carmo J, Matheus JPC, Carregaro RL. Prolonged use of Kinesiotaping does not en- hance functional performance and joint proprioception in healthy young males: randomized controlled trial. Braz J Phys Ther. 2016;20(3):213-222.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Changes in spinal and corticospinal excitability in patients with chronic ankle instability: a systematic review with metaanalysis</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cruz-Díaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ryu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Taube</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Med</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">1037</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kim KM, Kim JS, Cruz-Díaz D, Ryu S, Kang M, Taube W. Changes in spinal and corticospinal excitability in patients with chronic ankle instability: a systematic review with meta- analysis. J Clin Med. 2019;8(7):1037.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Energy dissipation differs between females with and without chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Mccann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Terada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Kosik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1227" to="1234" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCann RS, Terada M, Kosik KB, et al. Energy dissipation dif- fers between females with and without chronic ankle instabil- ity. Scand J Med Sci Sports. 2018;28(3):1227-1234.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Change-of-direction biomechanics: is What&apos;s best for anterior cruciate ligament injury prevention also best for performance</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Fox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1799" to="1807" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fox AS. Change-of-direction biomechanics: is What&apos;s best for anterior cruciate ligament injury prevention also best for per- formance? Sports Med. 2018;48(8):1799-1807.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Factors associated with anterior cruciate ligament injury: history in female athletes</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Kramer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Denegar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Buckley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Med Phys Fitness</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="446" to="454" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kramer LC, Denegar CR, Buckley WE, Hertel J. Factors asso- ciated with anterior cruciate ligament injury: history in female athletes. J Sports Med Phys Fitness. 2007;47(4):446-454.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Chronic ankle instability modifies proximal lower extremity biomechanics during sports maneuvers that may increase the risk of ACL injury: a systematic review</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ming</forename><forename type="middle">A</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">1036267</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Xu Y, Song B, Ming A, Zhang C, Ni G. Chronic ankle instability modifies proximal lower extremity biomechanics during sports maneuvers that may increase the risk of ACL injury: a system- atic review. Front Physiol. 2022;13:1036267.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Sex-based differences in the drop vertical jump as revealed by video motion capture analysis using artificial intelligence</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kawaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Taketomi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mizutani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Orthop J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">23259671211048188</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kawaguchi K, Taketomi S, Mizutani Y, et al. Sex-based differ- ences in the drop vertical jump as revealed by video motion capture analysis using artificial intelligence. Orthop J Sports Med. 2021;9(11):23259671211048188.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Prelanding movement strategies among chronic ankle instability, coper, and control subjects</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Son</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Seeley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hopkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Biomech</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="391" to="407" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Han S, Son SJ, Kim H, Lee H, Seeley M, Hopkins T. Prelanding movement strategies among chronic ankle instability, coper, and control subjects. Sports Biomech. 2022;21(4):391-407.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Predictors of frontal plane knee excursion during a drop land in young female soccer players</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Sigward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Powers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="661" to="667" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sigward SM, Ota S, Powers CM. Predictors of frontal plane knee excursion during a drop land in young female soccer players. J Orthop Sports Phys Ther. 2008;38(11):661-667.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Effect of limiting ankle-dorsiflexion range of motion on lower extremity kinematics and muscle-activation patterns during a squat</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Macrum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Boling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lewek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Padua</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="144" to="150" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Macrum E, Bell DR, Boling M, Lewek M, Padua D. Effect of limiting ankle-dorsiflexion range of motion on lower extrem- ity kinematics and muscle-activation patterns during a squat. J Sport Rehabil. 2012;21(2):144-150.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">The effects of lower extremity muscle activation and passive range of motion on single leg squat performance</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Mauntel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Begalle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Cram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1813" to="1823" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mauntel TC, Begalle RL, Cram TR, et al. The effects of lower extremity muscle activation and passive range of mo- tion on single leg squat performance. J Strength Cond Res. 2013;27(7):1813-1823.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Different modes of feedback and peak vertical ground reaction force during jump landing: a systematic review</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Ericksen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Gribble</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Pfile</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Pietrosimone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="685" to="695" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ericksen HM, Gribble PA, Pfile KR, Pietrosimone BG. Different modes of feedback and peak vertical ground reaction force during jump landing: a systematic review. J Athl Train. 2013;48(5):685-695.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Effects of kinesio taping on static balance performance and muscle activity in children with developmental coordination disorder: a single-group pretest-posttest study</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Rehabil Med</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page">13403</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li LL, Chen FC. Effects of kinesio taping on static balance per- formance and muscle activity in children with developmental coordination disorder: a single-group pretest-posttest study. J Rehabil Med. 2023;55:jrm13403.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Altered movement biomechanics in chronic ankle instability, Coper, and control groups: energy absorption and distribution implications</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Son</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Seeley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Hopkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="708" to="717" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kim H, Son SJ, Seeley MK, Hopkins JT. Altered movement biomechanics in chronic ankle instability, Coper, and control groups: energy absorption and distribution implications. J Athl Train. 2019;54(6):708-717.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Increasing plantarflexion angle during landing reduces vertical ground reaction forces, loading rates and the hip&apos;s contribution to support moment within participants</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Rowley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Richards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="1922" to="1931" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rowley KM, Richards JG. Increasing plantarflexion angle during landing reduces vertical ground reaction forces, loading rates and the hip&apos;s contribution to support moment within par- ticipants. J Sports Sci. 2015;33(18):1922-1931.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b47">
+	<analytic>
+		<title level="a" type="main">In vivo measurement-based estimations of the moment arm in the human tibialis anterior muscle-tendon unit</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Maganaris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="375" to="379" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maganaris CN. In vivo measurement-based estimations of the moment arm in the human tibialis anterior muscle-tendon unit. J Biomech. 2000;33(3):375-379.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Effects of fibular repositioning tape on ankle kinematics and muscle activity</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>East</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Blackburn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Distefano</surname></persName>
+		</author>
+		<idno type="DOI">/10.3928/19425864-20100428-05</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Athl Train Sports Health Care</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="113" to="122" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">East MN, Blackburn JT, DiStefano LJ, et al. Effects of fib- ular repositioning tape on ankle kinematics and muscle activity. Athl Train Sports Health Care. 2010;2(3):113-122. doi:10.3928/19425864-20100428-05</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Ankle instability patients exhibit altered muscle activation of lower extremity and ground reaction force during landing: a systematic review and metaanalysis</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci Med</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="373" to="390" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jeon HG, Lee SY, Park SE, Ha S. Ankle instability patients ex- hibit altered muscle activation of lower extremity and ground reaction force during landing: a systematic review and meta- analysis. J Sports Sci Med. 2021;20(2):373-390.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Effects of chronic ankle instability on energy dissipation in the lower extremity</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Terada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Pfile</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Pietrosimone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2120" to="2128" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Terada M, Pfile KR, Pietrosimone BG, et al. Effects of chronic ankle instability on energy dissipation in the lower extremity. Med Sci Sports Exerc. 2013;45(11):2120-2128.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

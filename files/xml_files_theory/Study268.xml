@@ -1,0 +1,2394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Psychology of Sport &amp; Exercise</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2019-06-26">26 June 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Rebecca</forename><surname>Byrne</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Centre for Applied Psychology</orgName>
+								<orgName type="department" key="dep2">Faculty of Health</orgName>
+								<orgName type="institution">University of Canberra</orgName>
+								<address>
+									<addrLine>University Drive</addrLine>
+									<postCode>2601</postCode>
+									<settlement>Bruce</settlement>
+									<region>ACT</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Corresponding author</orgName>
+								<orgName type="institution">University of Canberra</orgName>
+								<address>
+									<addrLine>University Drive</addrLine>
+									<postCode>2617</postCode>
+									<settlement>Bruce</settlement>
+									<region>ACT</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andrew</forename><surname>Flood</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Centre for Applied Psychology</orgName>
+								<orgName type="department" key="dep2">Faculty of Health</orgName>
+								<orgName type="institution">University of Canberra</orgName>
+								<address>
+									<addrLine>University Drive</addrLine>
+									<postCode>2601</postCode>
+									<settlement>Bruce</settlement>
+									<region>ACT</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute for Sport and Exercise</orgName>
+								<orgName type="institution" key="instit1">University of Canberra Research</orgName>
+								<orgName type="institution" key="instit2">University of Canberra</orgName>
+								<address>
+									<addrLine>University Drive</addrLine>
+									<postCode>2601</postCode>
+									<settlement>Bruce</settlement>
+									<region>ACT</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Psychology of Sport &amp; Exercise</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-06-26">26 June 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">96C88758D74933A47ABEBE0596828784</idno>
+					<idno type="DOI">10.1016/j.psychsport.2019.101554</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:20+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>tDCS Exercise-induced pain Brain stimulation Pain affect Endurance performance</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Introduction: Transcranial direct current stimulation (tDCS) is a non-invasive form of electrical brain stimulation that has been offered as a novel method to enhance endurance exercise performance. While the underlying mechanisms for these performance enhancing effects remain unclear, one explanation relates to a reduction in pain experienced during exercise. Research examining this explanation however, has failed to consider the widely recognised motivational-affective component of the pain experience.</p><p>Objectives: The present study aimed to determine whether pain experienced during exercise involves an affective component, and whether a reduction in pain affect may account for the performance-enhancing effects of tDCS. Methods: Healthy, pain-free individuals (n = 23), including 11 males and 12 females aged 18-39 years, were recruited for participation in a randomised, placebo-controlled, participant blinded, repeated measures design study. Participants attended two testing sessions separated by at least five days. In each session, participants received either active (2 mA, 20 min) or sham (placebo control) tDCS delivered to the left dorsolateral prefrontal cortex (DLPFC). Participants then completed an endurance exercise task comprised of a sustained isometric contraction of the leg extensors performed to exhaustion at an intensity corresponding to 25% of their maximal voluntary contraction. During this task, participants provided ratings of pain intensity and pain unpleasantness at 20 s intervals. Results: Ratings of pain intensity (p &lt; .001) and pain affect (p &lt; .001) increased throughout the endurance exercise task. However, the tDCS intervention did not enhance endurance exercise performance (p &gt; .05), nor manipulate perceptions of pain affect (p &gt; .05). Conclusions: While the endurance exercise task induced pain affect, tDCS over the left DLPFC was not effective in reducing this component of the pain experience, nor enhancing exercise performance.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The brain has emerged as the new frontier in efforts to advance human athletic potential <ref type="bibr" target="#b59">(Park, Fairweather, &amp; Donaldson, 2015)</ref>. Noninvasive methods of brain stimulation, in particular, have proven to be popular methods in attempts to enhance endurance exercise performance <ref type="bibr" target="#b18">(Davis, 2013)</ref>. For example, publicly available electrical brain stimulation devices, such as the HaloSport <ref type="bibr">(Halo Neuroscience, 2018)</ref>, claim performance-enhancing (ergogenic) effects following brief periods of stimulation. However, care must be taken to not only confirm the safety of these techniques, but also to uncover the mechanisms that underlie any performance-enhancing effect <ref type="bibr" target="#b4">(Angius, Hopker, &amp; Mauger, 2017)</ref>. Doing so may lead to the refinement and enhanced efficacy of these approaches for use in sporting contexts. One promising brain stimulation technique that has demonstrated resurgence in both scientific and public communities is transcranial direct current stimulation (tDCS; <ref type="bibr" target="#b4">Angius et al., 2017)</ref>.</p><p>This non-invasive form of electrical stimulation allows for the temporary modulation of cortical excitability <ref type="bibr" target="#b14">(Brunoni et al., 2012)</ref>. The administration of tDCS involves the delivery of a low-amplitude, constant direct current dispersed through two electrodes, an anode and a cathode <ref type="bibr" target="#b14">(Brunoni et al., 2012)</ref>. This form of neuromodulation results in polarity-dependent shifts in the resting membrane potential of underlying cortical neurons <ref type="bibr" target="#b53">(Nitsche &amp; Paulus, 2011)</ref>, with anodal stimulation enhancing, and cathodal stimulation inhibiting, excitability <ref type="bibr" target="#b14">(Brunoni et al., 2012)</ref>. Brief stimulation periods of 10 min to the motor cortex (M1) have demonstrated sustained excitability or inhibitory effects that persist for up to 1 h, and repeated stimulation can prolong and <ref type="url" target="https://doi.org/10.1016/j.psychsport.2019.101554">https://doi.org/10.1016/j.psychsport.2019.101554</ref> Received 20 December 2018; Received in revised form 19 June 2019; Accepted 19 June 2019 stabilise changes that last for weeks <ref type="bibr" target="#b53">(Nitsche &amp; Paulus, 2011)</ref>.</p><p>The interest in tDCS for its performance-enhancing potential in endurance exercise has grown considerably <ref type="bibr" target="#b4">(Angius et al., 2017)</ref>. However, findings to-date have been mixed <ref type="bibr" target="#b33">(Holgado, Vadillo, &amp; Sanabria, 2019)</ref>. For example, anodal tDCS over the temporal cortex <ref type="bibr" target="#b54">(Okano et al., 2013)</ref> and M1 <ref type="bibr" target="#b3">(Angius, Hopker, Marcora, &amp; Mauger, 2015)</ref> has been reported to enhance peak power output during cycling tasks. By contrast, no improvement in cycling performance was observed by <ref type="bibr" target="#b8">Barwood et al. (2016)</ref>, who also targeted the temporal cortex with anodal stimulation. Further, while some studies <ref type="bibr" target="#b1">(Abdelmoula, Baudry, &amp; Duchateau, 2016;</ref><ref type="bibr" target="#b15">Cogiamanian, Marceglia, Ardolino, Barbieri, &amp; Priori, 2007)</ref> have shown tDCS to enhance muscular endurance in single-limb isometric contractions, others have discerned no performance-enhancing effect <ref type="bibr" target="#b2">(Abdelmoula, Baudry, &amp; Duchateau, 2018;</ref><ref type="bibr" target="#b33">Holgado et al., 2019;</ref><ref type="bibr" target="#b34">Kan, Dundas, &amp; Nosaka, 2013;</ref><ref type="bibr" target="#b37">Lattari et al., 2018;</ref><ref type="bibr" target="#b51">Muthalib, Kan, Nosaka, &amp; Perrey, 2013;</ref><ref type="bibr" target="#b63">Radel, Tempest, Denis, Besson, &amp; Zory, 2017;</ref><ref type="bibr" target="#b70">Valenzuela et al., 2018)</ref>.</p><p>It is possible that methodological differences may account for the discrepancies in research findings. For example, while some have applied tDCS for 20 min at current intensities of 2 mA (mA; <ref type="bibr" target="#b54">Okano et al., 2013)</ref>, others have used stimulation protocols of a reduced duration and intensity <ref type="bibr" target="#b1">(Abdelmoula et al., 2016;</ref><ref type="bibr" target="#b15">Cogiamanian et al., 2007)</ref>, with variation also observed in targeted cortical region. Such differences have been shown to produce variability in the resulting changes in neuronal activity, and consequential task-specific outcomes <ref type="bibr" target="#b53">(Nitsche &amp; Paulus, 2011)</ref>. These inconsistencies in methods and research findings mean that the ergogenic effects of tDCS remain unclear <ref type="bibr" target="#b4">(Angius et al., 2017;</ref><ref type="bibr" target="#b33">Holgado et al., 2019)</ref>. Nevertheless, tDCS remains a novel and promising avenue for performance-enhancing interventions <ref type="bibr" target="#b4">(Angius et al., 2017)</ref>.</p><p>In addition to these methodological inconsistencies, the mechanisms through which tDCS may act to enhance exercise performance remains an important area for clarification <ref type="bibr" target="#b4">(Angius et al., 2017)</ref>. A popular hypothesis attributes the ergogenic effects of tDCS to reductions in perceived pain <ref type="bibr" target="#b15">(Cogiamanian et al., 2007)</ref>. Exercise-induced pain (EIP) refers to pain that occurs naturally during exercise, typically originating from the site of muscular performance <ref type="bibr" target="#b57">(O'Connor &amp; Cook, 1999)</ref>. It has been theorised that an athlete's ability to tolerate EIP is a critical determinant of success in endurance performance <ref type="bibr" target="#b6">(Anshel and Russell, 1994)</ref>, with EIP often characterised as an inhibiting factor during exercise <ref type="bibr" target="#b7">(Astokorki &amp; Mauger, 2016;</ref><ref type="bibr" target="#b44">Mauger, 2013)</ref>. This role of EIP in fatiguing exercise is supported by both anecdotal reports of elevated pain tolerance in athletes <ref type="bibr" target="#b57">(O'Connor &amp; Cook, 1999;</ref><ref type="bibr" target="#b69">Tesarz, Schuster, Hartmann, Gerhardt, &amp; Eich, 2012)</ref>, and by the performance-enhancing effects of analgesic substances. For example, caffeine consumption, which is known to have analgesic effects, has resulted in significant increases in cycling endurance time <ref type="bibr" target="#b28">(Gonglach, Ade, Bemben, Larson, &amp; Black, 2015)</ref>. Further, acetaminophen ingestion has facilitated significantly faster cycling time-trial completion time when compared to placebo <ref type="bibr" target="#b45">(Mauger, Jones, &amp; Williams, 2010)</ref>.</p><p>Given the purported analgesic effects of tDCS over the M1 <ref type="bibr" target="#b3">(Angius et al., 2015;</ref><ref type="bibr" target="#b39">Lefaucheur et al., 2008)</ref>, it is possible that tDCS may similarly enhance exercise performance by reducing perceived pain. <ref type="bibr" target="#b3">Angius et al. (2015)</ref> investigated this suggestion, reporting no significant change in EIP after active tDCS over the M1. Similar findings were also reported by <ref type="bibr" target="#b34">Kan et al (2013)</ref>. However, whilst these findings suggest that the ergogenic effects of tDCS are not attributable to changes in EIP, further research is needed before such an explanation can be dismissed.</p><p>One particularly important aspect that has not been considered is the multidimensional nature of pain. Specifically, the sensory-discriminative component of pain encompasses the perceived intensity, quality, and location of the sensation (pain intensity; <ref type="bibr" target="#b22">Eisenberger, 2012)</ref>, primarily projected through the somatosensory cortex <ref type="bibr" target="#b32">(Hofbauer, Rainville, Duncan, &amp; Bushnell, 2001)</ref>. Conversely, a second, motivational-affective component relates to the unpleasant, aversive nature of the pain experience, and relies on regions of the limbic system, thalamus (pain affect; <ref type="bibr" target="#b46">Melzack &amp; Casey, 1968;</ref><ref type="bibr" target="#b77">Yen &amp; Lu, 2013)</ref>, and the dorsolateral prefrontal cortex (DLPFC; <ref type="bibr" target="#b40">Lorenz, Minoshima, &amp; Casey, 2003)</ref>.</p><p>It is the sensory-discriminative dimension which has been assessed in research examining EIP and the performance-enhancing effects of tDCS, with existing research failing to produce changes in this dimension of the EIP experience following stimulation <ref type="bibr" target="#b3">(Angius et al., 2015;</ref><ref type="bibr" target="#b34">Kan et al., 2013)</ref>. In contrast, research to-date has failed to consider changes in the motivational-affective aspect. Given that the behavioural responses to escape the pain source are activated by the motivationalaffective dimension <ref type="bibr" target="#b65">(Schnitzler &amp; Ploner, 2000)</ref>, it is possible that termination or reduction of exercise relates to the motivational-affective aspect of EIP, rather than the sensory-discriminative. Although there is no definitive evidence that EIP encompasses an affective dimension, previous research has postulated this possibility <ref type="bibr" target="#b52">(Nijs, Van De Putte, Louckx, Truijen, &amp; De Meirleir, 2008;</ref><ref type="bibr" target="#b67">Stébenne et al., 2017)</ref>. Thus, it is probable that this dimension of pain reflects a critical factor in determining exercise endurance capacity.</p><p>Furthermore, anodal tDCS of the left DLPFC has been shown to alleviate affective responses to experimentally-induced pain affect <ref type="bibr" target="#b9">(Boggio et al., 2008;</ref><ref type="bibr" target="#b41">Maeoka, Matsuo, Hiyamizu, Morioka, &amp; Ando, 2012)</ref>. Indeed, the left DLPFC has been proposed to play a major role in the motivational-affective aspect of pain, with neuroimaging research determining a negative correlation between cortical activation of this area and perceptions of pain unpleasantness <ref type="bibr" target="#b40">(Lorenz et al., 2003)</ref>. The administration of anodal tDCS to the left DLPFC may therefore act to enhance exercise performance by reducing pain affect.</p><p>The present study first aimed to evaluate whether endurance exercise induces both sensory and affective dimensions of pain, assessed as pain intensity and unpleasantness, respectively. In addition, the study aimed to assess whether anodal tDCS over the left DLPFC would reduce pain affect induced by endurance exercise, and enhance endurance performance. It was hypothesised that a sustained isometric knee contraction would induce both pain unpleasantness and pain intensity. Further, it was hypothesised that active tDCS with the anodal electrode placed over the left DLPFC would reduce ratings of exerciseinduced pain unpleasantness, but not pain intensity, and enhance muscular endurance time when compared to a placebo control.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Participants</head><p>Participants were recruited from the local university and the broader community. To eliminate the potential impacts of age <ref type="bibr" target="#b29">(Grashorn, Sprenger, Forkmann, Wrobel, &amp; Bingel, 2013)</ref> and exercise engagement (Flood, Waddington, Keegan, Thompson, &amp; Cathcart, List of Abbreviations DLPFC Dorsolateral Prefrontal Cortex EIP Exercise-Induced Pain M1 Motor Cortex mA Milliamperes MVC Maximal Voluntary Contraction Nm Newton Meter NRS Numerical Rating Scale tDCS Transcranial Direct Current Stimulation TTE Time to Exhaustion 2017) on responses to pain, participation was restricted to healthy, pain-free individuals aged 18-40 years, who were not currently engaged in competitive sport beyond an amateur level. Individuals reporting documented contraindications for tDCS, such as neurological lesions, cardiac disorders, and intercranial pressure <ref type="bibr" target="#b72">(Villamar et al., 2013)</ref>, were also excluded.</p><p>Adhering to the recommendations of <ref type="bibr" target="#b48">Minarik et al (2016)</ref>, a priori power analysis for determining sample size was calculated. Data presented in <ref type="bibr" target="#b55">Oki et al. (2016)</ref> was used, who similarly aimed to enhance isometric muscular endurance using active and placebo tDCS conditions. Oki et al. reported a medium effect size (d = 0.54) and sufficient power (0.85), with an alpha (α) level set at 0.05, and a sample size of 13. This effect size is comparable to previous research with similar sample size detecting a significant effect of tDCS <ref type="bibr" target="#b48">(Minarik et al., 2016)</ref>.</p><p>Based on this analysis, the final sample of 23 participants was deemed adequate. Participants included 11 males and 12 females. (mean ± SD: age, 26.00 ± 5.00 years, height, 174.76 ± 8.96 cm, weight 76.39 ± 15.03 kg, physical activity, 2749.87 ± 2500.86 METmin/week). Right leg dominance was reported by 21 participants, and two reported left leg dominance. Undergraduate psychology students (n = 3) received 2 h research course credit for participation. All other participants (n = 20) were offered the opportunity to enter a draw to win one of three $30 bookshop gift cards. Participation was voluntary and anonymous, with participants maintaining the right to withdraw at any time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Measures</head><p>Physical activity. The short, self-administered version of the International Physical Activity Questionnaire (IPAQ-SF; International Activity Questionnaire, 1998) was used to evaluate the physical activity level of participants. The measure captures self-reported physical activity levels over the preceding seven days through seven open-ended questions concerning exercise intensity (vigorous, moderate), and time spent walking and sitting (days, hours, and minutes). Responses are used to provide a global physical activity level estimate, calculated as metabolic equivalent value (MET). The IPAQ-SF is a widely used selfreport tool for estimating physical activity engagement, and has demonstrated acceptable reliability (α = 0.66 to α = 0.88; <ref type="bibr" target="#b38">Lee, Macfarlane, Lam, &amp; Stewart, 2011)</ref>.</p><p>Motivation. The 14-item Motivation Scale developed by <ref type="bibr">Matthews, Campbell, and Faulkner (2001)</ref> was used to assess participant motivation corresponding to the physical exercise tasks. Items independently evaluate success and intrinsic motivation, with agreement to the respective item rated on a 5-point scale (0 = not at all and 4 = extremely). Higher total scores on each domain indicate stronger respective motivation. Both domains have demonstrated excellent reliability in previous research; SM α = 0.87, IM α = 0.81. A correlation of 0.22 <ref type="bibr" target="#b43">(Matthews, Campbell, &amp; Falconer, 2001)</ref>, indicated discriminability between the two constructs. Adhering to the recommended scoring method <ref type="bibr" target="#b43">(Matthews et al., 2001)</ref>, composite scores for each motivation domain were computed.</p><p>Pain. Changes in pain intensity and pain affect (pain unpleasantness) during the endurance exercise task were assessed using two verbally administered Numerical Pain Rating Scales (NRS) adapted from those devised by <ref type="bibr" target="#b30">Greenspan, Roy, Caldwell, and Farooq (2003)</ref>. Both pain intensity and pain unpleasantness were assessed on a 0-100 NRS scale with descriptive anchors at 0 and 100, and numerical anchors at intervals of 10. The verbal descriptors from the original scales were removed to facilitate prompt response times. The descriptive anchors for pain intensity were 0 = not at all intense and 100 = extremely intense, while pain unpleasantness descriptors were 0 = not at all unpleasant and 100 = extremely unpleasant. Each scale was presented independently as a vertically oriented scale. Similar scales have been identified as valid and reliable tools for the assessment of pain (Ferreira-Valente, Pais-Ribero, &amp; Jensen, 2011) and are widely used for the evaluation of both pain intensity and pain unpleasantness (e.g., <ref type="bibr" target="#b30">Greenspan et al., 2003;</ref><ref type="bibr" target="#b58">Pagé et al., 2012;</ref><ref type="bibr" target="#b64">Rainville, Feine, Bushnell, &amp; Duncan, 1992)</ref>, with reliable discrimination between these two pain constructs <ref type="bibr" target="#b58">(Pagé et al., 2012)</ref>. Prior to obtaining pain ratings, the distinction between the intensity and unpleasantness of pain was explained, using an adapted English translation of French instructions devised by <ref type="bibr">Price, McGrath, Raffi, and Buckingham (1983)</ref>; the English adaptation of this tool has demonstrated efficacy in previous research <ref type="bibr" target="#b21">(Duncan, Bushnell, &amp; Lavigne, 1989;</ref><ref type="bibr" target="#b64">Rainville et al., 1992)</ref>. To familiarise participants to these measures, participants were instructed to recall a recent occasion in which they experienced physical pain and provide a verbal rating of pain intensity and pain unpleasantness. This method has proven effective in previous research <ref type="bibr" target="#b62">(Price, McGrath, Rafii, &amp; Buckingham, 1983;</ref><ref type="bibr" target="#b64">Rainville et al., 1992)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Physical performance</head><p>Force measurement. An isokinetic dynamometer (HUMAC NORM, Computer Sports Medicine, Stoughton, MA, USA) measured force production of the knee extensors during maximal voluntary contractions (MVC) and endurance tasks.</p><p>All tasks were completed in the same position, with participants seated upright, perpendicular to the dynamometer. Adjustments to the dynamometer and seating position were made to ascertain the correct alignment of the lateral femoral epicondyle of the dominant leg with the dynamometer axis of rotation. To minimise trunk movement during force production, participants were secured to the chair at the hip, shoulders, and thigh of the operating leg using stabilising straps. Force was applied through the stationary padded arm of the dynamometer, fastened slightly above the medial malleolus of the dominant leg positioned with 90°knee flexion.</p><p>Maximal force production. Three submaximal familiarisation contractions at 25%, 50%, and 75% of maximal effort were conducted 60 s prior to the MVC trials. Each familiarisation trial lasted 5 s and was separated by 20 s. The MVC assessment comprised two trials separated by 60 s, in which participants were instructed to maximally contract their dominant leg for 5 s. The researcher provided scripted verbal encouragement during both trials. Elapsed time and visual feedback corresponding to force production were presented to participants on a computer monitor parallel to the isokinetic dynamometer. Peak torque (newton meter; Nm) achieved from the superior of the two trials was used to calculate the target force for the endurance task.</p><p>Endurance task. Endurance time was evaluated in a submaximal isometric contraction. Participants were required to maintain an isometric contraction of the knee extensors at or above 25% of their previous best MVC for as long as possible. Time to exhaustion (TTE) was recorded as the time until either volition exhaustion, or the production of force deviated below the target value for three consecutive seconds. Current and target force (Nm) was displayed visually to enable participants to monitor their force production. The researcher provided scripted verbal encouragement at 15 s intervals throughout the trial. No feedback regarding elapsed time was provided to participants throughout the task.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Transcranial direct current stimulation</head><p>A TCT 1ch tDCS stimulator (Research Version, TCT Research Limited, Hong Kong) was used to deliver direct current stimulation through two rubber electrodes enclosed in 35 cm 2 (5 cm × 7 cm) salinesoaked sponges. Using the international 10/20 electroencephalography system, the anode electrode was placed on the scalp, overlying the left DLPFC (F3). The cathode electrode was placed over the contralateral supraorbital area (Fp2). The electrodes were secured in place with a Velcro strap with the long axis positioned parallel to the horizontal line; this montage is similar to previous investigations into the effect of tDCS on pain affect <ref type="bibr" target="#b10">(Boggio, Zaghi, &amp; Fregni, 2009;</ref><ref type="bibr" target="#b41">Maeoka et al., 2012)</ref>. The employed stimulation parameters of 2 mA for 20 min are consistent with similar experimental protocols achieving significant reductions in pain <ref type="bibr" target="#b17">(DaSilva et al., 2012;</ref><ref type="bibr" target="#b71">Valle et al., 2009)</ref>.</p><p>The active tDCS condition involved a 30 s ramp up from 0 mA to the target intensity of 2 mA, where this intensity was maintained for the desired stimulation time. At the end of this period, the current gradually decreased from 2 mA to 0 mA, ending the stimulation. The sham condition (a placebo control) comprised the same protocol as the active condition, however stimulation intensity ramped up to 2 mA over 30 s, and was then immediately ramped back down to 0 mA for the remainder of the 20 min. No current was applied in the interim. This stimulation level is not sufficient to produce meaningful neuromodulation, and previous research has shown this protocol to effectively blind participants to the experimental condition <ref type="bibr" target="#b12">(Borckardt et al., 2012)</ref>.</p><p>Electrode conductivity was monitored by the stimulation device throughout the stimulation protocol to ensure satisfactory stimulation intensity. Adjustments, including electrode placement and saline application, were made as necessary to ensure satisfactory electrode resistance.</p><p>Participants were asked to remain seated, calm, and relaxed during both stimulation conditions to avoid any confounding influences. The same researcher conducted all sessions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Procedure</head><p>This research obtained approval from the local human research ethics committee. A repeated-measures, within-subjects, randomised crossover design, with a single-blinded placebo control was employed.</p><p>Recruitment. Upon expression of interest via email, volunteers were provided an information form outlining the exclusion criteria based on the contraindications of tDCS, safe engagement in exercise, and confounding factors for exercise performance and pain responses. Once deemed eligible for participation, volunteers were requested to select suitable times to complete two testing sessions. Eight volunteers did not meet the inclusion criterion and were excluded from participation. All correspondence was conducted over email.</p><p>Experimental sessions. Testing was conducted between June and August 2018 between the hours of 08:30 and 18:00, in a temperaturecontrolled laboratory. Sessions were separated by at least five days (maximum of ten days) to reduce any carry-over effects relative to the tDCS or exercise tasks, and each participant attended the laboratory at the same time of day for both sessions.</p><p>Participants were instructed to abstain from illicit drugs and analgesic substances for one week, strenuous exercise and alcohol for 12 h, and caffeine and smoking for 6 h prior to the experimental sessions. This was to ensure a well-rested sample, and to eliminate the effects of these factors on exercise performance and pain responses. Adherence to these requests was confirmed on arrival to both sessions.</p><p>Upon arrival to their first session, participants were provided with a hard copy information form providing an overview of the requirements for participation and the study aims. The procedure was then described in full to enable participants to ask questions prior to commencement. The protocol is depicted in Figure <ref type="figure">1</ref>.</p><p>Following this, participants' written informed consent, age, height, weight, and physical activity habits were obtained. Participants were then positioned on the isokinetic dynamometer, and underwent the three familiarisation contractions and two MVC trials. Participants remained seated during all rest intervals. MVC was measured prior to tDCS stimulation to ensure that any influence of the stimulation on MVC capacity did not impact on the target force for the endurance task. Next, participants rated their level of motivation for the muscular endurance task before receiving 20 min of tDCS according to their assigned condition. Motivation corresponding to the endurance task was then assessed again to uncover changes resulting from the stimulation. The scripted conceptual definitions of pain intensity and pain unpleasantness were then delivered. Participants then performed the TTE task, where ratings of pain intensity and pain unpleasantness were reported at 20-s intervals, and at task exhaustion. The second session followed identical procedures to that of the first, differing only in that participants received the opposite stimulation protocol, and collection of demographic data was omitted. Additionally, a comprehensive debrief was administered at the conclusion of the final session.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">Data analysis</head><p>The nature of the endurance task resulted in individual differences in TTE, and consequential variation of data point frequency across participants. To account for this, statistical analysis for the comparison of pain intensity and pain unpleasantness ratings was conducted using a combination of intra-individual iso-times and percentage of TTE. In this method, the participant's shortest TTE over their two trials was identified as 100% iso-time. This value was compared against the corresponding time value in the participants' longer trial, such that 100% iso-time in both trials reflected the same endurance time (seconds). Data points at 25% intervals from their 100% iso-time were then calculated. Additionally, the values at exhaustion for each trial were included. This approach provided five data points for each participant for both trials (25% iso, 50% iso, 75% iso, 100% iso, exhaustion), with the pain rating closest to the calculated iso-time percentage used for statistical comparison across trials. Previous research has employed this method to assess changes in perceptual experiences during endurance tasks <ref type="bibr" target="#b3">(Angius et al., 2015;</ref><ref type="bibr" target="#b42">Marcora, Staiano, &amp; Manning, 2009)</ref>.</p><p>Data was analysed on SPSS statistics software (Version 23, IBM Corp, Armonk, NY) with a critical alpha of .05 considered statistically significant for all analyses. There was no missing data. Preliminary data screening for statistical outliers and erroneous or out-of-range values was conducted prior to analysis. Minor deviations from normality were indicated upon observations of significant Shapiro-Wilk statistics for several variables (active MVC, active pain intensity at 75% and100% iso, sham pain intensity at 100% iso, active pain unpleasantness at 75% and100% iso, sham pain unpleasantness at 75% iso). However, the Fig. <ref type="figure">1</ref>. Graphic of experimental protocol. *Motivation questionnaire administered (post MVC, prior to tDCS, and post tDCS, prior to TTE); #pain intensity and pain unpleasantness conceptual definitions provided prior to TTE task; ^pain intensity and pain unpleasantness ratings obtained at 20-s intervals during TTE task. The order of tDCS condition was randomised. Exhaustion is defined as the deviation below target force for &gt; 3 s, or volition exhaustion; a Study debrief (second session only). Each session was approximately 1 h in duration. assumption of normality was assumed following inspection of histograms and Q-Q plots across all variables. Significant Mauchly's test statistics indicated that the assumption of sphericity was violated for both time (p &lt; .001) and the time by condition interaction (p &lt; .001) across both pain intensity and pain unpleasantness variables. The Huynh-Feldt epsilon correction was consequently employed in both analyses.</p><p>Two, 2 × 2 repeated-measures ANOVAs evaluated levels of intrinsic motivation and success motivation across condition (active vs. sham) and time (pre-and post-tDCS stimulation). Changes in pain intensity and pain unpleasantness were assessed using two, 2 × 5 repeated measures ANOVAs (condition x time). Paired samples t-tests were conducted to compare MVC force and TTE in the endurance performance task between the two tDCS conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>Motivation. The assessment of the internal consistency of the motivation measure used in the present study confirmed adequate reliability for both success motivation and intrinsic motivation ranging from α = 0.79 to α = 0.90, and α = 0.59 to α = 0.70, respectively. Levels of success motivation did not differ significantly over time F(1, 22) = 2.48, p = .130, or between conditions F(1, 22) = 1.80, p = .193 <ref type="bibr">15.26 ± 6.02;</ref><ref type="bibr">sham,</ref><ref type="bibr">14.17 ± 5.38;</ref><ref type="bibr">sham,</ref><ref type="bibr">15.74 ± 6.44)</ref>. Likewise, intrinsic motivation did not significantly differ over time F(1, 22) = 0.09, p = .773, or between conditions, F(1, 22) = 0.06, p = .804 <ref type="bibr">23.54 ± 3.25;</ref><ref type="bibr">sham,</ref><ref type="bibr">23.43 ± 3.16;</ref><ref type="bibr">sham,</ref><ref type="bibr">23.39 ± 3.08)</ref>. Finally, there was no significant time by condition interaction for success F(1, 22) = 2.95, p = .100, or intrinsic F(1, 22) = 0.04, p = .843, motivation.</p><p>Maximal force production. No significant difference in MVC between active (204.04 ± 87.37 Nm) and sham (205.91 ± 90.20 Nm) conditions was observed; t(22) = -0.319, p = .753.</p><p>Pain Unpleasantness. Statistical analysis revealed a significant main effect for time, F(2.00, 43.90) = 122.96, p &lt; .001, ηρ 2 = 0.85, but no significant main effect for condition, F(1.00, 22.00) = 2.57, p = .123. The time by condition interaction was also not significant, F (2.93, 64.55) = 1.51, p = .220, see Figure <ref type="figure">2</ref>. The significant main effect of time was further investigated utilising pairwise comparisons and a Bonferroni correction factor (α = 0.05), revealing that all five time intervals of 25% iso (M = 38.00, SE = 2.93), 50% iso (M = 52.78, SE = 2.80), 75% iso (M = 69.78, SE = 2.67), 100% iso (M = 78.91, SE = 2.64) and exhaustion (M = 88.89, SE = 2.56) significantly differed from each other (p &lt; .001).</p><p>Pain Intensity. Statistical analysis revealed no significant main effect for condition, F(1.00, 22.00) = 4.26, p = .051, and no significant interaction between time and condition, F(2.79, 61.31) = 1.01, p = .390, for pain intensity ratings, as depicted in Figure <ref type="figure">3</ref>. However, a significant main effect for time was uncovered, F(2.12, 46.55) = 126.21, p &lt; .001, ηρ 2 = 0.85. The main effect of time was investigated, using pairwise comparisons and employing a Bonferroni correction factor (α = 0.05), revealing significant differences in pain intensity between all five time intervals (p &lt; .001); 25% iso (M = 35.50, SE = 2.70), 50% iso (M = 51.26, SE = 2.53), 75% iso (M = 66.41, SE = 2.59), 100% iso (M = 76.52, SE = 2.53) and exhaustion (M = 86.37, SE = 2.17).</p><p>Endurance Performance. The analysis revealed no significant difference in TTE between active (173.30 ± 56.68 s) and sham (182.17 ± 74.77 s) tDCS conditions; t(22) = -0.773 p = .448.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>The present study aimed to investigate whether EIP has an affective dimension, and whether anodal tDCS over the left DLPFC would reduce EIP affect, and enhance endurance performance. It was hypothesised that active tDCS over the left DLPFC would reduce pain unpleasantness, but not pain intensity, and enhance endurance performance in an isometric contraction of the knee extensors.</p><p>Mean intrinsic motivation and success motivation were consistent with levels observed in previous research <ref type="bibr" target="#b24">(Flood et al., 2017;</ref><ref type="bibr" target="#b42">Marcora et al., 2009)</ref> suggesting that participants were adequately motivated to complete the TTE task. An increase in reported pain unpleasantness and intensity throughout the TTE task was observed, with significant differences between ratings of both pain dimensions across each iso-time interval. This is consistent with previous research demonstrating that EIP increases as a function of task duration <ref type="bibr" target="#b3">(Angius et al., 2015;</ref><ref type="bibr" target="#b28">Gonglach et al., 2015;</ref><ref type="bibr" target="#b45">Mauger et al., 2010;</ref><ref type="bibr" target="#b74">Weiser, Kinsman, &amp; Stamper, 1973)</ref>. However, while existing research has demonstrated that endurance exercise produces pain <ref type="bibr" target="#b7">(Astokorki &amp; Mauger, 2016)</ref>, these findings are restricted to perceived pain intensity <ref type="bibr" target="#b3">(Angius et al., 2015;</ref><ref type="bibr" target="#b34">Kan et al., 2013;</ref><ref type="bibr" target="#b45">Mauger et al., 2010)</ref>. Therefore, the current study presents novel findings by demonstrating that EIP also encompasses an affective component, and the magnitude of this pain Fig. <ref type="figure">2</ref>. The effect of tDCS condition (active vs. sham) on pain unpleasantness ratings across time interval (25% iso, 50% iso, 75% iso, 100% iso, exhaustion). No significant difference in mean pain unpleasantness ratings were found between the active and sham tDCS conditions. Error bars represent 95% confidence intervals. dimension increases with task duration.</p><p>Although both pain intensity and pain unpleasantness increased throughout the sustained contraction, active tDCS delivered to the left DLPFC failed to attenuate this increase. <ref type="bibr" target="#b3">Angius et al. (2015)</ref> and <ref type="bibr" target="#b34">Kan et al. (2013)</ref> reported similar findings of no change in exercise-induced pain intensity following tDCS. This is in contrast to previous findings of the analgesic effects of tDCS in clinical settings, including fibromyalgia <ref type="bibr" target="#b71">(Valle et al., 2009)</ref> and spinal cord injury <ref type="bibr" target="#b26">(Fregni et al., 2006)</ref>. This difference in the nature of pain is notable, given that EIP is comprised of unique processing pathways to other noxious stimuli <ref type="bibr" target="#b47">(Millan, 2002)</ref>. Specifically, <ref type="bibr" target="#b3">Angius et al. (2015)</ref> reported that active tDCS over the M1 reduced pain intensity induced by cold-water immersion; however pain intensity corresponding to a cycling endurance task remained unchanged following the same tDCS intervention. The authors concluded the processing and modulatory pathways for exercise-induced pain intensity likely differ from pain intensity induced by thermal stimuli <ref type="bibr" target="#b3">(Angius et al., 2015)</ref>.</p><p>In relation to pain unpleasantness, active tDCS over the left DLPFC has elicited significant reductions in pain unpleasantness ratings towards a series of aversive images depicting human pain <ref type="bibr" target="#b10">(Boggio, Zaghi, &amp; Fregni, 2009;</ref><ref type="bibr" target="#b41">Maeoka et al., 2012)</ref>. No such analgesic effect was observed in the current study, suggesting that the left DLPFC is not an effective stimulation site for the reduction of pain unpleasantness induced by endurance exercise. As appears to be the case for pain intensity, such findings may indicate that EIP produces different affective responses to those evoked by viewing unpleasant stimuli. These results support the possibility of anatomically distinct pathways involved in the processing of EIP, highlighting the need for caution when generalising tDCS-induced analgesic effects across pain modalities.</p><p>The active tDCS intervention also failed to influence TTE when compared to the sham condition. Such findings align with the absence of a performance enhancing effect observed by others following tDCS stimulation <ref type="bibr" target="#b2">(Abdelmoula et al., 2018;</ref><ref type="bibr" target="#b8">Barwood et al., 2016;</ref><ref type="bibr" target="#b34">Kan et al., 2013;</ref><ref type="bibr" target="#b37">Lattari et al., 2018;</ref><ref type="bibr" target="#b36">Lampropoulou &amp; Nowicky, 2013;</ref><ref type="bibr" target="#b51">Muthalib et al., 2013;</ref><ref type="bibr" target="#b63">Radel et al., 2017;</ref><ref type="bibr" target="#b70">Valenzuela et al., 2018)</ref>. EIP is proposed to be involved in the regulation of fatiguing exercise, with EIP suggested to contribute to alterations in exercise intensity by influencing adjustments to work-rate <ref type="bibr" target="#b44">(Mauger, 2013)</ref>. Therefore, reducing this conscious perception of EIP should facilitate improvements in performance <ref type="bibr" target="#b3">(Angius et al., 2015;</ref><ref type="bibr" target="#b44">Mauger, 2013)</ref>. The ergogenic effects of analgesic substances such as acetaminophen <ref type="bibr" target="#b25">(Foster, Taylor, Chrismas, Watkins, &amp; Mauger, 2014;</ref><ref type="bibr" target="#b45">Mauger et al., 2010)</ref> uphold this theoretical standpoint. Due to a failure to reduce perceptions of EIP in the present study, this manipulation of work-rate regulation would not have occurred, thereby producing no alteration in exercise output. Similar findings have also been reported in other studies of tDCS, where unchanged EIP was associated with unchanged endurance performance, observed in both isometric <ref type="bibr" target="#b34">(Kan et al., 2013)</ref> and whole-body dynamic <ref type="bibr" target="#b3">(Angius et al., 2015)</ref> tasks. However, others have reported increases in exercise performance following tDCS without accompanying changes in pain <ref type="bibr" target="#b5">(Angius, Pageaux, Hopker, Marcora, &amp; Mauger, 2016)</ref>. The present findings do not necessarily preclude the proposed involvement of sensory and affective dimensions of EIP in the regulation of exercise performance; rather, they indicate further research is required to determine appropriate alternative methods, such as mindfulness-based psychological interventions <ref type="bibr" target="#b13">(Brown &amp; Jones, 2010;</ref><ref type="bibr" target="#b61">Perlman, Salomons, Davidson, &amp; Lutz, 2010)</ref>, to effectively manipulate EIP.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Strengths and limitations</head><p>The primary strength of the present study resides in its theorydriven methodology. While the functions of EIP have received considerable research attention, this topic is still subject to ongoing investigations <ref type="bibr" target="#b44">(Mauger, 2013)</ref>. Despite the well-documented empirical support denoting pain as a complex, multidimensional experience (e.g., <ref type="bibr" target="#b46">Melzack &amp; Casey, 1968;</ref><ref type="bibr" target="#b49">Moayedi &amp; Davis, 2013;</ref><ref type="bibr" target="#b60">Perl, 2007)</ref>, research into EIP has only considered the sensory dimension of pain. However, the motivational nature of pain affect <ref type="bibr" target="#b46">(Melzack &amp; Casey, 1968;</ref><ref type="bibr" target="#b65">Schnitzler &amp; Ploner, 2000)</ref> may reflect an important perceptual determinant within exercise regulation and performance. Nevertheless, to the author's knowledge, this is the first study to investigate this notion, and the findings and theoretical standpoints therefore offer unique contributions to the exercise performance, psychology, and tDCS literature.</p><p>There are several limitations of the current study that should also be considered. The endurance task required participants to monitor and maintain a specific torque target displayed on the computer monitor, while simultaneously providing two conceptually distinct pain ratings. These cognitive demands may have inhibited participant performance and ability to provide accurate ratings. This potential cognitive burden may have increased the level of measurement error and directly impacted the results. Yet, in-task measurements are commonly used to quantify perceptual changes during endurance exercise, and are considered an appropriate method to depict an individual's experience Fig. <ref type="figure">3</ref>. The effect of tDCS condition (active vs. sham) on pain intensity ratings across time interval (25% iso, 50% iso, 75% iso, 100% iso, exhaustion). No significant difference in mean pain intensity ratings were found between the active and sham tDCS conditions. Error bars represent 95% confidence intervals. <ref type="bibr" target="#b3">(Angius et al., 2015;</ref><ref type="bibr" target="#b73">Vitor-Costa et al., 2015;</ref><ref type="bibr" target="#b54">Okano et al., 2013;</ref><ref type="bibr" target="#b75">Williams, Hoffman, &amp; Clark, 2013)</ref>. Indeed, the measurement of pain during exercise was necessary to achieve the aims of the current study.</p><p>The scales utilised within the present study to assess exercise induced pain intensity and pain unpleasantness were initially developed to measure thermally induced pain <ref type="bibr" target="#b30">(Greenspan et al., 2003)</ref>. While validated in that domain, they have not been used in the context of exercise performance, and may not be appropriate for the measurement of EIP. Importantly, while <ref type="bibr" target="#b16">Cook, O'Connor, Eubanks, Smith, and Lee (1997)</ref> emphasised the unique psychophysiological considerations required for developing reliable and valid measures of exercise-induced pain intensity, such considerations have not been made for the assessment of pain unpleasantness, underscoring the need for a specialised and validated measurement tool for pain unpleasantness during exercise.</p><p>Performance was assessed in the current study using a sustained isometric contraction. While this enabled an isolated and controlled evaluation of perceptual responses to endurance performance, it is argued that whole-body, dynamic exercises provide a more accurate depiction of real-world performance tasks <ref type="bibr" target="#b4">(Angius et al., 2017)</ref>. The external validity of isometric task performance is routinely questioned <ref type="bibr" target="#b35">(Kordi et al., 2017;</ref><ref type="bibr" target="#b76">Wilson &amp; Murphy, 1996)</ref>, with ongoing dispute surrounding conclusions on the determinants of dynamic task performance based on isometric tests <ref type="bibr" target="#b4">(Angius et al., 2017;</ref><ref type="bibr" target="#b76">Wilson &amp; Murphy, 1996)</ref>. It has also been argued that the factors that govern exercise regulation may be task-specific <ref type="bibr" target="#b0">(Abbiss &amp; Laursen, 2008)</ref>. Caution should therefore be taken when interpreting and generalising the current findings.</p><p>The left DLPFC plays a fundamental role in a range of processes, including higher order cognitive functioning and emotional control <ref type="bibr" target="#b20">(Diamond, 2013;</ref><ref type="bibr" target="#b50">Mohanty et al., 2007)</ref>. However, the optimal tDCS montage for this area remains undefined <ref type="bibr" target="#b66">(Seibt, Brunoni, Huang, &amp; Bikson, 2015)</ref>. Further, the efficacy of tDCS for the enhancement of physical performance is largely impacted by tDCS montage <ref type="bibr" target="#b5">(Angius et al., 2016;</ref><ref type="bibr" target="#b4">Angius et al., 2017)</ref>. Given this methodological uncertainty, the failure to utilise neurophysiological measures of the changes induced by tDCS in the left DLPFC presents as a limitation of the current study. Nonetheless, the employed montage is similar to previous research that has targeted the left DLPFC and observed significant reductions in pain affect <ref type="bibr" target="#b10">(Boggio, Zaghi, &amp; Fregni, 2009;</ref><ref type="bibr" target="#b41">Maeoka et al., 2012)</ref>.</p><p>The use of tDCS has proven popular in research exploring techniques for neuromodulation due, at least in part, to the availability of a placebo stimulation. Although widely used and shown to be an effective method of blinding participants to their assigned experimental condition <ref type="bibr" target="#b12">(Borckardt et al., 2012;</ref><ref type="bibr" target="#b27">Gandiga, Hummel, &amp; Cohen, 2006)</ref>, some have questioned the efficacy of sham control tDCS as a placebo stimulation, particularly for higher stimulation intensities <ref type="bibr" target="#b19">(Davis, Gold, Pascual-Leone, &amp; Bracewell, 2013;</ref><ref type="bibr" target="#b56">O'Connell et al., 2012)</ref>. In the current study, anecdotal reports from participants indicated that the use of sham tDCS was successful in blinding participants to their experimental condition. However, a formal examination of the efficacy of the participant blinding procedure was not conducted. Future research should assess the efficacy of the sham stimulation using established measures <ref type="bibr" target="#b56">(O'Connell et al., 2012)</ref>.</p><p>The use of a single-blinded experimental design should also be considered when drawing conclusion based on the current findings. With the experimenter aware of the participants' assigned condition, there is an increased potential for experimenter bias. In an attempt to limit this potential for bias, several methodological considerations were made to standardise the testing protocol. For example, verbal encouragement offered during the physical tasks and the explanation of the pain measurement tools were both scripted to ensure uniformity across conditions. Despite these precautions, it is possible that unconscious experimenter bias may have impacted on results. It is suggested that future research adopt a double-blinded design to reduce this potential for bias.</p><p>Future research should continue to investigate the potential mechanisms through which the ergogenic effects of tDCS are produced. Clarification of these underlying mechanisms may result in the refinement and enhanced proficiency of tDCS across a variety of exercise and sporting contexts for public, commercial, and scientific communities. These explorations should not only consider electrode montage, and stimulation parameters, but also employ additional measurements of the neurophysiological effects of stimulation, to facilitate an extensive evaluation of the relative impacts of tDCS during exercise. The current findings represent the first attempt to profile the affective properties of pain experienced during exercise. It is hoped that this greater understanding of exercise-induced pain affect will stimulate further research into the potential regulatory role played by pain in endurance exercise.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>In the present study, EIP was shown to involve both an affective and sensory component. However, the administration of active anodal tDCS over the left DLPFC did not result in an increase in endurance performance (time to exhaustion), or a reduction in EIP affect and intensity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declarations of interest</head><p>None.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="5,126.99,509.78,341.24,209.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="6,126.99,57.03,341.24,209.08" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>R. Byrne and A. FloodPsychology ofSport &amp; Exercise 45 (2019)  101554</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Describing and understanding pacing strategies during athletic competition</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Abbiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Laursen</surname></persName>
+		</author>
+		<idno type="DOI">10.2165/00007256-200838030-00004</idno>
+		<ptr target="https://doi.org/10.2165/00007256-200838030-00004" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="239" to="252" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abbiss, C., &amp; Laursen, P. (2008). Describing and understanding pacing strategies during athletic competition. Sports Medicine, 38, 239-252. https://doi.org/10.2165/ 00007256-200838030-00004.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Anodal transcranial direct current stimulation enhances time to task failure of a submaximal contraction of elbow flexors without changing corticospinal excitability</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abdelmoula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Baudry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Duchateau</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuroscience.2016.02.025</idno>
+		<ptr target="https://doi.org/10.1016/j.neuroscience.2016.02.025" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">322</biblScope>
+			<biblScope unit="page" from="94" to="103" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abdelmoula, A., Baudry, S., &amp; Duchateau, J. (2016). Anodal transcranial direct current stimulation enhances time to task failure of a submaximal contraction of elbow flexors without changing corticospinal excitability. Neuroscience, 322, 94-103. https://doi.org/10.1016/j.neuroscience.2016.02.025.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Anodal transcranial direct current stimulation does not influence the neural adjustments associated with fatiguing contractions in a hand muscle</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abdelmoula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Baudry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Duchateau</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-018-4027-4</idno>
+		<ptr target="https://doi.org/10.1007/s00421-018-4027-4" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="597" to="609" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abdelmoula, A., Baudry, S., &amp; Duchateau, J. (2018). Anodal transcranial direct current stimulation does not influence the neural adjustments associated with fatiguing contractions in a hand muscle. European Journal of Applied Physiology, 119, 597-609. https://doi.org/10.1007/s00421-018-4027-4.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The effect of transcranial direct current stimulation of the motor cortex on exercise-induced pain</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Angius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hopker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Marcora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mauger</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-015-3212-y</idno>
+		<ptr target="https://doi.org/10.1007/s00421-015-3212-y" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="2311" to="2319" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Angius, L., Hopker, J., Marcora, S., &amp; Mauger, A. (2015). The effect of transcranial direct current stimulation of the motor cortex on exercise-induced pain. European Journal of Applied Physiology, 115, 2311-2319. https://doi.org/10.1007/s00421-015-3212-y.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The ergogenic effects of transcranial direct current stimulation on exercise performance</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Angius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hopker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mauger</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2017.00090</idno>
+		<ptr target="https://doi.org/10.3389/fphys.2017.00090" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Physiology</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">90</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Angius, L., Hopker, J., &amp; Mauger, A. (2017). The ergogenic effects of transcranial direct current stimulation on exercise performance. Frontiers in Physiology, 8(90), 1-7. https://doi.org/10.3389/fphys.2017.00090.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Transcranial direct current stimulation improves isometric time to exhaustion of the knee extensors</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Angius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pageaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hopker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Marcora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mauger</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuroscience.2016.10.028</idno>
+		<ptr target="https://doi.org/10.1016/j.neuroscience.2016.10.028" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">339</biblScope>
+			<biblScope unit="page" from="363" to="375" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Angius, L., Pageaux, B., Hopker, J., Marcora, S., &amp; Mauger, A. (2016). Transcranial direct current stimulation improves isometric time to exhaustion of the knee extensors. Neuroscience, 339, 363-375. https://doi.org/10.1016/j.neuroscience.2016.10.028.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Effect of aerobic and strength training on pain tolerance, pain appraisal and mood of unfit males as a function of pain location</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Anshel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Russell</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640419408732204</idno>
+		<ptr target="https://doi.org/10.1080/02640419408732204" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="535" to="547" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anshel, M., &amp; Russell, K. (1994). Effect of aerobic and strength training on pain tolerance, pain appraisal and mood of unfit males as a function of pain location. Journal of Sports Sciences, 12, 535-547. https://doi.org/10.1080/02640419408732204.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Tolerance of exercise-induced pain at a fixed rating of perceived exertion predicts time trial cycling performance</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Astokorki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mauger</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sms.12659</idno>
+		<ptr target="https://doi.org/10.1111/sms.12659" />
+	</analytic>
+	<monogr>
+		<title level="j">Scandinavian Journal of Medicine &amp; Science in Sports</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="309" to="317" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Astokorki, A., &amp; Mauger, A. (2016). Tolerance of exercise-induced pain at a fixed rating of perceived exertion predicts time trial cycling performance. Scandinavian Journal of Medicine &amp; Science in Sports, 27, 309-317. https://doi.org/10.1111/sms.12659.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The effects of direct current stimulation on exercise performance, pacing and perception in temperate and hot environments</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Butterworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goodall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>House</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Laws</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nowicky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Corbett</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.brs.2016.07.006</idno>
+		<ptr target="https://doi.org/10.1016/j.brs.2016.07.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain Stimulation</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="842" to="849" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barwood, M., Butterworth, J., Goodall, S., House, J., Laws, R., Nowicky, A., &amp; Corbett, J. (2016). The effects of direct current stimulation on exercise performance, pacing and perception in temperate and hot environments. Brain Stimulation, 9, 842-849. https://doi.org/10.1016/j.brs.2016.07.006.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A randomized, double-blind clinical trial on the efficacy of cortical direct current stimulation for the treatment of major depression</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Boggio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rigonatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Myczkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nitsche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pascual-Leone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fregni</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S1461145707007833</idno>
+		<ptr target="https://doi.org/10.1017/S1461145707007833" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Neuropsychopharmacology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="249" to="254" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boggio, P., Rigonatti, S., Ribeiro, R., Myczkowski, M., Nitsche, M., Pascual-Leone, A., &amp; Fregni, F. (2008). A randomized, double-blind clinical trial on the efficacy of cortical direct current stimulation for the treatment of major depression. International Journal of Neuropsychopharmacology, 11, 249-254. https://doi.org/10.1017/ S1461145707007833.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Modulation of emotions associated with images of human pain using anodal transcranial direct current stimulation</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Boggio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zaghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fregni</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>tDCS</note>
+	<note type="raw_reference">Boggio, P., Zaghi, S., &amp; Fregni, F. (2009). Modulation of emotions associated with images of human pain using anodal transcranial direct current stimulation (tDCS).</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1016/j.neuropsychologia.2008.07.022</idno>
+		<ptr target="https://doi.org/10.1016/j.neuropsychologia.2008.07.022" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychologia</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="212" to="217" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Neuropsychologia, 47, 212-217. https://doi.org/10.1016/j.neuropsychologia.2008. 07.022.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A pilot study of the tolerability, safety and effects of high-definition transcranial direct current stimulation (HD-tDCS) on pain perception</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Borckardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bikson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Frohman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Datta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bansal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jpain.2011.02.212</idno>
+		<ptr target="https://doi.org/10.1016/j.jpain.2011.02.212" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Pain</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="112" to="120" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Borckardt, J., Bikson, M., Frohman, H., Reeves, S., Datta, A., Bansal, V., ... George, S. (2012). A pilot study of the tolerability, safety and effects of high-definition tran- scranial direct current stimulation (HD-tDCS) on pain perception. The Journal of Pain, 13, 112-120. https://doi.org/10.1016/j.jpain.2011.02.212.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Meditation experience predicts less negative appraisal of pain: Electrophysiological evidence for the involvement of anticipatory neural responses</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jones</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pain.2010.04.017</idno>
+		<ptr target="https://doi.org/10.1016/j.pain.2010.04.017" />
+	</analytic>
+	<monogr>
+		<title level="j">Pain</title>
+		<imprint>
+			<biblScope unit="volume">150</biblScope>
+			<biblScope unit="page" from="428" to="438" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brown, C., &amp; Jones, A. (2010). Meditation experience predicts less negative appraisal of pain: Electrophysiological evidence for the involvement of anticipatory neural re- sponses. Pain, 150, 428-438. https://doi.org/10.1016/j.pain.2010.04.017.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Clinical research with transcranial direct current stimulation (tDCS): Challenges and future directions</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Brunoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nitsche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bolognini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bikson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Merabet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fregni</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.brs.2011.03.002</idno>
+		<ptr target="https://doi.org/10.1016/j.brs.2011.03.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain Stimulation</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="175" to="195" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brunoni, A., Nitsche, A., Bolognini, N., Bikson, M., Wagner, T., Merabet, L., &amp; Fregni, F. (2012). Clinical research with transcranial direct current stimulation (tDCS): Challenges and future directions. Brain Stimulation, 5, 175-195. https://doi.org/10. 1016/j.brs.2011.03.002.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Improved isometric force endurance after transcranial direct current stimulation over the human motor cortical areas</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cogiamanian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Marceglia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ardolino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barbieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Priori</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1460-9568.2007.05633.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1460-9568.2007.05633.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Computer sports medicine incorporated</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="242" to="249" />
+			<date type="published" when="2007">2007. 2018</date>
+			<pubPlace>Stoughton, MA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Computer Sports Medicine Incorporated</orgName>
+		</respStmt>
+	</monogr>
+	<note>European Journal of Neuroscience HUMAC NORM</note>
+	<note type="raw_reference">Cogiamanian, F., Marceglia, S., Ardolino, G., Barbieri, S., &amp; Priori, A. (2007). Improved isometric force endurance after transcranial direct current stimulation over the human motor cortical areas. European Journal of Neuroscience, 26, 242-249. https:// doi.org/10.1111/j.1460-9568.2007.05633.x. Computer sports medicine incorporated [HUMAC NORM] (pp. -). (2018). Stoughton, MA: Computer Sports Medicine Incorporated.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Naturally occurring muscle pain during exercise: Assessment and experimental evidence</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>O'connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Eubanks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/00005768-199708000-00004</idno>
+		<ptr target="https://doi.org/10.1097/00005768-199708000-00004" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine &amp; Science in Sports &amp; Exercise</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="999" to="1012" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cook, D., O&apos;Connor, P., Eubanks, S., Smith, J., &amp; Lee, M. (1997). Naturally occurring muscle pain during exercise: Assessment and experimental evidence. Medicine &amp; Science in Sports &amp; Exercise, 29, 999-1012. https://doi.org/10.1097/00005768- 199708000-00004.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">TDCS-Induced analgesia and electrical fields in pain-related neural networks in chronic migraine</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dasilva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mendonca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zaghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lopes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dossantos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Spierings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Fregni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1526-4610.2012.02141.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1526-4610.2012.02141.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Headache: The Journal of Head and Face Pain</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="1283" to="1295" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">DaSilva, A., Mendonca, M., Zaghi, S., Lopes, M., DosSantos, M., Spierings, E., ... Fregni, F. (2012). TDCS-Induced analgesia and electrical fields in pain-related neural networks in chronic migraine. Headache: The Journal of Head and Face Pain, 52, 1283-1295. https://doi.org/10.1111/j.1526-4610.2012.02141.x.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Neurodoping: Brain stimulation as a performance-enhancing measure</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Davis</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40279-013-0027-z</idno>
+		<ptr target="https://doi.org/10.1007/s40279-013-0027-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="649" to="653" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davis, N. (2013). Neurodoping: Brain stimulation as a performance-enhancing measure. Sports Medicine, 43, 649-653. https://doi.org/10.1007/s40279-013-0027-z.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Challenges of proper placebo control for non-invasive brain stimulation in clinical and experimental applications</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pascual-Leone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bracewell</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/ejn.12307</idno>
+		<ptr target="https://doi.org/10.1111/ejn.12307" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="2973" to="2977" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davis, N., Gold, E., Pascual-Leone, A., &amp; Bracewell, R. (2013). Challenges of proper placebo control for non-invasive brain stimulation in clinical and experimental ap- plications. European Journal of Neuroscience, 38, 2973-2977. https://doi.org/10. 1111/ejn.12307.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Executive functions</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diamond</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-psych-113011-143750</idno>
+		<ptr target="https://doi.org/10.1146/annurev-psych-113011-143750" />
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Psychology</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="135" to="168" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Diamond, A. (2013). Executive functions. Annual Review of Psychology, 64, 135-168. https://doi.org/10.1146/annurev-psych-113011-143750.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Comparison of verbal and visual analogue scales for measuring the intensity and unpleasantness of experimental pain</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Duncan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bushnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lavigne</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0304-3959(89)90194-2</idno>
+		<ptr target="https://doi.org/10.1016/0304-3959(89)90194-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Pain</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="295" to="303" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Duncan, G., Bushnell, C., &amp; Lavigne, G. (1989). Comparison of verbal and visual analogue scales for measuring the intensity and unpleasantness of experimental pain. Pain, 37, 295-303. https://doi.org/10.1016/0304-3959(89)90194-2.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The neural bases of social pain</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Eisenberger</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/psy.0b013e3182464dd1</idno>
+		<ptr target="https://doi.org/10.1097/psy.0b013e3182464dd1" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychosomatic Medicine</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="126" to="135" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Eisenberger, N. (2012). The neural bases of social pain. Psychosomatic Medicine, 74, 126-135. https://doi.org/10.1097/psy.0b013e3182464dd1.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Validity of four pain intensity rating scales</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ferreira-Valente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pais-Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pain.2011.07.005</idno>
+		<ptr target="https://doi.org/10.1016/j.pain.2011.07.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Pain</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page" from="2399" to="2404" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ferreira-Valente, M., Pais-Ribeiro, J., &amp; Jensen, M. (2011). Validity of four pain intensity rating scales. Pain, 152, 2399-2404. https://doi.org/10.1016/j.pain.2011.07.005.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The effects of elevated pain inhibition on endurance exercise performance</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Flood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Waddington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Keegan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cathcart</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.3028</idno>
+		<ptr target="https://doi.org/10.7717/peerj.3028" />
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3028</biblScope>
+			<biblScope unit="page" from="1" to="18" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Flood, A., Waddington, G., Keegan, R. J., Thompson, K. G., &amp; Cathcart, S. (2017). The effects of elevated pain inhibition on endurance exercise performance. PeerJ, 5(3028), 1-18. https://doi.org/10.7717/peerj.3028.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The influence of acetaminophen on repeated sprint cycling performance</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chrismas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Watkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mauger</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-013-2746-0</idno>
+		<ptr target="https://doi.org/10.1007/s00421-013-2746-0" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="41" to="48" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Foster, J., Taylor, L., Chrismas, B., Watkins, S., &amp; Mauger, A. (2014). The influence of acetaminophen on repeated sprint cycling performance. European Journal of Applied Physiology, 114, 41-48. https://doi.org/10.1007/s00421-013-2746-0.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A sham-controlled, phase II trial of transcranial direct current stimulation for the treatment of central pain in traumatic spinal cord injury</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fregni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Boggio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rigonatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pain.2006.02.023</idno>
+		<ptr target="https://doi.org/10.1016/j.pain.2006.02.023" />
+	</analytic>
+	<monogr>
+		<title level="j">Pain</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="197" to="209" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fregni, F., Boggio, P., Lima, M., Ferreira, M., Wagner, T., Rigonatti, S., ... Souza, D. (2006). A sham-controlled, phase II trial of transcranial direct current stimulation for the treatment of central pain in traumatic spinal cord injury. Pain, 122, 197-209. https://doi.org/10.1016/j.pain.2006.02.023.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Transcranial DC stimulation (tDCS): A tool for double-blind sham-controlled clinical studies in brain stimulation</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Gandiga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Hummel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Cohen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.clinph.2005.12.003</idno>
+		<ptr target="https://10.1016/j.clinph.2005.12.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Clinical Neurophysiology</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="845" to="850" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gandiga, P. C., Hummel, F. C., &amp; Cohen, L. G. (2006). Transcranial DC stimulation (tDCS): A tool for double-blind sham-controlled clinical studies in brain stimulation. Clinical Neurophysiology, 117, 845-850. https://10.1016/j.clinph.2005.12.003.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Muscle pain as a regulator of cycling intensity: Effect of caffeine ingestion</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Gonglach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bemben</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Larson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0000000000000767</idno>
+		<ptr target="https://doi.org/10.1249/MSS.0000000000000767" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine &amp; Science in Sports &amp; Exercise</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="287" to="296" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gonglach, A. R., Ade, C.,J., Bemben, M. G., Larson, R. D., &amp; Black, C. D. (2015). Muscle pain as a regulator of cycling intensity: Effect of caffeine ingestion. Medicine &amp; Science in Sports &amp; Exercise, 48, 287-296. https://doi.org/10.1249/MSS.0000000000000767.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Age-dependent decline of endogenous pain control: Exploring the effect of expectation and depression</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Grashorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sprenger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Forkmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wrobel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Bingel</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0075629</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0075629" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grashorn, W., Sprenger, C., Forkmann, K., Wrobel, N., &amp; Bingel, U. (2013). Age-depen- dent decline of endogenous pain control: Exploring the effect of expectation and depression. PLoS One, 8(9), 1-7. https://doi.org/10.1371/journal.pone.0075629.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Thermosensory intensity and affect throughout the perceptible range</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greenspan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Caldwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Farooq</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/0899022031000083807</idno>
+		<ptr target="https://doi.org/10.1080/0899022031000083807" />
+	</analytic>
+	<monogr>
+		<title level="j">Somatosensory and Motor Research</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="19" to="26" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Greenspan, J., Roy, E., Caldwell, P., &amp; Farooq, N. (2003). Thermosensory intensity and affect throughout the perceptible range. Somatosensory and Motor Research, 20, 19-26. https://doi.org/10.1080/0899022031000083807.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Halo sport</title>
+		<author>
+			<orgName type="collaboration">Halo Neuroscience</orgName>
+		</author>
+		<ptr target="https://www.haloneuro.com/get-halo-sport" />
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Halo Neuroscience (2018). Halo sport. Retrieved from https://www.haloneuro.com/get- halo-sport.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Cortical representation of the sensory dimension of pain</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hofbauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rainville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Duncan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bushnell</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jn.2001.86.1.402</idno>
+		<ptr target="https://doi.org/10.1152/jn.2001.86.1.402" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Neurophysiology</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="402" to="411" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hofbauer, R., Rainville, P., Duncan, G., &amp; Bushnell, M. (2001). Cortical representation of the sensory dimension of pain. Journal of Neurophysiology, 86, 402-411. https://doi. org/10.1152/jn.2001.86.1.402.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The effects of transcranial direct current stimulation on objective and subjective indexes of exercise performance: A systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Holgado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vadillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sanabria</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.brs.2018.12.002</idno>
+		<ptr target="https://sites.google.com/site/theipaq/" />
+	</analytic>
+	<monogr>
+		<title level="m">International activity questionnaire</title>
+		<imprint>
+			<date type="published" when="1998">2019. 1998</date>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="242" to="250" />
+		</imprint>
+	</monogr>
+	<note>Brain Stimulation</note>
+	<note type="raw_reference">Holgado, D., Vadillo, M., &amp; Sanabria, D. (2019). The effects of transcranial direct current stimulation on objective and subjective indexes of exercise performance: A systematic review and meta-analysis. Brain Stimulation, 12, 242-250. https://doi.org/10.1016/j. brs.2018.12.002. International Activity Questionnaire (1998). International activity questionnaire. Retrieved from https://sites.google.com/site/theipaq/.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Effect of transcranial direct current stimulation on elbow flexor maximal voluntary isometric strength and endurance</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dundas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nosaka</surname></persName>
+		</author>
+		<idno type="DOI">10.1139/apnm-2012-0412</idno>
+		<ptr target="https://doi.org/10.1139/apnm-2012-0412" />
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physiology Nutrition and Metabolism</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="734" to="739" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kan, B., Dundas, J., &amp; Nosaka, K. (2013). Effect of transcranial direct current stimulation on elbow flexor maximal voluntary isometric strength and endurance. Applied Physiology Nutrition and Metabolism, 38, 734-739. https://doi.org/10.1139/apnm- 2012-0412.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Relation between peak power output in sprint cycling and maximum voluntary isometric torque production</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kordi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goodall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Barratt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rowley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Leeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Howatson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jelekin.2017.06.003</idno>
+		<ptr target="https://doi.org/10.1016/j.jelekin.2017.06.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Electromyography and Kinesiology</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="95" to="99" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kordi, M., Goodall, S., Barratt, P., Rowley, N., Leeder, J., &amp; Howatson, G. (2017). Relation between peak power output in sprint cycling and maximum voluntary isometric torque production. Journal of Electromyography and Kinesiology, 35, 95-99. https:// doi.org/10.1016/j.jelekin.2017.06.003.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The effect of transcranial direct current stimulation on perception of effort in an isolated isometric elbow flexion task</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lampropoulou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nowicky</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/mcj.17.4.412</idno>
+		<ptr target="https://doi.org/10.1123/mcj.17.4.412" />
+	</analytic>
+	<monogr>
+		<title level="j">Motor Control</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="412" to="426" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lampropoulou, S., &amp; Nowicky, A. (2013). The effect of transcranial direct current sti- mulation on perception of effort in an isolated isometric elbow flexion task. Motor Control, 17, 412-426. https://doi.org/10.1123/mcj.17.4.412.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Effects of transcranial direct current stimulation on time limit and ratings of perceived exertion in physically active women</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lattari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>De Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>De Mello Pedreiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Machado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Neto</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neulet.2017.10.007</idno>
+		<ptr target="https://doi.org/10.1016/j.neulet.2017.10.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience Letters</title>
+		<imprint>
+			<biblScope unit="volume">662</biblScope>
+			<biblScope unit="page" from="12" to="16" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lattari, E., de Oliveira, B., Oliveira, B., de Mello Pedreiro, R., Machado, S., &amp; Neto, G. (2018). Effects of transcranial direct current stimulation on time limit and ratings of perceived exertion in physically active women. Neuroscience Letters, 662, 12-16. https://doi.org/10.1016/j.neulet.2017.10.007.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Validity of the international physical activity questionnaire short form (IPAQ-SF): A systematic review</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Macfarlane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stewart</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1479-5868-8-115</idno>
+		<ptr target="https://doi.org/10.1186/1479-5868-8-115" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Behavioral Nutrition and Physical Activity</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">115</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee, P., Macfarlane, D., Lam, T., &amp; Stewart, S. (2011). Validity of the international phy- sical activity questionnaire short form (IPAQ-SF): A systematic review. International Journal of Behavioral Nutrition and Physical Activity, 8(115), 1-11. https://doi.org/10. 1186/1479-5868-8-115.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The use of repetitive transcranial magnetic stimulation (rTMS) and transcranial direct current stimulation (tDCS) to relieve pain</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lefaucheur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Antal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ahdab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ciampi De Andrade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fregni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Khedr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Paulus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.brs.2008.07.003</idno>
+		<ptr target="https://doi.org/10.1016/j.brs.2008.07.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain Stimulation</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="337" to="344" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lefaucheur, J., Antal, A., Ahdab, R., Ciampi de Andrade, D., Fregni, F., Khedr, E., ... Paulus, W. (2008). The use of repetitive transcranial magnetic stimulation (rTMS) and transcranial direct current stimulation (tDCS) to relieve pain. Brain Stimulation, 1, 337-344. https://doi.org/10.1016/j.brs.2008.07.003.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Keeping pain out of mind: The role of the dorsolateral prefrontal cortex in pain modulation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lorenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Minoshima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Casey</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/brain/awg102</idno>
+		<ptr target="https://doi.org/10.1093/brain/awg102" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="1079" to="1091" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lorenz, J., Minoshima, S., &amp; Casey, K. (2003). Keeping pain out of mind: The role of the dorsolateral prefrontal cortex in pain modulation. Brain, 126, 1079-1091. https:// doi.org/10.1093/brain/awg102.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Influence of transcranial direct current stimulation of the dorsolateral prefrontal cortex on pain related emotions: A study using electroencephalographic power spectrum analysis</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Maeoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hiyamizu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Morioka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ando</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neulet.2012.01.037</idno>
+		<ptr target="https://doi.org/10.1016/j.neulet.2012.01.037" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience Letters</title>
+		<imprint>
+			<biblScope unit="volume">512</biblScope>
+			<biblScope unit="page" from="12" to="16" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maeoka, H., Matsuo, A., Hiyamizu, M., Morioka, S., &amp; Ando, H. (2012). Influence of transcranial direct current stimulation of the dorsolateral prefrontal cortex on pain related emotions: A study using electroencephalographic power spectrum analysis. Neuroscience Letters, 512, 12-16. https://doi.org/10.1016/j.neulet.2012.01.037.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Mental fatigue impairs physical performance in humans</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Marcora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Staiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Manning</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.91324.2008</idno>
+		<ptr target="https://doi.org/10.1152/japplphysiol.91324" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="857" to="864" />
+			<date type="published" when="2008">2009. 2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marcora, S., Staiano, W., &amp; Manning, V. (2009). Mental fatigue impairs physical perfor- mance in humans. Journal of Applied Physiology, 106, 857-864. https://doi.org/10. 1152/japplphysiol.91324.2008.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Assessment of motivational states in performance environments</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Falconer</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/154193120104501302</idno>
+		<ptr target="https://doi.org/10.1177/154193120104501302" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Human Factors and Ergonomics Society -Annual Meeting</title>
+		<meeting>the Human Factors and Ergonomics Society -Annual Meeting</meeting>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="906" to="910" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matthews, G., Campbell, S., &amp; Falconer, S. (2001). Assessment of motivational states in performance environments. Proceedings of the Human Factors and Ergonomics Society - Annual Meeting: vol. 45, (pp. 906-910). . https://doi.org/10.1177/ 154193120104501302.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Fatigue is a pain -the use of novel neurophysiological techniques to understand the fatigue-pain relationship</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mauger</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2013.00104</idno>
+		<ptr target="https://doi.org/10.3389/fphys.2013.00104" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Physiology</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">104</biblScope>
+			<biblScope unit="page" from="1" to="4" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mauger, A. (2013). Fatigue is a pain -the use of novel neurophysiological techniques to understand the fatigue-pain relationship. Frontiers in Physiology, 4(104), 1-4. https:// doi.org/10.3389/fphys.2013.00104.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Influence of acetaminophen on performance during time trial cycling</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Mauger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Williams</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.00761.2009</idno>
+		<ptr target="https://doi.org/10.1152/japplphysiol.00761.2009" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="98" to="104" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mauger, A. R., Jones, A. M., &amp; Williams, C. A. (2010). Influence of acetaminophen on performance during time trial cycling. Journal of Applied Physiology, 108, 98-104. https://doi.org/10.1152/japplphysiol.00761.2009.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Sensory, motivational, and central control determinants of pain. The skin senses: Proceedings</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Melzack</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Casey</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1968">1968</date>
+			<publisher>Charles Thomas</publisher>
+			<pubPlace>Springfield Illinois, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Melzack, R., &amp; Casey (1968). Sensory, motivational, and central control determinants of pain. The skin senses: Proceedings. Springfield Illinois, USA: Charles Thomas.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Descending control of pain</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Millan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0301-0082(02)00009-6</idno>
+		<ptr target="https://doi.org/10.1016/s0301-0082(02)00009-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Progress in Neurobiology</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="355" to="474" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Millan, M. (2002). Descending control of pain. Progress in Neurobiology, 66, 355-474. https://doi.org/10.1016/s0301-0082(02)00009-6.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The importance of sample size for reproducibility of tDCS effects</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Minarik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Berger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Althaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bader</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Biebl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Brotzeller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Sauseng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+		<idno type="DOI">10.3389/fnhum.2016.00453</idno>
+		<ptr target="https://doi.org/10.3389/fnhum.2016.00453" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Human Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Minarik, T., Berger, B., Althaus, L., Bader, V., Biebl, B., Brotzeller, F., ... Sauseng, P. (2016). The importance of sample size for reproducibility of tDCS effects. Frontiers in Human Neuroscience, 10, 1-5. https://doi.org/10.3389/fnhum.2016.00453.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Theories of pain: From specificity to gate control</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moayedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Davis</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jn.00457.2012</idno>
+		<ptr target="https://doi.org/10.1152/jn.00457.2012" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Neurophysiology</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="5" to="12" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moayedi, M., &amp; Davis, K. D. (2013). Theories of pain: From specificity to gate control. Journal of Neurophysiology, 109, 5-12. https://doi.org/10.1152/jn.00457.2012.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Differential engagement of anterior cingulate cortex subdivisions for cognitive and emotional function</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mohanty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Engels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Herrington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Heller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ringo Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Banich</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1469-8986.2007.00515.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1469-8986.2007.00515.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychophysiology</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="343" to="351" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mohanty, A., Engels, A., Herrington, J., Heller, W., Ringo Ho, M., Banich, M., ... (2007). Differential engagement of anterior cingulate cortex subdivisions for cognitive and emotional function. Psychophysiology, 44, 343-351. https://doi.org/10.1111/j.1469- 8986.2007.00515.x.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Effects of transcranial direct current stimulation of the motor cortex on prefrontal cortex activation during a neuromuscular fatigue task: An fNIRS study</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Muthalib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nosaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Perrey</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4614-7411-1_11</idno>
+		<ptr target="https://doi.org/10.1007/978-1-4614-7411-1_11" />
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Experimental Medicine &amp; Biology</title>
+		<imprint>
+			<biblScope unit="volume">789</biblScope>
+			<biblScope unit="page" from="73" to="79" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muthalib, M., Kan, B., Nosaka, K., &amp; Perrey, S. (2013). Effects of transcranial direct current stimulation of the motor cortex on prefrontal cortex activation during a neuromuscular fatigue task: An fNIRS study. Advances in Experimental Medicine &amp; Biology, 789, 73-79. https://doi.org/10.1007/978-1-4614-7411-1_11.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Exercise performance and chronic pain in chronic fatigue syndrome: The role of pain catastrophizing</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nijs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Van De Putte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Louckx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Truijen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>De Meirleir</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1526-4637.2007.00368.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1526-4637.2007.00368.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Pain Medicine</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1164" to="1172" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nijs, J., Van De Putte, K., Louckx, F., Truijen, S., &amp; De Meirleir, K. (2008). Exercise performance and chronic pain in chronic fatigue syndrome: The role of pain cata- strophizing. Pain Medicine, 9, 1164-1172. https://doi.org/10.1111/j.1526-4637. 2007.00368.x.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Transcranial direct current stimulationupdate 2011</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Nitsche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Paulus</surname></persName>
+		</author>
+		<idno type="DOI">10.3233/RNN-2011-0618</idno>
+		<ptr target="https://doi.org/10.3233/RNN-2011-0618" />
+	</analytic>
+	<monogr>
+		<title level="j">Restorative Neurology and Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="463" to="492" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nitsche, M. A., &amp; Paulus, W. (2011). Transcranial direct current stimulation -update 2011. Restorative Neurology and Neuroscience, 29, 463-492. https://doi.org/10.3233/ RNN-2011-0618.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Brain stimulation modulates the autonomic nervous system, rating of perceived exertion and performance during maximal exercise</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Okano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fontes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Montenegro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Farinatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cyrino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Noakes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+		<idno type="DOI">10.1136/bjsports-2012-091658</idno>
+		<ptr target="https://doi.org/10.1136/bjsports-2012-091658" />
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="1213" to="1218" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Okano, A., Fontes, E., Montenegro, R., Farinatti, P., Cyrino, E., Li, L., ... Noakes, T. (2013). Brain stimulation modulates the autonomic nervous system, rating of perceived ex- ertion and performance during maximal exercise. British Journal of Sports Medicine, 49, 1213-1218. https://doi.org/10.1136/bjsports-2012-091658.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Preliminary evidence that excitatory transcranial direct current stimulation extends time to task failure of a sustained, submaximal muscular contraction in older adults</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Oki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mahato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nakazawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Amano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>France</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Russ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Clark</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/gerona/glw011</idno>
+		<ptr target="https://doi.org/10.1093/gerona/glw011" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journals of Gerontology Series A: Biological Sciences and Medical Sciences</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="1109" to="1112" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oki, K., Mahato, N., Nakazawa, M., Amano, S., France, C., Russ, D., &amp; Clark, B. (2016). Preliminary evidence that excitatory transcranial direct current stimulation extends time to task failure of a sustained, submaximal muscular contraction in older adults. The Journals of Gerontology Series A: Biological Sciences and Medical Sciences, 71, 1109-1112. https://doi.org/10.1093/gerona/glw011.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Rethinking clinical trials of transcranial direct current stimulation: Participant and assessor blinding is inadequate at intensities of 2mA</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>O'connell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cossar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Marston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bunce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Moseley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>De Souza</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0047514</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0047514" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="page" from="7" to="e47514" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O&apos;Connell, N., Cossar, J., Marston, L., Wand, B., Bunce, D., Moseley, L., &amp; De Souza, L. (2012). Rethinking clinical trials of transcranial direct current stimulation: Participant and assessor blinding is inadequate at intensities of 2mA. PLoS One, 7. e47514 https://doi.org/10.1371/journal.pone.0047514.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Exercise and pain: The neurobiology, measurement, and laboratory study of pain in relation to exercise in humans</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>O'connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Cook</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/00003677-199900270-00007</idno>
+		<ptr target="https://doi.org/10.1249/00003677-199900270-00007" />
+	</analytic>
+	<monogr>
+		<title level="j">Exercise and Sport Sciences Reviews</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="119" to="166" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">O&apos;Connor, P. J., &amp; Cook, D. B. (1999). Exercise and pain: The neurobiology, measurement, and laboratory study of pain in relation to exercise in humans. Exercise and Sport Sciences Reviews, 27, 119-166. https://doi.org/10.1249/00003677-199900270- 00007.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Validation of the numerical rating scale for pain intensity and unpleasantness in pediatric acute postoperative pain: Sensitivity to change over time</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pagé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Katz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Isaac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Martin-Pichora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Campbell</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jpain.2011.12.010</idno>
+		<ptr target="https://doi.org/10.1016/j.jpain.2011.12.010" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Pain</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="359" to="369" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pagé, M., Katz, J., Stinson, J., Isaac, L., Martin-Pichora, A., &amp; Campbell, F. (2012). Validation of the numerical rating scale for pain intensity and unpleasantness in pediatric acute postoperative pain: Sensitivity to change over time. The Journal of Pain, 13, 359-369. https://doi.org/10.1016/j.jpain.2011.12.010.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Making the case for mobile cognition: EEG and sports performance</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fairweather</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Donaldson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neubiorev.2015.02.014</idno>
+		<ptr target="https://doi.org/10.1016/j.neubiorev.2015.02.014" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience &amp; Biobehavioral Reviews</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="117" to="130" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Park, J., Fairweather, M., &amp; Donaldson, D. (2015). Making the case for mobile cognition: EEG and sports performance. Neuroscience &amp; Biobehavioral Reviews, 52, 117-130. https://doi.org/10.1016/j.neubiorev.2015.02.014.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Ideas about pain, a historical view</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Perl</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrn2042</idno>
+		<ptr target="https://doi.org/10.1038/nrn2042" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="71" to="80" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Perl, E. (2007). Ideas about pain, a historical view. Nature Reviews Neuroscience, 8, 71-80. https://doi.org/10.1038/nrn2042.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Differential effects on pain intensity and unpleasantness of two meditation practices</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Perlman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Salomons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lutz</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0018440</idno>
+		<ptr target="https://doi.org/10.1037/a0018440" />
+	</analytic>
+	<monogr>
+		<title level="j">Emotion</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="65" to="71" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Perlman, D., Salomons, T., Davidson, R., &amp; Lutz, A. (2010). Differential effects on pain intensity and unpleasantness of two meditation practices. Emotion, 10, 65-71. https://doi.org/10.1037/a0018440.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b62">
+	<analytic>
+		<title level="a" type="main">The validation of visual analogue scales as ratio scale measures for chronic and experimental pain</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcgrath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rafii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Buckingham</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0304-3959(83)90126-4</idno>
+		<ptr target="https://doi.org/10.1016/0304-3959(83)90126-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Pain</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="45" to="56" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Price, D., McGrath, P., Rafii, A., &amp; Buckingham, B. (1983). The validation of visual analogue scales as ratio scale measures for chronic and experimental pain. Pain, 17, 45-56. https://doi.org/10.1016/0304-3959(83)90126-4.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Extending the limits of force endurance: Stimulation of the motor or the frontal cortex?</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Radel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tempest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Denis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Besson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zory</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cortex.2017.09.026</idno>
+		<ptr target="https://doi.org/10.1016/j.cortex.2017.09.026" />
+	</analytic>
+	<monogr>
+		<title level="j">Cortex</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="96" to="108" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Radel, R., Tempest, G., Denis, G., Besson, P., &amp; Zory, R. (2017). Extending the limits of force endurance: Stimulation of the motor or the frontal cortex? Cortex, 97, 96-108. https://doi.org/10.1016/j.cortex.2017.09.026.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b64">
+	<analytic>
+		<title level="a" type="main">A psychophysical comparison of sensory and affective responses to four modalities of experimental pain</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rainville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Feine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bushnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Duncan</surname></persName>
+		</author>
+		<idno type="DOI">10.3109/08990229209144776</idno>
+		<ptr target="https://doi.org/10.3109/08990229209144776" />
+	</analytic>
+	<monogr>
+		<title level="j">Somatosensory and Motor Research</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="265" to="277" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rainville, P., Feine, J., Bushnell, M., &amp; Duncan, G. (1992). A psychophysical comparison of sensory and affective responses to four modalities of experimental pain. Somatosensory and Motor Research, 9, 265-277. https://doi.org/10.3109/ 08990229209144776.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Neurophysiology and functional neuroanatomy of pain perception</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schnitzler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ploner</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/00004691-20000110000-000005</idno>
+		<idno>1097/00004691-20000110000-000005</idno>
+		<ptr target="https://doi.org/10" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Clinical Neurophysiology</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="592" to="603" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schnitzler, A., &amp; Ploner, M. (2000). Neurophysiology and functional neuroanatomy of pain perception. Journal of Clinical Neurophysiology, 17, 592-603. https://doi.org/10. 1097/00004691-20000110000-000005.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b66">
+	<analytic>
+		<title level="a" type="main">The pursuit of DLPFC: Non-neuronavigated methods to target the left dorsolateral pre-frontal cortex with symmetric bicephalic transcranial direct current stimulation (tDCS)</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Seibt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Brunoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bikson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.brs.2015.01.401</idno>
+		<ptr target="https://doi.org/10.1016/j.brs.2015.01.401" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain Stimulation</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="590" to="602" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Seibt, O., Brunoni, A., Huang, Y., &amp; Bikson, M. (2015). The pursuit of DLPFC: Non-neu- ronavigated methods to target the left dorsolateral pre-frontal cortex with symmetric bicephalic transcranial direct current stimulation (tDCS). Brain Stimulation, 8, 590-602. https://doi.org/10.1016/j.brs.2015.01.401.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Positive and negative affect is related to experiencing chest pain during exercise-induced myocardial ischemia</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Stébenne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bacon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Austin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Paine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Arsenault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Laurin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+		<idno type="DOI">10.1097/PSY.0000000000000427</idno>
+		<ptr target="https://doi.org/10.1097/PSY.0000000000000427" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychosomatic Medicine</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="395" to="403" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stébenne, P., Bacon, S., Austin, A., Paine, N., Arsenault, A., ... Laurin, C. (2017). Positive and negative affect is related to experiencing chest pain during exercise-induced myocardial ischemia. Psychosomatic Medicine, 79, 395-403. https://doi.org/10.1097/ PSY.0000000000000427.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b68">
+	<monogr>
+		<title level="m" type="main">TCT research limited [TCT 1ch tDCS stimulator</title>
+		<imprint/>
+	</monogr>
+	<note>research version</note>
+	<note type="raw_reference">TCT research limited [TCT 1ch tDCS stimulator, research version].</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Pain perception in athletes compared to normally active controls: A systematic review with meta-analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tct Research Limited Tesarz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schuster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hartmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gerhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Eich</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pain.2012.03.005</idno>
+		<ptr target="https://doi.org/10.1016/j.pain.2012.03.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Pain</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page" from="1253" to="1262" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">TCT Research Limited Tesarz, J., Schuster, A., Hartmann, M., Gerhardt, A., &amp; Eich, W. (2012). Pain perception in athletes compared to normally active controls: A systematic review with meta-ana- lysis. Pain, 153, 1253-1262. https://doi.org/10.1016/j.pain.2012.03.005.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Transcranial direct current stimulation enhances mood but not performance in elite athletes</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Valenzuela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Amo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sánchez-Martínez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Torrontegi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vázquez-Carrión</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Montalvo</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2018-0473</idno>
+		<ptr target="https://doi.org/10.1123/ijspp.2018-0473" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sports Physiology and Performance</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="20" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Valenzuela, P., Amo, C., Sánchez-Martínez, G., Torrontegi, E., Vázquez-Carrión, J., Montalvo, Z., et al. (2018). Transcranial direct current stimulation enhances mood but not performance in elite athletes. International Journal of Sports Physiology and Performance, 1-20. https://doi.org/10.1123/ijspp.2018-0473.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Efficacy of transcranial direct current stimulation (tDCS) for the treatment of fibromyalgia: Results of a randomized, sham-controlled longitudinal trial</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roizenblatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Botte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zaghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Roberto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tufik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Fregni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/b97-0-12-80201-2.00005-9</idno>
+		<ptr target="https://doi.org/10.1016/b97-0-12-80201-2.00005-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Pain Management</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="353" to="361" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Valle, A., Roizenblatt, S., Botte, S., Zaghi, S., Roberto, M., Tufik, S., ... Fregni, F. (2009). Efficacy of transcranial direct current stimulation (tDCS) for the treatment of fi- bromyalgia: Results of a randomized, sham-controlled longitudinal trial. Journal of Pain Management, 2, 353-361. https://doi.org/10.1016/b97-0-12-80201-2.00005-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Technique and considerations in the use of 4x1 ring high-definition transcranial direct current stimulation (HD-tDCS)</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Villamar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Volz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bikson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Datta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dasilva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fregni</surname></persName>
+		</author>
+		<idno type="DOI">10.3791/50309</idno>
+		<ptr target="https://doi.org/10.3791/50309" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Visualized Experiments</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">77</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Villamar, M., Volz, M., Bikson, M., Datta, A., DaSilva, A., &amp; Fregni, F. (2013). Technique and considerations in the use of 4x1 ring high-definition transcranial direct current stimulation (HD-tDCS). Journal of Visualized Experiments, 14(77), 1-15. https://doi. org/10.3791/50309.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Improving cycling performance: Transcranial direct current stimulation increases time to exhaustion in cycling</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vitor-Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Okuno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bortolotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bertollo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Boggio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fregni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Altimari</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0144916</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0144916" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vitor-Costa, M., Okuno, N., Bortolotti, H., Bertollo, M., Boggio, P., Fregni, F., &amp; Altimari, L. (2015). Improving cycling performance: Transcranial direct current stimulation increases time to exhaustion in cycling. PLoS One, 10(12), 1-15. https://doi.org/10. 1371/journal.pone.0144916.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Task-specific symptomatology changes resulting from prolonged submaximal bicycle riding</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Weiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kinsman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Stamper</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/00005768-197300520-00014</idno>
+		<ptr target="https://doi.org/10.1249/00005768-197300520-00014" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine &amp; Science in Sports &amp; Exercise</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="79" to="85" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weiser, P., Kinsman, R., &amp; Stamper, D. (1973). Task-specific symptomatology changes resulting from prolonged submaximal bicycle riding. Medicine &amp; Science in Sports &amp; Exercise, 5, 79-85. https://doi.org/10.1249/00005768-197300520-00014.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Preliminary evidence that anodal transcranial direct current stimulation enhances time to task failure of a sustained submaximal contraction</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hoffman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Clark</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0081418</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0081418" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Williams, P., Hoffman, R., &amp; Clark, B. (2013). Preliminary evidence that anodal tran- scranial direct current stimulation enhances time to task failure of a sustained sub- maximal contraction. PLoS One, 8(12), 1-11. https://doi.org/10.1371/journal.pone. 0081418.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b76">
+	<analytic>
+		<title level="a" type="main">The use of isometric tests of muscular function in athletic assessment</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Murphy</surname></persName>
+		</author>
+		<idno type="DOI">10.2165/00007256-199622010-00003</idno>
+		<ptr target="https://doi.org/10.2165/00007256-199622010-00003" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="19" to="37" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilson, G., &amp; Murphy, A. (1996). The use of isometric tests of muscular function in athletic assessment. Sports Medicine, 22, 19-37. https://doi.org/10.2165/00007256- 199622010-00003.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Thalamus and pain</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.aat.2013.06.011</idno>
+		<ptr target="https://doi.org/10.1016/j.aat.2013.06.011" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Anaesthesiologica Taiwanica</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="73" to="80" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yen, C., &amp; Lu, P. (2013). Thalamus and pain. Acta Anaesthesiologica Taiwanica, 51, 73-80. https://doi.org/10.1016/j.aat.2013.06.011.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

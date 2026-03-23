@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Human skeletal muscle mitochondrial responses to singleleg intermittent or continuous cycle exercise training matched for absolute intensity and total work</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Lauren</forename><forename type="middle">E</forename><surname>Skelly</surname></persName>
+							<idno type="ORCID">0000-0002-6068-1720</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Kinesiology</orgName>
+								<orgName type="institution">McMaster University</orgName>
+								<address>
+									<settlement>Hamilton</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Martin</forename><forename type="middle">J</forename><surname>Macinnis</surname></persName>
+							<idno type="ORCID">0000-0002-0377-5800</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Faculty of Kinesiology</orgName>
+								<orgName type="institution">University of Calgary</orgName>
+								<address>
+									<settlement>Calgary</settlement>
+									<region>Alberta</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">William</forename><surname>Bostad</surname></persName>
+							<idno type="ORCID">0000-0001-9037-2200</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Kinesiology</orgName>
+								<orgName type="institution">McMaster University</orgName>
+								<address>
+									<settlement>Hamilton</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Devin</forename><forename type="middle">G</forename><surname>Mccarthy</surname></persName>
+							<idno type="ORCID">0000-0002-7326-7705</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Kinesiology</orgName>
+								<orgName type="institution">McMaster University</orgName>
+								<address>
+									<settlement>Hamilton</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elizabeth</forename><forename type="middle">M</forename><surname>Jenkins</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Kinesiology</orgName>
+								<orgName type="institution">McMaster University</orgName>
+								<address>
+									<settlement>Hamilton</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Linda</forename><forename type="middle">R</forename><surname>Archila</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Kinesiology</orgName>
+								<orgName type="institution">McMaster University</orgName>
+								<address>
+									<settlement>Hamilton</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mark</forename><forename type="middle">A</forename><surname>Tarnopolsky</surname></persName>
+							<idno type="ORCID">0000-0003-0312-3746</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Kinesiology</orgName>
+								<orgName type="institution">McMaster University</orgName>
+								<address>
+									<settlement>Hamilton</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Pediatrics</orgName>
+								<orgName type="institution">McMaster University</orgName>
+								<address>
+									<settlement>Hamilton</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Martin</forename><forename type="middle">J</forename><surname>Gibala</surname></persName>
+							<email>gibalam@mcmaster.ca</email>
+							<idno type="ORCID">0000-0001-5287-0014</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Kinesiology</orgName>
+								<orgName type="institution">McMaster University</orgName>
+								<address>
+									<settlement>Hamilton</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Skelly</forename><surname>Le</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Macinnis</forename><surname>Mj</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Kinesiology</orgName>
+								<orgName type="institution">McMaster University</orgName>
+								<address>
+									<addrLine>Ivor Wynne Centre, Rm E209 1280 Main St. West</addrLine>
+									<postCode>L8S 4K1</postCode>
+									<settlement>Hamilton</settlement>
+									<region>ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Natural Sciences and Engineering Research</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Human skeletal muscle mitochondrial responses to singleleg intermittent or continuous cycle exercise training matched for absolute intensity and total work</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6BDB8ACFEADE5FCD5CA5DF5E08B30F4F</idno>
+					<idno type="DOI">10.1111/sms.14332</idno>
+					<note type="submission">Received: 12 October 2022 | Revised: 28 January 2023 | Accepted: 2 February 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>aerobic exercise, female, interval training, male, mitochondrial content, transmission electron microscopy DL, double leg</term>
+					<term>SL, single leg</term>
+					<term>Wpeak, peak power output</term>
+					<term>TTE, time to exhaustion test at 70% Wpeak</term>
+					<term>Bx, muscle biopsy</term>
+					<term>wk, week</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>There is renewed interest in the potential for interval (INT) training to increase skeletal muscle mitochondrial content including whether the response differs from continuous (CONT) training. Comparisons of INT and CONT exercise are impacted by the manner in which protocols are "matched", particularly with respect to exercise intensity, as well as inter-individual differences in training responses. We employed single-leg cycling to facilitate a within-participant design and test the hypothesis that short-term INT training would elicit a greater increase in mitochondrial content than work-and intensity-matched CONT training. Ten young healthy adults (five males and five females) completed 12 training sessions over 4 weeks with each leg. Legs were randomly assigned to complete either 30 min of CONT exercise at a challenging sustainable workload (~50% single-leg peak power output; Wpeak) or INT exercise that involved 10 × 3-min bouts at the same absolute workload. INT bouts were interspersed with 1 min of recovery at 10% Wpeak and each CONT session ended with 10 min at 10% Wpeak. Absolute and mean intensity, total training time, and volume were thus matched between legs but the pattern of exercise differed. Contrary to our hypothesis, biomarkers of mitochondrial content including citrate synthase maximal activity, mitochondrial protein content and subsarcolemmal mitochondrial volume increased after CONT (p &lt; 0.05) but not INT training. Both training modes increased single-leg Wpeak (p &lt; 0.01) and time to exhaustion at 70% of single-leg Wpeak (p &lt; 0.01). In a work-and intensity-matched comparison, short-term CONT training increased skeletal muscle mitochondrial content whereas INT training did not.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUCTION</head><p>Exercise training of sufficient intensity, duration, and volume-whether performed in a continuous (CONT) or interval (INT) manner-increases biomarkers of mitochondrial content in human skeletal muscle. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> Renewed interest in the topic of physiological responses to INT training <ref type="bibr" target="#b2">3</ref> has reignited debate regarding the nature of the exercise stimulus for promoting training-induced increases in mitochondrial content. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> A limitation inherent to between-group comparisons of INT and CONT training is inter-individual differences in training responses. <ref type="bibr" target="#b5">6</ref> One strategy to address this concern is the use of unilateral exercise to facilitate a within-subject comparison of responses to two different training interventions, that is, between limbs. <ref type="bibr" target="#b6">7</ref> MacInnis et al. <ref type="bibr" target="#b7">8</ref> showed using a singleleg cycling model that short-term INT training elicited superior increases in biomarkers of mitochondrial content compared to CONT training matched for total work. While exercise bout duration, total work, and mean intensity in that study was the same, absolute work intensity was higher during the INT work bouts as compared to the CONT exercise protocol.</p><p>The potential for INT compared to CONT training to elicit superior increases in mitochondrial content despite protocols being "matched" for total work could be owing to a higher absolute intensity per se and/or the inherent "hard-easy" intermittent exercise pattern. Higher exercise intensities induce greater disturbances in skeletal muscle homeostasis, <ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref> and the initial acute responses involved in mitochondrial biogenesis are associated with metabolic stress. <ref type="bibr" target="#b11">12</ref> The intermittent pattern of exercise and corresponding metabolic fluctuations induced by acute INT exercise have been reported to elicit greater phosphorylation of signaling proteins linked to mitochondrial biogenesis as compared to CONT exercise matched for absolute intensity, exercise duration, and total work. <ref type="bibr" target="#b12">13</ref> It remains unclear however whether training-induced increases in mitochondrial content differ between INT and CONT exercise when absolute and mean intensity, session duration, and total work are matched and only the exercise pattern differs.</p><p>The primary purpose of the present study was to investigate the effect of short-term single-leg CONT and INT training-matched for absolute and mean intensity, session duration, and total work-on markers of mitochondrial content in human skeletal muscle using a within-participant design. Measurements included the maximal activity of citrate synthase (CS), the content of mitochondrial proteins, and mitochondrial volume assessed using transmission electron microscopy (TEM). We hypothesized that mitochondrial content would be increased to a greater extent after INT compared to workand intensity-matched CONT training.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Participants and ethical approval</head><p>Ten young healthy adults (n = 5 males and n = 5 females; age 21 ± 2 years, body mass index 23 ± 2 kg/m 2 ), were recruited for the study. A calculation performed using an online calculator (G*Power, v3.1) estimated that a total sample size of 10 was needed to detect a difference in mitochondrial content using a within factors analysis of variance (ANOVA) for one group with three measurements and the parameters of a large effect size (f = 0.40), 80% power, an alpha level of 0.05, and assuming a correlation among repeated measures of 0.6 based on previous data from our laboratory. All participants were habitually active but not specifically training for any sport. The experimental protocol was approved by the Hamilton Integrated Research Ethics Board and the study conformed with the Declaration of Helsinki. All participants provided written informed consent before study participation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Pre-training procedures</head><p>An overview of the experimental protocol is depicted in Figure <ref type="figure">1</ref>. Participants initially performed a double-legged incremental ramp test to exhaustion on an electronically braked cycle ergometer (Excalibur Sport, version 2.0; Lode) to determine whole-body VȮ 2 peak. Following a 2min warm-up at 50 W, workload was increased 1 W every 2 s until the participant reached volitional exhaustion or cadence decreased below 60 revolutions per min (rpm). Expired gases were analyzed using a metabolic cart (Moxus modular oxygen uptake system: AEI Technologies), and the VȮ 2 peak was defined as the highest average oxygen consumption over a 30-s period. The group VȮ 2 peak was 43 ± 5 ml/kg/min.</p><p>The cycle ergometer was modified for single-leg cycling using the model of Abbiss et al. <ref type="bibr" target="#b13">14</ref> as described for use in our laboratory by MacInnis et al. <ref type="bibr" target="#b7">8</ref> The attachment of a counterweight to the contralateral pedal serves to reduce ipsilateral hip flexion contribution. <ref type="bibr" target="#b13">14</ref> On a separate visit, participants were familiarized with the single-leg cycling protocol. Participants pedaled using one leg, with the nonexercising leg resting on a stationary platform. Following familiarization, participants performed an incremental test to exhaustion with each leg. The rate at which the workload increased was reduced by half for the singleleg tests compared to the double-leg tests (i.e., 1 W every 4 s). Expired gases were analyzed using a metabolic cart (AEI Technologies). Participants rested for 10 min before the contralateral leg was tested in an identical manner. At least 2 days following the single-leg incremental tests to exhaustion, participants arrived at the laboratory following an overnight fast and completed single-leg cycling tests to exhaustion. Following a 5 min warm-up at 50 W, participants cycled at 70% of the average peak power output (Wpeak) obtained with each leg during the ramp incremental tests. Participants were instructed to maintain a cadence of 80 rpm, and the test ended when the cadence dropped below 60 rpm. Other than cadence, participants received no verbal or physiological feedback during the tests. Participants rested for 45 min before the contralateral leg was tested in an identical manner. The order of leg testing for the single-leg VȮ 2 peak and time to exhaustion tests was randomized.</p><p>At least 3 days after the final baseline testing session, a resting muscle biopsy was obtained from the vastus lateralis of a randomly selected leg. The other leg was not biopsied to reduce participant burden and given that the activity of mitochondrial enzymes are similar between legs prior to a training intervention. <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref> Participants were instructed to refrain from exercise, alcohol, and food for a minimum of 48, 24, and 10 h prior to exercise, respectively. Biopsies were collected under local anesthesia (1% xylocaine) using a Bergström needle modified for suction. <ref type="bibr" target="#b17">18</ref> Muscle biopsies were immediately cleaned of excess blood and sectioned into several pieces. One piece was fixed in 2% glutaraldehyde in 0.1 M sodium cacodylate buffer for subsequent transmission electron microscopy analyses. The other pieces were frozen in liquid nitrogen and stored at -80°C until further analysis of mitochondrial proteins.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| Training intervention</head><p>The training intervention consisted of three sessions per leg per week over 4 weeks for a total of 12 sessions per leg. One participant completed 11 sessions per leg over 4 weeks. The legs of each participant were randomly assigned to perform either moderate-intensity CONT or INT cycling. Exercise was prescribed based on the mean single-leg Wpeak determined for both legs of a given participant during the ramp incremental tests. The CONT exercise protocol was modeled after previous work <ref type="bibr" target="#b7">8</ref> and involved 30 min of single-leg cycling at an intensity corresponding to ~50% single-leg Wpeak. The INT exercise protocol involved 10 × 3-min bouts at the same absolute workload as the CONT protocol for a given participant. INT bouts were interspersed with 1 min of recovery at 10% Wpeak and each CONT session ended with 10 min at 10% Wpeak. Both protocols began with a 2 min warm-up at 25 W. Total training time and volume were thus matched between legs but the pattern of exercise differed. Provided the participants could tolerate the progression in workload, training loads were increased by 2.5% Wpeak every fourth session to maintain the relative training stimulus. The two legs of each participant were trained consecutively on the same day, in an alternating order, with 10 min of rest between sessions. Participants were instructed to maintain a cadence of 80 rpm during the training sessions. Heart rate was measured continuously (A300, Polar Electro Oy) during at least half of the sessions for all participants to characterize the training stimulus. Blood lactate was measured via finger prick half-way and during the final min of the first protocol completed in the first two training sessions (Lactate Plus, Nova Biomedical) and is reported as the mean of the two measures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| Post-training procedures</head><p>A resting muscle biopsy was obtained from each leg ~72 h following the final training session. Approximately 3 and 5 days following the muscle biopsy, the single-leg ramp incremental tests and time to exhaustion tests were repeated, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">| Muscle analyses</head><p>2.5.1 | Citrate synthase (CS) maximal activity One piece of muscle (~20 mg) was homogenized in 20 volumes of buffer (70 mM sucrose, 220 mM mannitol, 10 mM Hepes, and 1 mM EGTA) supplemented with protease inhibitors (Complete Mini, Roche Applied Science) using Lysing Matrix D tubes (MP Biomedicals). Enzyme activity was measured using a spectrophotometer (Cary Bio-300; Varion Inc.) as we have previously described. <ref type="bibr" target="#b16">17</ref> Enzyme activity was expressed relative to total protein measured with a BCA assay kit (Pierce).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.2">| Western blotting</head><p>A second piece of muscle (~25 mg) was homogenized in 20 volumes of radioimmunoprecipitation assay (RIPA) buffer (Sigma Aldrich) supplemented with protease (Roche Applied Science) and phosphatase (PhosSTOP, Roche Applied Science) inhibitors using Lysing Matrix D tubes (MP Biomedicals). Samples were diluted to 2.5 μg wet weight/μl in Laemmli sample buffer (Bio-Rad). A small amount of whole muscle homogenate from each sample was mixed together to generate a pooled sample for calibration curves.</p><p>Samples were separated on 26 well, 4%-15% pre-cast Criterion TGX Stain-Free gels (Bio-Rad) and run for 40 min at 200 V in running buffer (25 mM Tris, 182 mM glycine, 0.1% SDS, pH 8.3, Bio-Rad). Protein was semi-dry transferred to a nitrocellulose membrane using the Trans-Blot Turbo Transfer System (Bio-Rad). Membranes were blocked in 5% skimmed milk in 1x Tris-buffered saline-Tween (TBST) for 1 h and then incubated in primary antibody overnight at 4°C and 2 h at room temperature. After washing in blocking buffer, membranes were incubated in secondary antibody for 1 h at room temperature and then washed in 1× TBST. Membranes were incubated in chemiluminescent substrate (Clarity or Clarity Max, Bio-Rad), imaged using a Chemidoc MP (Bio-Rad) and analyzed using Image Lab software (Version 6.0, Bio-Rad). Primary antibodies from the Total OXPHOS Blue Native WB Antibody Cocktail (Abcam, mouse, monoclonal, 1:1000, ab110412) were used: NADH:ubiquinone oxidoreductase subunit A9 (NDUFA9; complex I, ab14713), succinate dehydrogenase subunit A (SDHA; complex II, ab14715), ubiquinol-cytochrome c reductase core protein 2 (UQCRC2, complex III, ab14745), cytochrome c oxidase subunit IV (COXIV; complex IV, ab14744), and ATP synthase αsubunit (ATP5A; complex V, ab14748).</p><p>A protein ladder (Precision Plus Protein All Blue Prestained Protein Standards, Bio-Rad) and a calibration curve (e.g., 2, 4, 8, 16 μl) of pooled samples were run on every gel. Ultraviolet (UV) activation of each gel was used to visualize total protein loaded and analyzed using Image Lab software (Bio-Rad). On each gel, the abundance of a given protein was expressed relative to the calibration curve and then normalized to total protein, which was also expressed relative to the calibration curve. <ref type="bibr" target="#b18">19</ref> Images for proteins of interest and total protein (shown by a portion of the gel) are presented in Figure <ref type="figure" target="#fig_0">2G</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.3">| Transmission electron microscopy (TEM)</head><p>TEM samples were prepared by a technician in the Electron Microscopy Facility at McMaster University, as previously described. <ref type="bibr" target="#b19">20</ref> The fixed samples were rinsed twice in 0.1 M sodium cacodylate buffer, post-fixed in 1% osmium tetroxide in 0.1 M sodium cacodylate buffer for 1 h and then dehydrated in ascending ethanol concentrations, followed by two propylene oxide baths. Samples were infiltrated with Spurr's resin through a graded series with rotation of the samples in between solution changes. Samples were then rotated and embedded in 100% fresh Spurr's resin and polymerized overnight in a 60°C oven.</p><p>Thin sections (90 nm) were cut on a Leica UCT ultramicrotome (Leica Microsystems GmbH), picked up onto Cu grids and stained with both uranyl acetate and lead citrate. The grids were viewed on a transmission electron microscope (JEOL 1200 EX TEMSCAN) at the ×10 000 magnification. Images were acquired with an AMT 4-megapixel digital camera (Advanced Microscopy Techniques). Four micrographs, two from the intermyofibrillar region (Figure <ref type="figure" target="#fig_2">3C</ref>) and two from the subsarcolemmal region (Figure <ref type="figure" target="#fig_2">3D</ref>), from eight different muscle fibers were taken (i.e., a total of 32 images per muscle biopsy). Some of the micrographs contained a nucleus within the subsarcolemmal region (Pre-training: 4.3 ± 1.2 images, CONT: 4.6 ± 1.2 images, INT: 4.5 ± 0.8 images).</p><p>Mitochondrial volume was estimated by point counting using Image J software (Version 1.51, National Institute of Health). A grid size of 500 × 500 nm (0.25 μm 2 ) was superimposed on each micrograph. <ref type="bibr" target="#b20">21</ref> The ratio of points (i.e., intersecting grid lines) that touched mitochondria to the number of points that touched muscle fiber was used to calculate total mitochondrial area. We also assessed intermyofibrillar and subsarcolemmal mitochondrial volume by calculating the ratio of points that touched populationspecific mitochondria to the number of points that touched total muscle fiber. <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref> Mitochondria that were not separated by myofibrils from the sarcolemma were identified as subsarcolemmal mitochondria. <ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b24">25</ref> Acquisition and analysis of all micrographs were performed in a blinded manner.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6">| Statistical analyses</head><p>Muscle data were analyzed using a one-way repeated measures ANOVA to compare the samples obtained prior to training and after each of the training programs. A twoway repeated measures ANOVA with time (pre-training, post-training) and group (CONT, INT) as the two factors was used to analyze data from the single-leg ramp incremental and time to exhaustion tests. The Greenhouse-Geisser correction was applied. Holm-Sidak's multiple comparisons tests were performed in the case of a significant one-way repeated measures ANOVA. Mean heart rate, power output, work, and blood lactate concentration during training sessions were analyzed using a paired t-test (CONT vs. INT). All analyses are based on n = 10 except for blood lactate concentration and time to exhaustion for which n = 9 owing to technical difficulties obtaining a complete data set for one participant. Data sets were assessed for normality using the Shapiro-Wilk test. Non-parametric analysis on the three data sets that were not normally distributed (subsarcolemmal mitochondrial area, UQCRC2 protein content, and mean blood lactate) revealed results consistent with the parametric analysis. The former involved the Friedman test with Dunn's multiple comparisons tests (post hoc testing) and the Wilcoxon matched pairs signed rank test. For consistency, parametric analyses are reported. Analyses were conducted using GraphPad Prism 9.0.2 (GraphPad Software). Statistical significance was set at p &lt; 0.05 and all data are presented as mean ± standard deviation (SD).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">| RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">| Descriptive exercise data</head><p>Mean power output was 74 ± 6 W during the moderateintensity exercise periods and 15 ± 1 W during the lowerintensity/recovery periods in both training protocols. Mean total work performed in each session, including warm-up, was 145 ± 11 kJ in both CONT and INT training. Mean heart rate was higher during CONT compared to INT training (131 ± 8 vs. 128 ± 9 bpm; p = 0.038) and corresponded to 70 ± 4 and 68 ± 5% of double-leg maximal heart rate, respectively. Mean blood lactate concentration was not different during CONT and INT training (4.2 ± 1.6 vs. 4.6 ± 1.4 mM; p = 0.24; n = 9).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">| Skeletal muscle mitochondrial content</head><p>The maximal activity of CS was different between samples (p = 0.03). The CONT training leg was higher compared to pre-training (p = 0.03) whereas the INT training leg was not different versus pre-training (p = 0.20; Figure <ref type="figure" target="#fig_0">2A</ref>). The protein content of COXIV, a marker of complex IV, was also different between samples (p &lt; 0.001). The protein content of COXIV in the CONT training leg was higher compared to pre-training (p = 0.002) and was also higher versus the INT training leg (p = 0.045; Figure <ref type="figure" target="#fig_0">2E</ref>). The protein content of UQCRC2, a marker of complex III, was also different between samples (p = 0.01) with the CONT training leg being higher compared to pre-training (p = 0.003; Figure <ref type="figure" target="#fig_0">2D</ref>). There was a significant effect of treatment for the protein content of ATP5A (p = 0.03), a marker of complex V, but the post hoc tests revealed no differences between legs (Pre vs. CONT, p = 0.08; Pre vs. INT, p = 0.08; CONT vs. INT, p = 0.64; Figure <ref type="figure" target="#fig_0">2F</ref>). There were no differences between samples in the protein content of NDUFA9 (p = 0.12; Figure <ref type="figure" target="#fig_0">2B</ref>), a marker of complex I, or SDHA (p = 0.19; Figure <ref type="figure" target="#fig_0">2C</ref>), a marker of complex II.</p><p>Subsarcolemmal mitochondrial volume was different between samples (p = 0.04) with the CONT leg being higher compared to pre-training (p = 0.004; Figure <ref type="figure" target="#fig_2">3B</ref>). Subsarcolemmal mitochondrial volume in the INT training leg was not different compared to pre-training (p = 0.34). Intermyofibrillar mitochondrial volume was not different between samples (p = 0.24; Figure <ref type="figure" target="#fig_2">3A</ref>), nor were there differences in total mitochondrial volume (Pre: 6.1 ± 1.0%, CONT: 7.0 ± 1.1%, INT: 6.4 ± 1.4%; ANOVA, p = 0.13).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">| Single-leg exercise tests</head><p>Single-leg Wpeak increased after training (p = 0.003) with no difference between protocols (interaction, p = 0.07</p><p>). The CONT group increased from 146 ± 10 to 157 ± 13 W and the INT group increased from 144 ± 13 to 158 ± 14 W. Single-leg VȮ 2 peak was not different at any time (p = 0.62). The values before and after training were 2.2 ± 0.2 and 2.3 ± 0.2 L/min for CONT and 2.2 ± 0.2 and 2.2 ± 0.3 L/min for INT. Singleleg time to exhaustion improved after training (p = 0.008) with no difference between groups (interaction, p = 0.42) [504 ± 81 to 817 ± 384 s (~8 to ~14 min) for CONT and 536 ± 173 to 982 ± 446 s (~9 to ~16 min) for INT].</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| DISCUSSION</head><p>The major novel finding of the present study was that CONT but not INT training increased markers of mitochondrial content when the protocols were matched for absolute and mean exercise intensity, session duration, and total work using a within-participant design. This was in contrast to our hypothesis and the suggestion that metabolic fluctuations caused by the inherent "hard-easy" or "on-off" pattern inherent to INT exercise is a critical stimulus for the adaptive response. <ref type="bibr" target="#b12">13</ref> A classic unresolved issue in exercise physiology is the relative importance of intensity and volume (as well as  </p><formula xml:id="formula_0">• (C) (E) (D) (B) (A) (F) (G)</formula><p>other factors such as the pattern of exercise) in mediating training-induced responses in skeletal muscle including mitochondrial content. <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref> A considerate review by Bishop et al. <ref type="bibr" target="#b25">26</ref> address this and other current controversies in the field, while offering directions for future research including important methodological issues that need to be addressed to resolve existing conflicts. Some investigators including the authors of this previous review <ref type="bibr" target="#b25">26</ref> have posited that exercise training volume is more important than training intensity to promote increases in mitochondrial content. <ref type="bibr" target="#b4">5</ref> This position is based on evidence that includes pooled data from training studies that show greater training volumes are associated with greater increases in CS maximal activity and mitochondrial volume. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b26">27</ref> In contrast and making the case for intensity, we and others have previously reported that INT training can elicit increases in markers of mitochondrial content that are superior to work-matched CONT training <ref type="bibr" target="#b7">8</ref> and similar to CONT training protocols that involve a greater total volume of exercise. <ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref> In all of these previous comparisons of mitochondrial responses to INT and CONT, the absolute intensity of the INT exercise protocol (i.e., the power output during the intermittent work bouts) was greater than for CONT exercise. It thus appears that absolute intensity per se, as opposed to the intermittent pattern of exercise, is a more important determinant of INT training-induced increases in mitochondrial content. Many components involved in the molecular cascade linked to training-induced increases in skeletal muscle mitochondrial content are sensitive to exercise intensity, <ref type="bibr" target="#b2">3</ref> including mitochondrial protein synthesis. <ref type="bibr" target="#b34">35</ref> In the present study in which absolute intensity was matched between protocols, the recovery periods during INT exercise may have blunted the cumulative metabolic stress as compared to the sustained stimulus during CONT exercise. A limitation of the present work is that we did not assess the acute response to each protocol to probe whether there were differences in the activation of skeletal muscle signaling pathways linked to mitochondrial biogenesis. The results nonetheless suggest that an INT pattern of exercise is not advantageous to facilitate training-induced increases in mitochondrial content when the absolute intensity is the same as CONT exercise.</p><p>An interval pattern of exercise may simply contribute to training responses when the absolute intensity is higher compared to CONT exercise by providing recovery periods that are necessary to sustain repeated high-intensity efforts. It is also possible that an intermittent pattern of exercise has a role in mediating mitochondrial adaptations when exercise intensity and the corresponding metabolic stress within each fluctuation is higher compared to the present study. It is difficult to compare the relative exercise intensity during single-leg cycling to other double-leg cycling studies, in part, because mean single-leg Wpeak is higher than 50% of double-leg Wpeak. The selection of ~50% Wpeak in the present study was based on our previous study that this workload represented close to the highest intensity that participants could sustain continuously for 30 min. <ref type="bibr" target="#b7">8</ref> The relatively strenuous nature of this workload during single-leg cycling is also evidenced by the fact that blood lactate exceeded 4.0 mmol/L during the CONT protocol despite the relatively small muscle mass involved. In a previous study examining higher intensity double-leg cycling training in our laboratory, we found that 6 weeks of brief "all-out" CONT training did not increase the maximal activity of CS or the content of most mitochondrial proteins. <ref type="bibr" target="#b35">36</ref> These findings may suggest that an intermittent pattern of exercise is important for skeletal muscle adaptations to brief high-intensity low-volume exercise, as other studies have demonstrated increases in biomarkers of mitochondrial content following 6 weeks of brief "all-out" INT training. <ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b36">37</ref> Additional research that compares high-intensity INT and CONT training within the same participant using double-legged cycling and a crossover design may clarify the importance of an intermittent pattern of exercise for training-induced improvements in mitochondrial content.</p><p>In addition to traditional biomarkers of mitochondrial content (i.e., maximal activity of CS and/or the content of mitochondrial proteins), we also employed TEM to determine mitochondrial volume. To gain insight into changes in mitochondrial content within specific subcellular locations, we assessed subsarcolemmal and intermyofibrillar mitochondrial volume. The observed preferential increase in subsarcolemmal mitochondrial volume following CONT training is consistent with other investigations demonstrating relatively greater training-induced increases in subsarcolemmal compared to intermyofibrillar mitochondrial volume in human skeletal muscle. <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b37">38,</ref><ref type="bibr" target="#b38">39</ref> Koh et al. <ref type="bibr" target="#b33">34</ref> observed that subsarcolemmal mitochondrial volume was increased following 11 weeks of high-intensity interval training (10 × 1-min intervals at 95% Wpeak) but unchanged after moderate-intensity continuous training (40 min of cycling at 50% Wpeak) in adults with type 2 diabetes. This suggests a greater subsarcolemmal mitochondrial response following INT training but there were no differences in the training-induced increases in total mitochondrial volume between protocols, and intermyofibrillar-specific mitochondrial volume did not change over the intervention. <ref type="bibr" target="#b33">34</ref> Consistent with Koh et al. <ref type="bibr" target="#b33">34</ref> and others, <ref type="bibr" target="#b23">24</ref> our results also demonstrate that the examination of subcellular location-specific mitochondria can reveal differences that may not be detected within total muscle measures.</p><p>We found no influence of an intermittent pattern of exercise on changes in single-leg peak exercise capacity. Consistent with a previous single-leg cycling study in our laboratory, <ref type="bibr" target="#b7">8</ref> short-term CONT and INT training increased single-leg Wpeak but did not change single-leg VȮ 2 peak. The observed unchanged single-leg VȮ 2 peak may be related to the short training intervention and/or moderate-intensity nature of the training protocols, as other single-leg training investigations examining longer interventions <ref type="bibr" target="#b39">40</ref> or higher intensity exercise protocols 2 have observed increases in single-leg VȮ 2 peak. We also found improved exercise performance during a single-leg time to exhaustion test following training, with no differences between protocols. The comparable improvements in exercise performance following CONT and INT training were not consistent with our observation that skeletal muscle measures improved following CONT training only. Multiple physiological factors, in addition to mitochondrial content, impact exercise performance and may have contributed to the comparable improvements following CONT and INT training. <ref type="bibr" target="#b40">41</ref> An important design element of the present study was that absolute and mean intensity, session duration, and total work were matched between protocols, such that only the exercise pattern differed. Another novel aspect of the study was the use of a unilateral exercise model to facilitate a comparison of INT and CONT training within the same participant. An advantage of this model is that potential confounding influences, including variations in diet and sleep, as well as inter-individuals differences in training responses, are minimized or eliminated as compared with between-participant or cross-over designs <ref type="bibr" target="#b6">7</ref> ; however, this model assumes there is no influence of the contralateral exercise training protocol and the observed skeletal muscle responses to unilateral exercise training may not extrapolate to bilateral exercise. <ref type="bibr" target="#b6">7</ref> In summary, the present study examined changes in markers of mitochondrial content following single-leg work-and intensity-matched CONT and INT training. CS maximal activity, the protein content of COXIV and UQCRC2 and subsarcolemmal mitochondrial volume increased after CONT but not INT training. Therefore, contrary to our hypothesis, INT training did not augment mitochondrial responses compared to work-and intensitymatched CONT training. These findings suggest that when intensity and total work is matched, an intermittent pattern of exercise is not a critical stimulus for mitochondrial biogenesis and the recovery periods during INT exercise may have blunted the cumulative training stimulus</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>F I G U R E 2</head><label>2</label><figDesc>Biomarkers of mitochondrial content before (white bars) and following single-leg CONT training (light gray bars) and INT training (dark gray bars). The mean maximal activity of citrate synthase (CS; panel A) and protein content of NADH:ubiquinone oxidoreductase subunit A9 (NDUFA9; panel B), succinate dehydrogenase subunit A (SDHA; panel C), ubiquinol-cytochrome c reductase core protein 2 (UQCRC2, panel D), cytochrome c oxidase subunit IV (COXIV; panel E) and ATP synthase αsubunit (ATP5A; panel F) are shown, with error bars representing 1 SD. Individual data points are shown with males and females in closed and open symbols, respectively, and each symbol represents one individual and is consistent across panels and figures. Images for mitochondrial proteins assessed using Western blotting and total protein (shown as the UV exposure on a Stain-Free gel) are displayed for the calibration curve comprised of pooled muscle samples, and for pre-training (P), CONT training (C), and INT training (I) (panel G). The symbols indicate a significant difference between PRE and CONT (*p &lt; 0.05) and CONT and INT ( † p = 0.045).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>•</head></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>F I G U R E 3</head><label>3</label><figDesc>Mitochondrial content assessed using transmission electron microscopy before (white bars) and following single-leg CONT training (light gray bars) and INT training (dark gray bars). The mean intermyofibrillar mitochondrial volume (panel A) and subsarcolemmal mitochondrial volume (panel B) are reported, with error bars representing 1 SD. Individual data points are also shown, with males and females in closed and open symbols, respectively and each symbol represents one individual and is consistent across panels and figures. Transmission electron microscopy images at 10 000× magnification from an intermyofibrillar (panel C) and subsarcolemmal region (panel D) are shown. The symbol indicates a significant difference between PRE and CONT (*p = 0.04). The black arrows point to intermyofibrillar mitochondria, and the white arrows point to subsarcolemmal mitochondria. Scale bar, 1 μm.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>16000838, 2023, 6, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14332 by HEALTH RESEARCH BOARD, Wiley Online Library on [10/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head><p>The data that support the findings of this study are available from the corresponding author upon reasonable request</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>as compared to the sustained nature of the CONT exercise protocol.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">| Perspective</head><p>A limited body of evidence suggests that INT exercise training may elicit superior increases in mitochondrial content as compared to work-matched CONT exercise training. This could be owing to a higher exercise intensity per se and/or the inherent "hard-easy" intermittent exercise pattern that is characteristic of the former. The present study is the first to compare human skeletal muscle mitochondrial responses to INT and CONT training matched for absolute and mean intensity, session duration, and total work. An important design element was the use of a unilateral exercise model that facilitated a within-participant design and thus eliminated the potential for inter-individual differences in training responsiveness. The major novel finding of the study was that CONT but not INT training increased markers of mitochondrial content. This was in contrast to our hypothesis, and it suggests that an intermittent pattern of exercise is not a critical stimulus for such training responses. Our findings advance our understanding of skeletal muscle responses to exercise training and suggest that the primary advantage of INT compared to CONT exercise is the potential to elicit higher absolute intensities during intermittent work bouts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACKNO WLE DGE MENTS</head><p>The authors wish to thank Marcia Reid from the Canadian Centre for Electron Microscopy (CCEM) for technical assistance with laboratory procedures. We regret our inability to cite all relevant articles owing to space restrictions. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FUNDING INFORMATION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST STATEMENT</head><p>The authors have no competing interest to declare.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Quantitative measures of enzyme activities in type I and type II muscle fibres of man after training</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Henriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Reitman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol Scand</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="392" to="397" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Henriksson J, Reitman JS. Quantitative measures of enzyme activities in type I and type II muscle fibres of man after train- ing. Acta Physiol Scand. 1976;97(3):392-397.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The nature of the training response; peripheral and central adaptations of one-legged exercise</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Saltin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nazar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Costill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol Scand</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="289" to="305" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saltin B, Nazar K, Costill DL, et al. The nature of the training response; peripheral and central adaptations of one-legged ex- ercise. Acta Physiol Scand. 1976;96(3):289-305.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Physiological adaptations to interval training and the role of exercise intensity</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Macinnis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Gibala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">595</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2915" to="2930" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MacInnis MJ, Gibala MJ. Physiological adaptations to in- terval training and the role of exercise intensity. J Physiol. 2017;595(9):2915-2930.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">CrossTalk proposal: exercise training intensity is more important than volume to promote increases in human skeletal muscle mitochondrial content</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Macinnis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Skelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Gibala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">597</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="4111" to="4113" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MacInnis MJ, Skelly LE, Gibala MJ. CrossTalk proposal: ex- ercise training intensity is more important than volume to promote increases in human skeletal muscle mitochondrial content. J Physiol. 2019;597(16):4111-4113.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">CrossTalk opposing view: exercise training volume is more important than training intensity to promote increases in mitochondrial content</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Botella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Granata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">597</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="4115" to="4118" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bishop DJ, Botella J, Granata C. CrossTalk opposing view: ex- ercise training volume is more important than training inten- sity to promote increases in mitochondrial content. J Physiol. 2019;597(16):4115-4118.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A systematic review examining the approaches used to estimate interindividual differences in trainability and classify individual responses to exercise training</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Bonafiglia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Preobrazenski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Gurd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">665044</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bonafiglia JT, Preobrazenski N, Gurd BJ. A systematic review examining the approaches used to estimate interindividual differences in trainability and classify individual responses to exercise training. Front Physiol. 2021;12:665044.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Investigating human skeletal muscle physiology with unilateral exercise models: when one limb is more powerful than two</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Macinnis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mcglory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Gibala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Phillips</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Physiol Nutr Metab</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="563" to="570" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MacInnis MJ, McGlory C, Gibala MJ, Phillips SM. Investigating human skeletal muscle physiology with unilateral exercise models: when one limb is more powerful than two. Appl Physiol Nutr Metab. 2017;42(6):563-570.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Superior mitochondrial adaptations in human skeletal muscle after interval compared to continuous single-leg cycling matched for total work</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Macinnis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zacharewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">595</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2955" to="2968" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MacInnis MJ, Zacharewicz E, Martin BJ, et al. Superior mito- chondrial adaptations in human skeletal muscle after interval compared to continuous single-leg cycling matched for total work. J Physiol. 2017;595(9):2955-2968.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Redox state and lactate accumulation in human skeletal muscle during dynamic exercise</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sahlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Katz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Henriksson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochem J</title>
+		<imprint>
+			<biblScope unit="volume">245</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="551" to="556" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sahlin K, Katz A, Henriksson J. Redox state and lactate accu- mulation in human skeletal muscle during dynamic exercise. Biochem J. 1987;245(2):551-556.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Formation of inosine monophosphate (IMP) in human skeletal muscle during incremental dynamic exercise</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sahlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Broberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Ren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol Scand</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="193" to="198" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sahlin K, Broberg S, Ren JM. Formation of inosine monophos- phate (IMP) in human skeletal muscle during incremental dy- namic exercise. Acta Physiol Scand. 1989;136(2):193-198.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Regulation of skeletal muscle glycogen phosphorylase and PDH at varying exercise power outputs</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Howlett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Parolin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Dyck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="418" to="R425" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Howlett RA, Parolin ML, Dyck DJ, et al. Regulation of skeletal muscle glycogen phosphorylase and PDH at varying exercise power outputs. Am J Physiol. 1998;275(2):R418-R425.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Metabolic stressdependent regulation of the mitochondrial biogenic molecular response to high-intensity exercise in human skeletal muscle</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fiorenza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Gunnarsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hostrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">596</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="2823" to="2840" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fiorenza M, Gunnarsson TP, Hostrup M, et al. Metabolic stress- dependent regulation of the mitochondrial biogenic molecular response to high-intensity exercise in human skeletal muscle. J Physiol. 2018;596(14):2823-2840.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Exercise-induced metabolic fluctuations influence AMPK, p38-MAPK and CaMKII phosphorylation in human skeletal muscle</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Combes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dekerle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Webborn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Watt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bougault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">N</forename><surname>Daussin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Rep</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">12462</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Combes A, Dekerle J, Webborn N, Watt P, Bougault V, Daussin FN. Exercise-induced metabolic fluctuations influence AMPK, p38-MAPK and CaMKII phosphorylation in human skeletal muscle. Physiol Rep. 2015;3(9):e12462.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Single-leg cycle training is superior to double-leg cycling in improving the oxidative potential and metabolic profile of trained skeletal muscle</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Abbiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Karagounis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Laursen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1248" to="1255" />
+			<date type="published" when="1985">1985. 2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abbiss CR, Karagounis LG, Laursen PB, et al. Single-leg cycle training is superior to double-leg cycling in improving the oxi- dative potential and metabolic profile of trained skeletal mus- cle. J Appl Physiol (1985). 2011;110(5):1248-1255.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Training induced adaptation of skeletal muscle and metabolism during submaximal exercise</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Henriksson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">270</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="661" to="675" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Henriksson J. Training induced adaptation of skeletal mus- cle and metabolism during submaximal exercise. J Physiol. 1977;270(3):661-675.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The impact of endurance training on human skeletal muscle memory, global isoform expression and novel transcripts</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Lindholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Giacomello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Werne</forename><surname>Solnestam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">1006294</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lindholm ME, Giacomello S, Werne Solnestam B, et al. The im- pact of endurance training on human skeletal muscle memory, global isoform expression and novel transcripts. PLoS Genet. 2016;12(9):e1006294.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Effect of short-term, high-intensity exercise training on human skeletal muscle citrate synthase maximal activity: single versus multiple bouts per session</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Macinnis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Skelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Godkin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Physiol Nutr Metab</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1391" to="1394" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MacInnis MJ, Skelly LE, Godkin FE, et al. Effect of short-term, high-intensity exercise training on human skeletal muscle ci- trate synthase maximal activity: single versus multiple bouts per session. Appl Physiol Nutr Metab. 2019;44(12):1391-1394.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Suctionmodified Bergström muscle biopsy technique: experience with 13,500 procedures</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tarnopolsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pearce</forename><forename type="middle">E</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Lach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Muscle Nerve</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="717" to="725" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tarnopolsky MA, Pearce E, Smith KM, Lach B. Suction- modified Bergström muscle biopsy technique: experience with 13,500 procedures. Muscle Nerve. 2011;43:717-725.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Important considerations for protein analyses using antibody based techniques: down-sizing Western blotting up-sizes outcomes</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Lamb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">591</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="5823" to="5831" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Murphy RM, Lamb GD. Important considerations for protein analyses using antibody based techniques: down-sizing Western blotting up-sizes outcomes. J Physiol. 2013;591(23):5823-5831.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Combined aerobic exercise and enzyme replacement therapy rejuvenates the mitochondrial-lysosomal axis and alleviates autophagic blockage in Pompe disease</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Nilsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Macneil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kitaoka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Free Radic Biol Med</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="98" to="112" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nilsson MI, MacNeil LG, Kitaoka Y, et al. Combined aerobic exercise and enzyme replacement therapy rejuvenates the mitochondrial-lysosomal axis and alleviates autophagic block- age in Pompe disease. Free Radic Biol Med. 2015;87:98-112.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Skeletal muscle mitochondrial and lipid droplet content assessed with standardized grid sizes for stereology</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Broskey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Daraspe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Humbel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Amati</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="765" to="770" />
+			<date type="published" when="1985">1985. 2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Broskey NT, Daraspe J, Humbel BM, Amati F. Skeletal mus- cle mitochondrial and lipid droplet content assessed with standardized grid sizes for stereology. J Appl Physiol (1985). 2013;115(5):765-770.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Influences of endurance training on the ultrastructural composition of the different muscle fiber types in humans</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Howald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hoppeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Claassen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Mathieu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Straub</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pflugers Arch</title>
+		<imprint>
+			<biblScope unit="volume">403</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="369" to="376" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Howald H, Hoppeler H, Claassen H, Mathieu O, Straub R. Influences of endurance training on the ultrastructural com- position of the different muscle fiber types in humans. Pflugers Arch. 1985;403(4):369-376.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Haematological rather than skeletal muscle adaptations contribute to the increase in peak oxygen uptake induced by moderate endurance training</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Montero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cathomen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Jacobs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">593</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="4677" to="4688" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Montero D, Cathomen A, Jacobs RA, et al. Haematological rather than skeletal muscle adaptations contribute to the in- crease in peak oxygen uptake induced by moderate endurance training. J Physiol. 2015;593(20):4677-4688.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Exercise training increases skeletal muscle mitochondrial volume density by enlargement of existing mitochondria and not de novo biogenesis</title>
+		<author>
+			<persName><forename type="first">Meinild</forename><surname>Lundby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Gehrig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol (Oxf)</title>
+		<imprint>
+			<biblScope unit="volume">222</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">12905</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Meinild Lundby AK, Jacobs RA, Gehrig S, et al. Exercise train- ing increases skeletal muscle mitochondrial volume density by enlargement of existing mitochondria and not de novo biogen- esis. Acta Physiol (Oxf). 2018;222(1):e12905.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Endurance training modulates intramyocellular lipid compartmentalization and morphology in skeletal muscle of lean and obese women</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Devries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Samjoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Hamadeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="4852" to="4862" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Devries MC, Samjoo IA, Hamadeh MJ, et al. Endurance train- ing modulates intramyocellular lipid compartmentalization and morphology in skeletal muscle of lean and obese women. J Clin Endocrinol Metab. 2013;98(12):4852-4862.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">High-intensity exercise and mitochondrial biogenesis: current controversies and future research directions</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Botella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Genders</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiology (Bethesda)</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="56" to="70" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bishop DJ, Botella J, Genders AJ, et al. High-intensity exercise and mitochondrial biogenesis: current controversies and future research directions. Physiology (Bethesda). 2019;34(1):56-70.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Training-induced changes in mitochondrial content and respiratory function in human skeletal muscle</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Granata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Jamnick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Bishop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1809" to="1828" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Granata C, Jamnick NA, Bishop DJ. Training-induced changes in mitochondrial content and respiratory function in human skeletal muscle. Sports Med. 2018;48(8):1809-1828.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Similar metabolic adaptations during exercise after low volume sprint interval and traditional endurance training in humans</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Burgomaster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Howarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Phillips</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">586</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="151" to="160" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burgomaster KA, Howarth KR, Phillips SM, et al. Similar met- abolic adaptations during exercise after low volume sprint in- terval and traditional endurance training in humans. J Physiol. 2008;586(1):151-160.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Sprint interval and traditional endurance training increase net intramuscular triglyceride breakdown and expression of perilipin 2 and 5</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">O</forename><surname>Shepherd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cocks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Tipton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">591</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="657" to="675" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shepherd SO, Cocks M, Tipton KD, et al. Sprint interval and traditional endurance training increase net intramuscular triglyceride breakdown and expression of perilipin 2 and 5. J Physiol. 2013;591(3):657-675.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Lipid droplet remodelling and reduced muscle ceramides following sprint interval and moderate-intensity continuous exercise training in obese males</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">O</forename><surname>Shepherd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cocks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Meikle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Obes</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1745" to="1754" />
+			<date type="published" when="2017">2017</date>
+			<pubPlace>Lond</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shepherd SO, Cocks M, Meikle PJ, et al. Lipid droplet remod- elling and reduced muscle ceramides following sprint interval and moderate-intensity continuous exercise training in obese males. Int J Obes (Lond). 2017;41(12):1745-1754.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Fibre-specific responses to endurance and low volume high intensity interval training: striking similarities in acute and chronic adaptation</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Scribbans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Edgett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Vorobej</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">98119</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scribbans TD, Edgett BA, Vorobej K, et al. Fibre-specific re- sponses to endurance and low volume high intensity interval training: striking similarities in acute and chronic adaptation. PLoS One. 2014;9(6):e98119.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Comparison of three popular exercise modalities on VȮ 2max in overweight and obese</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Baekkerud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Solberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Leinan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Wisloff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Karlsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Rognmo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="491" to="498" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baekkerud FH, Solberg F, Leinan IM, Wisloff U, Karlsen T, Rognmo O. Comparison of three popular exercise modali- ties on VȮ 2max in overweight and obese. Med Sci Sports Exerc. 2016;48(3):491-498.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Twelve weeks of sprint interval training improves indices of cardiometabolic health similar to traditional endurance training despite a five-fold lower exercise volume and time commitment</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Gillen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Macinnis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Skelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tarnopolsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Gibala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">154075</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gillen JB, Martin BJ, MacInnis MJ, Skelly LE, Tarnopolsky MA, Gibala MJ. Twelve weeks of sprint interval training improves indices of cardiometabolic health similar to traditional endur- ance training despite a five-fold lower exercise volume and time commitment. PLoS One. 2016;11(4):e0154075.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">High-intensity interval, but not endurance, training induces muscle fiber type-specific subsarcolemmal lipid droplet size reduction in type 2 diabetic patients</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Koh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ortenblad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Winding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hellsten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Mortensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nielsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">315</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="872" to="E884" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koh HE, Ortenblad N, Winding KM, Hellsten Y, Mortensen SP, Nielsen J. High-intensity interval, but not endurance, train- ing induces muscle fiber type-specific subsarcolemmal lipid droplet size reduction in type 2 diabetic patients. Am J Physiol Endocrinol Metab. 2018;315(5):E872-E884.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Influence of aerobic exercise intensity on myofibrillar and mitochondrial protein synthesis in young men during early and late postexercise recovery</title>
+		<author>
+			<persName><forename type="first">Di</forename><surname>Donato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>West</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Churchward-Venne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Breen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">306</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1025" to="E1032" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Di Donato DM, West DW, Churchward-Venne TA, Breen L, Baker SK, Phillips SM. Influence of aerobic exercise intensity on myofibrillar and mitochondrial protein synthesis in young men during early and late postexercise recovery. Am J Physiol Endocrinol Metab. 2014;306(9):E1025-E1032.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Intermittent and continuous high-intensity exercise training induce similar acute but different chronic muscle adaptations</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Cochran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Percival</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tricarico</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="782" to="791" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cochran AJ, Percival ME, Tricarico S, et al. Intermittent and continuous high-intensity exercise training induce similar acute but different chronic muscle adaptations. Exp Physiol. 2014;99(5):782-791.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Three minutes of all-out intermittent exercise per week increases skeletal muscle oxidative capacity and improves cardiometabolic health</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Gillen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Percival</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Skelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">111489</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gillen JB, Percival ME, Skelly LE, et al. Three minutes of all-out intermittent exercise per week increases skeletal muscle oxida- tive capacity and improves cardiometabolic health. PLoS One. 2014;9(11):e111489.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Endurance training in humans: aerobic capacity and structure of skeletal muscle</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hoppeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Howald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Conley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="320" to="327" />
+			<date type="published" when="1985">1985. 1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoppeler H, Howald H, Conley K, et al. Endurance training in humans: aerobic capacity and structure of skeletal muscle. J Appl Physiol (1985). 1985;59(2):320-327.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Increased subsarcolemmal lipids in type 2 diabetes: effect of training on localization of lipids, mitochondria, and glycogen in sedentary human skeletal muscle</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mogensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Vind</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">298</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="706" to="E713" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nielsen J, Mogensen M, Vind BF, et al. Increased subsarcolem- mal lipids in type 2 diabetes: effect of training on localization of lipids, mitochondria, and glycogen in sedentary human skel- etal muscle. Am J Physiol Endocrinol Metab. 2010;298(3):E706 -E713.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">One-legged endurance training: leg blood flow and oxygen extraction during cycling exercise</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Foss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Krustrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Secher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hallen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol (Oxf)</title>
+		<imprint>
+			<biblScope unit="volume">205</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="177" to="185" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rud B, Foss O, Krustrup P, Secher NH, Hallen J. One-legged en- durance training: leg blood flow and oxygen extraction during cycling exercise. Acta Physiol (Oxf). 2012;205(1):177-185.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Endurance exercise performance: the physiology of champions</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Joyner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Coyle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">586</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="35" to="44" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Joyner MJ, Coyle EF. Endurance exercise performance: the physiology of champions. J Physiol. 2008;586(1):35-44.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

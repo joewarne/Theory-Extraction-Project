@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Psychology of Sport &amp; Exercise</title>
+				<funder>
+					<orgName type="full">Brazil</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Coordination for the Improvement of Higher Education Personnel (CAPES)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2018-02-03">03 February 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Marcelo</forename><surname>Bigliassi</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Costas</forename><forename type="middle">I</forename><surname>Karageorghis</surname></persName>
+							<email>costas.karageorghis@brunel.ac.uk</email>
+							<affiliation key="aff1">
+								<orgName type="department">Corresponding author. Department of Life Sciences</orgName>
+								<orgName type="institution">Brunel University London</orgName>
+								<address>
+									<postCode>UB8 3PH</postCode>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">George</forename><forename type="middle">K</forename><surname>Hoy</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Georgia</forename><forename type="middle">S</forename><surname>Layne</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Life Sciences</orgName>
+								<orgName type="institution">Brunel University London</orgName>
+								<address>
+									<postCode>UB8 3PH</postCode>
+									<settlement>Middlesex</settlement>
+									<country>England UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Psychology of Sport &amp; Exercise</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-02-03">03 February 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">56353352674D5F87A136EE5889EDCA5F</idno>
+					<idno type="DOI">10.1016/j.psychsport.2018.01.010</idno>
+					<note type="submission">Received 7 March 2017; Received in revised form 10 January 2018; Accepted 29 January 2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:12+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Affect Arousal Attention Brain Motor activity Psychophysiology</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: The brain mechanisms that underlie the psychological effects of auditory stimuli during physical activity are hitherto under-researched; particularly so in ecologically valid settings. The objective of the present experiment was to investigate the effects of two contrasting auditory stimuli conditions on psychological responses and brain activity during an outdoor walking task. Methods: Twenty-four participants were required to walk 400 m at a pace of their choosing and report perceptual (state attention and perceived exertion) and affective (valence, arousal, and perceived enjoyment) outcomes immediately after each exercise bout. Three conditions were administered in a randomised and fully counterbalanced order (control, podcast, and music). State-of-the-art, portable EEG technology was used to facilitate measurement during the walking task. Fast Fourier Transform was used to decompose the brain's electrical activity into different band waves (lower-alpha, upper-alpha, sensorimotor rhythm, and beta). Results: The results indicated that music up-regulated beta waves, led to more dissociative thoughts, induced more positive affective responses, up-regulated arousal, and enhanced perceived enjoyment to a greater degree when compared to control and podcast. Conclusions: Rearrangement of beta frequencies in the brain appears to elicit a more positive emotional state wherein participants are more likely to dissociate from internal sensory signals and focus on task-irrelevant factors. The portable EEG system used in the present study appears to accurately measure electrical activity in the brain during light-intensity physical activities and is effective in reducing electrical artefacts caused by body and cable movements.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Auditory stimuli such as music and podcasts have been widely applied in the realm of exercise and sport <ref type="bibr" target="#b22">(Karageorghis, 2016)</ref>. The use of such stimuli has proliferated over the last two decades through the advent of ergonomically-designed mp3 players and smartphones. Typically, auditory stimuli have been used at light-to-moderate work intensities (i.e., at intensities up to the ventilatory threshold) as a means by which to ameliorate the effects of fatigue, enhance exercise performance, and induce more positive affective responses than no-music control conditions (e.g., <ref type="bibr" target="#b4">Bigliassi, Karageorghis, Wright, Orgs, &amp; Nowicky, 2017;</ref><ref type="bibr" target="#b19">Hutchinson &amp; Karageorghis, 2013)</ref>. It has been indicated that a shift in attentional focus caused by an increase in fatiguerelated sensations (e.g., limb discomfort and breathlessness) would automatically increase the number of associative thoughts and partially suppress the influence of environmental sensory cues <ref type="bibr" target="#b3">(Bigliassi, Karageorghis, Nowicky, Orgs, &amp; Wright, 2016a;</ref><ref type="bibr" target="#b20">Hutchinson &amp; Tenenbaum, 2007;</ref><ref type="bibr" target="#b32">Rejeski, 1985;</ref><ref type="bibr" target="#b43">Tenenbaum &amp; Connolly, 2008)</ref>. Owing to the limited number of available technologies, the mechanisms that underlie the influence of auditory stimuli influence on physical activity are currently under-examined <ref type="bibr" target="#b23">(Karageorghis, Ekkekakis, Bird, &amp; Bigliassi, 2017)</ref>.</p><p>Notably, compelling evidence indicates that pleasant stimuli have the potential not only to stimulate the sensory regions of the cortex, but also to deactivate areas affected by negative sensations <ref type="bibr" target="#b18">(Hernández-Peón, Brust-Carmona, Peñaloza-Rojas, &amp; Bach-Y-Rita, 1961)</ref>. In such instances, the effects of auditory stimuli are contingent upon the degree to which attention is reallocated from internal bodily cues towards external environmental cues (see <ref type="bibr" target="#b25">Karageorghis et al., 2009)</ref>. Put another way, music-related interventions have the potential to reallocate attentional focus towards external influences, facilitate the control of movements, enhance enjoyment, and induce positive affective memories (e.g., <ref type="bibr" target="#b21">Jones, Karageorghis, &amp; Ekkekakis, 2014;</ref><ref type="bibr" target="#b38">Stork, Kwan, Gibala, &amp; Martin Ginis, 2015)</ref>. In the long term, pleasant sensory stimuli are hypothesised to increase adherence to physical activity programmes, which appears to be an effective strategy to reduce sedentariness and enhance well-being <ref type="bibr">(Karageorghis &amp; Priest, 2012a</ref><ref type="bibr">, 2012b;</ref><ref type="bibr" target="#b31">Priest &amp; Karageorghis, 2008)</ref>.</p><p>The brain mechanisms that underlie the effects of auditory stimuli during the execution of movements have only been investigated recently <ref type="bibr" target="#b3">(Bigliassi et al., 2016a)</ref>. Researchers have conducted laboratorybased experimental work to further understanding of the functional and cerebral mechanisms that underlie the effects of music during exercise <ref type="bibr" target="#b3">(Bigliassi et al., 2016a)</ref>; which has been found to be an effective form of auditory stimulation. In the aforementioned study, participants were asked to execute a highly fatiguing isometric ankle-dorsiflexion type of contraction to the point of volitional exhaustion. The results indicated that the spectral power of low-frequency components (i.e., theta waves [4-7 Hz]) at the frontal, central, and parietal regions of the cortex were down-regulated when participants exercised in the presence of music. Interestingly, the same effect was not evident when participants listened to music at rest. Ostensibly, high-intensity exercise has the tendency to up-regulate theta waves, and music-related interventions appear to moderate this tendency.</p><p>It has been hypothesised that low-frequency components typically up-regulate as a means by which to induce a resting state (i.e., an index of neural fatigue; <ref type="bibr" target="#b9">Craig, Tran, Wijesuriya, &amp; Nguyen, 2012)</ref>. Thus, pleasant auditory stimuli appear to engender a prophylactic effect (e.g., <ref type="bibr" target="#b7">Boutcher &amp; Trenske, 1990)</ref>, in terms of potentially unpleasant psychophysical and affective responses, by rearranging the brain's electrical activity. Allied to this, music guides attention towards task-unrelated thoughts and reduces processing of internal sensory signals (e.g., muscle afferents). This psychophysiological mechanism is objectively indicated by reductions in the spectral power of theta waves <ref type="bibr" target="#b3">(Bigliassi et al., 2016a)</ref>. Interestingly, individuals primarily execute whole-body movements at a light intensity during their daily physical activity routines (e.g., walking or cycling). In such instances, the effects of music-related interventions are primarily related to emotional experiences elicited by the stimuli (e.g., feeling happy; <ref type="bibr" target="#b29">Koelsch, 2010;</ref><ref type="bibr">North, Hargreaves, &amp; Hargreaves, 2004)</ref>. Despite the fact that music has the potential to ameliorate fatigue-related sensations when individuals exercise at a light-to-moderate intensity, people tend to use it primarily as a means by which to render the exercise experience more pleasurable <ref type="bibr" target="#b8">(Clark, Baker, &amp; Taylor, 2016;</ref><ref type="bibr" target="#b16">Hallett &amp; Lamont, 2015)</ref>.</p><p>The brain mechanisms that underlie the effects of auditory stimuli on psychophysiological responses during the execution of lifestyle physical activity (e.g., outdoor walking performed at light-intensity) have yet to be explored. Assessment of brain function has always proven to be a challenge in naturalistic settings given that cables and body movements tend to compromise the fidelity of the biological data. Fortunately, with advances in technology, researchers are now able to investigate electrical activity in the brain during real-life situations such as walking and cycling. For instance, portable EEG devices have recently been developed to facilitate the acquisition of biological data during physical activity. Such devices incorporate an electrical system that protects the core components of cables with active shielding technology. Specifically, this functions as a portable Faraday cage that prevents extraneous factors (e.g., cable movements) from interfering with the electroencephalographic signal (i.e., zero-capacitance). Accordingly, portable devices designed to measure electrocortical activity during the execution of gross movements can provide a direct and objective measure of an individual's emotional state and shine new light on the mechanisms that underlie the effects of environmental sensory stimuli on perceptual and affective responses.</p><p>The objective of the present study was to investigate the effects of auditory stimuli on psychological responses and brain activity during self-paced physical activity performed in an ecologically valid setting. We hypothesised that music would rearrange the brain's electrical frequency, increase the use of task-irrelevant thoughts (e.g., focusing outwardly towards external influences), induce more positive affective responses, and enhance enjoyment to a greater degree when compared to other auditory conditions that are devoid of musical components (i.e., a podcast).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1.">Participants</head><p>The required sample size for the present study was calculated by use of G*Power 3.1 (paired-samples t-test; <ref type="bibr" target="#b14">Faul, Erdfelder, Lang, &amp; Buchner, 2007)</ref> The effects of music on affective responses during exercise were used as group parameters to estimate the effect size (effect size dz = 0.7; <ref type="bibr" target="#b19">Hutchinson &amp; Karageorghis, 2013)</ref>. It was indicated that 21 participants would be required (α = 0.05; 1 -β = 0.85). Volunteers were initially surveyed to collate basic demographic information (e.g., age and gender). The inclusion criteria were that participants needed to be apparently healthy and not present visual-or hearing-related disorders. Participants with dreadlocks were excluded from the trials, given that this hairstyle tends to create a space between the scalp and the electrodes, reducing conductance and thus compromising data fidelity. Three additional participants were recruited to account for likely experimental dropout and to facilitate a fully counterbalanced design. After obtaining institutional ethics committee approval and written informed consent, 24 healthy adults (11 women and 13 men; M age = 23.5, SD = 4.3 years; M height = 173.4, SD = 9.1 cm; M weight = 69.1, SD = 12.9 kg) were recruited.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2.">Experimental procedures</head><p>To further understanding of the psychophysiological mechanisms that underlie the use of music on physical activity, the present experiment employed a portable electroencephalography (EEG) system with active shielding technology. Participants engaged in singular bouts of light-intensity physical activity (walking) performed at self-paced speeds (i.e., real-life physical activity) on a standard all-weather 400-m running track. An additional auditory stimulusa podcastwas used to facilitate identification of the effects of auditory distractions that are devoid of musical elements such as melody and harmony. The apparatus used in the present experiment was noninvasive and developed for use during the execution of movements. In total, the experimental procedures took no longer than 80 min.</p><p>Pre-experimental phase. Prior to engaging in the main experimental phase, participants were asked to read a participant information sheet, provide written informed consent, and respond to the Physical Activity Readiness Questionnaire (PAR-Q). The psychological measures to be used in the main phase were presented at this juncture as a means by which to improve participants' familiarity with them.</p><p>Main-experimental phase. A 32-channel EEG cap (EEGO Sports ANT Neuro) was placed on each participant's scalp, and conductive paste/gel (OneStep) was used to improve conductance between the biological signal and electrodes. The electronic devices were non-invasive and developed to be applied during movement (see Fig. <ref type="figure" target="#fig_0">1</ref>). Two experimental conditions (podcast [PO] and music <ref type="bibr">[MU]</ref>) and a control (CO) were administered in a randomised and fully counterbalanced in order to identify the effects of auditory stimuli on electrical activity in the brain and psychological responses during exercise performed at light-intensities. A deterministic logarithm was used to randomise and counterbalance conditions; this was intended to prevent any influence of systematic order on the dependent variables. PO was used as a means by which to gauge the effects of auditory distractions that are devoid of musical elements. Participants were required to complete 400 m in lane 1 of a running track at self-paced speeds and respond to psychological instruments (see Psychological measures section) immediately after the exercise bouts. The electrical activity in the right anterior tibialis was used to measure how long each participant took to complete the selfpaced task. White noise (static sound) was used in between conditions as a filler to negate any potential residual effects of previous experimental conditions <ref type="bibr" target="#b30">(León-Carrión et al., 2007)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.3.">Auditory stimuli selection</head><p>Music (MU): A 6-min version of Happy (160 bpm; Pharrell Williams; Despicable Me 2 soundtrack album, 2013) was used as a means by which to guide the participant's attentional focus towards external influences and to enhance affective responses. Podcast (PO): Building Better Cities (TED Radio Hours) was selected as an auditory stimulus and deemed to be task-irrelevant and neutral in terms of affective valence responses. PO was used in order to direct attention towards an auditory environmental cue that was devoid of musical properties during the exercise bout. The auditory stimuli were delivered via earphones (iPod compatible) and sound intensity was standardised at level 10, which is deemed relatively loud but entirely safe from an audiological perspective. A single-item auditory liking scale was used at the end of the experiment to gauge the degree to which participants liked the auditory stimuli <ref type="bibr" target="#b24">(Karageorghis, Jones, &amp; Stuart, 2008)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.4.">Psychological measures</head><p>Four psychological measures were taken immediately after the exercise bouts. Attentional focus was assessed by use of a single-item attention scale (AS; <ref type="bibr" target="#b41">Tammen, 1996)</ref>. Affective valence was assessed by use of the Feeling Scale (FS; <ref type="bibr" target="#b17">Hardy &amp; Rejeski, 1989)</ref>. Felt arousal was assessed by use of the Felt Arousal Scale (FAS; <ref type="bibr" target="#b39">Svebak &amp; Murgatroyd, 1985)</ref>. Perceived exertion was assessed by use of Borg's single-item CR10 scale <ref type="bibr" target="#b6">(Borg, 1982)</ref>. The aforementioned instruments were always administered in the same order (1st AS, 2nd FS, 3rd FAS, and 4th CR10). The Physical Activity Enjoyment Scale (PACES) was also administered at the end of each condition in order to assess the degree to which participants enjoyed each exercise bout.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.5.">Electroencephalography</head><p>Electrical activity in the brain was assessed throughout exercise bout by use of a portable EEG system (see Fig. <ref type="figure" target="#fig_0">1</ref>). The core components of the EEG cables were protected with active-shielding technology, which served to reduce the influence of extraneous factors (e.g., cable movements) and body movements on the electrical signal. This technology was recently developed through the application of one layer of active shield that is used to receive, reflect, and reduce the electrical interference of signals at the frequency range of 50-60 Hz, and facilitate data collection in situations where a participant is physically active. The compact EEG amplifier was placed in a compatible and ergonomically-designed backpack where the signal was digitised at 500 Hz and analysed online. Thirty-two Ag/AgCl electrodes were attached to the participant's scalp in accord with the guidelines detailed in the 10-20 International System. The mastoid electrodes were used to digitally reference the electrical signal. Vertical eye movements were identified through the use of independent component analysis in order to remove the interference of eye blinks on frontal activity. The impedance level was kept below 10 kΩ and the signal was amplified at a gain of 1000 times. An online bandpass filter (0.1-100 Hz) was employed to reduce the influence of electrical artefacts on the acquired data.</p><p>The EEG signal was imported into the Brainstorm software <ref type="bibr" target="#b40">(Tadel, Baillet, Mosher, Pantazis, &amp; Leahy, 2011)</ref>. Identification of bad electrodes and periods of electrical interference (bad segments) was the first procedure conducted to discard artefacts. A pair of electromyography (EMG) electrodes was placed on the participant's right anterior tibialis in accord with the recommendations of the SENIAM project (Surface Electromyography for the Non-Invasive Assessment of Muscles; <ref type="bibr" target="#b37">Stegeman &amp; Hermens, 1999)</ref>. The EEG data were band-pass filtered offline (0.5-30 Hz), broken down into 1-s windows (asynchronous samples), and DC-offset corrected. One-second samples are representative of the time that most participants took to execute one step. Accordingly, changes in spectral power are more likely to represent the neural control of working muscles as well as the perceptual and affective changes associated with movement execution. The EMG activity indicated the period of time when the participant started and finished the test. The number of samples acquired in the present study (M = 215.4, SD = 5.1 samples) varied in accord with how long participants took to complete the self-paced task. The initial and final 15 s of activity were removed in order to reduce the influence of fast neurological adaptations to the initiation and cessation of movement. Fast Fourier Transform was used to decompose the brain's electrical activity into different brain frequencies. Lower-alpha (8-10 Hz), upper-alpha (10.5-12.5 Hz), sensorimotor rhythm (SMR; 13-15 Hz), and beta (15.5-29.5 Hz) waves were analysed to further understanding of the effects of auditory stimuli on the electrical activity in the brain during the execution of light-intensity bouts of physical activity <ref type="bibr" target="#b1">(Bailey, Hall, Folger, &amp; Miller, 2008;</ref><ref type="bibr" target="#b12">Enders et al., 2016)</ref>.</p><p>The FFT values were acquired by averaging the spectra across samples. This option reduces the potential influence of waveform averaging as EEG signals were not time-locked to the gait cycle <ref type="bibr" target="#b3">(Bigliassi et al., 2016a)</ref>. The power spectrum was subsequently 1/f corrected <ref type="bibr" target="#b40">(Tadel et al., 2011)</ref> given that power decreases with frequency (i.e., spectral flattening; multiplies the power at 8 Hz by 8). The frequency data were exported to Excel (Microsoft) for each electrode site and band frequency. Two-dimensional topographical results were used to illustrate the influence of different conditions on the brain's electrical activity grouped into predetermined band waves. The power spectra of five brain regions (Frontal: FpZ, Fp1, Fp2, F3, F4, F7, and F8; Frontal-Central: FC1, FC2, FC5, and FC6; Central: Cz, C3, and C4; Central-Parietal: CP1, CP2, CP5, and CP6; Parietal: P3, P4, P7, and P8) were averaged and compared across conditions <ref type="bibr" target="#b5">(Bigliassi et al., 2016b)</ref>. Brainstorm <ref type="bibr" target="#b40">(Tadel et al., 2011)</ref> was used to conduct the EEG procedures of the present study. 1.6. Data analysis Checks for univariate outliers were performed by use of standardised (z) scores (i.e., &gt; 3.29 or &lt; -3.29) on IBM SPSS Statistics 22.0. The Shapiro-Wilk test was used to identify patterns of data distribution that did not fit the Gaussian curve. Log10 and square root transformations were computed in the case of non-normal profiles. Those variables that did not present a normal distribution after data correction were compared by use of corresponding non-parametric tests. The liking scores were compared using a paired-samples t-test. Task performance (i.e., time to complete the task), perceptual responses (i.e., attentional focus and perceived exertion), affective responses (i.e., affective state and perceived activation), perceived enjoyment, and the time-averaged power spectrum for each predetermined brain region were compared across conditions by use of one-way repeated-measures analysis of variance (ANOVA). Bonferroni-adjusted pairwise comparisons were used to identify where differences lay. Friedman's analysis of variance by ranks was used for non-parametric data, followed up with the Wilcoxon rank tests to identify significant differences across conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Results</head><p>No outliers were identified in the dataset but some variables did exhibit non-normal distribution. Accordingly, log10 transformations were used to normalise the distribution. Table <ref type="table" target="#tab_0">1</ref> contains descriptive statistics for performance, perceptual, and affective variables.</p><p>The auditory stimuli (both CO and MU) used in the present experiment were considered to be moderately pleasant, and no significant differences were identified across conditions (t(23) = 1.606; p = 0.122). Additionally, task performance was not influenced by the presence of auditory stimuli (W = .642; ε = .736; F(1.47, 33.86) = .54; p = .534; η p 2 = .02). Participants also reported similar exertional responses following execution of the task under the influence of PO and MU (W = .884; F(2, 46) = 2.61; p = .084; η p 2 = .10). Nonetheless, attentional focus was significantly influenced by the presence/absence of auditory stimuli (W = .996; F(2, 46) = 3.46; p = .040; η p 2 = .13). MU elicited more dissociative thoughts when compared to CO (p = .018).</p><p>No differences in attentional focus were identified between PO and MU (p = 0.251) or CO and PO (p = .150). Participants' affective responses to exercise were also up-regulated during exercise in the presence of auditory stimuli (W = .951; F(2, 46) = 9.93; p &lt; .001; η p 2 = .30). The piece of music used in the present study induced more positive affective responses than CO (p &lt; .001) and PO (p = .029). MU also up-regulated perceived activation to a greater degree when compared to CO and PO (p &lt; .001). Furthermore, perceived enjoyment was positively influenced by the presence of auditory stimuli (W = .764; F(2, 46) = 16.60; p &lt; .001; η p 2 = .42) and this was associated with a large effect size. Bonferroni adjustments indicated that all conditions differed significantly from one another in terms of enjoyment (see Table <ref type="table" target="#tab_0">1</ref>).</p><p>The results of the present study indicate that MU up-regulated highfrequency components of the power spectrum (i.e., beta waves) in the frontal (CO: M = 7.20, SD = 1.32; PO: M = 7.21, SD = 1.31; MU: M = 9.23, SD = 1.59 signalˆ2/Hz*10ˆ{-10}) and frontal-central (CO: M = 6.24, SD = 1.07; PO: M = 6.06, SD = 1.23; MU: M = 7.29, SD = 1.12 signalˆ2/Hz*10ˆ{-10}) regions of the brain to a greater extent when compared to CO and PO (see Table <ref type="table" target="#tab_1">2</ref> and Fig. <ref type="figure" target="#fig_1">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Discussion</head><p>The objective of the present study was to explore the cerebral mechanisms that underlie the effects of auditory stimuli in an ecologically valid setting and by use of portable EEG technology. The results indicate that music guided attention externally, induced more positive affective responses, up-regulated perceived activation, and enhanced perceived enjoyment to a greater degree when compared to CO and PO. Contrastingly, the podcast had no effect on perceptual and affective responses, but was sufficient to render perception of the task more pleasurable than CO (see Table <ref type="table" target="#tab_0">1</ref>). The brain mechanisms that underlie the effects of auditory stimuli on self-paced walking appear to be associated with the up-regulation of beta frequencies in the frontal and frontal-central regions of the cortex (see Fig. <ref type="figure" target="#fig_1">2</ref>).</p><p>The present experiment was designed to recreate a real-life scenario where participants could experience an everyday, outdoor physical activity; the EEG technology that was employed facilitated this. The exercise intensity was not expected to up-modulate exertional responses: we used self-paced walking to facilitate the processing of auditory stimuli and leave scope for participants to experience more dissociative thoughts <ref type="bibr" target="#b20">(Hutchinson &amp; Tenenbaum, 2007;</ref><ref type="bibr" target="#b32">Rejeski, 1985)</ref>. In such instances, light-intensity exercises performed for short periods (∼4 min) would have no detrimental effects on affective responses and cognitive processes (cf. teleoanticipation mechanism; <ref type="bibr" target="#b44">Wittekind, Micklewright, &amp; Beneke, 2011)</ref>. However, participants reported different psychological responses in accord with the presence/absence of auditory stimuli, despite no differences in the physiological load induced in terms of exercise intensity. The present results appear to concur with similar findings, which show that music can render a given  activity more pleasurable than under normal circumstances (see <ref type="bibr" target="#b19">Hutchinson &amp; Karageorghis, 2013;</ref><ref type="bibr" target="#b22">Karageorghis, 2016)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Frequency of cortical rhythms</head><p>Up-regulation of high-frequency waves in the frontal and frontal-central areas could be associated with the psychological benefits that are commonly induced by music during activities of daily life such as walking <ref type="bibr">(Daly, Hallowell, et al., 2014;</ref><ref type="bibr">Daly, Malik, et al., 2014)</ref>. Previous experiments have indicated that environmental sensory cues have the potential not only to up-regulate high-frequency components of the power spectrum, but also to downregulate theta waves in the frontal regions <ref type="bibr" target="#b5">(Bigliassi et al., 2016b)</ref>. Downregulation of low-frequency components have been associated with amelioration of fatigue-related symptoms such as limb discomfort during the execution of high-intensity exercise performed to the point of volitional exhaustion <ref type="bibr" target="#b3">(Bigliassi et al., 2016a;</ref><ref type="bibr" target="#b9">Craig et al., 2012)</ref>. On the other hand, highfrequency bands appear to change in response to one's level of activation <ref type="bibr" target="#b0">(Aspinall, Mavros, Coyne, &amp; Roe, 2015;</ref><ref type="bibr" target="#b5">Bigliassi et al., 2016b)</ref>. We hypothesise that increases in beta wave activity could be induced primarily by the arousal potential of a stimulus <ref type="bibr" target="#b2">(Berlyne, 1971;</ref><ref type="bibr" target="#b35">Sayorwan et al., 2013)</ref>. Up-regulation of high-frequency waves in the brain could also have a protective effect against fatigue-related sensations during highly-demanding motor tasks. In such instances, beta waves might have the potential to partially prevent the up-modulation of theta waves in the frontal cortex (i.e., an inhibitory mechanism; <ref type="bibr" target="#b36">Sherman et al., 2016)</ref>, leading to a subsequent amelioration of fatigue <ref type="bibr" target="#b3">(Bigliassi et al., 2016a;</ref><ref type="bibr" target="#b9">Craig et al., 2012;</ref><ref type="bibr" target="#b42">Tanaka et al., 2012)</ref>. It is noteworthy that participants reported the task to be more enjoyable with the podcast when compared to CO, indicating that a calming and task-unrelated stimulus could maintain or even downregulate highfrequency waves and also render a given activity more pleasurable than under control conditions. Accordingly, future research is necessary to clarify the potential relationship between beta waves and psychological responses to exercise.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Strengths and limitations</head><p>We selected auditory stimuli that would, in theory, elicit similar perceptual and affective responses across participants. Nonetheless, there is an idiosyncratic element to such responses <ref type="bibr">(North et al., 2004)</ref>. Despite the fact that both sets of auditory stimuli were similar in terms of pleasantness, changes in how arousing the stimuli were perceived to be, could have induced changes in beta frequencies <ref type="bibr" target="#b5">(Bigliassi et al., 2016b)</ref>. Future research might employ the circumplex model of affect <ref type="bibr" target="#b33">(Russell, 1980)</ref> and the associated affect grid <ref type="bibr" target="#b34">(Russell, Weiss, &amp; Mendelsohn, 1989)</ref> to further understanding of this potential confound prior to commencement of data collection. This is a means by which to standardise the emotional effects of the auditory stimuli (i.e., affective valence and arousal responses; <ref type="bibr">North et al., 2004)</ref>.</p><p>It is noteworthy that the differences in beta waves could have been induced by the sole effects of music regardless of the influence of exercise-related factors. Albeit previous research has indicated that such effects are not evident when participants listen to motivational pieces of music (see <ref type="bibr" target="#b3">Bigliassi et al., 2016a)</ref>, future studies might measure musiconly effects on EEG activity as a means by which to further understanding of the combined effects of exercise and music on cerebral responses. Along similar lines, it is important to emphasise that one piece of music or even 10 pieces can never represent "music" as an artform in its entirety. Precisely the same principle applies to podcasts or audiobooks. The use of a wide range of musical selections/podcasts is not always viable in an experimental context given the high demands that this places upon participants. In this instance, we were primarily interested in the simple acoustic distinction of music vs. podcast, and are not claiming that our approach addresses the infinite complexity of such stimuli.</p><p>It is also important to emphasise that correlational analyses were not conducted in the present study given the differences in temporal resolution between EEG and the self-reported measures. For example, changes in beta waves can be swift and marked during light-intensity exercise, while changes in affective valence can up-/down-regulate in a slower, more subtle manner. Therefore, the present authors can only speculate, based on previous findings (e.g., <ref type="bibr" target="#b1">Bailey et al., 2008;</ref><ref type="bibr" target="#b35">Sayorwan et al., 2013)</ref>, that re-arrangement of beta waves in the frontal and frontal-central regions serves to up-/down-regulate affective responses.</p><p>Finally, it is important to note that we adopted a very prudent approach to process the data, and primarily focused our analyses on central areas of the cortex (e.g., frontal-central and central), avoiding the influence of electrical interferences caused by the leg and neck muscles. The device used in this experiment was purposefully designed to prevent noises generated by body and cable movements. It should be highlighted that walking tasks could have generated waves of electrical interference as a result of the impact of the heels on the track. Notably, the portable EEG technology employed in this study acquired meaningful electroencephalographic signals during the execution of gross movements performed at light-intensity and generally protected the core components of the cable against such electrical artefacts. Despite this, O1 and O2 electrode sites were affected by the electrical activity of the trapezius; such noises are not easily removed by use of traditional filtering methods (e.g., band-pass filtering; <ref type="bibr" target="#b12">Enders et al., 2016;</ref><ref type="bibr" target="#b13">Enders &amp; Nigg, 2015;</ref><ref type="bibr" target="#b28">Kline, Huang, Snyder, &amp; Ferris, 2015)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions</head><p>The present authors conclude that the psychological effects of music on low-intensity bouts of physical activity could be associated with the up-/down-regulation of high-frequency waves in the frontal and frontal-central regions of the brain. Rearrangement of beta frequencies in the brain appears to elicit a more positive emotional state where participants are more likely to dissociate from internal sensory signals and focus on task-irrelevant factors. This positive psychophysiological state induced by musical stimuli can be capitalised upon during many forms of physical activity (e.g., functional mobility programmes or swimming) as a means by which to render a given activity more pleasurable.</p><p>It is also important to highlight that active shielding technology appears to function effectively as a portable Faraday cage that protects the core components of cables against external artefacts during the execution of walking tasks performed at self-paced speeds. Future research should attempt to use EMG electrodes to capture electrical activity in the working muscles (e.g., neck and leg muscles) and use independent component analysis <ref type="bibr" target="#b15">(Groppe, Makeig, &amp; Kutas, 2008)</ref> to remove muscle bursts from the brain's electrical activity during offline procedures. Such technology with ergonomically-designed features will extend examination of cerebral mechanisms in a broad range of physical activity contexts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Potential conflicts of interest</head><p>The authors declare that they have no conflicts of interest.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Experimental set-up with the portable EEG technology.</figDesc><graphic coords="3,127.62,56.81,340.04,150.69" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Group data time-averaged band frequencies for CO, PO, and MU. Note. SMR = Sensorimotor Rhythm. The coloured scale indicates the power of the band frequencies (signalˆ2/Hz*10ˆ{-10}); CO = Control condition; PO = Podcast condition; MU = Music condition; * = MU was statistically different to both CO and PO (p &lt; .05).</figDesc><graphic coords="5,44.90,56.81,236.60,561.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Descriptive statistics for liking, performance, perceptual, and affective variables.</figDesc><table><row><cell></cell><cell>CO</cell><cell></cell><cell>PO</cell><cell></cell><cell>MU</cell><cell></cell></row><row><cell></cell><cell>M</cell><cell>S E</cell><cell>M</cell><cell>S E</cell><cell>M</cell><cell>S E</cell></row><row><cell>Liking Scores</cell><cell>-</cell><cell>-</cell><cell>6.33</cell><cell>.46</cell><cell>7.33</cell><cell>.45</cell></row><row><cell>Task Performance (s)</cell><cell>269.75</cell><cell>5.08</cell><cell>269.9</cell><cell>4.67</cell><cell>267.33</cell><cell>5.43</cell></row><row><cell>Attentional Focus</cell><cell>74.58</cell><cell>4.54</cell><cell>81.45</cell><cell>3.65</cell><cell>86.87</cell><cell>3.30</cell></row><row><cell>Perceived Exertion</cell><cell>1.68</cell><cell>.16</cell><cell>1.58</cell><cell>.13</cell><cell>1.39</cell><cell>.10</cell></row><row><cell>Affective Valence</cell><cell>3.25</cell><cell>.25</cell><cell>3.58</cell><cell>.25</cell><cell>4.08</cell><cell>.18</cell></row><row><cell>Perceived Activation</cell><cell>3.01</cell><cell>.27</cell><cell>2.85</cell><cell>.22</cell><cell>3.91</cell><cell>.30</cell></row><row><cell>Enjoyment</cell><cell>76.20</cell><cell>4.61</cell><cell>86.66</cell><cell>3.92</cell><cell>98.51</cell><cell>2.59</cell></row></table><note><p>Note. CO = Control condition; PO = Podcast condition; MU = Music condition; M = Mean; SE = Standard error.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>One-way repeated-measures (RM) ANOVA results for time-averaged band frequencies.</figDesc><table><row><cell></cell><cell></cell><cell cols="2">Sphericity</cell><cell cols="2">RM ANOVA</cell><cell></cell></row><row><cell></cell><cell></cell><cell>W</cell><cell>ε</cell><cell>F</cell><cell>d f</cell><cell>p</cell><cell>η p 2</cell></row><row><cell cols="2">Lower Alpha Frontal</cell><cell>.93</cell><cell>.93</cell><cell>.94</cell><cell>2, 46</cell><cell cols="2">.398 .04</cell></row><row><cell></cell><cell>Frontal-Central</cell><cell>.73</cell><cell>.79</cell><cell>.77</cell><cell cols="3">1.58, 36.46 .442 .03</cell></row><row><cell></cell><cell>Central</cell><cell>.77</cell><cell>.81</cell><cell>.96</cell><cell>2, 46</cell><cell cols="2">.374 .04</cell></row><row><cell></cell><cell cols="2">Central-Parietal .86</cell><cell>.88</cell><cell cols="2">1.73 2, 46</cell><cell cols="2">.189 .07</cell></row><row><cell></cell><cell>Parietal</cell><cell>.63</cell><cell>.73</cell><cell cols="4">1.79 1.46, 33.66 .188 .07</cell></row><row><cell cols="2">Upper Alpha Frontal</cell><cell>.90</cell><cell>.91</cell><cell>.47</cell><cell>2, 46</cell><cell cols="2">.626 .02</cell></row><row><cell></cell><cell>Frontal-Central</cell><cell>.82</cell><cell>.85</cell><cell>.75</cell><cell>2, 46</cell><cell cols="2">.478 .03</cell></row><row><cell></cell><cell>Central</cell><cell>.94</cell><cell>.95</cell><cell>.28</cell><cell>2, 46</cell><cell cols="2">.754 .01</cell></row><row><cell></cell><cell cols="2">Central-Parietal .97</cell><cell>.97</cell><cell>.58</cell><cell>2, 46</cell><cell cols="2">.561 .02</cell></row><row><cell></cell><cell>Parietal</cell><cell>.77</cell><cell>.81</cell><cell cols="2">1.27 2, 46</cell><cell cols="2">.289 .05</cell></row><row><cell>SMR</cell><cell>Frontal</cell><cell>.76</cell><cell>.81</cell><cell>.88</cell><cell>2, 46</cell><cell cols="2">.419 .03</cell></row><row><cell></cell><cell>Frontal-Central</cell><cell>.78</cell><cell>.82</cell><cell>.43</cell><cell>2, 46</cell><cell cols="2">.653 .01</cell></row><row><cell></cell><cell>Central</cell><cell>.93</cell><cell>.93</cell><cell>.46</cell><cell>2, 46</cell><cell cols="2">.631 .02</cell></row><row><cell></cell><cell cols="2">Central-Parietal .94</cell><cell>.94</cell><cell>.72</cell><cell>2, 46</cell><cell cols="2">.488 .03</cell></row><row><cell></cell><cell>Parietal</cell><cell>.88</cell><cell>.89</cell><cell cols="2">1.51 2, 46</cell><cell cols="2">.231 .06</cell></row><row><cell>Beta</cell><cell>Frontal</cell><cell>.76</cell><cell>.80</cell><cell cols="2">3.32 2, 46</cell><cell cols="2">.045 .12</cell></row><row><cell></cell><cell>Frontal-Central</cell><cell>.85</cell><cell>.87</cell><cell cols="2">3.25 2, 46</cell><cell cols="2">.048 .12</cell></row><row><cell></cell><cell>Central</cell><cell>.87</cell><cell>.88</cell><cell cols="2">2.94 2, 46</cell><cell cols="2">.062 .11</cell></row><row><cell></cell><cell cols="2">Central-Parietal .94</cell><cell>.94</cell><cell cols="2">2.96 2, 46</cell><cell cols="2">.061 .11</cell></row><row><cell></cell><cell>Parietal</cell><cell>.90</cell><cell>.91</cell><cell cols="2">2.97 2, 46</cell><cell cols="2">.061 .11</cell></row><row><cell cols="2">Note. SMR = Sensorimotor rhythm.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This research was supported, in part, by grants from the <rs type="funder">Coordination for the Improvement of Higher Education Personnel (CAPES)</rs>, <rs type="funder">Brazil</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The urban brain: Analysing outdoor physical activity with mobile EEG</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Aspinall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mavros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Coyne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Roe</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bjsports-2012-091877</idno>
+		<ptr target="http://dx.doi.org/10.1136/bjsports-2012-091877" />
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="272" to="276" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aspinall, P., Mavros, P., Coyne, R., &amp; Roe, J. (2015). The urban brain: Analysing outdoor physical activity with mobile EEG. British Journal of Sports Medicine, 49, 272-276. http://dx.doi.org/10.1136/bjsports-2012-091877.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Changes in EEG during graded exercise on a recumbent cycle ergometer</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Folger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Miller</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuroscience.2012.10.037</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.neuroscience.2012.10.037" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Science and Medicine</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="505" to="511" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bailey, S. P., Hall, E. E., Folger, S. E., &amp; Miller, P. C. (2008). Changes in EEG during graded exercise on a recumbent cycle ergometer. Journal of Sports Science and Medicine, 7, 505-511. http://dx.doi.org/10.1016/j.neuroscience.2012.10.037.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Aesthetics and psychobiology</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Berlyne</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1971">1971</date>
+			<publisher>Appleton-Century-Crofts</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Berlyne, D. E. (1971). Aesthetics and psychobiology. New York, NY: Appleton-Century- Crofts.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Cerebral mechanisms underlying the effects of music during a fatiguing isometric ankle-dorsiflexion task</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bigliassi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Karageorghis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Nowicky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Orgs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Wright</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/psyp.12693</idno>
+		<ptr target="http://dx.doi.org/10.1111/psyp.12693" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychophysiology</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="1472" to="1483" />
+			<date type="published" when="2016">2016a</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bigliassi, M., Karageorghis, C. I., Nowicky, A. V., Orgs, G., &amp; Wright, M. J. (2016a). Cerebral mechanisms underlying the effects of music during a fatiguing isometric ankle-dorsiflexion task. Psychophysiology, 53, 1472-1483. http://dx.doi.org/10. 1111/psyp.12693.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Effects of auditory stimuli on electrical activity in the brain during cycle ergometry</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bigliassi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Karageorghis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Orgs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Nowicky</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.physbeh.2017.04.023</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.physbeh.2017.04.023" />
+	</analytic>
+	<monogr>
+		<title level="j">Physiology &amp; Behavior</title>
+		<imprint>
+			<biblScope unit="page">177</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bigliassi, M., Karageorghis, C. I., Wright, M. J., Orgs, G., &amp; Nowicky, A. V. (2017). Effects of auditory stimuli on electrical activity in the brain during cycle ergometry. Physiology &amp; Behavior, 177. http://dx.doi.org/10.1016/j.physbeh.2017.04.023.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Brain mechanisms that underlie the effects of motivational audiovisual stimuli on psychophysiological responses during exercise</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bigliassi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">B</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Karageorghis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Bird</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Altimari</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.physbeh.2016.03.001</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.physbeh.2016.03.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Physiology &amp; Behavior</title>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<biblScope unit="page" from="128" to="136" />
+			<date type="published" when="2016">2016b</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bigliassi, M., Silva, V. B., Karageorghis, C. I., Bird, J. M., Santos, P. C., &amp; Altimari, L. R. (2016b). Brain mechanisms that underlie the effects of motivational audiovisual stimuli on psychophysiological responses during exercise. Physiology &amp; Behavior, 158, 128-136. http://dx.doi.org/10.1016/j.physbeh.2016.03.001.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Psychophysical bases of perceived exertion</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A V</forename><surname>Borg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine &amp; Science in Sports &amp; Exercise</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="377" to="381" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Borg, G. A. V. (1982). Psychophysical bases of perceived exertion. Medicine &amp; Science in Sports &amp; Exercise, 14, 377-381.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The effects of sensory deprivation and music on perceived exertion and affect during exercise</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boutcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Trenske</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sport &amp; Exercise Psychology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="167" to="176" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boutcher, S., &amp; Trenske, M. (1990). The effects of sensory deprivation and music on perceived exertion and affect during exercise. Journal of Sport &amp; Exercise Psychology, 12, 167-176.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The modulating effects of music listening on health-related exercise and physical activity in adults: A systematic review and narrative synthesis</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">N</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">F</forename><surname>Taylor</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/08098131.2015.1008558</idno>
+		<ptr target="http://dx.doi.org/10.1080/08098131.2015.1008558" />
+	</analytic>
+	<monogr>
+		<title level="j">Nordic Journal of Music Therapy</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="76" to="104" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Clark, I. N., Baker, F. A., &amp; Taylor, N. F. (2016). The modulating effects of music listening on health-related exercise and physical activity in adults: A systematic review and narrative synthesis. Nordic Journal of Music Therapy, 25, 76-104. http://dx.doi.org/ 10.1080/08098131.2015.1008558.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Regional brain wave activity changes associated with fatigue</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wijesuriya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nguyen</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1469-8986.2011.01329.x</idno>
+		<ptr target="http://dx.doi.org/10.1111/j.1469-8986.2011.01329.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychophysiology</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="574" to="582" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Craig, A., Tran, Y., Wijesuriya, N., &amp; Nguyen, H. (2012). Regional brain wave activity changes associated with fatigue. Psychophysiology, 49, 574-582. http://dx.doi.org/ 10.1111/j.1469-8986.2011.01329.x.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<monogr>
+		<author>
+			<persName><forename type="first">I</forename><surname>Daly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hallowell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kirke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Malik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Roesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Nasuto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1109/EMBC.2014.6944647</idno>
+		<ptr target="http://dx.doi.org/10.1109/EMBC.2014.6944647" />
+		<title level="m">Changes in music tempo entrain movement related brain activity. Conference proceedings: Annual international conference of the IEEE engineering in medicine and biology society</title>
+		<imprint>
+			<date type="published" when="2014">2014a</date>
+			<biblScope unit="volume">2014</biblScope>
+			<biblScope unit="page" from="4595" to="4598" />
+		</imprint>
+	</monogr>
+	<note>Conference proceedings: Annual international conference of the IEEE engineering in medicine and biology society</note>
+	<note type="raw_reference">Daly, I., Hallowell, J., Hwang, F., Kirke, A., Malik, A., Roesch, E., ... Nasuto, S. J. (2014a). Changes in music tempo entrain movement related brain activity. Conference pro- ceedings: Annual international conference of the IEEE engineering in medicine and biology society. Vol. 2014. Conference proceedings: Annual international conference of the IEEE engineering in medicine and biology society (pp. 4595-4598). . http://dx.doi.org/10. 1109/EMBC.2014.6944647.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Neural correlates of emotional responses to music: An EEG study</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Daly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Malik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Roesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Weaver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kirke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Nasuto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neulet.2014.05.003</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.neulet.2014.05.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience Letters</title>
+		<imprint>
+			<biblScope unit="volume">573</biblScope>
+			<biblScope unit="page" from="52" to="57" />
+			<date type="published" when="2014">2014b</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Daly, I., Malik, A., Hwang, F., Roesch, E., Weaver, J., Kirke, A., ... Nasuto, S. J. (2014b). Neural correlates of emotional responses to music: An EEG study. Neuroscience Letters, 573, 52-57. http://dx.doi.org/10.1016/j.neulet.2014.05.003.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Changes in cortical activity measured with EEG during a high-intensity cycling exercise</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Enders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cortese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Maurer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baltich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Protzner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Nigg</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jn.00497.2015</idno>
+		<ptr target="http://dx.doi.org/10.1152/jn.00497.2015" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Neurophysiology</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="379" to="388" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Enders, H., Cortese, F., Maurer, C., Baltich, J., Protzner, A. B., &amp; Nigg, B. M. (2016). Changes in cortical activity measured with EEG during a high-intensity cycling ex- ercise. Journal of Neurophysiology, 115, 379-388. http://dx.doi.org/10.1152/jn. 00497.2015.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Measuring human locomotor control using EMG and EEG: Current knowledge, limitations and future considerations</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Enders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Nigg</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17461391.2015.1068869</idno>
+		<ptr target="http://dx.doi.org/10.1080/17461391.2015.1068869" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Sport Science</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="416" to="426" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Enders, H., &amp; Nigg, B. M. (2015). Measuring human locomotor control using EMG and EEG: Current knowledge, limitations and future considerations. European Journal of Sport Science, 16, 416-426. http://dx.doi.org/10.1080/17461391.2015.1068869.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">G*Power 3: A flexible statistical power analysis program for the social, behavioral, and biomedical sciences</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Faul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Erdfelder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Buchner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behavior Research Methods</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="175" to="191" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Faul, F., Erdfelder, E., Lang, A., &amp; Buchner, A. (2007). G*Power 3: A flexible statistical power analysis program for the social, behavioral, and biomedical sciences. Behavior Research Methods, 39, 175-191.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Independent component analysis of eventrelated potentials</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Groppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Makeig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kutas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Science Online</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1" to="44" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Groppe, D., Makeig, S., &amp; Kutas, M. (2008). Independent component analysis of event- related potentials. Cognitive Science Online, 6, 1-44.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">How do gym members engage with music during exercise?</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hallett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lamont</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/2159676X.2014.949835</idno>
+		<ptr target="http://dx.doi.org/10.1080/2159676X.2014.949835" />
+	</analytic>
+	<monogr>
+		<title level="j">Qualitative Research in Sport, Exercise and Health</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="411" to="427" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hallett, R., &amp; Lamont, A. (2015). How do gym members engage with music during ex- ercise? Qualitative Research in Sport, Exercise and Health, 7, 411-427. http://dx.doi. org/10.1080/2159676X.2014.949835.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Not what, but how one feels: The measurement of affect during exercise</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Hardy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Rejeski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sport &amp; Exercise Psychology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="304" to="317" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hardy, C. J., &amp; Rejeski, W. J. (1989). Not what, but how one feels: The measurement of affect during exercise. Journal of Sport &amp; Exercise Psychology, 11, 304-317.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The efferent control of afferent signals entering the central nervous system</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hernández-Peón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Brust-Carmona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peñaloza-Rojas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bach-Y-Rita</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of the New York Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="866" to="882" />
+			<date type="published" when="1961">1961</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hernández-Peón, R., Brust-Carmona, H., Peñaloza-Rojas, J., &amp; Bach-Y-Rita, G. (1961). The efferent control of afferent signals entering the central nervous system. Annals of the New York Academy of Sciences, 89, 866-882.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Moderating influence of dominant attentional style and exercise intensity on responses to asynchronous music</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Hutchinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Karageorghis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sport &amp; Exercise Psychology</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="625" to="643" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hutchinson, J. C., &amp; Karageorghis, C. I. (2013). Moderating influence of dominant at- tentional style and exercise intensity on responses to asynchronous music. Journal of Sport &amp; Exercise Psychology, 35, 625-643.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Attention focus during physical effort: The mediating role of task intensity</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Hutchinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tenenbaum</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2006.03.006</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.psychsport.2006.03.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology of Sport and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="233" to="245" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hutchinson, J. C., &amp; Tenenbaum, G. (2007). Attention focus during physical effort: The mediating role of task intensity. Psychology of Sport and Exercise, 8, 233-245. http:// dx.doi.org/10.1016/j.psychsport.2006.03.006.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Can high-intensity exercise be more pleasant? Attentional dissociation using music and video</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Karageorghis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ekkekakis</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/jsep.2014-0251</idno>
+		<ptr target="http://dx.doi.org/10.1123/jsep.2014-0251" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sport &amp; Exercise Psychology</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="528" to="541" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jones, L., Karageorghis, C. I., &amp; Ekkekakis, P. (2014). Can high-intensity exercise be more pleasant? Attentional dissociation using music and video. Journal of Sport &amp; Exercise Psychology, 36, 528-541. http://dx.doi.org/10.1123/jsep.2014-0251.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The scientific application of music in sport and exercise: Towards a new theoretical model</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Karageorghis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Sport and exercise psychology</title>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Lane</surname></persName>
+		</editor>
+		<meeting><address><addrLine>London, UK</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="page" from="277" to="322" />
+		</imprint>
+	</monogr>
+	<note>nd ed.</note>
+	<note type="raw_reference">Karageorghis, C. I. (2016). The scientific application of music in sport and exercise: Towards a new theoretical model. In A. Lane (Ed.). Sport and exercise psychology (pp. 277-322). (2nd ed.). London, UK: Routledge.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Music in the exercise and sport domain: Conceptual approaches and underlying mechanisms</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Karageorghis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ekkekakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Bird</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bigliassi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Routledge companion to embodied music interaction</title>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Lesaffre</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P.-J</forename><surname>Maes</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Leman</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="284" to="293" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karageorghis, C., Ekkekakis, P., Bird, J. M., &amp; Bigliassi, M. (2017). Music in the exercise and sport domain: Conceptual approaches and underlying mechanisms. In M. Lesaffre, P.-J. Maes, &amp; M. Leman (Eds.). Routledge companion to embodied music in- teraction (pp. 284-293). New York, NY: Routledge.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Psychological effects of music tempi during exercise</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Karageorghis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Stuart</surname></persName>
+		</author>
+		<idno type="DOI">10.1055/s-2007-989266</idno>
+		<ptr target="http://dx.doi.org/10.1055/s-2007-989266" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="613" to="619" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karageorghis, C., Jones, L., &amp; Stuart, D. P. (2008). Psychological effects of music tempi during exercise. International Journal of Sports Medicine, 29, 613-619. http://dx.doi. org/10.1055/s-2007-989266.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Psychophysical and ergogenic effects of synchronous music during treadmill walking</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Karageorghis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mouzourides</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Priest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sasso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Morrish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Walley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sport &amp; Exercise Psychology</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="18" to="36" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karageorghis, C., Mouzourides, D., Priest, D., Sasso, T., Morrish, D., &amp; Walley, C. (2009). Psychophysical and ergogenic effects of synchronous music during treadmill walking. Journal of Sport &amp; Exercise Psychology, 31, 18-36.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Music in the exercise domain: A review and synthesis (Part I)</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Karageorghis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D.-L</forename><surname>Priest</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/1750984X.2011.631026</idno>
+		<ptr target="http://dx.doi.org/10.1080/1750984X.2011.631026" />
+	</analytic>
+	<monogr>
+		<title level="j">International Review of Sport and Exercise Psychology</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="44" to="66" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karageorghis, C. I., &amp; Priest, D.-L. (2012a). Music in the exercise domain: A review and synthesis (Part I). International Review of Sport and Exercise Psychology, 5, 44-66. http://dx.doi.org/10.1080/1750984X.2011.631026.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Music in the exercise domain: A review and synthesis (Part II)</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Karageorghis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D.-L</forename><surname>Priest</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/1750984X.2011.631027</idno>
+		<ptr target="http://dx.doi.org/10.1080/1750984X.2011.631027" />
+	</analytic>
+	<monogr>
+		<title level="j">International Review of Sport and Exercise Psychology</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="67" to="84" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karageorghis, C. I., &amp; Priest, D.-L. (2012b). Music in the exercise domain: A review and synthesis (Part II). International Review of Sport and Exercise Psychology, 5, 67-84. http://dx.doi.org/10.1080/1750984X.2011.631027.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Isolating gait-related movement artifacts in electroencephalography during human walking</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Kline</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Snyder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Ferris</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1741-2560/12/4/046022</idno>
+		<ptr target="http://dx.doi.org/10.1088/1741-2560/12/4/046022" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Neural Engineering</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">46022</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kline, J. E., Huang, H. J., Snyder, K. L., &amp; Ferris, D. P. (2015). Isolating gait-related movement artifacts in electroencephalography during human walking. Journal of Neural Engineering, 12, 46022. http://dx.doi.org/10.1088/1741-2560/12/4/046022.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Towards a neural basis of music-evoked emotions</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Koelsch</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tics.2010.01.002</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.tics.2010.01.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cognitive Sciences</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="131" to="137" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koelsch, S. (2010). Towards a neural basis of music-evoked emotions. Trends in Cognitive Sciences, 14, 131-137. http://dx.doi.org/10.1016/j.tics.2010.01.002.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A lasting post-stimulus activation on dorsolateral prefrontal cortex is produced when processing valence and arousal in visual affective stimuli</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>León-Carrión</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Martín-Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Damas-López</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pourrezai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Izzetoglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Barroso Y Martin</surname></persName>
+		</author>
+		<idno type="DOI">10.1525/mp.2004.22.1.41</idno>
+		<ptr target="http://dx.doi.org/10.1525/mp.2004.22.1.41" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience Letters</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>North</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Hargreaves</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Hargreaves</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">422</biblScope>
+			<biblScope unit="page" from="41" to="77" />
+			<date type="published" when="2004">2007. 2004</date>
+		</imprint>
+	</monogr>
+	<note>Uses of music in everyday life Music Perception</note>
+	<note type="raw_reference">León-Carrión, J., Martín-Rodríguez, J., Damas-López, J., Pourrezai, K., Izzetoglu, K., Barroso y Martin, J., et al. (2007). A lasting post-stimulus activation on dorsolateral prefrontal cortex is produced when processing valence and arousal in visual affective stimuli. Neuroscience Letters, 422, 147-152. http://dx.doi.org/10.1016/j.neulet.2007. 04.087. North, A. C., Hargreaves, D. J., &amp; Hargreaves, J. J. (2004). Uses of music in everyday life. Music Perception, 22, 41-77. http://dx.doi.org/10.1525/mp.2004.22.1.41.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">A qualitative investigation into the characteristics and effects of music accompanying exercise</title>
+		<author>
+			<persName><forename type="first">D.-L</forename><surname>Priest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Karageorghis</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1356336X08095670</idno>
+		<ptr target="http://dx.doi.org/10.1177/1356336X08095670" />
+	</analytic>
+	<monogr>
+		<title level="j">European Physical Education Review</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="347" to="366" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Priest, D.-L., &amp; Karageorghis, C. I. (2008). A qualitative investigation into the char- acteristics and effects of music accompanying exercise. European Physical Education Review, 14, 347-366. http://dx.doi.org/10.1177/1356336X08095670.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Perceived exertion: An active or passive process</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Rejeski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sport Psychology</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="371" to="378" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rejeski, W. (1985). Perceived exertion: An active or passive process? Journal of Sport Psychology, 7, 371-378.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A circumplex model of affect</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Russell</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/h0077714</idno>
+		<ptr target="http://dx.doi.org/10.1037/h0077714" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="1161" to="1178" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Russell, J. (1980). A circumplex model of affect. Journal of Personality and Social Psychology, 39, 1161-1178. http://dx.doi.org/10.1037/h0077714.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Affect grid: A single-item scale of pleasure and arousal</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Mendelsohn</surname></persName>
+		</author>
+		<idno type="DOI">10.1037//0022-3514.57.3.493</idno>
+		<ptr target="http://dx.doi.org/10.1037//0022-3514.57.3.493" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="493" to="502" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Russell, J. A., Weiss, A., &amp; Mendelsohn, G. A. (1989). Affect grid: A single-item scale of pleasure and arousal. Journal of Personality and Social Psychology, 57, 493-502. http://dx.doi.org/10.1037//0022-3514.57.3.493.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Effects of inhaled rosemary oil on subjective feelings and activities of the nervous system</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sayorwan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ruangrungsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Piriyapunyporn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hongratanaworakit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kotchabhakdi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Siripornpanich</surname></persName>
+		</author>
+		<idno type="DOI">10.3797/scipharm.1209-05</idno>
+		<ptr target="http://dx.doi.org/10.3797/scipharm.1209-05" />
+	</analytic>
+	<monogr>
+		<title level="j">Scientia Pharmaceutica</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="531" to="542" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sayorwan, W., Ruangrungsi, N., Piriyapunyporn, T., Hongratanaworakit, T., Kotchabhakdi, N., &amp; Siripornpanich, V. (2013). Effects of inhaled rosemary oil on subjective feelings and activities of the nervous system. Scientia Pharmaceutica, 81, 531-542. http://dx.doi.org/10.3797/scipharm.1209-05.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Neural mechanisms of transient neocortical beta rhythms: Converging evidence from humans, computational modeling, monkeys, and mice</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sherman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Law</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Haegens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Thorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Hämäläinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1604135113</idno>
+		<ptr target="http://dx.doi.org/10.1073/pnas.1604135113" />
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="page" from="4885" to="E4894" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sherman, M. A., Lee, S., Law, R., Haegens, S., Thorn, C. A., Hämäläinen, M. S., ... Jones, S. R. (2016). Neural mechanisms of transient neocortical beta rhythms: Converging evidence from humans, computational modeling, monkeys, and mice. Proceedings of the National Academy of Sciences, E4885-E4894. http://dx.doi.org/10.1073/pnas. 1604135113.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Standards for surface electromyography: The European project Surface EMG for non-invasive assessment of muscles (SENIAM)</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Stegeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hermens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of 3rd general SENIAM workshop</title>
+		<meeting>3rd general SENIAM workshop</meeting>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="page" from="108" to="112" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stegeman, D., &amp; Hermens, H. (1999). Standards for surface electromyography: The European project Surface EMG for non-invasive assessment of muscles (SENIAM). Proceedings of 3rd general SENIAM workshop (pp. 108-112). .</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Music enhances performance and perceived enjoyment of sprint interval exercise</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Stork</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kwan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Gibala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Martin Ginis</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0000000000000494</idno>
+		<ptr target="http://dx.doi.org/10.1249/MSS.0000000000000494" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine &amp; Science in Sports &amp; Exercise</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="1052" to="1060" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stork, M. J., Kwan, M., Gibala, M. J., &amp; Martin Ginis, K. A. (2015). Music enhances performance and perceived enjoyment of sprint interval exercise. Medicine &amp; Science in Sports &amp; Exercise, 47, 1052-1060. http://dx.doi.org/10.1249/MSS. 0000000000000494.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Metamotivational dominance: A multimethod validation of reversal theory constructs</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Svebak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Murgatroyd</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0022-3514.48.1.107</idno>
+		<ptr target="http://dx.doi.org/10.1037/0022-3514.48.1.107" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="107" to="116" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Svebak, S., &amp; Murgatroyd, S. (1985). Metamotivational dominance: A multimethod va- lidation of reversal theory constructs. Journal of Personality and Social Psychology, 48, 107-116. http://dx.doi.org/10.1037/0022-3514.48.1.107.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Brainstorm: A user-friendly application for MEG/EEG analysis</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tadel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Baillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Mosher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pantazis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Leahy</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2011/879716</idno>
+		<ptr target="http://dx.doi.org/10.1155/2011/879716" />
+	</analytic>
+	<monogr>
+		<title level="j">Computational Intelligence and Neuroscience</title>
+		<imprint>
+			<biblScope unit="page">13</biblScope>
+			<date type="published" when="2011">2011. 2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tadel, F., Baillet, S., Mosher, J. C., Pantazis, D., &amp; Leahy, R. M. (2011). Brainstorm: A user-friendly application for MEG/EEG analysis. Computational Intelligence and Neuroscience, 2011, 13. http://dx.doi.org/10.1155/2011/879716.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Elite middle and long distance runners associative/dissociative coping</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Tammen</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10413209608406304</idno>
+		<ptr target="http://dx.doi.org/10.1080/10413209608406304" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Sport Psychology</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tammen, V. (1996). Elite middle and long distance runners associative/dissociative coping. Journal of Applied Sport Psychology, 8, 1-8. http://dx.doi.org/10.1080/ 10413209608406304.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Effect of mental fatigue on the central nervous system: An electroencephalography study</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shigihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ishii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Funakura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kanai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Watanabe</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1744-9081-8-48</idno>
+		<ptr target="http://dx.doi.org/10.1186/1744-9081-8-48" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral and Brain Functions</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">48</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tanaka, M., Shigihara, Y., Ishii, A., Funakura, M., Kanai, E., &amp; Watanabe, Y. (2012). Effect of mental fatigue on the central nervous system: An electroencephalography study. Behavioral and Brain Functions, 8, e48. http://dx.doi.org/10.1186/1744-9081-8-48.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Attention allocation under varied workload and effort perception in rowers</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tenenbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Connolly</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2007.09.002</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.psychsport.2007.09.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology of Sport and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="704" to="717" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tenenbaum, G., &amp; Connolly, C. T. (2008). Attention allocation under varied workload and effort perception in rowers. Psychology of Sport and Exercise, 9, 704-717. http://dx. doi.org/10.1016/j.psychsport.2007.09.002.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Teleoanticipation in all-out shortduration cycling</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Wittekind</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Micklewright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Beneke</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bjsm.2009.061580</idno>
+		<ptr target="http://dx.doi.org/10.1136/bjsm.2009.061580" />
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="114" to="119" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wittekind, A. L., Micklewright, D., &amp; Beneke, R. (2011). Teleoanticipation in all-out short- duration cycling. British Journal of Sports Medicine, 45, 114-119. http://dx.doi.org/ 10.1136/bjsm.2009.061580.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Altered carbohydrate oxidation during exercise in overreached endurance athletes is applicable to training monitoring with continuous glucose monitors</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Alexandra</forename><forename type="middle">M</forename><surname>Coates</surname></persName>
+							<idno type="ORCID">0000-0003-1739-3085</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Human Health and Nutritional Sciences</orgName>
+								<orgName type="institution" key="instit1">The Human Performance and Health Research Laboratory</orgName>
+								<orgName type="institution" key="instit2">University of Guelph</orgName>
+								<address>
+									<settlement>Guelph</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Kyle</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Thompson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Human Health and Nutritional Sciences</orgName>
+								<orgName type="institution" key="instit1">The Human Performance and Health Research Laboratory</orgName>
+								<orgName type="institution" key="instit2">University of Guelph</orgName>
+								<address>
+									<settlement>Guelph</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Monica</forename><forename type="middle">M</forename><surname>Grigore</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Human Health and Nutritional Sciences</orgName>
+								<orgName type="institution" key="instit1">The Human Performance and Health Research Laboratory</orgName>
+								<orgName type="institution" key="instit2">University of Guelph</orgName>
+								<address>
+									<settlement>Guelph</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ryleigh</forename><forename type="middle">E</forename><surname>Baker</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Human Health and Nutritional Sciences</orgName>
+								<orgName type="institution" key="instit1">The Human Performance and Health Research Laboratory</orgName>
+								<orgName type="institution" key="instit2">University of Guelph</orgName>
+								<address>
+									<settlement>Guelph</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><forename type="middle">Christopher</forename><surname>Pignanelli</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Human Health and Nutritional Sciences</orgName>
+								<orgName type="institution" key="instit1">The Human Performance and Health Research Laboratory</orgName>
+								<orgName type="institution" key="instit2">University of Guelph</orgName>
+								<address>
+									<settlement>Guelph</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alexa</forename><forename type="middle">A</forename><surname>Robertson</surname></persName>
+							<idno type="ORCID">0009-0002-5977-7036</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Human Health and Nutritional Sciences</orgName>
+								<orgName type="institution" key="instit1">The Human Performance and Health Research Laboratory</orgName>
+								<orgName type="institution" key="instit2">University of Guelph</orgName>
+								<address>
+									<settlement>Guelph</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sara</forename><forename type="middle">M</forename><surname>Frangos</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Human Health and Nutritional Sciences</orgName>
+								<orgName type="laboratory">Mitochondrial Metabolism Laboratory</orgName>
+								<orgName type="institution">University of Guelph</orgName>
+								<address>
+									<settlement>Guelph</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christian</forename><forename type="middle">P</forename><surname>Cheung</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Human Health and Nutritional Sciences</orgName>
+								<orgName type="institution" key="instit1">The Human Performance and Health Research Laboratory</orgName>
+								<orgName type="institution" key="instit2">University of Guelph</orgName>
+								<address>
+									<settlement>Guelph</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Jamie</forename><forename type="middle">F</forename><surname>Burr</surname></persName>
+							<email>burrj@uoguelph.ca</email>
+							<idno type="ORCID">0000-0002-5449-3352</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Human Health and Nutritional Sciences</orgName>
+								<orgName type="institution" key="instit1">The Human Performance and Health Research Laboratory</orgName>
+								<orgName type="institution" key="instit2">University of Guelph</orgName>
+								<address>
+									<settlement>Guelph</settlement>
+									<region>Ontario</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Animal Science and Nutrition</orgName>
+								<orgName type="institution">University of Guelph</orgName>
+								<address>
+									<addrLine>50 Stone Road E.</addrLine>
+									<postCode>N1G 2W1</postCode>
+									<settlement>Guelph</settlement>
+									<region>ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Natural Sciences and Engineering Research</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Altered carbohydrate oxidation during exercise in overreached endurance athletes is applicable to training monitoring with continuous glucose monitors</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B6B60C4DD15A625279D929DD759F121B</idno>
+					<idno type="DOI">10.1111/sms.14551</idno>
+					<note type="submission">Received: 25 August 2023 | Revised: 4 December 2023 | Accepted: 8 December 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:09+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>LSCT, Lamberts submaximal cycling test</term>
+					<term>OL, overload training</term>
+					<term>POST, post-overload training</term>
+					<term>PRE, pre-overload training</term>
+					<term>REC, post-recovery training. 𝜶</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Purpose:</head><p>The purpose of the study was to investigate whether carbohydrate utilization is altered during exercise in overreached endurance athletes and examine the utility of continuous glucose monitors (CGM) to detect overreaching status.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>: Eleven endurance athletes (M:8, F:3) completed a 5-week training block consisting of 1 week of reduced training (PRE), 3 weeks of high-intensity overload training (POST), and 1 week of recovery training (REC). Participants completed a Lamberts and Lambert Submaximal Cycling Test (LSCT) and 5 km time-trial at PRE, POST, and REC time points, 15 min following the ingestion of a 50 g glucose beverage with glucose recorded each minute via CGM.</p><p>Results: Performance in the 5 km time-trial was reduced at POST (∆-7 ± 10 W, p = 0.04, η p 2 = 0.35) and improved at REC (∆12 ± 9 W from PRE, p = 0.01, η p 2 = 0.66), with reductions in peak lactate (∆-3.0 ± 2.0 mmol/L, p = 0.001, η p 2 = 0.71), peak HR (∆-6 ± 3 bpm, p &lt; 0.001, η p 2 = 0.86), and Hooper-Mackinnon well-being scores (∆10 ± 5 a.u., p &lt; 0.001, η p 2 = 0.79), indicating athletes were functionally overreached. The respiratory exchange ratio was suppressed at POST relative to REC during the 60% (POST: 0.80 ± 0.05, REC: 0.87 ± 0.05, p &lt; 0.001, η p 2 = 0.74), and 80% (POST: 0.93 ± 0.05, REC: 1.00 ± 0.05, p = 0.003, η p 2 = 0.68) of HR-matched submaximal stages of the LSCT. CGM glucose was reduced during HR-matched submaximal exercise in the LSCT at POST (p = 0.047, η p 2 = 0.36), but not the 5 km time-trial (p = 0.07, η p 2 = 0.28) in overreached athletes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>: This preliminary investigation demonstrates a reduction in CGMderived glucose and carbohydrate oxidation during submaximal exercise in overreached athletes. The use of CGM during submaximal exercise following standardized nutrition could be employed as a monitoring tool to detect overreaching in endurance athletes. K E Y W O R D S continuous glucose monitoring, cycling, low energy availability, overtraining, resting metabolic rate Stress (1-7 a.u.) 4 (2-4) 4 (3-4) 4 (3-5) 4 (3-5) 3 (3-4) Sleep (1-7 a.u.) 3 (3-4) 4 (3-5) 3 (3-5) 4 (3-5) 4 (3-4) Muscle soreness (1-7 a.u.) 2 (1-3) 𝛾𝛿 4 (3-5) 𝜺 4 (4-5) 𝜶𝜺 5 (5-5) 𝜶𝜺 2 (1-3) 𝛽𝛾𝛿</p><p>Training enjoyment (1-7 a.u.) 3 (2-4) 3 (3-4) 3 (3-4) 5 (3-5) 3 (3-4)</p><p>Note: Stage intensities were 60%, 80%, and 90% of maximal heart rate. TT, time-trial. Total well-being scale: Hooper-Mackinnon well-being scale. Glucose data is from continuous glucose monitors. Data as Mean ± SD or median (1-3 quartile). Significance adjusted with Bonferroni corrections.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUCTION</head><p>The purpose of exercise training is to provide an overload stimulus that, upon recovery, allows for physiological adaptation and eventual performance enhancement. This overload training typically results in an acute state of fatigue that should resolve quickly in the following hours or days. <ref type="bibr" target="#b0">1</ref> However, with insufficient recovery, an athlete may experience functional or non-functional overreaching, which are distinguishable from acute fatigue by a prolonged decrement in performance that takes several days to weeks (functional overreaching), or weeks to months (non-functional overreaching), to resolve. <ref type="bibr" target="#b0">1</ref> Functional overreaching is a common occurrence in endurance sports, as the underperformance following an overload training block is often considered a necessary component of training to induce performance enhancement. <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref> However, functional overreaching has been demonstrated to result in an inferior supercompensation following recovery compared with acute fatigue <ref type="bibr" target="#b2">3</ref> and is accompanied by additional maladaptive physiological symptoms including: lower exercising cardiac output, <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> reductions in exercising catecholamines, <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6</ref> increases in resting muscle sympathetic nerve activity, <ref type="bibr" target="#b6">7</ref> a blunting of physiological training adaptations, <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> and an increased incidence of illness. <ref type="bibr" target="#b8">9</ref> It is, therefore, suggested that athletes and coaches avoid functional and non-functional overreaching in order to prevent unnecessary reductions in training capacity, health, and performance.</p><p>While overreaching and the more severe overtraining syndrome <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b9">10</ref> have been studied for decades, <ref type="bibr" target="#b0">1</ref> the underlying mechanisms that drive underperformance from overtraining remain incompletely understood. Attempts to understand the direct effects of overtraining have further been confounded by studies that purported to assess overreaching or overtraining syndrome but were influenced by participants entering a state of low energy availability <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12</ref> during training. From a metabolic perspective, it has been demonstrated repeatedly that overreaching is accompanied by a reduction in circulating blood lactate at intensities above ~70% of maximal oxygen consumption (VȮ 2 max) <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b12">13</ref> ; however, substrate utilization during exercise in overreached athletes has rarely been assessed. Recently, recreationally active individuals who underwent a 3-week high-intensity interval training intervention that resulted in a performance plateau were shown to have reductions in exercising capillary glucose concentrations during high-intensity cycling that resolved following recovery. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15</ref> This was accompanied by a reduction in intrinsic respiration of isolated mitochondria from skeletal muscle and elevations in fat utilization during submaximal exercise, but with no change in muscle glycogen stores, fasted circulating free fatty acids, or alterations in resting metabolic rate (RMR) <ref type="bibr" target="#b14">15</ref> that would indicate insufficient energy availability as the primary mechanism. <ref type="bibr" target="#b15">16</ref> Notably, this research was not performed in trained athletes, and it is difficult to assess overreaching status in untrained populations due to the greater magnitude of positive physiological training adaptations that occur compared to those who are already well-trained. <ref type="bibr" target="#b16">17</ref> However, if circulating glucose and/or glucose utilization during exercise is indeed altered with overreaching in endurance-trained athletes, this may provide an additional avenue for athletic monitoring, particularly with continuous glucose monitors (CGM) recently repurposed as biometric wearables for non-diabetic athletic use. <ref type="bibr" target="#b17">18</ref> Numerous models have been suggested for monitoring and diagnosing overreaching status amongst endurance athletes. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20</ref> While sustained underperformance is required to diagnose a verifiable state of overreaching, <ref type="bibr" target="#b0">1</ref> performance is difficult to assess due to normal day-to-day variability and can be confounded by the initial training status of the individual. <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b20">21</ref> As such, other markers such as reductions in exercising HR and lactate and elevated RPE at a submaximal exercise load (typically ≥70% of VO 2 max) <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b18">19</ref> can be used to accompany a suspected reduction in performance. Mood states and subjective reports of fatigue are consistently shown to be worsened with overreaching; however, these likely cannot distinguish between acute fatigue and overreaching as stand-alone measures. <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20</ref> Lastly, the Lamberts and Lambert Submaximal Cycle Test (LSCT) was designed to detect fatigue and predict performance in cyclists without the requirement of maximal exercise testing. <ref type="bibr" target="#b21">22</ref> Briefly, the LSCT requires athletes to cycle for 6 min at 60% of maximal HR (HRmax), 6 min at 80% HRmax, and 3 min at 90% of HRmax. With overreaching, a greater effort must be exerted to achieve the prescribed HR, thus an elevation in cycling power output and RPE in the 80% and 90% of HRmax stages can indicate overreaching. This test has been shown to be useful in detecting overreaching status in female cyclists. <ref type="bibr" target="#b19">20</ref> Unlike low energy availability which is detectable with resting measures, <ref type="bibr" target="#b22">23</ref> overreaching typically requires submaximal or maximal exercise prior to detection. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b16">17</ref> The addition of a wearable device that could provide further feedback to detect overreaching during regular (submaximal) training would be beneficial for athletes and coaches.</p><p>The purpose of this investigation was to examine whether carbohydrate utilization is indeed altered during submaximal or maximal exercise in overreached endurance athletes, with the secondary purpose of testing the utility of CGMs and other training monitoring techniques for detecting overreaching status.</p><p>We hypothesized that overreached endurance athletes would have a reduced respiratory exchange ratio (RER) during submaximal exercise, indicating reduced carbohydrate utilization, and a CGM detectable decrease in circulating glucose during exercise. It was expected that this response would return to baseline after a week of recovery training.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Experimental design</head><p>Fifteen endurance athletes between the ages of 18 and 50 year who self-reported more than 7 h/week of endurance training were recruited for this study. The sample size was selected based on a previous investigation demonstrating reduced exercising capillary glucose following overload training in 11 untrained subjects. <ref type="bibr" target="#b13">14</ref> While CGM has not been previously used to detect overreaching, a power calculation (G*Power, v3.1) for a repeated-measures, withinfactors ANOVA test, with one group and three measures, revealed a total sample size of four participants would be required to detect the effect size of ~1.19 from changes to exercising capillary glucose demonstrated by Flockhart et al., <ref type="bibr" target="#b13">14</ref> with 95% power at an alpha level of 0.05. Inclusion criteria stipulated athletes to have no known illnesses, diseases, or active use of medication, which was verified with the use of the PAR-Q + screening questionnaire. <ref type="bibr" target="#b23">24</ref>  In addition, participants performed two sprint-interval sessions and one exercise-test session (explained below) each week in the Human Performance Laboratory, with the goal of achieving ~150% of typical training duration through mostly high-intensity exercise. We have previously found this to be effective in overreaching trained endurance athletes. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b16">17</ref>  Continuous glucose monitor sensors (CGM; Supersapiens, Abbott Libre Sense) were inserted into the subcutaneous fat pad located over the triceps brachii as per manufacturer instructions. CGM sensors were activated 1 day prior to testing and were replaced and reinitiated at Weeks 3 and 5 owing to the 14-day lifespan of sensors. Minute-by-minute glucose was recorded in the Supersapiens software application for the duration of the study. Participants were instructed to increase their energy intake in Weeks 2-4 to avoid the occurrence of low energy availability, but energy intake was not tracked. Menstrual cycle or the phase of oral contraceptive was not controlled in this study due to the nature of the 5-week training block. This study is the first in a series of studies examining the metabolic, cardiovascular, and neuromuscular consequences of overreaching, and only the relevant methods are described herein. This study was approved by the institutional research ethics board, and all participants provided written informed consent. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Overreaching status</head><p>Overreaching was defined a priori as the presentation of four of the five following criteria from PRE to POST: (1) a reduction in average power output in the 5 km time-trial, (2) a reduction in HRmax in the 5 km time-trial, <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b18">19</ref> (3) a reduction in peak lactate upon completion of the 5 km time-trial, <ref type="bibr" target="#b12">13</ref> (4) a worsening of well-being scores using a Hooper-Mackinnon scale, <ref type="bibr" target="#b24">25</ref> and/or (5) a positive overreaching status in the LSCT, defined as an increase in power output at 80% of HRmax and increases in ratings of perceived exertion (RPE) at 80 and 90% of HRmax. <ref type="bibr" target="#b19">20</ref> The experimental design is illustrated in Figure <ref type="figure" target="#fig_2">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| Maximal incremental exercise test</head><p>During the initial visit, participants completed an incremental cycling test to exhaustion on an electromagnetically braked cycle ergometer (Velotron, Quarq). Expired gases were analyzed throughout the test using breath-bybreath open-circuit indirect calorimetry (Cosmed Quark CPET) to determine peak oxygen consumption (VȮ 2 peak) and HRmax. HR data were collected via chest strap and transmitted to the metabolic cart via ANT+ telemetry (Garmin). The incremental cycling protocol began at 100 W for female or 160 W for male participants, and power was increased by 20 W for females or 30 W for males every minute until the participant could not sustain a cadence over 70 rpm or stopped due to volitional exhaustion. VȮ 2 peak was determined as the highest 30 s rolling average in the test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| Exercise-test visits</head><p>Weekly exercise-test visits were performed in the morning and participants attended the laboratory after fasting for ≥7 h and avoiding caffeine, stimulants, recreational drugs, and alcohol for 24 h. Upon arrival, participants completed a Hooper-Mackinnon well-being scale, <ref type="bibr" target="#b24">25</ref> which inquired about subjective ratings of fatigue, stress, sleep, muscle soreness, training enjoyment, irritability, and overall health. The scale is ranked from 1 to 7 with 1 being "very-very low" or "good," and 7 being "very-very high" or "bad." Participants then drank 50 g of glucose (Trutol, Thermo Fisher) and waited 15 min before cycling to allow for peak blood glucose concentrations prior to exercise. <ref type="bibr" target="#b25">26</ref> During this time, participants were instrumented with a Polar chest strap (Polar) to assess exercising HR, which transmitted via Bluetooth to Racermate software (Racermate). At 15 min post-glucose ingestion, participants began the LSCT, which consisted of 6 min of cycling at 60% of their HRmax achieved in the maximal incremental exercise test, 6 min at 80% of HRmax, and 3 min at 90% of HRmax as previously described. <ref type="bibr" target="#b21">22</ref> Cycling power and HR were recorded continuously, with the first minute of each stage of the LSCT excluded from analysis as per LSCT protocol. <ref type="bibr" target="#b21">22</ref> Ratings of perceived exertion (RPE) on a scale of 6-20 were recorded in the final minute of each stage. Participants were given 10 min of rest following the LSCT prior to a 5 km cycling time-trial on the same Velotron cycle ergometer and Racermate software. Peak HR was recorded at the end of the 5 km time-trial.</p><p>At PRE, POST, and REC time points, additional metabolic, and hematologic data collection occurred. Before glucose ingestion, ~10 mL of blood was taken from a venous sample for analysis of fasted pre-exercise epinephrine, leptin, and hematocrit. Following 50 g glucose ingestion to maintain circulating glucose availability across days, participants were fitted with a Hans-Rudolph facemask for breath-by-breath indirect calorimetry to assess mean ventilation (VĖ), volume of oxygen consumed (VȮ 2 ), volume of carbon dioxide expired CO 2 (VĊO 2 ), and RER during both the LSCT and the 5 km time-trial. The first minute of each stage of the LSCT was excluded from data analysis for the indirect calorimetry. Substrate utilization derived from RER was focused on the 60% and 80% of HRmax stages, as RER cannot be used to assess substrate utilization during non-steady-state exercise or when values are &gt;1.0. <ref type="bibr" target="#b26">27</ref> Fingersticks were performed in the final minute of each stage of the LSCT and immediately following completion of the 5 km time-trial for analysis of blood lactate (Lactate Plus, Nova Biomedical). Minute-by-minute glucose concentrations were recorded via the integrated CGM device software, and end-stage CGM glucose and capillary lactate were recorded simultaneously for direct comparison. For the assessment of minute-by-minute glucose and glucose area under the curve (AUC) during the 5 km time-trial, only the first 7 min (range 7-9 min) were included for analysis, as the minute-by-minute data points did not allow for precise sampling to occur throughout the test. During the 10 min break between the LSCT and the 5 km time-trial, participants were instrumented with an in-dwelling brachial catheter (BD Insyte) to allow for rapid venous sampling in the final 30 s of the time-trial for assessment of maximal exercising plasma epinephrine. The exercise-test visit timeline is depicted in Figure <ref type="figure" target="#fig_4">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">| Resting visits</head><p>Resting visits were performed the day after the exercisetest visits at PRE, POST, and REC and following an overnight fast (≥7 h) with the avoidance of caffeine, stimulants, recreational drugs, and alcohol for 24 h. RMR, body mass, and leptin were chosen to assess whether a participant was in a state of low energy availability. Body mass was assessed with the same digital scale as above. RMR was measured via indirect calorimetry using a Cosmed Hans Rudolph face mask for breath-by-breath analysis of expired gases and assessed while the participant lay supine in a dark and quiet room, with blankets to maintain body temperature. Data were collected for 20 min, and a 5-min period with a VȮ 2 coefficient of variation &lt;10% was extracted in the last 10 min according to best-practice guidelines. <ref type="bibr" target="#b27">28</ref> The mean RMR, VȮ 2 , and RER were recorded from the 30 s rolling averages of the 5 min segment.</p><p>Autonomic state was assessed via measures of heart rate variability (HRV) collected using a Polar chest strap. Normal R-R intervals were transmitted to the Elite HRV application during the final 5 min of the 20 min RMR resting period. Measures of resting HR, and ln RMSSD were selected to provide an accurate assessment of vagal activity in a short time period. <ref type="bibr" target="#b28">29</ref> The Elite HRV application has been demonstrated to provide valid and reliable HRV outputs in endurance athletes. <ref type="bibr" target="#b29">30</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6">| Blood testing and analysis</head><p>Resting and fasted venous blood was collected into a 6-mL serum, silicone-coated, vacutainer (BD Vacutainer) for the assessment of serum leptin, and a 4 mL K 2 EDTA vacutainer (BD Vacutainer) for the assessment of plasma epinephrine. The K 2 EDTA tube was immediately placed on ice, and centrifuged (Heraeus, Labofuge 400R) at 2000 rcf and 4°C for 10 min as quickly as possible, before separating the plasma and storing at -80°C for future analysis. Following 30 min to allow for serum separation, the serum vacutainer was similarly centrifuged as above, and sent for analysis at an accredited laboratory (LifeLabs Medical Laboratory). Hematocrit was measured using whole blood and a microcapillary reader (Damon/IEC Division). At the end of the 5 km time-trial, the in-dwelling catheter was flushed, and a venous sample was taken in a 4-mL K 2 EDTA vacutainer for assessment of peak exercising plasma epinephrine and processed as above. Plasma epinephrine was analyzed in triplicate using a commercially available high-sensitivity enzyme-linked immunosorbent assay (Adrenaline High-Sensitive ELISA, Diagnostika GMBH, LOT#AS114).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7">| Statistical analysis</head><p>Statistical analysis was performed using the Statistical Package for the Social Sciences software (SPSS version 29, IBM) and Prism 10 (GraphPad Software, LLC). Data were assessed for normality using the Shapiro-Wilk test, and non-normally distributed data were analyzed using nonparametric tests (Friedman's two-way analysis of variance by ranks). Exercise-test data were collected over all 5 weeks; however, overreaching status was determined between PRE (Week 1) and POST (Week repeated-measures ANOVA. Outcome measures including blood, metabolic data, and resting measures collected at PRE (Week 1), POST (Week 4), and REC (Week 5) time points were assessed via repeated measures ANOVA. Greenhouse-Geisser corrections were applied if groups lacked sphericity, and Bonferroni adjustments were made for post-hoc analysis when significant interactions were identified. Pearson's correlations were performed to assess the relationships between change score variables calculated as (POST-PRE). Data are presented as mean ± SD unless they were not normally distributed-in which case median and interquartile range (25th and 75th percentile) are presented. Effect sizes are presented as partial eta squared (η p 2 ) for repeated-measures ANOVA, and Kendall W for Friedman's two-way analysis of variance by ranks. An a priori alpha level for significance was selected at p ≤ 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">| RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">| Participant characteristics and training adherence</head><p>Fifteen athletes were recruited for the study; however, one participant dropped out after the first week due to an unrelated injury, and three participants failed to meet the criteria to designate them as unequivocally overreached. As such, results are presented for 11 overreached athletes (n = 3 females). All of the athletes fit the description of tier two "trained/developmental" athletes, with one participant fitting the tier three "highly trained/ national level" criteria. <ref type="bibr" target="#b30">31</ref> Participants were 28 ± 6 years, weighed 74.7 ± 11.3 kg, with a height of 176 ± 8 cm, and a BMI of 24.1 ± 2.5 kg/m 2 . Average VȮ 2 peak was 56.5 ± 7.3 mL kg -1 min -1 with a peak cycling power of 373 ± 76 W. All female athletes were on hormonal contraceptives, with two having progestin intrauterine devices, and one taking a monophasic combination oral contraceptive. Participants were instructed to decrease their training loads to ~50% of their regular training duration for Weeks 1 and 5, however, Week 1 was 78 ± 24% and Week 5 was 61 ± 18% of their baseline training duration.</p><p>Overload training weeks 2-4 were on average 144 ± 32% of baseline training volume (see Table <ref type="table">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">| Overreaching status</head><p>When comparing Week 1 (PRE) with Week 4 (POST) to assess overreaching status, average power output in the 5 km time-trial was suppressed by 7 ± 10 W (p = 0.04, η p 2 = 0.35).</p><p>Peak lactate (∆-3.0 ± 2.0 mmol/L, p = 0.001, η p 2 = 0.71) and peak HR (∆-6 ± 3 bpm, p &lt; 0.001, η p 2 = 0.86) at the end of the 5 km time-trial were reduced at POST. There was no difference between power output at 80% of HRmax in the LSCT (∆3 ± 14 W, p = 0.5, η p 2 = 0.06), or RPE at 80% of HRmax (∆1 (0-2), p = 0.16, W = 0.18), but RPE at 90% was significantly elevated (∆1 (0-2), p = 0.03, W = 0.45). The Hooper-Mackinnon scale demonstrated elevated deleterious well-being scores following the 3-week overload training (∆10 ± 5 a.u., p &lt; 0.001, η p 2 = 0.79; see Table <ref type="table">1</ref>).</p><p>3.3 | Training load monitoring Across all 4 weeks of training and into recovery, the LSCT was insufficient to detect mean training stress, as power at 80% HRmax did not significantly increase from PRE to POST, RPE was unchanged at 80% HRmax and only RPE at 90% HRmax was elevated at POST compared to REC. Peak HR at the end of the 5 km time-trial was lower than baseline by Week 2 and remained suppressed over the following 2 weeks of overload training; however, only peak HR at Week 4 was different from recovery at Week 5. Using the Hooper-Mackinnon well-being scale, subscales of fatigue (p &lt; 0.001, W = 0.65), muscle soreness (p &lt; 0.001, W = 0.79), training enjoyment (p = 0.01, W = 0.44), irritability (p = 0.001, W = 0.40), and overall health (p = 0.003, W = 0.37) were altered across the 5 weeks of training, while stress (p = 0.1, W = 0.17) and sleep (p = 0.7, W = 0.05) were not. As can be seen in Table 1, most of the detrimental well-being scores were the highest at POST and recovered to baseline by REC. With only ~5-7 days of recovery after overload training at REC, participants improved their 5 km time-trial average power from POST by 19 ± 9 W (p = 0.001, η p 2 = 0.82), and from PRE by 12 ± 9 W (p = 0.01, η p 2 = 0.66; Table <ref type="table">1</ref>).</p><p>Peak lactate at the end of the 5 km time-trial also recovered, with no significant differences between PRE and REC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">| Exercising CGM glucose and substrate utilization with overreaching</head><p>Minute-by-minute CGM glucose and glucose AUC during the LSCT and the 5 km time-trial are presented in Figure <ref type="figure">3</ref>. Due to sensor or software malfunctions, reliable CGM glucose data was only available for n = 8 participants prior to and during the LSCT, and n = 9 in the 5 km timetrial. Fifteen minutes following 50 g glucose ingestion, but prior to the LSCT start, CGM glucose was not different across visits (see Table <ref type="table">1</ref>). Exercising CGM glucose was reduced in the LSCT at POST across the submaximal test (p = 0.047, η p 2 = 0.36; Figure <ref type="figure">3A</ref>). There was a trend toward a reduction in CGM glucose at POST compared to REC in the 5 km time-trial (p = 0.07, η p 2 = 0.28; Figure <ref type="figure">3C</ref>), but with considerable individual variability in response. End-of-stage (single time point) lactate and CGM glucose in the LSCT, and CGM glucose in the 5 km time-trial were not significantly different across PRE, POST, or REC weeks (see Table 1), and changes in end-of-stage CGM glucose were unrelated to changes in cycling power output or lactate from PRE to POST. Plasma epinephrine at the end of the 5 km time-trial was non-significantly reduced from PRE to POST (p = 0.09, η p 2 = 0.29); however, only n = 8 samples were available for analysis (see Figure 4). Metabolic variables assessed via indirect calorimetry during the LSCT and 5 km time-trial are presented in Figure 5. In the LSCT, VȮ 2 relative to cycling power (VȮ 2 /W) was unchanged at 60% of HRmax (p = 0.2, T A B L E 1 Training characteristics, exercise-test measures, and markers of overreaching for the 5-week overload training study in recreational endurance athletes. Week 1 (PRE) Week 2 (OL) Week 3 (OL) Week 4 (POST) Week 5 (REC) Training load marker Training duration (h) 6.4 ± 2.2 𝛽𝛾𝛿 11.3 ± 3.0 𝜶𝛾𝜺 13.1 ± 3.9 𝜶𝛽𝜺 11.3 ± 4.7 𝜶𝜺 5.1 ± 1.7 𝛽𝛾𝛿 Training duration (% baseline) 78 ± 24 𝛽𝛾𝛿 131 ± 27 𝜶𝛾𝜺 161 ± 28 𝜶𝛽𝜺 139 ± 49 𝜶𝜺 61 ± 18 𝛽𝛾𝛿 LSCT Average power 60% (W) 114 ± 32 112 ± 28 117 ± 34 115 ± 34 116 ± 35 Average power 80% (W) 219 ± 52 226 ± 53 227 ± 57 223 ± 59 225 ± 59 Average power 90% (W) 271 ± 63 277 ± 69 280 ± 68 287 ± 74 274 ± 70 RPE end of 60% (6-20) 8 (8-9) 8 (7-8) 8 (7-9) 8 (7-9) 8 (7-8) RPE end of 80% (6-20) 13 (12-13) 13 (13-14) 13 (13-15) 13 (13-15) 13 (12-14) RPE end of 90% (6-20) 16 (16-17) 17 (16-17) 17 (16-18) 𝜺 17 (16-18) 16 (16-17) 𝛾 Lactate end of 60% (mmol/L) 1.7 ± 0.7 --1.6 ± 1.0 1.5 ± 0.4 Lactate end of 80% (mmol/L) 3.7 ± 1.8 --3.6 ± 2.0 3.8 ± 1.7 Lactate end of 90% (mmol/L) 7.1 ± 2.1 --7.7 ± 2.1 8.5 ± 2.8 Glucose prior to LSCT (mmol/L) 6.3 ± 0.8 6.4 ± 1.7 6.0 ± 0.9 5.6 ± 0.7 6.1 ± 0.7 Glucose end of 60% (mmol/L) 7.8 ± 1.1 7.4 ± 1.5 7.1 ± 1.0 7.1 ± 0.9 7.3 ± 0.9 Glucose end of 80% (mmol/L) 8.0 ± 1.6 7.6 ± 1.8 7.4 ± 1.3 7.4 ± 1.0 7.8 ± 1.1 Glucose end of 90% (mmol/L) 7.8 ± 1.7 7.3 ± 1.9 7.0 ± 1.4 7.2 ± 1.5 7.7 ± 1.4 5 km time-trial Average Power (W) 296 ± 79 𝜺 286 ± 75 𝜺 280 ± 77 𝜺 289 ± 76 𝜺 308 ± 79 𝜶𝛽𝛾𝛿 Lactate end of TT (mmol/L) 14.3 ± 2.2 𝛿 --11.3 ± 2.9 𝜶𝜺 14.5 ± 1.8 𝛿 Glucose end of TT (mmol/L) 6.3 ± 1.3 5.5 ± 1.1 𝜺 5.6 ± 1.6 𝜺 6.0 ± 1.9 6.9 ± 2.1 𝛽𝛾 Peak HR (bpm) 186 ± 6 𝛽𝛾𝛿 182 ± 7 𝜶 180 ± 8 𝜶 180 ± 7 𝜶𝜺 184 ± 7 𝛿 RPE end (6-20 a.u.) 19 ± 1 19 ± 1 19 ± 1 19 ± 1 19 ± 1 Total well-being scale (7-49 a.u) 21 ± 5 𝛽𝛾𝛿 25 ± 5 𝜶𝛿 27 ± 5 𝜶𝛿𝜺 31 ± 4 𝜶𝛽𝛾𝜺 21 ± 4 𝛾𝛿 Fatigue (1-7 a.u.) 3 (2-4) 𝛿 4 (3-5) 5 (4-5) 5 (5-6) 𝜶𝜺 3 (3-4) 𝛿 η p 2 = 0.14), 80% of HRmax (p = 0.08, η p 2 = 0.23), or 90% of HRmax (p = 0.6, η p 2 = 0.05) across PRE, POST, and REC weeks; however, there was a reduction in VȮ 2 /W in the time-trial at REC compared with PRE and POST (p = 0.02, η p 2 = 0.34; Figure 5, column A). VĊO 2 relative to cycling power (VĊO 2 /W) was also unchanged across PRE, POST, and REC at 60% of HRmax (p = 0.3, </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5">| Resting measures and markers of low energy availability</head><p>There were no changes in resting and fasted HR, HRV, resting epinephrine, CGM glucose, or markers of low energy availability from PRE to POST overload training, or following REC (Table <ref type="table">2</ref>). There was little concern that results were driven by overt low energy availability as only two individuals included in the study had a reduction in all three markers of low energy availability (RMR, body mass, and leptin), and one participant had a reduction in two markers (leptin and body mass). Changes in body mass, RMR, and leptin were unrelated to changes in LSCT and 5 km time-trial power output, or CGM glucose during cycling between PRE-and POST-overload training. The three participants with ≥2 markers of low energy availability had a mean reduction in 5 km time-trial power output of ∆-2 ± 2 W (compared to ∆-7 ± 10 W of full group), HR peak of ∆-5 ± 4 bpm (compared to ∆-6 ± 3 bpm of full group), peak lactate of ∆-5.1 ± 1.1 mmol/L (compared to ∆-3.0 ± 2.0 mmol/L of full group), and well-being score of ∆11 ± 1.7a.u (compared to ∆10 ± 5 a.u. of full group) following overload training. Removal of these participants did not alter the CGM glucose or cardiorespiratorymetabolic findings during exercise. Reductions in RMR were strongly associated with reductions in body mass (r = 0.7, p = 0.02), but not ∆lnRMSSD (r = -0.01, p = 0.98).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| DISCUSSION</head><p>This investigation sought to determine whether carbohydrate utilization is altered during exercise in overreached endurance athletes, and whether CGM sensors may complement other monitoring techniques for detecting overreaching status. In accordance with our hypothesis and previous findings by Flockhart et al., <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15</ref> metabolic disturbance was evident during exercise after a period of functional overreaching. Specifically, RER was reduced with functional overreaching relative to REC during the 60% and 80% HRmax stages during the LSCT. Furthermore, glucose levels assessed using CGM were reduced during submaximal exercise during the LSCT and not at rest, indicating a possible use of such sensors to indicate functional overreaching status during submaximal exercise. Finally, when assessing different monitoring techniques to detect overreaching, the suppression of peak exercising lactate, peak exercising HR, and total well-being remain the most sensitive markers, with the LSCT being insufficiently sensitive to detect overreaching in the present study. The combination of exercising HR, well-being or mood, and submaximal exercising CGM may provide an easy and non-invasive way to monitor for overreaching status in endurance athletes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">| Alterations in substrate utilization with overreaching</head><p>Overreaching is characterized by a reduction in sport performance, with concomitant reductions in submaximal and maximal exercising lactate and HR. <ref type="bibr" target="#b12">13</ref> While an acute reduction in circulating lactate during exercise is a known marker of overreaching, <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b12">13</ref> further investigation into altered exercise metabolism and substrate utilization during functional or non-functional overreaching has received little attention to date. In a longitudinal study on elite rowers, it was demonstrated that athletes who were underperforming had alterations in carbohydrate metabolism during exercise that progressed to altered lipid and protein metabolism with further training; however, markers of low energy availability were not studied concomitantly. <ref type="bibr" target="#b31">32</ref> Following a 3-week high-intensity overload training period in recreationally active individuals, it was demonstrated that intrinsic respiration from isolated skeletal-muscle mitochondria was reduced at rest and that exercising capillary glucose concentration was suppressed during high-intensity cycling. The participants had elevations in resting muscle glycogen stores, indicating that glycogen availability was unlikely to be the primary mechanism of impairment. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15</ref> Our present findings may support this work, as the functionally overreached athletes also demonstrated reductions in exercising interstitial glucose during submaximal exercise despite the ingestion of 50 g of glucose 15 min prior to cycling in all visits, with reductions in RER from POST to REC in the 60% and 80% stages of the LSCT, and a reduction in VĊO 2 /W during the 5 km timetrial. Importantly, these were independent of alterations</p><p>PRE POST REC HR (bpm) 55 ± 6 53 ± 7 54 ± 7 lnRMSSD (ms) 4.2 ± 0.6 4.1 ± 0.7 3.9 ± 1.0 Resting metabolic rate (kcal/day) 1834 ± 205 1889 ± 264 1860 ± 242 Predicted RMR (%) 104 ± 10 108 ± 10 106 ± 8 Resting VȮ 2 (mL/min) 263 ± 28 274 ± 39 268 ± 33 Body mass (kg) 73.5 ± 10.0 73.0 ± 10.0 73.4 ± 9.7 Leptin (ng/mL) 1.9 ± 0.8 1.5 ± 0.7 2.1 ± 0.9 Epinephrine (ng/mL) 0.05 ± 0.03 0.06 ± 0.02 0.06 ± 0.02 Fasted CGM glucose (mmol/L) 4.5 ± 0.8 4.4 ± 0.3 4.6 ± 0.7 Hematocrit (%) 46.1 ± 2.3 44.8 ± 2.9 44.7 ± 3.6 T A B L E 2 Resting autonomic and metabolic markers before (PRE) and after (POST) 3 weeks of overload training and after 1 week of recovery training (REC). 16000838, 2024, 1, Downloaded from <ref type="url" target="https://onlinelibrary.wiley.com/doi/10.1111/sms.14551">https://onlinelibrary.wiley.com/doi/10.1111/sms.14551</ref> by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [10/08/2024]. See the Terms and Conditions (<ref type="url" target="https://onlinelibrary.wiley.com/terms-and-conditions">https://onlinelibrary.wiley.com/terms-and-conditions</ref>) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License | 11 of 14 in primary markers of energy availability and were not detected at single time points at rest. The reduction in VĊO 2 /W in the 5 km time-trial from PRE to POST was likely driven by both elevated fat oxidation and a reduced requirement for bicarbonate buffering with lowered lactate concentrations. 27 While this change during exercise could represent a normal response to training and improvement in fitness, after only 5-7 days of recovery, submaximal glucose and maximal lactate levels rebounded, and RER was elevated in both submaximal and maximal exercise conditions. It is possible that impaired mitochondrial bioenergetics may drive altered substrate utilization following high-intensity overload training <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15</ref> ; however, the plausibility of this effect has been contested <ref type="bibr" target="#b32">33</ref> and further research on overreached athletes is required to confirm this mechanism. The reduction in circulating carbohydrate during submaximal exercise assessed through CGM and carbohydrate oxidation assessed via indirect calorimetry with overreaching could also be explained by a reduction in circulating epinephrine, which has previously been demonstrated in overreached male triathletes. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6</ref> In addition to intramuscular factors such as free ADP, systemic factors including elevations in circulating epinephrine during exercise upregulate glycogenolysis, increasing glycogenolytic/glycolytic flux and the subsequent production of lactate and pyruvate. <ref type="bibr" target="#b33">34</ref> As such, a suppression in circulating epinephrine may contribute to the observed reduction in whole body carbohydrate oxidation during exercise, as well as the reduction in circulating lactate and exercising heart rate with overreaching. <ref type="bibr" target="#b16">17</ref> While we did not observe a statistically significant reduction in epinephrine during exercise in the present investigation (p = 0.09, η p 2 = 0.29), the statistical significance was likely limited by the small sample size and individual variability in response. Future research should investigate this reduced adrenergic response to exercise in overreached athletes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">| Energy availability</head><p>The recognition that overreaching and low energy availability often co-occur, <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12</ref> but have separate etiologies, is an important distinction that should be made in the field. From a metabolic perspective, it is known that insufficient energy intake relative to exercising energy expenditure will result in rapid reductions in leptin, free and total T3, and IGF-1, which in turn suppresses RMR, fasting glucose and insulin, and elevates circulating glycerol and free fatty acids. <ref type="bibr" target="#b34">35</ref> During low energy availability, RMR is depressed <ref type="bibr" target="#b34">35</ref> ; however, it is currently unknown whether overreaching can independently reduce RMR through altered autonomic function. <ref type="bibr" target="#b11">12</ref> Reductions in body mass and leptin should occur exclusively with an energy or carbohydrate deficit, and not exercise stress alone. <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b35">36</ref> Though this investigation would have benefitted from the assessment of energy intake and expenditure, there were no group mean changes to any of the markers of low energy availability, and the effects on the few subjects who showed markers of low energy availability were small. While further research is certainly required to disentangle the mechanisms of low energy availability and training stress and their independent effects on performance, the present investigation and those of Flockhart et al. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15</ref> suggest altered exercising metabolism from overreaching is likely not fully explained by insufficient energy availability.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">| Monitoring techniques</head><p>Research into monitoring tools for overreaching-status in endurance athletes has been obscured by the search for a resting marker of overreaching through hematological or autonomic measures, <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b36">37</ref> and a misunderstanding of overreaching and its relationship with low energy availability <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12</ref> and/or overtraining syndrome. <ref type="bibr" target="#b9">10</ref> However, it is now clear that functional and nonfunctional overreaching represent a state of fatigue that may be indistinguishable from normal acute training fatigue at rest, but becomes apparent during submaximal or maximal exercise. <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b18">19</ref> As opposed to repeated maximal testing, which is impractical for use with high-level athletes, the LSCT has promise as a monitoring tool as it can be employed as a standardized warm-up <ref type="bibr" target="#b37">38</ref> ; however, while there were small elevations in RPE and average power output across the overload training period in the present investigation, these were not statistically significant. Standardizing the exercise load (e.g., power output) and observing the resultant HR and RPE response may be an easier method to detect overreaching than the LSCT, as it is difficult to adjust exercise load in response to fluctuations in HR with precision. Mood states have consistently been shown to be altered with overreaching, yet a mood state or readiness scale may not distinguish acute fatigue from overreaching on its own.</p><p>2,19 An acute suppression of lactate and HR at submaximal and maximal exercise intensities has been demonstrated to best discriminate between overreached and normally trained individuals when compared to many trainingstatus markers 13 and remains the best marker of overreaching to date. Finally, with the advent of CGM for use with non-diabetic athletes, interstitial glucose could provide a further monitoring tool for coaches and athletes to use in combination with a standardized glucose load and warm-up exercise, and in combination with HR and a subjective assessment of fatigue, particularly if lactate testing is unavailable. It is important to note that we did not see significant alterations in single-point resting or end-exercise interstitial glucose following overload training, and as such continuous data during exercise stress remains important for assessing disturbed physiology with overreaching.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4">| Limitations</head><p>A limitation of the current investigation is the small sample size, which likely precluded our ability to see an effect in some measures. However, this sample size is typical of the field, and represents the difficulty of performing this type of research. Due to there being only three participants who did not objectively achieve overreaching status, we lacked power to compare the results of these excluded subjects to those who were clearly overreached. However, exploratory analysis with the inclusion of the three athletes abolished the significant findings with CGM glucose and reduced the effect sizes for the reductions in RER at 60 and 80% of HRmax, suggesting an independent effect of overreaching on altered carbohydrate utilization. The recovery period at Week 5 was only ~5 days in some participants due to difficulties in data collection scheduling, which was likely insufficient for full recovery, but may approximate a pre-competition taper for some athletes.</p><p>Training intensity was not specifically assessed over the course of the 5-week study; however, participants were instructed to maintain the intensity of their training sessions outside the laboratory for the three overload weeks, and additive training intensity occurred in the supramaximal sprint-interval sessions, which were supervised in the lab. We were unable to conduct the same study on a normally training control group; therefore, it is unknown if regular training or acute fatigue would have the same effect as overreaching on the novel metabolic outcome measures presented herein. We did not perform a familiarization 5 km time-trial to ascertain individual variability in the measure prior to overload training. However, all participants were trained endurance athletes who had experience with maximal exercise testing, and as they demonstrated other signs of overreaching with a reversal following recovery, it is unlikely that reductions in time-trial power at POST were simply due to day-to-day variability. The requirement of multiple CGM devices per participant across the training block could have introduced variability into the glucose measures; however, two separate Freestyle Libre sensors (the platform on which the Supersapiens device is made) have been demonstrated to provide similar results (11.2% and 11.4% different from blood glucose, respectively) in an individual when worn simultaneously. <ref type="bibr" target="#b38">39</ref> In the current study, we did not assess CGM interstitial glucose in the leg, but related work suggests a potentially differential effect of glucose monitoring in proximity to the working muscle groups. <ref type="bibr" target="#b39">40</ref> We did not compare CGM data to capillary or venous glucose samples during exercise in the present investigation; however, we have previously found the glucose curves to be similar during exercise following glucose ingestion. <ref type="bibr" target="#b39">40</ref> The insertion of a venous catheter immediately prior to the 5 km time-trial could have evoked a stress response, which may have introduced variability to the maximal epinephrine concentrations assessed at the end of the time-trial. Diet could not be controlled in this study; however, participants were instructed to consume greater calories, and in particular carbohydrate, during the overload training weeks. Furthermore, all testing was performed following an overnight fast, and a standardized glucose beverage was consumed at a consistent time interval prior to exercise. Finally, while female participants were recruited for the study, we were unable to perform sex-difference analyses due to the small sample size.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5">| Perspective</head><p>Overreaching in endurance sport has negative consequences on sport performance, health, and training adaptation. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b16">17</ref> This investigation demonstrated that carbohydrate utilization is likely altered during exercise with overreaching in endurance-trained athletes, with a shift toward fat oxidation, and a reduction in interstitial fluid glucose concentrations during HR-matched submaximal exercise. This is in accordance with similar findings by Flockhart et al. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15</ref> following 3 weeks of high-intensity interval training that resulted in performance stagnation. The use of CGM during submaximal exercise may provide an additional non-invasive monitoring tool for the prevention of overreaching in endurance athletes.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>To determine baseline training load, participants recorded their training using an online activity tracking application (Strava Inc) ≥1 week prior to participating in the study. Training sessions were tracked thereafter for the duration of the study. A single investigator programmed individual training plans for the 5-week study using 1 week of training records that were deemed representative of recent typical training in consultation with the participant. Typical training duration was reduced by ~50% in the first week to ensure participants were neither overreached nor acutely fatigued for baseline testing. During Weeks 2, 3, and 4, athletes maintained their typical training program with maintenance of duration and intensity in each session.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>Sprint-interval sessions for overload training consisted of 4-6 repetitions of 30 s maximal Wingate tests at a load of 7.5% of body weight, separated by 4 min of active recovery. The overload training commenced with four Wingate tests, and one additional interval was added each week. The final week of training was a recovery week, in which the duration of the training was reduced by ~50% and matched to Week 1. Primary outcome measures were evaluated at the end of Weeks 1 (PRE), 4 (POST), and 5 (REC), with resting-measures visits occurring the day after the exercise-test visit.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>F I G U R E 1</head><label>1</label><figDesc>Experimental design of the 5-week overload training study in recreational endurance athletes. Weeks 1 (PRE) and 5 (REC) were prescribed at ~50% of regular training duration, with Weeks 2, 3, and 4 (OL) at ~150% of regular training duration. HRV, heart rate variability; OL, overload; PRE, pre-overload training; REC, recovery; RMR, resting metabolic rate.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>5 F</head><label>5</label><figDesc>4) measures only via pairedStudent's t-tests. Further interrogation into training status including training duration, LSCT and 5 km time-trial outcomes, and Hooper-Mackinnon wellbeing scores were examined across the 5 weeks using 1 × I G U R E 2 Timeline of the exercise-test visits performed during the 5-week overload training study in recreational endurance athletes. Full experimental procedures occurred at Weeks 1 (PRE), 4 (OL), and 5 (REC), with paired-down visits (Hooper-Mackinnon well-being scale, cycling HR, and CGM glucose) occurring in Weeks 2 and 3 of the overload training block. Timeline not to scale. Checklist: Hooper-Mackinnon well-being scale. Vacutainer 1: venous sample for epinephrine, hematocrit, and leptin. Drink: 50 g of glucose. RPE: rating of perceived exertion. Blood drop: assessment of lactate and recording of glucose. Vacutainer 2: venous sample for exercising epinephrine. Created with BioRender.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>η p 2 =</head><label>2</label><figDesc>0.1), 80% of HRmax (p = 0.2, η p 2 = 0.15), and 90% of HRmax (p = 0.56, η p 2 = 0.05) in the LSCT. In the 5 km time-trial, VĊO 2 /W was reduced at POST compared with PRE (p &lt; 0.001, η p 2 = 0.82), and REC compared with PRE (p = 0.016, η p 2 = 0.46). RER was lower at POST compared with REC at 60% of HRmax (p &lt; 0.001, η p 2 = 0.74), 80% of HRmax (p = 0.003, η p 2 = 0.68), and trending at 90% of HRmax (p = 0.07, η p 2 = 0.34) in the LSCT. RER was reduced at POST compared with PRE (p &lt; 0.001, η p 2 = 0.86) and REC (p = 0.001, η p 2 = 0.73) in the 5 km time-trial. VĖ was unchanged at 60% of HRmax (p = 0.2, η p 2 = 0.15) and 90% of HRmax (interaction p = 0.05, η p 2 = 0.26, no significance with post-hoc tests), but was elevated at POST compared with PRE (p = 0.02, η p 2 = 0.56) and REC compared with PRE (p = 0.02, η p 2 = 0.53) at 80% of HRmax. Finally, VĖ was elevated at REC compared with POST in the 5 km time-trial (p = 0.007, η p 2 = 0.62).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>F I G U R E 3 F I G U R E 4 F I G U R E 5</head><label>345</label><figDesc>CGM glucose concentration at each minute of the Lamberts and Lambert Submaximal Cycling Test (LSCT) (A) and 5 km timetrial (C), and glucose area under the curve for the LSCT (B) and 5 km time-trial (D) before (PRE) and after (POST) 3 weeks of overload training and following 1 week of recovery training (REC). Samples available for analysis, n = 8 for the LSCT and n = 9 for the 5 km time-trial. Data as mean ± SD or individual values. Plasma epinephrine at the end of a 5 km time-trial before (PRE) and after (POST) 3 weeks of overload training and following 1 week of recovery training (REC). Samples available for analysis, n = 8. Data as mean with individual values. Alterations in mean oxygen consumption relative to cycling power (VȮ 2 /W; column A), carbon dioxide production relative to cycling power (VĊO2/W; column B), respiratory exchange ratio (RER; column C), and ventilation (VĖ; column D) during the Lamberts and Lambert submaximal cycling test (LSCT) and 5 km time-trial cycling before (PRE) and after (POST) 3 weeks of overload training, and following 1 week of recovery training (REC). Data as mean with individual values. *p &lt; 0.05, post-hoc comparisons with Bonferroni corrections.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>16000838, 2024, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14551 by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [10/08/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head><p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>AMC and JFB conceived and designed research. AMC, KMAT, MMG, REB, CP, AAR, and CPC performed data collection. AMC, SMF, CP, and KMAT performed data analysis and drafted the manuscript. Revisions were performed by all authors. All authors approved the final version of the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FUNDING INFORMATION</head><p>This research was supported by a grant from the Natural Science and Engineering Research Council of Canada. The continuous glucose monitoring sensors used in this study were provided by Supersapiens and TT1 Products Inc.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST STATEMENT</head><p>The authors have no conflicts of interest to declare. Supersapiens and TT1 Products had no influence, financial or otherwise, on the collection, results, or interpretation of the findings.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Prevention, diagnosis and treatment of the overtraining syndrome: joint consensus statement of the European College of Sport Science (ECSS) and the American College of Sports Medicine (ACSM)</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Meeusen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Duclos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Foster</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17461391.2012.730061</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="24" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Meeusen R, Duclos M, Foster C, et al. Prevention, diagnosis and treatment of the overtraining syndrome: joint consensus state- ment of the European College of Sport Science (ECSS) and the American College of Sports Medicine (ACSM). Eur J Sport Sci. 2013;13(1):1-24. doi:10.1080/17461391.2012.730061</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Functional overreaching in endurance athletes: a necessity or cause for concern?</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bellinger</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40279-020-01269-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1059" to="1073" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bellinger P. Functional overreaching in endurance athletes: a necessity or cause for concern? Sports Med. 2020;50(6):1059- 1073. doi:10.1007/s40279-020-01269-w</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Functional overreaching: the key to peak performance during the taper?</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aubry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hausswirth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Louis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Coutts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Meur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0000000000000301</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1769" to="1777" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aubry A, Hausswirth C, Louis J, Coutts A, Le Meur Y. Functional overreaching: the key to peak performance during the taper? Med Sci Sports Exerc. 2014;46(9):1769-1777. doi:10.1249/MSS.0000000000000301</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Blunted cardiac output from overtraining is related to increased arterial stiffness</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Coates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Millar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Burr</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0000000000001725</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2459" to="2464" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Coates AM, Millar PJ, Burr JF. Blunted cardiac output from overtraining is related to increased arterial stiffness. Med Sci Sports Exerc. 2018;50(12):2459-2464. doi:10.1249/ MSS.0000000000001725</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Maximal exercise limitation in functionally overreached triathletes: role of cardiac adrenergic stimulation</title>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Meur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Louis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aubry</forename><forename type="middle">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.00191.2014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="214" to="222" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Le Meur Y, Louis J, Aubry A, et al. Maximal exercise limita- tion in functionally overreached triathletes: role of cardiac adrenergic stimulation. J Appl Physiol. 2014;117(3):214-222. doi:10.1152/japplphysiol.00191.2014</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The development of functional overreaching is associated with a faster heart rate recovery in endurance athletes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aubry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hausswirth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Louis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Coutts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Buchheit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Meur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0139754</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PloS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">139754</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aubry A, Hausswirth C, Louis J, Coutts AJ, Buchheit M, Le Meur Y. The development of functional overreaching is as- sociated with a faster heart rate recovery in endurance ath- letes. PloS One. 2015;10(10):e0139754. doi:10.1371/journal. pone.0139754</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Three weeks of overload training increases resting muscle sympathetic activity</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Coates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Incognito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Seed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Doherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Millar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Burr</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0000000000001514</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="928" to="937" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Coates AM, Incognito AV, Seed JD, Doherty CJ, Millar PJ, Burr JF. Three weeks of overload training increases resting muscle sympathetic activity. Med Sci Sports Exerc. 2018;50(5):928-937. doi:10.1249/MSS.0000000000001514</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Overreaching attenuates training-induced improvements in muscle oxidative capacity</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Bellinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sabapathy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Craven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Minahan</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/mss.0000000000002095</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="77" to="85" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bellinger PM, Sabapathy S, Craven J, Arnold B, Minahan C. Overreaching attenuates training-induced improvements in muscle oxidative capacity. Med Sci Sports Exerc. 2019;52:77-85. doi:10.1249/mss.0000000000002095</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Evidence of disturbed sleep and increased illness in overreached endurance athletes</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hausswirth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Louis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aubry</forename><forename type="middle">A</forename><surname>Bonnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Duffield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Meur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1036" to="1045" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hausswirth C, Louis J, Aubry A, Bonnet G, Duffield R, Le Meur Y. Evidence of disturbed sleep and increased illness in overreached endurance athletes. Med Sci Sports Exerc. 2014;46(5):1036-1045.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Overtraining syndrome symptoms and diagnosis in athletes: where is the research? A systematic review</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Weakley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Halson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mujika</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2021-0448</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="675" to="681" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weakley J, Halson SL, Mujika I. Overtraining syndrome symptoms and diagnosis in athletes: where is the research? A systematic review. Int J Sports Physiol Perform. 2022;17(5):675- 681. doi:10.1123/ijspp.2021-0448</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Overtraining syndrome (OTS) and relative energy deficiency in sport (RED-S): shared pathways, symptoms and complexities</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Stellingwerff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Heikura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Meeusen</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40279-021-01491-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2251" to="2280" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stellingwerff T, Heikura IA, Meeusen R, et al. Overtraining syndrome (OTS) and relative energy deficiency in sport (RED- S): shared pathways, symptoms and complexities. Sports Med. 2021;51(11):2251-2280. doi:10.1007/s40279-021-01491-0</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Markers of low energy availability in overreached athletes: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Kuikman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Coates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Burr</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40279-022-01723-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="2925" to="2941" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kuikman MA, Coates AM, Burr JF. Markers of low energy availability in overreached athletes: a systematic review and meta-analysis. Sports Med. 2022;52:2925-2941. doi:10.1007/ s40279-022-01723-x</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A multidisciplinary approach to overreaching detection in endurance trained athletes</title>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Meur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hausswirth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Natta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Couturier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bignet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vidal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.01254.2012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="411" to="420" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Le Meur Y, Hausswirth C, Natta F, Couturier A, Bignet F, Vidal P. A multidisciplinary approach to overreaching detection in endurance trained athletes. J Appl Physiol. 2013;114(3):411-420. doi:10.1152/japplphysiol.01254.2012</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A simple model for diagnosis of maladaptations to exercise training</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Flockhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Nilsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ekblom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Larsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40798-022-00523-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med Open</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">136</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Flockhart M, Nilsson LC, Ekblom B, Larsen FJ. A simple model for diagnosis of maladaptations to exercise training. Sports Med Open. 2022;8:136. doi:10.1186/s40798-022-00523-x</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Excessive exercise training causes mitochondrial functional impairment and decreases glucose tolerance in healthy volunteers</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Flockhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Nilsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ekblom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Apró</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Larsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cmet.2021.02.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cell Metab</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="957" to="970" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Flockhart M, Nilsson LC, Tais S, Ekblom B, Apró W, Larsen FJ. Excessive exercise training causes mitochondrial functional im- pairment and decreases glucose tolerance in healthy volunteers. Cell Metab. 2021;33:957-970. doi:10.1016/j.cmet.2021.02.017</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Low energy availability in exercising men is associated with reduced leptin and insulin but not with changes in other metabolic hormones</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Koehler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Hoerner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Gibbs</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2016.1142109</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="1921" to="1929" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koehler K, Hoerner NR, Gibbs JC, et al. Low energy availability in exercising men is associated with reduced leptin and insulin but not with changes in other metabolic hormones. J Sports Sci. 2016;34(20):1921-1929. doi:10.1080/02640414.2016.1142109</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Investigating the use of pre-training measures of autonomic regulation for assessing functional overreaching in endurance athletes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Coates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hammond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Burr</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17461391.2018.1458907</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="965" to="974" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Coates AM, Hammond S, Burr JF. Investigating the use of pre-training measures of autonomic regulation for assessing functional overreaching in endurance athletes. Eur J Sport Sci. 2018;18(7):965-974. doi:10.1080/17461391.2018.1458907</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The use of continuous glucose monitors in sport: possible applications and considerations</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bowler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Whitfield</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijsnem.2022-0139</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Nutr Exerc Metab</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="121" to="132" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bowler A, Lee M, Whitfield J, et al. The use of continuous glucose monitors in sport: possible applications and con- siderations. Int J Sport Nutr Exerc Metab. 2023;33:121-132. doi:10.1123/ijsnem.2022-0139</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A systematic review on markers of functional overreaching in endurance athletes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Roete</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Elferink-Gemser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rta</forename><surname>Otter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">K</forename><surname>Stoter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lamberts</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2021-0024</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1065" to="1073" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roete AJ, Elferink-Gemser MT, Otter RTA, Stoter IK, Lamberts RP. A systematic review on markers of functional over- reaching in endurance athletes. Int J Sports Physiol Perform. 2021;16(8):1065-1073. doi:10.1123/ijspp.2021-0024</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Can the Lamberts and Lambert submaximal cycle test reflect overreaching in professional cyclists?</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Decroix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lamberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Meeusen</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2016-0685</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="23" to="28" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Decroix L, Lamberts RP, Meeusen R. Can the Lamberts and Lambert submaximal cycle test reflect overreaching in profes- sional cyclists? Int J Sports Physiol Perform. 2018;13(1):23-28. doi:10.1123/ijspp.2016-0685</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The reliability and validity of protocols for the assessment of endurance sports performance: an updated review</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Stevens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Dascombe</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/1091367X.2015.1062381</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Meas Phys Educ Exerc Sci</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="177" to="185" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stevens CJ, Dascombe BJ. The reliability and validity of proto- cols for the assessment of endurance sports performance: an updated review. Meas Phys Educ Exerc Sci. 2015;19(4):177-185. doi:10.1080/1091367X.2015.1062381</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A novel submaximal cycle test to monitor fatigue and predict cycling performance</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lamberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Swart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Noakes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Lambert</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bjsm.2009.061325</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="797" to="804" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lamberts RP, Swart J, Noakes TD, Lambert MI. A novel sub- maximal cycle test to monitor fatigue and predict cycling per- formance. Br J Sports Med. 2011;45(10):797-804. doi:10.1136/ bjsm.2009.061325</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Low energy availability in female athletes: from the lab to the field</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Heikura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Stellingwerff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Areta</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17461391.2021.1915391</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="709" to="719" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Heikura IA, Stellingwerff T, Areta JL. Low energy availability in female athletes: from the lab to the field. Eur J Sport Sci. 2022;22(5):709-719. doi:10.1080/17461391.2021.1915391</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The physical activity readiness questionnaire for everyone (PAR-Q+) and electronic physical activity readiness medical examination (ePARmed-X+)</title>
+		<author>
+			<persName><forename type="first">Der</forename><surname>Warburton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Jamnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ssd</forename><surname>Bredin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gledhill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health Fitness J Canada</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="3" to="17" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Warburton DER, Jamnik VK, Bredin SSD, Gledhill N. The physical activity readiness questionnaire for everyone (PAR-Q+) and electronic physical activity readiness medi- cal examination (ePARmed-X+). Health Fitness J Canada. 2011;4(2):3-17.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Monitoring overtraining in athletes: recommendations</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Hooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Mackinnon</surname></persName>
+		</author>
+		<idno type="DOI">10.2165/00007256-199520050-00003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="321" to="327" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hooper SL, Mackinnon LT. Monitoring overtraining in ath- letes: recommendations. Sports Med. 1995;20(5):321-327. doi:10.2165/00007256-199520050-00003</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Effects of carbohydrate ingestion 15 min before exercise on endurance running capacity</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Tokmakidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Karamanolis</surname></persName>
+		</author>
+		<idno type="DOI">10.1139/H08-012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Physiol Nutr Metab</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="441" to="449" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tokmakidis SP, Karamanolis IA. Effects of carbohydrate in- gestion 15 min before exercise on endurance running capac- ity. Appl Physiol Nutr Metab. 2008;33(3):441-449. doi:10.1139/ H08-012</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Muscle substrate utilization from alveolar gas exchange in trained cyclists</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Riley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wasserman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="341" to="348" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Riley M, Wasserman K, Fu P, Cooper C. Muscle substrate utili- zation from alveolar gas exchange in trained cyclists. Eur J Appl Physiol. 1996;72:341-348.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Best practice methods to apply to measurement of resting metabolic rate in adults: a systematic review</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Compher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Frankenfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Keim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Roth-Yousey</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jada.2006.02.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Diet Assoc</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="881" to="903" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Compher C, Frankenfield D, Keim N, Roth-Yousey L. Best prac- tice methods to apply to measurement of resting metabolic rate in adults: a systematic review. J Am Diet Assoc. 2006;106(6):881- 903. doi:10.1016/j.jada.2006.02.009</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Evaluating training adaptation with heart-rate measures: a methodological comparison</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Plews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Laursen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Kilding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Buchheit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="688" to="691" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Plews DJ, Laursen PB, Kilding AE, Buchheit M. Evaluating training adaptation with heart-rate measures: a methodological comparison. Int J Sports Physiol Perform. 2013;8:688-691.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Validity and reliability of different smartphones applications to measure HRV during short and ultra-short measurements in elite athletes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moya-Ramon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mateo</forename><forename type="middle">-</forename><surname>March</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Peña-González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Zabala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Javaloyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cmpb.2022.106696</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Methods Programs Biomed</title>
+		<imprint>
+			<biblScope unit="volume">217</biblScope>
+			<biblScope unit="page">106696</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moya-Ramon M, Mateo-March M, Peña-González I, Zabala M, Javaloyes A. Validity and reliability of different smartphones applications to measure HRV during short and ultra-short mea- surements in elite athletes. Comput Methods Programs Biomed. 2022;217:106696. doi:10.1016/j.cmpb.2022.106696</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Defining training and performance caliber: a participant classification framework</title>
+		<author>
+			<persName><forename type="first">Aka</forename><surname>Mckay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Stellingwerff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="317" to="331" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mckay AKA, Stellingwerff T, Smith ES, et al. Defining training and performance caliber: a participant classification frame- work. Int J Sports Physiol Perform. 2022;17:317-331.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">FT-IR spectroscopy utilization to sportsmen fatigability evaluation and control</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Petibois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cazorla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Deleris</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/00005768-200010000-00023</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1803" to="1808" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Petibois C, Cazorla G, Deleris G. FT-IR spectroscopy uti- lization to sportsmen fatigability evaluation and con- trol. Med Sports Exerc. 2000;32(10):1803-1808. doi:10.1097/00005768-200010000-00023</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">High-intensity exercise training-too much of a good thing?</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hawley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Bishop</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41574-021-00500-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Endocrinol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="385" to="386" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hawley JA, Bishop DJ. High-intensity exercise training-too much of a good thing? Nat Rev Endocrinol. 2021;17(7):385-386. doi:10.1038/s41574-021-00500-6</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Exercise metabolism: fuels for the fire</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hargreaves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Spriet</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/cshperspect.a029744</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harb Perspect Med</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hargreaves M, Spriet LL. Exercise metabolism: fuels for the fire. Cold Spring Harb Perspect Med. 2018;8(8):1-15. doi:10.1101/ cshperspect.a029744</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Low energy availability in athletes 2020: an updated narrative review of prevalence, risk, within-day energy balance, knowledge, and impact on sports performance</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Logue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Madigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Melin</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/nu12030835</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1" to="20" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Logue DM, Madigan SM, Melin A, et al. Low energy availabil- ity in athletes 2020: an updated narrative review of prevalence, risk, within-day energy balance, knowledge, and impact on sports performance. Nutrients. 2020;12(3):1-20. doi:10.3390/ nu12030835</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Low energy availability, not exercise stress, suppresses the diurnal rhythm of leptin in healthy young women</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Hilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Loucks</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/ajpendo.2000.278.1.e43</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">278</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="43" to="E49" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hilton LK, Loucks AB. Low energy availability, not exercise stress, suppresses the diurnal rhythm of leptin in healthy young women. Am J Physiol Endocrinol Metab. 2000;278(1):E43-E49. doi:10.1152/ajpendo.2000.278.1.e43</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Monitoring training load to understand fatigue in athletes</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Halson</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40279-014-0253-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">Suppl 2</biblScope>
+			<biblScope unit="page" from="139" to="S147" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Halson SL. Monitoring training load to understand fatigue in athletes. Sports Med. 2014;44(Suppl 2):S139-S147. doi:10.1007/ s40279-014-0253-z</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Measuring submaximal performance parameters to monitor fatigue and predict cycling performance: a case study of a worldclass cyclo-cross cyclist</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lamberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Rietjens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Tijdink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Noakes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Lambert</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-009-1291-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="183" to="190" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lamberts RP, Rietjens GJ, Tijdink HH, Noakes TD, Lambert MI. Measuring submaximal performance parameters to monitor fa- tigue and predict cycling performance: a case study of a world- class cyclo-cross cyclist. Eur J Appl Physiol. 2010;108(1):183-190. doi:10.1007/s00421-009-1291-3</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The performance and usability of a factory-calibrated flash glucose monitoring system</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Bode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Christiansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Klaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alva</forename><forename type="middle">S</forename></persName>
+		</author>
+		<idno type="DOI">10.1089/dia.2014.0378</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Technol Ther</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="787" to="794" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bailey T, Bode BW, Christiansen MP, Klaff LJ, Alva S. The per- formance and usability of a factory-calibrated flash glucose monitoring system. Diabetes Technol Ther. 2015;17(11):787-794. doi:10.1089/dia.2014.0378</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Investigating sensor location on the effectiveness of continuous glucose monitoring during exercise in a non-diabetic population</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Coates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Burr</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17461391.2023.2174452</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2109" to="2117" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Coates AM, Cohen JN, Burr JF. Investigating sensor loca- tion on the effectiveness of continuous glucose monitoring during exercise in a non-diabetic population. Eur J Sport Sci. 2023;23(10):2109-2117. doi:10.1080/17461391.2023.2174452</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

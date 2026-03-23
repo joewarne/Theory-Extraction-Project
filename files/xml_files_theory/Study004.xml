@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Lower Limb Joint Kinetics During a Side-Cutting Task in Participants With or Without Chronic Ankle Instability</title>
+				<funder>
+					<orgName type="full">National Athletic Trainers&apos; Association, Inc www</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>PhD</roleName><forename type="first">Jeffrey</forename><forename type="middle">D</forename><surname>Simpson</surname></persName>
+							<email>jsimpson1@uwf.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Movement Sciences and Health</orgName>
+								<orgName type="institution">University of West Florida</orgName>
+								<address>
+									<settlement>Pensacola</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MS †;</roleName><forename type="first">Ethan</forename><forename type="middle">M</forename><surname>Stewart</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MS †;</roleName><forename type="first">Alana</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">David</forename><forename type="middle">M</forename><surname>Macias</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Harish</forename><surname>Chander</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>PhD, ATC, CSCS</roleName><forename type="first">Adam</forename><forename type="middle">C</forename><surname>Knight</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">†Department of Kinesiology</orgName>
+								<orgName type="institution">Mississippi State University</orgName>
+								<address>
+									<settlement>Starkville</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">‡Department of Orthopaedic Surgery</orgName>
+								<orgName type="institution">Columbus Orthopaedic Clinic</orgName>
+								<address>
+									<region>MS</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Movement Sciences and Health</orgName>
+								<orgName type="institution">University of West Florida</orgName>
+								<address>
+									<addrLine>11000 University Parkway Building 72 Room 216</addrLine>
+									<settlement>Pensacola</settlement>
+									<region>FL</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Lower Limb Joint Kinetics During a Side-Cutting Task in Participants With or Without Chronic Ankle Instability</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3F4A6274157BBE23816DD852F88179D6</idno>
+					<idno type="DOI">10.4085/1062-6050-334-18</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:08+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Cohort study. Setting: Motion-capture laboratory lateral ankle sprain</term>
+					<term>change of direction</term>
+					<term>motorcontrol strategy</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Context: Individuals with chronic ankle instability (CAI) demonstrate altered lower limb movement dynamics during jump landings, which can contribute to recurrent injury. However, the literature examining lower limb movement dynamics during a side-cutting task in individuals with CAI is limited.</p><p>Objective: To assess lower limb joint kinetics and sagittalplane joint stiffness during the stance phase of a side-cutting task in individuals with or without CAI.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Individuals with chronic ankle instability (CAI) displayed altered ankle-joint kinetics and greater proximal-joint stiffness than healthy control participants during the stance phase of a side-cutting task. The differences in ankle-joint kinetics and hip-joint stiffness provide insight into potential movement adaptations that occur during a side-cutting task due to the sensorimotor and mechanical constraints of CAI. The altered movement patterns likely contribute to the recurrent lateral ankle-sprain paradigm in individuals with CAI. Researchers and clinicians can use these findings to develop effective rehabilitation and training programs for improving lower limb movement patterns and to mitigate the risk of recurrent injury in individuals with CAI. L ateral ankle sprain (LAS) is among the most commonly reported lower extremity injuries due to athletic participation. <ref type="bibr" target="#b0">1</ref> This injury accounts for 7.3% of all reported injuries sustained in National Collegiate Athletic Association athletics, with the highest incidence rates reported in basketball (10.8 per 10 000 athlete-exposures), soccer (7.9 per 10 000 athlete-exposures), and volleyball (6.9 per 10 000 athlete-exposures). <ref type="bibr" target="#b1">2</ref> Whereas many athletes decline proper medical treatment after lateral ankle-ligament trauma to reduce time missed from participation due to injury, approximately one-third of individuals will develop chronic ankle instability (CAI) after an LAS. <ref type="bibr" target="#b2">3</ref> This condition is characterized by a wide spectrum of long-term sensorimotor and mechanical deficits that cause the ankle joint to ''give way'' or subjective feelings of ankle-joint instability during functional or dynamic movements, leading to recurrent damage to the lateral ankle-ligament complex. <ref type="bibr" target="#b3">4</ref> Lateral ankle sprain occurs due to excessive subtalar inversion, internal rotation, and talocrural plantar flexion of the ankle complex. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6</ref> Dynamic movements, such as jump landings or rapid changes of direction, require preparatory plantar flexion and inversion of the ankle complex to attenuate impulse loads during ground contact. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> This increases the propensity for an LAS because the foot's center of pressure could continue to deviate laterally during ground contact, increasing the moment arm of the subtalar joint. <ref type="bibr" target="#b4">5</ref> Therefore, inversion and internal-rotation moments generated from the ground reaction force can augment the strain on the anterior talofibular and calcaneofibular ligaments and, consequently, increase the risk of the lateral ankle ligaments reaching or exceeding maximum load to failure, causing an LAS. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b8">9</ref> Investigators have demonstrated altered lower limb movement dynamics during jump landings at 2 weeks <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11</ref> and 6 months after a first-time, acute LAS <ref type="bibr" target="#b11">12</ref> and in individuals who developed CAI. <ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref> More specifically, proximal-segment alterations and reduced ankle neuromuscular control were observed when individuals who developed CAI performed dynamic movements, such as jump landings and side-cutting tasks. <ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref> This indicates that the chronically unstable ankle is unable to effectively attenuate impulse loads imposed on the ankle complex and results in an intralimb redistribution of impact-force attenuation in which greater reliance is placed on the proximal joints to protect the injured ankle during dynamic movements. <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b17">18</ref> Researchers <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b18">19</ref> have suggested that longitudinal alterations to spinal-and supraspinal-level motor-control strategies, which arise from the sensorimotor constraints of CAI, are likely an underlying mechanism in developing CAI and recurrent lateral ankle sprains. Therefore, an assessment of lower limb movement dynamics during sport-specific tasks that pose substantial risks for LAS in individuals with CAI is warranted.</p><p>Much of the literature has been focused on the lower extremity kinematic and neuromuscular alterations associated with CAI during jump landings. <ref type="bibr" target="#b19">20</ref> Whereas individuals with CAI have demonstrated altered lower limb kinematics and neuromuscular control during a side-cutting task, <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b21">21</ref> we are unaware of any investigations of lower limb joint kinetics and stiffness during a side-cutting task in cohorts with CAI. Identifying lower limb joint kinetic and energetic alterations during sport-specific tasks that isolate loading on the lateral ankle structures, such as side cutting, would further elucidate movement dynamics that are associated with recurrent LASs in individuals with CAI. Therefore, the purpose of our study was to assess lower limb joint kinetics and sagittal-plane joint stiffness during the stance phase of a side-cutting task in individuals with or without CAI. We hypothesized that individuals with CAI would display altered lower limb joint kinetic patterns and more proximal joint stiffness than healthy individuals serving as controls.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Estimating sample size using G*Power software (University of Düsseldorf, Düsseldorf, Germany), we determined that 13 participants in each group would be needed to achieve a desired power of 0.80 with a moderate effect size and the a level set at .05. <ref type="bibr" target="#b22">22</ref> Fifteen participants with self-reported CAI (7 men, 8 women; age ¼ 21.3 6 1.6 years, height ¼ 171.0 6 11.2 cm, mass ¼ 73.4 6 15.2 kg) and 15 healthy matched controls (7 men, 8 women; age ¼ 21.5 6 1.5 years, height ¼ 169.9 6 10.6 cm, mass ¼ 75.5 6 13.0 kg) who were involved in competitive or recreational sports at the time of the study completed the study procedures. The selection criteria for participants with CAI were based on the recommendations from the International Ankle Consortium: (1) self-reported history of 2 or more LASs, with 1 of those LASs occurring within the 12 months before the study; (2) history of an LAS that required non-weight-bearing activity or immobilization for more than 24 hours; (3) self-reported history of the affected ankle giving way; or (4) a Cumberland Ankle Instability Tool (CAIT) score of 24. <ref type="bibr" target="#b23">23</ref> Exclusion criteria for both groups were (1) a history of surgery or fracture to either lower extremity, (2) any musculoskeletal injury to the lower extremity in the 3 months before the study, or (3) diagnosis of any musculoskeletal or neurologic disorder. All participants provided written informed consent, and the study was approved by the Institutional Review Board at Mississippi State University.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Instrumentation</head><p>Twelve infrared cameras (model Bonita 10; Vicon, Oxford, United Kingdom) recording at 200 Hz were used to collect 3-dimensional lower limb kinematic data. Retroreflective marker sets (ie, clusters), which were constructed from thermoplastic, were attached to the participants' posterior pelvis and bilaterally on the thighs, shanks, and feet using double-sided tape. <ref type="bibr" target="#b7">8</ref> Nylon therapeutic wraps were placed around the clusters to further minimize movement artifact of the markers during the side-cutting task. Ground reaction force data were also collected using a portable force platform (model AccuGait; Advanced Mechanical Technology Inc, Watertown, MA) sampling at 1000 Hz during the side-cutting task. The kinematic and ground reaction force data were collected simultaneously and time synchronized using MotionMonitor software (version 9; Innovative Sports Training Inc, Chicago, IL).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedures</head><p>Participants attended a single familiarization session. During this session, the CAIT and injury history questionnaires were completed, which allowed each participant to subjectively report the level of ankle instability and the total number of LASs sustained. We also obtained anthropometric data and provided participants with a detailed description of the testing procedures. The primary investigator (J.D.S.) instructed the participants in the sidecutting task. They could practice the side-cutting task as many times as desired during this session to reduce any potential learning effects. After the familiarization session, participants returned to the laboratory within 72 hours to complete their experimental testing session wearing the low-top athletic shoes of their choice.</p><p>Upon arrival at the laboratory for the testing session, participants performed a dynamic warm-up protocol that lasted approximately 5 minutes. This warm-up consisted of 2 sets of 10-yd (9-m) skips, high knees, submaximal jogging, exaggerated gait swings, and lunges. Next, they completed the side-cutting task, which was modified from that used in previous investigations <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b21">21</ref> of cohorts with CAI. For this task, participants were positioned 70 cm away from the center of the force platform, which was situated so the top of the force platform was level with the ground, and instructed to stand on their nontesting limb with approximately 458 of knee and hip flexion. They received an oral cue to perform an anterior jump and land with their testing limb on the force platform. After contacting the force platform with the testing limb, participants subsequently changed their direction 458 to the contralateral side and ran as quickly as possible for 3 m. The 458 side-cutting angle was marked on the ground to provide a visual representation of the proper cutting angle and the required running distance. Participants completed 5 practice trials on the limb that was tested before any trials were recorded to ensure they were contacting the force platform with their entire foot. Next, a total of 3 successful trials of the sidecutting task were completed and recorded. The testing limb in the CAI group was defined as the limb subjectively reported on the CAIT questionnaire as having the affected ankle, whereas the testing limb of the control group was sex matched to a participant in the CAI group with a similar age, height, mass, and limb dominance. The dominant limb was determined by asking participants which limb they would use to kick a ball. A trial was repeated if the participant's entire foot did not contact the force platform during the side-cutting task. The cumulative total of the 3 successful trials from each participant was used in the statistical analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Processing</head><p>We constructed each participant's lower limbs using the MotionMonitor software to determine the ankle-, knee-, and hip-joint centers. The joint centers were defined in the software by placing a retroreflective measurement sensor on prominent anatomic landmarks to estimate the centers of the foot and the ankle, knee, and hip joints. The ankle-joint center was defined using the medial and lateral malleoli and the distal second phalanx, whereas the knee-joint center was defined using the medial and lateral femoral condyles. The hip-joint center was defined using the anterior-superior iliac spine and L5-S1 joint. The proximal segment served as the reference point in the software for creating the foot and the ankle, knee, and hip joints. The ankle-and knee-joint centers were calculated using the centroid method and the hip-joint center was calculated using the method of Davis et al. <ref type="bibr" target="#b24">24</ref> The primary investigator located the prominent anatomic landmarks for all segment constructions.</p><p>Ankle, knee, and hip kinematics were calculated using the angle-orientation method of Grood and Suntay. <ref type="bibr" target="#b25">25</ref> Timesynchronized lower limb kinematic and ground reaction force data were filtered with a low-pass, third-order Butterworth filter that had a frequency of 15 Hz. Anthropometric data and the time-synchronized kinematic and ground reaction force data were used to compute net internal joint moments of the ankle, knee, and hip using an inverse-dynamics procedure in the MotionMonitor software. Net internal joint moments were computed and analyzed in the sagittal, frontal, and transverse planes during the stance phase of the side-cutting task and normalized to body mass (Nm/kg) for each participant. The stance phase was defined as the time interval from when the vertical ground reaction force exceeded 15 N after initial foot contact until the vertical ground reaction force was less than 15 N (ie, toe-off). Each participant's stance phase was normalized to 100% from initial foot contact (0%) to toe-off (100%) for the statistical analysis. <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b21">21</ref> Furthermore, we computed sagittal-plane ankle-, knee-, and hip-joint stiffness as the change in net internal joint moment divided by the angular displacement between initial contact and peak dorsiflexion and knee and hip extension during the stance phase of the side-cutting task. <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical Analysis</head><p>Descriptive and dependent variables are reported as mean 6 standard deviation. Independent-samples t tests were used to compare descriptive characteristics and CAIT scores between CAI and control groups. To compare stance-averaged ankle, knee, and hip net internal joint moments during the side-cutting task between the CAI and control groups, 2-tailed independent-samples t tests were computed for each discrete time during the stance phase. Cohen d effect-size data were calculated for all dependent variables as the difference in means divided by the pooled SD and were interpreted as small (, 0.40), moderate (0.40-0.80), or large (. 0.80). <ref type="bibr" target="#b22">22</ref> The a level was set at .05. All statistical analyses were performed using the statistical software package in Excel (version 2016; Microsoft Corp, Redmond, WA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>The CAI and control groups were similar in age (t 28 ¼ 0.349, P ¼ .73), height (t 28 ¼ 0.271, P ¼ .79), and mass (t 28 ¼0.393, P ¼ .70). The CAI group (18.8 6 3.4) had a lower CAIT score than the control group (29.7 6 0.6; P , .001) and reported 6.0 6 3.2 total LASs. Sagittal-, frontal-, and transverse-plane stance-averaged net internal joint moments during the side-cutting task are presented in Figures <ref type="figure" target="#fig_2">1 to 3</ref>. The CAI group demonstrated greater ankle plantar-flexion moment from 3% to 16% of the stance phase than the control group (mean difference ¼ 0.22 6 0.08 Nm/kg; P range ¼ .01-.049; Cohen d range ¼ 0.62-0.97; Figure <ref type="figure" target="#fig_1">1A</ref>). In the frontal plane, the CAI group showed less ankle-eversion moment from 39% to 81% of the stance phase (mean difference ¼ 0.13 6 0.02 Nm/kg; P range ¼ .009-.049; Cohen d range ¼ 0.62-0.92; Figure <ref type="figure" target="#fig_0">2A</ref>), which also coincided with less knee-abduction moment from 52% to 75% of the stance phase (mean difference ¼ 0.27 6 0.03 Nm/kg; P range ¼ .27-.049; Cohen d range ¼ 0.63-0.75: Figure <ref type="figure" target="#fig_0">2B</ref>) than in the control group. We observed no other differences in sagittal-, frontal-, or transverse-plane net internal joint moments between groups during the side-cutting task.</p><p>The Table describes the sagittal-plane ankle-, knee-, and hip-joint stiffness for each group during the task. We noted no differences between groups for sagittal-plane ankle-joint stiffness (t 28 ¼ 1.330, P ¼ .09; Cohen d ¼ 0.50) or knee-joint stiffness (t 28 ¼ 0.180, P ¼ .43; Cohen d ¼ 0.05). Conversely, the CAI group demonstrated greater hip-joint stiffness than the control group (mean difference ¼ 0.12 Nm/kg/8; t 28 ¼ 1.978; P ¼ .03; Cohen d ¼ 1.00).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>We conducted this investigation to assess lower limb joint kinetic patterns and sagittal-plane joint stiffness during the stance phase of a side-cutting task in individuals with or without CAI. Our main findings were that individuals with CAI displayed an increased plantar-flexion moment during the initial contact phase (3%-16% of the stance phase) and reduced ankle-eversion and kneeabduction moments during the midstance (39%-81% of stance phase) to late-stance phase (52%-75% of stance phase) when performing the task. Whereas we found no between-groups differences for sagittal-plane ankle-joint or knee-joint stiffness, the CAI group demonstrated increased sagittal-plane hip-joint stiffness during the side-cutting task compared with the control group. These results supported our hypothesis that increased proximal-joint stiffness would be observed in the CAI group, but the findings in lower limb joint kinetics only partially confirmed our initial hypothesis.</p><p>Increased ankle plantar-flexion moment was present in the CAI group from 3% to 16% of the stance phase during the side-cutting task (Figure <ref type="figure" target="#fig_1">1A</ref>). Although we did not examine lower extremity kinematics, we speculate that the greater dorsiflexion angle during the early-stance phase might explain the increased plantar-flexion moment in the CAI group. Individuals with CAI are known to display a greater ankle-dorsiflexion angle and less sagittal-plane motion during jump landings than healthy control partic-ipants. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b26">26</ref> This sagittal-plane ankle-joint alteration reflects the mechanical constraints associated with CAI <ref type="bibr" target="#b27">27</ref> and the fact that greater talocrural dorsiflexion places the joint in a more tightly packed position to protect the chronically unstable ankle when performing dynamic maneuvers. As a result, these changes in sagittal-plane motion reduce sagittal-plane energy absorption at the ankle during initial foot contact and, therefore, likely explain the greater plantar-flexion moment observed in the CAI group. However, these findings do not support previous reports <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b17">18</ref> of a reduced ankle plantar-flexion moment during the midstance to late-stance phases of a landing and jump of 908 to the contralateral side in the CAI group compared with ankle-sprain copers and control individuals. The discrepant findings regarding ankle plantar-flexion moment may be attributed to differences in the dynamic-movement tasks used. Movements that are multiplanar closely mimic real-time sporting maneuvers and isolate lateral ankle loading, such as the side-cutting task performed in our study, and likely will not elicit the same sagittal-plane ankle-joint kinetic alterations previously demonstrated in cohorts with CAI during single-legged jump landings. <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b17">18</ref> In contrast, we observed a reduced ankle-eversion moment from 39% to 81% of stance phase with moderate to large effect sizes in the CAI group (Figure <ref type="figure" target="#fig_0">2A</ref>). During a side-cutting task, greater mediolateral ground reaction forces, in addition to increased subtalar-inversion and  internal-rotation angles in preparation to rapidly change direction, can augment the inversion moment of the ankle complex. <ref type="bibr" target="#b6">7</ref> Individuals with CAI exhibited reduced neuromuscular control, particularly in the peroneus longus and peroneus brevis, during the prelanding and postlanding phases of jump landings <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b17">18</ref> and, in more recent investigations, during side-cutting tasks. <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b21">21</ref> The reduced ankleeversion moment demonstrated by our CAI group, in combination with previous findings of reduced neuromuscular control, <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b21">21</ref> provides evidence of centrally mediated motor-control alterations that reduce dynamic frontal-plane joint stabilization. The impairments in sensorimotor function related to CAI likely contribute to the ankle complex potentially being in a more inverted and internally rotated position in preparation for ground contact and when the lateral ankle is loaded during the ground-contact phase of a side-cutting movement. Whereas the interaction between frontal-plane ankle kinematics and moments during a side-cutting task in participants with CAI is still unclear, it seems reasonable based on recent evidence <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b17">18</ref> that reduced ankle-eversion moments indicate the lateral ankle musculature is unable to control frontalplane movement eccentrically when the lateral ankle is loaded during ground contact. This could lead to the ankle complex giving way into excessive inversion and result in a recurrent LAS.</p><p>Reductions in ankle-eversion moment also coincided with less knee-abduction moment from 52% to 75% of the stance phase in the CAI group than in the control group (Figure <ref type="figure" target="#fig_0">2B</ref>). Given that the ankle and knee joints are linked via the kinetic chain, perceptions of an unstable ankle could result in less deviation of the tibia in the frontal plane to attain stability in the proximal segments and reduce lateral ankle loading in participants with CAI. Examinations of proximal-segment frontal-plane biomechanical measures during dynamic tasks in CAI cohorts are limited, but researchers have reported reduced knee-abduction moments <ref type="bibr" target="#b17">18</ref> and frontal-plane hip variability <ref type="bibr" target="#b28">28</ref> in individuals with CAI during single-legged jump landings. In addition, greater hip-abduction angles during the preparatory and early to midstance phases have been found in participants with CAI during a side-cutting movement. <ref type="bibr" target="#b16">17</ref> Although we did not find differences in frontal-or transverse-plane hip moment between groups, the literature has indicated that proximal-segment movement alterations in individuals with CAI appear to be task dependent.</p><p>The knee-and hip-extensor moment patterns previously exhibited during the stance phase of jump-landing in CAI cohorts <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b17">18</ref> were not present in this study. However, the CAI group displayed greater sagittal-plane hip-joint stiffness than the control group, with a large effect size (Table ). The joint-stiffness calculation uses joint kinetic and kinematic data to provide an estimate of the applied forces that cause changes in movement patterns at each joint. <ref type="bibr" target="#b14">15</ref> The increased hip-joint stiffness in the CAI group reflected a hip-dominant movement strategy during the side-cutting task. Researchers have provided evidence that a hip-dominant movement strategy was used by individuals in the acute <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b29">29</ref> and chronic <ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b21">21</ref> stages of LASs. Whereas the cause of this longitudinal dynamic-movement adaptation is unknown, the evidence suggested that a hipdominant movement strategy was used at various stages after an LAS. Thus, the injured ankle joint may be unable to adequately withstand impact and rotational forces during the ground contact phase of a side-cutting task. To protect the unstable ankle from recurrent injury, a compensatory intralimb load redistribution occurs to increase reliance on the proximal joints to attenuate impact forces, maintain overall body equilibrium, and prevent excessive ankle-joint displacement. Dynamic-movement adaptations that transfer Table. Sagittal-Plane Joint Stiffness During the Side-Cutting Task Joint Group, Nm/kg/8 (Mean 6 SD) t 28 Value P Value Mean Difference (95% Confidence Interval) Cohen d Effect Size Chronic Ankle Instability Control Ankle À0.06 6 0.01 À0.08 6 0.04 1.330 .09 0.02 (À0.01, 0.04) 0.50 Knee À0.16 6 0.16 À0.17 6 0.20 0.180 .43 0.01 (À0.12, 0.15) 0.05 Hip À0.25 6 0.15 À0.14 6 0.09 1.978 .03 a 0.12 (À0.24, 0.01) 1.00 a Between-groups difference (P , .05).</p><p>reliance from the distal ankle joint to the proximal joints appear to be used long after a first-time lateral ankle sprain. <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b17">18</ref> Consequently, this erroneous movement pattern appears to be an underlying factor contributing to recurrent LASs in individuals with CAI. Therefore, clinicians and practitioners should also examine proximalsegment movement patterns when using dynamic movements to assess the LAS injury risk in individuals with CAI. The lack of between-groups differences in frontal-and transverse-plane hip moment could possibly be attributed to the noticeably greater standard deviation of the mean in the CAI group (Figures <ref type="figure" target="#fig_0">2C</ref> and <ref type="figure" target="#fig_2">3C</ref>). Brown et al <ref type="bibr" target="#b28">28,</ref><ref type="bibr" target="#b30">30</ref> reported increased frontal-plane ankle variability and reduced frontal-plane knee and hip variability during jump-landing tasks in cohorts with CAI. We did not compute a coefficient of variation or statistically analyze kinetic variability during the side-cutting task, but the wide standard deviation of the mean in the frontal-and transverse-plane hip moments in the CAI group could indicate more variable proximal-movement strategies in individuals with CAI. Consequently, greater variability during jump landings has been suggested to increase the risk of the ankle giving way during dynamic movements. <ref type="bibr" target="#b28">28,</ref><ref type="bibr" target="#b30">30</ref> However, the side-cutting task that we used may cause frontal-and transverse-plane movements that are more variable than previously reported in CAI cohorts during jump landings, <ref type="bibr" target="#b28">28,</ref><ref type="bibr" target="#b30">30</ref> which warrants further investigation. Examining lower limb variability during change-of-direction tasks would provide clinically relevant information to practitioners and clinicians regarding the possible link between movement variability and recurrent LASs in individuals who develop CAI.</p><p>Whereas we observed differences in lower limb joint kinetics and stiffness, some limitations should be considered when interpreting our results. First, we did not report muscle-activity data, which may limit the interpretation of our findings. Examining neuromuscular control during the side-cutting task would further elucidate the differences we observed in joint kinetics and stiffness between the CAI and control groups. Second, we were unable to compute frontalor transverse-plane joint stiffness because it was difficult to accurately quantify these measures due to the smaller moments and joint displacements of the participants. Future studies of larger CAI cohorts are warranted to adequately determine these measures during sport-specific tasks and enhance the effect of our findings. Third, the side-cutting task that we used was simulated, and participants knew the direction to which they would be changing. Research in which protocols have been implemented to investigate the differences between anticipated and unanticipated changeof-direction tasks in individuals with CAI is limited. These data would further emphasize the clinical implications of our findings and identify movement strategies that contribute to the ankle giving way during dynamic movements typically observed in real-time injury scenarios.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>Our findings suggested that individuals with CAI displayed altered ankle-joint kinetics and increased proximal-joint stiffness compared with healthy control participants during the stance phase of a side-cutting task. The differences in ankle-joint kinetics and hip-joint stiffness provide insight into potential movement adaptations during a side-cutting task due to the sensorimotor and mechanical constraints of CAI. These altered movement patterns likely contribute to the recurrent LAS paradigm in individuals with CAI. Furthermore, our results may provide useful data to researchers and clinicians for developing effective rehabilitation and training programs to improve lower limb movement patterns and mitigating the risk of recurrent injury in individuals who develop CAI.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 .</head><label>2</label><figDesc>Figure2. Frontal-plane net internal joint moments for the chronic ankle instability and control groups during the stance phase (0% ¼ initial contact, 100% ¼ toe-off) of the side-cutting task (mean 6 SD). A, Ankle. The boxed area indicates a difference (P , .05). B, Knee. The boxed area indicates a difference (P , .05). C, Hip.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure1. Sagittal-plane net internal joint moments for the chronic ankle instability and control groups during the stance phase (0% ¼ initial contact, 100% ¼ toe-off) of the side-cutting task (mean 6 SD). A, Ankle. The boxed area indicates a difference (P , .05). B, Knee. C, Hip.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Transverse-plane net internal joint moments for the chronic ankle instability and control groups during the stance phase (0% ¼ initial contact, 100% ¼ toe-off) of the side-cutting task (mean 6 SD). A, Ankle. B, Knee. C, Hip.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Volume 55 Number 2 February 2020</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>Ó by the National Athletic Trainers' Association, Inc <ref type="url" target="www.natajournals.org">www.natajournals.org</ref> </p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Epidemiology of collegiate injuries for 15 sports: summary and recommendations for injury prevention initiatives</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hootman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Agel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="311" to="319" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hootman JM, Dick R, Agel J. Epidemiology of collegiate injuries for 15 sports: summary and recommendations for injury prevention initiatives. J Athl Train. 2007;42(2):311-319.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The epidemiology of lateral ligament complex ankle sprains in National Collegiate Athletic Association sports</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Roos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Kerr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Mauntel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Djoko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Dompier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Wikstrom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="201" to="209" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roos KG, Kerr ZY, Mauntel TC, Djoko A, Dompier TP, Wikstrom EA. The epidemiology of lateral ligament complex ankle sprains in National Collegiate Athletic Association sports. Am J Sports Med. 2017;45(1):201-209.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Characteristics of people with recurrent ankle sprains: a systematic review with meta-analysis</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Hiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Nightingale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Coughlan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Caulfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Delahunt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="660" to="672" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hiller CE, Nightingale EJ, Lin CW, Coughlan GF, Caulfield B, Delahunt E. Characteristics of people with recurrent ankle sprains: a systematic review with meta-analysis. Br J Sports Med. 2011;45(8):660-672.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Functional anatomy, pathomechanics, and pathophysiology of lateral ankle instability</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="364" to="375" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hertel J. Functional anatomy, pathomechanics, and pathophysiology of lateral ankle instability. J Athl Train. 2002;37(4):364-375.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Biomechanics of supination ankle sprain: a case report of an accidental injury event in the laboratory</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Krosshaug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Yung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Chan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="822" to="827" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fong D, Hong Y, Shima Y, Krosshaug T, Yung P, Chan KM. Biomechanics of supination ankle sprain: a case report of an accidental injury event in the laboratory. Am J Sports Med. 2009;37(4):822-827.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Kinematics and kinetics of an accidental lateral ankle sprain</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kristianslund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bahr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Krosshaug</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="2576" to="2578" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kristianslund E, Bahr R, Krosshaug T. Kinematics and kinetics of an accidental lateral ankle sprain. J Biomech. 2011;44(14):2576- 2578.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Toe-in landing increases the ankle inversion angle and moment during single-leg landing: implications in the prevention of lateral ankle sprains</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Koshino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ishida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yamanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Samukawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tohyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="530" to="535" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koshino Y, Ishida T, Yamanaka M, Samukawa M, Kobayashi T, Tohyama H. Toe-in landing increases the ankle inversion angle and moment during single-leg landing: implications in the prevention of lateral ankle sprains. J Sport Rehabil. 2017;26(6):530-535.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Lower-extremity kinematics during ankle inversion perturbations: a novel experimental protocol that simulates an unexpected lateral ankle sprain mechanism</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Mosby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Macias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Knight</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/jsr.2018-0061</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>published online ahead of print February</note>
+	<note type="raw_reference">Simpson JD, Stewart EM, Mosby AM, Macias DM, Chander H, Knight AC. Lower-extremity kinematics during ankle inversion perturbations: a novel experimental protocol that simulates an unexpected lateral ankle sprain mechanism [published online ahead of print February 11, 2019]. J Sport Rehabil. doi:10.1123/jsr.2018- 0061.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Biomechanics of ankle giving way: a case report of accidental ankle giving way during the drop landing test</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Simpson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jshs.2018.01.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Health Sci</title>
+		<imprint/>
+	</monogr>
+	<note>published online ahead of print February 2, 2018</note>
+	<note type="raw_reference">Li Y, Ko J, Zhang S, Brown CN, Simpson KJ. Biomechanics of ankle giving way: a case report of accidental ankle giving way during the drop landing test [published online ahead of print February 2, 2018]. J Sport Health Sci. doi:10.1016/j.jshs.2018.01. 002.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Single-leg drop landing motor control strategies following acute ankle sprain injury</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Doherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bleakley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Caulfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Delahunt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="525" to="533" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doherty C, Bleakley C, Hertel J, Caulfield B, Ryan J, Delahunt E. Single-leg drop landing motor control strategies following acute ankle sprain injury. Scand J Med Sci Sports. 2015;25(4):525-533.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Lower extremity coordination and symmetry patterns during a drop vertical jump task following acute ankle sprain</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Doherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bleakley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum Mov Sci</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="34" to="46" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doherty C, Bleakley C, Hertel J, et al. Lower extremity coordination and symmetry patterns during a drop vertical jump task following acute ankle sprain. Hum Mov Sci. 2014;38:34-46.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Single-leg drop landing movement strategies 6 months following first-time acute lateral ankle sprain injury</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Doherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bleakley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Caulfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Delahunt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="806" to="817" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doherty C, Bleakley C, Hertel J, Caulfield B, Ryan J, Delahunt E. Single-leg drop landing movement strategies 6 months following first-time acute lateral ankle sprain injury. Scand J Med Sci Sports. 2015;25(6):806-817.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Functional instability of the ankle: differences in patterns of ankle and knee movement prior to and post landing in a single leg jump</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Caulfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Garrett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="64" to="68" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Caulfield BM, Garrett M. Functional instability of the ankle: differences in patterns of ankle and knee movement prior to and post landing in a single leg jump. Int J Sports Med. 2002;23(1):64- 68.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Changes in lower limb kinematics, kinetics, and muscle activity in subjects with functional instability of the ankle joint during a single leg drop jump</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Delahunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Monaghan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Caulfield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1991" to="2000" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Delahunt E, Monaghan K, Caulfield B. Changes in lower limb kinematics, kinetics, and muscle activity in subjects with functional instability of the ankle joint during a single leg drop jump. J Orthop Res. 2006;24(10):1991-2000.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Single-leg drop landing movement strategies in participants with chronic ankle instability compared with lateral ankle sprain</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Doherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bleakley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Caulfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Delahunt</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1049" to="1059" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doherty C, Bleakley C, Hertel J, Caulfield B, Ryan J, Delahunt E. Single-leg drop landing movement strategies in participants with chronic ankle instability compared with lateral ankle sprain &apos;&apos; c o p e r s . &apos;&apos; K n e e S u r g S p o r t s T r a u m a t o l A r t h r o s c . 2016;24(4):1049-1059.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Kinetic compensations due to chronic ankle instability during landing and jumping</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Son</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Seeley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Hopkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="308" to="317" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kim H, Son SJ, Seeley MK, Hopkins JT. Kinetic compensations due to chronic ankle instability during landing and jumping. Med Sci Sports Exerc. 2018;50(2):308-317.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Lower limb joint motion during a cross cutting movement differs in individuals with and without chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Koshino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yamanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ezawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther Sport</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="242" to="248" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koshino Y, Yamanaka M, Ezawa Y, et al. Lower limb joint motion during a cross cutting movement differs in individuals with and without chronic ankle instability. Phys Ther Sport. 2014;15(4):242- 248.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Movement strategies among groups of chronic ankle instability, coper, and control</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Son</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Seeley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Hopkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1649" to="1661" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Son SJ, Kim H, Seeley MK, Hopkins JT. Movement strategies among groups of chronic ankle instability, coper, and control. Med Sci Sports Exerc. 2017;49(8):1649-1661.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Altered leg muscle activity in volleyball players with functional ankle instability during a sideward lateral cutting movement</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Y</forename><surname>Suda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Sacco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther Sport</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="164" to="170" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Suda EY, Sacco IC. Altered leg muscle activity in volleyball players with functional ankle instability during a sideward lateral cutting movement. Phys Ther Sport. 2011;12(4):164-170.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Individuals with chronic ankle instability exhibit dynamic postural stability deficits and altered unilateral landing biomechanics: a systematic review</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Macias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Knight</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018-06-13">June 13. 2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simpson JD, Stewart EM, Macias DM, Chander H, Knight AC. Individuals with chronic ankle instability exhibit dynamic postural stability deficits and altered unilateral landing biomechanics: a systematic review [published online ahead of print June 13, 2018].</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1016/j.ptsp.2018.06.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther Sport</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Phys Ther Sport. doi:10.1016/j.ptsp.2018.06.003.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Kinematics and muscle activities of the lower limb during a side-cutting task in subjects with chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Koshino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ishida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yamanaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Knee Surg Sports Traumatol Arthrosc</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1071" to="1080" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koshino Y, Ishida T, Yamanaka M, et al. Kinematics and muscle activities of the lower limb during a side-cutting task in subjects with chronic ankle instability. Knee Surg Sports Traumatol Arthrosc. 2016;24(4):1071-1080.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A power primer</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychol Bull</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="155" to="159" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cohen J. A power primer. Psychol Bull. 1992;112(1):155-159.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Selection criteria for patients with chronic ankle instability in controlled research: a position statement of the International Ankle Consortium</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Gribble</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Delahunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bleakley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="121" to="127" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gribble PA, Delahunt E, Bleakley CM, et al. Selection criteria for patients with chronic ankle instability in controlled research: a position statement of the International Ankle Consortium. J Athl Train. 2014;49(1):121-127.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A gait analysis data collection and reduction technique</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Iii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ounpuu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tyburski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Gage</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum Mov Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="575" to="587" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davis RB III, Ounpuu S, Tyburski D, Gage JR. A gait analysis data collection and reduction technique. Hum Mov Sci. 1991;10(5):575- 587.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">A joint coordinate system for the clinical description of three-dimensional motions: application to the knee</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Grood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Suntay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech Eng</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="136" to="144" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grood ES, Suntay WJ. A joint coordinate system for the clinical description of three-dimensional motions: application to the knee. J Biomech Eng. 1983;105(2):136-144.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Lower extremity biomechanics during a drop-vertical jump in participants with or without chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Herb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Grossman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Feger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Donovan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="364" to="371" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Herb CC, Grossman K, Feger MA, Donovan L, Hertel J. Lower extremity biomechanics during a drop-vertical jump in participants with or without chronic ankle instability. J Athl Train. 2018;53(4):364-371.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Individuals with mechanical ankle instability exhibit different motion patterns than those with functional ankle instability and ankle sprain copers</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Padua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Guskiewicz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Biomech</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="822" to="831" />
+			<date type="published" when="2008">2008</date>
+			<pubPlace>Bristol, Avon</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brown C, Padua D, Marshall SW, Guskiewicz K. Individuals with mechanical ankle instability exhibit different motion patterns than those with functional ankle instability and ankle sprain copers. Clin Biomech (Bristol, Avon). 2008;23(6):822-831.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Movement variability during single leg jump landings in individuals with and without chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bowser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Simpson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Biomech</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="52" to="63" />
+			<date type="published" when="2012">2012</date>
+			<pubPlace>Bristol, Avon</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brown C, Bowser B, Simpson KJ. Movement variability during single leg jump landings in individuals with and without chronic ankle instability. Clin Biomech (Bristol, Avon). 2012;27(1):52-63.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Coordination and symmetry patterns during the drop vertical jump, 6-months after first-time lateral ankle sprain</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Doherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bleakley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1537" to="1544" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doherty C, Bleakley C, Hertel J, et al. Coordination and symmetry patterns during the drop vertical jump, 6-months after first-time lateral ankle sprain. J Orthop Res. 2015;33(10):1537-1544.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Variability of motion in individuals with mechanical or functional ankle instability during a stop jump maneuver</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Padua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Guskiewicz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Biomech</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="762" to="768" />
+			<date type="published" when="2009">2009</date>
+			<pubPlace>Bristol, Avon</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brown CN, Padua DA, Marshall SW, Guskiewicz KM. Variability of motion in individuals with mechanical or functional ankle instability during a stop jump maneuver. Clin Biomech (Bristol, Avon). 2009;24(9):762-768.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Hip Strength and Pitching Biomechanics in Adolescent Baseball Pitchers</title>
+				<funder>
+					<orgName type="full">National Athletic Trainers&apos; Association, Inc www</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Medical College of Wisconsin Department of Orthopaedic Surgery</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Maxwell</forename><forename type="middle">L</forename><surname>Albiero</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Medical College of Wisconsin</orgName>
+								<address>
+									<addrLine>Milwaukee; †Freedom Physical Therapy</addrLine>
+									<settlement>Mukwonago</settlement>
+									<region>WI</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wesley</forename><surname>Kokott</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>BS</roleName><forename type="first">Cody</forename><surname>Dziuk</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Janelle</forename><forename type="middle">A</forename><surname>Cross</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">‡Department of Orthopaedic Surgery</orgName>
+								<orgName type="institution">Medical College of Wisconsin</orgName>
+								<address>
+									<settlement>Milwaukee</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Hip Strength and Pitching Biomechanics in Adolescent Baseball Pitchers</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">10D88CCD1E1925A3932692AFF1FD41F2</idno>
+					<idno type="DOI">10.4085/1062-6050-0074.22</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:10+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>kinematics</term>
+					<term>lower body strength</term>
+					<term>elbow torque</term>
+					<term>injury prevention</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Hip strength may influence the energy flow through the kinematic chain during baseball pitching, affecting athlete performance as well as the risk for injury.</p><p>Objective: To identify associations between hip strength and pitching biomechanics in adolescent baseball pitchers during 3 key events of the pitching cycle.</p><p>Design: Cross-sectional study.</p><p>Setting: Biomechanics laboratory.</p><p>Patients or Other Participants: A total of 26 adolescent male baseball pitchers (age ¼ 16.1 6 0.8 years, height ¼ 184.29 6 5.5 cm, mass ¼ 77.5 6 8.5 kg).</p><p>Main Outcome Measure(s): The main outcome measure was hip strength (external rotation, internal rotation, flexion, abduction, adduction, and extension). After strength measurements were acquired, motion capture was used to obtain a fullbody biomechanical analysis at 3 events during the pitching cycle (foot contact, maximal external rotation, and ball release). We then evaluated these values for associations between hip strength and pitching biomechanics. Scatterplots were examined for linearity to identify an appropriate correlation test. The associations were linear; thus, 2-tailed Pearson correlation coefficients were used to determine correlations between biomechanical metrics. An a level of .01 was chosen.</p><p>Results: Ten strong correlations were found between pitching biomechanics and hip strength: 8 correlations between hip strength and kinematics at key points during the pitch and 2 correlations of hip strength with peak elbow-varus torque.</p><p>Conclusions: Several correlations were noted between lower extremity strength and pitching biomechanics. This information provides data that may be used to improve performance or reduce injury (or both) in pitchers. Increased hip strength in adolescent pitchers may both improve performance and decrease the risk of injury.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I</head><p>n baseball, researchers have shown that pitchers account for a larger proportion of injured players than other positions, and their injuries are more likely to need surgical intervention. <ref type="bibr" target="#b0">1</ref> Pitching is a dynamic task that creates stressful and unnatural motions in the upper extremity, reaching levels of forces up to 5 times a pitcher's body weight. <ref type="bibr" target="#b1">2</ref> Throughout the course of a pitcher's career, the repetitive throwing motion increases the risk for injury at the shoulder and elbow joints, which are well-recognized problems in baseball pitchers. <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref> Continuous medial elbow valgus overloading during the throwing motion can lead to ulnar collateral ligament injury. <ref type="bibr" target="#b5">6</ref> Investigators <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> have also observed that excessive shoulder internal-rotation torques can contribute to rotator cuff and other shoulder joint injuries. Because baseball pitching injuries continue to be prevalent, finding solutions to minimize the injury risk is increasingly important.</p><p>Pitching biomechanics have been associated with changes in both performance and susceptibility to injury. <ref type="bibr" target="#b8">9</ref> Previous authors <ref type="bibr" target="#b9">10</ref> found that a structured strengthening and stretching program reduced medial elbow injuries in youth baseball pitchers. Motion analysis and physical therapist evaluations have revealed correlations between hip flexibility and pitching biomechanics. <ref type="bibr" target="#b10">11</ref> The pitching cycle has been described as a kinetic chain deriving energy from the lower extremities and transferring this energy via pelvic and trunk rotation to the upper extremities to produce throwing velocity. <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> Therefore, strengthening of the lower extremities, as the origin of the energy transferred to the throwing arm, has been hypothesized to enhance performance as well as avoid injury. <ref type="bibr" target="#b14">15</ref> In a recent study, Yanagisawa et al <ref type="bibr" target="#b15">16</ref> showed a positive association between both lead-hip and back-hip strength and increased pitching velocity. In addition, Laudner et al <ref type="bibr" target="#b16">17</ref> discovered a relationship between lumbopelvic control of the drive leg and both shoulder horizontal torque and elbow-valgus torque (EVT) during the throwing motion. This demonstrates the importance of strengthening the musculature involved with lumbopelvic control in the lower extremities to help divert excessive upper extremity forces and reduce the risk of resulting injury.</p><p>The purpose of our study was to identify associations between hip strength and pitching biomechanics in adolescent baseball pitchers, to aid in filling the void of knowledge regarding relationships between these variables. Specifically, we hypothesized that correlations would exist between lead-leg and back-leg extension strength and upper extremity kinematics and kinetics. We also hypothesized that correlations would exist between peak EVT and peak shoulder internal-rotation torque with lead-hip and back-hip strength.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Participants were 26 right-handed adolescent male baseball pitchers (age ¼ 16.1 6 0.8 years, height ¼ 184.29 6 5.5 cm, mass ¼ 77.5 6 8.5 kg) from a local competitive youth baseball program with at least 3 years of pitching experience and no current arm pain and no history of throwing-arm surgery. We defined arm dominance as the arm used for pitching. They underwent a clinical and a biomechanical analysis during 1 testing session performed during the preseason after they had been throwing and pitching for several weeks. The institutional review board of the Medical College of Wisconsin approved the project. All participants and their guardians provided written informed assent and consent, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Clinical Analysis</head><p>All pitchers performed an approximately 20-minute warm-up as described in a previous article. <ref type="bibr" target="#b10">11</ref> The warmup focused on the whole body by using static and dynamic stretching and pitching drills. After the warm-up, a single certified physical therapist (W.K.) collected all strength measurements. Strength was assessed for each hip, labeled as lead leg or back leg based on arm dominance. Because all pitchers were right handed, the lead leg was the left leg and the back leg was the right leg. A coin flip was performed to randomly begin strength testing with either the lead or back leg. Each pitcher's hip strength was measured in the following order: external rotators, internal rotators, flexors, abductors, adductors, and extensors. Our study followed established standardized test positions for measuring hip strength. <ref type="bibr" target="#b17">18</ref> A MicroFET2 dynamometer (Hoggan Health Industries) was used to record isometric strength measurements. We administered make tests rather than break tests due to their higher reliability. <ref type="bibr" target="#b18">19</ref> Three trials of a 5-second maximal voluntary isometric contraction were performed for each strength measurement. The mean value of the 3 trials was used for data analysis.</p><p>Hip external-rotator, internal-rotator, and flexor strength were measured with the pitchers seated on the edge of a mat table with their hips and knees at 908 angles. For the external rotators, the dynamometer was placed 5 cm proximal to the medial malleolus. The participants were instructed to maximally externally rotate the hip while avoiding any compensatory hip-flexion and trunk movements. For internal rotators, the dynamometer was placed 5 cm proximal to the lateral malleolus. The pitchers were instructed to maximally internally rotate the hip while avoiding any compensatory hip-flexion and trunk movements. For the hip flexors, the dynamometer was placed 5 cm proximal to the edge of the patella. Participants were instructed to maximally flex the hip while avoiding any compensatory movements, such as trunk backward or forward leaning.</p><p>Hip-abductor and hip-adductor strength was measured with the pitchers on the mat table in a side-lying position. The hips were stacked via the physical therapist's hand at the greater trochanter to ensure no trunk or pelvic rotation with the top leg lifted in a neutral position. For the hip abductors, the dynamometer was placed 5 cm above the lateral malleolus. Participants were instructed to maximally abduct the hip while avoiding any compensatory trunk rotation. For the hip adductors, the top leg was brought forward into hip flexion to allow the bottom leg to be lifted in adduction in a neutral position. The dynamometer was placed 5 cm above the medial malleolus. The pitchers were instructed to maximally adduct the hip while avoiding any compensatory trunk rotation.</p><p>Hip-extensor strength was measured with the pitcher lying prone on a treatment table. The dynamometer was placed posteriorly, 5 cm above the medial malleolus. Participants were instructed to maximally extend the hip while avoiding any compensatory pelvic lift of the anteriorsuperior iliac spine and trunk extension. Repeatability of dynamometer measures was excellent, with intraclass correlation coefficient (ICC) values ranging from 0.896 to 0.971.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Biomechanical Analysis</head><p>Biomechanical analysis was conducted similarly to that in an earlier study. <ref type="bibr" target="#b10">11</ref> Reflective markers were attached at anatomical landmarks as shown in Figure <ref type="figure">1</ref>. After the 20minute warm-up was completed and strength measurements were collected, the pitchers threw to prepare for pitching as they normally would. When they were ready for the pitching assessment, we recorded a static trial as previously described. <ref type="bibr" target="#b10">11</ref> Velocity and pitch location of each pitch were recorded using Pitching Monitor (model 2.0; Rapsodo LLC). We calculated all kinematics and kinetics using a biomechanical model in Visual 3D software (C-Motion, Inc). <ref type="bibr" target="#b19">20</ref> Thirteen kinematic metrics were analyzed at foot contact, maximal shoulder external rotation (MER), and ball release (BR; Figure <ref type="figure">2</ref>), consisting of shoulder external rotation, horizontal abduction, and abduction; elbow flexion; pelvic rotation; torso rotation; hip-to-shoulder separation; and lead-hip and back-hip external rotation, flexion, and abduction. As in a previous study, <ref type="bibr" target="#b10">11</ref> we analyzed 2 kinetic metrics: peak EVT and peak shoulder internal-rotation torque. These metrics are commonly reported in the pitching literature with links to pitching injuries. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b20">21</ref> Torque was normalized by body mass and height as described in another study. <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b21">22</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical Analysis</head><p>Descriptive statistics including means and SDs were calculated for all variables. Scatterplots were examined for linearity to identify the appropriate correlation test. The Shapiro-Wilk test confirmed that the data were normally distributed. The associations were linear, so we used 2tailed Pearson correlation coefficients to examine associa-tions between hip-strength measurements and biomechanical metrics. Correlations were assessed as weak (0.1 , r , 0.3), moderate (0.3 , r , 0.5), or strong (r . 0.5). <ref type="bibr" target="#b22">23</ref> The a level was set at .01. We used SPSS (version 26; IBM Corp) to analyze the data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>The 26 high school pitchers in the study had an average fastball velocity of 33.7 6 2.3 m/s. The means and SDs of the kinematics and strength are presented in Tables <ref type="table" target="#tab_0">1</ref> and <ref type="table" target="#tab_1">2</ref>, respectively. The normalized peak EVT was 4.1% 6 0.6% body mass 3 height, and the normalized peak shoulder internal-rotation torque was 3.9% 6 0.6% body mass 3 height. Ten correlations (8 kinematics, 2 kinetics) were identified with P , .01 and r . 0.5, demonstrating strong correlations with hip strength (Table <ref type="table" target="#tab_2">3</ref>). Back-hip extension strength was correlated with the hip-to-shoulder separation angle at MER (R 2 ¼ 0.290, P ¼ .005) and BR (R 2 ¼ 0.316, P ¼ .003; Figure <ref type="figure" target="#fig_1">3</ref>). When analyzing the kinetics, we identified that EVT was strongly correlated with both lead-hip abduction strength (R 2 ¼ 0.383, P ¼ .001) and back-hip abduction strength (R 2 ¼ 0.319, P ¼ .003; Figure Figure 2. Renderings from Visual 3D (C-Motion, Inc) software displaying the 3 key moments in the pitching cycle. A, Foot contact. B, Maximal external rotation. C, Ball release.</p><p>3). We observed no correlations between shoulder internalrotation torque and hip strength. Full correlation results are provided in Supplemental Tables <ref type="figure">1</ref><ref type="figure">2</ref><ref type="figure" target="#fig_1">3</ref><ref type="figure" target="#fig_2">4</ref>(available online at <ref type="url" target="http://dx.doi.org/10.4085/1062-6050-2020-20.S1">http://dx.doi.org/10.4085/1062-6050-2020-20.S1</ref>). We noted 6 other correlations between pitching kinematics and hip rotational strength (Figure <ref type="figure" target="#fig_2">4</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Our hypotheses were partially true. Back-hip extension strength was correlated with hip-to-shoulder separation angle at both MER and BR, whereas lead-hip extension strength was not correlated with pitching biomechanics. The EVT was correlated with both lead-hip and back-hip abduction strength, whereas no correlations were evident between shoulder internal-rotation torque and hip strength.</p><p>The hip-to-shoulder separation angle, which measures the angle formed between the pelvis and the upper torso, is a commonly evaluated kinematic variable in studies involving the pitching motion. We found strong correlations between this angle and back-hip extension strength at both MER (r ¼ 0.538, P ¼ .005) and BR (r ¼ 0.562, P ¼ .003). Back-hip extension is important for creating a longer stride length, <ref type="bibr" target="#b23">24</ref> which has been correlated with velocity and proper set up of the lead-leg hip flexion because it allows pitchers to properly translate their pelvic rotational torque to the upper extremities. <ref type="bibr" target="#b2">3</ref> Strong backhip extensors allow pitchers to propel themselves forward to create more forward velocity during the pitching cycle. <ref type="bibr" target="#b24">25</ref> The primary hip extensor is the gluteus maximus; Campbell et al <ref type="bibr" target="#b24">25</ref> demonstrated this as active during the arm-cocking phase. This extension may allow pitchers to properly rotate at the pelvis, helping to transfer the lower extremity energy into the torso and throwing arm. The increased hip-to-shoulder separation angle created by this rotation has been associated with an increase in pitch velocity as well as a decrease in humeral rotation torque and elbow-valgus load. <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b25">26</ref> When evaluating peak kinetics, we observed that both lead-hip abduction strength (r ¼ 0.619, P ¼ .001) and backhip abduction strength (r ¼ 0.565, P ¼ .003) were strongly correlated with normalized EVT. Back-hip abduction strength has been linked to greater pelvic rotation and the transfer of forces to the lead leg. <ref type="bibr" target="#b21">22</ref> If the core muscles cannot appropriately control these increased forces, then the transfer of force has been shown to increase EVT at the a A negative metric indicates the segment (pelvis or torso) was rotated in a clockwise direction for the right-handed pitcher. A positive metric indicates the segment was in a closed position. For a right-handed pitcher, the lead foot was pointing toward the right-handed batter. elbow. <ref type="bibr" target="#b21">22</ref> Earlier investigators <ref type="bibr" target="#b26">27</ref> noted lead-leg hip-adduction torque was linked with higher-velocity pitchers. It is possible the lead-hip adduction was overpowered by the pitchers' lead-hip abduction, resulting in decreased pelvic rotation and increased EVT. Therefore, it may be important for athletes to ensure balance between their hip-abductor and hip-adductor strengths to avoid increased EVT, which has been associated with elbow injuries among professional baseball pitchers. <ref type="bibr" target="#b27">28</ref> Six other correlations were identified between pitching kinematics and hip rotational strength (Figure <ref type="figure" target="#fig_2">4</ref>). During the pitching motion, the movement of the humeral head places the soft tissues of the shoulder joint under substantial stresses. Specifically, Takagi et al <ref type="bibr" target="#b28">29</ref> found excessive shoulder horizontal abduction at MER increased anterior shear forces in the shoulder, elevating athletes' risk for injury. We determined that shoulder horizontal-abduction angle and lead-hip internal-rotation strength had strong negative correlations at both MER (r ¼ À0.564, P ¼ .003) and BR (r ¼ À0.554, P ¼ .003). According to electromyography studies published by Oliver and Keely, <ref type="bibr" target="#b29">30</ref> at MER, the gluteus medius (a prominent muscle for internal rotation at the hip) is activated up to 145% of the maximal voluntary contraction and this is strongly correlated with pelvic rotation velocity. In addition, our data showed a strong positive correlation between lead-hip internal-rotation strength and back-hip adduction angle at BR (r ¼ 0.512, P ¼ .008). During the throwing motion, the lead-hip internal rotators help anchor the lead hip and leg, encouraging rotation while decelerating the hip after BR. <ref type="bibr" target="#b26">27</ref> In support of these data, Kageyama et al <ref type="bibr" target="#b26">27</ref> also showed that during the arm-cocking phase, the front hip was required to perform hip adduction and internal rotation to assist the pelvis in rotation. If pitchers lack the ability to rotate the pelvis, torsional energy via the upper trunk and shoulder may increase, resulting in increased shoulder horizontal abduction. <ref type="bibr" target="#b26">27</ref> This suggests the importance of avoiding a deficiency in lead-hip internal-rotation strength because it may increase the chance of shoulder injury due to the anterior shear forces from greater shoulder horizontal abduction.</p><p>Along with the lead hip, the shoulder horizontalabduction angle displayed correlations with the back hip. Back-hip external-rotation strength had a strong negative correlation at MER (r ¼ À0.501, P ¼ .009), and back-hip internal-rotation strength had strong negative correlations at both MER (r ¼À0.528, P ¼ .006) and BR (r ¼À0.520, P ¼ .006). Oliver and Keely 30 noted a pitcher's gluteus maximus (a prominent muscle for external rotation at the hip) of the back leg was highly activated during the armcocking and acceleration phases and identified a correlation between gluteus maximus external rotation and pelvic rotation. Calabrese <ref type="bibr" target="#b30">31</ref> found a relationship between internal hip-rotator strength and pelvic rotation, again supporting the importance of good pelvic rotation to avoid overcompensating and thereby placing excessive torsion on the upper extremity. Ultimately, our data support previous research and indicate that stronger lead-hip and back-hip rotators may allow the body to better position the shoulder in horizontal abduction, helping to avoid dangerous force thresholds. Exercises to strengthen both the internal and external hip rotators should not be overlooked by athletic trainers when working with pitchers because they may be beneficial in decreasing the risk for shoulder injuries.</p><p>Our study had limitations. First, a laboratory study can only show correlations at a single point. Whereas our data showed that both lead-hip and back-hip abduction strength were associated with higher EVT, we cannot necessarily say that increasing hip-abduction strength in an individual will lead to increased elbow torque. Future authors may include a multiple regression model that predicts biomechanical variables on the basis of hip-strength metrics. Second, no formal a correction was done as the large number of correlations would have made the a level very small, possibly leading to type II errors. To reduce type I errors, we set the a level at .01. Third, we only analyzed adolescent male pitchers, and the results may not be applicable to higher-level athletes because sequential timing differences may be present between professional and collegiate pitchers due to musculoskeletal development. Last, our results may have been influenced by segments of the kinematic chain not examined during this study, which may alter the observed isolated findings on the hips.</p><p>Our primary purpose was to clinically measure hip strength and investigate associations with pitching kine- matics. Our specific hypotheses were partially true. In summary, back-hip extension strength was correlated with the hip-to-shoulder separation angle at both MER and BR, whereas lead-hip extension strength was not correlated with pitching biomechanics. The EVT was correlated with both lead-hip and back-hip abduction strength, whereas no correlations were seen between shoulder internal-rotation torque and hip strength. Previous researchers demonstrated the importance of the segmental kinematic chain during the pitching cycle; however, focused studies on the relationship with hip strength are lacking. We identified key correlations involving hip-rotation strength, which can aid future pitchers by highlighting muscle groups to exercise appropriately in order to improve performance and decrease the injury risk.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 . 11 Figure 2 .</head><label>1112</label><figDesc>Figure 1. Marker placement. A, Anterior view. B, Posterior view. Reprinted with permission. 11</figDesc><graphic coords="3,51.31,41.44,514.74,343.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Scatterplots of the hypothesized correlations. A, Hip-to-shoulder separation angle at maximal external rotation and back-hip extension strength. B, Hip-to-shoulder separation angle at ball release and back-hip extension strength. C, Normalized elbow-varus torque and lead-hip abduction strength. D, Normalized elbow-varus torque and back-hip abduction strength.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Scatterplots of the other correlations. A, Shoulder horizontal-abduction angle at maximal external rotation and lead-hip internalrotation strength. B, Shoulder horizontal-abduction angle at ball release and lead-hip internal-rotation strength. C, Shoulder horizontalabduction angle at maximal external rotation and back-hip external-rotation strength. D, Back-hip adduction angle at ball release and leadhip internal-rotation strength. E, Shoulder horizontal-abduction angle at maximal external rotation and back-hip internal-rotation strength. F, Shoulder horizontal-abduction angle at ball release and back-hip internal-rotation strength.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Kinematics of Adolescent Baseball Pitchers at Foot Contact, Maximal Shoulder External Rotation, and Ball Release (Mean 6 SD)</figDesc><table><row><cell>Kinematics, 8 a</cell><cell>Foot Contact</cell><cell>Maximal External Rotation</cell><cell>Ball Release</cell></row><row><cell>Shoulder</cell><cell></cell><cell></cell><cell></cell></row><row><cell>External rotation</cell><cell>23.5 6 27.1</cell><cell>164.3 6 14.4</cell><cell>106.0 6 8.8</cell></row><row><cell>Abduction</cell><cell>83.7 6 13.8</cell><cell>81.2 6 6.9</cell><cell>87.6 6 5.1</cell></row><row><cell>Horizontal abduction</cell><cell>À37.6 6 11.8</cell><cell>À5.6 6 10.6</cell><cell>À10.9 6 11.5</cell></row><row><cell>Elbow flexion</cell><cell>98.9 6 13.2</cell><cell>87.6 6 10.6</cell><cell>33.7 6 8.1</cell></row><row><cell>Pelvic rotation</cell><cell>À66.2 6 12.2</cell><cell>8.6 6 10.1</cell><cell>12.6 6 9.7</cell></row><row><cell>Torso rotation</cell><cell>À95.3 6 11.8</cell><cell>5.5 6 8.5</cell><cell>14.2 6 8.7</cell></row><row><cell>Hip-to-shoulder separation angle</cell><cell>28.1 6 5.9</cell><cell>4.2 6 6.7</cell><cell>À0.4 6 7.3</cell></row><row><cell>Lead hip</cell><cell></cell><cell></cell><cell></cell></row><row><cell>External (À), internal (þ) rotation</cell><cell>À3.3 6 15.3</cell><cell>9.5 6 14.8</cell><cell>10.0 6 15.7</cell></row><row><cell>Flexion</cell><cell>54.9 6 12.6</cell><cell>83.3 6 9.5</cell><cell>79.9 6 11.3</cell></row><row><cell>Abduction (À), adduction (þ)</cell><cell>À36.1 6 8.6</cell><cell>10.2 6 8.6</cell><cell>12.1 6 7.9</cell></row><row><cell>Back hip</cell><cell></cell><cell></cell><cell></cell></row><row><cell>External (À), internal (þ) rotation</cell><cell>10.8 6 11.7</cell><cell>À7.6 6 10.0</cell><cell>À9.7 6 12.3</cell></row><row><cell>Extension (À), flexion (þ)</cell><cell>6.0 6 13.6</cell><cell>À7.7 6 5.9</cell><cell>À0.2 6 7.3</cell></row><row><cell>Abduction (À), adduction (þ)</cell><cell>À31.0 6 7.2</cell><cell>1.7 6 6.1</cell><cell>0.2 6 6.3</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Hip-Strength Measures in Adolescent Baseball Pitchers (Mean 6 SD)</figDesc><table><row><cell>Variable, kg</cell><cell>Lead Hip</cell><cell>Back Hip</cell></row><row><cell>External rotation</cell><cell>11.2 6 2.8</cell><cell>11.1 6 2.8</cell></row><row><cell>Internal rotation</cell><cell>11.6 6 2.5</cell><cell>11.1 6 2.4</cell></row><row><cell>Flexion</cell><cell>20.4 6 6.6</cell><cell>20.7 6 6.0</cell></row><row><cell>Extension</cell><cell>15.8 6 4.5</cell><cell>16.9 6 4.0</cell></row><row><cell>Abduction</cell><cell>14.2 6 3.3</cell><cell>15.0 6 3.3</cell></row><row><cell>Adduction</cell><cell>11.9 6 2.8</cell><cell>11.7 6 2.7</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Correlations Between Pitching Biomechanics and Hip Strength</figDesc><table><row><cell>Variable</cell><cell>r Value</cell><cell>P Value a</cell></row><row><cell>Kinematics at maximal shoulder external rotation</cell><cell></cell><cell></cell></row><row><cell>Shoulder horizontal-abduction angle and</cell><cell></cell><cell></cell></row><row><cell>lead-hip internal-rotation strength</cell><cell>À0.564</cell><cell>.003</cell></row><row><cell>Shoulder horizontal-abduction angle and</cell><cell></cell><cell></cell></row><row><cell>back-hip internal-rotation strength</cell><cell>À0.528</cell><cell>.006</cell></row><row><cell>Shoulder horizontal-abduction angle and</cell><cell></cell><cell></cell></row><row><cell>back-hip external-rotation strength</cell><cell>À0.501</cell><cell>.009</cell></row><row><cell>Hip-to-shoulder separation angle and</cell><cell></cell><cell></cell></row><row><cell>back-hip extension strength</cell><cell>0.538</cell><cell>.005</cell></row><row><cell>Kinematics at ball release</cell><cell></cell><cell></cell></row><row><cell>Shoulder horizontal-abduction angle and</cell><cell></cell><cell></cell></row><row><cell>lead-hip internal-rotation strength</cell><cell>À0.554</cell><cell>.003</cell></row><row><cell>Shoulder horizontal-abduction angle and</cell><cell></cell><cell></cell></row><row><cell>back-hip internal-rotation strength</cell><cell>À0.520</cell><cell>.006</cell></row><row><cell>Hip-to-shoulder separation angle and</cell><cell></cell><cell></cell></row><row><cell>back-hip extension strength</cell><cell>0.562</cell><cell>.003</cell></row><row><cell>Back-hip adduction angle and lead-hip</cell><cell></cell><cell></cell></row><row><cell>internal-rotation strength</cell><cell>0.512</cell><cell>.008</cell></row><row><cell>Kinetics</cell><cell></cell><cell></cell></row><row><cell>Normalized elbow-varus torque and lead-</cell><cell></cell><cell></cell></row><row><cell>hip abduction strength</cell><cell>0.619</cell><cell>.001</cell></row><row><cell>Normalized elbow-varus torque and</cell><cell></cell><cell></cell></row><row><cell>back-hip abduction strength</cell><cell>0.565</cell><cell>.003</cell></row></table><note><p>a All P values in table indicate correlation (P , .01).</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Downloaded from http://meridian.allenpress.com/jat/article-pdf/58/3/271/3215321/i1062-6050-58-3-271.pdf by guest on 01 July 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Volume 58 Number 3 March 2023 Downloaded from http://meridian.allenpress.com/jat/article-pdf/58/3/271/3215321/i1062-6050-58-3-271.pdf by guest on 01 July 2024</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>This study was funded through a <rs type="funder">Medical College of Wisconsin Department of Orthopaedic Surgery</rs> intramural grant (<rs type="person">Dr Cross</rs>). We thank <rs type="person">Sergey Tarima, PhD</rs>, and the <rs type="affiliation">Medical College of Wisconsin Department of Biostatistics</rs> for their assistance with the statistical analysis.</p></div>
+			</div>
+			<div type="funding">
+<div><p>Ó by the National Athletic Trainers' Association, Inc <ref type="url" target="www.natajournals.org">www.natajournals.org</ref> </p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Shoulder injuries in US high school baseball and softball athletes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Krajnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Fogarty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Yard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Comstock</surname></persName>
+		</author>
+		<idno type="DOI">10.1542/peds.2009-0961</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pediatrics</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">497501</biblScope>
+			<date type="published" when="2005">2005-2008. 2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Krajnik S, Fogarty KJ, Yard EE, Comstock RD. Shoulder injuries in US high school baseball and softball athletes, 2005-2008. Pediatrics. 2010;125(3):497501. doi:10.1542/peds.2009-0961</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Risk factors for ulnar collateral ligament injury in professional and amateur baseball players: a systematic review with meta-analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Reiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kilborn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Thigpen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Garrigues</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jse.2018.08.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Shoulder Elbow Surg</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="186" to="195" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reiman MP, Walker MD, Peters S, Kilborn E, Thigpen CA, Garrigues GE. Risk factors for ulnar collateral ligament injury in professional and amateur baseball players: a systematic review with meta-analysis. J Shoulder Elbow Surg. 2019;28(1):186-195. doi:10. 1016/j.jse.2018.08.018</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The relationship between pitching mechanics and injury: a review of current concepts</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Chalmers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Wimmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Verma</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1941738116686545</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Health</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="216" to="221" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chalmers PN, Wimmer MA, Verma NN, et al. The relationship between pitching mechanics and injury: a review of current concepts. Sports Health. 2017;9(3):216-221. doi:10.1177/ 1941738116686545</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Kinetics of baseball pitching with implications about injury mechanisms</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Fleisig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Dillman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Escamilla</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/036354659502300218</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="233" to="239" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fleisig GS, Andrews JR, Dillman CJ, Escamilla RF. Kinetics of baseball pitching with implications about injury mechanisms. Am J Sports Med. 1995;23(2):233-239. doi:10.1177/036354659502300218</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Baseball pitching biomechanics in relation to injury risk and performance</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fortenbaugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Fleisig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Andrews</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1941738109338546</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Health</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="314" to="320" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fortenbaugh D, Fleisig GS, Andrews JR. Baseball pitching biomechanics in relation to injury risk and performance. Sports Health. 2009;1(4):314-320. doi:10.1177/1941738109338546</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Association of maximum pitch velocity and elbow injury in professional baseball pitchers</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Bushnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Anz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Noonan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Torry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Hawkins</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0363546509350067</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="728" to="732" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bushnell BD, Anz AW, Noonan TJ, Torry MR, Hawkins RJ. Association of maximum pitch velocity and elbow injury in professional baseball pitchers. Am J Sports Med. 2010;38(4):728- 732. doi:10.1177/0363546509350067</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Difference between adolescent and collegiate baseball pitchers in the kinematics and kinetics of the lower limbs and trunk during pitching motion</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kageyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sugiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Maeda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci Med</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="246" to="255" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kageyama M, Sugiyama T, Kanehisa H, Maeda A. Difference between adolescent and collegiate baseball pitchers in the kinematics and kinetics of the lower limbs and trunk during pitching motion. J Sports Sci Med. 2015;14(2):246-255.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Adolescent baseball pitching technique: lower extremity biomechanical analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Milewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Solomito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Westwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Nissen</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/jab.28.5.491</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Biomech</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="491" to="501" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Milewski MD, O ˜unpuu S, Solomito M, Westwell M, Nissen CW. Adolescent baseball pitching technique: lower extremity biome- chanical analysis. J Appl Biomech. 2012;28(5):491-501. doi:10. 1123/jab.28.5.491</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The effect of pitching biomechanics on the upper extremity in youth and adolescent baseball pitchers</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Limpisvasti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fluhme</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0363546509340226</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1484" to="1491" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davis JT, Limpisvasti O, Fluhme D, et al. The effect of pitching biomechanics on the upper extremity in youth and adolescent baseball pitchers. Am J Sports Med. 2009;37(8):1484-1491. doi:10. 1177/0363546509340226</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Efficacy of a prevention program for medial elbow injuries in youth baseball players</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sakata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Suzuki</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0363546517738003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="460" to="469" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sakata J, Nakamura E, Suzuki T, et al. Efficacy of a prevention program for medial elbow injuries in youth baseball players. Am J Sports Med. 2018;46(2):460-469. doi:10.1177/0363546517738003</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Relationships between hip flexibility and pitching biomechanics in adolescent baseball pitchers</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Albiero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kokott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dziuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Cross</surname></persName>
+		</author>
+		<idno type="DOI">10.4085/1062-6050-0103.21</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="704" to="710" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Albiero ML, Kokott W, Dziuk C, Cross JA. Relationships between hip flexibility and pitching biomechanics in adolescent baseball pitchers. J Athl Train. 2022;57(7):704-710. doi:10.4085/1062- 6050-0103.21</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Lower body contributions to pelvis energy flow and pitch velocity in collegiate baseball players</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aguinaldo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nicholson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISBS Proc Arch</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="13" to="16" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aguinaldo A, Nicholson K. Lower body contributions to pelvis energy flow and pitch velocity in collegiate baseball players. ISBS Proc Arch. 2021;39(1):13-16.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Energy flow analysis to investigate youth pitching velocity and efficiency</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Howenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kipp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Sabick</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0000000000001813</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="523" to="531" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Howenstein J, Kipp K, Sabick MB. Energy flow analysis to investigate youth pitching velocity and efficiency. Med Sci Sports Exerc. 2019;51(3):523-531. doi:10.1249/MSS.0000000000001813</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of upper torso rotation from the viewpoint of energetics during baseball pitching</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yoshioka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Omura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fukashiro</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17461391.2019.1646810</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="606" to="613" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kimura A, Yoshioka S, Omura L, Fukashiro S. Mechanical properties of upper torso rotation from the viewpoint of energetics during baseball pitching. Eur J Sport Sci. 2020;20(5):606-613. doi:10.1080/17461391.2019.1646810</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Characteristic ground-reaction forces in baseball pitching</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Macwilliams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Perezous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Y</forename><surname>Chao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Mcfarland</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/03635465980260014101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="66" to="71" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">MacWilliams BA, Choi T, Perezous MK, Chao EY, McFarland EG. Characteristic ground-reaction forces in baseball pitching. Am J Sports Med. 1998;26(1):66-71. doi:10.1177/03635465980260014101</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Functional hip characteristics and their relationship with ball velocity in college baseball pitchers</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Yanagisawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wakamatsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Taniguchi</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/jsr.2018-0122</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="854" to="859" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yanagisawa O, Wakamatsu K, Taniguchi H. Functional hip characteristics and their relationship with ball velocity in college baseball pitchers. J Sport Rehabil. 2019;28(8):854-859. doi:10. 1123/jsr.2018-0122</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The influence of lumbopelvic control on shoulder and elbow kinetics in elite baseball pitchers</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Laudner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Meister</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jse.2018.07.015</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Shoulder Elbow Surg</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="330" to="334" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Laudner KG, Wong R, Meister K. The influence of lumbopelvic control on shoulder and elbow kinetics in elite baseball pitchers. J Shoulder Elbow Surg. 2019;28(2):330-334. doi:10.1016/j.jse.2018. 07.015</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Clinical assessment of hip strength using a hand-held dynamometer is reliable</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Thorborg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Magnusson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hölmich</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1600-0838.2009.00958.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="493" to="501" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thorborg K, Petersen J, Magnusson SP, Hölmich P. Clinical assessment of hip strength using a hand-held dynamometer is reliable. Scand J Med Sci Sports. 2010;20(3):493-501. doi:10.1111/ j.1600-0838.2009.00958.x</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Reliability of dynamic and isometric testing of shoulder external and internal rotators</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Malerba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Adam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Krebs</surname></persName>
+		</author>
+		<idno type="DOI">10.2519/jospt.1993.18.4.543</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="543" to="552" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Malerba JL, Adam ML, Harris BA, Krebs DE. Reliability of dynamic and isometric testing of shoulder external and internal rotators. J Orthop Sports Phys Ther. 1993;18(4):543-552. doi:10. 2519/jospt.1993.18.4.543</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Elbow and shoulder kinetic model for baseball pitching: implications on injury risk. Paper presented at: Gait and Clinical Movement Analysis Society</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Adhithia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Raasch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Conference</title>
+		<imprint>
+			<date type="published" when="2015-03-18">2015. March 18-21. 2015</date>
+			<pubPlace>Portland, OR</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adhithia D, Cross J, Harris G, Raasch W. Elbow and shoulder kinetic model for baseball pitching: implications on injury risk. Paper presented at: Gait and Clinical Movement Analysis Society 2015 Annual Conference; March 18-21, 2015; Portland, OR.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Kinematic and kinetic comparison of baseball pitching among various levels of development</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Fleisig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Barrentine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Escamilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Andrews</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0021-9290(99)00127-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1371" to="1375" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fleisig GS, Barrentine SW, Zheng N, Escamilla RF, Andrews JR. Kinematic and kinetic comparison of baseball pitching among various levels of development. J Biomech. 1999;32(12):1371-1375. doi:10.1016/s0021-9290(99)00127-x</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Role of rotational kinematics in minimizing elbow varus torques for professional versus high school pitchers</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Luera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dowling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Magrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Twd</forename><surname>Muddle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Colquhoun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ndm</forename><surname>Jenkins</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/2325967118760780</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Orthop J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">2325967118760780</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Luera MJ, Dowling B, Magrini MA, Muddle TWD, Colquhoun RJ, Jenkins NDM. Role of rotational kinematics in minimizing elbow varus torques for professional versus high school pitchers. Orthop J Sports Med. 2018;6(3):2325967118760780. doi:10. 1177/2325967118760780</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Statistical Power Analysis for the Behavioral Sciences</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1977">1977</date>
+			<publisher>Academic Press</publisher>
+			<biblScope unit="page" from="75" to="107" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cohen J. Statistical Power Analysis for the Behavioral Sciences. Academic Press; 1977:75-107.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Epidemiologic comparison of pitching mechanics, pitch type, and pitch counts among healthy pitchers at various levels of youth competition</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Riff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Chalmers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sgroi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.arthro.2016.01.048</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Arthroscopy</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1559" to="1568" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Riff AJ, Chalmers PN, Sgroi T, et al. Epidemiologic comparison of pitching mechanics, pitch type, and pitch counts among healthy pitchers at various levels of youth competition. Arthroscopy. 2016;32(8):1559-1568. doi:10.1016/j.arthro.2016.01.048</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Lower extremity muscle activation during baseball pitching</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Stodden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nixon</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0b013e3181cb241b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="964" to="971" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Campbell BM, Stodden DF, Nixon MK. Lower extremity muscle activation during baseball pitching. J Strength Cond Res. 2010;24(4):964-971. doi:10.1519/JSC.0b013e3181cb241b</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Predictors of throwing velocity in youth and adolescent pitchers</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sgroi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Chalmers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Riff</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jse.2015.02.015</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Shoulder Elbow Surg</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1339" to="1345" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sgroi T, Chalmers PN, Riff AJ, et al. Predictors of throwing velocity in youth and adolescent pitchers. J Shoulder Elbow Surg. 2015;24(9):1339-1345. doi:10.1016/j.jse.2015.02.015</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Kinematic and kinetic profiles of trunk and lower limbs during baseball pitching in collegiate pitchers</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kageyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sugiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Takai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Maeda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci Med</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="742" to="750" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kageyama M, Sugiyama T, Takai Y, Kanehisa H, Maeda A. Kinematic and kinetic profiles of trunk and lower limbs during baseball pitching in collegiate pitchers. J Sports Sci Med. 2014;13(4):742-750.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Correlation of torque and elbow injury in professional baseball pitchers</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Anz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Bushnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Noonan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Torry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Hawkins</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0363546510363402</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1368" to="1374" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Anz AW, Bushnell BD, Griffin LP, Noonan TJ, Torry MR, Hawkins RJ. Correlation of torque and elbow injury in professional baseball pitchers. Am J Sports Med. 2010;38(7):1368-1374. doi:10.1177/ 0363546510363402</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Increased horizontal shoulder abduction is associated with an increase in shoulder joint load in baseball pitching</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Takagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Oi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tanaka</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jse.2014.03.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Shoulder Elbow Surg</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1757" to="1762" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Takagi Y, Oi T, Tanaka H, et al. Increased horizontal shoulder abduction is associated with an increase in shoulder joint load in baseball pitching. J Shoulder Elbow Surg. 2014;23(12):1757-1762. doi:10.1016/j.jse.2014.03.005</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Gluteal muscle group activation and its relationship with pelvis and torso kinematics in high-school baseball pitchers</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Oliver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Keeley</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="3015" to="3022" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>b013e3181c865ce</note>
+	<note type="raw_reference">Oliver GD, Keeley DW. Gluteal muscle group activation and its relationship with pelvis and torso kinematics in high-school baseball pitchers. J Strength Cond Res. 2010;24(11):3015-3022. doi:10. 1519/JSC.0b013e3181c865ce</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Pitching mechanics, revisited</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Calabrese</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="652" to="660" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Calabrese GJ. Pitching mechanics, revisited. Int J Sports Phys Ther. 2013;8(5):652-660.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Address correspondence to Maxwell L. Albiero, MD, 8701 W Watertown Plank Road</title>
+		<imprint>
+			<pubPlace>Milwaukee, WI 53226</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Address email to maxalbiero11@gmail com</note>
+	<note type="raw_reference">Address correspondence to Maxwell L. Albiero, MD, 8701 W Watertown Plank Road, Milwaukee, WI 53226. Address email to maxalbiero11@gmail.com.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

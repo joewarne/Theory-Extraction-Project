@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Effects of anticipation on joint kinematics during inversion perturbation in individuals with chronic ankle instability</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Seunguk</forename><surname>Han</surname></persName>
+							<idno type="ORCID">0000-0003-2037-7668</idno>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Hyunwook</forename><surname>Lee</surname></persName>
+							<email>hyunwook.lee31@gmail.com</email>
+							<idno type="ORCID">0000-0002-4007-9898</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Jon</forename><forename type="middle">Tyson</forename><surname>Hopkins</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Exercise Sciences</orgName>
+								<orgName type="institution">Brigham Young University</orgName>
+								<address>
+									<addrLine>106 SFH</addrLine>
+									<settlement>Provo</settlement>
+									<region>Utah</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Exercise Sciences</orgName>
+								<orgName type="institution">Brigham Young University</orgName>
+								<address>
+									<postCode>84604</postCode>
+									<settlement>Provo</settlement>
+									<region>UT</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Effects of anticipation on joint kinematics during inversion perturbation in individuals with chronic ankle instability</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4153DA6A8FCBE07BB3591F969062F10B</idno>
+					<idno type="DOI">10.1111/sms.14342</idno>
+					<note type="submission">Received: 10 June 2022 | Revised: 18 January 2023 | Accepted: 16 February 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>National Athletic Trainers&apos; Association Research &amp; Education Foundation</term>
+					<term>Grant/Award Number: 1920DGP03 biomechanics</term>
+					<term>drop-landing</term>
+					<term>lower extremity</term>
+					<term>reactive joint kinematics</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Although chronic ankle instability (CAI) patients display altered reactive joint kinematics after inversion perturbation, little is known about the effects of anticipation on reactive joint kinematics among CAI, coper, and control groups.</p><p>Objective: To assess changes in reactive joint kinematics after different inverted landing situations including planned-and unplanned-condition among groups of CAI, coper, and control.</p><p>Methods: Sixty-six volunteers participated (22 per group). Participants completed three trials of both planned and unplanned single-leg landing onto an inverted force platform while reactive joint kinematic data were collected from initialcontact to 200 ms after initial-contact. Two-way repeated measures ANOVAs were used to examine the differences between condition (planned-, unplannedconditions) and group (CAI, coper, control).</p><p>Results: There were significant group by condition interactions for total ankle displacement in the frontal plane (p &lt; 0.01) and maximum ankle inversion velocity (p = 0.01). CAI patients displayed increased ankle displacement (p &lt; 0.01) and maximum inversion velocity (p &lt; 0.01) under the unplanned condition compared to the planned condition. However, copers did not show any differences in ankle displacement and maximum inversion velocity between the two conditions. Conclusions: CAI patients displayed greater changes in ankle joint displacement and maximum ankle inversion velocity occurred after inversion perturbation under unplanned condition compared with copers and controls. Current data suggest that altered reactive joint kinematics under the unanticipated condition in CAI patients may contribute to the condition of CAI after ankle sprains.</p><p>Clinicians should focus on rehabilitation programs to recover and/or develop feedback control for CAI patients during functional movements under unanticipated condition to prevent further injuries.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUCTION</head><p>Chronic ankle instability (CAI) is characterized by recurrent ankle sprains with swelling, pain, and loss of function as well as "giving way" episodes after lateral ankle sprains. <ref type="bibr" target="#b0">1</ref> Although approximately 70% of patients with LAS develop CAI, 2 some patients with LAS do not suffer from recurrence of injury, instability or loss of function, and successfully manage their injury after a LAS, a phenomenon called "LAS coping." <ref type="bibr" target="#b2">3</ref> Understanding differences in motor-behavioral functions (e.g., postural control, walking, and jump-landing) among CAI patients, LAS copers, and controls would explain not just contributing factors to CAI, but also protective strategies in LAS copers to prevent further injuries.</p><p>Because initial-contact during landing poses a high risk for LAS, <ref type="bibr" target="#b3">4</ref> investigating reactive joint kinematics after an ankle inversion perturbation during landing could provide important information regarding altered feedback control in patients with CAI. Specifically, examining differences in reactive joint kinematics after unplanned landing on inverted surfaces can make a more realistic stimulation of a LAS. <ref type="bibr" target="#b4">5</ref> However, only a few studies have investigated the differences in reactive joint kinematics after ankle inversion perturbation while landing in CAI patients. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> They found valuable information on altered reactive joint kinematics in CAI patients, such as reduced peroneal muscular activation, <ref type="bibr" target="#b6">7</ref> greater inversion angular velocity, and angular displacement <ref type="bibr" target="#b5">6</ref> after landing on an inverted surface. Nevertheless, the lack of understanding of altered reactive joint kinematics in copers may limit the ability to identify coping mechanisms that help avoid recurrent LASs.</p><p>Examining differences in reactive lower extremity joint kinematics after ankle inversion perturbation while unplanned single-leg landing among groups of CAI, LAS coper, and control would provide invaluable information as to what joint kinematics may contribute to the condition of either CAI or coper. Therefore, the purpose of this study was to assess the differences in reactive lower extremity joint kinematics after different inverted landing situations, including anticipated (planned single-leg landing) and unanticipated conditions (unplanned single-leg landing), among groups of CAI, coper, and control subjects. We hypothesized that CAI patients would display altered reactive lower extremity joint kinematics (e.g., increased ankle inversion angular velocity and displacement) while copers would have protective reactive lower extremity joint kinematics (e.g., reduced ankle inversion angular velocity and displacement) after an ankle inversion perturbation during unplanned single-leg landing compared to the planned single-leg landing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| METERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Participants</head><p>Sixty-six physically active individuals (22 per group) with an age range of 18-35 years volunteered (Table <ref type="table">1</ref>). All participants were individually matched across all three groups on gender, weight, and height. We followed subject selection criteria of the International Ankle Consortium's position statement for CAI and a recommendation for copers. <ref type="bibr" target="#b2">3</ref> We used the following self-reported function questionnaires to identify potential participants: Foot and Ankle Ability Measure activities of daily living (FAAM-ADL), <ref type="bibr" target="#b7">8</ref> FAAM-Sports, <ref type="bibr" target="#b7">8</ref> and the Ankle Instability Instrument (AII). <ref type="bibr" target="#b8">9</ref> Specific inclusion criteria for CAI, copers, and uninjured controls can be seen in Table <ref type="table">2</ref>. Subject exclusion criteria were based on a position statement of the International Ankle Consortium, 10 including (i) history of a fracture in the lower extremity, (ii) history of previous surgery (e.g., joint structures, nerves, and bones), (iii) acute injury to musculoskeletal structures of lower extremity joints in the past 3 months, and (iv) a history of neurologic disorders. All participants provided written informed consent, as approved by the University's Institutional Review Board prior to participation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Instrumentation</head><p>Twelve high-speed cameras (Qualysis; 250 Hz) and flat and inverted platforms (1000 Hz; AMTI) were used to collect the three-dimensional (3D) kinematics during the testing. The inverted platform was rotated 25° in the frontal plane to produce an ankle inversion perturbation upon landing from a height of 30 cm in the unilateral stance. Both the flat and inverted platforms were constructed to maintain a consistent drop-landing height of 30 cm from the center of the force platform and grip tape was applied</p><p>T A B L E 1 Subject demographics. CAI Coper Control N 11 M, 11 F 11 M, 11 F 11 M, 11 F Age (years) 23.4 (2.4) 23.0 (2.4) 23.4 (2.6) Height (m) 1.74 (0.1) 1.74 (0.1) 1.74 (0.1) Mass (kg) 70.8 (10.3) 69.7 (13.4) 70.5 (10.7) FAAM-ADL (%) 86.7 (3.2) 100 (0.0) 100 (0.0) FAAM-Sports (%) 74.3 (6.4) 100 (0.0) 100 (0.0) AII (No. Yes) 6.4 (1.1) 0 (0.0) 0 (0.0) Note: Data are mean (SD). Abbreviations: F, female; M, male.</p><p>to the top of the force platform to prevent the participants' foot from slipping during the drop-landing task (Figure <ref type="figure">1</ref>). The platform design was derived from recently published studies using unilateral landings on an inverted surface <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b10">11</ref> and an inversion perturbation of 25° was chosen for participant safety, especially those with CAI, as lateral ankle sprains can occur when the subtalar joint exceeds 30° of inversion.</p><p>12 2.3 | Procedures All participants dressed in standardized spandex shorts and shirts and athletic shoes (T-Lite XI; Nike). Anthropometric data including height, mass, and age were recorded for each subject. A total of 44 reflective markers were placed bilaterally on participants' bony landmarks, including anterior-and posterior-superior iliac spine, greater trochanter, medial and lateral femoral condyle and malleoli, posterior heels, dorsal midfoot, middle forefoot, medial and lateral forefoot.</p><p>Four rigid clusters with four markers were also placed over the lateral midthigh and midshank. <ref type="bibr" target="#b12">13</ref> Participants were instructed to perform 5-10 practice trials on the flat force platform to establish normal single-leg droplanding patterns. During the single-leg drop-landing task, participants stood on the non-testing leg with their testing leg relaxed over the edge of a table that was 30 cm above the center of the force platforms. Participants were instructed to push forward and land on the force platform with their testing leg only. Then participants subsequently took another step down and landed with the non-testing leg on the ground. <ref type="bibr" target="#b10">11</ref> During all singleleg drop-landing tasks, participants were asked to wear a dribbling shield (Spalding) and were reminded to look straight forward to prevent participants from seeing their feet and the landing surface. After the practice trials, participants were asked to complete five trials of anticipated flat landing with a 60 s rest period between each trial. Following completion of the anticipated flat landing trials, participants were asked to face away from the drop-landing platforms to avoid the knowledge of the following landing conditions between the flat or inverted platform. Participants then completed 10 successful trials of the single-leg drop-landing tasks onto either flat or inverted platforms with a 60 s rest period between each trial. The inverted force platform was randomly switched with the flat force platform without the participants' knowledge; these were considered the unplanned single-leg landing trials and were block randomized using JMP Pro 15 (SAS Institute Inc.).</p><p>Immediately following the unplanned trial participants were asked to subjectively and honestly report if they were assuming the inverted platform during that trial. A trial was discarded and repeated when participants were assuming the inverted platform. To further reduce anticipation, trials 1 and 5 for ankle inversion perturbations during unplanned single-leg landing were excluded.</p><p>After the unplanned single-leg landing on inverted and flat landing trials, participants were instructed to complete single-leg drop-landing tasks onto the inverted force platform five times. These trials were treated as the planned single-leg landing trials. Only three trials of inverted landings (i.e., trial 2-4) under each condition were used in the data analysis of reactive lower extremity joint kinematics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| Data processing</head><p>All kinematic and GRF data were collected simultaneously and time-synchronized on a desktop computer equipped with the Qualisys software. All dependent variables were identified during the period from initial-contact (&gt;15 N) to 200 ms after initial-contact for the three successful trials for each subject on the testing limb and were exported to Visual 3D (C-Motion). The trajectory data were smoothed using a fourth order low-pass Butterworth filter with a cutoff frequency of 10 Hz. The cut-off frequency of 10 Hz was determined by residual analyses <ref type="bibr" target="#b13">14</ref> for all landing trials. The smoothed marker coordinates were used to calculate 3D ankle, knee, and hip joint kinematics for the task. A static model was created for each subject using previously described methods. <ref type="bibr" target="#b12">13</ref> 3D joint kinematics were calculated using a Cardan rotation sequence of flexion/extension, abduction/adduction, and internal/external rotation. During the task, lower extremity angles at initialcontact were defined as inversion angle at initial-contact, knee flexion angle at initial-contact, and hip flexion angle at initial-contact. Maximum inversion, knee flexion, and hip flexion angles were defined when maximum ankle inversion, knee flexion, and hip flexion separately occurred from initial-contact to 200 ms after initial contact. Displacements of the ankle, knee, and hip joints were calculated from the differences in inversion, knee flexion, and hip flexion between initial-contact and maximal inversion, knee flexion, and hip flexion angles. Time to maximum inversion was determined from the time elapsed between initial-contact and maximum inversion angle. Figure <ref type="figure">2</ref> shows example kinematic trajectories during the task.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">| Statistical analysis</head><p>All data analyses were performed using JMP Pro 15 software (SAS Institute Inc.). One-way analysis of variance (ANOVA) was used to determine if differences in</p><formula xml:id="formula_0">F I G U R E 2</formula><p>Example kinematic trajectories in the ankle, knee, and hip joints during the task in each group.</p><p>participant demographics including age, height, mass, FAAM-ADL, FAAM-Sports, and AII existed among groups. Assumptions for all analyses were tested using visual methods (i.e., Normal Q-Q plots for normality of residuals) or quantitative methods (i.e., Shapiro-Wilk test). Two-way repeated measures ANOVAs were used to examine differences between condition (planned-and unplanned-conditions) and group (CAI, coper, and control). The Tukey HSD post-hoc tests were used when the omnibus F p-value was less than 0.05. The p-value was not adjusted because many tested variables were correlated, and the potential family-wise error was more relevant to larger sample sizes. <ref type="bibr" target="#b6">7</ref> In addition, Cohen's d effect sizes (ES) were calculated to estimate the magnitude of condition effects in each group. Additionally, 95% confidence intervals (CI) were calculated to surround ESs, and where the limits did not cross zero, differences between conditions were considered meaningful changes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">| RESULTS</head><p>The mean, standard deviation, and ESs for ankle joint kinematics measure by group and condition are presented in Table <ref type="table">3</ref>. There were significant group by condition interactions for the total ankle displacement in the frontal plane (p &lt; 0.01) and maximum inversion velocity (p = 0.01). Post hoc analysis indicated that CAI patients and controls displayed increased total ankle displacement in the frontal plane (p &lt; 0.01) under the unanticipated condition compared to the anticipated condition. Moreover, only CAI patients displayed increased</p><p>T A B L E 3 Ankle joint kinematic data during anticipated and unanticipated trials (mean ± SD). Variable Condition Effect size (95% CI) p value Anticipated Unanticipated Condition × Group Condition Group Inversion angle at initial contact (°) CAI 7.6 ± 5.4 3.9 ± 4.7 0.73 (0.12, 1.34) 0.77 &lt;0.01 a 0.50 Coper 8.5 ± 6.3 5.3 ± 5.7 0.53 (-0.07, 1.13) Control 7.0 ± 4.2 4.7 ± 3.7 0.58 (-0.02, 1.18) Maximum inversion angle (°) CAI 12.4 ± 3.9 15.5 ± 4.6 -0.73 (-1.34, 0.12) 0.059 0.27 0.02 b Coper 13.4 ± 4.4 12.5 ± 3.7 0.22 (-0.37, 0.81) Control 11.4 ± 3.4 11.5 ± 3.9 -0.03 (-0.62, 0.56) Ankle displacement (°) CAI 4.8 ± 2.8 c 11.6 ± 5.1 d,e -1.65 (-2.34, -0.97) g &lt;0.01 &lt;0.01 a &lt;0.01 b,f Coper 5.2 ± 4.8 7.3 ± 4.5 -0.45 (-1.05, 0.15) Control 4.4 ± 3.5 c 7.0 ± 3.9 -0.70 (-1.31, -0.09) g Maximum inversion velocity (°/s) CAI 116.4 ± 67.6 c 256.6 ± 128.0 d,e -1.37 (-2.03, -0.71) g 0.01 &lt;0.01 a &lt;0.01 b,f Coper 115.4 ± 111.2 168.0 ± 114.5 -0.47 (-1.06, 0.13) Control 101.1 ± 60.9 152.5 ± 89.9 -1.67 (-1.28, -0.06) g Time to maximum inversion (s) CAI 0.08 ± 0.04 0.09 ± 0.04 -0.25 (-0.84, 0.34) 0.87 0.20 0.31 Coper 0.07 ± 0.03 0.07 ± 0.02 0.00 (-0.59, 0.59) Control 0.07 ± 0.03 0.08 ± 0.03 -0.33 (-0.93, 0.26) Note: Significantly differences in values between groups or condition are highlighted in bold for clarity. maximum inversion velocity (p &lt; 0.01) under the unanticipated condition. However, copers did not show any differences in total ankle displacement in the frontal plane and maximum inversion velocity between two conditions. Regardless of group, total ankle displacement in the frontal plane (p &lt; 0.01) and maximum ankle inversion velocity (p &lt; 0.01) were increased at initial-contact whereas the inversion angle at initial-contact (p &lt; 0.01) was decreased under the unanticipated condition. Regardless of condition, CAI patients displayed greater maximum inversion angle (p = 0.02) than controls. In addition, CAI patients displayed greater total ankle displacement in the frontal plane and maximum inversion velocity than copers and controls.</p><p>Table <ref type="table">4</ref> shows the mean, standard deviation, and ESs for the knee and hip joints kinematics measured by group and condition. There were no significant group by condition interactions for the knee and hip joint kinematics. Although there were no group effects among three groups for all the knee and hip joint kinematics, main effects for the condition were present (p &lt; 0.01) for maximum hip flexion angle and hip displacement.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| DISCUSSION</head><p>The comparison of reactive lower extremity joint kinematics between anticipated and unanticipated ankle inversion perturbations provides a novel approach to the investigation of the differences in feedback control among groups of CAI, coper, and control. The primary findings of the current study were that only CAI patients demonstrated greater changes in reactive ankle joint kinematics after ankle inversion perturbation during unplanned single-leg landing. Although controls also showed increased ankle displacement after ankle inversion during unplanned single-leg landing, they may compensate for ankle displacement by increasing maximum hip flexion</p><p>T A B L E 4 Knee and hip joint kinematic data during anticipated and unanticipated trials (mean ± SD). Variable Condition Effect size (95% CI) p value Anticipated Unanticipated Condition × Group Condition Group Knee flexion angle at initial contact (°) CAI 5.2 ± 4.3 4.8 ± 4.0 0.10 (-0.49, 0.69) 0.50 0.86 0.65 Coper 3.7 ± 3.7 4.8 ± 3.8 -0.26 (-0.85, 0.34) Control 4.8 ± 4.1 4.4 ± 3.4 0.11 (-0.49, 0.70) Maximum knee flexion angle (°) CAI 42.5 ± 8.3 41.2 ± 4.6 0.19 (-0.40, 0.79) 0.64 0.91 0.55 Coper 41.5 ± 6.8 41.9 ± 6.9 -0.06 (-0.65, 0.53) Control 39.8 ± 8.0 41.1 ± 7.5 -0.17 (-0.76, 0.42) Knee displacement (°) CAI 37.3 ± 7.0 36.4 ± 7.2 0.13 (-0.46, 0.72) 0.57 0.98 0.49 Coper 37.8 ± 6.2 37.1 ± 7.0 0.11 (-0.49, 0.70) Control 35.0 ± 7.9 36.7 ± 7.2 -0.22 (-0.82, 0.37) Hip flexion angle at initial contact (°) CAI 19.6 ± 8.4 19.2 ± 7.5 0.05 (-0.54, 0.64) 0.74 0.63 0.69 Coper 19.3 ± 5.5 20.9 ± 5.5 -0.29 (-0.88, 0.30) Control 20.3 ± 5.5 20.7 ± 6.1 -0.07 (-0.66, 0.52) Maximum hip flexion angle (°) CAI 28.3 ± 10.2 30.2 ± 9.0 -0.20 (-0.79, 0.39) 0.48 &lt;0.01 a 0.85 Coper 26.3 ± 7.8 31.1 ± 7.2 -0.64 (-0.88, -0.03) Control 26.6 ± 6.0 32.5 ± 7.4 -0.88 (-1.49, -0.26) Hip displacement (°) CAI 8.7 ± 3.6 11.2 ± 3.6 -0.68 (-1.29, -0.08) 0.14 &lt;0.01 a 0.18 Coper 6.9 ± 4.3 10.1 ± 4.2 -0.75 (-1.36, -0.14) Control 6.4 ± 3.1 11.8 ± 3.2 -1.71 (-2.41, -1.02) Note: Significantly differences in values between groups or condition are highlighted in bold for clarity. a Differences between anticipated and unanticipated condition regardless of group.</p><p>angle and displacement with strong (large) ESs. In contrast to individuals with CAI, copers displayed similar reactive lower extremity joint kinematics after ankle inversion perturbation during planned and unplanned single-leg landing, which may be a coping mechanism to prevent further injuries.</p><p>The secondary finding of this study was that all participants, regardless of ankle condition, showed increased hip flexion angle and displacement after ankle inversion perturbation during unplanned single-leg landing. An increased reliance on the hip joint (i.e., increased hip flexion angle and displacement) across all groups during unplanned single-leg landing may demonstrate compensatory movement strategies used to maintain posture after disruption. These findings seem to contradict previous investigations, which suggested proximal adaptations in CAI patients to compensate for functional impairments in the ankle joint. <ref type="bibr" target="#b14">15</ref> Thus, we postulate that implementing functional movement maneuvers under anticipated conditions may not adequately induce altered or problematic neuromechanics in CAI patients.</p><p>Our most interesting findings were that only CAI patients displayed greater changes in the ankle joint after ankle inversion perturbation during unplanned single-leg landing relative to the planned condition. All three groups displayed no differences in ankle displacement and maximum inversion velocity after ankle inversion perturbation during planned single-leg landing. However, only CAI patients exhibited greater changes in reactive ankle joint kinematics, including greater ankle displacement and maximum inversion velocity, after ankle inversion perturbation during unplanned single-leg landing, which could contribute to further ankle injuries. Unlike anticipated conditions, which are largely driven by feedforward motor control, <ref type="bibr" target="#b15">16</ref> the unanticipated condition would likely rely heavily on feedback control. <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18</ref> Thus, these results may indicate that altered reactive lower extremity joint kinematics in CAI patients cannot compensate for absence or limited feedforward control during functional movements.</p><p>In CAI patients, changed reactive ankle joint kinematics after ankle inversion perturbation during unplanned single-leg landing were more closely related to injurious mechanisms associated with LASs than those following the planned condition. A previous case study reported that a 6° increase of ankle movement with a peak inversion angle of 15° can cause a LAS during sport-related movements. <ref type="bibr" target="#b18">19</ref> CAI patients in this study also displayed a 6.8° (from 12.4° to 15.5°) increase of ankle displacement with a peak inversion angle of 15.5°. Moreover, an increase of approximately 2.2 times the maximum inversion velocity (from 116.4°/s to 256.6°/s) under the unplanned condition may make CAI patients have more chances of LASs. Therefore, deleterious reactive ankle joint kinematics under the unplanned condition due to the altered feedback control in CAI patients may negatively affect their ability to maintain an appropriate foot position during landing on irregular surfaces, which may predispose them to further injuries during dynamic activities.</p><p>Our data support the idea that copers might have adaptive movement strategies to avoid further injuries. <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21</ref> Particularly, only copers showed no differences in total ankle displacement in the frontal plane between two conditions (i.e., planned-and unplanned-condition). Moreover, only copers had no meaningful changes in maximum inversion velocity after ankle inversion perturbation during unplanned single-leg landing. No differences in reactive ankle joint kinematics between two conditions for copers may be due to the increased preparatory and reactive muscle activation during initial-contact. <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21</ref> Specifically, increased activation of the tibialis anterior before and after initial-contact during ankle inversion perturbation would prevent excessive ankle inversion after ankle inversion perturbation. <ref type="bibr" target="#b19">20</ref> These adaptive neuromechanics in the ankle joint may be a mechanism that helps copers to stabilize their ankle more dynamically under unplanned conditions.</p><p>To our knowledge, this study is the first to comprehensively investigate the effects of anticipation on reactive lower extremity joint kinematics after ankle inversion perturbation among groups of CAI, coper, and control. Previous research demonstrated the fact that CAI patients displayed altered feedback control, including less peroneal muscular activation <ref type="bibr" target="#b6">7</ref> and greater inversion angular velocity and displacement <ref type="bibr" target="#b10">11</ref> than controls after ankle inversion perturbation during unplanned single-leg landing. However, because only CAI and control participants were enrolled in the previous research, <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> we cannot determine which feedback control contributes or prevents recurrent injuries after an initial LAS. Thus, the results of this study could provide a unique contribution toward understanding how copers develop their feedback control to protect their ankle from unanticipated injurious situations.</p><p>It is also interesting to note that there were no significant group by condition interactions observed across all proximal joint kinematics (e.g., knee and hip joint kinematics). In addition, each group displayed the same patterns, in that hip displacement and maximum hip flexion angle were increased after ankle inversion perturbation during unplanned single-leg landing. That being said, regardless of ankle injury history, all participants had an increased reliance on the hip joint during injurious situations (i.e., unanticipated condition). These results contradict previous studies that only CAI patients have proximal adaptations to compensate for sensorimotor deficits in the ankle joint. <ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b22">23</ref> Furthermore, relative to CAI patients,</p><p>| 1123 HAN et al.</p><p>copers and controls displayed meaningful changes in maximum hip flexion angle after ankle inversion perturbation during unplanned single-leg landing. The ability to increase reliance on proximal joints during injurious situations in copers and controls may prevent an initial LAS or developing CAI.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">| Limitations of the Study</head><p>This study has a few limitations. First, because the population of the study was a physically active, young college-aged population, the current findings can only be generalized to this specific population. Second, the current study did not measure proactive motor control during ankle inversion perturbation. However, proactive joint kinematics before ankle inversion perturbation can be more important aspects than reactive joint kinematics during planned single-leg landing. Therefore, future studies are needed to examine both proactive and reactive motor control to better understand altered motor control during ankle inversion perturbation in CAI patients. Last, the current study could not entirely remove anticipatory responses. Although, no differences in time to maximum inversion angle among three groups may represent that each individual was blinded to the conditions of landing surface, there are still probabilities of some anticipatory reactions during the unanticipated condition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">| CONCLUSION</head><p>In conclusion, this study was the first investigation to examine the effects of anticipation on reactive lower extremity joint kinematics after ankle inversion perturbation among groups of CAI, coper, and control. Under the anticipated condition, CAI patients displayed no differences in reactive lower extremity joint kinematics after ankle inversion perturbation. However, greater changes in ankle joint displacement and maximum ankle inversion velocity occurred after unanticipated ankle inversion perturbation in CAI patients compared with copers and controls. Our results suggest that altered feedback control under the unanticipated condition in CAI patients may contribute to the condition of CAI after LASs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6">| PERSPECTIVE</head><p>The current findings demonstrated that CAI patients had altered reactive lower extremity joint kinematics after unanticipated ankle inversion perturbation, which may contribute to recurrent LASs. Specifically, increased ankle displacement and maximum inversion velocity in CAI patients under the unanticipated condition may be closely related to injurious mechanisms associated with recurrent injuries. In contrast to CAI patients, copers displayed no differences in total ankle displacement and maximum inversion velocity between two conditions, such as the anticipated-and unanticipated-condition. Therefore, clinicians should focus on rehabilitation programs to recover and/or develop the reactive lower extremity joint kinematics for CAI patients during functional movements under unanticipated conditions. Additionally, because an ability to increase reliance on proximal joints during injurious situations may prevent recurrent injuries, clinicians need to develop multi-joint exercise programs for the CAI population.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>T A B L E 2 1 .F I G U R E 1</head><label>211</label><figDesc>Abbreviations: ADL, active daily living; AII, ankle instability instrument; CAI, chronic ankle instability; FAAM, foot and ankle ability measure; min, minutes.</figDesc><graphic coords="3,45.64,526.52,331.65,209.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>a</head><figDesc>Differences between anticipated and unanticipated condition regardless of group. b Differences between CAI and Control regardless of condition. c Differences between anticipated and unanticipated condition within group. d Differences between CAI and Control under the unanticipated condition. e Differences between CAI and Coper under the unanticipated condition. f Differences between CAI and Coper regardless of condition. g Moderate or large effect sizes between anticipated and unanticipated condition within group.| 1121 HAN et al.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="4,309.19,287.55,238.11,414.67" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>16000838, 2023, 7, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14342 by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [10/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head><p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST STATEMENT</head><p>The authors certify that they have no affiliations with or financial involvement in any organization or entity with a direct financial interest in the subject matter or materials discussed in the article.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Functional anatomy, pathomechanics, and pathophysiology of lateral ankle instability</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="364" to="375" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hertel J. Functional anatomy, pathomechanics, and pathophysiology of lateral ankle instability. J Athl Train. 2002;37(4):364-375.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Epidemiology of ankle sprains and chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Herzog</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Kerr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Wikstrom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="603" to="610" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Herzog MM, Kerr ZY, Marshall SW, Wikstrom EA. Epidemiology of ankle sprains and chronic ankle instability. J Athl Train. 2019;54(6):603-610.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Minimum reporting standards for copers in chronic ankle instability research</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Wikstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="251" to="268" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wikstrom EA, Brown CN. Minimum reporting standards for copers in chronic ankle instability research. Sports Med. 2014;44(2):251-268.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The incidence and prevalence of ankle sprain injury: a systematic review and meta-analysis of prospective epidemiological studies</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Doherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Delahunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Caulfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bleakley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="123" to="140" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doherty C, Delahunt E, Caulfield B, Hertel J, Ryan J, Bleakley C. The incidence and prevalence of ankle sprain injury: a sys- tematic review and meta-analysis of prospective epidemiologi- cal studies. Sports Med. 2014;44(1):123-140.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Prophylactic ankle stabilizers affect ankle joint kinematics during drop landings</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Mccaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Cerullo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="702" to="707" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCAW ST, Cerullo JF. Prophylactic ankle stabilizers affect ankle joint kinematics during drop landings. Med Sci Sports Exerc. 1999;31:702-707.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Lower extremity kinematics during ankle inversion perturbations: a novel experimental protocol that simulates an unexpected lateral ankle sprain mechanism</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Mosby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Macias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Knight</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="593" to="600" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simpson JD, Stewart EM, Mosby AM, Macias DM, Chander H, Knight AC. Lower extremity kinematics during ankle inversion perturbations: a novel experimental protocol that simulates an unexpected lateral ankle sprain mechanism. J Sport Rehabil. 2019;28(6):593-600.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Does chronic ankle instability influence lower extremity muscle activation of females during landing?</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="81" to="87" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li Y, Ko J, Walker MA, et al. Does chronic ankle instability in- fluence lower extremity muscle activation of females during landing? J Electromyogr Kinesiol. 2018;38:81-87.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Validity of the foot and ankle ability measure in athletes with chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Carcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Drouin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="179" to="183" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carcia CR, Martin RL, Drouin JM. Validity of the foot and ankle ability measure in athletes with chronic ankle instability. J Athl Train. 2008;43(2):179-183.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Development and reliability of the ankle instability instrument</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Docherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Gansneder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Hurwitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="154" to="158" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Docherty CL, Gansneder BM, Arnold BL, Hurwitz SR. Development and reliability of the ankle instability instrument. J Athl Train. 2006;41(2):154-158.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Selection criteria for patients with chronic ankle instability in controlled research: a position statement of the international ankle consortium</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Gribble</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Delahunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bleakley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="1014" to="1018" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gribble PA, Delahunt E, Bleakley C, et al. Selection criteria for patients with chronic ankle instability in controlled research: a position statement of the international ankle consortium. Br J Sports Med. 2014;48(13):1014-1018.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Neuromuscular control in individuals with chronic ankle instability: a comparison of unexpected and expected ankle inversion perturbations during a single leg drop-landing</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+		<idno type="DOI">/10.1016/j.humov.2019.01.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Hum Mov Sci</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="133" to="141" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simpson JD, Stewart EM, Turner AJ, et al. Neuromuscular control in individuals with chronic ankle instability: a compar- ison of unexpected and expected ankle inversion perturbations during a single leg drop-landing. Hum Mov Sci. 2019;64:133- 141. doi:10.1016/j.humov.2019.01.013</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Jump landing biomechanics during a laboratory recorded recurrent ankle sprain</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Terada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Gribble</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Foot Ankle Int</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="842" to="848" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Terada M, Gribble PA. Jump landing biomechanics during a laboratory recorded recurrent ankle sprain. Foot Ankle Int. 2015;36(7):842-848.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Movement strategies among groups of chronic ankle instability, Coper, and control</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Son</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Seeley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Hopkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1649" to="1661" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Son SJ, Kim H, Seeley MK, Hopkins JT. Movement strategies among groups of chronic ankle instability, Coper, and control. Med Sci Sports Exerc. 2017;49(8):1649-1661.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Fitting of mathematical functions to biomechanical data</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jackson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Biomed Engineering</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="122" to="124" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jackson K. Fitting of mathematical functions to biomechanical data. IEEE Trans Biomed Engineering. 1979;2:122-124.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Alterations in neuromuscular control at the knee in individuals with chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Terada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Pietrosimone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Gribble</surname></persName>
+		</author>
+		<idno type="DOI">/10.4085/1062-6050-49.3.28</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="599" to="607" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Terada M, Pietrosimone BG, Gribble PA. Alterations in neuromuscular control at the knee in individuals with chronic ankle instability. J Athl Train. 2014;49(5):599-607. doi:10.4085/1062-6050-49.3.28</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The effect of changes in the body configuration on anticipatory postural adjustments</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Aruin</surname></persName>
+		</author>
+		<idno type="DOI">/10.1123/mcj.7.3.264</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Motor Control</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="264" to="277" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aruin AS. The effect of changes in the body configuration on an- ticipatory postural adjustments. Motor Control. 2003;7(3):264- 277. doi:10.1123/mcj.7.3.264</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Neuromuscular dynamic restraint in women with anterior cruciate ligament injuries</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Swanik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Lephart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Swanik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Fu</surname></persName>
+		</author>
+		<idno type="DOI">/10.1097/00003086-200408000-00027</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Orthop Relat Res</title>
+		<imprint>
+			<biblScope unit="volume">425</biblScope>
+			<biblScope unit="page" from="189" to="199" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Swanik CB, Lephart SM, Swanik KA, Stone DA, Fu FH. Neuromuscular dynamic restraint in women with anterior cru- ciate ligament injuries. Clin Orthop Relat Res. 2004;425:189-199. doi:10.1097/00003086-200408000-00027</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Reactive muscle firing of anterior cruciate ligamentinjured females during functional activities</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Swanik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Lephart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Giraldo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Demont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="121" to="129" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Swanik CB, Lephart SM, Giraldo JL, Demont RG, Fu FH. Reactive muscle firing of anterior cruciate ligament- injured females during functional activities. J Athl Train. 1999;34(2):121-129.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Biomechanics of supination ankle sprain: a case report of an accidental injury event in the laboratory</title>
+		<author>
+			<persName><forename type="first">Dt-P</forename><surname>Fong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Krosshaug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ps-H</forename><surname>Yung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K-M</forename><surname>Chan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="822" to="827" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fong DT-P, Hong Y, Shima Y, Krosshaug T, Yung PS-H, Chan K-M. Biomechanics of supination ankle sprain: a case report of an accidental injury event in the laboratory. Am J Sports Med. 2009;37(4):822-827.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Examining neuromuscular control during landings on a supinating platform in persons with and without ankle instability</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Gutierrez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Swanik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="193" to="201" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gutierrez GM, Knight CA, Swanik CB, et al. Examining neuro- muscular control during landings on a supinating platform in persons with and without ankle instability. Am J Sports Med. 2012;40(1):193-201.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Neuromuscular control during stepping down in continuous gait in individuals with and without ankle instability</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Dundas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Gutierrez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pozzi</surname></persName>
+		</author>
+		<idno type="DOI">/10.1080/02640414.2013.868917</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="926" to="933" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dundas MA, Gutierrez GM, Pozzi F. Neuromuscular control during stepping down in continuous gait in individuals with and without ankle instability. J Sports Sci. 2014;32(10):926-933. doi:10.1080/02640414.2013.868917</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Proximal adaptations in chronic ankle instability: systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Dejong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Koldenhoven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1563" to="1575" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">DeJong AF, Koldenhoven RM, Hertel J. Proximal adaptations in chronic ankle instability: systematic review and meta-analysis. Med Sci Sports Exerc. 2020;52(7):1563-1575.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Muscle activations during functional tasks in individuals with chronic ankle instability: a systematic review of electromyographical studies</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Labanca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mosca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ghislieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Agostini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Knaflitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Benedetti</surname></persName>
+		</author>
+		<idno type="DOI">/10.1016/j.gaitpost.2021.09.182</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Gait Posture</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="340" to="373" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Labanca L, Mosca M, Ghislieri M, Agostini V, Knaflitz M, Benedetti MG. Muscle activations during functional tasks in individuals with chronic ankle instability: a systematic review of electromyographical studies. Gait Posture. 2021;90:340-373. doi:10.1016/j.gaitpost.2021.09.182</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

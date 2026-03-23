@@ -1,0 +1,28 @@
+Package: sportTheoryAI
+Title: Extract Theoretical Frameworks from Sports Science Research Using Local LLMs
+Version: 0.1.0
+Authors@R:
+    person("Author", "Name", email = "author@example.com", role = c("aut", "cre"))
+Description: A reproducible pipeline for extracting explicit and implicit theoretical
+    frameworks from applied sports science research article introductions using locally
+    hosted large language models via Ollama. Produces structured JSON outputs suitable
+    for systematic review, meta-analysis, and academic validation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    httr (>= 1.4.0),
+    jsonlite (>= 1.8.0),
+    dplyr (>= 1.1.0),
+    purrr (>= 1.0.0),
+    stringr (>= 1.5.0),
+    tibble (>= 3.2.0),
+    cli (>= 3.6.0),
+    rlang (>= 1.1.0),
+    yaml (>= 2.3.0)
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3

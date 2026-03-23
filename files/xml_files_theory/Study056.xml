@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Eccentric overload differences between loads and training variables on flywheel training</title>
+				<funder>
+					<orgName type="full">Research Center in Sports Sciences, Health Sciences and Human Development, CIDESD</orgName>
+				</funder>
+				<funder ref="#_KPz82nf">
+					<orgName type="full">VI Plan de Investigación</orgName>
+				</funder>
+				<funder ref="#_P7nMnNz">
+					<orgName type="full">Portuguese Foundation of Science and Technology</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Alejandro</forename><surname>Muñoz-López</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Motricidad Humana y Rendimiento Deportivo</orgName>
+								<orgName type="institution">University of Seville</orgName>
+								<address>
+									<settlement>Seville</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fábio</forename><surname>Yuzo Nakamura</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Research Center in Sports Sciences</orgName>
+								<orgName type="institution" key="instit1">Health Sciences and Human Development</orgName>
+								<orgName type="institution" key="instit2">CIDESD</orgName>
+								<orgName type="institution" key="instit3">University of Maia</orgName>
+								<address>
+									<settlement>Maia</settlement>
+									<country key="PT">Portugal</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marco</forename><surname>Beato</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">School of Health and Sports Science</orgName>
+								<orgName type="institution">University of Suffolk</orgName>
+								<address>
+									<settlement>Ipswich</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Departamento</forename><surname>De Motricidad</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Yuzo</forename><surname>Fábio</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Nakamura</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Humana y Rendimiento Deportivo</orgName>
+								<orgName type="institution">University of Seville Seville</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Eccentric overload differences between loads and training variables on flywheel training</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8DB5C3F3FD830BDF78BEF31A4703B10F</idno>
+					<idno type="DOI">10.5114/biolsport.2023.122483</idno>
+					<note type="submission">Received: 2022-06-17; Reviewed: 2022-09-25; Re-submitted: 2022-09-26; Accepted: 2022-11-26;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:11+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Eccentric training Injury prevention Resistance training Strength Squat</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>There is considerable debate about the existence of a real eccentric overload in flywheel exercises. This study aimed to analyse the differences in concentric: eccentric mechanical output ratios between different loads and variables in the flywheel squat exercise. Twenty physically active men (22.9 ± 2.2 years, height: 1.8 ± 0.1 m, weight: 79.6 ± 8.2 kg) performed a loading test using five moments of inertia. Angular speed was measured using a rotary encoder, while the vertical force was measured using force plates. For each variable (angular speed, angular acceleration, power, vertical force, and torque), mean and peak values were calculated for concentric and eccentric phases to allow comparisons across the loads. We tested the possible differences in Load × Phase (concentric and eccentric) and Load × Variable. The level of significance was established as p &lt; 0.05. A significant Load × Phase interaction was found in mean angular speed, peak vertical force, peak angular acceleration, peak power and peak torque. Higher eccentric overload values were observed with speedderived variables (angular speed, angular acceleration and power). In conclusion, speed-derived peak variables and lower loads are more likely to show an eccentric overload and can be used to monitor responses to flywheel training.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Athletes must move in all directions and with frequent changes of direction to meet the performance needs of their sport <ref type="bibr" target="#b0">[1]</ref>. These movements are carried out at different speeds and may require highintensity accelerations and decelerations, which can impact physical loading and fitness <ref type="bibr" target="#b1">[2]</ref>. There are different training equipment to improve acceleration or deceleration abilities; for instance, traditional resistance training can improve acceleration ability (i.e., the initial part of a sprinting action) <ref type="bibr" target="#b2">[3]</ref>. In contrast, flywheel resistance training devices have mostly been used in training programs to improve performance during the eccentric phase of the movement <ref type="bibr" target="#b3">[4]</ref>. With these devices, the athlete first pulls a rope or a strap at the desired (i.e., maximal) intensity, thus spinning a flywheel disk during the concentric phase. Then the rope or strap recoils around the rotary shaft during the eccentric phase, where the athlete is instructed to decelerate the kinetic energy produced during the concentric phase <ref type="bibr" target="#b4">[5]</ref>.</p><p>During flywheel resistance training, practitioners try to achieve a so-called eccentric overload with their athletes, which can be explained as the production of a greater mechanical output during the eccentric phase compared to the concentric one <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b6">7]</ref>. In a recent meta-analysis, Muñoz-López et al. <ref type="bibr" target="#b7">[8]</ref> showed that most of the research that used flywheel resistance training with the purpose to achieve an EO neither measured it nor achieved that. EO can be easily measured using the eccentric:concentric ratio (E:C) <ref type="bibr" target="#b8">[9]</ref>. E:C is a parameter used to quantify the application of kinetic variables (e.g., force) during the eccentric phase of a movement in comparison to the concentric phase <ref type="bibr" target="#b5">[6]</ref>. Therefore, if the kinetic energy measured is higher during the eccentric phase than the concentric phase, an E:C would be greater than 1 and EO would be achieved <ref type="bibr" target="#b5">[6]</ref>. However, a known problem related to EO during flywheel resistance training is its accurate quantification and its reliability <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b9">10]</ref>. The absence of an EO during flywheel resistance training can be related to the following reasons: 1) the participant is not able to decelerate the kinetic energy towards the end of the eccentric phase, 2) low experience or poor familiarization of the participants with flywheel resistance training <ref type="bibr" target="#b4">[5]</ref>, 3) the proper selection of the mechanical output used to monitor it <ref type="bibr" target="#b7">[8]</ref>, or 4) the external load used <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b11">12]</ref>.</p><p>An effective selection of the inertial load may be critical to induce EO <ref type="bibr" target="#b12">[13]</ref>. Some authors showed significant differences in speed <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref>, power <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b16">17]</ref>, angular acceleration <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b16">17]</ref>,</p><p>or vertical force <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref> between different moments of inertia in flywheel squat exercises. Some authors reported that the lower the moment of inertia, the higher the speed <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b15">16]</ref>. For the leg a randomized loading test using five different moments of inertia (e.g., loads). Before testing, subjects conducted two familiarization sessions across all the loads used during the test.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Subjects</head><p>A total of 25 physically active males participated in this study (age: 22.9 ± 2.2 years, height: 1.8 ± 0.1 m, weight: 79.6 ± 8.2 kg). The main inclusion criteria were having a minimum of two years of experience in the squat exercise and having participated for a minimum of 6 months in weekly resistance training programs involving the lower body muscles. At the beginning of the familiarization sessions, none of the subjects had experience executing flywheel squat exercise.</p><p>We also instructed the subjects not to change their daily nutritional habits or consume any ergogenic aid at least 48 h before testing execution. The minimum sample size required for the statistical test used (two-way repeated-measures ANOVA), considering 80% statistical power, an alpha error of 0.05, and a moderate f effect size of 0.3, was 16 subjects (Power = 0.84). The study protocol followed the guidelines of the Declaration of Helsinki and was approved by the local ethics committee.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Intervention</head><p>Prior to the execution of the tests, the subjects warmed up for 10 minutes. The warm-up consisted of 5 minutes of cycling on an electronic ergometer at a self-selected submaximal pace, followed by mobilization exercises for the ankle, knee, hip, and trunk joints for 5 minutes. Furthermore, the subjects ended the warm-up with five countermovement jumps and six submaximal repetitions of the harness squat exercise with the lowest load used in the tests.</p><p>The squat exercise was performed on a cylindrical shaft flywheel resistance device (kBox 3, Exxentric, AB Bromma, Sweden). The loading test consisted of 5 sets (one set for each load in random order), with 5 minutes of rest interspersing the sets. The loads used for each set were 0.025 kg • m 2 , 0.050 kg • m 2 , 0.075 kg • m 2 , 0.100 kg • m 2 , 0.125 kg • m 2 . The radius width of the cylinder was 0.025 m. Two submaximal repetitions were used to accelerate the flywheel disk initially. From the third repetition (the first for further analyses), subjects had to accelerate the flywheel disk at maximum voluntary effort, pulling until the end of the concentric phase. We instructed the participants to decelerate as hard as possible the spinning flywheel disk at the end during the eccentric phase. Only subjects who committed to completing the five loads were considered (n = 20); therefore, 5 subjects were excluded. Data were recorded using a rotary encoder (EMS22Q, Bourns, Riverside, CA, USA) connected to the flywheel shaft and a prototype multichannel acquisition system (SmartCoach MultiChannel, Smart-Coach Technologies Inc., Pleasanton, CA, USA), with specific computer software (SmartPlot V4.7.0, SmartCoach Technologies Inc., Pleasanton, CA, USA). We calculated the mean and peak values for the speed, acceleration, power and torque variables from the raw speed captured for each concentric and eccentric phase movement. extension exercise, Martinez-Aranda and Fernandez-Gonzalo <ref type="bibr" target="#b11">[12]</ref> showed that EO is more likely to be produced with a moment of inertia of 0.0375 kg • m 2 . However, they calculated the EO only using peak force, while Muñoz-López et al. <ref type="bibr" target="#b7">[8]</ref> showed an influence of the variable selected when the occurrence of EO is assessed. Sabido et al. <ref type="bibr" target="#b10">[11]</ref> showed that a lower moment of inertia (i.e., 0.025 kg • m 2 ) resulted in higher concentric peak power outputs, whereas higher inertial loads (i.e., 0.075 kg • m 2 ) were more likely to produce higher eccentric peak power outputs. However, other researchers reported that a generalization about the use of moments of inertia for all exercises is not possible because mechanical outputs are very dependent on the exercise selected, the characteristics of the athletes and their previous familiarization with the devices <ref type="bibr" target="#b6">[7]</ref>. Therefore, it is impossible to state that lower moments of inertia are more suitable for EO production because several factors can affect kinetic and kinematic parameters in both concentric and eccentric phases <ref type="bibr" target="#b6">[7]</ref>.</p><p>A common approach to understanding the neuromuscular profile for a given exercise is to study the force-velocity profile <ref type="bibr" target="#b17">[18]</ref>. Typically, the force-velocity profile is calculated using the force and speed of the concentric phase using several external loads in a progressive loading test. Although it has been widely studied with stack machines and free weights (here categorized as traditional resistance equipment), to our knowledge, only a few studies have analyzed it using flywheel resistance training devices <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b18">19]</ref>, reporting both concentric and eccentric outputs. Flywheel devices are equipped with a rotary encoder instead of a linear encoder (used with traditional resistance equipment), which can help to understand better the mechanical rotation demands of both concentric and eccentric phases. To the best of our knowledge, no study has yet investigated the force-velocity relationships using angular variables (i.e., angular speed or torque), nor have investigated those relationships during the eccentric phase of the exercise.</p><p>Considering the increasing interest in implementing flywheel resistance training in strength and conditioning programs, especially due to the opportunities to increase muscle activation <ref type="bibr" target="#b19">[20]</ref>, acute performance, and chronic adaptations <ref type="bibr" target="#b20">[21]</ref>, it is important to know how to monitor EO over a range of moments of inertia effectively.</p><p>Therefore, this study aimed to determine the differences in EO between the moments of inertia and the mechanical outputs used in a flywheel squat, which is one of the preferential exercises implemented in those programs. A secondary objective was to compare the force-velocity profile of the concentric and eccentric phases of this exercise. We hypothesized that, first, the kinetic and kinematic outputs will vary across the loads used, and second, the EO level is variable-and load-dependent.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Approach to the Problem</head><p>This study used a randomized observational design to measure the mechanical output during the concentric and the eccentric phase of the flywheel squat exercise using different loads. Subjects performed</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Flywheel squat eccentric overload</head><p>In addition, we recorded the vertical ground reaction force using two force platforms (SmartCoach Europe AB, Stockholm, Sweden), synchronized and connected to the SmartCoach Multichannel. From the force platforms, we calculated the mean and peak force. The sampling rate was set at 100 Hz for both capture systems. Finally, we calculated the E:C value as the eccentric phase value divided by the concentric phase value. The average from the three fastest repetitions of each set (i.e., with the highest concentric speed) was considered for further analysis. Further information on data acquisition and computation is published elsewhere <ref type="bibr" target="#b16">[17]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistics</head><p>Data are shown as mean ± standard deviation (SD). Data normality was checked using the Shapiro-Wilk test. The sphericity assumption was tested using Mauchly's sphericity test and corrected using the Greenhouse-Geisser correction in the case of being positive. We used a two-way ANOVA repeated measures test with two within-subjects factors (Load (i.e., moments of inertia) × Phase (i.e., concentric or eccentric)). In addition, we tested the differences between loads in the E:C using a two-way ANOVA repeated measures test with two within-subjects factors (Load × Variable). When a significant interaction was found in both cases, we performed a post hoc analysis using the Bonferroni correction. Alpha level to determine significant differences was 5%, therefore p = 0.05. We used the partial eta squared (η 2 p ) to measure the effect size of the differences for the interactions such as 0.01-0.059 (small), 0.06-0.139 (medium), and &gt; 0.14 (large). We used the Cohen's d to measure the effect size of the post-hoc differences as follows: &lt; 0.20 (trivial), 0.2-0.59 (small), 0.6-1.19 (moderate), 1.2-2.0 (large), and &gt; 2.0 (very large) <ref type="bibr" target="#b21">[22]</ref>. Finally, we calculated and plotted the mean ± SD of force, torque, power, and velocity to represent different mechanical relationships for each movement phase. We used the JASP software for Windows (JASP Team, Version 0.16) for all statistical tests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Concentric and eccentric outputs</head><p>The mean and peak values for each variable during the concentric and eccentric phases are shown in Table <ref type="table" target="#tab_0">1</ref> and <ref type="table" target="#tab_1">Table 2</ref>,  For the Peak Power, the eccentric outputs were higher than concentric outputs for 0.025 kg • m 2 (p &lt; 0.001, d = 0.76 -moderate). Velocity for the concentric and eccentric phases. The concentric Vertical Force-Angular Velocity profile was higher than the eccentric profile for all the load ranges studied. The opposite was shown for the Torque-Angular Velocity profile. Finally, the Power-Angular Velocity profile was higher for the concentric phase, but the velocity was higher. Although the Force-Angular Velocity profile was almost linear, the Torque-and Power-Angular Velocity profiles showed a curvilinear relationship.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>This study aimed to determine the differences in EO between the moments of inertia and the mechanical outputs used in a flywheel squat. A secondary objective was to compare the force-velocity profile of the concentric and eccentric phases of this exercise. In this research, we showed that 1) EO is recorded preferentially when peak variables are used instead of mean variables; 2) speed derived variables (i.e., angular speed, angular acceleration, power) are more likely to show higher eccentric than concentric outputs, compared</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Eccentric:concentric ratio between variables differences</head><p>Figures <ref type="figure">1</ref> and <ref type="figure">2</ref> show the E:C for the mean and peak variables, respectively. The mean and peak variables did not show a significant Load effect, but a Variable significant effect (p &lt; 0.001) was detected. For mean variables, E:C was higher than 1 (i.e., eccentric overload) for Mean Angular Acceleration, Mean Torque, Mean Power, and Mean Angular Speed, but lower than 1 (i.e., no eccentric overload)</p><p>for Mean Vertical Force. For peak variables, E:C was higher than 1 for Peak Acceleration, Peak Torque, and Peak Power, but lower than 1 for Peak Angular Speed and Peak Vertical Force. Only the peak variables showed a Load × Variable significant interaction (p &lt; 0.001, η 2 p = 0.26 -large). In this case, Peak Power showed a significant difference between 0.025 kg • m 2 and 0.125 kg • m 2 , and Peak Torque between 0.025 kg • m 2 and 0.050 kg • m 2 . FIG. 2. Eccentric:concentric ratio for each moment of inertia and mechanical variable peak values. The dotted horizontal line represents a ratio equal to 1. Values above this line represents an eccentric overload.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mechanical profiles</head><p>to vertical force; 3) the E:C is a suitable parameter to measure EO, with the capability to distinguish levels of EO between loads, especially when peak power is used; 4) the torque-angular velocity profile resulted in a curvilinear relationship, with higher concentric outputs compared to eccentric outputs along the load range studied.</p><p>We showed that mean and peak angular acceleration followed the same response pattern across the loads for the first time. As with other training equipment, flywheel resistance devices showed lower peak and mean velocities at higher moments of inertia <ref type="bibr" target="#b3">(4,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b22">23,</ref><ref type="bibr">35)</ref>.</p><p>We found a similar response even though we monitored angular velocity instead of linear velocity as done in other studies <ref type="bibr" target="#b3">(4,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b22">23,</ref><ref type="bibr">35)</ref>.</p><p>In agreement with previous results <ref type="bibr" target="#b12">(13,</ref><ref type="bibr" target="#b24">25,</ref><ref type="bibr">35)</ref>, the mean and peak power decreased when the moment of inertia increased. Furthermore, the angular acceleration showed the largest differences considering Load and Phase. Similar differences were observed with angular acceleration but during leg extension exercise <ref type="bibr" target="#b13">[14]</ref>. However, the higher the load, the higher the mean or peak torque measured.</p><p>Finally, the mean vertical force did not significantly change across loads. Instead, the peak vertical force increased when higher loads were used (Table <ref type="table" target="#tab_1">2</ref>). Similar mean vertical forces were previously observed between different loads in flywheel exercises <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b17">18]</ref>. For that reason, practitioners may benefit from using low moments of inertia to improve acceleration ability (i.e., 0.025 kg • m 2 ), which will maximize both concentric and eccentric power outputs, despite the fact that force or torque outputs were lower in those cases. On the other hand, if the intention is to generate high peak force values in both eccentric and concentric phases, it is advisable to use higher moments of inertia, as reported in this study.</p><p>Several studies showed the relevance of using flywheel devices in strength and conditioning programs due to their capacity to enhance the eccentric load and related adaptations <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b23">24]</ref>. Maroto et al. <ref type="bibr" target="#b22">[23]</ref> showed the largest changes for Peak Power during the eccentric phase, compared to the concentric phase, after 12 weeks of training using a single-leg flywheel squat exercise. This resulted in moderate increases in tight muscle volume and large increases in maximum repetition and vertical jump performance. Furthermore, increased muscle volume (up to 10%) was observed in the quadriceps muscles during leg extension exercise using a cylindrical flywheel device after 5 weeks of training <ref type="bibr" target="#b23">[24]</ref>. Tous-Fajardo et al. <ref type="bibr" target="#b4">[5]</ref> introduced the concept of E:C for measuring EO, and subsequently Sabido et al. <ref type="bibr" target="#b10">[11]</ref> showed that when E:C was calculated using peak power, the highest values were observed with moments of inertia close to 0.075 kg • m 2 , using a cylindrical flywheel quarter squat exercise. In the current study, we show that whether EO is achieved or not depends on the variable and load selected (Figures <ref type="figure">1</ref> and <ref type="figure">2</ref>).</p><p>Mean variables showed E:C higher than 1, despite only mean angular speed showed a significant difference CON and ECC, probably explained by the high individual variance in these variables. Furthermore, we showed that the peak values showed greater differences between the loads than the mean values and the highest E:C was observed when peak angular acceleration was used to calculate it. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Flywheel squat eccentric overload</head><p>However, Peak Power was also sensible to detect differences between the lower and the highest load used to monitor the EO (Figure <ref type="figure">2</ref>). Despite peak variables were more sensible to show EO, it is possible that at an individual level, mean variables could also show that.</p><p>It can be explained by a lower sensibility of the peak variables to show differences in the execution technique, and as a result a higher advantage for monitoring EO using peak variables. More research is needed to confirm these results.</p><p>When E:C was calculated with Peak Vertical Force, it decreased when loads increased but it was never higher than 1, which means that no EO was achieved using this variable. To achieve high levels of EO, low inertial loads (i.e., 0.025 kg • m 2 ) may also be used. However, in this research EO could also be observed up to 0.100 kg • m 2 .</p><p>Hence Peak Power EO can be achieved across a broad range of loads and the choice of the load depends on the aims of the strength and conditioning program (e.g., focus on speed or force production). Curiously, Sabido et al. <ref type="bibr" target="#b10">[11]</ref> found the Peak Power EO close to 0.075 kg • m 2 , and it might be related to the fact that they used quarter squat while we used half squat. The effect of how deep participants squat in the flywheel exercise on the occurrence of EO needs to be clarified in the future.</p><p>To monitor the neuromuscular profile of an athlete, for instance, the force-velocity profile can be used, which shows the relationship between both mechanical variables, reflecting how much force an athlete could exert for a given velocity <ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref>. Profiling exercises can help develop individualized training programs using the slope of the relationship <ref type="bibr" target="#b14">[15]</ref> and monitor changes in performance <ref type="bibr" target="#b26">[27]</ref>. Typically, these profiles are measured using traditional resistance exercises, where a linear relationship is shown between force and velocity <ref type="bibr" target="#b24">[25]</ref>. However, the relationship between power and velocity is curvilinear <ref type="bibr" target="#b24">[25]</ref>. In addition, those profiles are calculated during the concentric phase of the movement only.</p><p>Our results suggest a similar profile for the flywheel squat exercise for concentric and eccentric outputs. This is explained by the very low differences observed between the vertical force loads, which agrees with previous results <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b17">18]</ref>. On the contrary, greater slopes were observed when linear velocity was used instead of angular velocity in flywheel devices <ref type="bibr" target="#b18">[19]</ref>. Although measuring flywheel device performance using the mechanics of linear momentum may help calculate a force-velocity profile slope, it is mostly unpractical and difficult to set a linear encoder, instead, a rotary encoder could be used to measure torque instead of force <ref type="bibr" target="#b6">[7]</ref>. In fact, torque can be understood as the equivalent of force exerted on the angular momentum. Furthermore, the force cannot be easily calculated from the speed during flywheel exercises because the width of the shaft varies along with the range of motion of exercise <ref type="bibr" target="#b27">[28]</ref>. Our results showed a curvilinear relationship between torque and angular velocity, with higher concentric outputs for all the loads measured. Finally, the power-angular velocity relationship showed that the largest power output was observed at higher velocities (Figure <ref type="figure" target="#fig_2">3</ref>). Indeed, those values were higher for the concentric phase, but the lower the angular speed, the smallest the difference between both phases. Monitoring the power-angular velocity may help decide which load may be used for training programs when using flywheel devices to enhance acceleration and deceleration abilities, which is still an underexplored topic <ref type="bibr" target="#b28">[29]</ref>.</p><p>This study has some limitations. First, our results may only apply to squat exercises. Second, the type of flywheel shaft influences the mechanical output, regardless of the moment of inertia <ref type="bibr" target="#b29">[30]</ref>.</p><p>Lastly, this study enrolled a sample of active males participated.</p><p>Therefore, these findings need to be confirmed in other populations (i.e., female) and different sport levels (e.g., professional athletes).</p><p>Future research is needed to verify the reliability of these parameters in sports, to verify our findings using different exercises such as flywheel leg curl, flywheel leg press, etc, and also with other flywheel devices (i.e., conical shaft shape).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>In conclusion we found that EO depends on the mechanical output and discrete variables analyzed (peak variables and speed derived variables showed higher EO). Lastly, the torque-angular velocity profile resulted in a curvilinear relationship, with higher concentric outputs than eccentric outputs along with the studied load range. The E:C is a suitable parameter to measure EO, with the capability to distinguish levels of EO between loads, especially when peak power parameters are used.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>respectively.From the mean variables, only the Mean Angular Speed (p &lt; 0.001, η 2 p = 0.45 -large) showed a significant Load × Phase interaction. In addition, the eccentric Mean Angular Speed was significantly higher than concentric Mean Angular Speed for 0.050 kg • m 2 (p &lt; 0.001, d = 0.54 -moderate), 0.075 kg • m 2 (p &lt; 0.05, d = 0.48 -small), 0.100 kg • m 2 (p &lt; 0.001, d = 0.72 -moderate), and 0.125 kg • m 2 (p &lt; 0.001, d = 0.60 -moderate). The Peak Vertical Force (p &lt; 0.001, η 2 p = 0.44 -large), the Peak Angular Acceleration (p &lt; 0.001, η 2 p = 0.35 -large), the Peak Power (p &lt; 0.001, η 2 p = 0.23 -large), and the Peak Torque (p = 0.009, η 2 p = 0.16 -large) showed a significant Load × Phase interaction. In addition, the Peak Vertical Force concentric outputs were higher than the eccentric outputs at 0.075 kg • m 2 (p &lt; 0.001, d = 0.70 -moderate), 0.100 kg • m 2 (p &lt; 0.001, d = 1.08 -large), and 0.125 kg • m 2 (p &lt; 0.001, d = 1.23 -large). For the Peak Angular Acceleration, eccentric outputs were higher than concentric outputs for 0.025 kg • m 2 (p &lt; 0.001, d = 1.44 -large), 0.050 kg • m 2 (p &lt; 0.001, d = 1.68 -large), 0.075 kg • m 2 (p &lt; 0.001, d = 0.99 -large), and 0.100 kg • m 2 (p &lt; 0.05, d = 1.02 -large).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 FIG. 2 .</head><label>32</label><figDesc>Figure3shows the mechanical profile between the Vertical Force-Angular Velocity, Torque-Angular Velocity, and Power-Angular</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIG. 3 .</head><label>3</label><figDesc>FIG. 3.Force-, Torque-, and Power-Velocity profiles for the concentric (black squares) and eccentric (grey circles) phases. The vertical and the horizontal lines represents the individuals standard deviations for each y-variable (vertical lines) and x-variable (horizontal lines).</figDesc><graphic coords="6,48.14,62.19,246.72,561.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="4,48.23,316.78,507.36,346.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1 .</head><label>1</label><figDesc>Descriptive mean variables and differences for Load, Phase, and Load × Phase. CON = concentric phase. ECC = eccentric phase.</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">Load (kg • m 2 )</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Differences</cell><cell></cell></row><row><cell>Variable</cell><cell cols="2">0.025 CON ECC</cell><cell cols="2">0.050 CON ECC</cell><cell cols="2">0.075 CON ECC</cell><cell cols="2">0.100 CON ECC</cell><cell cols="2">0.125 CON ECC</cell><cell>Load</cell><cell>Phase</cell><cell>Load × Phase</cell></row><row><cell>Angular speed (rad/s)</cell><cell>99.6 ± 14.4</cell><cell>96.7 ± 10.9</cell><cell>75.5 ± 8.0</cell><cell>80.3 ± 9.3</cell><cell>63.5 ± 7.2</cell><cell>67.6 ± 8.1</cell><cell>54.7 ± 5.8</cell><cell>61.1 ± 8.6</cell><cell>48.5 ± 5.4</cell><cell>53.8 ± 7.0</cell><cell>p &lt; 0.001 η 2 p = 0.93</cell><cell>p &lt; 0.001 η 2 p = 0.62</cell><cell>p &lt; 0.001 η 2 p = 0.45</cell></row><row><cell>Angular acceleration (rad/s 2 )</cell><cell>189.7 ± 19.0</cell><cell>209.0 ± 44.9</cell><cell>116.9 ± 17.8</cell><cell>129.4 ± 22.1</cell><cell>81.7 ± 14.2</cell><cell>92.9 ± 20.1</cell><cell>61.8 ± 12.9</cell><cell>68.9 ± 19.4</cell><cell>51.8 ± 9.8</cell><cell>57.1 ± 9.8</cell><cell>p &lt; 0.001 η 2 p = 0.55</cell><cell>p &lt; 0.001 η 2 p = 0.57</cell><cell>p = 0.081 η 2 p = 0.13</cell></row><row><cell>Power (W)</cell><cell>433.4 ± 86.8</cell><cell>469.3 ± 149.5</cell><cell>416.8 ± 103.7</cell><cell>450.6 ± 117.2</cell><cell>366.5 ± 93.8</cell><cell>407.7 ± 123.1</cell><cell>323.3 ± 93.8</cell><cell>358.1 ± 124.7</cell><cell>299.6 ± 86.5</cell><cell>327.2 ± 118.4</cell><cell>p &lt; 0.001 η 2 p = 0.58</cell><cell>p &lt; 0.001 η 2 p = 0.47</cell><cell>p = 0.936 η 2 p = 0.01</cell></row><row><cell>Torque (N • m)</cell><cell>4.7 ± 0.5</cell><cell>5.2 ± 1.1</cell><cell>5.8 ± 0.9</cell><cell>6.5 ± 1.1</cell><cell>6.1 ± 1.1</cell><cell>7.0 ± 1.5</cell><cell>6.2 ± 1.3</cell><cell>6.9 ± 2.0</cell><cell>6.5 ± 1.2</cell><cell>7.1 ± 1.9</cell><cell>p &lt; 0.001 η 2 p = 0.55</cell><cell>p &lt; 0.001 η 2 p = 0.57</cell><cell>p = 0.695 η 2 p = 0.03</cell></row><row><cell>Vertical force (N)</cell><cell>1483.5 ± 124.3</cell><cell>1371.6 ± 156.0</cell><cell>1582.6 ± 203.9</cell><cell>1452.8 ± 198.2</cell><cell>1604.7 ± 250.9</cell><cell>1458.7 ± 231.5</cell><cell>1583.5 ± 249.0</cell><cell>1434.2 ± 272.3</cell><cell>1618.6 ± 266.5</cell><cell>1454.2 ± 284.0</cell><cell>p &lt; 0.001 η 2 p = 0.19</cell><cell>p = 0.012 η 2 p = 0.93</cell><cell>p = 0.287 η 2 p = 0.06</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE 2 .</head><label>2</label><figDesc>Descriptive peak variables and differences for Load, Phase, and Load × Phase. CON = concentric phase. ECC = eccentric phase.</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">Load (kg • m 2 )</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Differences</cell><cell></cell></row><row><cell>Variable</cell><cell cols="2">0.025 CON ECC</cell><cell cols="2">0.050 CON ECC</cell><cell cols="2">0.075 CON ECC</cell><cell cols="2">0.100 CON ECC</cell><cell cols="2">0.125 CON ECC</cell><cell>Load</cell><cell>Phase</cell><cell>Load X Phase</cell></row><row><cell>Angular speed (rad/s)</cell><cell>161.3 ± 17.6</cell><cell>158.9 ± 18.3</cell><cell>129-0 ± 12.6</cell><cell>127.4 ± 13.7</cell><cell>110.0 ± 10.3</cell><cell>108.4 ± 11.1</cell><cell>96.5 ± 10.6</cell><cell>95.7 ± 11.5</cell><cell>86.7 ± 9.0</cell><cell>85.5 ± 9.2</cell><cell>p &lt; 0.001 η 2 p = 0.95</cell><cell>p &lt; 0.001 η 2 p = 0.71</cell><cell>p = 0.672 η 2 p = 0.03</cell></row><row><cell>Angular acceleration (rad/s 2 )</cell><cell>323.5 ± 51.2</cell><cell>380.2 ± 71.6</cell><cell>182.5 ± 25.4</cell><cell>248.7 ± 51.0</cell><cell>133.7 ± 20.6</cell><cell>172.8 ± 45.4</cell><cell>100.5 ± 14.9</cell><cell>125.3 ± 31.0</cell><cell>84.8 ± 12.6</cell><cell>104.6 ± 25.4</cell><cell>p &lt; 0.001 η 2 p = 0.95</cell><cell>p &lt; 0.001 η 2 p = 0.82</cell><cell>p &lt; 0.001 η 2 p = 0.35</cell></row><row><cell>Power (W)</cell><cell>754.6 ± 166.5</cell><cell>921.1 ± 298.1</cell><cell>800.0 ± 184.4</cell><cell>835.0 ± 255.0</cell><cell>735.8 ± 188.9</cell><cell>774.3 ± 231.0</cell><cell>666.6 ± 207.4</cell><cell>696.0 ± 220.7</cell><cell>647.5 ± 194.6</cell><cell>622.2 ± 218.1</cell><cell>p = 0.027 η 2 p = 0.46</cell><cell>p &lt; 0.001 η 2 p = 0.23</cell><cell>p &lt; 0.001 η 2 p = 0.23</cell></row><row><cell>Torque (N • m)</cell><cell>8.1 ± 1.3</cell><cell>9.5 ± 1.8</cell><cell>9.1 ± 1.3</cell><cell>12.4 ± 2.6</cell><cell>10.0 ± 1.6</cell><cell>13.0 ± 3.4</cell><cell>10.0 ± 1.5</cell><cell>12.5 ± 3.1</cell><cell>10.6 ± 1.6</cell><cell>13.1 ± 3.0</cell><cell>p &lt; 0.001 η 2 p = 0.57</cell><cell>p &lt; 0.001 η 2 p = 0.79</cell><cell>p = 0.009 η 2 p = 0.16</cell></row><row><cell>Vertical force (N)</cell><cell>1671.7 ± 140.5</cell><cell>1613.6 ± 168.3</cell><cell>1797.7 ± 195.5</cell><cell>1691.8 ± 223.1</cell><cell>1911.7 ± 270.8</cell><cell>1735.5 ± 272.6</cell><cell>1958.1 ± 269.6</cell><cell>1688.7 ± 262.1</cell><cell>2039.2 ± 315.2</cell><cell>1731.8 ± 313.1</cell><cell>p &lt; 0.001 η 2 p = 0.41</cell><cell>p &lt; 0.001 η 2 p = 0.81</cell><cell>p &lt; 0.001 η 2 p = 0.44</cell></row></table><note><p>FIG. 1. Eccentric:concentric ratio for each moment of inertia and mechanical variable mean values. The dotted horizontal line represents a ratio equal to 1. Values above this line represents an eccentric overload.</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work was funded by a research grant "<rs type="funder">VI Plan de Investigación</rs>" (<rs type="grantNumber">24.02.2020/mod. 1.3A</rs>) of the <rs type="institution">University of Seville</rs>, and by <rs type="funder">Research Center in Sports Sciences, Health Sciences and Human Development, CIDESD</rs>, that is supported by the <rs type="funder">Portuguese Foundation of Science and Technology</rs> (<rs type="grantNumber">UID/04045/2020</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_KPz82nf">
+					<idno type="grant-number">24.02.2020/mod. 1.3A</idno>
+				</org>
+				<org type="funding" xml:id="_P7nMnNz">
+					<idno type="grant-number">UID/04045/2020</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of interest:</head><p>The authors declare no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Effects of 10-week eccentric overload training on kinetic parameters during change of direction in football players</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Hoyo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sañudo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Carrasco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="1380" to="1387" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">de Hoyo M, Sañudo B, Carrasco L, et al. Effects of 10-week eccentric overload training on kinetic parameters during change of direction in football players. J Sports Sci. 2016; 34(14):1380-1387.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Acceleration intensity is an important contributor to the external and internal training load demands of repeated sprint exercises in soccer players</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Beato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Drust</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Res Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="67" to="76" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beato M, Drust B. Acceleration intensity is an important contributor to the external and internal training load demands of repeated sprint exercises in soccer players. Res Sports Med. 2021; 29(1):67-76.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Effect of Different Sprint Training Methods on Sprint Performance Over Various Distances: A Brief Review</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Rumpf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Lockie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Cronin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1767" to="1785" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rumpf MC, Lockie RG, Cronin JB, et al. Effect of Different Sprint Training Methods on Sprint Performance Over Various Distances: A Brief Review. J Strength Cond Res. 2016; 30(6):1767-1785.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Implementing Eccentric Resistance Training-Part 1: A Brief Review of Existing Methods</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Suchomel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Wagle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Douglas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Funct Morphol Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">38</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Suchomel TJ, Wagle JP, Douglas J, et al. Implementing Eccentric Resistance Training-Part 1: A Brief Review of Existing Methods. J Funct Morphol Kinesiol. 2019; 4(2):38.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The flywheel leg-curl machine: offering eccentric overload for hamstring development</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tous-Fajardo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Maldonado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Quintana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="293" to="298" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tous-Fajardo J, Maldonado RA, Quintana JM, et al. The flywheel leg-curl machine: offering eccentric overload for hamstring development. Int J Sports Physiol Perform. 2006; 1(3):293-298.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Force and power characteristics of a resistive exercise device for use in space</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Berg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Tesch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Astronaut</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="219" to="230" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Berg HE, Tesch PA. Force and power characteristics of a resistive exercise device for use in space. Acta Astronaut. 1998; 42(1):219-230.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Load Quantification and Testing Using Flywheel Devices in Sports</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maroto-Izquierdo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Raya-González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Hernández-Davó</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2021-10">2021. October</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maroto-Izquierdo S, Raya-González J, Hernández-Davó JL, et al. Load Quantification and Testing Using Flywheel Devices in Sports. Front Physiol. 2021; 12(October):1-5.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The use of real-time monitoring during flywheel resistance training programs: how can we measure the eccentric overload? A systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Muñoz-López</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fonseca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ramirez-Campillo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Sport</title>
+		<imprint>
+			<biblScope unit="page" from="639" to="652" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muñoz-López A, Fonseca F, Ramirez-Campillo R, et al. The use of real-time monitoring during flywheel resistance training programs: how can we measure the eccentric overload? A systematic review and meta-analysis. Biol Sport. 2021;639-652.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Eccentric-concentric Ratio: A Key Factor for Defining Strength Training in Soccer</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Nuñez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hoyo</surname></persName>
+		</author>
+		<author>
+			<persName><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>López</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="796" to="802" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nuñez FJ, Hoyo M de, López AM, et al. Eccentric-concentric Ratio: A Key Factor for Defining Strength Training in Soccer. Int J Sports Med. 2019; 40(12):796-802.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Effects of Different Inertial Load Settings on Power Output Using a Flywheel Leg Curl Exercise and its Inter-Session Reliability</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Piqueras-Sanchiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sabido</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Raya-González</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hum Kinet</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="215" to="226" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Piqueras-Sanchiz F, Sabido R, Raya-González J, et al. Effects of Different Inertial Load Settings on Power Output Using a Flywheel Leg Curl Exercise and its Inter-Session Reliability. J Hum Kinet. 2020; 74(1):215-226.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Influence of different inertial loads on basic training variables during the flywheel squat exercise</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sabido</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Hernández-Davó</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pereyra-</forename><surname>Gerber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="482" to="489" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sabido R, Hernández-Davó JL, Pereyra-Gerber GT. Influence of different inertial loads on basic training variables during the flywheel squat exercise. Int J Sports Physiol Perform. 2018; 13(4):482-489.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Effects of inertial setting on power, force, work, and eccentric overload during flywheel resistance exercise in women and men</title>
+		<author>
+			<persName><forename type="first">Lmm</forename><surname>Martinez-Aranda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fernandez-Gonzalo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1653" to="1661" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martinez-Aranda LMM, Fernandez-Gonzalo R. Effects of inertial setting on power, force, work, and eccentric overload during flywheel resistance exercise in women and men. J Strength Cond Res. 2017; 31(6):1653-1661.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Implementing Flywheel (Isoinertial) Exercise in Strength Training: Current Evidence, Practical Recommendations, and Future Directions</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Beato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dello Iacono</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beato M, dello Iacono A. Implementing Flywheel (Isoinertial) Exercise in Strength Training: Current Evidence, Practical Recommendations, and Future Directions. Front Physiol. 2020; 11.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Real-time mechanical responses to overload and fatigue using a flywheel training device</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Muñoz-López</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pozzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Floria</forename><forename type="middle">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page">110429</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muñoz-López A, Pozzo M, Floria P. Real-time mechanical responses to overload and fatigue using a flywheel training device. J Biomech. 2021; 121:110429.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Concentric and eccentric inertia-velocity and inertia-power relationships in the flywheel squat</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Mcerlain-Naylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Beato</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1136" to="1143" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McErlain-Naylor SA, Beato M. Concentric and eccentric inertia-velocity and inertia-power relationships in the flywheel squat. J Sports Sci. 2021; 39(10):1136-1143.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Is possible an eccentric overload in a rotary inertia device? Comparison of force profile in a cylinder-shaped and a cone-shaped axis devices</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Núñez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Galiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Muñoz-López</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="1624" to="1628" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Núñez FJ, Galiano C, Muñoz-López A, et al. Is possible an eccentric overload in a rotary inertia device? Comparison of force profile in a cylinder-shaped and a cone-shaped axis devices. J Sports Sci. 2020; 38(14):1624-1628.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The Maximum Flywheel Load: A Novel Index to Monitor Loading Intensity of Flywheel Devices</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Muñoz-López</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Floria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sañudo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sensors</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="16" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muñoz-López A, Floria P, Sañudo B, et al. The Maximum Flywheel Load: A Novel Index to Monitor Loading Intensity of Flywheel Devices. Sensors. 2021; 1-16.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Validity and reliability of force-velocity outcome parameters in flywheel squats</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Spudić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Smajla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Šarabon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page">109824</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Spudić D, Smajla D, Šarabon N. Validity and reliability of force-velocity outcome parameters in flywheel squats. J Biomech. 2020; 107:109824.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Assessment and Evaluation of Force -Velocity Variables in Flywheel Squats: Validity and Reliability of Force Plates</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Spudić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cvitkovič</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Šarabon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">A Linear Encoder Sensor, and A Rotary Encoder Sensor. Appl Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page">10541</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Spudić D, Cvitkovič R, Šarabon N. Assessment and Evaluation of Force - Velocity Variables in Flywheel Squats: Validity and Reliability of Force Plates, A Linear Encoder Sensor, and A Rotary Encoder Sensor. Appl Sci. 2021; 11(22):10541.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Flywheel resistance training calls for greater eccentric muscle activation than weight training</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Norrbrand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pozzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Tesch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="997" to="1005" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Norrbrand L, Pozzo M, Tesch PA. Flywheel resistance training calls for greater eccentric muscle activation than weight training. Eur J Appl Physiol. 2010; 110(5):997-1005.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Clinical applications of iso-inertial, eccentric-overload (YoYo TM ) resistance exercise</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Tesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fernandez-Gonzalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Lundberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">241</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tesch PA, Fernandez-Gonzalo R, Lundberg TR. Clinical applications of iso-inertial, eccentric-overload (YoYo TM ) resistance exercise. Front Physiol. 2017; 8:241.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Progressive statistics for studies in sports medicine and exercise science</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Hopkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Batterham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="13" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hopkins WG, Marshall SW, Batterham AM, et al. Progressive statistics for studies in sports medicine and exercise science. Med Sci Sports Exerc. 2009; 41(1):3-13.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Comparison of the musculoskeletal effects of different iso-inertial resistance training modalities: Flywheel vs. electric-motor</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maroto-Izquierdo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fernandez-Gonzalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Magdi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1184" to="1194" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maroto-Izquierdo S, Fernandez-Gonzalo R, Magdi HR, et al. Comparison of the musculoskeletal effects of different iso-inertial resistance training modalities: Flywheel vs. electric-motor. Eur J Sport Sci. 2019; 19(9):1184-1194.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Resistance training using eccentric overload induces early adaptations in skeletal muscle size</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Norrbrand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Fluckey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pozzo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="271" to="281" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Norrbrand L, Fluckey JD, Pozzo M, et al. Resistance training using eccentric overload induces early adaptations in skeletal muscle size. Eur J Appl Physiol. 2008; 102(3):271-281.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Methods of Power-Force-Velocity Profiling During Sprint Running: A Narrative Review</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Cross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brughelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Medicine</title>
+		<imprint>
+			<biblScope unit="page" from="1255" to="1269" />
+			<date type="published" when="2017">2017</date>
+			<publisher>Springer International Publishing</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cross MR, Brughelli M, Samozino P, et al. Methods of Power-Force-Velocity Profiling During Sprint Running: A Narrative Review. Sports Medicine. Springer International Publishing; 2017. p. 1255-1269.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Interpreting Power-Force-Velocity Profiles for Individualized and Specific Training</title>
+		<author>
+			<persName><forename type="first">J-Bb</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">267</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morin J-BB, Samozino P. Interpreting Power-Force-Velocity Profiles for Individualized and Specific Training. Int J Sports Physiol Perform. 2016; 11(2):267.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Changes in the forcevelocity mechanical profile after short resistance training programs differing in set configurations</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Iglesias-Soler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fernández-Del-Olmo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Mayo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Biomech</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="144" to="152" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Iglesias-Soler E, Fernández-Del-Olmo M, Mayo X, et al. Changes in the force- velocity mechanical profile after short resistance training programs differing in set configurations. J Appl Biomech. 2017; 33(2):144-152.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Influence of the Strap Rewind Height during a Conical Pulley Exercise</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sabido</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Hernández-Davó</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>García-Valverde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hum Kinet</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="109" to="118" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sabido R, Hernández-Davó JL, García-Valverde A, et al. Influence of the Strap Rewind Height during a Conical Pulley Exercise. J Hum Kinet. 2020; 74(1):109-118.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Flywheel Training Periodization in Team Sports</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Beato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maroto-Izquierdo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Hernández-Davó</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beato M, Maroto-Izquierdo S, Hernández-Davó JL, et al. Flywheel Training Periodization in Team Sports. Front Physiol. 2021; 12:1-6.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The flywheel device shaft shape determines force and velocity profiles in the half squat exercise</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Muñoz-López</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Galiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Nuñez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Hum Kinet</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="15" to="25" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muñoz-López A, Galiano C, Nuñez FJ, et al. The flywheel device shaft shape determines force and velocity profiles in the half squat exercise. J Hum Kinet. 2022; 81:15-25.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

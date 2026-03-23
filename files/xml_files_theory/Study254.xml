@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Support moment distribution during the back squat at different depths and loads in recreationally trained females</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-11-10">10 November 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">William</forename><surname>Goodman</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Food Systems, Nutrition, &amp; Kinesiology</orgName>
+								<orgName type="institution">Montana State University</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Victoria</forename><surname>Flores</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Kinesiology and Nutrition</orgName>
+								<orgName type="institution">University of Illinois Chicago</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Joshua</forename><forename type="middle">A</forename><surname>Cotter</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Kinesiology</orgName>
+								<orgName type="institution">California State University</orgName>
+								<address>
+									<settlement>Long Beach</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><surname>Graham</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">School of Health Sciences and Social Work</orgName>
+								<orgName type="institution">Griffith University Gold Coast</orgName>
+								<address>
+									<region>AU</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">James</forename><surname>Becker</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Food Systems, Nutrition, &amp; Kinesiology</orgName>
+								<orgName type="institution">Montana State University</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Support moment distribution during the back squat at different depths and loads in recreationally trained females</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2023-11-10">10 November 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B68ACC1DECED96AFE7958E6E9B23943C</idno>
+					<idno type="DOI">10.1016/j.jsams.2023.11.001</idno>
+					<note type="submission">Received 28 June 2023 Received in revised form 20 September 2023 Accepted 1 November 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:20+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Biomechanics Coordination Strength training Lower body rehabilitation</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The squat is used in athletic and clinical settings. However, the coordination of the lower extremity during the lift is not well understood. The purpose was to compare the peak moments of the lower extremity joints at three squat depths (above parallel, parallel and full) and three squat loads (unloaded, 50 % 1 repetition maximum, and 85 % of depth specific 1 repetition maximum) and find their contribution to support (M s ). Design: Nineteen females performed squats in a randomized order. Methods: Inverse dynamics and Winter's M s equation were used to calculate peak moments of the hip, knee and ankle and calculate their contribution to M s (α &lt; 0.05). Results: Peak hip and ankle extensor moments varied with load but not depth and were greatest when using 85 % 1 repetition maximum. Peak knee extensor moments demonstrated a depth by load interaction. Within each depth as load increased so too did peak knee extensor moments and were highest squatting below parallel when loaded. The hip and knee contribution to M s demonstrated a depth by load interaction while the ankle was only influenced by load. Within each depth as load increased hip contribution increased whereas the knee decreased contribution. When squatting with load the contribution of the hip decreased at below parallel while the knee increased. Conclusions: To maximize peak hip moments squat with high load and to maximize peak knee moments squat deep with high load; however, depth and load dosages should be taken into consideration based on the status and goals of the individual.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The barbell squat is a commonly used strength and conditioning exercise often incorporated into both athletic development and clinical rehabilitation exercise programs. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> In athletic development settings, the squat is used broadly to develop hypertrophy, power, and strength of the lower body musculature. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> In clinical programs, the squat is used for rehabilitation to assist in the progression back to full lower body function following injury. <ref type="bibr" target="#b2">3</ref> Importantly, there is no one preferred method by which practitioners perform the squat movement. This has consequences related to user outcomes because modifying squat parameters such as depth and load can influence training effect and lower extremity joint loading. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> Previous research has examined how the joints of the lower limb contribute to squat performance and how variation of squat technique alters joint contributions. This has primarily focused on modification of squat depth and load, and four primary techniques have been used: net joint moment (NJM), relative muscular effort (RME), electromyography (EMG), and support moment distribution (M s ). <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b6">7</ref> It has been reported that as squat external load increases, net extensor moments, RME, EMG and peak M s increase <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b11">12</ref> ; however, it is less clear as to the effects of varied depth on lower extremity muscle activity and joint loading. <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b12">13</ref> While NJM and RME show that the contribution of the knee extensors increases with depth, <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b8">9</ref> EMG literature shows that knee extensor muscle activity peaks around parallel depth. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b4">5</ref> RME findings provide evidence that contributions from the hip extensors increase with increasing depth <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> ; however, hip NJM has not been found to increase past parallel depth. <ref type="bibr" target="#b4">5</ref> EMG data are mixed as well in that some studies find hip extensor activity, especially the gluteus maximus, to be greatest at deep depths <ref type="bibr" target="#b13">14</ref> while others have found hip extensor activity to be greatest at shallow depths <ref type="bibr" target="#b14">15</ref> and still others have found that the hip extensor activity peaks at parallel depths and plateaus thereafter. <ref type="bibr" target="#b12">13</ref> The different conclusions regarding the interaction of depth and load between different methodologies make it difficult to provide a consensus statement regarding how changing technique, via changes in depth or load, is produced or mediated by the muscles and joints of the lower body. This may be in part because the methods described, although useful, are subject to the limitations inherent within each analytical method. For example, NJM analysis only considers the net of the flexor and extensor moments and resolves the problem to a single moment expressed at each joint and does not consider the coordination of the lower extremity muscles throughout the movement. RME is a relative contribution of the torque produced around a joint during a task compared to the torque produced in a maximum voluntary contraction. This does not consider the contribution of each joint to the entire lift, but rather, each joint to its own maximum force producing capabilities. Lastly, EMG measures if a muscle is excited and how much it is excited, but it does not measure how much force is produced.</p><p>A methodological approach that overcomes many of the aforementioned limitations is the support moment (M s ) which is the sum of the extensor moment of the knee (M k ), extensor moment of the ankle (M a ), and extensor moment of the hip (M h ). <ref type="bibr" target="#b15">16</ref> M s is useful because it provides insight into lower extremity coordination by measuring the relative contribution of each joint to the M s and how that relative contribution changes across activities. Previous research investigating the contribution to peak M s with increasing loads at a fixed depth of 45 % leg length reported that the ankle contribution increased with loading to 75 % of 3 repetition maximum (RM), the knee contribution decreased when increasing load, and the hip contribution increased with loading to 75 % of 3RM. <ref type="bibr" target="#b3">4</ref> In all but the lightest conditions, the hip contributed the most, followed by the knee then ankle. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b16">17</ref> While this provides insight that joint contributions to total lower body support change with load, it is unknown how joint contributions to lower body support change with depth, or with combinations of increased depth and load. Thus, the purpose of this study is to examine how the ankle, knee, and hip joint moment contributions to M s change while increasing squat loads and depths. We hypothesized that (1) peak M s , peak M a , peak M k , and peak M h would increase with load but not depth, (2) percent contribution of the ankle would decrease with depth but increase with load, (3) percent contribution of the knee would increase with depth but not load, and (4) percent contribution of the hip would increase with both depth and load.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methods</head><p>A within-subjects experimental design was used to investigate the effects of squatting to different depths with different percentages of 1RM. Participants were evaluated on two separate occasions. During the first session, participants filled out an informed consent and the Physical Activity Readiness Questionnaire (PAR-Q). Depth-specific 1RMs were then obtained for the above parallel (AP), parallel (P) and full (F) depth squats. Depths were defined as follows: AP was measured with a goniometer at 90°of knee flexion, P was reached when the top of the thighs was parallel to the floor, and F was reached when the hamstrings came into complete contact with the back of the calves. A field laser and piezo light switch was used to help establish depth and cue the ascent of the squat (Banner Engineering Corp., Minneapolis, MN). <ref type="bibr" target="#b8">9</ref> A brief pause was implemented before the squat ascent. An individualized 10-minute warmup, typical of each participant's usual routine, was implemented prior to testing 1RM for each depth. National Strength and Conditioning Association procedures for 1RM testing were used until the participant could not ascend from the bottom of the squat. During the 1RM testing, loud verbal encouragement and at least 1-2 min of rest were allowed between squat attempts. The stance width and foot position of each participant were recorded with tape and used for later trials.</p><p>Within 24 h to 1 week later, participants returned to the laboratory for the second session. During the second session, motion capture data was collected while two squat repetitions were performed at each of the three different depths with the three different load combinations. The load conditions included unloaded, 50 % 1RM, and 85 % 1RM, and were specific to each depth. A total of nine trials were performed with the order of trials randomized across participants. The specific squat protocol including the 1RM attempt has been elaborated in detail in previous literature. <ref type="bibr" target="#b8">9</ref> Whole body kinematics were recorded using a 12camera motion capture system (Qualisys Inc., Gothenburg, Sweden) sampling at 250 Hz while ground reaction forces were recorded from two force plates (Model 600900-10, Bertec Corporation, Columbus, OH) sampling at 1000 Hz. A 64-channel analog-to-digital board was used to synchronize force and kinematic data.</p><p>Retroreflective markers were placed bilaterally on the following bony landmarks: anterior superior iliac spine, posterior superior iliac spine, medial and lateral femoral epicondyles, medial and lateral malleoli, posterior calcaneus, and head of the 2nd metatarsal. Additional tracking markers were placed on the iliac crests, with clusters of four markers on a plastic shell on the lateral thigh and shank, and over the base of the 5th metatarsal.</p><p>Nineteen female participants (age: 25.05 ± 5.76 years; height: 1.58 ± 0.08 m; body mass: 62.51 ± 10.17 kg) with an average of 3.84 ± 2.59 years of squatting experience participated in this study. Participants were excluded from participation if they responded "yes" to any questions on the PAR-Q. Competitive, elite lifters and individuals with a history of surgery or lower limb ligamentous injury were also excluded from the study. Inclusion criteria for the female participants included an age range of 18 to 60 years old with a minimum of one year of squat training experience. Visual assessment of the squat was also used to verify that participants could squat to full depth with no pain while keeping heels on the ground and a neutral lumbar spine. The protocol of this study was carried out in accordance with the Declaration of Helsinki, approved by the University Institutional Review Board, and all participants provided consent prior to the study.</p><p>Raw kinematic and kinetic data were exported to Visual 3D (C-Motion, Inc., Rockville, MD) where they were filtered using 4th order zero-lag low pass Butterworth filters with cutoff frequencies of 8 Hz and 20 Hz, respectively. Joint angles were calculated using an XYZ Cardan rotation sequence corresponding to flexion/extension, ab/adduction, and axial rotation, respectively. Peak knee joint angles on each trial were then calculated. Net joint moments at the ankle, knee, and hip were calculated using standard inverse dynamics techniques, and expressed as internal joint moments. Total support moment was calculated as described by Winter <ref type="bibr" target="#b15">16</ref> :</p><formula xml:id="formula_0">M s ¼ M k À M a À M h<label>ð1Þ</label></formula><p>where M s is the support moment, M k is the knee extensor moment, M a is the ankle plantar flexor moment, and M h is the hip extensor moment.</p><p>For each trial the peak joint moments, peak M s , and the percentage contribution from each joint to peak M s were calculated. Participant 1RMs at each depth were analyzed using a one-way repeated measures analysis of variance (ANOVA). For all other dependent variables, values from the two squat repetitions in each condition were averaged and differences between conditions were evaluated using 3 × 3 (depth × load) repeated measures ANOVAs. An omnibus alpha level of &lt;0.05 was used to indicate statistical significance, and if appropriate, pairwise comparisons were conducted using a Bonferroni correction. Effect sizes (d, difference in means divided by average standard deviation and η 2 sum of squares (SS) associated with each condition divided by the sum of SS of each condition and its SS error variance) were calculated to aid in interpretation of results, with a d of 0.2, 0.5, and 0.8 and a η 2 of 0.01, 0.06, and 0.14 indicating small, moderate, and large effects, respectively. <ref type="bibr" target="#b17">18</ref> All statistical analyses were performed using Statistical Package for the Social Sciences v. 26 (IBM SPSS Statistics Inc., Chicago, IL, USA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>One repetition maximum was significantly different between depths (F 1.14, 20.47 = 10.26, p = 0.003). Values were greatest at AP (72.37 ± 19.33 kg) compared to P (63.16 ± 17.42 kg, p = 0.017, d = 0.50) or F (58.85 ± 18.52 kg, p = 0.011, d = 0.71) depths. Values were also significantly greater at P than F depths (p = 0.048, d = 0.24).</p><p>Both depth (F 1.48, 26.957 = 225.003, p &lt; 0.01, η 2 = 0.926) and load (F 2, 36 = 5.522, p &lt; 0.01, η 2 = 0.235) had significant main effects on peak knee flexion angle. Participants squatted deeper at the F (127.41 ± 10.26°) depth than in either P (103.53 ± 6.58°, p &lt; 0.001, d = 2.83) or AP (87.48 ± 7.41°, p &lt; 0.001, d = 4.81) depths. Squats at P depth were also deeper than AP depths (p &lt; 0.001, d = 2.29). The effect of load tended toward participants squatting deeper at P when unloaded (107.47 ± 8.38°, p = 0.055, d = 0.39) and when using 50 % 1RM (106.76 ± 7.45°, p = 0.038, d = 0.32) compared to 85 % 1RM (104.19 ± 8.44°), however, this was not statistically significant, and neither was the effect of load on depth at AP or F.</p><p>Peak M s differed with load (F 1.113, 20.031 = 248.212, p &lt; 0.001, η 2 = 0.932) but not with squat depth (F 2, 36 = 2.492, p = 0.0907, η 2 = 0.122). Peak M s was higher when using 85 % 1RM loads than either 50 % 1RM (p &lt; 0.001, d = 1.08) or unloaded (p &lt; 0.001, d = 5.97, Table <ref type="table" target="#tab_0">1</ref>). Peak M s was also higher with 50 % 1RM than when unloaded (p &lt; 0.001, d = 2.43, Table <ref type="table" target="#tab_0">1</ref>). Peak hip extensor moments also varied with load (F 1.154, 20.764 = 167.038, p &lt; 0.001, η 2 = 0.903) but not with depth (F 2, 36 = 2.162, p = 0.130, η 2 = 0.107). Peak hip extensor moments were higher when using 85 % 1RM loads than when using either 50 % 1RM (p &lt; 0.001, d = 1.08) or when unloaded (p &lt; 0.001, d = 3.29). Peak hip extensor moments were also higher when using 50 % 1RM than when unloaded (p &lt; 0.001, d = 2.35, Table <ref type="table" target="#tab_0">1</ref>).</p><p>Peak knee extensor moments demonstrated a significant depth by load interaction (F 2.04, 36.427 = 5.687, p 0.007, η 2 = 0.240). Within each depth, as load increased, so too did peak knee extensor moments (Table <ref type="table" target="#tab_0">1</ref>). Within the unloaded condition, there were no differences in peak knee extensor moments between the AP and P depths (p = 1.000, d = 0.04), the P and F depths (p = 0.162, d = 0.17), or the AP and F depths (p = 0.138, d = 0.21). Within the 50 % 1RM condition, peak knee extensor moments were higher in the F depth than in either the P (p = 0.007, d = 0.47) or AP depths (p = 0.031, d = 0.44). Finally, in the 85 % 1RM condition, peak knee extensor moments were higher in the F depth than the P depth (p = 0.009, d = 0.73), but not different between AP and F depths (p = 0.122, d = 0.43, Table <ref type="table" target="#tab_0">1</ref>).</p><p>At the ankle, peak plantar flexor moments varied with load (F 1.203, 21.661 = 197.819, p &lt; 0.001, η 2 = 0.917) but not depth (F 2, 36 = 1.138, p = 0.332, η 2 = 0.059). Peak ankle plantar flexor moments were higher when using 85 % 1RM than when using either 50 % 1RM (p &lt; 0.001, d = 1.28) or when unloaded (p &lt; 0.001, d = 3.29). Peak plantar flexor moments were also higher when using 50 % 1RM than when unloaded (p &lt; 0.001, d = 2.49, Table <ref type="table" target="#tab_0">1</ref>).</p><p>The percentage each joint contributed to the M s during the squat is shown in Figs. <ref type="figure" target="#fig_0">1</ref> and <ref type="figure" target="#fig_1">2</ref>. At peak M s , the percent contribution from the hip joint demonstrated a depth by load interaction (F 2.418, 43.529 = 3.024, p = 0.05, η 2 = 0.144, Fig. <ref type="figure" target="#fig_0">1</ref>). At AP depth, the hip contributed less to peak M s when squatting unloaded than when using 50 % 1RM (p &lt; 0.001, d = 1.15) or 85 % 1RM (p &lt; 0.001, d = 1.47, Fig. <ref type="figure" target="#fig_0">1</ref>). When squatting to P depths, the contribution of the hip to peak M s was lower when unloaded than when using 50 % 1RM (p &lt; 0.001, d = 1.09) or 85 % 1RM (p &lt; 0.001, d = 1.71, Fig. <ref type="figure" target="#fig_0">1</ref>). Hip contributions to peak M s at P depth were also lower when using 50 % 1RM than when using 85 % 1RM (p = 0.003, d = 0.59, Fig. <ref type="figure" target="#fig_0">1</ref>). At F depths, results were similar to AP depths, with hip contributions to peak M s being lower when unloaded than when using 50 % 1RM (p &lt; 0.001, d = 1.03) or 85 % 1RM (p &lt; 0.001, d = 1.21), but not different between 50 % 1RM and 85 % 1RM (p = 0.098, d = 0.31, Fig. <ref type="figure" target="#fig_0">1</ref>).</p><p>In the unloaded conditions, there were no differences in hip contributions to peak M s when squatting to different depths (Fig. <ref type="figure" target="#fig_1">2</ref>). When using 50 % 1RM, hip contribution to peak M s was not different between AP and P (p = 1.00, d = 0.06) or AP and F (p = 0.229, d = 0.35); however, hip contribution was less at F compared to P (p = 0.004, d = 0.43, Fig. <ref type="figure" target="#fig_1">2</ref>). Similarly, when using 85 % 1RM, hip contribution to peak M s was not different between AP and P (p = 0.625, d = 0.16) or AP and F (p = 0.294, d = 40); however, hip contribution was less at F compared to P (p = 0.029, d = 0.61, Fig. <ref type="figure" target="#fig_1">2</ref>).</p><p>Percent knee contribution to M s had a significant depth by load interaction (F 2.551, 45.913 = 3.682, p &lt; 0.024, η 2 = 0.170). At each increasing depth and with each increasing load, knee contribution decreased (p &lt; 0.001); however, there was no difference in knee contribution when squatting to F depth when increasing load from 50 % to 85 % 1RM (p = 0.079, d = 0.45, Fig. <ref type="figure" target="#fig_0">1</ref>). When squatting without load, knee contribution was greater at AP compared to P (p = 0.017, d = 0.52, Fig. <ref type="figure" target="#fig_1">2</ref>). When squatting with 85 % 1RM, knee contribution was greater at F than P depths (p = 0.033, d = 0.76, Fig. <ref type="figure" target="#fig_1">2</ref>).</p><p>Percent ankle contribution to M s showed a main effect for load (F 1.435, 25.836 = 26.143, p &lt; 0.01, η 2 = 0.592). Percent ankle contribution increased from unloaded to 50 % 1RM (p &lt; 0.001, d = 0.90) and unloaded to 85 % 1RM (p &lt; 0.001, d = 1.31), but did not differ between 50 % and 85 % 1RM (p = 0.066, d = 0.38, Figs. <ref type="figure" target="#fig_0">1</ref> and <ref type="figure" target="#fig_1">2</ref>, respectively).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>This study investigated the effects of load and depth on peak lower extremity moments and contribution of the ankle, knee, and hip to total M s . In partial support of our hypothesis, the lower extremity peak moments are more affected by increasing external loads than by increasing squat depth. In opposition to our hypothesis, increasing depth did not significantly change the contribution of the ankle. In partial support of our hypothesis, the hip was influenced by depth and load; however, in opposition to our hypothesis, the F depth squat resulted in the lowest hip contributions and squatting with greater than 50 % 1RM tended not to further increase hip contributions. In opposition to our hypothesis, the contribution of the knee decreased from AP to P, yet, in support of our hypothesis, increased from P to F depths. Since this occurred in tandem with a decrease in hip contributions from P to F depths, at deep depths when using heavy loads, the knee contributes more to the squat while the hip contributes less. Furthermore, contribution of the ankle and the hip increases with loading while the knee decreases contribution, indicating that a peak joint moment can increase in absolute terms while its contribution to support can decrease.</p><p>The results of the current study align with previous research indicating that increasing load increases peak lower extremity moments during the barbell back squat <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b8">9</ref> and that peak knee extensor moments are greatest at full depths. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10</ref> Our findings also align with previous studies evaluating contribution to M s with increased load as, similar to Flanagan et al. (2008), we observed that the contribution of the knee decreased with increasing load and the contribution of the hip and ankle increased with increasing load. <ref type="bibr" target="#b3">4</ref> However, our results differ from previous literature in that we did not find peak hip extensor moments to be influenced by depth. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b6">7</ref> Our results may differ from previous literature because we used depth-specific 1RMs while these studies used the 1RM from the deepest depth to establish test loads. Maximum squat strength is joint angle specific. <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10</ref> If full depth squat 1RMs are used to dictate shallower depth loads, it is unlikely to represent the appropriate test load. Therefore, it is possible that previous literature found hip moments to increase with depth because the load prescribed was based on the full squat 1RM and was not sufficient to challenge the hip musculature at shallower depths.</p><p>Direct comparison to studies which have used RME to assess how muscles contribute to squat performance is difficult, as the different approaches lead to different conclusions. Byranton et al. ( <ref type="formula">2012</ref>) reported that hip contributions to the squat increased with both squat depth and load while knee contributions were more affected by depth than load. <ref type="bibr" target="#b6">7</ref> They concluded that heavy, deep squats should be performed to train the hip extensors while light, deep squats should be performed to train the knee extensors. <ref type="bibr" target="#b6">7</ref> In contrast, the current study observed that hip contributions to squat performance were more affected by load than depth, suggesting that hip extensors can be trained with heavy loads at relatively shallow depths. However, the knee contribution to squat performance decreased with higher loads but increased with depth.</p><p>Several studies using EMG amplitude to assess muscle function during squats have reported that EMG amplitude increases with increasing squat load. <ref type="bibr" target="#b19">[19]</ref><ref type="bibr" target="#b20">[20]</ref><ref type="bibr" target="#b21">[21]</ref> However, there is disagreement in the literature regarding how squat depth influences muscle activity. Contreras et al. reported no differences in hip muscle activity between parallel and deep squats. <ref type="bibr" target="#b12">13</ref> In contrast, da Silva et al. <ref type="bibr" target="#b14">15</ref> observed that above parallel squats resulted in greater hip muscle activity than deep squats and Caterisano et al. <ref type="bibr" target="#b13">14</ref> observed lower hip muscle activity during partial and parallel squats compared to deep squats. <ref type="bibr" target="#b12">13</ref> There is less discrepancy at the knee as Contreras et al., <ref type="bibr" target="#b12">13</ref> da Silva et al., <ref type="bibr" target="#b14">15</ref> and Caterisano et al. <ref type="bibr" target="#b13">14</ref> all reported no difference in quadriceps muscle activity between partial, parallel, and full depth squats.</p><p>The current study conceptually supports some of the previous EMG findings as we observed that peak M s and peak hip, knee and ankle extensor moments all increased with load and that peak hip extensor  moments were not different with increasing squat depth. However, direct comparison between results from peak moments and EMG activity is not possible as the peak moments represent the peak net moment about the joint and could be influenced by co-contraction. No changes in quadriceps muscle activity with increasing squat depth, if occurring in combination with decreased hamstring muscle activity, could result in higher net knee extensor moments. This might explain the increased peak knee extensor moments with deep, heavy squats, despite no differences in EMG. Furthermore, previous studies are not consistent with the methodology used to established squat loads and the level of training experience among participants. Previous studies have used a 1RM from the deepest depth to prescribe squat loads across all depths, <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b6">7</ref> while others have used depth-specific 1RMs to prescribe squat loads. <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10</ref> These differences in methodologies are likely to yield different results because squat strength is depth specific. <ref type="bibr" target="#b9">10</ref> The level of squat experience is also likely to influence the results. Previous literature indicates that coactivation of antagonist muscles is higher in novice lifters than those that are more experienced. <ref type="bibr" target="#b22">22</ref> This could influence the joint moments and EMG findings between studies.</p><p>There are several limitations to our study which need to be considered when interpreting the results. First, bar position was not controlled. Previous research has suggested that there are kinematic differences between the high bar and low bar back squat techniques. <ref type="bibr" target="#b23">23,</ref><ref type="bibr" target="#b24">24</ref> While most participants used a high bar position (16 high bar and 3 low bar), we cannot rule out that differences in bar position influenced the results. However, if we required everyone to use one bar position compared to the other one this may have also influenced the results due to the inexperience with the untrained position. Similarly, while each participant's stance width was the same for both testing days, it was not controlled across participants. Gluteus maximus activity has been shown to increase with increasing stance width, <ref type="bibr" target="#b20">20,</ref><ref type="bibr" target="#b21">21</ref> which could influence the hip moment values. However, these two studies used extreme stance widths not representative of normal squatting technique and that were not used in the current study. Our study investigated recreationally trained females. These finding may change based on the sex and training status of the participants and should therefore be replicated with stronger, more experienced females and males. Finally, shoe type was not controlled. While many of the participants wore tennis sneakers, one did wear squatting shoes. These shoes reduce forward trunk lean and increase plantar flexion compared to wearing running shoes, and potentially contribute to greater knee extensor activity. <ref type="bibr" target="#b25">25</ref> Squat shoes have also been suggested to reduce ankle dorsiflexion, increase knee flexion, decrease trunk lean and increase knee moments in an unloaded condition compared to an athletic shoe. <ref type="bibr" target="#b26">26</ref> In conclusion, this study investigated the effects of load and squat depth on peak moments of the lower extremity joints and their contribution to M s during the squat. Lower extremity joint moments and contributions to the M s were more affected by load than depth. Peak moments at the hip, knee, and ankle increase with load, but not necessarily with depth. However, the contribution to M s of the knee and hip changes with depth and load while the ankle is only influenced by load. The findings from this study indicate that although the peak extensor moment of a joint may increase, the contribution to overall squat performance as determined by the M s can increase, decrease, or stay the same.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>• If the goal is to train the hip extensors, we recommend focusing on increased loads. • If the goal is to train the knee extensors, we recommend training to deep depths with as large a load as is reasonable for the participant. • Peak moments increase with increasing loads and knee moments are greatest when squatting to deep depths. When rehabilitating, appropriate load and depth dosages should be taken into consideration based on the status of the individual. For example, if there is a hip issue, consider using light loads and if there is a knee issue consider using light loads to shallow depths for a period of time.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Joint contributions (percent peak support moment) for each of the three squat depths when squatting with different percentages 1RM (mean ± SD).</figDesc><graphic coords="4,42.12,53.18,511.17,165.15" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig.2. Joint contributions (percent peak support moment) for each of the three squat loads when squatting to different depths (mean ± SD).</figDesc><graphic coords="4,42.12,601.85,511.17,124.27" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Mean and standard deviations for peak total support, hip, knee, and ankle moments at the different depth and load combinations..Goodman, V. Flores, J.A. Cotter et al. Journal of Science and Medicine in Sport 27 (2024) 119-124</figDesc><table><row><cell>Above parallel</cell><cell>Parallel</cell><cell>Below parallel</cell><cell>Load mean</cell></row></table><note><p>Note: ⁎ indicates main effect of load while # indicated depth by load interaction, at the p &lt; 0.05 level. See Results text for descriptions of main effects and interactions. W</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The researchers would like to thank the participants for their involvement, Banner Engineering for their donated equipment, and the <rs type="affiliation">California State University, Long Beach Associated Students Inc.</rs> for their support.</p></div>
+			</div>
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding information</head><p>No external funding or competing interests.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Confirmation of ethical compliance</head><p>This research was approved by the Institutional Review Board of California State University Long Beach and in accordance with the Declaration of Helsinki.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CRediT authorship contribution statement</head><p>William Goodman: Conceptualization, Methodology, Software, Formal analysis, Writing. Victoria Flores: Investigation, Resources, Writing -Review and editing. Joshua Cotter: Investigation, Resources, Writing -Review and editing. David Graham: Supervision, Writing. James Becker: Supervision, Writing, Formal analysis, Software, Conceptualization, Methodology.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of interest statement</head><p>There are no financial or personal relationships with other people or organizations that could inappropriately influence our work.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Squatting kinematics and kinetics and their application to exercise performance</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Schoenfeld</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="3497" to="3506" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schoenfeld BJ. Squatting kinematics and kinetics and their application to exercise performance. J Strength Cond Res 2010;24(12):3497-3506.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Muscle activation in the loaded free barbell squat: a brief review</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Lambert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Angus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1169" to="1178" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Clark DR, Lambert MI, Angus MH. Muscle activation in the loaded free barbell squat: a brief review. J Strength Cond Res 2012;26(4):1169-1178.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Patellofemoral joint kinetics while squatting with and without an external load</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Wallace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Salem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Salinas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="141" to="148" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wallace DA, Salem GJ, Salinas R et al. Patellofemoral joint kinetics while squatting with and without an external load. J Orthop Sports Phys Ther 2002;32(4):141-148.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Lower extremity joint kinetic responses to external resistance variations</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Flanagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Salem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Biomech</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="58" to="68" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Flanagan SP, Salem GJ. Lower extremity joint kinetic responses to external resistance variations. J Appl Biomech 2008;24(1):58-68.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Joint moments of force and quadriceps muscle activity during squatting exercise</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wretenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lindberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="244" to="250" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wretenberg P, Feng Y, Lindberg F et al. Joint moments of force and quadriceps muscle activity during squatting exercise. Scand J Med Sci Sports 1993;3(4):244-250.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">High-and low-bar squatting techniques during weight-training</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wretenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">P</forename><surname>Arborelius</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="218" to="224" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wretenberg P, Feng Y, Arborelius UP. High-and low-bar squatting techniques during weight-training. Med Sci Sports Exerc 1996;28(2):218-224.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Effect of squat depth and barbell load on relative muscular effort in squatting</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bryanton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Carey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2820" to="2828" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bryanton M, Kennedy M, Carey J et al. Effect of squat depth and barbell load on rel- ative muscular effort in squatting. J Strength Cond Res 2012;26(10):2820-2828.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Quadriceps effort during squat exercise depends on hip extensor muscle strategy</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Bryanton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Carey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Kennedy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Biomech</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="122" to="138" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bryanton MA, Carey JP, Kennedy MD et al. Quadriceps effort during squat exercise depends on hip extensor muscle strategy. Sports Biomech 2015;14(1):122-138.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Knee kinetics during squats of varying loads and depths in recreationally trained females</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Flores</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Burkhardt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1945" to="1952" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Flores V, Becker J, Burkhardt E et al. Knee kinetics during squats of varying loads and depths in recreationally trained females. J Strength Cond Res 2020;34(7):1945-1952.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Knee joint kinetics in relation to commonly prescribed squat loads and depths</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Joshuaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Chaudhari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jamison</forename><surname>St</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1765" to="1774" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">JoshuaA C, Chaudhari AM, Jamison ST et al. Knee joint kinetics in relation to com- monly prescribed squat loads and depths. 2013;27(7):1765-1774.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Patellofemoral joint kinetics during squatting in collegiate women athletes</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Salem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Powers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Biomech</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="424" to="430" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Salem G, Powers C. Patellofemoral joint kinetics during squatting in collegiate women athletes. Clin Biomech 2001;16(5):424-430.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Stance width and bar load effects on Iemg values during phases of the parallel squat</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Mccaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Melrose</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="428" to="436" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCaw ST, Melrose DR. Stance width and bar load effects on Iemg values during phases of the parallel squat. Med Sci Sports Exerc 1995;27:428-436.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A comparison of gluteus maximus, biceps femoris, and vastus lateralis EMG amplitude in the parallel, full, and front squat variations in resistance trained females</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Contreras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vigotsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schoenfeld</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Biomech</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="16" to="22" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Contreras B, Vigotsky A, Schoenfeld B et al. A comparison of gluteus maximus, biceps femoris, and vastus lateralis EMG amplitude in the parallel, full, and front squat var- iations in resistance trained females. J Appl Biomech 2016;32(1):16-22.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The effect of back squat depth on the EMG activity of 4 superficial hip and thigh muscles</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caterisano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Raymond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Pellinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="428" to="432" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Caterisano A, Raymond F, Pellinger TK et al. The effect of back squat depth on the EMG activity of 4 superficial hip and thigh muscles. J Strength Cond Res 2002;16(3): 428-432.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Muscle activation differs between partial and full back squat exercise with external load equated</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Schoenfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Marchetti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1688" to="1693" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">da Silva JJ, Schoenfeld BJ, Marchetti P et al. Muscle activation differs between partial and full back squat exercise with external load equated. J Strength Cond Res 2017;31 (6):1688-1693.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Overall principle of lower limb support during stance phase of gait</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Winter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="923" to="927" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Winter DA. Overall principle of lower limb support during stance phase of gait. J Biomech 1980;13(11):923-927.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The validity of summing lower extremity individual joint kinetic measures</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Flanagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Salem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Biomech</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="181" to="188" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Flanagan SP, Salem GJ. The validity of summing lower extremity individual joint ki- netic measures. J Appl Biomech 2005;21(2):181-188.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+		<title level="m">Statistical Power Analysis for Behavioral Sciences</title>
+		<meeting><address><addrLine>2nd ed., Hilldale, NJ</addrLine></address></meeting>
+		<imprint>
+			<publisher>Lawerence Earlbaum Associates</publisher>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cohen J. Statistical Power Analysis for Behavioral Sciences, 2nd ed., Hilldale, NJ, Lawerence Earlbaum Associates, 1988.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Goodman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Flores</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Cotter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Science and Medicine in Sport</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="119" to="124" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. Goodman, V. Flores, J.A. Cotter et al. Journal of Science and Medicine in Sport 27 (2024) 119-124</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A comparison of quadriceps electromyographic activity with the position of the foot during the parallel squat</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Boyden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kingman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dyson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="379" to="382" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boyden G, Kingman J, Dyson R. A comparison of quadriceps electromyographic activ- ity with the position of the foot during the parallel squat. J Strength Cond Res 2000;14 (4):379-382.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Stance width and bar load effects on leg muscle activity during the parallel squat</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Mccaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Melrose</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="428" to="436" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCaw ST, Melrose DR. Stance width and bar load effects on leg muscle activity dur- ing the parallel squat. Med Sci Sports Exerc 1999;31(3):428-436.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The effect of stance width on the electromyographical activity of eight superficial thigh muscles during back squat with different bar loads</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Paoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Marcolin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Petrone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="246" to="250" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paoli A, Marcolin G, Petrone N. The effect of stance width on the electromyographical activity of eight superficial thigh muscles during back squat with different bar loads. J Strength Cond Res 2009;23(1):246-250.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Training-related changes in the EMG-moment relationship during isometric contractions: further evidence of improved control of muscle activation in strength-trained men?</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Amarantini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bru</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="697" to="702" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Amarantini D, Bru B. Training-related changes in the EMG-moment relationship dur- ing isometric contractions: further evidence of improved control of muscle activation in strength-trained men? J Electromyogr Kinesiol 2015;25(4):697-702.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The high-bar and low-bar back-squats: a biomechanical analysis</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Glassbrook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Helms</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Glassbrook D, Brown S, Helms E et al. The high-bar and low-bar back-squats: a bio- mechanical analysis. J Strength Cond Res 2019;33(7).</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A review of the biomechanical differences between the high-bar and low-bar back-squat</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Glassbrook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Helms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2618" to="2634" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Glassbrook DJ, Helms ER, Brown SR et al. A review of the biomechanical differences between the high-bar and low-bar back-squat. J Strength Cond Res 2017;31(9): 2618-2634.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Kinematic changes using weightlifting shoes on barbell back squat</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fortenbaugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hydock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="28" to="33" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sato K, Fortenbaugh D, Hydock D. Kinematic changes using weightlifting shoes on barbell back squat. J Strength Cond Res 2012;26(1):28-33.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The effect of weightlifting shoes on the kinetics and kinematics of the back squat</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Legg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Glaister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Cleather</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="508" to="515" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Legg HS, Glaister M, Cleather DJ et al. The effect of weightlifting shoes on the kinetics and kinematics of the back squat. J Sports Sci 2017;35(5):508-515.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Goodman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Flores</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Cotter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Science and Medicine in Sport</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="119" to="124" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. Goodman, V. Flores, J.A. Cotter et al. Journal of Science and Medicine in Sport 27 (2024) 119-124</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,2415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Psychology of Sport &amp; Exercise</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2019-11-06">06 November 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Tina</forename><surname>Van Duijn</surname></persName>
+							<email>tinavanduijn@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Te Huataki Waiora Faculty of Health, Sport and Human Performance</orgName>
+								<orgName type="institution">University of Waikato</orgName>
+								<address>
+									<settlement>Hamilton</settlement>
+									<country key="NZ">New Zealand</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Corresponding author</orgName>
+								<orgName type="department" key="dep2">Faculty of Health</orgName>
+								<orgName type="institution" key="instit1">University of Waikato</orgName>
+								<orgName type="institution" key="instit2">Sport and Human Performance</orgName>
+								<address>
+									<addrLine>Gate 4 Hillcrest Road</addrLine>
+									<postCode>3216</postCode>
+									<settlement>Hamilton</settlement>
+									<region>Waikato</region>
+									<country key="NZ">New Zealand</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hamish</forename><surname>Crocket</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Te Huataki Waiora Faculty of Health, Sport and Human Performance</orgName>
+								<orgName type="institution">University of Waikato</orgName>
+								<address>
+									<settlement>Hamilton</settlement>
+									<country key="NZ">New Zealand</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rich</forename><forename type="middle">S W</forename><surname>Masters</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Te Huataki Waiora Faculty of Health, Sport and Human Performance</orgName>
+								<orgName type="institution">University of Waikato</orgName>
+								<address>
+									<settlement>Hamilton</settlement>
+									<country key="NZ">New Zealand</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Public Health</orgName>
+								<address>
+									<addrLine>Li Ka Shing</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Faculty of Medicine</orgName>
+								<orgName type="institution">University of Hong Kong</orgName>
+								<address>
+									<settlement>Hong Kong SAR</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Psychology of Sport &amp; Exercise</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-11-06">06 November 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">94A8DA407204393A5962A59825C3537C</idno>
+					<idno type="DOI">10.1016/j.psychsport.2019.101615</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:12+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Analogy Motor learning Verbal EEG alpha power EEG coherence Instruction preference</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This study examined the role of verbal instruction preference when learning motor skills by analogy. During skill learning, analogies are a useful tool for providing knowledge about how to move. It has been argued that analogy instructions reduce reliance on verbal information processes during motor planning, compared to traditional forms of instruction (i.e., explicit rules about how to move). This may be reflected by reduced verbal activity in the brain, measured by EEG alpha power at the temporal region, as well as reduced verbal-motor cross-communication (EEG T7-Fz coherence) during the preparation phase of a movement. Preference for using verbal or visual instructions is likely to influence the efficacy of analogy instructions. This study investigated whether preference for verbal instructions was related to a) changes in performance and b) changes in verbalcognitive information processing during performance of an adapted basketball task after instruction by analogy. Basketball novices with a high preference for verbal instructions (n = 15) showed significantly decreased activation of verbal brain regions when they used the analogy (high-alpha power), but their performance remained stable. Novices with a low preference for verbal instructions (n = 13) did not show a significant decrease in activation of verbal regions, and their performance deteriorated significantly after introduction of the analogy instruction. It is likely that both cognitive and performance changes after analogy instruction depend on personal aspects of information processing, such as verbal preference.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Analogy learning requires the mapping of structural features from a familiar concept to a novel concept <ref type="bibr" target="#b25">(Gentner, 1983)</ref>. In sport, analogy learning has been shown to be especially useful for novices. To teach a topspin forehand shot in tennis, for example, a novice can be told to ″move your hand as if it is traveling up the side of a mountain″ <ref type="bibr">(Poolton, Masters, &amp; Maxwell, 2006, p. 679)</ref>, which provides a heuristic <ref type="bibr" target="#b82">(Todd &amp; Gigerenzer, 2000)</ref> for how to move. Motor learning by analogy is characterised by stable motor performance both under pressure <ref type="bibr">(Lam, Maxwell, &amp; Masters, 2009a)</ref> and when a cognitive task, such as decision making, is performed concurrently with the motor task <ref type="bibr" target="#b36">(Jie et al., 2016;</ref><ref type="bibr" target="#b55">Masters, Poolton, &amp; Maxwell, 2008;</ref><ref type="bibr" target="#b75">Tse, Wong, &amp; Masters, 2017)</ref>.</p><p>Although <ref type="bibr" target="#b25">Gentner (1983)</ref> devised a structure mapping model that convincingly explains the mechanism underlying analogy learning, we cannot fully explain the benefits (compared to conventional explicit instructions) in motor learning. It has been suggested that analogy learning may lead to reduced verbal-cognitive control of movement <ref type="bibr" target="#b49">(Liao &amp; Masters, 2001)</ref>, which makes information processing more effortless and efficient <ref type="bibr">(Zhu, Poolton, Wilson, Hu, et al., 2011)</ref>. In typical forms of learning, explicit instructions or rules often must be consciously implemented during practice, which can be neither effortless nor efficient. Even in cases when no instructions are given, novices may actively test hypotheses about how to move, thus accumulating selfinstructions or rules (e.g., <ref type="bibr" target="#b50">Masters, 1992;</ref><ref type="bibr" target="#b53">Masters &amp; Maxwell, 2004)</ref>. In any case, novice performers are likely to come to rely on declarative, explicit (verbalisable) knowledge when learning a movement, and tend to consciously control their performance <ref type="bibr" target="#b22">(Fitts &amp; Posner, 1967)</ref>. Analogy learning may limit the amount of verbal information that novices access at an early stage of learning, leading to lower reliance on declarative information and reduced processing demands during motor planning <ref type="bibr" target="#b9">(Bobrownicki, Macpherson, Coleman, Collins, &amp; Sproule, 2015;</ref><ref type="bibr" target="#b51">Masters, 2000;</ref><ref type="bibr" target="#b54">Masters &amp; Poolton, 2012)</ref>. This may in turn free up information processing capacity for other cognitive processes <ref type="bibr">(</ref>Berry <ref type="url" target="https://doi.org/10.1016/j.psychsport.2019.101615">https://doi.org/10.1016/j.psychsport.2019.101615</ref> Received 26 April 2019; Received in revised form 8 October 2019; Accepted 2 November 2019 <ref type="bibr" target="#b8">&amp; Broadbent, 1984)</ref> <ref type="foot" target="#foot_0">foot_0</ref> and allow stable performance in dual task and pressure situations <ref type="bibr" target="#b56">(Maxwell, Masters, &amp; Eves, 2003)</ref>. In most motor analogy experiments to date, fewer verbalisable rules were reported by the participants learning by analogy compared to explicit instructions or discovery learning (i.e., uninstructed; <ref type="bibr" target="#b65">Poolton, Masters, &amp; Maxwell, 2007)</ref>. The notion that analogy instructions may lead to reduced reliance on verbal-declarative knowledge to control a movement is further supported by evidence of reduced cognitive load (measured by a probe reaction time paradigm; <ref type="bibr">Lam et al., 2009a)</ref>. <ref type="bibr" target="#b76">Van Duijn, Hoskens, and Masters (2018)</ref> also found that analogy learning may lead to higher general economy of verbal-cognitive processes, as indicated by brain activity measurements. Psychomotor efficiency, which represents reduced cognitive effort required for relatively superior performance of a movement, has previously been linked to electro-cortical measurements (e.g., <ref type="bibr" target="#b15">Cooke et al., 2014;</ref><ref type="bibr" target="#b16">Crews &amp; Landers, 1993;</ref><ref type="bibr" target="#b31">Haufler, Spalding, Santa Maria, &amp; Hatfield, 2000;</ref><ref type="bibr">Hillman, Apparies, Janelle, &amp; Hatfield, 2000)</ref>.</p><p>Collectively, research points to less effortful, verbal-analytic information processing when analogy instructions are used to teach a movement skill. If verbal information processing is altered or improved by using an analogy, individual differences in information processing are likely to have an effect on these changes. In particular, a person′s preference for visual or verbal instructions may play a key role. The visual-verbal preference dimension is a stable personality tendency <ref type="bibr" target="#b57">(Mayer &amp; Massa, 2003)</ref> differentiating between verbalisers, who tend to prefer verbal instructions, and visualisers, who tend to prefer images <ref type="bibr" target="#b69">(Riding &amp; Watts, 1997</ref>).<ref type="foot" target="#foot_1">foot_1</ref> Instruction preference may affect the modality in which movement-specific information is processed <ref type="bibr" target="#b60">(Milz, Pascual-Marqui, Lehmann, &amp; Faber, 2016)</ref>. Research has shown that cognitive style<ref type="foot" target="#foot_2">foot_2</ref> is reflected in specific brain activity during execution of tasks <ref type="bibr" target="#b58">(McKay, Fischler, &amp; Dunn, 2002;</ref><ref type="bibr" target="#b68">Riding, Glass, Butler, &amp; Pleydell-Pearce, 1997)</ref>. <ref type="bibr" target="#b26">Glass and Riding (1999)</ref> found that verbalisers exhibited higher activation of verbal processing areas during a verbal task compared to visualisers, as measured by EEG (electroencephalographic) analyses. Also fMRI studies have assessed visual-verbal preference in combination with BOLD<ref type="foot" target="#foot_3">foot_3</ref> activity during different tasks. Visual preference measured by the Visualizer-Verbalizer Questionnaire (VVQ, modified by <ref type="bibr" target="#b40">Kirby, Moore, &amp; Schofield, 1988</ref>) was shown to be positively correlated with BOLD activity at cortical areas associated with visual WM, while verbal preference was related to activation of areas associated with verbal WM during a colour knowledge retrieval task <ref type="bibr" target="#b34">(Hsu, Kraemer, Oliver, Schlichting, &amp; Thompson-Schill, 2011)</ref> and during visual and verbal tasks <ref type="bibr" target="#b45">(Kraemer, Rosenberg, &amp; Thompson-Schill, 2009)</ref>.</p><p>Based on these findings, people with high verbal preference may also rely more on verbal processes to prepare and control their movements compared to people with a low verbal preference. Consequently, people with high verbal preference may therefore benefit most from introduction of an analogy, because it reduces verbal control processes (i.e., renders processing more efficient).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.1.">Measuring verbal-cognitive engagement in movement control</head><p>Measuring and quantifying verbal-cognitive information processes connected to motor control is an important step in determining the mechanism behind analogy learning. Indirect measures of verbal processing during motor preparation or execution include verbal protocols, dual task paradigms and probe reaction time tasks <ref type="bibr" target="#b4">(Baddeley, 1966)</ref>. However, verbal-cognitive contributions to motor planning processes can be measured more objectively using electroencephalography (EEG), a measure that assesses electrical potentials produced by brain cells through electrodes placed on the scalp. It allows analysis of the brain's activity in different areas of the cerebral cortex (see <ref type="bibr" target="#b42">Klimesch, 1999</ref>, for a review). For reviews of research using psycho-physiological measures during sport and motor performance, see <ref type="bibr" target="#b13">Cooke (2013)</ref> or <ref type="bibr" target="#b28">Hatfield, Haufler, Hung and Spalding, 2004</ref>. Activation of brain regions measured during movement preparation reflects specific cognitive processes related to motor planning. The left temporal lobe (T7)<ref type="foot" target="#foot_4">foot_4</ref> contains verbal-analytic brain regions, such as Broca's area (i.a., syntactic processing and speech production) and Wernicke's area (auditory associations and speech comprehension; <ref type="bibr" target="#b11">Clerget, Poncin, Fadiga, &amp; Olivier, 2012)</ref>. This region has been shown to be involved in verbal-analytic processing <ref type="bibr" target="#b38">(Kaufer &amp; Lewis, 1999;</ref><ref type="bibr" target="#b73">Sperry, 1974)</ref>. Reduced alpha power (i.e., EEG power measured at 10-12Hz frequencies) in the left temporal region is associated with a high degree of conscious engagement in a motor task, and conversely increased alpha power in these areas suggests that verbal-analytical processes may be suppressed during performance <ref type="bibr" target="#b30">(Hatfield, Landers, &amp; Ray, 1984;</ref><ref type="bibr" target="#b31">Haufler et al., 2000;</ref><ref type="bibr" target="#b39">Kerick et al., 2001)</ref>.<ref type="foot" target="#foot_5">foot_5</ref> Studies found higher alpha power and lower processing demands in successful compared to unsuccessful movements (e.g., <ref type="bibr" target="#b14">Cooke et al., 2015;</ref><ref type="bibr" target="#b16">Crews &amp; Landers, 1993)</ref>, as well as in experts compared to novices (e.g., <ref type="bibr" target="#b31">Haufler et al., 2000;</ref><ref type="bibr" target="#b78">Wolf et al., 2015)</ref>, indicating that involvement of conscious control mechanisms during performance is gradually reduced as motor tasks are refined <ref type="bibr" target="#b19">(Babiloni et al., 2010</ref><ref type="bibr" target="#b2">(Babiloni et al., , 2008;;</ref><ref type="bibr" target="#b19">Del Percio et al., 2010)</ref>.</p><p>A direct indicator of verbal-cognitive contributions to motor planning is found in neural coactivation, or EEG coherence, a measure of functional communication between regions of the brain. EEG coherence between regions associated with motor planning (Fz, frontal midline) and verbal-analytic processing (T7) is thought to indicate the involvement of verbal processes in motor performance <ref type="bibr" target="#b30">(Hatfield et al., 1984;</ref><ref type="bibr">Zhu, Poolton, Wilson, Maxwell, &amp; Masters, 2011)</ref>. Recent studies have found that experts display lower coherence between the T7 and Fz regions during movement execution compared to novices <ref type="bibr" target="#b17">(Deeny, Hillman, Janelle, &amp; Hatfield, 2003;</ref><ref type="bibr" target="#b24">Gallicchio, Cooke, &amp; Ring, 2016)</ref>. EEG high-alpha power and EEG coherence are therefore validated neural measures when investigating the effect analogy learning has on brain processes underlying performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.2.">The present study</head><p>We investigated whether preference for verbal instructions was related to changes in performance and in information processing (EEG high-alpha power and coherence at verbal and visual sites) immediately after a task-specific analogy was instructed. Basketball novices performed a block of 20 trials of a seated basketball task before and after an analogy instruction was provided. Participants′ instruction preference was determined using the Verbalizer-Visualizer Questionnaire (VVQ, <ref type="bibr" target="#b40">Kirby et al., 1988)</ref>. Brain activity (EEG) was measured during motor preparation to examine whether changes in verbal or visual information processing were related to scores on the VVQ. Performance was expected to improve after introduction of the analogy, and more strongly so for people with a high verbal preference. Furthermore, a stronger increase in high-alpha power during movement preparation was expected for the verbal preference group.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Participants</head><p>Initially, 74 participants (mean age = 19.35 years, SD = 2.76, 38 females and 36 males) with normal or corrected-to-normal vision and no movement impairment participated in the study. Participants were recruited from a sports science undergraduate class. Ethical permission for the study was received from the ethical committee of the institution. All participants provided informed consent. Participants with over 200 h of basketball experience (n = 12) were excluded from the analysis. Only participants who used incorrect shooting technique at pre-test (n = 32) were included, which reduced the sample by a further 16 participants. Correct or incorrect shooting technique at pre-test was judged by two independent raters using video footage (side-on perspective). Correct technique was defined as matching the movement described by the analogy instruction of "putting cookies into a cookie jar on a high shelf" (i.e., high elbow, wrist flick, and nondominant hand guiding the throw). Raters gave a score between 0 and 5 representing how closely the participants' movements matched these three criteria. Scores of 4 or 5 during the pretest were categorized as ″correct shooting technique″, lower scores were categorized as ″incorrect″. Cases in which the raters differed (6.75%) were discussed. If consensus was not achieved, the participant was excluded from analysis (after this process, ratings of both raters agreed to 100%). Additionally, extreme outliers (i.e., values deviating from the mean by more than 3 x the interquartile range) in T7 high-alpha power (n = 2) and T8 high-alpha power (n = 2) were excluded. Participants were allocated to low (n = 13) and high (n = 15) verbal preference groups using a median split approach. Five participants with scores on the median were excluded from the analysis. The final sample (7 male, 21 female participants) showed a mean age of 19.25 years (SD = 2.67).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Materials</head><p>For the basketball shooting task, a soft, slightly deflated beach volley ball (diameter = 23 cm) and a junior indoor basketball setup with backboard (height = 45 cm, width = 71 cm) and hoop (diameter = 39 cm) were used. Participants were seated on a chair (height = 45 cm) with horizontal distance from the rim equal to 315 cm. Height of the basket was adjusted to seated reaching height (at full arm extension) plus 30 cm (see Fig. <ref type="figure" target="#fig_0">1</ref>). A low pitched tone and a high pitched tone, spaced 4s apart, were played from a set of speakers to signal to the participant to start mentally preparing for the next shot (low pitch) and to execute the shot (high pitch). Performance measures were obtained by manual analysis of video footage from a Sony RX10pi camera focused on the target.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1.">Electroencephalography</head><p>EEG equipment included a wireless EEG/tDCS transmitter, a set of 8 measuring and 2 reference electrodes, conducting gel and electrode contact stickers (Neuroelectrics Barcelona, SLU, ESP; see <ref type="bibr" target="#b71">Schestatsky, Morales-Quezada, &amp; Fregni, 2013</ref>, for details about the equipment). As this system is wireless, it allows the participant to move (to a certain extent). The system was connected to a desktop computer and analysed using Neurosurfer software by Neuroelectrics. EEG activity was recorded from 6 silver/ silver chloride (Ag/AgCl) electrodes on the scalp positioned using different sized neoprene caps with pre-defined holes. Two reference electrodes were placed at the earlobe using a clip. Where the earlobe was too small to hold the clip, two sticktrodes were attached to the left mastoid. Caps and electrodes were adjusted carefully in line with the 10-20 system <ref type="bibr" target="#b10">(Chatrian, Lettich, &amp; Nelson, 1985)</ref> and checked by two technicians before the start of the experiment. Measurement electrodes were positioned at the left and right temporal lobes (T7, T8), at the frontal lobe (F3, F4), central midline (Cz), pre-frontal lobes (Fp1, Fp2) of the scalp. Signals were collected at a sampling rate of 500 Hz with 24-bit resolution and 0-125 Hz bandwidth. Prior to commencing the task, an appropriate level of impedance was achieved by adjusting electrode positions, the participant's hair and the amount of electrolyte gel. While an upper limit of 15 kOhm was used for inclusion, impedance levels were generally below 5 kOhm. The pre-session criteria required participants to (a) wash their hair on the evening/morning before testing, and (b) not consume caffeine in the 2 h preceding testing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2.">Visual-verbal preference</head><p>Verbal-visual preference was assessed using an adapted version of the VVQ (Verbalizer-visualizer Questionnaire, adapted by <ref type="bibr" target="#b40">Kirby et al., 1988)</ref>. The original measure, developed by <ref type="bibr" target="#b66">Richardson (1977)</ref>, asked 15 yes/no questions about preference for visual or verbal instructions and cognitive style. Based on issues with unidimensionality, <ref type="bibr" target="#b40">Kirby et al. (1988)</ref> developed an extended version to include a separate visual and verbal dimension (treated as separate scales). Additionally, a dream vividness dimension was extracted from the original scale and treated as a separate dimension. The adapted VVQ contains 30 items, 10 each for visual preference, verbal preference, and dream vividness. The latter subscale was not used in the present study. Out of the remaining 20 items, half were reversed for each subscale (i.e., a ′yes′ answer would indicate low preference for that type of instruction). <ref type="bibr" target="#b40">Kirby et al. (1988)</ref> reported acceptable reliability of the verbal preference scale (α = .70) and of the visual preference scale (α = .59). Principal components analysis revealed good construct validity for each scale. A high correlation was evident between verbal preference and verbal ability (r = .321, p &lt; .005) and between visual preference and spatial visualization (r = .270, p &lt; .005).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Procedure</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.1.">General procedure</head><p>Participants completed the VVQ questionnaire online before the experiment (as part of a class assignment); however, they were unaware of any connection with the experiment. They provided informed consent and completed the rest of the experiment in the laboratory. They were fitted with the Neuroelectrics cap and the EEG electrodes were attached at the T7, T8, Fz, F3, F4, Cz, Fp1, and Fp2 locations. The motor task required participants to perform a modified, seated basketballshooting task. This modified task was adopted to reduce the difficulty of the task and thus shorten the length of the adaptation process (shorter shooting distance and lower rim height compared with a regular free throw position and a different ball) and to allow collection of data in a controlled laboratory environment. Additionally, head movements were kept at a minimum by this adaptation of the task, which is a prerequisite for EEG measurement. Participants performed the task in a pre-test and a post-test of 20 trials each, during which EEG was collected. The task required participants to throw the ball as accurately as possible into the basket from where the chair was positioned. Participants were told to keep their back off the backrest of the chair in order to generate enough force. A signal consisting of two beeps, spaced 4s apart was used to indicate the start of preparation and shooting phase. Participants were required to prepare for each shot during the preparation phase (after hearing the first signal) and to shoot after they heard the second signal. They were also informed that they should not rush the execution of their shot after hearing the second signal.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.2.">Instruction</head><p>For the pre-test, participants were told to shoot the ball into the hoop, and were informed about the scoring method (see below). No instructions were given about how the movement should be performed. Prior to the post-test, participants were instructed with a validated analogy for the seated basketball shooting task <ref type="bibr">(Lam et al., 2009a;</ref><ref type="bibr" target="#b47">Lam, Maxwell, &amp; Masters, 2009b)</ref>, which required them to "shoot as if you are trying to put cookies into a cookie jar on a high shelf". No other instruction was provided. 7</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Dependent variables and data analysis</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.1.">Dependent variables</head><p>Performance was measured on-line during the experiment, using a 6-point scale developed by <ref type="bibr" target="#b27">Hardy and Parfitt (1991)</ref>, according to which a score of 5 was awarded for shots that went through the hoop without touching the rim or backboard, 4 for those which touched the rim, 3 for those which hit the backboard before dropping through the hoop, 2 for those that touched the rim but did not drop through the hoop, 1 for those that touched the backboard and missed the hoop, and 0 for a complete miss. Doubtful or unsure calls were reinvestigated using video recordings collected at normal speed (30 fps) from a camera focused on the backboard. <ref type="bibr" target="#b27">Hardy and Parfitt (1991)</ref> reported that the test-retest reliability of this scoring system over a 3-day interval and at different levels of physical fatigue (induced by running) was moderate (r = .54). <ref type="bibr">Lam et al. (2009a</ref><ref type="bibr" target="#b47">Lam et al. ( , 2009b) )</ref> used the same scoring method in a seated basketball task and reported high reliability (Cronbach's α = .94). Mean shooting score in each block (i.e., maximum score 5 points) was calculated. Items for both subscales of the VVQ were reversed for negatively worded items. Item scores were summed separately for each subscale, leading to cumulative score ranges of 0-10 for verbal preference and visual preference.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.2.">EEG data reduction/processing</head><p>No baseline subtraction was performed. Raw EEG signals were bandpass filtered at 1-30Hz. Signals were then resampled at 256 Hz. Data from the pretest and post-test were processed as 4s segments prior to movement initiation (which was recorded on the EEG timetrace during the experiment using manual markers). Blinks and eye movements are characterized by high potentials <ref type="bibr" target="#b9">(Boudet, Peyrodie, Gallois, &amp; Vasseur, 2006)</ref>. Eye artefacts were excluded by an extreme measures approach. Epochs (0.25s length) within each 4s segment that contained signals above 70 μV 2 were discarded. An average of 251.24 (SD = 68.43) epochs per participant in the pre-test and 237.18 (SD = 77.19) epochs per participant in the post-test were retained. A Fast Fourier Transform with a Hamming window taper and 50% overlap with a resolution of 0.49 Hz, was applied to each 4s segment. EEG high-alpha (10-12Hz) power was calculated for the 4 s segment preceding each trial (e.g., <ref type="bibr" target="#b17">Deeny et al., 2003)</ref>. Manual manipulation of the trigger has potential to compromise the validity of the power and coherence measures because of experimenter error, but considerable care was taken to avoid this.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.3.">Calculation of EEG power and coherence</head><p>The EEG analyses in this study focused on the high-alpha (10-12 Hz) band. Activity in this bandwidth indicates long-and medium-range cortico-cortical communication <ref type="bibr" target="#b16">(Crews &amp; Landers, 1993;</ref><ref type="bibr" target="#b35">Janelle et al., 2000;</ref><ref type="bibr" target="#b62">Nunez et al., 1999;</ref><ref type="bibr" target="#b63">Nunez &amp; Srinivasan, 2006)</ref> and is representative of task-specific attentional processes <ref type="bibr" target="#b72">(Smith, McEvoy, &amp; Gevins, 1999</ref>; for a review see <ref type="bibr" target="#b42">Klimesch, 1999)</ref>.</p><p>Matlab scripts (MATLAB Release 2016b; The MathWorks, Inc., Natick, MA -US) were used to calculate EEG outputs. The processing and analysis steps described above were implemented with the EEGLAB toolbox <ref type="bibr" target="#b20">(Delorme &amp; Makeig, 2004)</ref>. EEG coherence was calculated using a formula based on Equation (1), in which Pxx and Pyy represent the power spectral density of signals at location x and y, respectively, and Pxy represents the cross power spectral density of x and y (e.g., <ref type="bibr">Zhu, Poolton, Wilson, Maxwell, et al., 2011)</ref>. The measure was not z transformed. Coherence was analysed for T7-Fz and T8-Fz regional combinations separately, as these areas represent verbal-analytic (T7), visuospatial (T8) and motor planning (Fz) regions <ref type="bibr" target="#b31">(Haufler et al., 2000;</ref><ref type="bibr" target="#b38">Kaufer &amp; Lewis, 1999;</ref><ref type="bibr" target="#b39">Kerick et al., 2001)</ref>.</p><formula xml:id="formula_0">= C f P f P f P f ( ) ( ) ( ) ( ) xy xy xx yy 2 (1)</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.4.">Statistical analysis</head><p>The assumptions of normal distribution, homogeneity of variance and sphericity were met. Performance scores, EEG high-alpha power and EEG coherence of high and low verbal preference groups were analysed using 2 (verbal preference: low, high) x 2 (test: pre-analogy, post-analogy) ANOVA's with repeated measures on the second factor (test). Follow-up t-tests were conducted to investigate changes within preference group if there was a significant interaction. Alpha value for statistical significance was set to .05. Since these tests were decided on a-priori, i.e., based on specific expectations associated with our rationale, a correction was not deemed necessary -see for example <ref type="bibr" target="#b70">Rothman (1990)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Verbal-visual preference</head><p>Table <ref type="table" target="#tab_1">1</ref> shows the descriptive statistics for verbal and visual preference. The proportion of participants who altered their technique during the pretest (which may reflect hypothesis testing) was judged by two independent raters using video footage. Two participants in the low VVQ group, (i.e., 15.4%), and 0 participants in the high VVQ group, (i.e., 0%) altered their technique. A Two Proportion Chi-Square test revealed that the proportions were not significantly different between the two groups (Pearson Chi-Square (1,28) = 2.485, p = .206), therefore these data were not analysed any further.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">EEG high-alpha power</head><p>Two separate 2 (verbal preference: low, high) x 2 (test: pre-analogy, post-analogy) ANOVA's with repeated measures on the second factor were conducted to investigate differences in high-alpha power at T7 and at T8. The analysis of T7 alpha power revealed no significant main effect of test (F(1,26) = 2.44, p = .130, partial η 2 = .09, observed power = .33) or verbal preference (F(1) = .21, p = .654, partial η 2 = .01, observed power = .07). A significant verbal preference x test interaction was evident (F(1,26) = 5.15, p = .032, partial η 2 = .17, observed power = .17). Follow-up t-tests showed that T7 high-alpha power did not change significantly for the low preference group (t(12) = 1.02, p = .326), but increased significantly in the high verbal preference group (t(14) = -2.18, p = .047, see Fig. <ref type="figure" target="#fig_1">2</ref>). A t-test was also conducted to investigate differences between the groups at pre-test. No significant difference in high-alpha power at T7 was evident (t(17.951) = 1.50, p = .162, equal variances not assumed). The ANOVA for high-alpha power at T8 revealed no significant main effect of test (F(1,26) = 3.73, p = .064, partial η 2 = .13, observed power = .46) or of verbal preference (F(1,26) = .003, p = .959, partial η 2 = .001, observed power = .05) and no significant verbal preference x test interaction (F(1,26) = 2.96, p = .097, partial η 2 = .10, observed power = .38, see Fig. <ref type="figure" target="#fig_2">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">EEG high-alpha coherence</head><p>Two separate 2 (verbal preference: low, high) x 2 (test: pre-analogy, post-analogy) ANOVA's with repeated measures on the second factor were conducted to investigate differences in T7-Fz and T8-Fz coherence. The analysis of T7-Fz coherence revealed no significant main effect of test (F   (1,26) = 3.27, p = .082, partial η 2 = .11, observed power = .41) or of verbal preference (F(1,26) = 1.74, p = .199, partial η 2 = .06, observed power = .25) and no significant verbal preference x test interaction (F (1,26) = .94, p = .340, partial η 2 = .04, observed power = .16). The analysis of T8-Fz coherence revealed a significant main effect of test (F (1,26) = 4.71, p = .039, partial η 2 = .15, observed power = .55), but no significant main effect of verbal preference (F(1,26) = 1.23, p = .278, partial η 2 = .05, observed power = .19) and no significant verbal preference x test interaction (F(1,26) = 1.11, p = .301, partial η 2 = .04, observed power = .17). Mean values and standard deviations of highalpha coherence are shown for both groups in Table <ref type="table" target="#tab_2">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Performance</head><p>Mean performance scores for participants with low and high verbal preference are presented in Fig. <ref type="figure">4</ref>. A 2 (verbal preference: low, high) x 2 (test: pre-analogy, post-analogy) ANOVA with repeated measures on the second factor was conducted to examine the performance scores. The analysis revealed no significant main effect of test (F(1,26) = 3.41, p = .076, partial η 2 = .12) or of verbal preference (F(1) = 1.25, p = .275, partial η 2 = .05). A significant verbal preference x test interaction was evident (F(1,26) = 7.65, p = .010, partial η 2 = .23, observed power = .76). Follow-up t-tests showed that performance decreased significantly in the low verbal preference group (t(12) = 3.59, p = .004), but no change was evident in the high preference group (t(14) = -.62, p = .547).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>The purpose of the present study was to investigate whether preference for verbal instructions was related to changes in performance and in information processing (EEG high-alpha power and coherence at verbal and visual sites) immediately after a task-specific analogy was presented. We will discuss the two dependent variables separately before synthesizing more general conclusions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Motor performance</head><p>Motor performance remained stable from pre-to post-analogy in the high verbal preference group, while it deteriorated in the low verbal preference group. This indicates that performance after analogy instruction may be positively related to verbal preference. A potential explanation may be that people with high verbal preference generally have greater reliance on verbal-cognitive processes for planning and executing their movements, which incurs higher processing demands. 8 High cognitive demands may challenge novice motor performance by limiting the cognitive resources that are available for movement adjustments and the coordination of many degrees of freedom <ref type="bibr" target="#b79">(Wulf &amp; Weigelt, 1997)</ref>. Indeed, by processing more movement-related information in the pre-analogy trials, high verbalizers may have performed under a higher cognitive load, although performance was still intact (as seen by nonsignificant difference between groups in the pre-analogy test). When implementing the analogy instruction, verbalizers may have experienced a greater reduction in verbal processing demands compared to low verbalizers, which would have facilitated movement coordination and led to performance benefits. Another cause for the difference in performance between the groups in the post-analogy test could lie in the differing ability of high and low verbalisers to process and apply verbal instructions. Although the analogy is a visually salient instruction that captures a complex concept within a simple comparison, it is instructed orally and is thus a verbal instruction (e.g., <ref type="bibr" target="#b64">Poolton et al., 2006)</ref>. Verbalisers may have simply benefited more from it as they were better able to use it or had fewer instances of misunderstanding.</p><p>Usually, the beneficial effect of analogy instructions on cognitive processes only becomes visible in dual task or pressure conditions, where an additional load on information processing resources is present. Performance of a regular task has uniformly been reported to be comparable to traditional (explicitly instructed) control groups <ref type="bibr" target="#b9">(Bobrownicki et al., 2015;</ref><ref type="bibr" target="#b75">Tse et al., 2017)</ref>. The results of the current study are somewhat at odds with these results, since we found that high and low verbalisers showed differences in their performance in a single-task test after analogy instruction. However, this study differs from previous studies as we investigated immediate effects after introduction of analogy (without practice). The shortest periods of practice after introduction of the analogy in the existing literature consisted of 40 trials <ref type="bibr" target="#b9">(Bobrownicki et al., 2015)</ref> or around 80 trials <ref type="bibr" target="#b43">(Koedijker et al., 2011;</ref><ref type="bibr" target="#b77">Vine, Moore, Cooke, Ring, &amp; Wilson, 2013)</ref>. 9 Since the present experiment did not include a control group that received a different set of instructions (either explicit instructions or no instructions), we cannot compare analogy learning to explicit Fig. <ref type="figure">4</ref>. Performance scores for low (dots) and high (squares) verbal preference groups in the pre-analogy and post-analogy test. 8 The amount of information that was acquired by participants was not analysed in this study. 9 In a walking study by <ref type="bibr" target="#b36">Jie et al. (2016)</ref>, as few as 8 practice trials were included; however, one trial of a 10 m walk included around 10 repetitions of the step pattern, resulting in an estimated total of 80 practice trials of the step pattern. Furthermore, patients were asked to also train at home <ref type="bibr" target="#b36">(Jie et al., 2016)</ref>.</p><p>learning results after 20 practice trials. The fact that overall performance did not improve from pre-to postanalogy tests may be a consequence of the low number of practice trials in this study. The demands of processing new instructions can lead to an initial decrease in motor performance, presumably because they reduce the capacity available for the adjustment of movements during learning <ref type="bibr" target="#b33">(Hodges &amp; Lee, 1999;</ref><ref type="bibr" target="#b79">Wulf &amp; Weigelt, 1997)</ref>. The notion that effective use of an analogy may require some time and cognitive effort is supported by a study by <ref type="bibr" target="#b52">Masters and Liao (2003)</ref>, which reported a decrease in performance immediately following instruction by analogy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Verbal-cognitive processing and verbal-motor coherence</head><p>Participants with a high preference for verbal instructions showed an increase in high-alpha power at the left temporal lobe after they were instructed with an analogy, while participants with a low verbal preference did not show any changes in cortical activity. An increase in high-alpha power over the left temporal lobe has been linked to a decrease in cortical activation in this region, suggesting that fewer verbal processing resources are used <ref type="bibr" target="#b13">(Cooke, 2013;</ref><ref type="bibr" target="#b30">Hatfield et al., 1984)</ref>. The present finding may thus indicate reduced occurrence of verbal processes during motor planning; however, increased high-alpha power was only found in people who preferred verbal instructions. This finding supports the notion that high verbalizers may have, by relying more on explicit, verbal control processes, incurred higher processing demands during motor planning <ref type="bibr" target="#b56">(Maxwell et al., 2003)</ref>. Upon introduction of the analogy instruction, verbalizers may therefore have exhibited a greater drop in verbal-cognitive processing compared to low verbalizers. However, EEG alpha power measured at pretest did not differ significantly between the groups. As an alternative explanation, we propose that higher left-temporal high-alpha power (i.e., lower activation) in the verbal preference group could be related to more efficient processing of the analogy instruction itself. High-alpha power reflects verbal-cognitive processing regarding a planned movement, but it is also representative of other verbal processes that may be independent of motor planning. Verbal preference is potentially related to verbal ability (e.g., <ref type="bibr" target="#b40">Kirby, et al., 1988</ref>; but also see <ref type="bibr" target="#b0">Alesandrini, 1981</ref> for a contradictory finding), so verbalisers may be better at making abstract connections between the source (i.e., cookie jar) and the target of the analogy (i.e., movement), which is necessary for successful processing of analogies <ref type="bibr" target="#b25">(Gentner, 1983;</ref><ref type="bibr" target="#b74">Sternberg, 1977)</ref>. Better ability to process the analogy may thus explain why high verbalisers showed brain activity patterns reflective of more efficient verbal processing after analogy instruction. This explanation also fits with the performance data reported previously, as motor performance remained stable in the high verbal preference group, while it deteriorated in the low verbal preference group.</p><p>No difference between verbal preference groups was found in T7-Fz coherence, which indicates that neither group's verbal-motor crosscommunication became more efficient. This is at odds with previous findings by Zhu and colleagues, which showed that implicit motor learning leads to a decrease in T7-Fz coherence <ref type="bibr">(Zhu, Poolton, Wilson, Hu, et al., 2011;</ref><ref type="bibr">Zhu, Poolton, Wilson, Maxwell, et al., 2011)</ref>. The only previous study of analogy learning that involved cortical activity measures found that high-alpha power at T7, but not T7-Fz coherence was affected by analogy <ref type="bibr" target="#b76">(van Duijn et al., 2018)</ref>. The authors argued that using an analogy may increase efficiency of verbal-cognitive processes, but verbal-motor cross-communication may remain the same. The mechanism responsible for the benefits connected to analogy in motor learning may be tied to verbal-cognitive processes, rather than verbal-motor cross-communication, and it might thus differ from the mechanism underlying other forms of implicit motor learning.</p><p>Hitherto, a potential explanation for analogy learning was suggested by <ref type="bibr" target="#b49">Liao and Masters (2001)</ref> to be a shift from verbal to visual processing of information, based on the notion that analogies, being visual in nature, might be more easily processed in the visual subdomain of working memory <ref type="bibr" target="#b5">(Baddeley, 2012)</ref>. Neither high-alpha power at T8 nor T8-Fz coherence showed any group by test interactions or main effects. This indicates that rather than shifting from verbal to visual processing (which would have produced an opposite effect in visual areas), information processing may have been rendered more efficient while remaining in the verbal domain of working memory. Further research is needed to compare the different suggested mechanisms directly.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Relative efficiency of information processing</head><p>When looking at cognitive and performance parameters in combination, differences between the instruction groups in psychomotor efficiency are evident. Psychomotor efficiency refers to a decrease in cognitive effort required for performance of a movement, concurrent with an increase in performance during development of expertise and has been linked to electro-cortical measurements such as higher alpha power <ref type="bibr" target="#b15">(Cooke et al., 2014;</ref><ref type="bibr" target="#b31">Haufler et al., 2000;</ref><ref type="bibr" target="#b32">Hillman et al., 2000)</ref> or reduced cortico-cortical coherence <ref type="bibr" target="#b29">(Hatfield &amp; Hillman, 2001;</ref><ref type="bibr">Zhu, Poolton, Wilson, Maxwell, et al., 2011)</ref>. More precisely, psychomotor efficiency may reflect either higher performance with reduced or stable neural effort, or maintenance of performance using less neural effort. It may therefore also indicate lower reliance on explicit, verbal information during preparation or performance of a movement (for a review see <ref type="bibr" target="#b28">Hatfield, Haufler, Hung, &amp; Spalding, 2004</ref>). In the present study, high verbalisers did not show a change in performance but exhibited decreased activation in the verbal brain region, which indicates increased efficiency of verbal-cognitive processes. Verbalisers thus became relatively more efficient in their verbal-cognitive processes. In contrast, the low verbalisers deteriorated in performance, without showing any change in brain activity, which equals a relative decrease in efficiency.</p><p>This finding supports one of the suggested mechanisms that may underpin analogy learning: the chunking hypothesis of analogy learning <ref type="bibr" target="#b52">(Masters &amp; Liao, 2003)</ref>. Chunking is a process of grouping a higher number of small chunks into a smaller number of larger chunks by organizing patterns during learning <ref type="bibr" target="#b61">(Newell &amp; Rosenbloom, 1980)</ref>. <ref type="bibr" target="#b52">Masters and Liao (2003)</ref> suggested that analogy learning may be a way to chunk movement-specific information more effectively than in the long learning process, as the analogy provides "pre-chunked" information that is already on a higher organizational level. The finding that verbalisers showed a greater increase in psychomotor efficiency may be explained by a higher number of rules being reduced into a single, information-rich chunk (the analogy). Furthermore, the high verbal preference group might have acquired a more in-depth understanding of the movement components by accumulating more information. A more complete understanding of the movement may speed up chunking, since only items that are understood and that fit within a common higher-order structure can be chunked together <ref type="bibr" target="#b7">(Baddeley, Thomson, &amp; Buchanan, 1975)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Practical implications</head><p>These results also have practical implications for coaching. Individual characteristics related to preference, ability and personality may have to be taken into account when designing learning interventions -especially where these involve analogy instruction. A deeper understanding of the mechanisms underlying analogy learning may therefore also advance the improvement of skill instruction in various types of motor skills, including ontogenetic (complex, learned) skills such as tool manipulation, sports skills, etc. and phylogenetic (naturally evolving) skills such as walking. This may have impacts on clinical therapy, physiotherapy, surgery, aviation, and many other fields.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Limitations</head><p>Although the measure of visual-verbal preference used in this study, an adapted version of the Verbalizer-Visualizer Questionnaire <ref type="bibr" target="#b66">(Richardson, 1977)</ref>, has been validated <ref type="bibr" target="#b40">(Kirby et al., 1988)</ref> and used in previous studies <ref type="bibr" target="#b34">(Hsu et al., 2011;</ref><ref type="bibr" target="#b44">Kollöffel, 2012;</ref><ref type="bibr" target="#b45">Kraemer et al., 2009;</ref><ref type="bibr" target="#b60">Milz, Faber, et al., 2016)</ref>, it is not a validated instrument to measure preference in the sport context. The importance of developing settingspecific measures of learning preference has been stressed by <ref type="bibr" target="#b12">Coker (2000)</ref>, who showed significant intra-individual differences when a learning preference questionnaire was used in different settings, i.e. in a classroom setting vs. in a clinical sports setting. The importance of developing a validated tool applied to motor learning preferences has been mentioned before <ref type="bibr" target="#b23">(Fuelscher, Ball, &amp; MacMahon, 2012)</ref>. The measure that is most widely used in the sports field, the VARK (Visual, Auditory, Reading/writing, Kinaesthetic, <ref type="bibr" target="#b21">Dunn, 2009)</ref>, has barely acceptable validity <ref type="bibr" target="#b48">(Leite, Svinicki, &amp; Shi, 2010)</ref>. Although an athlete version of the VARK has been developed, the adapted questionnaire has not been validated and questionnaire items are not related to motor instructions <ref type="bibr" target="#b23">(Fuelscher et al., 2012)</ref>, which is why we did not choose to use this measure in the present study.</p><p>A further limitation to the study is our focus on experimental control, which limited the external validity of the task. As the results of the study have implications for sports practice and instruction, future studies (e.g., long-term, controlled learning studies in the field) should attempt to investigate whether the same effect persists in real sports skills. Additionally, the sample size in the present study was limited, partly due to the strict selection criteria. A small sample size may reduce the likelihood of finding significant results, however, significant effects were reported in the paper. It is therefore likely that replicating the study with a larger sample might corroborate and strengthen our findings. It is important that future research attempts to replicate the present findings and advance the current knowledge in this area of research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Conclusion</head><p>The results of the present experiment indicate that motor performance changes as well as changes in cognitive efficiency after analogy instruction may be related to verbal preference. Analogy instruction may increase efficiency of verbal processes in high verbalisers, but not in low verbalisers. This generally supports the hypothesis that analogy reduces verbal processing demands by reducing the amount of verbal information being processed, providing some support for a chunking hypothesis of analogy instruction.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Experimental set-up.</figDesc><graphic coords="3,308.24,57.03,247.81,169.63" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. High-alpha power at T7 (verbal processing area) in low and high verbal preference groups during the pre-analogy and post-analogy performance test.</figDesc><graphic coords="5,119.85,57.03,355.52,210.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. High-alpha power at T8 (visuospatial processing area) in low and high verbal preference groups during the pre-analogy and post-analogy performance test.</figDesc><graphic coords="5,119.85,297.64,355.52,208.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="6,119.85,57.03,355.52,210.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1</head><label>1</label><figDesc>Descriptive statistics for verbal and visual preference.</figDesc><table><row><cell></cell><cell cols="2">Verbal preference</cell><cell cols="2">Visual preference</cell></row><row><cell></cell><cell>Mean</cell><cell>SD</cell><cell>Mean</cell><cell>SD</cell></row><row><cell>Overall</cell><cell>5.14</cell><cell>2.37</cell><cell>2.00</cell><cell>1.61</cell></row><row><cell>High verbal preference group</cell><cell>7.07</cell><cell>1.10</cell><cell>1.93</cell><cell>1.79</cell></row><row><cell>Low verbal preference group</cell><cell>2.92</cell><cell>1.12</cell><cell>2.08</cell><cell>1.44</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2</head><label>2</label><figDesc>Descriptive statistics for high-alpha coherence.</figDesc><table><row><cell>Pre-test</cell><cell></cell><cell>Post-test</cell><cell></cell></row><row><cell>Mean</cell><cell>SD</cell><cell>Mean</cell><cell>SD</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p>Working memory (WM), the mental domain for short term storage and processing of information, has a limited capacity<ref type="bibr" target="#b6">(Baddeley &amp; Hitch, 1974)</ref> and thus limits the amount of cognitive information that can be processed concurrently.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_1"><p>Concerns about the concept of learning styles and information preferences have been expressed (e.g., see<ref type="bibr" target="#b18">Dekker et al., 2012)</ref>; however, these doubts address the use of preference-matched instruction in school settings. The interest in preference in the present study is informed by the goal to test explanations for the benefits of analogy learning.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_2"><p>Cognitive style is a measure of preferred modality (visual or verbal) for information processes, based on Cognitive Styles Analysis by<ref type="bibr" target="#b67">Riding and Cheema (1991)</ref>. Although linked to similar aspects of personality, it is a separate construct from instruction preference.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4" xml:id="foot_3"><p>BOLD is a form of functional brain mapping using blood oxygenation-level dependent contrast magnetic resonance imaging. It represents activity of the specified area at a high spatial resolution.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="5" xml:id="foot_4"><p>In this paper, all labeling is translated to the nomenclature suggested in the American Electroencephalographic Society's "guidelines for standard electrode position nomenclature" (American Electroencephalographic Society, 1994;<ref type="bibr" target="#b10">Chatrian et al., 1985;</ref><ref type="bibr" target="#b37">Jurcak, Tsuzuki, &amp; Dan, 2007;</ref><ref type="bibr" target="#b41">Klem, Lueders, Jasper, &amp; Elger, 1999)</ref>. The terms T7 and T8 are used for left and right temporal lobes, while Fz is used for the frontal lobe site. Odd numbers indicate left hemisphere, even numbers right hemisphere locations.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="6" xml:id="foot_5"><p>Comparatively, the pre-motor area (Fz) is crucial in movement planning, while activity in the right temporal lobe (T8) has been shown to represent visuospatial mapping of movements<ref type="bibr" target="#b78">(Wolf et al., 2015)</ref>.</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p>The authors have no conflicts of interest to declare.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Pictorial-verbal and analytic-holistic learning strategies in science learning</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Alesandrini</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0022-0663.73.3.358</idno>
+		<ptr target="https://doi.org/10.1037/0022-0663.73.3.358" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Educational Psychology</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="358" to="368" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alesandrini, K. L. (1981). Pictorial-verbal and analytic-holistic learning strategies in science learning. Journal of Educational Psychology, 73(3), 358-368. https://doi.org/ 10.1037/0022-0663.73.3.358.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Guideline thirteen: Guidelines for standard electrode position nomenclature</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Clinical Neurophysiology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="111" to="113" />
+			<date type="published" when="1994">1994</date>
+			<publisher>American Electroencephalographic Society</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">American Electroencephalographic Society (1994). Guideline thirteen: Guidelines for standard electrode position nomenclature. Journal of Clinical Neurophysiology, 11, 111-113.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Golf putt outcomes are predicted by sensorimotor cerebral EEG rhythms</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Babiloni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Del Percio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Iacoboni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Infarinato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lizio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Marzano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Eusebi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+		<idno type="DOI">10.1113/jphysiol.2007.141630</idno>
+		<ptr target="https://doi.org/10.1113/jphysiol.2007.141630" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physiology</title>
+		<imprint>
+			<biblScope unit="volume">586</biblScope>
+			<biblScope unit="page" from="131" to="139" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Babiloni, C., Del Percio, C., Iacoboni, M., Infarinato, F., Lizio, R., Marzano, N., ... Eusebi, F. (2008). Golf putt outcomes are predicted by sensorimotor cerebral EEG rhythms. The Journal of Physiology, 586, 131-139. https://doi.org/10.1113/jphysiol.2007. 141630.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Neural efficiency&quot; of experts&apos; brain during judgment of actions: A high-resolution EEG study in elite and amateur karate athletes</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Babiloni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Marzano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Infarinato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Iacoboni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rizza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Aschieri</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bbr.2009.10.034</idno>
+		<ptr target="https://doi.org/10.1016/j.bbr.2009.10.034" />
+	</analytic>
+	<monogr>
+		<title level="j">Behavioural Brain Research</title>
+		<imprint>
+			<biblScope unit="volume">207</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="466" to="475" />
+		</imprint>
+	</monogr>
+	<note>Del Percio, C. (2010)</note>
+	<note type="raw_reference">Babiloni, C., Marzano, N., Infarinato, F., Iacoboni, M., Rizza, G., Aschieri, P., ... Del Percio, C. (2010). &quot;Neural efficiency&quot; of experts&apos; brain during judgment of actions: A high-resolution EEG study in elite and amateur karate athletes. Behavioural Brain Research, 207(2), 466-475. https://doi.org/10.1016/j.bbr.2009.10.034.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The capacity for generating information by randomisation</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Baddeley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Quarterly Journal of Experimental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="119" to="129" />
+			<date type="published" when="1966">1966</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baddeley, A. D. (1966). The capacity for generating information by randomisation. The Quarterly Journal of Experimental Psychology, 18(2), 119-129.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Working memory: Theories, models, and controversies</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Baddeley</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-psych-120710-100422</idno>
+		<ptr target="https://doi.org/10.1146/annurev-psych-120710-100422" />
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Psychology</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="29" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baddeley, A. D. (2012). Working memory: Theories, models, and controversies. Annual Review of Psychology, 63(1), 1-29. https://doi.org/10.1146/annurev-psych-120710- 100422.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Working memory</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Baddeley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Hitch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The psychology of learning and motivation</title>
+		<editor>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Bower</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1974">1974</date>
+			<biblScope unit="page" from="47" to="89" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baddeley, A. D., &amp; Hitch, G. J. (1974). Working memory. In G. H. Bower (Ed.). The psychology of learning and motivation (pp. 47-89). New York: Academic Press.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Word length and the structure of working memory</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Baddeley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Thomson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Buchanan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0022-5371(75)80045-4</idno>
+		<ptr target="https://doi.org/10.1016/S0022-5371(75)80045-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Verbal Learning and Verbal Behavior</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="575" to="589" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baddeley, A. D., Thomson, N., &amp; Buchanan, M. (1975). Word length and the structure of working memory. Journal of Verbal Learning and Verbal Behavior, 14(6), 575-589. https://doi.org/10.1016/S0022-5371(75)80045-4.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">On the relationship between task performance and associated verbalizable knowledge</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Berry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Broadbent</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14640748408402156</idno>
+		<ptr target="http://www.tandfonline.com/doi/full/10.1080/14640748408402156" />
+	</analytic>
+	<monogr>
+		<title level="j">The Quarterly Journal of Experimental Psychology Section A: Human Experimental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="209" to="231" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Berry, D. C., &amp; Broadbent, D. E. (1984). On the relationship between task performance and associated verbalizable knowledge. The Quarterly Journal of Experimental Psychology Section A: Human Experimental Psychology, 36(2), 209-231. Retrieved from http://www.tandfonline.com/doi/full/10.1080/14640748408402156.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Re-examining the effects of verbal instructional type on early stage motor learning</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bobrownicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Macpherson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G S</forename><surname>Coleman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sproule</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boudet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Peyrodie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gallois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vasseur</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/IEMBS.2006.259237</idno>
+		<ptr target="https://doi.org/10.1109/IEMBS.2006.259237" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Annual International Conference of the IEEE Engineering in Medicine and Biology</title>
+		<meeting>the Annual International Conference of the IEEE Engineering in Medicine and Biology</meeting>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2006">2015. 2006</date>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="5719" to="5722" />
+		</imprint>
+	</monogr>
+	<note>A global approach for automatic artifact removal for standard EEG record</note>
+	<note type="raw_reference">Bobrownicki, R., Macpherson, A. C., Coleman, S. G. S., Collins, D., &amp; Sproule, J. (2015). Re-examining the effects of verbal instructional type on early stage motor learning. Human Movement Science, 44, 168-181. https://doi.org/10.1016/j.humov.2015.08. 023. Boudet, S., Peyrodie, L., Gallois, P., &amp; Vasseur, C. (2006). A global approach for automatic artifact removal for standard EEG record. Proceedings of the Annual International Conference of the IEEE Engineering in Medicine and Biology (pp. 5719-5722). IEEE. https://doi.org/10.1109/IEMBS.2006.259237.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Ten percent electrode system for topographic studies of spontaneous and evoked EEG activities</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Chatrian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lettich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Nelson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of EEG Technology</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="83" to="92" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chatrian, G. E., Lettich, E., &amp; Nelson, P. L. (1985). Ten percent electrode system for to- pographic studies of spontaneous and evoked EEG activities. American Journal of EEG Technology, 25(2), 83-92.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Role of Broca&apos;s Area in implicit motor skill learning: Evidence from continuous theta-burst magnetic stimulation</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Clerget</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Poncin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fadiga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Olivier</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/jocn_a_00108</idno>
+		<ptr target="https://doi.org/10.1162/jocn_a_00108" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cognitive Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="80" to="92" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Clerget, E., Poncin, W., Fadiga, L., &amp; Olivier, E. (2012). Role of Broca&apos;s Area in implicit motor skill learning: Evidence from continuous theta-burst magnetic stimulation. Journal of Cognitive Neuroscience, 24, 80-92. https://doi.org/10.1162/jocn_a_00108.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Consistency of learning styles of undergraduate athletic training students in the traditional classroom versus the clinical setting</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Coker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Athletic Training</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="441" to="444" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Coker, C. A. (2000). Consistency of learning styles of undergraduate athletic training students in the traditional classroom versus the clinical setting. Journal of Athletic Training, 35(4), 441-444.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Readying the head and steadying the heart: A review of cortical and cardiac studies of preparation for action in sport</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cooke</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/1750984X.2012.724438</idno>
+		<ptr target="https://doi.org/10.1080/1750984X.2012.724438" />
+	</analytic>
+	<monogr>
+		<title level="j">International Review of Sport and Exercise Psychology</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="17" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cooke, A. (2013). Readying the head and steadying the heart: A review of cortical and cardiac studies of preparation for action in sport. International Review of Sport and Exercise Psychology, 6(1), 1-17. https://doi.org/10.1080/1750984X.2012.724438.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Premovement high-alpha power is modulated by previous movement errors: Indirect evidence to endorse high-alpha power as a marker of resource allocation during motor programming</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cooke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gallicchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kavussanu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Willoughby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mcintyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ring</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/psyp.12414</idno>
+		<ptr target="https://doi.org/10.1111/psyp.12414" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychophysiology</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="977" to="981" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cooke, A., Gallicchio, G., Kavussanu, M., Willoughby, A., McIntyre, D., &amp; Ring, C. (2015). Premovement high-alpha power is modulated by previous movement errors: Indirect evidence to endorse high-alpha power as a marker of resource allocation during motor programming. Psychophysiology, 52(7), 977-981. https://doi.org/10.1111/ psyp.12414.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Preparation for action: Psychophysiological activity preceding a motor skill as a function of expertise, performance outcome, and psychological pressure</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cooke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kavussanu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gallicchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Willoughby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mcintyre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ring</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/psyp.12182</idno>
+		<ptr target="https://doi.org/10.1111/psyp.12182" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychophysiology</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="374" to="384" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cooke, A., Kavussanu, M., Gallicchio, G., Willoughby, A., Mcintyre, D., &amp; Ring, C. (2014). Preparation for action: Psychophysiological activity preceding a motor skill as a function of expertise, performance outcome, and psychological pressure. Psychophysiology, 51(4), 374-384. https://doi.org/10.1111/psyp.12182.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Electroencephalographic measures of attentional patterns prior to the golf putt</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Crews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Landers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine &amp; Science in Sports &amp; Exercise</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="116" to="126" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Crews, D. J., &amp; Landers, D. M. (1993). Electroencephalographic measures of attentional patterns prior to the golf putt. Medicine &amp; Science in Sports &amp; Exercise, 25(1), 116-126.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Cortico-cortical communication and superior performance in skilled marksmen: An EEG coherence analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Deeny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Hillman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Janelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Hatfield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sport &amp; Exercise Psychology</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="188" to="204" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Deeny, S. P., Hillman, C. H., Janelle, C. M., &amp; Hatfield, B. D. (2003). Cortico-cortical communication and superior performance in skilled marksmen: An EEG coherence analysis. Journal of Sport &amp; Exercise Psychology, 25(2), 188-204.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Neuromyths in education: Prevalence and predictors of misconceptions among teachers</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dekker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Howard-Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jolles</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2017.00629</idno>
+		<ptr target="https://doi.org/10.3389/fpsyg.2017.00629" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Psychology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dekker, S., Lee, N. C., Howard-Jones, P., &amp; Jolles, J. (2012). Neuromyths in education: Prevalence and predictors of misconceptions among teachers. Frontiers in Psychology, 3, 1-8. https://doi.org/10.3389/fpsyg.2017.00629.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Movement-related desynchronization of alpha rhythms is lower in athletes than non-athletes: A high-resolution EEG study</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Del Percio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Infarinato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Iacoboni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Marzano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Soricelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Aschieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Babiloni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.clinph.2009.12.004</idno>
+		<ptr target="https://doi.org/10.1016/j.clinph.2009.12.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Clinical Neurophysiology</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="482" to="491" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Del Percio, C., Infarinato, F., Iacoboni, M., Marzano, N., Soricelli, A., Aschieri, P., ... Babiloni, C. (2010). Movement-related desynchronization of alpha rhythms is lower in athletes than non-athletes: A high-resolution EEG study. Clinical Neurophysiology, 121(4), 482-491. https://doi.org/10.1016/j.clinph.2009.12.004.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">EEGLAB: An open source toolbox for analysis of singletrial EEG dynamics including independent component analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Delorme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Makeig</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jneumeth.2003.10.009</idno>
+		<ptr target="https://doi.org/10.1016/j.jneumeth.2003.10" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Neuroscience Methods</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="9" to="21" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Delorme, A., &amp; Makeig, S. (2004). EEGLAB: An open source toolbox for analysis of single- trial EEG dynamics including independent component analysis. Journal of Neuroscience Methods, 134(1), 9-21. https://doi.org/10.1016/j.jneumeth.2003.10.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Using learning preferences to improve coaching and athletic performance</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Dunn</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/07303084.2009.10598294</idno>
+		<ptr target="https://doi.org/10.1080/07303084.2009.10598294" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physical Education, Recreation and Dance</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="30" to="37" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dunn, J. L. (2009). Using learning preferences to improve coaching and athletic perfor- mance. Journal of Physical Education, Recreation and Dance, 80(3), 30-37. https://doi. org/10.1080/07303084.2009.10598294.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Human performance</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Fitts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Posner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1967">1967</date>
+			<publisher>Brooks-Cole</publisher>
+			<pubPlace>Belmont, CA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fitts, P. M., &amp; Posner, M. (1967). Human performance. Belmont, CA: Brooks-Cole.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Perspectives on learning styles in motor and sport skills</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">T</forename><surname>Fuelscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ball</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Macmahon</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2012.00069</idno>
+		<ptr target="https://doi.org/10.3389/fpsyg.2012.00069" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Psychology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="2" to="4" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fuelscher, I. T., Ball, K., &amp; MacMahon, C. (2012). Perspectives on learning styles in motor and sport skills. Frontiers in Psychology, 3, 2-4. https://doi.org/10.3389/fpsyg.2012. 00069.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Lower left temporal-frontal connectivity characterizes expert and accurate performance: High-alpha T7-Fz connectivity as a marker of conscious processing during movement</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gallicchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cooke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ring</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/spy0000055</idno>
+		<ptr target="https://doi.org/10.1037/spy0000055" />
+	</analytic>
+	<monogr>
+		<title level="j">Sport, Exercise, and Performance Psychology</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="14" to="24" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gallicchio, G., Cooke, A., &amp; Ring, C. (2016). Lower left temporal-frontal connectivity characterizes expert and accurate performance: High-alpha T7-Fz connectivity as a marker of conscious processing during movement. Sport, Exercise, and Performance Psychology, 5(1), 14-24. https://doi.org/10.1037/spy0000055.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Structure-mapping: A theoretical framework for analogy</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gentner</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0364-0213(83)80009-3</idno>
+		<ptr target="https://doi.org/10.1016/S0364-0213(83)80009-3Retrievedfrom" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Science</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="155" to="170" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gentner, D. (1983). Structure-mapping: A theoretical framework for analogy. Cognitive Science, 7(2), 155-170. https://doi.org/10.1016/S0364-0213(83)80009-3 Retrieved from.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">EEG differences and cognitive style</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Glass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Riding</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0301-0511(99)00014-9</idno>
+		<ptr target="https://doi.org/10.1016/S0301-0511(99)00014-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Biological Psychology</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="23" to="41" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Glass, A., &amp; Riding, R. (1999). EEG differences and cognitive style. Biological Psychology, 51, 23-41. https://doi.org/10.1016/S0301-0511(99)00014-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A catastrophe model of anxiety and performance</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hardy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Parfitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Psychology</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="163" to="178" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hardy, L., &amp; Parfitt, G. (1991). A catastrophe model of anxiety and performance. British Journal of Psychology, 82, 163-178.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Electroencephalographic studies of skilled psychomotor performance</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Hatfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Haufler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-M</forename><surname>Hung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Spalding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Clinical Neurophysiology</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="144" to="156" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hatfield, B. D., Haufler, A. J., Hung, T.-M., &amp; Spalding, T. W. (2004). Electroencephalographic studies of skilled psychomotor performance. Journal of Clinical Neurophysiology, 21(3), 144-156.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The psychophysiology of sport: A mechanistic understanding of the psychology of superior performance</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Hatfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Hillman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of sport psychology</title>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Singer</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Hausenblas</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Janelle</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley &amp; Sons</publisher>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="page" from="243" to="259" />
+		</imprint>
+	</monogr>
+	<note>nd ed.</note>
+	<note type="raw_reference">Hatfield, B. D., &amp; Hillman, C. H. (2001). The psychophysiology of sport: A mechanistic understanding of the psychology of superior performance. In R. Singer, H. A. Hausenblas, &amp; C. M. Janelle (Eds.). Handbook of sport psychology (pp. 243-259). (2nd ed.). New York: Wiley &amp; Sons.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Cognitive-processes during self-paced motor-performance -an electroencephalographic profile of skilled marksmen</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Hatfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Landers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Ray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sport Psychology</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="42" to="59" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hatfield, B. D., Landers, D. M., &amp; Ray, W. J. (1984). Cognitive-processes during self-paced motor-performance -an electroencephalographic profile of skilled marksmen. Journal of Sport Psychology, 6, 42-59.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Neuro-cognitive activity during a self-paced visuospatial task: Comparative EEG profiles in marksmen and novice shooters</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Haufler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Spalding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Santa Maria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Hatfield</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0301-0511(00)00047-8</idno>
+		<ptr target="https://doi.org/" />
+	</analytic>
+	<monogr>
+		<title level="j">Biological Psychology</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="131" to="160" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Haufler, A. J., Spalding, T. W., Santa Maria, D. L., &amp; Hatfield, B. D. (2000). Neuro-cog- nitive activity during a self-paced visuospatial task: Comparative EEG profiles in marksmen and novice shooters. Biological Psychology, 53, 131-160. https://doi.org/ 10.1016/S0301-0511(00)00047-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">An electrocortical comparison of executed and rejected shots in skilled marksmen</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Hillman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Apparies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Janelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Hatfield</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0301-0511(99)00021-6</idno>
+		<ptr target="https://doi.org/10.1016/S0301-0511(99)00021-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Biological Psychology</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="71" to="83" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hillman, C. H., Apparies, R. J., Janelle, C. M., &amp; Hatfield, B. D. (2000). An electrocortical comparison of executed and rejected shots in skilled marksmen. Biological Psychology, 52(1), 71-83. https://doi.org/10.1016/S0301-0511(99)00021-6.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The role of augmented information prior to learning a bimanual visual-motor coordination task: Do instructions of the movement pattern facilitate learning relative to discovery learning?</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Hodges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1348/000712699161486/abstract</idno>
+		<ptr target="http://onlinelibrary.wiley.com/doi/10.1348/000712699161486/abstract" />
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Psychology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">90</biblScope>
+			<biblScope unit="page" from="389" to="403" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hodges, N. J., &amp; Lee, T. D. (1999). The role of augmented information prior to learning a bimanual visual-motor coordination task: Do instructions of the movement pattern facilitate learning relative to discovery learning? British Journal of Psychology, 3(90), 389-403. Retrieved from http://onlinelibrary.wiley.com/doi/10.1348/ 000712699161486/abstract.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Color, context, and cognitive style: Variations in color knowledge retrieval as a function of task and subject variables</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J M</forename><surname>Kraemer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Oliver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Schlichting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Thompson-Schill</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/jocn.2011.21619</idno>
+		<ptr target="https://doi.org/10.1162/jocn.2011.21619" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cognitive Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2544" to="2557" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hsu, N. S., Kraemer, D. J. M., Oliver, R. T., Schlichting, M. L., &amp; Thompson-Schill, S. L. (2011). Color, context, and cognitive style: Variations in color knowledge retrieval as a function of task and subject variables. Journal of Cognitive Neuroscience, 23(9), 2544-2557. https://doi.org/10.1162/jocn.2011.21619.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Expertise differences in cortical activation and gaze behavior during rifle shooting</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Janelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Hillman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Apparies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Meili</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Fallon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Hatfield</surname></persName>
+		</author>
+		<ptr target="http://www.scopus.com/inward/record.url?eid=2-s2.0-0034354531" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sport &amp; Exercise Psychology</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="167" to="182" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note>&amp;partnerID=40&amp;md5=fd7c644a8482d5fe51ebd5e020c5bf20</note>
+	<note type="raw_reference">Janelle, C. M., Hillman, C. H., Apparies, R. J., Murray, N. P., Meili, L., Fallon, E. A., &amp; Hatfield, B. D. (2000). Expertise differences in cortical activation and gaze behavior during rifle shooting. Journal of Sport &amp; Exercise Psychology, 22(2), 167-182. Retrieved from http://www.scopus.com/inward/record.url?eid=2-s2.0- 0034354531&amp;partnerID=40&amp;md5=fd7c644a8482d5fe51ebd5e020c5bf20.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Analogy learning in Parkinson&apos;s as easy as a walk on the beach: A proof-of-concept study</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Jie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Goodwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kleynen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Braun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nunns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.12968/ijtr.2016.23.3.123.Analogy</idno>
+		<ptr target="https://doi.org/10.12968/ijtr.2016.23.3.123.Analogy" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Therapy and Rehabilitation</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="123" to="130" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jie, L. J., Goodwin, V., Kleynen, M., Braun, S. M., Nunns, M., &amp; Wilson, M. R. (2016). Analogy learning in Parkinson&apos;s as easy as a walk on the beach: A proof-of-concept study. International Journal of Therapy and Rehabilitation, 23(3), 123-130. https://doi. org/10.12968/ijtr.2016.23.3.123.Analogy.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">systems revisited: Their validity as relative head-surface-based positioning systems</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Jurcak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tsuzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuroimage.2006.09.024</idno>
+		<ptr target="https://doi.org/10.1016/j.neuroimage.2006.09.024" />
+	</analytic>
+	<monogr>
+		<title level="j">NeuroImage</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1600" to="1611" />
+			<date type="published" when="2007-10-20">2007. 10/20, 10/10, and 10/5</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jurcak, V., Tsuzuki, D., &amp; Dan, I. (2007). 10/20, 10/10, and 10/5 systems revisited: Their validity as relative head-surface-based positioning systems. NeuroImage, 34(4), 1600-1611. https://doi.org/10.1016/j.neuroimage.2006.09.024.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Frontal lobe anatomy and cortical connectivity</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Kaufer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Lewis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The human frontal lobes: Functions and disorders</title>
+		<editor>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Miller</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Cummings</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York City, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Guilford press</publisher>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="page" from="27" to="44" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kaufer, D. I., &amp; Lewis, D. A. (1999). Frontal lobe anatomy and cortical connectivity. In B. L. Miller, &amp; J. L. Cummings (Eds.). The human frontal lobes: Functions and disorders (pp. 27-44). New York City, NY: Guilford press.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The role of the left temporal region under the cognitive motor demands of shooting in skilled marksmen</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Kerick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mcdowell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Hung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Santa Maria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Spalding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Hatfield</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0301-0511(01)00116-8</idno>
+		<ptr target="https://doi.org/10.1016/S0301-0511" />
+	</analytic>
+	<monogr>
+		<title level="j">Biological Psychology</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">01</biblScope>
+			<biblScope unit="page" from="116" to="118" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kerick, S. E., McDowell, K., Hung, T. M., Santa Maria, D. L., Spalding, T. W., &amp; Hatfield, B. D. (2001). The role of the left temporal region under the cognitive motor demands of shooting in skilled marksmen. Biological Psychology, 58, 263-277. https://doi.org/10. 1016/S0301-0511(01)00116-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Verbal and visual learning styles</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Kirby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Schofield</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0361-476X(88)90017-3</idno>
+		<ptr target="https://doi.org/10.1016/0361-476X" />
+	</analytic>
+	<monogr>
+		<title level="j">Contemporary Educational Psychology</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">88</biblScope>
+			<biblScope unit="page" from="90017" to="90020" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kirby, J. R., Moore, P. J., &amp; Schofield, N. J. (1988). Verbal and visual learning styles. Contemporary Educational Psychology, 13, 169-184. https://doi.org/10.1016/0361- 476X(88)90017-3.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Recommendations for the practice of clinical neurophysiology: Guidelines of the international federation of clinical physiology (EEG suppl</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Klem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">O</forename><surname>Lueders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Jasper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Elger</surname></persName>
+		</author>
+		<editor>G. Deuschl, &amp; A. Eisen</editor>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="371" to="375" />
+		</imprint>
+		<respStmt>
+			<orgName>International Federation of Clinical Neurophysiology</orgName>
+		</respStmt>
+	</monogr>
+	<note>The ten twenty system of the international federation</note>
+	<note type="raw_reference">Klem, G. H., Lueders, H. O., Jasper, H. H., &amp; Elger, C. (1999). The ten twenty system of the international federation. In G. Deuschl, &amp; A. Eisen (Vol. Eds.), Recommendations for the practice of clinical neurophysiology: Guidelines of the international federation of clinical physiology (EEG suppl. 52): 10, (pp. 371-375). Cleveland: International Federation of Clinical Neurophysiology.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">EEG alpha and theta oscillations reflect cognitive and memory performance: A review and analysis</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Klimesch</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0165-0173(98)00056-3</idno>
+		<ptr target="https://doi.org/10.1016/S0165-0173(98)00056-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain Research Reviews</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">2-3</biblScope>
+			<biblScope unit="page" from="169" to="195" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Klimesch, W. (1999). EEG alpha and theta oscillations reflect cognitive and memory performance: A review and analysis. Brain Research Reviews, 29(2-3), 169-195. https://doi.org/10.1016/S0165-0173(98)00056-3.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Attention and time constraints in perceptual-motor learning and performance: Instruction, analogy, and skill level</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Koedijker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Poolton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Maxwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R D</forename><surname>Oudejans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Beek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S W</forename><surname>Masters</surname></persName>
+		</author>
+		<ptr target="http://www.ncbi.nlm.nih.gov/pubmed/20850990" />
+	</analytic>
+	<monogr>
+		<title level="j">Consciousness and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="245" to="256" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Koedijker, J. M., Poolton, J. M., Maxwell, J. P., Oudejans, R. R. D., Beek, P. J., &amp; Masters, R. S. W. (2011). Attention and time constraints in perceptual-motor learning and performance: Instruction, analogy, and skill level. Consciousness and Cognition, 20(2), 245-256. Retrieved from http://www.ncbi.nlm.nih.gov/pubmed/20850990.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Exploring the relation between visualizer-verbalizer cognitive styles and performance with visual or verbal learning material</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kollöffel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.compedu.2011.09.016</idno>
+		<ptr target="https://doi.org/10.1016/j.compedu.2011.09.016" />
+	</analytic>
+	<monogr>
+		<title level="j">Computers &amp; Education</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="697" to="706" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kollöffel, B. (2012). Exploring the relation between visualizer-verbalizer cognitive styles and performance with visual or verbal learning material. Computers &amp; Education, 58(2), 697-706. https://doi.org/10.1016/j.compedu.2011.09.016.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The neural correlates of visual and verbal cognitive styles</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J M</forename><surname>Kraemer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Rosenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Thompson-Schill</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.4635-08.2009</idno>
+		<ptr target="https://doi.org/10.1523/JNEUROSCI.4635-08.2009" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="3792" to="3798" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kraemer, D. J. M., Rosenberg, L. M., &amp; Thompson-Schill, S. L. (2009). The neural cor- relates of visual and verbal cognitive styles. Journal of Neuroscience, 29(12), 3792-3798. https://doi.org/10.1523/JNEUROSCI.4635-08.2009.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Analogy learning and the performance of motor skills under pressure</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Maxwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S W</forename><surname>Masters</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sport &amp; Exercise Psychology</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="337" to="357" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lam, W. K., Maxwell, J. P., &amp; Masters, R. S. W. (2009a). Analogy learning and the per- formance of motor skills under pressure. Journal of Sport &amp; Exercise Psychology, 31(3), 337-357.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Analogy versus explicit learning of a modified basketball shooting task: Performance and kinematic outcomes</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Maxwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S W</forename><surname>Masters</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640410802448764</idno>
+		<ptr target="https://doi.org/10.1080/02640410802448764" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="179" to="191" />
+			<date type="published" when="2009">2009b</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lam, W. K., Maxwell, J. P., &amp; Masters, R. S. W. (2009b). Analogy versus explicit learning of a modified basketball shooting task: Performance and kinematic outcomes. Journal of Sports Sciences, 27(2), 179-191. https://doi.org/10.1080/02640410802448764.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Attempted validation of the scores of the VARK: Learning styles inventory with multitrait-multimethod confirmatory factor Analysis models</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Leite</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Svinicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0013164409344507</idno>
+		<ptr target="https://doi.org/10.1177/0013164409344507" />
+	</analytic>
+	<monogr>
+		<title level="j">Educational and Psychological Measurement</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="323" to="339" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leite, W. L., Svinicki, M., &amp; Shi, Y. (2010). Attempted validation of the scores of the VARK: Learning styles inventory with multitrait-multimethod confirmatory factor Analysis models. Educational and Psychological Measurement, 70(2), 323-339. https:// doi.org/10.1177/0013164409344507.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Analogy learning: A means to implicit motor learning</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S W</forename><surname>Masters</surname></persName>
+		</author>
+		<ptr target="http://www.ncbi.nlm.nih.gov/pubmed/11354610" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="307" to="319" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liao, C. M., &amp; Masters, R. S. W. (2001). Analogy learning: A means to implicit motor learning. Journal of Sports Sciences, 19(5), 307-319. Retrieved from http://www.ncbi. nlm.nih.gov/pubmed/11354610.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Knowledge, knerves and know-how: The role of explicit versus implicit knowledge in the breakdown of a complex motor skill under pressure</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S W</forename><surname>Masters</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Psychology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">83</biblScope>
+			<biblScope unit="page" from="343" to="358" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Masters, R. S. W. (1992). Knowledge, knerves and know-how: The role of explicit versus implicit knowledge in the breakdown of a complex motor skill under pressure. British Journal of Psychology, 3(83), 343-358.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Theoretical aspects of implicit learning in sport</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S W</forename><surname>Masters</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sport Psychology</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="530" to="541" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Masters, R. S. W. (2000). Theoretical aspects of implicit learning in sport. International Journal of Sport Psychology, 31(4), 530-541.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Chunking as a characteristic of implicit motor learning</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S W</forename><surname>Masters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Liao</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cbdv.200490137/abstract</idno>
+		<ptr target="http://onlinelibrary.wiley.com/doi/10.1002/cbdv.200490137/abstract" />
+	</analytic>
+	<monogr>
+		<title level="m">11th European congress of sport psychology</title>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Stelter</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="137" to="138" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Masters, R. S. W., &amp; Liao, C. M. (2003). Chunking as a characteristic of implicit motor learning. In R. Stelter (Ed.). 11th European congress of sport psychology (pp. 137-138). . Retrieved from http://onlinelibrary.wiley.com/doi/10.1002/cbdv.200490137/ abstract.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Implicit motor learning, reinvestment and movement disruption: What you don&apos;t know won&apos;t hurt you</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S W</forename><surname>Masters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Maxwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Skill acquisition in sport: Research, theory and practice</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Hodges</surname></persName>
+		</editor>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="page" from="207" to="228" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Masters, R. S. W., &amp; Maxwell, J. P. (2004). Implicit motor learning, reinvestment and movement disruption: What you don&apos;t know won&apos;t hurt you? In A. M. Williams, &amp; N. J. Hodges (Eds.). Skill acquisition in sport: Research, theory and practice (pp. 207-228). London: Routledge.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Advances in implicit motor learning</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S W</forename><surname>Masters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Poolton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Skill acquisition in sport</title>
+		<editor>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Hodges</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</editor>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="59" to="75" />
+		</imprint>
+	</monogr>
+	<note>nd ed.</note>
+	<note type="raw_reference">Masters, R. S. W., &amp; Poolton, J. M. (2012). Advances in implicit motor learning. In N. J. Hodges, &amp; A. M. Williams (Eds.). Skill acquisition in sport (pp. 59-75). (2nd ed.). London: Routledge.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Stable implicit motor processes despite aerobic locomotor fatigue</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S W</forename><surname>Masters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Poolton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Maxwell</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.concog.2007.03.009</idno>
+		<ptr target="https://doi.org/10.1016/j.concog.2007.03.009" />
+	</analytic>
+	<monogr>
+		<title level="j">Consciousness and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="335" to="338" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Masters, R. S. W., Poolton, J. M., &amp; Maxwell, J. P. (2008). Stable implicit motor processes despite aerobic locomotor fatigue. Consciousness and Cognition, 17(1), 335-338. https://doi.org/10.1016/j.concog.2007.03.009.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b56">
+	<analytic>
+		<title level="a" type="main">The role of working memory in motor learning and performance</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Maxwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S W</forename><surname>Masters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">F</forename><surname>Eves</surname></persName>
+		</author>
+		<ptr target="http://linkinghub.elsevier.com/retrieve/pii/S1053810003000059" />
+	</analytic>
+	<monogr>
+		<title level="j">Consciousness and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="376" to="402" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maxwell, J. P., Masters, R. S. W., &amp; Eves, F. F. (2003). The role of working memory in motor learning and performance. Consciousness and Cognition, 12(3), 376-402. Retrieved from http://linkinghub.elsevier.com/retrieve/pii/S1053810003000059.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Three facets of visual and verbal learners: Cognitive ability, cognitive style, and learning preference</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Massa</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0022-0663.95.4.833</idno>
+		<ptr target="https://doi.org/10.1037/0022-0663.95.4.833" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Educational Psychology</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="833" to="846" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mayer, R. E., &amp; Massa, L. J. (2003). Three facets of visual and verbal learners: Cognitive ability, cognitive style, and learning preference. Journal of Educational Psychology, 95(4), 833-846. https://doi.org/10.1037/0022-0663.95.4.833.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Cognitive style and recall of text: An EEG analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Mckay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Fischler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Dunn</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.lindif.2003.03.001</idno>
+		<ptr target="https://doi.org/10.1016/j.lindif.2003.03.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Learning and Individual Differences</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="21" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McKay, M. T., Fischler, I., &amp; Dunn, B. R. (2002). Cognitive style and recall of text: An EEG analysis. Learning and Individual Differences, 14(1), 1-21. https://doi.org/10.1016/j. lindif.2003.03.001.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b59">
+	<analytic>
+		<title level="a" type="main">The functional significance of EEG microstates-Associations with modalities of thinking</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Milz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Faber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lehmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Koenig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kochi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Pascual-Marqui</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuroimage.2015.08.023</idno>
+		<ptr target="https://doi.org/10.1016/j.neuroimage.2015.08.023" />
+	</analytic>
+	<monogr>
+		<title level="j">NeuroImage</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="643" to="656" />
+			<date type="published" when="2016">2016a</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Milz, P., Faber, P. L., Lehmann, D., Koenig, T., Kochi, K., &amp; Pascual-Marqui, R. D. (2016a). The functional significance of EEG microstates-Associations with modalities of thinking. NeuroImage, 125, 643-656. https://doi.org/10.1016/j.neuroimage.2015. 08.023.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Modalities of thinking: State and trait effects on cross-frequency functional independent brain networks</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Milz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Pascual-Marqui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lehmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Faber</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10548-016-0469-3</idno>
+		<ptr target="https://doi.org/10.1007/s10548-016-0469-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain Topography</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="477" to="490" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Milz, P., Pascual-Marqui, R. D., Lehmann, D., &amp; Faber, P. L. (2016b). Modalities of thinking: State and trait effects on cross-frequency functional independent brain networks. Brain Topography, 29(3), 477-490. https://doi.org/10.1007/s10548-016- 0469-3.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b61">
+	<monogr>
+		<title level="m" type="main">Mechanisms of skill acquisition and the law of practice</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Newell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Rosenbloom</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1980">1980. 2387</date>
+			<pubPlace>Pittsburgh, Pennsylvania</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Newell, A., &amp; Rosenbloom, P. S. (1980). Mechanisms of skill acquisition and the law of practice (No. 2387). Pittsburgh, Pennsylvania.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b62">
+	<analytic>
+		<title level="a" type="main">EEG coherency II: Experimental comparisons of multiple measures</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Nunez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Silberstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Carpenter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Srinivasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Tucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Wijesinghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/S1388-2457(98)00043-1</idno>
+		<ptr target="https://doi.org/10.1016/S1388-2457" />
+	</analytic>
+	<monogr>
+		<title level="j">Clinical Neurophysiology</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="43" to="44" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nunez, P. L., Silberstein, R. B., Shi, Z., Carpenter, M. R., Srinivasan, R., Tucker, D. M., ... Wijesinghe, R. S. (1999). EEG coherency II: Experimental comparisons of multiple measures. Clinical Neurophysiology, 110(3), 469-486. https://doi.org/10.1016/ S1388-2457(98)00043-1.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b63">
+	<analytic>
+		<title level="a" type="main">A theoretical basis for standing and traveling brain waves measured with human EEG with implications for an integrated consciousness</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Nunez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Srinivasan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.clinph.2006.06.754</idno>
+		<ptr target="https://doi.org/10.1016/j.clinph.2006.06.754" />
+	</analytic>
+	<monogr>
+		<title level="j">Clinical Neurophysiology</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2424" to="2435" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nunez, P. L., &amp; Srinivasan, R. (2006). A theoretical basis for standing and traveling brain waves measured with human EEG with implications for an integrated consciousness. Clinical Neurophysiology, 117(11), 2424-2435. https://doi.org/10.1016/j.clinph. 2006.06.754.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b64">
+	<analytic>
+		<title level="a" type="main">The influence of analogy learning on decision-making in table tennis: Evidence from behavioural data</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Poolton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S W</forename><surname>Masters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Maxwell</surname></persName>
+		</author>
+		<ptr target="http://linkinghub.elsevier.com/retrieve/pii/S146902920600029X" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology of Sport and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="677" to="688" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Poolton, J. M., Masters, R. S. W., &amp; Maxwell, J. P. (2006). The influence of analogy learning on decision-making in table tennis: Evidence from behavioural data. Psychology of Sport and Exercise, 7(6), 677-688. Retrieved from http://linkinghub. elsevier.com/retrieve/pii/S146902920600029X.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b65">
+	<analytic>
+		<title level="a" type="main">The development of a culturally appropriate analogy for implicit motor learning in a Chinese population</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Poolton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S W</forename><surname>Masters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Maxwell</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cbdv.200490137/abstract</idno>
+		<ptr target="http://onlinelibrary.wiley.com/doi/10.1002/cbdv.200490137/abstract" />
+	</analytic>
+	<monogr>
+		<title level="j">The Sport Psychologist</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="375" to="382" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Poolton, J. M., Masters, R. S. W., &amp; Maxwell, J. P. (2007). The development of a culturally appropriate analogy for implicit motor learning in a Chinese population. The Sport Psychologist, 21(4), 375-382. Retrieved from http://onlinelibrary.wiley.com/doi/10. 1002/cbdv.200490137/abstract.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Verbalizer-visualizer: A cognitive style dimension</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Richardson</surname></persName>
+		</author>
+		<ptr target="http://psycnet.apa.org/psycinfo/1978-24381-001" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mental Imagery</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="109" to="125" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Richardson, A. (1977). Verbalizer-visualizer: A cognitive style dimension. Journal of Mental Imagery, 1(1), 109-125. Retrieved from http://psycnet.apa.org/psycinfo/ 1978-24381-001.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Cognitive styles -an overview and integration</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Riding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Cheema</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/0144341910110301</idno>
+		<ptr target="https://doi.org/10.1080/0144341910110301" />
+	</analytic>
+	<monogr>
+		<title level="j">Educational Psychology</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="193" to="215" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Riding, R. J., &amp; Cheema, I. (1991). Cognitive styles -an overview and integration. Educational Psychology, 11(3-4), 193-215. https://doi.org/10.1080/ 0144341910110301.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Cognitive style and individual differences in EEG alpha during information processing</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Riding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Glass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Pleydell-Pearce</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/0144341970170117</idno>
+		<ptr target="https://doi.org/10.1080/0144341970170117" />
+	</analytic>
+	<monogr>
+		<title level="j">Educational Psychology</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="219" to="234" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Riding, R. J., Glass, A., Butler, S. R., &amp; Pleydell-Pearce, C. W. (1997). Cognitive style and individual differences in EEG alpha during information processing. Educational Psychology, 17(1-2), 219-234. https://doi.org/10.1080/0144341970170117.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b69">
+	<analytic>
+		<title level="a" type="main">The effect of cognitive style on the preferred format of instructional material</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Riding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Watts</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/0144341970170113</idno>
+		<ptr target="https://doi.org/10.1080/0144341970170113" />
+	</analytic>
+	<monogr>
+		<title level="j">Educational Psychology</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="179" to="183" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Riding, R. J., &amp; Watts, M. (1997). The effect of cognitive style on the preferred format of instructional material. Educational Psychology, 17(1-2), 179-183. https://doi.org/10. 1080/0144341970170113.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b70">
+	<analytic>
+		<title level="a" type="main">No adjustments are needed for multiple comparisons</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Rothman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0360-3199(98)00119-0</idno>
+		<ptr target="https://doi.org/10.1016/S0360-3199(98)00119-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Epidemiology</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="43" to="46" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rothman, K. J. (1990). No adjustments are needed for multiple comparisons. Epidemiology, 1(1), 43-46. https://doi.org/10.1016/S0360-3199(98)00119-0.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Simultaneous EEG monitoring during transcranial direct current stimulation</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schestatsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Morales-Quezada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fregni</surname></persName>
+		</author>
+		<idno type="DOI">10.3791/50426</idno>
+		<ptr target="https://doi.org/10.3791/50426" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Visualized Experiments</title>
+		<imprint>
+			<biblScope unit="issue">76</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schestatsky, P., Morales-Quezada, L., &amp; Fregni, F. (2013). Simultaneous EEG monitoring during transcranial direct current stimulation. Journal of Visualized Experiments, (76), 1-11. https://doi.org/10.3791/50426.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Neurophysiological indices of strategy development and skill acquisition</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Mcevoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gevins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Brain Research</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="389" to="404" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smith, M. E., McEvoy, L. K., &amp; Gevins, A. (1999). Neurophysiological indices of strategy development and skill acquisition. Cognitive Brain Research, 7(3), 389-404.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Lateral specialization of cerebral function in the surgically separate hemispheres</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sperry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The psychophysiology of thinking</title>
+		<editor>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Mcguigan</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Schooner</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sperry, R. (1974). Lateral specialization of cerebral function in the surgically separate hemispheres. In F. J. McGuigan, &amp; R. A. Schooner (Eds.). The psychophysiology of thinking. New York: Academic Press.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Component processes in analogical reasoning</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Sternberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-295X.84.4.353</idno>
+		<ptr target="https://doi.org/10.1037/0033-295X.84.4.353" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Review</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="353" to="378" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sternberg, R. J. (1977). Component processes in analogical reasoning. Psychological Review, 84(4), 353-378. https://doi.org/10.1037/0033-295X.84.4.353.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Examining motor learning in older adults using analogy instruction</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C Y</forename><surname>Tse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W L</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S W</forename><surname>Masters</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2016.10.005</idno>
+		<ptr target="https://doi.org/10.1016/j.psychsport.2016.10.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology of Sport and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="78" to="84" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tse, A. C. Y., Wong, T. W. L., &amp; Masters, R. S. W. (2017). Examining motor learning in older adults using analogy instruction. Psychology of Sport and Exercise, 28, 78-84. https://doi.org/10.1016/j.psychsport.2016.10.005.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Analogy Instructions Promote Efficiency of Cognitive Processes During Hockey Push-Pass Performance</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Van Duijn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C J</forename><surname>Hoskens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Masters</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sport, Exercise. and Performance Psychology</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="7" to="20" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">van Duijn, T., Hoskens, M. C. J., &amp; Masters, R. S. W. (2018). Analogy Instructions Promote Efficiency of Cognitive Processes During Hockey Push-Pass Performance. Sport, Exercise. and Performance Psychology, 8(1), 7-20.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Quiet eye training: A means to implicit motor learning</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Vine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cooke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.7352/IJSP</idno>
+		<ptr target="https://doi.org/10.7352/IJSP" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sport Psychology</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="367" to="386" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vine, S. J., Moore, L. J., Cooke, A., Ring, C., &amp; Wilson, M. R. (2013). Quiet eye training: A means to implicit motor learning. International Journal of Sport Psychology, 44(4), 367-386. https://doi.org/10.7352/IJSP.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Motor skill failure or flow-experience? Functional brain asymmetry and brain connectivity in elite and amateur table tennis players</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brölz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Keune</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wesa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hautzinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Birbaumer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Strehl</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.biopsycho.2015.01.007</idno>
+		<ptr target="https://doi.org/10.1016/j.biopsycho.2015.01.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Biological Psychology</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="95" to="105" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wolf, S., Brölz, E., Keune, P. M., Wesa, B., Hautzinger, M., Birbaumer, N., &amp; Strehl, U. (2015). Motor skill failure or flow-experience? Functional brain asymmetry and brain connectivity in elite and amateur table tennis players. Biological Psychology, 105, 95-105. https://doi.org/10.1016/j.biopsycho.2015.01.007.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Instructions about physical principles in learning a complex motor skill: To tell or not to tell</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wulf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Weigelt</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02701367.1997.10608018</idno>
+		<ptr target="https://doi.org/10.1080/02701367.1997.10608018" />
+	</analytic>
+	<monogr>
+		<title level="j">Research Quarterly for Exercise &amp; Sport</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="362" to="367" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wulf, G., &amp; Weigelt, C. (1997). Instructions about physical principles in learning a complex motor skill: To tell or not to tell. Research Quarterly for Exercise &amp; Sport, 68(4), 362-367. https://doi.org/10.1080/02701367.1997.10608018.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Implicit motor learning promotes neural efficiency during laparoscopy</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">F</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Poolton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Maxwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Masters</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Surgical Endoscopy</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2950" to="2955" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhu, F. F., Poolton, J. M., Wilson, M. R., Hu, Y., Maxwell, J. P., &amp; Masters, R. S. W. (2011a). Implicit motor learning promotes neural efficiency during laparoscopy. Surgical Endoscopy, 25(9), 2950-2955.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Neural co-activation as a yardstick of implicit motor learning and the propensity for conscious control of movement</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">F</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Poolton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Maxwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S W</forename><surname>Masters</surname></persName>
+		</author>
+		<ptr target="http://www.ncbi.nlm.nih.gov/pubmed/21315795" />
+	</analytic>
+	<monogr>
+		<title level="j">Biological Psychology</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="66" to="73" />
+			<date type="published" when="2011">2011b</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhu, F. F., Poolton, J. M., Wilson, M. R., Maxwell, J. P., &amp; Masters, R. S. W. (2011b). Neural co-activation as a yardstick of implicit motor learning and the propensity for conscious control of movement. Biological Psychology, 87, 66-73. Retrieved from http://www.ncbi.nlm.nih.gov/pubmed/21315795.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Précis of simple heuristics that make us smart</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gigerenzer</surname></persName>
+		</author>
+		<ptr target="http://www.ncbi.nlm.nih.gov/pubmed/11301545" />
+	</analytic>
+	<monogr>
+		<title level="j">The Behavioral and Brain Sciences</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="727" to="741" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note>discussion 742-80</note>
+	<note type="raw_reference">Todd, P. M., &amp; Gigerenzer, G. (2000). Précis of simple heuristics that make us smart. The Behavioral and Brain Sciences, 23(5), 727-741. discussion 742-80. Retrieved from http://www.ncbi.nlm.nih.gov/pubmed/11301545.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

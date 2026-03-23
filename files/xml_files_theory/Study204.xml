@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Influence of Recovery Time After Warm-up on Vertical Jump Performance in</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Antoine</forename><surname>Ferrari</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Univ. Lille</orgName>
+								<orgName type="institution" key="instit2">Univ. Artois</orgName>
+								<orgName type="institution" key="instit3">Univ. Littoral C ôte d&apos;Opale</orgName>
+								<address>
+									<postCode>7369</postCode>
+									<country>ULR</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Georges</forename><surname>Baquet</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Univ. Lille</orgName>
+								<orgName type="institution" key="instit2">Univ. Artois</orgName>
+								<orgName type="institution" key="instit3">Univ. Littoral C ôte d&apos;Opale</orgName>
+								<address>
+									<postCode>7369</postCode>
+									<country>ULR</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anthony</forename><forename type="middle">J</forename><surname>Blazevich</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Medical and Health Sciences</orgName>
+								<orgName type="laboratory">Centre for Human Performance</orgName>
+								<orgName type="institution">URePSSS-Unit é de Recherche Pluridisciplinaire Sport Sant é Soci ét é</orgName>
+								<address>
+									<postCode>AU2</postCode>
+									<settlement>Lille</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">S</forename><surname>Ébastien Ratel</surname></persName>
+							<email>sebastien.ratel@uca.fr.</email>
+							<affiliation key="aff3">
+								<orgName type="institution">Clermont-Auvergne University</orgName>
+								<address>
+									<addrLine>AME2P</addrLine>
+									<settlement>Clermont-Ferrand</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Edith Cowan University</orgName>
+								<address>
+									<settlement>Joondalup</settlement>
+									<country>Australia;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Influence of Recovery Time After Warm-up on Vertical Jump Performance in</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D670537903A0645B44DBC477B130558F</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>maturation, recovery delay</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Please confirm the given names (pink) and surnames (blue) of authors have been identified correctly. Please check and confirm whether all authors and their respective affiliations are appropriate.</p><p>Please make sure all figures contain error bars where necessary. Attach any updated figures with your returned proofs. AU1) Please check the edits to the article title. AU2) Please provide the American English translation for affiliation 1, per journal style. AU3) Please note that the key words "warm-up, vertical jump" has been removed from the section because it occurs in the article title and is therefore not allowed in the key word section as per style. Please provide suitable replacements for this word in the key word section, maintaining 3-6 key words in the section as per style. AU4) Please note that as per style, "Materials and Methods" have been changed as "Methods." Please check and confirm. AU5) Please note that as per style, "Experimental Procedure (Design)" have been changed as "Procedures." Please check and confirm. AU6) Please provide city details for the manufacturer "TANITA." AU7) Please note that references "13" and "14" seem to be identical. Hence, reference "14" has been deleted and renumbered accordingly both in the text and in the list. Please check and confirm.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The practice of warm-up before physical exertion has been widespread both for the improvement of athletic performance and prevention of potential sports injuries. In the adult population, the benefits of warm-up on short-term high-intensity exercise performance have been commonly attributed to several physiological mechanisms underpinning postactivation potentiation (PAP) of muscle contractile properties (e.g., myosin regulatory light chain phosphorylation) and postactivation performance enhancement (PAPE) effects driven by increased muscle temperature, muscle and muscle fiber water content, and muscle activation and coordination <ref type="bibr" target="#b11">(12)</ref>.</p><p>However, in the pediatric population, few studies have examined the effects of warm-up on sports performance <ref type="bibr" target="#b1">(2,</ref><ref type="bibr" target="#b13">(14)</ref><ref type="bibr" target="#b14">(15)</ref><ref type="bibr" target="#b15">(16)</ref><ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b29">30)</ref>, and although most acute dynamic warm-up protocols showed beneficial effects on short-term high-intensity exercise performance during childhood and adolescence, many of them were not sufficiently well designed to precisely evaluate the acute effects of dynamic warm-up protocols on performance in athletic youngsters. For instance, some studies compared different warm-up protocols using static stretching, dynamic stretching, or dynamic exercises without having determined baseline prewarm-up performance, thus biasing evaluation of acute effects of each warm-up protocol and their comparison on performance in children and adolescents <ref type="bibr" target="#b13">(14,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b27">28)</ref>. Furthermore, some studies pooled prepubertal boys and girls to compare different warm-up protocols on sports performance <ref type="bibr" target="#b13">(14)</ref>, whereas the PAP effect (increase in twitch force) on the plantar flexor muscles was found to be greater in prepubertal boys than in prepubertal girls <ref type="bibr" target="#b25">(26)</ref>. In addition, most studies evaluated the acute effect of warmup at only one time point after the completion of warm-up (i.e., between 1 and 2 minutes in children and teenage athletes <ref type="bibr" target="#b13">(14,</ref><ref type="bibr" target="#b14">15)</ref> or between 8 and 10 minutes in teenage athletes) <ref type="bibr" target="#b29">(30)</ref>, whereas recovery time on dynamic warm-up effects was found to be optimal around the sixth minute postwarm-up in teenage athletes <ref type="bibr" target="#b15">(16)</ref>. Thus, in the light of these methodological considerations, it is possible to believe that the acute effects of warm-up on short-term high-intensity exercise performance have been overestimated or underestimated during childhood and adolescence depending on undetermined baseline pre-warm-up performance, sex, or recovery delay following dynamic warm-up protocols.</p><p>Nonetheless, other factors such as children's maturity status could also account for the evaluation of dynamic warm-up effects because the warm-up effect on squat jump (SJ) performance and peak rate of force development was found to be age and maturity dependent <ref type="bibr" target="#b1">(2)</ref>. Indeed, Arabatzi et al. <ref type="bibr" target="#b1">(2)</ref> showed that SJ height improved in response to 3 maximal isometric half-squats performed 15 minutes after an 8-minute general warm-up in men but not in prepubertal boys or pubertal male adolescents, whereas its effect on the peak rate of force development during the jump was significant in men and pubertal male adolescents but not in prepubertal boys. In addition, recovery delay after warm-up has never been analyzed with respect to maturity status of children, whereas dynamic warm-up-derived fatigue could be greater in postpubertal than in prepubertal children <ref type="bibr" target="#b26">(27)</ref>, and a greater fatigue could overcome the physiological mechanisms underlying the PAP effect (29). However, direct scientific evidence for the concurrent effects of time recovery and maturity status on shortterm high-intensity exercise performance has not been specifically sought. More importantly, the relative effects of longer, comprehensive, warm-up programs that might be more commonly used in sports practice between prepubertal and postpubertal children are unknown. The examination of these potential effects in young athletes is important because warm-up programs, including low-intensity, nonspecific exercises progressing to maximal, specific exercises, are often used in sport settings for increasing jumping, sprinting, and strength abilities and for optimizing athletic performance.</p><p>The purpose of this study was to examine the concurrent effects of maturity status and recovery time after a standardized dynamic warm-up usually done in a sporting setting on short-term highintensity exercise performance. It was hypothesized that a standardized dynamic warm-up period, including low-intensity, nonspecific exercises progressing to maximal specific exercises, would have greater beneficial effects on short-term high-intensity exercise performance (i.e., vertical jump performance) in postpubertal than in prepubertal male youngsters. These benefits in postpubertal athletes could be greater during the SJ than during drop jump (DJ) because changes in muscle power during the SJ should theoretically result from increases in muscle temperature (8) whereas the DJ performance, which requires a stretchshortening cycle (SSC) and coordination ability, could be too complex to be influenced by a simple standardized dynamic warm-up.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Approach to the Problem</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AU4</head><p>In this study, we wanted to examine the effects of recovery time from a standardized dynamic warm-up on selected vertical jump tests SJ and drop jump from 30 cm (DJ 30 ) in relation to the maturity status of children. Following baseline testing on SJ and DJ 30 , 2 trained groups of prepubertal and postpubertal children participated in an 8-minute warm-up protocol consisting of dynamic exercises (</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>T1 T1</head><p>Table <ref type="table" target="#tab_0">1</ref>). Subsequently, SJ and DJ 30 performances were assessed at 0, 1.5, 3, 5, 7 or 10 minutes after warmup. In total, each subject completed 6 experimental sessions preceded by 2 introductory sessions on nonconsecutive days, which were separated by at least 48 hours. The 6 experimental sessions were done in a randomized order; testing across days prevented between-test performance enhancement or interference.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Subjects</head><p>Thirteen boys (9.4 6 1.1 years) and 12 male adolescents (16.6 6 0.8 years) volunteered to participate in this study. The physical characteristics of subjects are described in the Table <ref type="table" target="#tab_0">1</ref>.</p><p>The sample size estimation was determined for a 2-sided type I error at 5% and a statistical power greater than 80%, on the basis of previously published data in the male population (2). To be included, boys had to train for $3 hours per week in addition to physical education lessons at school (2 hours per week) but not in a specific sport or physical conditioning setting. They also had to be free of any medical contraindication to sporting activity. They were prepubertal based on the assessment of their somatic maturity (see below). Boys were recruited from primary schools or local sports clubs. The male adolescents were postpubertal. They practiced rugby 3 times per week, resistance training 2 times a week for at least one year, and 2 hours of physical education at school. This study was approved by a local institutional ethics review board (Ethics committee for research, Lille University, n°2021-507-S94). The study was conducted in conformity with the policy statement regarding the use of human subjects by the Declaration of Helsinki. All experimental procedures were clearly explained to the subjects, who then gave written assent before the commencement of testing. Written consent with signatures was also obtained from parents or guardians before boys were accepted in the study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedures</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AU5</head><p>Before data collection, all volunteers participated in 2 introductory sessions during which they followed all warm-up procedures and practiced vertical jumps (SJ and DJ 30 ). The introductory period was designed to reduce the influence of learning effects on SJ and DJ 30 performances and to ensure proper execution of the warm-up exercises. Following baseline testing on the vertical jumps, volunteers then participated in an 8-minute warm-up protocol that consisted of dynamic exercises (see below for further details). Subsequently, SJ and DJ 30 performances were assessed at 0, 1.5, 3, 5, 7 or 10 minutes after warm-up on nonconsecutive days separated by at least 48 hours (i.e., over 6 separate experimental sessions). Squat jump performance was systematically assessed before DJ 30 performance to account for any small potentiating effect of the first jump on the second at each post-warm-up time point. All the tests were performed indoor at the same time of day with a temperature between 22°C and 27°C. During each session, subjects warmed up in groups of 4-5 under close supervision by the same research assistant who demonstrated the proper technique for SJ and DJ 30 movements. Volunteers continued to perform the same type of training as usual throughout the protocol but refrained from participating in any vigorous physical activity for 24 hours before any testing session. Each subject completed all study procedures within 21 days. Testing at each time interval was complete within 30 seconds. During the recovery period, the subjects had to remain seated to standardize the experimental conditions over the 6 separate sessions. The same research assistant tested the subjects on SJ and DJ 30 throughout the study period. Squat jump and DJ 30 tests were chosen because the former is largely considered to be a measure of concentric muscle performance, whereas the latter Vertical Jump Performance in Young Athletes (2023) 00:00</p><p>involves both eccentric and concentric phases and requires a complex movement strategy. In addition, DJ is typically examined in research studies because it is frequently used in lower-body plyometric training programs <ref type="bibr" target="#b9">(10)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Anthropometric Characteristics and Maturity Status Assessment.</head><p>Body mass (BM) was measured using a digital weight scale (TANITA</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AU6</head><p>, BC-545N, Japan), and standing height was assessed using a portable stadiometer with the subjects barefoot (TANITA, HR001). Sitting height was measured with the stadiometer whereas the subjects sat on the floor with their back against a wall. Maturity offset (MO in years) was determined to assess somatic maturity (i.e., years to [from] age at peak height velocity [APHV]) using chronological age, BM, standing height, and sitting height. Its calculation was done based on sex-specific regression equations according to the method proposed by Mirwald et al. <ref type="bibr" target="#b22">(23)</ref>. Subjects were considered as prepubertal or postpubertal based on their MO (pre-pubertal: , 21 year from PHV and postpubertal: . 11 year from PHV). Maturity offset was found to be estimated within an error of 61 year, which is sufficient for adolescence to be assigned a maturational classification <ref type="bibr" target="#b22">(23)</ref>.</p><p>Warm-up Program. The 8-minute, standardized, dynamic warmup was consistent with that of Petrakis et al. <ref type="bibr" target="#b27">(28)</ref> and consisted of 3-minute running, 4-minute dynamic movements, and 1-minute vertical jumps (4 in total, described below) at maximum intensity. The running intensity was determined from the Children's Effort Rating Table (CERT), which is validated to prescribe the intensity of various forms of physical activity in children <ref type="bibr" target="#b36">(37)</ref>. The subjects were asked to run at a level-2 intensity ("very easy") for 2 minutes, then at a level-4 intensity for 1 minute ("just feeling a strain"). During the following 4 minutes, the children performed dynamic movements over a 10-m distance; they had to walk back to the starting point after each exercise (see</p><formula xml:id="formula_0">T2 T2</formula><p>Table <ref type="table" target="#tab_1">2</ref> for further details). During this phase, the speed of movement and plyometric intensity of the exercises were progressively increased. Dynamic exercises were preferred to static stretching exercises to eliminate any potential adverse effect on vertical jump performance <ref type="bibr" target="#b15">(16)</ref>. Finally, the children performed 2 SJ and then 2 DJ 30 at maximum intensity over 1 minute (i.e., 15 seconds between attempts).</p><p>Testing. The jumping tests were evaluated using an optical measurement system (OptoJump; Microgate, Bolzano, Italy). This system has previously been validated for the collection and analysis of jump performance (4).</p><p>Squat Jump From a standing position, the subjects flexed their knees to lower their center of mass (i.e., to a squatting position) to a comfortable position with knee angle between 80°and 100°( self-selected). The hands were placed on the hips with the elbows bowed outward. This position was held for 3 seconds before a maximal vertical jump was performed without countermovement. Jumps were repeated if the researcher could clearly visually detect a countermovement before the upward (jump) phase. To ensure that the push-off distance was the same at each SJ for each subject, the starting position was measured during the introductory sessions and monitored over the 6 experimental sessions. To measure the starting position, we checked the knee angle with a manual goniometer before each attempt.</p><p>Drop Jump from 30 cm A 30-cm box was placed in front of the OptoJump system. From a standing position close to the front edge of the box, the children extended one foot out in front of themselves to allow their body to move forward over the edge of the box before letting their body fall vertically without pushing upward or outward, jumping, or flexing their support leg from the box. When done properly, the subjects landed close to the box (heel ,25 cm from the front of the box). Upon landing with both feet, they immediately jumped as high as possible. In their native French language, the instruction to the children was to "push as strong as possible and reduce the ground contact time." They were asked to keep their legs straight and feet plantar flexed upon landing. The height of 30 cm was selected because it has been found to be in the optimal range to optimize DJ performance in children and adolescents <ref type="bibr" target="#b9">(10)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measurements and Calculations.</head><p>Squat Jump Performance In accordance with the fundamental laws of dynamics, the SJ height (H SJ in cm) was determined from aerial time (t SJ in s) using the following equation:</p><formula xml:id="formula_1">H SJ ¼ 1 8 g×t SJ 2 ;<label>(1)</label></formula><p>where t SJ was measured with the OptoJump system and g corresponds to the acceleration because of gravity (g 5 9.81 m•s 22 ).</p><p>Drop Jump from 30-cm Performance In addition to DJ 30 height, ground contact time (GCT) was also retained from the drop jumps and the reactive strength index (RSI), considered as a measurement of "explosive strength" <ref type="bibr" target="#b32">(33)</ref>, was calculated by dividing DJ 30 height by GCT during the drop jumps.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical Analyses</head><p>Experimental data are expressed as mean 6 SD. Coefficient of variations (CV), intraclass correlations (ICC), 95% confidence intervals (CIs), and typical errors (TE) <ref type="bibr" target="#b17">(18)</ref> were calculated for SJ (height) and DJ (height, GCT, RSI). Normality of the data was checked with the Shapiro-Wilk test. The effects of recovery time, maturity status, and their interaction on the dependent variables (SJ and DJ 30 heights, GCT, RSI) were analyzed using a 2-way analysis of variance with repeated measures. If the F value was Knee to chest walks. With each step, raise the knee up to the chest by pulling it with both arms 3.</p><p>High knees. Move forward with knee lift, arm swing, and frequency 4.</p><p>Heel flicks. Move forward with heel back, arm swing, and frequency 5.</p><p>Straight leg running. Move forward with straight leg, arm swing, and frequency 6.</p><p>Side shuffle (left and right). Move laterally quickly without crossing feet 7.</p><p>Carioca drills (left and right). Move laterally quickly, with alternating crossing the back leg in front and behind the other leg 8.</p><p>Bounding. Move forward with largest steps as possible and with minimum ground contact time 9.</p><p>Front leg swing. Swing one leg forward and backward with maximum amplitude (10 repetitions per side) 10.</p><p>Lateral leg swing. Swing one leg side to side with maximum amplitude (10 repetitions per side)</p><p>significant, Bonferroni's post hoc tests were applied. The effect size and statistical power have also been reported when significant main or interaction effects were detected. The effect size was assessed using the partial eta-squared (h 2 ) and ranked as follows: approximately 0.01 5 small effect, approximately 0.06 5 moderate effect, and $0.14 5 large effect <ref type="bibr" target="#b12">(13)</ref>. In all analyses, the level of significance was set at p , 0.05. Data were analyzed with Prism 9.3 (Graphpad Software Inc., La Jolla, CA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reliability Outcomes</head><p>Intertrial test-retest reliability for pre-warm-up outcomes over the 6 experimental sessions are displayed in</p><formula xml:id="formula_2">T3 T3</formula><p>Table <ref type="table" target="#tab_5">3</ref>. Intraclass correlation coefficient, TE, and CV are criteria for reliability. Reliability is generally considered high when ICC is above 0.90 <ref type="bibr" target="#b34">(35)</ref> and good when ICC is above 0.75 <ref type="bibr" target="#b12">(13)</ref>. In prepubertal boys, reliability was high for RSI (ICC 5 0.91), good for SJ height (ICC 5 0.79), and DJ 30 height (ICC 5 0.78). In postpubertal boys, reliability was high for SJ height (ICC 5 0.92), good for DJ 30 height (ICC 5 0.75), and moderate for RSI (ICC 5 0.72). For GCT, reliability was moderate in prepubertal boys (ICC 5 0.60) and low in postpubertal boys (ICC 5 0.24). Typical error was low for all tests, which indicates a good reliability as a smaller TE indicates a higher reliability <ref type="bibr" target="#b2">(3)</ref>. Coefficient of variations are generally considered acceptable when ,10% (3). Coefficient of variations were acceptable for all outcomes except DJ 30 height and GCT in prepubertal boys.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effects of Maturity and Recovery Time</head><p>The recovery time 3 maturity group interaction effects are displayed in T4 T4</p><p>Table 4. Analysis of variance revealed no significant recovery time 3 maturity group interaction effects for SJ height (p 5 0.36), DJ 30 height (p 5 0.45), GCT (p 5 0.75), and RSI (p 5 0.09). Data for SJ height, DJ 30 height, and GCT before warm-up and across the different post-warm-up time points are displayed in T5 T5</p><p>Table 5. Vertical jump outcomes were significantly higher in postpubertal compared with prepubertal boys (p , 0.001) except for GCT. Bonferroni's multicomparisons test outcomes for recovery time effect are presented in T6 T6  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>This study examined the influence of recovery time after warm-up on vertical jump performance in prepubertal and postpubertal boys. No significant recovery time 3 maturity group interaction effects were detected on any parameter measured during vertical jumps, suggesting that the maturity status of boys did not influence changes in vertical jump performance after completion of the warm-up. However, the results of this study showed significant main effects for recovery time, with an increase of SJ height being detected until 3 minutes after warm-up (112.0%) and increases in DJ 30 height and RSI until 1.5 minutes after warm-up (116.9%).</p><p>It is well acknowledged that force production capacity is greater in postpubertal than in prepubertal children <ref type="bibr" target="#b33">(34)</ref>. This Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article prohibited.</p><p>difference is related to an increase in the muscle fiber size (hypertrophy) caused by a hormonal change (accumulation of androgen hormones and growth hormone) and a change in muscle typology, with an increased percentage of fast twitch fibers from childhood into late adolescence <ref type="bibr" target="#b19">(20)</ref>. In trained young athletes, strength can be also further enhanced by resistance training <ref type="bibr" target="#b5">(6)</ref>.</p><p>The cumulative effect of maturation and training can also translate into an increase in tendon stiffness that facilitates the SSC efficiency <ref type="bibr" target="#b18">(19,</ref><ref type="bibr" target="#b35">36)</ref>, allowing for better utilization of elastic energy during plyometric type exercises (such as the DJ 30 ). Despite this, the greater force production capacity in postpubertal boys because of growth and maturation as well as the length of exercise training exposure, no maturity-related differences were observed in the time over which vertical jump performance improvements were elicited after the standardized dynamic warm-up. These results are not consistent with a priori expectation because we hypothesized that postpubertal boys would benefit more from the warm-up than prepubertal boys because of their higher percentage of fast twitch fibers <ref type="bibr" target="#b19">(20)</ref>. Indeed, if postpubertal boys recruit more extensively a greater proportion of fast twitch fibers during maximal exercise, they could generate more metabolic byproducts (especially lactate) to drive water into the muscle fibers and hence benefit more favorably from the postactivation performance enhancement (PAPE) effects during high-speed movement, such as a vertical jump. However, the results of this study did not show significant recovery time 3 maturity group interaction effects on any parameter measured during vertical jumps, suggesting that the PAPE effect after a dynamic warm-up is not dependent on the maturity status of boys and that the muscle typology might not be necessarily different between prepubertal and postpubertal boys, as previously shown <ref type="bibr" target="#b6">(7)</ref>. Therefore, the possibility exists that other factors such as intermuscular coordination (e.g., agonist-antagonist coactivation), intramuscular coordination (i.e., recruitment and synchronization of motor units, motor unit firing frequency), and training experience are more important for performance than muscle contractile capacity in complex activities such as vertical jumping. This possibility might be explicitly tested in future studies.</p><p>Although no significant recovery time 3 maturity group interaction effects were observed, the subjects improved their performance in the first minutes after the warm-up, regardless of their maturity status. Specifically, after completion of the warmup, subjects reached their peak SJ height at 3 minutes and DJ 30 height and RSI at 1.5 minutes; RSI was increased directly by an increase in DJ 30 height because GCT remained unchanged over time. This suggests that the standardized dynamic warm-up had beneficial effects both on muscle concentric performance and explosive stretch-shorten cycle capacity during vertical jumps but with a delayed optimum effect for the latter. The results of this study are difficult to compare with the existing literature because we are the first to compare changes in vertical jump performance after a standardized dynamic warm-up between children of  different maturity levels depending on post-warm-up recovery time. However, the results are partly consistent with those of Faigenbaum et al. ( <ref type="formula">16</ref>), who showed an increased CMJ height following dynamic exercises as compared with static stretch exercises up to 6 minutes after the completion of the intervention in 16.5-year-old male adolescents. The 12.0% improvement in SJ height up to 3 minutes after warm-up could be explained by the increase in muscle temperature <ref type="bibr" target="#b7">(8)</ref>, which seems to be a main cause for the increase in short duration performance <ref type="bibr" target="#b10">(11)</ref> because it allows for an increase in muscle power <ref type="bibr" target="#b8">(9,</ref><ref type="bibr" target="#b30">31)</ref>. The improvement in SJ performance in the first 3 minutes might also be ascribed to an increase in muscle or cellular water content, which affects the contractile response (i.e., actin-myosin cross-bridge cycle) and may have a similar time course to increases in muscle temperature <ref type="bibr" target="#b11">(12)</ref>. Alternatively, the improvement in SJ height could be explained by alterations in muscle activation, including a greater spinal excitability (i.e., an increase in the net output of motor neurons) <ref type="bibr" target="#b24">(25)</ref> or intermuscular coordination (i.e., technique).</p><p>Contrary to our hypothesis, the improvement in SJ height was not significantly greater than DJ 30 height (12.0 vs. 16.9%, p . 0.05). This finding is not consistent with a priori expectation because we hypothesized that the improvement in SJ height would be greater than DJ 30 height because of the complexity of performing a DJ, which requires the use of a stretch-shortening cycle and speculatively a more movement pattern-specific warm-up <ref type="bibr" target="#b0">(1)</ref>. According to our data, DJ 30 performance may have been enhanced through the same mechanisms as SJ, but other processes that allowed for an increase in SSC are also possible. It is conceivable that repeating DJ 30 before the warm-up (pretest) and at the end of the warm-up had an impact on movement technique that helped to condition the motor pattern <ref type="bibr" target="#b27">(28)</ref>. Also, it is noteworthy that the 4 jumps (2 3 SJ and 2 3 DJ 30 ) performed at the end of the warm-up did not appear to generate muscle fatigue because no loss of performance was observed immediately after warm-up (i.e., at the 0 minutes time point). The 4 jumps were also specific to performance because they were similar to the tests done after the warm-up. This specificity could have limited motor pattern interference (i.e., motor pattern perseveration that negatively impacts a new motor task when preceded by another motor task), which could have limited the improvement in jump performance <ref type="bibr" target="#b11">(12)</ref>, notably for the DJ <ref type="bibr" target="#b29">30</ref> .</p><p>In each session, subjects jumped on a single delay after warmup (0, 1.5, 3, 5, 7, or 10 minutes) in a randomized order, and intertrial test-retest reliabilities for pre-warm-up outcomes were calculated over the 6 experimental sessions. To ensure an acceptable level of reproducibility, the 6 experimental sessions on different days were completed under the same conditions (same test location, partners, time of day, indoor temperature, and pretest physical activity level). However, the 2 familiarization sessions that were provided to reduce learning effects on SJ and DJ 30 performances appear to have been insufficient because reproducibility was slightly lower in prepubertal than in postpubertal boys. The moderate reproducibility reported in prepubertal boys could be explained by the immaturity of central  Vertical Jump Performance in Young Athletes (2023) 00:00</p><p>nervous system before puberty, reducing motor pattern consistently, notably during complex high-speed polyarticular movements, such as vertical jump <ref type="bibr" target="#b18">(19)</ref>. However, it can be assumed that the jumps performed during the 2 introductory sessions helped to increase the level of reproducibility over the 6 experimental sessions, whatever the maturity group.</p><p>One possible limitation of this study is that training background differed between prepubertal and postpubertal boys at the time of study, and postpubertal children were engaged in a specific sport (i.e., rugby) and strength conditioning sessions contrary to prepubertal boys. However, this reflects real-world training conditions because most prepubertal boys at the age of 9-10 years usually complete fewer hours of deliberate sporting activity per week than their older counterparts, and they do not specialize in a specific sport before the age of 13-14 years <ref type="bibr" target="#b20">(21)</ref>. Nonetheless, individuals in both cohorts performed various activities as part of their school physical education as well as in daily unstructured play. In addition, the athletes' strength training backgrounds and strength levels should not represent important variables in PAPE because (a) some previous studies showed no differences in PAPE after a conditioning activity between power track and field athletes (training for power), bodybuilders (training for hypertrophy), and physically active (no strength training experience) adult subjects ( <ref type="formula">5</ref>), (b) metaanalysis revealed no clear effects (nonoverlap in 95% confidence intervals) between cohorts with different training backgrounds or strength levels <ref type="bibr" target="#b31">(32)</ref>, and (c) significant correlations were not observed between strength and jumping performance before and after a conditioning activity in strength-trained adult individuals <ref type="bibr" target="#b21">(22)</ref>. Another possible limitation is that muscle temperature was not measured in this study, yet it is considered as one of the main factors accounting for power output <ref type="bibr" target="#b7">(8)</ref>, notably in fast-twitch fibers at high muscle contraction velocities <ref type="bibr" target="#b16">(17)</ref>.</p><p>To conclude, the results of this study show that an 8-minute, standardized, dynamic warm-up, including low-intensity, nonspecific exercises progressing to maximal specific exercises, as commonly used in sport settings, was beneficial for improving vertical jump performance in children and adolescents. However, the magnitude of performance benefit was not dependent on children's maturity status.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Practical Applications</head><p>The standardized dynamic warm-up used in this study had a positive impact on muscle concentric power and stretchshortening cycle function in young male athletes. Our results suggest that there could be a "window of opportunity" to improve vertical jump performance immediately after the warm-up (performance peaking at 3 minutes for the SJ and at 1.5 minutes for the DJ 30 ), but this window does not appear to be dependent on the maturity status of children. This performance improvement can be applied in short duration disciplines, such as some jumping disciplines in athletics with significant recovery times between the actions. From a practical perspective, it will be important to adapt the warm-up to the constraints of the competition. However, practitioners should keep in mind that many factors, including the highly individualized nature of the PAP/PAPE response, ambient temperature, fatigue, recovery position, and mode (sitting, standing, walking), and warm-up protocol may influence the optimal recovery period vertical jump performance improvement after the warm-up.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Time course of drop jump height from 30 cm, reactive strength index, and squat jump height across the different post-warm-up time points (0, 1.5, 3, 5, 7 and 10 minutes) in the 2 maturity groups (prepubertal and postpubertal children). PRE 5 before the warm-up.</figDesc><graphic coords="7,79.94,385.46,190.03,301.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Subjects' physical characteristics (mean 6 SD).</figDesc><table><row><cell>Prepubertal boys</cell><cell>Postpubertal boys</cell></row></table><note><p>Age (y) 9.<ref type="bibr" target="#b3">4</ref> </p><p>6 1.1 16.6 6 0.8* Body mass (kg) 33.7 6 4.7 88.2 6 15.9* Height (cm) 140.5 6 6.7 181 6 6.4* Sitting height (cm) 71.7 6 3.1 154.8 6 3.9* Leg length (cm) 68.8 6 4.8 86.5 6 3.5* Maturity offset (y) 23.6 6 0.7 3.0 6 0.8* *Significantly different between prepubertal and postpubertal boys from p , 0.001.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Dynamic warm-up exercises.</figDesc><table><row><cell>1.</cell><cell>Walking lunge. Large front lunge with alternate right and left legs</cell></row><row><cell></cell><cell>(back knee does not touch the ground)</cell></row><row><cell>2.</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 6 .</head><label>6</label><figDesc>After warm-up, DJ 30 height and RSI increased significantly until 1.5 minutes, whereas SJ height increased significantly until 3 minutes. The time courses of SJ height, DJ 30 height, and RSI across the different post-warm-up time points are displayed in</figDesc><table><row><cell>F1 F1</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 3</head><label>3</label><figDesc>Intertrial test-retest reliability for pre-warm-up outcomes over the 6 experimental sessions.* †</figDesc><table><row><cell>CV (%) (95% CI)</cell><cell>7.5 (6.2-11.1)</cell><cell>10.8 (8.9-13.8)</cell><cell>11.0 (9.1-14.2)</cell><cell>7.8 (7.5-11.6)</cell><cell></cell><cell>4.9 (3.9-7.0)</cell><cell>6.7 (5.3-9.5)</cell><cell>7.3 (5.8-10.4)</cell><cell>9.1 (7.2-13.0)</cell><cell></cell><cell></cell></row><row><cell>Session 2 Session 3 Session 4 Session 5 Session 6 TE (95% CI) ICC (95% CI)</cell><cell>0.169 6 0.038 0.165 6 0.025 0.164 6 0.031 0.168 6 0.028 0.164 6 0.024 0.012 (0.009-0.015) 0.86 (0.73-0.95)</cell><cell>0.172 6 0.042 0.175 6 0.033 0.170 6 0.029 0.172 6 0.03 0.170 6 0.036 0.017 (0.014-0.022) 0.78 (0.59-0.91)</cell><cell>0.242 6 0.028 0.229 6 0.028 0.230 6 0.039 0.228 6 0.04 0.236 6 0.034 0.025 (0.021-0.031) 0.60 (0.36-0.82)</cell><cell>0.721 6 0.195 0.788 6 0.226 0.727 6 0.254 0.784 6 0.225 0.740 6 0.219 0.070 (0.059-0.089) 0.91 (0.82-0.97)</cell><cell></cell><cell>0.324 6 0.049 0.323 6 0.057 0.323 6 0.046 0.325 6 0.042 0.330 6 0.052 0.016 (0.013-0.020) 0.92 (0.82-0.97)</cell><cell>0.364 6 0.047 0.370 6 0.055 0.369 6 0.046 0.365 6 0.061 0.365 6 0.062 0.028 (0.023-0.036) 0.75 (0.54-0.91)</cell><cell>0.240 6 0.021 0.238 6 0.017 0.242 6 0.019 0.241 6 0.017 0.240 6 0.024 0.017 (0.014-0.022) 0.24 (0.02-0.58)</cell><cell>1.524 6 0.233 1.560 6 0.213 1.534 6 0.203 1.514 6 0.213 1.529 6 0.280 0.122 (0.102-0.157) 0.74 (0.53-0.90)</cell><cell>5 ground contact time; RSI 5 reactive strength index; TE 5 typical error; ICC 5 intraclass coefficient correlation; CV 5 coefficient of variation; CI 5 confidence interval.</cell><cell></cell></row><row><cell>Session 1</cell><cell>0.164 6 0.024</cell><cell>0.170 6 0.036</cell><cell>0.236 6 0.034</cell><cell>0.740 6 0.219</cell><cell></cell><cell>0.330 6 0.048</cell><cell>0.381 6 0.046</cell><cell>0.243 6 0.018</cell><cell>1.574 6 0.219</cell><cell>30 5 drop jump from 30 cm; GCT</cell><cell></cell></row><row><cell>Prepubertal boys</cell><cell>SJ height (m)</cell><cell>DJ 30 height (m)</cell><cell>GCT (s)</cell><cell>RSI</cell><cell>Postpubertal boys</cell><cell>SJ height (m)</cell><cell>DJ 30 height (m)</cell><cell>GCT (s)</cell><cell>RSI</cell><cell>*SJ 5 squat jump; DJ</cell><cell>†Mean 6 SD.</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 4</head><label>4</label><figDesc>Two-way ANOVA results for the different vertical jump outcomes.* ANOVA 5 analysis of variance; SJ 5 squat jump; DJ 30 5 drop jump from 30 cm; GCT 5 ground contact time; RSI 5 reactive strength index; SS 5 sum of squares; DF 5 degree of freedom; MS 5 mean squares; F 5 F ratio; h 2 5 partial eta-squared.</figDesc><table><row><cell></cell><cell>SS</cell><cell>DF</cell><cell>MS</cell><cell>F (DFn, DFd)</cell><cell>p</cell><cell>h 2</cell><cell>Statistical power</cell></row><row><cell>DJ 30 height</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Time 3 maturity</cell><cell>0.004040</cell><cell>6</cell><cell>0.0006733</cell><cell>F (6, 138) 5 0.97</cell><cell>0.4469</cell><cell>0.04</cell><cell>0.37</cell></row><row><cell>Time</cell><cell>0.03643</cell><cell>6</cell><cell>0.006071</cell><cell>F (6, 138) 5 8.76</cell><cell>,0.0001</cell><cell>0.28</cell><cell>0.99</cell></row><row><cell>Maturity</cell><cell>1.878</cell><cell>1</cell><cell>1.878</cell><cell>F (1, 23) 5 191.0</cell><cell>,0.0001</cell><cell>0.89</cell><cell>1.00</cell></row><row><cell>GCT</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Time 3 maturity</cell><cell>0.0033</cell><cell>6</cell><cell>0.00055</cell><cell>F (6, 138) 5 0.89</cell><cell>0.7496</cell><cell>0.02</cell><cell>0.22</cell></row><row><cell>Time</cell><cell>0.0041</cell><cell>6</cell><cell>0.00068</cell><cell>F (6, 138) 5 1.1</cell><cell>0.2073</cell><cell>0.06</cell><cell>0.57</cell></row><row><cell>Maturity</cell><cell>0.0014</cell><cell>1</cell><cell>0.0014</cell><cell>F (1, 23) 5 0.28</cell><cell>0.5296</cell><cell>0.02</cell><cell>0.09</cell></row><row><cell>RSI</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Time 3 maturity</cell><cell>0.17</cell><cell>6</cell><cell>0.029</cell><cell>F (6, 138) 5 1.8</cell><cell>0.089</cell><cell>0.08</cell><cell>0.68</cell></row><row><cell>Time</cell><cell>0.79</cell><cell>6</cell><cell>0.13</cell><cell>F (6, 138) 5 8.0</cell><cell>,0.0001</cell><cell>0.26</cell><cell>0.99</cell></row><row><cell>Maturity</cell><cell>31</cell><cell>1</cell><cell>31</cell><cell>F (1, 23) 5 109</cell><cell>,0.0001</cell><cell>0.81</cell><cell>1.00</cell></row><row><cell>SJ height</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Time 3 maturity</cell><cell>0.001718</cell><cell>6</cell><cell>0.0002864</cell><cell>F (6, 138) 5 1.10</cell><cell>0.3635</cell><cell>0.05</cell><cell>0.42</cell></row><row><cell>Time</cell><cell>0.01585</cell><cell>6</cell><cell>0.002642</cell><cell>F (6, 138) 5 10.18</cell><cell>,0.0001</cell><cell>0.31</cell><cell>0.99</cell></row><row><cell>Maturity</cell><cell>1.154</cell><cell>1</cell><cell>1.154</cell><cell>F (1, 23) 5 118.8</cell><cell>,0.0001</cell><cell>0.84</cell><cell>1.00</cell></row></table><note><p>*</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 5</head><label>5</label><figDesc>Vertical jump outcomes obtained before warm-up and across the different post-warm-up time points (mean 6 SD).*</figDesc><table><row><cell></cell><cell>PRE</cell><cell>0 s</cell><cell>1.5 min</cell><cell>3 min</cell><cell>5 min</cell><cell>7 min</cell><cell>10 min</cell></row><row><cell>Prepubertal boys</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>SJ height (m)</cell><cell>0.166 6 0.026</cell><cell>0.187 6 0.035</cell><cell>0.180 6 0.031</cell><cell>0.189 6 0.033</cell><cell>0.171 6 0.029</cell><cell>0.177 6 0.03</cell><cell>0.172 6 0.034</cell></row><row><cell>DJ 30 height (m)</cell><cell>0.171 6 0.030</cell><cell>0.194 6 0.033</cell><cell>0.205 6 0.042</cell><cell>0.189 6 0.028</cell><cell>0.196 6 0.029</cell><cell>0.175 6 0.037</cell><cell>0.175 6 0.035</cell></row><row><cell>GCT (s)</cell><cell>0.236 6 0.028</cell><cell>0.226 6 0.044</cell><cell>0.245 6 0.052</cell><cell>0.221 6 0.041</cell><cell>0.230 6 0.039</cell><cell>0.227 6 0.054</cell><cell>0.244 6 0.042</cell></row><row><cell>Postpubertal boys</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>SJ height (m)</cell><cell>0.326 6 0.047 †</cell><cell>0.348 6 0.053 †</cell><cell>0.354 6 0.042 †</cell><cell>0.357 6 0.054 †</cell><cell>0.335 6 0.052 †</cell><cell>0.332 6 0.042 †</cell><cell>0.328 6 0.044 †</cell></row><row><cell>DJ 30 height (m)</cell><cell>0.369 6 0.046 †</cell><cell>0.413 6 0.053 †</cell><cell>0.418 6 0.049 †</cell><cell>0.405 6 0.052 †</cell><cell>0.393 6 0.056 †</cell><cell>0.369 6 0.073 †</cell><cell>0.389 6 0.046 †</cell></row><row><cell>GCT (s)</cell><cell>0.241 6 0.01</cell><cell>0.235 6 0.016</cell><cell>0.231 6 0.032</cell><cell>0.236 6 0.024</cell><cell>0.245 6 0.019</cell><cell>0.227 6 0.031</cell><cell>0.244 6 0.021</cell></row></table><note><p>*PRE 5 pre-warm-up performances; SJ 5 squat jump; DJ 30 5 drop jump from 30 cm; GCT 5 ground contact time. †Significantly different between prepubertal and postpubertal boys at p , 0.001.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head>Table 6</head><label>6</label><figDesc>Bonferroni's multi comparisons test for time effect.* PRE 5 pre-warm-up performances; SJ 5 squat jump; DJ 30 5 drop jump from 30 cm; RSI 5 reactive strength index; CI 5 confidence interval. †Significantly different at p , 0.001. ‡Significantly different at p , 0.01.</figDesc><table><row><cell>AU11</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>PRE vs. 0 s</cell><cell>PRE vs. 1.5 min</cell><cell>PRE vs. 3 min</cell><cell>PRE vs. 5 min</cell><cell>PRE vs. 7 min</cell><cell>PRE vs. 10 min</cell></row><row><cell>Mean differences</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>SJ height (m)</cell><cell>20.021 †</cell><cell>20.021 †</cell><cell>20.027 †</cell><cell>20.008</cell><cell>20.008</cell><cell>20.004</cell></row><row><cell></cell><cell>95% CI 5 20.032</cell><cell>95% CI 5 20.027</cell><cell>95% CI 5 20.018</cell><cell>95% CI 5 20.019</cell><cell>95% CI 5 20.019</cell><cell>95% CI 5 20.014</cell></row><row><cell></cell><cell>to 20.011</cell><cell>to 20.014</cell><cell>to 20.003</cell><cell>to 20.002</cell><cell>to 20.002</cell><cell>to 20.006</cell></row><row><cell>DJ 30 height (m)</cell><cell>20.033 †</cell><cell>20.040 †</cell><cell>20.026 ‡</cell><cell>20.023 †</cell><cell>20.002</cell><cell>20.011</cell></row><row><cell></cell><cell>95% CI 5 20.048</cell><cell>95% CI 5 20.059</cell><cell>95% CI 5 20.045</cell><cell>95% CI 5 20.036</cell><cell>95% CI 5 20.025</cell><cell>95% CI 5 20.024</cell></row><row><cell></cell><cell>to 20.018</cell><cell>to 20.021</cell><cell>to 20.007</cell><cell>to 20.011</cell><cell>to 0.021</cell><cell>to 0.001</cell></row><row><cell>RSI</cell><cell>20.177 †</cell><cell>20.182 †</cell><cell>20.165 †</cell><cell>20.1 ‡</cell><cell>20.093</cell><cell>20.036</cell></row><row><cell></cell><cell>95% CI 5 20.241</cell><cell>95% CI 5 20.295</cell><cell>95% CI 5 20.262</cell><cell>95% CI 5 20.168</cell><cell>95% CI 5 20.193</cell><cell>95% CI 5 20.107</cell></row><row><cell></cell><cell>to 20.112</cell><cell>to 20.07</cell><cell>to 20.07</cell><cell>to 20.03</cell><cell>to 0.007</cell><cell>to 0.03</cell></row></table><note><p>*</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Copyright © 2023 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.</p></note>
+		</body>
+		<back>
+
+			
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>The authors thank the children and adolescents for their patience, time, and effort.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Effects of general, specific and combined warm-up on explosive muscular performance</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Andrade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Henriquez-Olguin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Beltran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Sport</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="123" to="128" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Andrade DC, Henriquez-Olguin C, Beltran AR, et al. Effects of general, specific and combined warm-up on explosive muscular performance. Biol Sport 32: 123-128, 2014.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The post-activation potentiation effect on squat jump performance: Age and sex effect</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Arabatzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Patikas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zafeiridis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pediatr Exerc Sci</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="187" to="194" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arabatzi F, Patikas D, Zafeiridis A, et al. The post-activation potentiation effect on squat jump performance: Age and sex effect. Pediatr Exerc Sci 26: 187-194, 2014.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Statistical methods for assessing measurement error (reliability) in variables relevant to sports medicine</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Atkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Nevill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="217" to="238" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Atkinson G, Nevill AM. Statistical methods for assessing measurement error (reliability) in variables relevant to sports medicine. Sports Med 26: 217-238, 1998.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Measurement errors when estimating the vertical jump height with flight time using photocell devices: The example of optojump</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Attia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dhahbi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chaouachi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Sport</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="63" to="70" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Attia A, Dhahbi W, Chaouachi A, et al. Measurement errors when esti- mating the vertical jump height with flight time using photocell devices: The example of optojump. Biol Sport 1: 63-70, 2017.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Influence of strength training background on postactivation potentiation response</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Batista</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Roschel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Barroso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ugrinowitsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Tricoli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="2496" to="2502" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Batista MA, Roschel H, Barroso R, Ugrinowitsch C, Tricoli V. Influence of strength training background on postactivation potentiation response. J Strength Cond Res 25: 2496-2502, 2011.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Effects of resistance training in children and adolescents: A meta-analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Behringer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vom</forename><surname>Heede</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Mester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pediatrics</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="1199" to="e1210" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Behringer M, Vom Heede A, Yue Z, Mester J. Effects of resistance training in children and adolescents: A meta-analysis. Pediatrics 126: e1199-e1210, 2010.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Muscle fiber types and morphometric analysis of skeletal muscle in six-year-old children</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Macdougall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Billeter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Howald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="28" to="31" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bell RD, MacDougall JD, Billeter R, Howald H. Muscle fiber types and morphometric analysis of skeletal muscle in six-year-old children. Med Sci Sports Exerc 12: 28-31, 1980.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Influence of muscle temperature on maximal muscle strength and power output in human skeletal muscles</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Bergh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ekblom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol Scand</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="33" to="37" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bergh U, Ekblom B. Influence of muscle temperature on maximal muscle strength and power output in human skeletal muscles. Acta Physiol Scand 107: 33-37, 1979.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Temperature and force-velocity relationship of human muscles</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Binkhorst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hoofd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Vissers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="471" to="475" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Binkhorst RA, Hoofd L, Vissers AC. Temperature and force-velocity re- lationship of human muscles. J Appl Physiol 42: 471-475, 1977.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Effect of drop height on vertical jumping performance in pre-circa-and post-pubertal boys and girls</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Birat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sebillaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bourdier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pediatr Exerc Sci</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="23" to="29" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Birat A, Sebillaud D, Bourdier P, et al. Effect of drop height on vertical jumping performance in pre-circa-and post-pubertal boys and girls. Pediatr Exerc Sci 32: 23-29, 2020.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Warm up I: Potential mechanisms and the effects of passive warm up on exercise performance</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bishop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="439" to="454" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bishop D. Warm up I: Potential mechanisms and the effects of passive warm up on exercise performance. Sports Med 33: 439-454, 2003.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Post-activation potentiation versus postactivation performance enhancement in humans: Historical perspective, underlying mechanisms, and current issues</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Blazevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Babault</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1359</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blazevich AJ, Babault N. Post-activation potentiation versus post- activation performance enhancement in humans: Historical perspective, underlying mechanisms, and current issues. Front Physiol 10: 1359, 2019.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Statistical Power Analysis for Behavioral Sciences</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cohen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1969">1969</date>
+			<publisher>Academic Press</publisher>
+			<biblScope unit="volume">8</biblScope>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cohen D. Statistical Power Analysis for Behavioral Sciences. New York, NY: Academic Press, 1969. AU8</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Acute effects of different warm-up protocols on fitness performance in children</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Faigenbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bellucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bernieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bakker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hoorens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="376" to="381" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Faigenbaum AD, Bellucci M, Bernieri A, Bakker B, Hoorens K. Acute effects of different warm-up protocols on fitness performance in children. J Strength Cond Res 19: 376-381, 2005.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Acute effects of different warm-up protocols on anaerobic performance in teenage athletes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Faigenbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mcfarland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pediatr Exerc Sci</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="64" to="75" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Faigenbaum AD, Kang J, McFarland J, et al. Acute effects of different warm-up protocols on anaerobic performance in teenage athletes. Pediatr Exerc Sci 18: 64-75, 2006.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Influence of recovery time on warm-up effects in male adolescent athletes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Faigenbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Mcfarland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Kelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pediatr Exerc Sci</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="266" to="277" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Faigenbaum AD, McFarland JE, Kelly NA, et al. Influence of recovery time on warm-up effects in male adolescent athletes. Pediatr Exerc Sci 22: 266-277, 2010.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">ATP and phosphocreatine utilization in single human muscle fibres during the development of maximal power output at elevated muscle temperatures</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Ferguson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="701" to="707" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gray SR, S öderlund K, Ferguson RA. ATP and phosphocreatine utiliza- tion in single human muscle fibres during the development of maximal power output at elevated muscle temperatures. J Sports Sci 26: 701-707, 2008.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Precision of Measurement</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Hopkins</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hopkins WG, ed. Precision of Measurement, 2002. AU9</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Development of lower limb stiffness and its contribution to maximum vertical jumping power during adolescence</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Korff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Horne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Cullen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Blazevich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">212</biblScope>
+			<biblScope unit="page" from="3737" to="3742" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Korff T, Horne SL, Cullen SJ, Blazevich AJ. Development of lower limb stiffness and its contribution to maximum vertical jumping power during adolescence. J Exp Biol 212: 3737-3742, 2009.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Growth and development of human muscle: A quantitative morphological study of whole vastus lateralis from childhood to adult age</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lexell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sjostrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Nordlund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Muscle Nerve</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="404" to="409" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lexell J, Sjostrom M, Nordlund AS, Taylor CC. Growth and development of human muscle: A quantitative morphological study of whole vastus lateralis from childhood to adult age. Muscle Nerve 15: 404-409, 1992.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">National strength and conditioning association position statement on long-term athletic development</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Lloyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Cronin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Faigenbaum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1491" to="1509" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lloyd RS, Cronin JB, Faigenbaum AD, et al. National strength and con- ditioning association position statement on long-term athletic de- velopment. J Strength Cond Res 30: 1491-1509, 2016.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Investigation of vertical jump performance after completing heavy squat exercises</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Mangus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mercer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="597" to="600" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mangus BC, Takahashi M, Mercer JA, et al. Investigation of vertical jump performance after completing heavy squat exercises. J Strength Cond Res 20: 597-600, 2006.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">An assessment of maturity from anthropometric measurements</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Mirwald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Baxter-Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Beunen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="689" to="694" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mirwald RL, G Baxter-Jones AD, Bailey DA, Beunen GP. An assessment of maturity from anthropometric measurements. Med Sci Sports Exerc 34: 689-694, 2002.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The acute effect of different warm-up protocols on anaerobic performance in elite youth soccer players</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Needham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Morse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Degens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="2614" to="2620" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Needham RA, Morse CI, Degens H. The acute effect of different warm-up protocols on anaerobic performance in elite youth soccer players. J Strength Cond Res 23: 2614-2620, 2009.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Acute strength training increases responses to stimulation of corticospinal axons</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Nuzzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Barry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Gandevia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="139" to="150" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nuzzo JL, Barry BK, Gandevia SC, Taylor JL. Acute strength training increases responses to stimulation of corticospinal axons. Med Sci Sports Exerc 48: 139-150, 2016.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Comparison of twitch contractile properties of plantar flexor muscles in 9-10-year-old girls and boys</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ereline</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gapeyeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Toots</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Toots</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pediatr Exerc Sci</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="324" to="332" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">P ä äsuke M, Ereline J, Gapeyeva H, Toots M, Toots L. Comparison of twitch contractile properties of plantar flexor muscles in 9-10-year-old girls and boys. Pediatr Exerc Sci 15: 324-332, 2003.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Exercise-induced fatigue in young people: Advances and future perspectives</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Patikas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ratel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="899" to="910" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Patikas DA, Williams CA, Ratel S. Exercise-induced fatigue in young people: Advances and future perspectives. Eur J Appl Physiol 118: 899-910, 2018.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Backward running: Acute effects on sprint performance in preadolescent boys</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Petrakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bassa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Papavasileiou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Xenofondos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Patikas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports (Basel)</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">55</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Petrakis D, Bassa E, Papavasileiou A, Xenofondos A, Patikas DA. Back- ward running: Acute effects on sprint performance in preadolescent boys. Sports (Basel) 8: 55, 2020.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Coexistence of potentiation and fatigue in skeletal muscle</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Rassier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Macintosh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Braz J Med Biol Res</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="499" to="508" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note>AU</note>
+	<note type="raw_reference">AU10 29. Rassier DE, Macintosh BR. Coexistence of potentiation and fatigue in skeletal muscle. Braz J Med Biol Res 33: 499-508, 2000.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Effects of dynamic warmup with and without a weighted vest on lower extremity power performance of high school male athletes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Reiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Peintner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Boehner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="3387" to="3395" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reiman MP, Peintner AM, Boehner AL, et al. Effects of dynamic warm- up with and without a weighted vest on lower extremity power per- formance of high school male athletes. J Strength Cond Res 24: 3387-3395, 2010.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Effect of muscle temperature on leg extension force and short-term power output in humans</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Sargeant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol Occup Physiol</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="693" to="698" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sargeant AJ. Effect of muscle temperature on leg extension force and short-term power output in humans. Eur J Appl Physiol Occup Physiol 56: 693-698, 1987.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Factors modulating post-activation potentiation of jump, sprint, throw, and upper-body ballistic performances: A systematic review with meta-analysis</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Seitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Haff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="231" to="240" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Seitz LB, Haff GG. Factors modulating post-activation potentiation of jump, sprint, throw, and upper-body ballistic performances: A systematic review with meta-analysis. Sports Med 46: 231-240, 2016.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Using reactive strength Index-modified as an explosive performance measurement tool in Division I athletes</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Suchomel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Sole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Grazer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Beckham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="899" to="904" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Suchomel TJ, Bailey CA, Sole CJ, Grazer JL, Beckham GK. Using reactive strength Index-modified as an explosive performance measurement tool in Division I athletes. J Strength Cond Res 29: 899-904, 2015.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Effect of maturation on the relationship between muscle size and force production</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tonson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ratel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Fur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cozzone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bendahan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="918" to="925" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tonson A, Ratel S, Fur YL, Cozzone P, Bendahan D. Effect of maturation on the relationship between muscle size and force production. Med Sci Sports Exerc 40: 918-925, 2008.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><surname>Vincent</surname></persName>
+		</author>
+		<title level="m">Statistics in Kinesiology. Champaign, IL: Human kinetics</title>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vincent W, ed. Statistics in Kinesiology. Champaign, IL: Human kinetics, 1999.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Developmental differences in dynamic muscle-tendon behaviour: Implications for movement efficiency</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Waugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Korff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Blazevich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">220</biblScope>
+			<biblScope unit="page" from="1287" to="1294" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Waugh CM, Korff T, Blazevich AJ. Developmental differences in dynamic muscle-tendon behaviour: Implications for movement efficiency. J Exp Biol 220: 1287-1294, 2017.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Cert: A perceived exertion scale for young children</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Eston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Furlong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Percept Mot Skills</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="1451" to="1458" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Williams JG, Eston R, Furlong B. Cert: A perceived exertion scale for young children. Percept Mot Skills 79: 1451-1458, 1994.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

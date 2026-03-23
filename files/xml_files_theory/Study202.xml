@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Effect of Personalized Sodium Replacement on Fluid and Sodium Balance and Thermophysiological Strain During and After Ultraendurance Running in the Heat</title>
+				<funder>
+					<orgName type="full">Ultra Sports Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date>Nov. 9, 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Alan</forename><forename type="middle">J</forename><surname>Mccubbin</surname></persName>
+							<email>alan.mccubbin@monash.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Nutrition, Dietetics and Food</orgName>
+								<orgName type="institution">Monash University</orgName>
+								<address>
+									<settlement>Notting Hill</settlement>
+									<region>VIC</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ricardo</forename><forename type="middle">J S</forename><surname>Da Costa</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Nutrition, Dietetics and Food</orgName>
+								<orgName type="institution">Monash University</orgName>
+								<address>
+									<settlement>Notting Hill</settlement>
+									<region>VIC</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Effect of Personalized Sodium Replacement on Fluid and Sodium Balance and Thermophysiological Strain During and After Ultraendurance Running in the Heat</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published">Nov. 9, 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1F31475144B29F127C114E8FDD8BC3E7</idno>
+					<idno type="DOI">10.1123/ijspp.2023-0295</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>hydration</term>
+					<term>electrolytes</term>
+					<term>sweat sodium</term>
+					<term>exertional heat stress</term>
+					<term>personalized nutrition</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Purpose: To investigate the effect of personalized sweat sodium replacement on drinking behavior, sodium and water balance, and thermophysiological responses during and after ultraendurance running in hot conditions. Methods: Nine participants (7 male, 2 female) completed two 5-hour treadmill runs (60% maximum oxygen uptake, 30°C ambient temperature), in a double-blind randomized crossover design, consuming sodium chloride (SODIUM) capsules to replace 100% of previously assessed losses or placebo (PLACEBO). Fluid was consumed ad libitum. Results: No effect of SODIUM was observed for ad libitum fluid intake or net fluid balance (P &gt; .05). Plasma sodium concentration increased in both trials, but to a greater extent in SODIUM at 2.5 hours (mean [SD]: 4 [4] mmol•L -1 vs 1 [5] mmol•L -1 ; P &lt; .05) and postexercise (4 [3] mmol•L -1 vs 1 [5] mmol•L -1 ; P &lt; .05). Plasma volume change was not different between trials (P &gt; .05) but was strongly correlated with sodium balance in SODIUM (r = .880, P &lt; .01). No effect of sodium replacement was observed for heart rate, rectal temperature, thermal comfort, perceived exertion, or physiological strain index. During the 24 hours postexercise, ad libitum fluid intake was greater following SODIUM (2541 [711] mL vs 1998 [727] mL; P = .04), as was urinary sodium excretion (NaCl: 66 [35] mmol, Pl: 21 [12] mmol; P &lt; .01). Conclusions: Personalized sweat sodium replacement during ultraendurance running in hot conditions, with ad libitum fluid intake, exacerbated the rise in plasma sodium concentration compared to no sodium replacement but did not substantially influence overall body-water balance or thermophysiological strain. A large sodium deficit incurred during exercise leads to substantial renal sodium conservation postexercise.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Prolonged sweating during ultraendurance exercise could theoretically cause sodium losses that exceed 25% of total body sodium if unreplaced. <ref type="bibr" target="#b0">1</ref> Although sodium losses are recognized in sport nutrition guidelines, quantifiable replacement strategies are lacking. <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b2">3</ref> This is probably because, despite being commonplace, no studies have investigated personalized sodium replacement based on prior assessment. Given the substantial interindividual variation in sodium losses, <ref type="bibr" target="#b3">4</ref> understanding the efficacy of personalized replacement is of great interest to athletes and practitioners and may provide insights previous studies have failed to observe due to arbitrary sodium replacement methods. Case reports suggest that high sodium intake during ultraendurance exercise may inappropriately stimulate thirst, causing excessive ad libitum fluid consumption that paradoxically increases risk of exercise-associated hyponatremia. <ref type="bibr" target="#b2">3</ref> Some authors have also suggested osmotically inactive sodium stores could be released into circulation in response to reduced plasma osmolality (P Osm ), supporting an argument that quantifiable sodium replacement is unnecessary even in ultraendurance exercise. <ref type="bibr" target="#b4">5</ref> These viewpoints, however, lack evidence beyond isolated case examples and published hypotheses. The only laboratory-controlled studies of sodium replacement during ultraendurance exercise (duration ≥ 4 h) provided fixed, complete water replacement, <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> an approach that is neither commonly practiced nor recommended. <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b2">3</ref> Postexercise, data suggest urinary sodium excretion (U Na ) is substantially reduced in response to an exercise-induced sodium deficit. <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b8">9</ref> The effect of a larger deficit on sodium balance and hydration status following ultraendurance exercise has not been previously studied but is of particular relevance for multiday events. With these considerations in mind, the aim of this study was to determine the effect of personalized sodium replacement during ultraendurance running in the heat, on: (1) thirst and ad libitum fluid intake, (2) water and sodium balance, (3) thermophysiological strain during exercise, and (4) presenting hydration status 24 hours postexercise. We hypothesized that compared with no intake, sodium replacement would: (1) increase ad libitum fluid intake and net water balance during and postexercise (2) increase postexercise plasma sodium ([Na + ] plasma ), and P Osm , (3) reduce heart rate (HR) and rectal temperature (T re ), but not rating of perceived exertion (RPE) or thermal comfort rating (TCR) during exercise, (4) reduce postexercise U Na following exercise with no sodium replacement, but (5) this would not influence hydration status 24 hours postexercise.</p><p>Exclusion criteria included medical conditions impacting renal, sweat, or thermoregulatory function, injuries, or conditions preventing exercise completion. Participants provided written consent prior to participation. Full participant characteristics are provided in Table <ref type="table" target="#tab_1">S1</ref> in the Supplementary Material (available online).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preliminary Measures and Familiarization</head><p>Participants attended the laboratory 7 to 14 days before the first experimental trial. Height, BM, fat, and fat-free mass were measured (Seca 515 MBCA, Seca Group). Maximum oxygen uptake ( VO 2 max) was estimated using breath-by-breath indirect calorimetry (Vyntus CPX, Vyaire) during a continuous, incremental treadmill test as previously described, <ref type="bibr" target="#b10">11</ref> with VO 2 max taken as the greatest 30-second average VO 2 once respiratory exchange ratio had exceeded 1.0, VO 2 had plateaued, and the participant had reached volitional exhaustion. Running speed eliciting 60% VO 2 max (8.7 [0.6] km•h -1 ) was confirmed with the same system, before completing a 1-hour familiarization run at this speed, in a climate chamber at ambient temperature (T amb ) 30.3 (0.8)°C, relative humidity (RH) 32.2% (3.5%), and fan airspeed ∼10.5 km•h -1 . Familiarization was used to collect sweat samples for personalizing sodium replacement in experimental trials. Sterile absorbent patches were applied (Tegaderm + Pad, 6 × 10 cm, 3M Health) to the ventral forearm and midthigh. Skin preparation, patch application, removal, processing, and analysis were completed as previously described. <ref type="bibr" target="#b11">12</ref> Briefly, the skin sites were cleaned with an alcohol wipe, rinsed with deionized water, and dried with a clean laboratory wipe (Kimberly-Clark) prior to patch application. Patches were removed when approximately 25% of the absorbent area was saturated with sweat (approximately 30-45 min for forearm patches, and 30-60 min for midthigh patches). Wholebody [Na + ] sweat was estimated using published regression equations, <ref type="bibr" target="#b12">13</ref> and data combined with whole-body sweat rate, estimated from BM balance, to calculate whole-body sodium loss. Participants consumed water ad libitum and completed measures of RPE on a 6 to 20 scale, <ref type="bibr" target="#b13">14</ref> TCR on a 12-point Likert-type scale, <ref type="bibr" target="#b14">15</ref> and perceived thirst and salt craving on a 0 to 10 scale. <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b16">17</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Procedure</head><p>Participants completed 2 experimental trials in randomized order, replacing 100% (SODIUM) or 0% (PLACEBO) of expected sweat sodium losses based on the familiarization. 100% sodium replacement was chosen because many athletes and sweat testing companies advocate this approach, and to ensure any effect of sodium on thirst and ad libitum fluid intake could be observed. Each trial period lasted 5 days (Figure <ref type="figure" target="#fig_0">1</ref>), with participants consuming preprepared food (energy:</p><formula xml:id="formula_0">185 kJ•kg -1 •d -1 , protein: 1.5 g•kg -1 • d -1 , carbohydrate [CHO]: 6 g•kg -1 •d -1 , sodium: 50 mg•kg -1 • d -1</formula><p>), and collecting all urine produced. The sodium intake level was chosen to closely resemble that observed previously in endurance athletes eating their usual diet. <ref type="bibr" target="#b11">12</ref> Participants refrained from sweat-inducing activities throughout the trial period, except for the run on day 4. Trials were timed to consecutive follicular phases of the menstrual cycle for females with a regularly occurring cycle, confirmed from plasma estradiol (DKO003/RUO; DiaMetra) concentration (all &lt;50 pg•mL -1 , between-trial variation 24 pg•mL -1 ), or otherwise separated by 1 to 2 weeks.</p><p>On day 4, participants consumed a standardized breakfast (CHO: 1.5 g•kg -1 , protein: 0.25 g•kg -1 , fluid: 250 mL, Na: 420 mg) 2 hours prior to running. Thirty minutes prior to running, after bladder voiding, total body water (TBW) and extracellular water (ECW) were assessed (Seca 515 MBCA, Seca). After sitting for 5 minutes, blood was taken by venipuncture from the antecubital vein into a vacutainer (6 mL, 1.5 IU•mL -1 lithium heparin). Participants then measured preexercise nude BM before inserting a thermocouple 12 to 15 cm beyond the anal sphincter (Alpha-Technics 4600) for measuring T re . The running protocol replicated the familiarization, but for 5 hours duration. During exercise, T re was recorded every 15 minutes, and RPE, HR, TCR, thirst, and salt craving every 30 minutes. Physiological strain index <ref type="bibr" target="#b17">18</ref> was calculated during analysis, representative of the combined thermoregulatory and cardiovascular strain. After 30-minute running, and in the final hour, sweat patches were applied as previously described to quantify sweat sodium losses in the first and fifth hour of exercise. After 2.5-hour running, participants briefly left the climate chamber for blood sampling as described previously.</p><p>Immediately postexercise, nude BM, after toweling dry, was measured, followed by postexercise blood sampling. Participants continued dietary standardization and urine collection and were provided three 1.5 L water bottles, from which all additional fluids were consumed until returning to the laboratory. Bottles were weighed prior to leaving and on return to quantify ad libitum fluid intake postexercise. Participants returned to the laboratory on day 5, having consumed the same breakfast, at the same time as day 4. 24 hours after preexercise measurements, final nude BM, TBW, ECW, and blood samples were obtained.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CHO, Fluid, and Sodium Provision During Exercise</head><p>Throughout exercise participants consumed an unflavored solution providing 1 g•kg -1 •h -1 CHO (20% w/v). <ref type="bibr" target="#b18">19</ref> This fixed-volume solution replaced 34% (4%) of participants' water losses. A second bottle of plain water was provided for additional ad libitum intake. This bottle was weighed at the beginning and end of each hour and replaced. Both bottles were within reach of participants at all times. SODIUM or PLACEBO was provided in opaque, methylcellulose capsules. SODIUM capsules were filled with NaCl to match the rate of sweat sodium loss calculated from the familiarization, or the equivalent mass of maltodextrin (PLACEBO). The number of capsules given was divisible by 5, allowing consistent intake across each hour of running. Participants and researchers were blinded to capsule contents until after data analysis. All participants consumed food, capsules, and fluids as intended.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Calculation of Sweat Loss, TBW Change, and Sodium Loss During Running</head><p>Total sweat loss and Δ TBW during exercise were calculated from the change in BM, corrected as described by Hoffman et al, <ref type="bibr" target="#b19">20</ref> with the exception of glycogen water release, which has since been shown not to constitute an additional source of water input. <ref type="bibr" target="#b20">21</ref> Whole-body sodium loss was estimated from the corrected total sweat loss and estimated whole-body [Na + ] sweat obtained during the first and final hour of running, with the final hour value used as an approximation of hours 2 to 4, given that [Na + ] sweat increases during the initial hour of exercise. <ref type="bibr" target="#b21">22</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sweat, Urine, and Blood Analysis</head><p>Sweat and urine sodium were determined using ion-selective electrodes (L'AQUATwin Na-11, Horiba) as previously described. <ref type="bibr" target="#b11">12</ref> Hemoglobin (Hb201+, Hemocue AB) and hematocrit (centrifuged capillary tubes, Propper) were measured from whole blood and used to determine plasma volume (ΔP v ). <ref type="bibr" target="#b22">23</ref> Blood was then centrifuged (4000 RPM, 10 min, 4 °C) and the resultant plasma used to measure P Osm using freeze-point osmometry (Osmomat 030; Gonotec). The remainder was frozen at -80 °C until analysis. [Na + ] plasma was assessed (Cobas c501, Roche Diagnostics) by external pathology services (Cabrini Pathology). Plasma cortisol was assessed for the stress response to exercise, aldosterone for sodium homeostatic regulation, and Vascular Endothelial Growth Factor C (VEGF-C) as a marker of osmotically inactive Na + release. <ref type="bibr" target="#b23">24</ref> Cortisol (DKO001, DiaMetra), aldosterone (DKO053, DiaMetra), and VEGF-C (ELH-VEGFC-1, RayBiotech) were measured in duplicate using enzyme-linked immunosorbent assay (ELISA), with participants' samples on the same plate, and standards and controls on all plates. Coefficients of variation for cortisol, aldosterone, and VEGF-C were 3.7%, 5.3%, and 5.0%, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical Analysis</head><p>Using previously published data <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b24">25</ref> and a standard alpha (.05) and beta value (0.20), a sample size of 8 was calculated to provide adequate statistical power to detect differences between trials for [Na + ] plasma of 5 mmol•L -1 , ΔP v of 10%, ad libitum fluid intake of 300 mL•h -1 , and postexercise U Na of 50% (G * Power 3.1). Data are presented as mean (SD) unless indicated, and error bars on figures as SEM for clarity. Data distribution was checked for normality using the Shapiro-Wilk test before analysis. Multiple timepoint data were analyzed using 2-way, repeated-measures analysis of variance and presented with effect size (partial eta squared, η 2 p ). Homogeneity and sphericity were checked, adjustments to degrees of freedom made using Greenhouse-Geisser correction where necessary, and pairwise comparisons made using Bonferroni correction. Single timepoint data were analyzed using paired-sample t tests or nonparametric equivalent (Wilcoxon signed-rank). Pearson correlation was performed between ΔP v and both net water and sodium balance. All analyses were performed using SPSS (version 28.0), with statistical significance accepted at P &lt; .05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Trial Completion and Blinding</head><p>All participants completed all trials and confirmed consumption of the pre-prepared food and fluids. All sodium capsules and provided fluids were consumed as intended during exercise. At completion, 4 participants correctly guessed trial order, 3 incorrectly guessed trial order, and 2 were unable to distinguish and declined to guess.</p><p>No effect of trial order was observed for any variable (data not shown).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sodium Balance and Salt Craving</head><p>Whole-body [Na + ] sweat and sodium loss during familiarization were 50 ( <ref type="formula">14</ref>) mmol•L -1 and 1217 (538) mg•h -1 , respectively. There were no differences in U Na on days 1 to 3 between SODIUM (32 [13] </p><formula xml:id="formula_1">mg•kg -1 •d -1</formula><p>) and PLACEBO (31 [9] mg•kg -1 •d -1 , P = .67). During SODIUM, capsules replaced 117% (49%) (range 78%-231%) of sweat sodium losses, with most participants (n = 5) replacing within 20% of actual losses. As intended, a large net sodium deficit occurred during PLACEBO (-250 [102] mmol) but not SODIUM (+14 [114] mmol, P &lt; .001). Salt craving increased throughout exercise (P = .01, η 2 p = .24) but was not different between trials. Postexercise U Na was significantly reduced following PLACEBO (21 [12] mmol) compared to SODIUM (66 [35] mmol, P &lt; .01); however, net sodium balance from preexercise to 24 hours postexercise remained negative in PLACEBO (-133 [95] mmol) and positive in SODIUM (87 [108] mmol; P &lt; .01).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Water Balance and Hydration Status</head><p>Preexercise hydration markers are presented in Table <ref type="table" target="#tab_1">1</ref>, with no differences between trials other than 0.3 L greater ECW prior to SODIUM (P = .04). During exercise, thirst rating increased over time (P &lt; .001, η 2 p = .6) but was not different between trials (Figure <ref type="figure" target="#fig_1">2E</ref>). Likewise, no significant difference in ad libitum water intake was observed between trials (P = .07). Water loss and net water balance during exercise also did not significantly differ between trials (Table <ref type="table" target="#tab_2">2</ref>). There was no difference in urine volume postexercise, but ad libitum water intake was greater following SODIUM, resulting in greater postexercise water balance (1532 [507] mL vs 774 [588] mL, P &lt; .001).</p><p>Data for [Na + ] plasma , P Osm , and ΔP v are presented in Figure <ref type="figure" target="#fig_3">3</ref>. A time × trial interaction was observed for [Na + ] plasma (P = .04, η 2 p = .29), with [Na + ] plasma significantly greater in SODIUM than PLACEBO at 2.5 and 5 hours. P Osm increased in both trials (main effect of time; P &lt; .01, η 2 p = .46), with significantly greater P Osm compared with preexercise at 5 hours only (P &lt; .05). P v changes between trials were not statistically significantly different (P = .07). A strong correlation was observed between net sodium balance and ΔP v in SODIUM (r = .88, P &lt; .01) but was not significant for PLACEBO (r = .63, P = .07) (see Figure <ref type="figure" target="#fig_0">S1</ref> in the Supplementary Material [available online]). No correlation was observed between net fluid balance and ΔP v in either trial (SODIUM: r = .26, P = .50; PLACEBO: r = .49, P = .19) (see Figure <ref type="figure" target="#fig_1">S2</ref> in the Supplementary Material [available online]).   Abbreviations: BM, body mass; TBW, total body water; VO 2 max, maximal oxygen uptake. Note: n = 9. The values are presented as mean (SD). Net water balance is calculated as total water gains (water intake [via foods and fluids] + metabolic water production)total water loss (sweat, respiratory, and urine). Water loss replaced (%) is calculated as total water gain (fluid intake + metabolic water production) as a proportion of total water loss (sweat, respiratory, and urine). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Thermophysiological Strain</head><p>Results for HR, RPE, T re , TCR, and physiological strain index during exercise are presented in Figure <ref type="figure" target="#fig_1">2</ref>. Main effects of time were observed for each variable (P ≤ .01), but no effect of trial was observed for any, and a time × trial interaction was observed only for TCR (P &lt; .01, η 2 p = .26), with pairwise comparisons indicated in the figure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Plasma Cortisol, Aldosterone, and VEGF-C Concentrations</head><p>Plasma cortisol, aldosterone, and VEGF-C are presented in Table <ref type="table" target="#tab_3">3</ref>. A main effect of time but not trial was observed for plasma cortisol, and no interactions. Plasma aldosterone increased significantly compared with preexercise at 2.5 hours (P &lt; .05), 5 hours (P &lt; .01), and 24 hours (P &lt; .01), but no significant effect of trial or trial × time interaction was observed. No differences were observed for VEGF-C at any time point.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>This study provided complete, personalized sodium replacement to investigate its effect on thirst and ad libitum fluid intake during ultraendurance exercise, and implications for body water, sodium balance, and thermo-physiological responses. Contrary to our hypothesis, personalized sodium replacement did not influence ad libitum fluid intake or net body water balance during exercise. While no significant difference between SODIUM and PLACEBO for ΔP v was observed, a positive correlation existed between net sodium balance and ΔP v during exercise in SODIUM. [Na + ] plasma was greater at the conclusion of exercise in SODIUM compared to PLACEBO; however, this difference resulted from elevated [Na + ] plasma in SODIUM rather than reduced [Na + ] plasma in PLACEBO. Sodium replacement did not influence thermophysiological strain throughout the 5 hours of steady-state running. Postexercise, a substantial reduction in U Na was observed in PLACEBO as hypothesized, although this failed to completely compensate for the exercise-induced sodium deficit, and  sodium and body water balance the following morning remained negative in PLACEBO, but positive in SODIUM. This study is only the third laboratory-based study to investigate sodium replacement during exercise ≥4-hour duration, and the first to investigate both personalized sodium replacement and ad libitum fluid intake. Sanders et al <ref type="bibr" target="#b5">6</ref> (n = 6) studied 4-hour cycle ergometry at 55% VO 2 max (∼20 °C T amb and 71% RH), replacing ∼100% fluid losses with either 5 mmol•L -1 , 50 mmol•L -1 , or 100 mmol•L -1 sodium solution. Sodium overreplacement (∼265% in the 100 mmol•L -1 trial) expanded ECW at the expense of ICW. Moderate sodium replacement (∼130%) in the 50 mmol•L -1 trial maintained stable ECW at the expense of ICW, but when sodium was underreplaced (∼13% in the 5 mmol•L -1 trial), ICW was maintained at the expense of ECW. While we were unable to quantify ECW and ICW changes during exercise, the significant positive correlation between net sodium balance and ΔP v in SODIUM supports this finding. It is important to note that blood samples in our study were taken after only 5 minutes of seated rest. This is likely to result in increased values for hemoglobin, hematocrit, and P Osm. <ref type="bibr" target="#b25">26</ref> The timing of blood sample collection in this study design is somewhat of a compromise, since a longer rest interval (eg, 15 min) at the midway point of exercise (ie, 2.5 h) would likely impact on measured plasma cortisol, as well as the T re and TCR responses when resuming running due to a longer rest period outside the environmental chamber. In either case, the consistency of the rest interval used across timepoints would suggest that the change in P v and P Osm between timepoints would be of a similar direction and magnitude, albeit absolute P v would be greater and P Osm lower with a longer rest interval. Barr et al <ref type="bibr" target="#b6">7</ref> (n = 8) studied 6-hour cycle ergometry at 55% VO 2 max (∼30 °C T amb and 50% RH) with replacement of ∼100% fluid losses through plain water, the same volume of a 25 mmol•L -1 sodium solution, or no fluid intake. The sodium trial replaced ∼96% of sweat sodium losses, and similar to our study and the 50 mmol•L -1 trial of Sanders et al, <ref type="bibr" target="#b5">6</ref> sodium replacement had minimal impact on fluid balance and sodium losses during exercise. In all 3 studies, no differences in HR or T re were observed, regardless of trial conditions or changes in ECW or P v , except when no fluid replacement was permitted. <ref type="bibr" target="#b6">7</ref> These findings suggest that TBW, rather than its distribution between compartments, is more consequential for thermophysiological variables, and that differences in ECW or P v resulting from sodium replacement over 4 to 6 hours are insufficient to influence these variables to a significant extent.</p><p>Guidelines for hydration in ultraendurance exercise have cautioned against sodium replacement in excess of losses, based on concerns from case studies that increased osmotically driven thirst could cause excessive fluid intake, and counterintuitively exercise-associated hyponatremia. <ref type="bibr" target="#b2">3</ref> The present study found no evidence that slightly excessive sodium replacement (117% [49%] replacement, or 1217 [539] mg•h -1 ) increased perceived thirst or ad libitum fluid intake during exercise to a substantial degree, with a nonsignificant difference in fluid intake of just 68 mL•h -1 between trials. It is possible that prompting participants to rate thirst and salt craving every 30 minutes moderated drinking behavior in SODIUM, although this is not reflected in thirst ratings. It is also possible that 5 hours is insufficient to see accumulation of subtle fluid excesses that may become important after 15 hours exercise. Sodium was provided in capsules to ensure blinding, and it is conceivable that sensing sodium in the upper gastrointestinal tract or salty taste in the mouth may influence thirst perception and/ or drinking behavior in a way that was undetectable with our methodology.</p><p>We also sought to observe evidence for release of osmotically inactive sodium stores during ultraendurance exercise. Such a mechanism has been suggested to minimize the reduction in [Na + ] plasma and P Osm when exogenous sodium is not consumed during exercise, providing some protection against exercise-associated hyponatremia. <ref type="bibr" target="#b4">5</ref> The change in net sodium balance and ECW from before exercise to 24 hours later would predict an increase in [Na + ] plasma of 4.4 mmol•L -1 in SODIUM and a reduction of 2.2 mmol•L -1 in PLACEBO, if one made assumptions that [Na + ] plasma and [Na + ] ECW are equivalent, and no exchange of osmotically inactive sodium took place. The measured change in [Na + ] plasma in PLACEBO closely matches the abovementioned estimate (reduction of 2 mmol•L -1 ), but in the case of SODIUM, the measured increase was only half of what was predicted. VEGF-C has been proposed as a biomarker of release of sodium from the osmotically inactive stores back into circulation through the lymphatic system. <ref type="bibr" target="#b26">27</ref> Contrary to the hypothesis mentioned above, theoretical and clinical studies suggest that sodium release occurs in response to reduced TBW or P v rather than P Osm . <ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref> To the best of our knowledge, this study is the first to assess plasma VEGF-C responses to substantial exercise-induced changes in water and sodium balance. We found no intraindividual differences in VEGF-C throughout exercise in either trial, but very large interindividual variation, as has been reported previously in clinical populations. <ref type="bibr" target="#b30">31</ref> Whether or not this should be interpreted to mean that no exchange of osmotically inactive sodium stores took place cannot be easily determined, although the above estimates would suggest that there was likely no need for such action to occur. This could be considered a likely explanation, because ΔTBW and ΔP v were small (&lt;1.6 L and &lt;5%, respectively) and [Na + ] plasma and P Osm increased during exercise regardless of sodium intake. However, there are other possibilities that could explain why no change in plasma VEGF-C was observed at any timepoint in either trial. First, our estimates of sodium and water balance during exercise are based on indirect measures (ie, corrected BM change and estimated sodium loss from regional sweat collections, respectively), which although validated will not perfectly reflect these changes. And second, previous studies investigating VEGF-C in response to disturbances in fluid and/ or sodium balance have focused on clinical conditions that disrupt the typical regulation of these processes. It is therefore possible that hydration-related changes in ECW, P v , and P Osm are mediated through other pathways for osmotically inactive sodium that do not involve VEGF-C. Field studies at ultraendurance events, where greater variance in postexercise P Osm and P v changes would be expected, may provide a more optimal setting to test the utility of VEGF-C as a suitable marker of osmotically inactive sodium exchange during and postultraendurance exercise.</p><p>The finding of substantially reduced postexercise U Na in response to an exercise-induced sodium deficit, independent of urine volume, reinforces the case study findings of Lichton <ref type="bibr" target="#b7">8</ref> and the recent findings of Funnell et al. <ref type="bibr" target="#b8">9</ref> In our study, a sodium deficit of 250 mmol during 5-hour running in PLACEBO was partially offset postexercise by U Na that was 45 mmol lower than SODIUM. While this conservation of sodium by the kidneys was unable to completely restore sodium balance within 24 hours in the absence of increased sodium intake, this finding does suggest that targeting 100% replacement of an exercise-induced sodium deficit postexercise is unnecessary to restore sodium balance by the next day. Furthermore, the negative sodium balance postexercise will likely induce adaptations that reduce sweat and U Na in subsequent days, so a large sodium deficit is unlikely to accumulate during multistage ultraendurance events. <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b31">32</ref> Increased sodium intake postexercise may drive increased thirst, ad libitum fluid intake and water retention, although mixed meals containing a variety of nutrients likely have the same or similar effect. <ref type="bibr" target="#b32">33</ref> Our findings also demonstrate that precise, personalized sodium replacement is actually difficult to achieve. We provided sodium capsules based on losses measured during familiarization, but in some participants found large discrepancies in sodium loss rates between familiarization and experimental trials. Review of these discrepancies at the individual level showed that differences in [Na + ] sweat between familiarization and SODIUM were a contributor, whereby participants with greater sodium losses in familiarization also had greater [Na + ] sweat and vice versa. A potential explanation for this is lack of dietary sodium control prior to the familiarization (unlike experimental trials), which can impact [Na + ] sweat if the discrepancy in sodium intake is large enough. <ref type="bibr" target="#b11">12</ref> In addition to this, however, differences in sweat rate between familiarization and experimental trials also contributed in some participants. In particular, the participant who replaced 231% of familiarization sodium losses in SODIUM did so due to a sweat rate that was 42% greater and [Na + ] sweat 19% greater during familiarization compared with SODUIM. It is unclear why such a large discrepancy in sweat rate occurred, but given that running speed, T amb and RH were the same during familiarization as SODIUM, the most likely explanation is an error in BM measurement or data recording. We note that removal of this outlier results in a mean discrepancy between familiarization and SODIUM for sweat rate of 12% and [Na + ] sweat of 17%, both close to the expected betweenday variability based on previous literature. <ref type="bibr" target="#b21">22</ref> Nonetheless, the individual variability in total sodium loss (3 participants &gt;20% and 1 &gt;40%) remains a potential concern for practitioners aiming to test sodium losses to plan sodium replacement strategies for a future day.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Practical Applications</head><p>Personalized sodium replacement during ∼5-hour running does not stimulate increased ad libitum fluid intake and is unnecessary to optimize hydration status. Complete postexercise sodium replacement is also unnecessary for multiday events, due to urinary sodium conservation. Our findings under controlled laboratory conditions suggest that personalized sweat sodium testing and replacement are unlikely to be as precise as many athletes and practitioners expect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>Complete, personalized replacement of sweat sodium losses during 5-hour continuous running in the heat appears to have minimal impact on thirst, ad libitum water intake, net water balance, and body water shifts between compartments and no impact on thermophysiological strain. Furthermore, when water is consumed ad libitum, sodium replacement increases [Na + ] plasma and P Osm rather than preventing its decline. There was no evidence for release of osmotically inactive sodium stores in response to a large sodium deficit incurred during running, when such a deficit is not accompanied by large reductions in total body water or plasma volume. Net sodium loss during exercise causes a substantial postexercise renal sodium conservation, although in ultraendurance exercise this is inadequate to fully restore sodium balance within 24 hours without deliberately increased postexercise sodium intake.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 -</head><label>1</label><figDesc>Figure 1 -Schematic description of the experimental design. CHO indicates carbohydrate; HR, heart rate; MF-BIA, multifrequency bioelectric impedance analysis; Na, sodium; RPE, rating of perceived exertion; T re , rectal temperature; TCR, thermal comfort rating.</figDesc><graphic coords="3,59.98,84.02,652.08,406.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 -</head><label>2</label><figDesc>Figure 2 -Heart rate (panel A), rectal temperature (B), thermal comfort rating (C), rating of perceived exertion (D), thirst perception (E), salt craving (F), and physiological strain index (G) during 5-hour steady-state running exercise at 60% maximal oxygen uptake in hot (30 °C) ambient conditions. SODIUM (▪), PLACEBO ( ○ ). Mean ± SEM (n = 9): * P &lt; .05 versus first time point. ** P &lt; .01 versus first time point. #P &lt; .05 versus first time point (PLACEBO only). PLACEBO indicates replacing 0% of expected sweat sodium loss; SODIUM, replacing 100% of expected sweat sodium loss.</figDesc><graphic coords="5,111.63,43.65,388.80,652.03" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><figDesc>Next morning, there was a reduction in ECW in PLACEBO and minimal change in SODIUM (SODIUM + 0.1 [0.5] L, PLA-CEBO -0.7 [0.6] L; P = .02), and no changes in intracellular water (ICW) (SODIUM + 0.1 [0.4] L, PLACEBO + 0.2 [0.2] L; P = .27).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 -</head><label>3</label><figDesc>Figure 3 -(A) Plasma sodium concentration, (B) plasma osmolality, and (C) plasma volume before, during, and after 5-hour steady-state running exercise at 60% VO 2 max in hot (30°C) ambient conditions. SODIUM (▪), PLACEBO ( ○ ). Mean ± SEM (n = 9): * P &lt; .05 versus first time point. †P &lt; .05 versus first time point (SODIUM only). ‡P &lt; .05 versus 2.5 hours (SODIUM only). SODIUM indicates replacing 100% of expected sweat sodium loss; PLACEBO, replacing 0% of expected sweat sodium loss; VO 2 max, maximal oxygen uptake.</figDesc><graphic coords="7,76.03,64.74,460.08,365.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1</head><label>1</label><figDesc>Preexercise Sodium Excretion and Hydration Status</figDesc><table><row><cell>Sodium</cell><cell>Placebo</cell><cell>P</cell></row></table><note><p>Note: Values are presented as mean (SD).</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2</head><label>2</label><figDesc>Water and Sodium Balance During and After 5-Hour Steady-State Running Exercise at 60% VO 2 max in Hot (30 °C) Ambient Conditions</figDesc><table><row><cell></cell><cell></cell><cell>During exercise</cell><cell></cell><cell></cell><cell>Postexercise</cell><cell></cell><cell></cell><cell>Total</cell><cell></cell></row><row><cell></cell><cell>Sodium</cell><cell>Placebo</cell><cell>P</cell><cell>Sodium</cell><cell>Placebo</cell><cell>P</cell><cell>Sodium</cell><cell>Placebo</cell><cell>P</cell></row><row><cell>Water loss, mL</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Sweat</cell><cell>4182 (689)</cell><cell>4207 (664)</cell><cell>.85</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell>Respiratory</cell><cell>448 (66)</cell><cell>482 (77)</cell><cell>.24</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell>Urine</cell><cell>299 (201)</cell><cell>240 (115)</cell><cell>.29</cell><cell>1009 (440)</cell><cell>1224 (855)</cell><cell>.28</cell><cell>1309 (465)</cell><cell>1464 (868)</cell><cell>.47</cell></row><row><cell>Total</cell><cell>4930 (748)</cell><cell>4929 (711)</cell><cell>.99</cell><cell>1009 (440)</cell><cell>1224 (855)</cell><cell>.28</cell><cell>5939 (1023)</cell><cell>6153 (1190)</cell><cell>.28</cell></row><row><cell>Fluid intake, mL</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Fixed</cell><cell>1662 (201)</cell><cell>1662 (201)</cell><cell>-</cell><cell>250 (0)</cell><cell>250 (0)</cell><cell>-</cell><cell>1912 (201)</cell><cell>1912 (201)</cell><cell>-</cell></row><row><cell>Ad libitum</cell><cell>1553 (506)</cell><cell>1216 (540)</cell><cell>.07</cell><cell>2291 (711)</cell><cell>1748 (727)</cell><cell>.04</cell><cell>3844 (962)</cell><cell>2964 (967)</cell><cell>.05</cell></row><row><cell>Total</cell><cell>3215 (552)</cell><cell>2878 (500)</cell><cell>.07</cell><cell>2541 (711)</cell><cell>1998 (727)</cell><cell>.04</cell><cell>5756 (1091)</cell><cell>4877 (989)</cell><cell>.05</cell></row><row><cell>Metabolic water production, mL</cell><cell>448 (61)</cell><cell>464 (50)</cell><cell>.09</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell>Net water balance, mL</cell><cell>-1266 (766)</cell><cell>-1586 (900)</cell><cell>.10</cell><cell>+1532 (507)</cell><cell>+774 (588)</cell><cell>&lt;.01</cell><cell>+265 (645)</cell><cell>-812 (622)</cell><cell>&lt;.01</cell></row><row><cell>Water loss replaced, %</cell><cell>75 (12)</cell><cell>69 (14)</cell><cell>.10</cell><cell>285 (120)</cell><cell>286 (364)</cell><cell>.11</cell><cell>105 (11)</cell><cell>88 (11)</cell><cell>&lt;.01</cell></row><row><cell>TBW loss, % of initial BM</cell><cell>1.9 (1.1)</cell><cell>2.4 (1.3)</cell><cell>.16</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell>Sodium loss, mmol</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Sweat</cell><cell>224 (65)</cell><cell>235 (100)</cell><cell>.57</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row><row><cell>Urine</cell><cell>19 (20)</cell><cell>12 (7)</cell><cell>.26</cell><cell>66 (35)</cell><cell>21 (12)</cell><cell>.005</cell><cell>84 (50)</cell><cell>33 (12)</cell><cell>.01</cell></row><row><cell>Total</cell><cell>243 (69)</cell><cell>246 (102)</cell><cell>.85</cell><cell>66 (35)</cell><cell>21 (12)</cell><cell>.005</cell><cell>309 (77)</cell><cell>267 (95)</cell><cell>.06</cell></row><row><cell>Sodium intake, mmol</cell><cell>265 (117)</cell><cell>0 (0)</cell><cell>-</cell><cell>138 (20)</cell><cell>138 (20)</cell><cell>-</cell><cell>403 (124)</cell><cell>138 (20)</cell><cell>&lt;.001</cell></row><row><cell>Net sodium balance, mmol</cell><cell>+14 (114)</cell><cell>-250 (102)</cell><cell>&lt;.001</cell><cell>+73 (40)</cell><cell>+117 (25)</cell><cell>&lt;.01</cell><cell>+87 (108)</cell><cell>-133 (95)</cell><cell>&lt;.01</cell></row><row><cell>Sweat sodium loss replaced, %</cell><cell>117 (48)</cell><cell>0 (0)</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>-</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3</head><label>3</label><figDesc>Plasma Cortisol, Aldosterone, and VEGF-C Concentration in Response to 5-Hour Steady-State Running Exercise at 60% VO 2 max in Hot (30 °C) Ambient Conditions</figDesc><table><row><cell></cell><cell></cell><cell cols="2">Sodium</cell><cell></cell><cell></cell><cell cols="2">Placebo</cell><cell></cell><cell></cell><cell>Main effects</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>24 h</cell><cell></cell><cell></cell><cell></cell><cell>24 h</cell><cell>Effect</cell><cell>Effect</cell><cell>Time × trial</cell></row><row><cell></cell><cell>Pre-</cell><cell></cell><cell>Post-</cell><cell>post-</cell><cell>Pre-</cell><cell></cell><cell>Post-</cell><cell>post-</cell><cell>of time</cell><cell>of trial</cell><cell>interaction</cell></row><row><cell></cell><cell>exercise</cell><cell>2.5 h</cell><cell>exercise</cell><cell>exercise</cell><cell>exercise</cell><cell>2.5 h</cell><cell>exercise</cell><cell>exercise</cell><cell>P (η 2 p )</cell><cell>P (η 2 p )</cell><cell>P (η 2 p )</cell></row><row><cell>Cortisol, ng•mL -1</cell><cell>206 (63)</cell><cell>230 (85)</cell><cell>407 (194)</cell><cell>190 (98)</cell><cell>214 (74)</cell><cell>213 (64)</cell><cell>442 (170)</cell><cell>194 (108)</cell><cell>&lt;.01 (.62)</cell><cell>.71 (&lt;.01)</cell><cell>.66 (.03)</cell></row><row><cell>Aldosterone, pg•mL -1 )</cell><cell>84 (52)</cell><cell>219 (140)</cell><cell>274 (269)</cell><cell>199 (174)</cell><cell>66 (49)</cell><cell>345 (249)</cell><cell>532 (289)</cell><cell>261 (175)</cell><cell>&lt;.001 (.72)</cell><cell>.15 0.24)</cell><cell>.07 (.30)</cell></row><row><cell>VEGF-C, pg•mL -1</cell><cell>493 (663)</cell><cell>502 (702)</cell><cell>560 (820)</cell><cell>642 (994)</cell><cell>488 (659)</cell><cell>498 (679)</cell><cell>509 (673)</cell><cell>574 (778)</cell><cell>.10 (.30)</cell><cell>.19 (.20)</cell><cell>.44 (.08)</cell></row></table><note><p>Abbreviations: VEGF-C, vascular endothelial growth factor C; VO 2 max, maximal oxygen uptake. Note: n = 9. The values are presented as mean (SD).</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>(Ahead of Print)</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The authors wish to acknowledge <rs type="person">Gia-Lam Vu</rs> for his contributions to data collection for this study. This project was funded by a research project grant from the <rs type="funder">Ultra Sports Science Foundation</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Exertional heat stress and sodium balance: leaders, followers, and adaptations</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Mccubbin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.autneu.2021.102863</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Auton Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">235</biblScope>
+			<biblScope unit="page">102863</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCubbin AJ. Exertional heat stress and sodium balance: leaders, followers, and adaptations. Auton Neurosci. 2021;235:102863. doi: 10.1016/j.autneu.2021.102863</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">American college of sports medicine joint position statement. nutrition and athletic performance</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Erdman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Burke</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0000000000000852</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="543" to="568" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thomas DT, Erdman KA, Burke LM. American college of sports medicine joint position statement. nutrition and athletic performance. Med Sci Sports Exerc. 2016;48(3):543-568. doi:10.1249/MSS. 0000000000000852</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Considerations for ultraendurance activities: part 2 -hydration</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Hoffman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Stellingwerff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rjs</forename><surname>Costa</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/15438627.2018.1502189</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Res Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="182" to="194" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoffman MD, Stellingwerff T, Costa RJS. Considerations for ultra- endurance activities: part 2 -hydration. Res Sports Med. 2019;27(2): 182-194. doi:10.1080/15438627.2018.1502189</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Normative data for sweating rate, sweat sodium concentration, and sweat sodium loss in athletes: an update and analysis by sport</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Barnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Stofan</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2019.1633159</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="2356" to="2366" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barnes KA, Anderson ML, Stofan JR, et al. Normative data for sweating rate, sweat sodium concentration, and sweat sodium loss in athletes: an update and analysis by sport. J Sports Sci. 2019;37(20): 2356-2366. doi:10.1080/02640414.2019.1633159</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Three independent biological mechanisms cause exercise-associated hyponatremia: Evidence from 2,135 weighed competitive athletic performances</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Noakes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sharwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Speedy</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0509096102</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PNAS</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">51</biblScope>
+			<biblScope unit="page" from="18550" to="18555" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Noakes TD, Sharwood K, Speedy D, et al. Three independent biological mechanisms cause exercise-associated hyponatremia: Evi- dence from 2,135 weighed competitive athletic performances. PNAS. 2005;102(51):18550-18555. doi:10.1073/pnas.0509096102</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Sodium replacement and fluid shifts during prolonged exercise in humans</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Noakes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Dennis</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s004210000371</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="419" to="425" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sanders B, Noakes TD, Dennis SC. Sodium replacement and fluid shifts during prolonged exercise in humans. Eur J Appl Physiol. 2001; 84(5):419-425. doi:10.1007/s004210000371</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Fluid replacement during prolonged exercise: effects of water, saline, or no fluid</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Barr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Costill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Fink</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="811" to="817" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barr SI, Costill DL, Fink WJ. Fluid replacement during prolonged exercise: effects of water, saline, or no fluid. Med Sci Sports Exerc. 1991;23(7):811-817.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Competition between sweat glands and kidneys for salt and water in man</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Lichton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="223" to="226" />
+			<date type="published" when="1957">1957</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lichton IJ. Competition between sweat glands and kidneys for salt and water in man. J Appl Physiol. 1957;11(2):223-226.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Ad-libitum fluid intake was insufficient to achieve euhydration 20 h after intermittent running in male team sports athletes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Funnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Juett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ferrara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Mears</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>James</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.physbeh.2023.114227</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Behav</title>
+		<imprint>
+			<biblScope unit="volume">268</biblScope>
+			<biblScope unit="page">114227</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Funnell MP, Juett LA, Ferrara R, Mears SA, James LJ. Ad-libitum fluid intake was insufficient to achieve euhydration 20 h after inter- mittent running in male team sports athletes. Physiol Behav. 2023; 268:114227. doi:10.1016/j.physbeh.2023.114227</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Defining training and performance caliber: a participant classification framework</title>
+		<author>
+			<persName><forename type="first">Aka</forename><surname>Mckay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Stellingwerff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2021-0451</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="317" to="331" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McKay AKA, Stellingwerff T, Smith ES, et al. Defining training and performance caliber: a participant classification framework. Int J Sports Physiol Perform. 2022;17(2):317-331. doi:10.1123/ijspp.2021-0451</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Influence of timing of postexercise carbohydrate-protein ingestion on selected immune indices</title>
+		<author>
+			<persName><forename type="first">Rjs</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Oliver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Laing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Waiters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jlj</forename><surname>Bilzon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Walsh</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijsnem.19.4.366</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Nutr Exerc Metab</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="366" to="384" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Costa RJS, Oliver SJ, Laing SJ, Waiters R, Bilzon JLJ, Walsh NP. Influence of timing of postexercise carbohydrate-protein ingestion on selected immune indices. Int J Sport Nutr Exerc Metab. 2009;19(4): 366-384. doi:10.1123/ijsnem.19.4.366</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Impact of 3-day high and low dietary sodium intake on sodium status in response to exertional-heat stress: a double-blind randomized control trial</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Mccubbin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Caldwell</forename><surname>Odgers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rjs</forename></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-019-04199-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2105" to="2118" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCubbin AJ, Lopez MB, Cox GR, Caldwell Odgers JN, Costa RJS. Impact of 3-day high and low dietary sodium intake on sodium status in response to exertional-heat stress: a double-blind randomized control trial. Eur J Appl Physiol. 2019;119(9):2105-2118. doi:10. 1007/s00421-019-04199-2</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Comparison of regional patch collection vs. whole body washdown for measuring sweat sodium and potassium loss during exercise</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Stofan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Horswill</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.00197.2009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="887" to="895" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baker LB, Stofan JR, Hamilton AA, Horswill CA. Comparison of regional patch collection vs. whole body washdown for measuring sweat sodium and potassium loss during exercise. J Appl Physiol. 2009;107(3):887-895. doi:10.1152/japplphysiol.00197.2009</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Psychophysical bases of perceived exertion</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Borg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="377" to="381" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Borg GA. Psychophysical bases of perceived exertion. Med Sci Sports Exerc. 1982;14(5):377-381.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Psychological scaling in comfort assessment</title>
+		<author>
+			<persName><forename type="first">Nrs</forename><surname>Hollies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Goldman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Clothing Comfort: Interaction of Thermal, Ventilation, Construction, and Assessment Factors</title>
+		<editor>
+			<persName><forename type="first">Nrs</forename><surname>Hollies</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Goldman</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Ann Arbor Science Publishers</publisher>
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hollies NRS, Goldman RF.Psychological scaling in comfort assess- ment. In: Hollies NRS, Goldman RF, eds. Clothing Comfort: Inter- action of Thermal, Ventilation, Construction, and Assessment Factors. Ann Arbor Science Publishers; 1977.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Feeding tolerance, glucose availability, and whole-body total carbohydrate and fat oxidation in male endurance and ultra-endurance runners in response to prolonged exercise, consuming a habitual mixed macronutrient diet and carbohydrate feeding during exercise</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Rauch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Mccubbin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Gaskell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rjs</forename><surname>Costa</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2021.773054</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">773054</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rauch CE, McCubbin AJ, Gaskell SK, Costa RJS. Feeding tolerance, glucose availability, and whole-body total carbohydrate and fat oxidation in male endurance and ultra-endurance runners in response to prolonged exercise, consuming a habitual mixed macronutrient diet and carbohydrate feeding during exercise. Front Physiol. 2021;12: 773054. doi:10.3389/fphys.2021.773054</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Two weeks of repetitive gutchallenge reduce exercise-associated gastrointestinal symptoms and malabsorption</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Miall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Khoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rauch</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sms.12912</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="630" to="640" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Miall A, Khoo A, Rauch C, et al. Two weeks of repetitive gut- challenge reduce exercise-associated gastrointestinal symptoms and malabsorption. Scand J Med Sci Sports. 2018;28(2):630-640. doi: 10.1111/sms.12912</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">A physiological strain index to evaluate heat stress</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Moran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shitzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Pandolf</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/ajpregu.1998.275.1.R129</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Regul Integr Comp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="129" to="R134" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moran DS, Shitzer A, Pandolf KB. A physiological strain index to evaluate heat stress. Am J Physiol Regul Integr Comp Physiol. 1998; 275(1):R129-R134. doi:10.1152/ajpregu.1998.275.1.R129</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Diurnal versus nocturnal exercise-effect on the gastrointestinal tract</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Gaskell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Rauch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Parr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rjs</forename><surname>Costa</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0000000000002546</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1056" to="1067" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gaskell SK, Rauch CE, Parr A, Costa RJS. Diurnal versus nocturnal exercise-effect on the gastrointestinal tract. Med Sci Sports Exerc. 2021;53(5):1056-1067. doi:10.1249/MSS.0000000000002546</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Considerations in the use of body mass change to estimate change in hydration status during a 161-kilometer ultramarathon running competition</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Hoffman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edb</forename><surname>Goulet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Maughan</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40279-017-0782-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="243" to="250" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoffman MD, Goulet EDB, Maughan RJ. Considerations in the use of body mass change to estimate change in hydration status during a 161-kilometer ultramarathon running competition. Sports Med. 2018; 48(2):243-250. doi:10.1007/s40279-017-0782-3</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The availability of water associated with glycogen during dehydration: a reservoir or raindrop?</title>
+		<author>
+			<persName><forename type="first">Rfgj</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Hara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-017-3768-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="283" to="290" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">King RFGJ, Jones B, O&apos;Hara JP. The availability of water associated with glycogen during dehydration: a reservoir or raindrop? Eur J Appl Physiol. 2018;118(2):283-290. doi:10.1007/s00421-017- 3768-9</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Sweating rate and sweat sodium concentration in athletes: a review of methodology and intra/interindividual variability</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40279-017-0691-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="111" to="128" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>suppl</note>
+	<note type="raw_reference">Baker LB. Sweating rate and sweat sodium concentration in ath- letes: a review of methodology and intra/interindividual variability. Sports Med. 2017;47(suppl 1):111-128. doi:10.1007/s40279-017- 0691-5</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Calculation of percentage changes in volumes of blood, plasma, and red cells in dehydration</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Costill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="247" to="248" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dill DB, Costill DL. Calculation of percentage changes in volumes of blood, plasma, and red cells in dehydration. J Appl Physiol. 1974; 37(2):247-248.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Serum VEGF-C levels as a candidate biomarker of hypervolemia in chronic kidney disease</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sahutoglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sakaci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Hasbal</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/MD.0000000000006543</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page">6543</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sahutoglu T, Sakaci T, Hasbal NB, et al. Serum VEGF-C levels as a candidate biomarker of hypervolemia in chronic kidney disease. Medicine. 2017;96(18):e6543. doi:10.1097/MD.0000000000006543</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Ad libitum drinking adequately supports hydration during 2 h of running in different ambient temperatures</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Hoffman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rmj</forename><surname>Snipe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rjs</forename><surname>Costa</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-018-3996-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2687" to="2697" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoffman MD, Snipe RMJ, Costa RJS. Ad libitum drinking ade- quately supports hydration during 2 h of running in different ambient temperatures. Eur J Appl Physiol. 2018;118(12):2687-2697. doi:10. 1007/s00421-018-3996-7</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Are 10 min of seating enough to guarantee stable haemoglobin and haematocrit readings for the athlete&apos;s biological passport?</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ahlgrim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pottgiesser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Sottas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ruecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">O</forename><surname>Schumacher</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1751-553X.2009.01213.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Lab Hematol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="506" to="511" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ahlgrim C, Pottgiesser T, Robinson N, Sottas PE, Ruecker G, Schumacher YO. Are 10 min of seating enough to guarantee stable haemoglobin and haematocrit readings for the athlete&apos;s biological passport? Int J Lab Hematol. 2010;32(5):506-511. doi:10.1111/j. 1751-553X.2009.01213.x</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The interstitium conducts extrarenal storage of sodium and represents a third compartment essential for extracellular volume and blood pressure homeostasis</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wiig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Luft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Titze</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/apha.13006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol</title>
+		<imprint>
+			<biblScope unit="volume">222</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">6</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wiig H, Luft FC, Titze JM. The interstitium conducts extrarenal storage of sodium and represents a third compartment essential for extracellular volume and blood pressure homeostasis. Acta Physiol. 2018;222(3):6. doi:10.1111/apha.13006</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Osmotically inactive sodium and potassium storage: lessons learned from the Edelman and Boling data</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Nguyen</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/ajprenal.00215.2016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Renal Physiol</title>
+		<imprint>
+			<biblScope unit="volume">311</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="539" to="F547" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nguyen MK, Nguyen DS, Nguyen MK. Osmotically inactive sodium and potassium storage: lessons learned from the Edelman and Boling data. Am J Physiol Renal Physiol. 2016;311(3):F539-F547. doi:10. 1152/ajprenal.00215.2016</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Magnetic resonance-determined sodium removal from tissue stores in hemodialysis patients</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dahlmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dorfelt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Eicher</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ki.2014.269</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Kidney Int</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="434" to="441" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dahlmann A, Dorfelt K, Eicher F, et al. Magnetic resonance-deter- mined sodium removal from tissue stores in hemodialysis patients. Kidney Int. 2015;87(2):434-441. doi:10.1038/ki.2014.269</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">23Na magnetic resonance imaging of the lower leg of acute heart failure patients during diuretic treatment</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hammon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grossmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Linz</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0141336</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">141336</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hammon M, Grossmann S, Linz P, et al. 23Na magnetic resonance imaging of the lower leg of acute heart failure patients during diuretic treatment. PLoS One. 2015;10(10):e0141336. doi:10.1371/journal. pone.0141336</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Relationship of vascular endothelial growth factor C, a lymphangiogenesis modulator, with edema formation, congestion and outcomes in acute heart failure</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Iwanek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ponikowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zdanowicz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cardfail.2023.04.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Card Fail. Published online</title>
+		<imprint>
+			<biblScope unit="page">2023</biblScope>
+			<date>April 28</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Iwanek G, Ponikowska B, Zdanowicz A, et al. Relationship of vascular endothelial growth factor C, a lymphangiogenesis modula- tor, with edema formation, congestion and outcomes in acute heart failure. J Card Fail. Published online April 28, 2023. doi:10.1016/ j.cardfail.2023.04.006</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Physiological mechanisms determining eccrine sweat composition</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Wolfe</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-020-04323-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="719" to="752" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baker LB, Wolfe AS. Physiological mechanisms determining eccrine sweat composition. Eur J Appl Physiol. 2020;120(4):719-752. doi: 10.1007/s00421-020-04323-7</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Fluid, energy, and nutrient recovery via ad libitum intake of different commercial beverages and food in female athletes</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mccartney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Irwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Desbrow</surname></persName>
+		</author>
+		<idno type="DOI">10.1139/apnm-2018-0176</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Physiol Nutr Metab</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="37" to="46" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCartney D, Irwin C, Cox GR, Desbrow B. Fluid, energy, and nutrient recovery via ad libitum intake of different commercial beverages and food in female athletes. Appl Physiol Nutr Metab. 2019;44(1):37-46. doi:10.1139/apnm-2018-0176</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

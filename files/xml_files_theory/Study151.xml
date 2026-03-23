@@ -1,0 +1,1548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Myofibrillar Protein Synthesis and Acute Intracellular Signaling with Elastic Band Resistance Exercise in Young and Older Men</title>
+				<funder>
+					<orgName type="full">American College of Sports Medicine</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Medical Research Council</orgName>
+				</funder>
+				<funder ref="#_MQQccTx">
+					<orgName type="full">MRC</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">MRC Versus Arthritis Centre for Musculoskeletal Ageing Research</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-01-12">12/01/2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Ryan</forename><forename type="middle">N</forename><surname>Marshall</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Sport, Exercise and Rehabilitation Sciences</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>UNITED KINGDOM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">MRC-Versus Arthritis Centre for Musculoskeletal Ageing Research</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>UNITED KINGDOM;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paul</forename><forename type="middle">T</forename><surname>Morgan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Sport, Exercise and Rehabilitation Sciences</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>UNITED KINGDOM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">MRC-Versus Arthritis Centre for Musculoskeletal Ageing Research</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>UNITED KINGDOM;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Benoit</forename><surname>Smeuninx</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Sport, Exercise and Rehabilitation Sciences</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>UNITED KINGDOM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">MRC-Versus Arthritis Centre for Musculoskeletal Ageing Research</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>UNITED KINGDOM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Cellular and Molecular Metabolism Group</orgName>
+								<orgName type="institution" key="instit1">Monash Institute of Pharmaceutical Sciences</orgName>
+								<orgName type="institution" key="instit2">Monash University</orgName>
+								<address>
+									<settlement>Parkville</settlement>
+									<region>Victoria</region>
+									<country>AUSTRALIA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jonathan</forename><forename type="middle">I</forename><surname>Quinlan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Sport, Exercise and Rehabilitation Sciences</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>UNITED KINGDOM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">NIHR Biomedical Research Centre</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>UNITED KINGDOM;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matthew</forename><forename type="middle">S</forename><surname>Brook</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">MRC-Versus Arthritis Centre for Musculoskeletal Ageing Research</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>UNITED KINGDOM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Division of Medical Sciences and Graduate Entry Medicine</orgName>
+								<orgName type="institution">University of Nottingham</orgName>
+								<address>
+									<settlement>Nottingham</settlement>
+									<country>UNITED KINGDOM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Centre of Metabolism, Ageing and Physiology</orgName>
+								<orgName type="institution" key="instit1">University of Nottingham</orgName>
+								<orgName type="institution" key="instit2">Royal Derby Hospital</orgName>
+								<address>
+									<settlement>Derby</settlement>
+									<country key="GB">UNITED KINGDOM</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Philip</forename><forename type="middle">J</forename><surname>Atherton</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">MRC-Versus Arthritis Centre for Musculoskeletal Ageing Research</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>UNITED KINGDOM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Division of Medical Sciences and Graduate Entry Medicine</orgName>
+								<orgName type="institution">University of Nottingham</orgName>
+								<address>
+									<settlement>Nottingham</settlement>
+									<country>UNITED KINGDOM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Centre of Metabolism, Ageing and Physiology</orgName>
+								<orgName type="institution" key="instit1">University of Nottingham</orgName>
+								<orgName type="institution" key="instit2">Royal Derby Hospital</orgName>
+								<address>
+									<settlement>Derby</settlement>
+									<country key="GB">UNITED KINGDOM</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kenneth</forename><surname>Smith</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">MRC-Versus Arthritis Centre for Musculoskeletal Ageing Research</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>UNITED KINGDOM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Division of Medical Sciences and Graduate Entry Medicine</orgName>
+								<orgName type="institution">University of Nottingham</orgName>
+								<address>
+									<settlement>Nottingham</settlement>
+									<country>UNITED KINGDOM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Centre of Metabolism, Ageing and Physiology</orgName>
+								<orgName type="institution" key="instit1">University of Nottingham</orgName>
+								<orgName type="institution" key="instit2">Royal Derby Hospital</orgName>
+								<address>
+									<settlement>Derby</settlement>
+									<country key="GB">UNITED KINGDOM</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniel</forename><forename type="middle">J</forename><surname>Wilkinson</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">MRC-Versus Arthritis Centre for Musculoskeletal Ageing Research</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>UNITED KINGDOM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Division of Medical Sciences and Graduate Entry Medicine</orgName>
+								<orgName type="institution">University of Nottingham</orgName>
+								<address>
+									<settlement>Nottingham</settlement>
+									<country>UNITED KINGDOM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Centre of Metabolism, Ageing and Physiology</orgName>
+								<orgName type="institution" key="instit1">University of Nottingham</orgName>
+								<orgName type="institution" key="instit2">Royal Derby Hospital</orgName>
+								<address>
+									<settlement>Derby</settlement>
+									<country key="GB">UNITED KINGDOM</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><roleName>Ph.D</roleName><forename type="first">Leigh</forename><surname>Breen</surname></persName>
+							<email>l.breen@bham.ac.uk.</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Sport, Exercise and Rehabilitation Sciences</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>UNITED KINGDOM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">MRC-Versus Arthritis Centre for Musculoskeletal Ageing Research</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>UNITED KINGDOM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">NIHR Biomedical Research Centre</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<country>UNITED KINGDOM;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department" key="dep1">Translational Muscle Physiology</orgName>
+								<orgName type="department" key="dep2">School of Sport, Exercise and Rehabilitation Sciences</orgName>
+								<orgName type="institution">Uni- versity of Birmingham</orgName>
+								<address>
+									<addrLine>Edgbaston</addrLine>
+									<postCode>B15 2TT</postCode>
+									<settlement>Birmingham</settlement>
+									<country>United Kingdom;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="institution">American College of Sports Medicine</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Myofibrillar Protein Synthesis and Acute Intracellular Signaling with Elastic Band Resistance Exercise in Young and Older Men</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-01-12">12/01/2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">52BA368DECA6313193D2951C9AA1B81D</idno>
+					<idno type="DOI">10.1249/MSS.0000000000003061</idno>
+					<note type="submission">Submitted for publication September 2022. Accepted for publication September 2022.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:15+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>SKELETAL MUSCLE</term>
+					<term>LOADING</term>
+					<term>ADAPTATION</term>
+					<term>CONTRACTION</term>
+					<term>AGING</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Purpose: Resistance exercise training (RET) attenuates age-related muscle and strength loss ("sarcopenia"). However, compared with machine-based RET, the efficacy of cost-effective, accessible elastic band RET (EB-RET) for muscle adaptive remodeling lacks supporting mechanistic evidence. Methods: Eight young (YM; 24 ± 4 yr) and eight older (OM; 68 ± 6 yr) untrained males consumed an oral stable isotope tracer (D 2 O) combined with serial vastus lateralis muscle biopsies to measure integrated myofibrillar protein synthesis (iMyoPS) and regulatory signaling over ~48 h before (habitual) and after an acute bout of EB-RET (6 Â 12 repetitions at ~70% of one-repetition maximum). iMyoPS was determined via gas chromatography-pyrolysis-isotope ratio mass spectroscopy and regulatory signaling expression by immunoblot. Results: Habitual iMyoPS did not differ between YM and OM (1.62% ± 0.21% vs 1.43% ± 0.47%•d -1 , respectively, P = 0.128). There was a significant increase in iMyoPS after EB-RET in YM (2.23% ± 0.69%•d -1 , P = 0.02), but not OM (1.75% ± 0.54%•d -1 , P = 0.30). EB-RET increased the phosphorylation of key anabolic signaling proteins similarly in YM and OM at 1 h postexercise, including p-IRS-1 Ser636/639 , p-Akt Ser473 , p-4EBP-1 Thr37/46 , p-P70S6K Thr389 , and p-RPS6 Ser240/244 , whereas p-TSC2 Thr1462 and p-mTOR Ser2448 increased only in YM (all P &lt; 0.05). There were no differences in the expression of amino acid transporters/sensors or proteolytic markers after EB-RET. Conclusions: iMyoPS was elevated after EB-RET in YM but not OM. However, the increase in acute anabolic signaling with EB-RET was largely similar between groups. In conclusion, the capacity for EB-RET to stimulate iMyoPS may be impaired in older age. Further work may be necessary to optimize prescriptive programming in YM and OM.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A</head><p>ging is associated with a loss of skeletal muscle mass (SMM), strength, and functional capacity (termed "sarcopenia") <ref type="bibr" target="#b0">(1)</ref>. Sarcopenia is associated with a loss of independence and increased morbidity and mortality risk <ref type="bibr" target="#b1">(2)</ref>.</p><p>Given the pivotal role of SMM in whole-body metabolic health, sarcopenia progression impairs basal and/or postprandial macronutrient handling <ref type="bibr" target="#b2">(3)</ref> and exacerbates age-related comorbidities and chronic disease. Although age-associated muscle deterioration is evident in all humans, the prevalence of diagnosable sarcopenia (i.e., accelerated muscle loss) and musculoskeletal weakness in community-dwelling older adults (&gt;65 yr) in the UK has been reported to be &gt;12.5%, rising to &gt;20% in those &gt;85 yr of age <ref type="bibr" target="#b3">(4)</ref>. Combined with a shift in population aging demographics, sarcopenia presents an uncompromising economic burden on global healthcare services and resources <ref type="bibr" target="#b4">(5)</ref>.</p><p>It is the dynamic balance between muscle protein synthesis (MPS) and muscle protein breakdown (MPB) rates that results in either a net gain (synthesis &gt; breakdown) or a net loss (breakdown &gt; synthesis) of muscle mass. Importantly, impairments in the exercise-induced stimulation of MPS have been reported with aging (termed "anabolic resistance") and have been suggested to underpin age-related muscle loss <ref type="bibr" target="#b5">(6)</ref>. Resistance exercise training (RET) is a potent nonpharmacological stimulus for MPS and, therefore, is paramount to mitigate losses of SMM, metabolic dysfunction, and physical disability associated with aging. However, despite the well-established effects of RET on muscle mass, strength, and function, only ~10%-15% of those 60 yr and older and even fewer of those 75 yr and older adhere to RET recommendations <ref type="bibr" target="#b6">(7)</ref>. Importantly, machine-based RET in a typical gym environment presents numerous barriers to many older adults <ref type="bibr" target="#b7">(8)</ref>. Hence, pragmatic and accessible RET interventions that can effectively maintain or increase muscle mass, strength, and function in older age are required.</p><p>Elastic band RET (EB-RET) has been reported to increase muscle strength and functional capacity in healthy, institutionalized, and clinical populations <ref type="bibr" target="#b8">(9)</ref>. However, the potential of EB-RET to support robust muscle adaptive remodeling has been questioned, as the changing tensile properties of the band across the range-of-motion results in a variable load stimulus <ref type="bibr" target="#b9">(10)</ref>. This is noteworthy as older adults display a blunted acute MPS response to RET-induced mechanical contraction compared with younger adults (6) (i.e., anabolic resistance) and require a greater RET stimulus to facilitate an MPS response that is comparable to the young <ref type="bibr" target="#b10">(11)</ref>. We recently demonstrated that quadriceps muscle EMG activity increased with high-volume EB-RET in younger and older adults and was equivalent to machine-based RET <ref type="bibr" target="#b11">(12)</ref>. However, muscle EMG activity may not readily translate to true motor unit recruitment/activation, which is thought to be crucial for MPS and muscle hypertrophy <ref type="bibr" target="#b12">(13)</ref>. Currently, our understanding of the intramuscular metabolic and molecular response to EB-RET is limited to circulating plasma biomarkers of myogenic growth factors <ref type="bibr" target="#b8">(9)</ref> and inflammatory proteins <ref type="bibr" target="#b13">(14)</ref>, although effects on MPS and associated regulatory signaling have yet to be investigated.</p><p>Therefore, the purpose of the present study was to assess the acute molecular and metabolic response to high-volume EB-RET in healthy untrained younger (YM) and older males (OM). Through combined oral deuterium oxide (D 2 O) isotope tracer consumption and serial skeletal muscle biopsies, we determined the rates of integrated myofibrillar protein synthesis (iMyoPS) over 48 h before and after a bout of moderate-load, high-volume EB-RET. We also determined acute intracellular protein expression and phosphorylation of anabolic and proteolytic markers in YM and OM after EB-RET to probe possible underpinning mechanisms of iMyoPS responsiveness. We hypothesized that high-volume EB-RET would elicit significant and equivalent increases in iMyoPS rates and intracellular regulatory signaling responses in YM and OM.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Eight young (YM; 24 ± 4 yr, BMI = 24 ± 4 kg•m À2 ) and eight old (OM; 67 ± 5 yr, BMI = 25 ± 2 kg•m À2 ) untrained male volunteers provided written, informed consent to participate in the present study (Table <ref type="table" target="#tab_0">1</ref>). Participants were deemed healthy by the completion of a general health questionnaire. Briefly, participants were required to have normal blood chemistry, to be stage I hypertensive or less (&lt;140/90 mm Hg), and to not be using medication known to affect protein metabolism. In addition, all participants had no prior RET experience (i.e., not having undertaken structured RET for at least 6 months previously). Ethical approval was obtained through the East Midlands-Derby Research Ethics Committee (18/EM/0004). The study conformed to the University of Birmingham's Research Governance requirements and was conducted in accordance with the Declaration of Helsinki.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Design</head><p>YM and OM were recruited to investigate iMyoPS in the habitual state and in response to a single bout of moderate-load, high-volume EB-RET on iMyoPS, alongside markers of intracellular regulatory protein expression. After initial study screening and consenting, participants reported to the School of Sport, Exercise and Rehabilitation Sciences (SportExR) laboratory on four separate occasions over a 7-d period (Fig. <ref type="figure">1</ref>). For each visit, participants reported to the laboratory at ~08:00 in an overnight fasted state, having been asked to refrain from caffeine consumption on the day of the trial. In addition, participants were asked to refrain from any strenuous physical activity and alcohol consumption for the duration of study involvement. Experimental Protocol Visit 1. An overview of the study timeline is provided in Figure <ref type="figure">1</ref>. Upon arrival at the laboratory, participants underwent anthropometric and body composition assessments followed by a measurement of blood pressure. Thereafter, a single baseline saliva sample was obtained, with further saliva samples collected daily throughout the duration of the study. Participants then completed a maximal voluntary contraction (MVC) of the right and left quadriceps, bilateral 12-repetition maximum (12RM) strength testing of the knee extensors and familiarization to the exercise protocol, as described below. Participants were then given a bolus of D 2 O and daily top-up doses to measure iMyoPS, as per our previous work <ref type="bibr" target="#b14">(15)</ref> and described below. Before departure, participants were provided with a wrist-worn pedometer to record their average total daily step count over the duration of the study.</p><p>Visit 2. Seventy-two hours after visit 1 and after the provision of daily single saliva samples and consumption of a dose of D 2 O, a muscle biopsy was collected from the quadriceps vastus lateralis (VL) of a single, randomly assigned leg (counterbalanced for leg dominance) in which all four muscle biopsies were collected over the experimental period. Participants were provided with a weight maintenance food parcel, matched for total calories and macronutrient content for the subsequent 4 d to standardize dietary conditions and reduce the influence of dietary variances between individuals (see Dietary Control section).</p><p>Visits 3 and 4. Forty-eight hours after visit 2, participants provided a VL muscle biopsy (as described below). Participants then completed a single bout of leg RET, which involved performing 6 sets of 12 repetitions of leg extension exercise at ~70% (12RM]), as previously described <ref type="bibr" target="#b10">(11,</ref><ref type="bibr" target="#b14">15)</ref>, with each set separated by 2 min of passive recovery. Immediately after the completion of the exercise bout, participants consumed a single 30-g bolus of whey protein concentrate and then rested for 1 h before another VL muscle biopsy was obtained to examine the acute postexercise anabolic signal molecule phosphorylation response. Forty-eight hours after visit 3, participants returned to the laboratory to provide a final saliva and VL muscle biopsy sample.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Procedures</head><p>Body composition. Body composition was determined via bioelectrical impedance analysis, incorporating assessments of fat mass, body fat percentage, fat-free mass (FFM), and SMM (mBCA 525; SECA, Hamburg, Germany). Individuals were instructed to lay in a supine position for ∼10 min to allow for any fluid shifts, and two electrodes were attached to each hand and foot.</p><p>Resistance exercise familiarization. The 12RM load was assessed as previously described <ref type="bibr" target="#b11">(12)</ref>. Briefly, the 12RM load was assessed using an elastic resistance band (PeakSupps, Bridgend, UK) with loads ranging from "light" to "very heavy" (6, 12, 20, and 28 kg at 100% elongation of manufacturer guidelines), starting with a self-selected load estimated to be ~50% of the participants' 1RM. These loads were validated during previous work with the use of a strain gauge <ref type="bibr" target="#b11">(12)</ref>, where we confirmed that elastic resistance band loads were similar to machine-based knee extension exercise at the top of the concentric range of motion. After the completion of the warm-up, the load was increased via the increased elongation of the band in 20-cm increments and/or an increase in band resistance (i.e., band color) until the participant reached a load representing their estimated 12RM (~70% 1RM), as described previously <ref type="bibr" target="#b11">(12)</ref>. Participants were instructed to perform each repetition over a total of 3 s (eccentric phase, ~1.5 s; concentric phase, ~1.5 s), timed via a visual prompt to "push" and "relax," accompanied by the same verbal instructions from the experimenter.</p><p>Strength testing. Maximal voluntary contraction (MVC) of the knee extensors was assessed as previously described using an isokinetic dynamometer (Cybex, division of Lumex, Inc., Ronkonkoma, NY) for the evaluation of quadriceps isometric muscle strength of both limbs. Briefly, participants were seated with the hip and knee joints at relative angles of 90°and 110°, respectively, with the tested limb, chest, and hips stabilized and adjusted so that the axis of rotation of the lever arm was in line with the lateral epicondyle of the femur. All participants completed 3 Â 3 s MVC of the knee extensors, with each contraction separated by a 60-s passive recovery period. Participants were given standardized verbal encouragement for the duration of each 3 s contraction.</p><p>Dietary control. Participants were provided with a standardized, weight maintenance diet (∼50% carbohydrate, ∼30% fat, and ∼20% protein) to consume during the study (Table <ref type="table" target="#tab_0">1</ref>). Energy requirements were calculated using the Harris-Benedict equation multiplied by an activity factor of 1.35 <ref type="bibr" target="#b15">(16)</ref>. Participants could choose from a selection of food options, including several prepackaged fresh, frozen, and microwavable options for lunch and dinner, along with preweighed breakfast ingredients (e.g., porridge oats/cereal, milk) and prepackaged mid-meal snacks (snack bars, nuts, and fruits). Water was consumed ad libitum, and preweighed fruit juice beverages were provided. Food was provided to participants between visits 2 and 4 for consumption over the course of iMyoPS measurements. The content of the controlled diet was representative of values from our previous work on the habitual dietary protein amount and pattern of intake of community-dwelling OM <ref type="bibr" target="#b16">(17)</ref>. Participants also consumed a commercially available flavored protein beverage containing 30 g of whey protein concentrate (Myprotein, Northwich, United Kingdom) immediately after EB-RET at visit 3 to facilitate exercise recovery.</p><p>Isotope tracer protocol. Stable isotopically labeled D 2 O (70 atom%; Cambridge Isotope Laboratories, Inc., Tewksbury, MA) was provided to participants throughout the duration of the study as previously described <ref type="bibr" target="#b14">(15)</ref>. Briefly, to rapidly increase the body water enrichment of deuterium ( 2 H) to ∼0.2% atom percent excess (APE), participants consumed a bolus dose of D 2 O on day 1 (2.4 mL•kg -1 lean body mass). Because of the current lack of consensus on D 2 O dosing strategies, we sought to mimic steady-state enrichment often used with standard amino acid (AA) infusion studies and in line with recent recommendations and guidelines on the use of D 2 O methodology in human research <ref type="bibr" target="#b17">(18)</ref>. Therefore, to maintain a pseudo "steady state" of ∼0.2% APE enrichment of the body water pool throughout the study, participants consumed a daily top-up dose of D 2 O of 0.3 mL•kg -1 lean body mass. Total body water enrichment was used as a surrogate for deuterated alanine labeling. All doses were consumed in the morning, immediately after saliva sample provision. These saliva samples were collected each morning immediately on waking in sterile plastic tubes (~5-10 mL). Samples were temporarily stored in the fridge (~5°C) and returned to the investigator at the next experimental visit. Saliva samples were subsequently centrifuged to separate salivary debris and pipetted into a 1.5-mL Eppendorf, sealed, and stored at -80°C until later analysis. Across the study, percutaneous skeletal muscle biopsy samples were obtained (visits 2, 3, and 4) from the VL under local anesthesia (5-10 mL, 1% lidocaine) using the Bergström needle technique <ref type="bibr" target="#b18">(19)</ref>. Muscle biopsy tissue was quickly rinsed in ice-cold saline and blotted to remove any visible blood, fat, and connective tissue before being immediately snap-frozen in liquid nitrogen ( 2 N) and stored at -80°C until further analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Analysis</head><p>Body water deuterium enrichment. Body water enrichment of deuterium was measured as previously described <ref type="bibr" target="#b19">(20)</ref>. Briefly, pure fractions of body water were extracted by heating 100 μL of saliva in an inverted 2 mL autosampler vial for 4 h at 100°C. Vials were then placed upright on ice to condense extracted body water and transferred to a clean autosampler vial ready for injection. Body water (0.1 μL) was injected into a high-temperature conversion elemental analyzer (Thermo Finnigan, Thermo Scientific, Hemel Hempstead, UK) con-nected to an isotope ratio mass spectrometer (Delta V Advantage, Thermo Scientific). For high-temperature conversion elemental analyzer (TC/EA) analysis of body water enrichment, after direct liquid injection into the TC/EA, where samples were immediately converted to H 2 gas, sample gases were directed to the isotope ratio mass spectrometer, where the 2 H/ 1 H ratio was determined. The deuterium isotopic enrichment provided as δ 2 H was converted to atom% using the following equation:</p><formula xml:id="formula_0">Atom% ¼ 100 Â AR Â δ 2 H Â 0:001 þ 1 À Á 1 þ AR δ 2 H Â 0:001 þ 1 À Á</formula><p>where AR represents the absolute ratio constant for deuterium based on the Vienna standard mean ocean water, an isotopic standard, and equates to 0.00015595. This was then converted to APE by correcting for baseline sample, i.e., background enrichment. If any sample fell outside the instrument's dynamic range, these were reinjected or reprepared.</p><p>Protein-bound alanine muscle fractionation enrichment. Muscle protein-bound [ 2 H]-alanine enrichments were measured in muscle biopsy samples collected on days 3, 5, and 7 of the experimental protocol in the rested (days 3-5) and postresistance exercise (days 5-7). Assessment of myofibrillar bound 2 H-Alanine was measured as previously described <ref type="bibr" target="#b19">(20)</ref>. Briefly, for isolation of myofibrillar protein, ~30 mg of muscle was homogenized in ice-cold homogenization buffer (50 mM Tris-HCL, 1 mM EDTA, 1 mM EGTA, 10 mM B-glycerophosphate, 50 mM NaF, 0.5 mM sodium orthovanadate, and a single EDTA-free protease inhibitor per 10 mL of buffer). Samples were then placed on a vibrax shaker for 10 min at 1000 rpm at room temperature before the sarcoplasmic supernatant was collected after centrifugation at 13,000g for 15 min at 4°C. The myofibrillar pellet was solubilized in 0.3 M sodium hydroxide (NaOH) and separated from the insoluble collagen by centrifugation. The myofibrillar protein was precipitated using 1 M perchloric acid and separated by centrifugation. Protein-bound AA were then released using acid hydrolysis by incubating at 110°C in 0.1 M HCl in Dowex H + resin slurry overnight before being eluted from the resin with 2 M ammonium hydroxide (NH 4 OH) and evaporated to dryness; AA were then derivatized as their n-methoxycarbonyl methyl esters. Dried samples were suspended in a solution composed of 60 μL distilled water and 32 μL methanol, and after vortex, 10 μL of pyridine and 8 μL of methyl chloroformate were added to the solution. Samples were vortexed for 30 s and left at room temperature for 5 min. The newly formed n-methoxycarbonyl methyl esters of AA were then extracted into 100 μL of chloroform. A molecular sieve was added to each sample for ∼20 s before being transferred to a clean glass gas chromatography insert, removing any remaining water by size exclusion absorption. Incorporation of deuterium into protein-bound alanine was determined by gas chromatographypyrolysis-isotope ratio mass spectrometry (Delta V Advantage), as aforementioned, alongside a standard curve of known L-alanine-2,3,3,3-d4 enrichment to validate measurement accuracy of the instrument.</p><p>Calculation of fractional synthetic rate. iMyoPS was calculated from the incorporation of deuterium-labeled alanine into protein, using the enrichment of body water (corrected for the mean number of deuterium moieties incorporated per alanine, 3.7, and the dilution from the total number of hydrogen in the derivative, i.e., 11) as the surrogate precursor labeling between subsequent biopsies <ref type="bibr" target="#b19">(20)</ref>. FSR was calculated as follows:</p><formula xml:id="formula_1">FSR ¼ -1n 1 -APEAla ð Þ APEP ð Þ h i t 0 @ 1 A</formula><p>where APE Ala is the deuterium enrichment of protein-bound alanine, APE P is the mean precursor enrichment over the time period, and t is the time between biopsies.</p><p>Immunoblotting. Immunoblotting was performed on the sarcoplasmic fraction after extraction of the myofibrillar protein pellet, as previously described <ref type="bibr" target="#b20">(21)</ref>. The protein concentration of samples was determined by DC (detergent compatible) protein assay (Bio-Rad, Hercules, CA) using FLUOstar Omega (BMG Labtech, Aylesbury, UK) at an absorbance of 750 nm; samples were standardized to 3 μg•μL -1 by dilution with 4 Â Laemmli loading buffer and heated at 95°C for 5 min. Precisely, 30 μg of proteins was loaded onto Criterion TGX Trisglycine 20%-4% sodium dodecyl sulfate-polyacrylamide gel electrophoresis (Bio-Rad) for electrophoresis at 150 V for ~1 h. Samples were then transferred to polyvinylidene difluoride (PVDF; Whatman, Dassel, Germany) membranes for 60 min at 100 V. Membranes were subsequently blocked in 5% low-fat milk (diluted in Tris-buffered saline and 0.1% Tween-20 [TBS-T]) for 1 h at room temperature and then incubated in a rocking device overnight at 4°C in the presence of the following primary antibodies (1:1000 dilution in 2.5% BSA in TBS-T; see Supplemental Methods, Supplemental Digital Content 1, for primary antibodies, <ref type="url" target="http://links.lww.com/MSS/C729">http://links.lww.com/  MSS/C729</ref>). For each, membranes were washed 3 Â 5 min in TBS-T, incubated in HRP-linked antirabbit (CST7074, 1:10000 in TBS-T) or antimouse (CST7076, 1:10000 TBS-T) IgG at room temperature for 1 h, before 3 Â 5 min washes in TBS-T. Finally, membranes were exposed to chemiluminescent HRP Substrate (Millipore Corp., Billerica, MA, USA) for 2-3 min and visualized using a BOX Chemi XT4 Imager with GeneSys capture software (Syngene, Cambridge, UK). Bands were quantified using ImageJ software (National Institutes of Health, Bethesda, MD). Relative arbitrary units were normalized to the total amount of protein loaded as visualized via Ponceau S staining <ref type="bibr" target="#b21">(22)</ref>. Specifically, bands were normalized to the ~45 kDa actin band of Ponceau S stain as a loading control <ref type="bibr" target="#b22">(23)</ref>. No difference was detected between the ~45-kDa actin band of Ponceau S stain across all samples. After these corrections, where appropriate, the phosphorylation of proteins as a proxy of their activation was expressed relative to the total abundance of protein <ref type="bibr" target="#b23">(24)</ref>. Representative western blot images are presented in Supplemental Figures <ref type="figure">1</ref><ref type="figure" target="#fig_0">2</ref><ref type="figure">3</ref>(see Supplemental Digital Content 2, <ref type="url" target="http://links.lww.com/MSS/C730">http://links.lww.com/  MSS/C730</ref>).</p><p>Statistical analysis. Power analysis with an error of 0.05, power of 0.95, and effect size (ES) of 2.02 was performed using G x Power 3.1 analysis software (Heinrich Hein University, Duesseldorf, Germany) based on the RET-induced increases (~10%) in ~48 h iMyoPS in OM, as previously described <ref type="bibr" target="#b14">(15)</ref>. This produced a minimum sample size of eight participants per group. Differences in participant physical characteristics between groups were measured via independent t-tests. All other data sets (body water enrichment, iMyoPS%day -1 , and anabolic/catabolic signal transduction) were analyzed by two-way, repeated-measures ANOVA with a Bonferroni correction using Prism v. 5 (GraphPad Software, La Jolla, CA, USA). Where the ANOVA revealed a significant interaction effect, post hoc t-tests were completed using Bonferroni. Normal distribution was assessed using the Shapiro-Wilk test. Where sphericity was violated, a Greenhouse-Geisser correction factor was applied. The ES of the changes in iMyoPS FSR was examined using Cohen's d. For all tests, results were considered statistically significant when P &lt; 0.05. Data are presented as mean ± SEM unless otherwise stated, with individual data points presented on each figure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Anthropometric, activity, exercise, and dietary characteristics. Data are presented in Table <ref type="table" target="#tab_0">1</ref>. SMM index (P = 0.029), MVC (P = 0.004), and MVC relative to SMM (P = 0.01) were lower in OM compared with YM. There was no significant difference between YM and OM in fat mass, body fat percentage, FFM, appendicular skeletal muscle index, absolute SMM, handgrip strength, 12RM strength, or average habitual step count. With EB-RET, there was no difference in average Borg-CR10 rating or per set or the total training volume between groups. Average total energy intake was significantly lower in OM compared with YM (P = 0.048), as was the absolute and relative carbohydrate intake (P = 0.001 and 0.01, respectively). There were no differences in absolute or relative dietary protein or fat between groups.</p><p>Body water enrichment and integrated myofibrillar protein synthesis rates. Saliva 2 H enrichment increased significantly above basal values on day 1, at 24 h after D 2 O consumption (P &lt; 0.05 for YM and OM; Table <ref type="table" target="#tab_1">2</ref>). Average body water 2 H enrichment during both habitual (days 3-5) and postexercise (days 5-7) phases of iMyoPS measurement was higher in OM compared with YM (P &lt; 0.01 for both phases; Table <ref type="table" target="#tab_1">2</ref>). No difference was observed between YM and OM in habitual rates of iMyoPS (1.62% ± 0.21%•d -1 vs 1.43% ± 0.47%•d -1 , P = 0.128) (Fig. <ref type="figure" target="#fig_0">2A</ref>). A significant main effect for time on iMyoPS was found (P = 0.007), but no interaction effect was observed. Post hoc analysis revealed rates of iMyoPS were significantly elevated above habitual rates after EB-RET in YM (2.23 ± 0.69%•d -1 , P = 0.024, ES = 1.2) but not OM (1.75% ± 0.54%•d -1 , P = 0.302, ES = 0.67) during the 48-h postexercise period.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Intracellular Protein Expression and Phosphorylation</head><p>AA transporters and sensors and upstream mTOR signaling. No differences were detected in the expression of LAT1, SNAT-2, and Sestrin-2 between YM and OM or with EB-RET (Fig. <ref type="figure">3A-C</ref>). The expression of p-IRS1 Ser636/639 increased after EB-RET in YM (~106%, P &lt; 0.001) and OM (~79%, P &lt; 0.001) with no difference between groups (Fig. <ref type="figure">3D</ref>). The expression of p-Akt Ser473 increased after EB-RET in YM (~181%, P &lt; 0.001) and OM (~124%, P = 0.001) and was lower across rest and postexercise in OM compared with YM (~33%, P = 0.008; Fig. <ref type="figure">3E</ref>). The expression of p-TSC2 Ser939 was lower in OM than YM (~52%, P = 0.003), with no effect of EB-RET in either group (P = 0.73, Fig. <ref type="figure">3F</ref>). The expression of p-TSC2 Thr1462 increased after EB-RET in YM (~65%, P = 0.027) but not OM (Fig. <ref type="figure">3H</ref>). No differences were detected in the expression of p-TSC2 Ser1387 between groups or with EB-RET (Fig. <ref type="figure">3G</ref>).</p><p>Central and downstream mTOR signaling. The expression of Rheb expression decreased after EB-RET in OM only (~9%, P = 0.024; Fig. <ref type="figure">4A</ref>) but did not differ between groups. The expression of p-Raptor Ser792 did not differ between groups or with EB-RET (Fig. <ref type="figure">4B</ref>). The expression of p-mTOR Ser2448 increased after EB-RET in YM (~51%, P = 0.027) but not OM (Fig. <ref type="figure">4C</ref>). The expression of p-AMPKα Thr172 did not differ between groups or with EB-RET (Fig. <ref type="figure">4D</ref>). The expression of p-4EBP-1 Thr37/46 increased after EB-RET in YM (~48%, P &lt; 0.001) and OM (~59%, P &lt; 0.001) with no difference between groups (Fig. <ref type="figure">4E</ref>). The expression of p-P70S6K Thr389 increased after EB-RET in YM (~550%, P &lt; 0.001) and OM (~424%, P &lt; 0.001) with no difference between groups (Fig. <ref type="figure">4F</ref>). The expression of p-RPS6 Ser240/244 increased after EB-RET in YM (~1030%, P &lt; 0.001) and OM (~1005%, P &lt; 0.001) with no difference between groups (Fig. <ref type="figure">4G</ref>). The expression of p-eIF4E Ser209 did not differ between groups or with EB-RET (Fig. <ref type="figure">4H</ref>). The expression of p-eEF2 Thr56 did not differ between groups or with EB-RET (Fig. <ref type="figure">4I</ref>).</p><p>Proteolytic signaling. The expressions of proteins involved in protein ubiquitylation and proteasomal degradation, MuRF1, MuRF2, MuRF3, atrogin-1, caspase 3, Proteasome 19S ATPase subunit, 19S RPT5/S6A subunit, or 20S B5 subunit were not significantly altered after EB-RET in YM or OM (Fig. <ref type="figure" target="#fig_1">5A-H</ref>). In OM, the expression of Proteasomal 19S ATPase subunit (~30%, P = 0.002) and 19S RPT5/S6A subunit (~41%, P = 0.001) were greater, and MuRF2 expression was lower (~43%, P = 0.004) than YM.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Elastic band RET (EB-RET) represents a cost-effective, accessible means to support or augment muscle mass and function with advancing age and/or scenarios of clinical rehabilitation. In some instances, longer-term EB-RET has been shown to induce morphological and metabolic changes <ref type="bibr" target="#b24">(25,</ref><ref type="bibr" target="#b25">26)</ref>. However, mechanistic evidence to support the muscle anabolic potential of EB-RET in young and older adults is lacking. Herein, we provide the first investigation of integrated myofibrillar protein synthesis (iMyoPS) and regulatory intramuscular signaling after a single bout of EB-RT in younger (YM) and older males (OM). Rates of iMyoPS after EB-RET were significantly increased above habitual values in YM but not OM. However, although there was evidence of anabolic signaling augmentation at 1 h after EB-RET in YM and OM, only minor differences were observed between groups. Taken together, although our data suggest that EB-RET may provide a stimulus for increasing iMyoPS in YM, the lack of statistically significant effect of EB-RET in OM above basal iMyoPS rates could indicate an age-related muscle anabolic impairment to this contraction mode, as shown previously with machine-based RET <ref type="bibr" target="#b5">(6,</ref><ref type="bibr" target="#b26">27)</ref>.</p><p>In contrast to the constant load resistance of machine-based RET, the variable load resistance and mechanical stimulus with EB-RET (10) may be suboptimal to stimulate muscle anabolism  to support longer-term muscle adaptive remodeling. This may be particularly relevant for older adults, who display an impaired acute and iMyoPS response to machine-based RET contractions <ref type="bibr" target="#b20">(21)</ref>. We previously demonstrated that the present EB-RET protocol augmented quadriceps EMG activity in young and older adults to a level that was comparable with machine leg extension RET of similar volume load, despite the target load of ~70% 1RM only being reached at the top of the concentric phase with EB-RET <ref type="bibr" target="#b11">(12)</ref>. Extending on these findings, herein we demonstrated that high-volume EB-RET performed to a high degree of effort elicited an MPS response above baseline in YM but not OM. That EB-RET did not elicit a significant iMyoPS response in OM was surprising given that this protocol was standardized equivalent to, or more than, previous machine-based RET regimens that elicited robust acute MyoPS and 48 h iMyoPS responses in OM <ref type="bibr" target="#b20">(21)</ref>. Notwithstanding, the iMyoPS response to EB-RET in YM aligns with rates reported over 48 h after high-volume machine-based RET in YM (~30%-40% above rest) <ref type="bibr" target="#b27">(28)</ref>, demonstrating the muscle anabolic potential of this modality. Therefore, despite a similar total training volume and perceived effort between OM and YM, the variable mechanical load of EB-RET may have been suboptimal for high-threshold motor unit recruitment and fiber activation that is thought to drive MPS stimulation <ref type="bibr" target="#b12">(13)</ref>. EB-RET variables may require manipulation to induce greater mechanical stress and robust iMyoPS stimulation in older adults, for example, by increasing total volume with additional sets/repetitions, although this conjecture requires further investigation. Similarly, future studies should compare the muscle remodeling response to longer-term EB-RET and machine-based RET in young and older adults, which should be considered alongside ageand mode-specific strength and functional adaptations. The muscle anabolic response to RET contractile loading and protein ingestion is thought to be underpinned by alterations in proteins implicated in the cellular growth signaling cascade of mTOR and the ubiquitin-proteasomal degradation system, with suggestions that signal transduction is impaired in OM compared with YM <ref type="bibr" target="#b5">(6)</ref>. In the present study, we observed a robust acute regulatory signaling response at 1 h after EB-RET (combined with whey protein ingestion) that was largely similar between in YM and OM, despite an absent iMyoPS response in OM, perhaps further highlighting the discord between acute intramuscular FIGURE 3-Upstream and downstream mTOR Signaling. Protein expression of LAT-1 (A), SNAT-2 (B), Sestrin-2 (C), p-IRS1 Ser636/639 /total-IRS1 (D), p-Akt Ser473 /total-Akt (E), p-TSC2 Ser939 /total-TSC2 (F), p-TSC2 Ser1387 /total-TSC2 (G), and p-TSC2 Thr1462 /total-TSC2 (H), before (black) and 1 h after (white) elastic band knee extension exercise in younger and older adults. Total protein expression levels are normalized to corresponding total protein loading control (Ponceau S) and phosphorylated protein relative to the total target protein as a proxy of protein activation status. Data are presented as fold change relative to pre-RET for young and mean ± SEM for n = 8 subjects per group with individual data points. *Significant time effects. # Significant group effect (P &lt; 0.05).</p><p>signaling events and the subsequent MPS response, particularly in older adults. The sensitivity of skeletal muscle and the ability to transport circulating AA into the cytosol has been reported to be impaired in OM, resulting in a blunted MyoPS capacity <ref type="bibr" target="#b28">(29)</ref>. By contrast, despite a blunted iMyoPS response to EB-RET in OM, we report no differences in the expression of key AA transporters/sensors, LAT-1, SNAT-2, or Sestrin-2 with age or 1 h after EB-RET and whey protein ingestion, similar to recent work from others in YM after combined RET and EAA ingestion <ref type="bibr" target="#b29">(30)</ref>. Although Sestrin-2 has been reported to be a key leucine sensor in vitro, there is conflicting evidence around the response of Sestrin-2 to aging, acute RET, and protein feeding <ref type="bibr" target="#b30">(31)</ref>. Our data add to the conflicting evidence of AA transporters/sensors and their putative role in exercise and feeding-induced muscle anabolism. Indeed, although we observed minimal differences in protein expression, age-related impairment in activation and/or cellular location of these AA transporters/sensors with RET and feeding requires further investigation.</p><p>In upstream mTOR signaling, we observed a robust increase in p-IRS-1 Ser636/639 and p-Akt Ser473 1 h after EB-RET in YM and OM. Interestingly, there was evidence of divergent p-TSC2 and p-mTOR signaling 1 h after EB-RET between YM and OM. TSC2 phosphorylation is thought to be essential for mTOR colocalization to the lysosome and subsequent activation of downstream mTOR signaling intermediates for skeletal muscle remodeling <ref type="bibr" target="#b31">(32)</ref>. However, the role of TSC2 in human skeletal muscle is mainly confined to preclinical models <ref type="bibr" target="#b32">(33)</ref> or RET and feeding studies in YM only <ref type="bibr" target="#b33">(34)</ref>, and precise changes in mTOR expression with aging and/or RET are still largely debated <ref type="bibr" target="#b34">(35)</ref>. It is also worth noting that the absent p-mTOR response to EB-RET in OM was only evident when p-mTOR was expressed against a background of greater total mTOR protein compared with YM (data not reported) as has been reported by others <ref type="bibr" target="#b35">(36)</ref><ref type="bibr" target="#b36">(37)</ref><ref type="bibr" target="#b37">(38)</ref>. In any case, the minor variations in central mediators of mTORC1 expression did not alter downstream S6K, rpS6, and 4EBP-1 phosphorylation and were all similarly increased above resting levels in YM and OM at 1 h after EB-RET. Taken together, these data demonstrate a largely similar anabolic signaling response to high-volume EB-RET in YM and OM, despite some difference in the 48-h iMyoPS, congruent with findings from machine-based RET of similar volume load to the present study <ref type="bibr" target="#b5">(6,</ref><ref type="bibr" target="#b10">11)</ref>. Although we acknowledge some discrepant findings between markers of FIGURE 4-Central and downstream mTOR signaling. Protein expression and phosphorylation levels of Rheb (A), p-Raptor Ser792 /total-Raptor (B), p-mTOR Ser2448 /total mTOR (C), p-AMPK Thr172 /total-AMPKα (D), p-4EBP-1 Thr37/46 /total-4EBP-1 (E), p-P70S6K Thr389 /total-P70S6K (F), p-RPS6 Ser240/ 244 /total-RPS6 (G), p-eIF4E Ser209 /total-eIF4E (H), and p-eEF2 Thr56 /total-eEF2 (I) before (black) and 1 h after (white) elastic band knee extension exercise in younger and older adults. Total protein expression levels are normalized to corresponding total protein loading control (Ponceau S) and phosphorylated protein relative to the total target protein as a proxy of protein activation status. Data are presented as fold change relative to pre-RET young and mean ± SEM for n = 8 subjects per group with individual data points. *Significant time effects. # Significant group effect (P &lt; 0.05).</p><p>anabolic signaling and iMyoPS, it is worthy of note that the acute (1 h) signaling response to RET (with or without feeding) does not always correspond with longer-term changes in MPS and functional outcomes <ref type="bibr" target="#b38">(39)</ref>. Furthermore, the elevation in anabolic signaling may have diminished in OM beyond the 1 h post-RET sampling point, which may have explained the disparate iMyoPS and anabolic signaling findings in the current study.</p><p>Changes in proteolysis and associated signaling events may play an important role in the overall net muscle protein balance to RET <ref type="bibr" target="#b39">(40)</ref>. There is also a suggestion that proteins involved in the ubiquitin-proteasome system (i.e., MuRF1 and atrogin-1) are augmented with aging <ref type="bibr" target="#b40">(41)</ref>. Therefore, we were interested in how EB-RET and aging altered proteolytic signaling expression. The present data suggest that the proteolytic signaling was not altered over 1 h after EB-RET and was largely similar between YM and OM. Although our findings are congruent with earlier work showing no differences in MuRF1 protein expression between YM and OM at rest or after machine-based RET <ref type="bibr" target="#b41">(42)</ref>, others have reported alterations in proteolytic signaling after machine-based RET, albeit with limited differences between younger and older adults <ref type="bibr" target="#b42">(43)</ref>. Any divergence in proteolytic signaling between the present study and that of Fry et al. <ref type="bibr" target="#b42">(43)</ref> could be due to differences training mode/volume or the timeframe and technique of signaling analysis (mRNA expression vs protein expression). It is also possible that whey protein ingestion immediately after EB-RET in the present study may have altered proteolytic signaling <ref type="bibr" target="#b41">(42)</ref> and masked any potential influence of EB-RET and/or aging. Nonetheless, our analysis is confined to protein rather than mRNA expression, making direct comparisons to earlier work challenging. Given the reported discord between acute proteolytic signaling events and dynamic rates of MPB (40), we cannot rule out that MPB was altered by EB-RET and/or aging. However, others have reported that MPB rates were not altered at 24 h post-RET and did not differ between young and older adults <ref type="bibr" target="#b42">(43)</ref>. Interestingly, we did observe age-related alterations in MuRF2 and proteasomal subunits: 19S ATPase and 19S RPT5. Greater temporal resolution through serial biopsy sampling is required to better understand the proteolytic response to exercise stimuli and potential influence of aging and should allied to more advanced techniques to study dynamic proteolytic signaling processes.</p><p>Although the present study sheds important light on the mechanisms of muscle adaptive remodeling with EB-RET, we acknowledge some limitations. First, the measurement of iMyoPS using orally ingested D 2 O does not account for temporal changes in iMyoPS in the earlier recovery phase after EB-RET (e.g., &lt;48 h). Indeed, age-related differences in acute MyoPS have been reported over several hours after machine-based RET using isotopically labeled AA tracer infusion <ref type="bibr" target="#b10">(11,</ref><ref type="bibr" target="#b26">27)</ref>. Nonetheless, compared with acutely measured MyoPS, the measurement of iMyoPS via D 2 O under free-living conditions may better reflect longer-term muscle adaptive remodeling <ref type="bibr" target="#b43">(44)</ref>. We were unable to determine changes in regulatory signaling expression beyond 1 h of recovery from EB-RET and protein feeding, which may have differed between YM and OM, as reported elsewhere <ref type="bibr" target="#b5">(6)</ref>. Furthermore, our study was confined to investigating male populations. We acknowledge that studies in older females may reveal a different pattern of muscle anabolic response to EB-RET to that observed herein, given evidence of sex differences in protein turnover through middle to older age <ref type="bibr" target="#b44">(45)</ref>, and this warrants further exploration given the prevalence of sarcopenia and associated complications in older females <ref type="bibr" target="#b45">(46)</ref>. Finally, it is possible that the standardized dietary protein intake (~1.24 g•kg -1 •d -1 ) may have been insufficient to support maximal iMyoPS stimulation over the 48 h after EB-RET. For example, RET-induced FFM accretion has been reported to increase up to ~1.6 g•kg -1 •d -1 of dietary protein <ref type="bibr" target="#b46">(47)</ref>, and the protein dose requirement for maximal post-RET MyoPS stimulation is greater in OM versus YM <ref type="bibr" target="#b47">(48)</ref>. Furthermore, no difference in rested or post-RET iMyoPS was previously reported between older individuals consuming 0.8 or 1.2 g•kg -1 •d -1 of dietary protein <ref type="bibr" target="#b48">(49)</ref>. Hence, it is possible that dietary protein intake beyond that provided in the present study could have augmented iMyoPS stimulation after EB-RET, particularly in OM. However, it is important to note that dietary protein intake in the present study was standardized at levels typical of community-dwelling OM <ref type="bibr" target="#b16">(17)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>In conclusion, a single bout of high-volume EB-RET significantly increased the signaling phosphorylation of mTORC1 intermediates in YM and OM, with only minor differences between groups. However, despite a robust signaling response in YM and OM, 48-h postexercise rates of iMyoPS were elevated above habitual values in YM only. These findings suggest that a single bout of high-volume EB-RET may promote robust muscle adaptive remodeling in YM, although this response may be blunted in older age. However, further work is required to refine EB-RET strategies for optimal muscle mass outcomes for young and older adults, in both males and females, across the health spectrum.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIGURE 2 -</head><label>2</label><figDesc>FIGURE 2-Integrated myofibrillar protein synthesis rates over 48 h in the habitual state and after a single bout of elastic band resistance exercise in untrained younger (black) and older adults (white) (A). Delta change in integrated myofibrillar protein fractional synthesis rates from habitual to 48 h postexercise (B). Values are presented as mean ± SEM for n = 8 subjects per group with individual data points. *Significant time effect (P &lt; 0.05).</figDesc><graphic coords="6,133.23,523.96,318.69,149.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIGURE 5 -</head><label>5</label><figDesc>FIGURE 5-Proteolytic and catabolic markers. Protein expression levels of MuRF1 (A), MuRF2 (B), MuRF3 (C), atrogin-1 (D), caspase 3 (E), proteasome 19S ATPase subunit (F), proteasome 19S RPT5/S6A subunit (G), and proteasome 20S B5 subunit (H) before (black) and 1 h after (white) elastic band knee extension exercise in younger and older adults. Protein expression levels are normalized to corresponding total protein loading control (Ponceau S). Data are presented as fold change relative to pre-RET for young and mean ± SEM for n = 8 subjects per group with individual data points. # Significant group effect (P &lt; 0.05).</figDesc><graphic coords="9,112.20,37.87,360.68,337.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="7,112.20,37.87,360.69,338.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="8,112.20,37.36,360.68,330.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1 .</head><label>1</label><figDesc>Participants characteristics, exercise characteristics, and dietary intake during experimental testing.</figDesc><table><row><cell>Young (n = 8)</cell><cell>Old (n = 8)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE 2 .</head><label>2</label><figDesc>Mean body water enrichment (APE).Values are presented as mean ± SD. 1 represents mean body water enrichment 24 h after the first dose of deuterated water (D 2 O). 3-5 and 5-7 represent the habitual and postexercise phases, respectively. *Significantly above basal values at 24 h after consumption of the first D 2 O dose (P &lt; 0.05). **OM significantly different from YL (P &lt; 0.01). YM, young males; OM, older males.</figDesc><table><row><cell>Day</cell><cell>YL</cell><cell>OM**</cell></row><row><cell>1*</cell><cell>0.180 ± 0.027</cell><cell>0.210 ± 0.053</cell></row><row><cell>3-5</cell><cell>0.182 ± 0.040</cell><cell>0.228 ± 0.032</cell></row><row><cell>5-7</cell><cell>0.197 ± 0.036</cell><cell>0.245 ± 0.034</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>This work was supported by the <rs type="funder">Medical Research Council</rs> as part of the <rs type="funder">MRC Versus Arthritis Centre for Musculoskeletal Ageing Research</rs> awarded to the <rs type="institution">Universities of Nottingham and Birmingham</rs>. R. N. M. is supported by an <rs type="funder">MRC</rs> <rs type="grantName">Versus Arthritis Centre for Musculoskeletal Ageing Research doctoral studentship</rs>. The authors extend their gratitude to the participants from the <rs type="institution">Birmingham 1000 Elders Initiative</rs> who volunteered their time and effort, without whom this investigation would not be possible.</p><p>The authors declare no conflicting interests. The results of the study are presented clearly, honestly, and without fabrication, falsification, or inappropriate data manipulation. The results of the present study do not constitute endorsement by the <rs type="funder">American College of Sports Medicine</rs>.</p><p>All data were performed and collected at the <rs type="institution">School of Sport, Exercise and Rehabilitation Sciences, University of Birmingham</rs>. R. N. M., P. T. M., and L. B. carried out the conception and design; R. N. M., B. S., J. Q., and P. T. M. performed the experiments and data collection; R. N. M., M. S. B., D. J. W., K. S., and P. J. A. analyzed the data; R. N. M., P. T. M., D. J. W., K. S., P. J. A., and L. B. interpreted the results; R. N. M. drafted the manuscript; R. N. M., P. T. M., and L. B. edited and revised the manuscript. All authors have approved the final version of the manuscript and agree to be accountable for all aspects of the work. All persons designated as authors qualify for authorship, and all those who qualify for authorship are listed.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_MQQccTx">
+					<orgName type="grant-name">Versus Arthritis Centre for Musculoskeletal Ageing Research doctoral studentship</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Sarcopenia: revised European consensus on definition and diagnosis</title>
+		<author>
+			<persName><forename type="first">Cruz-Jentoft Aj</forename><surname>Bahat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Age Ageing</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="16" to="31" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cruz-Jentoft AJ, Bahat G, Bauer J, et al. Sarcopenia: revised European consensus on definition and diagnosis. Age Ageing. 2019;48(1):16-31.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Sarcopenia and mortality among a population-based sample of community-dwelling older adults</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">O</forename><surname>Harhay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Harhay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cachexia Sarcopenia Muscle</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="290" to="298" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brown JC, Harhay MO, Harhay MN. Sarcopenia and mortality among a population-based sample of community-dwelling older adults. J Cachexia Sarcopenia Muscle. 2016;7(3):290-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">One week of bed rest leads to substantial muscle atrophy and induces whole-body insulin resistance in the absence of skeletal muscle lipid accumulation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Dirks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Wall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Van De Valk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2862" to="2875" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dirks ML, Wall BT, van de Valk B, et al. One week of bed rest leads to substantial muscle atrophy and induces whole-body insulin resis- tance in the absence of skeletal muscle lipid accumulation. Diabetes. 2016;65(10):2862-75.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Prevalence and incidence of sarcopenia in the very old: findings from the Newcastle 85+ study</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Dodds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Granic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Davies</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cachexia Sarcopenia Muscle</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="229" to="237" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dodds RM, Granic A, Davies K, et al. Prevalence and incidence of sarcopenia in the very old: findings from the Newcastle 85+ study. J Cachexia Sarcopenia Muscle. 2017;8(2):229-37.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Economic impact of hospitalizations in US adults with sarcopenia</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Arensberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Frailty Aging</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="93" to="99" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goates S, Du K, Arensberg MB, et al. Economic impact of hospitaliza- tions in US adults with sarcopenia. J Frailty Aging. 2019;8(2):93-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Human muscle protein synthesis and breakdown during and after exercise</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Atherton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2026" to="2039" />
+			<date type="published" when="1985">1985. 2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kumar V, Atherton P, Smith K, et al. Human muscle protein synthe- sis and breakdown during and after exercise. J Appl Physiol (1985). 2009;106(6):2026-39.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The intensity and effects of strength training in the elderly</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Scharhag-Rosenberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Carlsohn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dtsch Arztebl Int</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="359" to="364" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mayer F, Scharhag-Rosenberger F, Carlsohn A, et al. The intensity and effects of strength training in the elderly. Dtsch Arztebl Int. 2011;108(21):359-64.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Motivators and barriers for older people participating in resistance training: a systematic review</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Burton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Farrier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lewin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Aging Phys Act</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="311" to="324" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burton E, Farrier K, Lewin G, et al. Motivators and barriers for older people participating in resistance training: a systematic review. J Aging Phys Act. 2017;25(2):311-24.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Effects of elastic band resistance training and nutritional supplementation on muscle quality and circulating muscle growth and degradation factors of institutionalized elderly women: the Vienna Active Ageing Study (VAAS)</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schober-Halper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Oesen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="885" to="897" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hofmann M, Schober-Halper B, Oesen S, et al. Effects of elastic band resistance training and nutritional supplementation on muscle quality and circulating muscle growth and degradation factors of institution- alized elderly women: the Vienna Active Ageing Study (VAAS). Eur J Appl Physiol. 2016;116(5):885-97.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Thera-band® elastic band tension: reference values for physical activity</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Uchida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Nishida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rac</forename><surname>Sampaio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Phys Ther Sci</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1266" to="1271" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Uchida MC, Nishida MM, Sampaio RAC, et al. Thera-band® elastic band tension: reference values for physical activity. J Phys Ther Sci. 2016;28(4):1266-71.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Muscle protein synthetic responses to exercise: effects of age, volume, and intensity</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Atherton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Selby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Genrontol A Biol Sci Med Sci</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1170" to="1177" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kumar V, Atherton PJ, Selby A, et al. Muscle protein synthetic re- sponses to exercise: effects of age, volume, and intensity. J Genrontol A Biol Sci Med Sci. 2012;67(11):1170-7.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Quadriceps muscle electromyography activity during physical activities and resistance exercise modes in younger and older adults</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Martinez-Valdes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Gerontol</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page">110965</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marshall RN, Morgan PT, Martinez-Valdes E, et al. Quadriceps mus- cle electromyography activity during physical activities and resistance exercise modes in younger and older adults. Exp Gerontol. 2020; 136:110965.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Muscle fibre activation is unaffected by load and repetition duration when resistance exercise is performed to task failure</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Morton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Sonne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Farias</forename><surname>Zuniga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">597</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="4601" to="4613" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morton RW, Sonne MW, Farias Zuniga A, et al. Muscle fibre acti- vation is unaffected by load and repetition duration when resistance exercise is performed to task failure. J Physiol. 2019;597(17):4601-13.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Elastic band resistance training influences transforming growth factor-ß receptor I mRNA expression in peripheral mononuclear cells of institutionalised older adults: the Vienna Active Ageing Study (VAAS)</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schober-Halper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Oesen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Immun Ageing</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">22</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schober-Halper B, Hofmann M, Oesen S, et al. Elastic band resistance training influences transforming growth factor-ß receptor I mRNA expression in peripheral mononuclear cells of institutionalised older adults: the Vienna Active Ageing Study (VAAS). Immun Ageing. 2016;13:22.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Comparable rates of integrated myofibrillar protein synthesis between endurance-trained master athletes and untrained older individuals</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mckendry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Shad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Smeuninx</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1084</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McKendry J, Shad BJ, Smeuninx B, et al. Comparable rates of inte- grated myofibrillar protein synthesis between endurance-trained master athletes and untrained older individuals. Front Physiol. 2019;10:1084.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<monogr>
+		<title level="m" type="main">A Biometric Study of Basal Metabolism in Man</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Benedict</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1919">1919</date>
+			<publisher>Carnegie Institution of Washington</publisher>
+			<pubPlace>Washington (DC</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harris JA, Benedict FG. A Biometric Study of Basal Metabolism in Man. Washington (DC): Carnegie Institution of Washington; 1919.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Amount, source and pattern of dietary protein intake across the adult lifespan: a cross-sectional study</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Smeuninx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Greig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Breen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Nutr</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">25</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smeuninx B, Greig CA, Breen L. Amount, source and pattern of di- etary protein intake across the adult lifespan: a cross-sectional study. Front Nutr. 2020;7:25.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">CORP: the use of deuterated water for the measurement of protein synthesis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Price</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1163" to="1176" />
+			<date type="published" when="1985">1985. 2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Miller BF, Reid JJ, Price JC, et al. CORP: the use of deuterated water for the measurement of protein synthesis. J Appl Physiol (1985). 2020; 128(5):1163-76.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The muscle biopsy technique. Historical and methodological considerations</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ekblom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="458" to="461" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ekblom B. The muscle biopsy technique. Historical and methodolog- ical considerations. Scand J Med Sci Sports. 2017;27(5):458-61.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A validation of the application of D(2)O stable isotope tracer techniques for monitoring day-to-day changes in muscle protein subfraction synthesis in humans</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Franchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Brook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">306</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="571" to="579" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilkinson DJ, Franchi MV, Brook MS, et al. A validation of the ap- plication of D(2)O stable isotope tracer techniques for monitoring day-to-day changes in muscle protein subfraction synthesis in humans. Am J Physiol Endocrinol Metab. 2014;306(5):E571-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Synchronous deficits in cumulative muscle protein synthesis and ribosomal biogenesis underlie age-related anabolic resistance to exercise in humans</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Brook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Mitchell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">594</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="7399" to="7417" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brook MS, Wilkinson DJ, Mitchell WK, et al. Synchronous deficits in cumulative muscle protein synthesis and ribosomal biogene- sis underlie age-related anabolic resistance to exercise in humans. J Physiol. 2016;594(24):7399-417.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Reversible Ponceau staining as a loading control alternative to actin in Western blots</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Romero-Calvo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ocón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Martínez-Moya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal Biochem</title>
+		<imprint>
+			<biblScope unit="volume">401</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="318" to="320" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Romero-Calvo I, Ocón B, Martínez-Moya P, et al. Reversible Ponceau staining as a loading control alternative to actin in Western blots. Anal Biochem. 2010;401(2):318-20.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Stain-free total protein staining is a superior loading control to β-actin for Western blots</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Gilda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Gomes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Anal Biochem</title>
+		<imprint>
+			<biblScope unit="volume">440</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="186" to="188" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gilda JE, Gomes AV. Stain-free total protein staining is a superior loading control to β-actin for Western blots. Anal Biochem. 2013; 440(2):186-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">An overview of technical considerations for Western blotting applications to physiological research</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Bass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rankin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="4" to="25" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bass JJ, Wilkinson DJ, Rankin D, et al. An overview of technical considerations for Western blotting applications to physiological re- search. Scand J Med Sci Sports. 2017;27(1):4-25.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Body composition influenced by progressive elastic band resistance exercise of sarcopenic obesity elderly women: a pilot randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Ku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Phys Rehabil Med</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="556" to="563" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huang SW, Ku JW, Lin LF, et al. Body composition influenced by progressive elastic band resistance exercise of sarcopenic obesity el- derly women: a pilot randomized controlled trial. Eur J Phys Rehabil Med. 2017;53(4):556-63.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Effects of elastic band exercise on lean mass and physical capacity in older women with sarcopenic obesity: a randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">C-D</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-Y</forename><surname>Tsauo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">2317</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liao C-D, Tsauo J-Y, Huang SW, et al. Effects of elastic band exer- cise on lean mass and physical capacity in older women with sarco- penic obesity: a randomized controlled trial. Sci Rep. 2018;8(1):2317.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Divergent anabolic response to exercise in young and older adult men-dependency on time frame of measurement</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Reitelseder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bülow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Holm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Gerontol A Biol Sci Med Sci</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="996" to="999" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reitelseder S, Bülow J, Holm L. Divergent anabolic response to ex- ercise in young and older adult men-dependency on time frame of measurement. J Gerontol A Biol Sci Med Sci. 2021;76(6):996-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Trained integrated postexercise myofibrillar protein synthesis rates correlate with hypertrophy in young males and females</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Abou Sawan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hodson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Malowany</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="953" to="964" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abou Sawan S, Hodson N, Malowany JM, et al. Trained integrated postexercise myofibrillar protein synthesis rates correlate with hyper- trophy in young males and females. Med Sci Sports Exerc. 2022; 54(6):953-64.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Skeletal muscle amino acid transporter expression is increased in young and older adults following resistance exercise</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Drummond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Fry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Glynn</forename><forename type="middle">El</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="135" to="142" />
+			<date type="published" when="1985">1985. 2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Drummond MJ, Fry CS, Glynn EL, et al. Skeletal muscle amino acid transporter expression is increased in young and older adults follow- ing resistance exercise. J Appl Physiol (1985). 2011;111(1):135-42.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">LAT1 and SNAT2 protein expression and membrane localization of LAT1 are not acutely altered by dietary amino acids or resistance exercise nor positively associated with leucine or phenylalanine incorporation in human skeletal muscle</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mazzulla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hodson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lees</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">3906</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mazzulla M, Hodson N, Lees M, et al. LAT1 and SNAT2 protein ex- pression and membrane localization of LAT1 are not acutely altered by dietary amino acids or resistance exercise nor positively associated with leucine or phenylalanine incorporation in human skeletal muscle. Nutrients. 2021;13(11):3906.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Novel essential amino acid supplements following resistance exercise induce aminoacidemia and enhance anabolic signaling irrespective of age: a proof-of-concept trial</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Lees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">J</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Webb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">2067</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lees MJ, Wilson OJ, Webb EK, et al. Novel essential amino acid sup- plements following resistance exercise induce aminoacidemia and enhance anabolic signaling irrespective of age: a proof-of-concept trial. Nutrients. 2020;12(7):2067.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Partial inhibition of mTORC1 in aged rats counteracts the decline in muscle mass and reverses molecular signaling associated with sarcopenia</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Joseph</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Jacobs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mol Cell Biol</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="141" to="160" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Joseph GA, Wang SX, Jacobs CE, et al. Partial inhibition of mTORC1 in aged rats counteracts the decline in muscle mass and reverses molecular sig- naling associated with sarcopenia. Mol Cell Biol. 2019;39(19):e00141-19.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Identification of mechanically regulated phosphorylation sites on tuberin (TSC2) that control mechanistic target of rapamycin (mTOR) signaling</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Mcnally</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">292</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="6987" to="6997" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jacobs BL, McNally RM, Kim KJ, et al. Identification of mechani- cally regulated phosphorylation sites on tuberin (TSC2) that control mechanistic target of rapamycin (mTOR) signaling. J Biol Chem. 2017;292(17):6987-97.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Whole egg, but not egg white, ingestion induces mTOR colocalization with the lysosome after resistance exercise</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Abou Sawan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Vliet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dwd</forename><surname>West</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Cell Physiol</title>
+		<imprint>
+			<biblScope unit="volume">315</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="537" to="543" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abou Sawan S, van Vliet S, West DWD, et al. Whole egg, but not egg white, ingestion induces mTOR colocalization with the lysosome af- ter resistance exercise. Am J Physiol Cell Physiol. 2018;315(4):537-43.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Less is more: the role of mTORC1 activation in the progression of ageing-mediated anabolic resistance</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Dungan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">595</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2781" to="2782" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dungan CM. Less is more: the role of mTORC1 activation in the pro- gression of ageing-mediated anabolic resistance. J Physiol. 2017; 595(9):2781-2.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Effect of age on basal muscle protein synthesis and mTORC1 signaling in a large cohort of young and older men and women</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Markofski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Dickinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Drummond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Gerontol</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Markofski MM, Dickinson JM, Drummond MJ, et al. Effect of age on basal muscle protein synthesis and mTORC1 signaling in a large co- hort of young and older men and women. Exp Gerontol. 2015;65:1-7.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The neuromuscular junction is a focal point of mTORC1 signaling in sarcopenia</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Ham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Börsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">4510</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ham DJ, Börsch A, Lin S, et al. The neuromuscular junction is a focal point of mTORC1 signaling in sarcopenia. Nat Commun. 2020;11(1):4510.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Differential response of skeletal muscles to mTORC1 signaling during atrophy and hypertrophy</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Bentzinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Romanino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Skelet Muscle</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">6</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bentzinger CF, Lin S, Romanino K, et al. Differential response of skel- etal muscles to mTORC1 signaling during atrophy and hypertrophy. Skelet Muscle. 2013;3(1):6.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Myofibrillar protein synthesis rates are increased in chronically exercised skeletal muscle despite decreased anabolic signaling</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Langer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>West</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Senden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">7553</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Langer HT, West D, Senden J, et al. Myofibrillar protein synthesis rates are increased in chronically exercised skeletal muscle despite decreased anabolic signaling. Sci Rep. 2022;12(1):7553.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Assessing the role of muscle protein breakdown in response to nutrition and exercise in humans</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Tipton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Gallagher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="53" to="64" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+	<note type="raw_reference">Tipton KD, Hamilton DL, Gallagher IJ. Assessing the role of muscle protein breakdown in response to nutrition and exercise in humans. Sports Med. 2018;48(1 Suppl):53-64.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Skeletal muscle atrophy and the E3 ubiquitin ligases MuRF1 and MAFbx/atrogin-1</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Bodine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Baehr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">307</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="469" to="484" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bodine SC, Baehr LM. Skeletal muscle atrophy and the E3 ubiquitin ligases MuRF1 and MAFbx/atrogin-1. Am J Physiol Endocrinol Metab. 2014;307(6):E469-84.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Ageing has no effect on the regulation of the ubiquitin proteasome-related genes and proteins following resistance exercise</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Stefanetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zacharewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Della Gatta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">30</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stefanetti RJ, Zacharewicz E, della Gatta P, et al. Ageing has no ef- fect on the regulation of the ubiquitin proteasome-related genes and proteins following resistance exercise. Front Physiol. 2014;5:30.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Skeletal muscle autophagy and protein breakdown following resistance exercise are similar in younger and older adults</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Fry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Drummond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Glynn</forename><forename type="middle">El</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Gerontol A Biol Sci Med Sci</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="599" to="607" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fry CS, Drummond MJ, Glynn EL, et al. Skeletal muscle autophagy and protein breakdown following resistance exercise are similar in younger and older adults. J Gerontol A Biol Sci Med Sci. 2013;68(5): 599-607.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Skeletal muscle hypertrophy adaptations predominate in the early stages of resistance exercise training, matching deuterium oxide-derived measures of muscle protein synthesis and mechanistic target of rapamycin complex 1 signaling</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Brook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Mitchell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">FASEB J</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="4485" to="4496" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brook MS, Wilkinson DJ, Mitchell WK, et al. Skeletal muscle hyper- trophy adaptations predominate in the early stages of resistance exer- cise training, matching deuterium oxide-derived measures of muscle protein synthesis and mechanistic target of rapamycin complex 1 sig- naling. FASEB J. 2015;29(11):4485-96.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Sexually dimorphic effect of aging on skeletal muscle protein synthesis</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Reeds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Hall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Sex Differ</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">11</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smith GI, Reeds DN, Hall AM, et al. Sexually dimorphic effect of ag- ing on skeletal muscle protein synthesis. Biol Sex Differ. 2012;3(1):11.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Prevalence of sarcopenia in community-dwelling older people in the UK using the European Working Group on Sarcopenia in Older People (EWGSOP) definition: findings from the Hertfordshire cohort study (HCS)</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Syddall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jameson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Age Ageing</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="378" to="384" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Patel HP, Syddall HE, Jameson K, et al. Prevalence of sarcopenia in community-dwelling older people in the UK using the European Working Group on Sarcopenia in Older People (EWGSOP) definition: findings from the Hertfordshire cohort study (HCS). Age Ageing. 2013; 42(3):378-84.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b46">
+	<analytic>
+		<title level="a" type="main">A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Morton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Mckellar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="376" to="384" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morton RW, Murphy KT, McKellar SR, et al. A systematic review, meta-analysis and meta-regression of the effect of protein supplemen- tation on resistance training-induced gains in muscle mass and strength in healthy adults. Br J Sports Med. 2018;52(6):376-84.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Protein ingestion to stimulate myofibrillar protein synthesis requires greater relative protein intakes in healthy older versus younger men</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Churchward-Venne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Witard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Gerontol A Biol Sci Med Sci</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="57" to="62" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moore DR, Churchward-Venne TA, Witard O, et al. Protein inges- tion to stimulate myofibrillar protein synthesis requires greater rela- tive protein intakes in healthy older versus younger men. J Gerontol A Biol Sci Med Sci. 2015;70(1):57-62.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Leucine supplementation enhances integrative myofibrillar protein synthesis in free-living older men consuming lower-and higher-protein diets: a parallel-group crossover study</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">I</forename><surname>Saddler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Devries</surname></persName>
+		</author>
+		<ptr target="http://www.acsm-msse.org" />
+	</analytic>
+	<monogr>
+		<title level="j">Am J Clin Nutr</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1594" to="1606" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Murphy CH, Saddler NI, Devries MC, et al. Leucine supplementation enhances integrative myofibrillar protein synthesis in free-living older men consuming lower-and higher-protein diets: a parallel-group crossover study. Am J Clin Nutr. 2016;104(6):1594-606. http://www.acsm-msse.org</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

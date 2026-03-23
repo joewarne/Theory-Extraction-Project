@@ -1,0 +1,1292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Influence of Torque and Cadence on Power Output Production in Cyclists</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Peter</forename><surname>Leo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Sports Science</orgName>
+								<orgName type="department" key="dep2">Division of Performance Physiology &amp; Prevention</orgName>
+								<orgName type="institution">University of Innsbruck</orgName>
+								<address>
+									<settlement>Innsbruck</settlement>
+									<country>Austria;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Manuel</forename><surname>Mateo-March</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Faculty of Sport Sciences</orgName>
+								<orgName type="institution">Universidad Europea de Madrid</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country>Spain;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Sport Sciences</orgName>
+								<orgName type="department" key="dep2">Sports Research Center</orgName>
+								<orgName type="institution">Universidad Miguel Hernández de Elche</orgName>
+								<address>
+									<settlement>Alicante</settlement>
+									<country>Spain;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Pedro</forename><forename type="middle">L</forename><surname>Valenzuela</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">Grupo de Investigacio ´n en Actividad física y Salud (PaHerg)</orgName>
+								<orgName type="institution" key="instit2">Instituto de Investigacio ´n Hospital</orgName>
+								<address>
+									<addrLine>12 de Octubre (imas12)</addrLine>
+									<settlement>Madrid</settlement>
+									<country>Spain;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Systems Biology</orgName>
+								<orgName type="institution">University of Alcalá</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country>Spain;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xabier</forename><surname>Muriel</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Faculty of Sport Sciences</orgName>
+								<orgName type="laboratory">Human Performance and Sports Science Laboratory</orgName>
+								<orgName type="institution">University of Murcia</orgName>
+								<address>
+									<settlement>Murcia</settlement>
+									<country>Spain;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alexis</forename><surname>Gandía-Soriano</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Physiology</orgName>
+								<orgName type="laboratory">Biophysics and Medical Physics Group (GIFIME)</orgName>
+								<orgName type="institution">University of Valencia</orgName>
+								<address>
+									<settlement>Valencia</settlement>
+									<country>Spain;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andrea</forename><surname>Giorgi</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="department">Medical and Performance Staff</orgName>
+								<orgName type="institution">Drone Hopper-Androni Giocattoli Professional Cycling Team</orgName>
+								<address>
+									<settlement>Turín</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="laboratory">Complex Operational Unit for Functional Recovery and Reeducation</orgName>
+								<orgName type="institution">Azienda USL Toscana Sud-Est</orgName>
+								<address>
+									<settlement>Arezzo</settlement>
+									<country>Italy;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mikel</forename><surname>Zabala</surname></persName>
+							<affiliation key="aff9">
+								<orgName type="department" key="dep1">Faculty of Sport Sciences</orgName>
+								<orgName type="department" key="dep2">Department of Physical Education and Sport</orgName>
+								<orgName type="institution">University of Granada</orgName>
+								<address>
+									<settlement>Granada</settlement>
+									<country>Spain;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><surname>Barranco-Gil</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Faculty of Sport Sciences</orgName>
+								<orgName type="institution">Universidad Europea de Madrid</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country>Spain;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">I</forename><surname>Ñigo Mujika</surname></persName>
+							<affiliation key="aff10">
+								<orgName type="department" key="dep1">Faculty of Medicine and Nursing</orgName>
+								<orgName type="department" key="dep2">Department of Physiology</orgName>
+								<orgName type="institution">University of the Basque Country</orgName>
+								<address>
+									<settlement>Leioa</settlement>
+									<country>Spain;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff11">
+								<orgName type="department" key="dep1">School of Kinesiology</orgName>
+								<orgName type="department" key="dep2">Faculty of Medicine</orgName>
+								<orgName type="laboratory">Exercise Science Laboratory</orgName>
+								<orgName type="institution">Universidad Finis Terrae</orgName>
+								<address>
+									<settlement>Santiago</settlement>
+									<country key="CL">Chile</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jesús</forename><forename type="middle">G</forename><surname>Pallarés</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Systems Biology</orgName>
+								<orgName type="institution">University of Alcalá</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country>Spain;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alejandro</forename><surname>Lucia</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Faculty of Sport Sciences</orgName>
+								<orgName type="institution">Universidad Europea de Madrid</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country>Spain;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">Grupo de Investigacio ´n en Actividad física y Salud (PaHerg)</orgName>
+								<orgName type="institution" key="instit2">Instituto de Investigacio ´n Hospital</orgName>
+								<address>
+									<addrLine>12 de Octubre (imas12)</addrLine>
+									<settlement>Madrid</settlement>
+									<country>Spain;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mateo</forename><surname>-March</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff12">
+								<orgName type="department">Leo https://orcid.org</orgName>
+								<address>
+									<addrLine>0000-0002-4501-7688 Valenzuela https://orcid.org/0000-0003-1730-3369 Gandía-Soriano https://orcid.org/0000-0001-9940-2023 Giorgi https://orcid.org/0000-0002-9271-8778 Zabala https://orcid.org/0000-0002-8700-0382 Barranco-Gil https://orcid.org/0000-0002-4869-5900 Mujika https://orcid.org/0000-0002-8143-9132 Pallarés https://orcid.org</addrLine>
+									<postCode>0000-0002 6087-1583</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Influence of Torque and Cadence on Power Output Production in Cyclists</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BD6BADE0753AB3A2039EF9FB7FEDB916</idno>
+					<idno type="DOI">10.1123/ijspp.2022-0233</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:11+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>performance</term>
+					<term>professional cycling</term>
+					<term>mean maximal power output</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Purpose: No information is available on the torque/cadence relationship in road cyclists. We aimed to establish whether this relationship differs between cyclists of different performance levels or team roles. Methods: Mean maximal power (MMP) output data from 177 riders were obtained from 2012 to 2021 from training and competitions. Cyclists were categorized according to their performance level (world-tour [WT, n = 68], procontinental [PC, n = 63], or under 23 [U23, n = 46]) and team role (time trialists [n = 12], all-rounders [n = 94], climbers [n = 64], or team leaders [n = 7]</p><p>). Results: A significant interaction effect was found for absolute and relative MMP (P &lt; .001), with higher values in PC than WT for short (5-60 s) efforts and the opposite trend for longer durations. MMP was also greater in PC than in U23 for short efforts (30-60 s), with WT and PC attaining higher MMP than U23 for longer bouts (5-60 min). A significant interaction effect was found for cadence (P = .007, but with no post hoc differences) and absolute (P = .010) and relative torque (P = .002), with PC and WT showing significantly higher torque (all P &lt; .05) than U23 for 5-to 60-minute efforts, yet with no differences between the former 2 performance levels. No interaction effect between team roles was found for cadence (P = .185) or relative torque (P = .559), but a significant interaction effect was found for absolute torque (P &lt; .001), with all-rounders attaining significantly higher values than climbers for 5-second to 5-minute efforts. Conclusions: Differences in MMP between cycling performance levels and rider types are dependent on torque rather than cadence, which might support the role of torque development in performance.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Measuring power output (PO) under field conditions (ie, during racing and training) with mobile power meters provides new opportunities to investigate the performance requirements of cycling. <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref> Indeed, PO has proven to be an important metric for determining race demands and for characterizing rider types and cycling performance levels. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> PO can be simplified as the product of torque and pedaling rate (cadence), but it is not known which of these 2-factor conditions the observed differences between cyclists of different performance levels. Hence, analyzing the relationship between torque and cadence for a given effort duration in elite road cyclists could provide important insights in this respect.</p><p>In cycling, torque is the rotational force applied to the pedals, which is averaged to 1-pedal revolution. <ref type="bibr" target="#b5">6</ref> Few cycle manufacturers provide torque values as a data output source due to intellectual property policies and commercial interests. Consequently, the majority of available research on the torque and cadence relationship has been conducted in the laboratory using force-velocity, <ref type="bibr" target="#b6">7</ref> isokinetic, <ref type="bibr" target="#b7">8</ref> or inertial load <ref type="bibr" target="#b8">9</ref> sprinting-type (&lt; 6 s) efforts. An exception to this is a study by Gardner et al, <ref type="bibr" target="#b9">10</ref> who analyzed both 6-second laboratory and 65-m field-sprinting efforts to compare the torque and cadence relationship under the 2 conditions. Bergin-Taylor et al <ref type="bibr" target="#b10">11</ref> recently investigated the torque-cadence relationship in professional cyclists using different 6-second sprint modalities (seated vs standing and high vs low cadence). Most of the previously mentioned research has focused only on sprint-type efforts, and to our knowledge no study has analyzed the torque and cadence relationship for prolonged effort durations (5 min-1 h). Such information might aid in understanding the decline in PO after accumulated work, <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13</ref> and could be used as a training tool to inform on cyclists' strengths and weaknesses with respect to PO production capabilities. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15</ref> The aim of the present study was to establish whether the torque and cadence relationship for different effort durations differs between cyclists of different performance levels (ie, international cycling federation-licensed world tour [WT], procontinental [PC], and under 23 [U23] level cyclists), or between team roles (ie, allrounders, time trialists, climbers, and team leaders). Based on the existing literature on the observed differences in the PO profile and endurance durability both between cyclists of different performance levels and between different rider types, <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b16">17</ref> we hypothesized that the torque and cadence relationship would also be significantly different, particularly for the longest efforts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study Design and Participants</head><p>The PO data from 177 cyclists were obtained over 9 years (2012-2021), resulting in a total of 161,744 analyzed individual PO files (885 [762] per cyclist), which were obtained from both training sessions and competitions. The cyclists were members of 5 cycling teams of 3 different performance levels (WT, n = 68; PC, n = 63; U23, n = 46). As explained by Valenzuela et al, <ref type="bibr" target="#b3">4</ref> participants were classified attending to their team roles as either all-rounders (n = 94, cyclists who do not especially excel in high mountains or time trials, but can achieve good results in mixed stages [of whom 29, 37, and 28 were classified as WT, PC, and U23]), time trialists (n = 12, who are required to perform maximally in time trials [of whom 7, 3, and 2 were classified as WT, PC, and U23]), climbers (n = 64, who are required to perform maximally in high mountain ascents [of whom 25, 23, and 16 were classified as WT, PC, and U23]), or team leaders (n = 7, capable of winning a Grand Tour [of whom 7, 0, and 0 were classified as WT, PC, and U23]). The protocol complied with the Declaration of Helsinki, and all participants provided written informed consent, and the local Ethics Committee approved the protocol.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Measures</head><p>Participants' height was assessed at the beginning of the study, and body weight was assessed once a week (and entered in the corresponding power meter accordingly) using a standard stadiometer and scale, respectively. PO was registered during all possible training sessions and races using 5 different brands of power meter (Power2-Max Type SNieder; SRAM Red, Quarq; Shimano Dura-Ace FCRC9100-P, Shimano; SRM; and Pioneer SGY-PM910H2, Pioneer). All power meters have previously been used in studies reported in the scientific literature, <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> and all were factory calibrated at least once per season. A zero-offset was performed before each session in accordance with the manufacturers' instructions. PO data were checked for potential spikes using specific software (WKO5 Build 576, TrainingPeaks LLC) and manually corrected when necessary. When erroneous outliers were recorded, data were manually corrected using the Data Spike ID and FIX chart. If the number of outliers was greater than 5% of the total data to be analyzed, the value was eliminated, and the data were considered missing.</p><p>We registered the highest PO values (mean maximal power [MMP], expressed both in absolute terms and relative to cyclists' body mass) obtained for efforts lasting between 5 seconds and 60 minutes. Efforts of longer durations were removed from analyses to ensure that we only recorded maximal efforts. For each effort duration, we computed torque (expressed both in absolute units and relative to cyclists' body mass) and cadence (in rpm) from PO values using the following equation: Torque = PO ÷ (cadence × π ÷ 30), as explained by Gardner et al. <ref type="bibr" target="#b9">10</ref> All cyclists used a standard crank length of 170 to 175 mm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical Analysis</head><p>Data are shown as mean (SD). Normality was tested using the Kolmogorov-Smirnov test, and homoscedasticity was assessed using Levene test. Differences between cyclists' performance levels and team roles for descriptive characteristics (eg, age and weight) were assessed with a 1-way analysis of variance (AN-OVA). Differences between cyclists' performance levels and team roles for MMP, cadence, and torque were assessed using 2-way mixed ANOVA, with effort duration as the within-subject factor and performance level or team role as the between-subject factor. To minimize the risk of statistical type I errors, post hoc comparisons were only performed (using the Bonferroni test) when a significant main group (ie, performance level or team role, for the 1-way ANOVA) or group (performance level or team role) by effort duration interaction effect (for the 2-way mixed ANOVA) was found. Statistical analyses were conducted using SPSS (version 23.0) statistical software setting the significance level at 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Differences Between Performance Levels</head><p>No significant differences between performance levels were found for height, weight, or body mass index. WT cyclists were significantly older than PC and U23 peers, with significant differences also found between the latter groups (Table <ref type="table" target="#tab_0">1</ref>).  </p><p>Abbreviations: MMP, mean maximal power; PC, procontinental; U23, under 23; WT, world tour. Data are shown as mean (SD).</p><p>Significant differences (all P &lt; .05): *Significant differences with WT. #Significant differences with PC. †Significant differences with U23.</p><p>A significant interaction effect between performance levels was found for MMP expressed both in absolute (P &lt; .001) and relative (P = .001) values (Table <ref type="table" target="#tab_1">2</ref>). Absolute and relative MMP achieved was significantly higher for PC cyclists than for WT peers for shortduration efforts (5 s-1 min). The opposite trend was observed with increasing effort durations, with both performance levels achieving similar absolute and relative MMP for efforts lasting 5 to 30 minutes, and with WT cyclists achieving significantly higher MMP than PC cyclists for 60-minute efforts. MMP achieved was also significantly higher for PC cyclists than for U23 cyclists for short-duration efforts (30 s and 1 min), with both professional groups attaining higher MMP than U23 cyclists for longer efforts (5-60 min).</p><p>Analysis of the PO components showed a significant interaction effect for cadence (P = .007), although post hoc analyses revealed a significantly higher cadence in WT cyclists than in PC cyclists only for 60-minute efforts (Table <ref type="table" target="#tab_1">2</ref>). A significant interaction effect was also found for torque expressed both in absolute (P = .010) and relative (P = .002) units (Figures <ref type="figure" target="#fig_0">1</ref> and <ref type="figure" target="#fig_1">2</ref>, respectively). Overall, PC cyclists attained the highest absolute and relative torque values for short-duration efforts, with significantly higher torque values than both U23 and WT cyclists for 30-second and 1-minute efforts. Moreover, both PC and WT cyclists attained significantly higher absolute and relative torque values than U23 cyclists for longer efforts (most efforts ranging between 5 and 60 min), with no differences between the former 2 performance levels.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Differences Between Team Roles</head><p>Significant differences between team roles were found for all descriptive variables. Notably, time trialists and all-rounders were the heaviest and tallest cyclists (with a significantly higher weight and height than both climbers and team leaders), and both team roles had a significantly higher body mass index than climbers (Table <ref type="table" target="#tab_0">1</ref>). A significant interaction effect between team roles was found for MMP expressed both in absolute (P &lt; .001) and relative (P = .001) units (Table <ref type="table" target="#tab_2">3</ref>). All-rounders attained significantly higher absolute MMP than climbers for all effort durations, as well as higher absolute MMP than team leaders for the shortest effort duration (5 s). Time trialists also attained higher absolute MMP than climbers for the longest efforts (60 min). The opposite trend was observed for relative MMP, as both climbers and, particularly, team leaders attained higher relative MMP than both all-rounders and time trialists for efforts lasting between 5 and 60 minutes.</p><p>No significant interaction effect between team roles was found for cadence (P = .185; Table <ref type="table" target="#tab_1">2</ref>) or torque expressed in relative units (P = .559; Figure <ref type="figure" target="#fig_2">3</ref>), but a significant interaction effect was found for torque expressed in absolute units (P &lt; .001; Figure <ref type="figure" target="#fig_3">4</ref>). Post hoc analyses revealed that all-rounders attained significantly higher absolute torque than climbers for efforts lasting between 5 seconds and 5 minutes, with no more differences between team roles.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Our findings reveal differences in MMP between cyclists based on performance levels or team roles, which can be explained by differences in absolute and relative torque but not in cadence.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Riders' Performance Level or Team Role</head><p>Our findings of higher absolute and relative MMP in WT and PC cyclists compared with U23 ones are in line with previous studies. <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b19">20</ref> In turn, absolute and relative MMP differed between WT and PC depending on effort duration, with longer efforts favoring the latter. Overall, these findings might highlight that differences in the absolute and relative power profile between PC and WT groups might be explained, at least partly, by different team roles and therefore event-specific specialization, with a previous study by Sanders et al <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b20">21</ref> indeed reporting a differing power profile between  </p><p>) 5 min 477 (40) ‡ 6.8 (0.4) ‡ § 85 (8) 471 (42) 6.7 (0.6) ‡ § 86 (7) 447 (36) 7.3 (0.5) 87 (6) 457 (21) 7.4 (0.3) 81 (6) 10 min 434 (37) ‡ 6.2 (0.5) ‡ § 87 (7) 437 (38) 6.2 (0.7) ‡ § 89 (7) 412 (36) 6.7 (0.5) 86 (7) 426 (19) 6.9 (0.3) 83 (6) 20 min 402 (36) ‡ 5.8 (0.5) ‡ § 86 (7) 411 (42) 5.8 (0.7) § 90 (7) 383 (31) 6.2 (0.4)$ 86 (7) 398 (13) 6.4 (0.2) 85 (5) 30 min 378 (37) ‡ 5.4 (0.5) ‡ § 87 (7) 383 (43) 5.4 (0.8) § 89 (7) 361 (33) 5.8 (0.5)$ 87 (6) 376 (14) 6.1 (0.3) 86 (6) 1 hr 342 (31) ‡ 4.9 (0.4) ‡ § 87 (7) 354 (48) ‡ 5.0 (0.8) § 88 (7) 326 (32) 5.3 (0.4)$ 85 (6) 346 (8) 5.6 (0.2) 87</p><p>Abbreviation: MMP, mean maximal power. Note: Data are shown as mean (SD).</p><p>Significant differences (all P &lt; .05): ‡Differences with climbers. §Differences with team leaders. $Differences with all-rounders.</p><p>stage types and performance level categories. On the other hand, improvements in the absolute or relative power profile only occur on the torque production capability and not on the cadence side proportion. Indeed, PC and WT cyclists attained significantly higher absolute and relative torque values than U23 cyclists for most efforts ranging between 5 and 60 minutes, with no differences between the former 2 performance levels, and with no differences in cadence between the 3 performance levels. In this regard, further improvements in absolute torque are difficult to achieve once an elite cycling level has been reached, so that optimization in body composition is needed to increase relative torque values. In this effect, Leo et al recently reported no significant differences in absolute MMP values (for efforts lasting 2-12 min) throughout the season in U23 cyclists whereas, due to decreases in cyclists' body weight during the season, relative 12-minute MMP was higher in late season compared with early season. <ref type="bibr" target="#b21">22</ref> For all effort durations, all-rounders and time trialists recorded the highest absolute MMP profile, whereas team leaders had the highest relative MMP profile. These findings also align with previous research, <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b23">24</ref> which found differences in the MMP between not only different cycling performance levels, but also team roles, or typologies. Although previous research reported differences in cadence profiles between flat and uphill stages and between different ascent categories (first vs second category), <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b25">26</ref> cadence profiles in our study did not differ based on riders' performance level or team role. As PO is a product of pedaling velocity (cadence) and force (torque), the differences accounted in PO can only be explained by differences in torque production. For this reason, understanding the PO production capability based on the torque and cadence relationship might also help to identify cyclists' strengths and weaknesses. Improvements in endurance "durability" might only be achieved through increasing the torque rather than cadence.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Torque and Cadence Time Relationship</head><p>To the best of our knowledge, this is the first study investigating the torque and cadence relationship in elite-/international-level road cyclists. Gardner et al 10 reported that maximum torque values derived from laboratory and field tests can be used interchangeably for sprint-type efforts (&lt; 6 s); however, most of the torque and cadence relationship research has been examined under laboratory conditions or in track cyclists. <ref type="bibr" target="#b26">27</ref> Indeed, previous research <ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref> has frequently used laboratory-based isokinetic tests (eg, knee extension) for measuring maximum torque, to determine peripheral or central fatigue mechanisms for different endurance sports (eg, cycling and running). Similar to the phase transition in the critical power concept between steadystate and nonsteady state exercise, <ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b31">32</ref> the same physiological responses could be found with critical torque during maximum isokinetic knee extensor exercise. <ref type="bibr" target="#b28">29</ref> These findings imply that maintaining torque production capability is directly linked to whole-body exercise perturbations. Several recent studies have reported a decline in the MMP profile after accumulated work and intensity for professional road cyclist, 2,12-15 and so analyzing the torque and cadence relationship in conjunction with the MMP profiles might help to better understand the underlying mechanisms of endurance "durability"--that is, the ability to attenuate the deterioration in physiological (eg, increased heart rate) or performance (eg, reduced PO) indicators under fatigue conditions. <ref type="bibr" target="#b32">33</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limitations</head><p>We are aware of the descriptive nature of the study, which can be considered a study limitation. Also, analyzing the torque and cadence relationship through controlled laboratory tests might have yielded more comprehensive insights on this topic. In turn, the large sample size analyzed and the high level of the included cyclists--including professional teams from multiple countries-should be considered as a major strength. Moreover, despite the limitations of analyzing field-based PO data, we set strict methodological procedures (eg, calibration of power meters and data filtering) to ensure high data quality. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Practical Applications</head><p>The present findings can help practitioners to better determine PO production capabilities based on the torque-time and cadence-time relationship for different rider types and performance levels (U23, PT, and WT). This information might be beneficial to improve durability by placing emphasis on the maintenance of torque production capabilities for short (1 s-5 min) and long (5-60 min) duration efforts. Although more research is needed in this regard, increases in torque production capabilities might be achieved by including strength training strategies (eg, off-bike resistance training or on-bike isometric cycling) <ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref> or biomechanical adjustments (eg, adopting crank length and pedal speed). <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b35">36</ref> However, given that scientific evidence for these strategies is currently not strong enough to provide clear recommendations, future research should investigate how different strategies can improve torque production capabilities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>The findings of the present study indicate that differences in MMP between performance levels and team roles are solely dependent on torque values rather than on variations in cadence. For this reason, emphasis should be placed on torque production development, as the best riders seem able to attain higher torque values on longduration efforts.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 -</head><label>1</label><figDesc>Figure 1 -Differences in absolute torque between the different cycling performance levels. PC indicates procontinental; U23, under 23; WT, world tour. *Significant differences (all P &lt; .05).</figDesc><graphic coords="4,79.94,270.94,452.16,437.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 -</head><label>2</label><figDesc>Figure 2 -Differences in relative torque between the different cycling performance levels. PC indicates procontinental; U23, under 23; WT, world tour. *Significant differences (all P &lt; .05).</figDesc><graphic coords="5,79.94,64.74,452.16,443.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 -</head><label>3</label><figDesc>Figure 3 -Differences in absolute torque between the different team roles. *Significant differences between all-rounders and climbers (all P &lt; .05).</figDesc><graphic coords="7,79.94,64.74,452.16,430.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 -</head><label>4</label><figDesc>Figure 4 -Differences in relative torque between the different team roles. No significant differences were found.</figDesc><graphic coords="8,79.94,64.74,452.16,436.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Descriptive Characteristics of Study Participants (N = 177) According to Their Performance Level and Team Role</figDesc><table><row><cell>Performance level</cell><cell>Age, y</cell><cell>Weight, kg</cell><cell>Height, cm</cell><cell>Body mass index, kg/m 2</cell></row><row><cell>WT (n = 68)</cell><cell>32.5 (5.4) # †</cell><cell>66.7 (6.0)</cell><cell>179 (7)</cell><cell>20.8 (1.2)</cell></row><row><cell>PC (n = 63)</cell><cell>25.9 (3.8)*  †</cell><cell>66.0 (6.0)</cell><cell>177 (6)</cell><cell>20.9 (1.3)</cell></row><row><cell>U23 (n = 46)</cell><cell>20.1 (1.5)*</cell><cell>67.2 (7.2)</cell><cell>180 (6)</cell><cell>19.8 (4.5)</cell></row><row><cell>Team role</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>All-rounders (n = 94)</cell><cell>25.8 (6.0)  §</cell><cell>69.6 (5.5)  ‡ §</cell><cell>181 (6)  ‡ §</cell><cell>21.3 (1.3)  ‡</cell></row><row><cell>Time trialists (n = 12)</cell><cell>29.4 (7.5)</cell><cell>70.9 (6.4)  ‡ §</cell><cell>182 (6)  ‡ §</cell><cell>21.5 (1.0)  ‡</cell></row><row><cell>Climbers (n = 64)</cell><cell>27.5 (6.5)</cell><cell>61.8 (4.0) $ ¶</cell><cell>176 (5) $ ¶</cell><cell>19.4 (3.7) $ ¶</cell></row><row><cell>Team leaders (n = 7)</cell><cell>32.7 (5.2)</cell><cell>62.0 (2.5)</cell><cell>174 (5)</cell><cell>20.5 (0.7)</cell></row></table><note><p>Abbreviations: PC, procontinental; U23, under 23; WT, world tour. Data are shown as mean (SD). Significant differences (all P &lt; .05): *Differences with WT. #Differences with PC. † Differences with U23. ‡ Differences with climbers. § Differences with team leaders. $ Differences with all-rounders. ¶ Differences with time trialists.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Differences in MMP Values and Cadence Between the Different Performance Levels</figDesc><table><row><cell></cell><cell></cell><cell>WT</cell><cell></cell><cell></cell><cell>PC</cell><cell></cell><cell></cell><cell>U23</cell><cell></cell></row><row><cell>Effort duration</cell><cell>MMP, W</cell><cell>MMP, W/kg</cell><cell>Cadence, rpm</cell><cell>MMP, W</cell><cell>MMP, W/kg</cell><cell>Cadence, rpm</cell><cell>MMP, W</cell><cell>MMP, W/kg</cell><cell>Cadence, rpm</cell></row><row><cell>5 s</cell><cell>1173 (159)</cell><cell>17.6 (1.7)#</cell><cell>102 (12)</cell><cell>1220 (165)</cell><cell>18.5 (2.0)</cell><cell>105 (9)</cell><cell>1238 (171)</cell><cell>18.4 (1.6)</cell><cell>104 (9)</cell></row><row><cell>30 s</cell><cell>808 (109)#</cell><cell>12.1 (1.3)#</cell><cell>91 (7)</cell><cell>866 (110) †</cell><cell>13.1 (1.2) †</cell><cell>93 (8)</cell><cell>815 (104)</cell><cell>12.2 (1.3)</cell><cell>(7)</cell></row><row><cell>1 min</cell><cell>650 (82)#</cell><cell>9.8 (1.2)#</cell><cell>88 (6)</cell><cell>692 (95)</cell><cell>10.5 (1.1) †</cell><cell>87 (7)</cell><cell>658 (71)</cell><cell>9.8 (1.1)</cell><cell>(7)</cell></row><row><cell>5 min</cell><cell>474 (334) †</cell><cell>7.1 (0.5) †</cell><cell>86 (7)</cell><cell>469 (46) †</cell><cell>7.1 (0.5) †</cell><cell>85 (8)</cell><cell>447 (34)</cell><cell>6.7 (0.4)</cell><cell>(7)</cell></row><row><cell>10 min</cell><cell>439 (30) †</cell><cell>6.6 (0.5) †</cell><cell>87 (6)</cell><cell>427 (38) †</cell><cell>6.5 (0.5) †</cell><cell>85 (7)</cell><cell>404 (38)</cell><cell>6.0 (0.5)</cell><cell>(7)</cell></row><row><cell>20 min</cell><cell>407 (30) †</cell><cell>6.1 (0.5) †</cell><cell>88 (6)</cell><cell>397 (37) †</cell><cell>6.0 (0.5) †</cell><cell>85 (8)</cell><cell>376 (32)</cell><cell>5.6 (0.4)</cell><cell>(7)</cell></row><row><cell>30 min</cell><cell>386 (30) †</cell><cell>5.8 (0.5) †</cell><cell>88 (6)</cell><cell>372 (37) †</cell><cell>5.7 (0.5) †</cell><cell>86 (7)</cell><cell>352 (36)</cell><cell>5.3 (0.4)</cell><cell>(8)</cell></row><row><cell>1 h</cell><cell>352 (30)# †</cell><cell>5.3 (0.5)# †</cell><cell>88 (6)#</cell><cell>334 (26) †</cell><cell>5.1 (0.3) †</cell><cell>85 (6)</cell><cell>318 (35)</cell><cell>4.7 (0.4)</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Differences in MMP Values and Cadence Between the Different Team Roles</figDesc><table><row><cell></cell><cell></cell><cell>All-rounders</cell><cell></cell><cell></cell><cell>Time trialists</cell><cell></cell><cell></cell><cell>Climbers</cell><cell></cell><cell></cell><cell>Team leaders</cell><cell></cell></row><row><cell>Effort</cell><cell></cell><cell>MMP,</cell><cell>Cadence,</cell><cell></cell><cell>MMP,</cell><cell>Cadence,</cell><cell></cell><cell></cell><cell>Cadence,</cell><cell></cell><cell></cell><cell>Cadence,</cell></row><row><cell>duration</cell><cell>MMP, W</cell><cell>W/kg</cell><cell>rpm</cell><cell>MMP, W</cell><cell>W/kg</cell><cell>rpm</cell><cell>MMP, W</cell><cell>MMP, W/kg</cell><cell>rpm</cell><cell>MMP, W</cell><cell>MMP, W/kg</cell><cell>rpm</cell></row><row><cell>5 s</cell><cell>1285 (155) ‡ §</cell><cell>18.5 (1.9)</cell><cell>105 (10)</cell><cell>1212 (120)</cell><cell>17.1 (1.5)</cell><cell>103 (14)</cell><cell>1103 (133)</cell><cell>17.9 (1.7)</cell><cell>101 (9)</cell><cell>1104</cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Brought to you by STELLENBOSCH UNIVERSITY | Unauthenticated | Downloaded 06/20/23 03:11 PM UTC</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>IJSPP Vol. 18, No. 1, 2023 Brought to you by STELLENBOSCH UNIVERSITY | Unauthenticated | Downloaded 06/20/23 03:11 PM UTC</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Physical demands and performance indicators in male professional cyclists during a grand tour: worldtour versus proteam category</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Muriel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Valenzuela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mateo</forename><forename type="middle">-</forename><surname>March</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pallarés</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Lucia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barranco-Gil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2021-0082</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="22" to="30" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muriel X, Valenzuela PL, Mateo-March M, Pallarés JG, Lucia A, Barranco-Gil D. Physical demands and performance indicators in male professional cyclists during a grand tour: worldtour versus proteam category. Int J Sport Physiol Perform. 2021;17(1):22-30. doi:10.1123/ijspp.2021-0082</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Power profiling, workload characteristics and race performance of U23 and professional cyclists during the multistage race tour of the Alps</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Leo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Spragg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mujika</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lawley</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2020-0381</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leo P, Spragg J, Simon D, Mujika I, Lawley SJ. Power profiling, workload characteristics and race performance of U23 and profes- sional cyclists during the multistage race tour of the Alps. Int J Sport Physiol Perform. 2021;16(8):1-7. doi:10.1123/ijspp.2020-0381</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Physical demands and power profile of different stage types within a cycling grand tour</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heijboer</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17461391.2018.1554706</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">30589390</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sanders D, Heijboer M. Physical demands and power profile of different stage types within a cycling grand tour. Eur J Sport Sci. 2019;19(6):736-744. PubMed ID: 30589390 doi:10.1080/17461391. 2018.1554706</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The record power profile of male professional cyclists: normative values obtained from a large database</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Valenzuela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Muriel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Van Erp</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2021-0263</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="701" to="710" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Valenzuela P, Muriel X, van Erp T, et al. The record power profile of male professional cyclists: normative values obtained from a large database. Int J Sport Physiol Perform. 2022;17(5):701-710. doi:10. 1123/ijspp.2021-0263</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Maintaining power output with accumulating levels of work done is a key determinant for success in professional cycling</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Van Erp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lamberts</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0000000000002656</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1903" to="1910" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">van Erp T, Sanders D, Lamberts RP. Maintaining power output with accumulating levels of work done is a key determinant for success in professional cycling. Med Sci Sport Exerc. 2021;53(9):1903-1910. doi:10.1249/MSS.0000000000002656</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Effects on the crank torque profile when changing pedalling cadence in level ground and uphill road cycling</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Bertucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Grappe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Girard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Betik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Rouillon</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbiomech.2004.05.037</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1003" to="1010" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bertucci W, Grappe F, Girard A, Betik A, Rouillon JD. Effects on the crank torque profile when changing pedalling cadence in level ground and uphill road cycling. J Biomech. 2005;38(5):1003-1010. doi:10. 1016/j.jbiomech.2004.05.037</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">All out anaerobic capacity tests on cycle ergometers</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Vandewalle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Peres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Heller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Monod</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF02335934</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="222" to="229" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vandewalle H, Peres G, Heller J, Monod H. All out anaerobic capacity tests on cycle ergometers. Eur J Appl Physiol. 1985;54(2): 222-229. doi:10.1007/BF02335934</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Maximum leg force and power output during short-term dynamic exercise</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Sargeant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hoinville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Young</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jappl.1981.51.5.1175</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">7298457</biblScope>
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sargeant AJ, Hoinville E, Young A. Maximum leg force and power output during short-term dynamic exercise. J Appl Physiol. 1981; 51(5):1175-1182. PubMed ID: 7298457 doi:10.1152/jappl.1981.51. 5.1175</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Inertial-load method determines maximal cycling power in a single exercise bout</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Coyle</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/00005768-199711000-00018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1505" to="1512" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martin J, Wagner B, Coyle E. Inertial-load method determines maxi- mal cycling power in a single exercise bout. Med Sci Sport Exerc. 1997;29(11):1505-1512. doi:10.1097/00005768-199711000-00018</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Maximal torque-and power-pedaling rate relationships for elite sprint cyclists in laboratory and field tests</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Jenkins</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-007-0498-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">17562069</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gardner AS, Martin JC, Martin DT, Barras M, Jenkins DG. Maximal torque-and power-pedaling rate relationships for elite sprint cyclists in laboratory and field tests. Eur J Appl Physiol. 2007;101(3):287- 292. PubMed ID: 17562069 doi:10.1007/s00421-007-0498-4</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Field-testing to determine powercadence and torque-cadence profiles in professional road cyclists: sprint profiling of professional cyclists</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Deckert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sanders</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17461391.2022.2095307</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Taylor K, Deckert S, Sanders D. Field-testing to determine power- cadence and torque-cadence profiles in professional road cyclists: sprint profiling of professional cyclists. Eur J Sport Sci. 2022;1:1-9. doi:10.1080/17461391.2022.2095307</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Durability and repeatability of professional cyclists during a grand tour</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Muriel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mateo</forename><forename type="middle">-</forename><surname>March</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Valenzuela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename></persName>
+		</author>
+		<idno type="DOI">10.1080/17461391.2021.1987528</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muriel X, Mateo-March M, Valenzuela PL, et al. Durability and repeatability of professional cyclists during a grand tour. Eur J Sport Sci. 2021;1:1-8. doi:10.1080/17461391.2021.1987528</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The record power profile of male professional cyclists: fatigue matters</title>
+		<author>
+			<persName><forename type="first">Mateo-March</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Valenzuela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Muriel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2021-0403</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mateo-March M, Valenzuela P, Muriel X, et al. The record power profile of male professional cyclists: fatigue matters. Int J Sport Physiol Perform. 2022;1:1-6. doi:10.1123/ijspp.2021-0403</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The relationship between training characteristics and durability in professional cyclists across a competitive season</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Spragg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Leo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Swart</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17461391.2022.2049886</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Spragg J, Leo P, Swart J. The relationship between training character- istics and durability in professional cyclists across a competitive season. Eur J Sport Sci. 2022;1:1-10. doi:10.1080/17461391.2022.2049886</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The importance of &quot;durability&quot; in the physiological profiling of endurance athletes</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Maunder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Seiler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mildenhall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Kilding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Plews</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40279-021-01459-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1619" to="1628" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maunder E, Seiler S, Mildenhall MJ, Kilding AE, Plews DJ. The importance of &quot;durability&quot; in the physiological profiling of endurance athletes. Sports Med. 2021;51(8):1619-1628. doi:10.1007/s40279- 021-01459-0</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Quantification of maximal power output in welltrained cyclists</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Wackwitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Minahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Du</forename><surname>Plessis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Bellinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2020.1805251</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="81" to="90" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wackwitz TA, Minahan CL, King T, Du Plessis C, Andrews MH, Bellinger PM. Quantification of maximal power output in well- trained cyclists. J Sports Sci. 2020;39(1):81-90. doi:10.1080/ 02640414.2020.1805251</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Cadence-power-relationship during decisive mountain ascents at the Tour de France</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vogt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Roecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">O</forename><surname>Schumacher</surname></persName>
+		</author>
+		<idno type="DOI">10.1055/s-2007-965353</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Med</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="244" to="250" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vogt S, Roecker K, Schumacher YO, et al. Cadence-power-relation- ship during decisive mountain ascents at the Tour de France. Int J Sport Med. 2008;29(3):244-250. doi:10.1055/s-2007-965353</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Caveats and recommendations to assess the validity and reliability of cycling power meters: a systematic scoping review</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bouillod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Soto-Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Grappe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Bertucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brunet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cassirame</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/s22010386</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sensors</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">386</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bouillod A, Soto-Romero G, Grappe F, Bertucci W, Brunet E, Cassirame J. Caveats and recommendations to assess the validity and reliability of cycling power meters: a systematic scoping review. Sensors. 2022;22(1):386. doi:10.3390/s22010386</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Accuracy of cycling power meters against a mathematical model of treadmill cycling</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Maier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Schmid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Wehrlin</surname></persName>
+		</author>
+		<idno type="DOI">10.1055/s-0043-102945</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Med</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="454" to="461" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maier T, Schmid L, Müller B, Steiner T, Wehrlin JP. Accuracy of cycling power meters against a mathematical model of treadmill cycling. Int J Sport Med. 2017;38(6):454-461. doi:10.1055/s-0043-102945</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Cross-sectional differences in race demands between junior, under 23, and professional road cyclists</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gallo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Leo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mateo</forename><forename type="middle">-</forename><surname>March</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2021-0256</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Perform Anal</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="450" to="457" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gallo G, Leo P, Mateo-March M, et al. Cross-sectional differences in race demands between junior, under 23, and professional road cyclists. Int J Sport Perform Anal. 2022;17(3):450-457. doi:10.1123/ ijspp.2021-0256</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The physical demands and power profile of professional men&apos;s cycling races: an updated review</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Van Erp</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2020-0508</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="12" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sanders D, van Erp T. The physical demands and power profile of professional men&apos;s cycling races: an updated review. Int J Sport Physiol Perform. 2021;16(1):3-12. doi:10.1123/ijspp.2020-0508</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The record power profile to assess performance in elite cyclists</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pinot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Grappe</surname></persName>
+		</author>
+		<idno type="DOI">10.1055/s-0031-1279773</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Med</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="839" to="844" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pinot J, Grappe F. The record power profile to assess performance in elite cyclists. Int J Sport Med. 2011;32(11):839-844. doi:10.1055/s- 0031-1279773</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A six-year monitoring case study of a top-10 cycling grand tour finisher</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pinot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Grappe</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2014.969296</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="907" to="914" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pinot J, Grappe F. A six-year monitoring case study of a top-10 cycling grand tour finisher. J Sport Sci. 2015;33(9):907-914. doi:10. 1080/02640414.2014.969296</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Cycling power output produced during flat and mountain stages in the Giro d&apos;Italia: a case study</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vogt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">O</forename><surname>Schumacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blum</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640410601001632</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1299" to="1305" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vogt S, Schumacher YO, Blum A, et al. Cycling power output produced during flat and mountain stages in the Giro d&apos;Italia: a case study. J Sport Sci. 2007;25(12):1299-1305. doi:10.1080/02640 410601001632</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Power output during the Tour de France</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vogt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">O</forename><surname>Schumacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Roecker</surname></persName>
+		</author>
+		<idno type="DOI">10.1055/s-2007-964982</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Med</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="756" to="761" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vogt S, Schumacher YO, Roecker K, et al. Power output during the Tour de France. Int J Sport Med. 2007;28(9):756-761. doi:10.1055/s- 2007-964982</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Torque and power-velocity relationships in cycling: relevance to track sprint performance in world-class cyclists</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dorel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hautier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Rambaud</surname></persName>
+		</author>
+		<idno type="DOI">10.1055/s-2004-830493</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Med</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="739" to="746" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dorel S, Hautier C, Rambaud O, et al. Torque and power-velocity relationships in cycling: relevance to track sprint performance in world-class cyclists. Int J Sport Med. 2005;26(9):739-746. doi:10. 1055/s-2004-830493</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Critical torque, estimated time to exhaustion, and anaerobic work capacity from linear and nonlinear mathematical models</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hendrix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Housh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mielke</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0b013e3181ab8cc0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2185" to="2190" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hendrix C, Housh T, Mielke M, et al. Critical torque, estimated time to exhaustion, and anaerobic work capacity from linear and nonlinear mathematical models. Med Sci Sport Exerc. 2009;41(12):2185-2190. doi:10.1249/MSS.0b013e3181ab8cc0</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Physiological evidence that the critical torque is a phase transition, not a threshold</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pethick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Winter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burnley</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0000000000002389</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2390" to="2401" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pethick J, Winter SL, Burnley M. Physiological evidence that the critical torque is a phase transition, not a threshold. Med Sci Sport Exerc. 2020;52(11):2390-2401. doi:10.1249/MSS.0000000000002389</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Disparate mechanisms of fatigability in response to prolonged running versus cycling of matched intensity and duration</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brownstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Metra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pastor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Faricier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Millet</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0000000000002863</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="872" to="882" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brownstein C, Metra M, Pastor F, Faricier R, Millet G. Disparate mechanisms of fatigability in response to prolonged running versus cycling of matched intensity and duration. Med Sci Sport Exerc. 2022;54(5):872-882. doi:10.1249/MSS.0000000000002863</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Muscle metabolic responses to exercise above and below the &quot;critical power&quot; assessed using 31P-MRS</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Wilkerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dimenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fulford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Poole</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/ajpregu.00731.2007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">294</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="585" to="593" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jones AM, Wilkerson DP, DiMenna F, Fulford J, Poole DC. Muscle metabolic responses to exercise above and below the &quot;critical power&quot; assessed using 31P-MRS. Am J Physiol. 2008;294(2):585-593. doi:10.1152/ajpregu.00731.2007</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Metabolic and respiratory profile of the upper limit for prolonged exercise in man</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Poole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Whipp</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00140138808966766</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ergon</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1265" to="1279" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Poole DC, Ward SA, Gardner GW, Whipp BJ. Metabolic and respira- tory profile of the upper limit for prolonged exercise in man. Ergon. 1988;31(9):1265-1279. doi:10.1080/00140138808966766</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Cycling-specific isometric resistance training improves peak power output in elite sprint cyclists</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kordi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Folland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goodall</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sms.13742</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sport</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1594" to="1604" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kordi M, Folland J, Goodall S, et al. Cycling-specific isometric resis- tance training improves peak power output in elite sprint cyclists. Scand J Med Sci Sport. 2020;30(9):1594-1604. doi:10.1111/sms.13742</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Strength training improves performance and pedaling characteristics in elite cyclists</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rønnestad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hollan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ellefsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sms.12257</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sport</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="89" to="e98" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rønnestad B, Hansen J, Hollan I, Ellefsen S. Strength training improves performance and pedaling characteristics in elite cyclists. Scand J Med Sci Sport. 2015;25(1):e89-e98. doi:10.1111/sms.12257</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Quasi-isometric cycling: a case study investigation of a novel method to augment peak power output in sprint cycling</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kordi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Howatson</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2020-0100</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Perform Anal</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="452" to="455" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kordi M, Evans M, Howatson G. Quasi-isometric cycling: a case study investigation of a novel method to augment peak power output in sprint cycling. Int J Sport Perform Anal. 2020;16(3):452-455. doi:10.1123/ijspp.2020-0100</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Crank inertial load affects freely chosen pedal rate during cycling</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jørgensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Fregly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sjøgaard</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0021-9290(01)00182-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">11784546</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hansen E, Jørgensen L, Jensen K, Fregly B., Sjøgaard G. Crank inertial load affects freely chosen pedal rate during cycling. J Biomech. 2002;35(2):277-285. PubMed ID: 11784546 doi:10. 1016/S0021-9290(01)00182-8</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Effects of pedal speed and crank length on pedaling mechanics during submaximal cycling</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Barratt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Elmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Korff</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0000000000000817</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">705</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barratt P, Martin J, Elmer S, Korff T. Effects of pedal speed and crank length on pedaling mechanics during submaximal cycling. Med Sci Sport Exerc. 2016;48(4):705. doi:10.1249/MSS.00000 00000000817</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

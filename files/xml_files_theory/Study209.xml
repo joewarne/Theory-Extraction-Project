@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Spiking Kinematics in Volleyball Players With Shoulder Pain</title>
+				<funder>
+					<orgName type="full">National Athletic Trainers&apos; Association, Inc www</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-07-02">02 July 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>PhD;</roleName><forename type="first">Yi-Fen</forename><surname>Shih</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physical Therapy and Assistive Technology</orgName>
+								<orgName type="institution">National Yang-Ming University</orgName>
+								<address>
+									<settlement>Taipei</settlement>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MS</roleName><forename type="first">Yuan-Ching</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physical Therapy and Assistive Technology</orgName>
+								<orgName type="institution">National Yang-Ming University</orgName>
+								<address>
+									<settlement>Taipei</settlement>
+									<country key="TW">Taiwan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Spiking Kinematics in Volleyball Players With Shoulder Pain</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-07-02">02 July 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">13BE8BCF5199E6CB1397855AF8D2F73E</idno>
+					<idno type="DOI">10.4085/1062-6050-216-17</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>upper extremity</term>
+					<term>kinematics</term>
+					<term>shoulder overuse injuries</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Context: Spiking is one of the most frequently used scoring techniques in volleyball games, and around 80% of shoulder pain in volleyball players is linked with the spiking movement.</p><p>Objective: To investigate the differences in glenohumeral joint, scapular, and trunk movements during the spiking motion between volleyball players with and those without shoulder pain.</p><p>Design: Cross-sectional study.</p><p>Setting: University laboratory.</p><p>Patients or Other Participants: Twenty amateur volleyball players with shoulder pain (age ¼ 21.8 6 1.79 years, with an average of 4.0 6 0.92 years of volleyball experience and 6.0 6 3.51 months of shoulder pain) and 20 sex-, age-, and experience-matched control participants.</p><p>Main Outcome Measure(s): The 3-dimensional kinematics of the shoulder joint, scapula, and trunk during spiking were assessed using an electromagnetic tracking system.</p><p>Results: Compared with the control group, individuals with shoulder pain demonstrated less scapular posterior tilt (P ¼ .041) and more glenohumeral horizontal abduction (P ¼ .008) and scapular internal rotation (P ¼ .02) at ball contact when performing the cross-body spike.</p><p>Conclusions: The decrease in scapular posterior tilt, along with increased glenohumeral horizontal abduction and scapular internal rotation, was associated with shoulder pain in university volleyball players. These changes should be addressed in the training and treatment of young volleyball players.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>V olleyball is a popular recreational sport, particularly among high school and college students. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> Previous authors <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4</ref> have shown that shoulder injuries accounted for a large percentage of volleyball injuries. Aagaard and Jorgensen <ref type="bibr" target="#b4">5</ref> and Agel et al <ref type="bibr" target="#b5">6</ref> reported that 80% of volleyball shoulder injuries were linked with the spiking movement, and most of these shoulder injuries were overuse in nature, such as anterior instability and shoulder impingement syndrome. Because the volleyball spiking movement is typically executed while the player is airborne, he or she has to strike the ball using the upper arm and trunk without support from the lower extremities. This movement might expose the player's upper arm to a large load and thus increase the risk of injuries. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> Three main factors have been reported as contributing to volleyball shoulder injuries: glenohumeral internal rotation deficit, scapular dyskinesis, and altered biomechanics of the ball-striking movement. <ref type="bibr" target="#b8">9</ref> Various researchers 7,10-14 have identified differences in joint angle, muscle-strength ratios, or scapular positions in volleyball players with or without shoulder dysfunction. To date, only a few investigators <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16</ref> have examined volleyball kinematics. Reeser et al <ref type="bibr" target="#b7">8</ref> measured shoulder and elbow kinetic and kinematic data during serving and spiking motions in female collegiate volleyball players and found similar kinetic and kinematic characteristics for cross-body and straight-ahead spikes. In addition, a greater shoulder-abduction angle (1308) was identified at the instant of ball contact as compared with tennis serves or baseball pitches. <ref type="bibr" target="#b7">8</ref> Serrien et al <ref type="bibr" target="#b14">15</ref> analyzed the 3-dimensional kinematics of the pelvis, trunk, shoulder, and elbow and linked sex and level of expertise with differences in shoulder and elbow kinematics. Only Mitchinson et al <ref type="bibr" target="#b15">16</ref> examined the effect of shoulder injury on upper arm kinematics, but they identified no group differences in spiking kinematics between players with and those without a history of shoulder injury.</p><p>Previous researchers <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b9">10</ref> have proposed that repeated eccentric shoulder contractions during the deceleration phase might lead to posterior capsule hypertrophy of the shoulder joint and thus deficits in glenohumeral-joint range of motion. These changes might then influence scapular neuromuscular control and result in compensatory movement patterns. <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b9">10</ref> Reeser et al <ref type="bibr" target="#b7">8</ref> suggested that greater shoulder abduction or horizontal adduction at ball contact during volleyball might expose these athletes to a greater risk of shoulder impingement or labral damage. However, to our knowledge, the effects of shoulder injury on scapular kinematics in volleyball players have never been investi-gated, and shoulder movement at various points during volleyball spiking has not been assessed thoroughly in volleyball players with shoulder injuries. Therefore, the purpose of our study was to investigate the kinematic differences in the glenohumeral joint, scapula, and trunk during 2 types of spiking movements-straight ahead and cross-body-between volleyball players with and those without shoulder pain. We hypothesized that players with shoulder pain would exhibit greater glenohumeral elevation and horizontal-abduction angles, insufficient scapular upward rotation and posterior tilt, and decreased lower trunk rotation and side flexion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>We recruited 20 amateur volleyball players who had experienced shoulder pain in the past 6 months (injured group) and 20 age-, sex-, and experience-matched asymptomatic players (control group). To be included, participants had to be between 18 and 35 years old, with more than 2 years' experience on a collegiate volleyball team. Basic characteristics of the participants are summarized in Table <ref type="table" target="#tab_0">1</ref>. Because our testing room had limited space that prevented cross-body spikes for left-handed participants, we recruited only individuals with right-arm dominance. Shoulder pain in this study was defined as (1) being absent from a practice or competition due to pain, (2) shoulder pain occurring during more than half of the weekly practices or competitions, or (3) shoulder pain that lasted more than 3 months and was caused by a spiking movement. The exclusion criteria were prior upper extremity fracture or surgery, shoulder dislocation or subluxation, neck or back pain, or upper extremity injury caused by events outside of volleyball practices or competitions. The study was approved by the Institutional Review Board of National Yang Ming University, Taipei, Taiwan.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Instrumentation</head><p>We used the Liberty electromagnetic tracking system (Polhemus, Colchester, VT) to collect 3-dimensional kinematic data at a sampling rate of 240 Hz and The MotionMonitor software (Innovative Sport Training, Inc, Chicago, IL) to analyze the data. A stylus was used to digitize the bony landmarks for defining the anatomical coordinate system. Four sensors attached to the scapula (posterior-lateral acromion), humerus (posterior aspect of the distal humerus), upper trunk (between the seventh cervical and first thoracic spinous processes), and lower trunk (between the fifth lumbar and first sacral spinous processes) were used to receive the kinematic information from the target segments during the spiking movement. A footswitch was attached to the palm to define the instant of ball strike (Figure <ref type="figure" target="#fig_0">1</ref>). These sensors were stabilized by double-sided Micropore tape (3M, St Paul, MN) and reinforced by elastic straps. A handheld dynamometer (model Ergo microFET2 digital manual muscle tester; Hoggan Scientific, LLC, Draper, UT) and a universal goniometer and inclinometer were used to measure the muscle strength (deltoid, upper and lower trapezius, shoulder internal and external rotators, and serratus anterior) and range of motion (abduction, internal and external rotation, and horizontal adduction), respectively, of the shoulder complex.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedures</head><p>All participants were notified of the nature of this study and signed informed consent forms before the experiment began. The second author (Y.C.W.) performed all assessments and data collection. First, basic data (sex, age, height, weight, training routine, volleyball experience, and shoulder pain characteristics) were collected. Participants in the injury group were also assessed for shoulder impingement, including physical examination for a painful arc during shoulder elevation, pain with isometric shoulder abduction, and tenderness on palpation of the rotator cuff tendons, as well as shoulder impingement tests such as the Hawkins-Kennedy and Neer tests. After 15 minutes of warm-up, shoulder range of motion (abduction, internal and external rotation, and horizontal adduction) was measured 3 times in the supine position using a universal goniometer. Afterward, the examiner cleaned the skin and attached the sensors for the kinematic measurements. Based on the recommendations of the International Society of Biome- chanics, <ref type="bibr" target="#b16">17</ref> bony landmarks were palpated and digitized to establish the local coordinate systems. This was followed by the measurement of spiking kinematics.</p><p>The spiking testing was performed in the laboratory (Figure <ref type="figure" target="#fig_1">2</ref>). To eliminate the influence of the setters' toss-ups, the ball was hung from the ceiling at a height of the participant's choosing. The spiking movement was carried out in the lunge position with the left foot forward. Two target areas were marked. The first target (zone 1) was located 3 m in front of the participant, and the second target (zone 2) was 0.8 m left of the first target. Both targets were 0.4 by 0.4 m 2 . The first target was for straight-ahead spikes, and the second target was for cross-body spikes. Participants first performed 5 successful trials of straight-ahead spikes, followed by 5 successful cross-body spikes. A successful spike was defined as a footswitch signal greater than 1 V and the ball hitting the center of the target area. A 1-minute rest was allowed between spiking movements. Most participants completed the testing tasks in 10 to 15 spikes.</p><p>The experiment ended after muscle-strength testing (maximum voluntary isometric contractions) of the deltoid, upper and lower trapezius, shoulder internal and external rotators, and serratus anterior. The testing method and position were modified from the standard manual muscle test procedure (Figure <ref type="figure" target="#fig_2">3</ref>). Three measurements for each muscle were obtained using a handheld dynamometer.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Analysis</head><p>We used The MotionMonitor software to calculate the 3dimensional kinematic data based on the recommendations of the International Society of Biomechanics. <ref type="bibr" target="#b16">17</ref> The humeral rotations were described first about the y-axis of the thorax (the plane of elevation, þ: horizontal adduction), the z-axis of the humerus (þ: elevation), and then the y-axis of the humerus (þ: humeral external rotation). Scapular movement relative to the thorax was defined as internalexternal (y-axis) rotation, upward-downward (z-axis) rotation, posterior-anterior (x-axis) tilt, and displacement  between the acromion angle and incisura jugularis in the directions of x (þ: lateral), y (þ: superior), and z (þ: posterior) of the thorax coordinate system. <ref type="bibr" target="#b16">17</ref> The trunk rotations relative to the thorax were defined as flexionextension (z-axis), left-right side flexion (x-axis), and leftright rotation (y-axis).</p><p>The maximum footswitch signal defined the instant of ball contact. The overall movement patterns of the shoulder and glenohumeral joint, scapula, and trunk were described between shoulder elevation of 308 (0%) and ball contact (100%). The kinematic data at ball contact and at the point of maximum glenohumeral elevation were retrieved and compared. In addition, the average speed of the shoulder and glenohumeral internal rotation before ball contact and the instant speed of the internal rotation at ball contact were also calculated.</p><p>Independent t tests and v 2 tests were used to describe the basic data. Two-way repeated-measures analysis of variance was used to examine the between-groups (injured versus control group) and within-group (zone 1 versus zone 2) differences in the kinematic data. The commercial software PASW (version 18.0; SPSS Inc, Chicago, IL) was used for statistical analysis. The a priori significance level was set at .05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Participant characteristics were collected before testing and are shown in Table <ref type="table" target="#tab_0">1</ref>. All participants were amateur collegiate-level players; none had preprofessional or Division 1 equivalent-level playing experience. Our datacollection period occurred out of season. No betweengroups difference was found for the demographic comparisons. Although we did not specify the type of shoulder injury in our inclusion criteria, all participants in the injured group had at least 2 positive responses to the 5 impingement assessment items. Nevertheless, a specific diagnosis could not be derived from our assessment. All participants completed the testing within 2 hours without significant discomfort or pain. Participants in the 2 groups revealed similar shoulder range of motion and muscle strength (Table <ref type="table" target="#tab_1">2</ref>).</p><p>The injured and control groups shared similar spiking movement patterns (Figures <ref type="figure" target="#fig_6">4 through 7</ref>). To prepare for spiking, both the shoulder and glenohumeral joints elevated, externally rotated, and horizontally abducted, accompanied by scapular posterior tilt, upward and external rotation, and trunk extension and right rotation and side flexion. After reaching the maximum range of movement, both the trunk and upper arm reversed direction and accelerated to strike the ball. After ball contact, the trunk and the upper arm continued moving into further trunk flexion and shoulder and glenohumeral joint extension, horizontal adduction, and internal rotation.</p><p>At maximum elevation of the glenohumeral joint, trunk side flexion demonstrated a group and zone interaction (P ¼   .01). Several variables had zone main effects: shoulder elevation (P ¼ .02) and horizontal abduction (P ¼ .01), scapular upward and internal rotation (P ¼ .01 and .03, respectively), and trunk rotation (P ¼ .03; Table <ref type="table" target="#tab_2">3</ref>). The post hoc comparisons did not show any significant between-groups difference at maximum elevation of the glenohumeral joint. At ball contact, group-by-zone interactions were found for glenohumeral horizontal adduction (P , .001), scapular posterior tilt (P ¼ .03), and scapular upward rotation (P ¼ .01) and zone main effects were found for shoulder horizontal adduction and external rotation (P , .001), scapular posterior tilt and internal rotation (P , .001), and trunk rotation (P , .001; Table <ref type="table" target="#tab_3">4</ref>). The post hoc tests indicated that the injured group had more glenohumeral horizontal abduction (P ¼ .008) and scapular internal rotation (P ¼ .02) and less scapular posterior tilt (P ¼ .041) than the control group for zone 2 spiking (Table <ref type="table" target="#tab_3">4</ref>). The only between-groups difference for zone 1 spiking was in scapular internal rotation (P ¼ .04; Table <ref type="table" target="#tab_3">4</ref>).</p><p>No significant group-by-zone interactions or any main effect was found for total range of movement of all target segments or for the average speed or the speed of internal rotation at the moment of ball contact (Table <ref type="table" target="#tab_4">5</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>We attempted to analyze possible differences in spiking motion between volleyball players with and those without shoulder pain. Although all participants in the injured group showed at least 2 positive responses in the 5 impingement assessment items, we were unable to directly link our findings with shoulder impingement as we did not have a specific or definitive diagnosis or evidence of structural damage in any of our participants. In addition, the impingement tests indicate only the presence of ''pain'' and have very poor to ''OK'' diagnostic accuracy. The worst pain reported by the participants averaged 6.2 6 1.64 in the past 6 months and 1.8 6 1.51 in the week before the assessment (zero ¼ no pain, 10 ¼ worst pain). The low pain level might explain why none of the participants complained of any pain or discomfort during the assessment, meaning that pain-related motion changes were unlikely. The injured and control groups had similar shoulder range of motion and muscle strength (Table <ref type="table" target="#tab_1">2</ref>). This finding was consistent with the reports of Schwab and Blanch <ref type="bibr" target="#b10">11</ref> and Wang et al <ref type="bibr" target="#b11">12</ref> that shoulder pain did not have a significant influence on volleyball players' shoulder-rotation mobility or strength.</p><p>Our 2 groups displayed similar patterns of shoulder movement during spiking. During the preparatory phase of spiking, the shoulder reached 1458 of elevation, 758 to 808 of horizontal abduction, and 1158 of external rotation (Figure <ref type="figure" target="#fig_3">4</ref>). At ball contact, the shoulder elevated to around 1168 and horizontal abduction was between 428 and 478. This movement pattern and ranges of the upper extremity and trunk were similar to data from previous studies. <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b15">16</ref>   Therefore, our laboratory-simulated spiking movement was a reasonable representation of these participants' court performance. The shoulder internal rotation speed demonstrated at ball contact was nevertheless lower than that reported by Reeser et al <ref type="bibr" target="#b7">8</ref> and Serrien et al. <ref type="bibr" target="#b14">15</ref> This might have been the result of our setting, which did not allow any running acceleration, compared with the spiking movement performed on the volleyball court. The physiological variations (female versus mixed sex) <ref type="bibr" target="#b7">8</ref> and the playing level of the participants (elite versus subelite) <ref type="bibr" target="#b14">15</ref> might also have accounted for these differences.</p><p>The findings of this study supported in part our hypotheses that injured volleyball players would show increased glenohumeral horizontal abduction and decreased scapular posterior tilt and trunk side flexion (Tables <ref type="table" target="#tab_2">3</ref> and <ref type="table" target="#tab_3">4</ref>) when performing spikes. Reeser et al <ref type="bibr" target="#b8">9</ref> pointed out that differences in volleyball spiking could influence the glenohumeral-joint stress that might be linked to the development of shoulder injury. Previous authors <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> who studied baseball pitching also suggested that shoulder hyperangulation toward horizontal abduction could repeatedly overstress the anterior joint structures and put greater strain on the humeral head depressors, which might be related to impingement symptoms in overhead athletes. Although the participants in this study did not have a confirmed diagnosis of shoulder impingement, our data supported this theory and showed that individuals with previous shoulder pain had increased glenohumeral horizontal abduction at ball strike during zone 2 spiking. Nevertheless, Mitchinson et al <ref type="bibr" target="#b15">16</ref> assessed 24 elite volleyball players and showed the opposite, that there was no   influence of injury history on shoulder kinematics. The differences in the participant populations (elite versus amateur volleyball players) might have contributed to the inconsistency of our findings. The role of glenohumeraljoint kinematics in shoulder pain among volleyball players requires further research.</p><p>Reeser et al <ref type="bibr" target="#b7">8</ref> suggested that compared with baseball or tennis players, volleyball players used a larger range of shoulder elevation and horizontal adduction during overhead movements, which might increase their risk of shoulder impingement. Our data did not fully support this theory. Although we showed that glenohumeral horizontal adduction was influenced by the presence of shoulder pain, the shoulder-elevation angle and the glenohumeral-elevation angle were similar between the injured and the control groups at the instant of ball contact and maximum glenohumeral elevation (Tables <ref type="table" target="#tab_2">3</ref> and <ref type="table" target="#tab_3">4</ref>). This finding echoes the data of Mitchinson et al, <ref type="bibr" target="#b15">16</ref> indicating that at ball impact, the range of motion and kinematics of the shoulder and thorax were not influenced by a history of shoulder injury. Whether a larger range of shoulder elevation had a role in the development of shoulder pain among volleyball players requires further investigation.</p><p>To our knowledge, this is the first study to explore scapular kinematics in volleyball players with and those without shoulder pain. Participants with shoulder pain had decreased scapular posterior tilt and increased internal rotation when hitting the ball, and this pattern was more obvious when performing cross-body (zone 2) spikes (Table <ref type="table" target="#tab_3">4</ref>). Several researchers <ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref> have reported altered scapular kinematics during overhead activities in people with shoulder problems and suggested that decreased scapular posterior tilt and increased internal rotation during shoulder movement would lead to decreased subacromial space and thereby increase the risk of shoulder impingement and pain. Ludewig and Cook 20 assessed scapular movement during arm elevation in the scapular plane and found insufficient scapular upward rotation and posterior tilt with increased internal rotation in people with shoulder impingement. Lin et al 21 investigated scapular kinematics during overhead functional activities and noted decreased scapular upward rotation and posterior tilt in the shoulderdysfunction group. Lin et al <ref type="bibr" target="#b21">22</ref> showed decreased scapular posterior tilt in baseball pitchers with shoulder impingement. Neer <ref type="bibr" target="#b22">23</ref> proposed that scapular upward rotation and posterior tilt lift the lateral acromion and prevent structures lateral and anterior to the acromion from impinging by helping to maintain the subacromial space, and thus, normalizing the precise force couples and glenohumeral osteokinematics. Our study provided evidence that players with shoulder pain exhibited an inefficient scapular movement pattern (insufficient posterior tilt and excessive internal rotation) during volleyball spikes. As this was a cross-sectional study, we were unable to determine whether injury or pain led to biomechanical changes or if inherent biomechanical changes led to injury. However, this kinematic deviation of the scapula should be addressed when managing players with shoulder problems.</p><p>Although the groups did not differ in trunk motion at ball contact, the shoulder-pain group had less trunk side flexion at the instant of maximum glenohumeral elevation during cross-body spikes. The volleyball spike requires smooth energy transmission from the trunk through the scapula to the arm. <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b7">8</ref> A decrease in trunk side flexion might indicate overuse of the distal segment, such as the glenohumeral or elbow joint. Although we did not find a group difference in shoulder elevation during spiking, increased horizontal abduction of the glenohumeral joint was identified in the group with shoulder pain. The correlation between trunk and shoulder movement needs to be assessed in the future.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limitations</head><p>This study used a cross-sectional design. No cause-effect relationship could be determined from our findings. We were unable to rule out the possibility of movement compensation after the injury. Because we did not specify the type of shoulder pain, our participants might have experienced various shoulder problems. We also did not control factors such as head and neck posture, which might influence spiking kinematics. In addition, some participants had never sought any form of treatment or been diagnosed by a medical doctor. Because we lacked details on the precise injury, readers should be cautious in generalizing from our results. We used a laboratory setting to assess volleyball spiking performance. The difference between the laboratory setting and the volleyball court cannot be overlooked when interpreting our findings. Future researchers should use a longitudinal study design to address the identified limitations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>Alterations occurred in glenohumeral, scapular, and trunk kinematics when volleyball players with shoulder pain performed the cross-body spike, particularly at the instant of ball contact. These biomechanical changes might be linked to the overuse shoulder injuries seen in volleyball players and should be noted when managing players with shoulder pain.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. A, Sensor placement. B, The footswitch.</figDesc><graphic coords="3,105.79,41.44,377.97,235.11" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Laboratory setting.</figDesc><graphic coords="3,38.49,354.33,249.68,362.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Muscle strength testing. A, Shoulder external rotators. B, Shoulder internal rotators. C, Upper trapezius. D, Deltoid muscle. E, Serratus anterior. F, Lower trapezius.</figDesc><graphic coords="4,119.17,41.44,378.09,535.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. The zone 2 spiking pattern of the shoulder joint before ball contact. A, Elevation. B, Horizontal adduction. C, External rotation.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. The zone 2 spiking pattern of the glenohumeral joint before ball contact. A, Elevation. B, Horizontal adduction. C, External rotation.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. The zone 2 spiking pattern of the scapula before ball contact. A, Posterior tilt. B, Internal rotation. C, Upward rotation.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. The zone 2 spiking pattern of the trunk before ball contact. A, Flexion. B, Side flexion. C, Rotation.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Participant Demographics</figDesc><table><row><cell>Characteristic</cell></row></table><note><p>a Range, 0 (no pain) to 10 (worst pain).</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Comparisons of Shoulder Range of Motion and MuscleStrength Between Groups (Mean 6 SD)</figDesc><table><row><cell></cell><cell cols="2">Group</cell><cell></cell></row><row><cell>Measure</cell><cell cols="2">Injured (n ¼ 20) Control (n ¼ 20)</cell><cell>P Value</cell></row><row><cell>Range of motion, 8</cell><cell></cell><cell></cell><cell></cell></row><row><cell>External rotation</cell><cell>94.48 6 7.90</cell><cell>95.98 6 7.90</cell><cell>.55</cell></row><row><cell>Internal rotation</cell><cell>31.98 6 14.10</cell><cell>33.62 6 15.89</cell><cell>.73</cell></row><row><cell>Abduction</cell><cell>178.85 6 4.36</cell><cell>178.43 6 2.91</cell><cell>.73</cell></row><row><cell>Horizontal adduction</cell><cell>15.58 6 7.35</cell><cell>15.78 6 4.48</cell><cell>.92</cell></row><row><cell>Muscle strength, kg</cell><cell></cell><cell></cell><cell></cell></row><row><cell>External rotators</cell><cell>9.67 6 2.22</cell><cell>9.80 6 2.48</cell><cell>.86</cell></row><row><cell>Internal rotators</cell><cell>12.91 6 3.71</cell><cell>13.12 6 4.30</cell><cell>.90</cell></row><row><cell>Deltoid</cell><cell>14.60 6 3.41</cell><cell>15.06 6 4.24</cell><cell>.70</cell></row><row><cell>Upper trapezius</cell><cell>28.25 6 5.37</cell><cell>30.22 6 4.80</cell><cell>.23</cell></row><row><cell>Lower trapezius</cell><cell>7.50 6 1.47</cell><cell>7.68 6 2.10</cell><cell>.77</cell></row><row><cell>Serratus anterior</cell><cell>9.03 6 2.62</cell><cell>9.95 6 3.57</cell><cell>.36</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Comparisons of Joint Kinematics at the Point of Maximal Glenohumeral Elevation Between Groups (Mean 6 SD) Assessed Using 2-Way Repeated-Measures Analysis of Variance</figDesc><table><row><cell></cell><cell></cell><cell cols="2">Joint Position, 8</cell></row><row><cell></cell><cell>Target</cell><cell>Control Group</cell><cell>Injured Group</cell></row><row><cell>Joint Kinematics</cell><cell>Zone</cell><cell>(n ¼ 20)</cell><cell>(n ¼ 20)</cell></row><row><cell>Shoulder</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Elevation a</cell><cell>1</cell><cell>145.42 6 8.82</cell><cell>142.84 6 13.62</cell></row><row><cell></cell><cell>2</cell><cell>144.30 6 9.25</cell><cell>141.20 6 15.00</cell></row><row><cell>Horizontal adduction a</cell><cell>1</cell><cell cols="2">À68.82 6 20.02 À69.93 6 24.87</cell></row><row><cell></cell><cell>2</cell><cell cols="2">À72.86 6 19.49 À71.62 6 24.61</cell></row><row><cell>External rotation</cell><cell>1</cell><cell cols="2">106.06 6 19.26 102.23 6 16.22</cell></row><row><cell></cell><cell>2</cell><cell cols="2">107.56 6 18.48 103.51 6 16.25</cell></row><row><cell>Glenohumeral</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Elevation</cell><cell>1</cell><cell>104.03 6 7.76</cell><cell>103.80 6 8.99</cell></row><row><cell></cell><cell>2</cell><cell>103.76 6 7.62</cell><cell>103.25 6 9.84</cell></row><row><cell>Horizontal adduction</cell><cell>1</cell><cell>À84.58 6 7.34</cell><cell>À88.68 6 9.68</cell></row><row><cell></cell><cell>2</cell><cell>À85.26 6 7.38</cell><cell>À89.41 6 8.98</cell></row><row><cell>External rotation</cell><cell>1</cell><cell>94.25 6 14.26</cell><cell>89.44 6 12.87</cell></row><row><cell></cell><cell>2</cell><cell>93.76 6 14.98</cell><cell>90.56 6 14.20</cell></row><row><cell>Scapula</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Posterior tilt</cell><cell>1</cell><cell>11.96 6 9.21</cell><cell>9.30 6 11.72</cell></row><row><cell></cell><cell>2</cell><cell>12.77 6 9.22</cell><cell>9.06 6 11.59</cell></row><row><cell>Upward rotation a</cell><cell>1</cell><cell>42.00 6 6.43</cell><cell>40.36 6 8.78</cell></row><row><cell></cell><cell>2</cell><cell>41.25 6 6.60</cell><cell>38.93 6 10.14</cell></row><row><cell>Internal rotation a</cell><cell>1</cell><cell>19.73 6 8.78</cell><cell>23.76 6 15.07</cell></row><row><cell></cell><cell>2</cell><cell>17.25 6 9.72</cell><cell>22.80 6 17.24</cell></row><row><cell>Trunk</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Flexion</cell><cell>1</cell><cell>39.12 6 10.79</cell><cell>38.75 6 11.04</cell></row><row><cell></cell><cell>2</cell><cell>39.73 6 11.58</cell><cell>37.90 6 12.70</cell></row><row><cell>Side flexion b</cell><cell>1</cell><cell>À2.63 6 6.00</cell><cell>À2.38 6 7.37</cell></row><row><cell></cell><cell>2</cell><cell>À0.28 6 7.52</cell><cell>À3.20 6 10.47</cell></row><row><cell>Rotation a</cell><cell>1</cell><cell cols="2">À10.52 6 10.16 À11.84 6 11.94</cell></row><row><cell></cell><cell>2</cell><cell>À9.95 6 11.45</cell><cell>À8.97 6 15.41</cell></row></table><note><p>a Zone main effect (P , .05). b Group 3 zone interaction (P , .05).</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 .</head><label>4</label><figDesc>Comparisons of Joint Kinematics at Ball Contact Between Groups (Mean 6 SD) Assessed Using 2-Way Repeated-Measures Analysis of Variance</figDesc><table><row><cell></cell><cell></cell><cell cols="2">Joint Position, 8</cell><cell></cell></row><row><cell></cell><cell>Target</cell><cell>Control Group</cell><cell>Injured Group</cell><cell>P</cell></row><row><cell>Joint Kinematics</cell><cell>Zone</cell><cell>(n ¼ 20)</cell><cell>(n ¼ 20)</cell><cell>Value</cell></row><row><cell>Shoulder</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Elevation</cell><cell>1</cell><cell cols="3">117.25 6 8.31 116.26 6 9.64 .73</cell></row><row><cell></cell><cell>2</cell><cell cols="3">117.16 6 9.61 115.94 6 9.37 .69</cell></row><row><cell>Horizontal</cell><cell>1</cell><cell cols="3">À43.61 6 6.96 À41.94 6 13.37 .62</cell></row><row><cell>adduction a</cell><cell>2</cell><cell cols="3">À46.61 6 7.91 À46.47 6 14.37 .97</cell></row><row><cell>External rotation a</cell><cell>1</cell><cell cols="3">53.05 6 15.18 51.21 6 16.60 .72</cell></row><row><cell></cell><cell>2</cell><cell cols="3">53.05 6 15.18 51.21 6 16.60 .35</cell></row><row><cell>Glenohumeral</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Elevation</cell><cell>1</cell><cell>92.63 6 8.03</cell><cell cols="2">92.39 6 8.75 .93</cell></row><row><cell></cell><cell>2</cell><cell>91.70 6 8.96</cell><cell cols="2">92.08 6 8.22 .69</cell></row><row><cell>Horizontal</cell><cell>1</cell><cell cols="3">À86.79 6 6.71 À90.89 6 10.61 .15</cell></row><row><cell>adduction b,c</cell><cell>2</cell><cell cols="3">À85.14 6 6.36 À92.89 6 10.50 .008 d</cell></row><row><cell>External rotation</cell><cell>1</cell><cell cols="3">64.40 6 15.22 63.72 6 18.82 .90</cell></row><row><cell></cell><cell>2</cell><cell cols="3">66.82 6 14.03 63.96 6 18.84 .59</cell></row><row><cell>Scapula</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Posterior tilt a,b</cell><cell>1</cell><cell cols="3">À9.27 6 7.16 À12.30 6 9.20 .25</cell></row><row><cell></cell><cell>2</cell><cell cols="3">À5.49 6 7.06 À10.68 6 8.44 .041 d</cell></row><row><cell>Upward rotation b</cell><cell>1</cell><cell>25.17 6 9.11</cell><cell cols="2">23.23 6 7.08 .46</cell></row><row><cell></cell><cell>2</cell><cell>26.05 6 9.57</cell><cell cols="2">21.96 6 7.06 .13</cell></row><row><cell>Internal rotation a,c</cell><cell>1</cell><cell>42.43 6 7.16</cell><cell cols="2">48.04 6 9.09 .04 d</cell></row><row><cell></cell><cell>2</cell><cell>37.96 6 8.15</cell><cell cols="2">45.65 6 10.83 .02 d</cell></row><row><cell>Trunk</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Flexion</cell><cell>1</cell><cell>18.73 6 9.39</cell><cell cols="2">19.14 6 11.51 .90</cell></row><row><cell></cell><cell>2</cell><cell>20.06 6 9.77</cell><cell cols="2">19.88 6 11.41 .96</cell></row><row><cell>Side flexion</cell><cell>1</cell><cell cols="3">À10.71 6 7.09 À14.03 6 8.31 .18</cell></row><row><cell></cell><cell>2</cell><cell cols="3">À10.39 6 6.63 À14.63 6 8.97 .10</cell></row><row><cell>Rotation a</cell><cell>1</cell><cell>10.14 6 8.34</cell><cell cols="2">11.02 6 8.92 .75</cell></row><row><cell></cell><cell>2</cell><cell>11.54 6 8.79</cell><cell cols="2">13.77 6 9.73 .45</cell></row></table><note><p>a Zone main effect (P , .05). b Group 3 zone interaction (P , .05). c Group main effect (P , .05). d Significant post hoc analyses for group differences (P , .05).</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5 .</head><label>5</label><figDesc>Comparisons of the Internal-Rotation Speed of the Shoulder and Glenohumeral Joints Between Groups (Mean 6 SD)</figDesc><table><row><cell></cell><cell></cell><cell cols="2">Speed, 8/s</cell></row><row><cell></cell><cell>Target</cell><cell>Control Group</cell><cell>Injured Group</cell></row><row><cell>Joint</cell><cell>Zone</cell><cell>(n ¼ 20)</cell><cell>(n ¼ 20)</cell></row><row><cell>Shoulder</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Average speed</cell><cell>1</cell><cell>474.25 6 225.36</cell><cell>485.63 6 226.38</cell></row><row><cell></cell><cell>2</cell><cell>489.40 6 229.76</cell><cell>539.42 6 240.53</cell></row><row><cell>Ball contact speed</cell><cell>1</cell><cell>820.32 6 413.62</cell><cell>869.91 6 527.62</cell></row><row><cell></cell><cell>2</cell><cell cols="2">880.16 6 466.48 1010.52 6 587.58</cell></row><row><cell>Glenohumeral</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Average speed</cell><cell>1</cell><cell>474.23 6 244.42</cell><cell>512.66 6 302.05</cell></row><row><cell></cell><cell>2</cell><cell>491.18 6 256.67</cell><cell>527.11 6 293.28</cell></row><row><cell>Ball contact speed</cell><cell>1</cell><cell>744.98 6 389.77</cell><cell>795.45 6 505.65</cell></row><row><cell></cell><cell>2</cell><cell>799.27 6 398.16</cell><cell>840.19 6 540.81</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Downloaded from http://meridian.allenpress.com/jat/article-pdf/54/1/90/1460172/1062-6050-216-17.pdf by guest on 02 July 2024</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>Ó by the National Athletic Trainers' Association, Inc <ref type="url" target="www.natajournals.org">www.natajournals.org</ref> </p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A three-dimensional cinematographical analysis of the volleyball spike</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Coleman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Benham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Northcott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="295" to="302" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Coleman SG, Benham AS, Northcott SR. A three-dimensional cinematographical analysis of the volleyball spike. J Sports Sci. 1993;11(4):295-302.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Amateur volleyball attackers competing despite shoulder pain: analysis of play habits, anthropometric data, and specific pathologies</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Jacobson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Benson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther Sport</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="112" to="122" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jacobson RP, Benson CL. Amateur volleyball attackers competing despite shoulder pain: analysis of play habits, anthropometric data, and specific pathologies. Phys Ther Sport. 2001;2(3):112-122.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Epidemiology of shoulder impingement in upper arm sports events</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Lo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Chan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="173" to="177" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lo YP, Hsu YC, Chan KM. Epidemiology of shoulder impingement in upper arm sports events. Br J Sports Med. 1990;24(3):173-177.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A one season prospective cohort study of volleyball injuries</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Verhagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Van Der Beek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Bouter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Bahr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Van Mechelen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="477" to="481" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Verhagen EA, Van der Beek AJ, Bouter LM, Bahr RM, Van Mechelen W. A one season prospective cohort study of volleyball injuries. Br J Sports Med. 2004;38(4):477-481.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Injuries in elite volleyball</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Aagaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Jorgensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="228" to="232" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aagaard H, Jorgensen U. Injuries in elite volleyball. Scand J Med Sci Sports. 1996;6(4):228-232.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Descriptive epidemiology of collegiate women&apos;s volleyball injuries: National Collegiate Athletic Association Injury Surveillance System</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Agel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Palmieri-Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Wojtys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Marshall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="295" to="302" />
+			<date type="published" when="1988">1988-1989 through 2003-2004. 2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Agel J, Palmieri-Smith RM, Dick R, Wojtys EM, Marshall SW. Descriptive epidemiology of collegiate women&apos;s volleyball injuries: National Collegiate Athletic Association Injury Surveillance System, 1988-1989 through 2003-2004. J Athl Train. 2007;42(2):295-302.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Isokinetic performance and shoulder mobility in elite volleyball athletes from the United Kingdom</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Macfarlane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cochrane</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="39" to="43" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang HK, Macfarlane A, Cochrane T. Isokinetic performance and shoulder mobility in elite volleyball athletes from the United Kingdom. Br J Sports Med. 2000;34(1):39-43.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Upper limb biomechanics during the volleyball serve and spike</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Reeser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Fleisig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bolt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ruan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Health</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="368" to="374" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reeser JC, Fleisig GS, Bolt B, Ruan M. Upper limb biomechanics during the volleyball serve and spike. Sports Health. 2010;2(5):368-374.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Strategies for the prevention of volleyball related injuries</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Reeser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Verhagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Briner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">I</forename><surname>Askeland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bahr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="594" to="600" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reeser JC, Verhagen E, Briner WW, Askeland TI, Bahr R. Strategies for the prevention of volleyball related injuries. Br J Sports Med. 2006;40(7):594-600.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Glenohumeral rotation and scapular position adaptations after a single high school female sports season</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Swanik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Swanik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Huxel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="230" to="237" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thomas SJ, Swanik KA, Swanik C, Huxel KC. Glenohumeral rotation and scapular position adaptations after a single high school female sports season. J Athl Train. 2009;44(3):230-237.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Humeral torsion and passive shoulder range in elite volleyball players</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Schwab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Blanch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther Sport</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="51" to="56" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schwab LM, Blanch P. Humeral torsion and passive shoulder range in elite volleyball players. Phys Ther Sport. 2009;10(2):51-56.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Isokinetic performance and shoulder mobility in Taiwanese elite junior volleyball players</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Juang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Jan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Isokinet Exerc Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="135" to="141" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang HK, Juang LG, Lin JJ, Wang TG, Jan MH. Isokinetic performance and shoulder mobility in Taiwanese elite junior volleyball players. Isokinet Exerc Sci. 2004;12(2):135-141.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Isokinetic peak torque ratios and shoulder injury history in adolescent female volleyball athletes</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Stickley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Hetzler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Freemyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">F</forename><surname>Kimura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="571" to="577" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stickley CD, Hetzler RK, Freemyer BG, Kimura IF. Isokinetic peak torque ratios and shoulder injury history in adolescent female volleyball athletes. J Athl Train. 2008;43(6):571-577.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Mobility impairment, muscle imbalance, muscle weakness, scapular asymmetry and shoulder injury in elite volleyball athletes</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cochrane</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Med Phys Fitness</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="403" to="410" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang HK, Cochrane T. Mobility impairment, muscle imbalance, muscle weakness, scapular asymmetry and shoulder injury in elite volleyball athletes. J Sports Med Phys Fitness. 2001;41(3):403-410.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A motion analysis in the volleyball spike -part 1: three dimensional kinematics and performance</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Serrien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ooijen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goossens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Baeyens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Hum Mov Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="70" to="82" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Serrien B, Ooijen J, Goossens M, Baeyens JP. A motion analysis in the volleyball spike -part 1: three dimensional kinematics and performance. Int J Hum Mov Sports Sci. 2016;4(4):70-82.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Comparison of upper arm kinematics during a volleyball spike between players with and without a history of shoulder injury</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mitchinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Oldmeadow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hopper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Biomech</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="155" to="164" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mitchinson L, Campbell A, Oldmeadow D, Gibson W, Hopper D. Comparison of upper arm kinematics during a volleyball spike between players with and without a history of shoulder injury. J Appl Biomech. 2013;29(2):155-164.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">ISB recommendation on definitions of joint coordinate systems of various joints for the reporting of human joint motion. Part II: shoulder, elbow, wrist and hand</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Van Der Helm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Veeger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="981" to="992" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wu G, van der Helm FC, Veeger HE, et al. ISB recommendation on definitions of joint coordinate systems of various joints for the reporting of human joint motion. Part II: shoulder, elbow, wrist and hand. J Biomech. 2005;38(5):981-992.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The effect of pitching biomechanics on the upper extremity in youth and adolescent baseball pitchers</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Limpisvasti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fluhme</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1484" to="1491" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davis JT, Limpisvasti O, Fluhme D, et al. The effect of pitching biomechanics on the upper extremity in youth and adolescent baseball pitchers. Am J Sports Med. 2009;37(8):1484-1491.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A biomechanical analysis of youth pitching mechanics</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Keeley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hackett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Keirns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Sabick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Torry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Pediatr Orthop</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="452" to="459" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Keeley DW, Hackett T, Keirns M, Sabick MB, Torry MR. A biomechanical analysis of youth pitching mechanics. J Pediatr Orthop. 2008;28(4):452-459.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Alterations in shoulder kinematics and associated muscle activity in people with symptoms of shoulder impingement</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Ludewig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Cook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="276" to="291" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ludewig PM, Cook TM. Alterations in shoulder kinematics and associated muscle activity in people with symptoms of shoulder impingement. Phys Ther. 2000;80(3):276-291.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Functional activity characteristics of individuals with shoulder dysfunctions</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Hanten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Olson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="576" to="586" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lin JJ, Hanten WP, Olson SL, et al. Functional activity characteristics of individuals with shoulder dysfunctions. J Electro- myogr Kinesiol. 2005;15(6):576-586.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Adaptive patterns of movement during arm elevation test in patients with shoulder impingement syndrome</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Hsieh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="653" to="657" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lin JJ, Hsieh SC, Cheng WC, Chen WC, Lai Y. Adaptive patterns of movement during arm elevation test in patients with shoulder impingement syndrome. J Orthop Res. 2010;29(5):653-657.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Neer</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ii</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Orthop Relat Res</title>
+		<imprint>
+			<biblScope unit="volume">173</biblScope>
+			<biblScope unit="page" from="70" to="77" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note>Impingement lesions</note>
+	<note type="raw_reference">Neer CS II. Impingement lesions. Clin Orthop Relat Res. 1983;173:70-77.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

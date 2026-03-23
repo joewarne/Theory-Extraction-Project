@@ -1,0 +1,540 @@
+---
+title: "Theory Extraction Report"
+subtitle: "Automated identification of theoretical frameworks in sports science introductions"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-title: "Contents"
+    theme: flatly
+    embed-resources: true
+    df-print: kable
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r setup}
+# ── Package check ─────────────────────────────────────────────────────────────
+required_packages <- c("dplyr", "purrr", "stringr", "tidyr",
+                       "tibble", "readr", "knitr", "kableExtra", "here", "yaml")
+
+missing <- required_packages[!required_packages %in% rownames(installed.packages())]
+if (length(missing) > 0) {
+  stop(
+    "Required packages not installed:\n  ", paste(missing, collapse = ", "),
+    "\nRun 01_setup.R first."
+  )
+}
+
+library(dplyr)
+library(purrr)
+library(stringr)
+library(tidyr)
+library(tibble)
+library(readr)
+library(knitr)
+library(kableExtra)
+library(here)
+
+# ── Load results ───────────────────────────────────────────────────────────────
+results_df <- readRDS(here("theory_extraction_full.Rds"))
+flat       <- read_csv(here("theory_extraction_results.csv"), show_col_types = FALSE)
+
+hyp_df   <- if (file.exists(here("hypothesis_extraction_full.Rds")))
+              readRDS(here("hypothesis_extraction_full.Rds")) else NULL
+hyp_flat <- if (file.exists(here("hypothesis_extraction_results.csv")))
+              read_csv(here("hypothesis_extraction_results.csv"), show_col_types = FALSE) else NULL
+
+disc_df  <- if (file.exists(here("discussion_extraction_full.Rds")))
+              readRDS(here("discussion_extraction_full.Rds")) else NULL
+
+# ── Helpers ───────────────────────────────────────────────────────────────────
+extract_kwic <- function(text, article_id, keyword = "theory", window = 10) {
+  words   <- str_split(text, "\\s+")[[1]]
+  matches <- which(str_detect(words, regex(keyword, ignore_case = TRUE)))
+  if (length(matches) == 0) return(NULL)
+  map_dfr(matches, function(i) {
+    start <- max(1, i - window)
+    end   <- min(length(words), i + window)
+    tibble(article_id    = article_id,
+           left_context  = paste(words[start:(i - 1)], collapse = " "),
+           keyword       = words[i],
+           right_context = paste(words[(i + 1):end], collapse = " "))
+  })
+}
+
+find_context_sentence <- function(results_df, theory_name) {
+  for (i in seq_len(nrow(results_df))) {
+    sentences <- str_split(results_df$introduction[i], "(?<=[.!?])\\s+")[[1]]
+    hit <- sentences[str_detect(sentences, regex(fixed(theory_name), ignore_case = TRUE))]
+    if (length(hit) > 0) return(str_trunc(str_trim(hit[1]), 200))
+  }
+  NA_character_
+}
+
+badge <- function(x, colours) {
+  # colours: named vector of value → hex colour
+  col <- colours[x]
+  col[is.na(col)] <- "#cccccc"
+  sprintf('<span style="background:%s;color:white;padding:2px 7px;border-radius:3px;font-size:0.85em">%s</span>', col, x)
+}
+
+# Ensure intro_length exists — compute from introduction text if missing
+if (!"intro_length" %in% names(results_df) && "introduction" %in% names(results_df)) {
+  results_df$intro_length <- nchar(results_df$introduction)
+} else if (!"intro_length" %in% names(results_df)) {
+  results_df$intro_length <- NA_integer_
+}
+
+# Pre-compute
+n_pdfs    <- length(list.files(here("Study_papers"), pattern = "\\.pdf$"))
+n_xml     <- length(list.files(here("files", "xml_files_theory"), pattern = "\\.xml$"))
+n_intros  <- nrow(results_df)
+n_success <- sum(!results_df$theory_error, na.rm = TRUE)
+n_errors  <- sum(results_df$theory_error,  na.rm = TRUE)
+n_none    <- sum(results_df$theory_none,   na.rm = TRUE)
+short_ids <- results_df$article_id[
+  !is.na(results_df$intro_length) & results_df$intro_length < 200
+]
+```
+
+---
+
+# Section 1: Processing Summary
+
+```{r processing-summary-table}
+tibble(
+  Metric = c(
+    "PDFs found in Study_papers/",
+    "XMLs created by GROBID",
+    "Articles with introduction text extracted",
+    "Articles with very short introductions (< 200 chars)",
+    "LLM extraction successes",
+    "LLM extraction failures",
+    "Articles where no theory was detected"
+  ),
+  Count = c(n_pdfs, n_xml, n_intros, length(short_ids),
+            n_success, n_errors, n_none)
+) |>
+  kable(align = c("l", "r")) |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover")) |>
+  row_spec(c(4, 6), background = "#fff3cd")
+```
+
+```{r intro-lengths}
+results_df |>
+  filter(!is.na(intro_length)) |>
+  summarise(`Min (chars)` = min(intro_length), `Median` = median(intro_length),
+            `Mean` = round(mean(intro_length)), `Max` = max(intro_length)) |>
+  kable(caption = "Introduction length statistics") |>
+  kable_styling(full_width = FALSE, bootstrap_options = "striped")
+```
+
+```{r short-intros-table, eval=length(short_ids) > 0}
+tibble(
+  `Article ID`           = short_ids,
+  `Introduction (chars)` = results_df$intro_length[results_df$article_id %in% short_ids]
+) |>
+  arrange(`Introduction (chars)`) |>
+  kable(caption = "Articles with suspiciously short introductions") |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover")) |>
+  row_spec(0, background = "#f8d7da")
+```
+
+```{r failed-extractions, eval=n_errors > 0}
+tibble(`Failed Article IDs` = results_df$article_id[results_df$theory_error == TRUE]) |>
+  kable(caption = "Articles where LLM extraction failed") |>
+  kable_styling(full_width = FALSE, bootstrap_options = "striped")
+```
+
+---
+
+# Section 2: Theory Extraction Overview
+
+> **Operational theory:** The theory directly generates a specific, falsifiable prediction that is actually tested in this study. The hypothesis follows logically from the theory — the theory is doing scientific work.
+>
+> **Contextual theory:** The theory is cited as background, motivation, or general framing but does not generate the specific hypothesis being tested. The theory is present in the introduction but is not operationalised into a prediction.
+
+```{r overview-stats}
+n_explicit <- nrow(filter(flat, theory_type == "explicit"))
+n_implicit <- nrow(filter(flat, theory_type == "implicit"))
+n_theories <- nrow(flat)
+n_articles_with_theory <- n_distinct(flat$article_id)
+
+# v2 fields (operational/contextual) — present if pipeline was run with v2 prompt
+has_v2 <- "role" %in% names(flat) &&
+  any(flat$role %in% c("operational", "contextual"), na.rm = TRUE)
+n_operational <- if (has_v2) sum(flat$role == "operational", na.rm = TRUE) else NA
+n_contextual  <- if (has_v2) sum(flat$role == "contextual",  na.rm = TRUE) else NA
+
+rows <- tibble(
+  Metric = c("Total theory instances extracted",
+             "Explicit theories (named in text)",
+             "Implicit theories (inferred by model)",
+             "Articles with at least one theory",
+             "Articles with no theory detected",
+             "Mean theories per article (all)",
+             "Mean theories per article (with theories)"),
+  Value  = c(n_theories, n_explicit, n_implicit, n_articles_with_theory, n_none,
+             round(n_theories / n_intros, 2),
+             round(n_theories / max(n_articles_with_theory, 1), 2))
+)
+
+if (has_v2) {
+  rows <- bind_rows(rows, tibble(
+    Metric = c("Operational theories (drive a testable prediction)",
+               "Contextual theories (background/framing only)"),
+    Value  = c(n_operational, n_contextual)
+  ))
+}
+
+rows |>
+  kable(align = c("l", "r")) |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+```
+
+```{r basis-quality, eval=has_v2 && "theoretical_basis_quality" %in% names(results_df)}
+results_df |>
+  filter(!is.na(theoretical_basis_quality)) |>
+  count(theoretical_basis_quality) |>
+  mutate(pct = paste0(round(n / sum(n) * 100), "%")) |>
+  rename(`Theoretical basis quality` = theoretical_basis_quality,
+         Count = n, `%` = pct) |>
+  kable(caption = "Overall theoretical basis quality per article (strong / weak / absent)") |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+```
+
+```{r confidence-overview}
+flat |>
+  filter(!is.na(confidence)) |>
+  group_by(`Theory type` = theory_type) |>
+  summarise(`Mean confidence` = round(mean(confidence, na.rm = TRUE), 2),
+            `Median`          = round(median(confidence, na.rm = TRUE), 2),
+            `Min`             = round(min(confidence,  na.rm = TRUE), 2),
+            `Max`             = round(max(confidence,  na.rm = TRUE), 2),
+            .groups = "drop") |>
+  kable(caption = "Model confidence scores by theory type") |>
+  kable_styling(full_width = FALSE, bootstrap_options = "striped")
+```
+
+---
+
+# Section 3: Theory Frequency Tables
+
+## 3a: Explicit Theories
+
+```{r explicit-table}
+explicit_flat <- filter(flat, theory_type == "explicit", !is.na(name), nzchar(name))
+
+if (nrow(explicit_flat) == 0) {
+  cat("No explicit theories found.")
+} else {
+  unique_exp  <- unique(explicit_flat$name)
+  context_map <- map_chr(unique_exp, ~ find_context_sentence(results_df, .x))
+
+  tbl <- explicit_flat |>
+    count(name, sort = TRUE) |>
+    left_join(
+      explicit_flat |>
+        group_by(name) |>
+        summarise(avg_confidence = round(mean(confidence, na.rm = TRUE), 2),
+                  .groups = "drop"),
+      by = "name"
+    ) |>
+    left_join(tibble(name = unique_exp, `Example context` = context_map), by = "name") |>
+    rename(`Theory name` = name, Count = n, `Mean confidence` = avg_confidence)
+
+  if (has_v2) {
+    op_counts <- explicit_flat |>
+      group_by(name) |>
+      summarise(operational = sum(role == "operational", na.rm = TRUE),
+                contextual  = sum(role == "contextual",  na.rm = TRUE),
+                .groups = "drop")
+    tbl <- left_join(tbl, rename(op_counts, `Theory name` = name), by = "Theory name")
+  }
+
+  tbl |>
+    kable(caption = "Explicit theories — frequency, confidence, and example usage") |>
+    kable_styling(bootstrap_options = c("striped", "hover")) |>
+    column_spec(ncol(tbl), width = "35em")
+}
+```
+
+## 3b: Implicit Theories
+
+```{r implicit-table}
+implicit_flat <- filter(flat, theory_type == "implicit", !is.na(name), nzchar(name))
+
+if (nrow(implicit_flat) == 0) {
+  cat("No implicit theories found.")
+} else {
+  implicit_flat |>
+    count(name, sort = TRUE) |>
+    left_join(
+      implicit_flat |>
+        group_by(name) |>
+        summarise(avg_confidence       = round(mean(confidence, na.rm = TRUE), 2),
+                  example_justification = first(justification[!is.na(justification)]),
+                  .groups = "drop"),
+      by = "name"
+    ) |>
+    rename(`Inferred framework` = name, Count = n,
+           `Mean confidence` = avg_confidence, `Example justification` = example_justification) |>
+    kable(caption = "Implicit theories — frequency and example justification") |>
+    kable_styling(bootstrap_options = c("striped", "hover")) |>
+    column_spec(4, width = "40em")
+}
+```
+
+## 3c: Operational vs Contextual Breakdown {.conditional}
+
+```{r operational-breakdown, eval=has_v2}
+flat |>
+  filter(!is.na(role), role %in% c("operational", "contextual")) |>
+  count(name, role) |>
+  pivot_wider(names_from = role, values_from = n, values_fill = 0) |>
+  mutate(total = operational + contextual,
+         `% operational` = paste0(round(operational / total * 100), "%")) |>
+  arrange(desc(total)) |>
+  rename(Theory = name, Operational = operational, Contextual = contextual,
+         Total = total) |>
+  kable(caption = "For each theory: how often it drives a testable prediction vs. appears as background") |>
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+---
+
+# Section 4: Paper × Theory Mapping
+
+```{r paper-theory-table}
+if (nrow(flat) == 0) {
+  cat("No theories found.")
+} else {
+  flat |>
+    arrange(article_id, theory_type, name) |>
+    mutate(confidence    = round(confidence, 2),
+           justification = ifelse(theory_type == "implicit" & !is.na(justification),
+                                  str_trunc(justification, 120), NA_character_)) |>
+    select(`Article` = article_id, `Theory` = name, `Type` = theory_type,
+           `Role` = role, `Confidence` = confidence,
+           `Justification (implicit)` = justification) |>
+    kable(caption = "All theories by paper") |>
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed")) |>
+    column_spec(6, width = "30em")
+}
+```
+
+---
+
+# Section 5: Hypothesis–Theory Alignment
+
+```{r hyp-unavailable, eval=is.null(hyp_flat)}
+cat("Hypothesis extraction has not been run yet. Run 02_pipeline.R to generate these results.")
+```
+
+```{r hyp-overview, eval=!is.null(hyp_flat) && !is.null(hyp_df)}
+n_hyp_articles  <- n_distinct(hyp_flat$article_id)
+n_hyp_total     <- nrow(hyp_flat)
+n_no_hyp        <- sum(hyp_df$hyp_no_hypothesis, na.rm = TRUE)
+n_hyp_error     <- sum(hyp_df$hyp_error, na.rm = TRUE)
+
+tibble(
+  Metric = c("Articles with at least one hypothesis",
+             "Articles with no hypothesis detected",
+             "Total hypotheses extracted",
+             "Hypotheses with explicit theory link",
+             "Hypotheses with implicit theory link",
+             "Hypotheses with no theory link",
+             "Extraction failures"),
+  Count = c(
+    n_hyp_articles, n_no_hyp, n_hyp_total,
+    sum(hyp_flat$linkage_strength == "explicit", na.rm = TRUE),
+    sum(hyp_flat$linkage_strength == "implicit", na.rm = TRUE),
+    sum(hyp_flat$linkage_strength == "none",     na.rm = TRUE),
+    n_hyp_error
+  )
+) |>
+  kable(align = c("l","r")) |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+```
+
+```{r hyp-alignment-quality, eval=!is.null(hyp_df)}
+hyp_df |>
+  filter(!is.na(hyp_alignment)) |>
+  count(hyp_alignment) |>
+  mutate(pct = paste0(round(n / sum(n) * 100), "%")) |>
+  rename(`Hypothesis-theory alignment` = hyp_alignment, Count = n, `%` = pct) |>
+  kable(caption = "Overall hypothesis-theory alignment quality per article") |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+```
+
+```{r hyp-detail-table, eval=!is.null(hyp_flat)}
+hyp_flat |>
+  arrange(article_id) |>
+  mutate(
+    linkage_explanation = str_trunc(linkage_explanation, 140),
+    hypothesis_text     = str_trunc(hypothesis_text, 160)
+  ) |>
+  select(`Article`          = article_id,
+         `Hypothesis`       = hypothesis_text,
+         `Linked theory`    = linked_theory,
+         `Linkage strength` = linkage_strength,
+         `Explanation`      = linkage_explanation) |>
+  kable(caption = "All hypotheses and their theoretical grounding") |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed")) |>
+  column_spec(2, width = "25em") |>
+  column_spec(5, width = "25em")
+```
+
+---
+
+# Section 6: Discussion — Theory Re-engagement
+
+```{r disc-unavailable, eval=is.null(disc_df)}
+cat("Discussion analysis has not been run yet. Run 02_pipeline.R to generate these results.")
+```
+
+```{r disc-overview, eval=!is.null(disc_df)}
+n_disc_full    <- sum(disc_df$disc_reengagement == "full",    na.rm = TRUE)
+n_disc_partial <- sum(disc_df$disc_reengagement == "partial", na.rm = TRUE)
+n_disc_absent  <- sum(disc_df$disc_reengagement == "absent",  na.rm = TRUE)
+n_disc_error   <- sum(disc_df$disc_error, na.rm = TRUE)
+n_overclaim    <- sum(disc_df$disc_overclaim, na.rm = TRUE)
+
+tibble(
+  Metric = c(
+    "Articles with full theory re-engagement in discussion",
+    "Articles with partial theory re-engagement",
+    "Articles with absent theory re-engagement",
+    "Articles making claims beyond their hypothesis",
+    "Discussion extraction failures"
+  ),
+  Count = c(n_disc_full, n_disc_partial, n_disc_absent, n_overclaim, n_disc_error),
+  `%` = paste0(round(c(n_disc_full, n_disc_partial, n_disc_absent,
+                        n_overclaim, n_disc_error) /
+                       max(nrow(disc_df) - n_disc_error, 1) * 100), "%")
+) |>
+  kable(align = c("l", "r", "r")) |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover")) |>
+  row_spec(3, background = "#f8d7da") |>
+  row_spec(4, background = "#fff3cd")
+```
+
+```{r disc-quality, eval=!is.null(disc_df)}
+disc_df |>
+  filter(!is.na(disc_quality)) |>
+  count(disc_quality) |>
+  mutate(pct = paste0(round(n / sum(n) * 100), "%")) |>
+  rename(`Discussion quality` = disc_quality, Count = n, `%` = pct) |>
+  kable(caption = "Overall discussion quality rating") |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+```
+
+```{r disc-detail, eval=!is.null(disc_df)}
+disc_df |>
+  filter(!disc_error) |>
+  arrange(disc_reengagement, article_id) |>
+  mutate(
+    disc_evidence        = str_trunc(disc_evidence, 160),
+    disc_overclaim_detail = str_trunc(disc_overclaim_detail, 120)
+  ) |>
+  select(`Article`            = article_id,
+         `Re-engagement`      = disc_reengagement,
+         `Quality`            = disc_quality,
+         `Evidence`           = disc_evidence,
+         `Overclaim?`         = disc_overclaim,
+         `Overclaim detail`   = disc_overclaim_detail) |>
+  kable(caption = "Discussion analysis — all articles") |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed")) |>
+  column_spec(4, width = "28em") |>
+  column_spec(6, width = "22em")
+```
+
+---
+
+# Section 7: Full Theory Chain
+
+This table shows the complete arc for each article: whether a theory was cited,
+whether a hypothesis derived from it, and whether the discussion re-engaged with it.
+
+```{r chain-table, eval=!is.null(hyp_df) && !is.null(disc_df)}
+theory_summary <- flat |>
+  group_by(article_id) |>
+  summarise(
+    theories      = paste(unique(name[!is.na(name)]), collapse = "; "),
+    n_theories    = n_distinct(name[!is.na(name)]),
+    has_operational = if ("role" %in% names(flat))
+      any(role == "operational", na.rm = TRUE) else NA,
+    .groups = "drop"
+  )
+
+hyp_summary <- hyp_df |>
+  select(article_id, hyp_alignment, hyp_no_hypothesis)
+
+disc_summary <- disc_df |>
+  select(article_id, disc_reengagement, disc_quality, disc_overclaim)
+
+theory_summary |>
+  left_join(hyp_summary,  by = "article_id") |>
+  left_join(disc_summary, by = "article_id") |>
+  arrange(article_id) |>
+  mutate(theories = str_trunc(theories, 80)) |>
+  select(
+    `Article`              = article_id,
+    `Theories (n)`         = n_theories,
+    `Theories cited`       = theories,
+    `Hypothesis alignment` = hyp_alignment,
+    `Discussion quality`   = disc_quality,
+    `Re-engagement`        = disc_reengagement,
+    `Overclaim`            = disc_overclaim
+  ) |>
+  kable(caption = "Full theory chain: Introduction → Hypothesis → Discussion") |>
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed")) |>
+  column_spec(3, width = "22em")
+```
+
+---
+
+# Section 8: Keyword-in-Context — "theory"
+
+Every occurrence of *theory* in each article introduction, with 10 words either side.
+
+```{r kwic-analysis}
+kwic_df <- map2_dfr(
+  results_df$introduction,
+  results_df$article_id,
+  ~ extract_kwic(.x, .y, keyword = "theory", window = 10)
+)
+
+if (nrow(kwic_df) == 0) {
+  cat("The word 'theory' was not found in any introduction.")
+} else {
+  kwic_df |>
+    arrange(article_id) |>
+    mutate(`THEORY` = paste0("**", keyword, "**")) |>
+    select(`Article`              = article_id,
+           `...left context...`  = left_context,
+           `THEORY`,
+           `...right context...` = right_context) |>
+    kable(
+      escape  = FALSE,
+      caption = sprintf(
+        "All occurrences of 'theory' in introductions (±10 words). Total: %d across %d articles.",
+        nrow(kwic_df), n_distinct(kwic_df$article_id)
+      )
+    ) |>
+    kable_styling(bootstrap_options = c("striped", "hover", "condensed")) |>
+    column_spec(2, width = "25em", italic = TRUE, color = "grey") |>
+    column_spec(3, bold = TRUE, color = "#c0392b") |>
+    column_spec(4, width = "25em", italic = TRUE, color = "grey")
+}
+```
+
+---
+
+*Report generated: `r format(Sys.time(), "%Y-%m-%d %H:%M")`*
+*Model: `r yaml::read_yaml(here("sportTheoryAI", "inst", "config.yml"))$model$name`*
+*Pipeline version: sportTheoryAI v`r tryCatch(read.dcf(here("sportTheoryAI", "DESCRIPTION"), fields = "Version")[1], error = function(e) "dev")`*

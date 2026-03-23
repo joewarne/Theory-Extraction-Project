@@ -1,0 +1,1440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Psychology of Sport &amp; Exercise</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-03-20">20 March 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Yifan</forename><surname>Chen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Yingzhi</forename><surname>Lu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Chenglin</forename><surname>Zhou</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Xiaochun</forename><surname>Wang</surname></persName>
+							<email>wangxiaochun@sus.edu.cn</email>
+							<affiliation key="aff1">
+								<orgName type="department">Corresponding author. Department of Psychology</orgName>
+								<orgName type="institution">Shanghai University of Sport</orgName>
+								<address>
+									<postCode>200438</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Psychology</orgName>
+								<orgName type="institution">Shanghai University of Sport</orgName>
+								<address>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Psychology of Sport &amp; Exercise</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-03-20">20 March 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4DAE64D999707FC5DDBDB5C0692A683E</idno>
+					<idno type="DOI">10.1016/j.psychsport.2020.101685</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>High-intensity aerobic exercise Working memory Methamphetamine dependence ERP fNIRS</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>To explore the effect of aerobic exercise on working memory according to exercise intensity in patients with methamphetamine (MA) dependence. Design: Twelve-week randomized controlled trial. Method: Forty-five MA-dependent patients were divided randomly into three groups participating in 12-week moderate-and high-intensity aerobic exercise interventions and no intervention (control), respectively. Working memory performance was assessed using a 2-back task, and a combined functional near-infrared spectral imaging-event-related potential measure was used to identify spatial and temporal components of the neurofunctional underpinnings of this performance. Results: High-intensity exercise significantly enhanced the discernment aspect of working memory. It also decreased N1 and P2 amplitudes, and increased neural activity in the left dorsolateral prefrontal cortex. Conclusions: The findings of this study suggest that high-intensity aerobic exercise can enhance working memory and neural activity in MA-dependent patients, and thus that it may serve as an effective therapeutic tool for these patients.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>A review of the current literature clearly shows that aerobic exercise positively influences the repair of cognitive function <ref type="bibr" target="#b10">(Etnier, Drollette, &amp; Slutsky, 2019;</ref><ref type="bibr" target="#b28">Piepmeier &amp; Etnier, 2015)</ref>. This exercise-induced benefit has also been observed in methamphetamine (MA)-dependent patients, mainly through the enhancement of inhibitory control from behavioral and neural perspectives <ref type="bibr" target="#b13">(Huang, Zheng, Gao, Hu, &amp; Yuan, 2020;</ref><ref type="bibr" target="#b38">Wang, Zhou, &amp; Chang, 2015;</ref><ref type="bibr" target="#b40">Wang, Zhu, Zhou, &amp; Chang, 2017)</ref>. Working memory, a fundamental component of cognitive function, has also been proven to play an important role in drug withdrawal; individuals with weak working memory are more likely to relapse <ref type="bibr" target="#b7">(Chambers, Hugh, &amp; Bellgrove, 2009)</ref>. However, the effect of exercise on working memory among MA-dependent patients remains unknown.</p><p>MA dependence is increasingly recognized as a relapsing brain disorder and, in support of this view, marked structural changes in the striatal and prefrontal brain regions have been reported <ref type="bibr" target="#b0">(Alizadehgoradel et al., 2020;</ref><ref type="bibr" target="#b9">Ersche et al., 2012)</ref>. Existing studies show that aerobic exercise enhances prefrontal cortex (PFC) activity and improves working memory performance in patients with abnormal brain structure, such as children with attention-deficit/hyperactivity disorder (ADHD) <ref type="bibr" target="#b6">(Chaddock-Heyman et al., 2013;</ref><ref type="bibr" target="#b33">Suarez-Manzano, Ruiz-Ariza, Torre-Cruz, &amp; Martínez-López, 2018)</ref> and post-stroke patients <ref type="bibr" target="#b25">(Moriya, Aoki, &amp; Sakatani, 2016)</ref>. Meanwhile, neuroimaging studies suggest that the PFC is involved in working memory <ref type="bibr" target="#b4">(Braver et al., 1997)</ref>. Thus, aerobic exercise may have efficacious effects on working memory in MA-dependent patients, with changes in the PFC playing a crucial role, although direct evidence is needed to support this speculation.</p><p>Although the cognitive benefit of exercise is well known, it may vary according to exercise intensity. Numerous studies have shown that exercise-induced brain activity changes are modulated by exercise intensity <ref type="bibr" target="#b31">(Shibuya, Sadamoto, Sato, Moriyama, &amp; Iwadate, 2008)</ref>, with greater intensity associated with greater cerebral oxygenation and blood volume in the brain <ref type="bibr" target="#b11">(Gondoh et al., 2009)</ref>. Current research shows that high-intensity aerobic exercise facilitates inhibitory control performance in MA-dependent patients <ref type="bibr" target="#b39">(Wang, Zhou, Zhao, Wu, &amp; Chang, 2016)</ref>. Some researchers have reported significant increases in working memory performance and brain-derived neurotrophic factor (BDNF), insulin-like growth factor 1, and cortisol concentrations in healthy high-intensity exercise groups compared with those observed in low-and moderate-intensity exercise groups <ref type="bibr" target="#b15">(Jeon &amp; Ha, 2017)</ref>. Similarly, <ref type="bibr" target="#b14">Hwang et al. (2016)</ref> found that acute high-intensity aerobic exercise improved prefrontal-dependent cognitive performance and <ref type="url" target="https://doi.org/10.1016/j.psychsport.2020.101685">https://doi.org/10.1016/j.psychsport.2020.101685</ref> Received 27 September 2019; Received in revised form 8 March 2020; Accepted 9 March 2020 increased BDNF concentrations in healthy young adults. In addition, high-intensity exercise acutely increased prefrontal brain activity in patients with Parkinson's disease <ref type="bibr" target="#b19">(Kelly et al., 2017)</ref>. <ref type="bibr" target="#b16">Jones (2015)</ref> reported that moderately intense aerobic exercise did not improve working memory in young children with ADHD. Currently, no study has investigated the relationship between exercise intensity and working memory benefits in MA-dependent patients. As such, we compared the effects of the three exercise intensities in this study in an attempt to further understand any dose-response relationship.</p><p>Most previous studies have used event-related potentials (ERPs) to measure dynamic processing in the brain cortex during cognitive task performance in MA-dependent patients. This analysis enables the detection of temporal components of working memory processing. For example, the N1 component is an index of discrimination processing in working memory <ref type="bibr" target="#b37">(Vogel &amp; Luck, 2000)</ref>, and the P2 component is indicative of the initial stage of context updating related to working memory <ref type="bibr" target="#b21">(Lenartowicz, Escobedo-Quiroz, &amp; Cohen, 2010)</ref>. However, spatial neural changes are difficult to measure using ERPs. To facilitate the observation of brain hemodynamic changes, we also employed functional near-infrared spectral imaging (fNIRS), a noninvasive neuroimaging method used widely to monitor PFC activity during cognitive task performance. Thus, we used a combined fNIRS-ERP measure to synchronously identify spatial and temporal components of the neurofunctional underpinnings of working memory processing. PFC activation and related ERP features were investigated.</p><p>The aim of this study was to determine the effects of aerobic exercise at various intensities on working memory among MA-dependent patients. We designed 12-week moderate-and high-intensity aerobic exercise interventions, and applied a combined fNIRS-ERP measure during participants' working memory task performance for assessment. We expected that 12 weeks of aerobic exercise would enhance working memory in MA-dependent patients, and that the effects of high-intensity exercise would be stronger than those of moderate-intensity exercise.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Material and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Participants</head><p>Forty-five participants were recruited from the Zhejiang Shiliping Drug Rehabilitation Bureau in China. All participants were aged 18-45 years and met the DSM-V criteria for MA-dependent patients, according to the Structured Diagnostic Interview. The exclusion criteria were 1) a history of psychosis, 2) physical or medical conditions that contraindicated exercise and 3) abstinent for 3 months.</p><p>All participants were divided randomly into three groups: moderateand high-intensity exercise groups and a control group. The demographic characteristics of the groups are shown in Table <ref type="table" target="#tab_0">1</ref>. Participants in all three groups received routine care provided by staff at the rehabilitation center. This care included behavior management, nutritional support, physical examination, legal education, and discipline education.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Ethics</head><p>The study procedures were carried out in accordance with the Declaration of Helsinki. The Institutional Review Board of the Shanghai University of Sport approved the study. All subjects were informed about the study and provided informed consent.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Aerobic exercise intervention</head><p>Participants in the control group maintained their normal daily routines at the drug rehabilitation bureau under staff supervision. Others in the two exercise groups were engaged in exercise programs that involved three 40-min sessions per week of aerobic exercise at moderate and high intensity, respectively, on a cycle ergometer for 12 weeks. The exercise protocol was created in accordance with the recommendations of the American College of Sports Medicine (American College of Sports Medicine, 2014). Each session of the program involved stretching of the large muscle groups as warm-up (5 min), aerobic exercise as the main exercise stage (30 min), and stretching of the center-based muscles as cool-down (5 min). The moderate-intensity group needed to reach 65-75% of the indirect maximum heart rate (HRmax) during exercise, and the high-intensity group needed to reach 75-85% of the HRmax. HRmax values were calculated as 206.9-0.67 × age. Participants' HRs were monitored throughout the entire procedure using Smart Sensors (Suunto, Vantaa, Finland). All interventions were performed at the drug rehabilitation bureau.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Working memory assessment</head><p>A classic 2-back task was used to measure working memory with Eprime 2.0 (Psychology Software Tools, Pittsburgh, PA, USA). Stimuli were the numerals 0-9, and the task consisted of 6 blocks of 14 trials each. At the beginning of each block, a white cross was displayed at the center of a black screen for 10,000 ms. In each trial, a white stimulus number was first presented at the center of the screen for 500 ms. The participant was asked to match the stimulus number identity between the current stimulus and the probe number within each 2-back sequence. They were required to press one of two buttons to indicate a match or mismatch response within 2500 ms after the current stimulus had disappeared, and then proceeded immediately to the next trial (Fig. <ref type="figure" target="#fig_0">1</ref>). The ratio of matching to mismatching stimuli was 1:2. Four practice blocks were provided prior to the formal experiment. Participants completed a pre-test of the 2-back task before participating in the intervention, and a post-test after intervention completion (Fig. <ref type="figure" target="#fig_1">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5.">Behavioral data processing</head><p>Participants' reaction times (RTs) and discernment (d') in the 2-back task were analyzed. To minimize the impact of RT outliers, trials with RTs &gt; 1000 ms were discarded. In addition, a trimming procedure was applied in Matlab (MathWorks Inc., Natick, MA, USA) to discard outliers falling outside three standard deviations around the mean. In accordance with signal detection theory <ref type="bibr" target="#b35">(Swets &amp; Green, 1972)</ref>, based on the numbers of correct (e.g., responding ''match'' when a matching stimulus was actually present) and incorrect responses (e.g., responding ''mismatch'' to a mismatching stimulus), we computed hit rates and false alarms separately for all groups in pre-test and post-test. The sensitivity index, d', indicates the degree to which a participant was able to discriminate a true signal from noise; it was computed by subtracting the z score corresponding to the false alarm rate from that corresponding to the hit rate. Sensitivity increases with the d' value.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6.">fNIRS data acquisition and processing</head><p>A multi-channel continuous-wave fNIRS instrument (NIRScout; NIRx Medical Technologies LLC, Minneapolis, MN, USA) was used to monitor hemodynamic activity. The fNIRS probe consisted of eight dual-wavelength sources (780 and 830 nm) and seven optical detectors, with a sampling rate of 7.81 Hz. The probes were arranged according to a 10-20 system, with some adjustment to ensure that each emitter was 3 cm away from its corresponding detector. One source and one detector formed a channel, and 20 channels were formed (Fig. <ref type="figure" target="#fig_2">3b</ref>). Based on the recent finding that the frontal cortical regions were activated robustly mainly during the n-back task <ref type="bibr" target="#b27">(Owen, Mcmillan, Laird, &amp; Bullmore, 2010</ref>), all channels were set in the PFC. Information on the correspondence between fNIRS channel locations and specific brain regions was taken from <ref type="bibr" target="#b26">Okamoto et al. (2009)</ref> and <ref type="bibr" target="#b36">Tsuzuki et al. (2007)</ref>. All corresponding electrode locations were converted to standard Montreal Neurological Institute coordinates using a probabilistic estimation method <ref type="bibr" target="#b32">(Simone, Pietro, &amp; Marco, 2011)</ref>. The locations of all channels in the PFC were estimated (Table <ref type="table" target="#tab_1">2</ref>), and six regions of interest (ROIs) were formed.</p><p>Data were analyzed using Homer2 open source software (MGH-Martinos Center for Biomedical Imaging, Boston, MA, USA), implemented in Matlab. Motion artifacts were detected and removed using channel-based cubic spline interpolation in Homer2 <ref type="bibr" target="#b29">(Scholkmann, Spichtig, Muehlemann, &amp; Wolf, 2010)</ref>. fNIRS signals were preprocessed with a high-pass filter using the cut-off frequency of 0.04 Hz to remove baseline drift, and a 0.5-Hz low-pass filter to reduce the impacts of heartbeat pulsations, blood pressure, and skin blood flow on the signal. The modified Beer-Lambert law was applied to calculate hemoglobin concentration changes. The data were block averaged from the time window 0-30 s to obtain an average response to the 2-back task for each of the six ROIs in each participant for the pre-test and post-test. The concentration of the oxygenated hemoglobin ([HbO]) and deoxygenated hemoglobin signals <ref type="bibr">([Hb]</ref>) were chosen as the primary metrics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.7.">Electroencephalographic data recording and processing</head><p>Continuous electroencephalographic (EEG) data were recorded from a 32-channel amplifier using the Brain Vision Recorder software (Brain Products, Munich, Germany). Due to the fixed optode positions, the electrodes were embedded in a combined fNIRS-EEG cap according to the 10-20 system (Fig. <ref type="figure" target="#fig_2">3a</ref>). Additionally, electrooculography was performed to measure AF1 and AF2 for the detection of eye movement artifacts. The ground electrode and the online reference electrode were placed at CPz and FCz, respectively. Electrode impedance was kept below 10 kΩ. With a sampling rate of 500 Hz, the signal was bandpass filtered online at 0.1-100 Hz.</p><p>Offline data from the EEG recordings were analyzed using the Vision Analyzer 2.0 system (Brain Products, Gilching, Germany). Epochs were then filtered with an IIR filter (IIR = infinite impulse response; low cut-off, 0.1 Hz; high cut-off, 30 Hz). Ocular correction of the filtered data was conducted using the Gratton and Coles method <ref type="bibr" target="#b12">(Gratton, Coles, &amp; Donchin, 1983)</ref>. EEG recordings were then segmented into trials from 200 ms before cue onset to 1000 ms after target onset. Trials were rejected when the voltage exceeded ± 80 μV. ERP data were then baseline corrected to the mean amplitude of the prestimulus interval.</p><p>Based on the participants' grand-average waveforms and the findings of a recent study <ref type="bibr" target="#b42">(Yuan et al., 2016)</ref>, we analyzed two components that occurred before behavioral responses, N1 and P2. Therefore, the mean amplitude of the N1 component was measured at P7 and P8 (time window, 180-200 ms). The mean amplitude of the P2 component was measured at FC1 and FC2 (time window, 195-200 ms).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.8.">Statistical analysis</head><p>The assumptions of normal distribution were met. The effects of the experimental conditions on behavioral (RT and d'), fNIRS <ref type="bibr">([HbO]</ref> in ROIs), and ERP (N1 and P2 amplitudes) data were determined by a 2 (test time: pre-test, post-test) × 3 (group: control, moderate-intensity exercise, high-intensity exercise) mixed-design analyses of variance (ANOVAs) using SPSS 20.0 software (SPSS Inc., Chicago, IL, USA). When a main effect or interaction was detected, the paired t-test was used for further comparison (corrected using the Benjamini-Hochberg method). To further assess the relationships between neurobiological changes and working memory processes, Pearson's correlation analyses were conducted to detect correlations of behavioral performance parameters (d' and RT) with significant changes in mean [HbO] of ROIs and ERP amplitudes (N1 and P2).</p><p>The effect size was represented by partial η 2 values, and mean values for the behavioral variables were reported with standard errors. For all statistical analyses, the alpha significance level was set at 0.05. Marginal significance was reflected by an alpha level of 0.10.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Effects of long-term aerobic exercise on working memory performance</head><p>Two-way ANOVA revealed significant interaction between the test time and group for d' (F 2,42 = 3.91, p = 0.028, η 2 p = 0.16). Further  analysis showed that d' was significantly higher for the post-test than for the pre-test in the high-intensity exercise group (p = 0.014; Fig. <ref type="figure" target="#fig_3">4a</ref>).</p><p>We also detected a significant main effect of the test time on RTs in the 2-back task (F 1,42 = 5.08, p = 0.030, η 2 p = 0.11); RTs were significantly shorter in the post-test than in the pre-test. Paired t-tests for the study groups revealed that RTs were significantly shorter in the post-test than in the pre-test for the high-intensity exercise group (p = 0.016), with no significant difference in the other two groups (Fig. <ref type="figure" target="#fig_3">4b</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Effects of long-term aerobic exercise on fNIRS parameters</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1.">HbO</head><p>The analysis of mean <ref type="bibr">[HbO]</ref> values revealed significant interaction between the test time and group (F 2,42 = 3.56, p = 0.037, η 2 p = 0.15) in the left dorsolateral prefrontal cortex (DLPFC_L). Further analysis showed significantly greater activation of the DLPFC_L in the post-test than in the pre-test only in the high-intensity exercise group (p = 0.025; Fig. <ref type="figure" target="#fig_4">5a</ref>). There were no other main effects or interactions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2.">Hb</head><p>The analysis of mean <ref type="bibr">[Hb]</ref> values revealed a marginally main effect of group (F 2,42 = 3.19, p = 0.052, η 2 p = 0.13) in the DLPFC_L; mean [Hb] of this ROI in the moderate-intensity group was obviously greater than control group (p = 0.049; Fig. <ref type="figure" target="#fig_4">5b</ref>).</p><p>Also, there was a marginally significant interaction between the test time and group (F 2,42 = 2.64, p = 0.083, η 2 p = 0.11) in the DLPFC_L. Further analysis showed significantly increased mean [Hb] of the DLPFC_L in the post-test than in the pre-test only in the control group (p = 0.038; Fig. <ref type="figure" target="#fig_4">5b</ref>).</p><p>Additionally, there was a significant main effect of group (F 2,42 = 4.74, p = 0.014, η 2 p = 0.18) in the OFC; mean <ref type="bibr">[Hb]</ref> of this ROI in the moderate-intensity group was obviously greater than control group (p = 0.013; Fig. <ref type="figure" target="#fig_4">5c</ref>).</p><p>There were no other main effects or interactions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Effects of long-term aerobic exercise on ERP data</head><p>One subject from the control group was excluded because of excessive artifacts; ERP data from the remaining 44 participants were included in the final analyses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.1.">N1</head><p>ANOVA showed significant interaction between the test time and group on the mean amplitude of the N1 component (F 2,41 = 4.08,   p = 0.024, η 2 p = 0.17). Further analysis showed that the N1 amplitude was significantly decreased in the post-test relative to the pre-test only in the high-intensity exercise group (p = 0.020; Fig. <ref type="figure" target="#fig_5">6a</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.2.">P2</head><p>ANOVA showed a significant main effect of the test time on the mean amplitude of the P2 component (F 1,41 = 4.07, p = 0.050, η 2 p = 0.090); the P2 amplitude was significantly decreased in the posttest relative to the pre-test. Paired t-tests for the study groups revealed that the P2 amplitude during the post-test was marginally reduced relative to that during the pre-test in the high-intensity exercise group (p = 0.051), with no significant difference in the other two groups (Fig. <ref type="figure" target="#fig_5">6b</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Correlations between behavioral and neurobiological data</head><p>The analysis of correlations between behavioral data and hemodynamic responses in DLPFC_L showed that the mean [HbO] correlated marginally with d' (r = 0.20, p = 0.055, n = 90; Fig. <ref type="figure">7a</ref>). For ERP data, the mean amplitude of the P2 component correlated negatively with d' (r = -0.22, p = 0.038, n = 88; Fig. <ref type="figure">7b</ref>). No other significant correlation between behavioral and neurobiological data was observed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>The purpose of this study was to determine the effects of aerobic exercise at various intensities on working memory among MA-dependent patients. Meanwhile, fNIRS and ERP data were obtained during working memory task performance to explore neurobiological changes in the brain. Broadly, the findings confirmed our hypothesis from both behavioral and neural level. A 12-week high-intensity aerobic exercise had a more positive impact than did moderate-intensity exercise on working memory in MA-dependent patients.</p><p>The behavioral data showed that the d' of working memory was improved significantly and RTs were effectively reduced, representing increased sensitivity and reaction speed, in the high-intensity exercise group alone. This finding is consistent with that of <ref type="bibr" target="#b15">Jeon and Ha (Jeon &amp; Ha, 2017)</ref>, who found that working memory performance increased significantly in a healthy high-intensity exercise group compared with low-and moderate-intensity groups. A previous study demonstrated that high-intensity exercise (e.g., that generating 80% HRmax) had effects on the performance of more complex memory tasks, such as three digit addition and the backward digit span <ref type="bibr" target="#b20">(Kim, Park, &amp; Kim, 2010)</ref>. 2-back task is a working memory task with a certain complexity; hence, high-intensity exercise resulted in stronger performance improvement. Our hypothesis was thus confirmed at the behavioral level.</p><p>Importantly, a combined fNIRS-ERP measure was used to identify the neurofunctional underpinnings of changes in working memory processes in this study. Our fNIRS data showed that the mean [HbO] in the DLPFC_L during 2-back task performance was significantly higher after the high-intensity exercise intervention. Meanwhile, the mean [Hb] in this ROI was obviously increased only in the control group during post-test. Those findings revealed that long-term high-intensity aerobic exercise could have a positive effect on concentration levels related to hemodynamic responses in the DLPFC_L, while participants without exercise intervention would experience a decline in the activity of this area. The DLPFC is known to be involved in executive function, an umbrella term for the management of cognitive processes, including working memory <ref type="bibr" target="#b3">(Barbey, Michael, &amp; Jordan, 2013)</ref>, and reduced activity in this area correlates with poor performance on working memory tasks. Our results are consequent to existing studies that aerobic exercise enhances prefrontal-dependent aspects of cognitive performance, such as working memory <ref type="bibr" target="#b15">(Jeon &amp; Ha, 2017;</ref><ref type="bibr" target="#b23">Moreau, Kirk, &amp; Waldie, 2017)</ref>, and induces physiological changes in brain regions, including changes in brain structure <ref type="bibr" target="#b11">(Gondoh et al., 2009)</ref>, cerebral blood flow <ref type="bibr" target="#b22">(Lista &amp; Sorrentino, 2010)</ref>, and BDNF levels <ref type="bibr" target="#b15">(Jeon &amp; Ha, 2017)</ref>. Moreover, the change in cerebral blood flow increases with the intensity of exercise <ref type="bibr" target="#b34">(Subudhi, Miramon, &amp; Roach, 2009)</ref>, inducing more brain activation and enhancing neural function. This finding confirmed our hypothesis that the effects of high-intensity exercise on working memory are stronger than those of moderate-intensity exercise at the neural level. Additionally, post-test fNIRS data from the high-intensity exercise group showed significant <ref type="bibr">[HbO]</ref> increases and <ref type="bibr">[Hb]</ref> decreases relative to pre-test levels, indicating that the exercise intervention reduced Hb levels via increases in blood flow that overcompensated for increased DLPFC_L oxygen consumption.</p><p>Furthermore, if changes in oxygen consumption and cerebral blood flow in the brain are specific to working memory tasks, one may assume that hemodynamic responses are related to behavior <ref type="bibr" target="#b30">(Schroeter, Zysset, Kupka, Kruggel, &amp; Von Cramon, 2002)</ref>. In this study, the mean <ref type="bibr">[HbO]</ref> in the DLPFC_L was weakly and positively related to d' for the 2-back task. Since the intervention was not long enough, this correlation was a tad weak, but we observed a significant trend of association between neural activity in the DLPFC_L and behavioral working memory performance. PFC activity appears to be an important part of the effect of aerobic exercise on working memory processes; future research should be conducted to validate the present findings and further advance knowledge in this area of research.</p><p>The mean [Hb] of the OFC was greater in the moderate-intensity exercise group than in the control group, which showed a decline in OFC activity. <ref type="bibr" target="#b2">Barbey, Koenigs, and Grafman (2010)</ref> provided neuropsychological evidence for the mandatory involvement of the OFC in executive control functions underlying joint working-memory maintenance, manipulation, and monitoring processes; decreased activity in Fig. 7. Correlations of d' with the mean [HbO] in the DLPFC_L (a) and mean amplitude of P2 (b).</p><p>this area compromised n-back task performance. In contrast, the current study revealed no significant difference in behavioral findings among the three groups, perhaps due to differences in the involvement of the OFC in working memory between healthy and MA-dependent participants.</p><p>Synchronized electrophysiological data showed similar findings. As expected, ERP results obtained in this study indicated that aerobic exercise affected the dynamic time course of neural activity during working memory processing. Lower N1 amplitudes were found only in the high-intensity exercise group. The N1 component is related to the early processing of stimuli and is sensitive to the physical properties of the stimuli <ref type="bibr" target="#b24">(Morgan, Klein, Boehm, Shapiro, &amp; Linden, 2008)</ref>. Moreover, some researchers have found that the N1 component, as an index of discrimination processing, reflects operations within attention focusing <ref type="bibr" target="#b37">(Vogel &amp; Luck, 2000)</ref>. The lower N1 amplitude observed in this study indicates that participants could identify whether stimuli matched with less use of mental resources after the intervention. P2 amplitudes were also lower in the high-intensity exercise group. Previous studies have shown that the P2 component indicates the initial stage of context updating in working memory <ref type="bibr" target="#b21">(Lenartowicz et al., 2010)</ref>, which reflects an early stage of information processing, a core stage in many cognitive tasks, including the n-back task <ref type="bibr" target="#b8">(Ciecko-Michalska et al., 2012)</ref>. This early stage of updating is a crucial step for successful task performance <ref type="bibr" target="#b42">(Yuan et al., 2016)</ref>. Our results are consistent with this viewpoint, given the significant correlation of behavioral data with the P2 amplitude. Evidence in the literature also suggests that the P2 component is associated with the direction of attentional resources to stimuli <ref type="bibr" target="#b41">(Yang, Guan, Dedovic, Qi, &amp; Zhang, 2012)</ref>. Thus, MA-dependent patients could better direct their attention to positive signals in the early processing stage after the 12-week high-intensity exercise intervention, implying that they could better control their attention to drug rewards and reduce drug cravings.</p><p>Several limitations of this study point to the need for cautious interpretation of the results and directions for further exploration. Although we used the HRmax formula recommended by the American College of Sports Medicine (2014) and used widely in similar studies <ref type="bibr" target="#b39">(Wang et al., 2016</ref><ref type="bibr" target="#b40">(Wang et al., , 2017) )</ref> to define exercise intensities, HRmax may evolve during long-term exercise. Additionally, we only monitored participants' HR data to control exercise intensity; we did not record them. As a consequence, the exercise intensity may vary considerably with the use of different intervention periods. In future studies, HR values should be recorded throughout the intervention period, which can restore exercise performance in a fatigued state <ref type="bibr" target="#b5">(Brown &amp; Bray, 2019)</ref>. The exercise intensity classification should be improved through the use of a more stable variable, such as the critical power concept <ref type="bibr" target="#b17">(Jones &amp; Vanhatalo, 2017;</ref><ref type="bibr" target="#b18">Jones, Vanhatalo, Burnley, Morton, &amp; Poole, 2010)</ref>. In addition, baseline cognitive data should be collected before the intervention to understand the degree of existing cognitive damage in MA-dependent patients.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>The current study aimed to investigate the beneficial effects of aerobic exercise on working memory in MA-dependent patients, with the use ERPs and fNIRS to detect underlying neural processes. The results suggest that MA-dependent patients discriminated more sensitively during working memory processes after a high-intensity exercise intervention. On the neural level, high-intensity exercise significantly enhanced neural activity in the DLPFC-L and improved attention control, as shown by lower amplitudes in the N1 and P2 components. These results indicate that high-intensity exercise has an all-encompassing cognitive benefit, and highlight it as a promising protective factor against cognitive decline. Given this evidence of the relationship between high-intensity exercise and working memory, the authorities should advocate regular participation in high-intensity exercise as a therapeutic tool for MA-dependent patients. Different intensity exercises bring different exercise effects on working memory suggesting that this relationship needs to be studied in further detail using objective measures of intensity with MA-dependent patients.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Flow chart of 2-back task.</figDesc><graphic coords="3,56.30,57.03,213.82,162.43" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Schema of current design.</figDesc><graphic coords="3,39.29,249.34,247.64,99.89" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. (a) fNIRS optodes (red = source, blue = detector) and EEG electrodes (white) mapped on the brain. (b) fNIRS channels mapped on the brain. One source and one detector formed a channel (blue lines), and 20 channels were formed (numbered in black, i.e., Ch1). (For interpretation of the references to colour in this figure legend, the reader is referred to the Web version of this article.)</figDesc><graphic coords="4,37.59,56.64,341.50,193.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. RTs (a), and d' values (b) on the 2-back task. *p &lt; 0.05.</figDesc><graphic coords="4,77.39,604.01,440.59,124.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Mean [HbO] values (a), mean [Hb] values (b) of DLPFC_L, and mean [Hb] values of OFC (c) on the 2-back task. *p &lt; 0.05.</figDesc><graphic coords="5,77.39,57.03,440.59,250.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Grand average ERPs at electrodes FC2 and P8 elicited during 2-back task performance. The gray areas highlight the time windows for N1 (180-200 ms) and P2 (195-200 ms) that were used for the statistical analysis.</figDesc><graphic coords="6,126.99,57.03,341.24,405.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Subjects' demographic characteristics (M ± SE).</figDesc><table><row><cell></cell><cell>Control group (N = 15)</cell><cell>High-intensity group (N = 15)</cell><cell>Moderate-intensity group (N = 15)</cell></row><row><cell>Age(year)</cell><cell>33.87 ± 1.98</cell><cell>32.73 ± 1.31</cell><cell>29.40 ± 1.19</cell></row><row><cell>Number of relapse(time/year)</cell><cell>1.67 ± 0.25</cell><cell>2.20 ± 0.24</cell><cell>1.87 ± 0.27</cell></row><row><cell>Duration of drug use(year)</cell><cell>7.33 ± 1.10</cell><cell>7.07 ± 0.61</cell><cell>5.87 ± 0.88</cell></row><row><cell>Weight(kg)</cell><cell>70.89 ± 1.93</cell><cell>70.71 ± 3.00</cell><cell>71.40 ± 2.76</cell></row><row><cell>Height(m)</cell><cell>1.71 ± 0.011</cell><cell>1.69 ± 0.015</cell><cell>1.71 ± 0.015</cell></row><row><cell>BMI</cell><cell>24.09 ± 0.64</cell><cell>24.54 ± 0.90</cell><cell>24.31 ± 0.90</cell></row><row><cell>Duration of education(year)</cell><cell>8.60 ± 0.50</cell><cell>10.00 ± 0.63</cell><cell>9.40 ± 0.27</cell></row></table><note><p>Number of relapse means the mean relapse time per year before abstinence No significant difference in any characteristic was detected among groups (all p &gt; 0.05)</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Location for each channel.</figDesc><table><row><cell>PFC areas</cell><cell cols="2">Hemisphere Channels</cell><cell cols="3">MNI coordinates</cell></row><row><cell></cell><cell></cell><cell></cell><cell>X</cell><cell>Y</cell><cell>Z</cell></row><row><cell>Ventrolateral Prefrontal</cell><cell>L</cell><cell>1 、3、4、</cell><cell>-41</cell><cell>52</cell><cell>-6</cell></row><row><cell>Cortex</cell><cell>R</cell><cell>1 8 、19、20</cell><cell>41</cell><cell>51</cell><cell>-7</cell></row><row><cell>Dorsolateral Prefrontal</cell><cell>L</cell><cell>2 、5、7、8、</cell><cell>-20</cell><cell>45</cell><cell>43</cell></row><row><cell>Cortex</cell><cell>R</cell><cell>9 、10、14、</cell><cell>19</cell><cell>49</cell><cell>42</cell></row><row><cell></cell><cell></cell><cell>15、17</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Front Polar Area</cell><cell></cell><cell>6、12、16</cell><cell>0</cell><cell>65</cell><cell>25</cell></row><row><cell>Orbital Frontal Cortex</cell><cell></cell><cell>11、13</cell><cell>0</cell><cell>69</cell><cell>-1</cell></row><row><cell>L: left; R: right.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">MNI: Montreal Neurological Institute</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics</head><p>The study procedures were carried out in accordance with the Declaration of Helsinki. The Institutional Review Board of the Shanghai University of Sport approved the study. All subjects were informed about the study and all provided informed consent.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Role of funding source</head><p>This work was supported by Chinese National Funding of Social Sciences (grant number 17ZDA330).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CRediT authorship contribution statement</head><p>Yifan Chen: Writing -original draft. Yingzhi Lu: Writing -review &amp; editing. Chenglin Zhou: Funding acquisition. Xiaochun Wang: Writing -review &amp; editing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p>The authors declare no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Repeated stimulation of the dorsolateralprefrontal cortex improves executive dysfunctions and craving in drug addiction: A randomized, double-blind, parallel-group study</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alizadehgoradel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Nejati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Movahed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Imani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taherifard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mosayebi-Samani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Salehinejad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.brs.2019.12.028</idno>
+		<ptr target="https://doi.org/10.1016/j.brs.2019.12.028" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain Stimulation</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="582" to="593" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alizadehgoradel, J., Nejati, V., Movahed, F. S., Imani, S., Taherifard, M., Mosayebi- Samani, M., ... Salehinejad, M. A. (2020). Repeated stimulation of the dorsolateral- prefrontal cortex improves executive dysfunctions and craving in drug addiction: A randomized, double-blind, parallel-group study. Brain Stimulation, 13(3), 582-593. https://doi.org/10.1016/j.brs.2019.12.028.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<monogr>
+		<title level="m" type="main">ACSM&apos;s guidelines for exercise testing and prescription</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>Lippincott Williams and Wilkins</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note>th ed.</note>
+	<note type="raw_reference">American College of Sports Medicine (2014). ACSM&apos;s guidelines for exercise testing and prescription (9th ed.). New York: Lippincott Williams and Wilkins.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Orbitofrontal contributions to human working memory</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Barbey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Koenigs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grafman</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/cercor/bhq153</idno>
+		<ptr target="https://doi.org/10.1093/cercor/bhq153" />
+	</analytic>
+	<monogr>
+		<title level="j">Cerebral Cortex</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="789" to="795" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barbey, A. K., Koenigs, M., &amp; Grafman, J. (2010). Orbitofrontal contributions to human working memory. Cerebral Cortex, 21(4), 789-795. https://doi.org/10.1093/cercor/ bhq153.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Dorsolateral prefrontal contributions to human working memory</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Barbey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Michael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jordan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cortex.2012.05.022</idno>
+		<ptr target="https://doi.org/10.1016/j.cortex.2012.05.022" />
+	</analytic>
+	<monogr>
+		<title level="j">Cortex</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1195" to="1205" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barbey, A. K., Michael, K., &amp; Jordan, G. (2013). Dorsolateral prefrontal contributions to human working memory. Cortex, 49(5), 1195-1205. https://doi.org/10.1016/j. cortex.2012.05.022.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A parametric study of prefrontal cortex involvement in human working memory</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Braver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Nystrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jonides</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Noll</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/nimg.1996.0247</idno>
+		<ptr target="https://doi.org/10.1006/nimg.1996.0247" />
+	</analytic>
+	<monogr>
+		<title level="j">NeuroImage</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="49" to="62" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Braver, T. S., Cohen, J. D., Nystrom, L. E., Jonides, J., Smith, E. E., &amp; Noll, D. C. (1997). A parametric study of prefrontal cortex involvement in human working memory. NeuroImage, 5(1), 49-62. https://doi.org/10.1006/nimg.1996.0247.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Heart rate biofeedback attenuates effects of mental fatigue on exercise performance</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M Y</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Bray</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2018.12.001</idno>
+		<ptr target="https://doi.org/10.1016/j.psychsport.2018.12.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology of Sport and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="70" to="79" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brown, D. M. Y., &amp; Bray, D. S. R. (2019). Heart rate biofeedback attenuates effects of mental fatigue on exercise performance. Psychology of Sport and Exercise, 41, 70-79. https://doi.org/10.1016/j.psychsport.2018.12.001.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The effects of physical activity on functional MRI activation associated with cognitive control in children: A randomized controlled intervention</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chaddock-Heyman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">I</forename><surname>Erickson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Voss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Knecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Pontifex</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Castelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Kramer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename></persName>
+		</author>
+		<idno type="DOI">10.3389/fnhum.2013.00072</idno>
+		<ptr target="https://doi.org/10.3389/fnhum.2013.00072" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Human Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="72" to="72" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chaddock-Heyman, L., Erickson, K. I., Voss, M. W., Knecht, A. M., Pontifex, M. B., Castelli, D. M., ... Kramer, A. F. (2013). The effects of physical activity on functional MRI activation associated with cognitive control in children: A randomized con- trolled intervention. Frontiers in Human Neuroscience, 7(11), https://doi.org/10. 3389/fnhum.2013.00072 72-72.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Insights into the neural basis of response inhibition from cognitive and clinical neuroscience</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Chambers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Bellgrove</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neubiorev.2008.08.016</idno>
+		<ptr target="https://doi.org/10.1016/j.neubiorev.2008.08.016" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience &amp; Biobehavioral Reviews</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="631" to="646" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chambers, C. D., Hugh, G., &amp; Bellgrove, M. A. (2009). Insights into the neural basis of response inhibition from cognitive and clinical neuroscience. Neuroscience &amp; Biobehavioral Reviews, 33(5), 631-646. https://doi.org/10.1016/j.neubiorev.2008. 08.016.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Cognitive evoked response potentials in patients with liver cirrhosis without diagnosis of minimal or overt hepatic encephalopathy. A pilot study</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ciecko-Michalska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wojcik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wyczesany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Binder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Szewczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Senderecka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Mach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+		<idno type="DOI">10.1007/s00232-012-9455-1</idno>
+		<ptr target="https://doi.org/10.1007/s00232-012-9455-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physiology &amp; Pharmacology An Official Journal of the Polish Physiological Society</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">271</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ciecko-Michalska, I., Wojcik, J., Wyczesany, M., Binder, M., Szewczyk, J., Senderecka, M., ... Mach, T. (2012). Cognitive evoked response potentials in patients with liver cirrhosis without diagnosis of minimal or overt hepatic encephalopathy. A pilot study. Journal of Physiology &amp; Pharmacology An Official Journal of the Polish Physiological Society, 63(3), 271. https://doi.org/10.1007/s00232-012-9455-1.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Abnormal brain structure implicated in stimulant drug addiction</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Ersche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Turton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Robbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Bullmore</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1214463</idno>
+		<ptr target="https://doi.org/10.1126/science.1214463" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">335</biblScope>
+			<biblScope unit="issue">6068</biblScope>
+			<biblScope unit="page" from="601" to="604" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ersche, K. D., P Simon, J., Williams, G. B., Turton, A. J., Robbins, T. W., &amp; Bullmore, E. T. (2012). Abnormal brain structure implicated in stimulant drug addiction. Science, 335(6068), 601-604. https://doi.org/10.1126/science.1214463.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Physical activity and cognition: A narrative review of the evidence for older adults</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Etnier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Drollette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Slutsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2018.12.006</idno>
+		<ptr target="https://doi.org/10.1016/j.psychsport.2018.12.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology of Sport and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="156" to="166" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Etnier, J. L., Drollette, E. S., &amp; Slutsky, A. B. (2019). Physical activity and cognition: A narrative review of the evidence for older adults. Psychology of Sport and Exercise, 42, 156-166. https://doi.org/10.1016/j.psychsport.2018.12.006.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Effects of aerobic exercise training on brain structure and psychological well-being in young adults</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gondoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sensui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kinomura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fukuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fujimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Masud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Takekura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Sports Medicine and Physical Fitness</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">129</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gondoh, Y., Sensui, H., Kinomura, S., Fukuda, H., Fujimoto, T., Masud, M., ... Takekura, H. (2009). Effects of aerobic exercise training on brain structure and psychological well-being in young adults. The Journal of Sports Medicine and Physical Fitness, 49(2), 129.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A new method for off-line removal of ocular artifact</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gratton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G H</forename><surname>Coles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Donchin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0013-4694(83)90135-9</idno>
+		<ptr target="https://doi.org/10.1016/0013-4694(83)90135-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Electroencephalography and Clinical Neurophysiology</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="468" to="484" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gratton, G., Coles, M. G. H., &amp; Donchin, E. (1983). A new method for off-line removal of ocular artifact. Electroencephalography and Clinical Neurophysiology, 55(4), 468-484. https://doi.org/10.1016/0013-4694(83)90135-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Effects of exercise on depression, anxiety, cognitive control, craving, physical fitness and quality of life in methamphetamine-dependent patients</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yuan</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyt.2019.00999</idno>
+		<ptr target="https://doi.org/10.3389/fpsyt.2019.00999" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">999</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huang, J., Zheng, Y., Gao, D., Hu, M., &amp; Yuan, T. (2020). Effects of exercise on depression, anxiety, cognitive control, craving, physical fitness and quality of life in metham- phetamine-dependent patients. Frontiers in Psychiatry, 10, 999. https://doi.org/10. 3389/fpsyt.2019.00999.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Acute high-intensity exercise-induced cognitive enhancement and brain-derived neurotrophic factor in young, healthy adults</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Brothers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Castelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Glowacki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">T</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Salinas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Calvert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neulet.2016.07.033</idno>
+		<ptr target="https://doi.org/10.1016/j.neulet.2016.07.033" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience Letters</title>
+		<imprint>
+			<biblScope unit="volume">630</biblScope>
+			<biblScope unit="page" from="247" to="253" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hwang, J., Brothers, R. M., Castelli, D. M., Glowacki, E. M., Chen, Y. T., Salinas, M. M., ... Calvert, H. G. (2016). Acute high-intensity exercise-induced cognitive enhancement and brain-derived neurotrophic factor in young, healthy adults. Neuroscience Letters, 630, 247-253. https://doi.org/10.1016/j.neulet.2016.07.033.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The effect of exercise intensity on brain derived neurotrophic factor and memory in adolescents</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Ha</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12199-017-0643-6</idno>
+		<ptr target="https://doi.org/10.1186/s12199-017-0643-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Environmental Health and Preventive Medicine</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">27</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jeon, Y. K., &amp; Ha, C. H. (2017). The effect of exercise intensity on brain derived neuro- trophic factor and memory in adolescents. Environmental Health and Preventive Medicine, 22(1), 27. https://doi.org/10.1186/s12199-017-0643-6.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Acute Exercise and Executive Function in Young Adults with ADHD</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Jones</surname></persName>
+		</author>
+		<idno type="DOI">10.17077/etd.fh103jlr</idno>
+		<ptr target="//doi.org/10.17077/etd.fh103jlr" />
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Dissertations &amp; Theses -Gradworkshttps</note>
+	<note type="raw_reference">Jones, G. J. (2015). Acute Exercise and Executive Function in Young Adults with ADHD. Dissertations &amp; Theses -Gradworkshttps://doi.org/10.17077/etd.fh103jlr.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The &apos;critical power&apos;concept: Applications to sports performance with a focus on intermittent high-intensity exercise</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40279-017-0688-0</idno>
+		<ptr target="https://doi.org/10.1007/s40279-017-0688-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="65" to="78" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jones, A. M., &amp; Vanhatalo, A. (2017). The &apos;critical power&apos;concept: Applications to sports performance with a focus on intermittent high-intensity exercise. Sports Medicine, 47(1), 65-78. https://doi.org/10.1007/s40279-017-0688-0.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Critical power: Implications for determination of VO2max and exercise tolerance</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burnley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Morton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Poole</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0b013e3181d9cf7f</idno>
+		<ptr target="https://doi.org/10.1249/MSS" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine &amp; Science in Sports &amp; Exercise</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1876" to="1890" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>0b013e3181d9cf7f</note>
+	<note type="raw_reference">Jones, A. M., Vanhatalo, A., Burnley, M., Morton, R. H., &amp; Poole, D. C. (2010). Critical power: Implications for determination of VO2max and exercise tolerance. Medicine &amp; Science in Sports &amp; Exercise, 42(10), 1876-1890. https://doi.org/10.1249/MSS. 0b013e3181d9cf7f.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">High-intensity exercise acutely increases substantia nigra and prefrontal brain activity in Parkinson&apos;s disease</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Allendorfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Ford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Bickel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Marstrander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Skidmore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="DOI">10.12659/MSM.906179</idno>
+		<ptr target="https://doi.org/10.12659/MSM.906179" />
+	</analytic>
+	<monogr>
+		<title level="j">Medical Science Monitor: International Medical Journal of Experimental and Clinical Research</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">6064</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kelly, N. A., Wood, K. H., Allendorfer, J. B., Ford, M. P., Bickel, C. S., Marstrander, J., ... Skidmore, F. M. (2017). High-intensity exercise acutely increases substantia nigra and prefrontal brain activity in Parkinson&apos;s disease. Medical Science Monitor: International Medical Journal of Experimental and Clinical Research, 23, 6064. https:// doi.org/10.12659/MSM.906179.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Intensity of aerobic exercise and level of cognitive task on computerized neurobehavioral system</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.5392/IJoC.2010.6.3.083</idno>
+		<ptr target="https://doi.org/10.5392/IJoC.2010.6.3.083" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Contents</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="83" to="88" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kim, T. H., Park, J. H., &amp; Kim, J. E. (2010). Intensity of aerobic exercise and level of cognitive task on computerized neurobehavioral system. International Journal of Contents, 6(3), 83-88. https://doi.org/10.5392/IJoC.2010.6.3.083.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Updating of context in working memory: An event-related potential study</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lenartowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Escobedo-Quiroz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Cohen</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/CABN.10.2.298</idno>
+		<ptr target="https://doi.org/10.3758/CABN.10.2.298" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive, Affective, &amp; Behavioral Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="298" to="315" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lenartowicz, A., Escobedo-Quiroz, R., &amp; Cohen, J. D. (2010). Updating of context in working memory: An event-related potential study. Cognitive, Affective, &amp; Behavioral Neuroscience, 10(2), 298-315. https://doi.org/10.3758/CABN.10.2.298.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Biological mechanisms of physical activity in preventing cognitive decline</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Lista</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sorrentino</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10571-009-9488-x</idno>
+		<ptr target="https://doi.org/10.1007/s10571-009-9488-x" />
+	</analytic>
+	<monogr>
+		<title level="j">Cellular and Molecular Neurobiology</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="493" to="503" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lista, I., &amp; Sorrentino, G. (2010). Biological mechanisms of physical activity in preventing cognitive decline. Cellular and Molecular Neurobiology, 30(4), 493-503. https://doi. org/10.1007/s10571-009-9488-x.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<monogr>
+		<title level="m" type="main">High-intensity training enhances executive function in children in a randomized, placebo-controlled trial</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Moreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Kirk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Waldie</surname></persName>
+		</author>
+		<idno type="DOI">10.7554/eLife.25062</idno>
+		<ptr target="https://doi.org/10.7554/eLife.250622017-07-21" />
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">25062</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moreau, D., Kirk, I. J., &amp; Waldie, K. E. (2017). High-intensity training enhances executive function in children in a randomized, placebo-controlled trial. eLife, 6(6), e25062. https://doi.org/10.7554/eLife.25062 2017-07-21.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Working memory load for faces modulates P300, N170, and N250r</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Boehm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Shapiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Linden</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/jocn.2008.20072</idno>
+		<ptr target="https://doi.org/10.1162/jocn.2008.20072" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cognitive Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="989" to="1002" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morgan, H. M., Klein, C., Boehm, S. G., Shapiro, K. L., &amp; Linden, D. E. (2008). Working memory load for faces modulates P300, N170, and N250r. Journal of Cognitive Neuroscience, 20(6), 989-1002. https://doi.org/10.1162/jocn.2008.20072.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Effects of physical exercise on working memory and prefrontal cortex function in post-stroke patients</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moriya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Aoki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sakatani</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-38810-6_27</idno>
+		<ptr target="https://doi.org/10.1007/978-3-319-38810-6_27" />
+	</analytic>
+	<monogr>
+		<title level="s">Advances in experimental medicine and biology</title>
+		<editor>
+			<persName><forename type="first">Q</forename><surname>Luo</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><surname>Harrison</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">H</forename><surname>Shi</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><surname>Bruley</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="page">923</biblScope>
+			<date type="published" when="2016">2016</date>
+			<publisher>Springer</publisher>
+			<pubPlace>Cham</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Oxygen transport to tissue XXXVIII</note>
+	<note type="raw_reference">Moriya, M., Aoki, C., &amp; Sakatani, K. (2016). Effects of physical exercise on working memory and prefrontal cortex function in post-stroke patients. In Q. Luo, L. Li, D. Harrison, H. Shi, &amp; D. Bruley (Vol. Eds.), Oxygen transport to tissue XXXVIII. Advances in experimental medicine and biology: 923Cham: Springer. https://doi.org/10.1007/ 978-3-319-38810-6_27.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Structural atlas-based spatial registration for functional near-infrared spectroscopy enabling inter-study data integration</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Okamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tsuzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Clowney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.clinph.2009.01.023</idno>
+		<ptr target="https://doi.org/10.1016/j.clinph.2009.01.023" />
+	</analytic>
+	<monogr>
+		<title level="j">Clinical Neurophysiology Official Journal of the International Federation of Clinical Neurophysiology</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1320" to="1328" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Okamoto, M., Tsuzuki, D., Clowney, L., Dan, H., Singh, A. K., &amp; Dan, I. (2009). Structural atlas-based spatial registration for functional near-infrared spectroscopy enabling inter-study data integration. Clinical Neurophysiology Official Journal of the International Federation of Clinical Neurophysiology, 120(7), 1320-1328. https://doi. org/10.1016/j.clinph.2009.01.023.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">N-back working memory paradigm: A meta-analysis of normative functional neuroimaging studies</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Owen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Mcmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Laird</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bullmore</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/hbm.20131</idno>
+		<ptr target="https://doi.org/10.1002/hbm.20131" />
+	</analytic>
+	<monogr>
+		<title level="j">Human Brain Mapping</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="46" to="59" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Owen, A. M., Mcmillan, K. M., Laird, A. R., &amp; Bullmore, E. (2010). N-back working memory paradigm: A meta-analysis of normative functional neuroimaging studies. Human Brain Mapping, 25(1), 46-59. https://doi.org/10.1002/hbm.20131.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Brain-derived neurotrophic factor(BDNF) as a potential mechanism of the effects of acute exercise on cognitive performance</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Piepmeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Etnier</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jshs.2014.11.001</idno>
+		<ptr target="https://doi.org/10.1016/j.jshs.2014.11.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sport and Health Science</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="14" to="23" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Piepmeier, A. T., &amp; Etnier, J. L. (2015). Brain-derived neurotrophic factor(BDNF) as a potential mechanism of the effects of acute exercise on cognitive performance. Journal of Sport and Health Science, 4(1), 14-23. https://doi.org/10.1016/j.jshs.2014. 11.001.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">How to detect and reduce movement artifacts in near-infrared imaging using moving standard deviation and spline interpolation</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Scholkmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Spichtig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Muehlemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wolf</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0967-3334/31/5/004</idno>
+		<ptr target="https://doi.org/10.1088/0967-3334/31/5/004" />
+	</analytic>
+	<monogr>
+		<title level="j">Physiological Measurement</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">649</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scholkmann, F., Spichtig, S., Muehlemann, T., &amp; Wolf, M. (2010). How to detect and reduce movement artifacts in near-infrared imaging using moving standard deviation and spline interpolation. Physiological Measurement, 31(5), 649. https://doi.org/10. 1088/0967-3334/31/5/004.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Near-infrared spectroscopy can detect brain activity during a color-word matching Stroop task in an event-related design</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Schroeter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zysset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kupka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kruggel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y</forename><surname>Von Cramon</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/hbm.10052</idno>
+		<ptr target="https://doi.org/10.1002/hbm.10052" />
+	</analytic>
+	<monogr>
+		<title level="j">Human Brain Mapping</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="61" to="71" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schroeter, M. L., Zysset, S., Kupka, T., Kruggel, F., &amp; Von Cramon, D. Y. (2002). Near-infrared spectroscopy can detect brain activity during a color-word matching Stroop task in an event-related design. Human Brain Mapping, 17(1), 61-71. https:// doi.org/10.1002/hbm.10052.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Quantification of delayed oxygenation in ipsilateral primary motor cortex compared with contralateral side during a unimanual dominant-hand motor task using near-infrared spectroscopy</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shibuya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sadamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moriyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Iwadate</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.brainres.2008.03.009</idno>
+		<ptr target="https://doi.org/10.1016/j.brainres.2008.03.009" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain Research</title>
+		<imprint>
+			<biblScope unit="volume">1210</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="142" to="147" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shibuya, K., Sadamoto, T., Sato, K., Moriyama, M., &amp; Iwadate, M. (2008). Quantification of delayed oxygenation in ipsilateral primary motor cortex compared with con- tralateral side during a unimanual dominant-hand motor task using near-infrared spectroscopy. Brain Research, 1210(3), 142-147. https://doi.org/10.1016/j.brainres. 2008.03.009.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A new method based on ICBM152 head surface for probe placement in multichannel fNIRS</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Simone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pietro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Marco</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuroimage.2010.09.030</idno>
+		<ptr target="https://doi.org/10.1016/j.neuroimage.2010.09.030" />
+	</analytic>
+	<monogr>
+		<title level="j">NeuroImage</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="919" to="927" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simone, C., Pietro, S., &amp; Marco, Z. (2011). A new method based on ICBM152 head surface for probe placement in multichannel fNIRS. NeuroImage, 54(2), 919-927. https://doi. org/10.1016/j.neuroimage.2010.09.030.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Acute and chronic effect of physical activity on cognition and behaviour in young people with ADHD: A systematic review of intervention studies</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Suarez-Manzano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ruiz-Ariza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D L</forename><surname>Torre-Cruz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Martínez-López</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ridd.2018.03.015</idno>
+		<ptr target="https://doi.org/10.1016/j.ridd.2018.03.015" />
+	</analytic>
+	<monogr>
+		<title level="j">Research in Developmental Disabilities</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="12" to="23" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Suarez-Manzano, S., Ruiz-Ariza, A., Torre-Cruz, M. D. L., &amp; Martínez-López, E. J. (2018). Acute and chronic effect of physical activity on cognition and behaviour in young people with ADHD: A systematic review of intervention studies. Research in Developmental Disabilities, 77, 12-23. https://doi.org/10.1016/j.ridd.2018.03.015.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Frontal and motor cortex oxygenation during maximal exercise in normoxia and hypoxia</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Subudhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Miramon</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Me</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Roach</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.91475.2008</idno>
+		<ptr target="https://doi.org/10.1152/japplphysiol.91475.2008" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1153" to="1158" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Subudhi, A., Miramon, B., Me, &amp; Roach, R. (2009). Frontal and motor cortex oxygenation during maximal exercise in normoxia and hypoxia. Journal of Applied Physiology, 106(4), 1153-1158. https://doi.org/10.1152/japplphysiol.91475.2008.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Applications of signal detection theory</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Swets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Green</surname></persName>
+		</author>
+		<idno type="DOI">10.1148/105.1.199</idno>
+		<ptr target="https://doi.org/10.1148/105.1.199" />
+	</analytic>
+	<monogr>
+		<title level="j">Radiology</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="199" to="200" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Swets, J. A., &amp; Green, D. M. (1972). Applications of signal detection theory. Radiology, 105(1), 199-200. https://doi.org/10.1148/105.1.199.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Virtual spatial registration of stand-alone fNIRS data to MNI space</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tsuzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Jurcak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Okamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuroimage.2006.10.043</idno>
+		<ptr target="https://doi.org/10.1016/j.neuroimage.2006.10.043" />
+	</analytic>
+	<monogr>
+		<title level="j">NeuroImage</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1506" to="1518" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tsuzuki, D., Jurcak, V., Singh, A. K., Okamoto, M., Watanabe, E., &amp; Dan, I. (2007). Virtual spatial registration of stand-alone fNIRS data to MNI space. NeuroImage, 34(4), 1506-1518. https://doi.org/10.1016/j.neuroimage.2006.10.043.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The visual N1 component as an index of a discrimination process</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Vogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Luck</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1469-8986.3720190</idno>
+		<ptr target="https://doi.org/10.1111/1469-8986.3720190" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychophysiology</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="190" to="203" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vogel, E. K., &amp; Luck, S. J. (2000). The visual N1 component as an index of a dis- crimination process. Psychophysiology, 37(2), 190-203. https://doi.org/10.1111/ 1469-8986.3720190.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Acute exercise ameliorates craving and inhibitory deficits in methamphetamine: An ERP study</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.physbeh.2015.04.008</idno>
+		<ptr target="https://doi.org/10.1016/j.physbeh.2015.04.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Physiology &amp; Behavior</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="page" from="38" to="46" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, D., Zhou, C., &amp; Chang, Y. K. (2015). Acute exercise ameliorates craving and in- hibitory deficits in methamphetamine: An ERP study. Physiology &amp; Behavior, 147, 38-46. https://doi.org/10.1016/j.physbeh.2015.04.008.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Dose-response relationships between exercise intensity, cravings, and inhibitory control in methamphetamine dependence: An ERPs study</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.drugalcdep.2016.02.023</idno>
+		<ptr target="https://doi.org/10.1016/j.drugalcdep.2016.02.023" />
+	</analytic>
+	<monogr>
+		<title level="j">Drug and Alcohol Dependence</title>
+		<imprint>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="page" from="331" to="339" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, D., Zhou, C., Zhao, M., Wu, X., &amp; Chang, Y. K. (2016). Dose-response relationships between exercise intensity, cravings, and inhibitory control in methamphetamine dependence: An ERPs study. Drug and Alcohol Dependence, 161, 331-339. https://doi. org/10.1016/j.drugalcdep.2016.02.023.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Aerobic exercise training ameliorates craving and inhibitory control in methamphetamine dependencies: A randomized controlled trial and event-related potential study</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2017.02.001</idno>
+		<ptr target="https://doi.org/10.1016/j.psychsport.2017.02.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology of Sport and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="82" to="90" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, D., Zhu, T., Zhou, C., &amp; Chang, Y. K. (2017). Aerobic exercise training ameliorates craving and inhibitory control in methamphetamine dependencies: A randomized controlled trial and event-related potential study. Psychology of Sport and Exercise, 30, 82-90. https://doi.org/10.1016/j.psychsport.2017.02.001.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The neural correlates of implicit self-relevant processing in low self-esteem: An ERP study</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dedovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.brainres.2012.06.033</idno>
+		<ptr target="https://doi.org/10.1016/j.brainres.2012.06.033" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain Research</title>
+		<imprint>
+			<biblScope unit="volume">1471</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="75" to="80" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yang, J., Guan, L., Dedovic, K., Qi, M., &amp; Zhang, Q. (2012). The neural correlates of implicit self-relevant processing in low self-esteem: An ERP study. Brain Research, 1471(3), 75-80. https://doi.org/10.1016/j.brainres.2012.06.033.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">The effects of long-term stress on neural dynamics of working memory processing: An investigation using ERP</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W S</forename><surname>Leung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Qin</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep23217</idno>
+		<ptr target="https://doi.org/10.1038/srep23217" />
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">23217</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yuan, Y., Leung, A. W. S., Duan, H., Zhang, L., Zhang, K., Wu, J., &amp; Qin, S. (2016). The effects of long-term stress on neural dynamics of working memory processing: An investigation using ERP. Scientific Reports, 6, 23217. https://doi.org/10.1038/ srep23217.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

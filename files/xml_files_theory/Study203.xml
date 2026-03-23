@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Acute physiological responses with varying load or time under tension during a squat exercise: A randomized cross-over design</title>
+				<funder>
+					<orgName type="full">Coordenac ¸ ão de Aperfeic ¸ oamento de Pessoal de Nível Superior -Brasil (CAPES)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Conselho Nacional de Desenvolvimento Científico e Técnológico (CNPq)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Fundac ¸ ão de Amparo à Pesquisa do Estado de Minas Gerais (FAPEMIG)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2020-08-06">6 August 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Erica</forename><forename type="middle">F F</forename><surname>Corradi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physical Education, Physiotherapy and Occupational Therapy</orgName>
+								<orgName type="laboratory">Weight Training Laboratory</orgName>
+								<orgName type="institution">Federal University of Minas Gerais</orgName>
+								<address>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Marcel</forename><forename type="middle">Bahia</forename><surname>Lanza</surname></persName>
+							<email>marcel.lanza@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physical Education, Physiotherapy and Occupational Therapy</orgName>
+								<orgName type="laboratory">Weight Training Laboratory</orgName>
+								<orgName type="institution">Federal University of Minas Gerais</orgName>
+								<address>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Physical Therapy and Rehabilitation</orgName>
+								<orgName type="department" key="dep2">School of Medicine</orgName>
+								<orgName type="institution">University of Maryland</orgName>
+								<address>
+									<settlement>Baltimore</settlement>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lucas</forename><forename type="middle">Túlio</forename><surname>Lacerda</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physical Education, Physiotherapy and Occupational Therapy</orgName>
+								<orgName type="laboratory">Weight Training Laboratory</orgName>
+								<orgName type="institution">Federal University of Minas Gerais</orgName>
+								<address>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Departament of Physical Education</orgName>
+								<orgName type="institution">Pontifical Catholic University of Minas Gerais</orgName>
+								<address>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">Department of Physical Education and Sports</orgName>
+								<orgName type="department" key="dep2">Technological Education Federal Center of Minas Gerais</orgName>
+								<address>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Justin</forename><forename type="middle">W</forename><surname>Andrushko</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">College of Kinesiology</orgName>
+								<orgName type="institution">University of Saskatchewan</orgName>
+								<address>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hugo</forename><forename type="middle">C</forename><surname>Martins-Costa</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physical Education, Physiotherapy and Occupational Therapy</orgName>
+								<orgName type="laboratory">Weight Training Laboratory</orgName>
+								<orgName type="institution">Federal University of Minas Gerais</orgName>
+								<address>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Departament of Physical Education</orgName>
+								<orgName type="institution">Pontifical Catholic University of Minas Gerais</orgName>
+								<address>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rodrigo</forename><forename type="middle">C R</forename><surname>Diniz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physical Education, Physiotherapy and Occupational Therapy</orgName>
+								<orgName type="laboratory">Weight Training Laboratory</orgName>
+								<orgName type="institution">Federal University of Minas Gerais</orgName>
+								<address>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fernando</forename><forename type="middle">Vitor</forename><surname>Lima</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physical Education, Physiotherapy and Occupational Therapy</orgName>
+								<orgName type="laboratory">Weight Training Laboratory</orgName>
+								<orgName type="institution">Federal University of Minas Gerais</orgName>
+								<address>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mauro</forename><forename type="middle">Heleno</forename><surname>Chagas</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physical Education, Physiotherapy and Occupational Therapy</orgName>
+								<orgName type="laboratory">Weight Training Laboratory</orgName>
+								<orgName type="institution">Federal University of Minas Gerais</orgName>
+								<address>
+									<country key="BR">Brazil</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Acute physiological responses with varying load or time under tension during a squat exercise: A randomized cross-over design</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-08-06">6 August 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2C96824612E4B2E81987CC3ACDB038ED</idno>
+					<idno type="DOI">10.1016/j.jsams.2020.07.015</idno>
+					<note type="submission">Received 30 April 2020 Received in revised form 21 July 2020 Accepted 28 July 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Electromyography Motor activity Lactic acid Resistance training</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objectives: Despite advancements in resistance training (RT) methods, the acute metabolic and neuromuscular responses to time under tension (TUT) and load remains poorly understood. The aim of the present study was to investigate how TUT or resistance load impact muscular activation and blood lactate during an RT session. Design: A randomized cross-over design. Methods: Participants performed a squat exercise in three different conditions: baseline protocol (B PRO ; three sets of eight repetitions with four second repetitions at 60% of 1RM) long duration protocol (LD PRO : six second repetitions) and high load protocol (HL PRO : 70% 1RM). Results: Muscular activation of the vastus lateralis and biceps femoris, and blood lactate were assessed. Blood lactate was ∼19% and ∼26% higher after set one and three in LD PRO compared to B PRO (P ≤ 0.011) and ∼17% higher for LD PRO compared to HL PRO (P = 0.002). Additionally, blood lactate was ∼17% higher for HL PRO compared to B PRO after the third set of exercise (P = 0.003). Vastus lateralis activation was ∼10% higher for HL PRO compared to B PRO and LD PRO for sets one and two. Biceps femoris activation was ∼17% higher for HL PRO compared to B PRO for set one (P = 0.023) while for set two HL PRO was greater than B PRO and LD PRO (∼19% and ∼14%, respectively; P ≤ 0.007). Conclusions: Squatting with higher TUT caused a greater impact on the metabolic responses than lower TUT or higher loads, whereas an increase in training load resulted in greater muscle activation than higher TUT or lower training load.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Practical implications</head><p>• The manipulation of time under tension and the training load (percent one-repetition maximum) during a resistance training session results in different acute physiological responses. • An increase in the time under tension during the Smith machine squat exercise results in an increase in blood lactate, which may be linked to muscle hypertrophy in long-term training.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Resistance training (RT) is an effective way for improving muscle strength, size and function. To achieve optimal RT outcomes (i.e., increased muscular hypertrophy, strength, or power), the manipulation of specific RT variables such as time under tension (TUT) and load [Percent one repetition maximum (1RM)] must be considered. <ref type="bibr" target="#b0">1</ref> Understanding how to best manipulate these specific variables remains limited. TUT and load are known to promote different acute physiological responses, <ref type="bibr" target="#b1">2</ref> and these responses may impact long-term adaptations such as increased strength or muscle size. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4</ref> The increase in strength that occurs in the initial weeks with RT is often related to an increased capacity to activate the muscles involved in the task. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6</ref> When TUT or load are manipulated, changes in neuromuscular activation occur. <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref> Sakamoto and Sinclair <ref type="bibr" target="#b8">9</ref> simultaneously manipulated both TUT (exercise to failure) and load, which resulted in higher muscular activation when a lower TUT and higher load were used. Similarly, Schoenfeld et al. <ref type="bibr" target="#b9">10</ref> compared higher vs. lower load RT to failure, and found that higher loads and lower TUT resulted in higher muscle activation. Based upon the available literature higher loads result in greater neuromuscular activation, although none of these studies have investigated the effect without RT to muscle failure or controlling for TUT between conditions. Therefore, a consensus on the impact of TUT and load on acute muscular activation has not been reached. Performing exercise to muscle failure, which is not necessarily needed for desired adaptations, <ref type="bibr" target="#b10">11</ref> may be contraindicated given people may present physical limitations (e.g., osteoarthritis) or may be in a reduced volume training phase. Additionally, a methodological issue is that studies have not equated the RT variables between the different protocols. <ref type="bibr" target="#b11">12</ref> Therefore, further investigating muscular activation during acute RT sessions without task failure is warranted.</p><p>The increase in muscle size (hypertrophy) due to RT has been attributed to an augmented metabolic response. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b13">14</ref> An increase in testosterone has long been thought as one possible factor contributing to muscle hypertrophy, <ref type="bibr" target="#b14">15</ref> although some literature has demonstrated that muscle hypertrophy can occur without changes in testosterone. <ref type="bibr" target="#b15">16</ref> An increase in mTORC1 signalling is another possible mechanism regulating muscle hypertrophy. <ref type="bibr" target="#b12">13</ref> An increase in blood lactate (Blood LAC ) contributes to testosterone production <ref type="bibr" target="#b16">17</ref> and mTORC1 signalling. <ref type="bibr" target="#b12">13</ref> However, changes in Blood LAC concentrations with an acute RT session have resulted in mixed findings such as greater increases in Blood LAC have been observed with higher <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19</ref> and lower <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b19">20</ref> TUT protocols. It is unclear how the manipulation of TUT or load in isolation will affect Blood LAC responses during a RT session.</p><p>Given that previous studies have not isolated a single RT variable, well controlled studies are warranted to better understand the impact of each variable on RT outcomes. Therefore, the aim of the present study was to investigate how two different protocols influence muscular activation [surface electromyography (EMG)] and metabolic responses (Blood LAC ) during a RT session. It was hypothesised that i) higher load RT would result in greater neuromuscular activation, and ii) higher TUT would result in a greater Blood LAC response. The finds of the present study aim to provide important information regarding the impact of TUT and load on acute physiological responses to RT.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and methods</head><p>Twenty resistance trained (RT ≥ six months at least three times a week), healthy (no traumatic lower-body injuries) males (age: 25 ± 4 years; height: 1.76 ± 0.06 m; body mass: 78 ± 9 kg; body fat: 13 ± 4%; 60% of 1RM: 76 ± 15.1 Kg; 70% of 1RM: 88 ± 17.7 Kg; 1RM: 127 ± 25.3 Kg) participated in this study. The study was approved by the local ethics committee. All participants provided written informed consent prior to their participation and this study was carried out in accordance to The Declaration of Helsinki. The funding organizations provided financial support but did not interfere with the research in any part of the process. This study used a randomized crossover design to examine muscular activation and metabolic responses of RT protocols differentiated by the TUT [total set duration: 32 s (two seconds eccentric + two seconds concentric): vs. 48 s (three seconds eccentric + three seconds concentric)] or load (60% or 70% of 1RM). Participants were instructed to avoid any exercise for 24 h before each session, and to maintain the same routine regarding food intake and sleep during the period of study. During session one, participants were familiarized with the 1RM test by performing a 1RM Smith machine squat test. Next, one of the repetition durations and submaximal intensities were performed which was randomly assigned (four seconds TUT at 70% 1RM or six seconds TUT at 60% 1RM). In addition, body height, mass, and fat percentage [calculated using the equation of 7-skinfold (pectoralis, axila, triceps, subscapular, abdominal, suprailiac and thigh) <ref type="bibr" target="#b20">21</ref> ] measurements were conducted. Session two consisted of a 1RM test followed by an additional familiarization period where the participants practiced performing the squat exercise with the other repetition duration that had not been practiced during session one. Following the two familiarization sessions, each participant performed a baseline protocol (B PRO ; three sets of eight repetitions with four second TUT for each repetition at 60% 1RM), a long duration protocol (LD PRO : three sets of eight repetitions with six second TUT for each repetition at 60% 1RM), and a high load protocol (HL PRO : three sets of eight repetitions with four second TUT for each repetition at 70% 1RM; Table <ref type="table" target="#tab_0">1</ref>) in a randomized order over sessions three to five.</p><p>A calibrated electrogoniometer (Noraxon, Scottsdale, AZ, USA) was fixed on the right knee-joint (on the knee-joint center) using double-sided adhesive tape and elastic bands. The electrogoniometer was used to determine knee displacement for all participants in the study for which the Smith machine squats were to be performed for each condition. The duration of each muscle action was comprised of the time spent between the maximum (knee flexion) and minimum (knee extension) angular positions. Thus eccentric duration corresponded to the period between the minimum and maximum angular positions while concentric (CON) duration corresponded to the maximum and minimum angular positions. <ref type="bibr" target="#b21">22</ref> The electrogoniometer raw data were converted into angular displacement data and filtered through a fourth order Butterworth low-pass filter with a cutoff frequency of 10 Hz. <ref type="bibr" target="#b21">22</ref> Surface EMG protocols (Biovision, Wehrheim, Germany) were carried out following the SENIAM guidelines. After preparing the skin (shave and clean with alcohol), bipolar surface electrodes (Ag/AgCl) were placed parallel to the muscle fibers on the subjects' right vastus lateralis (VL) and biceps femoris (BF) muscles. After the electrodes were attached, a silk paper was used to register electrodes positions, taking into account bony extremities and relevant skin markings. These procedures were performed to ensure reproducibility of the electromyographic measurements between sessions. Data were collected with a sampling frequency of 2000 Hz. Data post-processing involved applying a second-order Butterworth band-pass filter (20-500 Hz) prior to a full-wave rectification and the area under the curve of the signal was then calculated. <ref type="bibr" target="#b22">23</ref> The absolute area of the signal was determined for CON action and accounted for the different time durations. <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b23">24</ref> The area of the signal during the maximum isometric voluntary contraction (MVC; EMG MVC ) was measured as the area of the signal over a 1 s epoch at MVC peak force (500 ms either side). <ref type="bibr" target="#b1">2</ref> A mean of the eight repetitions was determined for each set and then normalized by the EMG MVC . DasyLab program (DasyLab 11.0; Measurement Computing Corporation, Norton, MA, USA) was used to record and analyse the data. The intraclass correlation coefficient (ICC 3,1 ) of the absolute EMG from CON muscle actions across sessions three to five was 0.97.</p><p>Blood samples were collected for all protocols during the rest period and one minute after the first and third sets. Blood was collected from a puncture to the subjects' left earlobe using sterile disposable lancets. The earlobe was cleaned with neutral soap and water and then sterilized with 70% alcohol before puncturing. A 30 L sample of blood was collected into heparinized capillary tubes, which were transferred into other tubes containing 60 L of 1% sodium fluoride and then stored in a refrigerator maintained at a temperature of -20 • C. Subsequently, the samples were thawed and analysed in duplicates on a Yellow Springs Sport 1500 Lactate Analyzer device (YSA, Inc., Yellow Springs, OH, USA) in order to measure Blood LAC . <ref type="bibr" target="#b21">22</ref> At the beginning of the first session, anthropometric measurements were performed. Participants were positioned in the Smith machine (Master, Brazil) with standardized bar position (on the shoulders), foot position and range of motion. The 1RM test instruction was performed as previously described in the literature. <ref type="bibr" target="#b24">25</ref> The 1RM test (which was the same set up as main session) was used to determine the submaximal load for the rest of session one. After 10 min of rest, participants performed three sets at 50% 1RM with the different TUT protocols of four seconds (B PRO and HL PRO : two seconds eccentric + two seconds concentric) and six seconds (LD PRO : three seconds eccentric + three seconds concentric) which were randomized between the two familiarization sessions (sessions one and two) in order to familiarize them on the different protocols in this study. A metronome was used to provide audi-tory pacing for the desired repetition timing. During session two, the 1RM was re-evaluated and used to set the submaximal load for the subsequent training sessions. The ICC 3,1 of the 1RM between familiarization and test sessions was 0.92 Fig. <ref type="figure" target="#fig_0">1</ref>).</p><p>During sessions three to five, participants performed three MVCs, at 85 • of knee-flexion. After a rest period of 10 min, participants performed B PRO , LD PRO or HL PRO (Table <ref type="table" target="#tab_0">1</ref>). Blood samples were taken one minute after set one and three, for all protocols.</p><p>Data are reported as mean ± standard deviation (SD). Variables were tested for normality and homogeneity of the variances using Shapiro-Wilks and Levene's tests, respectively. A paired t-test was used to compare volume load (sum of eight repetitions) between load (60% of 1RM vs. 70% of 1RM). Repeated-measures one-way ANOVA tests were used to analyse the differences between protocols for range of motion and TUT. Repeated-measures two-way ANOVA tests were used to analyse the differences between protocols for normalized EMG with a 3 × 3 ANOVA (protocol × set) and Blood LAC 3 × 2 ANOVA (protocol × time). Post hoc comparisons were conducted using Bonferroni post hoc tests. Cohen's d effect sizes (ES) were calculated and classified as follows: &lt;0.20 = "trivial"; 0.20-0.49 = "small"; 0.50-0.79 = "moderate" or &gt;0.80 = "large". Statistical analyses were performed using SPSS version 24 (IBM Corporation, Armonk, New York, USA), with ˛ = 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>Protocols did not present differences in range of motion (one-way ANOVA, F 2,38 = 1.122, P = 0.336; Table <ref type="table" target="#tab_0">1</ref>). However, as expected, TUT was different between protocols (one-way ANOVA, F 2,38 = 12.268, P &lt; 0.001) with LD PRO being higher than B PRO and HL PRO (Bonferroni, P &lt; 0.001; ES ≥ 29.73 'large'; see Table <ref type="table" target="#tab_0">1</ref>).</p><p>There was an interaction effect for Blood LAC as well as main effects for protocol and time (two-way ANOVA, F 2,38 ≤ 15.427, P &lt; 0.001). Blood LAC was similar between protocols at rest but different after set one and three (Fig. <ref type="figure">2.</ref>). LD PRO presented a ∼19% increase in Blood LAC after set one (Bonferroni, P = 0.011; ES = 0.64 'moderate') and ∼26% after the third set compared to B PRO (Bonferroni, P &lt; 0.001; ES = 0.95 'large'). After the third set, LD PRO also showed a ∼8% increase in Blood LAC compared to HL PRO (Bonferroni, P = 0.002; ES = 0.30 'small') while HL PRO presented a ∼17% increase in Blood LAC compared to B PRO (Bonferroni, P = 0.003; ES = 0.43 'small'; Fig. <ref type="figure">2.</ref>).</p><p>Normalized muscular activation for both VL and BF muscles presented main effects for protocol and time (two-way ANOVA, F 2,38 ≥ 4.607, P ≤ 0.016) but only VL presented an interaction (two-Fig. <ref type="figure">2</ref>. Blood lactate at rest, after the first and third set for baseline protocol (BPRO), longer duration protocol (LDPRO) or higher load protocol (HLPRO). Differences between protocols were detected (two-way ANOVA, P &lt; 0.001). Symbols indicate: # all protocols were lower at rest compared to the other conditions, * higher than BPRO at the same set, § higher than BPRO and HLPRO at the same set. Open circles indicate individual values. Data are mean ± SD (n = 20).</p><p>way ANOVA, F 4,76 = 3.384, P = 0.013). HL PRO led to ∼10% increase in VL muscular activation compared to B PRO and LD PRO for the first [Bonferroni, P ≤ 0.016; ES ≤ 0.55 'moderate' and ∼13% and ∼11% (respectively)] and second sets (Bonferroni, P ≤ 0.011; ES ≤ 0.53 'moderate'; Fig. <ref type="figure" target="#fig_1">3.</ref>). Similarly, BF muscle activation was higher for HL PRO (∼17%) compared to B PRO at set one (Bonferroni, P = 0.023; ES = 0.61 'moderate'), while for set two HL PRO presented greater muscle activation than B PRO (∼19%; Bonferroni, P &lt; 0.001; ES = 0.61 'moderate') and LD PRO (∼14%; Bonferroni, P = 0.007; ES = 0.37 'small'). Moreover, BF activation for LD PRO was 6% higher than B PRO for set two (Bonferroni, P = 0.011; ES = 0.17 'trivial').</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>To the authors knowledge this is the first study to investigate how the manipulation of load (HL PRO ) or TUT (LD PRO ), impact muscular activation and Blood LAC compared to a baseline RT session (B PRO ). A session with greater TUT (LD PRO : Total TUT = 48 s; Load = 60% 1RM), resulted in a greater lactate response compared to a baseline (B PRO : Total TUT = 32 s; Load = 60% 1RM) or higher load (HL PRO : Total TUT = 32 s; Load = 70% 1RM). However, HL PRO demonstrated higher muscular activation compared to a B PRO and LD PRO . Overall, the results support our hypothesis that RT with higher TUT (LD PRO ) or load (HL PRO ) would provide preferential increases in specific metabolic responses compared to B PRO . When protocols are matched for RT variables (set, repetitions, TUT, load, rest duration, and range of motion) with only TUT or load being adjusted, specific metabolic and neuromuscular responses ensue. An increase in TUT from 4 s to 6 s per repetition can promote an acute increase in Blood LAC (22%). Additionally, the increase in load by 10% (60%-70% 1RM) also significantly increased Blood LAC by ∼17% compared to baseline but only after the third set, which may indicate that an increased training load also impacts the metabolic response as the RT session progresses. However, within our design, increasing Blood LAC appears to be more influenced by a change in TUT than load. Previous studies have reported contradictory results with an increase in Blood LAC when longer <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b25">26</ref> or shorter <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b19">20</ref> TUT was used. Discrepancies between studies may be due to methodological differences. For instance, all previous studies manipulated at least two different RT variables when comparing protocols, making it difficult to link the specific RT variable to the physiological outcome. Given the present study only manipulated one variable within a condition (TUT or load), and controlled the other variables (set, repetition, rest, range of motion), our results provide novel insight into the impact TUT and load have on Blood LAC .</p><p>An increase in Blood LAC was previously showed to be due to different physiological factors such as type II fiber type recruitment, lactate removal, O 2 dependent metabolism and/or accelerating glycolysis. <ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b27">28</ref> Although, these factors may help to explain the increases in Blood LAC in the present study, during RT exercise the lactate removal may be the primary factor explaining the changes in Blood LAC . <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b25">26</ref> The amount of lactate found in the blood is directly proportional to the difference between lactate influx and efflux to the bloodstream. Higher Blood LAC is expected when the lactate influx in the bloodstream is higher than efflux. <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b25">26</ref> When an exercise is performed with a lower load but for a long period of time, even with a lower rate of lactate production, the longer TUT may lead to a higher blood lactate which may explain the results of the present study. Moreover, the present investigation showed an increase in ∼17% of Blood LAC (but small effect size) which occurred only after the third set with HL PRO compared to B PRO . This may suggest that more sets could result in Blood LAC increases with a higher load, regardless of TUT. Given that higher muscle activation may lead to more muscle involvement, an increased metabolic response may occur resulting from greater muscle involvement. <ref type="bibr" target="#b28">29</ref> Although muscle fiber types were not measured in this study, it is expected that a greater recruitment of Type II fibers would be observed with HL PRO , which is known to increase Blood LAC. <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b19">20</ref> The superior glycolytic power of Type II fibers compared to Type I fibers <ref type="bibr" target="#b29">30</ref> may increase lactate concentration which could explain the differences between HL PRO and LD PRO after the third set. However, it is important to highlight that the increase in load was not enough to provide a higher metabolic response than TUT. These data may have implication for long-term exposition (e.g., muscle hypertrophy) considering the association between higher Blood LAC and testosterone. <ref type="bibr" target="#b16">17</ref> Increasing the RT load from 60% to 70% 1RM with HL PRO led to an increase of ∼14% in normalized muscular activation across the exercise session compared to B PRO for the BF muscle and both B PRO and LD PRO for the VL muscle. Similarly, other studies comparing the impact of different intensities on muscular activation with different TUT <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref> showed increased muscular activation when higher loads were used. Although, each of these previous investigations manipulated two or more RT variables and therefore did not isolate TUT or load. The present study demonstrated that increasing the load of the exercise, provides an increase in muscular activation for both VL and BF muscles.</p><p>Acute increases in muscular activation are known to be associated with changes in the number of motor units (MU) being recruited, modulation of discharge frequency and synchronization of motor units. <ref type="bibr" target="#b4">5</ref> Increased synchronization between action potentials has also been observed with higher load exercise. <ref type="bibr" target="#b30">31</ref> This increased synchronization is directly reflected in an augmented EMG amplitude. <ref type="bibr" target="#b31">32</ref> It is possible that the increase in muscular acti-vation found with HL PRO is due to an increase in MU recruitment and synchronization of motor units. Although LD PRO also led to greater muscular activation compared to the B PRO , the difference was small (6%) with a trivial effect size. These data suggest that load rather than TUT appears to influence a change in acute measures of increased muscular activation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>Squat exercise performed in the Smith machine with greater TUT increased Blood LAC compared to B PRO and HL PRO , whereas an increase in training load resulted in a greater EMG response in the knee extensors compared to B PRO and LD PRO . These data have implications for RT program design to enhance performance outcomes for athletes and special population.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Schematic diagram of the experimental design of the study. Where: 1RM = one repetition maximum; MVC = maximum isometric voluntary contraction; baseline protocol (BPRO), longer duration protocol (LDPRO) or higher load protocol (HLPRO).</figDesc><graphic coords="3,80.26,55.64,445.68,184.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Mean normalized muscular activation (% of EMG during MVC; EMGMVC) across eight repetitions the three sets of the squat exercise for (A) vastus lateralis (VL) and (B) biceps femoris (BF) for baseline protocol (BPRO), longer duration protocol (LDPRO) or higher load protocol (HLPRO). Differences between protocols were detected in both muscles (two-way ANOVA, P ≤ 0.018). Symbols indicate: § higher than BPRO at the same set; * higher than BPRO and LDPRO at the same set. Open circles indicate individual values. Data are mean ± SD (n = 20).</figDesc><graphic coords="4,142.45,335.12,300.00,366.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Descriptive characteristics of the resistance exercise protocols.</figDesc><table><row><cell></cell><cell></cell><cell>Protocol</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>BPRO</cell><cell>LDPRO</cell><cell>HLPRO</cell></row><row><cell>Scheduled</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Sets × repetitions</cell><cell></cell><cell>3 × 8</cell><cell>3 × 8</cell><cell>3 × 8</cell></row><row><cell>Load (% 1RM)</cell><cell></cell><cell>60%</cell><cell>60%</cell><cell>70%</cell></row><row><cell cols="2">Duration of repetitions (CON:ECC) (s)</cell><cell>4 (2:2)</cell><cell>6 (3:3)</cell><cell>4 (2:2)</cell></row><row><cell>Total TUT</cell><cell></cell><cell>32 s</cell><cell>48 s</cell><cell>32 s</cell></row><row><cell>Rest between sets (min)</cell><cell></cell><cell>3</cell><cell>3</cell><cell>3</cell></row><row><cell>Range of motion of the knee (</cell><cell>o )</cell><cell>80</cell><cell>80</cell><cell>80</cell></row><row><cell>Actually performed</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Duration of the repetition (s) Range of motion of the knee (</cell><cell>o )</cell><cell cols="3">4.00 ± 0.04 5.97 ± 0.08* 4.00 ± 0.05 8 1 ± 3 8 1 ± 3 8 0 ± 3</cell></row><row><cell cols="3">Load volume (sum of 8 repetitions, kg) 609 ± 121</cell><cell>609 ± 121</cell><cell>710 ± 141*</cell></row><row><cell cols="5">1RM = one repetition maximum; BPRO = Baseline protocol; LDPRO = Long duration</cell></row><row><cell cols="5">protocol; HLPRO = High load protocol. CON = Concentric; ECC = Eccentric; TUT = Time</cell></row><row><cell>under tension.</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="5">* Significantly different than other protocols (P &lt; 0.001). Data are (Means ± SD).</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors would like to thank to <rs type="funder">Coordenac ¸ ão de Aperfeic ¸ oamento de Pessoal de Nível Superior -Brasil (CAPES)</rs>, <rs type="funder">Conselho Nacional de Desenvolvimento Científico e Técnológico (CNPq)</rs>, and <rs type="funder">Fundac ¸ ão de Amparo à Pesquisa do Estado de Minas Gerais (FAPEMIG)</rs> for financial support.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Supplementary data</head><p>Supplementary material related to this article can be found, in the online version, at doi:<ref type="url" target="https://doi.org/10.1016/j.jsams.2020.07">https://doi.org/10.1016/j.jsams.2020.07</ref>. 015.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Fundamentals of resistance training: progression and exercise prescription</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Kraemer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Ratamess</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/01.MSS.0000121945.36635.61</idno>
+		<ptr target="http://dx.doi.org/" />
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="674" to="688" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kraemer WJ, Ratamess NA. Fundamentals of resistance training: progression and exercise prescription. Med Sci Sport Exerc 2004; 36(4):674-688. http://dx. doi.org/10.1249/01.MSS.0000121945.36635.61.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Longer repetition duration increases muscle activation and blood lactate response in matched resistance training protocols</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Martins-Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rcr</forename><surname>Diniz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">V</forename><surname>Lima</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/01.MSS.0000121945.36635.61</idno>
+		<ptr target="http://dx.doi.org/10.1590/S1980-65742016000100005" />
+	</analytic>
+	<monogr>
+		<title level="j">Mot Rev Educ Física</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="35" to="41" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martins-Costa HC, Diniz RCR, Lima FV et al. Longer repetition duration increases muscle activation and blood lactate response in matched resistance training pro- tocols. Mot Rev Educ Física 2016; 22(1):35-41. http://dx.doi.org/10.1590/S1980- 65742016000100005.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The influence of frequency, intensity, volume and mode of strength training on whole muscle cross-sectional area in humans</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wernbom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Augustsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Thome</surname></persName>
+		</author>
+		<idno type="DOI">10.1590/S1980-65742016000100005</idno>
+		<ptr target="http://dx.doi.org/10.2165/00007256-200737030-00004" />
+	</analytic>
+	<monogr>
+		<title level="j">Sport Med</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="225" to="264" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wernbom M, Augustsson J, Thome R et al. The influence of frequency, intensity, volume and mode of strength training on whole muscle cross-sectional area in humans. Sport Med 2007; 37(3):225-264. http://dx.doi.org/10.2165/00007256- 200737030-00004.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Possible stimuli for strength and power adaptation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Crewther</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Keogh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cronin</surname></persName>
+		</author>
+		<idno type="DOI">10.2165/00007256-200737030-00004</idno>
+		<ptr target="http://dx.doi.org/10.2165/00007256-200636030-00004" />
+	</analytic>
+	<monogr>
+		<title level="j">Sport Med</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="215" to="238" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Crewther B, Keogh J, Cronin J et al. Possible stimuli for strength and power adap- tation. Sport Med 2006; 36(3):215-238. http://dx.doi.org/10.2165/00007256- 200636030-00004.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Neural adaptations to resistive exercise</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Gabriel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kamen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Frost</surname></persName>
+		</author>
+		<idno type="DOI">10.2165/00007256-200636030-00004</idno>
+		<ptr target="http://dx.doi.org/10.2165/00007256-200636020-00004" />
+	</analytic>
+	<monogr>
+		<title level="j">Sport Med</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="133" to="149" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gabriel DA, Kamen G, Frost G. Neural adaptations to resistive exercise. Sport Med 2006; 36(2):133-149. http://dx.doi.org/10.2165/00007256-200636020-00004.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The adaptations to strength training</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Folland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Williams</surname></persName>
+		</author>
+		<idno type="DOI">10.2165/00007256-200636020-00004</idno>
+		<ptr target="http://dx.doi.org/10.2165/00007256-200737020-00004" />
+	</analytic>
+	<monogr>
+		<title level="j">Sport Med</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="145" to="168" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Folland JP, Williams AG. The adaptations to strength training. Sport Med 2007; 37(2):145-168. http://dx.doi.org/10.2165/00007256-200737020-00004.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Electromyographical and perceptual responses to different resistance intensities in a squat protocol</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Looney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Kraemer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Joseph</surname></persName>
+		</author>
+		<idno type="DOI">10.2165/00007256-200737020-00004</idno>
+		<ptr target="http://dx.doi.org/10.1519/JSC.0000000000001109" />
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="792" to="799" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Looney DP, Kraemer WJ, Joseph MF et al. Electromyographical and perceptual responses to different resistance intensities in a squat protocol. J Strength Cond Res 2016; 30(3):792-799. http://dx.doi.org/10.1519/JSC.0000000000001109.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Effect of resistance training to muscle failure vs. volitional interruption at high-and low-intensities on muscle mass and strength</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Nóbrega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ugrinowitsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pintanel</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0000000000001109</idno>
+		<ptr target="http://dx.doi.org/10.1519/JSC.0000000000001787" />
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="162" to="169" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nóbrega SR, Ugrinowitsch C, Pintanel L et al. Effect of resistance training to muscle failure vs. volitional interruption at high-and low-intensities on muscle mass and strength. J Strength Cond Res 2018; 32(1):162-169. http://dx.doi.org/ 10.1519/JSC.0000000000001787.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Muscle activations under varying lifting speeds and intensities during bench press</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sakamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Sinclair</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0000000000001787</idno>
+		<ptr target="http://dx.doi.org/10.1007/s00421-011-2059-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1015" to="1025" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sakamoto A, Sinclair PJ. Muscle activations under varying lifting speeds and intensities during bench press. Eur J Appl Physiol 2012; 112(3):1015-1025. http://dx.doi.org/10.1007/s00421-011-2059-0.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Muscle activation during lowversus high-load resistance training in well-trained men</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Schoenfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Contreras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Willardson</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-011-2059-0</idno>
+		<ptr target="http://dx.doi.org/10.1007/s00421-014-2976-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2491" to="2497" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schoenfeld BJ, Contreras B, Willardson JM et al. Muscle activation during low- versus high-load resistance training in well-trained men. Eur J Appl Physiol 2014; 114(12):2491-2497. http://dx.doi.org/10.1007/s00421-014-2976-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Skeletal muscle fiber adaptations following resistance training using repetition maximums or relative intensity</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Carroll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Bazyler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Bernards</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-014-2976-9</idno>
+		<ptr target="http://dx.doi.org/10.3390/sports7070169" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">169</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carroll KM, Bazyler CD, Bernards JR et al. Skeletal muscle fiber adaptations following resistance training using repetition maximums or relative intensity. Sports 2019; 7(7):169. http://dx.doi.org/10.3390/sports7070169.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Maximal intended velocity training induces greater gains in bench press performance than deliberately slower half-velocity training</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>González-Badillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rodríguez-Rosell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sánchez-Medina</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/sports7070169</idno>
+		<ptr target="http://dx.doi.org/10.1080/17461391.2014.905987" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="772" to="781" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">González-Badillo JJ, Rodríguez-Rosell D, Sánchez-Medina L et al. Maximal intended velocity training induces greater gains in bench press perfor- mance than deliberately slower half-velocity training. Eur J Sport Sci 2014; 14(8):772-781. http://dx.doi.org/10.1080/17461391.2014.905987.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Intramuscular anabolic signaling and endocrine response following resistance exercise: implications for muscle hypertrophy</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Hoffman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Stout</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17461391.2014.905987</idno>
+		<ptr target="http://dx.doi.org/10.1007/s40279-015-0450-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Sport Med</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="671" to="685" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gonzalez AM, Hoffman JR, Stout JR et al. Intramuscular anabolic signaling and endocrine response following resistance exercise: implications for mus- cle hypertrophy. Sport Med 2016; 46(5):671-685. http://dx.doi.org/10.1007/ s40279-015-0450-4.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Mechanical and metabolic responses to traditional and cluster set configurations in the bench press exercise</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>García-Ramos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>González-Hernández</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ba Ños-Pelegrín</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40279-015-0450-4</idno>
+		<ptr target="http://dx.doi.org/10.1519/JSC.0000000000002301" />
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="663" to="670" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">García-Ramos A, González-Hernández JM, Ba ños-Pelegrín E et al. Mechanical and metabolic responses to traditional and cluster set configurations in the bench press exercise. J Strength Cond Res 2020; 34(3):663-670. http://dx.doi. org/10.1519/JSC.0000000000002301.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Potential mechanisms for a role of metabolic stress in hypertrophic adaptations to resistance training</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Schoenfeld</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0000000000002301</idno>
+		<ptr target="http://dx.doi.org/10.1007/s40279-013-0017-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Sport Med</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="179" to="194" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schoenfeld BJ. Potential mechanisms for a role of metabolic stress in hyper- trophic adaptations to resistance training. Sport Med 2013; 43(3):179-194. http://dx.doi.org/10.1007/s40279-013-0017-1.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Muscle time under tension during resistance exercise stimulates differential muscle protein sub-fractional synthetic responses in men</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Burd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dwd</forename><surname>West</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40279-013-0017-1</idno>
+		<ptr target="http://dx.doi.org/10.1113/jphysiol.2011.221200" />
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">590</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="351" to="362" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burd NA, Andrews RJ, West DWD et al. Muscle time under tension during resis- tance exercise stimulates differential muscle protein sub-fractional synthetic responses in men. J Physiol 2012; 590(2):351-362. http://dx.doi.org/10.1113/ jphysiol.2011.221200.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Lactate and the effects of exercise on testosterone secretion: evidence for the involvement of a cAMP-mediated mechanism</title>
+		<author>
+			<persName><forename type="first">S-S</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C-P</forename><surname>Lau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y-F</forename><surname>Tung</surname></persName>
+		</author>
+		<idno type="DOI">10.1113/jphysiol.2011.221200</idno>
+		<ptr target="http://dx.doi.org/10.1097/00005768-199708000-00010" />
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1048" to="1054" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lu S-S, Lau C-P, Tung Y-F et al. Lactate and the effects of exercise on testosterone secretion: evidence for the involvement of a cAMP-mediated mechanism. Med Sci Sport Exerc 1997; 29(8):1048-1054. http://dx.doi.org/10.1097/00005768- 199708000-00010.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Effects of load and training modes on physiological and metabolic responses in resistance exercise</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Buitrago</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wirtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yue</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/00005768-199708000-00010</idno>
+		<ptr target="http://dx.doi.org/10.1007/s00421-011-2249-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2739" to="2748" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Buitrago S, Wirtz N, Yue Z et al. Effects of load and training modes on physio- logical and metabolic responses in resistance exercise. Eur J Appl Physiol 2012; 112(7):2739-2748. http://dx.doi.org/10.1007/s00421-011-2249-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Energy metabolism during repeated sets of leg press exercise leading to failure or not</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Gorostiaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Navarro-Amézqueta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jal</forename><surname>Calbet</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-011-2249-9</idno>
+		<ptr target="http://dx.doi.org/10.1371/journal.pone.0040621" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">40621</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gorostiaga EM, Navarro-Amézqueta I, Calbet JAL et al. Energy metabolism during repeated sets of leg press exercise leading to failure or not. PLoS One 2012; 7(7). http://dx.doi.org/10.1371/journal.pone.0040621, e40621.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Effect of movement velocity during resistance training on neuromuscular performance</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pareja-Blanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rodríguez-Rosell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sánchez-Medina</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0040621</idno>
+		<ptr target="http://dx.doi.org/10.1055/s-0033-1363985" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="916" to="924" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pareja-Blanco F, Rodríguez-Rosell D, Sánchez-Medina L et al. Effect of movement velocity during resistance training on neuromuscular performance. Int J Sports Med 2014; 35(11):916-924. http://dx.doi.org/10.1055/s-0033-1363985.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Generalized equations for predicting body density of men</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Pollock</surname></persName>
+		</author>
+		<idno type="DOI">10.1055/s-0033-1363985</idno>
+		<ptr target="http://dx.doi.org/10.1079/BJN19780152" />
+	</analytic>
+	<monogr>
+		<title level="j">Br J Nutr</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="497" to="504" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jackson AS, Pollock ML. Generalized equations for predicting body density of men. Br J Nutr 1978; 40(3):497-504. http://dx.doi.org/10.1079/BJN19780152.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Variations in repetition duration and repetition numbers influence muscular activation and blood lactate response in protocols equalized by time under tension</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Lacerda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Martins-Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rcr</forename><surname>Diniz</surname></persName>
+		</author>
+		<idno type="DOI">10.1079/BJN19780152</idno>
+		<ptr target="http://dx.doi.org/10.1519/JSC.0000000000001044" />
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="251" to="258" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lacerda LT, Martins-Costa HC, Diniz RCR et al. Variations in repetition dura- tion and repetition numbers influence muscular activation and blood lactate response in protocols equalized by time under tension. J Strength Cond Res 2016; 30(1):251-258. http://dx.doi.org/10.1519/JSC.0000000000001044.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Knee extensor torque and quadriceps femoris EMG during perceptually-guided isometric contractions</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Pincivero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Coelho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Campy</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0000000000001044</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="159" to="167" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pincivero DM, Coelho AJ, Campy RM et al. Knee extensor torque and quadriceps femoris EMG during perceptually-guided isometric contractions. J Electromyogr Kinesiol 2003; 13(2):159-167. S1050641102000962 [pii].</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Acute hormonal and neuromuscular responses to hypertrophy, strength and power type resistance exercise</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">O</forename><surname>Mccaulley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Mcbride</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cormie</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-008-0951-z</idno>
+		<ptr target="http://dx.doi.org/10.1007/s00421-008-0951-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="695" to="704" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCaulley GO, McBride JM, Cormie P et al. Acute hormonal and neuromus- cular responses to hypertrophy, strength and power type resistance exercise. Eur J Appl Physiol 2009; 105(5):695-704. http://dx.doi.org/10.1007/s00421-008- 0951-z.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Longer concentric action increases muscle activation and neuromuscular fatigue responses in protocols equalized by repetition duration</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Lacerda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">V</forename><surname>Lima</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-008-0951-z</idno>
+		<ptr target="http://dx.doi.org/10.1519/JSC.0000000000002148" />
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1629" to="1639" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lacerda LT, Costa CG, Lima FV et al. Longer concentric action increases muscle activation and neuromuscular fatigue responses in protocols equalized by rep- etition duration. J Strength Cond Res 2019; 33(6):1629-1639. http://dx.doi.org/ 10.1519/JSC.0000000000002148.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Mechanical load and physiological responses of four different resistance training methods in bench press exercise</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Buitrago</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wirtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yue</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0000000000002148</idno>
+		<ptr target="http://dx.doi.org/10.1519/JSC" />
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1091" to="1100" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>b013e318260ec77</note>
+	<note type="raw_reference">Buitrago S, Wirtz N, Yue Z et al. Mechanical load and physiological responses of four different resistance training methods in bench press exercise. J Strength Cond Res 2013; 27(4):1091-1100. http://dx.doi.org/10.1519/JSC. 0b013e318260ec77.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Glycogen breakdown in different human muscle fibre types during exhaustive exercise of short duration</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Vøillestad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Tabata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Medbø</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0b013e318260ec77</idno>
+		<ptr target="http://dx.doi.org/10.1111/j.1748-1716.1992.tb09278.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol Scand</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="135" to="141" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vøillestad NK, Tabata I, Medbø JI. Glycogen breakdown in different human mus- cle fibre types during exhaustive exercise of short duration. Acta Physiol Scand 1992; 144(2):135-141. http://dx.doi.org/10.1111/j.1748-1716.1992.tb09278.x.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Lactate metabolism: a new paradigm for the third millennium</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Gladden</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1748-1716.1992.tb09278.x</idno>
+		<ptr target="http://dx.doi.org/10.1113/jphysiol.2003.058701" />
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">558</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="5" to="30" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gladden LB. Lactate metabolism: a new paradigm for the third millennium. J Physiol 2004; 558(1):5-30. http://dx.doi.org/10.1113/jphysiol.2003.058701.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Perceived exertion, electromyography, and blood lactate during acute bouts of resistance exercise</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Lagally</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">I</forename><surname>Gallagher</surname></persName>
+		</author>
+		<idno type="DOI">10.1113/jphysiol.2003.058701</idno>
+		<ptr target="http://dx.doi.org/10.1097/00005768-200203000-00025" />
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="552" to="559" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lagally KM, Robertson RJ, Gallagher KI et al. Perceived exertion, electromyogra- phy, and blood lactate during acute bouts of resistance exercise. Med Sci Sport Exerc 2002; 34(3):552-559. http://dx.doi.org/10.1097/00005768-200203000- 00025.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Skeletal muscle fiber type composition and performance during repeated bouts of maximal, concentric contractions</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Colliander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Dudley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Tesch</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/00005768-200203000-00025</idno>
+		<ptr target="http://dx.doi.org/10.1007/BF00636607" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol Occup Physiol</title>
+		<imprint>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Colliander EB, Dudley GA, Tesch PA. Skeletal muscle fiber type composition and performance during repeated bouts of maximal, concentric contractions. Eur J Appl Physiol Occup Physiol 1988. http://dx.doi.org/10.1007/BF00636607.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Cross-correlation of electromyograms showing interference patterns</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Person</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kudina</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00636607</idno>
+		<ptr target="http://dx.doi.org/10.1016/0013-4694(68)90087-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Electroencephalogr Clin Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="58" to="68" />
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Person R, Kudina L. Cross-correlation of electromyograms showing interference patterns. Electroencephalogr Clin Neurophysiol 1968; 25(1):58-68. http://dx.doi. org/10.1016/0013-4694(68)90087-4.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Motor unit synchronization and neuromuscular performance</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Semmler</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0013-4694(68)90087-4</idno>
+		<ptr target="http://dx.doi.org/10.1097/00003677-200201000-00003" />
+	</analytic>
+	<monogr>
+		<title level="j">Exerc Sport Sci Rev</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="8" to="14" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Semmler JG. Motor unit synchronization and neuromuscular performance. Exerc Sport Sci Rev 2002; 30(1):8-14. http://dx.doi.org/10.1097/00003677- 200201000-00003.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

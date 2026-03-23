@@ -1,0 +1,1563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Exercise-induced hypohydration impairs 3 km treadmill-running performance in temperate conditions</title>
+				<funder>
+					<orgName type="full">Danone Nutricia</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">University of Leicester</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Institute for Health Research</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">PepsiCo Inc.</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Entrinsic Beverage Company LLP and Herbalife Europe Ltd</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">University Hospitals of Leicester NHS Trust</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-09-21">21 Sep 2023.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Mark</forename><forename type="middle">P</forename><surname>Funnell</surname></persName>
+							<email>m.funnell2@lboro.ac.uk</email>
+							<idno type="ORCID">0000-0001-7473-5999</idno>
+							<affiliation key="aff0">
+								<orgName type="department">National Centre for Sport and Exercise Medicine</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<settlement>Loughborough Leicestershire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Sport, Exercise and Health Sciences</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<postCode>LE11 3TU</postCode>
+									<settlement>Leicestershire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Mark P. Funnell</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniel</forename><surname>Embleton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">National Centre for Sport and Exercise Medicine</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<settlement>Loughborough Leicestershire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Sport, Exercise and Health Sciences</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<postCode>LE11 3TU</postCode>
+									<settlement>Leicestershire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Mark P. Funnell</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Thomas</forename><surname>Morris</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">National Centre for Sport and Exercise Medicine</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<settlement>Loughborough Leicestershire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Sport, Exercise and Health Sciences</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<postCode>LE11 3TU</postCode>
+									<settlement>Leicestershire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Mark P. Funnell</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Heather</forename><forename type="middle">Z</forename><surname>Macrae</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">National Centre for Sport and Exercise Medicine</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<settlement>Loughborough Leicestershire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Sport, Exercise and Health Sciences</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<postCode>LE11 3TU</postCode>
+									<settlement>Leicestershire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Mark P. Funnell</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nicholas</forename><surname>Hart</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">National Centre for Sport and Exercise Medicine</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<settlement>Loughborough Leicestershire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Sport, Exercise and Health Sciences</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<postCode>LE11 3TU</postCode>
+									<settlement>Leicestershire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Mark P. Funnell</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tiberio</forename><surname>Mazzotta</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">National Centre for Sport and Exercise Medicine</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<settlement>Loughborough Leicestershire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Sport, Exercise and Health Sciences</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<postCode>LE11 3TU</postCode>
+									<settlement>Leicestershire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Mark P. Funnell</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">William</forename><surname>Lockyer</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">National Centre for Sport and Exercise Medicine</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<settlement>Loughborough Leicestershire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Sport, Exercise and Health Sciences</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<postCode>LE11 3TU</postCode>
+									<settlement>Leicestershire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Mark P. Funnell</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Loris</forename><forename type="middle">A</forename><surname>Juett</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">National Centre for Sport and Exercise Medicine</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<settlement>Loughborough Leicestershire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Sport, Exercise and Health Sciences</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<postCode>LE11 3TU</postCode>
+									<settlement>Leicestershire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Mark P. Funnell</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Stephen</forename><forename type="middle">A</forename><surname>Mears</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">National Centre for Sport and Exercise Medicine</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<settlement>Loughborough Leicestershire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Sport, Exercise and Health Sciences</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<postCode>LE11 3TU</postCode>
+									<settlement>Leicestershire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Mark P. Funnell</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lewis</forename><forename type="middle">J</forename><surname>James</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">National Centre for Sport and Exercise Medicine</orgName>
+								<orgName type="institution">Loughborough University</orgName>
+								<address>
+									<settlement>Loughborough Leicestershire</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Mark P. Funnell</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Exercise-induced hypohydration impairs 3 km treadmill-running performance in temperate conditions</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">Print</idno>
+						<imprint>
+							<date type="published" when="2023-09-21">21 Sep 2023.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6B02569FD9534A4D2BC95EFCBEAAEB93</idno>
+					<idno type="DOI">10.1080/02640414.2023.2259728</idno>
+					<note type="submission">View related articles View Crossmark data Citing articles: 1 View citing articles Received 27 February 2023 Accepted 8 September 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:11+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Dehydration</term>
+					<term>hydration</term>
+					<term>thirst</term>
+					<term>water</term>
+					<term>weight-bearing CONTACT Mark P. Funnell</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Research assessing exercise-induced hypohydration on running performance in a temperate environment is scarce. Given the weight-bearing nature of running, the negative effects of hypohydration might be offset by the weight-loss associated with a negative fluid balance. Therefore, this study investigated the effect of exercise-induced hypohydration on running performance in temperate conditions. Seventeen intermittent games players (age 22 ± 1 y; VO 2peak 52.5 ± 4.1 mL•kg -1 •min -1 ) completed preliminary and familiarisation trials, and two experimental trials consisting of 12 blocks of 6 min of running (65% VO 2peak ; preload) with 1 min passive rest in-between, followed by a 3 km time trial (TT). During the preload, subjects consumed minimal fluid (60 mL) to induce hypohydration (HYP) or water to replace 95% sweat losses (1622 ± 343 mL; EUH). Body mass loss (EUH -0.5 ± 0.3%; HYP -2.2 ± 0.4%; P &lt; 0.001), and other changes indicative of hypohydration, including increased serum osmolality, heart rate, thirst sensation, and decreased plasma volume (P ≤ 0.022), were apparent in HYP by the end of the preload. TT performance was ~6% slower in HYP (EUH 900 ± 87 s; HYP 955 ± 110 s; P &lt; 0.001). Exercise-induced hypohydration of ~2% body mass impaired 3 km running TT performance in a temperate environment.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>A wealth of research has shown that the hypohydration of &gt;2% body mass loss impairs aerobic exercise performance, primarily in warm and hot environments <ref type="bibr" target="#b7">(Cheuvront &amp; Kenefick, 2014;</ref><ref type="bibr" target="#b16">Funnell et al., 2019;</ref><ref type="bibr" target="#b21">James et al., 2019;</ref><ref type="bibr" target="#b23">Kenefick et al., 2010)</ref>. Despite this, there is an absence of research assessing exerciseinduced hypohydration and running performance in temperate environments. This is a common scenario for intermittent games players and endurance athletes that regularly exercise in temperate environments with inadequate fluid intake <ref type="bibr" target="#b19">(Greenleaf &amp; Sargent, 1965;</ref><ref type="bibr" target="#b26">Maughan et al., 2004;</ref><ref type="bibr" target="#b32">Passe et al., 2007)</ref>, and where hypohydration is commonplace <ref type="bibr" target="#b31">(Nuccio et al., 2017;</ref><ref type="bibr" target="#b33">Rollo et al., 2021)</ref>.</p><p>Among the studies that have investigated hypohydration on running performance in a temperate environment <ref type="bibr" target="#b0">(Armstrong et al., 1985;</ref><ref type="bibr" target="#b6">Casa et al., 2010;</ref><ref type="bibr" target="#b11">Fallowfield et al., 1996;</ref><ref type="bibr" target="#b12">Fleming &amp; James, 2014)</ref>, hypohydration has consistently impaired performance. However, the methodologies of these studies need to be considered, with all inducing hypohydration prior to exercise, through non-exercise routes. Indeed, <ref type="bibr" target="#b0">Armstrong et al. (1985)</ref> used a diuretic to induce hypohydration of ~2% body mass prior to 5 km and 10 km running performance, and found completion times were 6.7% and 6.3% slower compared to euhydration, respectively. The diuretic furosemide was used to induce pre-exercise hypohydration of ~2% body mass, a situation that is highly atypical, almost non-existent, of the hypohydration experienced by athletes. In contrast, <ref type="bibr" target="#b12">Fleming and James (2014)</ref> employed a combination of 24 h fluid manipulation and exercise-induced dehydration to induce hypohydration prior to a running time trial. The methods of 24 h fluid manipulation would have likely been uncomfortable and unfamiliar for the athletes, potentially confounding the results. Therefore, while the effect of hypohydration, induced via a diuretic and a combination of 24 h fluid manipulation and exercise, on running performance in a temperate environment has been investigated, the present study aims to fill the gap in the literature and investigate exercise-induced hypohydration on running performance in a temperate environment. This is a regular scenario for athletes that exercise in temperate environments with insufficient fluid intake.</p><p>Given the weight-bearing nature of running, the negative effects of hypohydration could be off-set by the positive effects of weight loss, as the decreased body mass may increase the power-to-weight ratio and reduce the oxygen cost of running <ref type="bibr" target="#b8">(Coyle, 2004)</ref>. During long-distance triathlons <ref type="bibr" target="#b36">(Sharwood et al., 2004)</ref> and marathon running <ref type="bibr" target="#b39">(Zouhal et al., 2011)</ref>, body mass loss has been shown to be negatively correlated with finishing time. A quicker running pace requires an athlete to exercise at a higher intensity, producing more metabolic heat and thus a higher sweat rate, resulting in greater hypohydration. Increasing exercise intensity also reduces gastric emptying rate <ref type="bibr" target="#b25">(Leiper et al., 2001;</ref><ref type="bibr" target="#b30">Neufer et al., 1989)</ref> and may cause gastrointestinal distress, which in turn reduces fluid intake. Therefore, although quicker athletes are predisposed to accrue greater levels of hypohydration, the weight loss from the negative fluid balance may attenuate or abolish the negative effects of hypohydration on exercise performance.</p><p>Therefore, the purpose of this study was to investigate the effect of exercise-induced hypohydration on 3 km running performance in a temperate environment. It was hypothesised that hypohydration would impair running performance, compared to when euhydration was maintained with water ingestion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study design</head><p>The original aim of this study was two-fold: (1) to investigate the effect of exercise-induced hypohydration on 3 km running performance in temperate conditions and (2) to investigate the effect of repeated familiarisation to exerciseinduced dehydration on performance. The study consisted of 10 visits to the laboratory: 2 preliminary trials, 2 experimental trials (euhydrated and hypohydrated), 4 familiarisation sessions (either euhydrated or hypohydrated; betweensubjects design), before repeating the 2 experimental trials. Seventeen subjects began the study; however, only 12 subjects completed the full protocol (i.e., 10 visits). Due to the COVID-19 pandemic, data collection ceased before a sufficient number of subjects were recruited to examine the effects of repeated exposure. Therefore, the data from the first four visits, investigating the first aim of the study (i.e., the effect of exercise-induced hypohydration on 3 km running performance in temperate conditions), are presented in this manuscript (n = 17).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Subjects</head><p>Seventeen male intermittent games players (age 22 ± 1 y; height 1.79 ± 0.04 m, body mass 79.2 ± 10.1 kg, BMI 24.7 ± 2.9 kg•m -2 , VO 2peak 52.5 ± 4.1 mL•kg -1 •min -1 , training sessions•week -1 6 ± 2, training hours•week -1 8 ± 3) completed this study, which received ethical approval from the Loughborough University Ethics Approvals (Human subjects) Sub-Committee (Reference: R17-P134). All subjects trained a minimum of 3 times per week, competed at local-level, university-level or regional-level competition and were classified as "Tier 2" according to the Participant Classification Framework <ref type="bibr" target="#b27">(McKay et al., 2022)</ref>. Games players were used because they are well familiar with running exercise, but training practices mean fluid is typically consumed during training <ref type="bibr" target="#b31">(Nuccio et al., 2017)</ref> and thus familiarisation with hypohydration/fluid restriction is unlikely (which may not be the case for trained runners). Before commencement of the study, subjects provided verbal and written informed consent and completed a medical questionnaire. Subjects completed a preliminary trial, familiarisation trial and two experimental trials at the same time of day (standardised within subjects between 12:00 and 13:00) in a randomised order and separated by ≥5 d.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pre-trial standardisation</head><p>Subjects recorded their dietary intake and physical activity the day preceding their first experimental trial, and replicated these patterns before the second experimental trial, with adherence verbally checked. Strenuous exercise and alcohol intake were not permitted during this period. The day before trials, subjects were provided with 40 mL•kg body mass -1 of water and were instructed to consume the water or the equivalent amount of fluid as a minimum. Any additional fluid was recorded and replicated before the second trial. Four hours before arrival to the laboratory, subjects consumed a standardised pre-trial breakfast providing 1.5 g carbohydrate•kg body mass -1 and 8 mL•kg body mass -1 of fluid (consisting of Kellogg's Nutri-grain cereal bars, orange juice and water). One and a half hours before arrival to the laboratory, subjects consumed a pre-trial snack providing 1 g carbohydrate•kg body mass -1 and 7 mL•kg body mass -1 of water (consisting of Kellogg's Squares Bars and water).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Preliminary testing</head><p>During the first visit, body mass (AFW-120K, Adam Equipment Co., Milton Keynes, UK), height (Seca 216, Hamburg, Germany) and body fat (Skinfold thickness at biceps, triceps, sub-scapula and supra-iliac; <ref type="bibr" target="#b10">Durnin &amp; Womersley, 1974)</ref> were measured before running peak oxygen uptake (VO 2peak ) was determined (h/p Cosmos, Nußdorf, Germany) by a modified method of <ref type="bibr" target="#b37">Taylor et al. (1955)</ref>. This involved four 4-min submaximal stages, followed by an incremental exercise test for volitional exhaustion during which the running speed remained constant and the treadmill incline increased by 1% every min. A linear relationship between oxygen uptake and treadmill speed was derived and used to estimate treadmill speed at VO 2peak . After the maximal exercise test, subjects completed a practice of the 3 km time trial (~23.5°C, ~40% relative humidity).</p><p>During the second preliminary visit, subjects completed a full practice trial, identical to experimental trials; but water was permitted ad-libitum within the 1 min passive breaks inbetween the preload blocks of running (defined below). This trial was used to calculate sweat loss during the preload, from body mass change and water consumed, and to determine the amount of water provided in the euhydrated trial.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental trials</head><p>Upon arrival, subjects sat for 15 min before a blood sample was taken via venepuncture from a forearm antecubital vein. Subjects then voided their bladders into a plastic container before nude body mass was recorded. The osmolality of this urine sample, and all subsequent samples, was determined immediately (Osmocheck, Vitech Scientific, Southam, UK). Thereafter, subjects entered a climatic chamber maintained at 23.9 ± 0.4°C and 44.4 ± 4.6% relative humidity. Subjects then completed 12 blocks of 6 min of running at 65% VO 2peak at 1% grade, with 1 min passive rest in-between each block (i.e., preload; the fixed exercise period before the 3 km time trial, used to induce hypohydration or maintain euhydration, during which comparative measures were collected). During the euhydrated trial (EUH), water was provided to replace 95% of sweat losses and was divided into a bolus immediately preexercise (15%), with the remainder of the water (85%) provided in equal amounts during the 1 min rest period in-between the 12 blocks. During the hypohydrated trial (HYP), 20 mL of water was consumed immediately pre-exercise, and at the end of blocks 4 and 8 (i.e., a total of 60 mL). Upon completion of the preload, subjects sat for 15 min before a second blood sample was taken. Subjects then voided their bladders into a plastic container, towel dried to remove in situ sweat, and then nude body mass was recorded. Subjects then completed a 3 km running time trial. The treadmill was initially stationary, once the investigator counted down from 3 s, the time trial began, and the subject was free to control the speed of the treadmill by a control panel attached to the arm of the treadmill. The only information available to the subject was the distance completed. No encouragement was provided during the time trial, and the investigator was positioned behind the subject to minimise peripheral distractions. The only interaction with subjects was to notify them when each 500 m of the time trial was completed. Facing wind (2.6 ± 0.3 m•s -1 ) was provided during the preload and time trial (0.5 m diameter fan aimed at the upper half of the body). After the time trial, subjects sat for 15 min, a blood sample was collected, and nude body mass recorded after towel drying.</p><p>Heart rate (M400, Polar Electro, Kempele, Finland) was recorded at the end of each block and every 25% of the time trial. Gastro-intestinal (GI) discomfort, stomach fullness and thirst sensation (all 10-point scale; 1 = no symptom, 10 = extreme symptom; <ref type="bibr" target="#b22">Jentjens &amp; Jeukendrup, 2005)</ref>, as well as thermal sensation (-10 to +10 scale; -10 = extreme cold, +10 = extreme heat; <ref type="bibr" target="#b24">Lee et al., 2008)</ref> were recorded pre-trial, preexercise, at the end of blocks 6 and 12, and immediately post time trial. Rating of perceived exertion (RPE; <ref type="bibr" target="#b5">Borg, 1982)</ref> was recorded at the end of blocks 6 and 12, and immediately post time trial. Expired gas was collected for the final minute of blocks 6 and 12 using the Douglas bag method, with O 2 and CO 2 content (Servomex 1400 Gas Analyzer, Servomex, Crowborough, UK), volume (Harvard Dry Gas Meter, Harvard Apparatus, Holliston, USA) and determined temperature. Ambient air was collected simultaneously with expired gas samples to correct VO 2 and VCO 2 values within the environmental chamber <ref type="bibr" target="#b4">(Betts &amp; Thompson, 2012)</ref>. Carbohydrate and fat oxidation rates were determined using the method of <ref type="bibr" target="#b15">Frayn (1983)</ref>. The running economy was calculated by dividing VO 2 in the final minute of the preload by body mass at the end of the preload. Ambient temperature, relative humidity and facing wind speed (Kestrel 4400, Nielsen-Kellerman Co., Philadelphia, USA) were recorded pre-exercise, and at the end of blocks 6, 12 and the time trial.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sample analysis</head><p>For each blood sample, 1 mL was dispensed into tubes containing K 2 EDTA (1.75 mg•L -1 ; Teklab, Durham, UK). This was used to determine haemoglobin concentration and haematocrit via the cyanmethemoglobin method and microcentrifugation, respectively. These values were used to estimate changes in blood, red cell and plasma volume, relative to pre-trial <ref type="bibr" target="#b9">(Dill &amp; Costill, 1974)</ref>. Additionally, 4.5 mL of blood was dispensed into a tube containing a clotting activator (Sarstedt AG &amp; Co., Nümbrecht, Germany) and left to clot at room temperature, with serum separated by centrifugation (1700 g, 10 min, 4°C), frozen (-80°C), and subsequently analysed for osmolality via freezingpoint depression (Gonotec Osmomat 030 Cryoscopic Osmometer; Gonotec, Berlin, Germany). The intra-assay coefficients of variations for haemoglobin concentration, haematocrit, serum osmolality and urine osmolality were 0.8%, 0.7%, 0.3% and 2.5%, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>Data were analysed using SPSS (version 23, SPSS Inc., Illinois, USA) and were initially checked for normality of distribution using a Shapiro-Wilk test. Performance data, heart rate, expired gas data, blood parameters and subjective feelings questionnaires were analysed using a two-way repeated measures ANOVA. Where the assumption of sphericity was violated, the degrees of freedom were corrected using the Greenhouse-Geisser estimate. Significant interaction effects were followedup by post-hoc paired t-tests for normally distributed data and Wilcoxon signed rank tests for non-normally distributed data. The familywise error rate was controlled using the Holm-Bonferroni correction. Using the data of <ref type="bibr" target="#b12">Fleming and James (2014)</ref>, an α of 0.05, and a statistical power of 0.80, it was estimated that 8 subjects would be required to reject the null hypothesis for the primary outcome measure (i.e., 3 km time trial performance). Data sets were accepted as being significantly different when P ≤ 0.05. All data are presented as mean ± SD, unless stated otherwise.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Trial conditions</head><p>No differences were present between trials for relative humidity (P = 0.896), ambient temperature (P = 0.601) or facing wind speed (P = 0.934). There were no differences between trials for pre-trial body mass (EUH 79.1 ± 10.4 kg, HYP 79.0 ± 10.1 kg; P = 0.711), urine osmolality (EUH 277 ± 172 mOsm•kgH 2 O -1 , HYP 252 ± 138 mOsm•kgH 2 O -1 ; P = 0.535), thirst sensation (P=0.785; Figure <ref type="figure" target="#fig_0">1c</ref>), or serum osmolality (P=0.918; Figure <ref type="figure" target="#fig_0">1b</ref>), indicating subjects were in a similar hydration state at the beginning of both experimental trials.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hydration status measures</head><p>Fluid Intake during the preload was greater in EUH (EUH 1622 ± 343 mL, HYP 60 ± 0 mL; P &lt; 0.001). Fluid intake during the familiarisation trial, during which ad-libitum fluid intake was permitted in-between blocks, was 897 ± 513 mL, which was lower (P &lt; 0.001) than the EUH trial. Sixteen of the 17 subjects drank less during the familiarisation trial than that in the EUH trial. Changes in body mass from the preload were greater in HYP (EUH -0.5 ± 0.3%, HYP -2.2 ± 0.4%; P &lt; 0.001). Sweat loss during the preload was not different between trials (EUH 1.7 ± 0.4 L, HYP 1.7 ± 0.4 L; P = 0.798). Sweat loss during the time trial was greater in EUH (EUH 0.5 ± 0.1 L, HYP 0.4 ± 0.1 L; P = 0.022).</p><p>Changes in plasma volume, blood volume, serum osmolality and thirst sensation were different between trials (interaction effects all P &lt; 0.001). Plasma volume (Figure <ref type="figure" target="#fig_0">1a</ref>) and blood volume (data not displayed) decreased (P≤0.001) from pretrial to the end of the preload and post time trial in HYP but were similar to pre-trial in EUH (P ≥ 0.116). Serum osmolality was greater at the end of the preload and post time trial in HYP (P &lt; 0.001; Figure <ref type="figure" target="#fig_0">1b</ref>). Thirst sensation was greater in HYP preexercise, block 6, block 12 and post time trial (P ≤ 0.022; Figure <ref type="figure" target="#fig_0">1c</ref>). Thirst sensation increased from pre-exercise throughout the preload and time trial in HYP (P &lt; 0.001). Thirst sensation initially decreased (P &lt; 0.042) following consumption of the bolus in EUH, but remained similar to preexercise throughout the preload (P ≥ 0.264), and increased post time trial (P &lt; 0.001).</p><p>There was a time by trial interaction effect (P = 0.001) for urine osmolality, with urine osmolality increasing from pre-trial (data displayed above) to the end of the preload in HYP (543 ± 179 mOsm•kgH 2 O -1 , P = 0.002), but not EUH (252 ± 138 mOsm•kgH 2 O -1 , P = 0.454). Subjects produced more urine at the end of the preload in EUH (EUH 332 ± 235 g, HYP 87 ± 73 g; P &lt; 0.001).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Physiological responses</head><p>Changes in heart rate were different between trials (P &lt; 0.001). Heart rate was greater at the end of blocks 6, 10, 11 and 12 of the preload in HYP (P ≤ 0.023; Figure <ref type="figure" target="#fig_1">2</ref>). Heart rate during the time trial was not different between trials (P=0.076; Figure <ref type="figure" target="#fig_1">2</ref>). VO 2 increased throughout the preload during both trials (P = 0.014), but there were no trial (P = 0.168) or interaction (P = 0.839) effects (data not displayed). Carbohydrate oxidation decreased from block 6 to block 12 (P = 0.004) but was not different (trial effect P = 0.549; interaction effect P = 0.603) between trials at the end of block 6 (EUH 3.16 ± 0.85 g•min -1 ; HYP 3.24 ± 0.78 g•min -1 ) or block 12 (EUH 2.96 ± 0.72 g•min -1 ; HYP 2.99 ± 0.82 g•min -1 ). Conversely, fat oxidation increased throughout the preload in both trials (P = 0.001) but was not different (trial effect P = 0.329; interaction effect P = 0.495) between trials at the end of block 6 (EUH 0.37 ± 0.21 g•min -1 ; HYP 0.32 ± 0.23 g•min -1 ) or block 12 (EUH 0.47 ± 0.22 g•min -1 ; HYP 0.44 ± 0.25 g•min -1 ). Running economy was worse at the end of the preload in the hypohydrated trial (EUH 242 ± 11 mL•kg -1 •km -1 ; HYP 247 ± 15 mL•kg -1 •km -1 ; P = 0.016), despite the lower body mass (EUH 78.7 ± 10.3 kg; HYP 77.3 ± 9.9 kg; P &lt; 0.001).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Time trial</head><p>Time trial performance was slower in HYP (P &lt; 0.001; Figure <ref type="figure" target="#fig_2">3a</ref>). Fifteen of the 17 subjects had a decrement in performance with HYP (range: -19.4% to +1.7%; Figure <ref type="figure" target="#fig_2">3a</ref>), with an average decrement of -6.1 ± 5.0%. To determine the pacing strategy of the time trial, the time taken to complete each 25% segment was recorded. Pacing was slower (P ≤ 0.009) with HYP during the 25-50% and 50-75% segments, but not during the 0-25% (P = 0.077) and 75-100% segments (P = 0.059; Figure <ref type="figure" target="#fig_2">3b</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Subjective measures</head><p>RPE increased throughout both trials (P &lt; 0.001) and was not different between trials at block 6 and post time trial (P ≥ 0.126) but was greater in HYP at block 12 (P = 0.008; Figure <ref type="figure" target="#fig_3">4a</ref>). Thermal sensation increased from pre-exercise (P &lt; 0.001) throughout both trials but was greater in HYP than EUH at block 12 and post time trial (P ≤ 0.037; Figure <ref type="figure" target="#fig_3">4b</ref>). Stomach fullness decreased throughout both trials (P = 0.002) but was greater at blocks 6 and 12 (P ≤ 0.024) in EUH (Figure <ref type="figure" target="#fig_3">4c</ref>). GI discomfort was not different between trials (P = 0.593; Figure <ref type="figure" target="#fig_3">4d</ref>) and remained low throughout both trials.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The main finding was that, despite the weight loss (1.7 ± 0.4 kg) associated with a negative fluid balance, hypohydration of ~2% body mass impaired 3 km running time trial performance by ~6% in a temperate environment in intermittent games players. To date, the studies that have investigated hypohydration on endurance running performance in a temperate environment have found that hypohydration of ~2% body mass impaired performance <ref type="bibr" target="#b0">(Armstrong et al., 1985;</ref><ref type="bibr" target="#b11">Fallowfield et al., 1996;</ref><ref type="bibr" target="#b12">Fleming &amp; James, 2014)</ref>. However, the methodologies of these studies make it difficult to draw conclusions regarding the effects of exercise-induced hypohydration and the associated weight loss on running performance. <ref type="bibr" target="#b0">Armstrong et al. (1985)</ref> found that hypohydration (~2% body mass) impaired 5 km and 10 km running performance by 6.7% and 6.3%, respectively. A diuretic (furosemide) was used to induce pre-exercise hypohydration, a situation that is highly atypical (almost non-existent) of the hypohydration experienced by athletes and also contravenes anti-doping regulations. Although, like the finding in this study, the data suggest that the weight loss associated with hypohydration does not offset the negative physiological consequences of hypohydration on exercise performance.</p><p>In the study of Fleming and James (2014), ~2.4% hypohydration was induced by a combination of 24 h fluid restriction and exercise-induced dehydration, prior to a 5 km running time trial in a temperate environment. Twenty-four hour fluid restriction is an unfamiliar and likely uncomfortable method of inducing hypohydration and is atypical of the usual practices of athletes <ref type="bibr" target="#b12">(Fleming &amp; James, 2014)</ref>. Although fluid restriction may be implemented by athletes in weight-making sports (e.g., boxing, mixed martial arts; <ref type="bibr" target="#b20">Hillier et al., 2019)</ref>, this method of hypohydration would rarely be experienced by other athletes, reducing the ecological validity of these results. Nonetheless, Fleming and James (2014) reported a 5.8% decrement in 5 km running time trial performance with ~2.4% hypohydration in a temperate environment.</p><p>The data from the present study, in combination with previous research <ref type="bibr" target="#b0">(Armstrong et al., 1985;</ref><ref type="bibr" target="#b12">Fleming &amp; James, 2014)</ref>, indicate that body mass loss due to a negative fluid balance does not attenuate the decrement in running performance from hypohydration in temperate environments. As the running velocity was fixed during the preload and expired gas was collected, it was possible to estimate the running economy. Running economy was worse in the hypohydrated trial than the euhydrated trial at the end of the preload. This may be due to one, or several, of the physiological consequences of hypohydration, such as, increased cardiovascular and thermal strain <ref type="bibr" target="#b2">(Barnes &amp; Kilding, 2015)</ref>, or potentially an alteration in running technique. The finding in the present study is contradictory to the findings of a previous study <ref type="bibr" target="#b1">(Armstrong et al., 2006)</ref>, which reported no difference in running economy between euhydration and ~5% hypohydration when running at both 70% and 85% VO 2max . However, it is important to highlight that this is an estimate of the running economy where body mass has been manipulated by fluid restriction. Nevertheless, it is an interesting finding that despite the lower body mass, running economy was worse at the end of the preload in the hypohydrated trial in  the present study. The impact of hypohydration on the running economy warrants further investigation.</p><p>To minimise the negative physiological consequences of hypohydration, athletes should consume fluid at a rate reasonably close to the sweat rate to limit hypohydration to &lt;2% body mass <ref type="bibr" target="#b8">(Coyle, 2004;</ref><ref type="bibr" target="#b34">Sawka et al., 2007)</ref>. However, during endurance events, such as marathon running, it remains unclear whether the time lost as a result of drinking larger volumes of fluid will be compensated by the physiological benefits of drinking <ref type="bibr" target="#b3">(Beis et al., 2012)</ref>, and whether the large volumes of fluid can be tolerated at quicker running speeds. It should be noted that at the 2009 Dubai Marathon, where a winning finishing time of 2:05:29 was recorded, the winner reportedly lost 9.8% of body mass <ref type="bibr" target="#b3">(Beis et al., 2012)</ref>. Moreover, data from 10 elite male marathon runners at 13 major marathon events show that athletes drank fluids for less than 60 s per race, at a rate of 0.55 ± 0.34 L•h -1 <ref type="bibr" target="#b3">(Beis et al., 2012)</ref>. In the present study, where body mass losses were relatively small (~2% body mass; ~1.7 kg) compared to those reported in elite distance runners, the negative consequences of hypohydration may far outweigh the benefits from reduced body mass. However, the quicker performance times of athletes that lose significant amounts of body mass during competition <ref type="bibr" target="#b3">(Beis et al., 2012;</ref><ref type="bibr" target="#b39">Zouhal et al., 2011)</ref> may be plausible through repeated familiarisation to hypohydration <ref type="bibr" target="#b12">(Fleming &amp; James, 2014)</ref>, an attenuation in the negative consequences of hypohydration through a reduced body mass, or other reasons.</p><p>Hypohydration increased cardiovascular strain, demonstrated by an increase in heart rate from block 6 onwards of the preload, in line with previous work <ref type="bibr" target="#b28">(Montain &amp; Coyle, 1992)</ref>. Although no direct measure of stroke volume was made, the elevated heart rate in the hypohydrated trial was likely to compensate for a decreased stroke volume driven by the observed hypovolemia <ref type="bibr" target="#b18">(González-Alonso et al., 1997;</ref><ref type="bibr" target="#b28">Montain &amp; Coyle, 1992)</ref>. Hypohydration has been shown to increase core temperature <ref type="bibr" target="#b28">(Montain &amp; Coyle, 1992;</ref><ref type="bibr" target="#b35">Sawka et al., 1985)</ref>, and although core temperature was not measured, thermal sensation was greater at the end of the preload and time trial in the hypohydrated trial, despite slower 3 km performance times. Hypovolemia has been shown to influence baroreception, instigating peripheral vasoconstriction and reduced skin blood flow, while hyperosmolality influences sudomotor drive and reduces sweat rate, both hindering thermoregulation <ref type="bibr" target="#b13">(Fortney et al., 1981</ref><ref type="bibr" target="#b14">(Fortney et al., , 1984;;</ref><ref type="bibr" target="#b29">Montain et al., 1995;</ref><ref type="bibr" target="#b35">Sawka et al., 1985)</ref>, possibly explaining the greater thermal sensation reported in the present study. Additional mechanisms that may contribute to the decrement in performance with hypohydration include reduced muscle and cerebral blood flow <ref type="bibr" target="#b17">(González-Alonso et al., 1998;</ref><ref type="bibr" target="#b38">Trangmar et al., 2015)</ref>, and elevated thirst sensation and RPE <ref type="bibr" target="#b6">(Casa et al., 2010)</ref>. RPE was greater at the end of the preload in the hypohydrated trial; likewise, thirst sensation was greater at block 6, 12 and post time trial in the hypohydrated trial. It was likely a combination of physiological and perceptual effects that were responsible for the decrement in performance displayed with hypohydration in the present study <ref type="bibr" target="#b21">(James et al., 2019)</ref> Despite replacing 95% of sweat losses during the euhydrated trial (1622 ± 343 mL), and the nature of intermittent running likely reducing gastric emptying <ref type="bibr" target="#b25">(Leiper et al., 2001)</ref>, stomach fullness and GI discomfort remained low throughout the preload and time trial. This volume of fluid was substantially greater than that consumed during the familiarisation trial (897 ± 513 mL), suggesting that subjects did not limit fluid intake during the familiarisation trial to minimise GI discomfort, rather they may have regulated drinking through thirst, other sensory cues, or habitual practices during intermittent games training.</p><p>It is a reasonable hypothesis that athletes who regularly consume large amounts of fluid during exercise may be affected to a greater extent by hypohydration, compared to athletes that habitually consume small amounts of fluids during exercise <ref type="bibr" target="#b21">(James et al., 2019)</ref>. However, there was no correlation between hypohydration accrued during the familiarisation trial and the decrement in performance in the hypohydrated trial (P = 0.115), or fluid intake during the ad-libitum familiarisation trial and the decrement in performance in the hypohydrated trial (P = 0.894), indicating the need for additional studies to specifically address this hypothesis.</p><p>While drinking fluid during the euhydrated trial was consistent with athletic practices and was an ecologically valid drinking pattern, this method did not permit the manipulation of hydration status without subjects being aware of its occurring. Although it has been shown that when hypohydration of ~3% body mass is present, impairments in exercise performance are not caused or exacerbated by a lack of study blinding <ref type="bibr" target="#b16">(Funnell et al., 2019;</ref><ref type="bibr" target="#b21">James et al., 2019)</ref>, it is not known if this would be the case with lower levels of hypohydration, like the hypohydration of ~2% body mass in this study. Therefore, conducting this study while blinding subjects to the purpose of hypohydration would be prudent. The training status of the subjects and the fact that the subjects were intermittent games players that likely consume fluid during training and competition may have magnified the decrement in performance observed with hypohydration. It would be beneficial to conduct a similar study (i.e., hypohydration of ~2% body mass, in a temperate environment) with trained runners that regularly habituate to hypohydration during training and competition <ref type="bibr" target="#b12">(Fleming &amp; James, 2014)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>In summary, the hypohydration of ~2% body mass impaired 3 km running time trial performance in a temperate environment, despite the weight-loss associated with a negative fluid balance. The decrement in performance was likely mediated by increased cardiovascular strain (indicated by increased heart rate and decreased plasma volume) and thermal strain, which altered the perception of effort (i.e., RPE). Athletes participating in prolonged sessions in temperate environments should adopt fluid intake strategies with the aim to limit hypohydration to &lt;2% body mass if performance time or exercise intensity are of importance. It may be prudent for coaches and athletes to monitor body mass losses during both training and competition to inform fluid intake strategies.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. (a) change in plasma volume from pre-trial, (b) serum osmolality and (c) thirst sensation for euhydrated (EUH) and hypohydrated (HYP) trials. † indicates HYP significantly different from EUH.</figDesc><graphic coords="5,48.64,53.21,249.48,415.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Heart rate during the preload and time trial for euhydrated (EUH) and hypohydrated (HYP) trials. † indicates HYP significantly different from EUH.</figDesc><graphic coords="6,94.73,53.19,420.00,152.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. (a) group and individual completion times and (b) pacing in 25% segments for euhydrated (EUH) and hypohydrated (HYP) time trials. † indicates HYP significantly different from EUH.</figDesc><graphic coords="6,48.64,247.41,249.48,304.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. (a) rating of perceived exertion, (b) thermal sensation, (c) stomach fullness and (d) GI discomfort for euhydrated (EUH) and hypohydrated (HYP) trials. † indicates HYP significantly different from EUH.</figDesc><graphic coords="7,77.84,53.21,453.72,303.96" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>M. P. FUNNELL ET AL.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Disclosure statement</head><p>MPF, DE, TM, HZM, NH, TM, WL and LAJ have no conflicts of interest. LJJ is part of the <rs type="affiliation">National Institute for Health Research's Leicester Biomedical Research Centre</rs>, which is a partnership between <rs type="funder">University Hospitals of Leicester NHS Trust</rs>, <rs type="institution">Loughborough University</rs>, and the <rs type="funder">University of Leicester</rs>. This report is independent research by the <rs type="funder">National Institute for Health Research</rs>. The views expressed in this publication are those of the authors and not necessarily those of the <rs type="institution">NHS</rs>, the <rs type="institution">National Institute for Health Research</rs>, or the Department of Health. LJJ has current/previous funding from <rs type="affiliation">Entrinsic Beverage Company LLC, Entrinsic Bioscience LLC, Herbalife Europe Ltd, Bridge Farm Nurseries, Decathlon SA, PepsiCo Inc.</rs>, Volac International; has performed consultancy for PepsiCo Inc. and Lucozade, <rs type="person">Ribena Suntory</rs>; and has received conference fees from <rs type="funder">PepsiCo Inc.</rs> and <rs type="funder">Danone Nutricia</rs>. In all cases, monies have been paid to LJJs institution and not directly to LJJ. SAM has current/previous funding from <rs type="funder">Entrinsic Beverage Company LLP and Herbalife Europe Ltd</rs>.</p></div>
+			</div>
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding</head><p>The authors declare no specific funding for this work.</p></div>
+			</div>
+
+
+			<listOrg type="funding">
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability statement</head><p>Data generated or analysed during this study are available from the corresponding author upon request.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Influence of diuretic-induced dehydration on competitive running performance</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Costill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fink</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/00005768-198508000-00009</idno>
+		<ptr target="https://doi.org/10.1249/00005768-198508000-00009" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and Science in Sports and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="456" to="461" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Armstrong, L., Costill, D., &amp; Fink, W. (1985). Influence of diuretic-induced dehydration on competitive running performance. Medicine and Science in Sports and Exercise, 17(4), 456-461. https://doi.org/10.1249/00005768- 198508000-00009</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">No effect of 5% hypohydration on running economy of competitive runners at 23°C</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Whittlesey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Casa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Elliott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Kavouras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Keith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Maresh</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/01.mss.0000230123.68394.ff</idno>
+		<ptr target="https://doi.org/10.1249/01.mss.0000230123.68394.ff" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and Science in Sports and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1762" to="1769" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Armstrong, L. E., Whittlesey, M. J., Casa, D. J., Elliott, T. A., Kavouras, S. A., Keith, N. R., &amp; Maresh, C. M. (2006). No effect of 5% hypohydration on running economy of competitive runners at 23°C. Medicine and Science in Sports and Exercise, 38(10), 1762-1769. https://doi.org/10.1249/01. mss.0000230123.68394.ff</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Running economy: Measurement, norms, and determining factors</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Barnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Kilding</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40798-015-0007-y</idno>
+		<ptr target="https://doi.org/10.1186/s40798-015-0007-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Medicine -Open</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barnes, K. R., &amp; Kilding, A. E. (2015). Running economy: Measurement, norms, and determining factors. Sports Medicine -Open, 1(8), 1-15. https://doi.org/10.1186/s40798-015-0007-y</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Drinking behaviors of elite male runners during marathon competition</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Y</forename><surname>Beis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wright-Whyte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Fudge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Noakes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Pitsiladis</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/JSM.0b013e31824a55d7</idno>
+		<ptr target="https://doi.org/10.1097/JSM.0" />
+	</analytic>
+	<monogr>
+		<title level="j">Clinical Journal of Sport Medicine: Official Journal of the Canadian Academy of Sport Medicine</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="254" to="261" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>b013e31824a55d7</note>
+	<note type="raw_reference">Beis, L. Y., Wright-Whyte, M., Fudge, B., Noakes, T., &amp; Pitsiladis, Y. P. (2012). Drinking behaviors of elite male runners during marathon competition. Clinical Journal of Sport Medicine: Official Journal of the Canadian Academy of Sport Medicine, 22(3), 254-261. https://doi.org/10.1097/ JSM.0b013e31824a55d7</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Thinking outside the bag (not necessarily outside the lab)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Betts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Thompson</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0b013e318264526f</idno>
+		<ptr target="https://doi.org/10.1249/MSS.0b013e318264526f" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and Science in Sports and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">2040</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Betts, J. A., &amp; Thompson, D. (2012). Thinking outside the bag (not necessa- rily outside the lab). Medicine and Science in Sports and Exercise, 44(10), 2040. https://doi.org/10.1249/MSS.0b013e318264526f</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Psychophysical bases of perceived exertion</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Borg</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/00005768-198205000-00012</idno>
+		<idno>1249/ 00005768-198205000-00012</idno>
+		<ptr target="https://doi.org/10" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and Science in Sports and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="377" to="381" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Borg, G. (1982). Psychophysical bases of perceived exertion. Medicine and Science in Sports and Exercise, 14(5), 377-381. https://doi.org/10.1249/ 00005768-198205000-00012</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Influence of hydration on physiological function and performance during trail running in the heat</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Casa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Stearns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Ganio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Mcdermott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Yeargin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Mazerolle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Roti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Maresh</surname></persName>
+		</author>
+		<idno type="DOI">10.4085/1062-6050-45.2.147</idno>
+		<ptr target="https://doi.org/10.4085/1062-6050-45.2.147" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Athletic Training</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="147" to="156" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Casa, D. J., Stearns, R. L., Lopez, R. M., Ganio, M. S., McDermott, B. P., Yeargin, S. W., Yamamoto, L. M., Mazerolle, S. M., Roti, M. W., Armstrong, L. E., &amp; Maresh, C. M. (2010). Influence of hydration on physiological function and performance during trail running in the heat. Journal of Athletic Training, 45(2), 147-156. https://doi.org/10. 4085/1062-6050-45.2.147</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Dehydration: Physiology, assessment, and performance effects</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Cheuvront</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Kenefick</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cphy.c130017</idno>
+		<ptr target="https://doi.org/10.1002/cphy.c130017" />
+	</analytic>
+	<monogr>
+		<title level="j">Comprehensive Physiology</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="257" to="285" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cheuvront, S. N., &amp; Kenefick, R. W. (2014). Dehydration: Physiology, assess- ment, and performance effects. Comprehensive Physiology, 4(1), 257-285. https://doi.org/10.1002/cphy.c130017</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Fluid and fuel intake during exercise</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Coyle</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/0264041031000140545</idno>
+		<ptr target="https://doi.org/10.1080/0264041031000140545" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="39" to="55" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Coyle, E. F. (2004). Fluid and fuel intake during exercise. Journal of Sports Sciences, 22(1), 39-55. https://doi.org/10.1080/0264041031000140545</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Calculation of percentage changes in volumes of blood, plasma, and red cells in dehydration</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Costill</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jappl.1974.37.2.247</idno>
+		<ptr target="https://doi.org/10.1152/jappl.1974.37.2.247" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="247" to="248" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dill, D. B., &amp; Costill, D. L. (1974). Calculation of percentage changes in volumes of blood, plasma, and red cells in dehydration. Journal of Applied Physiology, 37(2), 247-248. https://doi.org/10.1152/jappl.1974.37.2.247</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Body fat assessed from total body density and its estimation from skinfold thickness: Measurements on 481 men and women aged from 16 to 72 years</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Durnin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Womersley</surname></persName>
+		</author>
+		<idno type="DOI">10.1079/BJN19740060</idno>
+		<ptr target="https://doi.org/10.1079/BJN19740060" />
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Nutrition</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="77" to="97" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Durnin, B., &amp; Womersley, J. (1974). Body fat assessed from total body density and its estimation from skinfold thickness: Measurements on 481 men and women aged from 16 to 72 years. British Journal of Nutrition, 32(1), 77-97. https://doi.org/10.1079/BJN19740060</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Effect of water ingestion on endurance capacity during prolonged running</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Fallowfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Booth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Choo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Growns</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640419608727736</idno>
+		<ptr target="https://doi.org/10.1080/02640419608727736" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="497" to="502" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fallowfield, J. L., Williams, C., Booth, J., Choo, B. H., &amp; Growns, S. (1996). Effect of water ingestion on endurance capacity during prolonged running. Journal of Sports Sciences, 14(6), 497-502. https://doi.org/10. 1080/02640419608727736</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Repeated familiarisation with hypohydration attenuates the performance decrement caused by hypohydration during treadmill running</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fleming</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>James</surname></persName>
+		</author>
+		<idno type="DOI">10.1139/apnm-2013-0044</idno>
+		<ptr target="https://doi.org/10.1139/apnm-2013-0044" />
+	</analytic>
+	<monogr>
+		<title level="j">Nutrition, and Metabolism</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="124" to="129" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>Applied Physiology</note>
+	<note type="raw_reference">Fleming, J., &amp; James, L. J. (2014). Repeated familiarisation with hypohydra- tion attenuates the performance decrement caused by hypohydration during treadmill running. Applied Physiology, Nutrition, and Metabolism, 39(2), 124-129. https://doi.org/10.1139/apnm-2013-0044</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Effect of acute alterations of blood volume on circulatory performance in humans</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Fortney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Nadel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Wenger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Bove</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jappl.1981.50.2.292</idno>
+		<ptr target="https://doi.org/10.1152/jappl.1981.50.2.292" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology: Respiratory, Environmental and Exercise Physiology</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="292" to="298" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fortney, S. M., Nadel, E. R., Wenger, C. B., &amp; Bove, J. R. (1981). Effect of acute alterations of blood volume on circulatory performance in humans. Journal of Applied Physiology: Respiratory, Environmental and Exercise Physiology, 50(2), 292-298. https://doi.org/10.1152/jappl.1981.50.2.292</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Effect of hyperosmolality on control of blood flow and sweating</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Fortney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Wenger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Bove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Nadel</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jappl.1984.57.6.1688</idno>
+		<ptr target="https://doi.org/10.1152/jappl.1984.57.6.1688" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1688" to="1695" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fortney, S. M., Wenger, C. B., Bove, J. R., &amp; Nadel, E. R. (1984). Effect of hyperosmolality on control of blood flow and sweating. Journal of Applied Physiology, 57(6), 1688-1695. https://doi.org/10.1152/jappl. 1984.57.6.1688</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Calculation of substrate oxidation rates in vivo from gaseous exchange</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Frayn</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jappl.1983.55.2.628</idno>
+		<ptr target="https://doi.org/10.1152/jappl.1983.55.2.628" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology: Respiratory, Environmental and Exercise Physiology</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="628" to="634" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Frayn, K. N. (1983). Calculation of substrate oxidation rates in vivo from gaseous exchange. Journal of Applied Physiology: Respiratory, Environmental and Exercise Physiology, 55(2), 628-634. https://doi.org/ 10.1152/jappl.1983.55.2.628</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Blinded and unblinded hypohydration similarly impair cycling time trial performance in the heat in trained cyclists</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Funnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Mears</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bergin-Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>James</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.01026.2018</idno>
+		<ptr target="https://doi.org/10.1152/japplphysiol.01026.2018" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="870" to="879" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Funnell, M. P., Mears, S. A., Bergin-Taylor, K., &amp; James, L. J. (2019). Blinded and unblinded hypohydration similarly impair cycling time trial perfor- mance in the heat in trained cyclists. Journal of Applied Physiology, 126 (4), 870-879. https://doi.org/10.1152/japplphysiol.01026.2018</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Muscle blood flow is reduced with dehydration during prolonged exercise in humans</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>González-Alonso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A L</forename><surname>Calbet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nielsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1469-7793.1998.895ba.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1469-7793.1998.895ba.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physiology</title>
+		<imprint>
+			<biblScope unit="volume">513</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="895" to="905" />
+			<date type="published" when="1998">1998</date>
+			<pubPlace>Paris</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">González-Alonso, J., Calbet, J. A. L., &amp; Nielsen, B. (1998). Muscle blood flow is reduced with dehydration during prolonged exercise in humans. Journal of Physiology, Paris, 513(3), 895-905. https://doi.org/10.1111/j.1469- 7793.1998.895ba.x</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Dehydration markedly impairs cardiovascular function in hyperthermic endurance athletes during exercise</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>González-Alonso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mora-Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Below</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Coyle</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jappl.1997.82.4.1229</idno>
+		<ptr target="https://doi.org/10.1152/jappl.1997.82.4.1229" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1229" to="1236" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">González-Alonso, J., Mora-Rodríguez, R., Below, P. R., &amp; Coyle, E. F. (1997). Dehydration markedly impairs cardiovascular function in hyperthermic endurance athletes during exercise. Journal of Applied Physiology, 82(4), 1229-1236. https://doi.org/10.1152/jappl.1997.82.4.1229</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Voluntary dehydration in man</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Greenleaf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sargent</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jappl.1965.20.4.719</idno>
+		<ptr target="https://doi.org/10.1152/jappl.1965.20.4.719" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="719" to="724" />
+			<date type="published" when="1965">1965</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Greenleaf, J. E., &amp; Sargent, F. (1965). Voluntary dehydration in man. Journal of Applied Physiology, 20(4), 719-724. https://doi.org/10.1152/jappl.1965. 20.4.719</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">High prevalence and magnitude of rapid weight loss in mixed martial arts athletes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hillier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sutton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mojtahedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Keay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hind</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijsnem.2018-0393</idno>
+		<ptr target="https://doi.org/10.1123/ijsnem.2018-0393" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sport Nutrition and Exercise Metabolism</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="512" to="517" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hillier, M., Sutton, L., James, L., Mojtahedi, D., Keay, N., &amp; Hind, K. (2019). High prevalence and magnitude of rapid weight loss in mixed martial arts athletes. International Journal of Sport Nutrition and Exercise Metabolism, 29(5), 512-517. https://doi.org/10.1123/ijsnem.2018-0393</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Does hypohydration really impair endurance performance? Methodological considerations for interpreting hydration research</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Funnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Mears</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40279-019-01188-5</idno>
+		<ptr target="https://doi.org/10.1007/s40279-019-01188-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Medicine</title>
+		<imprint>
+			<biblScope unit="issue">S2</biblScope>
+			<biblScope unit="page" from="103" to="114" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">James, L. J., Funnell, M. P., James, R. M., &amp; Mears, S. A. (2019). Does hypohydration really impair endurance performance? Methodological considerations for interpreting hydration research. Sports Medicine, 49 (S2), 103-114. https://doi.org/10.1007/s40279-019-01188-5</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">High rates of exogenous carbohydrate oxidation from a mixture of glucose and fructose ingested during prolonged cycling exercise</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Jentjens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Jeukendrup</surname></persName>
+		</author>
+		<idno type="DOI">10.1079/BJN20041368</idno>
+		<ptr target="https://doi.org/10.1079/BJN20041368" />
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Nutrition</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">485</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jentjens, R. L., &amp; Jeukendrup, A. E. (2005). High rates of exogenous carbo- hydrate oxidation from a mixture of glucose and fructose ingested during prolonged cycling exercise. British Journal of Nutrition, 93(4), 485. https://doi.org/10.1079/BJN20041368</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Skin temperature modifies the impact of hypohydration on aerobic performance</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Kenefick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Cheuvront</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Palombo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Sawka</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.00135.2010</idno>
+		<ptr target="https://doi.org/10.1152/japplphysiol.00135.2010" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="79" to="86" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kenefick, R. W., Cheuvront, S. N., Palombo, L., Ely, B., &amp; Sawka, M. N. (2010). Skin temperature modifies the impact of hypohydration on aerobic performance. Journal of Applied Physiology, 109, 79-86. https://doi.org/ 10.1152/japplphysiol.00135.2010</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The influence of serial feeding of drinks at different temperatures on thermoregulatory responses during cycling</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Maughan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Shirreffs</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640410701697388</idno>
+		<ptr target="https://doi.org/10.1080/02640410701697388" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="583" to="590" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee, J. K., Maughan, R. J., &amp; Shirreffs, S. M. (2008). The influence of serial feeding of drinks at different temperatures on thermoregulatory responses during cycling. Journal of Sports Sciences, 26(6), 583-590. https://doi.org/10.1080/02640410701697388</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Effect of intermittent high-intensity exercise on gastric emptying in man</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Leiper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Broad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Maughan</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/00005768-200108000-00005</idno>
+		<ptr target="https://doi.org/10.1097/00005768-200108000-00005" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and Science in Sports and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1270" to="1278" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Leiper, J. B., Broad, N. P., &amp; Maughan, R. J. (2001). Effect of intermittent high-intensity exercise on gastric emptying in man. Medicine and Science in Sports and Exercise, 33(8), 1270-1278. https://doi.org/10.1097/ 00005768-200108000-00005</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Fluid and electrolyte intake and loss in elite soccer players during training</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Maughan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Merson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Broad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Shirreffs</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijsnem.14.3.333</idno>
+		<ptr target="https://doi.org/10.1123/ijsnem.14.3.333" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sport Nutrition and Exercise Metabolism</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="333" to="346" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maughan, R. J., Merson, S. J., Broad, N. P., &amp; Shirreffs, S. M. (2004). Fluid and electrolyte intake and loss in elite soccer players during training. International Journal of Sport Nutrition and Exercise Metabolism, 14(3), 333-346. https://doi.org/10.1123/ijsnem.14.3.333</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Defining training and performance caliber: A participant classification framework</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K A</forename><surname>Mckay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Stellingwerff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mujika</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">L</forename><surname>Goosey-Tolfrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sheppard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Burke</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2021-0451</idno>
+		<ptr target="https://doi.org/10.1123/ijspp.2021-0451" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sports Physiology and Performance</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="317" to="331" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McKay, A. K. A., Stellingwerff, T., Smith, E. S., Martin, D. T., Mujika, I., Goosey- Tolfrey, V. L., Sheppard, J., &amp; Burke, L. M. (2022). Defining training and performance caliber: A participant classification framework. International Journal of Sports Physiology and Performance, 17(2), 317-331. https://doi. org/10.1123/ijspp.2021-0451</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Influence of graded dehydration on hyperthermia and cardiovascular drift during exercise</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Montain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Coyle</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jappl.1992.73.4.1340</idno>
+		<ptr target="https://doi.org/10.1152/jappl.1992.73.4.1340" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1340" to="1350" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Montain, S. J., &amp; Coyle, E. F. (1992). Influence of graded dehydration on hyperthermia and cardiovascular drift during exercise. Journal of Applied Physiology, 73(4), 1340-1350. https://doi.org/10.1152/jappl.1992.73.4.1340</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Control of thermoregulatory sweating is altered by hydration level and exercise intensity</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Montain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Latzka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Sawka</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jappl.1995.79.5.1434</idno>
+		<ptr target="https://doi.org/10.1152/jappl.1995.79.5.1434" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1434" to="1439" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Montain, S. J., Latzka, W. A., &amp; Sawka, M. N. (1995). Control of thermoregu- latory sweating is altered by hydration level and exercise intensity. Journal of Applied Physiology, 79(5), 1434-1439. https://doi.org/10. 1152/jappl.1995.79.5.1434</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Gastric emptying during walking and running: Effects of varied exercise intensity</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Neufer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Sawka</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00643522</idno>
+		<ptr target="https://doi.org/10.1007/BF00643522" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Applied Physiology and Occupational Physiology</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="440" to="445" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Neufer, P. D., Young, A. J., &amp; Sawka, M. N. (1989). Gastric emptying during walking and running: Effects of varied exercise intensity. European Journal of Applied Physiology and Occupational Physiology, 58(4), 440-445. https://doi.org/10.1007/BF00643522</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Fluid balance in team sport athletes and the effect of hypohydration on cognitive, technical, and physical performance</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Nuccio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Barnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40279-017-0738-7</idno>
+		<ptr target="https://doi.org/10.1007/s40279-017-0738-7" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1951" to="1982" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nuccio, R. P., Barnes, K. A., Carter, J. M., &amp; Baker, L. B. (2017). Fluid balance in team sport athletes and the effect of hypohydration on cognitive, tech- nical, and physical performance. Sports Medicine, 47(10), 1951-1982. https://doi.org/10.1007/s40279-017-0738-7</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Voluntary dehydration in runners despite favorable conditions for fluid intake</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Passe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Horn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stofan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Horswill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Murray</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijsnem.17.3.284</idno>
+		<ptr target="https://doi.org/10.1123/ijsnem.17.3.284" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sport Nutrition and Exercise Metabolism</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="284" to="295" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Passe, D., Horn, M., Stofan, J., Horswill, C., &amp; Murray, R. (2007). Voluntary dehydration in runners despite favorable conditions for fluid intake. International Journal of Sport Nutrition and Exercise Metabolism, 17(3), 284-295. https://doi.org/10.1123/ijsnem.17.3.284</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Fluid balance, sweat na+ losses, and carbohydrate intake of elite male soccer players in response to low and high training intensities in cool and hot environments</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Rollo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Randell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Leyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Leal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lizarraga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mesalles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Jeukendrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Carter</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/nu13020401</idno>
+		<ptr target="https://doi.org/10.3390/nu13020401" />
+	</analytic>
+	<monogr>
+		<title level="j">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rollo, I., Randell, R. K., Baker, L., Leyes, J. Y., Leal, D. M., Lizarraga, A., Mesalles, J., Jeukendrup, A. E., James, L. J., &amp; Carter, J. M. (2021). Fluid balance, sweat na+ losses, and carbohydrate intake of elite male soccer players in response to low and high training intensities in cool and hot environments. Nutrients, 13(2), 1-11. https://doi.org/10.3390/nu13020401</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Exercise and fluid replacement</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Sawka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Eichner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Maughan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Montain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Stachenfeld</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/mss.0b013e31802ca597</idno>
+		<ptr target="https://doi.org/10.1249/mss" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and Science in Sports and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="377" to="390" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note>0b013e31802ca597</note>
+	<note type="raw_reference">Sawka, M. N., Burke, L. M., Eichner, E. R., Maughan, R. J., Montain, S. J., &amp; Stachenfeld, N. S. (2007). Exercise and fluid replacement. Medicine and Science in Sports and Exercise, 39(2), 377-390. https://doi.org/10.1249/ mss.0b013e31802ca597</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Thermoregulatory and blood responses during exercise at graded hypohydration levels</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Sawka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Francesconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Muza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Pandolf</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jappl.1985.59.5.1394</idno>
+		<ptr target="https://doi.org/10.1152/jappl.1985.59.5.1394" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1394" to="1401" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sawka, M. N., Young, A. J., Francesconi, R. P., Muza, S. R., &amp; Pandolf, K. B. (1985). Thermoregulatory and blood responses during exercise at graded hypohydration levels. Journal of Applied Physiology, 59(5), 1394-1401. https://doi.org/10.1152/jappl.1985.59.5.1394</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Weight changes, medical complications, and performance during an Ironman triathlon</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Sharwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Goedecke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Noakes</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bjsm.2003.007187</idno>
+		<ptr target="https://doi.org/10.1136/bjsm.2003.007187" />
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="718" to="724" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sharwood, K. A., Collins, M., Goedecke, J. H., Wilson, G., &amp; Noakes, T. D. (2004). Weight changes, medical complications, and performance dur- ing an Ironman triathlon. British Journal of Sports Medicine, 38(6), 718-724. https://doi.org/10.1136/bjsm.2003.007187</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Maximal oxygen intake as an objective measure of cardio-respiratory performance</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Buskirk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Henschel</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jappl.1955.8.1.73</idno>
+		<ptr target="https://doi.org/10.1152/jappl.1955.8.1.73" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="73" to="80" />
+			<date type="published" when="1955">1955</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Taylor, H., Buskirk, E., &amp; Henschel, A. (1955). Maximal oxygen intake as an objective measure of cardio-respiratory performance. Journal of Applied Physiology, 8(1), 73-80. https://doi.org/10.1152/jappl.1955.8.1.73</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Dehydration accelerates reductions in cerebral blood flow during prolonged exercise in the heat without compromising brain metabolism</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Trangmar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Chiesa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Llodio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Kalsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Secher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>González-Alonso</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/ajpheart.00525.2015</idno>
+		<ptr target="https://doi.org/10.1152/ajpheart.00525.2015" />
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Physiology -Heart and Circulatory Physiology</title>
+		<imprint>
+			<biblScope unit="volume">309</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1598" to="1607" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Trangmar, S. J., Chiesa, S. T., Llodio, I., Garcia, B., Kalsi, K. K., Secher, N. H., &amp; González-Alonso, J. (2015). Dehydration accelerates reductions in cerebral blood flow during prolonged exercise in the heat without compromising brain metabolism. American Journal of Physiology -Heart and Circulatory Physiology, 309(9), 1598-1607. https://doi.org/10.1152/ajpheart.00525.2015</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Inverse relationship between percentage body weight change and fi nishing time in 643 forty-two-kilometre marathon runners</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zouhal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Groussard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Minter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vincent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cretual</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gratas-Delamarche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Delamarche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Noakes</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bjsm.2010.074641</idno>
+		<ptr target="https://doi.org/10.1136/bjsm.2010.074641" />
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="1101" to="1105" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zouhal, H., Groussard, C., Minter, G., Vincent, S., Cretual, A., Gratas- Delamarche, A., Delamarche, P., &amp; Noakes, T. D. (2011). Inverse relation- ship between percentage body weight change and fi nishing time in 643 forty-two-kilometre marathon runners. British Journal of Sports Medicine, 45(14), 1101-1105. https://doi.org/10.1136/bjsm.2010.074641</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

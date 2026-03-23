@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The effect of fatigue on first stance phase kinetics during acceleration sprint running in professional football players</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Clarke, N</roleName><forename type="first">Maximilian</forename><forename type="middle">M</forename><surname>Wdowski</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">L</forename><forename type="middle">&amp;</forename><surname>Richardson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Neil</forename><surname>Clarke</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Emma</forename><forename type="middle">L J</forename><surname>Eyre</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Rhys</forename><surname>Morris</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Mark</forename><surname>Noon</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Steven</forename><forename type="middle">J</forename><surname>Eustace</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Joanne</forename><surname>Hankey</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Leanne</forename><forename type="middle">M</forename><surname>Raymond</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Darren</forename><forename type="middle">L</forename><surname>Richardson</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Health and Life Sciences</orgName>
+								<orgName type="institution">Coventry University</orgName>
+								<address>
+									<addrLine>Level 2</addrLine>
+									<settlement>Coventry</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Alison Gingell Building, Faculty and Health and Life Sciences</orgName>
+								<orgName type="institution">Coventry University</orgName>
+								<address>
+									<postCode>CV1 5FB</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The effect of fatigue on first stance phase kinetics during acceleration sprint running in professional football players</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">2473-3938</idno>
+					</monogr>
+					<idno type="MD5">BEE12CFAE6504DD7AA30687BC368DD0B</idno>
+					<idno type="DOI">10.1080/24733938.2020.1799064</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:12+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Biomechanics</term>
+					<term>Fatigue</term>
+					<term>Physiology</term>
+					<term>Kinetics</term>
+					<term>Performance</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This document is the author's post-print version, incorporating any revisions agreed during the peer-review process. Some differences between the published version and this version may remain and you are advised to consult the published version if you wish to cite from it.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Team sports such as football, hockey, and basketball require performers to execute a number of short sprints, interspersed with periods of rest or low intensity activity <ref type="bibr">(MendezVillanueva, Hamer &amp; Bishop, 2007;</ref><ref type="bibr" target="#b1">Andrzejewski, Chmura, Pluta, Strzelczyk, &amp; Kasprzak, 2013)</ref>.</p><p>Intermittent high-intensity endurance and the ability to repeatedly sprint within relatively short time intervals are deemed relevant fitness prerequisites in competitive football players <ref type="bibr" target="#b21">(Krustrup et al., 2006;</ref><ref type="bibr">Morin, Samozino, Edouard &amp; Tomazin, 2011a)</ref>. Football players perform approximately 1300 movements, with 200 of these being completed at high intensity <ref type="bibr" target="#b3">(Bangsbo et al. 2006)</ref>. The majority of sprint runs associated with professional football are performed over short distances (0-10 m) <ref type="bibr" target="#b11">(Di Salvo et al., 2010)</ref>, with 90% of these lasting less than five seconds <ref type="bibr" target="#b1">(Andrzejewski, Chmura, Pluta, Strzelczyk, &amp; Kasprzak, 2013)</ref>.</p><p>Subsequently, intermittent training and testing protocols have been proposed to improve football players' fitness and guide talent selection <ref type="bibr" target="#b7">(Bravo et al., 2008;</ref><ref type="bibr" target="#b17">Impellizzeri et al., 2008)</ref>.</p><p>In exercise physiology, fatigue has been defined as strength loss and is generally divided into central (i.e. above the neuromuscular junction) and peripheral (muscular) <ref type="bibr" target="#b26">(Millet, 2011)</ref>.</p><p>Fatigue has been shown to impair sprinting mechanics <ref type="bibr" target="#b36">(Pinniger, Steele, &amp; Groeller, 2000)</ref>, muscular strength <ref type="bibr">(Greig 2008;</ref><ref type="bibr">Small et al., 2008)</ref>, and joint stability <ref type="bibr">(Nyland, Shapiro, Stine, Horn, &amp; Ireland, 1994)</ref>. Although measured for the vastus lateralis, about half of the individual muscle fibers of types I and II have been shown to be depleted or almost depleted for glycogen post football match <ref type="bibr" target="#b21">(Krustrup et al., 2006)</ref>. Therefore, such a depletion of glycogen in some fibers may not allow for a maximal effort in a single sprint.</p><p>Hamstring injuries are most prevalent during the final 15 minutes of football matchplay <ref type="bibr" target="#b42">(Woods et al., 2004)</ref>. The biceps femoris is the most commonly strained muscle of the hamstring complex in professional football players <ref type="bibr" target="#b42">(Woods et al., 2004)</ref> and is highly activated, greater than the semitendinosus, during the stance phase of an acceleration sprint performance <ref type="bibr" target="#b16">(Higashihara et al., 2018)</ref>. It could be assumed that reduced sprinting mechanics, knee flexor muscular strength and knee joint stability could influence subsequent injury risk. Moreover, with reduced force production from the knee flexors, this may reduce the capacity to generate increased anteroposterior forces during the stance phase of sprinting <ref type="bibr" target="#b29">(Morin et al., 2015)</ref>. Furthermore, energy absorption by the hamstring at the knee during late swing was previously suggested to be responsible for continuing acceleration at near maximal velocities <ref type="bibr" target="#b31">(Nagahara et al., 2017)</ref>, and eccentric knee flexion endurance capability for maintaining highspeed sprinting performance <ref type="bibr" target="#b21">(Krustrup et al., 2006;</ref><ref type="bibr">Greig 2008)</ref>. <ref type="bibr" target="#b34">Nagahara et al., (2016)</ref> suggested that an actual football match reduced maximal velocity capabilities more than horizontal force production abilities at initial acceleration, however they did not directly measure force and their results still observed reduced acceleration sprint performance in sprint times over 0-10 m and 0-20 m sprint times. Therefore, given that forceful contraction of the hamstrings are a key determining factor of sprint performance and the potentially injurious effect of fatigue on the hamstring for football players, it is important to understand the effect of fatigue on sprint running mechanics in football players.</p><p>The majority of current research investigating the ground reaction force (GRF) of acceleration sprint running has highlighted the importance of maximising anteroposterior propulsive forces <ref type="bibr" target="#b10">(Colyer, Nagahara, &amp; Salo, 2018;</ref><ref type="bibr">Nagahara et al., 2018a;</ref><ref type="bibr" target="#b33">Nagahara, Mizutani, Matsuo, Kanehisa, &amp; Fukunaga, 2018b;</ref><ref type="bibr" target="#b37">Rabita et al., 2015)</ref>, with further studies suggesting an increased forward orientation of GRF <ref type="bibr" target="#b30">(Morin et al., 2011b</ref><ref type="bibr" target="#b27">(Morin et al., , 2012;;</ref><ref type="bibr" target="#b37">Rabita et al., 2015)</ref>. A recent examination of the first stance GRF of semi-professional football players by <ref type="bibr" target="#b40">Wdowski and Gittoes (2019)</ref> highlighted that acceleration sprint running in football requires minimised mediolateral and increased anteroposterior loading in the stance phase. However, although there is a plethora of current literature examining the kinetics of sprint running, there is limited examination of the effect of fatigue on the kinetics of acceleration sprint running.</p><p>Previous literature has examined the effect of fatigue on sprint running mechanics in physical education students <ref type="bibr">(Morin et al 2011a)</ref>, physically active males <ref type="bibr" target="#b14">(Girard et al., 2011)</ref> and sprint trained males <ref type="bibr">(Edouard et al. 2018)</ref>. <ref type="bibr">Morin et al. (2011a)</ref> reported that a repeated sprint protocol on an instrumented treadmill induced both a significant decrease in the capability to produce total force and an even larger relative decrease in the anteroposterior force component, which other treadmill based studies have supported <ref type="bibr">(Edouard et al. 2018)</ref>. In an attempt to avoid potentially altered running gait between over-ground and treadmill sprint running <ref type="bibr" target="#b22">(McKenna &amp; Riches, 2007)</ref>, the effect of fatigue on over-ground sprinting running kinetics has been examined <ref type="bibr" target="#b14">(Girard et al., 2011)</ref>. <ref type="bibr" target="#b14">Girard et al. (2011)</ref> suggested, in their examination of a repeated sprint protocol in physically active males, that decreased magnitude of braking and push-off peaks of anterior-posterior GRF were present post-fatigue. However, in the current body of literature there is an absence of investigation into the effects of fatigue in a sport-specific cohort during more valid over-ground sprint running.</p><p>Football players have been previously observed to rely on medial-lateral GRF's to enhance acceleration sprint performance <ref type="bibr" target="#b40">(Wdowski &amp; Gittoes, 2019)</ref>. Such an investigation could provide novel insights into the mechanics of sprint running performance in fatigued conditions for football players.</p><p>Therefore, the present study aims to examine the effect of a fatiguing protocol on first stance phase kinetics during acceleration sprint running in professional football players. We hypothesise that sprint performance and anteroposterior propulsive forces would decrease post-fatigue. Written informed consent was obtained from all participants prior to testing. The study was approved by the institutions ethics committee and complied with the current ethical standards in sports and exercise research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedures</head><p>The participants initiated a warm-up protocol, which consisted of five minutes cycling, ten minutes of dynamic stretches and jogging, three x countermovement jumps, one-three repetition maximum test using box squats and three x 30 m sprints with 60s rest in between.</p><p>Following the warm-up, the participants commenced the 30 m sprint assessment.</p><p>Participants were randomised into assessment groups of three-four participants.</p><p>Individual participants performed three x 30 m maximal sprint accelerations from a standing start with 60 s rest between each sprint. Participants were instructed to position themselves with enough distance to lean comfortably forward without breaking the beam of the initial light gate with the toes of their favoured foot on the start line and their other foot comfortably behind.</p><p>Participants initiated the sprint run themselves and completed a 30 m sprint run, accelerating maximally through five sets of Smartspeed™ PRO light gates (Fusion Sport, Grabba International Pty Ltd, London) positioned at the start line, and at five, ten, 15, and 30 m away from the start. The light gates were set at a height level to the participant's hip.</p><p>After the initial three sprints, the participants undertook the fatigue protocol which consisted of the Yo-Yo intermittent recovery test level One (Yo-Yo IRl) <ref type="bibr" target="#b20">(Krustrup et al., 2003)</ref>.</p><p>A previous study observed that the Yo-Yo IRl is a valid and reliable field test to assess intermittent endurance in football players <ref type="bibr" target="#b2">(Bangsbo, 2008)</ref>. Furthermore, it has been reported that a lower Yo-Yo IRl performance is related to impairment in football-skill (i.e., shortpassing ability) during experimental matches <ref type="bibr" target="#b38">(Rampinini et al., 2008)</ref>. The Yo-Yo IRl was performed in an indoor sports hall by the participants according to the procedures suggested by <ref type="bibr" target="#b20">Krustrup et al. (2003)</ref>. Two minutes following the conclusion of the Yo-Yo IRl, participants executed a further three x 30 m maximal acceleration sprint performances following the same protocol as the sprints pre-fatigue. Two minutes was selected as it was approximately the mean recovery time (83±26 seconds) between very high-intensity running bouts in English FA Premier League football matches <ref type="bibr" target="#b6">(Bradley et al., 2009)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Collection</head><p>The start line was positioned 0.5 m posteriorly from the start of two parallel 0.90×0.60 force platform (AMTI OR6 Series Force Plate, USA, 800 Hz), mounted underneath an athletics track surface, so that the first foot strike of the sprint run would contact near the centre of either force platform. Force signals were low-pass filtered (fourth-order Butterworth, 70 Hz cut-off frequency) prior to analysis. The fastest 30 m trial where there was a good foot contact on the force platform during the pre-and post-fatigue sprints were used for further analysis as previous research has suggested that choosing the fastest trial are likely to provide similar outcomes to the average (Al <ref type="bibr" target="#b0">Haddad et al., 2015)</ref>.</p><p>The instants of touchdown and take-off from the force platform were defined when the vertical GRF first rose above ten Newton (N) (touchdown) and declined below ten N ( take-off). This period from touchdown to take-off was then defined as the contact time.</p><p>Vertical (Z), anteroposterior (Y) and medial-lateral (X) GRF data were then exported for the duration of the contact time for each participant and expressed in Newton's (N) and Newton's\body weight (BW). Peak propulsive and mean average of the GRF for each of the X, Y and Z axis during the whole stance were identified, as well as peak Y braking force.</p><p>Total force (BW) was calculated as the total mean average force (BW) applied in the X, Y and Z directions. Net impulse for the X, Y and Z directions were determined as the area under the GRF-time curve. Mean ratio of GRF vectors for the ZY comparison were calculated using the procedures outlined by <ref type="bibr" target="#b30">Morin et al. (2011b)</ref>. Where ratio of forces was calculated as the mean ratio of Y GRF to the total GRF of Y and Z. Corresponding measures of ratio of GRF vectors were determined for the XY and XZ components <ref type="bibr" target="#b40">(Wdowski &amp; Gittoes, 2019;</ref><ref type="bibr" target="#b30">Morin et al., 2011b)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical Analysis</head><p>Means and standard deviations for the kinetic and sprint time metrics were calculated for all participants. Levene's test was used to check the homogeneity of variance and the Shapiro-Wilk statistics was used to check for data normality. As data was not normally distributed non-parametric statistics were used. A related samples Wilcoxon Signed Rank Test was processed to investigate the effect of pre-and post-fatigue. The importance of the differences found between pre-and post-fatigue was assessed through the effect size and Cohen's d coefficient <ref type="bibr" target="#b9">(Cohen, 1988)</ref>, interpreted as follows: small difference: 0.15 ≤ d &lt;0.4 , medium difference: 0.40 ≤ d&lt;0.75, large difference: 0.75 ≤ d &lt;1.10 and very large difference: d ≥ 1.10 .</p><p>The significance level was set at P &lt; 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INSERT FIGURE 1 HERE</head><p>The participants achieved a distance of 1787.4±448.6 m on the Yo-Yo IRl. The Group ensemble GRF pre-and post-fatigue in the X, Y and Z directions for the entire stance phase of the first step are presented in Figure <ref type="figure" target="#fig_1">1</ref> and the sprint time and GRF variables are displayed in Table <ref type="table" target="#tab_0">1</ref>. Significant medium and large increases post-fatigue were observed in the sprint times over the 0-15 m and 0-30 m distances. Peak X GRF had a significant medium decrease post-fatigue, the ratio of force had a significant medium decreases post-fatigue for the medial-lateral and anterior-posterior comparison, and the medial-lateral and vertical comparison. Net impulse X was observed to have a significant medium decrease post fatigue and the ratios of force that involved the X GRF, had significant medium decreases postfatigue.</p><p>The peak Y braking force had a significant medium positive increase post-fatigue when compared to pre-fatigue levels. Although there were medium effects observed between preand post-fatigue in the peak Z GRF and mean X GRF, these were not found to be significantly different.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INSERT TABLE 1 HERE</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>There is currently an absence of investigation into the effects of fatigue on GRF during overground sprint running in a sport specific cohort. Therefore, the current study aimed to examine the effect of a fatiguing protocol on first stance phase kinetics during acceleration sprint running in professional football players.</p><p>It was hypothesised that the fatiguing protocol would have a negative effect on acceleration sprint performance. The participants achieved a Yo-Yo IR1 distance covered of 1787.4±448.6 m, which is similar to an observation (1760±59 m) in a previous study with professional football players at the start of pre-season <ref type="bibr" target="#b20">(Krustrup et al., 2003)</ref>. Our results indicate that undertaking the Yo-Yo IR1 reduces acceleration sprint running performance over 0-15 m and 0-30 m but not 0-10 m or 0-5 m. The finding of the current study are in agreement with other repeated sprint running fatiguing protocols that previously highlighted a reduced sprint running performance over 0-5 m and 0-40 m <ref type="bibr">(Jiminez-Reyes et al., 2019)</ref>, and 5-10 m and 30-35 m <ref type="bibr" target="#b14">(Girard et al., 2011)</ref>. Previous literature has suggested that fatigue induced by a typical football match did not alter the maximal force component of sprinting, but altered the maximal velocity component <ref type="bibr" target="#b34">(Nagahara et al., 2016)</ref>. The reduced sprint performance over the final 20 m of the acceleration sprint run could be attributed to depleted glycogen stores <ref type="bibr" target="#b21">(Krustrup et al., 2006)</ref>, reduced muscle activation <ref type="bibr" target="#b24">(Mendez-Villanueva et al., 2008)</ref> or alterations in neuromuscular activation of the contracting musculature <ref type="bibr" target="#b5">(Billaut et al., 2007)</ref>. Therefore, changes in GRF mechanics may be present towards the latter part of an acceleration sprint run over 30 m. We can suggest adding an endurance element in strengthening for the lower limbs, mainly for the knee flexors and hip extensor muscles since they are involved in sprint acceleration performance. Performing Nordic hamstring eccentric strengthening exercises during the cooldown (CD) or warm-up has been shown to significantly reduce the negative influence of fatigue on eccentric hamstring strength <ref type="bibr" target="#b39">(Small, McNaughton, Greig, &amp; Lovell, 2009)</ref>. Future research needs to examine whether the adaptation in GRF mechanics in football players as a result of fatigue is present during the late acceleration phase.</p><p>The current study observed no significant difference in performance post-fatigue over the first 0-5 m and 0-10 m. We had originally hypothesised that there would be a reduced anteroposterior (Y) propulsive forces post-fatigue. However, we observed that Y mean and peak forces were not significantly different post-fatigue. Previous research has argued that a decrease in performance post-fatigue could be caused by a fatigue-induced decrease in the total amount of force produced by athletes onto the ground, or in the ability to orient the force in the anteroposterior direction, or both <ref type="bibr">(Edouard et al., 2018)</ref>. The findings of the current study suggest that an adaptation in the application of the force in the anteroposterior (Y) and maintenance of vertical force application (Z), combined with a reduced peak mediallateral (X) forces and impulse, enable performance to be maintained in the initial strides of a fatigued acceleration sprint run. These are novel findings, previous literature has not examined the medial-lateral force contribution post-fatigue, and only recently has literature highlighted the potential importance of medial-lateral force contribution for acceleration sprint running in football players <ref type="bibr" target="#b40">(Wdowski &amp; Gittoes, 2019)</ref>. Given that the reduced mediallateral force contributions are important to acceleration sprint performance <ref type="bibr" target="#b40">(Wdowski &amp; Gittoes, 2019)</ref> and performance maintenance post fatigue in football players, improving sprint technical efficacy by perhaps constricting out of sagittal-plane motion during fatigued conditions, and specific strength training exercises for muscles implicated in sprint running <ref type="bibr">(Morin et al., 2017;</ref><ref type="bibr">van den Tillaar et al., 2017)</ref> are warranted. Furthermore, when examining sprint running in football players practitioners should not ignore medial-lateral elements of force contribution.</p><p>Another element that could explain the maintenance of sprint acceleration performance over the initial 0-5 m and 0-10 m post-fatigue were the significantly reduced peak anteroposterior (Y) braking forces. Although football players who can accelerate faster have been suggested to initially apply force upon ground contact more vertically in order to reduce any anteroposterior braking forces, braking forces have not been explicitly correlated with acceleration sprint performance in football players <ref type="bibr" target="#b40">(Wdowski &amp; Gittoes, 2019)</ref>. Previous investigation into the effects of fatigue on GRF, not in football players but physically active males, did not find any adaptation in peak anteroposterior (Y) braking forces but they did find reduced vertical stiffness and leg stiffness <ref type="bibr" target="#b14">(Girard et al., 2011)</ref>. A stiffer system could allow for more efficient elastic energy contribution, potentially enhancing force production during the concentric push-off phase <ref type="bibr" target="#b13">(Farley and Gonzalez, 1996)</ref>. Although speculating, the reduced peak anteroposterior (Y) braking force could be as a result of reduced leg stiffness at foot contact. Future analysis into the late swing phase of the lead leg prior to touchdown in fatigue conditions may help elucidate whether it is a reduced vertical stiffness and leg stiffness or the kinematics kinetics of the hip extension, which has been suggested to reduce braking forces <ref type="bibr" target="#b4">(Bezodis et al., 2014)</ref>, that results in the reduced anteroposterior (Y) braking force.</p><p>In football acceleration sprint runs, compensatory strategies could be an adaptation to maintain performance. While speculative, it could also be interpreted as a protective adaptation to limit hamstring muscles constraints and risk of damage <ref type="bibr">(Edouard et al., 2018)</ref>. <ref type="bibr">Edouard et al (2018)</ref> has hypothesised that muscles playing a more important role in the second part of the acceleration in a non-fatigued condition (i.e., hamstring muscles) <ref type="bibr" target="#b29">(Morin et al., 2015)</ref> do not equally assume this role in a fatigued condition. As a result of the weaker state of the hamstring muscles/knee flexors with fatigue, the hamstring muscles might be further exposed to injury risk, especially when high levels of force, velocity and power production are needed to produce sprint acceleration runs <ref type="bibr">(Edouard et al., 2018)</ref>. Therefore, hip extensors may compensate for the altered hamstring muscle function, which results in the adaptation in force interaction with the ground observed in the current study. Future research modelling the lower-limbs musculature contribution is required in over ground acceleration sprint running to ascertain the potential compensatory strategies of muscle in fatigued conditions.</p><p>It should be recognised that kinetic analysis in professional football players is more challenging than in adult samples and the value of the current study and future examinations lie in their comprehensive mechanical analysis undertaken and the unique value of this in informing effecting training and testing programmes. The main limitation of the study was that we investigated the first stance of a 30 m acceleration sprint run so were unable to comment on the effect of fatigue on GRF in the late acceleration phase. Future research needs to examine whether the adaptation in GRF mechanics in football players as a result of fatigue is present during the late acceleration phase. A further limitation is that alpha inflation as a result of multiple comparisons was not controlled for. The significant differences in kinetics under fatigue may inform practice to guide coaches to consider sprint technical efficacy in a fatigued state to improve performance and reduce injury. However, further research is advocated to see how an intervention can improve performance in a fatigued state.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>The current study aimed to examine the effect of a football specific fatiguing protocol on first stance phase kinetics during acceleration sprint running in professional football players.  -Fatigue Post-Fatigue P-Value Cohen's d 95 % CI for Cohen's d Mean Difference 95 % CI for Mean Difference</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Nineteen full-time professional football players (Age: 26±5 years; Height: 1.84±0.08 m; Mass: 83.4±8.9 kg) performing in the National League at the fifth level of the English football pyramid participated in the study. Training in pre-season focuses on the rebuilding of fitness in players following the off-season (Jeong et al., 2011), which consisted of two weeks off at the end of April and then a self-directed programme that included speed, strength and endurance. Tests were performed at the first training session of pre-season. All players were experienced at performing 30-m sprint assessments, as well as the Yo-Yo Intermittent Recovery Test level One as part of the battery of tests performed by the team over the season.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FootballFigure 1 .</head><label>1</label><figDesc>Figure 1. Group ensemble GRF pre-and post-fatigue in the X (a), Y (b) and Z (c) directions. Grey lines indicate the ±SD of the pre and post-fatigue conditions.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Sprint time and GRF va riables pre-and post-fatigue.</figDesc><table><row><cell>Pre</cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Monitoring changes in jump and sprint performance: best or average values?</title>
+		<author>
+			<persName><forename type="first">Al</forename><surname>Haddad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Buchheit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2014-0540</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="931" to="934" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Al Haddad H, Simpson BM, Buchheit M. Monitoring changes in jump and sprint performance: best or average values?. Int J Sports Physiol Perform. 2015;10(7):931-934. doi:10.1123/ijspp.2014-0540</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Analysis of sprinting activities of professional soccer players</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Andrzejewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chmura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pluta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Strzelczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kasprzak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Strength and Conditioning Research</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2134" to="2140" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Andrzejewski, M., Chmura, J., Pluta, B., Strzelczyk, R., &amp; Kasprzak, A. (2013). Analysis of sprinting activities of professional soccer players. Journal of Strength and Conditioning Research, 27 (8) , 2134-2140.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The Yo-Yo intermittent recovery test: A useful tool for evaluation of physical performance in intermittent sports</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bangsbo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Iaia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Krustrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="37" to="51" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bangsbo, J., Iaia, FM, and Krustrup, P. The Yo-Yo intermittent recovery test: A useful tool for evaluation of physical performance in intermittent sports. Sports Med 38: 37-51, 2008.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Physical and metabolic demands of training and match-play in the elite football player</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bangsbo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Krustrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="665" to="674" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bangsbo, J., Mohr, M., and Krustrup, P. 2006. Physical and metabolic demands of training and match-play in the elite football player. J. Sports Sci. 24(7): 665-674.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Lower limb joint kinetics during the first stance phase in athletics sprinting: three elite athlete case studies</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I T</forename><surname>Salo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Trewartha</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2013.849000</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="738" to="746" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bezodis, N.E., Salo, A.I.T. &amp; Trewartha, G. (2014). Lower limb joint kinetics during the first stance phase in athletics sprinting: three elite athlete case studies. Journal of Sports Sciences, 32 (8) , 738-746. DOI: 10.1080/02640414.2013.849000</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Effect of different recovery patterns on repeated-sprint ability and neuromuscular responses</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Billaut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Basset</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="905" to="913" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Billaut F, &amp; Basset F.A. (2007). Effect of different recovery patterns on repeated-sprint ability and neuromuscular responses. Journal of Sports Sciences, 25 , 905-913.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Highintensity running in English FA Premier League soccer matches</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Bradley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sheldon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wooster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Olsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Boanas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Krustrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="159" to="175" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bradley, P.S., Sheldon, W., Wooster, B., Olsen, P., Boanas, P. &amp; Krustrup, P. (2009): High- intensity running in English FA Premier League soccer matches. Journal of Sports Sciences, 27 (2) , 159-16.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Sprint vs. interval training in football</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Bravo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Impellizzeri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rampinini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Castagna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Wisloff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="668" to="674" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bravo, D.F., Impellizzeri, F.M., Rampinini, E., Castagna, C., Bishop, D., &amp; Wisloff, U. (2008) . Sprint vs. interval training in football. International Journal of Sports Medicine, 29 , 668-674 .</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The effect of training status on inter-limb stiffness regulation during repeated maximal sprints</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Clark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Science and Medicine in Sport</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="406" to="410" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Clark, R.A. (2009). The effect of training status on inter-limb stiffness regulation during repeated maximal sprints. Journal of Science and Medicine in Sport, 12 (3) , 406-410.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<monogr>
+		<author>
+			<persName><surname>Cohen</surname></persName>
+		</author>
+		<title level="m">Statistical Power Analysis for the Behavioral Sciences</title>
+		<meeting><address><addrLine>Hillsdale, NJ</addrLine></address></meeting>
+		<imprint>
+			<publisher>Lawrence Erlbaum Associates</publisher>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note>second ed.</note>
+	<note type="raw_reference">Cohen. (1988). Statistical Power Analysis for the Behavioral Sciences (second ed.), Lawrence Erlbaum Associates, Hillsdale, NJ.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Kinetic demands of sprinting shift across the acceleration phase: Novel analysis of entire force waveforms</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Colyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Salo</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sms.13093</idno>
+		<ptr target="https://doi.org/10.1111/sms.13093" />
+	</analytic>
+	<monogr>
+		<title level="j">Scandinavian Journal of Medicine and Science in Sports</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1784" to="1792" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Colyer, S.L., Nagahara, R., &amp; Salo, A.I.T. (2018). Kinetic demands of sprinting shift across the acceleration phase: Novel analysis of entire force waveforms. Scandinavian Journal of Medicine and Science in Sports, 28 , 1784-1792. https://doi.org/10.1111/sms.13093</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Sprinting analysis of elite soccer players during European Champions League and UEFA Cup matches</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Di Salvo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Baron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gonzalez-Haro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gormasz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pigozzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bachl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="1489" to="1494" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Di Salvo, V., Baron, R., Gonzalez-Haro, C., Gormasz, C., Pigozzi, F., &amp; Bachl, N. (2010). Sprinting analysis of elite soccer players during European Champions League and UEFA Cup matches. Journal of Sports Sciences, 28 (14) , 1489-1494.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Sprint Acceleration Mechanics in Fatigue Conditions: Compensatory Role of Gluteal Muscles in Horizontal Force Production and Potential Protection of Hamstring Muscles</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Edouard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mendiguchia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lahti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Arnal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gimenez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jiménez-Reyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brughelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Morin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Physiology</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1706</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Edouard, P., Mendiguchia, J., Lahti, J., Arnal, P.J., Gimenez, P., Jiménez-Reyes P., Brughelli, M., Samozino, P, &amp; Morin, JB. Sprint Acceleration Mechanics in Fatigue Conditions: Compensatory Role of Gluteal Muscles in Horizontal Force Production and Potential Protection of Hamstring Muscles. Frontiers in Physiology, 9 , 1706.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Leg stiffness and stride frequency in human running</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Farley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Gonzalez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="181" to="186" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Farley, C.T., &amp; Gonzalez, O. (1996). Leg stiffness and stride frequency in human running. Journal of Biomechanics, 29 (2) , 181-186.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Changes in spring-mass model characteristics during repeated running sprints</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Girard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Micallef</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Millet</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-010-1638-9</idno>
+		<ptr target="https://doi.org/10.1007/s00421-010-1638-9" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="page" from="111" to="125" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Girard, O., Micallef, JP. &amp; Millet, G.P. (2011) Changes in spring-mass model characteristics during repeated running sprints. European Journal of Applied Physiology , 111-125. https://doi.org/10.1007/s00421-010-1638-9 .</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The influence of soccer-specific fatigue on peak isokinetic torque production of the knee flexors and extensors</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Greig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="1403" to="1409" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Greig, M. The influence of soccer-specific fatigue on peak isokinetic torque production of the knee flexors and extensors. American Journal of Sports Medicine, 36 , 1403-1409.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Differences in hamstring activation characteristics between the acceleration and maximum-speed phases of sprinting</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higashihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nagano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukubayashi</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2017.1375548</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1313" to="1318" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Higashihara, A., Nagano, Y., Ono, T. &amp; Fukubayashi, T. (2018) Differences in hamstring activation characteristics between the acceleration and maximum-speed phases of sprinting. Journal of Sports Sciences, 36 (12) , 1313-1318. DOI: 10.1080/02640414.2017.1375548</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Validity of a repeated-sprint test for football</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Impellizzeri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rampinini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Castagna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ferrari Bravo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tibaudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Wisloff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="899" to="905" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Impellizzeri, F.M., Rampinini, E., Castagna, C., Bishop, D., Ferrari Bravo, D., Tibaudi, A., &amp; Wisloff, U. (2008). Validity of a repeated-sprint test for football. International Journal of Sports Medicine , 29, 899-905.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Quantification of the physiological loading of one week of &quot;pre-season&quot; and one week of &quot;in-season&quot; training in professional soccer players</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Morton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Bae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Drust</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2011.583671</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1161" to="1166" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jeong, TS., Reilly, T., Morton, J., Bae, SW. &amp; Drust, B. (2011) Quantification of the physiological loading of one week of &quot;pre-season&quot; and one week of &quot;in-season&quot; training in professional soccer players. Journal of Sports Sciences, 29 (11) , 1161-1166. DOI: 10.1080/02640414.2011.583671</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Changes in mechanical properties of sprinting during repeated sprint in elite rugby (2019) sevens athletes</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jiménez-Reyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brughelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Morin</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17461391.2018.1542032</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Sport Science</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="585" to="594" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jiménez-Reyes, P., Cross, M., Ross, A., Samozino, P., Brughelli, M., Gill, N., &amp; Morin, JB. . Changes in mechanical properties of sprinting during repeated sprint in elite rugby (2019) sevens athletes. European Journal of Sport Science, 19 , 585-594 . DOI: 10.1080/17461391.2018.1542032 .</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The yo-yo intermittent recovery test: Physiological response, reliability, and validity</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Krustrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Amstrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rysgaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Johansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Steensberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bangsbo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and Science in Sports and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="697" to="705" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Krustrup, P., Mohr, M., Amstrup, T., Rysgaard, T., Johansen, J., Steensberg, A., Pedersen, P.K., &amp; Bangsbo, J. (2003). The yo-yo intermittent recovery test: Physiological response, reliability, and validity. Medicine and Science in Sports and Exercise, 35 , 697-705.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Muscle and blood metabolites during a soccer game: Implications for sprint performance</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Krustrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Steensberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bencke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kjaer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bangsbo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and Science in Sports and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="1165" to="1174" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Krustrup, P., Mohr, M., Steensberg, A., Bencke, J., Kjaer, M., &amp; Bangsbo, J. (2006). Muscle and blood metabolites during a soccer game: Implications for sprint performance. Medicine and Science in Sports and Exercise, 38 , 1165-1174.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A comparison of sprinting kinematics on two types of treadmill and over-ground</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mckenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Riches</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scandinavian Journal of Medicine &amp; Science in Sports</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="649" to="655" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McKenna, M., &amp; Riches, P.E. (2007). A comparison of sprinting kinematics on two types of treadmill and over-ground. Scandinavian Journal of Medicine &amp; Science in Sports, 17 , 649- 655 .</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Fatigue responses during repeated sprints matched for initial mechanical output</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mendez-Villanueva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hamer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bishop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and Science in Sports and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2219" to="2225" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mendez-Villanueva, A., Hamer, P., &amp; Bishop, D. (2007) Fatigue responses during repeated sprints matched for initial mechanical output. Medicine and Science in Sports and Exercise, 39 (12), 2219-2225.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Fatigue in repeated-sprint exercise is related to muscle power factors and reduced neuromuscular activity</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mendez-Villanueva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hamer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bishop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal</title>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mendez-Villanueva, A., Hamer, P. &amp; Bishop, D. (2008) Fatigue in repeated-sprint exercise is related to muscle power factors and reduced neuromuscular activity. European Journal of</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1007/s00421-008-0723-9</idno>
+		<ptr target="https://doi.org/10.1007/s00421-008-0723-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page">411</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Applied Physiology, 103 , 411. https://doi.org/10.1007/s00421-008-0723-9</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Can Neuromuscular Fatigue Explain Running Strategies and Performance in Ultra-Marathons?</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Millet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Flush Model. Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="489" to="506" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Millet, G. Y. (2011). Can Neuromuscular Fatigue Explain Running Strategies and Performance in Ultra-Marathons? The Flush Model. Sports Medicine, 41 (6), 489-506.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Mechanical determinants of 100-m sprint running performance</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bourdin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Edouard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Peyrot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Lacour</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-012-2379-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="3921" to="3930" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morin, JB., Bourdin, M., Edouard, P., Peyrot, N., &amp; Lacour, JR. (2012). Mechanical determinants of 100-m sprint running performance. European Journal of Applied Physiology, 112 , 3921-3930. doi: 10.1007/s00421-012-2379-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Effect of fatigue on force production and force application technique during repeated sprints</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Edouard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tomazin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbiomech.2011.07.020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="2719" to="2723" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morin, JB., Samozino, P., Edouard, P., &amp; Tomazin, K. (2011a). Effect of fatigue on force production and force application technique during repeated sprints. Journal of Biomechanics, 44 , 2719-2723 . doi: 10.1016/j.jbiomech.2011.07.020.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Sprint acceleration mechanics: the major role of hamstrings in horizontal force production</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gimenez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Edouard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Arnal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jimenez-Reyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brughelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mendiguchia</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2015.00404</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Physiology</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">404</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morin, JB., Gimenez, P., Edouard, P., Arnal, P. J., Jimenez-Reyes, P., Samozino, P., Brughelli, M., &amp; Mendiguchia, J. (2015). Sprint acceleration mechanics: the major role of hamstrings in horizontal force production. Frontiers in Physiology, 6 , 404. doi: 10.3389 /fphys.2015.00404.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Technical ability of force application as a determinant factor of sprint performance</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Edouard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and Science in Sports and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<date type="published" when="2011">2011b. 1680 1688</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morin, JB., Edouard, P., &amp; Samozino, P. (2011b). Technical ability of force application as a determinant factor of sprint performance. Medicine and Science in Sports and Exercise, 43 , 1680 1688 .</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Association of sprint performance with ground reaction forces during acceleration and maximal speed phases in a single sprint</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mizutani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukunaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">7</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nagahara, R., Mizutani, M., Matsuo, A., Kanehisa, H., &amp; Fukunaga, T. (2017). Association of sprint performance with ground reaction forces during acceleration and maximal speed phases in a single sprint. Journal of Applied Biomechanics , 1 7 .</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Association of sprint performance with ground reaction forces during acceleration and maximal Speed phases in a Single sprint</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mizutani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukunaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="104" to="110" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>a)</note>
+	<note type="raw_reference">Nagahara, R., Mizutani, M., Matsuo, A., Kanehisa, H., &amp; Fukunaga, T. (2018a). Association of sprint performance with ground reaction forces during acceleration and maximal Speed phases in a Single sprint. Journal of Applied Biomechanics, 34 (2), 104-110.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Step-to-step spatiotemporal variables and ground reaction forces of intra-individual fastest sprinting in a single session</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mizutani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukunaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1392" to="1401" />
+			<date type="published" when="2018">2018b)</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nagahara, R., Mizutani, M., Matsuo, A., Kanehisa, H., &amp; Fukunaga, T. (2018b). Step-to-step spatiotemporal variables and ground reaction forces of intra-individual fastest sprinting in a single session. Journal of Sports Sciences, 36 (12) , 1392-1401.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Impairment of Sprint Mechanical Properties in an Actual Soccer Match: A Pilot Study</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Koido</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sports Physiology and Performance</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="893" to="898" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nagahara, R., Morin, J., &amp; Koido, M. (2016). Impairment of Sprint Mechanical Properties in an Actual Soccer Match: A Pilot Study. International Journal of Sports Physiology and Performance, 11 (7) , 893-898.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The effect of quadriceps femoris, hamstring and placebo eccentric fatigue on knee and ankle dynamics during crossover cutting</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Nyland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Shapiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N M</forename><surname>Caborn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Nitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Malone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Orthopaedic, Sports and Physical Therapy</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="171" to="184" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nyland, J.A., Shapiro, R., Caborn, D.N.M., Nitz, A.J. &amp; Malone, T.R. (1997). The effect of quadriceps femoris, hamstring and placebo eccentric fatigue on knee and ankle dynamics during crossover cutting. Journal of Orthopaedic, Sports and Physical Therapy, 25 , 171-184.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Does fatigue induced by repeated dynamic efforts affect hamstring muscle function?</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Pinniger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Steele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Groeller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and Science in Sports and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="647" to="653" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pinniger, G. J., Steele, J. R. &amp; Groeller, H. (2000). Does fatigue induced by repeated dynamic efforts affect hamstring muscle function? Medicine and Science in Sports and Exercise, 32 , 647-653 .</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Sprint mechanics in world-class athletes: a new insight into the limits of human locomotion</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rabita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dorel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Slawinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sàez-De-Villarreal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Couturier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Morin</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sms.12389</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scandinavian Journal of Medicine and Science in Sports</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="583" to="594" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rabita, G., Dorel, S., Slawinski, J., Sàez-de-Villarreal, E., Couturier, A., Samozino, P., &amp; Morin, JB. (2015). Sprint mechanics in world-class athletes: a new insight into the limits of human locomotion. Scandinavian Journal of Medicine and Science in Sports, 25 , 583-594. doi: 10.1111/sms.12389</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Effect of match-related fatigue on short-passing ability in young soccer players</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rampinini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Impellizzeri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Castagna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Azzalin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Bravo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Wisloff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and Science in Sports and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="934" to="942" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rampinini, E., Impellizzeri, F.M., Castagna, C., Azzalin, A., Bravo, D.F., &amp; Wisloff, U. (2008) . Effect of match-related fatigue on short-passing ability in young soccer players. Medicine and Science in Sports and Exercise, 40 , 934-942.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Soccer Fatigue, Sprinting and Hamstring Injury Risk</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Small</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Mcnaughton</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Greig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lohkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lovell</surname></persName>
+		</author>
+		<idno type="DOI">10.1055/s-0029-1202822/</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="573" to="578" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Small, K., McNaughton, L.R., Greig, Lohkamp, M. &amp; Lovell, R. (2009). Soccer Fatigue, Sprinting and Hamstring Injury Risk. International Journal of Sports Medicine, 30 , 573-578. DOI 10.1055/s-0029-1202822/</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">First-stance phase force contributions to acceleration sprint performance in semi-professional soccer players</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Wdowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Gittoes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wdowski, M.M. &amp; Gittoes, M.J.R. (2019). First-stance phase force contributions to acceleration sprint performance in semi-professional soccer players. European Journal of</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1080/17461391.2019.1629178</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sport Science, EPub Ahead of Print</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Sport Science, EPub Ahead of Print. DOI: 10.1080/17461391.2019.1629178</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">The Football Association Medical Research Programme: an audit of injuries in professional footballanalysis of hamstring injuries</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Hawkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maltby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hulse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hodson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="36" to="41" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Woods, C., Hawkins, R.D., Maltby, S., Hulse, M., Thomas, A., &amp; Hodson, A. (2004). The Football Association Medical Research Programme: an audit of injuries in professional football -analysis of hamstring injuries. British Journal of Sports Medicine, 38 , 36-41.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Paradisis, Giorgos P., Zacharogiannis, Elias, Bissas, Athanassios ORCID: 0000-0002-7858-9623 and Hanley, Brian (2023) Recreational runners gain physiological and biomechanical benefits from super shoes at marathon paces. International Journal of Sports Physiology and Performance, 18 (</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Giorgos</forename><forename type="middle">P</forename><surname>Paradisis</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physical Education and Sport Science, National</orgName>
+								<orgName type="laboratory">Sports Performance Laboratory</orgName>
+								<orgName type="institution">Kapodistrian University of Athens</orgName>
+								<address>
+									<settlement>Athens</settlement>
+									<country>Greece;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elias</forename><surname>Zacharogiannis</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physical Education and Sport Science, National</orgName>
+								<orgName type="laboratory">Sports Performance Laboratory</orgName>
+								<orgName type="institution">Kapodistrian University of Athens</orgName>
+								<address>
+									<settlement>Athens</settlement>
+									<country>Greece;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Athanasios</forename><surname>Bissas</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">School of Natural, Social and Sport Sciences</orgName>
+								<orgName type="institution">University of Gloucestershire</orgName>
+								<address>
+									<settlement>Gloucester</settlement>
+									<country>United Kingdom;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Brian</forename><surname>Hanley</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution" key="instit1">Carnegie School of Sport</orgName>
+								<orgName type="institution" key="instit2">Leeds Beckett University</orgName>
+								<address>
+									<settlement>Leeds</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Paradisis, Giorgos P., Zacharogiannis, Elias, Bissas, Athanassios ORCID: 0000-0002-7858-9623 and Hanley, Brian (2023) Recreational runners gain physiological and biomechanical benefits from super shoes at marathon paces. International Journal of Sports Physiology and Performance, 18 (</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F8423473CAA8971968DE9E36F838B0FF</idno>
+					<idno type="DOI">10.1123/ijspp.2023-0115</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:15+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>endurance</term>
+					<term>energy cost</term>
+					<term>marathon</term>
+					<term>recreational athletes</term>
+					<term>technology</term>
+					<term>stiffness</term>
+					<term>running kinematics</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The University of Gloucestershire accepts no liability for any infringement of intellectual property rights in any material deposited but will remove such material from public view pending investigation in the event of an allegation of any such infringement.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Distance runners have sought for many years to find new and effective approaches that enhance performance in competition and, through the dissemination of sports science research, have benefitted from improved understanding of training methods, <ref type="bibr" target="#b0">1</ref> dietary approaches <ref type="bibr" target="#b1">2</ref> and pacing strategies. <ref type="bibr" target="#b2">3</ref> Advancements in running shoe technology have developed since the 1970s <ref type="bibr" target="#b3">4</ref> when increased interest amongst recreational runners led to the big-city marathons that are now held. Although important requirements of running shoes have always been to provide protection, comfort, and durability, while considering shoe weight, price and even fashion, <ref type="bibr" target="#b4">5</ref> more recently a new type of running shoe has been designed to improve performance to a greater extent. This advanced footwear technology includes elements such as increased midsole thickness, new midsole foams, long stiff midsole plates and curved outsoles. <ref type="bibr" target="#b5">6</ref> These new types of running shoes have been described colloquially as "super shoes" and have prompted World Athletics, the governing body, to instigate regulations on the construction of any running shoes permitted in competition (with separate regulations for road shoes and track shoes). These regulations included a limit on the maximum thickness of the shoe's heel and the number of plates or blades permitted inside the midsole. <ref type="bibr" target="#b6">7</ref> From the onset of the release of the first super shoes, a consistent finding in running research has been that running economy, the steady state oxygen uptake below intensities associated with the second ventilatory/lactate threshold, <ref type="bibr" target="#b7">8</ref> is improved by wearing these shoes. <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10</ref> Differences in efficacy were found between brands and models of super shoe, <ref type="bibr" target="#b10">11</ref> but the overall consequence of the proliferation of the advanced footwear technology has been an improvement in finishing times in running events where minimizing energy cost is a key factor, from 5 km to the marathon. <ref type="bibr" target="#b11">12</ref> Indeed, Bermon and colleagues <ref type="bibr" target="#b5">6</ref> showed that elite men gained a 1.2% decrease in marathon race times between 2016 and 2019, with elite women having an even greater improvement of 2.0%. However, not all athletes are positive responders to this new technology (i.e., they are non-responders <ref type="bibr" target="#b9">10</ref> ), with findings that the super shoes do not work so well at a set slower speed. <ref type="bibr" target="#b12">13</ref> The focus of much previous research on the effects of super shoes on running was on elite or well-trained athletes, <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b8">9</ref> but research has shown that the greatest proportion of male New York City Marathon finishers take between 3.5 -4 h to complete the distance, with the greatest proportion of women taking 4 -4.5 h. <ref type="bibr" target="#b13">14</ref> It would thus be beneficial to inform this standard of recreational runner of the potential value of super shoes before adopting their use in training and competition. Furthermore, given the range of times achieved by marathon runners, basing test speeds on the lower and upper ranges of the typical percentage of velocity at maximal oxygen uptake (vVO2 peak) used by marathon runners (~65-80%) <ref type="bibr" target="#b14">15</ref> would apply more directly than a set speed to the individual abilities of each athlete.</p><p>Research shows a lower energy cost in athletes using advanced footwear technology (so called "super shoes"), but this has mainly focused on well-trained runners. However, as a great proportion of runners are recreational athletes, recent studies on slower runners running at marathon paces <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b16">17</ref> have been useful in laying a foundation to understand how these runners adapt to super shoes. In comparisons between models of super and non-super shoes, metabolic and performance differences were found <ref type="bibr" target="#b15">16</ref> as well as kinematic and spatiotemporal changes. <ref type="bibr" target="#b16">17</ref> Given that there was great variability in running economy changes to these footwear, further investigation was recommended <ref type="bibr" target="#b15">16</ref> and it is still not clear how such super shoes benefit recreational marathon runners at slower paces. A focus on extending previous research on super shoe use in recreational runners <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b16">17</ref> is therefore important regarding those factors relevant to reducing energy cost. In particular, greater leg stiffness has been found to be associated with better running economy <ref type="bibr" target="#b17">18</ref> and might be a key factor affecting the efficacy of the super shoes. The aim of this study was to compare physiological and biomechanical variables between a model of super shoes (Saucony Endorphin Speed 2) and regular running shoes (Saucony Cohesion 13) in recreational runners. Given previous research findings, we hypothesized that energy cost would be reduced, and leg stiffness increased, in the super shoes at two individual-based running paces.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>Subjects. Five male and 5 female physical education students (age: 23.3 y (± 1.1), stature: 1.66 m (± 0.04), leg length: 0.88 m (± 0.02), mass: 57.1 kg (± 3.8), body fat: 16.3% (± 1.4)) participated voluntarily. Written informed consent was obtained from all subjects before participation. This study conformed to standards from the latest revision of the Declaration of Helsinki and was approved by the local research ethics committee (Research Ethics Committee of the National and Kapodistrian University of Athens, School of Physical Education and Sports Science). All subjects were experienced in treadmill running and none exhibited any lower limb injury in the previous 6 months.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Shoes.</head><p>At the time of testing, the most up to date models of the shoes were used. The Cohesion 13 shoe (Shoe A) had a standard mass of 252 g, a heel height of 29 mm and a heel drop of 12 mm; the Endorphin Speed 2 "super shoe" (Shoe B) had a standard mass of 227 g, a heel height of 35.5 mm and a heel drop of 8 mm. As well as the Cohesion shoes being relatively affordable, the Endorphin Speed 2 shoe (and its successor model) would be considered inexpensive compared with other super shoes on the market (<ref type="url" target="https://runrepeat.com/uk/saucony-endorphin-speed-2">https://runrepeat.com/uk/saucony-endorphin-speed-2</ref>), making it more appealing to recreational distance runners. It is also on the World Athletics approved list for shoes used in road and cross country competitions (but not track); <ref type="bibr" target="#b18">19</ref> its advanced footwear technology features include a full-length nylon plate and PWRRUN PB Pebabased lightweight cushioning (<ref type="url" target="https://runnerslab.com/saucony-endorphin-speed-2-review/">https://runnerslab.com/saucony-endorphin-speed-2- review/</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Design and Methodology.</head><p>We measured subjects' statures and body masses before testing, as well as body fat percentage using thickness of the biceps, triceps, suprailiac and subscapular skinfolds, measured with a Harpenden Skinfold Caliper. After a 6-min warm-up and 5-min rest with self-selected stretching routine, the participants began the incremental treadmill test from a submaximal running velocity corresponding to 50-60% VO2 peak. We increased the running speed by 1 km•h -1 every 2 min until exhaustion. We performed gas collection during the last 60 s of each 2-min stage to attain steady state VO2, using the open circuit Douglas bag method. The subjects breathed through a low resistance 2-way Rudolph 2700 B valve. The expired gases passed through a flexible tubing into a 200-L capacity Douglas Bag. The concentration of O2 and CO2 in the expired air was measured using the 17620 and 17630 Vacumed O2 and CO2 analyzers, respectively (Ventura CA, USA). We measured expired air volume by means of a dry gas meter (Harvard). The gas analyzers and the dry gas meter were calibrated regularly using standardized gases (15.88% O2, 4.95% CO2 and 100% N2) and a standard airflow with a 3-L syringe, respectively. Barometric pressure and gas temperature were recorded, and we calculated gas exchange data (VO2, VCO2, VE and RER) using the computations of McArdle et al. <ref type="bibr" target="#b19">20</ref> when VEatps, FECO2 and FEO2 are known for each workload. VO2 peak value was determined as the highest VO2 reached during the incremental test. Additionally, the velocity at VO2 peak (vVO2 peak) was determined as the lowest running velocity that elicits a VO2 equivalent with VO2 peak during the incremental test. Heart rate was monitored continuously using a Polar S710 monitor (Kempele, Finland).</p><p>To test the study hypothesis, we tested the subjects 4 times in a randomly ordered crossover design (i.e., Shoe A or Shoe B, running at 65% or 80% of vVO2 peak) on 4 separate days (with a 48-h interval). All subjects completed 2 familiarization sessions, separated by 24 h, dedicated to accustoming them to running with both types of shoes and the testing procedures. For each testing session, subjects first performed a 5-min warm-up run on the treadmill (Runrace 1200, Technogym, Gambettola, Italy) at 50% of vVO2 peak. After a 4-min rest period, participants ran on the treadmill for 5 min at 65% or 80% of vVO2 peak at their self-selected step frequency and length, wearing either Shoe A or B. The mean vVO2 peak was 14.4 km•h -1 (± 0.6); therefore, for these subjects, 65% vVO2 peak was equivalent to a running speed of 9.4 km•h -1 (± 0.4), whereas 80% vVO2 peak was equivalent to 11.5 km•h -1 (± 0.5). Respiratory Exchange Ratio values ranged from 0.82 -0.98 whilst running at 80% of vVO2 peak.</p><p>We recorded video data using a Casio EX-F1 high-speed camera (Casio, Tokyo, Japan) operating at 300 Hz (shutter speed: 1/1250 s) placed 1 m behind the treadmill, perpendicular to the frontal plane, at a height of 0.40 m. <ref type="bibr" target="#b20">21</ref> The zoom was adjusted to obtain a limited area of shoe-treadmill contact. We collected the video data during the last 30 s of the first and final minutes, with VO2 measurements collected only during the final minute. We performed all testing procedures at the same time of day (between 16:00 and 20:00) to minimize the effect of circadian variation on performance. <ref type="bibr" target="#b21">22</ref> During the testing period, we asked subjects to halt any other sport activity and avoid alcohol and caffeine intake. The laboratory facilities were well lit and kept under stable environmental conditions.</p><p>For the calculation of vertical and leg stiffnesses using the method of Morin et al., <ref type="bibr" target="#b22">23</ref> which involved the calculation of vertical displacement of the center of mass, leg compression (change in leg length) and maximum vertical force, we recorded and averaged the flight and contact time of 10 consecutive steps (starting 3 s from the beginning of each 30-s trial). Leg length was calculated as 53% of standing height. <ref type="bibr" target="#b22">23</ref> We used Quintic Biomechanics v21 software (Sutton, United Kingdom) for the analysis of all recorded steps. We obtained contact and flight times according to regular procedures. <ref type="bibr" target="#b20">21</ref> Statistical analysis. Results are reported as mean ± 1 SD. We conducted 2-way mixeddesign analysis of variance (ANOVA) (shoe × running speed) on the oxygen consumption and heart rate measurements, whereas we conducted 3-way mixed-design ANOVA (shoe × running speed × time elapsed) on the spatiotemporal and global stiffness measurements. We calculated effect sizes for differences between shoes during both 1 st (biomechanical variables only) and 5 th minutes and between timing periods using Cohen's d, with the threshold used being trivial (d &lt; 0.20), small (0.20 -0.49), moderate (0.50 -0.79) or large (&gt; 0.80). <ref type="bibr" target="#b23">24</ref> Alpha was set at 0.05 for all statistical tests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Oxygen consumption in the Endorphin shoe was 3.9% lower than the Cohesion shoe at 65% vVO2 peak, with an interaction between shoes and speed (P = 0.020) resulting in an increased difference of 5.0% at 80% vVO2 peak (Figure <ref type="figure" target="#fig_0">1</ref>). Heart rate was also lower in the Endorphin shoe (P = 0.005), although there was no shoe × speed interaction for this or any other measured variable (Figure <ref type="figure" target="#fig_0">1</ref>). Regarding global stiffness characteristics, peak vertical force, vertical stiffness and leg stiffness were greater in the Endorphin shoes (P &lt; 0.001), with peak vertical force and vertical stiffness both increasing with speed (P &lt; 0.001), although leg stiffness did not (Table <ref type="table">1</ref>). Individually, all subjects had lower oxygen consumption wearing the Endorphin shoe (range at 65% vVO2 peak: 0.6 -7.1%; range at 80% vVO2 peak: 1.0 -9.1%), with all but one having an increase in leg stiffness at both speeds (Table <ref type="table">2</ref>). The change in leg length was less in the Endorphin shoe, with small differences found at both speeds and during the 1 st and 5 th min of testing (P &lt; 0.001); overall, the change in leg length was greater at the faster speed (P &lt; 0.001) (Table <ref type="table">1</ref>), but there was no speed × shoe interaction. The Endorphin shoe condition had shorter step lengths, higher step rates, shorter contact times and longer flight times (P &lt; 0.001); all these variables changed with increased speed (P &lt; 0.001) (Table <ref type="table">1</ref>). There was a small decrease in flight time between the 1 st and 5 th min of testing (P = 0.026, d = 0.24), but any other differences were trivial.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The aim of this study was to compare physiological and biomechanical variables between a model of super shoes (Saucony Endorphin Speed 2) and regular running shoes (Saucony Cohesion 13) in recreational runners. We first hypothesized that energy cost would be reduced in the super shoes, which was supported by our findings, with a 3.8% reduction in oxygen consumption at the slower mean test speed of 9.4 km•h -1 and a 5.0% reduction at a mean speed of 11.5 km•h -1 . These improvements are similar in magnitude to those found in previous research on faster athletes, <ref type="bibr" target="#b9">10</ref> and show that even recreational marathon runners (3.5 -4.5 h for the marathon) can benefit from advanced footwear technology. We also found that heart rate was lower in the super shoes, although the effect was smaller, but which could be an important physiological factor over a long-distance event like the marathon. Although not all subjects responded equally well, as in previous research, <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b15">16</ref> each one experienced a reduction in energy cost in the super shoes; as previous research on another brand of super shoe found that gains at 10 and 12 km•h -1 were much lower than at 16 km•h -1 , <ref type="bibr" target="#b12">13</ref> it is possible that some shoes are more suited to providing an energy cost benefit at slow speeds, and others at faster speeds. Previous research that also used a testing speed of 80% vVO2 peak found similar values for VO2 in Saucony-brand shoes (recreational men: ~45 ml⸱kg -1 ⸱min -1 ) <ref type="bibr" target="#b15">16</ref> and showed the applicability of our results to a wide range of running abilities. The breadth of super shoes now available <ref type="bibr" target="#b18">19</ref> means that a great number of models are available to runners, although the recreational runner is unlikely to be able to try all options because of cost and lack of availability. Equally, elite athletes who are sponsored by a particular shoe manufacturer might be limited in their choice of footwear. The present research complements previous work <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b11">12</ref> that show a relatively consistent benefit of super shoes, even at slower speeds, but runners should note that protection, comfort and durability are still important in one's choice of footwear. <ref type="bibr" target="#b4">5</ref> Given the decreased energy cost of the super shoes, the small to moderate increases in leg stiffness that we had hypothesized would occur support the suggestion that there is a link between leg stiffness and running economy. <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b24">25</ref> As the subjects in this study were tested over a short 4-day period and did not undertake any type of training intervention that could have improved leg stiffness, the changes found can be attributed to the shoes worn (which were worn in a randomized order). As the leg stiffness in this study was measured not directly but using a model that is predominantly determined by the proportions of contact and flight time, <ref type="bibr" target="#b22">23</ref> it is important therefore that the leg stiffness values are understood to represent the lower limb plus the shoe (i.e., there might have been no extra stiffness contribution from the lower limb itself). As has been found before in similar research, <ref type="bibr" target="#b25">26</ref> leg stiffness is usually maintained despite changes in speed, unlike vertical stiffness, and so the difference between regular and super shoes in these subjects was consistently between 4.6 and 6.3%. There were small differences in leg compression between shoe conditions as there was less change in leg length in the Endorphin Speed 2 shoes. Although it is possible that this arose from changes in lower limb joint angles (e.g., at the knee), it is likely that some of the difference arose from the mechanics of the super shoe's midsole material and height. The increase in leg stiffness (or, possibly described more accurately, lower limb plus shoe stiffness) from wearing the super shoes is thus the underlying biomechanical benefit that arises and should happen across long-distance running paces in improving performance.</p><p>The change in spatiotemporal variables that made this improvement in leg stiffness possible was the decrease in contact time, with small to moderate decreases during each stage of testing at both running speeds. The corresponding small increases in flight time that occurred were not of the same absolute magnitude, meaning that small increases in step rate occurred (although not during the 5 th minute at the faster speed). The differences in step rate that did occur corresponded to decreased step lengths, but ultimately it was the decrease in contact time that was the key link to better leg stiffness. This was not surprising given the previous links made between shorter contact times and running economy, <ref type="bibr" target="#b26">27</ref> and because longer contact times have been found to occur when distance runners fatigue. <ref type="bibr" target="#b27">28</ref> The subjects in this study ran for 5 min at each speed in each shoe, similar in duration to other previous research on super shoes <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b12">13</ref> and therefore there was no discernible fatigue that occurred. Indeed, the only change that occurred between the 1 st and 5 th minutes of testing was a small mean decrease of 0.004 s in flight time, which showed that any effects of the super shoes occurred as early as 1 min after commencing running. However, leg stiffness does tend to decrease with fatigue, with a resulting increase in energy cost to maintain speed (or a decrease in speed), <ref type="bibr" target="#b28">29</ref> and so longer testing protocols (30 -120 min) that measure the role of super shoes in preventing the reduction of leg stiffness would be informative to distance runners, regardless of standard.</p><p>In our study, we used speeds that were directly related to the ability of the subjects rather than set speeds as have been commonly used in previous studies. We took this approach by using percentages (65% and 80%) of the velocity at which VO2 peak was achieved to avoid having subjects run at a pace that was unrealistic for their ability (if maintained over a much longer exercise duration). The results found therefore represent the typical range of physiological effort involved in marathon running for recreational athletes, have been found to provide a sound basis for testing super shoes, <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref> and could be a robust approach for longer testing protocols in future research. In addition to longer single testing protocols, longitudinal studies could be beneficial with regard to understanding the long-term impact of using advanced footwear technology with respect to both improving performance (mechanical changes to the lower limb muscletendon units, for example) <ref type="bibr" target="#b12">13</ref> and the risk of injury. <ref type="bibr" target="#b29">30</ref> This would be particularly useful if in-vivo testing of muscle-tendon units were used in conjunction with the modelled estimations <ref type="bibr" target="#b22">23</ref> of leg stiffness. One limitation of our study, and other research on super shoes, is that the cost of the footwear and the sheer quantity of models available (&gt; 30 manufacturers have shoes approved by World Athletics) <ref type="bibr" target="#b18">19</ref> preclude an evaluation of each shoe or a comparison with all others. We also did not control for shoe mass as we did not add any mass to the lighter shoe to match the heavier shoe; the comparison between shoes was intended to represent their normal condition and therefore includes the potential effects of different mass on physiological and biomechanical variables. The purpose of this study was to measure changes in running economy and associated biomechanical factors, rather than conduct material testing of the shoes used. Future studies that examined, for example, in-vitro mechanical differences between the nylon plate used in the Endorphin Speed 2 super shoe tested and other materials (e.g., carbon plates) could help explain some of the differences between study findings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>In conclusion, the results of this study show that there were physiological and biomechanical differences between a pair of super shoes (Saucony Endorphin Speed 2) and regular running shoes (Saucony Cohesion 13). The most important finding was that oxygen consumption, and therefore energy cost, was reduced in the super shoes and this could be important in reducing finishing times over long-distance events, such as the marathon, where running economy is a determining factor. The subjects in this study ran at two paces, based on vVO2 peak, which would equate to marathon finishing times between 3.5 and 4.5 h. This range of times represent the performances of more recreational marathon runners than any other and supports the use of super shoes in this standard of athlete. There were few shoe × speed or shoe × testing time interactions, showing that the performance benefits of the super shoes were present both at slower running speeds and very soon after commencing running.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Practical applications</head><p>There was a physiological benefit to running in the super shoes as oxygen consumption and heart rate were lower than in the regular shoe. The difference in oxygen consumption was 5.0% at the faster speed (11.5 km•h -1 ), but nonetheless there was still a 3.8% advantage at the slower speed (9.4 km•h -1 ). There were also spatiotemporal and global stiffness benefits to wearing the super shoes, especially in terms of leg stiffness, indicating that recreational runners can gain performance benefits from using advanced footwear technology. Effect of speed (P &lt; 0.001) Effect of shoe (P &lt; 0.001) 50 -----. . . . . . ---.... 40 c E 30 0) ~ _j E ~ ~ -N 20 0 &gt; 10 0 Effect of speed (P &lt; 0.001) 200 Effect of shoe (P = 0.005) -----. . . . . . ---.... 180 --E 160 a. ..0 Q.) ..... co ,_ t'. 140 ~ ~ co Q.) , I 120 100 Shoe A Shoe B Shoe A Shoe B (Cohesion) (Endorphin) (Cohesion) (Endorphin) 65% vVO 2 peak 80% vVO 2 peak</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Differences in oxygen consumption and heart rate between regular shoes (Cohesion) and super shoes (Endorphin) at 65% and 80% vVO2 peak.</figDesc></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Table <ref type="table">1</ref> Mean values ± SD, percentage difference and Cohen's d for all analyzed variables for each shoe during the 1 st and 5 th minute of running at 65% and 80% of vVO2 peak. Speed @ 65% vVO2 peak Speed @ 80% vVO2 peak Time (min) 1 st 5 </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">World-class long-distance running performances are best predicted by volume of easy runs and deliberate practice of short-interval and tempo runs</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Casado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hanley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Santos-Concejero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Ruiz-Pérez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="2525" to="2531" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Casado A, Hanley B, Santos-Concejero J, Ruiz-Pérez LM. World-class long-distance running performances are best predicted by volume of easy runs and deliberate practice of short-interval and tempo runs. J Strength Cond Res. 2021;35:2525-2531.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Contemporary nutrition approaches to optimize elite marathon performance</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Stellingwerff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perf</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="573" to="578" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stellingwerff T. Contemporary nutrition approaches to optimize elite marathon performance. Int J Sports Physiol Perf. 2013;8:573-578.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Pacing profiles of Olympic and IAAF World Championship long-distance runners</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Filipas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">La</forename><surname>Torre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hanley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1134" to="1140" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Filipas L, La Torre A, Hanley B. Pacing profiles of Olympic and IAAF World Championship long-distance runners. J Strength Cond Res. 2021;35:1134-1140.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Foot strike patterns and collision forces in habitually barefoot versus shod runners</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Lieberman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Venkadesan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Werbel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Daoud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>'andrea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Mang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">'</forename><surname>Eni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Pitsiladis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">463</biblScope>
+			<biblScope unit="page" from="531" to="535" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lieberman DE, Venkadesan M, Werbel WA, Daoud AI, D&apos;Andrea S, Davis IS, Mang&apos;Eni RO, Pitsiladis Y. Foot strike patterns and collision forces in habitually barefoot versus shod runners. Nature. 2010;463:531-535.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Do you get value for money when you buy an expensive pair of running shoes?</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Clinghan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Drew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Cochrane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Abboud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Brit J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="189" to="193" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Clinghan R, Arnold GP, Drew TS, Cochrane LA, Abboud RJ. Do you get value for money when you buy an expensive pair of running shoes? Brit J Sports Med. 2008;42:189-193.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Effect of advanced shoe technology on the evolution of road race times in male and female elite runners</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bermon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Garrandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Szabo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Berkovics</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Adami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Sports Act Living</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">653173</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bermon S, Garrandes F, Szabo A, Berkovics I, Adami PE. Effect of advanced shoe technology on the evolution of road race times in male and female elite runners. Front Sports Act Living. 2021;3:653173.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<monogr>
+		<title level="m" type="main">World Athletics. C2.1A: Athletics shoe regulations. World Athletics, Monte Carlo</title>
+		<ptr target="https://www.worldathletics.org/about-iaaf/documents/book-of-rules" />
+		<imprint>
+			<date type="published" when="2023-02-27">February 27, 2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">World Athletics. C2.1A: Athletics shoe regulations. World Athletics, Monte Carlo. Available at: https://www.worldathletics.org/about-iaaf/documents/book-of-rules. Accessed on February 27, 2023.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Running economy: The forgotten factor in elite performance</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lucia</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="316" to="319" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Foster C, Lucia A. Running economy: The forgotten factor in elite performance. Sports Med. 2007;37:316-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A comparison of the energetic cost of running in marathon racing shoes</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hoogkamer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kipp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Frank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Farina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1009" to="1019" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoogkamer W, Kipp S, Frank JH, Farina EM, Luo G, Kram R. A comparison of the energetic cost of running in marathon racing shoes. Sports Med. 2018;48:1009-1019.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Advancements in running shoe technology and their effects on running economy and performance -a current concepts overview</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hébert-Losier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pamment</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14763141.2022.2110512</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Biomech</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hébert-Losier K, Pamment M. Advancements in running shoe technology and their effects on running economy and performance -a current concepts overview. Sports Biomech. 2022; doi: 10.1080/14763141.2022.2110512</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A comparison of running economy across seven highly cushioned racing shoes with carbon-fibre plates</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Joubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Footwear Sci</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="71" to="83" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Joubert DP, Jones GP. A comparison of running economy across seven highly cushioned racing shoes with carbon-fibre plates. Footwear Sci. 2022;14:71-83.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Recent improvements in marathon run times are likely technological, not physiological</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Muniz-Pardos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sutehall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Angeloudis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Guppy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bosch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Pitsiladis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="371" to="378" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Muniz-Pardos B, Sutehall S, Angeloudis K, Guppy FM, Bosch A, Pitsiladis Y. Recent improvements in marathon run times are likely technological, not physiological. Sports Med. 2021;51:371-378.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Effects of highly cushioned and resilient racing shoes on running economy at slower running speeds</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Joubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Dominy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Burns</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2022-0227</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perf</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Joubert DP, Dominy TA, Burns GT. Effects of highly cushioned and resilient racing shoes on running economy at slower running speeds. Int J Sports Physiol Perf. 2023; doi: 10.1123/ijspp.2022-0227</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Effect of age and performance on pacing of marathon runners</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Nikolaidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Knechtle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Open Access J Sports Med</title>
+		<imprint>
+			<biblScope unit="page" from="171" to="180" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nikolaidis PT, Knechtle B. Effect of age and performance on pacing of marathon runners. Open Access J Sports Med. 2017;171-180.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Physiological and race pace characteristics of medium and low-level Athens marathon runners</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Myrkos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Smilios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Kokkinou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rousopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Douda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">116</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Myrkos A, Smilios I, Kokkinou EM, Rousopoulos E, Douda H. Physiological and race pace characteristics of medium and low-level Athens marathon runners. Sports. 2020;8:116.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Metabolic and performance responses of male runners wearing 3 types of footwear: Nike Vaporfly 4%, Saucony Endorphin racing flats, and their own shoes</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hébert-Losier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Finlayson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Driller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dubois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Esculier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Beaven</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Health Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="275" to="284" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hébert-Losier K, Finlayson SJ, Driller MW, Dubois B, Esculier JF, Beaven CM. Metabolic and performance responses of male runners wearing 3 types of footwear: Nike Vaporfly 4%, Saucony Endorphin racing flats, and their own shoes. J Sport Health Sci. 2022;11:275-84.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Kinematics of recreational male runners in &quot;super&quot;, minimalist and habitual shoes</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hébert-Losier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Finlayson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Lamb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Driller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hanzlíková</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dubois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Esculier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Beaven</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="1426" to="1435" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hébert-Losier K, Finlayson SJ, Lamb PF, Driller MW, Hanzlíková I, Dubois B, Esculier JF, Beaven CM. Kinematics of recreational male runners in &quot;super&quot;, minimalist and habitual shoes. J Sports Sci. 2022;40:1426-35.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Running technique is an important component of running economy and performance</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Folland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Handsaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Forrester</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page">1412</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Folland JP, Allen SJ, Black MI, Handsaker JC, Forrester SE. Running technique is an important component of running economy and performance. Med Sci Sports Exerc. 2017;49:1412.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<monogr>
+		<ptr target="https://www.worldathletics.org/about-iaaf/documents/technical-information" />
+		<title level="m">World Athletics. World Athletics approved shoe list</title>
+		<imprint>
+			<date type="published" when="2023-02-27">February 27, 2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">World Athletics. World Athletics approved shoe list. Available at: https://www.worldathletics.org/about-iaaf/documents/technical-information. Accessed on February 27, 2023.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Exercise physiology: Nutrition, energy, and human performance</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Mcardle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Katch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Katch</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<publisher>Lippincott Williams &amp; Wilkins</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McArdle WD, Katch F, Katch V. Exercise physiology: Nutrition, energy, and human performance. London: Lippincott Williams &amp; Wilkins; 2010.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Validation of a new method to measure contact and flight times during treadmill running</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ogueta-Alday</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Morante</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Rodríguez-Marroyo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>García-López</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1455" to="1462" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ogueta-Alday A, Morante JC, Rodríguez-Marroyo JA, García-López J. Validation of a new method to measure contact and flight times during treadmill running. J Strength Cond Res. 2013;27:1455-1462.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Circadian rhythms in sports performance: An update</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Drust</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Waterhouse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Atkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Reilly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chronobiol Int</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="21" to="44" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Drust B, Waterhouse J, Atkinson G, Edwards B, Reilly T. Circadian rhythms in sports performance: An update. Chronobiol Int. 2005;22:21-44.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A simple method for measuring stiffness during running</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dalleau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kyröläinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jeannin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Belli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Biomech</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="167" to="180" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morin JB, Dalleau G, Kyröläinen H, Jeannin T, Belli A. A simple method for measuring stiffness during running. J Appl Biomech. 2005;21:167-180.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+		<title level="m">Statistical Power Analysis for the Behavioural Sciences</title>
+		<meeting><address><addrLine>Hillsdale, NJ</addrLine></address></meeting>
+		<imprint>
+			<publisher>Lawrence Erlbaum</publisher>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cohen J. Statistical Power Analysis for the Behavioural Sciences. 2nd ed. Hillsdale, NJ: Lawrence Erlbaum; 1988.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Lower-body determinants of running economy in male and female distance runners</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Barnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Mcguigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Kilding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1289" to="1297" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Barnes KR, Mcguigan MR, Kilding AE. Lower-body determinants of running economy in male and female distance runners. J Strength Cond Res. 2014;28:1289- 1297.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Changes in running biomechanics during the 2017 IAAF World Championships men&apos;s 1500 m final</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hanley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bissas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Merlino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Burns</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sms.14331</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hanley B, Bissas A, Merlino S, Burns GT. Changes in running biomechanics during the 2017 IAAF World Championships men&apos;s 1500 m final. Scand J Med Sci Sports. 2023; doi: 10.1111/sms.14331</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Factors related to top running speed and economy</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nummela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Keränen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">O</forename><surname>Mikkelsson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="655" to="661" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nummela A, Keränen T, Mikkelsson LO. Factors related to top running speed and economy. Int J Sports Med. 2007;28:655-661.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Fatigue effects of marathon running on neuromuscular performance: I. Changes in muscle force and stiffness characteristics</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nicol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Komi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Marconnet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="10" to="17" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nicol C, Komi PV, Marconnet P. Fatigue effects of marathon running on neuromuscular performance: I. Changes in muscle force and stiffness characteristics. Scand J Med Sci Sports. 1991;1:10-17.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Changes in spring-mass characteristics during treadmill running to exhaustion</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Dutto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1324" to="1331" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dutto DJ, Smith GA. Changes in spring-mass characteristics during treadmill running to exhaustion. Med Sci Sports Exerc. 2002;34:1324-1331.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Bone stress injuries in runners using carbon fiber plate footwear</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tenforde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hoenig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saxena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hollander</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40279-023-01818-z41.239.4-4.4%</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tenforde A, Hoenig T, Saxena A, Hollander K. Bone stress injuries in runners using carbon fiber plate footwear. Sports Med. 2023; doi: 10.1007/s40279-023-01818-z 41.2 39.4 -4.4%</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

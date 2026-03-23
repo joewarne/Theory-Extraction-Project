@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Relationship Between Isometric Midthigh Pull Force-Time Characteristics and 2-km Load-Carrying Performance in Trained British Army Soldiers</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Jonpaul</forename><surname>Nevin</surname></persName>
+							<email>jonpaul.nevin@bucks.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Buckinghamshire New University</orgName>
+								<address>
+									<settlement>High Wycombe</settlement>
+									<country>United Kingdom;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kim</forename><surname>Bowling</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Royal Army Physical Training Corps</orgName>
+								<address>
+									<country>United Kingdom;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Charles</forename><surname>Cousens</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Royal Army Physical Training Corps</orgName>
+								<address>
+									<country>United Kingdom;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Robert</forename><surname>Bambrough</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Royal Marines</orgName>
+								<address>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Ramsdale</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Royal Army Physical Training Corps</orgName>
+								<address>
+									<country>United Kingdom;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Relationship Between Isometric Midthigh Pull Force-Time Characteristics and 2-km Load-Carrying Performance in Trained British Army Soldiers</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7D92CE05301ED16A4765EC8C72E4B950</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:14+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>isometric midthigh pull</term>
+					<term>load carriage</term>
+					<term>explosive strength</term>
+					<term>standing long jump</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Nevin, JP, Bowling, K, Cousens, C, Bambrough, R, and Ramsdale, M. The relationship between isometric midthigh pull force-time characteristics and 2-km load-carrying performance in trained British army soldiers. J Strength Cond Res 38(2): 360-366, 2024-Load carriage is a fundamental military occupational task. As such, the aim of this study was to assess the relationship between isometric force-time characteristics and loaded march performance. Furthermore, this study aimed to investigate the relationship between isometric force-time characteristics and standing long jump (SLJ) performance. Thirty-nine, full-trained, male British Army infantry soldiers (age 31 6 6.1 years; height 176 6 7.3 cm; body mass 85.8 6 11.5 kg) performed three isometric midthigh pull trials, three SLJ trials, and a 2-km loaded march carrying an external load of 25 kg. Both the isometric midthigh pull test (intraclass correlation coefficient [ICC] 0.965) and SLJ (ICC 0.916) demonstrated excellent reliability. Relationships between all variables were assessed using Pearson's correlation coefficient. Isometric peak force (r 5 20.059), relative peak force (r 5 20.135), and rate of force development (r 5 20.162) displayed a small correlation with loaded march time to completion. However, isometric relative peak force displayed a large relationship with SLJ performance (r 5 0.545; p 5 ,0.01). Our data demonstrate that isometric lower-limb strength measures account for ,2% of the total variance observed in 2-km loaded march performance. As such, the use of isometric lower-limb force-time characteristics as a proxy measure of load-carrying ability should be questioned. However, relative isometric strength seems to demonstrate a significant relationship with SLJ performance. As such, isometric testing may have utility in regard to assessing explosive strength, monitoring neuromuscular fatigue, and assessing training readiness in military populations.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Defined as the task of moving from one location to another, by way of walking or running, at varying speeds, and over varied terrain while carrying mission-specific equipment (i.e., weapon systems, ammunition, communication systems, helmet, body armor, water, and food), load carriage has and will continue to be viewed as a fundamental requirement of the modern soldier <ref type="bibr" target="#b0">(1)</ref>. Research has demonstrated that because of technological advancements, the modern soldier now carries, on average, loads ranging from 25 to 60 kg <ref type="bibr" target="#b4">(5,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b20">21)</ref>. Indeed, there are examples in the literature where the loads carried by the soldier have reportedly approached their own body mass <ref type="bibr" target="#b7">(8)</ref>. A large body of evidence demonstrates a negative correlation between heavy load carriage, speed of movement, agility, endurance capacity, cognitive performance, and situational awareness <ref type="bibr" target="#b0">(1)</ref><ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b27">28)</ref>. Furthermore, prolonged and excessive load carriage has been suggested to increase the likelihood of musculoskeletal injury <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b22">23)</ref>. The load carried by the soldier is unlikely to reduce, and load carriage will probably always be a compromise between what is physiologically sound and what is operationally essential <ref type="bibr" target="#b24">(25)</ref>. Given this dichotomy, it is vital that individual load-carrying ability is optimized to limit the potential negative impacts of load carriage on combat performance.</p><p>Load-carrying ability is influenced by a multitude of factors including (a) personnel characteristics (i.e., physical fitness, body mass, sex, age, injury profile, and load-carrying experience), (b) task characteristics (i.e., total load, load distribution, rigidity and bulk, load carriage equipment design, movement speed, and march duration), and finally (c) the environment (i.e., terrain, heat, humidity, and altitude) <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b6">7)</ref>. To assess load-carrying performance, military personnel are typically required to perform field-based loaded march tests that involve completing a set distance (e.g., 2 km or 12.8 km), as quickly as possible, while carrying a given external load (e.g., 25 kg) <ref type="bibr" target="#b16">(17)</ref>. Such tests can be time-consuming, as such various other fitness tests are often used to serve as a proxy to assess physiological characteristics identified as having a strong relationship with load-carrying ability. These characteristics include body mass, body composition, aerobic capacity, lower-limb strength, and upper-limb strength <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b28">29)</ref>. Use of such proxy assessments enables the strength and conditioning practitioner to track physical fitness levels, develop appropriate training interventions to improve load-carrying performance, and determine the effectiveness of training regimens.</p><p>Although the testing of body composition and aerobic capacity can be achieved relatively easily, the assessment of either lower-body or upper-body strength typically requires 1 repetition maximum (1RM) testing. Although reliable, 1RM testing requires time, skill, and familiarization. Furthermore, 1RM testing is neuromuscularly fatiguing, has a higher injury risk, and is unable to determine key strength-related force-time characteristics such as rate of force development (RFD), impulse, and various force-time epochs (4). To address the aforementioned issues, the use of various isometric testing methods including the isometric midthigh pull (IMTP), isometric back squat, and isometric bench press has been proposed as a potential alternative to 1RM testing <ref type="bibr" target="#b26">(27)</ref>. These methods require appropriate instrumentation including force plates and a isometric testing rack. However, they are easier to administer, more time efficient, less fatiguing, and potentially safer than 1RM testing. Furthermore, isometric strength testing allows the quantification of various force-time characteristics including absolute peak force (PF), relative PF, impulse, force at various time epochs, and RFD <ref type="bibr" target="#b3">(4,</ref><ref type="bibr" target="#b26">27)</ref>.</p><p>The IMTP is one of the most commonly used methods of assessing isometric lower-limb strength. Indeed, strong correlations have been demonstrated between IMTP force measures and the performance of various athletic tasks that require explosive strength including weight lifting, jumping, sprinting, change of direction, throwing, and sprint cycling <ref type="bibr" target="#b3">(4,</ref><ref type="bibr" target="#b12">13)</ref>. However, to the best of the authors' knowledge, no research has yet been conducted examining the relationship between isometric force-time characteristics and load carriage performance. Therefore, the purpose of this study was first to assess the relationship between isometric force-time characteristics and 2-km loaded march performance while carrying an external load of 25 kg. Second, load carriage and other military occupational tasks are rarely performed in isolation. For example, after a loaded march, soldiers may be required to react to an enemy contact, undertake fire and maneuver drills, and jump or climb over various obstacles. As such, the ability to jump horizontally (i.e., over a ditch) can also be viewed as a fundamental military occupational task <ref type="bibr" target="#b17">(18)</ref>. Therefore, this study also aimed to examine the relationship between isometric force-time characteristics and standing long jump (SLJ) performance. It was hypothesized that isometric absolute PF and relative PF would demonstrate a moderate relationship with load-carrying performance. Furthermore, it was postulated that a strong relationship between isometric force-time characteristics and SLJ performance would be observed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Approach to the Problem</head><p>This was a single-cohort, cross-sectional design where subjects performed an IMTP, SLJ, and 2-km loaded march in a single testing session to examine the relationship between isometric force-time characteristics (i.e., absolute PF, relative PF, and RFD), SLJ distance, and 2-km loaded march time to completion while carrying an external load of 25 kg.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Subjects</head><p>Thirty-nine, full-trained, male British Army infantry soldiers took part in this study. Mean (6SD) subject characteristics were age 31 6 6.1 years, height 176 6 7.3 cm, and body mass 85.8 6 11.5 kg. All subjects were classed as medically fully fit, and no medical conditions were reported before the study. All subjects gave their written informed consent after an explanation of the testing protocol and associated risks. This study was conducted in accordance with the Declaration of Helsinki with ethical approval granted by the Ministry of Defence Research Ethics Committee (MODREC) application No: 2137/MODREC/22.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedures</head><p>All subjects were familiar with the SLJ and 2-km loaded march as these are part of the British Army annual fitness tests <ref type="bibr" target="#b16">(17)</ref>. However, subjects attended a prior orientation session to familiarize themselves with the IMTP. All testing was completed over a single day with a 1hour recovery period allotted between testing sessions. Body mass data were collected in addition to isometric absolute PF, relative PF, 0-250 ms RFD, SLJ distance, and 2-km loaded march time. Relative PF data were derived by dividing PF by each individuals' body mass. Before testing, all subjects were asked to abstain from strenuous exercise and refrain from consuming caffeine and alcohol for at least 48 hours. All IMTP and SLJ testing were performed indoors in a gymnasium facility while the 2-km loaded march was conducted outdoors on a tarmacked road in dry and stable meteorological conditions (15 6 2°C, ,10 km•h 21 wind speed).</p><p>Body Mass. Wearing British Army standard issue combat trousers, t-shirt, underpants, and socks subjects' body mass was measured to the nearest 0.1 kg using a calibrated scale (Seca 714, Hamburg, Germany).</p><p>Isometric Midthigh Pull. Isometric force-time data were collected and analyzed by use of a instrumented force platform (Hawkin Dynamics, G3 Force Plates, Boston, MA, sampling frequency 1,000 Hz), IMTP testing rack (Absolute Performance, Cardiff, United Kingdom), and a proprietary Hawkin Dynamics data collection software package. All equipment was calibrated in accordance with the manufacturer's instructions before use. After a standardized, 10-minute Raise, Activate, Mobilize, and Potentiate (RAMP) warm-up, subjects were instructed to stand on the force platform placed within the IMTP testing rack. A steel bar was then positioned into the IMTP testing rack at a height corresponding to the subjects' second-pull position in the clean (i.e., just below the crease of the hip). Using a handheld goniometer, subjects were then set into an appropriate body position (feet shoulder-width apart, knee angle 125-145°; hip angle 140-150°, with an upright torso) (4). Subjects were then instructed to take hold of the bar using a pronated grip before being strapped securely with lifting straps.</p><p>A test-specific warm-up of 2 IMTP repetitions was then performed at 50, 70, and 90% of maximal perceived effort with 60second rest between repetitions. Each isometric effort was held for 2 seconds at the targeted percentage of perceived effort of maximal force. After a 2-minute rest, a series of 3 maximal test efforts were performed. Before each repetition, subjects were required to adopt a quiet standing period for 3 seconds during which only minimal tension was allowed to be applied to the bar (,50 N). After a countdown of "3, 2, 1, …PUSH!!!," subjects were then instructed to "push their feet into the ground as fast and as hard as possible." Each test effort was performed for approximately 5 seconds during which strong verbal encouragement was given. The highest absolute PF and RFD over a time epoch of 0-250 milliseconds from the 3 trials were used for statistical analysis. If visual inspection of the data detected either a countermovement at the start of the IMTP or a change in force of .50 N during the quiet standing period, then data from that trial were rejected and another trial was subsequently performed. Subjects completed a minimum of 3 IMTP trials with a 2-minute rest period between each.</p><p>Standing Long Jump. After a standardized 10-minute RAMP warm-up, subjects were instructed to adopt a "start position" on a set take-off line, placing their feet shoulder-width apart, their arms out in front, with their head up and back straight. On the word of command "prepare to jump-jump," subjects were instructed to squat down and swing their arms to the rear, before driving their arms forward and jumping horizontally as far as possible with a 2-footed take-off and 2-footed landing <ref type="bibr" target="#b16">(17)</ref>. On landing, subjects were instructed to remain in position until the jump distance was determined. Jump distance was measured as the distance to the nearest millimeter from the starting line to the subjects' heel using a measuring tape from the Harpenden range of anthropometric instruments (Holtain Ltd, Crymych, United Kingdom). A total of 3 SLJ trials were performed with the furthest distance jumped recorded for statistical analysis. A 2-minute rest period was provided between each trial.</p><p>2-km Loaded March. The 2-km loaded march was completed on a tarmacked road surface. Subjects were required to wear issued combat clothing, boots, and carry an external load of 25 kg in British Army issued Virtus webbing and daysack. This, in part, represents the ensemble and load, typically carried by infantry soldiers while patrolling <ref type="bibr" target="#b16">(17)</ref>. On average, this load represented 34.3 6 4.6% of the subject's body mass. Webbing and daysack were weighed before the commencement of the test using a suspended weighing scale (Salter, 235-6M, Manchester, United Kingdom). After a standardized 10-minute RAMP warm-up, subjects were instructed to complete the 2-km route as fast as possible. On the word of command "stand by-go!," subjects began the 2-km loaded march with time to completion measured to the nearest second using a handheld digital stopwatch (Seiko, S149, Tokyo, Japan).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical Analyses</head><p>All data are reported as mean (6SD) with an a priori level of significance for all statistical analyses set at p # 0.05. Statistical analyses were performed using SPSS version 25.00 (SPSS Inc, Chicago, IL). Based on an assumed moderate correlation of r 5 0.5, a minimum sample size of 34 was calculated a priori using G*Power (version 3.1.9.7) to achieve a statistical power of 90% at a significance level of p 5 ,0.05. All data were checked for normal distribution using the Shapiro-Wilk test with the Spearman's coefficient used in cases of violation. Within-session reliability between repeated trials (i.e., IMTP and SLJ) was assessed through the use of intraclass correlation coefficient (ICC). Pearson's productmoment correlation coefficients (r) were calculated to establish the relationships between absolute and relative isometric PF, 0-250 ms RFD (dependent variables), SLJ distance, and 2-km loaded march time (independent variables). All correlation coefficients were expressed as the mean estimate (95% confidence interval), an the magnitude of correlation was evaluated as: 0-0.30 small; 0.31-0.49 moderate; 0.50-0.69 large; 0.70-0.89 very large; and 0.90-1.00 near perfect <ref type="bibr" target="#b9">(10)</ref>. Finally, a linear regression model was used to analyze the variance between isometric force-time characteristics, SLJ distance, and 2-km loaded march performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Mean (6SD) data for all strength and performance measures are summarized in Table <ref type="table" target="#tab_0">1</ref>. Excellent ICC was observed for all IMTP force (0.96, 95% CI [0.94-0.98]) and SLJ (0.91, 95% CI [0.84-0.95]) data. Relationships between absolute and relative isometric PF, 0-250 m•s 21 RFD, SLJ distance, and 2-km loaded march performance are given in Table <ref type="table" target="#tab_1">2</ref>. Scatterplots for absolute and relative isometric PF and 2-km loaded march relationships are presented in Figure <ref type="figure" target="#fig_1">1</ref>, while the relationship between absolute and relative isometric PF and SLJ distance are presented in Figure <ref type="figure" target="#fig_2">2</ref>. Isometric peak force (r 5 20.059, 95% CI [20.37 to 0.26], p 5 0.72), relative peak force (r 5 20.135, 95% CI [20.43 to 0.19], p 5 0.41), and RFD (r 5 20.162, 95% CI [20.45 to 0.16], p 5 0.32) all displayed a small correlation with loaded march time to completion. Indeed, data revealed that absolute isometric PF explained only 0.03% and relative isometric PF 1.8% of the total variance observed in 2-km load carriage performance. However, isometric relative peak force displayed a large relationship with SLJ performance (r 5 0.545, 95% CI [0.28-0.73], p 5 , 0.01) with data indicating that relative isometric PF accounted for 29.7% of the observed variance in SLJ performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The aim of this study was to assess the relationship between isometric force-time characteristics, SLJ, and 2-km loaded march performance. Our findings, based on the data collected, were that IMTP and SLJ demonstrated an excellent level of reproducibility, which is consistent with previously published reliability results <ref type="bibr" target="#b5">(6,</ref><ref type="bibr" target="#b8">9)</ref>. However, although reliable, isometric force-time characteristics including absolute PF, relative PF, and 0-250 m•s 21 RFD displayed a small correlation with 2-km loaded march performance. Conversely, relative isometric PF demonstrated a large correlation with SLJ distance. To the best of our knowledge, this is the first study to explore the relationship between isometric force-time characteristics, SLJ, and loaded march performance in trained military personnel. Collectively, these findings suggest that although the IMTP may be a reliable and valid measure of explosive strength, the relationship between isometric force-time characteristics and load carriage performance seems to be limited.</p><p>A number of reviews have highlighted that a mixture of strength and endurance training combined with load carriagespecific conditioning is required to optimize loaded march performance <ref type="bibr" target="#b10">(11,</ref><ref type="bibr" target="#b21">22)</ref>. These findings suggest that both strength and aerobic fitness are important components of load-carrying ability. Indeed, several studies have demonstrated dynamic measures of lower-limb (i.e., 1RM back squat) and upper-limb (i.e., 1RM pull-up) strength to be strongly correlated with load-carrying performance. Using a cohort of 42 male specialist tactical police officers (STPO), <ref type="bibr">Robinson et al. (26)</ref> observed moderate to strong correlations between absolute (r 5 20.401, p , 0.05) and relative (r 5 20.500, p , 0.05) back squat 1RM, absolute (r 5 20.288, p , 0.05) and relative (r 5 20.403, p , 0.05) deadlift 1RM, and absolute (r 5 20.452, p , 0.05) and relative (r 5 20.607, p , 0.05) pull-up 1RM and 5-km loaded march performance while   Isometric force-time characteristics measured through the use of the IMTP such as absolute and relative isometric PF, force at various time epochs, and RFD have been shown to display a strong correlation with performance in various activities that require explosive strength including weight lifting, jumping, sprinting, throwing, and sprint cycling (4,13). Furthermore, several studies have demonstrated a strong relationship between IMTP absolute PF, back squat 1RM <ref type="bibr" target="#b29">(30)</ref>, and deadlift 1RM <ref type="bibr" target="#b5">(6)</ref>. These data indicate that the IMTP can be useful to assess maximal lower-limb strength. However, despite the observed correlation with maximal dynamic strength measures, our data suggest that absolute and relative isometric PF explain ,2% of the total variance observed in 2-km loaded march performance.</p><p>Several factors may help explain the lack of observed relationship. First, isometric and maximal strength are seen as independent but closely related qualities <ref type="bibr" target="#b14">(15)</ref>. Therefore, although explosive strength may display a strong association with maximal strength, this relationship may not be as pronounced with low-force, cyclic, muscular contractions such as those observed during walking or running. Second, walking and running involve multijoint movements with specific intermuscular and intramuscular coordination patterns. Isometric muscular contractions display different motor unit recruitment patterns to dynamic muscular activities <ref type="bibr" target="#b12">(13)</ref>. Therefore, a lack of kinematic and kinetic similarity may, in part, explain the lack of relationship between isometric force-time characteristics and 2km load carriage performance. Finally, although lower-limb strength is undoubtedly an important component of loadcarrying ability, a considerable body of evidence suggests aerobic capacity (i.e., V Ȯ2max ) to be a stronger indicator of loaded march performance <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b28">29)</ref>.</p><p>Despite displaying a small correlation with 2-km loaded march performance, relative isometric PF displayed a large relationship with SLJ distance, explaining 29% of the observed variance. The SLJ represents a fundamental military occupational task (i.e., jumping over a ditch) and is a simple and inexpensive test incorporated into contemporary military physical employment standard testing batteries, such as the British Army soldier conditioning review <ref type="bibr" target="#b16">(17)</ref>. In agreement with existing literature, the findings of this study showed a large correlation between relative isometric PF and jumping ability <ref type="bibr" target="#b12">(13,</ref><ref type="bibr" target="#b18">19)</ref>. However, absolute isometric PF and 0-250 ms RFD displayed only a small correlation with SLJ distance. Relative strength is the product of one's ability to generate maximal forces relative to body mass. Therefore, one's ability to generate force, relative to body mass, is arguably more important in the context of dynamic performance (i.e., jumping) than maximal strength, per se. However, it must be borne in mind that relative strength is highly dependent on an individual's maximum force-generating capabilities. Therefore, it can be inferred that, for a given body mass, greater maximal strength would theoretically improve an individual's jumping abilities.</p><p>The use of the IMTP and force plate technologies in military populations has been proposed for testing physical capabilities, monitoring neuromuscular fatigue and readiness to train, and identifying force asymmetries <ref type="bibr" target="#b15">(16)</ref>. Undoubtedly, IMTP testing can provide a safe, effective, and reliable assessment method to monitor neuromuscular performance and fatigue. Furthermore, IMTP testing can provide a comprehensive insight into an individual's force-generation capabilities. Explosive strength is an important component of many military occupational tasks such as sprinting for cover, jumping over ditches, or lifting heavy objects <ref type="bibr" target="#b17">(18)</ref>. As such, the ability to quantify and monitor key forcetime characteristics such as absolute and relative isometric PF and RFD is an important consideration in military populations. However, based on the findings of this study, the relationship between isometric force-time characteristics and load carriage performance seems to be somewhat limited. As such the use of isometric force-time characteristics as a proxy measure of load carriage performance should be questioned.</p><p>The findings of this study provide a novel insight into the relationship between certain isometric force-time characteristics, load-carrying ability, and SLJ performance. However, it must be noted that there are several limitations associated with the design of this study. First, the subject group consisted of men only and thus our findings provide little insight into the relationship between isometric force-time characteristics and load carriage performance in women. Furthermore, owing to logistical constraints, only a 1-hour recovery period was possible between each testing protocol. As such, acute fatigue may have potentially affected load carriage performance. Another point to consider is that given the broad spectrum of military occupational task requirements, it is possible that isometric force-time characteristics may display a stronger relationship with tasks such as material manual handling, climbing or scaling obstacles, casualty extractions, or even load carriage with heavier loads .25 kg. As such, it is recommended that further research be conducted to investigate the relationship between isometric force-time characteristics and other military occupational tasks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Practical Applications</head><p>Body mass, body composition, aerobic capacity, and lowerlimb and upper-limb strength have all been previously identified as key determinants of load carriage performance. However, although dynamic measures of lower-limb and upper-limb strength (i.e., 1RM back squat and 1RM pull-up) have been shown to display a moderate relationship with load-carrying ability, isometric force-time characteristics demonstrate only a small correlation. Indeed, data from this study demonstrated that absolute and relative isometric PF accounted for ,2% of the total variance observed in 2-km loaded march performance. Given these findings, practitioners should be aware that improvements in isometric lower-limb force-time characteristics may not necessarily transfer to improvements in load-carrying performance. However, relative isometric strength measures seem to demonstrate a large relationship with SLJ performance. As such, the use of the IMTP and force plate technologies in military populations may have utility in regard to assessing explosive strength, monitoring neuromuscular fatigue, and assessing readiness to training. However, further scientific research is warranted to investigate the potential use of isometric testing in military populations.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>5</head><label>5</label><figDesc>isometric midthigh pull; PF 5 peak force; RFD 5 rate of force development. †Correlation significant at the ,0.01 level (2-tailed).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Correlation plots between absolute isometric PF, relative isometric PF, and 2-km loaded march time. PF 5 peak force.</figDesc><graphic coords="4,101.76,236.41,394.25,482.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Correlation plots between absolute isometric PF, relative isometric PF, and standing long jump distance. PF 5 peak force.</figDesc><graphic coords="5,107.04,60.83,394.25,474.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Mean (6SD) values of subjects' testing data.*</figDesc><table><row><cell>Absolute isometric PF (N)</cell><cell>2,417.36 6 283.67</cell></row><row><cell>Relative isometric PF (N•kg 21 )</cell><cell>28.14 6 1.99</cell></row><row><cell>0-250 m•s 21 RFD (N•s 21 )</cell><cell>3,346.46 6 868.39</cell></row><row><cell>Standing long jump (cm)</cell><cell>196.67 6 25.97</cell></row><row><cell>2-km loaded march time (s)</cell><cell>739.12 6 81.72</cell></row></table><note><p>*PF 5 peak force; RFD 5 rate of force development.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Correlation matrix between IMTP force-time characteristics, standing long jump distance, and 2-km loaded march performance.*</figDesc><table><row><cell></cell><cell></cell><cell>Relative isometric PF</cell><cell>0-250 m•s 21 RFD</cell><cell>Standing long</cell><cell>2-km loaded</cell></row><row><cell></cell><cell>Absolute isometric PF (N)</cell><cell>(N•kg 21 )</cell><cell>(N•s 21 )</cell><cell>jump (cm)</cell><cell>march time (s)</cell></row><row><cell>Absolute isometric PF (N)</cell><cell>-</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Relative isometric PF (N•kg 21</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Reducing the Burden on the Dismounted Soldier NATO RTO Technical</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Izard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Billing</surname></persName>
+		</author>
+		<idno>Report: AC/323(HFM-238) TP/ 950</idno>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Armstrong N, Izard R, Billing D, et al. Reducing the Burden on the Dis- mounted Soldier NATO RTO Technical Report: AC/323(HFM-238) TP/ 950, 2021.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Effects of military load carriage on susceptibility to enemy fire during tactical combat movements</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Billing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Silk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Tofari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Hunt</surname></persName>
+		</author>
+		<idno>11): S134-S138</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+	<note type="raw_reference">Billing DC, Silk AJ, Tofari PJ, Hunt AP. Effects of military load carriage on susceptibility to enemy fire during tactical combat movements. J Strength Cond Res 29(Suppl 11): S134-S138, 2015.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Performance Limitations of Load Carriage for the Infantry Soldier</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bunting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bentley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Myers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">QinetiQ Report: QINETIQ/CHS/ CR010420</title>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bunting A, Bentley M, Myers S. Performance Limitations of Load Car- riage for the Infantry Soldier. QinetiQ Report: QINETIQ/CHS/ CR010420, 2001.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Standardization and methodological considerations for the isometric midthigh pull</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Comfort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dos'santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Beckham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Guppy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Haff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strength Cond J</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="57" to="79" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Comfort PD, Dos&apos;Santos T, Beckham GK, Stone MH, Guppy SN, Haff GG. Standardization and methodological considerations for the isometric midthigh pull. Strength Cond J 41: 57-79, 2019.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Dismounted Operations in Afghanistan</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dean</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003-05">April-May 2003. 2004</date>
+			<publisher>US Army Centre for Army Lessons Learned</publisher>
+			<pubPlace>Fort Leavenworth, KS</pubPlace>
+		</imprint>
+	</monogr>
+	<note>The Modern Warriors Combat Load</note>
+	<note type="raw_reference">Dean C. The Modern Warriors Combat Load. Dismounted Operations in Afghanistan, April-May 2003. Fort Leavenworth, KS: US Army Centre for Army Lessons Learned, 2004.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Isometric midthigh pull reliability and relationship to deadlift one repetition maximum</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Witt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>English</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Crowell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="528" to="533" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">De Witt JK, English KL, Crowell JB, et al. Isometric midthigh pull re- liability and relationship to deadlift one repetition maximum. J Strength Cond Res 32: 528-533, 2018.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Chapter 3 -Common military task: Marching</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">J</forename><surname>Dijk</surname></persName>
+		</author>
+		<idno>: AC/ 323(HFM-080) TP/200</idno>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">NATO RTO Technical Report</note>
+	<note>Optimizing Operational Physical Fitness</note>
+	<note type="raw_reference">Dijk VJ. Chapter 3 -Common military task: Marching. In: Optimizing Operational Physical Fitness. NATO RTO Technical Report: AC/ 323(HFM-080) TP/200, 2009.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Operation Herrick Campaign Study</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<publisher>Land Warfare Development Centre</publisher>
+			<pubPlace>Warminster, UK</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Directorate Land Warfare (DLW)</note>
+	<note type="raw_reference">Directorate Land Warfare (DLW). Operation Herrick Campaign Study. Warminster, UK: Land Warfare Development Centre, 2015.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A comparison of methods for determining the rate of force development during isometric midthigh clean pulls</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Haff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Ruben</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Twine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cormie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="386" to="395" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Haff GG, Ruben RP, Lider J, Twine C, Cormie P. A comparison of methods for determining the rate of force development during isometric midthigh clean pulls. J Strength Cond Res 29: 386-395, 2015.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Progressive statistics for studies in sports medicine and exercise science</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Hopkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Batterham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hanin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="3" to="12" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hopkins WG, Marshall SW, Batterham AM, Hanin J. Progressive sta- tistics for studies in sports medicine and exercise science. Med Sci Sports Exerc 41: 3-12, 2009.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A systematic review of the effects of physical training on load carriage performance</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Knapik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Harman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Steelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Graham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="585" to="597" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Knapik JJ, Harman EA, Steelman RA, Graham BS. A systematic review of the effects of physical training on load carriage performance. J Strength Cond Res 26: 585-597, 2012.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Soldier load carriage: Historical, physiological, biomechanical, and medical aspects</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Knapik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Harman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mil Med</title>
+		<imprint>
+			<biblScope unit="volume">169</biblScope>
+			<biblScope unit="page" from="45" to="56" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Knapik JJ, Reynolds KL, Harman E. Soldier load carriage: Historical, physiological, biomechanical, and medical aspects. Mil Med 169: 45-56, 2004.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The relationship between isometric forcetime characteristics and dynamic performance: A systematic review</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Haff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Barbosa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">63</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lum D, Haff GG, Barbosa TM. The relationship between isometric force- time characteristics and dynamic performance: A systematic review. Sports 8: 63, 2020.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The role of strength and power during performance of high intensity military tasks under heavy load carriage</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Szivak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Flanagan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">US Army Med Dep J</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mala J, Szivak TK, Flanagan SD, et al. The role of strength and power during performance of high intensity military tasks under heavy load carriage. US Army Med Dep J 3-11, 2015.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Relationship between isometric and dynamic strength in recreationally trained men</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Mcguigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Newton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Winchester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Nelson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="2570" to="2573" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McGuigan MR, Newton MJ, Winchester JB, Nelson AG. Relationship between isometric and dynamic strength in recreationally trained men. J Strength Cond Res 24: 2570-2573, 2010.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Monitoring neuromuscular performance in military personnel</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Merrigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Hornsby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hagen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Environ Res Public Health</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">9147</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Merrigan JJ, Stone JD, Thompson AG, Hornsby WG, Hagen JA. Moni- toring neuromuscular performance in military personnel. Int J Environ Res Public Health 17: 9147, 2020.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Military Annual Training Test</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">MATT) 2 -13.2. British Army HQ</note>
+	<note type="raw_reference">Military Annual Training Test (MATT) 2 -13.2. British Army HQ, 2021.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Executive summary from the National Strength and Conditioning Associations blue ribbon panel on military physical readiness: Military performance testing</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Nindl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Alvar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dudley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>Suppl 11): S216-S220</note>
+	<note type="raw_reference">Nindl BC, Alvar BA, R. Dudley J, et al. Executive summary from the National Strength and Conditioning Associations blue ribbon panel on military physical readiness: Military performance testing. J Strength Cond Res 29(Suppl 11): S216-S220, 2015.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Relationship between countermovement jump performance and multijoint isometric and dynamic tests of strength</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Nuzzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Mcbride</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cormie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">O</forename><surname>Mccaulley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="699" to="707" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nuzzo JL, McBride JM, Cormie P, McCaulley GO. Relationship between countermovement jump performance and multijoint isometric and dy- namic tests of strength. J Strength Cond Res 22: 699-707, 2008.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The relationship between lower-body strength and power, and load carriage tasks: A critical review</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Orr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Dawes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Lockie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Godeassi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Exerc Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1001" to="1022" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Orr RM, Dawes JJ, Lockie RG, Godeassi DP. The relationship between lower-body strength and power, and load carriage tasks: A critical review. Int J Exerc Sci 12: 1001-1022, 2019.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Operational loads carried by Australian soldiers on military operations</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Orr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Coyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Johnston</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Health Safety Environ</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="451" to="467" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Orr RM, Pope R, Coyle J, Johnston V. Operational loads carried by Australian soldiers on military operations. J Health Safety Environ 31: 451-467, 2015.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Load carriage: Minimising solider injuries through physical conditioning-A narrative review</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Orr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Coyle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mil Veterans Health</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="31" to="38" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Orr RN, Pope R, Johnston V, Coyle J. Load carriage: Minimising solider injuries through physical conditioning-A narrative review. J Mil Vet- erans Health 18: 31-38, 2010.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Soldier occupational load carriage: A narrative review of associated injuries</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Orr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Coyle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Inj Control Saf Promot</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="388" to="396" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Orr RM, Pope R, Johnston V, Coyle J. Soldier occupational load carriage: A narrative review of associated injuries. Int J Inj Control Saf Promot 21: 388-396, 2014.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The relationship between strength measures and task performance in specialist tactical police</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Orr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hasanki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Talaber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roberts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="757" to="762" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Orr RM, Robinson J, Hasanki K, Talaber KA, Schram B, Roberts A. The relationship between strength measures and task performance in specialist tactical police. J Strength Cond Res 36: 757-762, 2022.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The knapsack and pack; an historical and physiological survey with particular reference to the British soldier</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Renbourn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Roy Army Med Corps</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="1954">1954</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Renbourn ET. The knapsack and pack; an historical and physiological survey with particular reference to the British soldier. J Roy Army Med Corps 100: 1-15, 1954.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Aerobic fitness is of greater importance than strength and power in the load carriage performance of specialist police</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Irving</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Orr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Exerc Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="987" to="998" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Robinson J, Roberts A, Irving S, Orr R. Aerobic fitness is of greater im- portance than strength and power in the load carriage performance of specialist police. Int J Exerc Sci 11: 987-998, 2018.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Physiological variables and performance markers of serving soldiers from two &quot;elite&quot; units of the British Army</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Florida-James</forename><surname>Gd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="597" to="604" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Simpson RJ, Gray SC, Florida-James GD. Physiological variables and performance markers of serving soldiers from two &quot;elite&quot; units of the British Army. J Sports Sci 24: 597-604, 2006.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The use of the isometric midthigh pull in the monitoring of weightlifters: 251 years of experience</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Bryant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hornsby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prof Strength Cond</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="19" to="26" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stone MH, O&apos;Bryant H, Hornsby G, et al. The use of the isometric mid- thigh pull in the monitoring of weightlifters: 251 years of experience. Prof Strength Cond 54: 19-26, 2019.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Effect of load carriage on performance of an explosive, anaerobic military task</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Treloar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Billing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mil Med</title>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="page" from="1027" to="1031" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Treloar AK, Billing DC. Effect of load carriage on performance of an explosive, anaerobic military task. Mil Med 176: 1027-1031, 2011.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Isometric mid-thigh pull correlates with strength, sprint, and agility performance in collegiate rugby union players</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Hoffman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tanigawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="3051" to="3056" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang R, Hoffman JR, Tanigawa S, et al. Isometric mid-thigh pull corre- lates with strength, sprint, and agility performance in collegiate rugby union players. J Strength Cond Res 30: 3051-3056, 2016.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Tibial acceleration and shock attenuation while running over different surfaces in a trail environment</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-03-16">16 March 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Micah</forename><forename type="middle">C</forename><surname>Garcia</surname></persName>
+							<email>micah.garcia@rockets.utoledo.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">College of Health and Human Services</orgName>
+								<orgName type="institution">University of Toledo</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gianna</forename><surname>Gust</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Movement Sciences Laboratory</orgName>
+								<orgName type="institution">Carroll University</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><forename type="middle">M</forename><surname>Bazett-Jones</surname></persName>
+							<email>david.bazettjones@utoledo.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">College of Health and Human Services</orgName>
+								<orgName type="institution">University of Toledo</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Movement Sciences Laboratory</orgName>
+								<orgName type="institution">Carroll University</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Tibial acceleration and shock attenuation while running over different surfaces in a trail environment</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-03-16">16 March 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E7AF822BEA68FEE951827B23317D0BEE</idno>
+					<idno type="DOI">10.1016/j.jsams.2021.03.006</idno>
+					<note type="submission">Received 4 July 2020 Received in revised form 27 January 2021 Accepted 9 March 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:13+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Accelerometer Biomechanics Impact Load monitoring</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objectives: Increased tibial axial acceleration and reduced shock attenuation are associated with running injuries and are believed to be influenced by surface type. Trail running has increased in popularity and is thought to have softer surface properties than paved surface, but it is unclear if trail surfaces influence tibial acceleration and shock attenuation. The purpose of this study was to investigate peak triaxial and resultant tibial acceleration as well as axial and resultant shock attenuation among dirt, gravel, and paved surfaces. Design: Fifteen recreational runners (12 females, 3 males, age = 27.7 ± 9.1 years) ran over dirt, gravel, and paved surfaces in a trail environment while instrumented with triaxial tibial and head accelerometers. Methods: Differences between tri-planar peak tibial accelerations (braking, propulsion, axial, medial, lateral, and resultant) and shock attenuations (axial and resultant) among surface types were assessed with one-way ANOVAs with Bonferroni post-hoc tests. Results: No significant differences were found for tibial accelerations or shock attenuations among surface types (p &gt; 0.05). Conclusions: Dirt and gravel trail running surfaces do not have lower tibial accelerations or greater shock attenuation than paved surfaces. While runners are encouraged to enjoy the psychological benefits of trail running, trail surfaces do not appear to reduce loading forces associated with running-related injuries.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Running is a popular mode of physical activity; over 55 million Americans run regularly each year <ref type="bibr" target="#b0">1</ref> . While running has numerous positive health benefits, running-related injuries (RRIs) are a preva-lent risk of frequent running. The incidence of RRIs is between 19.4% to 79.3% 2 , or 7.7 to 17.8 injuries per 1000 h of running exposure in novice and recreational runners <ref type="bibr" target="#b2">3</ref> . With each step taken during running, there is a rapid deceleration of the body resulting in the transmission of a shock wave up the body from the ground; often measured by segment accelerations. It is believed that excessive magnitudes and prolonged exposure to these accelerations lead to an increased risk of sustaining an "overuse" RRI, particularly tibia stress fractures <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> .</p><p>The measurement of accelerations using segment-mounted accelerometers is becoming increasing popular as a surrogate measure of loading forces and rates (the speed at which loading forces impact the body). Though limitations apply, evidence is available supporting the validity of segment-mounted accelerometer use for assessing surrogate loading forces during running by quantifying axial and resultant accelerations of the tibia <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7</ref> . Segment-mounted accelerometers also allow for the measurement of shock attenuation, or the process of dissipating loading forces. Shock attenuation quantifies the ability of body tissues to reduce forces between the foot and head <ref type="bibr" target="#b7">8</ref> and is measured as the change in acceleration between segments <ref type="bibr" target="#b5">6</ref> . A reduction in shock attenuation has previously been reported to increase the risk of sustaining an overuse injury <ref type="bibr" target="#b8">9</ref> . These results suggest accelerometers may be useful equipment for monitoring load-related running patterns that have implications for RRIs.</p><p>Studies have begun to investigate how variables including running speed <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11</ref> , fatigue <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b11">12</ref> , stride length <ref type="bibr" target="#b12">13</ref> , footwear <ref type="bibr" target="#b13">14</ref> , and running surface <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b17">18</ref> influence tibial acceleration and shock attenuation; however, results have been contradictory and inconclusive. Specific to running surfaces, peak loading forces, as measured by force plates, were not different between asphalt, acrylic, and rubber-modified surface, but average loading rate was lower when running over the surface with the lowest mechanical stiffness (e.g. rubber-modified surface) <ref type="bibr" target="#b14">15</ref> . Inconsistent results have also been reported when measuring tibial accelerations on different surfaces using segment-mounted accelerometers. Recent studies have reported no differences in tibial acceleration on surfaces with lower mechanical stiffness <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b15">16</ref> , while others reported lower tibial accelerations when running on "softer" surfaces <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18</ref> .</p><p>Trail running, defined as unpaved running over variables surfaces <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20</ref> , has increased in popularity over the last decade. Exercising in nature has been reported to improve mental well-being <ref type="bibr" target="#b20">21</ref> and habitual trail runners demonstrate different running patterns compared to habitual road runners that are believed to reduce the risk of RRI <ref type="bibr" target="#b18">19</ref> . Most previous work investigating the influence of surface type on running parameters were conducted in laboratory settings <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref> . Recent studies have reported that tibial accelerations measured in a laboratory setting do not capture tibial accelerations that occur in the field <ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b22">23</ref> . To our knowledge, only one study investigated tibial accelerations on a trail surface in an outdoor setting, comparing concrete, synthetic running track, and woodchip trail surfaces; they reported no differences in tibial accelerations when running at a self-selected speed <ref type="bibr" target="#b9">10</ref> . Trail running may more often expose runners to dirt and gravel surfaces, and investigation of these surfaces is absent in the current literature. Therefore, the aim of this study was to explore the differences in tibial accelerations and shock attenuations when running over dirt, gravel, and paved surfaces in a trail environment. It was hypothesised dirt and gravel would produce 1) lower tibial accelerations than running over a paved surface, 2) greater shock attenuation than running over a paved surface, and 3) no differences in tibial accelerations or shock attenuations between dirt and gravel running surfaces.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methods</head><p>Seventeen recreational runners volunteered as participants for the study. All participants were free from injury at the time of testing and reported at least 30 min of continuous activity five days per week, with at least three days of weekly running, over the past three months. Participants were excluded if they had a history of any physical injury within the past six months that affected running performance. Approval for all procedures was obtained from the University's Institutional Review Board. All participants gave their written informed consent before commencing this study. Sample sizes were determined based on the predicted power to detect a difference of 15%, as reported by Milner et al <ref type="bibr" target="#b3">4</ref> .</p><p>The study was a repeated measures design where participants ran on three separate pathways of different surface types (dirt, gravel, paved) in the same nature environment at a single public park. The distances among all pathways were within 100 m. Participants ran in a standard shoe (Saucony Jazz; Saucony, Richmond, IN) and were instrumented with automatically synced, triaxial accelerometers (range = 24 g, weight = 0.028 kg; TeleMyo DTS 3D Accelerometer; Noraxon USA Inc., Scottsdale, AZ) over the skin on the forehead and right medial distal tibia per literature-established recommendations <ref type="bibr" target="#b6">7</ref> . Two-sided adhesive tape and an elastic band secured the accelerometers. An adjustable belt was secured around the participant's waist and contained the accelerometer belt receiver.</p><p>Prior to data collection, participants completed a dynamic warm-up for three minutes <ref type="bibr" target="#b23">24</ref> including skipping, high knees, walking quadriceps stretch, and toe and heel walking. Following the warm-up, participants completed three runs on the paved surface pathway. Cones were placed along the pathway at 0 m, 10 m, 40 m, and 50 m (Fig. <ref type="figure" target="#fig_0">1</ref>). The first and last 10 m of the pathway allowed the participants a period to accelerate to self-selected speed and decelerate from self-selected speed and participants were asked to maintain speed in the middle 30 m of the pathway. To determine self-selected running speed, a user-operated stopwatch recorded the time it took to run the middle 30 m of the pathway. Average speed was calculated across the three trials to determine the participant's self-selected running speed.</p><p>After self-selected speed wad identified, participants ran over three pathways of different surface types in the following order: 1) dirt, 2) gravel, and 3) paved. Each pathway had an average slope of &lt;10 • . For each pathway, a 50 m pathway was marked with cones at 0 m, 10 m, 40 m, and 50 m (Fig. <ref type="figure" target="#fig_0">1</ref>). A user-operated stopwatch recorded the time it took to run the middle 30 m of the pathway. Running speed was calculated following each trial and trials were repeated until four runs on each surface were ±5% of the participant's self-selected running speed. Trials with running speeds &gt;5% different from the self-selected running speed were excluded from analysis. Participants completed all trial runs over one pathway before progressing to the subsequent pathway. Participants were granted a minimum of two minutes and up to five minutes to rest and walk to the next pathway.</p><p>Accelerometers sampled data at 1500 Hz. A custom MATLAB code (MathWorks, Inc.; Natick, MA) analysed the raw accelerometer data. Data were filtered with a band-pass (10-60 Hz), second-order Butterworth filter per recommendations <ref type="bibr" target="#b6">7</ref> . While axial acceleration is most commonly reported, recent reports recommend assessing resultant acceleration <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b21">22</ref> . As movement occurs throughout all three planes, isolating a single plane fails to consider movement in the other planes. Resultant acceleration alleviates this concern as it is a metric of tri-planar accelerations <ref type="bibr" target="#b6">7</ref> . To account for positive and negative acceleration values in different axes when calculating resultant acceleration, anterior/posterior, axial, and medial/lateral accelerations were squared, and the vectors were added together <ref type="bibr" target="#b24">25</ref> . Resultant tibial and head accelerations were then calculated by taking the square root of the summed vectors for the tibia and head, respectively. Initial foot contacts were identified as local minima that occurred in the 75 ms prior to a local maxima in resultant tibial acceleration profile (Fig. <ref type="figure" target="#fig_1">2</ref>) <ref type="bibr" target="#b24">25</ref> . To control for accelerating or decelerating during the run-up and slow-down segments of the pathway, the first and last five steps were excluded from analysis. Strides were identified from one initial foot contact to the next sequential initial foot contact. Stride rate (strides/minute) was calculated using the following equation:</p><formula xml:id="formula_0">Stride Rate = 60 / IC (i + 1) -IC (i) sampling frequency</formula><p>Where IC(i) is the frame of the ith initial foot contact. Within the first 40% of each stride, peak tibial braking (positive x-axis), propulsion (negative x-axis), axial (positive y-axis), medial (positive z-axis), lateral (negative z-axis), and resultant acceleration as well as peak head axial and resultant acceleration were extracted. Axial and resultant shock attenuation were calculated using previously described methods <ref type="bibr" target="#b5">6</ref> . The greater the shock attenuation, the more the loading forces are dissipated by the body. For each participant, mean peak accelerations and shock attenuations were calculated for each variable of interest.</p><p>One-way ANOVAs were performed in SPSS (version 26, IBM Crop.; Armonk, NY) to compare average number of strides analysed, stride rate, peak tibial braking, propulsion, axial, medial, lateral, and resultant acceleration as well as axial and resultant shock attenuation among the three surface types. A Bonferroni correction post-hoc test was used for multiple comparison if ANOVA results demonstrated a statistically significant difference. For all tests, significance was set at p ≤ 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>Two male participants were removed from analysis due to data collection errors leaving a total of 15 participants included in analysis (female = 12, male = 3, age = 27.7 ± 9.1 years, height = 1.65 ± 0.06 m, mass = 65.9 ± 13.1 kg). No significant differences were found between the average number of strides analysed for each running surface (dirt = 29.9 ± 12.2; gravel = 30.3 ± 11.9; paved = 30.5 ± 8.5; p=0.99). No significant differences (Table <ref type="table" target="#tab_0">1</ref>) were found among running surfaces for stride rate (p = 0.83), peak tibial braking acceleration (p = 0.89), peak tibial propulsion accel-  eration (p = 0.91), peak tibial axial acceleration (p = 0.78; Fig. <ref type="figure" target="#fig_2">3</ref>), peak tibial medial acceleration (p = 0.95), peak tibial lateral acceleration (p = 0.85), peak tibial resultant acceleration (p = 0.85; Fig. <ref type="figure" target="#fig_3">4</ref>), axial shock attenuation (p = 0.87), or resultant shock attenuation (p = 0.90).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>The current study analysed tibial acceleration and shock attenuation during running over dirt, gravel, and paved surfaces in a trail environment. It was hypothesised that dirt and gravel would produce 1) lower tibial accelerations than running over a paved surface, 2) greater shock attenuation than running over a paved surface, and 3) no differences in tibial accelerations or shock attenuations between dirt and gravel surfaces. The first and second hypotheses were not supported while the third hypothesis was supported as no differences were found among peak tibial braking acceleration, peak tibial propulsion acceleration, peak tibial axial acceleration, peak tibial medial acceleration, peak tibial lateral acceleration, peak tibial resultant acceleration, axial shock attenuation, or resultant shock attenuation. Our results agree with previous studies that reported no differences in peak tibial axial acceleration when running over concrete, synthetic running track, grass or woodchip trails when running at a self-selected speed <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b15">16</ref> . However, when running speed was controlled, peak tibial axial acceleration was lower when running over woodchip trails compared to concrete and synthetic track <ref type="bibr" target="#b9">10</ref> . Tibial axial acceleration is positively correlated with increased running speed <ref type="bibr" target="#b25">26</ref> . In the previous study <ref type="bibr" target="#b9">10</ref> , the controlled speed was slower than the average self-selected speed, which may have influenced the lower peak tibial axial acceleration. Our findings indicate that running on dirt or gravel surfaces does not lower tibial axial acceleration, a measure associated with RRIs <ref type="bibr" target="#b3">4</ref> , when running at a self-selected speed; however, it is unknown how running speed influences tibial axial acceleration when running over these surfaces compared to pavement.</p><p>No significant differences were found across surfaces for peak tibial resultant acceleration. Resultant accelerations limit the influence of accelerometer alignment and considers loading forces from all three axes <ref type="bibr" target="#b6">7</ref> . A previous study comparing rearfoot and nonrearfoot strike runners found no differences in peak tibial axial acceleration but greater peak tibial anterior-posterior acceleration and peak tibial resultant acceleration in non-rearfoot strikers highlighting the importance of analysing multiplanar, resultant accelerations <ref type="bibr" target="#b26">27</ref> . To our knowledge, our study is the first study to investigate tibial braking, propulsion, medial, and lateral accelerations during dirt and gravel running. As running surface did not influence these accelerations, foot strike patterns have more influence on non-axial tibial accelerations than surface stiffness. Further research is warranted to determine if non-axial tibial accelerations on various surfaces are different among runners with different foot strike patterns.</p><p>Shock attenuation measures the body's ability to dissipate impact forces <ref type="bibr" target="#b7">8</ref> . Results from the current study demonstrated no differences in axial or resultant shock attenuation among paved, gravel, and dirt surfaces. Runners adjust leg stiffness dependent on running surface stiffness in order to maintain the same effective vertical stiffness and centre of mass vertical displacement <ref type="bibr" target="#b27">28</ref> . While not measured in the current study, a change in leg stiffness may explain lack of differences in shock attenuation when running over different surface types. To our knowledge, this is the first study to report resultant shock attenuation during running on dirt and gravel surfaces. Similar to resultant acceleration, it is likely resultant shock attenuation is a more appropriate method to quantify shock attenuation since accelerations are not constrained to one axis. Reduced shock attenuation has been measured during fatigued treadmill running <ref type="bibr" target="#b8">9</ref> and likely contributes to increased risk of injury <ref type="bibr" target="#b28">29</ref> . However, it is unknown how fatigue may influence shock attenuation during prolonged trail running. Future investigation is warranted to determine if shock attenuation during trail running is influenced similarly or differently than shock attenuation during treadmill running. Interestingly, approximately 70% of the axial shock were attenuated while close to 90% of the resultant shock were attenuated, regardless of surface type. This finding suggests runners are more proficient at attenuating nonaxial accelerations. Further research is warranted to understand the importance of non-axial shock attenuation, especially as it relates to RRIs.</p><p>The results of this study should be interpreted in the context of its limitations. The power analysis was reported from a study that only included female runners and minimal sample sizes ranged from 9 to 20 participants. It is possible the study may be underpowered with data from only 15 participants included in analyses. However, we are confident in the results as all ANOVA comparison p-values were far from statistical significance set at p ≤ 0.05 and demonstrated small effect sizes (≤0.01). All running trials were screened in real time with a user-operated stopwatch to ensure the participant was ±5% of his or her predetermined self-selected running speed. However, due to a collection error, the speed of each trial was not recorded and therefore we are unable to report on the average running speed for each surface condition. Stride rates were found to be consistent among surface conditions suggesting running speed was maintained. While the potential source of usererror from manually operating the stopwatch and collection error recording the time of each trial are limitations, the consistency in stride rates among the conditions in the current study allows us to be confident in the validity of the results. It is also unclear if the 10 m region at the start of the pathway allowed runners enough time to achieve typical running patterns; however, by eliminating the first and last five strides from analysis, we are confident participants achieved consistent running speed for the analysed strides. The order of surface running was not randomized. However, as participants ran in a non-fatigued state and were allowed rest breaks between surfaces, we are confident accelerations and shock attenuations were not influenced by fatigue. The standard shoe used for the study was not designed for trail running. It is possible trail running shoes may influence tibial accelerations and shock attenuations and this warrants further investigation. The mechanical stiffness of the surfaces was not measured. It is possible the dirt and gravel surfaces had similar stiffnesses compared to the paved surface which could explain the lack of differences among surface types.</p><p>This study may not fully capture the natural environment of trail running due to the variability of trail running terrain. In some regions, trail running is often characterized by uneven terrain with frequent changes in elevation. The pathways participants ran over in the current study were relatively level (&lt;10 • ). While tibial accelerations were not found to change during a prolonged trail run <ref type="bibr" target="#b29">30</ref> , perhaps cumulative tibial accelerations experienced by a runner are different during prolonged runs in a trail environment where runners experience a variety of elevation changes compared to runs on roads and sidewalks. The primary purpose of this study was to compare running surface types in a trail environment. This study highlights trail running surfaces of similar elevation profiles do not appear to influence loading forces. Further work remains necessary to better understand how loading forces over trail surfaces may be influenced by additional variables such as duration of run, fatigue, and elevation change.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>Triaxial tibial accelerations, resultant tibial acceleration, axial shock attenuation, and resultant shock attenuation are not different among dirt, gravel and paved surfaces during running in a trail environment. While runners are encouraged to enjoy the psychological benefits of trail running, trail surfaces do not appear to reduce loading forces associated with RRIs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethical compliance</head><p>All procedures performed in studies involving human participants were in accordance with the ethical standards of Carroll University Institutional Review Board (IRB#: 16-024) and with the 1964 Helsinki declaration and its later amendments or comparable ethical standards. Informed consent was obtained from all individual participants included in the study.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Marked 50 m running pathway. The participant accelerated and decelerated in the first and last 10 m and maintained speed (±5% self-selected speed) in the middle 30 m.</figDesc><graphic coords="2,311.90,55.08,241.20,57.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Representative resultant tibial acceleration profile for one stride. Diamond = foot initial contact; Circle = peak tibial resultant acceleration; Grey area represents 75 ms window region prior to peak tibial resultant acceleration where local minima is identified for foot initial contact. Dashed line represents first 40% of stride (diamond to diamond).</figDesc><graphic coords="3,54.40,55.16,217.20,173.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Dot density plot of axial acceleration over dirt, gravel, and paved surfaces. Diamonds = individual participant; Circle = group mean; Grey region = 95% confidence interval.</figDesc><graphic coords="3,323.89,55.66,217.20,164.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Dot density plot of resultant acceleration over dirt, gravel, and paved surfaces. Diamonds = individual participant; Circle = group mean; Grey region = 95% confidence interval.</figDesc><graphic coords="3,323.89,267.75,217.20,164.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Stride rate, tibial acceleration, and shock attenuation across running surfaces (mean ± SD).</figDesc><table><row><cell>Variable</cell><cell>Dirt</cell><cell>Gravel</cell><cell>Paved</cell><cell>ES</cell><cell>p-value</cell></row><row><cell>Stride Rate (strides/min)</cell><cell>87.0 ± 5.8</cell><cell>87.4 ± 5.3</cell><cell>88.3 ± 5.7</cell><cell>0.01</cell><cell>0.83</cell></row><row><cell>Peak Tibial Braking Acceleration (g)</cell><cell>9.1 ± 3.5</cell><cell>9.0 ± 3.1</cell><cell>9.6 ± 3.8</cell><cell>0.01</cell><cell>0.89</cell></row><row><cell>Peak Tibial Propulsion Acceleration (g)</cell><cell>6.6 ± 3.7</cell><cell>6.5 ± 3.2</cell><cell>7.1 ± 4.4</cell><cell>&lt;0.01</cell><cell>0.91</cell></row><row><cell>Peak Tibial Axial Acceleration (g)</cell><cell>9.5 ± 2.0</cell><cell>10.0 ± 2.3</cell><cell>10.0 ± 2.3</cell><cell>0.01</cell><cell>0.78</cell></row><row><cell>Peak Tibial Medial Acceleration (g)</cell><cell>5.4 ± 2.8</cell><cell>5.4 ± 2.4</cell><cell>5.7 ± 3.2</cell><cell>&lt;0.01</cell><cell>0.95</cell></row><row><cell>Peak Tibial Lateral Acceleration (g)</cell><cell>3.9 ± 2.0</cell><cell>3.8 ± 1.8</cell><cell>4.2 ± 2.2</cell><cell>0.01</cell><cell>0.85</cell></row><row><cell>Peak Tibial Resultant Acceleration (g)</cell><cell>13.1 ± 3.4</cell><cell>13.4 ± 3.0</cell><cell>13.8 ± 3.8</cell><cell>0.01</cell><cell>0.85</cell></row><row><cell>Axial Attenuation (%)</cell><cell>67.8 ± 5.8</cell><cell>68.8 ± 5.7</cell><cell>68.7 ± 6.4</cell><cell>0.01</cell><cell>0.87</cell></row><row><cell>Resultant Attenuation (%)</cell><cell>74.8 ± 6.1</cell><cell>75.5 ± 4.8</cell><cell>75.7 ± 6.1</cell><cell>&lt;0.01</cell><cell>0.90</cell></row></table><note><p>ES = effect size, Significant differences p ≤ 0.05.</p></note></figure>
+		</body>
+		<back>
+
+			
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>This research did not receive any specific grant from funding agencies in the public, commercial, or not-for profit sectors.</p></div>
+			</div>
+
+
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding</head><p>This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gough</surname></persName>
+		</author>
+		<ptr target="https://www.statista.com/topics/1743/running-and-jogging/" />
+		<title level="m">Available from: Running &amp; Jogging -Statistics &amp; Facts</title>
+		<imprint>
+			<date type="published" when="2018-08">2019 November, 8. 2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gough C [cited 2019 November, 8]; Available from: Running &amp; Jogging -Statistics &amp; Facts, 2018 https://www.statista.com/topics/1743/running-and-jogging/.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Incidence and determinants of lower extremity running injuries in long distance runners: a systematic review</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Van Gent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Siem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Middelkoop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Van Os</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Bierma-Zeinstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Koes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="469" to="480" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">van Gent RN, Siem D, van Middelkoop M, van Os AG, Bierma-Zeinstra SM, Koes BW. Incidence and determinants of lower extremity running injuries in long distance runners: a systematic review. Br J Sports Med 2007; 41(8):469-480.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Incidence of running-related injuries per 1000 h of running in different types of runners: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Videbaek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Bueno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rasmussen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1017" to="1026" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Videbaek S, Bueno AM, Nielsen RO, Rasmussen S. Incidence of running-related injuries per 1000 h of running in different types of runners: a systematic review and meta-analysis. Sports Med 2015; 45(7):1017-1026.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Biomechanical factors associated with tibial stress fracture in female runners</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Milner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ferber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hamill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="323" to="328" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Milner CE, Ferber R, Pollard CD, Hamill J, Davis IS. Biomechanical factors asso- ciated with tibial stress fracture in female runners. Med Sci Sports Exerc 2006; 38(2):323-328.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A framework for the etiology of running-related injuries</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Bertelsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hulme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Brund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sorensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Finch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1170" to="1180" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bertelsen ML, Hulme A, Petersen J, Brund RK, Sorensen H, Finch CF et al. A frame- work for the etiology of running-related injuries. Scand J Med Sci Sports 2017; 27(11):1170-1180.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Method analysis of accelerometers and gyroscopes in running gait: a systematic review</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Norris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Kenny</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Inst Mech Eng Part P-J Sports Eng Technol</title>
+		<imprint>
+			<biblScope unit="volume">228</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="15" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Norris M, Anderson R, Kenny IC. Method analysis of accelerometers and gyro- scopes in running gait: a systematic review. Proc Inst Mech Eng Part P-J Sports Eng Technol 2014; 228(1):3-15.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The measurement of tibial acceleration in runnersa review of the factors that can affect tibial acceleration during running and evidence-based guidelines for its use</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Sheerin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Besier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gait Posture</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="12" to="24" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sheerin KR, Reid D, Besier TF. The measurement of tibial acceleration in runners- a review of the factors that can affect tibial acceleration during running and evidence-based guidelines for its use. Gait Posture 2019; 67:12-24.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Spectral-analysis of impact shock during running</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Shorten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Winslow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Biomech</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="288" to="304" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shorten MR, Winslow DS. Spectral-analysis of impact shock during running. Int J Sport Biomech 1992; 8(4):288-304.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Characteristics of shock attenuation during fatigued running</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mercer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Dufek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hreljac</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="911" to="919" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mercer JA, Bates BT, Dufek JS, Hreljac A. Characteristics of shock attenuation during fatigued running. J Sports Sci 2003; 21(11):911-919.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The effect of three surface conditions, speed and running experience on vertical acceleration of the tibia during running</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Boey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aeles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schutte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vanwanseele</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Biomech</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="166" to="176" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boey H, Aeles J, Schutte K, Vanwanseele B. The effect of three surface condi- tions, speed and running experience on vertical acceleration of the tibia during running. Sports Biomech 2017; 16(2):166-176.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The effects of speed and surface compliance on shock attenuation characteristics for male and female runners</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Dufek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mercer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Griffin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Biomech</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="219" to="228" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dufek JS, Mercer JA, Griffin JR. The effects of speed and surface compliance on shock attenuation characteristics for male and female runners. J Appl Biomech 2009; 25(3):219-228.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Running kinematics and shock absorption do not change after brief exhaustive running</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Abt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Sell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lovalekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Burdett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Lephart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1479" to="1485" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abt JP, Sell TC, Chu Y, Lovalekar M, Burdett RG, Lephart SM. Running kinematics and shock absorption do not change after brief exhaustive running. J Strength Cond Res 2011; 25(6):1479-1485.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The effects of knee contact angle on impact forces and accelerations</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Derrick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="832" to="837" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Derrick TR. The effects of knee contact angle on impact forces and accelerations. Med Sci Sports Exerc 2004; 36(5):832-837.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The influence of minimalist and maximalist footwear on the kinetics and kinematics of running</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sinclair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fau-Goodwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Richards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Footwear Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="33" to="39" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sinclair J, Fau-Goodwin J, Richards J, Shore H. The influence of minimalist and maximalist footwear on the kinetics and kinematics of running. Footwear Sci 2016; 8(1):33-39.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Surface effects on ground reaction forces and lower extremity kinematics in running</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Dixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Collop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Batt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1919" to="1926" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dixon SJ, Collop AC, Batt ME. Surface effects on ground reaction forces and lower extremity kinematics in running. Med Sci Sports Exerc 2000; 32(11):1919-1926.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Surface effects on in-shoe plantar pressure and tibial impact during running</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dms</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Health Science</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="384" to="390" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fu W, Fang Y, Liu DMS, Wang L, Ren S, Liu Y. Surface effects on in-shoe plan- tar pressure and tibial impact during running. J Sport Health Science 2015; 4(4):384-390.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Effects of treadmill running and fatigue on impact acceleration in distance running</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Garcia-Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Perez-Soriano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Llana</forename><surname>Belloch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lucas</forename><forename type="middle">-</forename><surname>Cuevas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Sanchez-Zuriaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Biomech</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="259" to="266" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Garcia-Perez JA, Perez-Soriano P, Llana Belloch S, Lucas-Cuevas AG, Sanchez- Zuriaga D. Effects of treadmill running and fatigue on impact acceleration in distance running. Sports Biomech 2014; 13(3):259-266.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Influence of footwear choice, velocity and surfaces on tibial accelerations experienced by field hockey participants during running</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Greenhalgh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sinclair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Leat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chockalingam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Footwear Sci</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="213" to="219" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Greenhalgh A, Sinclair J, Leat A, Chockalingam N. Influence of footwear choice, velocity and surfaces on tibial accelerations experienced by field hockey partic- ipants during running. Footwear Sci 2012; 4(3):213-219.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Risk of inury in trail running: a preliminary study</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Albertus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Prins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">the International Society of Biomechanics in Sports</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>35th Conference</note>
+	<note type="raw_reference">Bean R, Schwartz G, Albertus Y, Prins D, Tam N. Risk of inury in trail running: a preliminary study, 35th Conference of the International Society of Biomechanics in Sports, 2017.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Health and economic burden of running-related injuries in Dutch trailrunners: a prospective cohort study</title>
+		<author>
+			<persName><forename type="first">Hespanhol</forename><surname>Junior</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Van Mechelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Verhagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="367" to="377" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hespanhol Junior LC, van Mechelen W, Verhagen E. Health and economic burden of running-related injuries in Dutch trailrunners: a prospective cohort study. Sports Med 2017; 47(2):367-377.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Nature experience reduces rumination and subgenual prefrontal cortex activation</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Bratman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Hahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Daily</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Gross</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Natl Acad Sci</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">28</biblScope>
+			<biblScope unit="page" from="8567" to="8572" />
+			<date type="published" when="2015">2015</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bratman GN, Hamilton JP, Hahn KS, Daily GC, Gross JJ. Nature experience reduces rumination and subgenual prefrontal cortex activation. Proc Natl Acad Sci USA 2015; 112(28):8567-8572.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Tibial acceleration during running is higher in field testing than indoor testing</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Milner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Hawkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Aubol</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1361" to="1366" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Milner CE, Hawkins JL, Aubol KG. Tibial acceleration during running is higher in field testing than indoor testing. Med Sci Sports Exerc 2020; 52(6):1361-1366.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Comparison of tibial shock during treadmill and real-world RUNNING</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Outerleys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Jamison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Tenforde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ruder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1557" to="1562" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Johnson CD, Outerleys J, Jamison ST, Tenforde AS, Ruder M, Davis IS. Comparison of tibial shock during treadmill and real-world RUNNING. Med Sci Sports Exerc 2020; 52(7):1557-1562.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Prevention of running injuries by warm-up, cool-down, and stretching exercises</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Van Mechelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hlobil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Kemper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Voorn</surname></persName>
+		</author>
+		<author>
+			<persName><surname>De Jongh Hr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="711" to="719" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">van Mechelen W, Hlobil H, Kemper HC, Voorn WJ, de Jongh HR. Prevention of running injuries by warm-up, cool-down, and stretching exercises. Am J Sports Med 1993; 21(5):711-719.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Foot contact identification using a single triaxial accelerometer during running</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Aubol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Milner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page">109768</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aubol KG, Milner CE. Foot contact identification using a single triaxial accelerom- eter during running. J Biomech 2020; 105:109768.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Three-dimensional acceleration of the tibia during walking and running</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Lafortune</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="877" to="886" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lafortune MA. Three-dimensional acceleration of the tibia during walking and running. J Biomech 1991; 24(10):877-886.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Rearfoot strikers have smaller resultant tibial accelerations at foot contact than non-rearfoot strikers</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Glauberman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Cavanagh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Foot Ankle Res</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">93</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Glauberman MD, Cavanagh PR. Rearfoot strikers have smaller resultant tibial accelerations at foot contact than non-rearfoot strikers. J Foot Ankle Res 2014; 7:A93.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Running in the real world: adjusting leg stiffness for different surfaces</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Ferris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Louie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Farley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Biol Sci</title>
+		<imprint>
+			<biblScope unit="volume">265</biblScope>
+			<biblScope unit="page" from="989" to="994" />
+			<date type="published" when="1400">1998. 1400</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ferris DP, Louie M, Farley CT. Running in the real world: adjusting leg stiffness for different surfaces. Proc Biol Sci 1998; 265(1400):989-994.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Basic Biomechanics of the Musculoskeletal System, xxiii</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nordin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">H</forename><surname>Frankel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">H</forename><surname>Frankel</surname></persName>
+		</author>
+		<editor>Philadelphia, Lea &amp; Febiger</editor>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+			<biblScope unit="page">323</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nordin M, Frankel VH, Frankel VH. Basic Biomechanics of the Musculoskeletal System, xxiii, 2nd ed. Philadelphia, Lea &amp; Febiger, 1989, 323 p.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Influence of prolonged running and training on tibial acceleration and movement quality in novice runners</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Camelio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Gruber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Powell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Paquette</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Camelio K, Gruber AH, Powell DW, Paquette MR. Influence of prolonged running and training on tibial acceleration and movement quality in novice runners. J Athl Train 2020.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

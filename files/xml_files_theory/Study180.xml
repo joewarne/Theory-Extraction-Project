@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The effect of a decrease in stretch-shortening cycle function after cycling on subsequent running</title>
+				<funder ref="#_nc9qVtT #_jfyYnpN">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-09-14">14 September 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Keigo</forename><surname>Takahashi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Graduate school of Comprehensive Human Science</orgName>
+								<orgName type="institution">University of Tsukuba</orgName>
+								<address>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yusuke</forename><surname>Shirai</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Sport and Health Science</orgName>
+								<orgName type="institution">Tokai Gakuen University</orgName>
+								<address>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shota</forename><surname>Oki</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Graduate school of Comprehensive Human Science</orgName>
+								<orgName type="institution">University of Tsukuba</orgName>
+								<address>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yoshiharu</forename><surname>Nabekura</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Faculty of Health and Sport Sciences</orgName>
+								<orgName type="institution">University of Tsukuba</orgName>
+								<address>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The effect of a decrease in stretch-shortening cycle function after cycling on subsequent running</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-09-14">14 September 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8A8F747699D1A91DA2A2BC44B2468317</idno>
+					<idno type="DOI">10.1016/j.jsams.2021.09.004</idno>
+					<note type="submission">Received 16 February 2021 Received in revised form 30 July 2021 Accepted 7 September 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Stretch-shortening cycle exercise Cross-training Endurance Cardiorespiratory fitness Reactive strength index Triathlon</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Increased cardiorespiratory responses and changes in muscle activity and running kinematics occur in running after cycling compared with isolated running. Nevertheless, little is known about the causes of these changes. Cycling exercise decreases the stretch-shortening cycle (SSC) function, which can influence subsequent running. This study aimed to clarify whether the decrease in SSC function after cycling causes cardiorespiratory and biomechanical changes in subsequent running. Design: Cross-sectional laboratory study. Participants were divided into two groups based on SSC function: an SSC dec group (those with decreased SSC function after cycling) and an SSC non-dec group (those without decreased SSC function after cycling). Methods: Eighteen participants (10 triathletes and 8 runners) completed maximal aerobic tests for running and cycling. After these sessions, a submaximal run-cycle-run test was performed to compare between control run (no preceding cycle) and transition run (preceded by cycling). A jump test was administered before and after the submaximal cycling. SSC function was calculated as the ratio of the jump height to the time spent in contact with the ground (reactive strength index). Gas exchange measures, heart rate, and gait parameters were collected throughout the test. Results: Oxygen uptake and ventilation were increased by cycling in the SSC dec group but not in the SSC non-dec group. In both groups, there were no significant differences in the gait parameters between control and transition runs. Conclusions: The decrease in SSC function after cycling would increase cardiorespiratory responses in subsequent running.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>A triathlon is a race that consists of swimming, cycling, and running, completed in this sequential order. Triathletes reportedly experience breathing disorders and loss of coordination during the transition from cycling to running. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> Therefore, the ability of the triathlete to adapt through this transition is one of the most critical challenges in triathlon. <ref type="bibr" target="#b2">3</ref> Cycling has been shown to increase oxygen uptake (VO 2 ), ventilation (VE), heart rate (HR), respiratory frequency, and blood lactate concentration in subsequent running. <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref> From a biomechanical perspective, some studies have reported significantly lower step length, higher step frequency, and higher leg stiffness during running after cycling than during running in isolation. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> Therefore, impairment of performance in running after cycling compared to that in isolated running is generally taken to be the result of the negative physiological and biomechanical changes following cycling. <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10</ref> Nevertheless, little is known about the cause of these changes. Examining the cause of the effects of cycling on subsequent running is useful for optimizing training programs for transition in triathletes.</p><p>Running involves muscle actions in which active pre-stretch is followed immediately by active shortening (SSC; stretch-shortening cycle). <ref type="bibr" target="#b10">11</ref> SSC function has been shown to be positively associated with running performance in distances from 60 to 5000 m. <ref type="bibr" target="#b11">12</ref> Based on these findings, SSC function is important for optimization of running performance. Our group investigated the effect of cycling on SSC function of the lower limbs, and SSC function has been shown to decrease after cycling. <ref type="bibr" target="#b12">13</ref> SSC conditions produce greater work during shortening than that which result from an isolated concentric muscle action. <ref type="bibr" target="#b10">11</ref> Several mechanisms have been proposed to explain the greater work: the utilization of the stored elastic energy in the tendons and the stretch reflex in the muscles. <ref type="bibr" target="#b10">11</ref> The decrease in SSC function after cycling is likely to result in lesser benefit provided by mechanisms such as the utilization of elastic energy and stretch reflex; therefore, additional muscle activity is required in subsequent running. Based on the linear relationship between neural input to the muscle and VO 2 , <ref type="bibr" target="#b13">14</ref> the additional muscle activity could cause an increase in VO 2 . Additionally, the decrease in SSC function may possibly be compensated by the biomechanical changes of running to maintain the performance. However, it remains unclear whether the decreases in SSC function cause the cardiorespiratory and biomechanical changes in running after cycling.</p><p>Therefore, the primary aim of this study was to clarify whether the decrease in SSC function after cycling causes the cardiorespiratory and biomechanical changes in subsequent running. Given that SSC function is a critical factor for running, <ref type="bibr" target="#b10">11</ref> it was hypothesized that the decrease in SSC function after cycling negatively affects cardiorespiratory and biomechanical variables in subsequent running.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methods</head><p>Eighteen participants (10 triathletes and 8 runners) participated in this study. Physical characteristic data are presented in Supplemental 1. The triathletes had competed in triathlon events for 2.3 ± 1.4 years, and their average swim, cycle, and run training frequencies in the previous 2 months were 2.3 ± 1.4, 2.2 ± 1.2, and 3.0 ± 1.2 times per week, respectively. In runners, the average run training frequency was 5.2 ± 3.0 times per week. All participants were instructed to refrain from ingesting food, alcohol, and caffeine for at least 3 h prior to each test and to avoid strenuous physical work for at least 48 h prior to each test. This study was approved by the research ethics committee of the University of Tsukuba (Ref. No., Tai 30-139), and all participants provided written informed consent.</p><p>The participants performed three testing sessions. In the first and second sessions, maximal aerobic tests for running and cycling were performed in a randomized order to determine the first ventilatory threshold (VT). After these sessions, a submaximal run-cycle-run test was performed to compare between control run (no preceding cycle) and transition run (preceded by cycling) (Supplemental 2). A jump test was performed before and after the submaximal cycling to determine the effect of cycling on the SSC function of the lower limbs. Each session was conducted at an interval of at least 24 h. The effects of cycling on SSC function vary widely from one individual to another. <ref type="bibr" target="#b12">13</ref> To determine whether a decrease in SSC function after cycling impacted cardiorespiratory and biomechanical modifications in subsequent running, the participants were categorized into two groups in accordance with SSC function results obtained after cycling: an SSC dec group (those with decreased reactive strength index [RSI] after cycling) and an SSC non-dec group (those without decreased RSI after cycling). The details of categorization are described in a later section.</p><p>The cycling and running maximal tests were performed to determine the exercise intensity of the submaximal run-cycle-run test. After a standardized 5-min warm-up, the maximal tests were conducted on each participant's bicycle secured on a cycle trainer (Computrainer Pro, RacerMate Inc., USA) or on a motorized treadmill (ORK-7000; Ohtake-Root Kogyo Co, Iwate, Japan). The cycling maximal test started at a power output of 100 W, followed by increase of 20 W every 1 min until voluntary exhaustion or the inability to maintain the preferred cadence (89.5 ± 3.2 rpm) for more than 5 s. The running maximal test started at a velocity of 9.0 km/h at 1% gradient, followed by increase of 0.6 km/h every 1 min until voluntary exhaustion.</p><p>During each maximal test, expired gases were continuously measured on a breath-by-breath basis using a computerized standard open circuit technique with a metabolic gas analyzer (AE-310s; Minato Medical Science Inc., Japan). The metabolic system was calibrated before each test using known gas concentrations and a 2-L syringe according to the manufacturer's instructions. The gas exchange variables were analyzed as 30-s averages during each stage of the test. HR was measured using a surface electrode chest strap (Garmin HRM-Tri, Garmin Ltd., Switzerland). Power output and pedaling frequency data were recorded every 1 s during the test using a power meter (Garmin Vector 3, Garmin Inc., USA). VT was determined from the following criteria: (a) the departure from linearity of VE, <ref type="bibr" target="#b14">15</ref> (b) an increase in VE/VO 2 with no increase in VE/VCO 2 , <ref type="bibr" target="#b15">16</ref> and (c) a clear increase in the slope of the line for VCO 2 as compared with VO 2 . <ref type="bibr" target="#b16">17</ref> Maximal oxygen uptake (VO 2 max) was determined if a plateau (&lt;2 mL O 2 /kg/min) in VO 2 despite an increase in load was met. If a plateau in VO 2 was not observed, additional criteria were used: (a) a respiratory exchange ratio (RER) above 1.05, (b) a HR above 90% of age predicted maximum, and (c) rate of perceived exertion (RPE) equal to or higher than 19.</p><p>In the run-cycle-run test, after a 7-min warm-up on the treadmill at a 1% gradient, a first 15-min run (i.e. control run) was performed at a velocity of 90%VT. After a 5-min recovery period, a 15-min constant cycling at 90%VT on a cycle trainer (FG542 Hybrid Roller, Minoura Ltd., Japan) followed by a 15-min run (i.e. transition run) at the same velocity as the control run. The participants were given 4 min to transition from the bicycle to the treadmill. Pedaling cadence was required to maintain the same cadence during the maximal cycling test.</p><p>Power output and pedaling frequency were monitored during cycling using the power meter. HR was measured continuously with the HR monitor, and gas exchange parameters were determined with the metabolic gas analyzer. The average HR, VO 2 , RER, and VE were calculated for control and transition runs during the 4-15 min period to assess steady-state conditions. After the pre-run, cycling period, and post-run, participants were asked to provide RPE.</p><p>To measure stride temporal parameters during control and transition runs, the participants were filmed with a high-speed camera (EXILIM EX-ZR1300, Casio, Japan) at a sampling rate of 240 fps. The camera was placed perpendicular to the treadmill, and it focused on the feet. Parameters were computed by averaging the corresponding values of the 20 consecutive steps for each of the following variables: step length, step frequency, contact time, flight time, and leg stiffness.</p><p>Step length, step frequency, contact time, and flight time were calculated according to regular procedures. <ref type="bibr" target="#b17">18</ref> Using contact and flight times, leg stiffness was calculated according to the method of Morin et al. <ref type="bibr" target="#b18">19</ref> It has been indicated that the measurement of leg stiffness obtained during treadmill running using this method is highly reliable. <ref type="bibr" target="#b19">20</ref> Twenty consecutive steps of data for each minute were selected and the average across those 20 steps was used for analyses.</p><p>SSC function of the lower limbs was measured using the previously reported method. <ref type="bibr" target="#b12">13</ref> After a standardized warm-up, the jump test was performed. The test consisted of five maximal rebound vertical jumps, leaving from the same place. Participants were instructed to minimize their ground contact time and to maximize their jump height. Each trial was conducted with the arms held akimbo to avoid interindividual differences in jump style. Since experience with the jump exercise differed between the participants, the participants were carefully familiarized with the jump test a few weeks prior. The baseline jump test (Pre-jump) occurred before the 15-min cycling session and included two attempts that were spaced at a one-minute rest interval. The post-jump test occurred immediately after the 15-min cycling (Post1-jump) and transition run (Post2-jump).</p><p>The jump was performed on a mat switch (Multi Jump Tester, DKH Inc., Japan) that measured the participants' ground contact time at a sampling rate of 1000 Hz. The jumping height in trials was calculated by the formula: jump height = 1/8 ×g × t 2 , where g is the acceleration due to gravity and t is the time of the flight phase. <ref type="bibr" target="#b20">21</ref> SSC function was quantified by the reactive strength index (RSI) in the jump test <ref type="bibr" target="#b21">22</ref> because the jump test provides a muscle-tendon unit mechanics fundamental to SSC. <ref type="bibr" target="#b22">23</ref> RSI was calculated as jump height divided by contact time. The average of the three highest RSI values of five rebound jumps was used for analysis. In terms of RSI, the intra-class correlation coefficient (ICC) was previously investigated by our research group and were considered to be highly reliable (ICC (1,1) = 0.94). <ref type="bibr" target="#b12">13</ref> All values are expressed as mean ± standard deviation (SD). Data analyses were conducted using SPSS 25.0 (SPSS, Inc., Chicago, IL, USA). The participants were separated into two groups in accordance with the median value of change in RSI between before and after the cycling: the SSC dec group and the SSC non-dec group. Post-hoc power analysis were conducted using G*power software. <ref type="bibr" target="#b23">24</ref> First, independent t-tests were performed to compare the fitness level and the exercise intensity during the run-cycle-run test between the SSC dec group and the SSC non-dec group. Second, two-way repeated measures analysis of variance (ANOVA) with one between factor (group) and one within factor (time) was used to identify differences in the RSIs between the two groups (SSC dec group and SSC non-dec group). Mauchly's test of sphericity was used to test the sphericity of the data. A Bonferroni post-hoc multiple comparison was performed if a significant interaction was observed. Finally, a priori multiple comparison tests were performed to identify differences in cardiorespiratory and biomechanical variables between control and transition runs. Specifically, paired-samples t-tests with Bonferroni adjustments were performed because the tests were comparisons that we clearly intended to undertake before collecting any data. Bonferroni-adjusted alpha values (0.05/number of comparisons) were used. For single comparisons, the statistical significance was set at alpha = 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>PPO and Power at VT were significantly higher in triathletes than in runners (p = 0.01 and 0.03, respectively, Supplemental 1). However, there was no difference in fitness level or exercise intensity during the run-cycle-run test between the SSC dec group and the SSC non-dec group (Supplemental 1, 3).</p><p>A two-way repeated measure ANOVA revealed a significant interaction between group (SSC dec, SSC non-dec) and time (pre, post1, and post2) (F 2, 28 = 9.77, p = 0.001). For the SSC dec group, RSI decreased at post1 (14.4 ± 3.8%, p &lt; 0.001) and then recovered at post2 (2.2 ± 5.9%, p = 0.37), but for the SSC non-dec group, RSI did not decrease significantly (3.3 ± 3.2% at post1 and 2.9 ± 6.0% at post2, p = 0.14) (Supplemental 4). The SSC dec group included four triathletes and four runners with decreased RSI after cycling. The SSC non-dec group included five triathletes and three runners without decreased RSI after cycling. One triathlete was excluded from the sub-analysis because RSI could not be measured at maximal effort.</p><p>In paired-samples t-tests (with alpha adjusted to 0.05/2 = 0.025 for two comparisons), for the SSC dec group, average VO 2 , VE, and HR values were increased in the transition run compared with those in the control run (p = 0.02, 0.008, and 0.001, respectively, Table <ref type="table" target="#tab_0">1</ref>). For the SSC non-dec group, HR was different between the control and transition runs (p = 0.005, Table <ref type="table" target="#tab_0">1</ref>), but there were no significant differences in VO 2 and VE (p = 0.56 and 0.12 Table <ref type="table" target="#tab_0">1</ref>). In both groups, there were no significant differences in the gait parameters between the control and transition runs (p = 0.13-0.93, Table <ref type="table" target="#tab_0">1</ref>).</p><p>Differences in cardiorespiratory variables between the control and transition runs gradually decreased over time (Fig. <ref type="figure" target="#fig_1">1</ref>). In pairedsamples t-tests (with alpha adjusted to 0.05/3 = 0.017 for three comparisons), for the SSC non-dec group, during 1-3 min after cycling, VO 2 was increased in the transition run compared with those in the control run (p = 0.002, Table <ref type="table">2</ref>). The changes disappeared after 4-6 and 13-15 min (p = 0.53 and 0.69, respectively, Table <ref type="table">2</ref>). For the SSC dec group, during 1-3 and 4-6 min after cycling, VO 2 was increased (p = 0.01 and 0.003, respectively, Table <ref type="table">2</ref>). The changes disappeared after 13-15 min (p = 0.08, Table <ref type="table">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>The main findings of this study were as follows: (1) the cardiorespiratory responses are increased in participants with a decreased SSC after cycling but not in participants without a decreased SSC, and (2) a decrease in SSC function after cycling recovers after subsequent running.</p><p>SSC conditions produce greater work during shortening than that which result from an isolated concentric muscle action. <ref type="bibr" target="#b10">11</ref> Several mechanisms have been proposed to explain the greater work performed by the muscles and tendons: the utilization of the stored elastic energy in the tendons and the stretch reflex in the muscles. <ref type="bibr" target="#b10">11</ref> Given this perspective and the linear relationship between neural input to the muscle and VO 2 , 14 a decrease in SSC function is likely to cause an increase in VO 2 because less benefit provided by mechanisms such as the utilization of elastic energy and stretch reflex results in additional muscle activity required in subsequent running. In the present study, VO 2 and VE obtained in steady state were increased by cycling in the SSC dec group but not in the SSC non-dec group (Table <ref type="table" target="#tab_0">1</ref>). The effects of exercise load on the SSC function were removed because the exercise load of both groups was the same (Supplemental 3). Therefore, our results suggest that a decrease in SSC function after cycling would be one of the causes of cardiorespiratory changes in running after cycling.</p><p>Regarding the time course of changes in cardiorespiratory and biomechanical variables in running after cycling, the changes are likely to disappear 10 min after cycling. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b24">25</ref> Similarly, in the present study, differences in the cardiorespiratory variables between the control and  transition runs gradually decreased over time (Fig. <ref type="figure" target="#fig_1">1</ref>). For the SSC dec group, during 1-3 min after cycling, VO 2 was increased in the transition run compared with those in the control run (Table <ref type="table">2</ref>). This result needs to be interpreted with caution because the increase in VO 2 may be explained partly by the difference in rest before the start of the control and transition runs (Supplemental 2). In the control run, participants had more rest which resulted in lower, closer to rest oxygen consumption. In contrast, in the transition run, participants had to perform the jumps and switching from running to cycling. During 4-6 min after cycling, VO 2 and VE were increased in the transition run compared with those in the control run. The changes disappeared after 13-15 min (Table <ref type="table">2</ref>). Additionally, RSI decreased after cycling and then recovered after subsequent running in the SSC dec group (Supplemental 4). Considering that SSC function recovered after subsequent running, these results suggest that the changes in cardiorespiratory variables in running after cycling relate to the change in SSC function.</p><p>In contrast, the gait parameters did not change significantly between the control and transition runs in both groups (Table <ref type="table" target="#tab_0">1</ref>). Some studies have reported significantly lower step length, higher step frequency, and higher leg stiffness during transition run than during control run. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> The inconsistency in results may be explained by a cyclinginduced fatigue. In our study, the cycling exercise was low-intensity (90%VT) and short-duration (15 min). However, other studies have reported that high-intensity or long-duration cycling did not change the stride parameters. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b25">26</ref> Further research is needed to confirm this point. In particular, on the kinematics and kinetics factor influencing the stride parameters. <ref type="bibr" target="#b26">27</ref> Although we hypothesized that the effects of cycling on subsequent running would be lower in triathletes than in runners, the effects did not differ between triathletes and runners (Supplemental 5, 6). This suggests that not all triathletes who train with the cycle to run transition are able to suppress negative effects of cycling on subsequent running. However, the ratio of triathletes-to-runners in our sub analysis was unbalanced (SSC dec group: four triathletes and four runners, SSC non-dec group: five triathletes and three runners). Triathletes experience cycling exercise, whereas runners without an experience of cycling may suffer of the unaccustomed nature of cycling, which could affect their SSC capacity. Therefore, these findings should be interpreted with caution. Regarding the effects of specific training on the cycle to run transition, an intervention study is needed to clarify this point.</p><p>The methodological limitation of this study needs to be considered. The change in RSI should be interpreted with caution. <ref type="bibr" target="#b27">28</ref> The RSI is evaluated balance of contact time and jump height because the RSI is calculated as jump height divided by contact time. For the SSC dec group, contact time was extended (4.0 ± 4.1%), and jump height was decreased (-11.1 ± 3.7%) (Supplemental 7). The longer the contact time, the lower the benefit provided by mechanisms such as the stretch reflex on the performing fast SSC movements. <ref type="bibr" target="#b28">29</ref> This suggests that a decrease in jump height for the SSC dec group is not just a decrease in jump height, but also the influence of a longer contact time. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 2</head><p>The changes in VO 2 and VE between control and transition runs. SSC function was quantified by the RSI in the rebound vertical jump test. The RSI reflects SSC capabilities on the overall lower limb (including muscles, tendons, and joints). Therefore, it is unclear how cycling impacts the SSC function on the muscle-tendon unit level, the tendon level or the muscle level. Further research is needed to confirm this point.</p><p>The power in the present study was limited by the small sample size. The results of the paired-samples t-tests need to be interpreted with caution because the power was partially insufficient to detect to the difference between control and transition runs (VO 2 : value of power 0.65 with effect size dz. = 1.14, α = 0.025, n = 8, VE: value of power 0.84 with effect size dz. = 1.41, α = 0.025, n = 8). Further studies are necessary to confirm the effect of a decrease in SSC function after cycling on subsequent running.</p><p>In conclusion, the present study found that triathletes and runners who presented with decrease in SSC function after cycling increased VO 2 , VE, and HR in subsequent running. This finding suggests that the decrease in SSC function would be one of the causes of cardiorespiratory changes in transition running.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>4 7.7 ± 1.5 7.8 ± 1.5 1.5 ± 4.8 Note: Values are mean ± standard deviation. Significantly different from control run, *p &lt; 0.025 (0.05/2). SSC = stretch-shortening cycle, SSC dec = SSC function decreased after cycling, SSC non-dec = SSC function did not decrease after cycling, %Diff = mean percentage difference between control and transition runs, VO 2 = oxygen uptake, RER = respiratory exchange ratio, VE = ventilation, HR = heart rate, SL = step length, SF = step frequency, CT = contact time, FT = flight time, K leg = leg stiffness. K. Takahashi, Y. Shirai, S. Oki et al. Journal of Science and Medicine in Sport 25 (2022) 261-265</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. The time course of VO 2 , VE, and HR during control and transition runs in the SSC dec group (A) and the SSC non-dec group (B). Values are mean. SSC dec = SSC function decreased after cycling, VO 2 = oxygen uptake, VE = ventilation, HR = heart rate.</figDesc><graphic coords="4,104.15,53.18,386.99,313.29" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Variables</head><figDesc>13-15 min 1-3 min 4-6 min 13-15 min VO 2 (%) 5.0 ± 3.9* 2.5 ± 1.6* 1.2 ± 1.6 3.6 ± 2.3* 0.6 ± 2.2 0.5 ± 2.6 VE (%) 9.2 ± 4.6* 5.7 ± 3.4* 4.5 ± 5.0 3.2 ± 4.7 2.4 ± 2.4 0.3 ± 2.5 Note: Values are mean ± standard deviation. Data represents changes in VO 2 and VE during transition run (at 1-3, 4-6, and 13-15 min) from control run values. Significant difference between control and transition runs, *p &lt; 0.017 (0.05/3). SSC = stretch-shortening cycle, SSC dec = SSC function decreased after cycling, SSC nondec = SSC function did not decrease after cycling, VO 2 = oxygen uptake, VE = ventilation.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Cardiorespiratory and biomechanical variables during control and transition runs for each group.</figDesc><table><row><cell>Variables</cell><cell>SSC dec (n = 8)</cell><cell></cell><cell></cell><cell>SSC non-dec (n = 8)</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Control run</cell><cell>Transition run</cell><cell>%Diff</cell><cell>Control run</cell><cell>Transition run</cell><cell>%Diff</cell></row><row><cell>VO 2 (ml/min)</cell><cell>2518 ± 357</cell><cell>2558 ± 371*</cell><cell>1.6 ± 1.6</cell><cell>2743 ± 195</cell><cell>2756 ± 170</cell><cell>0.6 ± 2.1</cell></row><row><cell>RER</cell><cell>0.93 ± 0.02</cell><cell>0.90 ± 0.03</cell><cell>-2.7 ± 1.9</cell><cell>0.93 ± 0.02</cell><cell>0.91 ± 0.01*</cell><cell>-2.9 ± 1.4</cell></row><row><cell>VE (l/min)</cell><cell>67.4 ± 11.5</cell><cell>70.2 ± 11.7*</cell><cell>4.4 ± 2.8</cell><cell>80.4 ± 7.0</cell><cell>81.7 ± 7.0</cell><cell>1.7 ± 2.5</cell></row><row><cell>HR (beats/min)</cell><cell>151 ± 9</cell><cell>159 ± 11*</cell><cell>5.3 ± 2.7</cell><cell>145 ± 9</cell><cell>149 ± 9*</cell><cell>3.0 ± 2.0</cell></row><row><cell>SL (m/step)</cell><cell>1.12 ± 0.06</cell><cell>1.12 ± 0.07</cell><cell>0.0 ± 1.3</cell><cell>1.16 ± 0.14</cell><cell>1.16 ± 0.13</cell><cell>0.8 ± 1.6</cell></row><row><cell>SF (steps/s)</cell><cell>2.91 ± 0.17</cell><cell>2.91 ± 0.18</cell><cell>0.0 ± 1.3</cell><cell>2.92 ± 0.15</cell><cell>2.90 ± 0.15</cell><cell>-0.7 ± 1.6</cell></row><row><cell>CT (s)</cell><cell>0.25 ± 0.02</cell><cell>0.25 ± 0.02</cell><cell>-0.8 ± 1.9</cell><cell>0.25 ± 0.03</cell><cell>0.25 ± 0.03</cell><cell>-0.1 ± 1.8</cell></row><row><cell>FT (s)</cell><cell>0.09 ± 0.02</cell><cell>0.09 ± 0.02</cell><cell>2.6 ± 8.5</cell><cell>0.09 ± 0.03</cell><cell>0.10 ± 0.03</cell><cell>5.8 ± 9.9</cell></row><row><cell>K leg (kN/m)</cell><cell>7.1 ± 1.8</cell><cell>7.3 ± 1.9</cell><cell>2.8 ± 6.</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>This study was supported by a <rs type="grantName">Grant-in-Aid for JSPS Research Fellow</rs> (No. <rs type="grantNumber">18J11595</rs>). We would like to thank <rs type="institution">Editage</rs> (<ref type="url" target="www.editage.jp">www.editage.jp</ref>) for English language editing.</p></div>
+			</div>
+			<div type="funding">
+<div><head>Funding information</head><p>This study was supported by a <rs type="grantName">Grant-in-Aid for JSPS Research Fellow</rs> (No. <rs type="grantNumber">18J11595</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_nc9qVtT">
+					<idno type="grant-number">18J11595</idno>
+					<orgName type="grant-name">Grant-in-Aid for JSPS Research Fellow</orgName>
+				</org>
+				<org type="funding" xml:id="_jfyYnpN">
+					<idno type="grant-number">18J11595</idno>
+					<orgName type="grant-name">Grant-in-Aid for JSPS Research Fellow</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of interest statement</head><p>None.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Confirmation of ethical compliance</head><p>This study was approved by the research ethics committee of the University of Tsukuba (Ref No., Tai 30-139).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Supplementary data</head><p>Supplementary data to this article can be found online at <ref type="url" target="https://doi.org/10.1016/j.jsams.2021.09.004">https://doi.  org/10.1016/j.jsams.2021.09.004</ref>.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Ventilatory responses during experimental cyclerun transition in triathletes</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Gallais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Boussana</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/00005768-199910000-00010</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1422" to="1428" />
+			<date type="published" when="1999">1999. 1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hue O, Gallais DL, Boussana A et al. Ventilatory responses during experimental cycle- run transition in triathletes. 1999, Med Sci Sports Exerc 1999;31(10):1422-1428. doi: 10.1097/00005768-199910000-00010.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Neuromuscular control and exercise-related leg pain in triathletes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Chapman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Hodges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Briggs</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="233" to="243" />
+			<date type="published" when="2010">2010. 2010</date>
+		</imprint>
+	</monogr>
+	<note>b013e3181b07e91</note>
+	<note type="raw_reference">Chapman AR, Hodges PW, Briggs AM et al. Neuromuscular control and exercise-re- lated leg pain in triathletes. 2010, Med Sci Sports Exerc 2010;42(2):233-243. doi:10. 1249/MSS.0b013e3181b07e91.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Physiological and biomechanical adaptations to the cycle to run transition in Olympic triathlon: review and practical recommendations for training</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Millet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">E</forename><surname>Vleck</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bjsm.34.5.384</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="384" to="390" />
+			<date type="published" when="2000">2000. 2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Millet GP, Vleck VE. Physiological and biomechanical adaptations to the cycle to run transition in Olympic triathlon: review and practical recommendations for training. 2000, Br J Sports Med 2000;34(5):384-390. doi:10.1136/bjsm.34.5.384.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Performance level and cardiopulmonary responses during a cycle-run trial</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Gallais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Boussana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1055/s-2000-8883</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="250" to="255" />
+			<date type="published" when="2000">2000. 2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hue O, Le Gallais D, Boussana A et al. Performance level and cardiopulmonary re- sponses during a cycle-run trial. 2000, Int J Sports Med 2000;21(4):250-255. doi:10. 1055/s-2000-8883.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Alterations in running economy and mechanics after maximal cycling in triathletes: influence of performance level</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Millet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Millet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="127" to="132" />
+			<date type="published" when="2000">2000. 2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Millet GP, Millet GY, Hofmann MD et al. Alterations in running economy and me- chanics after maximal cycling in triathletes: influence of performance level. 2000, Int J Sports Med 2000;21(2):127-132.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Is moderate intensity cycling sufficient to induce cardiorespiratory and biomechanical modifications of subseque nt running?</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Dawber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lepers</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0000000000001556</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1078" to="1086" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Walsh JA, Dawber JP, Lepers R et al. Is moderate intensity cycling sufficient to in- duce cardiorespiratory and biomechanical modifications of subseque nt running?, J Strength Cond Res 2017;31(4):1078-1086. doi:10.1519/JSC.0000000000001556.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Running stride length and rate are changed and mechanical efficiency is preserved after cycling in middle-level triathletes</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Da Rosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>De Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Ardigò</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-019-54912-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">18422</biblScope>
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">da Rosa RG, de Oliveira HB, Ardigò LP et al. Running stride length and rate are changed and mechanical efficiency is preserved after cycling in middle-level triath- letes. 2019, Sci Rep 2019;9(1):18422. doi:10.1038/s41598-019-54912-6.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Spring-mass behavior and electromyographic activity evolution during a cycle-run test to exhaustion in triathletes</title>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Meur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dorel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rabita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jelekin.2012.04.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyoqr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="835" to="844" />
+			<date type="published" when="2012">2012. 2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Le Meur Y, Dorel S, Rabita G et al. Spring-mass behavior and electromyographic activ- ity evolution during a cycle-run test to exhaustion in triathletes. 2012, J Electromyoqr Kinesiol 2012;22(6):835-844. doi:10.1016/j.jelekin.2012.04.011.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Change in running kinematics after cycling are related to alterations in running economy in triathletes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bonacci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">U</forename><surname>Sunders</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jsams.2010.02.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sci Med Sport</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="460" to="464" />
+			<date type="published" when="2010">2010. 2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bonacci J, Green D, Sunders PU et al. Change in running kinematics after cycling are related to alterations in running economy in triathletes. 2010, J Sci Med Sport 2010;13 (4):460-464. doi:10.1016/j.jsams.2010.02.002.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Effects of cycling alone or in a sheltered position on subsequent running performance during a triathlon</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hausswirth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lehénaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dréano</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/00005768-199904000-00018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="599" to="604" />
+			<date type="published" when="1999">1999. 1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hausswirth C, Lehénaff D, Dréano P et al. Effects of cycling alone or in a sheltered po- sition on subsequent running performance during a triathlon. 1999, Med Sci Sports Exerc 1999;31(4):599-604. doi:10.1097/00005768-199904000-00018.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Stretch-shortening cycle: a powerful model to study normal and fatigued muscle</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Komi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0021-9290(00)00064-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1197" to="1206" />
+			<date type="published" when="2000">2000. 2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Komi PV. Stretch-shortening cycle: a powerful model to study normal and fatigued muscle. 2000, J Biomech 2000;33(10):1197-1206. doi:10.1016/s0021-9290(00) 00064-6.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Relationship between jumping ability and running performance in events of varying distance</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hudgins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Scharfenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Triplett</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0b013e31827e136f</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="563" to="567" />
+			<date type="published" when="2013">2013. 2013</date>
+		</imprint>
+	</monogr>
+	<note>b013e31827e136f</note>
+	<note type="raw_reference">Hudgins B, Scharfenberg J, Triplett NT et al. Relationship between jumping ability and running performance in events of varying distance. 2013, J Strength Cond Res 2013;27 (3):563-567. doi:10.1519/JSC.0b013e31827e136f.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Stretch-shortening cycle function of lower limbs after cycling in triathletes</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shirai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nabekura</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/jsc.0000000000003832</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<date type="published" when="2020">2020. 2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Takahashi K, Shirai Y, Nabekura Y. Stretch-shortening cycle function of lower limbs after cycling in triathletes. 2020, J Strength Cond Res 2020. doi:10.1519/jsc. 0000000000003832.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Integrated EMG and oxygen uptake during dynamic contractions of human muscles</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bigland-Ritchie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Woods</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jappl.1974.36.4.475</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="475" to="479" />
+			<date type="published" when="1974">1974. 1974</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bigland-Ritchie B, Woods JJ. Integrated EMG and oxygen uptake during dynamic con- tractions of human muscles. 1974, J Appl Physiol 1974;36(4):475-479. doi:10.1152/ jappl.1974.36.4.475.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The transition from aerobic to anaerobic metabolism</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Skinner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Mclellan</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02701367.1980.10609285</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Res Q Exerc Sport</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="234" to="248" />
+			<date type="published" when="1980">1980. 1980</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Skinner JS, McLellan TM. The transition from aerobic to anaerobic metabolism. 1980, Res Q Exerc Sport 1980;51(1):234-248. doi:10.1080/02701367.1980.10609285.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The relation of ventilation to metabolic rate during moderate exercise in man</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Whipp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wasserman</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00421087</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol Occup Physiol</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="97" to="108" />
+			<date type="published" when="1980">1980. 1980</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davis JA, Whipp BJ, Wasserman K. The relation of ventilation to metabolic rate during moderate exercise in man. 1980, Eur J Appl Physiol Occup Physiol 1980;44(2):97-108. doi:10.1007/BF00421087.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A new method for detecting anaerobic threshold by gas exchange</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Beaver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wasserman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Whipp</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jappl.1986.60.6.2020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2020" to="2027" />
+			<date type="published" when="1986">1986. 1986</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beaver WL, Wasserman K, Whipp BJ. A new method for detecting anaerobic thresh- old by gas exchange. 1986, J Appl Physiol 1986;60(6):2020-2027. doi:10.1152/jappl. 1986.60.6.2020.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Agreement between the spatiotemporal gait parameters from two different wearable devices and high-speed video analysis</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>García-Pinillos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Latorre-Román</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Soto-Hermoso</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0222872</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">222872</biblScope>
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">García-Pinillos F, Latorre-Román PA, Soto-Hermoso VM et al. Agreement between the spatiotemporal gait parameters from two different wearable devices and high-speed video analysis. 2019, PLoS One 2019;14(9):e0222872. doi:10.1371/journal.pone. 0222872.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A simple method for measuring stiffness during running</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dalleau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kyrolainen</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/jab.21.2.167</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Biomech</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="167" to="180" />
+			<date type="published" when="2005">2005. 2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morin JB, Dalleau G, Kyrolainen H et al. A simple method for measuring stiffness dur- ing running. 2005, J Appl Biomech 2005;21(2):167-180. doi:10.1123/jab.21.2.167.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Using stiffness to assess injury risk: comparison of methods quantifying stiffness and their reliability in triathletes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Lorimer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jwl</forename><surname>Keogh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Hume</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.5845</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">5845</biblScope>
+			<date type="published" when="2018">2018. 2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lorimer AV, Keogh JWL, Hume PA. Using stiffness to assess injury risk: comparison of methods quantifying stiffness and their reliability in triathletes. 2018, PeerJ 2018;30 (6):e5845. doi:10.7717/peerj.5845.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Storage of elastic energy in skeletal muscles in man</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Asmussen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bonde-Petersen</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1748-1716.1974.tb05693.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="385" to="392" />
+			<date type="published" when="1974">1974. 1974</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Asmussen E, Bonde-Petersen F. Storage of elastic energy in skeletal muscles in man. 1974, Acta Physiol 1974;91(3):385-392. doi:10.1111/j.1748-1716.1974.tb05693.x.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Laboratory strength assessment of athletes</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Young</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">New Stud Athl</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="89" to="96" />
+			<date type="published" when="1995">1995. 1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Young W. Laboratory strength assessment of athletes. 1995, New Stud Athl 1995;10: 89-96.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The biomechanics of vertical hopping: a review</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lamontagne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kennedy</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/15438627.2013.825795</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Res Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="380" to="394" />
+			<date type="published" when="2013">2013. 2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lamontagne M, Kennedy MJ. The biomechanics of vertical hopping: a review. 2013, Res Sports Med 2013;21(4):380-394. doi:10.1080/15438627.2013.825795.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">G*power 3: a flexible statistical power analysis program for the social, behavioral, and biomedical sciences</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Faul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Erdfelder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Lang</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/bf03193146</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Behav Res Methods</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="175" to="191" />
+			<date type="published" when="2007">2007. 2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Faul F, Erdfelder E, Lang AG et al. G*power 3: a flexible statistical power analysis pro- gram for the social, behavioral, and biomedical sciences. 2007, Behav Res Methods 2007;39(2):175-191. doi:10.3758/bf03193146.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Acute effects of cycling on running step length and step frequency</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Gottschall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Palmer</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/00124278-200002000-00017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="97" to="101" />
+			<date type="published" when="2000">2000. 2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gottschall JS, Palmer BM. Acute effects of cycling on running step length and step fre- quency. 2000, J Strength Cond Res 2000;14(1):97-101. doi:10.1519/00124278- 200002000-00017.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The influence of prior cycling on biomechanical and cardiorespiratory response profles during running in triathletes</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Gallais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chollet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+		<idno type="DOI">10.1007/s004210050306</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="98" to="105" />
+			<date type="published" when="1998">1998. 1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hue O, Le Gallais D, Chollet D et al. The influence of prior cycling on biomechanical and cardiorespiratory response profles during running in triathletes. 1998, Eur J Appl Physiol 1998;77(1-2):98-105. doi:10.1007/s004210050306.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The biomechanics of running</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Novacheck</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0966-6362(97)00038-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Gait Posture</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="77" to="95" />
+			<date type="published" when="1998">1998. 1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Novacheck TF. The biomechanics of running. 1998, Gait Posture 1998;7(1):77-95. doi: 10.1016/s0966-6362(97)00038-6.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Reactive strength index: a poor indicator of reacti ve strength?</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Healy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Kenny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Harrison</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2017-0511</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="802" to="809" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Healy R, Kenny IC, Harrison AJ. Reactive strength index: a poor indicator of reacti ve strength?, Int J Sports Physiol Perform 2018;13(6):802-809. doi:10.1123/ijspp.2017- 0511.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The use of contact time and the reactive strength index to optimize fast strech-shortening cycle training</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Flanagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Comyns</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/SSC.0b013e318187e25b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Strength Cond J</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="32" to="38" />
+			<date type="published" when="2008">2008. 2008</date>
+		</imprint>
+	</monogr>
+	<note>b013e318187e25b</note>
+	<note type="raw_reference">Flanagan EP, Comyns TM. The use of contact time and the reactive strength index to optimize fast strech-shortening cycle training. 2008, Strength Cond J 2008;30 (5):32-38. doi:10.1519/SSC.0b013e318187e25b.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

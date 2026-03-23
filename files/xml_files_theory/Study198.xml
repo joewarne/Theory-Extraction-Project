@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Influence of unilateral and bilateral knee extension fatigue protocols on inter-limb asymmetries assessed through countermovement jumps</title>
+				<funder ref="#_spvkWRz #_4cT2qum #_GDx8cCK #_B5hVTN9 #_Mkycd2S #_nXCpTSt #_nS3QcJP #_Z2dscmM #_MTjzZj8 #_hJh2BUF #_HZ6VszJ #_qHCCXNN #_7MM3UqE #_xUvhSvD #_mxJGbCp #_ktHEQjz #_2jaN58J #_kK63qJQ">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_QrbUwAh #_AwzeCKF">
+					<orgName type="full">Hopkins</orgName>
+				</funder>
+				<funder ref="#_uytuYzY">
+					<orgName type="full">Serbian Scientific Research Fund</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Danica</forename><surname>Janicijevic</surname></persName>
+							<idno type="ORCID">0000-0001-9925-7751</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Sports Science</orgName>
+								<orgName type="institution">Ningbo University</orgName>
+								<address>
+									<settlement>Ningbo</settlement>
+									<country>China;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Research Academy of Human Biomechanics</orgName>
+								<orgName type="institution" key="instit2">The Affiliated Hospital of Medical School of Ningbo University</orgName>
+								<orgName type="institution" key="instit3">Ningbo University</orgName>
+								<address>
+									<settlement>Ningbo</settlement>
+									<country>China;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yaodong</forename><surname>Gu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Sports Science</orgName>
+								<orgName type="institution">Ningbo University</orgName>
+								<address>
+									<settlement>Ningbo</settlement>
+									<country>China;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Research Academy of Human Biomechanics</orgName>
+								<orgName type="institution" key="instit2">The Affiliated Hospital of Medical School of Ningbo University</orgName>
+								<orgName type="institution" key="instit3">Ningbo University</orgName>
+								<address>
+									<settlement>Ningbo</settlement>
+									<country>China;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nejc</forename><surname>Sarabon</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Faculty of Health Sciences</orgName>
+								<orgName type="institution">University of Primorska</orgName>
+								<address>
+									<settlement>Izola</settlement>
+									<country>Slovenia;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">InnoRenew CoE</orgName>
+								<address>
+									<addrLine>Human Health Department</addrLine>
+									<settlement>Izola</settlement>
+									<country>Slovenia;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Science to Practice</orgName>
+								<orgName type="laboratory">S2P</orgName>
+								<address>
+									<settlement>Ltd</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Darjan</forename><surname>Smajla</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Faculty of Health Sciences</orgName>
+								<orgName type="institution">University of Primorska</orgName>
+								<address>
+									<settlement>Izola</settlement>
+									<country>Slovenia;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">InnoRenew CoE</orgName>
+								<address>
+									<addrLine>Human Health Department</addrLine>
+									<settlement>Izola</settlement>
+									<country>Slovenia;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Žiga</forename><surname>Kozinc</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Faculty of Health Sciences</orgName>
+								<orgName type="institution">University of Primorska</orgName>
+								<address>
+									<settlement>Izola</settlement>
+									<country>Slovenia;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Amador</forename><surname>García-Ramos</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Faculty of Sport Sciences</orgName>
+								<orgName type="laboratory">Laboratory for Motor Control and Motor Behavior</orgName>
+								<address>
+									<settlement>Ljubljana</settlement>
+									<country>Slovenia;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Physical Education and Sport</orgName>
+								<orgName type="institution">University of Granada</orgName>
+								<address>
+									<settlement>Granada</settlement>
+									<country>Spain;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department" key="dep1">Faculty of Education</orgName>
+								<orgName type="department" key="dep2">Department of Sports Sciences and Physical Conditioning</orgName>
+								<orgName type="institution">Universidad Catolica de la Santísima Concepcion</orgName>
+								<address>
+									<settlement>Concepción</settlement>
+									<country key="CL">Chile</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="department">Faculty of Sports Science</orgName>
+								<orgName type="institution">Ningbo University</orgName>
+								<address>
+									<settlement>Ningbo</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Influence of unilateral and bilateral knee extension fatigue protocols on inter-limb asymmetries assessed through countermovement jumps</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">69CF53913B5B267A498DB64ABAF0FDE2</idno>
+					<idno type="DOI">10.1080/02640414.2023.2235157</idno>
+					<note type="submission">Received 11 December 2022 Accepted 3 July 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Force platform</term>
+					<term>mean force</term>
+					<term>impulse</term>
+					<term>jump height</term>
+					<term>vertical jump</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This study explores the sensitivity of jump type (unilateral and bilateral) and output variable (mean force, propulsive impulse, and jump height) to detect the changes in inter-limb asymmetries induced by unilateral and bilateral fatigue protocols. Thirty-eight individuals performed two testing sessions that consisted of (I) nine "pre-fatigued" countermovement jumps (CMJs; three bilateral and six unilateral [three with each leg]), (II) fatigue protocol and (III) nine "post-fatigued" CMJs. The testing sessions only differed in the fatigue protocol (five sets to failure against the 15-repetition maximum load using either the unilateral or bilateral knee extension exercise). The magnitude of all CMJ-derived variables (mean force, impulse, and jump height) decreased following both unilateral (p ≤ 0.002) and bilateral fatigue protocols (p ≤ 0.018). However, only unilateral protocol accentuated inter-limb asymmetries, which was detected for all variables during the unilateral CMJ (from -4.33% to -2.04%; all p &lt; 0.05) but not during the bilateral CMJ (from -0.64% to 0.54%; all p &gt; 0.05). The changes in inter-limb asymmetries following the unilateral and bilateral fatigue protocols were not significantly correlated between the unilateral and bilateral CMJs (r s ≤ 0.172). The unilateral CMJ should be recommended for the testing purposes over the bilateral CMJ due to its greater sensitivity to detect the selective effects of fatigue.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The concept of inter-limb asymmetries has been widely used in the scientific literature when exploring the differences in performance of one leg with respect to the other <ref type="bibr">(Bishop et al., 2018)</ref>. Inter-limb asymmetries can be induced by the specific characteristics of the sports technique (e.g., triple jump) or by the unilateral nature of the sport (e.g., kicking a ball using the same leg in soccer). While the presence of inter-limb asymmetries may not be a negative attribute, there is currently no evidence that reducing minor sport-induced inter-limb asymmetries improves sports performance <ref type="bibr" target="#b9">(Parkinson et al., 2021)</ref>. However, there is strong evidence that excessive inter-limb asymmetries can increase the likelihood of injury and even impair physical performance <ref type="bibr">(Bishop et al., 2018;</ref><ref type="bibr">Bromley et al., 2021)</ref>. A relevant methodological factor related to the description of inter-limb asymmetries is that they have been commonly tested in a rested state <ref type="bibr" target="#b4">(Kozinc et al., 2020;</ref><ref type="bibr" target="#b7">Madruga-Parera et al., 2021)</ref>. This is problematic because during practice athletes are frequently exposed to high-intensity efforts that inevitably lead to fatigue, with fatigue being a potential modulator of inter-limb asymmetries <ref type="bibr">(Bishop, McAuley, et al., 2021;</ref><ref type="bibr">Guan et al., 2021;</ref><ref type="bibr" target="#b2">Kons et al., 2021)</ref>. Therefore, it is important to evaluate inter-limb asymmetries when athletes are fatigued to obtain more comprehensive information about their inter-limb asymmetries during practice.</p><p>Different protocols have been used for assessing inter-limb asymmetries under the influence of fatigue. For example, <ref type="bibr">Bromley et al. (2021)</ref> and <ref type="bibr" target="#b2">Kons et al. (2021)</ref> assessed interlimb asymmetries following simulated and real sports matches, while other authors assessed inter-limb asymmetries following well-controlled fatigue protocols such as 10 sets of 10 bilateral countermovement jumps (CMJ) <ref type="bibr">(Kons et al., 2020)</ref>, 4 sets of 50 drop jumps <ref type="bibr" target="#b10">(Wang et al., 2022)</ref> and short repetitive sprints <ref type="bibr">(Bishop, McAuley, et al., 2021)</ref>. However, a common characteristic of all these fatigue protocols is that they targeted both legs similarly, while sports activities sometimes require a greater involvement of one leg with respect to the other. Greater involvement of one limb with respect to the other during real practice (e.g., long jump, handball, soccer, etc.) can potentially induce an increment in inter-limb asymmetries. Therefore, it would be necessary to compare the effects of both bilateral and unilateral fatigue protocols on inter-limb asymmetries and to elucidate whether the unilateral fatigue protocol further accentuates inter-limb asymmetries.</p><p>Unilateral and bilateral CMJs have been the two most widely used tests to quantify inter-limb asymmetries due to the greater accessibility of commercially available dual-force platforms, the simplicity of the testing protocols and the high reliability of the derived mechanical variables <ref type="bibr">(Heishman et al., 2019;</ref><ref type="bibr" target="#b5">Lake et al., 2020)</ref>. Although seemingly comparable, unilateral and bilateral CMJs reveal different limb dominance characteristics and present poor consistency in the direction of inter-limb asymmetries, which is why their interchangeable use has been discouraged <ref type="bibr" target="#b0">(Benjanuvatra et al., 2013;</ref><ref type="bibr" target="#b1">Bishop et al., 2022)</ref>. One possible reason may be the fact that the execution of unilateral CMJs depends mainly on the strength and power attributes of the tested leg, while the performance of bilateral CMJs also depends on the coordination of the pelvis and lower limbs during the different phases of the jump <ref type="bibr" target="#b0">(Benjanuvatra et al., 2013)</ref>. However, no study has examined which CMJ type (unilateral or bilateral) presents greater sensitivity to detect the expected higher increment in inter-limb asymmetries induced by unilateral compared to bilateral fatigue protocols.</p><p>Besides choosing an appropriate CMJ type, it is also important to consider the mechanical variable used to compute inter-limb asymmetries. Research has shown that the magnitude and direction of inter-limb asymmetries are influenced by the CMJ variable under consideration (e.g., mean force or peak force) <ref type="bibr" target="#b5">(Lake et al., 2020)</ref>. When unilateral CMJ height was used to quantify inter-limb asymmetries, <ref type="bibr">Bishop, Lake, et al. (2021)</ref> and <ref type="bibr" target="#b2">Kons et al. (2021)</ref> reported a significant increment in inter-limb asymmetries following short repetitive sprints and simulated judo matches, while <ref type="bibr">Bromley et al. (2021)</ref> argued that unilateral CMJ height is not a sensitive metric for monitoring inter-limb asymmetries following a soccer match. When peak force was used to quantify inter-limb asymmetries, <ref type="bibr">Bromley et al. (2021)</ref> and <ref type="bibr">Kons et al. (2020)</ref> revealed a significant increase following a soccer match and a bilateral CMJ fatigue protocol, but inter-limb asymmetries were not affected following a simulated judo match <ref type="bibr" target="#b2">(Kons et al., 2021)</ref>. The inter-limb asymmetries using peak and mean power were increased after simulated judo matches <ref type="bibr" target="#b2">(Kons et al., 2021)</ref>, but not following a bilateral CMJ fatigue protocol <ref type="bibr">(Kons et al., 2020)</ref>. The inter-limb asymmetries using impulse and peak velocity were not affected by judo matches or bilateral CMJ fatigue protocols <ref type="bibr">(Kons et al., 2020</ref><ref type="bibr" target="#b2">(Kons et al., , 2021))</ref>. Therefore, it is also important to discern which of the different CMJ-derived variables that can be obtained from the unilateral and bilateral CMJ types may be most sensitive under fatigued conditions.</p><p>The purpose of this research was (I) to explore whether two highly-demanding fatigue protocols, one targeting only one leg (unilateral fatigue protocol) and another one targeting both legs simultaneously (bilateral fatigue protocol) induce selective effects on inter-limb asymmetries and (II) to determine the sensitivity of jump type (unilateral CMJ or bilateral CMJ) and output variable (mean force, propulsive impulse, or jump height) to detect the expected selective changes in inter-limb asymmetries for both fatigue protocols. We hypothesised that (I) inter-limb asymmetries would increase after both the unilateral and bilateral fatigue protocols and (II) the unilateral fatigue protocol would induce a selective impairment in the performance of the exercised leg, while the bilateral fatigue protocol would indistinctly affect one leg more than the other. We also hypothesised that (III) the unilateral CMJ would be more sensitive to detect the expected changes in inter-limb asymmetries than the bilateral CMJ, while (IV) the three CMJ-derived mechanical variables would present a comparable sensitivity to detect the changes in inter-limb asymmetries.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Thirty-eight young healthy and physically active individuals, 27 men (age: 22.6 ± 3.7 years; body mass: 74.7 ± 7.2 kg; body height: 1.81 ± 0.05 m) and 11 women (age: 21.9 ± 2.8 years; body mass: 57.3 ± 7.7 kg; body height: 1.66 ± 0.09 m) volunteered to participate in this study (data presented as means ± standard deviations <ref type="bibr">[SD]</ref>). All participants were sport science students and did not present any injury that could compromise the results of the present study. The participants were aware of the study's purpose and protocol, and all of them signed an informed consent form before the commencement of the study. The study protocol adhered to the tenets of the Declaration of Helsinki and was approved by the Institutional Review Board of the University of Granada (number:1706/CEIH/2020).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Study design</head><p>A crossover pre-post study design was used to explore the effect of unilateral and bilateral knee extension fatigue protocols on the changes in inter-limb asymmetries. Participants completed one familiarisation session and two testing sessions separated by 72-96 h of rest. The familiarisation session was used for practicing the unilateral and bilateral CMJs and also for determining the 15-repetition maximum (RM) load during the unilateral and bilateral knee extension exercises. The two testing sessions consisted of (I) warm-up, (II) nine "pre-fatigued" CMJs (three bilateral and six unilateral [three with each leg]), (III) knee extension fatigue protocol and (IV) nine "post-fatigued" CMJ (three bilateral and six unilateral [three with each leg] jumps). The two testing sessions only differed in the fatigue protocol applied: unilateral or bilateral leg extension exercise. The order of the two fatigue protocols was randomised using the Research Randomizer website (<ref type="url" target="https://www.randomizer.org">https://www.randomizer.  org</ref>). All sessions were performed at the university research laboratory. Participants attended all three sessions at the same time of the day and under similar environmental conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Familiarization procedures (session 1)</head><p>Upon the entrance to the laboratory, participants were questioned about their training history and thereafter performed a general warm-up consisting of 5 min of running at a selfselected pace. Following a general warm-up, participants were familiarised with the unilateral and bilateral CMJ types. Participants performed a minimum of three trials of each CMJ type (bilateral CMJ, left unilateral CMJ, and right unilateral CMJ). Thereafter, they were seated in the chair of the leg extension machine which was adjusted according to their anthropometric characteristics. Considering participants' training history, the examiner introduced a load and asked participants to perform 2-3 knee extension repetitions and to inform the examiner if they believed they could lift that load around 15 times. If they thought that they could perform less or more than 15 repetitions, the magnitude of the load was decreased or increased, respectively. Once they considered the load appropriate, they were asked to perform as many repetitions as possible. If they performed between 13 and 17 repetitions, the load was considered as the 15-RM load, if not, they were asked to perform another set of repetitions to failure after 5 min of rest with a modified load. The same protocol was followed for determining the 15-RM load during the bilateral and unilateral knee extension exercises. The rest between the two exercises was of 10 min.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Testing procedures (sessions 2 and 3)</head><p>The testing sessions started with a general warm-up consisting of 5 min of running at a self-selected pace and dynamic stretching exercises. The specific warm-up consisted of three submaximal trials of each CMJ type (bilateral CMJ, left unilateral CMJ and right unilateral CMJ). Following a 3-min pause, the nine "pre-fatigued" CMJs (three bilateral and six unilateral [three with each leg]) were performed in a randomised order. The CMJs were always performed in the same order by individual subjects. Three minutes after the completion of the last "prefatigued" CMJ, participants were seated in the chair of the leg extension machine and were asked to perform five sets of knee extensions to failure with 1 min of inter-set rest against the 15-RM load determined in session 1. The nine "post-fatigued" CMJs were performed 5 min after completing the last repetition of the leg extension task.</p><p>The two testing sessions only differed in the fatigue protocol applied: unilateral or bilateral knee extension exercise. The leg extension exercise was selected to induce selective fatigue in the main muscles involved in the vertical jump (quadriceps), but limiting the coordination similarities between both tasks. The two fatigue protocols were implemented in a randomised order. The leg involved in the unilateral fatigue protocol was the leg that provided the lowest CMJ height during the unilateral CMJs performed in the first testing session. Participants were verbally motivated to complete the maximum number of repetitions during the fatigue tasks and to jump as high as possible during the CMJ tests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data acquisition and analysis</head><p>Bilateral CMJs were performed on two parallel synchronised force platforms (Kistler, model 9260AA6, Winterthur, Switzerland). Kistler's MARS (Measurement, Analysis and Reporting Software) software was used for synchronously acquiring the force-time signals from both force platforms. The signals were low pass filtered using a 2 nd order Butterworth filter (10 Hz cut-off frequency). Acquired forcetime signals were stored on a computer and later on analysed using a custom-made routine written in the LabView 8.2 software (National Instruments, USA). The program analysed the force-time signal of each force platform separately. The same platform was always used for unilateral CMJs. The beginning of the signal corresponded to the 1.5 s preceding the onset of the countermovement. The initiation of the countermovement phase was 30 ms before the instant in which the force-time signal dropped 5 standard deviations (SD) with respect to the weighing phase. The take-off was determined in the following manner: (I) identification of the minimum vertical ground reaction force (vGRF) value close to the start of the flight phase, (II) selection of 100 ms after the point identified in stage I, (III) calculation of the mean vGRF and SD of the time frame representing the flight phase identified in stage II and finally (IV) the take-off instant was determined as the first force value lower than the mean vGRF plus 5 SD of the flight phase <ref type="bibr">(Janicijevic, Sarabon, et al., 2022)</ref>.</p><p>The average values of mean force (average value of force recorded during the propulsive phase), propulsive impulse (product of mean force and the duration of the propulsive phase) and jump height (calculated by the flight time method) of the three trials performed with each CMJ type (bilateral CMJ, left unilateral CMJ and right unilateral CMJ) performed before and after the knee extension fatigue protocols were used as dependent variables. In addition, unilateral and bilateral interlimb asymmetries were calculated using the following equations.</p><p>Unilateral inter À limb asymmetries ð%Þ ¼ 100</p><formula xml:id="formula_0">Leg max value � Leg min value � À 1 þ 100 Bilateral asymmetry index À 1ð%Þ ¼ leg exercised À leg nonÀ exercised leg exercised þ leg nonÀ exercised x 100</formula><p>Leg max and Leg min refers to the leg that revealed a greater and lower mechanical performance, respectively. The exercised leg refers to the limb that was actively involved in the unilateral knee extension fatigue protocol. Positive inter-limb asymmetry values were always indicators of a higher mechanical performance for the exercised leg.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analyses</head><p>Descriptive data are presented through means and SDs. Shapiro-Wilk test confirmed the normal distribution of mean force, impulse and jump height (P &gt; 0.05), but the inter-limb asymmetry variables were not normally distributed (P &lt; 0.05). To quantify the level of fatigue induced by the fatigue protocols, paired simple t-test, percent difference (% Δ = [set 5 -set 1]/set 5] × 100) and effect sizes (ES) were used to compare the number of repetitions performed in the first and last sets of unilateral and bilateral knee extension fatigue protocols. A three-way repeated measure analysis of variance (ANOVA) (fatigue protocol [unilateral and bilateral] × leg [exercised and non-exercised] × occasion [pre and post]) were applied to the raw values of mean force, impulse and jump height separately for unilateral and bilateral CMJs. Following the ANOVAs, paired sample t-tests and percent difference (%Δ = [post -pre]/pre] × 100) were used to compare the magnitude of the dependent variables before and after the fatigue protocols. Wilcoxon-ranked signed tests were used to compare the magnitude of inter-limb asymmetries before and after the fatigue protocols. The Spearman's rho correlation coefficient (r s ) was used to quantify the magnitude of the associations for the changes in the asymmetries (Δ = post fatigue -pre fatigue) of mean force and impulse between the unilateral and bilateral CMJs. The magnitude of the r s coefficient was interpreted as follows: trivial (0.00-0.09), small (0.10-0.29), moderate (0.30-0.49), large (0.50-0.69), very large (0.70-0.89), nearly perfect (0.90-0.99), and perfect (1.00) <ref type="bibr">(Hopkins et al., 2009)</ref>. Statistical analyses were performed using the software package SPSS (IBM SPSS version 25.0, Chicago, IL, USA). Alpha was set at a p &lt; 0.05 level.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fatigue detected by the number of repetitions</head><p>Both the unilateral and bilateral knee extension protocols were effective at inducing fatigue, which was manifested by the lower number of repetitions performed in the set 5 compared to the set 1 (both P &lt; 0.001). The magnitude of the decrement in the number of repetitions from the set 1 to the set 5 was comparable for the unilateral (Δ = -31.6%; ES = -1.04) and bilateral (Δ = -36.0%; ES = -0.91) fatigue protocols (Figure <ref type="figure" target="#fig_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fatigue detected by unilateral CMJs</head><p>The main effect of the occasion was significant for mean force (F = 17.3, p ≤ 0.001; Figure <ref type="figure" target="#fig_1">2</ref>), impulse (F = 13.4, p ≤ 0.001; Figure <ref type="figure" target="#fig_2">3</ref>) and jump height (F = 10.7, p = 0.002; Figure <ref type="figure" target="#fig_3">4</ref>) due to the lower values at post-fatigue compared to pre-fatigue. The main effects of leg and fatigue protocol never reached statistical significance (all F ≤ 1.2, p ≥ 0.274).</p><p>The interactions leg × occasion (F = 6.1, p = 0.019) for the impulse and protocol × leg for the jump height (F = 4.9, p = 0.033) were significant due to the higher decrement at post-fatigue observed for the exercised leg compared to the non-exercised leg. The triple interaction (fatigue protocol × occasion × leg) was significant only for the mean force (F = 9.2, p = 0.004) due to the higher decrement for the exercised leg observed using unilateral CMJ after unilateral fatigue protocol compared to the decrements of the nonexercised leg. The remaining interactions did not reach statistical significance (all F ≤ 2.9, p ≥ 0.097).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fatigue detected by bilateral CMJs</head><p>The main effect of the occasion was significant for mean force (F = 6.1, p = 0.018) and impulse (F = 10.9, p = 0.002), but not for the jump height (F = 0.0, p = 0.935). The main effects of protocol and leg never reached statistical significance (all F ≤ 2.1, p ≥ 0.157). The protocol × occasion interaction reached statistical  significance for impulse (F = 8.2, p = 0.007) due to the higher decrements at post-fatigue obtained after the bilateral protocol compared to the unilateral protocol. The remaining interactions did not reach statistical significance (all F ≤ 1.6, p ≥ 0.211).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Inter-limb asymmetries</head><p>The unilateral knee extension fatigue protocol promoted significant changes in inter-limb asymmetries for all CMJderived variables assessed during the unilateral CMJ (all p &lt;  0.05) due to a higher deterioration in the mechanical performance of the exercised leg (Table <ref type="table">1</ref>). However, no significant differences (p ≥ 0.195) in inter-limb asymmetries were observed between the pre-fatigue and post-fatigue assessments for the remaining conditions (i.e., unilateral knee extension fatigue protocol assessed by the bilateral CMJ or bilateral knee extension fatigue protocol assessed by both unilateral and bilateral CMJs). The associations of the changes in inter-limb asymmetries (Δ = post fatigue -pre fatigue) between the unilateral and bilateral CMJs for mean force and impulse were non-significant and ranged from trivial to small (r s range = 0.031-0.172; p ≥ 0.301) (Figure <ref type="figure">5</ref>).</p><p>extensions to failure) provoke selective effects on inter-limb asymmetries and to elucidate whether these potential effects could be more successfully tracked using a particular type of CMJ (unilateral or bilateral CMJ) or mechanical variable (mean force, propulsive impulse, and jump height). The main findings revealed that, regardless of the CMJ type considered, the magnitude of all CMJ-derived variables decreased after both the unilateral and bilateral knee extension fatigue protocols. More importantly, the only protocol that promoted an accentuation of inter-limb asymmetries was the unilateral fatigue protocol and the increment in inter-limb asymmetries after performing this protocol was only detected by the unilateral CMJ. These findings indicate that inter-limb asymmetries are sensitive to fatigue, with the unilateral fatigue protocol promoting a higher deterioration in the mechanical performance of the exercised leg, while these selective effects of the fatigue protocol can be detected, regardless of the mechanical variable considered, by the unilateral CMJ but not by the bilateral CMJ.</p><p>Although both fatigue protocols induced significant decrements in all dependent variables, inter-limb asymmetries were only increased after the unilateral fatigue protocol. To our knowledge, only one study has explored the effect of a unilaterally oriented fatigue protocol on inter-limb asymmetries <ref type="bibr">(Janicijevic, Perez-Castilla, et al., 2022)</ref>. Contrary to our results, Janicijevic, <ref type="bibr">Perez-Castilla, et al. (2022)</ref> reported no increments in inter-limb asymmetries following a handball-specific fatigue protocol focused on the leg contralateral to the throwing arm. A possible explanation may lie in the fatigue protocol itself. In the present study, the unilateral fatigue protocol exclusively targeted the knee extensors (i.e., main agonist muscle during the CMJ) of one leg, while the handball-specific fatigue protocol implemented by Janicijevic, <ref type="bibr">Perez-Castilla, et al. (2022)</ref> also involved bilateral high-intensity activities such as repeated sprints. Another possible explanation might be the selection of the participants. It is possible that the female handball players recruited in the study of Janicijevic, <ref type="bibr">Perez-Castilla, et al. (2022)</ref> presented greater fatigue resistance of the leg that was more involved in the fatigue protocol due to the specific prolonged practice of handball. Also, in some tasks women could be less sensitive to fatigue than men <ref type="bibr">(Hunter, 2014)</ref>, while the sample size in our group consisted of male and female sport science students who were not professionally involved in any sport. Therefore, future studies should explore if athletes practicing sports that contain many unilateral activities would also present similar increments in inter-limb asymmetries following the unilateral fatigue protocol used in our study.</p><p>Unlike the unilateral fatigue protocol, the bilateral fatigue protocol did not induce a significant change in inter-limb asymmetries because the magnitude of the decrement of all mechanical variables after the fatigue protocol was comparable for both legs (see Figures <ref type="figure" target="#fig_0">1</ref>, <ref type="figure" target="#fig_1">2</ref>, <ref type="figure" target="#fig_2">3</ref>). The findings of the present study are in line with the study of <ref type="bibr" target="#b6">Lonergan et al. (2018)</ref> who failed to show any significant change in inter-limb asymmetries after a rugby match. Other studies have argued that the changes in inter-limb asymmetries following various bilateral protocols are somewhat metric-dependent <ref type="bibr">(Bromley et al., 2021;</ref><ref type="bibr">Kons et al., 2020</ref><ref type="bibr" target="#b2">Kons et al., , 2021))</ref>. However, the metric-dependent nature of inter-limb asymmetries reported in previous studies was shown to be inconsistent (i.e., certain variables enabled detecting inter-limb asymmetries in some studies, while in other studies other variables were more effective in detecting inter-limb asymmetries). For example, even the findings related to the most commonly used CMJ-derived variables used for assessing inter-limb asymmetries (i.e. jump height, mean force, impulse) were shown to be inconsistent <ref type="bibr">(Bishop, McAuley, et al., 2021;</ref><ref type="bibr">Bromley et al., 2021;</ref><ref type="bibr" target="#b2">Kons et al., 2021)</ref>.</p><p>Confirming our third hypothesis, the unilateral CMJ type was sensitive to detect increments in inter-limb asymmetries following the unilateral fatigue protocol, while the bilateral CMJ type was not. These findings are in line with the results of previous studies suggesting that unilateral and bilateral CMJs should not be used interchangeably for exploring inter-limb asymmetries due to the differences in their sensitivity <ref type="bibr" target="#b0">(Benjanuvatra et al., 2013;</ref><ref type="bibr" target="#b1">Bishop et al., 2022)</ref>. In addition, the vast majority of previous studies suggested that inter-limb asymmetries should be preferably assessed through unilateral jumps because their performance depends almost exclusively on the strength and power attributes of the tested leg, while the performance of bilateral CMJs is more affected by compensatory strategies (e.g., coordination of the pelvis and lower limbs during the different phases of the jump) <ref type="bibr" target="#b0">(Benjanuvatra et al., 2013)</ref>. However, it is true that the unilateral CMJ could not always be the preferable choice since it requires good balance and solid jumping technique <ref type="bibr">(Impellizzeri et al., 2007)</ref>. Therefore, the unilateral CMJ should be the preferable CMJ type for assessing inter-limb asymmetries only when the participants have a proper technique to perform this demanding task.</p><p>Although the selection of CMJ-derived variables resulted to be a crucial factor for revealing inter-limb asymmetries in some studies, the results of our study showed that all CMJ-derived variables were equally sensitive for exploring inter-limb asymmetries under fatigued conditions. This finding is in line with the studies of <ref type="bibr">Bishop, Lake, et al. (2021)</ref> and <ref type="bibr" target="#b2">Kons et al. (2021)</ref>, and contrary to the findings of <ref type="bibr">Kons et al (2020</ref><ref type="bibr" target="#b2">Kons et al ( , 2021) )</ref> who reported that jump height is and impulse is not a sensitive CMJderived metric for exploring inter-limb asymmetries following fatigue protocols. These discrepancies could be attributed to the bilateral nature of the fatigue protocols implemented in these studies. The relevance of unilateral jump height is also supported by previous research demonstrating that this variable is able to detect greater biomechanical asymmetries and readiness to return to sport in patients with anterior cruciate ligament reconstruction <ref type="bibr" target="#b3">(Kotsifaki et al., 2022)</ref>. The simplicity of jump height recording further supports its use to assess physical readiness in different populations. It should be noted that previous studies have also considered peak force as a metric to calculate inter-limb asymmetries <ref type="bibr">(Bishop et al., 2019;</ref><ref type="bibr">Bishop, Lake, et al., 2021;</ref><ref type="bibr">Heishman et al., 2019)</ref>. However, the peak force is known to be more affected by the squat depth than the other mechanical variables reported in this study <ref type="bibr" target="#b8">(Mandic et al., 2015)</ref>. Being possible that squat depth is reduced under conditions of fatigue <ref type="bibr">(Hooper et al., 2013</ref><ref type="bibr">(Hooper et al., , 2014))</ref>, we decided not to report peak force as its value could be even higher after the fatigue protocol if subjects squat shallower.</p><p>Strictly controlled, quantifiable and highly demanding unilateral and bilateral fatigue protocols were applied in the present study to assess their selective effects on inter-limb asymmetries. The leg extension is an open-chain exercise that is useful for inducing well-controlled and selective fatigue in the knee extensor muscles, but it has low ecological validity with respect to common tasks performed by athletes. Therefore, future studies should elucidate whether the findings of this study are applicable to more ecological settings (e.g., unilateral activities commonly performed in training or competitions) or when open-chain exercises (e.g., leg press) are implemented in the fatigue protocol. Finally, it should be noted that our participants were young sport science students (i.e., physically active young adults) of both sexes and the findings of the present study cannot be generalised to other populations (elderly, professional athletes, or people recovering from musculoskeletal injuries).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>Inter-limb asymmetries increased only following a highly demanding unilateral fatigue protocol that targeted the knee extensors of the exercised leg. The increments in inter-limb asymmetries following the unilateral fatigue protocol were detected by all variables collected during the unilateral CMJ. However, none of the variables collected during the bilateral CMJ were sensitive enough to detect the selective fatigue induced by the unilateral fatigue protocol. Additionally, the changes in inter-limb asymmetries after the fatigue protocols were not significantly correlated between the unilateral and bilateral CMJs, further supporting the idea that unilateral and bilateral CMJs should not be used interchangeably for assessing inter-limb asymmetries. Collectively, our findings support the use of the unilateral CMJ over the bilateral CMJ to assess inter-limb asymmetries under fatigued conditions.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Numbers of repetitions completed to failure from the set 1 to the set 5 following the unilateral (full circles) and bilateral (empty circles) knee extension fatigue protocols. Numbers represent the comparison between the first and last set for each fatigue protocol. p, statistical significance; Δ, percent difference ([set 5 -set 1]/set 5] × 100); ES, Cohen's d effect size ([mean set 5 -mean set 1]/SD both). Data presented as means and standard deviation (SD).</figDesc><graphic coords="5,59.98,214.10,226.80,139.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Comparison of mean force values collected during unilateral (upper panels) and bilateral (lower panels) countermovement jumps between the measurements performed before and after the unilateral (left panels) and bilateral (right panels) fatigue protocols. p, p-value obtained through paired samples t-tests; Δ, percent difference ([post -pre]/pre] × 100).</figDesc><graphic coords="5,63.78,447.18,481.92,272.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Comparison of propulsive impulse values collected during unilateral (upper panels) and bilateral (lower panels) countermovement jumps between the measurements performed before and after the unilateral (left panels) and bilateral (right panels) fatigue protocols. p, p-value obtained through paired samples t-tests; Δ, percent difference ([post -pre]/pre] × 100).</figDesc><graphic coords="6,63.78,53.23,481.92,266.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Comparison of jump height values collected during unilateral (upper panels) and bilateral (lower panels) countermovement jumps between the measurements performed before and after the unilateral (left panels) and bilateral (right panels) fatigue protocols. p, p-value obtained through paired samples t-tests; Δ, percent difference ([post -pre]/pre] × 100).</figDesc><graphic coords="6,77.90,382.77,453.60,254.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="7,155.91,391.26,297.60,328.80" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>The authors would like to extend their utmost appreciation to all participants who actively contributed to the successful completion of this study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Disclosure statement</head><p>No potential conflict of interest was reported by the author(s).</p></div>
+			</div>
+
+
+			<div type="funding">
+<div><head>Funding</head><p>This work was funded by the <rs type="funder">Serbian Scientific Research Fund</rs> grant no. <rs type="grantNumber">451-03-68/2022-14/200154</rs> of Strength and Conditioning Research, 36(6), <rs type="grantNumber">1660-1666</rs>. <ref type="url" target="https://doi.org/10.1519/JSC.0000000000003679">https://doi.org/  10.1519/JSC.0000000000003679</ref>  Bishop, C., Lake, J., Loturco, I., Papadopoulos, K., Turner, A., &amp; Read, P. (2021).</p><p>Interlimb asymmetries: The need for an individual approach to data analysis. Journal of Strength and Conditioning Research, 35(3), <rs type="grantNumber">695-701</rs>. <ref type="url" target="https://doi.org/10.1519/JSC.0000000000002729">https://doi.org/10.1519/JSC.0000000000002729</ref>  Bishop, C., McAuley, W., Read, P., <rs type="person">Gonzalo-Skok</rs>, O., Lake, J., <rs type="person">&amp; Turner</rs>, A.  (2021). Acute effect of repeated sprints on interlimb asymmetries during unilateral jumping. Journal of Strength and Conditioning Reseach, 35(8), <rs type="grantNumber">2127-2132</rs>. <ref type="url" target="https://doi.org/10.1519/JSC.0000000000003109">https://doi.org/10.1519/JSC.0000000000003109</ref> Bishop, C., Read, P., Chavda, S., Jarvis, P., <rs type="person">&amp; Turner</rs>, A. (2019). Using unilateral strength, power and reactive strength tests to detect the magnitude and direction of asymmetry: A test-retest design. Sports, 7(3), 58. <ref type="url" target="https://doi.org/10.3390/sports7030058">https://doi.  org/10.3390/sports7030058</ref> Bishop, C., Turner, A., &amp; Read, P. (2018). Effects of inter-limb asymmetries on physical and sports performance: A systematic review. Journal of Sports Sciences, 36(10), <rs type="grantNumber">1135-1144</rs>. <ref type="url" target="https://doi.org/10.1080/02640414.2017.1361894">https://doi.org/10.1080/02640414.2017.  1361894</ref> Bromley, T., Turner, A., Read, P., Lake, J., Maloney, S., Chavda, S., <rs type="person">&amp; Bishop</rs>, C. (2021). Effects of a competitive soccer match on jump performance and interlimb asymmetries in elite academy soccer players. Journal of Strength and Conditioning Research, 35(6), <rs type="grantNumber">1707-1714</rs>. <ref type="url" target="https://doi.org/10.1519/JSC.0000000000002951">https://doi.org/  10.1519/JSC.0000000000002951</ref> Guan, <rs type="person">Y., Bredin</rs>, S., Jiang, Q., Taunton, J., Li, Y., Wu, N., Wu, L., <rs type="person">&amp; Warburton</rs>, D. (2021). The effect of fatigue on asymmetry between lower limbs in functional performances in elite child taekwondo athletes. Journal of Orthopaedic Surgery and Research, 16(1), <rs type="grantNumber">1-11</rs>. <ref type="url" target="https://doi.org/10.1186/s13018-020-02175-7">https://doi.org/10.1186/s13018-020-02175-7</ref> Heishman, A., Daub, B., Miller, R., Brown, B., Freitas, E., <rs type="person">&amp; Bemben</rs>, M. (2019). Countermovement jump inter-limb asymmetries in collegiate basketball players. Sports, 7(5), 103. <ref type="url" target="https://doi.org/10.3390/sports7050103">https://doi.org/10.3390/sports7050103</ref> Hooper, D. R., Szivak, T. K., Comstock, B. A., <rs type="person">Dunn-Lewis</rs>, C., Apicella, J. M., Kelly, N. A., Creighton, B. C., Flanagan, S. D., Looney, D. P., Volek, J. S., Maresh, C. M., <rs type="person">&amp; Kraemer</rs>, W. J. (2014). Effects of fatigue from resistance training on barbell back squat biomechanics. Journal of Strength and Conditioning Research, 28(4), <rs type="grantNumber">1127-1134</rs>. <ref type="url" target="https://doi.org/10.1097/JSC.0000000000000237">https://doi.org/10.1097/JSC.  0000000000000237</ref> Hooper, D. R., Szivak, T. K., Distefano, L. J., Comstock, B. A., <rs type="person">Dunn-Lewis</rs>, C., Apicella, J. M., Kelly, N. A., Creighton, B. C., Volek, J. S., Maresh, C. M., <rs type="person">&amp; Kraemer</rs>, W. J. (2013). Effects of resistance training fatigue on joint biomechanics. Journal of Strength and Conditioning Research, 27(1), <rs type="grantNumber">146-153</rs>. <ref type="url" target="https://doi.org/10.1519/JSC.0b013e31825390da">https://doi.org/10.1519/JSC.0b013e31825390da</ref> <rs type="funder">Hopkins</rs>, <rs type="person">W. G., Marshall</rs>, S. W., Batterham, A. M., <rs type="person">&amp; Hanin</rs>, J. (2009). Progressive statistics for studies in sports medicine and exercise science. Medicine and Science in Sports and Exercise, 41(1), 3-12. <ref type="url" target="https://doi.org/10.1249/MSS.0b013e31818cb278">https://doi.org/10.1249/MSS.0b013e31818cb278</ref> Hunter, S. K. (2014). Sex differences in human fatigability: Mechanisms and insight to physiological responses. Acta Physiologica, 210(4), <rs type="grantNumber">768-789</rs>. <ref type="url" target="https://doi.org/10.1111/APHA.12234">https://doi.org/10.1111/APHA.12234</ref> Impellizzeri, F. M., Rampinini, E., Maffiuletti, N., <rs type="person">&amp; Marcora</rs>, S. M. (2007). A vertical jump force test for assessing bilateral strength asymmetry in athletes. Medicine &amp; Science in Sports and Exercise, 39(11), <rs type="grantNumber">2044-2050</rs>. <ref type="url" target="https://doi.org/10.1249/mss.0b013e31814fb55c">https://doi.org/10.1249/mss.0b013e31814fb55c</ref> Janicijevic, D., <rs type="person">Perez-Castilla</rs>, A., <rs type="person">Miras-Moreno</rs>, S., <rs type="person">Ortega-Becerra</rs>, M., <rs type="person">Morenas-Aguilar, M. D., Smajla</rs>, <rs type="person">D., Sarobon</rs>, <rs type="person">N.</rs>, <rs type="person">&amp; Garcia-Ramos</rs>, A. (2022). Effect of a high-intensity handball-specific fatigue protocol focused on the leg contralateral to the throwing arm on inter-limb asymmetries. Journal of Strength &amp; Conditioning Research, 37(7), <rs type="grantNumber">1382-1389</rs>. <ref type="url" target="https://doi.org/10.1519/JSC.0000000000004422">https://doi.org/10.1519/JSC.0000000000004422</ref> Janicijevic, D., Sarabon, N., <rs type="person">Pérez-Castilla</rs>, A., Smajla, D., <rs type="person">Fernández-Revelles</rs>, <rs type="person">A.</rs>, <rs type="person">&amp; García-Ramos</rs>, A. (2022). Single-leg mechanical performance and inter-leg asymmetries during bilateral countermovement jumps: A comparison of different calculation methods. Gait &amp; Posture, <rs type="grantNumber">96</rs>, <rs type="grantNumber">47-52</rs>. <ref type="url" target="https://doi.org/10.1016/J.GAITPOST.2022.05.012">https://doi.org/10.1016/J.GAITPOST.2022.05.012</ref> Kons, R. L., Orssatto, L. B., da, R., Sakugawa, R. L., da <rs type="person">Silva Junior</rs>, J. N., Diefenthaeler, F., <rs type="person">&amp; Detanico</rs>, D. (2020). Effects of stretch-shortening cycle fatigue protocol on lower limb asymmetry and muscle soreness in judo athletes. <rs type="person">Sports Biomechanics</rs>, <rs type="grantNumber">1-16</rs>. <ref type="url" target="https://doi.org/10.1080/14763141.2020.1779335">https://doi.org/10.1080/  14763141.2020.1779335</ref> </p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_uytuYzY">
+					<idno type="grant-number">451-03-68/2022-14/200154</idno>
+				</org>
+				<org type="funding" xml:id="_spvkWRz">
+					<idno type="grant-number">1660-1666</idno>
+				</org>
+				<org type="funding" xml:id="_4cT2qum">
+					<idno type="grant-number">1519/JSC.0000000000003679</idno>
+				</org>
+				<org type="funding" xml:id="_GDx8cCK">
+					<idno type="grant-number">695-701</idno>
+				</org>
+				<org type="funding" xml:id="_B5hVTN9">
+					<idno type="grant-number">1519/JSC.0000000000002729</idno>
+				</org>
+				<org type="funding" xml:id="_Mkycd2S">
+					<idno type="grant-number">2127-2132</idno>
+				</org>
+				<org type="funding" xml:id="_nXCpTSt">
+					<idno type="grant-number">1519/JSC.0000000000003109</idno>
+				</org>
+				<org type="funding" xml:id="_nS3QcJP">
+					<idno type="grant-number">1135-1144</idno>
+				</org>
+				<org type="funding" xml:id="_Z2dscmM">
+					<idno type="grant-number">1080/02640414.2017. 1361894</idno>
+				</org>
+				<org type="funding" xml:id="_MTjzZj8">
+					<idno type="grant-number">1707-1714</idno>
+				</org>
+				<org type="funding" xml:id="_hJh2BUF">
+					<idno type="grant-number">1-11</idno>
+				</org>
+				<org type="funding" xml:id="_HZ6VszJ">
+					<idno type="grant-number">1127-1134</idno>
+				</org>
+				<org type="funding" xml:id="_QrbUwAh">
+					<idno type="grant-number">146-153</idno>
+				</org>
+				<org type="funding" xml:id="_AwzeCKF">
+					<idno type="grant-number">768-789</idno>
+				</org>
+				<org type="funding" xml:id="_qHCCXNN">
+					<idno type="grant-number">2044-2050</idno>
+				</org>
+				<org type="funding" xml:id="_7MM3UqE">
+					<idno type="grant-number">1382-1389</idno>
+				</org>
+				<org type="funding" xml:id="_xUvhSvD">
+					<idno type="grant-number">1519/JSC.0000000000004422</idno>
+				</org>
+				<org type="funding" xml:id="_mxJGbCp">
+					<idno type="grant-number">96</idno>
+				</org>
+				<org type="funding" xml:id="_ktHEQjz">
+					<idno type="grant-number">47-52</idno>
+				</org>
+				<org type="funding" xml:id="_2jaN58J">
+					<idno type="grant-number">1016/J.GAITPOST.2022.05.012</idno>
+				</org>
+				<org type="funding" xml:id="_kK63qJQ">
+					<idno type="grant-number">1-16</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The present study aimed to explore whether two highlydemanding fatigue protocols (unilateral and bilateral knee  </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Comparison of ground reaction force asymmetry in one-and two-legged countermovement jumps</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Benjanuvatra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Lay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Alderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Blanksby</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0b013e318280d28e</idno>
+		<ptr target="https://doi.org/10.1519/JSC" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Strength and Conditioning Research</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2700" to="2707" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>b013e318280d28e</note>
+	<note type="raw_reference">Benjanuvatra, N., Lay, B. S., Alderson, J. A., &amp; Blanksby, B. A. (2013). Comparison of ground reaction force asymmetry in one-and two-legged countermovement jumps. Journal of Strength and Conditioning Research, 27(10), 2700-2707. https://doi.org/10.1519/JSC. 0b013e318280d28e</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Bilateral vs. unilateral countermovement jumps: Comparing the magnitude and direction of asymmetry in elite academy soccer players</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Abbott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brashill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Read</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bishop, C., Abbott, W., Brashill, C., Turner, A., Lake, J., &amp; Read, P. (2022). Bilateral vs. unilateral countermovement jumps: Comparing the magni- tude and direction of asymmetry in elite academy soccer players. Journal</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Effects of successive judo matches on interlimb asymmetry and bilateral deficit</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Kons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Pupo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Gheller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Detanico</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.PTSP.2020.10.007</idno>
+		<ptr target="https://doi.org/10.1016/J.PTSP.2020.10.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Physical Therapy in Sport: Official Journal of the Association of Chartered Physiotherapists in Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="15" to="22" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kons, R. L., Pupo, J. D., Gheller, R. G., Costa, F. E., Rodrigues, M. M., Bishop, C., &amp; Detanico, D. (2021). Effects of successive judo matches on interlimb asymmetry and bilateral deficit. Physical Therapy in Sport: Official Journal of the Association of Chartered Physiotherapists in Sports Medicine, 47, 15-22. https://doi.org/10.1016/J.PTSP.2020.10.007</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Single leg vertical jump performance identifies knee function deficits at return to sport after ACL reconstruction in male athletes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kotsifaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rossom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Van Whiteley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Korakakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bahr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sideris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Jonkers</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bjsports-2021-104692</idno>
+		<ptr target="https://doi.org/10.1136/bjsports-2021-104692" />
+	</analytic>
+	<monogr>
+		<title level="j">British Journal of Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="490" to="498" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kotsifaki, A., Rossom, S., Van Whiteley, R., Korakakis, V., Bahr, R., Sideris, V., &amp; Jonkers, I. (2022). Single leg vertical jump performance identifies knee function deficits at return to sport after ACL reconstruction in male athletes. British Journal of Sports Medicine, 56(9), 490-498. https://doi. org/10.1136/bjsports-2021-104692</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Relationship between force-velocity-power profiles and inter-limb asymmetries obtained during unilateral vertical jumping and single-joint isokinetic tasks</title>
+		<author>
+			<persName><forename type="first">Ž</forename><surname>Kozinc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Marković</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hadžić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Šarabon</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2020.1816271</idno>
+		<ptr target="https://doi.org/10.1080/02640414.2020.1816271" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="248" to="258" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kozinc, Ž., Marković, G., Hadžić, V., &amp; Šarabon, N. (2020). Relationship between force-velocity-power profiles and inter-limb asymmetries obtained during unilateral vertical jumping and single-joint isokinetic tasks. Journal of Sports Sciences, 39(3), 248-258. https://doi.org/10.1080/ 02640414.2020.1816271</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Do the peak and mean force methods of assessing vertical jump force asymmetry agree?</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Mundy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Comfort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Suchomel</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14763141.2018.1465116</idno>
+		<ptr target="https://doi.org/10.1080/14763141.2018.1465116" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="227" to="234" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lake, J. P., Mundy, P. D., Comfort, P., &amp; Suchomel, T. J. (2020). Do the peak and mean force methods of assessing vertical jump force asymmetry agree? Sports Biomechanics, 19(2), 227-234. https://doi.org/10.1080/ 14763141.2018.1465116</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The effect of fatigue on phase specific countermovement jump asymmetries in ACL-R and non-injured rugby union players</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lonergan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Senington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Patterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Price</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/tsm2.48</idno>
+		<ptr target="https://doi.org/10.1002/tsm2.48" />
+	</analytic>
+	<monogr>
+		<title level="j">Translational Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="238" to="249" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lonergan, B., Senington, B., Patterson, S. D., &amp; Price, P. (2018). The effect of fatigue on phase specific countermovement jump asymmetries in ACL-R and non-injured rugby union players. Translational Sports Medicine, 1(6), 238-249. https://doi.org/10.1002/tsm2.48</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Relationship between interlimb asymmetries and speed and change of direction speed in youth handball players</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Madruga-Parera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Beato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fort-Vanmeerhaeghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Gonzalo-Skok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Romero-Rodríguez</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0000000000003328</idno>
+		<ptr target="https://doi.org/10.1519/JSC.0000000000003328" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Strength and Conditioning Research</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="3482" to="3490" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Madruga-Parera, M., Bishop, C., Beato, M., Fort-Vanmeerhaeghe, A., Gonzalo-Skok, O., &amp; Romero-Rodríguez, D. (2021). Relationship between interlimb asymmetries and speed and change of direction speed in youth handball players. Journal of Strength and Conditioning Research, 35(12), 3482-3490. https://doi.org/10.1519/JSC.0000000000003328</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Effects of countermovement depth on kinematic and kinetic patterns of maximum vertical jumps</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mandic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jakovljevic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jaric</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jelekin.2014.11.001</idno>
+		<ptr target="https://doi.org/10.1016/j.jelekin.2014.11.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Electromyography and Kinesiology</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="265" to="272" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mandic, R., Jakovljevic, S., &amp; Jaric, S. (2015). Effects of countermovement depth on kinematic and kinetic patterns of maximum vertical jumps. Journal of Electromyography and Kinesiology, 25(2), 265-272. https://doi. org/10.1016/j.jelekin.2014.11.001</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The calculation, thresholds and reporting of inter-limb strength asymmetry: A systematic review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Parkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Apps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Barnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G C</forename><surname>Lewis</surname></persName>
+		</author>
+		<idno type="DOI">10.52082/JSSM.2021.594</idno>
+		<ptr target="https://doi.org/10.52082/JSSM.2021.594" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Science &amp; Medicine</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">594</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Parkinson, A. O., Apps, C. L., Morris, J. G., Barnett, C. T., &amp; Lewis, M. G. C. (2021). The calculation, thresholds and reporting of inter-limb strength asymmetry: A systematic review. Journal of Sports Science &amp; Medicine, 20 (4), 594. https://doi.org/10.52082/JSSM.2021.594</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The effect of repetitive drop jumps among different heights on bilateral asymmetry of countermovement jumps</title>
+		<author>
+			<persName><forename type="first">I.-L</forename><forename type="middle">;</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-G</forename><forename type="middle">;</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">;</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">;</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-K</forename><forename type="middle">;</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><forename type="middle">;</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Winiarski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kaczmarczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Forczek-Karkosz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I.-L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-K</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-Y</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/SYM14020190</idno>
+		<ptr target="https://doi.org/10.3390/SYM14020190" />
+	</analytic>
+	<monogr>
+		<title level="j">Symmetry</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="190" to="2022" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, I.-L. ;, Li, Y.-G. ;, Su, Y. ;, Yao, S. ;, Zhang, K.-K. ;, Chen, C.-H. ;, Wang, S.-Y., Winiarski, S., Kaczmarczyk, K., Forczek-Karkosz, W., Graham, J. H., Wang, I.-L., Li, Y.-G., Su, Y., Yao, S., Zhang, K.-K., Chen, C.-H., &amp; Wang, S.- Y. (2022). The effect of repetitive drop jumps among different heights on bilateral asymmetry of countermovement jumps. Symmetry, 14(2), 190. 2022. https://doi.org/10.3390/SYM14020190</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

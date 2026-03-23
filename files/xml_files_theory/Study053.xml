@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Electrically Evoked Isotonic Plantar Flexion Contractions Are Impaired Less than Voluntary After a Dynamic Fatiguing Task</title>
+				<funder ref="#_j5tvCye">
+					<orgName type="full">NSERC</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Natural Sciences and Engineering Research Council</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Faculty of Health Sciences at the University of Western Ontario</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">American College of Sports Medicine</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024">25/2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">T</forename><surname>Paris</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Kinesiology</orgName>
+								<orgName type="department" key="dep2">Faculty of Health Sciences</orgName>
+								<orgName type="institution">University of Western Ontario</orgName>
+								<address>
+									<settlement>London</settlement>
+									<region>ON</region>
+									<country>CANADA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sohum</forename><forename type="middle">V</forename><surname>Kulkarni</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Kinesiology</orgName>
+								<orgName type="department" key="dep2">Faculty of Health Sciences</orgName>
+								<orgName type="institution">University of Western Ontario</orgName>
+								<address>
+									<settlement>London</settlement>
+									<region>ON</region>
+									<country>CANADA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><roleName>Ph.D</roleName><forename type="first">Charles</forename><forename type="middle">L</forename><surname>Rice</surname></persName>
+							<email>crice@uwo.ca.</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">School of Kinesiology</orgName>
+								<orgName type="department" key="dep2">Faculty of Health Sciences</orgName>
+								<orgName type="institution">University of Western Ontario</orgName>
+								<address>
+									<settlement>London</settlement>
+									<region>ON</region>
+									<country>CANADA;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Anatomy and Cell Biology</orgName>
+								<orgName type="department" key="dep2">Schulich School of Medicine and Dentistry</orgName>
+								<orgName type="institution">University of Western Ontario</orgName>
+								<address>
+									<settlement>London</settlement>
+									<region>ON</region>
+									<country key="CA">CANADA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">School of Kinesiology</orgName>
+								<orgName type="institution">University of Western Ontario</orgName>
+								<address>
+									<addrLine>Thames Hall Room 4125</addrLine>
+									<postCode>N6A 5B9</postCode>
+									<settlement>London</settlement>
+									<region>ON</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Electrically Evoked Isotonic Plantar Flexion Contractions Are Impaired Less than Voluntary After a Dynamic Fatiguing Task</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024">25/2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">ED6AC364BD08CC89768557A819C9677F</idno>
+					<idno type="DOI">10.1249/MSS.0000000000003243</idno>
+					<note type="submission">Submitted for publication March 2023. Accepted for publication June 2023.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:11+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>FATIGUE</term>
+					<term>POWER</term>
+					<term>CENTRAL</term>
+					<term>PERIPHERAL</term>
+					<term>NEUROMUSCULAR</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Purpose: Evaluating central and peripheral processes responsible for reduced power after dynamic fatiguing tasks are often limited to isometric torque, which may not accurately reflect dynamic contractile performance. Here, we compare voluntary and electrically evoked peak power (and its determinants: dynamic torque and velocity) and rate of velocity development (RVD) before and after a dynamic fatiguing task using concentric Plantar flexion contractions. Methods: Young (18-32 yr) males (n = 11) and females (n = 2) performed maximal-effort isotonic Plantar flexion contractions using a load of 20% isometric torque until an approximately 75% reduction in peak power. Voluntary and electrically evoked (300 Hz tibial nerve stimulation) contractions loaded to 20% and 40% isometric torque through 25°ankle joint range of motion were compared before and 0, 2.5, 5, and 10 min after task termination. Results: At task termination, peak power and RVD of voluntary contractions at both loads were reduced more (~40% to 50% reduction) than electrically evoked (~25% to 35% reduction) contractions (P &lt; 0.001 and P = 0.003). Throughout the recovery period, electrically evoked peak power and RVD returned to baseline sooner (&lt;5 min) than voluntary contractions, which were still depressed at 10 min. Reductions in peak power for the 20% load were equally due to impaired dynamic torque and velocity, whereas velocity was impaired more than dynamic torque (P &lt; 0.001) for the 40% load. Conclusions: The relative preservation of electrically evoked power and RVD compared with voluntary contractions at task termination and quicker recovery to baseline indicates that the reductions in dynamic contractile performance after task termination are due to both central and peripheral processes; however, the relative contribution of dynamic torque and velocity is load dependent.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>P</head><p>erformance fatigability is an activity-dependent reduction in an objective measure of performance over a discrete time period, often manifested as a decline in torque or power generating capacity <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b1">2)</ref>. Reductions in performance after a fatiguing task are typically categorized into processes occurring within the peripheral (e.g., at or distal to the neuromuscular junction) or central (e.g., supraspinal) neuromuscular system. Activity-related impairments of peripheral processes can be assessed with evoked contractions from electric or magnetic stimulation over a peripheral nerve trunk or muscle belly (3), whereas activity-related impairments of central activation factors are often assessed at least partially using the interpolated twitch technique (ITT) <ref type="bibr" target="#b3">(4)</ref>.</p><p>Peripheral nerve stimulation and ITT are frequently applied using static (i.e., isometric) contractions during and after a fatiguing task. However, fatigability is task dependent <ref type="bibr" target="#b4">(5)</ref>, and reductions in isometric torque may not be representative of decreases in power (torque-angular velocity) production during dynamic (i.e., shortening or lengthening) contractions <ref type="bibr" target="#b5">(6)</ref><ref type="bibr" target="#b6">(7)</ref><ref type="bibr" target="#b7">(8)</ref>. Thus, assessing peripheral and central factors after a dynamic fatiguing task by evaluating the isometric ITT or evoked isometric torque may not capture velocity-and power-dependent impairments within the neuromuscular system. Applying these approaches to dynamic contractions can be challenging because of the nonsteady-state nature of these contractions, especially during isotonic-like contractions (defined here as a dynamic contraction using a constant load) that may achieve full range of motion (ROM) in short timeframes (e.g., &lt;0.5 s). Because of this time-dependent nature of isotonic contractions, the rate of velocity development (RVD, i.e., acceleration) is a key factor for achieving peak power output <ref type="bibr" target="#b8">(9,</ref><ref type="bibr" target="#b9">10)</ref>; however, these factors may be dependent on the load used for the dynamic contraction <ref type="bibr" target="#b10">(11)</ref>.</p><p>As an alternative to the ITT to understand the role of central factors for impaired power output during a fatiguing task, reductions of electrically evoked contractile output can be compared with voluntary muscle output <ref type="bibr" target="#b11">(12,</ref><ref type="bibr" target="#b12">13)</ref> during and after a fatiguing task. Several studies have reported similar declines in voluntary and electrically evoked torque during an isometric fatiguing task, suggesting minimal contributions from central processes contributing to torque loss <ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b13">(14)</ref>. However, in the plantar flexors, a sustained isometric fatiguing task resulted in greater reductions in voluntary compared with electrically evoked torque <ref type="bibr" target="#b12">(13)</ref>, indicating the that central and peripheral processes responsible for impaired performance may be dependent on the muscle group evaluated. Furthermore, these comparisons have generally been limited to isometric tasks and have not been evaluated using dynamic contractions (e.g., isotonic), which likely are dependent on additional factors, such as the rate of contractile output.</p><p>Here, we evaluated peak power (and the corresponding dynamic torque and velocity) and RVD of voluntary and electrically evoked dynamic contractions before and throughout acute recovery (10 min) after a voluntary fatiguing isotonic task (75% reduction in peak power). Before and after the fatiguing task (loaded to 20% maximal isometric torque), voluntary and electrically evoked contractions were performed using loads equivalent to 20% and 40% of maximal isometric torque to examine whether differences in recovery were load dependent. Electrically evoked contractions were stimulated briefly at 300 Hz, which has been previously demonstrated to maximize the rate of muscle activation (15)-a critical determinant of peak power output. We hypothesized that electrically evoked contractile output would be impaired less and recover sooner in comparison with voluntary contractile output.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>Participant cohort and ethics. Young (18-32 yr) males (n = 12) and females (n = 4) were recruited from the local university population; however, data from three participants (one male and two females) were excluded from the analysis as they were unable to achieve a high voluntary activation (≥90%, described below). The remaining participants (n = 13) were on average (± SD) 24.2 ± 2.6 yr old and had a body mass index of 23.6 ± 7.6 kg•m -2 . All participants were recreationally active but did not systematically train for sport or athletics. Participants attended one familiarization and one testing session and were asked to refrain from moderate to vigorous physical activity 24 h before both sessions. This study was approved by the local University Human Research Ethics Board and conformed to the Declaration of Helsinki, except for registration in a database. Informed written consent was obtained from all participants before testing.</p><p>Experimental setup. Plantar flexion torque (N•m), angular velocity (°•s -1 ), and ankle joint position (°) were recorded in a multijoint dynamometer (HUMAC NORM; CSMi, Medical Solutions, Stoughton, MA). While lying prone with the knees and hips fully extended, the right foot (self-reported dominant for all participants) was secured firmly to the footplate using an inelastic ratchet strap over the dorsum of the foot to minimize heel lift during maximal-effort contractions (see Supplemental Fig. <ref type="figure">1</ref>, Supplemental Digital Conent, <ref type="url" target="http://links.lww.com/MSS/C880">http://links.lww.com/MSS/  C880</ref>). Participants were further secured to the table using two large Velcro straps across the thighs and torso. The ankle joint was set to 10°of dorsiflexion (neutral position 0°) for isometric testing and the starting position for isotonic shortening contractions. Joint ROM for the shortening contractions was 25°( from 10°of dorsiflexion to 15°of plantar flexion). Torque, angular velocity, and position were sampled at 1000 Hz using a 12-bit analog-to-digital converter (Power 1402, CED) and digitized using Spike 2 software. Participants were strongly encouraged verbally and provided with visual feedback from a 60-cm computer monitor ~1 m away.</p><p>The tibial nerve was activated in the distal popliteal fossa using a single stimulus and trains of stimuli at 300 Hz through a bar electrode (firmly applied over the skin parallel with the nerve). The electrode was repositioned as needed until the largest evoked isometric twitch force was recorded from a single pulse. All pulses were 100-μs square wave pulses at 400 V generated using a constant current stimulator (DS7AH; Digitimer Ltd., Welwyn Garden City, UK).</p><p>Experimental procedures. On the familiarization day, participants practiced performing three to five isometric maximal voluntary contractions (MVC) with the ITT until a stable peak torque was recorded. For the ITT, currents used for single twitches were determined by incremental increases in intensity (5-10 mA) until a plateau in twitch torque was observed, which was then multiplied by 1.2 to ensure supramaximal stimulation (89.5 ± 17.8 mA). Twitches were delivered 3 s before contraction initiation, during the peak torque plateau (superimposed), and 2 s after full relaxation. Subsequently, 10 to 15 maximal voluntary isotonic contractions (loaded at 20% and 40% MVC) were performed until a stable peak power output was recorded.</p><p>During the testing session (24 to 96 h after familiarization), participants completed three to five isometric MVCs (~5 s in duration) with the ITT, until peak torque varied by &lt;10%. Between each isometric MVC attempt, 5 min of rest was provided. To ensure all participants were able to achieve a high activation throughout the fatiguing task and during recovery assessment, participants achieving less than 90% voluntary activation (see calculation below) after multiple attempts over two testing sessions (up to 10 attempts provided) were excluded. A cutoff level of 90% was chosen because it has been reported previously that ~90% was the average activation achieved among a group of males and females <ref type="bibr" target="#b15">(16)</ref>. After evaluation of the isometric MVC, maximal evoked tetanic isometric torque at 300 Hz stimulation was assessed. The current for 300 Hz trains (0.5-s duration) was determined by incremental increases (3-5 mA) until a plateau in isometric tetanic torque was observed, which was then multiplied by 1.2 (52.2 ± 16.4 mA). This current was subsequently used for electrically evoked isotonic contractions using 300 Hz stimulation frequency, which was automatically terminated by a custom Spike 2 script once ROM (10°of dorsiflexion to 15°of plantar flexion) was achieved. Therefore, the number of pulses given at 300 Hz during the isotonic contractions varied, as determined by reaching end ROM (~0.5 s). Although prolonged stimulations at high frequencies can induce excess force loss <ref type="bibr" target="#b16">(17)</ref>, pilot testing indicated that our stimulations (lasting less than 1 s) did not exhibit the characteristics of high-frequency fatigue. Further, peak power and RVD occur relatively early in the ROM and would not be affected by any potential high-frequency fatigue that may develop later in the ROM.</p><p>Participants were refamiliarized with maximal-effort isotonic contractions using loads of 20% and 40% of isometric MVC torque representing moderate and high resistances. Participants were instructed to contract "as fast and as hard as possible." At the end ROM of the contraction, participants relaxed, and the footplate was passively returned to the initial position (25°•s -1 , 1 s). Refamiliarization involved two sets (3 min of rest between sets) of five maximal-effort contractions (5 s of rest between contractions), until peak power output was &lt;5% different among three contractions. After 5 min of rest, baseline voluntary and electrically evoked peak power and RVD were evaluated using 20% and 40% maximal torque of voluntary and electrically evoked isometric torque, respectively. For each load, two voluntary and one evoked contractions were performed (Fig. <ref type="figure">1</ref>). We have previously reported that electrically evoked isotonic plantar flexion contractions are highly repeatable within a testing session <ref type="bibr" target="#b17">(18)</ref>. The order of load and contraction type (voluntary vs electrically evoked) was randomized across participants but kept consistent within a single session (i.e., if 20% voluntary was first, it was maintained throughout all time points).</p><p>The fatiguing task involved maximal-effort isotonic contractions at a load of 20% isometric MVC torque until two consecutive contractions were reduced by 75% of baseline peak power. Participants completed a contraction every ~1.5 s. The isometric ITT and the voluntary and electrically evoked peak power at 20% and 40% isometric torque loads were evaluated immediately and 2.5, 5, and 10 min after task termination. Participants were verbally encouraged throughout all contractions.</p><p>Data analysis. Because of the position of the ankle and ROM permitted, the acquired torque data were not corrected for gravity-dependent changes in external load, as the torque produced by the dynamometer foot plate at the end ROM was ~3 N•m (&lt;2% of the mean isometric MVC torque). Isometric MVC torque was evaluated as the peak torque plateau. Peak power was evaluated as the highest instantaneous power (torque Â angular velocity) for voluntary and electrically evoked isotonic contractions for both the 20% and the 40% loaded isotonic contractions. Dynamic torque and velocity at peak power were extracted to evaluate their relative contribution after the fatiguing task. Although isotonic contractions are characterized by a fixed load, to accelerate the load throughout the ROM, the generated torque will vary throughout the contraction to accelerate the load, thus providing the ability to evaluate both torque and velocity components separately. RVD from velocity onset to 100 ms was evaluated for voluntary and electrically evoked contractions. Velocity onset was determined manually as the last trough before the velocity signal increased above the resting baseline, as described by Tillin et al. <ref type="bibr" target="#b18">(19)</ref>. Voluntary activation during an isometric MVC was evaluated as follows: 1 -[superimposed twitch ÷ resting potentiated twitch] Â 100, as described previously <ref type="bibr" target="#b19">(20)</ref>. The delay between the initiation of electrical stimulation to velocity onset was evaluated to examine differences in movement initiation due to load and fatigability. Baseline isometric torque and isotonic peak power, torque, velocity, and RVD were calculated as the highest output of the two baseline testing sequences. All values throughout the 10-min recovery period are reported as a percentage of the baseline output.</p><p>Statistical analysis. A paired samples t-test was used to examine differences in baseline peak power and RVD between voluntary and electrically evoked contractions. A Shapiro-Wilk's test was used to confirm normality for peak power, RVD, dynamic torque, and velocity for all time points, loads, and contraction modes (P = 0.093-0.965). A three-way repeated-measures ANOVA was used to evaluate the main effects of time (0, 2.5, 5, and 10 min), contraction mode (voluntary vs electrically evoked), and load (20% vs 40% isometric torque) for peak power and RVD. Mauchly's test of sphericity was violated for the effect of time (P &lt; 0.05), and the Greenhouse-Geisser correction factor was applied. Post hoc analyses were a priori determined to compare recovery time points (0, 2.5, 5, and 10 min) to baseline peak power and RVD. A two-way repeated-measures ANOVA was used to evaluate the main effects of time (0, 2.5, 5, and 10 min) and contractile output (torque vs velocity) across each load for both voluntary and electrically evoked contractions. A family-wise error rate of α = 0.05 was maintained for post hoc P values using a Holm-Sidak correction factor. Voluntary activation and isometric MVC torque were evaluated for a time effect using a one-way repeated-measures ANOVA. All data are presented as mean ± SD. All statistical analyses were performed using SPSS (version 27; IBM, Armonk, NY).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Baseline isometric MVC torque, voluntary and electrically evoked isotonic peak power and RVD at 20% and 40% MVC load, and isometric voluntary activation are presented in Table <ref type="table" target="#tab_0">1</ref>. Voluntary peak power and RVD were significantly higher than evoked for both the 20% and the 40% loads (all P &lt; 0.001). Participants completed 95.1 ± 46.9 contractions over 161 ± 79 s, which reduced peak power output by 74.9% ± 3.0% at task termination. There was a main effect of time (P ≤ 0.001, F = 14.4, ɳ p 2 = 0.546) for the isometric MVC. Post hoc analysis revealed that isometric MVC was reduced at task termination (32% lower, P &lt; 0.001) and remained impaired at 10 min of recovery (16% reduction, P = 0.002). There was no main effect of time (P = 0.115, F = 2.1, ɳ p 2 = 0.158) for isometric voluntary activation.</p><p>For peak power, there was a main effect of time (P &lt; 0.001, F = 33.5, ɳ p 2 = 0.736) and contraction mode (P &lt; 0.001, F = 22.7, ɳ p 2 = 0.654) but not load (P = 0.099, F = 3.2, ɳ p 2 = 0.211), indicating that voluntary power output was reduced more than evoked throughout the acute recovery period (Fig. <ref type="figure" target="#fig_0">2A</ref> and <ref type="figure">B</ref>). For peak power, no interactions were present among the effects of time, contraction mode, and load (all P ≥ 0.130). Post hoc analysis revealed that voluntary peak power at the 20% and 40% loads was reduced compared with baseline for all time points throughout 10 min of recovery (all P ≤ 0.002), whereas evoked peak power for the 20% load recovered to baseline values at 5 min (P = 0.067) and 10 min (P = 0.118) but was impaired for the 40% load (all P ≤ 0.020) throughout all recovery time points.</p><p>For RVD, there was a main effect of time (P &lt; 0.001, F = 17.5, ɳ p 2 = 0.593) and contraction mode (P = 0.003, F = 13.2, ɳ p 2 = 0.525) but not load (P = 0.222, F = 1.6, ɳ p 2 = 0.121), indicating that voluntary RVD was reduced more than evoked throughout recovery (Fig. <ref type="figure" target="#fig_1">3A</ref> and <ref type="figure">B</ref>). For RVD, no interactions were present among the effects of time, contraction mode, and load (all P ≥ 0.164). Post hoc analysis revealed that voluntary RVD at the 20% and 40% loads were reduced compared with baseline at all time points throughout 10 min of recovery (all P &lt; 0.004). Evoked RVD for the 20% and 40% loads recovered to baseline values by 2.5 min (P = 0.080 to 0.809) after task termination.</p><p>For both voluntary and electrically evoked 20% load (Fig. <ref type="figure">4A</ref> and <ref type="figure">C</ref>), there was a main effect of time for both voluntary (P ≤ 0.001, F = 20.9, ɳ p 2 = 0.636) and evoked contractions (P ≤ 0.001, F = 12.6, ɳ p 2 = 0.512) but no effect for contractile feature (voluntary: P = 0.398, F = 0.8, ɳ p 2 = 0.060; evoked: 0.904, F = 0.1, ɳ p 2 = 0.001), indicating dynamic torque and velocity were similarly reduced throughout the recovery period. However, voluntary and electrically evoked contractions at the 40% load (Fig. <ref type="figure">4B</ref> and <ref type="figure">D</ref>) displayed a main effect for contractile feature (voluntary: P ≤ 0.001, F = 35.4, ɳ p 2 = 0.747; evoked: P = 0.019, F = 7.4, ɳ p 2 = 0.382) and time (voluntary: P ≤ 0.001, F = 18.2, ɳ p 2 = 0.603; evoked: P ≤ 0.001, F = 11.5, ɳ p 2 = 0.490), indicating that velocity was impaired more than dynamic torque throughout the recovery period. For both voluntary and evoked contractions, no interactions were present among the effects of time and contractile feature (all P ≥ 0.120). Post hoc analysis revealed that for the 40% load, voluntary velocity was reduced more than dynamic torque throughout the recovery period (all P &lt; 0.021), whereas evoked velocity was impaired more than torque only at task termination (P = 0.015).</p><p>For the time delay from electrical stimulation to onset of movement, there was a main effect of time (P = 0.008, F = 3.9, ɳ p 2 = 0.246) and load (P ≤ 0.001, F = 27.8, ɳ p 2 = 0.699). The average time delays at baseline for the 20% and 40% loads were 0.058 ± 0.021 and 0.093 ± 0.027 s, respectively. Post hoc analysis indicated that compared with baseline, the time delay to movement initiation increased at task termination for both the 20% and the 40% loads (0.066 ± 0.017 and 0.117 ± 0.037 s, P = 0.046) but recovered by 5 min (0.054 ± 0.017 and 0.090 ± 0.027 s, P = 0.877).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Here, we report that after a maximal-effort dynamic plantar flexion fatiguing task, voluntary peak power and RVD of isotonic contractions are impaired more than electrically evoked contractions at task termination and throughout acute (10 min) recovery. These reductions of voluntary and electrically evoked isotonic peak power and RVD were similar for both 20% and 40% loads. However, the relative contribution of dynamic torque and velocity to reductions in power was dependent on the load, as reduced peak power with the 20% load was equally due to dynamic torque and velocity, whereas impaired power at the 40% load was more due to reduced velocity than dynamic torque. Because of the greater relative reductions of voluntary power and RVD compared with evoked contractions, these findings indicate that both central and peripheral processes are responsible for the reductions in dynamic contractile performance after isotonic fatiguing tasks.</p><p>In the dorsiflexors, similar declines of 50 Hz tetanus and isometric MVC torque after a fatiguing task have been reported <ref type="bibr" target="#b20">(21)</ref>, indicating that the impairments in isometric torque production are primarily peripheral in nature. Others also have observed similar relative reductions in voluntary and electrically evoked isometric torque after fatiguing tasks of the knee extensors <ref type="bibr" target="#b11">(12,</ref><ref type="bibr" target="#b12">13)</ref> and adductor pollicis (12) muscles. Reductions in performance due to peripheral processes are partly due to the accumulation of intramuscular metabolites (e.g., 403.2 ± 118.7* inorganic phosphate), which impair processes of excitationcontraction coupling and subsequent force output <ref type="bibr" target="#b21">(22)</ref>. However, findings of solely peripheral processes being responsible for impairments in performance fatigability are dependent on several factors, including the task (e.g., duration) and muscle group evaluated. Indeed, during a voluntary fatiguing task, voluntary isometric torque declined twice as fast in comparison with torque elicited from a brief electrically evoked tetanic contraction <ref type="bibr" target="#b11">(12)</ref>. The mechanisms of fatigue-related impairments within central components are less well defined but are likely related to peripheral metabolite accumulation inhibiting motor drive activation through III/IV muscle afferents, altered levels of neurotransmitters modulating motor activation within the central system (e.g., serotonin), or some combination of these factors <ref type="bibr" target="#b22">(23)</ref>.</p><p>Although we did not assess peripheral neuromuscular function intermittently during the fatiguing task per se, the relatively greater decline of voluntary isotonic peak power and RVD compared with electrically evoked output at task termination and throughout recovery indicates that reduced dynamic contractile performance after fatiguing tasks is not due to impairments in the peripheral neuromuscular system only. Our divergent findings in the relative reductions in voluntary and electrically evoked dynamic contractions compared with others examining isometric tasks <ref type="bibr" target="#b11">(12,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b20">21</ref>) may be related to the use of isotonic power and RVD rather than peak isometric torque. A rapid rate of neural activation is a critical factor to achieving high peak power and RVD output during dynamic contractions <ref type="bibr" target="#b8">(9,</ref><ref type="bibr" target="#b23">24)</ref>; however, this may be less important for achieving peak isometric torque due to the steady-state nature of the contraction (i.e., constant joint angle). Although we did not report a significant reduction in voluntary activation during isometric contractions, this may be related to the relatively short duration of the fatiguing task (~1 min 40 s). If these factors leading to impaired processes within the central systems reduce the rate of motor un recruitment or discharge (or both), they may affect contractions requiring a high rate of activation (e.g., dynamic) more than those involving isometric contractions <ref type="bibr" target="#b24">(25)</ref><ref type="bibr" target="#b25">(26)</ref><ref type="bibr" target="#b26">(27)</ref>. Although the velocity is constrained during isokinetic contractions, Callahan et al. ( <ref type="formula">28</ref>) compared voluntary and electrically evoked (50 Hz for 0.5 s to achieve 50% baseline voluntary torque) contractions periodically during a voluntary isokinetic fatiguing knee extension task at 120°•s -1 . In agreement with our findings, they reported an approximately 10% greater reduction in voluntary compared with electrically evoked isokinetic torque production at task termination. This indicated that some degree of impairment within central processes was involved in the reductions in dynamic torque output during the fatiguing task. However, because in that study <ref type="bibr" target="#b27">(28)</ref> the stimulation intensity was set to elicit a submaximal isokinetic torque (~50% baseline output), the hyperpolarization of the axons or terminal nerve ends due to the fatiguing task (29) may have altered the relative proportion of motor units excited from electrical stimulation before and during the fatiguing task, potentially underestimating the relative reduction in torque during electrically evoked isokinetic contraction <ref type="bibr" target="#b27">(28)</ref>. Given that we used a current 20% above that which produced maximal tetanic torque at 300 Hz, axonal hyperpolarization, although still potentially present, may be a lesser issue in the current design.</p><p>The load used for evaluating isotonic contractions can influence fatigability. In the current study, we report that the time  from stimulus onset to movement (velocity onset) was longer with heavier loads, which increased after the fatiguing task, indicating time to generate sufficient isometric torque to initiate movement was impaired. Dalton et al. <ref type="bibr" target="#b10">(11)</ref> reported that isotonic peak power of higher loads (e.g., 40% MVC) was lower at task termination and throughout acute recovery compared with lighter loads (e.g., 20% MVC) in the knee extensors. We did not observe an effect of load for either peak power (P = 0.099) or RVD (P = 0.222) at task termination or throughout recovery. However, reductions in power for the 40% load were more related to impaired velocity generating capacity rather than dynamic torque, whereas for the 20% load, power was affected equally by reductions in both dynamic torque and velocity. In support of this, using a similar fatiguing task in the plantar flexors but assessing velocity and dynamic torque with an "unloaded" (weight of dynamometer arm only) contraction, we previously reported that impairments in power were more due to velocity than dynamic torque <ref type="bibr" target="#b29">(30)</ref>. Thus, the contributions dynamic torque and velocity for reductions in power generating capacity after the fatiguing task are load dependent but likely depend on various related factors, including the muscle group evaluated and the ROM used in the task <ref type="bibr" target="#b9">(10)</ref>. Shortening-induced residual force depression is a deficit in isometric torque output after a loaded shortening contraction <ref type="bibr" target="#b30">(31)</ref>, which may be larger for slower contractions (i.e., higher loads) and for a greater shortening ROM <ref type="bibr" target="#b31">(32)</ref>. Thus, in the knee extensors at higher loads (slower velocities), the larger ROM and work performed may reduce force (and subsequently power) output to a greater extent than with a shorter ROM during plantar flexion. These reductions due to shortening-induced residual force depression may also explain why Dalton et al. <ref type="bibr" target="#b10">(11)</ref> observed ROM failure during the voluntary fatiguing task, whereas we observed no change in ROM during the plantar flexion task, despite a larger reduction in peak power output during the fatiguing task.</p><p>We acknowledge that a 300-Hz constant frequency stimulation for electrically evoked isotonic contractions is well above the natural motor unit firing rates of voluntary contractions <ref type="bibr" target="#b32">(33)</ref>, but this brief tetanic train was chosen to maximize the rate of muscle activation <ref type="bibr" target="#b14">(15)</ref> as an important intrinsic factor for assessing isotonic peak power output. However, this nonphysiological rapid activation, instilling calcium release from the sarcoplasmic reticulum, may overcome commonly observed reductions in calcium release after a fatiguing task <ref type="bibr" target="#b33">(34)</ref>. Further, although we used a stimulation current (20% higher), which elicited maximal force output for each participant, we were unable to achieve equivalent peak power output in comparison with voluntary contractions. However, because comparisons are relative to baseline outputs, and assuming a similar motor unit pool activation before and after the fatiguing task, the lower power output of evoked contractions is likely representative of dynamic contractile performance. We did not test an adequate sample size of females to explore sex-related differences in fatigability, which might lead to different sex-dependent outcomes <ref type="bibr" target="#b34">(35)</ref>. Further, the relatively small sample size (n = 13) may have limited our ability to detect certain effects. Specifically, we may have been underpowered to detect the effect of load on the posttask criterion measure of peak power (P = 0.099, power = 0.78), which has been previously reported to significantly influence evaluation of the recovery trajectory after task termination <ref type="bibr" target="#b10">(11)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>In conclusion, we report that voluntary isotonic peak power and RVD of the plantar flexion were reduced to a greater extent after a fatiguing dynamic task in comparison with electrically evoked contractions. The relative preservation of electrically evoked power and RVD compared with voluntary contractions at task termination and quicker recovery to baseline values indicates that the impairments in contractile performance after task termination are due to both central and peripheral processes.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIGURE 2 -</head><label>2</label><figDesc>FIGURE 2-Voluntary and electrically evoked peak power of isotonic contractions loaded using 20% load (A) and 40% load (B). Closed circles and solid lines denote electrically evoked contractions; open circles and dashed lines denote voluntary contractions. Data are presented as mean and error bars are SD. #Significantly different (P &lt; 0.05) from baseline electrically evoked peak power. *Significantly different (P &lt; 0.05) from baseline voluntary peak power.</figDesc><graphic coords="5,112.20,37.87,360.69,113.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIGURE 3 -</head><label>3</label><figDesc>FIGURE 3-Voluntary and electrically evoked RVD contractions loaded using 20% load (A) and 40% load (B). Closed triangles and solid lines denote electrically evoked contractions; open triangles and dashed lines denote voluntary contractions. Data are presented as mean and error bars are SD. #Significantly different (P &lt; 0.05) from baseline electrically evoked RVD. *Significantly different (P &lt; 0.05) from baseline voluntary RVD.</figDesc><graphic coords="5,112.20,563.30,360.69,110.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="6,112.20,37.87,360.69,204.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1 .</head><label>1</label><figDesc>Baseline neuromuscular properties.</figDesc><table><row><cell>Mean ± SD</cell><cell>Participants (n = 11 Males, n = 2 Females)</cell></row><row><cell>Maximal voluntary isometric torque, N•m</cell><cell>166.5 ± 44.6</cell></row><row><cell>Voluntary activation, %</cell><cell>95.3 ± 3.1</cell></row><row><cell>Isotonic peak power</cell><cell></cell></row><row><cell>Voluntary with 20% load, W</cell><cell>252.0 ± 81.2</cell></row><row><cell>Electrically evoked with 20% load, W</cell><cell>131.3 ± 67.5*</cell></row><row><cell>Voluntary with 40% load, W</cell><cell>216.2 ± 68.0</cell></row><row><cell>Electrically evoked with 40% load, W</cell><cell>116.3 ± 52.4*</cell></row><row><cell>Isotonic RVD</cell><cell></cell></row><row><cell>Voluntary with 20% load, °•s -2</cell><cell>758.9 ± 219.5</cell></row><row><cell>Electrically evoked with 20% load, °•s -2</cell><cell>540.9 ± 209.0*</cell></row><row><cell>Voluntary with 40% load, °•s -2</cell><cell>571.6 ± 131.5</cell></row><row><cell>Electrically evoked with 40% load, °•s -2</cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>M. T. P. was supported by a fellowship from the <rs type="funder">Faculty of Health Sciences at the University of Western Ontario</rs> and an <rs type="funder">NSERC</rs> <rs type="grantName">PDF award</rs>. The results of the study are presented clearly, honestly, and without fabrication, falsification, or inappropriate data manipulation. The results of the present study do not constitute endorsement by the <rs type="funder">American College of Sports Medicine</rs>.</p><p>M. T. P. and C. L. R. conceptualized and designed the study, M. T. P. and S. V. K. were responsible for data acquisition, and M. T. P. analyzed and interpreted the data. M. T. P. drafted the initial manuscript. M. T. P., S. V. K., and C. L. R. critically revised and gave approval for the final manuscript.</p><p>This research was funded by the <rs type="funder">Natural Sciences and Engineering Research Council</rs>.</p><p>The authors declare no conflict of interest.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_j5tvCye">
+					<orgName type="grant-name">PDF award</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Translating fatigue to human performance</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Enoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Duchateau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2228" to="2238" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Enoka RM, Duchateau J. Translating fatigue to human performance. Med Sci Sports Exerc. 2016;48(11):2228-38.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Task-dependent factors in fatigue of human voluntary contractions</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bigland-Ritchie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Rice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Garland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Walsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Exp Med Biol</title>
+		<imprint>
+			<biblScope unit="volume">384</biblScope>
+			<biblScope unit="page" from="361" to="380" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bigland-Ritchie B, Rice CL, Garland SJ, Walsh ML. Task-dependent factors in fatigue of human voluntary contractions. Adv Exp Med Biol. 1995;384:361-80.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Fatigue of long duration in human skeletal muscle after exercise</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Merton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="769" to="778" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Edwards RH, Hill DK, Jones DA, Merton PA. Fatigue of long duration in human skeletal muscle after exercise. J Physiol. 1977;272(3):769-78.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Spinal and supraspinal factors in human muscle fatigue</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Gandevia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1725" to="1789" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gandevia SC. Spinal and supraspinal factors in human muscle fa- tigue. Physiol Rev. 2001;81(4):1725-89.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Neurobiology of muscle fatigue</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Enoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Stuart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1631" to="1648" />
+			<date type="published" when="1985">1985. 1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Enoka RM, Stuart DG. Neurobiology of muscle fatigue. J Appl Physiol (1985). 1992;72(5):1631-48.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Fatigue and recovery of power and isometric torque following isotonic knee extensions</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Rice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1446" to="1452" />
+			<date type="published" when="1985">1985. 2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cheng AJ, Rice CL. Fatigue and recovery of power and isometric torque following isotonic knee extensions. J Appl Physiol (1985). 2005;99(4):1446-52.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Differential contributions of fatigue-induced strength loss and slowing of angular velocity to power loss following repeated maximal shortening contractions</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Akagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hinks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Power</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">14362</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Akagi R, Hinks A, Davidson B, Power GA. Differential contributions of fatigue-induced strength loss and slowing of angular velocity to power loss following repeated maximal shortening contractions. Physiol Rep. 2020;8(3):e14362.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Comparison of prolonged low-frequency force depression assessed using isometric torque and isotonic power following a dynamic fatiguing task</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Paris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Zero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Rice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2597" to="2606" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paris MT, Zero AM, Rice CL. Comparison of prolonged low-frequency force depression assessed using isometric torque and isotonic power fol- lowing a dynamic fatiguing task. Eur J Appl Physiol. 2022;122(12): 2597-606.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Time-dependent neuromuscular parameters in the plantar flexors support greater fatigability of old compared with younger males</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wallace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Power</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Rice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Dalton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Gerontol</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="13" to="20" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wallace JW, Power GA, Rice CL, Dalton BH. Time-dependent neuromuscular parameters in the plantar flexors support greater fatigability of old compared with younger males. Exp Gerontol. 2016;74:13-20.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Power attenuation from restricting range of motion is minimized in subjects with fast RTD and following isometric training</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Davidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hinks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Dalton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Akagi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Power</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="497" to="510" />
+			<date type="published" when="1985">1985. 2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Davidson B, Hinks A, Dalton BH, Akagi R, Power GA. Power atten- uation from restricting range of motion is minimized in subjects with fast RTD and following isometric training. J Appl Physiol (1985). 2022;132(2):497-510.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Older men are more fatigable than young when matched for maximal power and knee extension angular velocity is unconstrained</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Dalton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Power</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Paturel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Rice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Age (Dordr)</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">9790</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dalton BH, Power GA, Paturel JR, Rice CL. Older men are more fatigable than young when matched for maximal power and knee extension angular velocity is unconstrained. Age (Dordr). 2015; 37(3):9790.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Fatigue of intermittent submaximal voluntary contractions: central and peripheral factors</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bigland-Ritchie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Furbush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Woods</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="421" to="429" />
+			<date type="published" when="1985">1985. 1986</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bigland-Ritchie B, Furbush F, Woods JJ. Fatigue of intermittent sub- maximal voluntary contractions: central and peripheral factors. J Appl Physiol (1985). 1986;61(2):421-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Bigland-Ritchie B. Motor drive and metabolic responses during repeated submaximal contractions in humans</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Vollestad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Sejersted</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bahr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Woods</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1421" to="1427" />
+			<date type="published" when="1985">1985. 1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vollestad NK, Sejersted OM, Bahr R, Woods JJ, Bigland-Ritchie B. Motor drive and metabolic responses during repeated submaximal contractions in humans. J Appl Physiol (1985). 1988;64(4):1421-7.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Changes in muscle contractile properties and neural control during human muscular fatigue</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bigland-Ritchie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Woods</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Muscle Nerve</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="691" to="699" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bigland-Ritchie B, Woods JJ. Changes in muscle contractile proper- ties and neural control during human muscular fatigue. Muscle Nerve. 1984;7(9):691-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Initial phase of maximal voluntary and electrically stimulated knee extension torque development at different knee angles</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Ruiter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Kooistra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Paalman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Haan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1693" to="1701" />
+			<date type="published" when="1985">1985. 2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">De Ruiter CJ, Kooistra RD, Paalman MI, De Haan A. Initial phase of maximal voluntary and electrically stimulated knee extension torque development at different knee angles. J Appl Physiol (1985). 2004; 97(5):1693-701.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Extent of motor unit activation during effort</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Belanger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Mccomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol Respir Environ Exerc Physiol</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1131" to="1135" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Belanger AY, Mccomas AJ. Extent of motor unit activation during effort. J Appl Physiol Respir Environ Exerc Physiol. 1981;51(5):1131-5.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">High-and low-frequency fatigue revisited</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol Scand</title>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="265" to="270" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jones DA. High-and low-frequency fatigue revisited. Acta Physiol Scand. 1996;156(3):265-70.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Test-retest repeatability of electrically evoked isotonic power and isometric torque in the plantar flexors</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Paris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Zero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Rice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Physiol Nutr Metab</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="91" to="95" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paris MT, Zero AM, Rice CL. Test-retest repeatability of electrically evoked isotonic power and isometric torque in the plantar flexors. Appl Physiol Nutr Metab. 2023;48(1):91-5.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Neuromuscular performance of explosive power athletes versus untrained individuals</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Tillin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jimenez-Reyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mtg</forename><surname>Pain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Folland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="781" to="790" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tillin NA, Jimenez-Reyes P, Pain MTG, Folland JP. Neuromuscular performance of explosive power athletes versus untrained individ- uals. Med Sci Sports Exerc. 2010;42(4):781-90.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Measurement and reproducibility of strength and voluntary activation of lower-limb muscles</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Gorman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Gandevia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Muscle Nerve</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="834" to="842" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Todd G, Gorman RB, Gandevia SC. Measurement and reproducibil- ity of strength and voluntary activation of lower-limb muscles. Mus- cle Nerve. 2004;29(6):834-42.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Isometric torque and shortening velocity following fatigue and recovery of different voluntary tasks in the dorsiflexors</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Rice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Physiol Nutr Metab</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="866" to="874" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cheng AJ, Rice CL. Isometric torque and shortening velocity follow- ing fatigue and recovery of different voluntary tasks in the dorsiflexors. Appl Physiol Nutr Metab. 2009;34(5):866-74.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Skeletal muscle fatigue: cellular mechanisms</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Lamb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Westerblad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="287" to="332" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Allen DG, Lamb GD, Westerblad H. Skeletal muscle fatigue: cellular mechanisms. Physiol Rev. 2008;88(1):287-332.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Neural contributions to muscle fatigue: from the brain to the muscle and back again</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Amann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Duchateau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Meeusen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Rice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2294" to="2306" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Taylor JL, Amann M, Duchateau J, Meeusen R, Rice CL. Neural contributions to muscle fatigue: from the brain to the muscle and back again. Med Sci Sports Exerc. 2016;48(11):2294-306.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A comparison of voluntary and electrically evoked isokinetic plantar flexor torque in males</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Harridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol Occup Physiol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">66</biblScope>
+			<biblScope unit="page" from="343" to="348" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Harridge SD, White MJ. A comparison of voluntary and electrically evoked isokinetic plantar flexor torque in males. Eur J Appl Physiol Occup Physiol. 1993;4(66):343-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">You are as fast as your motor neurons: speed of recruitment and maximal discharge of motor neurons determine the maximal rate of force development in humans</title>
+		<author>
+			<persName><forename type="first">Del</forename><surname>Vecchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Negro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Holobar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">597</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2445" to="2456" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Del Vecchio A, Negro F, Holobar A, et al. You are as fast as your mo- tor neurons: speed of recruitment and maximal discharge of motor neurons determine the maximal rate of force development in humans. J Physiol. 2019;597(9):2445-56.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Maximal discharge rate of motor units determines the maximal rate of force development during ballistic contractions in human</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Duchateau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Baudry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Hum Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">234</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Duchateau J, Baudry S. Maximal discharge rate of motor units deter- mines the maximal rate of force development during ballistic contrac- tions in human. Front Hum Neurosci. 2014;8:234.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Rate modulation of human anconeus motor units during high-intensity dynamic elbow extensions</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Cowling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Harwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Copithorne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Rice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="475" to="482" />
+			<date type="published" when="1985">1985. 2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cowling BL, Harwood B, Copithorne DB, Rice CL. Rate modulation of human anconeus motor units during high-intensity dynamic elbow extensions. J Appl Physiol (1985). 2016;121(2):475-82.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Age-related fatigue resistance in the knee extensor muscles is specific to contraction mode</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Callahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Foulis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Kent-Braun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Muscle Nerve</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="692" to="702" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Callahan DM, Foulis SA, Kent-Braun JA. Age-related fatigue resis- tance in the knee extensor muscles is specific to contraction mode. Muscle Nerve. 2009;39(5):692-702.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Activity-dependent hyperpolarization of human motor axons produced by natural activity</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vagg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mogyoros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Kiernan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Burke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">507</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="919" to="925" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vagg R, Mogyoros I, Kiernan MC, Burke D. Activity-dependent hy- perpolarization of human motor axons produced by natural activity. J Physiol. 1998;507(3):919-25.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Frequency-dependent coexistence of muscle fatigue and potentiation assessed by concentric isotonic contractions in human plantar flexors</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Zero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Paris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Rice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="490" to="505" />
+			<date type="published" when="1985">1985. 2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zero AM, Paris MT, Rice CL. Frequency-dependent coexistence of muscle fatigue and potentiation assessed by concentric isotonic contrac- tions in human plantar flexors. J Appl Physiol (1985). 2022;133(2): 490-505.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Shortening-induced residual force depression in humans</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Power</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1066" to="1073" />
+			<date type="published" when="1985">1985. 2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chen J, Hahn D, Power GA. Shortening-induced residual force de- pression in humans. J Appl Physiol (1985). 2019;126(4):1066-73.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Mechanical deactivation induced by active shortening in isolated muscle fibres of the frog</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Edman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="255" to="275" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Edman KA. Mechanical deactivation induced by active shortening in isolated muscle fibres of the frog. J Physiol. 1975;246(1):255-75.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Rate coding and the control of muscle force</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Enoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Duchateau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harb Perspect Med</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">29702</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Enoka RM, Duchateau J. Rate coding and the control of muscle force. Cold Spring Harb Perspect Med. 2017;7(10):a029702.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Molecular basis for exercise-induced fatigue: the importance of strictly controlled cellular ca 2+ handling</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Place</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Westerblad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cold Spring Harb Perspect Med</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">29710</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cheng AJ, Place N, Westerblad H. Molecular basis for exercise-induced fatigue: the importance of strictly controlled cellular ca 2+ handling. Cold Spring Harb Perspect Med. 2018;8(2):a029710.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Sex differences in fatigability of dynamic contractions</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Hunter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="250" to="255" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hunter SK. Sex differences in fatigability of dynamic contractions. Exp Physiol. 2016;101(2):250-5.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

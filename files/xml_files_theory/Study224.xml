@@ -1,0 +1,1567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Clinical Outcomes, Structure, and Function Improve With Both Heavy and Moderate Loads in the Treatment of Patellar Tendinopathy A Randomized Clinical Trial</title>
+				<funder>
+					<orgName type="full">Faculty of Health and Medical Sciences of the University of Copenhagen</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Independent Research Fund Denmark</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Danish Society of Sports Physical Therapy</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Danish Rheumatism Association</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>PT, MSc</roleName><forename type="first">Anne-Sofie</forename><surname>Agergaard</surname></persName>
+							<email>anne-sofie.agergaard@regionh.dk</email>
+						</author>
+						<author>
+							<persName><roleName>MSc</roleName><forename type="first">Yz</forename><surname>Pt</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Rene</forename><forename type="middle">B</forename><surname>Svensson</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Sports Medicine Copenhagen, Bispebjerg</orgName>
+								<orgName type="institution" key="instit1">Frederiksberg Hospital Niel</orgName>
+								<orgName type="institution" key="instit2">Nielsens</orgName>
+								<address>
+									<addrLine>Vej 11 1st Floor</addrLine>
+									<postCode>DK-2400</postCode>
+									<settlement>Copenhagen</settlement>
+									<region>NV</region>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Nikolaj</forename><forename type="middle">M</forename><surname>Malmgaard-Clausen</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Sports Medicine Copenhagen, Bispebjerg</orgName>
+								<orgName type="institution" key="instit1">Frederiksberg Hospital Niel</orgName>
+								<orgName type="institution" key="instit2">Nielsens</orgName>
+								<address>
+									<addrLine>Vej 11 1st Floor</addrLine>
+									<postCode>DK-2400</postCode>
+									<settlement>Copenhagen</settlement>
+									<region>NV</region>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Christian</forename><surname>Couppe</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Mikkel</forename><forename type="middle">H</forename><surname>Pt</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Hjortshoej</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MSc</roleName><forename type="first">Simon</forename><surname>Pt</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Doessing</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Sports Medicine Copenhagen, Bispebjerg</orgName>
+								<orgName type="institution" key="instit1">Frederiksberg Hospital Niel</orgName>
+								<orgName type="institution" key="instit2">Nielsens</orgName>
+								<address>
+									<addrLine>Vej 11 1st Floor</addrLine>
+									<postCode>DK-2400</postCode>
+									<settlement>Copenhagen</settlement>
+									<region>NV</region>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Michael</forename><surname>Kjaer</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Sports Medicine Copenhagen, Bispebjerg</orgName>
+								<orgName type="institution" key="instit1">Frederiksberg Hospital Niel</orgName>
+								<orgName type="institution" key="instit2">Nielsens</orgName>
+								<address>
+									<addrLine>Vej 11 1st Floor</addrLine>
+									<postCode>DK-2400</postCode>
+									<settlement>Copenhagen</settlement>
+									<region>NV</region>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD, DMSc</roleName><forename type="first">S</forename><forename type="middle">Peter</forename><surname>Magnusson</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>DMSc</roleName><surname>Pt</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Investigation performed at Bispebjerg and Frederiksberg Hospital</orgName>
+								<orgName type="institution">University of Copenhagen</orgName>
+								<address>
+									<settlement>Copenhagen</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Institute of Sports Medicine Copenhagen</orgName>
+								<orgName type="department" key="dep2">Department of Orthopedic Surgery, Bispebjerg and Frederiksberg Hospital and Center for Healthy Aging</orgName>
+								<orgName type="department" key="dep3">Faculty of Health and Medical Sciences</orgName>
+								<orgName type="institution">University of Copenhagen</orgName>
+								<address>
+									<settlement>Copenhagen</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Physical and Occupational Therapy, Bispebjerg and Frederiksberg Hospital</orgName>
+								<orgName type="institution">University of Copenhagen</orgName>
+								<address>
+									<settlement>Copenhagen</settlement>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Clinical Outcomes, Structure, and Function Improve With Both Heavy and Moderate Loads in the Treatment of Patellar Tendinopathy A Randomized Clinical Trial</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E48C2290C219482CD9A2713E501BCC85</idno>
+					<idno type="DOI">10.1177/0363546520988741</idno>
+					<note type="submission">Submitted July 7, 2020; accepted November 2, 2020.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>patellar tendon</term>
+					<term>tendinopathy</term>
+					<term>loading-based treatment</term>
+					<term>load magnitude</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Loading interventions have become a predominant treatment strategy for tendinopathy, and positive clinical outcomes and tendon tissue responses may depend on the exercise dose and load magnitude.</p><p>Purpose/Hypothesis: The purpose was to investigate if the load magnitude influenced the effect of a 12-week loading intervention for patellar tendinopathy in the short term (12 weeks) and long term (52 weeks). We hypothesized that a greater load magnitude of 90% of 1 repetition maximum (RM) would yield a more positive clinical outcome, tendon structure, and tendon function compared with a lower load magnitude of 55% of 1 RM when the total exercise volume was kept equal in both groups.</p><p>Study Design: Randomized clinical trial; Level of evidence, 1.</p><p>Methods: A total of 44 adult participants with chronic patellar tendinopathy were included and randomized to undergo moderate slow resistance (MSR group; 55% of 1 RM) or heavy slow resistance (HSR group; 90% of 1 RM). Function and symptoms (Victorian Institute of Sport Assessment-Patella questionnaire [VISA-P]), tendon pain during activity (numeric rating scale [NRS]), and ultrasound findings (tendon vascularization and swelling) were assessed before the intervention, at 6 and 12 weeks during the intervention, and at 52 weeks from baseline. Tendon function (functional tests) and tendon structure (ultrasound and magnetic resonance imaging) were investigated before and after the intervention period.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The patellar tendon is designed to withstand considerable loads during locomotion and may be loaded up to 4 kN during a single countermovement jump (CMJ). <ref type="bibr" target="#b12">13</ref> However, repetitive use often results in overuse injuries such as tendinopathy, which is a common clinical condition</p><p>The American Journal of Sports Medicine 2021;49(4):982-993 DOI: 10.1177/0363546520988741 Ó 2021 The Author(s) characterized by pain during activity, localized tenderness upon palpation, and impaired performance. <ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b43">44</ref> Its histopathologic characteristics include increased cellularity; increased proteoglycans, glycosaminoglycans, and water; hypervascularization; and disorganized collagen. <ref type="bibr" target="#b32">33</ref> The prevalence of patellar tendinopathy has been reported to be as high as 14% in elite athletes and 9% among recreational athletes, especially within explosive sports. <ref type="bibr" target="#b31">32,</ref><ref type="bibr" target="#b49">50</ref> Furthermore, among elite male volleyball players, its prevalence can be as high as 45%, <ref type="bibr" target="#b31">32</ref> and its symptoms as well as accompanying performance reduction may be long lasting (years). <ref type="bibr" target="#b25">26</ref> However, despite tendinopathy being a common condition and a substantial clinical challenge, its exact pathologic characteristics and optimal treatment modalities remain elusive. <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b30">31</ref> Loading interventions are the preferred treatment for tendinopathy, but the optimal dose in terms of repetitions, sets, frequency, and loads has been debated. <ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b47">48</ref> An optimal exercise dose and load magnitude during loading interventions may improve the clinical outcome <ref type="bibr" target="#b42">43</ref> and lead to a positive tendon tissue response. <ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29</ref> Nevertheless, while many clinical trials have compared the effect of different exercise programs, they rarely have isolated specific parameters influencing these loading-based approaches, for example, to what extent load magnitudes make a difference. Thus, the optimal load magnitude in patients with tendinopathy is still unknown.</p><p>Different eccentric muscle loading programs have become the treatment of choice for tendinopathy over the past decade. <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b30">31</ref> However, a recent systematic review concluded that there is little clinical or mechanistic evidence that supports isolating the eccentric component. <ref type="bibr" target="#b33">34</ref> Furthermore, for patellar tendinopathy, 1 study showed that heavy slow resistance training yields a superior long-term response compared with an eccentric loading program. <ref type="bibr" target="#b27">28</ref> Nevertheless, the focus on eccentric exercise may have overshadowed important aspects of the loading intervention including the optimal load magnitude, which has some support from both basic science and clinical trials.</p><p>The primary cells in the tendon are fibroblasts, which respond to mechanical strain. <ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b46">47</ref> Tissue loading results in strain on the fibroblasts and thus initiates the synthesis of collagen and other extracellular matrix components important for the tendon healing process. Conversely, the lack of strain can lead to degeneration. <ref type="bibr" target="#b2">3</ref> However, the response of the tendon in vivo to various exercises (doses) remains unknown. A study by Arampatzis et al <ref type="bibr" target="#b1">2</ref> showed that with equal exercise volumes, the exercise with a greater load (and thus strain) produced increased tendon stiffness and an increased cross-sectional area (CSA) in persons with healthy human Achilles tendons. Importantly, it remains unknown if the load magnitude is also important in patients with tendinopathy.</p><p>Therefore, we designed a study to specifically examine if the load magnitude influences the outcome of a 12-week loading intervention in the treatment of patellar tendinopathy. Furthermore, we assessed the long-term (52 weeks) effect, which has only been examined in a few previous studies. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b48">49</ref> On the basis of the above considerations, we hypothesized that a greater magnitude (90% of 1 repetition maximum [RM]) of loading would yield more positive clinical (primary outcome; Victorian Institute of Sport Assessment-Patella questionnaire [VISA-P]), functional, and structural outcomes compared with a lower magnitude (55% of 1 RM) of loading in patients with patellar tendinopathy when the total exercise volume was equal in both groups. All abbreviations used in this article are explained in Table <ref type="table">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>This study was a prospective, randomized, controlled, single-blinded, superiority trial conducted in Copenhagen, Denmark. Ethical approval was obtained from the regional ethics committees for medical research (No. H-15017806), and all participants provided written informed consent. The study was preregistered at ClinicalTrials.gov (NCT03096067) before the inclusion of the first</p><p>TABLE 1 Abbreviations Abbreviation Definition AP Anterior-posterior CMJ Countermovement jump CSA Cross-sectional area GS Gray scale HSR Heavy slow resistance MRI Magnetic resonance imaging MSR Moderate slow resistance MVIC Maximal voluntary isometric contraction NRS Numeric rating scale PD Power Doppler RM Repetition maximum SJ Squat jump SLDS Single-leg decline squat VISA-P Victorian Institute of Sport Assessment-Patella questionnaire participant, and the reporting of this trial follows the CON-SORT (Consolidated Standards of Reporting Trials) guidelines. 36</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Participants were recruited through the sports clinic at Bispebjerg and Frederiksberg Hospital and via advertisements on social media and the internet. Inclusion criteria were the following: male athletes, age of 20 to 45 years, body mass index of 18.5 to 30.0, patellar tendon pain duration of 3 to 12 months, and clinical diagnosis of patellar tendinopathy by a sports physical therapist or experienced sports physician based on defined clinical findings. Furthermore, the clinical diagnosis required confirmation via ultrasonography: local anterior-posterior (AP) thickening of the tendon of at least 1 mm compared with the midtendon level, a hypoechoic area, and the presence of a power Doppler (PD) signal. <ref type="bibr" target="#b7">8</ref> Exclusion criteria were the following: corticosteroid injections for patellar tendinopathy, previous knee surgery, arthritis, diabetes, any confounding diagnosis involving the knee joint, smoking, or participation in elite-level volleyball. On the basis of previous data, <ref type="bibr" target="#b27">28</ref> we estimated that a sample of 18 participants was needed in each group to detect a between-group difference of 13 points on the VISA-P (minimal clinically important difference <ref type="bibr" target="#b21">22</ref> ) with an alpha level of .05 and a power/ beta level of 0.80. Therefore, 44 participants were included in total to account for a 20% dropout rate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Randomization</head><p>Participants underwent a telephone screening and preexamination to verify compliance with inclusion criteria. After inclusion and before the baseline assessment, there was a 2-week ''washout'' period from any previous treatment and heavy resistance training. After baseline assessment, participants were randomly allocated to either the moderate slow resistance (MSR) group or the heavy slow resistance (HSR) group. The randomization sequence was a computer-generated minimization randomization procedure <ref type="bibr" target="#b39">40</ref> (MinimPy Version 0.3; Python Software Foundation) with a 1:1 allocation ratio, and participants were stratified according to preinjury physical activity level, pain level, and pain duration.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Blinding</head><p>VISA-P scores and other patient-reported outcomes were obtained blinded for members of the research team. Furthermore, examiners conducting ultrasonography (N.M.M., C.C.) and magnetic resonance imaging (MRI) were blinded to treatment allocation. The investigator conducting the other follow-up tests (A.A.) was not blinded; however, all baseline measurements were collected before treatment allocation, and all data were analyzed blinded. Participants and the physical therapists providing the intervention could not be blinded; however, the physical therapists were instructed to tell participants that both intervention programs could potentially provide beneficial results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interventions</head><p>The HSR loading program was started at 55% of 1 RM and progressed to 90% of 1 RM. The MSR loading program likewise started at 55% of 1 RM and maintained this rate throughout the intervention period. The total exercise volume was matched between groups, and both groups performed 3 weekly sessions (all in a commercial fitness center) in which 1 session was supervised and the last 2 sessions were not supervised. Each session consisted of 1 bilateral leg press exercise and 1 unilateral knee extension exercise (Appendix Figure <ref type="figure" target="#fig_0">A1</ref>, available online), with each lasting 6 seconds (3 seconds for the concentric and eccentric phases, respectively). The leg press was performed from complete extension to 90°of knee flexion. Knee extension was performed from 100°of knee flexion to 40°of knee flexion. Both groups completed 1 warm-up set before the exercise protocol, with a 2-to 3-minute rest between sets (Table <ref type="table">2</ref>). Every second week, a 5-RM submaximal test was performed to estimate 1 RM and adjust training loads accordingly. Pain during the exercises (numeric rating scale [NRS], \5) was accepted but was not allowed to increase after cessation of the training session, and if any training-induced pain did not subside 3 to 4 hours after the session, the load was adjusted.</p><p>Participants were allowed to perform sports activities throughout the 12-week intervention period if there was only light discomfort (NRS, \3). A leisure-time activity pain score of 50 on a visual analog scale has previously been applied successfully in the management of Achilles</p><p>TABLE 2 Exercise Protocols a 1 wk 2 wk 3 wk 4 wk 5 wk 6 wk 7-12 wk No. of sets 3 3 3 4 4 4 5 HSR % of 1 RM 55 65 70 75 80 85 90 No. of repetitions 15 12 10 8 6 5 4 MSR % of 1 RM 55 55 55 55 55 55 55 No. of repetitions 15 14 13 11 9 8 7 a HSR, heavy slow resistance; MSR, moderate slow resistance; RM, repetition maximum.</p><p>984 Agergaard et al The American Journal of Sports Medicine tendinopathy. <ref type="bibr" target="#b42">43</ref> The participants were encouraged to maintain uniform leisure-time sports participation during the 12-week intervention period. All participants completed a training diary during the intervention using a smartphone application (Injurymap Science; Injurymap). The training records included training intensity (repetitions, sets, and loads), sessions, pain during training (NRS), and information about deviations from the planned intervention protocol.</p><p>When the intervention period ended after 12 weeks, the participants did not receive any further treatment but were encouraged to maintain their intervention and use the guidelines regarding pain management and training adjustments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Follow-up Evaluation</head><p>Outcome measurements were obtained at baseline, during the intervention (6 weeks), after the intervention (12 weeks), and at 1-year follow-up (52 weeks). The primary outcome was the VISA-P score (change from baseline to 12 weeks). Mechanical properties and ultrashort echo time MRI outcomes will be published separately. Baseline and 12-week measurements were collected 3 to 4 days before and after the intervention period, respectively. The examination order was identical for all follow-up evaluations, always starting with MRI at day 1 and ultrasound at day 2, followed by a 5-minute warm-up on a bicycle ergometer before further examinations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Patient-Reported Outcome Measures</head><p>All participants completed the electronic VISA-P to assess symptoms, function, and ability to participate in sports. The VISA-P consists of 8 questions, with a maximum score of 100 indicating the person is asymptomatic and fully performing and lower scores indicating more symptoms and limitations of function and activity. <ref type="bibr" target="#b44">45</ref> The VISA-P has been shown to be a valid and reliable outcome measure for patients with patellar tendinopathy. <ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b44">45</ref> The minimal clinically important difference for the VISA-P in athletes with patellar tendinopathy is considered to be 13 points. <ref type="bibr" target="#b21">22</ref> In addition, maximal tendon pain during the preferred sport and function were evaluated on an 11-point NRS, with 10 being the worst imaginable pain and 0 denoting no pain. Participants completed the VISA-P and NRS with no investigator assistance at baseline, 6 weeks, 12 weeks, and 1-year follow-up.</p><p>Weekly sports participation (hours) during the preceding week was evaluated before the injury (recall) and at baseline, 6 weeks, 12 weeks, and 1-year follow-up. Participants evaluated their satisfaction with the results at the end of the intervention (12 weeks) and at 1-year followup using an electronic written questionnaire.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Functional Evaluation</head><p>Quadriceps muscle strength was measured during maximal voluntary isometric contractions (MVICs) as previously described <ref type="bibr" target="#b5">6</ref> at baseline and 12 weeks. Briefly, participants were strapped to a custom-made rigid chair in a seated position with 90°of hip and knee flexion. A rigid leg cuff was placed on the lower leg approximately 3 cm above the medial malleolus and was connected to a strain gauge through a stiff steel rod. A wireless transmitter (8-channel TeleMyo 2400T G2 Telemetry System; Noraxon) was used for force recording using MyoResearch XP Master Edition Version 1.07 (Noraxon). The distance from the cuff to the knee joint line (tibial length) was measured to evaluate the knee extensor moment (peak force * tibial length). Overall, 4 MVICs of approximately 8 seconds, with a 2-minute rest period between the tests, were conducted. The first contraction was considered as a familiarization trial, and the maximal peak force and knee extensor moment among the remaining 3 contractions were used for analysis.</p><p>A reliable patellar tendon pain provocation test, the single-leg decline squat (SLDS), <ref type="bibr" target="#b37">38</ref> was used to examine pain during function at baseline, 6 weeks, 12 weeks, and 1-year follow-up. Participants performed a decline squat on a 25°decline board and reported pain using the NRS upon completion. The participants were instructed to stand on 1 leg with their hands placed at the waist and to keep the trunk vertical and heels in contact with the board. An SLDS was performed until 50°of knee flexion, and participants returned to the starting position at a selfdetermined speed. <ref type="bibr" target="#b8">9</ref> One practice trial was performed before the 2 tests, with a 1-minute rest period between the tests. The NRS score was collected once at each trial, and the mean of the 2 scores was used for further analysis.</p><p>Furthermore, the squat jump (SJ) and CMJ were used to examine function at baseline and 12 weeks. Jump tests were performed on a portable contact mat (Chronojump; Boscosystem), and the vertical jump height was estimated from the flight time (gravity / 8 * flight time squared). The open-source system Chronojump has been demonstrated to be a valid and reliable tool for measuring jumping ability. <ref type="bibr" target="#b36">37</ref> The SJ was performed from a starting position of a 90°k nee angle without a countermovement. The CMJ was started on straight legs with a countermovement down to a 90°knee angle before the jump. The participants performed 2 to 3 practice trials before testing, and the mean jump height of 3 technically correct jumps was used for further analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ultrasonography</head><p>Ultrasonography was performed on the patellar tendon using a HI VISION Ascendus ultrasound machine (Hitachi Medical Systems). Gray-scale (GS) and PD settings were identical for all examinations. All participants were instructed to avoid strenuous physical activity 24 hours before the examination. The ultrasound examination was performed at baseline, 6 weeks, 12 weeks, and 1-year follow-up by the same 2 experienced assessors (N.M.M., C.C.).</p><p>The GS examination was performed with the participant in a seated position with 90°of hip and knee flexion. It was performed using a 10.5 long linear transducer, the depth fixed at 4.5 cm, a dynamic range of 70, and a gain of 20. The transducer was placed at a 90°angle (not rotated along the tendon surface) and moved medially to laterally to find the place where the tendon was thickest. After imaging this position, the transducer was removed from the skin, and the procedure was repeated. Ultrasound findings were imported to Fiji/ImageJ (Version 1.52; National Institutes of Health) for quantitative analysis. The AP patellar tendon thickness was measured exactly 0.5 cm distally from the patellar apex by a blinded investigator (A.A.). The specific measuring site and method were followed as previously described. <ref type="bibr" target="#b15">16</ref> The maximum of the AP thickness from the 2 recorded images was used for further statistical analysis.</p><p>The PD examination was performed with the participants lying supine and with a stretched and relaxed knee. It was performed using an 18.5 long linear transducer, the depth fixed at 2.0 cm, a dynamic range of 70, a color Doppler frequency of 10 MHz, a pulse repetition frequency of 250, and a color gain of 37. The investigator applied minimum transducer pressure during scanning. The transducer was placed at a 90°angle and moved medially to laterally to locate the maximum Doppler signal. At this location, two 4-second sine loops were recorded in the sagittal plane (uncompressed AVI files each containing 16 frames). The ultrasound findings were imported to Fiji/ ImageJ for quantitative analysis. A custom macro was set up to analyze the frame containing the largest area of Doppler activity in each series. Doppler was only included if it was localized within the tendon and possible noises were excluded. The image with the largest Doppler area was used for further analysis. Two investigators (A.A., M.H.H.) conducted all analyses in a blinded fashion, with the prescans and postscans for each participant analyzed by the same investigator.</p><p>Tendon CSA MRI (3.0-T scanner; Siemens) was used to assess the CSA of the patellar tendon on the injured side at baseline and 12 weeks. The parameters used for MRI were as follows: transversal proton density weighted, slice thickness of 3 mm, field of view of 80 3 80 mm, matrix resolution of 0.42 3 0.42 3 3.00 mm, echo time of 39 milliseconds, and repetition time of 4000 milliseconds. Participants were scanned in the supine position using a dedicated 15-channel send/receive knee coil. The knee was placed in a standardized flexion position of approximately 10°in the knee coil to ensure that the tendon was in fact not slack. Importantly, this was done in the very same manner for all participants at all time points.</p><p>The open-source software Horos Version 3.3.5 for Mac (<ref type="url" target="https://horosproject.org">https://horosproject.org</ref>) was used to analyze the MRI scans. The patellar tendon CSA was measured by manually outlining the tendon in the axial plane just distal to the patella, at the midtendon level, and just proximal to the tibial insertion as previously described. <ref type="bibr" target="#b29">30</ref> The mean of 3 measurements at each location was used for further analysis. To optimize the measurements, both the GS and the National Institutes of Health color scale were used during outlining. This procedure has been described in detail elsewhere and has been shown to reduce the underestimation of the CSA by 2.8% compared with using only GS. <ref type="bibr" target="#b10">11</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical Analysis</head><p>Statistical analyses were carried out using GraphPad Prism (Version 8.2.1 for Mac; GraphPad Software). Results are reported as the mean 6 SEM unless otherwise noted. Baseline demographic data and participant compliance were analyzed by using the unpaired Student t test. Outcome parameters were analyzed via 2-way analyses of variance (time 3 group) with Bonferroni post hoc analyses when appropriate. Participant satisfaction was analyzed using the Fisher exact test at 12 and 52 weeks. The correlation of changes in the VISA-P score and PD area from baseline to 12 weeks and from baseline to 52 weeks was analyzed using the Pearson correlation. All analyses were performed as intention to treat with last observation carried forward. Per-protocol analyses (participants who fulfilled at least 75% of the prescribed training sessions) are shown in the Appendix (available online). The significance level for all tests was set to P . .05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Between April 2017 and July 2018, a total of 44 participants were enrolled in the study and randomized into 1 of 2 groups. For details, see the flowchart (Figure <ref type="figure" target="#fig_0">1</ref>). There were 2 participants who did not receive the allocated intervention because MRI at baseline revealed confounding diagnoses and thus were removed from the analysis. There were no significant differences between the 2 intervention groups at baseline (Table <ref type="table">3</ref>). All participants were recreational athletes, with a large number (n = 13) involved in strength training (including CrossFit) and other preferred sports: soccer (n = 9), running (n = 7), volleyball (n = 4), badminton (n = 3), basketball (n = 3), gymnastics (n = 1), swimming (n = 1), and football (n = 1).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Compliance</head><p>Overall, 2 participants dropped out: 1 because of the exacerbation of pain and 1 because of interference with his work schedule. Furthermore, 1 participant did not complete the 1-year follow-up because of low back surgery.</p><p>The mean training session compliance rate was 78% 6 4% for the HSR group and 86% 6 2% for the MSR group, which was not significantly different (P = .13) (Appendix Table <ref type="table">A1</ref>, available online). All data from the per-protocol analyses (participants who fulfilled at least 75% of the prescribed training sessions) are shown in Appendix Table <ref type="table">A2</ref> (available online), and the overall conclusions were equal to those of the intention-to-treat analyses (Appendix Table <ref type="table">A1</ref> and Figure <ref type="figure">A2</ref>, available online). The supervised TABLE 3 Baseline Characteristics a HSR (n = 21) MSR (n = 21) Age, y 28.8 6 5.1 (20-38) 32.3 6 4.9 (23-41) Height, cm 185.8 6 7.1 180.7 6 7.2 Weight, kg 86.7 6 9.3 82.2 6 9.2 Body mass index 25.1 6 2.4 25.2 6 2.6 Symptom duration, mo 6.9 6 2.4 (3-12) 7.3 6 2.9 (3-12) Sports participation, h/wk 9.0 6 4.8 (1-21) 7.0 6 3.8 (1-14) NRS score (pain during activity) 4.7 6 2.2 (1-8) 5.2 6 2.0 (2-9) Unilateral/bilateral injury, n 14/7 13/8 Proximal/distal injury, n 21/0 20/1 a</p><p>Values are expressed as mean 6 SD (range) unless otherwise noted. There were no differences between groups for any parameters at baseline. HSR, heavy slow resistance; MSR, moderate slow resistance; NRS, numeric rating scale. session compliance rate was 81% 6 4% for the HSR group and 86% 6 2% for the MSR group (P = .39).</p><p>The participants completed the leg press exercise with a mean of 76.8% 6 4.2% and 84.8% 6 2.2% of the calculated total absolute volume prescribed for HSR and MSR, respectively (P = .10) (Appendix Table <ref type="table">A1</ref>, available online). The knee extension exercise for the injured leg was performed with a mean of 72.9% 6 4.3% and 80.3% 6 2.7% of the calculated total absolute volume for HSR and MSR, respectively (P = .15). Both exercises were performed with greater than 90% of the load prescribed for HSR and MSR. Similarly, no difference in the prescribed total time under tension was demonstrated between the groups for the leg press (HSR: 79.0% 6 3.9%; MSR: 85.3% 6 2.1%; P = .17) or knee extension on the injured leg (HSR: 77.1% 6 3.9%; MSR: 83.4% 6 2.4%; P = .18). There was no group 3 time, group, or time effect for self-reported pain during both exercises (Table <ref type="table" target="#tab_3">4</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Clinical Results</head><p>There was no significant group 3 time (P = .89) or group effect (P = .57), but there was a significant effect of time (P \ .0001) for the VISA-P score (Table <ref type="table">5</ref>). The VISA-P score increased from baseline to 12 weeks, and from 12 to 52 weeks, and from baseline to 52 weeks in both groups. For the NRS score for running, NRS score for squats, and NRS score for preferred sport, there was a significant reduction with time (P \ .0001) but no significant group 3 time or group effect (NRS for running: P = .33; NRS for squats: P = .07; and NRS for preferred sport: P = .48) (Table <ref type="table" target="#tab_3">4</ref>).</p><p>Similarly, for the NRS score during the SLDS test, there was no group 3 time (P = .93) or group effect (P = .73), but there was a significant main effect of time (P \ .0001). The NRS score during the SLDS decreased significantly from baseline to 12 weeks for both groups (P \ .0001) but not from 12 to 52 weeks (HSR: P = .37; MSR: P = .73) (Table <ref type="table">5</ref>).</p><p>Participants' satisfaction with the clinical outcome at 12 weeks was similar for HSR (95%; 18/19) and MSR (95%; 20/ 21) (P . .99). At 52-week follow-up, 84% (16/19) of the HSR group and 95% (20/21) of the MSR group were satisfied, with no difference between the groups (P = .33).</p><p>For activity level, there was no significant effect of time (P = .44), group 3 time (P = .13), or group (P = .75) (Table <ref type="table">6</ref>). The mean activity level during the 12-week intervention period was not different from the baseline level for either of the 2 groups. However, the activity level at baseline and 52 weeks was significantly lower compared with the preinjury level.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Function</head><p>For muscle strength, no significant group 3 time or group effect was detected, but there was a significant effect of time, with an increase after 12 weeks (P \ .0001) (Table <ref type="table" target="#tab_5">7</ref>). For jump height for both the SJ and CMJ, there was no group 3 time, group, or time effect (Table <ref type="table" target="#tab_5">7</ref>), but a significant main effect of time was found for pain (P = .01) during the CMJ and SJ (Table <ref type="table" target="#tab_3">4</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ultrasonography and MRI Findings</head><p>There was no significant effect of time (P = .10), group (P = .37), or group 3 time (P = .58) for A P tendon thickness. The PD area decreased significantly with time (P = .01) but without any group (P = .30) or group 3 time effect (P = .22) (Table <ref type="table">8</ref>). However, while there was an overall significant effect of time on PD area, the post hoc analysis within each group showed no significant effect for any of the periods from baseline to 12 weeks, 12 to 52 weeks, or baseline to 52 weeks. The change in the PD area for the HSR and MSR groups was not correlated significantly</p><p>TABLE 5 Clinical Results a HSR (n = 21) MSR (n = 21) VISA-P 0 wk 58.8 6 4.3 (49.8 to 67.8) 59.9 6 2.5 (54.8 to 65.0) 6 wk 65.8 6 3.7 (58.0 to 73.5) 69.9 6 2.8 (64.0 to 75.7) 12 wk 70.5 6 4.4 (61.3 to 79.7) 72.5 6 2.9 (66.5 to 78.5) 52 wk 79.7 6 4.6 (70.0 to 89.4) 82.6 6 2.5 (77.4 to 87.8) D 0 to 12 wk 11.7 6 2.8 (4.1 to 19.3) b 12.6 6 2.8 (5.0 to 20.2) b D 12 to 52 wk 9.1 6 2.8 (1.6 to 16.7) b 10.1 6 2.8 (2.5 to 17.7) b D 0 to 52 wk 20.9 6 2.8 (13.3 to 28.4) c 22.7 6 2.8 (15.1 to 30.3) c NRS for SLDS 0 wk 4.3 6 0.4 (3.3 to 5.2) 3.9 6 0.3 (3.2 to 4.6) 6 wk 2.4 6 0.4 (1.5 to 3.3) 2.3 6 0.4 (1.6 to 3.0) 12 wk 2.0 6 0.4 (1.2 to 2.9) 1.9 6 0.3 (1.2 to 2.6) 52 wk 1.4 6 0.4 (0.5 to 2.2) 1.3 6 0.4 (0.6 to 2.1) D 0 to 12 wk -2.2 6 0.4 (-3.2 to -1.2) c</p><p>-2.0 6 0.4 (-3.0 to -1.0) c D 12 to 52 wk -0.7 6 0.4 (-1.7 to 0.3) -0.6 6 0.4 (-1.6 to 0.4) D 0 to 52 wk -2.9 6 0.4 (-3.9 to -1.9) c -2.6 6 0.4 (-3.6 to -1.6) c a Values are expressed as mean 6 SEM (95% CI). Two-way analysis of variance was conducted with group and time as main factors. The alpha level was set at P \ .05. VISA-P: group (P = .57), group 3 time (P = .89), and time (P \ .0001). NRS for SLDS: group (P = .73), group 3 time (P = .93), and time (P \ .0001). D, change during time interval; HSR, heavy slow resistance; MSR, moderate slow resistance; NRS, numeric rating scale; SLDS, single-leg decline squat; VISA-P, Victorian Institute of Sport Assessment-Patella.  -2 6 1 (-3.8 to -0.9) b D Before injury to 52 wk -3 6 1 (-4.5 to -0.4) b -2 6 1 (-4.3 to -0.2) b D 0 to 12 wk -1 6 1 (-3.7 to 1.1) 1 6 1 (-1.8 to 3.0) D 12 to 52 wk 2 6 1 (-0.3 to 4.5) -1 6 1 (-2.9 to 1.9) D 0 to 52 wk 1 6 1 (-1.6 to 3.1) 1 6 1 (-2.3 to 2.5)</p><formula xml:id="formula_0">a</formula><p>Values for before injury and 0, 6, 12, and 52 weeks are expressed as mean 6 SEM (range). Values for D are expressed as mean 6 SEM (95% CI). Two-way analysis of variance (P \ .05) showed no effect of time (P = .44), group (P = .75), or group 3 time (P = .13) at weeks 0, 6, 12, and 52. D, change during time interval; HSR, heavy slow resistance; MSR, moderate slow resistance.</p><p>(r = -0.28; P = .22) with the change in the VISA-P score over time (baseline to 12 weeks).</p><p>For the CSA of the proximal, middle, and distal parts of the patellar tendon, there was no group effect or difference from baseline to 12 weeks (Table <ref type="table" target="#tab_5">7</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>This randomized clinical trial investigated if the load magnitude influenced the effect of a 12-week loading intervention for patellar tendinopathy in the short (12 weeks) and TABLE 8 Ultrasonographic Results a HSR (n = 21) MSR (n = 21) Power Doppler area, b mm 2 0 wk 14.66 (7.99 to 26.91) 9.38 (4.33 to 20.32) 6 wk 15.96 (9.32 to 27.33) 7.46 (3.73 to 14.94) 12 wk 11.15 (6.05 to 20.55) 10.30 (5.49 to 19.35) 52 wk 8.60 (4.54 to 16.28) 5.99 (2.92 to 12.31) D % 0 to 12 wk -24 (-59 to 41) 10 (-41 to 103) D % 12 to 52 wk -23 (-58 to 43) -42 (-69 to 8) D % 0 to 52 wk -41 (-68 to 9) -36 (-66 to 18) Tendon thickness, mm 0 wk 7.62 (6.72 to 8.64) 6.77 (5.92 to 7.75) 6 wk 7.67 (6.85 to 8.59) 7.16 (6.22 to 8.23) 12 wk 7.55 (6.84 to 8.32) 7.26 (6.43 to 8.19) 52 wk 7.13 (6.27 to 8.11) 6.75 (5.85 to 7.80) D % 0 to 12 wk -1 (-12 to 11) 7 (-4 to 20) D % 12 to 52 wk -5 (-16 to 6) -7 (-17 to 4) D % 0 to 52 wk -6 (-16 to 5) 0 (-11 to 12) a</p><p>Values are expressed as mean (95% CI). The data were log-transformed, and 2-way analysis of variance was conducted with group and time as main factors. The alpha level was set at P \ .05. Power Doppler: group (P = .30), group 3 time (P = .22), and time (P = .01). Tendon thickness: group (P = .37), group 3 time (P = .58), and time (P = .10). D %, relative change during time interval; HSR, heavy slow resistance; MSR, moderate slow resistance.</p><p>b Power Doppler area indicates the total number of colored pixels converted to area. long term (52 weeks). The main findings show that load magnitudes of 90% (HSR) and 55% (MSR) of 1 RM both yielded significant clinical improvements in the VISA-P score, NRS score for running, NRS score for squats, NRS score for preferred sport, SLDS, and patient satisfaction after 12 weeks, and these were maintained 1 year later. However, contrary to our original hypothesis, HSR loading was not clinically superior to MSR loading, and there were no differences in improvements in function (strength and jumping ability) or tendon structure (AP thickness, PD area, and CSA) between the interventions.</p><p>Loading-based rehabilitation approaches to patellar tendinopathy have proved to be clinically beneficial with respect to pain and function. <ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b33">34</ref> In the present study, the participants had baseline VISA-P scores comparable with those previously reported in patients with chronic patellar tendinopathy, <ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b27">28</ref> and over the intervention period, the VISA-P score improved by 11.7 (HSR) and 12.6 (MSR) points, which approaches the clinically meaningful score of 13 points. <ref type="bibr" target="#b21">22</ref> Furthermore, the improvement in pain in the present study agrees well with the improvement reported in the literature. <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b30">31</ref> There has been considerable focus on the clinical effects of loading-based exercise regimens as a treatment for tendinopathy, but very little is known about the importance of changing specific loading parameters. Previous studies have solely focused on muscular contraction modes (concentric, eccentric, or isometric) in an attempt to optimize outcomes. <ref type="bibr" target="#b33">34</ref> However, clinical trials <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b27">28</ref> and basic science <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b38">39</ref> have not supported a strategy based on a distinct muscular contraction mode. In fact, in animal models, collagen expression as a result of high forces appears to be independent of the muscle contraction mode, that is, isometric, eccentric, or concentric contractions. <ref type="bibr" target="#b20">21</ref> Furthermore, in healthy humans, resistance training-associated tendon hypertrophy has also been shown to be independent of the contraction mode. <ref type="bibr" target="#b11">12</ref> On the cellular level, it is well known that the fibroblasts in collagen-rich tissue respond to loading (mechanical deformation) by stimulating the synthesis of collagen <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b46">47</ref> and other extracellular components important for tendon growth. <ref type="bibr" target="#b6">7</ref> In healthy humans, the stiffness of tendon tissue increases in response to exercise loading at 90% but not at 55% of the MVIC, 2 indicating that magnitude is an important factor for tendon adaptation, but this has never been investigated in the treatment of tendinopathy. Unexpectedly, the results of the current study did not demonstrate a superior clinical effect of exercising at 90% compared with 55% of 1 RM, which indicates that the difference in load magnitudes above 55% is inconsequential to the clinical outcome in tendinopathic tendons. Moreover, 2 previous studies 5, <ref type="bibr" target="#b27">28</ref> have compared HSR to eccentric training, which is commonly used as a treatment for tendinopathy. The data suggested that the clinical improvement over 12 weeks is similar with the 2 approaches. These studies did not control for (or measure) training loads per se, but it is likely that the HSR group achieved higher tendon loads than did the eccentric group that largely used body weight for resistance. Indirectly, this supports the findings of the present study that some magnitude of loading is essential for the clinical condition to improve but does not necessarily require extremely high loads. The minimal threshold to achieve such an improvement remains unknown.</p><p>Resistance training over 12 weeks will typically yield an increase in muscle strength by approximately 10% to 20% in healthy participants. <ref type="bibr" target="#b40">41</ref> The present study showed similar gains with an increase in muscle strength by 15% (HSR) and 10% (MSR). It could be argued that the increase may be the result of a reduction in pain alone. However, it has been shown that a reduction in pain in patients with tendinopathy treated with corticosteroids did not result in increased strength. <ref type="bibr" target="#b27">28</ref> The fact that previous studies have shown comparable gains in strength with HSR in both tendinopathic <ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29</ref> and healthy patellar tendons <ref type="bibr" target="#b29">30</ref> also supports that the increase in muscle strength in the present study was a response to the applied training protocol. It is noteworthy that both MSR and HSR yielded strength gains; however, it is in accordance with previous data showing that both heavy (70% of 1 RM) and light loads (15% of 1 RM) with equal total work are sufficient to induce an increase in strength. <ref type="bibr" target="#b23">24</ref> Interestingly, the participants in the current study did not improve their jumping ability, despite a decrease in pain and increase in strength, which may be because the gain was not large enough to transfer to improvements in the jump height.</p><p>A few studies <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b48">49</ref> have investigated the long-term follow-up of loading-based exercises. The present data show that the VISA-P score improved by approximately 13% from 12 to 52 weeks, irrespective of the loading regimen (HSR or MSR), and the improvement from baseline to 1 year exceeded the clinically meaningful score. The reported pain during function displayed a similar pattern. The present study was not designed to answer whether the effect of training with HSR and MSR was equally good; however, the data show that both were effective in the treatment of patellar tendinopathy. Furthermore, no difference in patient satisfaction could be detected at 12 or 52 weeks. Therefore, clinically, it may be important to choose the exercise regimen that best fits the patient's preferences to improve compliance. Notably, in both groups, none of the clinical outcomes or weekly sports participation (hours) (lacking around 30%) had fully returned to preinjury levels after 1 year. Additionally, no normalization of AP thickness or CSA was found after 12 or even 52 weeks. Altogether, these findings indicate that the time to recover may extend beyond 1 year, which is supported by a study on Achilles tendinopathy in which 20% of the patients had symptoms that persisted for up to 5 years. <ref type="bibr" target="#b41">42</ref> Ultrasonography with Doppler is commonly used to evaluate vascularization in tendinopathy, <ref type="bibr" target="#b13">14</ref> and it has been suggested that increased neovascularization along with nerve ingrowth is the cause of pain. <ref type="bibr" target="#b0">1</ref> In the literature, there is conflicting evidence regarding coupling between the presence of Doppler activity and symptoms. <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b16">17</ref> In the present study, the VISA-P score improved, while Doppler activity decreased from baseline to 52 weeks. Reduced Doppler activity in response to training has also been detected in previous studies both in the short term for patellar tendinopthy <ref type="bibr" target="#b27">28</ref> and in the long term for Achilles tendinopathy, <ref type="bibr" target="#b4">5</ref> which is in agreement with the present data. The change in the PD area after 12 weeks in the current study (HSR: 24% decrease; MSR: 10% increase) was less than the 45% reduction after 12 weeks of HSR as shown previously, <ref type="bibr" target="#b27">28</ref> and this magnitude of decline was not reached until after 1 year (HSR: 41%; MSR: 36%). However, the variation between studies in relation to applied ultrasound protocols and the method of measuring the Doppler area make it challenging to compare the absolute values.</p><p>This study has inherent limitations. A nonexercise control group was not included, and therefore, it cannot be ruled out that improvements would have occurred over time in the absence of either loading regimen. Furthermore, the washout period included to control for any previous treatment was relatively short. Additionally, the current study was designed to test the influence of load magnitude, and optimally, all other parameters should therefore be kept stable. However, it was not possible to exactly match all parameters, and we decided to match the volume, rate of loading, sets, and sessions at the cost of group differences in repetitions and total time under tension over the intervention period. The role of these parameters could be important and will require additional research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSION</head><p>The current study demonstrated that there was no statistically superior effect of exercising at 90% compared with 55% of 1 RM. Importantly, the VISA-P score, SLDS, and PD area continued to improve up to 1 year but did not reach normal values, indicating that it takes a long time to after patellar tendinopathy. It remains unknown if other exercising variables, such as the frequency rate of loading, have implications on the outcome and time to complete recovery.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. CONSORT (Consolidated Standards of Reporting Trials) flowchart for the primary outcome of the Victorian Institute of Sport Assessment-Patella (VISA-P). HSR, heavy slow resistance; MSR, moderate slow resistance. MRI, magnetic resonance imaging.</figDesc><graphic coords="6,112.71,71.21,360.00,443.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>b</head><figDesc>Significant effect of time: P \ .01. c Significant effect of time: P \ .0001.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><figDesc>17) D Before injury to 0 wk -3 6 1 (-4.6 to -1.8) b</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>TABLE 4 Pain</head><label>4</label><figDesc>During Activity Measured Using a Numeric Rating Scale a SEM. Two-way analysis of variance was conducted with group and time as main factors. The alpha level was set at P \ .05. CMJ, countermovement jump; HSR, heavy slow resistance; MSR, moderate slow resistance; SJ, squat jump.</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>P Value</cell><cell></cell></row><row><cell></cell><cell>HSR (n = 21)</cell><cell>MSR (n = 21)</cell><cell>Group</cell><cell>Time</cell><cell>Group 3 Time</cell></row><row><cell>Running (questionnaire)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>0 wk</cell><cell>3.2 6 0.4</cell><cell>4.0 6 0.5</cell><cell>.33</cell><cell>\.0001</cell><cell>.42</cell></row><row><cell>6 wk</cell><cell>2.4 6 0.4</cell><cell>3.0 6 0.4</cell><cell></cell><cell></cell><cell></cell></row><row><cell>12 wk</cell><cell>1.8 6 0.3</cell><cell>2.1 6 0.4</cell><cell></cell><cell></cell><cell></cell></row><row><cell>52 wk</cell><cell>1.3 6 0.4</cell><cell>1.3 6 0.3</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Squat (questionnaire)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>0 wk</cell><cell>4.0 6 0.6</cell><cell>3.2 6 0.5</cell><cell>.07</cell><cell>\.0001</cell><cell>.96</cell></row><row><cell>6 wk</cell><cell>2.5 6 0.5</cell><cell>1.6 6 0.2</cell><cell></cell><cell></cell><cell></cell></row><row><cell>12 wk</cell><cell>2.0 6 0.5</cell><cell>1.2 6 0.3</cell><cell></cell><cell></cell><cell></cell></row><row><cell>52 wk</cell><cell>1.8 6 0.5</cell><cell>0.7 6 0.2</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Preferred sport (questionnaire)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>0 wk</cell><cell>4.9 6 0.6</cell><cell>4.7 6 0.5</cell><cell>.48</cell><cell>\.0001</cell><cell>.73</cell></row><row><cell>6 wk</cell><cell>3.5 6 0.6</cell><cell>3.3 6 0.5</cell><cell></cell><cell></cell><cell></cell></row><row><cell>12 wk</cell><cell>3.1 6 0.7</cell><cell>2.3 6 0.5</cell><cell></cell><cell></cell><cell></cell></row><row><cell>52 wk</cell><cell>2.0 6 0.6</cell><cell>1.3 6 0.3</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Leg press (intervention)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>0-6 wk</cell><cell>0.6 6 0.1</cell><cell>0.5 6 0.1</cell><cell>.70</cell><cell>.60</cell><cell>.29</cell></row><row><cell>7-12 wk</cell><cell>0.5 6 0.1</cell><cell>0.5 6 0.1</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Knee extension (intervention)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>0-6 wk</cell><cell>0.8 6 0.1</cell><cell>0.7 6 0.1</cell><cell>.69</cell><cell>.32</cell><cell>.44</cell></row><row><cell>7-12 wk</cell><cell>0.7 6 0.1</cell><cell>0.7 6 0.1</cell><cell></cell><cell></cell><cell></cell></row><row><cell>CMJ (examination)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>0 wk</cell><cell>1.2 6 0.3</cell><cell>1.3 6 0.3</cell><cell>.95</cell><cell>.01</cell><cell>.57</cell></row><row><cell>12 wk</cell><cell>0.7 6 0.3</cell><cell>0.6 6 0.3</cell><cell></cell><cell></cell><cell></cell></row><row><cell>SJ (examination)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>0 wk</cell><cell>1.0 6 0.3</cell><cell>0.8 6 0.2</cell><cell>.99</cell><cell>.01</cell><cell>.32</cell></row><row><cell>12 wk</cell><cell>0.4 6 0.2</cell><cell>0.6 6 0.2</cell><cell></cell><cell></cell><cell></cell></row></table><note><p>a</p><p>Values are expressed as mean 6</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>TABLE 7</head><label>7</label><figDesc>Structural and Mechanical Properties of the Injured Site aValues are expressed as mean 6 SEM. Two-way analysis of variance was conducted with group and time as main factors. The alpha level was set at P \ .05. CMJ, countermovement jump; CSA, cross-sectional area; HSR, heavy slow resistance; MSR, moderate slow resistance; SJ, squat jump.</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>P Value</cell><cell></cell></row><row><cell></cell><cell>HSR (n = 21)</cell><cell>MSR (n = 21)</cell><cell>Group</cell><cell>Time</cell><cell>Group 3 Time</cell></row><row><cell>Muscle strength, NÁm</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>0 wk</cell><cell>193 6 11</cell><cell>194 6 10</cell><cell>.75</cell><cell>\.0001</cell><cell>.25</cell></row><row><cell>12 wk</cell><cell>223 6 11</cell><cell>213 6 10</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Proximal CSA, cm 2</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>0 wk</cell><cell>1.53 6 0.09</cell><cell>1.40 6 0.08</cell><cell>.15</cell><cell>.72</cell><cell>.76</cell></row><row><cell>12 wk</cell><cell>1.55 6 0.10</cell><cell>1.40 6 0.08</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Middle CSA, cm 2</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>0 wk</cell><cell>1.13 6 0.07</cell><cell>1.07 6 0.07</cell><cell>.39</cell><cell>.17</cell><cell>.26</cell></row><row><cell>12 wk</cell><cell>1.13 6 0.07</cell><cell>1.03 6 0.05</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Distal CSA, cm 2</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>0 wk</cell><cell>1.23 6 0.01</cell><cell>1.08 6 0.04</cell><cell>.15</cell><cell>.72</cell><cell>.76</cell></row><row><cell>12 wk</cell><cell>1.23 6 0.08</cell><cell>1.10 6 0.05</cell><cell></cell><cell></cell><cell></cell></row><row><cell>CMJ height, cm</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>0 wk</cell><cell>32.49 6 1.40</cell><cell>31.68 6 1.26</cell><cell>.51</cell><cell>.08</cell><cell>.20</cell></row><row><cell>12 wk</cell><cell>33.46 6 1.43</cell><cell>31.83 6 1.21</cell><cell></cell><cell></cell><cell></cell></row><row><cell>SJ height, cm</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>0 wk</cell><cell>28.24 6 1.20</cell><cell>27.17 6 1.42</cell><cell>.77</cell><cell>.65</cell><cell>.43</cell></row><row><cell>12 wk</cell><cell>27.17 6 1.14</cell><cell>27.45 6 1.01</cell><cell></cell><cell></cell><cell></cell></row></table><note><p>b</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>bSignificantly different from before injury: P \ .05.</p></note>
+		</body>
+		<back>
+
+			
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACKNOWLEDGMENT</head><p>The authors thank the participants as well as the physical therapists for their work in supervising the interventions in this trial.</p></div>
+			</div>
+
+
+			<div type="funding">
+<div><p>This work was supported by funding from <rs type="funder">Independent Research Fund Denmark</rs>, the <rs type="funder">Faculty of Health and Medical Sciences of the University of Copenhagen</rs>, the <rs type="funder">Danish Rheumatism Association</rs>, and the <rs type="funder">Danish Society of Sports Physical Therapy</rs>. AOSSM checks author disclosures against the Open Payments Database (OPD). AOSSM has not conducted an independent investigation on the OPD and disclaims any liability or responsibility relating thereto.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Is vasculo-neural ingrowth the cause of pain in chronic Achilles tendinosis? An investigation using ultrasonography and colour Doppler, immunohistochemistry, and diagnostic injections</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Alfredson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ohberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Forsgren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Knee Surg Sports Traumatol Arthrosc</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="334" to="338" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alfredson H, Ohberg L, Forsgren S. Is vasculo-neural ingrowth the cause of pain in chronic Achilles tendinosis? An investigation using ultrasonography and colour Doppler, immunohistochemistry, and diagnostic injections. Knee Surg Sports Traumatol Arthrosc. 2003; 11(5):334-338.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Adaptational responses of the human Achilles tendon by modulation of the applied cyclic strain magnitude</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Arampatzis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Karamanidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Albracht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="2743" to="2753" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arampatzis A, Karamanidis K, Albracht K. Adaptational responses of the human Achilles tendon by modulation of the applied cyclic strain magnitude. J Exp Biol. 2007;210(15):2743-2753.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The mechanobiological aetiopathogenesis of tendinopathy: is it the over-stimulation or the under-stimulation of tendon cells?</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Arnoczky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lavagnino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Egerbacher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Exp Pathol</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="217" to="226" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arnoczky SP, Lavagnino M, Egerbacher M. The mechanobiological aetiopathogenesis of tendinopathy: is it the over-stimulation or the under-stimulation of tendon cells? Int J Exp Pathol. 2007;88(4):217-226.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Surgical treatment compared with eccentric training for patellar tendinopathy (jumper&apos;s knee): a randomized, controlled trial</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bahr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Fossan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Løken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Engebretsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Am</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1689" to="1698" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bahr R, Fossan B, Løken S, Engebretsen L. Surgical treatment com- pared with eccentric training for patellar tendinopathy (jumper&apos;s knee): a randomized, controlled trial. J Bone Joint Surg Am. 2006;88(8):1689-1698.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Heavy slow resistance versus eccentric training as treatment for Achilles tendinopathy: a randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Beyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kongsgaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hougs</forename><surname>Kjaer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Øhlenschlaeger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kjaer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Magnusson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1704" to="1711" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beyer R, Kongsgaard M, Hougs Kjaer B, Øhlenschlaeger T, Kjaer M, Magnusson SP. Heavy slow resistance versus eccentric training as treatment for Achilles tendinopathy: a randomized controlled trial. Am J Sports Med. 2015;43(7):1704-1711.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Muscle performance during maximal isometric and dynamic contractions is influenced by the stiffness of the tendinous structures</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bojsen-Møller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Magnusson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Rasmussen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kjaer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Aagaard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="986" to="994" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bojsen-Møller J, Magnusson SP, Rasmussen LR, Kjaer M, Aagaard P. Muscle performance during maximal isometric and dynamic con- tractions is influenced by the stiffness of the tendinous structures. J Appl Physiol. 2005;99(3):986-994.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">From mechanotransduction to extracellular matrix gene expression in fibroblasts</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chiquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biochim Biophys Acta</title>
+		<imprint>
+			<biblScope unit="volume">1793</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="911" to="920" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chiquet M, Gelman L, Lutz R, Maier S. From mechanotransduction to extracellular matrix gene expression in fibroblasts. Biochim Biophys Acta. 2009;1793(5):911-920.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Reproducibility and clinical utility of tendon palpation to detect patellar tendinopathy in young basketball players. Victorian Institute of Sport Tendon Study Group</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">S</forename><surname>Kiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Purdam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Griffiths</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="65" to="69" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cook JL, Khan KM, Kiss ZS, Purdam CR, Griffiths L. Reproducibility and clinical utility of tendon palpation to detect patellar tendinopathy in young basketball players. Victorian Institute of Sport Tendon Study Group. Br J Sports Med. 2001;35(1):65-69.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The challenge of managing tendinopathy in competing athletes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Purdam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="506" to="509" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cook JL, Purdam CR. The challenge of managing tendinopathy in competing athletes. Br J Sports Med. 2014;48(7):506-509.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Eccentric or concentric exercises for the treatment of tendinopathies?</title>
+		<author>
+			<persName><forename type="first">´c</forename><surname>Couppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Svensson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Silbernagel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Langberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Magnusson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="853" to="863" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Couppe ´C, Svensson RB, Silbernagel KG, Langberg H, Magnusson SP. Eccentric or concentric exercises for the treatment of tendinopa- thies? J Orthop Sports Phys Ther. 2015;45(11):853-863.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Accuracy of MRI technique in measuring tendon cross-sectional area</title>
+		<author>
+			<persName><forename type="first">´c</forename><surname>Couppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Svensson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sødring-Elbrønd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kjaer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Magnusson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Physiol Funct Imaging</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="237" to="241" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Couppe ´C, Svensson RB, Sødring-Elbrønd V, Hansen P, Kjaer M, Magnusson SP. Accuracy of MRI technique in measuring tendon cross-sectional area. Clin Physiol Funct Imaging. 2014;34(3):237-241.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Whey protein hydrolysate augments tendon and muscle hypertrophy independent of resistance exercise contraction mode</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Farup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Rahbek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Vendelbo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="788" to="798" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Farup J, Rahbek SK, Vendelbo MH, et al. Whey protein hydrolysate augments tendon and muscle hypertrophy independent of resistance exercise contraction mode. Scand J Med Sci Sports. 2014;24(5):788-798.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">In vivo human triceps surae and quadriceps femoris muscle function in a squat jump and counter movement jump</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Finni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Komi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lepola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">4-5</biblScope>
+			<biblScope unit="page" from="416" to="426" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Finni T, Komi PV, Lepola V. In vivo human triceps surae and quadri- ceps femoris muscle function in a squat jump and counter movement jump. Eur J Appl Physiol. 2000;83(4-5):416-426.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The evolution of diagnostic and interventional ultrasound in sports medicine</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Finnoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PM&amp;R</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="133" to="S138" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>suppl</note>
+	<note type="raw_reference">Finnoff JT. The evolution of diagnostic and interventional ultrasound in sports medicine. PM&amp;R. 2016;8(3)(suppl):S133-S138.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Significance of ultrasonographically detected asymptomatic tendinosis in the patellar and Achilles tendons of elite soccer players: a longitudinal study</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Fredberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bolvig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="488" to="491" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fredberg U, Bolvig L. Significance of ultrasonographically detected asymptomatic tendinosis in the patellar and Achilles tendons of elite soccer players: a longitudinal study. Am J Sports Med. 2002;30(4):488-491.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Stengaard-Pedersen K. Ultrasonography in evaluation of Achilles and patella tendon thickness</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Fredberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bolvig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Andersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ultraschall Med</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="60" to="65" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fredberg U, Bolvig L, Andersen NT, Stengaard-Pedersen K. Ultraso- nography in evaluation of Achilles and patella tendon thickness. Ultraschall Med. 2008;29(1):60-65.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Ultrasonography as a tool for diagnosis, guidance of local steroid injection and, together with pressure algometry, monitoring of the treatment of athletes with chronic jumper&apos;s knee and Achilles tendinitis: a randomized, double-blind, placebocontrolled study</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Fredberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bolvig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pfeiffer-Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Clemmensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Jakobsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Stengaard-Pedersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="94" to="101" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fredberg U, Bolvig L, Pfeiffer-Jensen M, Clemmensen D, Jakobsen BW, Stengaard-Pedersen K. Ultrasonography as a tool for diagnosis, guidance of local steroid injection and, together with pressure algo- metry, monitoring of the treatment of athletes with chronic jumper&apos;s knee and Achilles tendinitis: a randomized, double-blind, placebo- controlled study. Scand J Rheumatol. 2004;33(2):94-101.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Treatment options for patellar tendinopathy: critical review</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Gaida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Sports Med Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="255" to="270" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gaida JE, Cook J. Treatment options for patellar tendinopathy: criti- cal review. Curr Sports Med Rep. 2011;10(5):255-270.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Similar acute molecular responses to equivalent volumes of isometric, lengthening, or shortening mode resistance exercise</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Garma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Haddad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Bodell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Baldwin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="135" to="143" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Garma T, Kobayashi C, Haddad F, Adams GR, Bodell PW, Baldwin KM. Similar acute molecular responses to equivalent volumes of iso- metric, lengthening, or shortening mode resistance exercise. J Appl Physiol. 2007;102(1):135-143.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Dynamic mechanical stimulations induce anisotropy and improve the tensile properties of engineered tissues produced without exogenous scaffolding</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gauvin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Parenteau-Bareil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Larouche</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biomater</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="3294" to="3301" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gauvin R, Parenteau-Bareil R, Larouche D, et al. Dynamic mechani- cal stimulations induce anisotropy and improve the tensile properties of engineered tissues produced without exogenous scaffolding. Acta Biomater. 2011;7(9):3294-3301.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Expression of collagen and related growth factors in rat tendon and skeletal muscle in response to specific contraction types</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Heinemeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Olesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Haddad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">582</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1303" to="1316" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Heinemeier KM, Olesen JL, Haddad F, et al. Expression of collagen and related growth factors in rat tendon and skeletal muscle in response to specific contraction types. J Physiol. 2007;582(3):1303-1316.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Responsiveness of the VISA-P scale for patellar tendinopathy in athletes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hernandez-Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Hidalgo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gomez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="453" to="457" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hernandez-Sanchez S, Hidalgo MD, Gomez A. Responsiveness of the VISA-P scale for patellar tendinopathy in athletes. Br J Sports Med. 2014;48(6):453-457.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Isometric exercise and pain in patellar tendinopathy: a randomized crossover trial</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Holden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lyng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Graven-Nielsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sci Med Sport</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="208" to="214" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Holden S, Lyng K, Graven-Nielsen T, et al. Isometric exercise and pain in patellar tendinopathy: a randomized crossover trial. J Sci Med Sport. 2020;23(3):208-214.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Changes in muscle size and MHC composition in response to resistance exercise with heavy and light loading intensity</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Holm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Reitelseder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Pedersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1454" to="1461" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Holm L, Reitelseder S, Pedersen TG, et al. Changes in muscle size and MHC composition in response to resistance exercise with heavy and light loading intensity. J Appl Physiol. 2008;105(5):1454-1461.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Variation of cyclic strain parameters regulates development of elastic modulus in fibroblast/substrate constructs</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Joshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Webb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Res</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1105" to="1113" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Joshi SD, Webb K. Variation of cyclic strain parameters regulates development of elastic modulus in fibroblast/substrate constructs. J Orthop Res. 2008;26(8):1105-1113.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Long-term prognosis for jumper&apos;s knee in male athletes: a prospective follow-up study</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Kettunen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Alanen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">M</forename><surname>Kujala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="689" to="692" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kettunen JA, Kvist M, Alanen E, Kujala UM. Long-term prognosis for jumper&apos;s knee in male athletes: a prospective follow-up study. Am J Sports Med. 2002;30(5):689-692.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The painful nonruptured tendon: clinical aspects</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="711" to="725" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Khan K, Cook J. The painful nonruptured tendon: clinical aspects. Clin Sports Med. 2003;22(4):711-725.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Corticosteroid injections, eccentric decline squat training and heavy slow resistance training in patellar tendinopathy</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kongsgaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kovanen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Aagaard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="790" to="802" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kongsgaard M, Kovanen V, Aagaard P, et al. Corticosteroid injec- tions, eccentric decline squat training and heavy slow resistance training in patellar tendinopathy. Scand J Med Sci Sports. 2009; 19(6):790-802.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Fibril morphology and tendon mechanical properties in patellar tendinopathy</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kongsgaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Qvortrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Larsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="749" to="756" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kongsgaard M, Qvortrup K, Larsen J, et al. Fibril morphology and tendon mechanical properties in patellar tendinopathy. Am J Sports Med. 2010;38(4):749-756.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Region specific patellar tendon hypertrophy in humans following resistance training</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kongsgaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Reitelseder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Pedersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol (Oxf)</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="111" to="121" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kongsgaard M, Reitelseder S, Pedersen TG, et al. Region specific patellar tendon hypertrophy in humans following resistance training. Acta Physiol (Oxf). 2007;191(2):111-121.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Treatment of patellar tendinopathy: a systematic review of randomized controlled trials</title>
+		<author>
+			<persName><forename type="first">Meh</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ka ¨ll I, Nilsson-Helander</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Knee Surg Sports Traumatol Arthrosc</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1632" to="1646" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Larsson MEH, Ka ¨ll I, Nilsson-Helander K. Treatment of patellar ten- dinopathy: a systematic review of randomized controlled trials. Knee Surg Sports Traumatol Arthrosc. 2012;20(8):1632-1646.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Prevalence of jumper&apos;s knee among elite athletes from different sports: a cross-sectional study</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">B</forename><surname>Lian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Engebretsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bahr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="561" to="567" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lian OB, Engebretsen L, Bahr R. Prevalence of jumper&apos;s knee among elite athletes from different sports: a cross-sectional study. Am J Sports Med. 2005;33(4):561-567.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The impact of loading, unloading, ageing and injury on the human tendon</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Magnusson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kjaer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">597</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1283" to="1298" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Magnusson SP, Kjaer M. The impact of loading, unloading, ageing and injury on the human tendon. J Physiol. 2019;597(5):1283-1298.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Achilles and patellar tendinopathy loading programmes: a systematic review comparing clinical outcomes and identifying potential mechanisms for effectiveness</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Malliaras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Barton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Langberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="267" to="286" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Malliaras P, Barton CJ, Reeves ND, Langberg H. Achilles and patellar tendinopathy loading programmes: a systematic review comparing clinical outcomes and identifying potential mechanisms for effective- ness. Sports Med. 2013;43(4):267-286.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The accuracy of the VISA-P questionnaire, single-leg decline squat, and tendon pain history to identify patellar tendon abnormalities in adult athletes</title>
+		<author>
+			<persName><forename type="first">Ldm</forename><surname>Mendonc Xa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Ocarino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nfn</forename><surname>Bittencourt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lmo</forename><surname>Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Verhagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Fonseca</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="673" to="680" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mendonc xa LDM, Ocarino JM, Bittencourt NFN, Fernandes LMO, Verhagen E, Fonseca ST. The accuracy of the VISA-P questionnaire, single-leg decline squat, and tendon pain history to identify patellar tendon abnormalities in adult athletes. J Orthop Sports Phys Ther. 2016;46(8):673-680.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">CONSORT 2010 explanation and elaboration: updated guidelines for reporting parallel group randomised trials</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Moher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hopewell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Schulz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Surg</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="28" to="55" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moher D, Hopewell S, Schulz KF, et al. CONSORT 2010 explanation and elaboration: updated guidelines for reporting parallel group rand- omised trials. Int J Surg. 2012;10(1):28-55.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Lipin ´ska P, Bus ´ko K, Penichet-Tomas A. Concurrent validity and reliability of proprietary and open-source jump mat systems for the assessment of vertical jumps in sport sciences</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pueo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Jimenez-Olmedo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Bioeng Biomech</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="51" to="57" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pueo B, Jimenez-Olmedo JM, Lipin ´ska P, Bus ´ko K, Penichet-Tomas A. Concurrent validity and reliability of proprietary and open-source jump mat systems for the assessment of vertical jumps in sport sci- ences. Acta Bioeng Biomech. 2018;20(4):51-57.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Discriminative ability of functional loading tests for adolescent jumper&apos;s knee</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Purdam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Hopper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther Sports</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="9" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Purdam CR, Cook JL, Hopper DM, et al. Discriminative ability of functional loading tests for adolescent jumper&apos;s knee. Phys Ther Sports. 2003;4(1):3-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The mechanism for efficacy of eccentric loading in Achilles tendon injury: an in vivo study in humans</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Rees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Lichtwark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Wolman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatology</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1493" to="1497" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rees JD, Lichtwark GA, Wolman RL, Wilson AM. The mechanism for efficacy of eccentric loading in Achilles tendon injury: an in vivo study in humans. Rheumatology. 2008;47(10):1493-1497.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Implementation of an open-source customizable minimization program for allocation of patients to parallel groups in clinical trials</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saghaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saghaei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Sci Eng</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="734" to="739" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saghaei M, Saghaei S. Implementation of an open-source customiz- able minimization program for allocation of patients to parallel groups in clinical trials. J Biomed Sci Eng. 2011;4(11):734-739.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Strength and hypertrophy adaptations between low-vs. High-load resistance training: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Schoenfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grgic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ogborn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Krieger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="3508" to="3523" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schoenfeld BJ, Grgic J, Ogborn D, Krieger JW. Strength and hyper- trophy adaptations between low-vs. High-load resistance training: a systematic review and meta-analysis. J Strength Cond Res. 2017;31(12):3508-3523.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The majority of patients with Achilles tendinopathy recover fully when treated with exercise alone: a 5-year follow-up</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Silbernagel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Brorsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lundberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="607" to="613" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Silbernagel KG, Brorsson A, Lundberg M. The majority of patients with Achilles tendinopathy recover fully when treated with exercise alone: a 5-year follow-up. Am J Sports Med. 2011;39(3):607-613.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Continued sports activity, using a pain-monitoring model, during rehabilitation in patients with Achilles tendinopathy: a randomized controlled study</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Silbernagel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">´r</forename><surname>Thomee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">I</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Karlsson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="897" to="906" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Silbernagel KG, Thomee ´R, Eriksson BI, Karlsson J. Continued sports activity, using a pain-monitoring model, during rehabilitation in patients with Achilles tendinopathy: a randomized controlled study. Am J Sports Med. 2007;35(6):897-906.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Gra ¨vare Silbernagel K. Modifiable risk factors for patellar tendinopathy in athletes: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Sprague</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Knox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Pohlig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="1575" to="1585" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sprague AL, Smith AH, Knox P, Pohlig RT, Gra ¨vare Silbernagel K. Modifiable risk factors for patellar tendinopathy in athletes: a system- atic review and meta-analysis. Br J Sports Med. 2018;52(24): 1575-1585.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The VISA score: an index of severity of symptoms in patients with jumper&apos;s knee (patellar tendinosis): Victorian Institute of Sport Tendon Study Group</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Visentini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">S</forename><surname>Kiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Harcourt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Wark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sci Med Sport</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="22" to="28" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Visentini PJ, Khan KM, Cook JL, Kiss ZS, Harcourt PR, Wark JD. The VISA score: an index of severity of symptoms in patients with jump- er&apos;s knee (patellar tendinosis): Victorian Institute of Sport Tendon Study Group. J Sci Med Sport. 1998;1(1):22-28.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Mechanobiology of tendon</title>
+		<author>
+			<persName><forename type="first">Jh-C</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1563" to="1582" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang JH-C. Mechanobiology of tendon. J Biomech. 2006;39(9): 1563-1582.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Cyclic strain increases fibroblast proliferation, matrix accumulation, and elastic modulus of fibroblast-seeded polyurethane constructs</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Webb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Hitchcock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Smeal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Tresco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1136" to="1144" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Webb K, Hitchcock RW, Smeal RM, Li W, Gray SD, Tresco PA. Cyclic strain increases fibroblast proliferation, matrix accumulation, and elastic modulus of fibroblast-seeded polyurethane constructs. J Bio- mech. 2006;39(6):1136-1144.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b47">
+	<analytic>
+		<title level="a" type="main">The influence of exercise dosing on outcomes in patients with knee disorders: a systematic review</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Rhon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Cleland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Snodgrass</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1" to="47" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Young JL, Rhon DI, Cleland JA, Snodgrass SJ. The influence of exer- cise dosing on outcomes in patients with knee disorders: a system- atic review. J Orthop Sports Phys Ther. 2018;48(3):1-47.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Eccentric decline squat protocol offers superior results at 12 months compared with traditional eccentric protocol for patellar tendinopathy in volleyball players</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Purdam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">S</forename><surname>Kiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Alfredson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="102" to="105" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Young MA, Cook JL, Purdam CR, Kiss ZS, Alfredson H. Eccentric decline squat protocol offers superior results at 12 months compared with traditional eccentric protocol for patellar tendinopathy in volley- ball players. Br J Sports Med. 2005;39(2):102-105.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Van Den Akker-Scheek I. Prevalence of jumper&apos;s knee among nonelite athletes from different sports: a cross-sectional survey</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zwerver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Bredeweg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1984" to="1988" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zwerver J, Bredeweg SW, Van Den Akker-Scheek I. Prevalence of jumper&apos;s knee among nonelite athletes from different sports: a cross-sectional survey. Am J Sports Med. 2011;39(9):1984-1988.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b50">
+	<monogr>
+		<title level="m" type="main">For reprints and permission queries, please visit SAGE</title>
+		<ptr target="http://www.sagepub.com/journalsPermissions.nav" />
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">For reprints and permission queries, please visit SAGE&apos;s Web site at http://www.sagepub.com/journalsPermissions.nav.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

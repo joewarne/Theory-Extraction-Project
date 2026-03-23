@@ -1,0 +1,1588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="fr">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Contribution of segmental kinetic energy to forward propulsion of the centre of mass: Analysis of sprint acceleration</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jean</forename><surname>Slawinski</surname></persName>
+							<email>jean.slawinski@insep.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Expertise and Performance. Sport, Expertise and Performance Lab</orgName>
+								<orgName type="institution">French National Institute of Sport</orgName>
+								<address>
+									<addrLine>EA7370</addrLine>
+									<settlement>Paris</settlement>
+									<country>France;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nicolas</forename><surname>Houel</surname></persName>
+							<email>nicolas.houel@univ-reims.fr</email>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Reims</orgName>
+								<address>
+									<settlement>Champagne Ardennes</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Camille</forename><surname>Moreau</surname></persName>
+							<email>moreau_camille@live.fr</email>
+							<affiliation key="aff1">
+								<orgName type="department">Physiologie et Psychologie : Activité Physique</orgName>
+								<orgName type="laboratory">LINP-2APS -Laboratoire Interdisciplinaire en Neurosciences</orgName>
+								<orgName type="institution" key="instit1">University of Paris Nanterre UFRSTAPS</orgName>
+								<orgName type="institution" key="instit2">Santé et Apprentissages</orgName>
+								<address>
+									<settlement>Nanterre</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alexia</forename><surname>Mahlig</surname></persName>
+							<email>alexia.mahlig@usherbrooke.ca</email>
+							<affiliation key="aff0">
+								<orgName type="department">Expertise and Performance. Sport, Expertise and Performance Lab</orgName>
+								<orgName type="institution">French National Institute of Sport</orgName>
+								<address>
+									<addrLine>EA7370</addrLine>
+									<settlement>Paris</settlement>
+									<country>France;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniel</forename><surname>Dinu</surname></persName>
+							<email>daniel.dinu@insep.fr</email>
+							<affiliation key="aff0">
+								<orgName type="department">Expertise and Performance. Sport, Expertise and Performance Lab</orgName>
+								<orgName type="institution">French National Institute of Sport</orgName>
+								<address>
+									<addrLine>EA7370</addrLine>
+									<settlement>Paris</settlement>
+									<country>France;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">UFRSTAPS</orgName>
+								<orgName type="institution" key="instit2">Laboratory of Performance</orgName>
+								<address>
+									<addrLine>Société (EA- 7507)</addrLine>
+									<settlement>Santé Métrologie Reims</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="institution">Université de Sherbrooke</orgName>
+								<address>
+									<settlement>Département de génie mécanique Sherbrooke</settlement>
+									<region>QC Can</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Contribution of segmental kinetic energy to forward propulsion of the centre of mass: Analysis of sprint acceleration</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">22AA92AD04C8691514AEBDFDB65A9642</idno>
+					<idno type="DOI">10.1080/02640414.2022.2066829</idno>
+					<note type="submission">Submitted on 13 May 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Inertial sensors</term>
+					<term>sprint performance</term>
+					<term>kinetic energy</term>
+					<term>power</term>
+					<term>performance</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>HAL is a multi-disciplinary open access archive for the deposit and dissemination of scientific research documents, whether they are published or not. The documents may come from teaching and research institutions in France or abroad, or from public or private research centers. L'archive ouverte pluridisciplinaire HAL, est destinée au dépôt et à la diffusion de documents scientifiques de niveau recherche, publiés ou non, émanant des établissements d'enseignement et de recherche français ou étrangers, des laboratoires publics ou privés.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="fr">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Sprint performance is determined by the ability of the sprinter to generate high velocity (V0), high power (Pmax) and forces (F0) at the centre of mass <ref type="bibr">(CoM)</ref>. Performance can thus be characterised by the force-velocity (F-v) and power-velocity (P-v) profiles of the sprinter's CoM <ref type="bibr" target="#b26">(Morin et al., 2012;</ref><ref type="bibr" target="#b29">Rabita et al., 2015;</ref><ref type="bibr">Slawinski et al., 2017b)</ref>. The mean power (Pmean) produced during a 40m sprint has also been shown to be closely related to sprint performance time <ref type="bibr" target="#b29">(Rabita et al., 2015)</ref>.</p><p>In physics, power is the rate, with respect to time, at which work is done; thus power is the time derivative of work. As such, several studies have evaluated external work (Wext), defined as the sum of the potential and kinetic energy variations measured at the centre of mass level, in order to identify the overall mechanical determinants of sprinting. A recent study of twelve young, male athletes performing a maximal 60m sprint <ref type="bibr" target="#b20">(Matsuo et al., 2019)</ref> showed that performance mainly depended on horizontal anterior-posterior Wext during the propulsion phase. In other words, the greater the mechanical work produced, the higher the sprint performance. Indeed, the use of the kinetic energy (KE) of the body segments, because it take into account mass and velocity of each segment, supplies useful information concerning the upper and lower limbs' contributions to the translation of the body in the forward direction during rapid movement <ref type="bibr" target="#b14">(Hubley and Wells, 1983;</ref><ref type="bibr">J Slawinski et al., 2010)</ref>.</p><p>Internal mechanical work (Wint) is an important component of total work production during sprinting <ref type="bibr" target="#b42">(Winter, 2009)</ref> and analysis of this variable provides important information to understand overall performance. In the literature, two methods have been used to calculate Wint during sprinting. The first method involves calculation of the power produced at each lower limb joint (ankle, knee and hip) and its contribution to the total power produced (sum of the power at each joint). This method has been used at discrete instants of the acceleration phase: during the starting block phase <ref type="bibr" target="#b2">(Bezodis et al., 2015;</ref><ref type="bibr" target="#b4">Brazil et al., 2016;</ref><ref type="bibr" target="#b21">Mero et al., 2006;</ref><ref type="bibr" target="#b27">Otsuka et al., 2015)</ref>, during the first step <ref type="bibr" target="#b4">(Brazil et al., 2016;</ref><ref type="bibr" target="#b5">Charalambous et al., 2012;</ref><ref type="bibr" target="#b7">Debaere, 2012;</ref><ref type="bibr">2013;</ref><ref type="bibr" target="#b21">Mero et al., 2006)</ref>, during the second step <ref type="bibr" target="#b9">(Debaere et al., 2012;</ref><ref type="bibr">Debaere et al., 2013;</ref><ref type="bibr" target="#b15">Jacobs and van Ingen Schenau, 1992)</ref>, at 14-m <ref type="bibr" target="#b17">(Johnson &amp; Buckley, 2001)</ref> and at maximal velocity (Vmax) <ref type="bibr" target="#b0">(Belli et al., 2002;</ref><ref type="bibr" target="#b1">Bezodis et al., 2008;</ref><ref type="bibr" target="#b40">Vardaxis &amp; Hoshizaki, 1989)</ref>.</p><p>However, the data from these studies do not show how lower limbs joint powers or the contribution of each joint, evolve throughout the course of the acceleration (table 1). More recently, <ref type="bibr" target="#b34">Schache et al. (2019)</ref> calculated lower limb joint powers during the entire acceleration phase using data from a combination of 8 force plates integrated within the track and 22 Vicon 3D motion analysis cameras. They demonstrated that positive power produced at the hip, knee and ankle joints decreased as running speed increased, and that the contribution of the ankle joint to the total power produced by the lower limb increased with increasing CoM velocity.</p><p>The authors concluded that the hip, and in particular the ankle joints, provided key sources of positive power that contributed to maximising the body's forward kinetic energy during a rapid acceleration. Despite some disparities, overall, these studies suggest that ankle joint power might play an important role in the production of mean power over the sprint (Pmean) since the contribution of ankle joint power to total power increases until Vmax. In contrast, the contribution of hip joint power is greater during the start and the acceleration phase while the contribution of the knee is stable throughout the acceleration phase. Although these studies provided important information to increase understanding of performance, they did not consider the trunk and upper limbs which play an important role in sprinting <ref type="bibr">(Slawinski et al., 2010;</ref><ref type="bibr" target="#b37">Slawinski et al., 2012</ref><ref type="bibr">Slawinski et al., , 2017a))</ref>.</p><p>The second method involves calculation of Wint or internal power (Pint) using total body kinetic energy (KE). Recently, using this method, it was demonstrated that Pint accounts for 41% of the total power measured during a 20m sprint acceleration <ref type="bibr" target="#b28">(Pavei et al., 2019)</ref>. In order to understand the role of each segment (and particularly the upper limbs) in the production of Pint, a series of papers measured the KE of each segments during the starting block phase and first step <ref type="bibr">(Slawinski et al., 2010;</ref><ref type="bibr" target="#b37">Slawinski et al., 2012</ref><ref type="bibr">Slawinski et al., , 2017a))</ref>. These authors found that the trunk contributed 41% of the kinetic energy, the arms and forearms around 17% and the lower limbs about 42%. These data suggested that the upper limbs and particularly the trunk play a central role in the production of the total body KE, however, only the starting block phase and first step has been analysed the entire acceleration phase remains to be explore.</p><p>The aim of this study was therefore to calculate the KE of each limb segment and the contribution of each to total body kinetic energy throughout the entire acceleration phase of a 40m sprint. We hypothesised that the contribution of the lower limb segments and trunk would increase during the acceleration phase and in consequence, the contribution of the upper limbs would decrease.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Material and Methods</head><p>Subjects and experimental procedure Nine athletes who were not specifically sprinters (mean height 181.6 ± 6.8 cm; mean mass 70.3 ± 9.2 kg; mean age 19.5 ± 1.1 years) performed two maximal 40-m sprints: this distance was chosen to ensure that the entire acceleration phase could be recorded <ref type="bibr">(Morin et al., 2015)</ref>. Each sprint was performed from a stand-up start and a five-minute recovery period was imposed between the two sprints. All participants provided informed consent for their participation. The protocol was in accordance with the ethical standards of the Declaration of Helsinki and the study was approved by the Institutional National Science in Sport Review Board.</p><p>During the sprints, participants wore a MVN Biomech suit (Xsens Technologies BV, Enschede, The Netherlands) onto which 17 miniature inertial measurement units were strapped (nanotechnology inertial measurement units, nIMU). Each nIMU contains three gyroscopes, three accelerometers and three magnetometers in a 35-g box about the size of a matchbox. This system was validated in running <ref type="bibr" target="#b30">(Reenalda et al., 2016)</ref> and for high speed movement <ref type="bibr" target="#b3">(Blair et al., 2018)</ref>. Each nIMU captures the 6-degrees-of-freedom of the segment on which it is fixed, in real time at a sampling frequency of 240 Hz. Sensors were placed following the manufacturers recommendations; feet (dorsum), shanks (medial surface of the tibias), thighs (lateral surface, above the knees), pelvis (middle of both the posterior superior iliac spines), shoulders (middle of the scapula spine), upper arms (lateral, above the elbow), forearms (lateral side of wrist), hands (dorsum), sternum and the back of the head. A static (N-pose) and dynamic calibration was carried out for each participant. Sensor to segment orientations were then determined using regression equations <ref type="bibr" target="#b3">(Blair et al., 2018;</ref><ref type="bibr" target="#b31">Roetenberg et al., 2013)</ref>. Care was taken to ensure there were no materials that could provoke magnetic disturbances in the testing environment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis</head><p>The raw data from the sensors (positions at each time-point) were exported to a customized MatLabTM program (7.10.0, R2010a, Natick, USA). This program was used to calculate the orientations of hands, fore-arms, upper-arms, head, upper-trunk, lower-trunk, pelvis, upper legs, lower legs and feet, wrist, elbow, shoulder, trunk, head, pelvis, hip, knee, ankle and metatarsus joint angles using a Newton-Euler method, and center of mass (CoM) positions and velocities of the body center of mass (CoM). The joints rotations sequences answer to the standard of the International Society of Biomechanics <ref type="bibr" target="#b44">(Wu et al., 2005</ref><ref type="bibr" target="#b43">(Wu et al., , 2002))</ref>. Sixteen rigid segments (head-neck, thorax, abdomen, pelvis, upper arms, forearms, hands, thighs, legs and feet) were defined, and the kinetic energy (KE) during the entire acceleration phase was calculated for each segment according to the De Leva anthropometrical model <ref type="bibr" target="#b6">(de Leva, 1996)</ref>.</p><p>The KE was calculated as the sum of translational and rotational KE of each segment. All the KE datas were then filtered using a zero phase butterworth filter of fourth order and 12Hz cutting frequency. This choice was made according to the residual method <ref type="bibr" target="#b42">(Winter, 2009)</ref>.</p><p>In order to understand the evolution of the KE during the 40-m sprint, we chose to divide the sprint into three different phases based on the maximal power (Pmax) and maximal velocity of the CoM (Vmax). Acceleration occurred during the first two phases while during the third phase, CoM velocity was stable. Phase 1 corresponded to the first movement made by the sprinter (determined by an increase in CoM velocity of 0.1 m.s -1 ) to reach Pmax, Phase 2 was began at Pmax until Vmax and phase 3 began at Vmax until the end of the 40 m. We used the method proposed by Samozino to compute Pmax and the time at which it was reached <ref type="bibr" target="#b23">(Morin et al., 2019;</ref><ref type="bibr" target="#b32">Samozino et al., 2016)</ref>. This simple method uses an mono-exponential model to describe the increase in velocity during the acceleration phase (di Prampero et al., 2005) (figure <ref type="figure" target="#fig_0">1</ref>). Using this method, we also computed linear force -velocity (F-v) and second-order polynomial power -velocity (P-v) relationships for each participant in order to obtain maximal theoretical force, velocity and power values (respectively, F0, V0 and Pmax) (figure <ref type="figure" target="#fig_1">2</ref> A and B).</p><p>F0 and V0 are the respective intercepts of the force and velocity axes of the F-v curve. Pmax is the maximum of the P-v relationship. Once Vmax and Pmax had been determined, the start and end-points of each of the 3 phases were defined according to the timing of these two variables.</p><p>Using a method previously published by our team, we calculated mean KE (KEmean) for each phase and each segment <ref type="bibr">(Slawinski et al., 2017a)</ref>. The KEmean of each segment was then summed to obtain whole body KEmean, uppers limbs KEmean (sum of left and right upper arms, forearms and hands KEmean), lowers limbs KEmean (sum of left and right thigh, lowers legs and feet KEmean) and head-trunk limb KEmean (sum of head-neck, thorax, abdomen, pelvis KEmean)</p><p>for the 3 sprint phases. KEmean of each segment was expressed as a percentage of whole body KEmean to determine the contribution of each segment to the forward velocity of the CoM during the whole sprint.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>The KEmean of the different segments and their contributions to total body KE were compared across the three phases using a repeated measures ANOVA, and a Bonferroni post-hoc test was used to compare the results for each phase. The level of significance was set at p ≤ 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F-v and P-v relationships</head><p>Mean V0 for all participants was 8.47 ± 0.50 m.s -1 , mean F0 was 462 ± 86 N and mean</p><p>Pmax was 971 ± 129 W.</p><p>The durations of phase 1 (start to Pmax), phase 2 (Pmax to Vmax) and phase 3 (Vmax to 40m), were respectively 0.90 ± 0.17 s, 4.02 ± 0.89 s and 0.93 ± 0.77 s.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mean kinetic energy</head><p>KEmean of the total body increased significantly (p ≤ 0.001) from phase 1 to phase 2 and from phase 2 to phase 3. Simirlarly, KEmean of the head, neck, trunk, right and left upper arms and thigh segments increased significantly (p ≤ 0.001) from phase 1 to phase 2 and from phase 2 to phase 3. The KEmean of the other distal segments (right and left forearms, hands, legs and feet) only increased from phase 1 to phase 2 (figure <ref type="figure" target="#fig_2">3</ref> A, B, C, D).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Segmental contribution</head><p>The post-hoc test demonstrated that the contribution of the head-trunk limb to the forward velocity of the CoM increased significantly between phases 1 and 2 and between phases 1 and 3 (p ≤ 0.05; table <ref type="table">2</ref>), but not between phases 2 and 3 (table <ref type="table">2</ref>). Inversely, the contribution of the upper and lower limbs to the forward velocity of the CoM decreased significantly from phase 1 to phase 2 and from phase 1 to phase 3 (p ≤ 0.05; table <ref type="table">2</ref>), but not from phase 2 to phase 3 (table <ref type="table">2</ref>). Details of the contributions of the different segments are presented in table <ref type="table">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion and implication</head><p>In this study, we calculated the KE of each body segment and the contribution of the main limbs to the production of total body KE during the entire acceleration phase of a 40m sprint.</p><p>This was the first time that kinetic energy of all the segment has been measured during a 40 m run. This was possible though the use of an inertial measurement system allowing to continuously measure the body kinematics in ecological conditions. This approach allows to understand how maximal power, that has been identified as a strong sprint performance predictor, is produced by the different limbs <ref type="bibr" target="#b12">(di Prampero et al., 2021)</ref>. The present results demonstrated that KEmean of the total body increased until the phase 3. This increase is explained by the increase in KEmean of head-trunk-limb and the proximal limb segments (arms and thigh).</p><p>KEmean of distal segments (fore arms, hands, legs and feet) did not contribute to the increase in KEmean of the total body when the sprinter has reached is Vmax (between phase 2 and 3). The results also confirmed that, during the entire sprint, the head-trunk-limb and upper limbs together contributed more than 50% of total body KE. This contribution of the head-trunk-limb increased between the phase 1 and 2 demonstrating that the head-trunk-limb plays a central role in the velocity production during the acceleration phase.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F-v and P-v relationships</head><p>The present results highlight that, thanks to the use Pmax and Vmax, a sprint running race can be carved in three main phases. This approach allow to analyze the sprint through measurable mechanical parameters and not only with the classical phases obtained from technical observation (block clearance, driving phase, acceleration phase, top speed and maintenance or decrease) <ref type="bibr" target="#b19">(Mann and Murphy, 2018)</ref>. The present data obtained with Xsens match with those obtained for a fifth division soccer players who have a close Vmax (Jimenez-reyes and Cuadrado, 2019). Indeed for a Vmax of 8.7 m.s -1 these authors found a F0 of 6.7 N.kg -1 and a Pmax of 14.5 W.kg -1 and in the present work, for a Vmax of 8.47 m.s -1 , F0 was 6.6 N.kg -1 and a Pmax was 13.9 W.kg -1 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mean kinetic energy and Segmental contribution</head><p>The first important result was that total body KE increased from the start to the end of the 40-m sprint. This increase was mathematically associated with the increase in trunk KE and the KE of the upper arms and thighs, which attach directly to the trunk (figure <ref type="figure" target="#fig_2">3</ref>). This is not surprising given that the trunk, upper arms and thighs collectively represent more than 60% of total body mass. Thus, the hip and shoulder joints played a key role throughout the entire sprint.</p><p>This supports the results of recent studies that have demonstrated the importance of hip muscle activity for sprint performance. For example, the muscles group of quadratus femoris, hamstring and gluteus are significantly larger in sprinters than in non-sprinters <ref type="bibr" target="#b13">(Handsfield et al., 2017)</ref>. Also, the mean power output developed during resistance exercise to develop hamstring strength, such as the hip thrust, is directly correlated to performance on 10, 20, 40 and 60-m sprints <ref type="bibr" target="#b18">(Loturco et al., 2018)</ref>. The hamstring muscles are strongly active in late swing, just before ground contact <ref type="bibr">(Morin et al., 2015;</ref><ref type="bibr" target="#b33">Schache et al., 2012)</ref>. Their role at this time point is two-fold: 1) to brake the leg at the end of the swing phase and 2) to increase thigh velocity to prepare for foot contact <ref type="bibr" target="#b25">(Morin et al., 2013)</ref>. We believe that the strong contribution of the trunk and thighs to forward motion of the CoM observed in this study throughout the sprint acceleration reflects the specific role of the hip muscles in sprint performance. To go deeper into the analysis of the role of the hip, we plotted typical continuous KE of upper, lower limb and head-trunk limb expressed as a percentage of the total energy (figure <ref type="figure" target="#fig_3">4</ref>). This figure</p><p>showed that lower limb and the head-trunk limb are in opposite phase, and suggested that trunk and legs make an opening and a closing movement during the sprint. This closing-opening movement is particularly important (great amplitude) during the phase 1 of the sprint. This suggested that this movement is a mechanism allowing to produce a great KE energy variation and to reach a higher Pmax at the end of the phase 1. The efficiency of this closing-opening movement may particularly depend on the action of the hip muscles. The KE of the upper limb being also in opposite phase with the one of the head-trunk limb, we can hypothesise that upper and head-trunk limbs also make an opening-closing movement. This movement, as for lower limb, may help to create a greatest Pmax. Thus, the sprinter would realise a double closingopening movement between lower and head-trunk limb and between head-trunk and upper limb that increase Pmax at the end of the phase 1.</p><p>The second important result was that, as hypothesised, the contribution of the upper limbs to total body KE decreased as sprint velocity increased. In a previous study, it has been showed that the upper limbs contribute 15 to 22% of the total body KE during the starting block phase and first step; the exact contribution depends on the training level of the sprinters and on their position during the start phase <ref type="bibr">(Slawinski et al., 2010;</ref><ref type="bibr">Slawinski et al., 2017a)</ref>. The present results confirmed this level of contribution (16%) of the upper limbs during the start of the acceleration (phase 1) and revealed that their contribution decreased significantly (to 11%) at maximal velocity (phase 3) (table <ref type="table">2</ref>). Compare to previous study the lower contribution of upper limb observed in the present study may be linked to the lower training status in sprint running of the participants. This decrease of the upper limb contribution during the 40m sprint is not surprising since the upper limb mass is much smaller than that of the trunk or lower limbs, thus, as sprint velocity increases, the relative contribution of the upper limbs must decrease. This was corroborated by the increase in the contribution of trunk and the head-neck segment (57.8% of the total body mass <ref type="bibr" target="#b42">(Winter, 2009)</ref>) with increasing sprint velocity.</p><p>The third important result was that, in contrast with our hypothesis, the contribution of the lower limbs reduced over the course of the acceleration. This could be explained by the fact the lower limbs represent a smaller proportion of total body mass (32.3%) than the trunk and head-neck segments <ref type="bibr" target="#b42">(Winter, 2009)</ref>, and that small variations in legs velocity occurred between phases 1 and 3. In contrast to CoM velocity, step rate does not increase gradually throughout the acceleration phase: the rate of the first step after leaving the starting block is already at 95% of the rate reached at Vmax <ref type="bibr">(Debaere et al., 2013)</ref>. Thus lower limb velocity remains relatively constant from the sprint start until Vmax. The reduction in the relative contribution of the lower limbs to forward motion of the body CoM seemed to compensate for the increase in trunk contribution from phase 1 to phase 2 (in phase 2, the contribution of the trunk was greater than that of the lower limb, in contrast with phase 1; table <ref type="table">2</ref>). However, the decrease in the lower limb contribution at Vmax is surprising, particularly in the light of the recent results of Schache et al. ( <ref type="formula">2019</ref>) that showed that ankle power increased at Vmax. This difference could be explained firstly by the fact that we evaluated lower limb segmental energy, which is mechanically different to joint power which was evaluated by <ref type="bibr" target="#b34">Schache et al. (2019)</ref>; and secondly, the role of the trunk, thigh and thus hip joint could be to create sagital movement, while the role of the ankle joint appears to be to create large vertical reaction forces at Vmax <ref type="bibr" target="#b41">(Weyand et al., 2000)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>The results of this study revealed that, as well as the lower limbs, the upper limbs, and particularly the trunk, contribute to total body KE during sprint acceleration. Trunk KE contributed largely to total body KE throughout the entire acceleration, while the contribution of the upper and lower limbs reduced over the course of the sprint. Others studies must be conducted in sprinters with a better maximal velocity and maximal power in order to confirm if movement of closing-opening between legs, trunk and arms are determinant in the production of a hight kinetic energy and a maximal power. If this was confirmed, the start phase and first step would no longer be considered as a simple pushing phase but as a succession of a closing and opening movement, where the trunk, hip and shoulders would play a central role. Figure 1: Exponential model applied to the increase of the typical non-fitted velocity of the CoM during the 40-m sprint.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of interest statement</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FiguresFigure 1 :</head><label>1</label><figDesc>Figures</figDesc><graphic coords="17,70.56,98.40,453.84,295.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Average force-velocity (A) and power-velocity (B) relationships derived from the exponential model of the increase in CoM velocity during the acceleration phases.</figDesc><graphic coords="17,70.56,449.04,453.84,127.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 :</head><label>3</label><figDesc>Figure 3: Total body kinetic energy (A) and kinetic energy of the 16 body segments. Mean kinetic energy was calculated for the 3 phases of the 40-m sprint (Start to Pmax; Pmax to Vmax and Vmax to the end of the sprint). The KEmean of each segment was summed for each limb. Headtrunk-limb (B) is composed of the head-neck, thorax, abdomen and pelvis; lower limb (C) is composed of the right and left thighs, legs and feet; and upper limb (D) is composed of the right and left upper arms, forearms and hands. * Significantly different from phase 1 (p ≤ 0.05); £ Significantly different from phase 2 (p ≤ 0.05).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: Typical example of continuous plotting of the lower limb, Head-trunck and lower limb expressed as a percentage of total kinetic energy.</figDesc><graphic coords="19,70.56,70.80,453.84,296.64" type="vector_box" /></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>All authors disclose any financial and personal relationships with other people or organisations 293 that could inappropriately influence (bias) their work. 294 Tables <ref type="table">Table 1:</ref> Maximal hip, knee and ankle joint power (mean ± SD) according to the distance of the sprint acceleration (rear and front block refer to the starting block phase). All the values were established from data found in the literature (see text for references). </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Moment and power of lower limb joints in running</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Belli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kyröläinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Komi</surname></persName>
+		</author>
+		<idno type="DOI">10.1055/s-2002-20136</idno>
+		<ptr target="https://doi.org/10.1055/s-2002-20136" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="136" to="141" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Belli, a., Kyröläinen, H., Komi, P. V., 2002. Moment and power of lower limb joints in running. Int. J. Sports Med. 23, 136-141. https://doi.org/10.1055/s-2002-20136</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Lower-limb mechanics during the support phase of maximum-velocity sprint running</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">N</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Kerwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I T</forename><surname>Salo</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0b013e318162d162</idno>
+		<ptr target="https://doi.org/10.1249/MSS.0b013e318162d162" />
+	</analytic>
+	<monogr>
+		<title level="j">Med. Sci. Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="707" to="715" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bezodis, I.N., Kerwin, D.G., Salo, A.I.T., 2008. Lower-limb mechanics during the support phase of maximum-velocity sprint running. Med. Sci. Sports Exerc. 40, 707-715. https://doi.org/10.1249/MSS.0b013e318162d162</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Relationships between lower-limb kinematics and block phase performance in a cross section of sprinters</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I T</forename><surname>Salo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Trewartha</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17461391.2014.928915</idno>
+		<ptr target="https://doi.org/10.1080/17461391.2014.928915" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="118" to="124" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bezodis, N.E., Salo, A.I.T., Trewartha, G., 2015. Relationships between lower-limb kinematics and block phase performance in a cross section of sprinters. Eur. J. Sport Sci. 15, 118-124. https://doi.org/10.1080/17461391.2014.928915</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Concurrent validation of an inertial measurement system to quantify kicking biomechanics in four football codes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Blair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Duthie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hopkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ball</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbiomech.2018.03.031</idno>
+		<ptr target="https://doi.org/10.1016/j.jbiomech.2018.03.031" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomech</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="24" to="32" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blair, S., Duthie, G., Robertson, S., Hopkins, W., Ball, K., 2018. Concurrent validation of an inertial measurement system to quantify kicking biomechanics in four football codes. J. Biomech. 73, 24-32. https://doi.org/10.1016/j.jbiomech.2018.03.031</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Lower limb joint kinetics in the starting blocks and first stance in athletic sprinting</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Brazil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Exell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Willwacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Irwin</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2016.1227465</idno>
+		<ptr target="https://doi.org/10.1080/02640414.2016.1227465" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Sports Sci</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brazil, A., Exell, T., Wilson, C., Willwacher, S., Bezodis, I., Irwin, G., 2016. Lower limb joint kinetics in the starting blocks and first stance in athletic sprinting. J. Sports Sci. 1- 7. https://doi.org/10.1080/02640414.2016.1227465</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Lower limb joint kinetics and ankle joint stiffness in the sprint start push-off</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Charalambous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Irwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">N</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kerwin</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2011.616948</idno>
+		<ptr target="https://doi.org/10.1080/02640414.2011.616948" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Charalambous, L., Irwin, G., Bezodis, I.N., Kerwin, D., 2012. Lower limb joint kinetics and ankle joint stiffness in the sprint start push-off. J. Sports Sci. 30, 1-9. https://doi.org/10.1080/02640414.2011.616948</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Adjustments to Zatsiorsky-Seluyanov&apos;s segment inertia parameters</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>De Leva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1223" to="1230" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">de Leva, P., 1996. Adjustments to Zatsiorsky-Seluyanov&apos;s segment inertia parameters. J Biomech 29, 1223-1230.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Biomechanical determinants of sprint acceleration in adult and young athletes Biomechanical determinants of sprint acceleration in adult and young athletes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Debaere</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Debaere, S., 2012. Biomechanical determinants of sprint acceleration in adult and young athletes Biomechanical determinants of sprint acceleration in adult and young athletes.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">From block clearance to sprint running: Characteristics underlying an effective transition</title>
+		<author>
+			<persName><forename type="first">Sofie</forename><surname>Debaere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Delecluse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Aerenhouts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hagman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Jonkers</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2012.722225</idno>
+		<ptr target="https://doi.org/10.1080/02640414.2012.722225" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="137" to="149" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Debaere, Sofie, Delecluse, C., Aerenhouts, D., Hagman, F., Jonkers, I., 2013. From block clearance to sprint running: Characteristics underlying an effective transition. J. Sports Sci. 31, 137-49. https://doi.org/10.1080/02640414.2012.722225</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">From block clearance to sprint running: Characteristics underlying an effective transition</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Debaere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Delecluse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Aerenhouts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hagman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Jonkers</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2012.722225</idno>
+		<ptr target="https://doi.org/10.1080/02640414.2012.722225" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Sports Sci</title>
+		<imprint>
+			<biblScope unit="page" from="37" to="41" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Debaere, S., Delecluse, C., Aerenhouts, D., Hagman, F., Jonkers, I., 2012. From block clearance to sprint running: Characteristics underlying an effective transition. J. Sports Sci. 37-41. https://doi.org/10.1080/02640414.2012.722225</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The contribution of step characteristics to sprint running performance in high-level male and female athlete</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Debaere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Jonkers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Deleclusc</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="116" to="124" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Debaere, S, Jonkers, I., Deleclusc, C., 2013. The contribution of step characteristics to sprint running performance in high-level male and female athlete. J Strength Cond Res 27, 116-124.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Sprint running: a new energetic approach</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Di Prampero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fusi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sepulcri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Belli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Antonutto</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jeb.01700</idno>
+		<ptr target="https://doi.org/10.1242/jeb.01700" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">208</biblScope>
+			<biblScope unit="page" from="2809" to="2816" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">di Prampero, P.E., Fusi, S., Sepulcri, L., Morin, J.B., Belli, a, Antonutto, G., 2005. Sprint running: a new energetic approach. J. Exp. Biol. 208, 2809-16. https://doi.org/10.1242/jeb.01700</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Running at altitude: the 100-m dash</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Di Prampero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Osgnach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Slawinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pavei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-021-04752-y</idno>
+		<ptr target="https://doi.org/10.1007/s00421-021-04752-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Appl. Physiol</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">di Prampero, P.E., Osgnach, C., Morin, J.B., Slawinski, J., Pavei, G., Samozino, P., 2021. Running at altitude: the 100-m dash. Eur. J. Appl. Physiol. https://doi.org/10.1007/s00421-021-04752-y</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Adding muscle where you need it: non-uniform hypertrophy patterns in elite sprinters</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Handsfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Knaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Fiorentino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Blemker</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sms.12723</idno>
+		<ptr target="https://doi.org/10.1111/sms.12723" />
+	</analytic>
+	<monogr>
+		<title level="j">Scand. J. Med. Sci. Sport</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1050" to="1060" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Handsfield, G.G., Knaus, K.R., Fiorentino, N.M., Meyer, C.H., Hart, J.M., Blemker, S.S., 2017. Adding muscle where you need it: non-uniform hypertrophy patterns in elite sprinters. Scand. J. Med. Sci. Sport. 27, 1050-1060. https://doi.org/10.1111/sms.12723</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A work-energy approach to determine individual joint contributions to vertical jump performance</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Hubley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Wells</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Appl. Physiol. Occup. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="247" to="254" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hubley, C.L., Wells, R.P., 1983. A work-energy approach to determine individual joint contributions to vertical jump performance. Eur. J. Appl. Physiol. Occup. Physiol. 50, 247-54.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Intermuscular coordination in a sprint push-off</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Van Ingen Schenau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="953" to="965" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jacobs, R., van Ingen Schenau, G.J., 1992. Intermuscular coordination in a sprint push-off. J Biomech 25, 953-965.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Differences in sprint mechanical force-velocity profile between trained soccer and futsal players</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jimenez-Reyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Cuadrado</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2018-0402</idno>
+		<ptr target="https://doi.org/10.1123/ijspp.2018-0402" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Sport. Physiol. Perform</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="478" to="485" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jimenez-reyes, P., Cuadrado, V., 2019. Differences in sprint mechanical force-velocity profile between trained soccer and futsal players. J. Sport. Physiol. Perform. 14, 478-485. https://doi.org/10.1123/ijspp.2018-0402</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Muscle power patterns in the mid-acceleration phase of sprinting</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Buckley</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/026404101750158330</idno>
+		<ptr target="https://doi.org/10.1080/026404101750158330" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="263" to="272" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Johnson, M.D., Buckley, J.G., 2001. Muscle power patterns in the mid-acceleration phase of sprinting. J. Sports Sci. 19, 263-72. https://doi.org/10.1080/026404101750158330</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Vertically and horizontally directed muscle power exercises: Relationships with top-level sprint performance</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Loturco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Contreras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kobal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Moura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Siqueira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Winckler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Suchomel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Pereira</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0201475</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0201475" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Loturco, I., Contreras, B., Kobal, R., Fernandes, V., Moura, N., Siqueira, F., Winckler, C., Suchomel, T., Pereira, L.A., 2018. Vertically and horizontally directed muscle power exercises: Relationships with top-level sprint performance. PLoS One 13, 1-13. https://doi.org/10.1371/journal.pone.0201475</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Murphy</surname></persName>
+		</author>
+		<title level="m">The Mechanics of Sprinting and Hurdling</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mann, R., Murphy, A., 2018. The Mechanics of Sprinting and Hurdling.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">External mechanical work done during the acceleration stage of maximal sprint running and its association with running performance</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mizutani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukunaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jeb.189258</idno>
+		<ptr target="https://doi.org/10.1242/jeb.189258" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">222</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matsuo, A., Mizutani, M., Nagahara, R., Fukunaga, T., Kanehisa, H., 2019. External mechanical work done during the acceleration stage of maximal sprint running and its association with running performance. J. Exp. Biol. 222. https://doi.org/10.1242/jeb.189258</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Effects of muscletendon length on joint moment and power during sprint starts</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kuitunen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Harland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kyröläinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Komi</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640410500131753</idno>
+		<ptr target="https://doi.org/10.1080/02640410500131753" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="165" to="173" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mero, A., Kuitunen, S., Harland, M., Kyröläinen, H., Komi, P. V, 2006. Effects of muscle- tendon length on joint moment and power during sprint starts. J. Sports Sci. 24, 165-73. https://doi.org/10.1080/02640410500131753</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Sprint Acceleration Mechanics: The Major Role of Hamstrings in Horizontal Force Production</title>
+		<author>
+			<persName><forename type="first">Jean</forename><forename type="middle">-</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Benoît</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gimenez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Edouard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Arnal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jiménez-Reyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brughelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mendiguchia</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2015.00404</idno>
+		<ptr target="https://doi.org/10.3389/fphys.2015.00404" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morin, Jean-Benoît, Gimenez, P., Edouard, P., Arnal, P., Jiménez-Reyes, P., Samozino, P., Brughelli, M., Mendiguchia, J., 2015. Sprint Acceleration Mechanics: The Major Role of Hamstrings in Horizontal Force Production. Front. Physiol. 6, 1-14. https://doi.org/10.3389/fphys.2015.00404</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A simple method for computing sprint acceleration kinetics from running velocity data: Replication study with improved design</title>
+		<author>
+			<persName><forename type="first">J.-B</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Murata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Cross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbiomech.2019.07.020</idno>
+		<ptr target="https://doi.org/10.1016/j.jbiomech.2019.07.020" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomech</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="82" to="87" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morin, J.-B., Samozino, P., Murata, M., Cross, M.R., Nagahara, R., 2019. A simple method for computing sprint acceleration kinetics from running velocity data: Replication study with improved design. J. Biomech. 94, 82-87. https://doi.org/10.1016/j.jbiomech.2019.07.020</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Acceleration capability in elite sprinters and ground impulse: Push more, brake less?</title>
+		<author>
+			<persName><forename type="first">J.-B</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Slawinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dorel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Couturier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Samozino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Brughelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rabita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbiomech.2015.07.009</idno>
+		<ptr target="https://doi.org/10.1016/j.jbiomech.2015.07.009" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomech</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morin, J.-B., Slawinski, J., Dorel, S., de villareal, E.S., Couturier, A., Samozino, P., Brughelli, M., Rabita, G., 2015. Acceleration capability in elite sprinters and ground impulse: Push more, brake less? J. Biomech. 48. https://doi.org/10.1016/j.jbiomech.2015.07.009</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Sprint Acceleration Mechanics: The Major Role of Hamstrings in Horizontal Force Production</title>
+		<author>
+			<persName><forename type="first">J.-B.J.-B</forename><forename type="middle">B</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gimenez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Edouard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Arnal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jiménez-Reyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brughelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mendiguchia</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2015.00404</idno>
+		<ptr target="https://doi.org/10.3389/fphys.2015.00404" />
+	</analytic>
+	<monogr>
+		<title level="j">Front. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">2013</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morin, J.-B.J.-B.B., Gimenez, P., Edouard, P., Arnal, P.J., Jiménez-Reyes, P., Samozino, P., Brughelli, M., Mendiguchia, J., 2013. Sprint Acceleration Mechanics: The Major Role of Hamstrings in Horizontal Force Production. Front. Physiol. 2013, 1-14. https://doi.org/10.3389/fphys.2015.00404</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Mechanical determinants of 100-m sprint running performance</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bourdin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Edouard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Peyrot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Lacour</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-012-2379-8</idno>
+		<ptr target="https://doi.org/10.1007/s00421-012-2379-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Appl. Physiol</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="3921" to="3930" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morin, J.B., Bourdin, M., Edouard, P., Peyrot, N., Samozino, P., Lacour, J.R., 2012. Mechanical determinants of 100-m sprint running performance. Eur. J. Appl. Physiol. 112, 3921-30. https://doi.org/10.1007/s00421-012-2379-8</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Effect of a Wide Stance on Block Start Performance in Sprint Running</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Otsuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kurihara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Isaka</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0142230</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0142230" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">142230</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Otsuka, M., Kurihara, T., Isaka, T., 2015. Effect of a Wide Stance on Block Start Performance in Sprint Running. PLoS One 10, e0142230. https://doi.org/10.1371/journal.pone.0142230</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Comprehensive mechanical power analysis in sprint running acceleration. Scand</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pavei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zamparo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fujii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Otsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Numazu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Minetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Monte</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sms.13520</idno>
+		<ptr target="https://doi.org/10.1111/sms.13520" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Med. Sci. Sport</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1892" to="1900" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pavei, G., Zamparo, P., Fujii, N., Otsu, T., Numazu, N., Minetti, A.E., Monte, A., 2019. Comprehensive mechanical power analysis in sprint running acceleration. Scand. J. Med. Sci. Sport. 29, 1892-1900. https://doi.org/10.1111/sms.13520</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Sprint mechanics in world-class athletes: a new insight into the limits of human locomotion</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rabita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dorel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Slawinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sàez-De-Villarreal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Couturier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Morin</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sms.12389</idno>
+		<ptr target="https://doi.org/10.1111/sms.12389" />
+	</analytic>
+	<monogr>
+		<title level="j">Scand. J. Med. Sci. Sports</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="583" to="594" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rabita, G., Dorel, S., Slawinski, J., Sàez-de-Villarreal, E., Couturier, A., Samozino, P., Morin, J.B., 2015. Sprint mechanics in world-class athletes: a new insight into the limits of human locomotion. Scand. J. Med. Sci. Sports 25, 583-94. https://doi.org/10.1111/sms.12389</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Continuous three dimensional analysis of running mechanics during a marathon by means of inertial magnetic measurement units to objectify changes in running mechanics</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Reenalda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Maartens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Homan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Buurke</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbiomech.2016.08.032</idno>
+		<ptr target="https://doi.org/10.1016/j.jbiomech.2016.08.032" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomech</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="3362" to="3367" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reenalda, J., Maartens, E., Homan, L., Buurke, J.H. (Jaap., 2016. Continuous three dimensional analysis of running mechanics during a marathon by means of inertial magnetic measurement units to objectify changes in running mechanics. J. Biomech. 49, 3362-3367. https://doi.org/10.1016/j.jbiomech.2016.08.032</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Xsens MVN: full 6DOF human motion tracking using miniature inertial sensors</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Roetenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Luinge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Slycke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Xsens Technol. B.V. Enschede, Tech. Pap</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roetenberg, D., Luinge, H., Slycke, P., 2013. Xsens MVN: full 6DOF human motion tracking using miniature inertial sensors. Xsens Technol. B.V. Enschede, Tech. Pap. 1-7.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A simple method for measuring power , force , velocity properties , and mechanical effectiveness in sprint running</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rabita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dorel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Slawinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Peyrot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Villarreal</surname></persName>
+		</author>
+		<author>
+			<persName><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Morin</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sms.12490</idno>
+		<ptr target="https://doi.org/10.1111/sms.12490" />
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sport</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="648" to="658" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Samozino, P., Rabita, G., Dorel, S., Slawinski, J., Peyrot, N., Villarreal, E.S. De, Morin, J., 2016. A simple method for measuring power , force , velocity properties , and mechanical effectiveness in sprint running. Scand J Med Sci Sport. 26, 648-658. https://doi.org/10.1111/sms.12490</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Mechanics of the human hamstring muscles during sprinting</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Schache</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Dorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Blanch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A T</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Pandy</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0b</idno>
+		<ptr target="https://doi.org/10.1249/MSS.0b" />
+	</analytic>
+	<monogr>
+		<title level="j">Med. Sci. Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="647" to="658" />
+			<date type="published" when="2012">2012. 013e318236a3d2</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schache, A.G., Dorn, T.W., Blanch, P.D., Brown, N.A.T., Pandy, M.G., 2012. Mechanics of the human hamstring muscles during sprinting. Med. Sci. Sports Exerc. 44, 647-658. https://doi.org/10.1249/MSS.0b013e318236a3d2</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Lower-limb joint mechanics during maximum acceleration sprinting</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Schache</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K M</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A T</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Crossley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Pandy</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/jeb.209460</idno>
+		<ptr target="https://doi.org/10.1242/jeb.209460" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Biol</title>
+		<imprint>
+			<biblScope unit="volume">222</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schache, A.G., Lai, A.K.M., Brown, N.A.T., Crossley, K.M., Pandy, M.G., 2019. Lower-limb joint mechanics during maximum acceleration sprinting. J. Exp. Biol. 222. https://doi.org/10.1242/jeb.209460</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Segment-interaction in sprint start: Analysis of 3D angular velocity and kinetic energy in elite sprinters</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Slawinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bonnefoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ontanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Leveque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Riquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chèze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dumas</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbiomech.2010.01.044</idno>
+		<ptr target="https://doi.org/10.1016/j.jbiomech.2010.01.044" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomech</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="1494" to="1502" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Slawinski, J, Bonnefoy, A., Ontanon, G., Leveque, J.M., Miller, C., Riquet, A., Chèze, L., Dumas, R., 2010. Segment-interaction in sprint start: Analysis of 3D angular velocity and kinetic energy in elite sprinters. J. Biomech. 43, 1494-502. https://doi.org/10.1016/j.jbiomech.2010.01.044</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Segment-interaction in sprint start: Analysis of 3D angular velocity and kinetic energy in elite sprinters</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Slawinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bonnefoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ontanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Leveque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Riquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chèze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dumas</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbiomech.2010.01.044</idno>
+		<ptr target="https://doi.org/10.1016/j.jbiomech.2010.01.044" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomech</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Slawinski, J., Bonnefoy, A., Ontanon, G., Leveque, J.M., Miller, C., Riquet, A., Chèze, L., Dumas, R., 2010. Segment-interaction in sprint start: Analysis of 3D angular velocity and kinetic energy in elite sprinters. J. Biomech. 43. https://doi.org/10.1016/j.jbiomech.2010.01.044</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Effect of postural changes on 3D joint angular velocity during starting block phase</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Slawinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dumas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cheze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ontanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mazure-Bonnefoy</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2012.729076</idno>
+		<ptr target="https://doi.org/10.1080/02640414.2012.729076" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Sports Sci</title>
+		<imprint>
+			<biblScope unit="page" from="37" to="41" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Slawinski, J., Dumas, R., Cheze, L., Ontanon, G., Miller, C., Mazure-Bonnefoy, A., 2012. Effect of postural changes on 3D joint angular velocity during starting block phase. J. Sports Sci. 37-41. https://doi.org/10.1080/02640414.2012.729076</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Mechanics of standing and crouching sprint starts</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Slawinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Houel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bonnefoy-Mazure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lissajoux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bocquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Termoz</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2016.1194525</idno>
+		<ptr target="https://doi.org/10.1080/02640414.2016.1194525" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Slawinski, J., Houel, N., Bonnefoy-Mazure, A., Lissajoux, K., Bocquet, V., Termoz, N., 2017a. Mechanics of standing and crouching sprint starts. J. Sports Sci. 35. https://doi.org/10.1080/02640414.2016.1194525</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">How 100-m event analyses improve our understanding of world-class men&apos;s and women&apos;s sprint performance. Scand</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Slawinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Termoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rabita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guilhem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dorel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-B</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sms.12627</idno>
+		<ptr target="https://doi.org/10.1111/sms.12627" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Med. Sci. Sports</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="45" to="54" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Slawinski, J., Termoz, N., Rabita, G., Guilhem, G., Dorel, S., Morin, J.-B., Samozino, P., 2017b. How 100-m event analyses improve our understanding of world-class men&apos;s and women&apos;s sprint performance. Scand. J. Med. Sci. Sports 27, 45-54. https://doi.org/10.1111/sms.12627</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Power patterns of the leg during the recovery phase of the sprinting stride for advanced and intermediate sprinters</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vardaxis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hoshizaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Biomech</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="332" to="349" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vardaxis, V., Hoshizaki, T., 1989. Power patterns of the leg during the recovery phase of the sprinting stride for advanced and intermediate sprinters. J. Appl. Biomech. 5, 332 -349.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Faster top running speeds are achieved with greater ground forces not more rapid leg movements Faster top running speeds are achieved with greater ground forces not more rapid leg movements</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Weyand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Sternlight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Bellizzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Peter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Matthew</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<date type="published" when="1991">2000. 1991-1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weyand, P.G., Sternlight, D.B., Bellizzi, M.J., Wright, S., Peter, G., Matthew, J., 2000. Faster top running speeds are achieved with greater ground forces not more rapid leg movements Faster top running speeds are achieved with greater ground forces not more rapid leg movements. J Appl Physiol 89, 1991-1999.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Biomechanics and Motor Control of Human Movement, Fourth Edition</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Winter</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/9780470549148</idno>
+		<ptr target="https://doi.org/10.1002/9780470549148" />
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<publisher>Wiley Inter-science Publication</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Winter, D., 2009. Biomechanics and Motor Control of Human Movement, Fourth Edition. Wiley Inter-science Publication. https://doi.org/10.1002/9780470549148</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">ISB recommendation on definitions of joint coordinate system of various joints for the reporting of human joint motion--part I: ankle, hip, and spine</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Siegler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Allard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kirtley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Leardini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rosenbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Whittle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>D'lima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cristofolini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Witte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Schmid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Stokes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomech</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="543" to="548" />
+			<date type="published" when="2002">2002</date>
+			<publisher>International Society of Biomechanics</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wu, G., Siegler, S., Allard, P., Kirtley, C., Leardini, A., Rosenbaum, D., Whittle, M., D&apos;Lima, D.D., Cristofolini, L., Witte, H., Schmid, O., Stokes, I., 2002. ISB recommendation on definitions of joint coordinate system of various joints for the reporting of human joint motion--part I: ankle, hip, and spine. International Society of Biomechanics. J. Biomech. 35, 543-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">ISB recommendation on definitions of joint coordinate systems of various joints for the reporting of human joint motion-Part II: shoulder, elbow, wrist and hand</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C T</forename><surname>Van Der Helm</surname></persName>
+		</author>
+		<author>
+			<persName><surname>(dirkjan)</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E J</forename><surname>Veeger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Makhsous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Van Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Anglin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nagels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Karduna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mcquade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Werner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Buchholz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbiomech.2004.05.042</idno>
+		<ptr target="https://doi.org/10.1016/j.jbiomech.2004.05.042" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomech</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="981" to="992" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wu, G., van der Helm, F.C.T., (DirkJan) Veeger, H.E.J., Makhsous, M., Van Roy, P., Anglin, C., Nagels, J., Karduna, A.R., McQuade, K., Wang, X., Werner, F.W., Buchholz, B., 2005. ISB recommendation on definitions of joint coordinate systems of various joints for the reporting of human joint motion-Part II: shoulder, elbow, wrist and hand. J. Biomech. 38, 981-992. https://doi.org/10.1016/j.jbiomech.2004.05.042</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

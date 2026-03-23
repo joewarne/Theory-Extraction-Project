@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A Biomechanical Comparison of the Back Squat and Hexagonal Barbell Deadlift</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Cody</forename><forename type="middle">A</forename><surname>Stahl</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Kinesiology Applied Health and Recreation</orgName>
+								<orgName type="institution">Oklahoma State University</orgName>
+								<address>
+									<settlement>Stillwater</settlement>
+									<region>Oklahoma</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Giancarlo</forename><surname>Regni</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Exercise and Sport Sciences</orgName>
+								<orgName type="laboratory">Biomechanics Laboratory</orgName>
+								<orgName type="institution">Ithaca College</orgName>
+								<address>
+									<settlement>Ithaca</settlement>
+									<region>New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jonathan</forename><surname>Tanguay</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Exercise and Sport Sciences</orgName>
+								<orgName type="laboratory">Biomechanics Laboratory</orgName>
+								<orgName type="institution">Ithaca College</orgName>
+								<address>
+									<settlement>Ithaca</settlement>
+									<region>New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Maddie</forename><surname>Mcelfresh</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Exercise and Sport Sciences</orgName>
+								<orgName type="laboratory">Biomechanics Laboratory</orgName>
+								<orgName type="institution">Ithaca College</orgName>
+								<address>
+									<settlement>Ithaca</settlement>
+									<region>New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eoghan</forename><surname>Trihy</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Western Australia</orgName>
+								<address>
+									<settlement>Parkway</settlement>
+									<region>Crawley</region>
+									<country>Australia;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution">Western Australian Institute of Sport</orgName>
+								<address>
+									<settlement>Mt Claremont</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><surname>Diggin</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Exercise and Sport Sciences</orgName>
+								<orgName type="laboratory">Biomechanics Laboratory</orgName>
+								<orgName type="institution">Ithaca College</orgName>
+								<address>
+									<settlement>Ithaca</settlement>
+									<region>New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Deborah</forename><forename type="middle">L</forename><surname>King</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Exercise and Sport Sciences</orgName>
+								<orgName type="laboratory">Biomechanics Laboratory</orgName>
+								<orgName type="institution">Ithaca College</orgName>
+								<address>
+									<settlement>Ithaca</settlement>
+									<region>New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A Biomechanical Comparison of the Back Squat and Hexagonal Barbell Deadlift</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B416BAEAFEF5F46533669959930A815B</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>exercise selection</term>
+					<term>strength-training</term>
+					<term>repetition maximum</term>
+					<term>performance testing</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Coaches often use different exercises to encourage similar strength adaptations and limit monotony. Anecdotally, the hexagonal barbell deadlift (HBD) exhibits similarities to the back squat (BS). To date, research has not examined the empirical differences between these exercises. This study examined kinematic and kinetic differences between the BS and the HBD across different loads. Sixteen resistance-trained individuals (6 men and 10 women) volunteered to participate. Subjects performed 1-repetition maximum (1RM) testing under BS and HBD conditions. Kinematic and kinetic data were collected during performance of both exercises at submaximal (warm-up sets) and maximal (1RM) loads using a 3D motion capture and force-plate system. Results showed that subjects lifted greater 1RM loads in the HBD relative to the BS (p , 0.05; d 5 21.75). Kinematic data indicated that subjects exhibited greater maximum forward lean of the trunk and decreased maximum knee flexion while performing the HBD compared with the BS. The BS resulted in higher maximum extension moments at the hip joint than the HBD. Maximum extension moments at the knee joint showed no difference between the exercises. Data suggest that bar design and position facilitate balanced moment arm length at hip and knee joints during performance of the HBD. By contrast, bar position during performance of the BS increases moment arm length at the hip joint, making it a hip-dominant exercise. The present data have implications for the programming of both exercises. Future research should examine differences in muscle-activation strategies between the 2 exercises.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Exercise selection is an important consideration of training program design. Strength and conditioning coaches use exercise variations to develop specific muscle groups and to add variety to training programs <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18)</ref>. Closed kinetic chain exercises such as the back squat (BS) and conventional deadlift (CDL) are often used interchangeably to improve lower-body strength <ref type="bibr" target="#b12">(13,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18)</ref>. Anecdotally, these exercises are thought to exhibit similar movement characteristics and to produce comparable training effects <ref type="bibr" target="#b14">(15)</ref>. However, empirical research has shown kinematic and kinetic differences between the BS and CDL that raises questions over the interchangeable use of these exercises. For instance, Hales et al. <ref type="bibr" target="#b14">(15)</ref> found that at loads near 1 repetition maximum (1RM), powerlifters exhibit (43%) greater forward lean of the trunk (u trunk ) at the beginning of the ascent phase of the CDL (68.4 6 6.9°) relative to the lowest point of the BS (39.0 6 6.9°). The authors also showed that hip and knee extension occur together in the BS, whereas knee extension precedes hip extension in the CDL. In addition, Choe et al. <ref type="bibr" target="#b4">(5)</ref> showed that at loads of 70 and 85% of 1RM, subjects exhibited significantly greater extensor moments and work at the hip during the concentric phase of the CDL compared with the BS. By contrast, subjects exhibited greater flexion at the hip and knee, and greater extensor moments at the knee in the BS <ref type="bibr" target="#b4">(5)</ref>. Thus, fundamental differences in joint range of motion, movement patterning, and joint kinetics suggest that the BS and CDL are not ideal surrogates for each other.</p><p>Like the BS and CDL, the hexagonal barbell deadlift (HBD) is used to develop lower-body strength and power <ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b18">(19)</ref><ref type="bibr" target="#b19">(20)</ref><ref type="bibr">(21)</ref><ref type="bibr" target="#b27">28)</ref>. In the HBD, the lifter positions themselves centrally inside a hexagonal shaped barbell with handles positioned on either side of it. They hold the barbell using a neutral grip (palms facing themselves) with hands positioned by their side. The design of the bar and neutral orientation of the grip is believed to allow the lifter to align the barbell's weight vector centrally within their base of support. This is thought to allow them to maintain a more upright trunk position relative to the CDL, thus reducing shear forces in the lumbar spine and subsequent injury risk <ref type="bibr" target="#b25">(26)</ref>.</p><p>These points have been supported by Swinton et al. <ref type="bibr" target="#b25">(26)</ref> who showed that up to loads of 80% of 1RM, performance of the deadlift using a hexagonal barbell reduced the horizontal displacement of the barbell relative to the CDL. This reduced horizontal displacement resulted in a more upright trunk position, a more vertical bar path, and reduced moment arm lengths about all joints analyzed. Reductions in moment arm lengths subsequently decreased peak net moments at ankle and hip joints, as well as at the lumbar spine under HBD conditions. However, peak net moments at the knee were greater under HBD relative to CDL conditions <ref type="bibr" target="#b25">(26)</ref>. These findings led the authors to suggest that the HBD may be an effective alternative to the squat and that</p><p>Address correspondence to Cody Stahl, cstahl@okstate.edu. Journal of Strength and Conditioning Research 38(5)/815-824 ª 2024 National Strength and Conditioning Association</p><p>the CDL may be appropriate in instances where maximizing recruitment of the erector spinae is important. This has since been supported by <ref type="bibr">Camara et al. (4)</ref> who showed greater vastus lateralis activity in the HBD compared with the CDL, which exhibited greater biceps femoris and erector spinae activity.</p><p>Considering previous research findings, practitioners have considered the HBD as a surrogate for the BS (1). To date, only one study has examined biomechanical differences between the HBD and BS <ref type="bibr" target="#b5">(6)</ref>. The work of Chow et al. <ref type="bibr" target="#b5">(6)</ref> focused exclusively on differences in muscle activation between the HBD and BS at loads corresponding to 75% of subject's bodyweight. Because individuals typically perform these exercises at loads greater than this in training, there is a need to analyze the similarities between these exercises at higher loads. The purpose of this study was to examine kinematic and kinetic differences between the BS and HBD exercises across a range of loads. The secondary purpose of the study was to examine differences in 1RM scores between the exercises. It was hypothesized that subjects would achieve greater 1RM scores under HBD conditions and that there would be no difference in kinematic and kinetic variables between the exercises across all load conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Approach to the Problem</head><p>A crossover design was used to compare kinematics and kinetics under HBD and BS conditions. Data were collected on 2 separate days. On day 1, subjects attended the laboratory, and following a warm-up, they completed a 1RM strength test under either BS or HBD condition (randomly assigned). On day 2, subjects completed a 1RM strength test under the remaining exercise condition. Three-dimensional (3D) motion capture and force plate data were collected throughout the 1RM test (at submaximum and maximum loads) using Vicon Nexus. Data were analyzed using Visual 3D. Kinematic variables of maximum trunk lean (u trunk ) and maximum knee flexion (u knee ) were measured under each exercise condition across all loads. Maximum net joint moments were also measured in the sagittal plane at the hip (M hip ) and knee (M knee ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Subjects</head><p>Sixteen (6 men and 10 women) physically active students from a Division III college aged between 18 and 30 years (mean age 5 21.6 6 3.3 years; height 5 1.70 6 0.06 m; body mass 5 73.8 6 10.9 kg; training age 5 4.4 6 1.8 years) volunteered to participate. All subjects were free from injury within the 6-month period before testing. All subjects were engaged in a structured resistance training program at the time of testing and had experience performing the HBD and BS exercises. All subjects were informed of the risks and benefits of the study and provided written informed consent before testing. All procedures were approved by the Ithaca College's Institutional Review Board.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedures</head><p>Data were collected on 2 separate occasions spaced 6-18 days apart. Time of day was kept consistent for both testing sessions to limit circadian effects on strength results <ref type="bibr" target="#b6">(7)</ref>. During the first session, subjects were randomly assigned to undergo 1RM testing under either BS or HBD conditions. During the second testing session, subjects completed testing under the remaining lift condition.</p><p>Subject wore dark, tight-fitting clothing (i.e., compression garments) and their choice of footwear during both testing sessions. Subject footwear was kept consistent throughout the study. During the first testing session, a series of anthropometric measures were taken, including body mass, height, leg length (ASISto-medial malleolus), and the breadths of the knee, ankle, and metatarsal heads using an anthropometer and stadiometer. The same investigator completed all anthropometric measurements for consistency. This investigator was trained to conduct all anthropometric procedures before testing. Subjects were instructed to avoid vigorous physical activity during the 48-hour period before testing and to arrive at testing fully hydrated and nourished.</p><p>Subjects completed a general 10-minute warm-up that included a series of calisthenic exercises before both test sessions. Eighteen retroreflective tracking markers, and 6 calibration markers were placed on the left and right sides of subjects bodies at specific locations (the acromioclavicular joint, the lateral aspect of the iliac crest, posterior superior iliac spine, greater trochanter, the lateral and medial femoral epicondyles, lateral and medial malleoli, the lateral aspect of the first metatarsal head, the dorsal surface of the second metatarsal head, the lateral aspect of the fifth metatarsal head, and the calcaneus). Marker clusters, each with 3 noncollinear markers, were placed on the left and right thigh and shank. A single marker was placed on the sternum 2 inches below the manubrium notch. A single marker was also placed at each end of the barbell to track bar path (Figure <ref type="figure" target="#fig_0">1</ref>). Calibration markers were removed after completing a standing calibration trial and before performing the BS and HBD trials.</p><p>One-Repetition Maximum Testing. Before beginning the warmup, subjects were asked to predict their 1RM for BS and HBD exercises based on previous training loads <ref type="bibr" target="#b21">(22)</ref>. Following the general warm-up, subjects completed 1-2 sets of 10 repetitions of the specific exercise being tested with an empty barbell. Following the exercise-specific warm-up, subjects completed 5 sets with varying repetitions at 40% (8 repetitions), 50% (5 repetitions), 70% (3 repetitions), and 90% (1 repetition) of their estimated 1RM. Subjects received 5-minute recovery following completion of the 90% set. Subjects were then given 3-5 attempts to achieve a 1RM with 5-minute recovery between each attempt.</p><p>Because subjects were experienced with conventional BS technique, during BS testing, subjects were instructed to use their typical hip-to-shoulder width stance. They were required to squat to a depth where the longitudinal axis of the thigh was parallel to the ground. To control squat depth, a 2 3 4 was placed on top of an aerobics step positioned so that subjects glutes contacted the 2 3 4 when they reached the appropriate depth at the bottom of the squat (Figure <ref type="figure" target="#fig_1">2A</ref>). Having touched the 2 3 4, subjects then completed the ascent phase to finish in an upright position with the shoulders, hips, knees, and ankles vertically aligned. Spotters were positioned at either end of the barbell throughout squat testing for safety.</p><p>Technique for the HBD was instructed and performed as described by Lockie and Lazar <ref type="bibr" target="#b19">(20)</ref>. Because subjects were experienced in performing the HBD, they were instructed to use their typical stance width that was hip-to-shoulder width apart. A successful deadlift was determined as finishing the ascent phase in an upright position with shoulders, hips, knees, and ankles in vertical alignment, followed by a controlled lowering of the bar back to the ground (Figure <ref type="figure" target="#fig_1">2B</ref>). The researchers and spotters provided verbal encouragement during all attempts. Subjects were permitted to use chalk during performance of the HBD to aid grip. The use of other aids (e.g., belts, straps, wraps) was not permitted.</p><p>Motion Analysis. Kinematic and kinetic data were collected throughout both 1RM testing sessions using a Vicon Nexus (Oxford Metrics, Oxford, United Kingdom) motion capture system. Optical motion capture systems are shown to be valid and reliable for the measurement of marker positions <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b22">23)</ref>. Kinematic data were collected using 6 Vicon MX31 motion capture cameras recording at 60 Hz. Kinetic data were collected using 2 AMTI force platforms (Gen 5; AMTI, Watertown, MA) integrated into the motion capture system recording at 3,000 Hz. Global and segmental axes systems were established with the mediolateral axis as the x-axis, anteroposterior axis as the y-axis, and the longitudinal axis as the z-axis. Subjects performed each exercise with one foot on each force platform. The motion capture and force platform systems were synchronized throughout.</p><p>Data Reduction. Motion analysis data were processed and analyzed in Visual 3D (version; C-Motion, Germantown, MD) using standard 3D rigid-body linked segment modeling procedures. Segment anthropometric characteristics were based on geometric shapes where segments were modeled as truncated cones with inertia and mass characteristics determined using the standards of Dempster <ref type="bibr" target="#b8">(9)</ref>. Marker positional data were low-pass filtered using a fourth-order Butterworth filter with a 5 Hz cutoff frequency and used to create an eight-segment model. Force data were lowpass filtered at a cutoff of between 2 and 4 Hz using a Butterworth digital filter. All cutoff frequencies were determined from residual analysis completed in LabVIEW (National Instruments, Austin, TX) <ref type="bibr" target="#b28">(29)</ref>.</p><p>From the 3D data, segment and joint angles were calculated using Cardan sequences. Specifically, thigh and knee angle were identified for analysis based on the previous literature <ref type="bibr" target="#b25">(26)</ref>. Trunk angle was calculated as a segment angle between the trunk and the global coordinate system using a ZYX Cardan sequence such that in the sagittal plane, a vertical trunk position was zero degrees. Thus, a forward trunk lean is reported as positive (Figure <ref type="figure" target="#fig_2">3A</ref>). Knee angle was calculated as a joint angle between the leg and thigh segments using an XYZ Cardan sequence such that in the sagittal plane, zero degrees is fully extended. Thus, knee flexion is positive (Figure <ref type="figure" target="#fig_2">3A</ref>). Inverse dynamics were used to determine sagittal plane internal net joint moments at the knee and hip throughout the movement sequence for each exercise. Flexion moments are positive, and extension moments are negative (Figure <ref type="figure" target="#fig_2">3B</ref>).  The start, middle, and end of each repetition was determined from movement of the barbell marker. The start of the repetition was identified as the first frame where the marker moved downward for the BS and upward in the HBD. The middle of each repetition was identified as the frame where the barbell marker stopped moving downward before beginning to move upward in the BS and where it started to move upward before beginning to move downward in the HBD. The end of each repetition was identified as the frame where the barbell marker stopped moving upward and downward again in the BS and in the HBD, respectively.</p><p>In examining biomechanical differences between the resistance exercises, previous research has focused on differences in levels of maximum trunk and knee flexion, as well as lower-body net joint moments between the exercises <ref type="bibr" target="#b24">(25,</ref><ref type="bibr" target="#b25">26)</ref>. Subsequently, maximum trunk (u trunk ) and knee (u knee ) flexion and maximum net internal joint extension moments at the hip (M hip ) and knee (M knee ) occurring throughout the entire movement were identified and used for analysis for both techniques. To aid interpretation of M hip and M knee , the perpendicular distance between the barbell center of mass and the hip (MA hip ) and knee (MA knee ) joint centers, respectively, were also analyzed. For sets where subjects completed multiple repetitions (50 and 70%), the middle repetition was used for analysis, in line with previous research <ref type="bibr" target="#b13">(14)</ref>. This resulted in 1 repetition being selected for analysis at each load (50, 70, 90 and 100%) for both techniques.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical Analyses</head><p>Data were examined for violations of assumptions of normality. Estimates of normality were established by calculating z-scores for skewness and kurtosis <ref type="bibr" target="#b10">(11)</ref>. Variables found to be nonparametric were log-transformed and reexamined for normality. Differences in relative 1RM loads between the BS and HBD were subsequently assessed using a paired-samples t test (p , 0.05). A 2 3 4 repeated-measures analysis of variance (ANOVA) was used to identify significant differences in dependent variables (u trunk , u knee , M knee , M hip , MA hip , and MA knee ) between the lifts across each load condition. Post hoc analysis of significant difference between the loads was subsequently analyzed using paired-samples t-tests with Bonferroni's adjustments. The magnitude of the effect of differences between the means was analyzed using Cohen's d and interpreted as small (0.20), medium (0.20-0.80), and large effects (0.80) <ref type="bibr" target="#b26">(27)</ref>. Statistical analysis was completed using JASP (version 0.14.1, University of Amsterdam, Netherlands).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Figure <ref type="figure" target="#fig_3">4</ref> shows mean (6s) 1RM loads for subjects under BS and HBD conditions. Paired-samples t test results showed that subjects' 1RM loads achieved using the HBD were significantly greater than those achieved using the BS (t (15) 5 27.01; p , 0.01; d 5 21.75). Data show that subjects lifted (24%) greater loads under HBD (142.4 6 47.1 kg) relative to BS conditions (108.0 6 37.3 kg). Subjects lifted 1.4 (60.4) times their body mass under BS conditions compared with 1.9 (60.5) times body mass under HBD conditions.</p><p>Figure <ref type="figure" target="#fig_5">5</ref> shows maximum u trunk achieved during both exercises across the different load conditions. Repeated-measures ANOVA results revealed a significant main effect for exercise on u trunk (F (1,13) 5 58.9; p , 0.001; d 5 2.05). Thus, subjects adopted greater forward lean of the trunk under HBD condition (58.8 6 6.2°; 95% CI 5 56.1, 63.5) compared with BS condition (44.7 6 Images showing (A) joint angle and (B) joint moment conventions used to identify positive and negative angles and moments under both exercise conditions. Note: Trunk angle (u trunk ) was calculated as a segment angle between the trunk and the global coordinate system such that a vertical trunk position was zero degrees in the sagittal plane and a forward trunk lean is positive. Knee angle (u knee ) was calculated as a joint angle between the leg and thigh segments such that zero degrees is fully extended in the sagittal plane, and knee flexion is positive. Flexor moments are considered positive and extensor moments negative in the current convention.</p><p>6.2°, 95% CI 5 41.7, 47.8). In addition, ANOVA results showed a significant main effect for load on u trunk (F (3,39) 5 46.7; p , 0.01), suggesting that as load increased, u trunk increased in both exercise conditions (d 5 1.29-2.79). Data also revealed a significant interaction effect (F (3,39) 5 15.5; p , 0.01). Post hoc comparisons showed that under HBD conditions, u trunk was significantly greater than under BS conditions at all corresponding loads (t 5 3.67-9.56; p , 0.05) with the greatest differences occurring at the heaviest loads. Effect size calculations showed that differences in u trunk between the exercises exhibited large effects across all loads (d 5 0.98-2.56).</p><p>Figure <ref type="figure" target="#fig_6">6</ref> shows mean (6s) knee angle (u knee ) achieved by subjects under HBD and BS conditions across all loads. Results of ANOVA showed a significant main effect for exercise on u knee (F (1,13) 5 128.4; p , 0.001; d 5 3.03). Thus, u knee was smaller for the HBD (95.3 6 9.2°; 95% CI 5 91.6, 99.0) relative to u knee for the BS (119.4 6 4.9°; 95% CI 5 117.2, 124.0) across all comparative loads (t 5 8.65-9.31; p , 0.01; d 5 2.31-2.49). Examination of main effects for load showed no change in u knee between the loads for both exercises (F (3,39) 5 2.46; p . 0.05), whereas examination of interaction effects showed no difference in u knee at corresponding loads for either exercise (F (1.5,19.4) 5 0.22; p . 0.05).</p><p>Analysis of maximum net hip joint extensor moments (M hip ) showed a significant main effect of exercise on M hip (F (1,13) 5 65.7; p , 0.01; Figure <ref type="figure" target="#fig_7">7</ref>). Subjects exhibited greater M hip under BS (2187.7 6 55.1 Nm; 95% CI 5 2162.7, 2222.7) relative to HBD (2126.8 6 28.1 Nm; 95% CI 5 2112.2, 2152.6) conditions. Similarly, main effects for load showed that M hip increased significantly with increasing load under both exercise conditions (F (1.4,17.8) 5 20.6; p , 0.01). Post hoc analysis showed that M hip at 50% 1RM was significantly lower than at 70, 90, and 100% 1RM (d 5 21.25 to 2.34) and that M hip at 70% 1RM was significantly lower than at 90 and 100% 1RM (d 5 21.03 to 1.40). Data showed no difference in M hip between 90 and 100% loads in both exercises. Analysis of interaction effects showed a significant effect (F (1.7,21.9) 5 69.7; p , 0.01). Post hoc comparisons showed that M hip was greater in the BS compared with the HBD at 70, 90 and 100% 1RM (t 5 5.72-11.99; p , 0.01; d 5 1.53-3.20). By contrast, at 50% 1RM, there was no difference in M hip between BS and HBD conditions.</p><p>In contrast to M hip , examination of knee joint moments (M knee ) revealed no significant main effect for exercise (F (1,13) 5 0.13; p . 0.05). Mean M knee achieved under BS exercise conditions (2138.9 6 38.7 Nm; 95% CI 5 2120.0, 2157.9) was similar to that achieved under HBD conditions (2135.2 6 35.7 Nm; 95% CI 5 2115.0, 2155.5; Figure <ref type="figure" target="#fig_8">8</ref>). Analysis of main effects for load showed no difference in M knee across loads for either exercise (F (3,39) 5 1.06; p . 0.05), whereas examination of interaction effects showed a significant effect (F (3,39) 5 15.91; p , 0.05). Post hoc comparisons showed that under BS conditions, M knee at 50% 1RM was significantly lower than that at 70, 90 and 100% 1RM (t 5 3.26 to 25.83; p , 0.05; d 5 21.56 to 1.25). Under HBD conditions, M knee remained consistent across all loads (t 5 22.79 to 3.49; p . 0.05).</p><p>Figure <ref type="figure" target="#fig_9">9</ref> shows the mean (6s) perpendicular distance between the bar and the hip joint center (MA hip ) recorded at the occurrence of M hip . Results of ANOVA revealed a significant main effect for exercise on MA hip (F (1,12) 5 8.14; p , 0.05; d 5 0.791). Thus, subjects on average exhibited reduced MA hip under HBD conditions (0.26 6 0.01 m; 95% CI 5 0.25, 0.28) relative to the BS across all loads (0.30 6 0.01 m; 95% CI 5 0.28, 0.32). Analysis of main effects for load showed no difference in MA hip between the loads for either exercise (F (1.7,20.1) 5 1.75; p . 0.05), whereas examination of interaction effects showed no difference in MA hip between the exercises at corresponding loads (F (1.7,20.2) 5 0.06; p . 0.05).</p><p>Examination of mean (6s) perpendicular distance between the bar and the knee joint center (MA knee ) recorded at M knee (Figure <ref type="figure" target="#fig_10">10</ref>) showed no effect of exercise on MA knee (F (1,15) 5 4.26; p . 0.05). Thus, subjects exhibited similar MA knee under BS (0.12 6 0.00 m; 95% CI 5 0.14, 0.11) and HBD (0.11 6 0.00 m; 95% CI 5 0.12, 0.10) conditions. Analysis of main effects for load showed no difference in MA knee between the loads for either exercise (F (2.4,34.0) 5 1.14; p . 0.05). Examination of interaction effects showed no difference in MA knee between the exercises at corresponding loads (F (1.7,26.1) 5 0.17; p . 0.05).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>Qualitative and quantitative differences in movement patterns and muscle activation have been reported between the HBD and CDL <ref type="bibr" target="#b3">(4,</ref><ref type="bibr" target="#b25">26)</ref>. Based on these differences, it was suggested that the HBD exhibits greater similarities to a BS than to a CDL and that it may be an appropriate auxiliary exercise for the BS <ref type="bibr" target="#b25">(26)</ref>. Results showed that subjects in this study recorded higher strength loads (31%) under HBD conditions (142.4 6 47.1 kg) than they did using the BS (108.0 6 37.3 kg). Higher 1RM loads under HBD relative to BS condition have been reported previously. For instance, Scott et al. <ref type="bibr" target="#b23">(24)</ref> reported that loads that were 22.7% higher under HBD conditions (167.3 6 23.9 kg) when compared with the BS conditions (129.  <ref type="formula">16</ref>) reported 1RM loads that were 22% higher under HBD conditions (164.5 6 52.4 kg) when compared with the BS (127.7 6 42.7 kg). Consequently, the findings of this study and that of previous works support the indication that greater 1RM loads are achieved under HBD conditions compared with the BS.</p><p>In this study, greater 1RM loads seen under HBD conditions were accompanied by significantly greater u trunk (59.8 6 7.5°) and more extended u knee (95.3 6 1.8°) positions compared with the BS (44.7 6 3.0°and 120.6 6 0.9°, respectively). Swinton et al. <ref type="bibr" target="#b25">(26)</ref> measured joint kinematics at the start of the HBD (using the low handles) in male powerlifters using loads ranging from 10 to 80% of 1RM. At the start of the HBD, subjects in that study showed an average u trunk of 57.9°(69.8°) and an average u knee of 78.8°( 611.2°). Under BS conditions, Swinton et al. <ref type="bibr" target="#b24">(25)</ref> and Cotter et al. <ref type="bibr" target="#b7">(8)</ref> found average maximum u knee values of 121.1°(63.4°) and 123.7°(62.0°), respectively. Thus, joint angles in this study are consistent with previous works. In a kinematic analysis of the CDL  and BS during powerlifting competition (1RM loads), Hales et al. <ref type="bibr" target="#b14">(15)</ref> reported greater u trunk values at the beginning of the ascent phase of the CDL (68.4 6 6.9°) relative to those achieved at the bottom of the BS (39.0 6 6.9°). Subjects in that study also adopted less knee flexion at the beginning of the ascent phase of the CDL (125.7 6 8.0°) compared with the bottom of the BS (66.2 6 7.4°). Comparisons with the work of Hales et al. <ref type="bibr" target="#b14">(15)</ref> shows that u trunk values adopted during the HBD at heavier loads in this study (69.5°) are consistent with those achieved during the CDL. By contrast, u knee at the beginning of the HBD was lower (95.3°) than u knee at the bottom of the BS (120.6°). This suggests that, as with the CDL, subjects adopted a more extended knee position at the beginning of the HBD relative to the knee position at the midpoint of the BS <ref type="bibr" target="#b14">(15)</ref>. Thus, kinematically at least, the HBD seems to be a hybrid of the BS and the CDL.</p><p>Examination of joint kinetics shows that subjects in this study exhibited greater maximum net extensor moments at the hip in the BS (2192.7 6 27.1 Nm) compared with the HBD (2132.4 6 3.9 Nm). Results showed that M hip increased progressively with load under BS conditions but remained consistent across loads under HBD conditions. By contrast, mean M knee stayed consistent across loads under both exercise conditions. These findings are consistent with the work of Swinton et al. <ref type="bibr" target="#b25">(26)</ref> who reported a 43% increase in M hip between the lightest (10% 1RM) and heaviest (80% 1RM) loads under HBD conditions. Swinton et al. <ref type="bibr" target="#b25">(26)</ref> also reported a main effect for load on M knee . Thus, M knee increased by ;40% between the lightest and heaviest loads. It is important to note that the M hip and M knee values reported by Swinton et al. <ref type="bibr" target="#b25">(26)</ref> were higher than those presented in this study. Subjects in this study were physically active college students, 10 of  whom were female, and achieved a 1RM of 142 kg. Subjects in the work of Swinton et al. (26) were trained male powerlifters who achieved a 1RM of 265 kg under HBD conditions. Differences in subject and strength characteristics might explain differences in joint moment records between the studies.</p><p>An interesting finding of this study is the greater hip extensor moments experienced in the BS, despite greater u trunk found under HBD conditions. Hales et al. <ref type="bibr" target="#b14">(15)</ref> reported that at near maximum loads in the CDL, lifters tend to lean forward more to favor the use of the posterior chain. This would suggest that greater u trunk seen under HBD conditions in this study might be expected to produce greater M hip than under BS conditions. This was not the case. It is important to consider bar design when interpreting our data. In the CDL, the bar is positioned in front of the performer.</p><p>The straight construction of the bar requires the performer to complete the lift in a segmented fashion using 3 movement phases; the lift-off (LO), knee passing (KP), and lift completion (LC; 15). The LO represents the first phase of the CDL where the performer lifts the load from the floor using knee extension to a point just below the knee (tibial tuberosity). The KP involves moving the bar from the tibial tuberosity to the proximal part of the patella and is dominated by hip extension. The LC phase involves moving the bar from the superior part of the patella to midthigh, with the body in an upright standing position. The LC phase includes a combination of hip and knee extension <ref type="bibr" target="#b14">(15)</ref>. This segmented movement pattern allows the lifter to limit the horizontal displacement of the bar and to involve the posterior chain in the lifting action.  In contrast to the CDL, the design of the hexagonal barbell used during the HBD allows the lifter to stand in the middle of the bar and to grip the bar using a neutral grip. Because the lifter is standing in the middle of the bar, they have no need to move the bar around the knee joint. This allows the lifter to use their arms to execute the lift with limited horizontal displacement of the bar <ref type="bibr" target="#b25">(26)</ref> and to keep the weight vector close to hip and knee joint centers. Subsequently, the lifter can achieve balanced moment arm lengths between joint centers to achieve a balanced contribution from knee and hip extensors to execute the HBD. However, in the BS, the position of the bar requires the lifter to lean forward to maintain balance, which increases moment arm length at the hip relative to the knee. This would result in greater M hip at the midpoint of the BS despite being performed at lower absolute loads compared with the HBD. This is supported by examination of moment arm lengths between the barbell and hip (MA hip ) and knee (MA knee ) joint centers in this study. Subjects in our study exhibited smaller (13.3%) MA hip during the HBD when compared with the BS, whereas MA knee was consistent between the exercises. This suggests that subjects reduced the distance between the weight vector and the hip joint in the HBD, which allowed them to execute the lift with a balanced contribution from hip and knee extensors. This point is further supported by the fact that subjects experienced a 6.6% difference between M hip and M knee at the beginning of the HBD, but a 25.9% difference between these variables at the midpoint of the squat. Thus, when both exercises are performed at the same relative loads, the HBD exhibits balanced development of the hip and knee extensors <ref type="bibr" target="#b25">(26)</ref>.</p><p>The present data would suggest that lifters can develop knee and hip extensor strength to a similar extent using the HBD when compared with the BS. By contrast, if development of hip extensor strength is of greater importance to lifters, the current data would suggest the BS (particularly at heavier loads) offers a greater stimulus. However, the lack of electromyographic (EMG) evidence supporting these points is a limitation of this study. <ref type="bibr">Chow et al. (6)</ref> used EMG to examine differences in muscle activation between the BS and a trap bar deadlift. The trap bar is similar in design to the hexagonal barbell but is constructed with a trapezoidal shape. The authors analyzed the performance of individuals at the same absolute loads (i.e., 75% of bodyweight). Data showed that erector spinae activity decreased under trap bar deadlift conditions, whereas hamstring and quadriceps activity was consistent between the exercises. The use of the same absolute load in the work of Chow et al. <ref type="bibr" target="#b5">(6)</ref> limits the application of findings to varied load conditions. Future work should endeavor to analyze differences in muscle recruitment between the exercises across a range of relative loads. This approach would allow us to identify how muscle recruitment strategies might change between the exercises from lighter to heavier loads.</p><p>A limitation of this study relates to the different starting positions used between the exercises. Specifically, the current data demonstrated differences in maximum u trunk , u knee , M hip , and M knee occurring throughout the performance of both techniques. Differences in these variables between the techniques may have been influenced by differences in depth achieved by subjects during the performance of each exercise. An additional approach to the current research question may have been to examine differences between the exercises at consistent levels of knee flexion. Although this would have allowed comparisons between the techniques at the same depth of exercise performance, this approach was deemed to lack external validity by the researchers. A primary aim of the study was to investigate differences between the exercises so that coaches or trainers can consider the viability of using the HBD as a substitute for the BS. When doing so, during training, coaches do not tend to match BS depth with HBD depth. Rather, athletes/clients will simply perform each exercise. Subsequently, we feel that the current approach is consistent with the implementation of both exercises in a normal training environment, which therefore enhances the external validity of the study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Practical Applications</head><p>These findings have implications for how strength and conditioning professionals may use the HBD in practice. It seems that the HBD is a hybrid exercise of the CDL and BS exercises that offers the greatest balance in the development of hip and knee extensors. This would suggest that the HBD could be considered as a stand-alone exercise rather than as a substitute for the BS. Coaches and trainers should consider the goals of the training session or phase and the status of the athlete or client they are working with when choosing between HBD and BS exercises. When the goal is to maximize the development of the hip extensors while simultaneously improving knee extensor strength, the BS is a good choice. If the goal is to achieve a more balanced development of hip and knee extensor strength (e.g., if a client is recovering from knee or low back pain), then the HBD may be more appropriate within a program. As always, rotating these exercises in and out of a program should be considered based on program goals, the training phase, and athlete or client needs.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Image showing calibration (red spheres) and tracking markers (green spheres) positioned on the bar and at specific anatomical locations. Note: Calibration markers were removed following the static calibration trial before the performance of each trial. Markers positioned at the end of the bar were used to track the path of straight and hexagonal barbells during the back squat and hexagonal barbell deadlift, respectively.</figDesc><graphic coords="3,168.32,60.83,261.06,164.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Images showing a representative performance of (A) the back squat and (B) the hexagonal barbell deadlift.</figDesc><graphic coords="3,74.66,430.98,189.29,282.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure3. Images showing (A) joint angle and (B) joint moment conventions used to identify positive and negative angles and moments under both exercise conditions. Note: Trunk angle (u trunk ) was calculated as a segment angle between the trunk and the global coordinate system such that a vertical trunk position was zero degrees in the sagittal plane and a forward trunk lean is positive. Knee angle (u knee ) was calculated as a joint angle between the leg and thigh segments such that zero degrees is fully extended in the sagittal plane, and knee flexion is positive. Flexor moments are considered positive and extensor moments negative in the current convention.</figDesc><graphic coords="4,159.87,60.83,288.69,230.63" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Mean (6s) 1-repetition maximum (1RM) loads achieved by subjects under back squat (BS) and hexagonal barbell deadlift (HBD) conditions. **Statistical significance at p , 0.01.</figDesc><graphic coords="5,148.59,60.83,300.68,159.82" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><figDesc>3 6 30.0 kg) in professional and amateur rugby players. A later study by Scott et al. (24) replicated these findings in university rugby league players (HBD 1RM 5 167.0 6 34.0 kg; BS 1RM 5 133.8 6 28.2 kg). In physically active college students, Kieffer et al. (</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Mean (6s) maximum trunk angle (u trunk ) during the back squat (BS) and hexagonal barbell deadlift (HBD) conditions. *Statistical significance between BS and HBD at p , 0.05. **Statistical significance between BS and HBD at p , 0.01. †Statistical significance relative to the 50% condition at p , 0.05. #Statistical significance relative to the 70% condition at p , 0.05. ‡Statistical significance relative to the 90% condition at p , 0.05.</figDesc><graphic coords="6,123.93,60.83,360.64,198.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Mean (6s) maximum knee angle (u knee ) during the back squat (BS) and hexagonal barbell deadlift (HBD). **Statistical significance between BS and HBD at p , 0.01. Note: Larger knee angle represents greater degree of flexion.</figDesc><graphic coords="6,123.93,506.04,360.64,198.77" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Mean (6s) maximum net extension moment at the hip joint (M hip ) during the back squat (BS) and hexagonal barbell deadlift (HBD). **Statistical significance between HBD and the BS at p , 0.01. †Statistical significance relative to the 50% condition at p , 0.05. #Statistical significance relative to the 70% condition at p , 0.05. ‡Statistical significance relative to the 90% condition at p , 0.05.</figDesc><graphic coords="7,118.66,60.83,360.64,196.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Mean (6s) maximum net extension moment at the hip joint (M hip ) during the back squat (BS) and hexagonal barbell deadlift (HBD). †Statistical significance relative to the 50% condition at p , 0.05.</figDesc><graphic coords="7,118.66,515.74,360.64,198.03" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 9 .</head><label>9</label><figDesc>Figure 9. Mean (6s) moment arm of the bar relative to the hip joint at the point of maximum net extension moment at the hip joint (M hip ) during the back squat (BS) and hexagonal barbell deadlift (HBD).</figDesc><graphic coords="8,123.93,60.83,360.64,213.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 10 .</head><label>10</label><figDesc>Figure 10. Mean (6s) moment arm of the bar relative to the knee joint at the point of maximum net extension moment at the knee joint (M hip ) during the back squat (BS) and hexagonal barbell deadlift (HBD).</figDesc><graphic coords="8,123.93,500.20,360.64,213.56" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Copyright © 2024 National Strength and Conditioning Association. Unauthorized reproduction of this article is prohibited.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Copyright © 2024 National Strength and Conditioning Association. Unauthorized reproduction of this is prohibited.</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Electromyographic comparison of barbell deadlift, hex bar deadlift, and hip thrust exercises: A cross-over study</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Fimland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Mo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="587" to="593" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Andersen V, Fimland MS, Mo DA, et al. Electromyographic comparison of barbell deadlift, hex bar deadlift, and hip thrust exercises: A cross-over study. J Strength Cond Res 32: 587-593, 2018.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Effects of the trap bar deadlift and leg press on adolescent male strength, power and speed</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Blanchard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Berning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Debeliso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Phys Educ Res</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="11" to="22" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blanchard J, Berning JM, Adams KJ, Debeliso M. Effects of the trap bar deadlift and leg press on adolescent male strength, power and speed. J Phys Educ Res 3: 11-22, 2016.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">ASEP Procedures Recommendation I: Accurate assessment of muscular strength and power</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Weir</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exerc Physiol Online</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1" to="21" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brown LE, Weir JP. ASEP Procedures Recommendation I: Accurate as- sessment of muscular strength and power. J Exerc Physiol Online 4: 1-21, 2001.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">An examination of muscle activation and power characteristics while performing the deadlift exercise with straight and hexagonal barbells</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Camara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Coburn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Dunnick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1183" to="1188" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Camara KD, Coburn JW, Dunnick DD, et al. An examination of muscle activation and power characteristics while performing the deadlift exercise with straight and hexagonal barbells. J Strength Cond Res 30: 1183-1188, 2016.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Hip and knee kinetics during a back squat and deadlift</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Choe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Coburn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Pamukoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1364" to="1371" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Choe KH, Coburn JW, Costa PB, Pamukoff DN. Hip and knee kinetics during a back squat and deadlift. J Strength Cond Res 35: 1364-1371, 2021.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">An electromyographic comparison of parallel and trap bar squats</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Chow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Tillman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Gutierrez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Hass</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Presented at Proceedings of the 27th Annual Meeting of the American Society of Biomechanics, Toledo</title>
+		<imprint>
+			<publisher>OH</publisher>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chow JW, Tillman MD, Gutierrez GM, Hass CJ. An electromyographic comparison of parallel and trap bar squats. In: Presented at Proceedings of the 27th Annual Meeting of the American Society of Biomechanics, To- ledo, OH, 2003.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The effect of training at a specific time of day: A review</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chtourou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Souissi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<date type="published" when="1984">1984-2005, 2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chtourou H, Souissi N. The effect of training at a specific time of day: A review. J Strength Cond Res 26: 1984-2005, 2012.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Knee joint kinetics in relation to commonly prescribed squat loads and depths</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Cotter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Chaudhari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Jamison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Devor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1765" to="1774" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cotter JA, Chaudhari AM, Jamison ST, Devor ST. Knee joint kinetics in relation to commonly prescribed squat loads and depths. J Strength Cond Res 27: 1765-1774, 2013.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Space requirements of the seated operator: Geometrical, kinematic, and mechanical aspects of the body with special reference to the limbs</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Dempster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aerospace Medical Research Laboratory</title>
+		<imprint>
+			<biblScope unit="page" from="186" to="200" />
+			<date type="published" when="1955">1955</date>
+			<publisher>OH</publisher>
+			<pubPlace>Wright-Patterson Air Force Base</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dempster WT. Space requirements of the seated operator: Geometrical, kinematic, and mechanical aspects of the body with special reference to the limbs. OH: Aerospace Medical Research Laboratory, Wright-Patterson Air Force Base: 186-200, 1955.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Analysis of accuracy in optical motion capture -A protocol for laboratory setup evaluation</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Eichelberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ferraro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Minder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="2085" to="2088" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Eichelberger P, Ferraro M, Minder U, et al. Analysis of accuracy in optical motion capture -A protocol for laboratory setup evaluation. J Biomech 49: 2085-2088, 2016.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Why is my evil lecturer forcing me to learn statistics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Field</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Discovering Statistics Using SPSS</title>
+		<meeting><address><addrLine>London, United Kingdom</addrLine></address></meeting>
+		<imprint>
+			<publisher>Sage Publications</publisher>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="page">19</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Field A. Why is my evil lecturer forcing me to learn statistics. In: Dis- covering Statistics Using SPSS. London, United Kingdom: Sage Publica- tions, 2009. p. 19.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Strength training modalities: Introducing the trap bar</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gentry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pratt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Caterisano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Natl Strength Cond Assoc J</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="54" to="56" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gentry M, Pratt D, Caterisano D. Strength training modalities: In- troducing the trap bar. Natl Strength Cond Assoc J 9: 54-56, 1987.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A review of the biomechanical differences between the high-bar and low-bar back-squat</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Glassbrook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Helms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Storey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="2618" to="2634" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Glassbrook DJ, Helms ER, Brown SR, Storey AG. A review of the bio- mechanical differences between the high-bar and low-bar back-squat. J Strength Cond Res 31: 2618-2634, 2017.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A biomechanical comparison of back and front squats in healthy trained individuals</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Gullett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Tillman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Gutierrez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Chow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="284" to="292" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gullett JC, Tillman MD, Gutierrez GM, Chow JW. A biomechanical comparison of back and front squats in healthy trained individuals. J Strength Cond Res 23: 284-292, 2009.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Kinematic analysis of the powerlifting style squat and the conventional deadlift during competition: Is there a cross-over effect between lifts?</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Hales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="2574" to="2580" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hales ME, Johnson BF, Johnson JT. Kinematic analysis of the power- lifting style squat and the conventional deadlift during competition: Is there a cross-over effect between lifts? J Strength Cond Res 23: 2574-2580, 2009.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Power characteristics of conventional and hexagonal barbell jump squats</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kieffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Diggin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Sforzo</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>IC Digital Commons</publisher>
+			<pubPlace>Ithaca College. Ithaca</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Master&apos;s Thesis</note>
+	<note type="raw_reference">Kieffer J, Diggin D, Sforzo GA. Power characteristics of conventional and hexagonal barbell jump squats. Master&apos;s Thesis, Ithaca College. Ithaca: IC Digital Commons; 2019.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Muscle activation patterns of lower-body musculature among 3 traditional lower-body exercises in trained women</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Korak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Paquette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Caputo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Coons</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="2770" to="2775" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Korak JA, Paquette MR, Fuller DK, Caputo JL, Coons JM. Muscle activation patterns of lower-body musculature among 3 traditional lower-body exercises in trained women. J Strength Cond Res 32: 2770-2775, 2018.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">A biomechanical analysis of the effects of bouncing the barbell in the conventional deadlift</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Krajewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Lefavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Riemann</surname></persName>
+		</author>
+		<idno>S70-S77</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Krajewski KT, LeFavi RG, Riemann BL. A biomechanical analysis of the effects of bouncing the barbell in the conventional deadlift. J Strength Cond Res 33: S70-S77, 2019.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Effect of a hexagonal barbell on the mechanical demand of deadlift performance</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Duncan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Naworynsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="82" to="88" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lake J, Duncan F, Jackson M, Naworynsky D. Effect of a hexagonal barbell on the mechanical demand of deadlift performance. Sports 5: 82-88, 2017.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Exercise technique: Applying the hexagonal bar to strength and power training</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Lockie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lazar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Strength Cond J</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="24" to="32" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lockie RG, Lazar A. Exercise technique: Applying the hexagonal bar to strength and power training. Strength Cond J 39: 24-32, 2017.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Comparison of Olympic and hexagonal barbells with midthigh pull, deadlift, and countermovement jump</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Malyszek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Harmon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Dunnick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="140" to="145" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Malyszek KK, Harmon RA, Dunnick DD, et al. Comparison of Olympic and hexagonal barbells with midthigh pull, deadlift, and countermove- ment jump. J Strength Cond Res 31: 140-145, 2017.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Relationship between maximal squat strength and five, ten, and forty yard sprint times</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Mcbride</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Blow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Kirby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1633" to="1636" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McBride JM, Blow D, Kirby TJ, et al. Relationship between maximal squat strength and five, ten, and forty yard sprint times. J Strength Cond Res 23: 1633-1636, 2009.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Mechanical testing for threedimensional motion analysis reliability</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kaufman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kingsbury</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gait Posture</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="116" to="119" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Miller E, Kaufman K, Kingsbury T, et al. Mechanical testing for three- dimensional motion analysis reliability. Gait Posture 50: 116-119, 2016.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Effect of accommodating resistance on the postactivation potentiation response in rugby league players</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ditroilo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Marshall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="2510" to="2520" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scott DJ, Ditroilo M, Marshall P. Effect of accommodating resistance on the postactivation potentiation response in rugby league players. J Strength Cond Res 32: 2510-2520, 2018.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A biomechanical comparison of the traditional squat, powerlifting squat, and box squat</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Swinton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lloyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jwl</forename><surname>Keogh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Agouris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Stewart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1805" to="1816" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Swinton PA, Lloyd R, Keogh JWL, Agouris I, Stewart AD. A bio- mechanical comparison of the traditional squat, powerlifting squat, and box squat. J Strength Cond Res 26: 1805-1816, 2012.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">A biomechanical analysis of straight and hexagonal barbell deadlifts using submaximal loads</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Swinton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Agouris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jwl</forename><surname>Keogh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lloyd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<date type="published" when="2000">2000-2009, 2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Swinton PA, Stewart A, Agouris I, Keogh JWL, Lloyd R. A biomechanical analysis of straight and hexagonal barbell deadlifts using submaximal loads. J Strength Cond Res 25: 2000-2009, 2011.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The t test: comparing means from two sets of data</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Vincent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Weir</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Statistics in Kinesiology</title>
+		<imprint>
+			<biblScope unit="page" from="128" to="130" />
+			<date type="published" when="2012">2012</date>
+			<publisher>Human Kinetic</publisher>
+			<pubPlace>Champaign, IL</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vincent WJ, Weir JP. The t test: comparing means from two sets of data. In: Statistics in Kinesiology. Champaign, IL: Human Kinetic, 2012. pp. 128-130.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Jump training in rugby union players: Barbell or hexagonal bar?</title>
+		<author>
+			<persName><forename type="first">Jjs</forename><surname>Weakley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Till</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Read</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="754" to="761" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weakley JJS, Till K, Read DB, et al. Jump training in rugby union players: Barbell or hexagonal bar? J Strength Cond Res 35: 754-761, 2021.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Winter</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kinematics</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomechanics and Motor Control of Human Movement</title>
+		<imprint>
+			<biblScope unit="page" from="64" to="75" />
+			<date type="published" when="2009">2009</date>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<pubPlace>Hoboken, NJ</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Winter DA. Kinematics. In: Biomechanics and Motor Control of Human Movement. Hoboken, NJ: John Wiley &amp; Sons, 2009. pp. 64-75.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

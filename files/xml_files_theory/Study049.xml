@@ -1,0 +1,2299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Acute effects of conventional versus wide-pulse neuromuscular electrical stimulation on quadriceps evoked torque and neuromuscular function</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Loïc</forename><surname>Espeit</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Université Jean Monnet Saint-Etienne</orgName>
+								<address>
+									<addrLine>Lyon 1</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eric</forename><surname>Luneau</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Université Jean Monnet Saint-Etienne</orgName>
+								<address>
+									<addrLine>Lyon 1</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Callum</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">G</forename><surname>Brownstein</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Université Jean Monnet Saint-Etienne</orgName>
+								<address>
+									<addrLine>Lyon 1</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><forename type="middle">Julien</forename><surname>Gondin</surname></persName>
+							<idno type="ORCID">0000-0002-3108-605X</idno>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Institut NeuroMyoGène</orgName>
+								<orgName type="department" key="dep2">Unité Physiopathologie et Génétique du Neurone et du Muscle</orgName>
+								<orgName type="institution">Université Claude Bernard</orgName>
+								<address>
+									<addrLine>Lyon 1</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Guillaume</forename><forename type="middle">Y</forename><surname>Millet</surname></persName>
+							<idno type="ORCID">0000-0002-6395-0762</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">Université Jean Monnet Saint-Etienne</orgName>
+								<address>
+									<addrLine>Lyon 1</addrLine>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="institution">Institut Universitaire de France (IUF)</orgName>
+								<address>
+									<settlement>Paris</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vianney</forename><surname>Rozand</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Université Jean Monnet Saint-Etienne</orgName>
+								<address>
+									<addrLine>Lyon 1</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nicola</forename><forename type="middle">A</forename><surname>Maffiuletti</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="laboratory">Laboratoire Interuniversitaire de Biologie de la Motricité</orgName>
+								<orgName type="institution" key="instit1">Human Performance Lab</orgName>
+								<orgName type="institution" key="instit2">Schulthess Clinic</orgName>
+								<address>
+									<settlement>Zurich</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Thomas</forename><surname>Lapole</surname></persName>
+							<email>thomas.lapole@univ-st-etienne.fr</email>
+						</author>
+						<author>
+							<persName><forename type="first">Julien</forename><surname>Gondin</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Université Savoie Mont-Blanc</orgName>
+								<address>
+									<addrLine>Laboratoire Interuniversitaire de Biologie de la Motricité</addrLine>
+									<settlement>Saint-Etienne</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">CNRS 5261</orgName>
+								<address>
+									<postCode>INSERM U1315</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="institution">Université de Lyon</orgName>
+								<address>
+									<settlement>Lyon</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department">Doctoral Research Grant</orgName>
+								<orgName type="institution">Bâtiment IRMIS</orgName>
+								<address>
+									<addrLine>10 Rue de la Marandière Jean Monnet of Saint-Etienne</addrLine>
+									<postCode>42270</postCode>
+									<settlement>Saint-Priest-en- Jarez</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Acute effects of conventional versus wide-pulse neuromuscular electrical stimulation on quadriceps evoked torque and neuromuscular function</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">681A2C6755AD65103C8CC90A8C03DDE8</idno>
+					<idno type="DOI">10.1111/sms.14375</idno>
+					<note type="submission">Received: 9 November 2022 | Revised: 6 March 2023 | Accepted: 31 March 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:11+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>corticospinal excitability</term>
+					<term>fatigability</term>
+					<term>motoneuronal excitability</term>
+					<term>NMES</term>
+					<term>spinal excitability</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The effectiveness of a neuromuscular electrical stimulation (NMES)   program is proportional to the level of evoked torque, which can be achieved with either conventional or wide-pulse stimulations. The aim of this study was to compare evoked torque, objective fatigability, and related peripheral and central alterations, as well as changes in central nervous system (CNS) excitability induced by an acute session of conventional versus wide-pulse NMES.</p><p>Methods: Seventeen young men underwent three 20-min NMES sessions: conventional (0.2 ms/50 Hz), wide-pulse at 50 Hz (1 ms/50 Hz), and wide-pulse at 100 Hz (1 ms/100 Hz). Neuromuscular measurements (i.e., maximal voluntary contraction, voluntary activation, evoked responses to femoral nerve stimulation, and CNS excitability) were performed on the right quadriceps femoris muscle before and after each NMES session. CNS excitability was measured using transcranial magnetic, thoracic, and transcutaneous spinal cord stimulations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results:</head><p>The level of evoked torque was not significantly different between conventional and wide-pulse protocols applied at the maximal tolerable current intensity. All NMES protocols induced objective fatigability (~14% decrease in maximal voluntary contraction torque, p &lt; 0.001) associated with peripheral (decrease in doublet torque and potentiated M-wave amplitude, p = 0.002 and p &lt; 0.001, respectively) but not central (unchanged voluntary activation, p = 0.79) alterations. However, these acute changes did not differ between NMES protocols and none of the NMES protocols modified markers of CNS excitability.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion:</head><p>These results may allow to conjecture that chronic effects and treatment effectiveness could be comparable between conventional and wide-pulse NMES.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUCTION</head><p>Neuromuscular electrical stimulation (NMES), which consists of evoking contractions by applying an electrical current-mainly over the muscle belly but also occasionally over the nerve trunk-via surface electrodes, is commonly used in rehabilitation for the recovery/preservation/improvement of muscle mass and function. <ref type="bibr" target="#b0">1</ref> The conventional use of NMES in clinical practice, mainly targeting the quadriceps femoris, usually encompasses narrow pulses (0.2-0.5 ms) delivered at a frequency of 30-50 Hz. <ref type="bibr" target="#b1">2</ref> Patients are encouraged to attain their maximal tolerable current intensity, as achieving the highest level of evoked torque is a key factor for optimizing the effectiveness of a NMES program. <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref> Indeed, Lai et al. <ref type="bibr" target="#b2">3</ref> reported a linear dose-response relationship between NMES effectiveness and evoked torque, with traininginduced strength gains of 24% and 48% for evoked torque levels of 25% and 50% of maximal voluntary contraction (MVC), respectively. However, the ability to increase current intensity is limited by the associated discomfort <ref type="bibr" target="#b5">6</ref> and the maximal stimulator output. <ref type="bibr" target="#b6">7</ref> Thus, it is of clinical importance to appraise NMES protocols that can maximize evoked torque.</p><p>Current charge (i.e., the product of current intensity, pulse duration, and stimulation frequency) is a strong predictor of NMES-evoked torque. <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b8">9</ref> However, current intensity cannot be infinitely increased because of the associated discomfort. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b9">10</ref> Similarly, as suggested by the sigmoid torque-frequency relationship, evoked knee extension torque increases with increasing stimulation frequency until 50-60 Hz, but then reaches a plateau. <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b10">11</ref> Therefore, increasing pulse duration could be considered as an alternative strategy to maximize evoked torque. <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13</ref> The use of wide pulses (~1 ms) seems indeed to increase the level of evoked torque with respect to conventional narrow pulses. For example, Liebano et al. <ref type="bibr" target="#b13">14</ref> observed a trend for a 5.5% greater maximal evoked torque with 1-ms compared with 0.4-ms pulses. While this difference between the two pulse durations was not significant, likely because of a relatively small number of subjects (i.e., 19 young women), our team recently demonstrated a significantly greater maximal evoked torque for wide-pulse (45% MVC) compared to conventional NMES (40% MVC) on a large population, <ref type="bibr" target="#b6">7</ref> these results being observed when using both a conventional frequency (50 Hz) and a higher frequency (100 Hz). However, previous studies comparing narrow-and wide-pulse stimuli delivered to the quadriceps femoris muscle at the maximal tolerable current intensity measured evoked torque during a single NMES train. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b13">14</ref> Indeed, comparisons of conventional versus wide-pulse NMES repeated trains were previously investigated for the triceps surae muscle at submaximal current intensities. <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16</ref> Thus, it remains to be determined whether (i) the use of wide-pulses at the maximal tolerable current intensity would lead to a greater evoked torque throughout a full NMES session consisting of multiple trains delivered to the quadriceps femoris muscle, and if so, (ii) greater objective fatigability (i.e., decrease in MVC torque induced by a NMES session) would be observed with respect to conventional NMES with narrow pulses. Objective fatigability is an important limiting factor of NMES, especially in clinical populations who may show a premature and exaggerated decrease in maximal voluntary force due to the particular motor unit recruitment. <ref type="bibr" target="#b16">17</ref> This NMES-induced objective fatigability has usually been found to be related to peripheral alterations (i.e., neuromuscular propagation and contractile failure). <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b17">18</ref> Besides the possibility of a greater evoked torque throughout a full NMES session, wide-pulse NMES is well known for favoring the activation of central pathways at low current intensities. <ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20</ref> For instance, wider pulses are known to depolarize sensory axons more effectively-due to their longer strength-duration time constant and lower rheobase than motor axons <ref type="bibr" target="#b20">21</ref> -therefore leading to a greater transmission of afferent volleys to the central nervous system (CNS). As a result, it has been demonstrated that afferent volleys induced by electrical stimuli can modulate CNS excitability, <ref type="bibr" target="#b21">22</ref> in the same way as when afferent volleys are generated mechanically. <ref type="bibr" target="#b22">23</ref> For instance, it was reported that a single session of wide-pulse NMES increased motor evoked potential (MEP) amplitude in response to transcranial magnetic stimulation. <ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref> However, these findings were mainly obtained with nerve trunk stimulation, low current intensities (i.e., 15% of maximal M-wave <ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref> ), and long-duration NMES sessions (i.e., up to 120 min <ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref> ), which differ from NMES clinical practice recommendations. <ref type="bibr" target="#b1">2</ref> In addition, the effect of wide-pulse NMES on CNS excitability may be frequency-dependent. For example, Mang et al. <ref type="bibr" target="#b29">30</ref> reported that a 100-Hz stimulation frequency was more effective than 10 and 50 Hz in increasing MEP amplitude. It remains unknown whether the use of wide-pulses could similarly impact CNS excitability when NMES is applied at the maximal tolerable current intensity over the muscle belly (i.e., as usually recommended for rehabilitation purposes. <ref type="bibr" target="#b34">35</ref> ) Overall, the changes in cortical, spinal, and motoneuronal excitability after a single session of such NMES protocols remain to be determined, <ref type="bibr" target="#b35">36</ref> by further considering the possibility that such alterations could be frequency-dependent. <ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref> The aims of the present study were therefore to compare the acute effects of a single session of conventional versus wide-pulse NMES at low and high frequency on (1) the level of evoked torque, (2) the amount and origin of NMES-induced objective fatigability, and (3) CNS excitability (i.e., cortical, spinal, and motoneuronal excitability). We adhered to clinical practice recommendations by delivering NMES to the quadriceps femoris muscle belly at the maximal tolerable current intensity. We hypothesized that (1) a greater level of evoked torque would be generated by wide-pulse NMES protocols, (2) this higher torque would lead to greater objective fatigability as well as changes in CNS excitability compared to conventional NMES, and (3) the high frequency protocol would induce greater objective fatigability and changes in CNS excitability than low frequency NMES.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Subjects</head><p>Twenty-seven healthy men were initially screened for eligibility. Subjects were excluded if their maximal tolerable current intensity exceeded the maximal stimulator output (100 mA) during a first visit dedicated to inclusion and familiarization to the study procedures. Seventeen subjects (age: 27 ± 6 years, mass: 69 ± 5 kg, stature: 177 ± 7 cm) were ultimately included in the study. They were recreationally active and reported no history of neurological or musculoskeletal impairment. None of them had previously engaged in systematic NMES training. Subjects were asked to refrain from strenuous and unaccustomed physical activity for 24 h before testing to minimize the risk of neuromuscular fatigue or muscle damage. The study protocol was approved by the local ethics committee and was in accordance with the latest update of the Helsinki Declaration (except for registration in a database). All subjects gave their written informed consent before participation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Experimental design</head><p>Subjects visited the laboratory on four separate occasions, including a familiarization visit followed by three experimental sessions. The first visit aimed to familiarize subjects with neuromuscular testing and with each NMES protocol (i.e., progressive increments of current intensity up to the maximal tolerable current intensity). As illustrated on Figure <ref type="figure" target="#fig_0">1</ref>, the experimental sessions included neuromuscular testing (see Neuromuscular testing) that was conducted before (PRE) and immediately after (POST) standardized NMES protocols (see NMES protocols). The experimental sessions were performed in a random order and at the same time of the day with 5 to 10 days between sessions. All experimental sessions were conducted on the right quadriceps femoris muscle under isometric conditions. To investigate NMES-induced objective fatigability, changes in MVC torque were quantified, and the underlying central (i.e., voluntary activation (VA) measured using the interpolated twitch technique), and peripheral (i.e., neuromuscular propagation failure estimated with M-wave and contractile failure estimated with evoked doublet) alterations were further investigated. To determine NMES-induced changes in CNS excitability, we investigated MEPs with transcranial magnetic stimulation (i.e., corticospinal excitability <ref type="bibr" target="#b39">40</ref> ), thoracic motor evoked potentials (TMEPs) with thoracic electrical stimulation (i.e., motoneuron excitability <ref type="bibr" target="#b40">41</ref> ), and spinal reflexes (SRs) with transcutaneous spinal cord stimulation (i.e., excitability of monosynaptic responses between Ia afferents and motor neurons 42 ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1">| Neuromuscular testing</head><p>Testing began with the determination of femoral nerve stimulation intensity. Then, after a standardized warmup (i.e., ten 3-5 s submaximal isometric contractions of progressively increasing intensity until reaching 90% of estimated MVC), baseline torque generating capacity was assessed. One MVC without stimulation followed by two MVCs with superimposed (i.e., 100-Hz paired stimuli delivered at maximal torque) and post-MVC femoral nerve stimulation (i.e., 100-Hz paired stimuli ~2 s following the MVC and single twitch separated by 3 s) in potentiated relaxed muscles were performed. The 100-Hz paired stimuli allowed estimation of VA using the interpolated twitch technique whereas the single stimulation allowed the associated EMG response to be obtained (potentiated M-wave; M POT ). During MVCs, subjects were instructed to contract their muscles as strongly as possible for ~4 s with a progressive torque buildup. A 1-min resting period separated the MVCs. Afterwards, the EMG associated with 20% MVC (20% MVC-EMG) was determined by performing a 5-s contraction at 20% MVC using visual feedback displayed on a computer monitor. Series of contractions at the target EMG were then performed to set the stimuli at appropriate intensities (see below). Baseline CNS excitability was then assessed with five sets of measurements each including four stimuli delivered in a random order every ~5 s (i.e., to record MEP, TMEP, SR, and M-wave responses; see Figure <ref type="figure" target="#fig_0">1</ref>). Each set lasted ~20 s, and was separated by rest periods of 20 s. The NMES protocol started 1 min following the last set.</p><p>As NMES-induced CNS excitability changes can begin to recover within seconds after exercise cessation, <ref type="bibr" target="#b42">43</ref> these assessments were distributed between the last six NMESevoked contractions to avoid any recovery effect at POST (Figure <ref type="figure" target="#fig_0">1B</ref>). During the 30-s resting period of NMES protocols, a set of stimuli was delivered during contractions targeting 20% MVC-EMG as determined at PRE. Immediately after the NMES protocols, torque generating capacity was assessed using one MVC with femoral nerve stimulation delivered on the MVC plateau and ~ 2 and 5 s after MVC in potentiated relaxed muscles.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2">| NMES protocols</head><p>Three NMES protocols were performed in a random order: narrow-pulse (0.2 ms) NMES applied at 50 Hz (CONV), wide-pulse (1 ms) NMES applied at 50 Hz (WP50), and wide-pulse (1 ms) NMES applied at 100 Hz (WP100). The current was delivered with a commercially available device (BioStim 2.1, Mazet Santé, Electronique du Mazet, Le Mazet Saint Voy, France), which provides biphasic, symmetrical, and rectangular pulses. Two 2-mm-thick selfadhesive electrodes were placed over the right quadriceps femoris muscle (Figure <ref type="figure" target="#fig_1">2A</ref>). One electrode, measuring 198 cm 2 (180 × 110 mm, axion GmbH, Leonberg, Germany), was placed on the distal third of thigh length over the vastus lateralis (VL) and vastus medialis (VM) muscles. A small part of the electrode was trimmed to allow EMG electrodes placement. The other electrode, measuring 85 cm 2 (125 × 86 mm, axion GmbH), was placed 5-7 cm below the inguinal ligament. Each 10-s stimulation train included a ramp up of 2 s, a steady tetanic phase of 7 s and a ramp down of 1 s. Each train was followed by a 30-s rest period, and a total of 30 NMES trains were delivered during each protocol (Figure <ref type="figure" target="#fig_0">1</ref>). Current intensity was gradually increased by the subjects to their maximally-tolerated level during a test train of 30 s that was delivered at the beginning of the NMES protocol. Then, subjects were allowed to consistently adjust the current intensity to their maximum tolerable level until the 25th train of each protocol. The maximal tolerated current intensity varied between 27 and 100 mA. Current intensity remained constant from the 25th train to the end of the NMES protocol to maintain a stable setup for CNS excitability assessments. For each NMES protocol, current intensity and the associated discomfort were assessed after each block of five trains. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| Instrumentation</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.1">| Torque and EMG recordings</head><p>Subjects were seated in an isometric dynamometer (ARS dynamometry; SP2 Ltd., Ljubljana, Slovenia) with the hips and the knees at 90° and 60° of flexion (with 0° referring to the extended neutral position), respectively. The leg was attached to the chair by a noncompliant strap just proximal to intermalleolar axis. Trunk and pelvis were also securely strapped to the chair to prevent compensatory movements during contractions. The knee extension torque signal was low-pass filtered (20 Hz) and analog-to-digital converted at a sampling rate of 2 kHz by a PowerLab system (16/35; ADInstruments, Bella Vista, Austalia). EMG activity from the right VL, VM, and rectus femoris (RF) muscles was recorded with pairs of self-adhesive surface electrodes (Melitracen 100; Covidien, Mansfield, MA) in bipolar configuration, with electrodes placed 30 mm apart. The reference electrode was placed on the ipsilateral patella. Before electrode placement (Figure <ref type="figure" target="#fig_1">2A</ref>), the skin was shaved, abraded, and cleaned with isopropyl alcohol to limit impedance. EMG signals were amplified with an octal bio-amplifier (ML138; ADInstruments), band-pass filtered (5-500 Hz), and analog-to-digital converted at a sampling rate of 2 kHz by the PowerLab system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.2">| Femoral nerve stimulation</head><p>Single and paired rectangular electrical pulses of 1 ms (400-V maximal output voltage) were delivered via a constant-current stimulator (DS7R; Digitimer, Hertfordshire, UK) to the right femoral nerve. A 30mm diameter surface cathode (Meditrace 100) and a 50 × 100 mm anode (Durastick Plus; DJO Global, Vista, USA) were taped to the skin onto the femoral triangle and in the gluteal fold (Figure <ref type="figure" target="#fig_1">2B</ref>). Electrical stimuli were first delivered at 50 mA and then the intensity was increased with 10-mA increments until knee extension peak twitch torque and maximal M-wave responses were observed. The resulting stimulation intensity was then further increased by 30% (supramaximal intensities: 116 ± 46 mA, 127 ± 42 mA, and 121 ± 52 mA for CONV, WP50, and WP100 sessions, respectively; p = 0.22) and maintained throughout the sessions for the interpolated twitch technique and for evoking the M-wave during the 20% MVC-EMG contractions (M SUP ), that was used to normalize all the other evoked EMG responses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.3">| Thoracic stimulation</head><p>A constant-current stimulator (DS7R) was used to evoke TMEP by delivering a single rectangular electrical pulse of 1 ms between surface electrodes (Meditrace 100) positioned between the spinous processes of T1 and T2 (anode) and between T3 and T4 (cathode) (Figure <ref type="figure" target="#fig_1">2B</ref>). The stimulation intensity was adjusted to elicit a VL TMEP amplitude of 20% VL M SUP during an ongoing 20% MVC-EMG contraction. Mean stimulation intensities were 452 ± 191 mA, 473 ± 195 mA, and 471 ± 209 for CONV, WP50, and WP100 sessions, respectively (p = 0.43).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.4">| Transcutaneous spinal cord stimulation</head><p>Subjects were asked to maintain a symmetrical position of the upper limbs and their head as immobile as possible in a neutral position. Single rectangular electrical pulses of 1 ms were delivered via a constant-current stimulator (DS7R). A 68 × 125 mm anode (axion GmbH) was placed over the midline of the abdomen between the xiphoid process of the sternum and the umbilicus, and a 50 × 50 mm cathode (Durastick Plus) was placed on the midline of the back between the spinous processes of L1 and L2 (Figure <ref type="figure" target="#fig_1">2B</ref>). To confirm that the responses were caused by activation of the sensory fibers, a rectangular double-pulse stimulation (interpulse interval: 50 ms) was delivered to test homosynaptic depression of the evoked responses. <ref type="bibr" target="#b41">42</ref> This phenomenon was confirmed in the present study as the responses associated to the second transcutaneous spinal cord stimulation were noticeably smaller than those following the first stimulus for all NMES protocols (4.0 ± 1.6 and 0.7 ± 0.6 mV, respectively). Stimulus intensity was adjusted to evoke VL SR with an amplitude of 20% of VL M SUP during an ongoing 20% MVC-EMG contraction. Mean stimulation intensities were 115 ± 33, 116 ± 29, and 120 ± 30 mA for CONV, WP50, and WP100 sessions, respectively (p = 0.43).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.5">| Transcranial magnetic stimulation</head><p>Single-pulse transcranial magnetic stimulation was delivered to the left motor cortex via a concave double cone coil using a magnetic stimulator (Magstim 200 2 ; The Magstim Company Ltd.). The optimal coil location was established for each visit as the position that elicited the largest MEP in the VL muscle during a low-level voluntary contraction (20% MVC). This position was marked on a swim cap that was secured to the scalp. Subsequently, transcranial magnetic stimulation intensity was adjusted to evoke VL MEP with an amplitude of 20% of VL M SUP during an ongoing 20% MVC-EMG contraction. Mean stimulation intensities were 48 ± 13, 49 ± 14, and 48 ± 12% of maximum stimulator output for CONV, WP50, and WP100 sessions, respectively (p = 0.73).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.6">| Discomfort assessment</head><p>Subjects were asked to place a vertical mark on a horizontal line (100 mm) to rate the level of discomfort. The scale ranged from 0 to 100 mm, with the 0-mm value representing "no discomfort" and the 100-mm value representing "worst possible discomfort". The mean discomfort was calculated for each NMES protocol by averaging the five discomfort assessments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| Data analysis</head><p>2.4.1 | Voluntary and evoked torque Objective fatigability was quantified as the PRE-to-POST decline in MVC torque induced by each NMES session. MVC torque was determined as the highest voluntary torque recorded during the three MVCs. The amplitude of the doublets evoked by 100-Hz paired pulses (Db100) was measured and VA was calculated as follows: Db100 and VA were measured from the trial where the MVC torque was the highest before the superimposed paired stimuli were delivered. <ref type="bibr" target="#b43">44</ref> Alterations associated to objective fatigability were considered as PRE-to-POST decreases of Db100 and M POT (i.e., peripheral alterations) and VA (i.e., central alteration).</p><p>The torque-time integral (TTI) of each NMES-evoked contraction was quantified for the entire 10-s stimulation period and evoked peak torque (EPT) for each NMESinduced contraction was defined as the highest torque reached during each train and was expressed as a percentage of MVC torque (Figure <ref type="figure" target="#fig_2">3A</ref>). A first analysis of TTI and EPT was focused on the first NMES-evoked contraction. A second analysis of these parameters was conducted for blocks of five NMES-evoked contractions (block 1: contraction 1-5, block 2: 6-10, block 3: 11-15, block 4: 16-20, block 5: 21-25, and block 6: 26-30). Finally, a global analysis was done on the total TTI (i.e., sum of TTI of the VA = 1superimposed Db100 × (torque at stimulation∕ maximal torque before stimulation)∕Db100 × 100.</p><p>30 NMES-evoked contractions) and the mean EPT (i.e., mean EPT of the 30 NMES-evoked contractions).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.2">| EMG</head><p>The 20% MVC-EMG was determined by calculating the average root mean square EMG of VL from the 20% MVC. To assist subjects in visualizing and maintaining the ongoing 20% MVC-EMG contraction, the VL root mean square EMG was smoothed with a 400-ms time window. For all tested muscles, M POT , M SUP , SR, TMEP, and MEP peak-to-peak amplitudes were also measured and then averaged from the five sets (Figure <ref type="figure" target="#fig_2">3B</ref>). SR, TMEP, and MEP were consistently expressed as a percentage of M SUP . Comparing changes in MEP and TMEP (MEP/TMEP ratio) allowed us to distinguish neural changes between supraspinal and spinal levels. <ref type="bibr" target="#b35">36</ref> As supported by recent findings, SR and H reflex are two neurophysiological responses involving the same spinal pathway. <ref type="bibr" target="#b44">45</ref> SR amplitude can be therefore influenced by motoneuron excitability as well as by the efficacy of synaptic transmission (i.e., presynaptic inhibition and homosynaptic postactivation depression). <ref type="bibr" target="#b41">42,</ref><ref type="bibr" target="#b45">46</ref> As stimulation of the descending tracts directly activates large-diameter axons (not subjected to presynaptic inhibition), TMEP amplitude may be used as a proxy of motoneuron excitability. <ref type="bibr" target="#b46">47</ref> Therefore, comparing SR and TMEP (SR/TMEP ratio) should allow us to distinguish whether potential changes in spinal excitability were presynaptic (i.e., efficacy of Ia-afferent-αmotoneuron pathway) or postsynaptic (i.e., motoneuron excitability) in origin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">| Statistical analysis</head><p>Statistical analyses were performed with JAMOVI software (version 1.1.9; <ref type="url" target="https://www.jamovi.org/download.html">https://www.jamovi.org/downl oad.  html</ref>). Shapiro-Wilk and Levene tests were used to examine data normality and homogeneity of variances, respectively. All data are presented as mean values ± SD. Statistical significance was set at p &lt; 0.05.</p><p>One-way repeated measure ANOVAs were performed to compare the intensities of each stimulation technique (i.e., femoral nerve, transcutaneous spinal cord, thoracic, and transcranial magnetic stimulation) between NMES protocols. One-way repeated measure ANOVAs were also used to evaluate differences between NMES protocols at PRE for all neuromuscular variables (i.e., MVC torque, Db100, VA, M POT , SR, TMEP, MEP, SR/TMEP, and MEP/TMEP). One-way repeated measure ANOVAs were conducted to compare the TTI and EPT of the first NMES-evoked contraction, and the total TTI and mean EPT of the whole NMES session between NMES protocols. As discomfort data were not normally distributed, a Friedman test was used to compare mean discomfort levels between NMES protocols. Two-way repeated measure ANOVAs (block of 5 NMES-evoked contractions [1 vs. 2 vs. 3 vs. 4 vs. 5 vs. 6] × NMES protocol [CONV vs. WP50 vs. WP100]) were performed to analyze the evolution of current intensity, TTI and EPT during and between NMES protocols. Two-way repeated measure ANOVAs (time [PRE vs. POST] × NMES protocol [CONV vs. WP50 vs. WP100]) were also used for all neuromuscular variables. Tukey post-hoc tests were performed when the ANOVAs revealed a significant effect. Effect size is only presented for significant findings as partial eta squared (</p><p>p ) with values representing small ( 2 p ≥ 0.01), medium ( 2 p ≥ 0.06), and large ( 2 p ≥ 0.14) effects. <ref type="bibr" target="#b47">48</ref> 3 | RESULTS</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">| Neuromuscular electrical stimulation protocols</head><p>Current intensity changed throughout NMES session (p &lt; 0.001; 2 p = 0.78), as it increased progressively during the first four blocks of contractions (p ≤ 0.03) and then plateaued after block 4 (p = 0.22; Figure <ref type="figure" target="#fig_3">4A</ref>). Current intensity was different between NMES protocols (p &lt; 0.001; 2 p = 0.93), being higher for CONV compared with WP50 and WP100 (p &lt; 0.001), with no difference between WP50 and WP100 (p = 0.58; Figure <ref type="figure" target="#fig_3">4A</ref>). For the first NMES-evoked contraction, TTI and EPT were similar between NMES protocols (TTI: 546 ± 260 Nm.s for CONV, 614 ± 419 Nm.s for WP50, and 462 ± 294 Nm.s for WP100; EPT: 26.8 ± 14.1% MVC for CONV, 32.0 ± 17.6% MVC for WP50, and 25.9 ± 13.7% MVC for WP100; p = 0.11 and p = 0.23, respectively). For the whole NMES session, TTI and EPT were similar between NMES protocols (p = 0.19 and p = 0.23, respectively). Yet, TTI and EPT changed during NMES session (p &lt; 0.001; 2 p ≥ 0.34). Block 6 showed lower TTI than the other blocks (p &lt; 0.001), except block 1 (p = 0.12). Block 1 showed lower EPT compared with blocks 3 and 4 (p = 0.009), and EPT of block 6 was also lower than the other blocks (p &lt; 0.001), excepted block 1 (p = 0.52) (Figure <ref type="figure" target="#fig_3">4B</ref>,<ref type="figure">C</ref>). Total TTI, mean EPT, as well as mean discomfort (CONV: 64.8 ± 28.1 mm; WP50: 66.3 ± 28.6 mm; WP100: 70.8 ± 26.8 mm) were similar between NMES protocols (all p ≥ 0.17; Figure <ref type="figure" target="#fig_4">5</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">| Objective fatigability</head><p>MVC torque, Db100, VL M POT , and VA data are presented in Table <ref type="table">1</ref>. At PRE, MVC torque, Db100, VL M POT , and VA were similar between NMES protocols (all p ≥ 0.07). MVC torque, Db100, and VL M POT were reduced from PRE-to-POST (all p ≤ 0.002; 2 p ≥ 0.46; Figure <ref type="figure">6A</ref>). VA was not changed after the NMES session regardless of the condition (p = 0.79; Figure <ref type="figure">6A</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">| Central nervous system excitability measurements</head><p>We only present the evoked EMG responses for the VL muscle, as we set stimulation intensities targeting evoked responses of 20% of VL M SUP during a contraction performed at 20% MVC-EMG determined on the VL. Yet, as can be seen in Appendix S1 (<ref type="url" target="https://figshare.com/s/c84a6b315575e81364b3">https://figsh are.com/s/c84a6  b3155 75e81 364b3</ref>), VM and RF behaved similarly. TMEPs were obtained from 16 subjects due to excessive discomfort for one subject. Data on CNS excitability are presented in Table <ref type="table">2</ref>. At PRE, SR, TMEP, MEP, SR/TMEP, and MEP/TMEP were similar between NMES protocols (all p ≥ 0.45). All evoked EMG responses were unchanged after the NMES session regardless of the condition (all p ≥ 0.20, Figure <ref type="figure">6B</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| DISCUSSION</head><p>The purpose of the present study was to compare (1) evoked torque, (2) objective fatigability, and related peripheral and central alterations, as well as (3) changes in CNS excitability, induced by an acute session of conventional versus wide-pulse NMES. Contrary to our hypothesis, the level of evoked torque was not significantly different between the NMES protocols. NMES-induced peripheral, but not central alterations, that did not differ between protocols, that is, objective fatigability was similar for conventional and wide-pulse NMES. None of the NMES protocols modified markers of CNS excitability.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">| Neuromuscular electrical stimulation session</head><p>Contrary to our hypothesis, we did not observe a significant difference in the level of evoked torque between conventional and wide-pulse protocols (i.e., approximately 27% vs. 29% of MVC) when considering only the first NMES-evoked contraction. This result is in accordance with the findings of Liebano et al. <ref type="bibr" target="#b13">14</ref> who failed to demonstrate a significantly greater maximal evoked torque with 1-ms compared with 0.4-ms pulse duration trains in 19 subjects, yet they interpreted these results as a trend that could lead to significant differences with additional subjects. However, we recently reported a significantly greater maximal evoked torque for WP50 and WP100 than for CONV NMES (i.e., approximately 45% vs. 40% of MVC) for a single NMES train in 50 subjects 7 that partially supports the hypothesis that wide pulses may lead to greater evoked torque than narrow pulses. Indeed, there is a high intersubject variability for maximal evoked torque (see Figure <ref type="figure" target="#fig_0">1</ref> of Espeit et al. <ref type="bibr" target="#b6">7</ref> ), which may mask some differences between conditions that could only arise when considering a large population. Moreover, the weak level of evoked torque measured for the first NMES-evoked contraction in the present study (&lt; 30% of MVC) is in accordance with previous observations. <ref type="bibr" target="#b48">49,</ref><ref type="bibr" target="#b49">50</ref> This may reflect a certain reluctance of subjects to increase current intensity at the beginning of a NMES session and the necessity of an accommodation to NMES before initiating a training program.</p><p>When the entire NMES sessions was considered in the present study, we did not observe any difference between conventional and wide-pulse protocols for the mean level of evoked torque (i.e., ~37% MVC), in agreement with the 25%-45% MVC range classically observed in the literature. <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b48">[49]</ref><ref type="bibr" target="#b49">[50]</ref><ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref> However, subjects required higher intensities to achieve the maximal tolerable level with conventional than wide-pulse NMES protocols, in </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONV</head><p>WP50 WP100 PRE POST PRE POST PRE POST MVC torque (Nm) 272 ± 47 232 ± 49 278 ± 48 235 ± 49 276 ± 51 242 ± 50 Db100 (Nm) 105 ± 28 97 ± 25 107 ± 31 100 ± 30 108 ± 29 102 ± 27 M POT (mV) 17.4 ± 4.2 14.7 ± 4.7 16.7 ± 4.3 14.4 ± 4.6 17.6 ± 4.5 14.0 ± 4.8 VA (%) 85.1 ± 6.2 85.7 ± 8.8 86.2 ± 5.9 85.6 ± 8.5 86.5 ± 5.2 87.6 ± 7.2 Note: Values are means ± SD. PRE and POST, before and after each NMES protocol. Abbreviations: CONV, narrow-pulse at 50 Hz; Db100, 100-Hz doublet; M POT , potentiated M-wave; MVC, maximal voluntary contraction; VA, voluntary activation; WP100, wide-pulse at 100 Hz. WP50, wide-pulse at 50 Hz. * and ** lower than PRE (p &lt; 0.01 and p &lt; 0.001, respectively).</p><p>line with previous reports in healthy young <ref type="bibr" target="#b6">7</ref> and old <ref type="bibr" target="#b52">53</ref> adults. As the evoked torque is proportional to current charge (i.e., the product of current intensity and pulse duration), lower current intensities are usually needed with longer pulse durations. <ref type="bibr" target="#b7">8</ref> The lower current intensity with wide-pulse NMES reduces the likelihood of reaching the maximal stimulator output, leading to a smaller proportion of subjects limited by this practical issue. 7</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">| Objective fatigability</head><p>The three NMES protocols induced similar levels of objective fatigability. These results corroborate previous findings reporting similar losses in MVC torque after conventional versus wide-pulse NMES at low and high frequency delivered at submaximal (and constant) current intensity to the triceps surae muscles <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b53">54,</ref><ref type="bibr" target="#b54">55</ref> or to the tibial nerve. <ref type="bibr" target="#b55">56</ref> In the same way, similar MVC</p><formula xml:id="formula_1">F I G U R E 6 PRE-to-POST</formula><p>changes in objective fatigability (maximal voluntary contraction (MVC) torque, 100-Hz doublet torque (Db100), vastus lateralis potentiated M-wave (M POT ), and voluntary activation (VA); panel A) and in central nervous system excitability measurements (vastus lateralis spinal reflex (SR), thoracic motor evoked potential (TMEP), and motor evoked potential (MEP); panel B) induced by each NMES protocol (CONV, WP50, and WP100). Columns, error bars and squares indicate mean, SD, and individual data, respectively. Individual values of subjects with out-ofscale data are presented as red squares. T A B L E 2 CNS excitability before (PRE) and after (POST) each NMES protocol. CONV WP50 WP100 PRE POST PRE POST PRE POST SR (% M SUP ) 20.2 ± 6.3 19.7 ± 11.5 18.5 ± 6.8 17.1 ± 6.9 18.9 ± 6.3 20.8 ± 8.7 TMEP (% M SUP ) 16.2 ± 5.4 15.6 ± 4.7 15.3 ± 4.7 17.5 ± 7.0 16.3 ± 5.0 17.7 ± 7.0 MEP (% M SUP ) 21.1 ± 6.4 21.4 ± 7.7 21.6 ± 7.2 24.6 ± 12.4 22.7 ± 5.3 25.3 ± 11.1 SR/TMEP 1.44 ± 0.68 1.45 ± 0.90 1.38 ± 0.69 1.08 ± 0.42 1.29 ± 0.59 1.34 ± 0.98 MEP/TMEP 1.38 ± 0.49 1.42 ± 0.39 1.47 ± 0.58 1.41 ± 0.44 1.45 ± 0.48 1.41 ± 0.37 Note: Values are means ± SD. PRE and POST, before and after each NMES protocol. Abbreviations: CONV, narrow-pulse at 50 Hz; MEP, motor evoked potential; SR, spinal reflex; TMEP, thoracic motor evoked potential; WP100, wide-pulse at 100 Hz. WP50, wide-pulse at 50 Hz.</p><p>torque losses have been reported after wide-pulse low frequency versus wide-pulse high frequency NMES sessions applied to the triceps surae muscles at an intensity evoking 30% of MVC <ref type="bibr" target="#b54">55</ref> and to the tibial nerve at an intensity evoking 10% of MVC. <ref type="bibr" target="#b55">56</ref> Yet, the observed reduction of ~14% MVC was lower than that usually reported (-20% to -30%) after a conventional NMES session at maximal tolerable current intensity on the quadriceps femoris. <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b48">49,</ref><ref type="bibr" target="#b50">51,</ref><ref type="bibr" target="#b51">52</ref> An explanation for this lower MVC torque decrease could be the different knee angle used here (60° of flexion) versus in the aforementioned studies (~90°). Foure et al. <ref type="bibr" target="#b49">50</ref> demonstrated in fact that NMES at short muscle length (50° of knee flexion) induced less objective fatigability and muscle damage compared with long muscle length (100° of knee flexion). Objective fatigability could mainly be ascribed to the occurrence of peripheral alterations, as evidenced by decreases in Db100 and M POT , with no or little implication of central factors (i.e., unchanged VA). Neuromuscular propagation failure (M POT reduction of ~16%) and contractile failure (Db100 reduction of ~6%) have already been commonly reported following quadriceps <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b50">51</ref> and triceps surae NMES, <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b54">55,</ref><ref type="bibr" target="#b56">57</ref> despite contrary isolated results showing unchanged M-wave and potentiated peak twitch after low frequency NMES of the triceps surae. <ref type="bibr" target="#b57">58</ref> Peripheral alterations could be explained by the repeated activation of the same muscle fibers arising from the spatially fixed motor unit recruitment imposed by NMES. <ref type="bibr" target="#b58">59</ref> The unchanged voluntary activation has already been observed after conventional maximal-intensity NMES of the quadriceps <ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b50">51</ref> and wide-pulse low-intensity NMES applied to the triceps surae muscle belly, <ref type="bibr" target="#b14">15</ref> probably as a consequence of the little CNS involvement. Again, conflicting results (voluntary activation failure) have been observed after low-58 and high-57 frequency NMES of the triceps surae. However, a possible effect of frequency on the origin of objective fatigability was discarded by Papaiordanidou et al., <ref type="bibr" target="#b54">55</ref> who reported similar objective fatigability associated with unchanged voluntary activation and decreased doublet torque following four NMES protocols entailing narrow-or wide-pulses at low or high frequency. Altogether, the etiology and the amount of objective fatigability was similar between NMES protocols, with peripheral but no central alterations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">| Central nervous system excitability measurements</head><p>Contrary to our hypothesis, we did not observe any significant changes in corticospinal excitability (unchanged MEP) for all NMES protocols applied at maximal tolerable current intensity. Despite some evidence suggesting that conventional NMES may increase MEP <ref type="bibr" target="#b59">60,</ref><ref type="bibr" target="#b60">61</ref> and pulse duration may not influence changes in corticospinal excitability, <ref type="bibr" target="#b26">27</ref> the lack of changes for MEPs was even more unexpected after wide-pulse NMES. This was particularly true for wide-pulse NMES at 100 Hz, as this frequency has been demonstrated to be the most effective for increasing corticospinal excitability. <ref type="bibr" target="#b29">30</ref> Indeed, increases in corticospinal excitability were largely reported for the tibialis anterior after a session of wide-pulse NMES applied to the common peroneal nerve at submaximal current intensities <ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b25">26</ref> and also for hand muscles following radial/ulnar nerve stimulation at weak current intensities, <ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b32">33</ref> despite conflicting findings. <ref type="bibr" target="#b61">62</ref> We speculate that the discrepancies between the present and previous studies are due to experimental procedures. For instance, the application of wide-pulse NMES to the muscle belly rather than to the nerve trunk is known to minimize the involvement of the CNS. <ref type="bibr" target="#b62">63,</ref><ref type="bibr" target="#b63">64</ref> Moreover, to the best of our knowledge, no changes in MEP have ever been reported after a NMES session applied at the maximal tolerable current intensity, as submaximal intensities were used in previous studies (e.g., current intensity evoking 15% of M-wave or a visible contraction). <ref type="bibr" target="#b29">30,</ref><ref type="bibr" target="#b32">33</ref> In a systematic review, Chipchase et al. <ref type="bibr" target="#b21">22</ref> suggested that current intensity appeared to have the strongest relation with the modulation of corticospinal excitability, as 65% of experiments using current above motor threshold reported increased MEP whereas 42% of studies reported decreased MEP after stimulations below motor threshold. Furthermore, previous studies focusing on the time course of MEP following NMES of the tibialis anterior and first dorsal interosseus muscles, reported an increase that began to be significant after 24 and 45 min of wide-pulse NMES with a duty cycle of 50%, respectively. <ref type="bibr" target="#b29">30,</ref><ref type="bibr" target="#b31">32</ref> All the studies using wide-pulse NMES sessions shorter than 30 min failed to observe changes in MEP. <ref type="bibr" target="#b37">38,</ref><ref type="bibr" target="#b64">65,</ref><ref type="bibr" target="#b65">66</ref> Based on these considerations, it seems that applying NMES to the quadriceps muscle following clinical practice guidelines to improve/restore muscle function <ref type="bibr" target="#b66">67</ref> -as done here-may not influence corticospinal excitability. The use of longer NMES sessions, higher duty cycles and submaximal current intensities, as usually done in stroke rehabilitation, <ref type="bibr" target="#b67">68,</ref><ref type="bibr" target="#b68">69</ref> should probably induce cortical plasticity. Yet, NMES has been shown to favor sensorimotor activation, as revealed by functional magnetic resonance imaging investigations considering 5-and 13-min NMES protocols applied to the quadriceps <ref type="bibr" target="#b69">70</ref> or triceps surae <ref type="bibr" target="#b70">71</ref> muscles.</p><p>Because MEP depends on the synaptic relays in corticospinal projections at the cortical level as well as at the spinal level, <ref type="bibr" target="#b71">72</ref> MEP should also be interpreted in light of changes at the spinal level. <ref type="bibr" target="#b35">36</ref> Therefore, the present neuromuscular testing procedures allowed to investigate more accurately the potential changes at the cortical, spinal, and motoneuronal levels. In addition to reporting unchanged corticospinal excitability, we did not observe any change of cortical, spinal, and motoneuronal excitability after conventional and wide-pulse NMES. At the spinal level, unchanged H-reflex has been found after conventional NMES applied over the triceps surae muscle belly <ref type="bibr" target="#b56">57</ref> or to the tibial nerve. <ref type="bibr" target="#b72">73</ref> Conflicting results have been observed after wide-pulse NMES at 20 Hz to 100 Hz, with no changes or decreases in H-reflex amplitude. <ref type="bibr" target="#b72">73,</ref><ref type="bibr" target="#b73">74</ref> Interestingly, Dideriksen et al. <ref type="bibr" target="#b36">37</ref> found that conventional NMES applied at 100 Hz on the radial nerve substantially increased H-reflex amplitude, yet this result was not observed with a lower stimulation frequency (30 Hz), suggesting a frequency-dependent change in spinal excitability after NMES. These results were recently confirmed with wide-pulse NMES applied on the tibial nerve, with 20-Hz and 100-Hz trains leading to decreased and increased H-reflex amplitude, respectively. <ref type="bibr" target="#b37">38,</ref><ref type="bibr" target="#b38">39</ref> However, it should be acknowledged that CNS activation has been shown to differ between wide-pulse NMES applied over the muscle belly and the nerve trunk, <ref type="bibr" target="#b62">63,</ref><ref type="bibr" target="#b63">64</ref> making such comparison difficult.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4">| Limitations</head><p>Some limitations should be acknowledged for the present study. First, five subjects were limited by the maximal stimulator output (100 mA), as they attained this current intensity between the 21st and 25th NMESevoked contractions. The impact on our results could however be considered negligible, as current intensity remained constant from the 25th NMES-evoked contraction to the end of the NMES protocol to maintain a constant setup for CNS excitability assessments. Second, the number of MVC and evoked responses might have been insufficient to ensure reliability. <ref type="bibr" target="#b74">75</ref> However, a low number of MVCs was often used in this type of studies, especially after NMES to avoid recovery. <ref type="bibr" target="#b53">54</ref> It was also recently demonstrated that five stimuli produce reliable MEP recordings within one session and our time constraints (~20 s) prevented additional trials to be performed. <ref type="bibr" target="#b75">76</ref> Third, the lack of change in evoked EMG responses may be due to the choice to evoke them during contraction, especially with contractions targeting a constant EMG level. As this procedure attempts to hold motoneuron output constant, it is likely to minimize changes in CNS excitability. However, this procedure was necessary to minimize stimulation intensity and the associated discomfort, especially for thoracic stimulation. Fourth, there are differences between SR and H reflex responses. Transcutaneous spinal cord stimulation evokes SR in several muscles and both sides that may influence each other. Facilitation from close synergists, disynaptic inhibition from antagonists, or influence form the contralateral side could then affect SR amplitude, <ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b76">77</ref> making interpretation of the change in SR challenging. Finally, changes in CNS excitability induced by wide-pulse NMES have been regularly investigated in a subpopulation of so-called "responders". <ref type="bibr" target="#b37">38,</ref><ref type="bibr" target="#b38">39</ref> A frequency-dependent modulation of spinal excitability was reported in "responders", whereas unchanged H-reflex amplitude was observed in "nonresponders". <ref type="bibr" target="#b37">38</ref> This may explain the variability observed in this study, which led to a lack of significant changes in CNS excitability despite a concomitant increase of 16% and 14% of SR and TMEP after wide-pulse NMES at 100 Hz. However, it was not possible to distinguish "responders" and "nonresponders" in the present study, as this classification is often based on the observation of extra torque, which requires a constant and low-current intensity. 78</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5">| Perspective</head><p>The acute effects of the three tested NMES protocols on neuromuscular function were comparable. Regardless of pulse duration and stimulation frequency, NMES-evoked torque and objective fatigability were similar, and CNS excitability was unchanged after 20 min of quadriceps NMES. Therefore, based on these results, the use of quadriceps NMES at the maximal tolerable current intensity (such as done in clinical practice) with either narrow-or widepulses may supposedly lead to comparable treatment effectiveness. Yet, it remains to be demonstrated in healthy and especially clinical populations. For instance, CNS excitability changes should be more expected in patients with neurological conditions, such as stroke or spinal cord injury. <ref type="bibr" target="#b67">68,</ref><ref type="bibr" target="#b68">69</ref> </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>F I G U R E 1</head><label>1</label><figDesc>Experimental session design: neuromuscular testing (in white) at PRE (panel A) and POST (panel B), and NMES protocol (in gray). MVC, maximal voluntary contraction; NMES, neuromuscular electrical stimulation.| 1311ESPEIT et al.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>F I G U R E 2</head><label>2</label><figDesc>Illustration of electrodes placement. Location of EMG and NMES electrodes (panel A). Location of anode (A, red) and cathode (C, blue) electrodes for femoral nerve stimulation (1), thoracic stimulation (2), and transcutaneous spinal cord stimulation (3) (panel B).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>F I G U R E 3</head><label>3</label><figDesc>Example for a representative subject of evoked torque traces for each NMES protocol narrow-pulse 50 Hz (CONV), widepulse 50 Hz (WP50) and wide-pulse 100 Hz (WP100) (panel A) and EMG traces from vastus lateralis in response to femoral nerve (M-wave evoked during submaximal contractions, M SUP ), transcutaneous spinal cord (spinal reflex, SR), thoracic (thoracic motor evoked potential, TMEP) and transcranial magnetic (motor evoked potential, MEP) stimulations (overlays of five sets of measurements) (panel B).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>F I G U R E 4</head><label>4</label><figDesc>Evolution of current intensity (panel A), torquetime integral (TTI; panel B) and evoked peak torque (EPT, panel C) during narrow-pulse 50 Hz (CONV, gray lines), wide-pulse 50 Hz (WP50, blue lines) and wide-pulse 100 Hz (WP100, red lines) NMES protocols. CONV higher than WP50 and WP100: # p &lt; 0.001. Block higher than the preceding block: * p &lt; 0.05 and ** p &lt; 0.01. Block lower than the 2nd, 3rd, 4th and 5th blocks: $ p &lt; 0.001. Blocks lower than the 3rd and 4th blocks: £ p &lt; 0.01. MVC, maximal voluntary contraction.| 1315ESPEIT et al.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>F I G U R E 5</head><label>5</label><figDesc>Total torque-time integral (TTI) and mean evoked peak torque (EPT) for narrow-pulse 50 Hz (CONV), wide-pulse 50 Hz (WP50), and wide-pulse 100 Hz (WP100) NMES protocols. Columns, error bars and squares indicate mean, SD, and individual data, respectively. T A B L E 1 Neuromuscular parameters before (PRE) and after (POST) each NMES protocol.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="10,45.64,46.70,331.68,358.08" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>16000838, 2023, 8, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14375 by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [10/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACKNO WLE DGE MENTS</head><p>The authors thank all the subjects for their participation and the company Mazet Santé for the loan of the stimulator. This work was supported by a Doctoral Research Grant from University Jean Monnet of Saint-Etienne (to L.E.).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST STATEMENT</head><p>No conflicts of interest, financial, or otherwise, are declared by the authors.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head><p>The datasets generated during and/or analysed during the current study are available from the corresponding author [TL] on reasonable request.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPORTING INFORMATION</head><p>Additional supporting information can be found online in the Supporting Information section at the end of this article.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Physiological and methodological considerations for the use of neuromuscular electrical stimulation</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Maffiuletti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="223" to="234" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maffiuletti NA. Physiological and methodological consider- ations for the use of neuromuscular electrical stimulation. Eur J Appl Physiol. 2010;110(2):223-234.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Neuromuscular electrical stimulation for treatment of muscle impairment: critical review and recommendations for clinical practice</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Nussbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Houghton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Anthony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rennie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Shay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Hoens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiother Can</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1" to="76" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nussbaum EL, Houghton P, Anthony J, Rennie S, Shay BL, Hoens AM. Neuromuscular electrical stimulation for treatment of muscle impairment: critical review and recommendations for clinical practice. Physiother Can. 2017;69(5):1-76.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The effect of different electro-motor stimulation training intensities on strength improvement</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Domenico</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Strauss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Aust J Physiother</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="151" to="164" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lai HS, Domenico GD, Strauss GR. The effect of different electro-motor stimulation training intensities on strength im- provement. Aust J Physiother. 1988;34(3):151-164.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Effects of training intensity in electromyostimulation on human skeletal muscle</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Natsume</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ozaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kakigi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Naito</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1339" to="1347" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Natsume T, Ozaki H, Kakigi R, Kobayashi H, Naito H. Effects of training intensity in electromyostimulation on human skeletal muscle. Eur J Appl Physiol. 2018;118(7):1339-1347.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Improvement in isometric strength of the quadriceps femoris muscle after training with electrical stimulation</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Selkowitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="186" to="196" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Selkowitz DM. Improvement in isometric strength of the quad- riceps femoris muscle after training with electrical stimulation. Phys Ther. 1985;65(2):186-196.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A study of discomfort with electrical stimulation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Delitto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Strube</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Shulman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Minor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="410" to="421" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Delitto A, Strube MJ, Shulman AD, Minor SD. A study of discom- fort with electrical stimulation. Phys Ther. 1992;72(6):410-421.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Widepulse electrical stimulation of the quadriceps allows greater maximal evocable torque than conventional stimulation</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Espeit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lapole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Millet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Rozand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Maffiuletti</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-023-05145-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>Online ahead of print</note>
+	<note type="raw_reference">Espeit L, Lapole T, Millet GY, Rozand V, Maffiuletti NA. Wide- pulse electrical stimulation of the quadriceps allows greater maximal evocable torque than conventional stimulation. Eur J Appl Physiol. 2023. Online ahead of print. doi:10.1007/s0042 1- 023-05145 -z</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Impact of varying pulse frequency and duration on muscle torque production and fatigue</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Gregory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Bickel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Muscle Nerve</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="504" to="509" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gregory CM, Dixon W, Bickel CS. Impact of varying pulse fre- quency and duration on muscle torque production and fatigue. Muscle Nerve. 2007;35(4):504-509.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A comparison of torque generating capabilities of three different electrical stimulating currents</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Snyder-Mackler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Garrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Roberts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="297" to="301" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Snyder-Mackler L, Garrett M, Roberts M. A comparison of torque generating capabilities of three different electrical stim- ulating currents. J Orthop Sports Phys Ther. 1989;10(8):297-301.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Effects of waveform parameters on comfort during transcutaneous neuromuscular electrical stimulation</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Bowman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Biomed Eng</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="59" to="74" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bowman BR, Baker LL. Effects of waveform parameters on comfort during transcutaneous neuromuscular electrical stim- ulation. Ann Biomed Eng. 1985;13(1):59-74.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Changes in the forcefrequency relationship of the human quadriceps femoris muscle following electrically and voluntarily induced fatigue</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Binder-Macleod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Mcdermond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="95" to="104" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Binder-Macleod SA, McDermond LR. Changes in the force- frequency relationship of the human quadriceps femoris mus- cle following electrically and voluntarily induced fatigue. Phys Ther. 1992;72(2):95-104.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The role of pulse duration and stimulation duration in maximizing the normalized torque during neuromuscular electrical stimulation</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Gorgey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Dudley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="508" to="516" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gorgey AS, Dudley GA. The role of pulse duration and stim- ulation duration in maximizing the normalized torque during neuromuscular electrical stimulation. J Orthop Sports Phys Ther. 2008;38(8):508-516.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Comparison of maximum tolerated muscle torques produced by 2 pulse durations</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Causey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Marshall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="851" to="857" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Scott WB, Causey JB, Marshall TL. Comparison of maximum tolerated muscle torques produced by 2 pulse durations. Phys Ther. 2009;89(8):851-857.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The influence of stimulus phase duration on discomfort and electrically induced torque of quadriceps femoris</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Liebano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Murazawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Ward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Braz J Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="479" to="486" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Liebano RE, Rodrigues TA, Murazawa MT, Ward AR. The in- fluence of stimulus phase duration on discomfort and electri- cally induced torque of quadriceps femoris. Braz J Phys Ther. 2013;17(5):479-486.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Wide-pulse-high-frequency neuromuscular stimulation of triceps surae induces greater muscle fatigue compared with conventional stimulation</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neyroud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dodd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gondin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Maffiuletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kayser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Place</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1281" to="1289" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Neyroud D, Dodd D, Gondin J, Maffiuletti NA, Kayser B, Place N. Wide-pulse-high-frequency neuromuscular stim- ulation of triceps surae induces greater muscle fatigue compared with conventional stimulation. J Appl Physiol. 2014;116(10):1281-1289.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Responders to wide-pulse, high-frequency neuromuscular electrical stimulation show reduced metabolic demand: a 31P-MRS study in humans</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wegrzyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Foure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Fur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">143972</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wegrzyk J, Foure A, Le Fur Y, et al. Responders to wide-pulse, high-frequency neuromuscular electrical stimulation show re- duced metabolic demand: a 31P-MRS study in humans. PLoS One. 2015;10(11):e0143972.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Motor unit recruitment order during voluntary and electrically induced contractions in the tibialis anterior</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Feiereisen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Duchateau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hainaut</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="117" to="123" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Feiereisen P, Duchateau J, Hainaut K. Motor unit recruitment order during voluntary and electrically induced contractions in the tibialis anterior. Exp Brain Res. 1997;114(1):117-123.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Central and peripheral fatigue of the knee extensor muscles induced by electromyostimulation</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Boerio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jubeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Maffiuletti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="847" to="853" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zory R, Boerio D, Jubeau M, Maffiuletti NA. Central and pe- ripheral fatigue of the knee extensor muscles induced by elec- tromyostimulation. Int J Sports Med. 2005;26(10):847-853.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Neuromuscular electrical stimulation: implications of the electrically evoked sensory volley</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Bergquist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Clair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Lagerquist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Mang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Okuma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2409" to="2426" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bergquist AJ, Clair JM, Lagerquist O, Mang CS, Okuma Y, Collins DF. Neuromuscular electrical stimulation: implications of the electrically evoked sensory volley. Eur J Appl Physiol. 2011;111(10):2409-2426.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Central contributions to contractions evoked by tetanic neuromuscular electrical stimulation</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exerc Sport Sci Rev</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="102" to="109" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Collins DF. Central contributions to contractions evoked by te- tanic neuromuscular electrical stimulation. Exerc Sport Sci Rev. 2007;35(3):102-109.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Differential sensitivity of motor and sensory fibres in human ulnar nerve</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Veale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Mark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rees</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurol Neurosurg Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="75" to="86" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Veale JL, Mark RF, Rees S. Differential sensitivity of motor and sensory fibres in human ulnar nerve. J Neurol Neurosurg Psychiatry. 1973;36(1):75-86.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Peripheral electrical stimulation to induce cortical plasticity: a systematic review of stimulus parameters</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Chipchase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Schabrun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Hodges</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="456" to="463" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chipchase LS, Schabrun SM, Hodges PW. Peripheral elec- trical stimulation to induce cortical plasticity: a system- atic review of stimulus parameters. Clin Neurophysiol. 2011;122(3):456-463.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Acute and chronic neuromuscular adaptations to local vibration training</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Souron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Besson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Millet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lapole</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1939" to="1964" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Souron R, Besson T, Millet GY, Lapole T. Acute and chronic neuromuscular adaptations to local vibration training. Eur J Appl Physiol. 2017;117(10):1939-1964.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Increase in tibialis anterior motor cortex excitability following repetitive electrical stimulation of the common peroneal nerve</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khaslavskaia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ladouceur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sinkjaer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">145</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="309" to="315" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Khaslavskaia S, Ladouceur M, Sinkjaer T. Increase in tibialis anterior motor cortex excitability following repetitive electri- cal stimulation of the common peroneal nerve. Exp Brain Res. 2002;145(3):309-315.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Short-term effects of functional electrical stimulation on motor-evoked potentials in ankle flexor and extensor muscles</title>
+		<author>
+			<persName><forename type="first">Kido</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="491" to="500" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kido Thompson A, Stein RB. Short-term effects of functional electrical stimulation on motor-evoked potentials in ankle flexor and extensor muscles. Exp Brain Res. 2004;159(4):491-500.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Electrical stimulation of the human common peroneal nerve elicits lasting facilitation of cortical motor-evoked potentials</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Knash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kido</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gorassini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Stein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="366" to="377" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Knash ME, Kido A, Gorassini M, Chan KM, Stein RB. Electrical stimulation of the human common peroneal nerve elicits last- ing facilitation of cortical motor-evoked potentials. Exp Brain Res. 2003;153(3):366-377.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The pulse duration of electrical stimulation influences H-reflexes but not corticospinal excitability for tibialis anterior</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Hindle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Lou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Physiol Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="821" to="825" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hindle AR, Lou JW, Collins DF. The pulse duration of elec- trical stimulation influences H-reflexes but not corticospi- nal excitability for tibialis anterior. Can J Physiol Pharmacol. 2014;92(10):821-825.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Loss of shortlatency afferent inhibition and emergence of afferent facilitation following neuromuscular electrical stimulation</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Mang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Bergquist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Roshko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurosci Lett</title>
+		<imprint>
+			<biblScope unit="volume">529</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="80" to="85" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mang CS, Bergquist AJ, Roshko SM, Collins DF. Loss of short- latency afferent inhibition and emergence of afferent facilita- tion following neuromuscular electrical stimulation. Neurosci Lett. 2012;529(1):80-85.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Neuromuscular electrical stimulation has a global effect on corticospinal excitability for leg muscles and a focused effect for hand muscles</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Mang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Clair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">209</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="355" to="363" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mang CS, Clair JM, Collins DF. Neuromuscular electrical stim- ulation has a global effect on corticospinal excitability for leg muscles and a focused effect for hand muscles. Exp Brain Res. 2011;209(3):355-363.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Changes in corticospinal excitability evoked by common peroneal nerve stimulation depend on stimulation frequency</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Mang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Lagerquist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">203</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="11" to="20" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mang CS, Lagerquist O, Collins DF. Changes in corticospi- nal excitability evoked by common peroneal nerve stim- ulation depend on stimulation frequency. Exp Brain Res. 2010;203(1):11-20.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Prolonged peripheral nerve stimulation induces persistent changes in excitability of human motor cortex</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Charlton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Ridding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Miles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurol Sci</title>
+		<imprint>
+			<biblScope unit="volume">208</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="79" to="85" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Charlton CS, Ridding MC, Thompson PD, Miles TS. Prolonged peripheral nerve stimulation induces persistent changes in excitability of human motor cortex. J Neurol Sci. 2003;208(1-2):79-85.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Time course of induction of increased human motor cortex excitability by nerve stimulation</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mckay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brooker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Giacomin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ridding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Miles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NeuroReport</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1271" to="1273" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McKay D, Brooker R, Giacomin P, Ridding M, Miles T. Time course of induction of increased human motor cortex excitability by nerve stimulation. NeuroReport. 2002;13(10):1271-1273.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Changes in muscle responses to stimulation of the motor cortex induced by peripheral nerve stimulation in human subjects</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Ridding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Brouwer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Miles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Pitcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="135" to="143" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ridding MC, Brouwer B, Miles TS, Pitcher JB, Thompson PD. Changes in muscle responses to stimulation of the motor cor- tex induced by peripheral nerve stimulation in human subjects. Exp Brain Res. 2000;131(1):135-143.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Mechanisms of motor-evoked potential facilitation following prolonged dual peripheral and central stimulation in humans</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Ridding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">537</biblScope>
+			<biblScope unit="issue">Pt 2</biblScope>
+			<biblScope unit="page" from="623" to="631" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ridding MC, Taylor JL. Mechanisms of motor-evoked poten- tial facilitation following prolonged dual peripheral and central stimulation in humans. J Physiol. 2001;537(Pt 2):623-631.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Clinical use of neuromuscular electrical stimulation for neuromuscular rehabilitation: what are we overlooking?</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Maffiuletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gondin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Place</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stevens-Lapsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Vivodtzev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Minetto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Phys Med Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="806" to="812" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Maffiuletti NA, Gondin J, Place N, Stevens-Lapsley J, Vivodtzev I, Minetto MA. Clinical use of neuromuscular electrical stimu- lation for neuromuscular rehabilitation: what are we overlook- ing? Arch Phys Med Rehabil. 2018;99(4):806-812.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Testing the excitability of human motoneurons</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Mcneil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Gandevia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Hum Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">152</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McNeil CJ, Butler JE, Taylor JL, Gandevia SC. Testing the excitability of human motoneurons. Front Hum Neurosci. 2013;7:152.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Physiological recruitment of motor units by high-frequency electrical stimulation of afferent pathways</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Dideriksen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Muceli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Laine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Farina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="365" to="376" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dideriksen JL, Muceli S, Dosen S, Laine CM, Farina D. Physiological recruitment of motor units by high-frequency electrical stimulation of afferent pathways. J Appl Physiol. 2015;118(3):365-376.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Effect of reflexive activation of motor units on torque development during electrically-evoked contractions of the triceps surae muscle</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vitry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Deley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Papaiordanidou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="386" to="392" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vitry F, Martin A, Deley G, Papaiordanidou M. Effect of reflex- ive activation of motor units on torque development during electrically-evoked contractions of the triceps surae muscle. J Appl Physiol. 2019;126(2):386-392.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Mechanisms modulating spinal excitability after nerve stimulation inducing extra torque</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vitry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Papaiordanidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="1162" to="1175" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vitry F, Papaiordanidou M, Martin A. Mechanisms modulat- ing spinal excitability after nerve stimulation inducing extra torque. J Appl Physiol. 2021;131:1162-1175.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The uses and interpretations of the motor-evoked potential for understanding behaviour</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bestmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Krakauer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">233</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="679" to="689" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bestmann S, Krakauer JW. The uses and interpretations of the motor-evoked potential for understanding behaviour. Exp Brain Res. 2015;233(3):679-689.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Noninvasive stimulation of human corticospinal axons innervating leg muscles</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Gandevia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1080" to="1086" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martin PG, Butler JE, Gandevia SC, Taylor JL. Noninvasive stimulation of human corticospinal axons innervating leg mus- cles. J Neurophysiol. 2008;100(2):1080-1086.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Modulation of multisegmental monosynaptic responses in a variety of leg muscles during walking and running in humans</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Courtine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Harkema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Dy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Gerasimenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dyhre-Poulsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">582</biblScope>
+			<biblScope unit="page" from="1125" to="1139" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note>Pt 3</note>
+	<note type="raw_reference">Courtine G, Harkema SJ, Dy CJ, Gerasimenko YP, Dyhre- Poulsen P. Modulation of multisegmental monosynaptic re- sponses in a variety of leg muscles during walking and running in humans. J Physiol. 2007;582(Pt 3):1125-1139.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Dynamics of corticospinal changes during and after high-intensity quadriceps exercise</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gruet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Temesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rupp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Verges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Millet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1053" to="1064" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gruet M, Temesi J, Rupp T, Levy P, Verges S, Millet GY. Dynamics of corticospinal changes during and after high-intensity quadri- ceps exercise. Exp Physiol. 2014;99(8):1053-1064.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Neuromuscular fatigue after maximal stretch-shortening cycle exercise</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Strojnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Komi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="344" to="350" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Strojnik V, Komi PV. Neuromuscular fatigue after max- imal stretch-shortening cycle exercise. J Appl Physiol. 1998;84(1):344-350.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Post-activation depression in the human soleus muscle using peripheral nerve and transcutaneous spinal stimulation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Stein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">D</forename><surname>Roy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurosci Lett</title>
+		<imprint>
+			<biblScope unit="volume">589</biblScope>
+			<biblScope unit="page" from="144" to="149" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Andrews JC, Stein RB, Roy FD. Post-activation depression in the human soleus muscle using peripheral nerve and transcu- taneous spinal stimulation. Neurosci Lett. 2015;589:144-149.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Posterior root-muscle reflexes elicited by transcutaneous stimulation of the human lumbosacral cord</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Minassian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Persy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rattay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Dimitrijevic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kern</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Muscle Nerve</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="327" to="336" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Minassian K, Persy I, Rattay F, Dimitrijevic MR, Hofer C, Kern H. Posterior root-muscle reflexes elicited by transcutaneous stimulation of the human lumbosacral cord. Muscle Nerve. 2007;35(3):327-336.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Stimulation at the cervicomedullary junction in human subjects</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="215" to="223" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Taylor JL. Stimulation at the cervicomedullary junction in human subjects. J Electromyogr Kinesiol. 2006;16(3):215-223.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Statistical power analysis for the behavioral sciences: Jacob Cohen</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Stat Assoc</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">363</biblScope>
+			<biblScope unit="page" from="19" to="74" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cohen J. Statistical power analysis for the behavioral sciences: Jacob Cohen. J Am Stat Assoc. 1988;84(363):19-74.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Less indication of muscle damage in the second than initial electrical muscle stimulation bout consisting of isometric contractions of the knee extensors</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aldayel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jubeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Mcguigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nosaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="709" to="717" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aldayel A, Jubeau M, McGuigan MR, Nosaka K. Less indica- tion of muscle damage in the second than initial electrical mus- cle stimulation bout consisting of isometric contractions of the knee extensors. Eur J Appl Physiol. 2010;108(4):709-717.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Muscle alterations induced by electrostimulation are lower at short quadriceps femoris length</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Foure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Ogier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Guye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gondin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bendahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gondin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="325" to="335" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Foure A, Ogier AC, Guye M, Gondin J, Bendahan D, Gondin J. Muscle alterations induced by electrostimulation are lower at short quadriceps femoris length. Eur J Appl Physiol. 2020;120(2):325-335.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Time course of central and peripheral alterations after isometric neuromuscular electrical stimulation-induced muscle damage</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Foure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nosaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wegrzyk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">107298</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Foure A, Nosaka K, Wegrzyk J, et al. Time course of central and peripheral alterations after isometric neuromuscular electrical stimulation-induced muscle damage. PLoS One. 2014;9(9):e107298.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Comparison between voluntary and stimulated contractions of the quadriceps femoris for growth hormone response and muscle damage</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jubeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sartorio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Marinone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="75" to="81" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jubeau M, Sartorio A, Marinone PG, et al. Comparison between voluntary and stimulated contractions of the quadriceps femo- ris for growth hormone response and muscle damage. J Appl Physiol. 2008;104(1):75-81.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Neuromuscular electrical stimulation can improve mobility in older adults but the time course varies across tasks: doubleblind, randomized trial</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Almuklass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Amiridis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Enoka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Gerontol</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="269" to="275" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mani D, Almuklass AM, Amiridis IG, Enoka RM. Neuromuscular electrical stimulation can improve mobility in older adults but the time course varies across tasks: double- blind, randomized trial. Exp Gerontol. 2018;108:269-275.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Effects of three neuromuscular electrical stimulation methods on muscle force production and neuromuscular fatigue</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Alahmari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Shield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Trajano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1456" to="1463" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alahmari SK, Shield AJ, Trajano GS. Effects of three neuro- muscular electrical stimulation methods on muscle force pro- duction and neuromuscular fatigue. Scand J Med Sci Sports. 2022;32(10):1456-1463.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Electrically induced torque decrease reflects more than muscle fatigue</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Papaiordanidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Stevenot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Mustacchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vanoncini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Muscle Nerve</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="604" to="607" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Papaiordanidou M, Stevenot JD, Mustacchi V, Vanoncini M, Martin A. Electrically induced torque decrease reflects more than muscle fatigue. Muscle Nerve. 2014;50(4):604-607.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Impact of stimulation frequency on neuromuscular fatigue</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vitry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Papaiordanidou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="2609" to="2616" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vitry F, Martin A, Papaiordanidou M. Impact of stimula- tion frequency on neuromuscular fatigue. Eur J Appl Physiol. 2019;119:2609-2616.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Central and peripheral fatigue after electrostimulation-induced resistance exercise</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Boerio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jubeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Maffiuletti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="973" to="978" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boerio D, Jubeau M, Zory R, Maffiuletti NA. Central and pe- ripheral fatigue after electrostimulation-induced resistance ex- ercise. Med Sci Sports Exerc. 2005;37(6):973-978.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Kinetics of neuromuscular changes during low-frequency electrical stimulation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Papaiordanidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Guiraud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Varray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Muscle Nerve</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="54" to="62" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Papaiordanidou M, Guiraud D, Varray A. Kinetics of neuro- muscular changes during low-frequency electrical stimulation. Muscle Nerve. 2010;41(1):54-62.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Role of phosphate and calcium stores in muscle fatigue</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Westerblad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">536</biblScope>
+			<biblScope unit="page" from="657" to="665" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note>Pt 3</note>
+	<note type="raw_reference">Allen DG, Westerblad H. Role of phosphate and calcium stores in muscle fatigue. J Physiol. 2001;536(Pt 3):657-665.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Corticospinal excitability is dependent on the parameters of peripheral electric stimulation: a preliminary study</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Chipchase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Schabrun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Hodges</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Phys Med Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1423" to="1430" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chipchase LS, Schabrun SM, Hodges PW. Corticospinal ex- citability is dependent on the parameters of peripheral elec- tric stimulation: a preliminary study. Arch Phys Med Rehabil. 2011;92(9):1423-1430.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Primary sensory and motor cortex excitability are comodulated in response to peripheral electrical nerve stimulation</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Schabrun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Ridding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Galea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Hodges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Chipchase</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">51298</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schabrun SM, Ridding MC, Galea MP, Hodges PW, Chipchase LS. Primary sensory and motor cortex excitability are co- modulated in response to peripheral electrical nerve stimula- tion. PLoS One. 2012;7(12):e51298.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Changes in spinal but not cortical excitability following combined electrical stimulation of the tibial nerve and voluntary plantar-flexion</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Lagerquist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Mang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">222</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="41" to="53" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lagerquist O, Mang CS, Collins DF. Changes in spinal but not cortical excitability following combined electrical stimulation of the tibial nerve and voluntary plantar-flexion. Exp Brain Res. 2012;222(1-2):41-53.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Motor unit recruitment when neuromuscular electrical stimulation is applied over a nerve trunk compared with a muscle belly: triceps surae</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Bergquist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Clair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="627" to="637" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bergquist AJ, Clair JM, Collins DF. Motor unit recruitment when neuromuscular electrical stimulation is applied over a nerve trunk compared with a muscle belly: triceps surae. J Appl Physiol. 2011;110(3):627-637.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Motor unit recruitment when neuromuscular electrical stimulation is applied over a nerve trunk compared with a muscle belly: quadriceps femoris</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Bergquist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Wiest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="78" to="89" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bergquist AJ, Wiest MJ, Collins DF. Motor unit recruitment when neuromuscular electrical stimulation is applied over a nerve trunk compared with a muscle belly: quadriceps femoris. J Appl Physiol. 2012;113(1):78-89.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Highfrequency neuromuscular electrical stimulation modulates interhemispheric inhibition in healthy humans</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gueugneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grospretre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Stapley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lepers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="467" to="475" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gueugneau N, Grospretre S, Stapley P, Lepers R. High- frequency neuromuscular electrical stimulation modulates in- terhemispheric inhibition in healthy humans. J Neurophysiol. 2017;117(1):467-475.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Increased cortical excitability induced by transcranial DC and peripheral nerve stimulation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Uy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Ridding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurosci Methods</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="193" to="197" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Uy J, Ridding MC. Increased cortical excitability induced by transcranial DC and peripheral nerve stimulation. J Neurosci Methods. 2003;127(2):193-197.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Neuromuscular electrical stimulation therapy to restore quadriceps muscle function in patients after Orthopaedic surgery: a novel structured approach</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Spector</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Laufer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elboim</forename><surname>Gabyzon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kittelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stevens Lapsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Maffiuletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Am</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="2017" to="2024" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Spector P, Laufer Y, Elboim Gabyzon M, Kittelson A, Stevens Lapsley J, Maffiuletti NA. Neuromuscular electrical stimula- tion therapy to restore quadriceps muscle function in patients after Orthopaedic surgery: a novel structured approach. J Bone Joint Surg Am. 2016;98(23):2017-2024.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Neuromuscular electrical stimulation for motor restoration in hemiplegia</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sheffler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Knutson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Top Stroke Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="412" to="426" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chae J, Sheffler L, Knutson J. Neuromuscular electrical stimu- lation for motor restoration in hemiplegia. Top Stroke Rehabil. 2008;15(5):412-426.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Increase in hand muscle strength of stroke patients after somatosensory stimulation</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Conforto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kaelin-Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Neurol</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="122" to="125" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Conforto AB, Kaelin-Lang A, Cohen LG. Increase in hand mus- cle strength of stroke patients after somatosensory stimulation. Ann Neurol. 2002;51(1):122-125.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Functional MRI determination of a dose-response relationship to lower extremity neuromuscular electrical stimulation in healthy subjects</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">V</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Alon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Roys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Gullapalli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">150</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="33" to="39" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smith GV, Alon G, Roys SR, Gullapalli RP. Functional MRI de- termination of a dose-response relationship to lower extremity neuromuscular electrical stimulation in healthy subjects. Exp Brain Res. 2003;150(1):33-39.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Specific brain activation patterns associated with two neuromuscular electrical stimulation protocols</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wegrzyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Ranjeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Foure</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">2742</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wegrzyk J, Ranjeva JP, Foure A, et al. Specific brain activation patterns associated with two neuromuscular electrical stimula- tion protocols. Sci Rep. 2017;7(1):2742.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Input-output properties and gain changes in the human corticospinal pathway</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Devanne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Lavoie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Capaday</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="329" to="338" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Devanne H, Lavoie BA, Capaday C. Input-output properties and gain changes in the human corticospinal pathway. Exp Brain Res. 1997;114(2):329-338.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b72">
+	<analytic>
+		<title level="a" type="main">The etiology of muscle fatigue differs between two electrical stimulation protocols</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grospretre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vilmen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1474" to="1484" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martin A, Grospretre S, Vilmen C, et al. The etiology of mus- cle fatigue differs between two electrical stimulation protocols. Med Sci Sports Exerc. 2016;48(8):1474-1484.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Central contribution to electrically induced fatigue depends on stimulation frequency</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grospretre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gueugneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lepers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1530" to="1540" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grospretre S, Gueugneau N, Martin A, Lepers R. Central con- tribution to electrically induced fatigue depends on stimulation frequency. Med Sci Sports Exerc. 2017;49(8):1530-1540.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Minimum number of trials required for within-and between-session reliability of TMS measures of corticospinal excitability</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Goldsworthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hordacre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Ridding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">320</biblScope>
+			<biblScope unit="page" from="205" to="209" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Goldsworthy MR, Hordacre B, Ridding MC. Minimum num- ber of trials required for within-and between-session reliabil- ity of TMS measures of corticospinal excitability. Neuroscience. 2016;320:205-209.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b75">
+	<monogr>
+		<title level="m" type="main">The number of stimuli required to reliably assess corticomotor excitability and primary motor cortical representations using transcranial magnetic stimulation (TMS): a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cavaleri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Schabrun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Chipchase</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>Syst Rev</publisher>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">48</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cavaleri R, Schabrun SM, Chipchase LS. The number of stimuli required to reliably assess corticomotor excitability and primary motor cortical representations using transcranial magnetic stimulation (TMS): a systematic review and meta-analysis. Syst Rev. 2017;6(1):48.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Recovery cycles of posterior root-muscle reflexes evoked by transcutaneous spinal cord stimulation and of the H reflex in individuals with intact and injured spinal cord</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">S</forename><surname>Hofstoetter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Freundl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Binder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Minassian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">227057</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hofstoetter US, Freundl B, Binder H, Minassian K. Recovery cy- cles of posterior root-muscle reflexes evoked by transcutaneous spinal cord stimulation and of the H reflex in individuals with intact and injured spinal cord. PLoS One. 2019;14(12):e0227057.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Extra forces induced by wide-pulse, high-frequency electrical stimulation: occurrence, magnitude, variability and underlying mechanisms</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wegrzyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Foure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vilmen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1400" to="1412" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wegrzyk J, Foure A, Vilmen C, et al. Extra forces induced by wide-pulse, high-frequency electrical stimulation: occurrence, magnitude, variability and underlying mechanisms. Clin Neurophysiol. 2015;126(7):1400-1412.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

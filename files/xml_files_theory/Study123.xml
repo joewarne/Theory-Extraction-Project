@@ -1,0 +1,1458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Anterior Cruciate Ligament Can Become Hypertrophied in Response to Mechanical Loading A Magnetic Resonance Imaging Study in Elite Athletes</title>
+				<funder>
+					<orgName type="full">Arthrex</orgName>
+				</funder>
+				<funder ref="#_93Gx7dC">
+					<orgName type="full">National Institutes of Health&apos;s National Institute of Arthritis and Musculoskeletal and Skin Diseases</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Med-Sport</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Stryker</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Hologic</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Smith &amp; Nephew</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>PhD</roleName><forename type="first">L</forename><surname>Beaulieu</surname></persName>
+							<email>mbeaulie@umich.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Orthopaedic Surgery</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<addrLine>24 Frank Lloyd Wright Drive</addrLine>
+									<postCode>48106</postCode>
+									<settlement>Ann Arbor</settlement>
+									<region>MI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Madeleine</forename><forename type="middle">G</forename><surname>Declercq</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Orthopaedic Surgery</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<addrLine>24 Frank Lloyd Wright Drive</addrLine>
+									<postCode>48106</postCode>
+									<settlement>Ann Arbor</settlement>
+									<region>MI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nathan</forename><forename type="middle">T</forename><surname>Bs</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Rietberg</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Medical School</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<settlement>Ann Arbor</settlement>
+									<region>Michigan</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Sylvia</forename><forename type="middle">H</forename><surname>Li</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Medical School</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<settlement>Ann Arbor</settlement>
+									<region>Michigan</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Emily</forename><forename type="middle">C</forename><surname>Harker</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Medical School</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<settlement>Ann Arbor</settlement>
+									<region>Michigan</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Alexander</forename><forename type="middle">E</forename><surname>Weber</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Orthopaedic Surgery</orgName>
+								<orgName type="institution">University of Southern California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>California</region>
+									<country>USA. ||</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">James</forename><forename type="middle">A</forename><surname>Ashton-Miller</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Biomedical Engineering</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<settlement>Ann Arbor</settlement>
+									<region>Michigan</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Edward</forename><forename type="middle">M</forename><surname>Wojtys</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Orthopaedic Surgery</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<addrLine>24 Frank Lloyd Wright Drive</addrLine>
+									<postCode>48106</postCode>
+									<settlement>Ann Arbor</settlement>
+									<region>MI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Investigation performed at the Michigan Center for Human Athletic Medicine and Performance (MCHAMP)</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<settlement>Ann Arbor</settlement>
+									<region>Michigan</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<settlement>Ann Arbor</settlement>
+									<region>Michigan</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">University of Michigan</orgName>
+								<address>
+									<settlement>Ann Arbor</settlement>
+									<region>Michigan</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Anterior Cruciate Ligament Can Become Hypertrophied in Response to Mechanical Loading A Magnetic Resonance Imaging Study in Elite Athletes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">67E01722966AD288FAC8D7B465DDE8D0</idno>
+					<idno type="DOI">10.1177/03635465211012354</idno>
+					<note type="submission">Submitted July 17, 2020; accepted January 4, 2021.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:14+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Cross-sectional study</term>
+					<term>Level of evidence, 3 anterior cruciate ligament</term>
+					<term>hypertrophy</term>
+					<term>knee</term>
+					<term>exercise</term>
+					<term>loading</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Evidence, mainly from animal models, suggests that exercise during periods of pubertal growth can produce a hypertrophied anterior cruciate ligament (ACL) and improve its mechanical properties. In humans, the only evidence of ACL hypertrophy comes from a small cross-sectional study of elite weight lifters and control participants; that study had methodological weaknesses and, thus, more evidence is needed.</p><p>Purpose: To investigate bilateral differences in the ACL cross-sectional area (CSA) for evidence of unilateral hypertrophy in athletes who have habitually loaded 1 leg more than the other.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Several morphological risk factors for an anterior cruciate ligament (ACL) injury have been identified, <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b38">39,</ref><ref type="bibr" target="#b40">41</ref> including the size of the ACL. <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b38">39,</ref><ref type="bibr" target="#b43">44</ref> A smaller ACL volume and diameter are associated with a greater risk of injuries when comparing ACL-injured patients to matched controls. <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b38">39,</ref><ref type="bibr" target="#b43">44</ref> Evidence suggests that larger ACLs have a greater ability to resist external forces. <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b42">43</ref> Although morphological risk factors as a group have been largely characterized as nonmodifiable, <ref type="bibr" target="#b30">31,</ref><ref type="bibr" target="#b32">33</ref> ACL surface area and cross-sectional area (CSA) have potential for modifiability, especially during periods of growth and development. <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b35">36</ref> Perhaps the ACL could be ''trained'' to become larger, more robust, and thus less prone to injuries.</p><p>The ability to use exercise to increase the CSA and strength of the ACL has tremendous implications for ACL injury prevention. Significant increases in ACL strength (ie, greater energy at ligament failure) and stiffness have been reported in growing rats and rabbits. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b41">42</ref> Also, most recently, Schlecht et al <ref type="bibr" target="#b35">36</ref> revealed that exercise during puberty significantly increased the ACL CSA in a mouse model. Evidence of hypertrophied ACLs also exists for the human ACL. For example, Grzelak et al <ref type="bibr" target="#b16">17</ref> found that high-performance weight lifters who began training before or during their pubertal growth spurt had greater ACL surface areas compared with an age-and size-matched control group. They proposed that this increase in the ACL area was in response to strain imposed on the ACL while training during puberty because of the high potential for cell regeneration and proliferation during periods of growth. They also reported a significant negative correlation between the ACL area and age at which the athlete began training; the younger the athletes when training began, the larger the ACL at the time of the study. <ref type="bibr" target="#b16">17</ref> However, the only evidence that the ACL can become hypertrophied in humans as a result of loading is limited to this group of 9 weight lifters. Also, it is possible that the group differences that were found could have been caused by an unintended selection bias. Therefore, more evidence is needed. Investigating the ACLs of elite athletes who regularly load 1 knee more than the other offers a unique study population because their contralateral ACL can serve to control for variables that may otherwise differ between the experimental and control groups.</p><p>The purpose of this study was to determine whether the ACL can become hypertrophied in response to mechanical loading by comparing bilateral differences in the ACL CSA of athletes who consistently load 1 knee more than the other in training for their sport. We hypothesized that these athletes would have significantly greater ACL CSAs in the leg that is loaded the most in comparison with the contralateral control leg. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b41">42</ref> Additionally, we sought to determine whether bilateral differences in the ACL CSA were related to the age of training onset as well as the number of years of training. We predicted a significant negative correlation between the bilateral difference in the ACL CSA and age of training onset. <ref type="bibr" target="#b16">17</ref> Last, we investigated the effect of asymmetric loading history on knee extensor and flexor strength as well as on anteroposterior (AP) patellar tendon diameter. We hypothesized that these muscle groups would produce significantly greater peak torques <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b36">37</ref> and that the patellar tendon diameter would be significantly greater <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b37">38</ref> in the athletes' leg that is loaded the most in comparison with the other leg.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>This study was approved by the University of Michigan institutional review board for human studies. All participants gave their written consent before study procedures. A total of 52 figure skaters and springboard divers were recruited from local organizations between 2016 and 2019 (Table <ref type="table">1</ref>). All participants reported no history of ACL injuries, knee surgery, or other significant knee injuries. Female and male athletes were included if they had started training by age 10 and 12 years, respectively; this was to ensure that training began before or at the onset of puberty. Furthermore, all athletes trained a minimum of 4 months per year from the time that they began training until the time of this study. Figure skaters and springboard divers were selected as the sample population of interest because they consistently and repeatedly use 1 leg more than the other, thereby ensuring that 1 knee was more loaded than the other. More specifically, figure skaters always land their jumps on the same leg, while springboard divers always drive the same leg (''drive'' leg) into the board during their hurdle approach.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Magnetic Resonance Imaging</head><p>Bilateral knee magnetic resonance imaging (MRI) was performed with a 3.0-T scanner (Ingenia; Philips Healthcare) using a dedicated knee coil. Each knee, naturally resting in slight flexion in the coil, was scanned using 3 sequences, all in the plane of the ACL, with the following parameters: (1) oblique-sagittal (repetition time, 5100 ms; echo time, 30 ms; slice thickness, 2.5 mm; pixel spacing, 0.19 3 0.19 mm), (2) oblique-coronal (repetition time, 4000 ms; echo time, 30 ms; slice thickness, 2.5 mm; pixel spacing, 0.20 3 0.20 mm), and (3) oblique-axial (repetition time, 5100 ms; echo time, 30 ms; slice thickness, 2.5 mm; pixel spacing, 0.20 3 0.20 mm). To acquire the MRI scans in the plane of the ACL, an experienced MRI technician rotated the 3 standard imaging axes (AP, mediolateral, and axial) such that the latter axis was parallel to the longitudinal axis of the ACL. As such, the oblique-axial images were perpendicular to the longitudinal axis of the ACL, whereas the oblique-sagittal and oblique-coronal images were parallel to the ACL's axis.</p><p>The CSA of each ACL was measured by a single blinded investigator (see below for details) on the MRI scans at 50% of the ligament's length using OsiriX software (<ref type="url" target="www.osirix-viewer.com">www.osirix-viewer.com</ref>). <ref type="bibr" target="#b14">15</ref> The minimum CSA is located at approximately 50% of the distance from the center of the femoral and tibial attachment sites. <ref type="bibr" target="#b14">15</ref> First, the length of the ligament was measured on the oblique-sagittal slice that ran through the center of the ACL. Second, the ACL's CSA was measured on the 3 oblique-axial slices that were closest to 50% of the ligament's length, as previously measured. Specifically, the ACL's circumference was outlined using the pencil tool, with the CSA being calculated by the software (Figure <ref type="figure" target="#fig_0">1</ref>). The CSA of the ACL for each knee was calculated as the average CSA measured on the 3 selected oblique-axial slices, as described above.</p><p>To measure the patellar tendon's AP diameter, the oblique-sagittal MRI scans were reconstructed such that they ran parallel to the patellar tendon. In this new oblique-sagittal view, the slice running through the midportion of the patellar tendon was identified, from which the longitudinal axis of the tendon was defined. The AP patellar tendon diameter was measured perpendicular to this longitudinal axis at a distance of 2 cm distal to the patella <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8</ref> on the slice displaying the thickest part of the tendon at that height (Figure <ref type="figure" target="#fig_1">2</ref>).</p><p>All MRI scans were deidentified such that the investigator performing the measurements was blinded to the athlete's identity as well as to which knee each participant qualified as his or her landing/drive leg at the time of the measurement. All measurements were made by the same investigator (M.L.B.), a PhD research fellow with 8 years of experience with knee-and ACL-related measurements on MRI. Intraobserver reliability of the MRI measurements was assessed by measuring the outcome variables 3 times, on nonconsecutive days, in a subset of 10 participants and by calculating the intraclass correlation coefficient. The intraclass correlation coefficients for the ACL CSA and patellar tendon diameter were 0.95 and 0.96, respectively, signifying excellent reliability. Interobserver reliability of the measurements was also assessed in the same subset of participants by having an additional investigator (undergraduate student with !2 years of experience with kneeand ACL-related measurements on MRI) measure the outcome variables. Interclass correlation coefficients revealed excellent interobserver reliability for the ACL CSA of 0.92 and for the patellar tendon diameter of 0.93.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Strength Testing</head><p>Isometric and isokinetic knee extensor and flexor strength were evaluated in each participant using a dynamometer (Biodex System Pro [Biodex] or Cybex Humac Norm [Computer Sports Medicine]). Participants were positioned and   secured on the dynamometer according to the manufacturer's recommendations. Isometric strength of both knees was evaluated at 90°of knee flexion with three 5-second maximal knee extensor contractions and three 5-second maximal knee flexor contractions. Concentric and eccentric isokinetic strength of both knees were evaluated at an angular velocity of 60 deg/s for a range of motion between 0°and 90°of knee flexion, also repeated 3 times. A 5second interval was included between contractions of the same type and muscle group. Before each set of contractions, a practice/warm-up contraction was performed, followed by a 30-to 60-second rest. The leg (ie, left/right) being tested first was randomized between participants. During all contractions, participants were orally encouraged to reach a maximum contraction. The peak torque of the trial for which the greatest peak torque was produced was extracted as the outcome measure for each contraction type for each muscle group.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical Analysis</head><p>To determine the sample size required to test our primary hypothesis that athletes who consistently load 1 knee more than the other would exhibit bilateral differences in the ACL CSA, a 2-sided 1-sample t test (test value = 0; a = .05; 1b = 0.80) was used on pilot data. The percentage difference in the ACL CSA between knees was determined from 12 athletes using similar methods described herein. This a priori power analysis revealed a required sample size of 47 athletes. Normal Q-Q plots were used to determine whether the data were normally distributed, and log transformations were used as appropriate. Except for the log-transformed values, weight-normalized values of the ACL CSA, patellar tendon diameter, and knee strength were used for statistical purposes. This was done to account for differences due to athlete weight and, therefore, the potential for greater bilateral differences in larger athletes. To determine the potential for the ACL and the patellar tendon to become hypertrophied in response to mechanical loading, 2-sided paired-samples t tests were used that compared the mean ACL CSA and AP patellar tendon diameter of the landing/drive knee with the contralateral knee. Furthermore, Spearman correlations were used to determine whether a significant association existed between the bilateral difference in the ACL CSA and age of training onset as well as between the bilateral difference in the ACL CSA and years of training. Last, a series of paired-samples t tests was used to examine the extent to which asymmetric training (ie, repeatedly landing/driving into the board with 1 leg more than the other, thus assuming asymmetric loading) may affect knee muscle strength. Specifically, the knee extensor and flexor isometric, concentric, and eccentric peak torques of the landing/drive leg were compared with those of the contralateral leg. An alpha level below .05 indicated statistical significance. All analyses were performed in SPSS (V26; IBM). Correction for multiple statistical analyses among the strength variables was performed using the Benjamini-Hochberg procedure, with a critical value for a false discovery rate of 0.05. <ref type="bibr" target="#b2">3</ref> This procedure was conducted in Excel (Office 365; Microsoft). <ref type="bibr" target="#b27">28</ref> For clarity and simplicity purposes, the landing/drive leg, assumed to be loaded more than the other leg, will be referred to as the ''dominant'' leg, whereas the contralateral leg will be referred to as the ''nondominant'' leg.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>The descriptive statistics for the variables of age of training onset and years of training are presented in Table <ref type="table">1</ref>. The descriptive and paired-samples t test statistics for the ACL CSA, AP patellar tendon diameter, and knee extensor and flexor strength variables are presented in Tables <ref type="table" target="#tab_0">2</ref> and <ref type="table" target="#tab_1">3</ref>. Statistical analyses revealed that athletes with repeated unilateral lower limb loading had significantly greater ACL CSAs in the dominant knee than the nondominant knee (0.663 6 0.135 mm 2 /kg vs 0.639 6 0.137 mm 2 /kg, respectively; 63.5% [33/52] of athletes had greater ACL CSAs in the dominant leg) (Table <ref type="table" target="#tab_0">2</ref>). These athletes also had significantly greater AP patellar tendon diameters in the dominant knee than the nondominant knee (0.065 6 0.011 mm/kg vs 0.062 6 0.010 mm/kg, respectively; 69.4% [34/49] of athletes had greater AP patellar tendon diameters in the dominant leg) (Table <ref type="table" target="#tab_0">2</ref>). However, no association was found between bilateral differences in the ACL CSA and age of training onset (r s = 0.171; P = .224) or between bilateral differences in the ACL CSA and years of training (r s = 20.111; P = .433). The results also showed greater isometric knee flexor peak torques in the knee joint of the dominant leg than the nondominant leg (Table <ref type="table" target="#tab_1">3</ref>). Peak torques from other contraction types or muscle groups did not differ between limbs (Table <ref type="table" target="#tab_1">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>The present study investigated the potential for the ACL to become hypertrophied as a result of a history of long-term mechanical loading by comparing the bilateral differences in the ACL CSA of figure skaters and springboard divers who habitually loaded 1 leg more than the other over many years. The results indicated that indeed these athletes had significantly greater ACL CSAs in the dominant knee compared with the nondominant knee, which supports our primary hypothesis. Demonstrating the potential for the ACL to become hypertrophied via mechanical loading provides a scientific basis for exploring ACL injury prevention strategies aimed at increasing the ACL CSA and robustness, given that ACL volume and diameter are risk factors for an injury. <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b38">39,</ref><ref type="bibr" target="#b43">44</ref> Our findings corroborate and extend findings in a small group of weight lifters who were found to have significantly greater ACL areas than age-and size-matched control participants. <ref type="bibr" target="#b16">17</ref> Grzelak and colleagues <ref type="bibr" target="#b16">17</ref> reported an absolute difference of 31 mm 2 and a relative difference of 77% in the ACL surface area between groups. These differences may make our bilateral differences of 1.4 mm 2 and 4.9%, respectively, appear clinically insignificant; however, we argue otherwise. First, we argue that within-participant differences do not need to be as large to be clinically meaningful because a within-participant study design accounts for potential confounding factors that a between-participant design does not, and only bilateral differences in ACL loading can contribute to these differences. Therefore, any sport-related activity, such as forward/ backward skating and other maneuvers performed by figure skaters, the other phases of springboard diving, dryland training, weightlifting activity, as well as any other physical activity performed outside their main sport (ie, secondary sport) could be assumed to load both ACLs equally, or nearly equally, and thus not contribute to bilateral differences, unlike the within-participant protocol previously used. <ref type="bibr" target="#b16">17</ref> Second, Grzelak et al measured the ACL's surface area on axial-plane images, thus not measuring the true CSA. Their measurements, therefore, were dependent on the angle of the ACL with respect to the axial plane of the acquired MRI scan, an angle that could have differed systematically between the weight lifters and the control group and inflated the true mean ACL CSA difference between the groups. This is speculation because it is unknown how resistance training through pubertal growth and development may affect the angle at which the ACL lies within the femoral intercondylar notch. Third, Whitney et al <ref type="bibr" target="#b43">44</ref> reported a 3-mm 2 (8%) difference in the ACL CSA between ACL-injured and control athletes who were matched for sex, age, and sports team, a difference that was significantly associated with the ACL injury risk and that is much closer in magnitude to our data but a within-participant difference nonetheless. Last, it is possible that the 4.9% bilateral difference found in the ACL CSA of our athletes is not representative of the bilateral difference in ACL material properties (eg, larger ultimate tensile stress value in the dominant leg), which may be larger. As a corollary to the Wolff law for bone, Davis law holds that soft tissues remodel along their directions of loading. In other words, the Davis law indicates that the ACL could very well be considerably stronger and more robust than the present ACL CSA data suggest, thus making our results a potentially conservative estimate of the effect of long-term training history. Unfortunately, there are no noninvasive in vivo tests for examining the quality of ACL tissue as of now because, presently, ultimate tensile stress can only be quantified via in vitro tensiometer tests.</p><p>The ability to increase the ACL's CSA via loading has the potential to be useful for preventing ACL injuries by    strengthening the ligament, especially in children and adolescents. In addition to the group of weight lifters with hypertrophied ACLs potentially due to their training through puberty, <ref type="bibr" target="#b16">17</ref> exercise through periods of growth has also been shown to increase the ACL size and improve its mechanical properties in animal models. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b41">42</ref> Therefore, the potential for the ACL to be ''trained,'' so to speak, to become larger, more robust, and thus less at risk of injuries is apparent, but many critical questions remain unanswered.</p><p>The process whereby the ACL may become hypertrophied via mechanical loading is as yet unknown, as is the process by which this may vary throughout one's lifetime. It may be optimal to ''train'' the ACL when there is a high potential for regeneration and intensive cell proliferation, such as during growth spurts. <ref type="bibr" target="#b34">35</ref> Little is known, however, about ACL development in childhood through puberty. We do know that the ACL appears to sustain pronounced growth up to the age of 10 to 12 years, after which the ACL surface area and volume stabilize. <ref type="bibr" target="#b22">23,</ref><ref type="bibr" target="#b39">40</ref> We do not know, however, how catabolic mechanisms might affect the ACL and its development or where the threshold between anabolic and catabolic factors lies. As with other tissues, <ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b33">34</ref> significant catabolic processes most likely start to occur when the rate of degradation exceeds the rate of synthesis, but these processes are unknown in the ACL.</p><p>We do not know how training the ACL may positively or negatively affect other structures of the knee and lower limb. Additionally, can the structure of the ACL, in addition to its size, be positively influenced by optimizing training? In other words, does bigger necessarily mean stronger? Perhaps. Several studies have shown a significant association between ACL size and ACL robustness. Specifically, a greater ACL CSA and volume have been associated with superior mechanical properties, such as elongation at failure, <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b17">18</ref> energy at failure, <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b17">18</ref> and linear stiffness, <ref type="bibr" target="#b17">18</ref> as well as a greater ACL width and CSA with less knee laxity <ref type="bibr" target="#b42">43</ref> and lower peak strain, <ref type="bibr" target="#b24">25</ref> respectively. This suggests that a larger ACL CSA has a greater ability to resist tensile loads placed on it. In short, many questions remain unanswered that need to be addressed as injury prevention strategies that involve ''training'' the ACL are explored.</p><p>Our secondary hypothesis that the bilateral difference in the ACL CSA was significantly associated with the age of training onset was not supported. This result differs from that of Grzelak et al, <ref type="bibr" target="#b16">17</ref> who compared the ACL surface area of elite weight lifters with that of a group of age-and size-matched participants. They reported a strong negative correlation between the ACL surface area, also measured at its midsubstance, and the age at which training began. <ref type="bibr" target="#b16">17</ref> Hence, the younger the weight lifters were when training began, the greater was the ACL area. They argued that extensive training, especially a regimen that includes great strain on the ACL (ie, greater knee flexion angles combined with the additional load lifted), may promote hypertrophy during puberty, a period of extensive growth and high potential for regeneration processes. Given that their weight lifters began training before or during their pubertal growth spurt (age of onset, 10.6 6 0.8 years [range, 9-12 years]) and that most of our athletes began training before this growth spurt (age of onset, 5.7 6 2.1 years [range, 2-12 years]) (Table <ref type="table">1</ref>), <ref type="bibr" target="#b23">24</ref> differences in the age of training onset before one's period of significant growth and development may not affect the ACL CSA, at least not the midsubstance. Instead, it may be that both starting training before puberty and extending it through puberty are the essential factors but not necessarily what happens before puberty because the potential for tissue regeneration and cell proliferation is greatest during growth spurts, including puberty. Alternatively, the type of training-resistance-dominant training in weight lifters compared with endurancedominant training in figure skaters-may also be responsible for our differing results.</p><p>Our hypothesis that the AP patellar tendon diameter would be significantly greater in the athletes' dominant leg than their nondominant leg was supported. This bilateral difference in patellar tendon morphology supports our assumption that the athletes participating in this study consistently loaded 1 knee more than the other during their sports training and that increased loading led to hypertrophy of 2 important structures in that knee. Similar findings have been reported in the literature in elite fencing and badminton athletes, who had a greater patellar tendon CSA in their lead leg compared with their nonlead leg. <ref type="bibr" target="#b10">11</ref> Furthermore, longitudinal studies have demonstrated an increase in the patellar tendon CSA and thickness in adolescent athletes training in sports with high repetitive jumping and/or strength components over a 2-to 3-year time period. <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b28">29</ref> No such adaptation was observed in recreationally active control participants. <ref type="bibr" target="#b7">8</ref> Bilateral differences in knee extensor strength were also noted in the group of elite fencing and badminton athletes, differences that were not found in our group of figure skaters and divers. Therefore, our hypothesis that the dominant limb would have greater knee extensor and flexor strength than the nondominant limb was only partly supported, given that significant bilateral differences in isometric knee flexor peak torque, favoring the dominant leg, were found. Even though all participants maintained their training up to the time of the study, the nature, frequency, and/or intensity of their training at the time of strength testing likely differed from that of their training during their period of pubertal growth and development. It is well-known that skeletal muscle tissue can respond to training within 3 to 4 weeks in terms of increases in muscle size and strength. <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b36">37</ref> Muscle hypertrophy mainly occurs via an increase in the muscle fiber CSA due to new sarcomeres, thus resulting in an increase in the whole muscle size and, ultimately, in greater force production. <ref type="bibr" target="#b3">4</ref> Also, with disuse, the reverse, muscle atrophy, can occur within a similar time frame, or even faster depending on the degree of reduction in muscle loading, via a decrease in the muscle fiber CSA. <ref type="bibr" target="#b31">32</ref> With such a relatively rapid remodeling rate in response to physical activity, our muscle strength data, therefore, most likely reflect the participants' training regimen at the time of the study. With slower turnover rates, the ACL CSA data may reflect their training activity during their pubertal growth period, with the bilateral difference simply being maintained by the training that came after. This may explain the lack of significant bilateral differences in knee muscle strength, other than isometric knee flexor strength, despite significant differences in the ACL CSA between limbs.</p><p>We acknowledge several limitations of the present study. First, we assumed that athletes participating in our study did indeed consistently load 1 knee more than the other in their respective sports: figure skating or springboard diving. However, no contemporaneous biomechanical measurement was made to confirm this. This assumption was based on our knowledge that figure skaters and springboard divers train to land on the same leg during their jumps and to drive the same leg into the board during their hurdle approaches, respectively. From off-ice simulated jump landings, for example, on-ice vertical ground-reaction forces were estimated to reach approximately 8 to 8.5 times the body weight. <ref type="bibr" target="#b4">5</ref> With high quadriceps activity during landings <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b29">30</ref> and such activity known to induce anterior tibial translation <ref type="bibr" target="#b29">30</ref> and increase ACL loads, <ref type="bibr" target="#b21">22</ref> it can be assumed that repeatedly landing on the same leg when jumping on skates equates to repeatedly dynamically loading the ACL of the landing knee more than that of the contralateral knee. Similar reasoning can be applied to the drive leg during the hurdle approach in springboard diving, as the quadriceps must contract eccentrically and then concentrically to produce a powerful extension torque, which is well-known to significantly load the ACL. <ref type="bibr" target="#b13">14</ref> Second, a matched control group of participants was not included. However, it was not deemed necessary because the literature shows no bilateral differences in the ACL size (ie, volume) in healthy male and female control participants. <ref type="bibr" target="#b18">19</ref> Third, our study sample consisted largely of female athletes (88.5% of participants) because of availability at the time of the study. Therefore, the effect of sex on bilateral differences in the ACL CSA and muscle strength could not be investigated, and generalizations to male athletes may be limited. However, it is possible that ACL hypertrophy may be amplified in male athletes because our male participants showed larger bilateral differences in the ACL CSA compared with the female participants, on average (Table <ref type="table" target="#tab_0">2</ref>). Given the low number of male participants in our study, conclusions cannot be drawn to this effect. Fourth, a measurement of the ACL CSA at exactly 50% of the ligament's length was not always possible because of the 2.5-mm spacing between slices, which may have introduced some variability in the data. To counteract this potential source of error, as well as error measurements of the CSA, the average CSA of 3 MRI slices was used, as described in the Methods section. Fifth, a causeand-effect relationship cannot be established because of the cross-sectional design of the study. By using each athlete's contralateral knee as the control, many variables (eg, activities of daily living, sex, genetic and hereditary factors, etc) can most likely be ruled out as potential causes in comparison with a study utilizing a control group. In addition, evidence shows that the ACL size (ie, volume) does not typically differ between limbs in the general population. <ref type="bibr" target="#b18">19</ref> Sixth, the CSA of the patellar tendon could not reliably be measured on our MRI scans; thus, the AP diameter was used instead. Given that the primary objective of this study focused on the ACL, the MRI scans also focused on this tissue and, therefore, included little of the patellar tendon in the field of view on the axial-plane images-not enough to allow an accurate measure of the patellar tendon CSA. Thickness or diameter, however, has been used reliably to determine changes, both longitudinally and crosssectionally, in the patellar tendon. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b20">21</ref> Seventh, the manner by which knee strength was evaluated may lack ecological validity because it utilized open kinetic chain exercises with the dynamometer, whereas figure skaters and springboard divers habitually load their leg in a closed kinetic chain manner because their foot is in contact with the ice and board, respectively. Finally, because of equipment availability, knee extensor and flexor strength were not measured on the same dynamometer for all participants (46% with Biodex and 54% with Cybex). However, this should have had little effect on the results, given that the 2 dynamometer models used in this study produce similar isometric, concentric, and eccentric torques at the knee joint with high reliability. <ref type="bibr" target="#b11">12</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSION</head><p>Figure skaters and springboard divers, who habitually loaded 1 leg more than the other over many years, had significantly larger ACL CSAs, larger AP patellar tendon diameters, and greater isometric knee flexor strength in that dominant limb relative to the nondominant limb. The ACL CSA, however, was neither related to the age at which training began nor to the number of years of training. Knee extensor strength did not significantly differ between lower limbs. In summary, our results support existing evidence that exercise, including resistance and endurance regimens, during periods of pubertal growth has the potential to increase the ACL CSA and, therefore, strength. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b41">42</ref> This suggests that perhaps the ACL could be ''trained'' to become larger, more robust, and thus at a lower risk of injuries. Many gaps in knowledge-ACL development during growth and how exercise may alter its morphology and mechanical properties-need to be addressed as injury prevention strategies that involve ''training'' the ACL are explored.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Example of the anterior cruciate ligament (ACL) cross-sectional area (CSA) measurement. (A) Obliquesagittal magnetic resonance imaging (MRI) showing the ACL length measurement (white line running parallel to the ACL) and the location of the 3 oblique-axial slices (dashed lines running across the ACL) that were used to measure the ACL's CSA. (B) Oblique-axial MRI showing the outlined area of the ACL.</figDesc><graphic coords="3,307.90,71.83,240.46,104.77" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Example of the anteroposterior (AP) patellar tendon diameter measurement. (A) Oblique-sagittal magnetic resonance imaging (MRI) slice running through the midportion of the patellar tendon, from which the longitudinal axis of the tendon was defined. (B) Oblique-sagittal MRI slice displaying the thickest part of the tendon at the height of the measurement, 2 cm distal to the patella, where the tendon's diameter was measured perpendicular to its longitudinal axis.</figDesc><graphic coords="3,307.90,299.06,240.46,108.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>a</head><figDesc>Data are shown as mean 6 SD (range) unless otherwise indicated.b All but 1 of the figure skaters were female; all but 1 of the divers were male.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>b</head><figDesc>Two-sided paired-samples t tests were performed on log-transformed values to meet the normality assumption.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>c</head><figDesc>Statistically significant according to the Benjamini-Hochberg procedure.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 2 ACL</head><label>2</label><figDesc>CSA and AP Patellar Tendon Diameter Between the Dominant and Nondominant Legs via 2-Sided Paired-Samples t Tests a Data are shown as mean 6 SD (range). Weight-normalized values of the ACL CSA (mm 2 /kg) and AP patellar tendon diameter (mm/kg) were used for statistical purposes to account for differences in the ACL CSA caused by athlete weight and, therefore, the potential for greater bilateral differences in larger athletes. ACL, anterior cruciate ligament; AP, anteroposterior; CSA, cross-sectional area. 49; for 3 female figure skaters, the entire patellar tendon was not in the field of view at 2 cm from the tendon's origin, thus preventing the measurement of its AP diameter.</figDesc><table><row><cell></cell><cell>Dominant Leg</cell><cell>Nondominant Leg</cell><cell>Difference, %</cell><cell>t Value</cell><cell>P Value</cell></row><row><cell>ACL CSA, mm 2</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>All</cell><cell>42.0 6 8.9 (26.2-71.1)</cell><cell>40.6 6 9.0 (18.1-68.6)</cell><cell>4.9 6 14.0</cell><cell>2.092</cell><cell>.041</cell></row><row><cell>Female</cell><cell>40.7 6 7.9 (26.2-57.7)</cell><cell>39.2 6 8.0 (18.1-62.2)</cell><cell>4.6 6 13.4</cell><cell></cell><cell></cell></row><row><cell>Male</cell><cell>52.5 6 10.1 (44.6-71.1)</cell><cell>50.2 6 11.1 (38.7-68.6)</cell><cell>6.6 6 19.7</cell><cell></cell><cell></cell></row><row><cell cols="2">AP patellar tendon diameter, b mm</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>All</cell><cell>4.1 6 0.6 (2.8-5.5)</cell><cell>3.9 6 0.5 (2.9-5.1)</cell><cell>4.7 6 9.4</cell><cell>3.352</cell><cell>.002</cell></row><row><cell>Female</cell><cell>4.1 6 0.5 (2.8-5.5)</cell><cell>3.8 6 0.5 (2.9-4.8)</cell><cell>5.0 6 9.7</cell><cell></cell><cell></cell></row><row><cell>Male</cell><cell>4.4 6 0.7 (3.5-5.5)</cell><cell>4.3 6 0.4 (3.8-5.1)</cell><cell>2.6 6 6.8</cell><cell></cell><cell></cell></row></table><note><p>a b n =</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE 3 Knee</head><label>3</label><figDesc>Extensor and Flexor Strength (in NÁm/kg) Between the Dominant and Nondominant Legs via a Series of 2-Sided Paired-Samples t Tests a</figDesc><table><row><cell>Peak Torque</cell><cell>Dominant Leg</cell><cell>Nondominant Leg</cell><cell>Difference, %</cell><cell>t Value</cell><cell>P Value</cell></row><row><cell>Isometric knee extensor</cell><cell>2.34 6 0.80 (1.16-4.37)</cell><cell>2.31 6 0.77 (1.08-4.17)</cell><cell>2.9 6 19.9</cell><cell>0.408 b</cell><cell>.685 b</cell></row><row><cell>Isometric knee flexor</cell><cell>1.01 6 0.41 (0.34-2.20)</cell><cell>0.92 6 0.39 (0.34-1.98)</cell><cell>14.5 6 33.8</cell><cell>2.431 b</cell><cell>.019 b,c</cell></row><row><cell>Concentric knee extensor</cell><cell>1.65 6 0.64 (0.44-3.12)</cell><cell>1.64 6 0.66 (0.33-3.33)</cell><cell>5.5 6 28.3</cell><cell>0.285</cell><cell>.777</cell></row><row><cell>Concentric knee flexor</cell><cell>1.10 6 0.34 (0.26-2.02)</cell><cell>1.08 6 0.34 (0.33-1.77)</cell><cell>6.0 6 29.6</cell><cell>0.563</cell><cell>.576</cell></row><row><cell>Eccentric knee extensor</cell><cell>2.75 6 0.79 (1.61-4.97)</cell><cell>2.71 6 0.83 (0.90-4.68)</cell><cell>6.9 6 39.5</cell><cell>0.639 b</cell><cell>.526 b</cell></row><row><cell>Eccentric knee flexor</cell><cell>1.83 6 0.45 (1.06-2.87)</cell><cell>1.78 6 0.46 (0.88-2.95)</cell><cell>6.6 6 31.5</cell><cell>0.711</cell><cell>.480</cell></row></table><note><p>a Data are shown as mean 6 SD (range). n = 50; data from 2 female figure skaters were missing because of (1) a technical error and (2) the participant's being unavailable to complete the strength evaluation.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>The American Journal of Sports Medicine</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>Funding for this study was provided by <rs type="funder">Med-Sport</rs> and the <rs type="institution">Department of Orthopaedic Surgery of the University of Michigan</rs> as well as by the <rs type="funder">National Institutes of Health's National Institute of Arthritis and Musculoskeletal and Skin Diseases</rs> (grant <rs type="grantNumber">R01 AR054821</rs>). A.E.W. has received education support from <rs type="funder">Arthrex</rs> and <rs type="funder">Smith &amp; Nephew</rs>, research support from <rs type="funder">Arthrex</rs>, and hospitality payments from <rs type="funder">Stryker</rs>. J.A.A.-M. has received a research grant from <rs type="funder">Hologic</rs>. E.M.W. is on the medical publishing board of trustees for the AOSSM. AOSSM checks author disclosures against the Open Payments Database (OPD). AOSSM has not conducted an independent investigation on the OPD and disclaims any liability or responsibility relating thereto.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_93Gx7dC">
+					<idno type="grant-number">R01 AR054821</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ACKNOWLEDGMENT</head><p>The authors thank the participants of this study for their generosity.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The muscle preactivity timing of the hamstrings and quadriceps during 180 degrees and 360 degrees rotational jump landings in healthy female subjects</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Okada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukumoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ogawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tanaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Asia Pac J Sports Med Arthrosc Rehabil Technol</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="16" to="20" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bai D, Okada Y, Fukumoto T, Ogawa M, Tanaka Y. The muscle pre- activity timing of the hamstrings and quadriceps during 180 degrees and 360 degrees rotational jump landings in healthy female subjects. Asia Pac J Sports Med Arthrosc Rehabil Technol. 2019;17:16-20.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Knee morphological risk factors for anterior cruciate ligament injury: a systematic review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Meredith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Am</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="703" to="718" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bayer S, Meredith SJ, Wilson K, et al. Knee morphological risk fac- tors for anterior cruciate ligament injury: a systematic review. J Bone Joint Surg Am. 2020;102(8):703-718.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Controlling the false discovery rate: a practical and powerful approach to multiple testing</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Benjamini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hochberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J R Stat Soc B</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="289" to="300" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Benjamini Y, Hochberg Y. Controlling the false discovery rate: a prac- tical and powerful approach to multiple testing. J R Stat Soc B. 1995;57(1):289-300.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The metabolic and temporal basis of muscle hypertrophy in response to resistance exercise</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Brook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Atherton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="633" to="644" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brook MS, Wilkinson DJ, Smith K, Atherton PJ. The metabolic and temporal basis of muscle hypertrophy in response to resistance exer- cise. Eur J Sport Sci. 2016;16(6):633-644.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The effects of articulated figure skates on jump landing forces</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Bruening</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Richards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Biomech</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="285" to="295" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bruening DA, Richards JG. The effects of articulated figure skates on jump landing forces. J Appl Biomech. 2006;22(4):285-295.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Exercise effects on the strength of the rat anterior cruciate ligament</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Cabaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chatty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gildengorin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Feltman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="79" to="86" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cabaud HE, Chatty A, Gildengorin V, Feltman RJ. Exercise effects on the strength of the rat anterior cruciate ligament. Am J Sports Med. 1980;8(2):79-86.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Tendon adaptation to sport-specific loading in adolescent athletes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cassel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Carlsohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Frohlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Riegels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mayer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="159" to="164" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cassel M, Carlsohn A, Frohlich K, John M, Riegels N, Mayer F. Ten- don adaptation to sport-specific loading in adolescent athletes. Int J Sports Med. 2016;37(2):159-164.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Physiological tendon thickness adaptation in adolescent elite athletes: a longitudinal study</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cassel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Intziegianni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Risch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Engel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mayer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">795</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cassel M, Intziegianni K, Risch L, Muller S, Engel T, Mayer F. Phys- iological tendon thickness adaptation in adolescent elite athletes: a longitudinal study. Front Physiol. 2017;8:795.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Sex-based differences in the tensile properties of the human anterior cruciate ligament</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chandrashekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mansouri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Slauterbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hashemi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="2943" to="2950" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chandrashekar N, Mansouri H, Slauterbeck J, Hashemi J. Sex-based differences in the tensile properties of the human anterior cruciate lig- ament. J Biomech. 2006;39(16):2943-2950.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Anterior cruciate ligament-injured subjects have smaller anterior cruciate ligaments than matched controls: a magnetic resonance imaging study</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Chaudhari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Zelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Flanigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Kaeding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Nagaraja</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1282" to="1287" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chaudhari AM, Zelman EA, Flanigan DC, Kaeding CC, Nagaraja HN. Anterior cruciate ligament-injured subjects have smaller anterior cru- ciate ligaments than matched controls: a magnetic resonance imag- ing study. Am J Sports Med. 2009;37(7):1282-1287.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Habitual loading results in tendon hypertrophy and increased stiffness of the human patellar tendon</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Couppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kongsgaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Aagaard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="805" to="810" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Couppe C, Kongsgaard M, Aagaard P, et al. Habitual loading results in tendon hypertrophy and increased stiffness of the human patellar tendon. J Appl Physiol. 2008;105(3):805-810.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Inter-machine reliability of the Biodex and Cybex isokinetic dynamometers for knee flexor/extensor isometric, concentric and eccentric tests</title>
+		<author>
+			<persName><forename type="first">Ribeiro</forename><surname>De Araujo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Alvares</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rodrigues</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>De Azevedo Franke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Ther Sport</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="59" to="65" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">de Araujo Ribeiro Alvares JB, Rodrigues R, de Azevedo Franke R, et al. Inter-machine reliability of the Biodex and Cybex isokinetic dynamometers for knee flexor/extensor isometric, concentric and eccentric tests. Phys Ther Sport. 2015;16(1):59-65.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Kasishke PR 2nd. An examination of the time course of training-induced skeletal muscle hypertrophy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Defreitas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Stock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Dillon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2785" to="2790" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">DeFreitas JM, Beck TW, Stock MS, Dillon MA, Kasishke PR 2nd. An examination of the time course of training-induced skeletal muscle hypertrophy. Eur J Appl Physiol. 2011;111(11):2785-2790.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Aggressive quadriceps loading can induce noncontact anterior cruciate ligament injury</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Demorat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Weinhold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Blackburn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chudik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Garrett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="477" to="483" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">DeMorat G, Weinhold P, Blackburn T, Chudik S, Garrett W. Aggres- sive quadriceps loading can induce noncontact anterior cruciate lig- ament injury. Am J Sports Med. 2004;32(2):477-483.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Quantitative in situ analysis of the anterior cruciate ligament: length, midsubstance cross-sectional area, and insertion site areas</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fujimaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Thorhauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smolinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tashman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="118" to="125" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fujimaki Y, Thorhauer E, Sasaki Y, Smolinski P, Tashman S, Fu FH. Quantitative in situ analysis of the anterior cruciate ligament: length, midsubstance cross-sectional area, and insertion site areas. Am J Sports Med. 2016;44(1):118-125.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Steep posterior tibial slope, anterior tibial subluxation, deep posterior lateral femoral condyle, and meniscal deficiency are common findings in multiple anterior cruciate ligament failures: an MRI case-control study</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Grassi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Macchiarola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Urrizola</forename><surname>Barrientos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="285" to="295" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grassi A, Macchiarola L, Urrizola Barrientos F, et al. Steep posterior tibial slope, anterior tibial subluxation, deep posterior lateral femoral condyle, and meniscal deficiency are common findings in multiple anterior cruciate ligament failures: an MRI case-control study. Am J Sports Med. 2019;47(2):285-295.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Hypertrophied cruciate ligament in high performance weightlifters observed in magnetic resonance imaging</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Grzelak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Podgorski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Stefanczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krochmalski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Domzalski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Orthop</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1715" to="1719" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grzelak P, Podgorski M, Stefanczyk L, Krochmalski M, Domzalski M. Hypertrophied cruciate ligament in high performance weightlifters observed in magnetic resonance imaging. Int Orthop. 2012;36(8):1715- 1719.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Age, sex, body anthropometry, and ACL size predict the structural properties of the human anterior cruciate ligament</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hashemi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mansouri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chandrashekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Slauterbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Hardy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Beynnon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="993" to="1001" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hashemi J, Mansouri H, Chandrashekar N, Slauterbeck JR, Hardy DM, Beynnon BD. Age, sex, body anthropometry, and ACL size pre- dict the structural properties of the human anterior cruciate ligament. J Orthop Res. 2011;29(7):993-1001.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Side-to-side differences in anterior cruciate ligament volume in healthy control subjects</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Jamison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Flanigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Nagaraja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Chaudhari</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="576" to="578" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jamison ST, Flanigan DC, Nagaraja HN, Chaudhari AM. Side-to-side differences in anterior cruciate ligament volume in healthy control subjects. J Biomech. 2010;43(3):576-578.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Region specific patellar tendon hypertrophy in humans following resistance training</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kongsgaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Reitelseder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Pedersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol (Oxf)</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="111" to="121" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kongsgaard M, Reitelseder S, Pedersen TG, et al. Region specific patellar tendon hypertrophy in humans following resistance training. Acta Physiol (Oxf). 2007;191(2):111-121.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Patellar tendon morphology in volleyball athletes with and without patellar tendinopathy</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kulig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Landel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="81" to="e88" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kulig K, Landel R, Chang YJ, et al. Patellar tendon morphology in vol- leyball athletes with and without patellar tendinopathy. Scand J Med Sci Sports. 2013;23(2):e81-e88.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The importance of quadriceps and hamstring muscle loading on knee kinematics and in-situ forces in the ACL</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Rudy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sakane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kanamori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Woo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="395" to="400" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Li G, Rudy TW, Sakane M, Kanamori A, Ma CB, Woo SL. The impor- tance of quadriceps and hamstring muscle loading on knee kinemat- ics and in-situ forces in the ACL. J Biomech. 1999;32(4):395-400.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The development of the anterior cruciate ligament in the paediatric population</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Lima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Debieux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Astur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Knee Surg Sports Traumatol Arthrosc</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="3354" to="3363" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lima FM, Debieux P, Astur DC, et al. The development of the anterior cruciate ligament in the paediatric population. Knee Surg Sports Traumatol Arthrosc. 2019;27(10):3354-3363.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Age of onset of a normally timed pubertal growth spurt affects the final height of children</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Limony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Koziel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Friger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pediatr Res</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="351" to="355" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Limony Y, Koziel S, Friger M. Age of onset of a normally timed puber- tal growth spurt affects the final height of children. Pediatr Res. 2015;78(3):351-355.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Morphologic characteristics help explain the gender difference in peak anterior cruciate ligament strain during a simulated pivot landing</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Lipps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Oh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ashton</forename><forename type="middle">-</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Wojtys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="32" to="40" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lipps DB, Oh YK, Ashton-Miller JA, Wojtys EM. Morphologic charac- teristics help explain the gender difference in peak anterior cruciate ligament strain during a simulated pivot landing. Am J Sports Med. 2012;40(1):32-40.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Smaller anterior cruciate ligament diameter is a predictor of subjects prone to ligament injuries: an ultrasound study</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Mahajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chandra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Negi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Jayaram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Hussein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed Res Int</title>
+		<imprint>
+			<biblScope unit="page">845689</biblScope>
+			<date type="published" when="2015">2015. 2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mahajan PS, Chandra P, Negi VC, Jayaram AP, Hussein SA. Smaller anterior cruciate ligament diameter is a predictor of subjects prone to ligament injuries: an ultrasound study. Biomed Res Int. 2015;2015:845689.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Anabolic and catabolic pathways regulating skeletal muscle mass</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Mccarthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Esser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Clin Nutr Metab Care</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="230" to="235" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McCarthy JJ, Esser KA. Anabolic and catabolic pathways regulating skeletal muscle mass. Curr Opin Clin Nutr Metab Care. 2010;13(3):230-235.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Spreadsheet to perform Benjamini-Hochberg procedure</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<ptr target="http://www.biostathandbook.com/benjaminihochberg.xls" />
+		<imprint>
+			<date type="published" when="2015-07-20">July 20. 2015. February 25, 2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McDonald JH. Spreadsheet to perform Benjamini-Hochberg proce- dure. Updated July 20, 2015. Accessed February 25, 2020. http:// www.biostathandbook.com/benjaminihochberg.xls</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Muscle and tendon adaptation in adolescent athletes: a longitudinal study</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mersmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bohm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schroll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Boeth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Duda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Arampatzis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="75" to="82" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mersmann F, Bohm S, Schroll A, Boeth H, Duda GN, Arampatzis A. Muscle and tendon adaptation in adolescent athletes: a longitudinal study. Scand J Med Sci Sports. 2017;27(1):75-82.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Gender differences in knee kinematics and muscle activity during single limb drop landing</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nagano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Akai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukubayashi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Knee</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="218" to="223" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nagano Y, Ida H, Akai M, Fukubayashi T. Gender differences in knee kinematics and muscle activity during single limb drop landing. Knee. 2007;14(3):218-223.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Risk factors associated with non-contact anterior cruciate ligament injury: a systematic review</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Pfeifer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Beattie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Sacko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="575" to="587" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pfeifer CE, Beattie PF, Sacko RS, Hand A. Risk factors associated with non-contact anterior cruciate ligament injury: a systematic review. Int J Sports Phys Ther. 2018;13(4):575-587.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Alterations of protein turnover underlying disuse atrophy in human skeletal muscle</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">I</forename><surname>Glover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Rennie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="645" to="654" />
+			<date type="published" when="1985">1985. 2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Phillips SM, Glover EI, Rennie MJ. Alterations of protein turnover underlying disuse atrophy in human skeletal muscle. J Appl Physiol (1985). 2009;107(3):645-654.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Nonmodifiable risk factors for anterior cruciate ligament injury</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tuca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Cordasco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Pediatr</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="55" to="64" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Price MJ, Tuca M, Cordasco FA, Green DW. Nonmodifiable risk fac- tors for anterior cruciate ligament injury. Curr Opin Pediatr. 2017;29(1):55-64.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Cellular and molecular mechanisms of bone remodeling</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Raggatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Partridge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="issue">33</biblScope>
+			<biblScope unit="page" from="25103" to="25108" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Raggatt LJ, Partridge NC. Cellular and molecular mechanisms of bone remodeling. J Biol Chem. 2010;285(33):25103-25108.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Growth at puberty</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Rogol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Roemmich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Clark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Adolesc Health</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="192" to="200" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note>suppl</note>
+	<note type="raw_reference">Rogol AD, Roemmich JN, Clark PA. Growth at puberty. J Adolesc Health. 2002;31(6) (suppl):192-200.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Morphology of mouse anterior cruciate ligament-complex changes following exercise during pubertal growth</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Schlecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Ochocki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Nolan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Wojtys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ashton</forename><forename type="middle">-</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Res</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1910" to="1919" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schlecht SH, Martin CT, Ochocki DN, Nolan BT, Wojtys EM, Ashton- Miller JA. Morphology of mouse anterior cruciate ligament-complex changes following exercise during pubertal growth. J Orthop Res. 2019;37(9):1910-1919.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Early skeletal muscle hypertrophy and architectural changes in response to high-intensity resistance training</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">R</forename><surname>Seynnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Boer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Narici</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="368" to="373" />
+			<date type="published" when="1985">1985. 2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Seynnes OR, de Boer M, Narici MV. Early skeletal muscle hypertro- phy and architectural changes in response to high-intensity resis- tance training. J Appl Physiol (1985). 2007;102(1):368-373.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Training-induced changes in structural and mechanical properties of the patellar tendon are related to muscle hypertrophy but not to strength gains</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">R</forename><surname>Seynnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Erskine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Maganaris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="523" to="530" />
+			<date type="published" when="1985">1985. 2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Seynnes OR, Erskine RM, Maganaris CN, et al. Training-induced changes in structural and mechanical properties of the patellar ten- don are related to muscle hypertrophy but not to strength gains. J Appl Physiol (1985). 2009;107(2):523-530.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Combined anatomic factors predicting risk of anterior cruciate ligament injury for males and females</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Sturnick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Vacek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Desarno</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="839" to="847" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sturnick DR, Vacek PM, DeSarno MJ, et al. Combined anatomic fac- tors predicting risk of anterior cruciate ligament injury for males and females. Am J Sports Med. 2015;43(4):839-847.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Anterior cruciate ligament and intercondylar notch growth plateaus prior to cessation of longitudinal growth: an MRI observational study</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tuca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hayter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Potter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Marx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Knee Surg Sports Traumatol Arthrosc</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="780" to="787" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tuca M, Hayter C, Potter H, Marx R, Green DW. Anterior cruciate lig- ament and intercondylar notch growth plateaus prior to cessation of longitudinal growth: an MRI observational study. Knee Surg Sports Traumatol Arthrosc. 2016;24(3):780-787.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Bone morphology and morphometry of the lateral femoral condyle is a risk factor for ACL injury</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vasta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Andrade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pereira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Knee Surg Sports Traumatol Arthrosc</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2817" to="2825" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vasta S, Andrade R, Pereira R, et al. Bone morphology and mor- phometry of the lateral femoral condyle is a risk factor for ACL injury. Knee Surg Sports Traumatol Arthrosc. 2018;26(9):2817-2825.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Elasticity and tensile strength of the anterior cruciate ligament in rabbits as influenced by training</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Viidik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol Scand</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="372" to="380" />
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Viidik A. Elasticity and tensile strength of the anterior cruciate liga- ment in rabbits as influenced by training. Acta Physiol Scand. 1968;74(3):372-380.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Association of anterior cruciate ligament width with anterior knee laxity</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Shultz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Schmitz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="460" to="465" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang HM, Shultz SJ, Schmitz RJ. Association of anterior cruciate lig- ament width with anterior knee laxity. J Athl Train. 2016;51(6):460-465.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Relationship between the risk of suffering a first-time noncontact ACL injury and geometry of the femoral notch and ACL: a prospective cohort study with a nested case-control analysis</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Whitney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Sturnick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Vacek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1796" to="1805" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Whitney DC, Sturnick DR, Vacek PM, et al. Relationship between the risk of suffering a first-time noncontact ACL injury and geometry of the femoral notch and ACL: a prospective cohort study with a nested case-control analysis. Am J Sports Med. 2014;42(8):1796-1805.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

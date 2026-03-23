@@ -1,0 +1,1611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Impact of Mental Fatigue on a Strength Endurance Task: Is There a Role for the Movement-Related Cortical Potential?</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Matthias</forename><surname>Proost</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Physical Education and Physiotherapy</orgName>
+								<orgName type="laboratory">Human Physiology and Sports Physiotherapy Research Group</orgName>
+								<orgName type="institution">Vrije Universiteit Brussel</orgName>
+								<address>
+									<settlement>Brussel</settlement>
+									<country>BELGIUM;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jelle</forename><surname>Habay</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Physical Education and Physiotherapy</orgName>
+								<orgName type="laboratory">Human Physiology and Sports Physiotherapy Research Group</orgName>
+								<orgName type="institution">Vrije Universiteit Brussel</orgName>
+								<address>
+									<settlement>Brussel</settlement>
+									<country>BELGIUM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">LIFE Department</orgName>
+								<orgName type="laboratory">Vital Signs and Performance Monitoring Research Unit</orgName>
+								<orgName type="institution">Royal Military Academy</orgName>
+								<address>
+									<settlement>Brussel</settlement>
+									<country>BELGIUM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Research Foundation Flanders (FWO)</orgName>
+								<address>
+									<settlement>Brussels</settlement>
+									<country>BELGIUM;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jonas</forename><surname>De Wachter</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Physical Education and Physiotherapy</orgName>
+								<orgName type="laboratory">Human Physiology and Sports Physiotherapy Research Group</orgName>
+								<orgName type="institution">Vrije Universiteit Brussel</orgName>
+								<address>
+									<settlement>Brussel</settlement>
+									<country>BELGIUM;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kevin</forename><surname>De Pauw</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Physical Education and Physiotherapy</orgName>
+								<orgName type="laboratory">Human Physiology and Sports Physiotherapy Research Group</orgName>
+								<orgName type="institution">Vrije Universiteit Brussel</orgName>
+								<address>
+									<settlement>Brussel</settlement>
+									<country>BELGIUM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">BruBotics</orgName>
+								<orgName type="institution" key="instit2">Vrije Universiteit Brussel</orgName>
+								<address>
+									<settlement>Brussels</settlement>
+									<country>BELGIUM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="institution">Institute for Kinesiology Research, Science and Research Centre Koper</orgName>
+								<address>
+									<settlement>Koper</settlement>
+									<country>SLOVENIA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Romain</forename><surname>Meeusen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Physical Education and Physiotherapy</orgName>
+								<orgName type="laboratory">Human Physiology and Sports Physiotherapy Research Group</orgName>
+								<orgName type="institution">Vrije Universiteit Brussel</orgName>
+								<address>
+									<settlement>Brussel</settlement>
+									<country>BELGIUM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">BruBotics</orgName>
+								<orgName type="institution" key="instit2">Vrije Universiteit Brussel</orgName>
+								<address>
+									<settlement>Brussels</settlement>
+									<country>BELGIUM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Health Sciences</orgName>
+								<orgName type="laboratory">Human Physiology and Sports Physiotherapy Research Group</orgName>
+								<orgName type="institution">Alma Mater Europaea-ECM</orgName>
+								<address>
+									<settlement>Maribor</settlement>
+									<country key="SI">SLOVENIA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sander</forename><surname>De Bock</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Physical Education and Physiotherapy</orgName>
+								<orgName type="laboratory">Human Physiology and Sports Physiotherapy Research Group</orgName>
+								<orgName type="institution">Vrije Universiteit Brussel</orgName>
+								<address>
+									<settlement>Brussel</settlement>
+									<country>BELGIUM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">BruBotics</orgName>
+								<orgName type="institution" key="instit2">Vrije Universiteit Brussel</orgName>
+								<address>
+									<settlement>Brussels</settlement>
+									<country>BELGIUM;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><roleName>Ph.D</roleName><forename type="first">Bart</forename><surname>Roelands</surname></persName>
+							<email>bart.roelands@vub.be.</email>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Physical Education and Physiotherapy</orgName>
+								<orgName type="laboratory">Human Physiology and Sports Physiotherapy Research Group</orgName>
+								<orgName type="institution">Vrije Universiteit Brussel</orgName>
+								<address>
+									<settlement>Brussel</settlement>
+									<country>BELGIUM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">BruBotics</orgName>
+								<orgName type="institution" key="instit2">Vrije Universiteit Brussel</orgName>
+								<address>
+									<settlement>Brussels</settlement>
+									<country>BELGIUM;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jeroen</forename><surname>Van Cutsem</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Physical Education and Physiotherapy</orgName>
+								<orgName type="laboratory">Human Physiology and Sports Physiotherapy Research Group</orgName>
+								<orgName type="institution">Vrije Universiteit Brussel</orgName>
+								<address>
+									<settlement>Brussel</settlement>
+									<country>BELGIUM;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">LIFE Department</orgName>
+								<orgName type="laboratory">Vital Signs and Performance Monitoring Research Unit</orgName>
+								<orgName type="institution">Royal Military Academy</orgName>
+								<address>
+									<settlement>Brussel</settlement>
+									<country>BELGIUM;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department">Faculty of Physical Education and Physiotherapy</orgName>
+								<orgName type="institution">Vrije Universiteit Brussel</orgName>
+								<address>
+									<addrLine>Pleinlaan 2</addrLine>
+									<postCode>1050</postCode>
+									<settlement>Brussel Belgium</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Impact of Mental Fatigue on a Strength Endurance Task: Is There a Role for the Movement-Related Cortical Potential?</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A5A8D918FC417755F7E578FB1253C1FE</idno>
+					<idno type="DOI">10.1249/MSS.0000000000003322</idno>
+					<note type="submission">Submitted for publication June 2023. Accepted for publication October 2023.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>RATINGS OF PERCEIVED EXERTION</term>
+					<term>SELF-REPORTED FEELING</term>
+					<term>LEG EXTENSION TASK</term>
+					<term>ELECTROENCEPHALOGRAPHY</term>
+					<term>COGNITIVE FATIGUE</term>
+					<term>ENDURANCE PERFORMANCE</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Purpose: Several mechanisms have been proposed to explain how mental fatigue degrades sport performance. In terms of endurance performance, a role for an increased perceived exertion has been demonstrated. Using electroencephalography and, more specifically, the movement-related cortical potential (MRCP), the present study explored the neural mechanisms that could underlie the mental fatigue-associated increase in perceived exertion. Methods: Fourteen participants (age, 23 ± 2 yr; 5 women, 9 men) performed one familiarization and two experimental trials in a randomized, blinded, crossover study design. Participants had to complete a submaximal leg extension task after a mentally fatiguing task (EXP; individualized 60-min Stroop task) or control task (CON; documentary). The leg extension task consisted of performing 100 extensions at 35% of 1 repetition maximum, during which multiple physiological (heart rate, electroencephalography) and subjective measures (self-reported feeling of mental fatigue, cognitive load, behand motivation, ratings of perceived exertion) were assessed. Results: Self-reported feeling of mental fatigue was higher in EXP (72 ± 18) compared with CON (37 ± 17; P &lt; 0.001). A significant decrease in flanker accuracy was detected only in EXP (from 0.96 ± 0.03% to 0.03%; P &lt; 0.05). No significant differences between conditions were found in MRCP characteristics and perceived exertion. Specifically in EXP, alpha wave power increased during the leg extension task ( P &lt; 0.01). Conclusions: Mental fatigue did not impact the perceived exertion or MRCP characteristics during the leg extension task. This could be related to low perceived exertion and/or the absence of a performance outcome during the leg extension task. The increase in alpha power during the leg extension task in EXP suggests that participants may engage a focused internal attention mechanism to maintain performance and mitigate feelings of fatigue.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I</head><p>n the last 10 yr, the topic of mental fatigue has gained attention in sports science <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b1">2)</ref>. It is described as a psychobiological state resulting from prolonged mental exertion that has the potential to negatively impact both sport-specific cognitive and physical performance <ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref><ref type="bibr" target="#b5">(6)</ref><ref type="bibr" target="#b6">(7)</ref><ref type="bibr" target="#b7">(8)</ref>. Several hypotheses and mechanisms have been proposed to elucidate how mental fatigue degrades performance capabilities <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10)</ref>. The proposed mechanisms vary based on the type of performance (e.g., sport-specific psychomotor performance and endurance performance) <ref type="bibr" target="#b4">(5,</ref><ref type="bibr" target="#b9">10)</ref>. In terms of endurance performance, Marcora et al. <ref type="bibr" target="#b10">(11)</ref> put forward that mental fatigue impairs endurance performance by increasing the perceived exertion without affecting any peripheral physiological measures linked with endurance performance (e.g., cardiac output and muscle fatigue). The role of perceived exertion in the mental fatigue-induced impairment in endurance performance has been further assessed and has been substantiated <ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b13">(14)</ref>, triggering the mechanistic question of how mental fatigue causes this increase in perceived exertion.</p><p>The rating of perceived exertion (RPE) is defined as the conscious feeling of how heavy and demanding a particular activity is <ref type="bibr" target="#b14">(15,</ref><ref type="bibr" target="#b15">16)</ref>, and Van Cutsem et al. <ref type="bibr" target="#b4">(5)</ref> proposed three different hypotheses of how mental fatigue could result in an increased perception of effort. One hypothesis suggests that the perception of effort is driven by afferent input from peripheral physiological systems. However, the consensus on this hypothesis is yet to be reached, as multiple studies have reported inconsistent results <ref type="bibr" target="#b4">(5,</ref><ref type="bibr" target="#b16">17)</ref>. A second hypothesis is the role of the neural copies originating from the central motor command (i.e., corollary discharges, the information sent from the (pre)motor areas to the sensory areas), of which the intensity might increase when one is mentally fatigued <ref type="bibr" target="#b10">(11,</ref><ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16)</ref>. Third, it is also suggested that an alteration in the processing of the neural signals in the brain (independent of whether they originate from the periphery or from corollary discharges of the central motor command) could be possible. Although there is ongoing debate, established evidence over the years shows that mental fatigue impacts the processing of neural signals in the brain <ref type="bibr" target="#b4">(5,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b14">15)</ref>. Despite this understanding, the precise mechanisms linking mental fatigue, perceived exertion ratings, and decreases in endurance performance capacity are still not fully understood. Further exploration in this area could further unravel these connections.</p><p>In the pursuit of elucidating the neural mechanisms underlying the association between mental fatigue and RPE, multiple studies have used electroencephalography (EEG) to monitor brain activity during physically demanding tasks while being mentally fatigued. Brownsberger et al. <ref type="bibr" target="#b17">(18)</ref> observed elevations in beta activity within the prefrontal cortex and a reduced self-selected cycling power during self-paced cycling exercise when mentally fatigued. Similarly, Pires et al. <ref type="bibr" target="#b18">(19)</ref> discovered a connection between alterations in prefrontal cortex activation and mental fatigue, resulting in a faster increase in RPE. Although both studies focused on the same brain region and type of EEG analysis (i.e., spectral band analysis), they did not fully elucidate the underlying mechanisms connecting RPE with mental fatigue. Even though spectral band analyses provide valuable insights, the complexity of brain activity prompts the need for a variety of analytical techniques to be used with EEG data <ref type="bibr" target="#b19">(20,</ref><ref type="bibr" target="#b20">21)</ref>. Moreover, mental fatigue has been connected to multiple brain regions other than the prefrontal cortex, such as the somatosensory association cortex (SAC) <ref type="bibr" target="#b21">(22)</ref> and the occipital lobe <ref type="bibr" target="#b22">(23)</ref>. Other promising EEG methods range from wavelet analysis to brain source localization to event-related potentials (ERP) analysis, each offering different perspectives on brain activity.</p><p>A specific type of ERP, known as the movement-related cortical potential (MRCP), shows particular promise for exploring the relationship between mental fatigue and physical performance. The MRCP is a negative-going ERP associated with movement onset, reflecting preparatory brain activity with consideration of temporal dynamics <ref type="bibr" target="#b23">(24)</ref><ref type="bibr" target="#b24">(25)</ref><ref type="bibr" target="#b25">(26)</ref><ref type="bibr" target="#b26">(27)</ref>. Comprising two primary components, the first component, the Bereitschaftspotential, emerges between 1500 and 500 ms before movement onset and is predominantly localized on the supplementary motor area. The second component, the negative slope, arises between 500 ms before movement onset and the movement onset itself and is more pronounced above the primary motor cortex (PMC) <ref type="bibr" target="#b24">(25,</ref><ref type="bibr" target="#b27">28)</ref>. The negative amplitude of the MRCP is often interpreted as an indication of the energy or effort required for planning the forthcoming movement, whereas the onset time of it may represent the duration necessary for movement planning and preparation <ref type="bibr" target="#b23">(24)</ref>. Given its relation to the central motor command, which represents the fundamental command originating from the brain to initiate muscle activation and facilitate physical performance, the MRCP holds considerable promise for explicating the connection between mental fatigue and endurance performance <ref type="bibr" target="#b12">(13)</ref>.</p><p>Building on this rationale, De Morree et al. <ref type="bibr" target="#b28">(29,</ref><ref type="bibr" target="#b29">30)</ref> demonstrated that perceived exertion during physical tasks, such as elbow flexions and isometric knee extensions, represented the conscious awareness of the central motor command. This command, originating from the premotor and motor areas, is then sent to the active muscles. Based on the findings of these studies <ref type="bibr" target="#b28">(29,</ref><ref type="bibr" target="#b29">30)</ref>, examining whether a mental fatigue-induced elevation in perceived exertion is associated with an impact on the central motor command would be highly interesting and would enable us to evaluate the second hypothesis that was put forward in the review of Van Cutsem et al. <ref type="bibr" target="#b4">(5)</ref>. Only one study has already attempted to investigate this specific research question. Jacquet et al. <ref type="bibr" target="#b30">(31)</ref> induced mental fatigue and investigated brain activation during a strength endurance task and observed an effect of mental fatigue on the amplitude of the MRCP, with an increased amplitude over time. However, the authors acknowledged that their results could have been confounded by exercise-induced fatigue, creating ambiguity regarding the mechanisms underlying mental fatigue, perceived exertion, and performance decline <ref type="bibr" target="#b30">(31)</ref>. Nevertheless, these results give valuable information on the possible electrophysiological link between mental and physical fatigue and are worthy to further investigate.</p><p>Given the intriguing yet inconclusive findings of previous studies, such as those conducted by De Morree et al. <ref type="bibr" target="#b28">(29,</ref><ref type="bibr" target="#b29">30)</ref> and Jacquet et al. <ref type="bibr" target="#b30">(31)</ref>, there remains a need for further investigating the neural mechanisms that could underlie the mental fatigue-associated increase in perceived exertion and decrease in performance. Therefore, the objective of the present study was to investigate whether the brain activity associated with the execution of a well-standardized, submaximal endurance leg extension task differs when this task is performed in a mentally fatigued state compared with in a nonmentally fatigued state. We hypothesized that mental fatigue would result in higher RPEs during the submaximal endurance leg extension task, and that these increased RPEs would be associated with an elevated central motor command and consequently an increased amplitude of the MRCP.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>Participants and ethical approval. Based on the effect size of the main effect of condition on RPE in the study of De Morree et al. <ref type="bibr" target="#b29">(30)</ref>, it was calculated (η p 2 = 0.44, effect size f = 0.89) that a sample size of seven would adequately provide the power to detect an RPE difference potentially linked to changes in MRCP. Fourteen healthy adult participants (5 ♀ and 9 ♂; age, 22.6 ± 2.3 yr; height, 1.75 ± 0.09 m; weight, 68.9 ± 12.0 kg; body mass index, 22.3 ± 3.3 kg•m -2 ; recreationally trained athletes in line with performance level: 2 for men, 3 for women;) volunteered for this study. Only those who met the criteria for inclusion, that is, performance level 2 or 3 for men according to De Pauw et al. <ref type="bibr" target="#b31">(32)</ref> and performance level 2 or 3 for women according to Decroix et al. <ref type="bibr" target="#b32">(33)</ref>, and who had not sustained a musculoskeletal injury in the 6 months before the trial were accepted. Participants also had to meet the following requirements before each experimental trial: (a) no strenuous exercise within the previous 24 h, (b) no consumption of caffeine-or alcohol-containing beverages within the previous 24 h, (c) ingestion of a comparable meal before each trial, and (e) must have slept for at least 7 h before each trial. Before the collection of experimental data, all participants signed the written informed consent form. The experimental methodology and procedures were approved by the UZ Brussel Medical Ethics Committee and the Vrije Universiteit Brussel Research Council (B.U.N. 1432020000270) and were registered on ClinicalTrials.gov (NCT04719975).</p><p>Experimental procedure. The study used a randomized, counterbalanced crossover design in which participants were unaware of the main objective of the experiment. Subjects were informed that the purpose was to examine the effect of a particular cognitive load on cognitive and physical tasks. After completing all trials, participants received a debriefing and an explanation of the study's true intent. Participants visited the laboratory on three distinct occasions, with the first session serving as a familiarization trial and the subsequent two visits as a control and intervention trial. The order of the control and experimental trials was randomized (<ref type="url" target="http://www.randomization.org">www.randomization.org</ref>) and counterbalanced, and both trials occurred at the same time of day (morning) and under thermoneutral conditions (18°C, 45% humidity). To guarantee full recovery, at least 3 d and no more than 10 d separated the control and experimental trials.</p><p>Familiarization trial. The familiarization trial involved two main parts. The first main part consisted of the explanation of the leg extension task and the determination of the weight, which would be used during the intervention trials. The leg extension task and its parameters were developed based on the studies of De Morree et al. <ref type="bibr" target="#b28">(29,</ref><ref type="bibr" target="#b29">30)</ref> and Jacquet et al. <ref type="bibr" target="#b30">(31)</ref> (see also the Leg extension task section for further details). To determine the individualized weight, participants executed leg extensions to determine the 1 repetition maximum (1RM). After a low-weight (15 kg) warm-up consisting of three sets of 10 repetitions of a leg extension on their dominant leg, a heavier weight (50, 55, or 60 kg depending on the participant's preference) was set. After this, the subject was then required to complete as many repetitions as possible until failure. Failure was defined as the inability to reach the designated leg height in two consecutive attempts. Afterward, the chosen weight and the executed number of repetitions were used in the Lombardi equation (repetition weight [reps(0.1)]) <ref type="bibr" target="#b33">(34)</ref>, and as such, 1RM was calculated. Thirty-five percent of the attained 1RM was then computed and rounded to the nearest multiple of five. During the intervention trials, this final number was defined as the ideal individual weight for the physical task. Afterward, further specifications of the leg extension task were also explained and executed (10 practice trials) as they should be performed in the intervention trials (see the Leg extension task section). Fi-nally, the Borg CR100 scale to rate the perceived exertion was introduced and thoroughly explained to the participant during rest as well as during the practice trials (see the Psychological assessment section for details).</p><p>The second part introduced the participants to the material, procedures, questionnaires, and cognitive tasks (to avoid learning effects). First, participants were familiarized with the various questionnaires (i.e., Pre-test checklist, Visual Analogue Scale for Mental Fatigue (M-VAS), Visual Analogue Scale for Sleepiness (S-VAS), Visual Analogue Scale for Boredom (B-VAS), and the NASA Task Load Index (NASA-TLX) (see the Psychological assessment section for further information)). Participants were then acquainted with the cognitive tasks (i.e., flanker task and Stroop task). To familiarize participants with the Stroop Task, the Stroop Max Test was used. Furthermore, this test was also used to evaluate the participant's maximal cognitive capacity and consequently to determine the individualized level of difficulty for the Stroop Task during the intervention trial (see the Experimental and Control Trial section; see Habay and Proost et al. ( <ref type="formula">9</ref>) for more information on the specific aspects of the Stroop Max Test). Briefly, the Stroop Max Test is a Stroop task where the difficulty is gradually increased over time by decreasing the stimulus presentation time (i.e., the test starts with a stimulus presentation of 1200 ms and decreases to 500 ms in 100-ms increments). The Stroop Max Test ends when the participant has made too many errors (i.e., three on that level or five in total), and the last level successfully completed is defined as the maximum performance level of that particular participant. Participants were also familiarized with the flanker task and were considered acquainted if their accuracy was more than 95% (see the Flanker task section for details).</p><p>Experimental and control trial. Only the 60-min intervention that was included differentiated the intervention from the control trial; for a visual overview, see Figure <ref type="figure" target="#fig_0">1</ref>. Upon entering the laboratory, participants were required to complete a first section of the various questionnaires (for an overview, see the Subjective assessment section) and were provided with a heart rate monitor (Polar SR 400) and connected to the EEG equipment (Acticap; Brain Products, Munich, Germany). After the EEG baseline measurement (2 min with eyes open followed by 2 min with eyes closed), participants completed a flanker task, followed by the intervention task (i.e., Stroop task; see the Mental fatigue inducing task section for details) or the control task (i.e., watching a documentary; see the Control task section for details). The participants then completed a second flanker task and finally the leg extension task (see the Leg extension task section for further explanation). Throughout the experiment, participants were required to complete several questionnaires at various points in time, as shown in Figure <ref type="figure" target="#fig_0">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS</head><p>Flanker task. During this task, which served as a behavioral manipulation check for mental fatigue, participants were required to reply as rapidly and precisely as possible to the orientation of the central arrow displayed on a computer screen, while disregarding the direction of the arrows on either side (e.g., &gt; &gt; &lt; &gt; &gt;). A total of 120 incongruent stimuli were shown (15 cycles of 8 stimuli) with a stimulus presentation time of 200 ms and an average interstimulus period of 1300 ms (being either 1000, 1200, 1400, or 1600 ms), resulting in a total task length of ~5 min <ref type="bibr" target="#b8">(9,</ref><ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b35">36)</ref>.</p><p>Mental fatigue inducing task. To induce mental fatigue in the experimental trial, a 60-min Stroop task was used. This task's instructions were identical to those of the Stroop Max Test, but the length and parameters were different. In this task, four distinct words indicating color ("red," "blue," "green," and "yellow") were displayed individually on a computer screen. Participants had the task of identifying the color that the word was shown in, disregarding the meaning of the word itself. However, if the displayed word was in red ink, the participant needed to press the button corresponding to the word's true meaning. A random selection of the word and its color (being 100% incongruent) was made, ensuring an equal distribution of all possible incongruent color-word pairings. The 60-min Stroop task consisted of the presentation of 1500 incongruent (i.e., different color compared with meaning) stimuli (4 blocks of 360 stimuli, 90 stimuli of each color) with the same presentation time as determined by the Stroop Max Test in the familiarization session. In between the four blocks of 360 stimuli, there were 15 stimuli that were disregarded for calculating the final performance accuracy and average reaction time. This allowed the researchers to verbally evaluate the subjective level of mental fatigue (see the Subjective assessment section) without affecting the overall performance on this task. Participants were unaware of these 15 stimuli blocks and received neither performance nor time-related feedback during the task <ref type="bibr" target="#b8">(9,</ref><ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b35">36)</ref>.</p><p>Control task. In the control trial, participants were instructed to watch a 60-min documentary entitled "Planet Earth" (BBC Worldwide, 2006) in comparable conditions as in the experimental trial (i.e., sitting comfortably on a chair in front of the screen). Participants were granted the freedom to select various chapters of the documentary based on their preferences. Analogous to the procedure during the Stroop task, the subjective level of mental fatigue was assessed verbally at 15-min intervals <ref type="bibr" target="#b8">(9)</ref>.</p><p>Leg extension task. The leg extension task was designed based on the work of De Morree et al. <ref type="bibr" target="#b28">(29,</ref><ref type="bibr" target="#b29">30)</ref> and Jacquet et al. <ref type="bibr" target="#b30">(31)</ref>. Before taking place on the device, the seat and back of the leg extension machine were adapted to the participant. These settings were determined during the familiarization trial and recreated in the experimental and control trial. To synchronize the EMG activity with the EEG data, bipolar silver chloride electrodes (Neuroline 700; Ambu, Ballerup, Denmark), with a recording diameter of 10-and 20-mm interelectrode distance, were placed on the dominant leg's vastus lateralis to measure EMG activity per SENIAM recommendations. The ipsilateral patella served as a reference electrode, and skin preparation involved shaving and cleaning with alcohol for minimal resistance. The leg extension task involved completing 100 repetitions (as recommended by Jacquet et al. ( <ref type="formula">31</ref>)) of a leg extension, commencing at a 90°knee flexion, extending to a 180°knee extension (marked by a line to ensure full completion of the leg extension), and returning to the starting position. The task was performed with an individualized weight, as determined during the familiarization trial (based on De Morree et al. <ref type="bibr" target="#b28">(29,</ref><ref type="bibr" target="#b29">30)</ref>). The pace at which these extensions were to be executed was provided by a light (Fitlight, <ref type="url" target="http://www.fitlighttraining.com">http://www.fitlighttraining.com</ref>) functioning as a metronome, positioned directly in front of the participants. They were instructed to extend their dominant leg as the light turned on and return to the starting position before it turned off. Participants had 2.5 s to perform the total movement, which was then followed by a 5.5-s rest period <ref type="bibr" target="#b30">(31)</ref>. After every 10 repetitions, a longer 30-s rest interval was provided, during which heart rate was measured, and participants reported their RPEs for the previous set of 10 contractions. A visual scale of the RPE was displayed in front of the participant. For a visual representation of the leg extension device and the neurophysiological recording setup, see Figure <ref type="figure" target="#fig_1">2</ref>.</p><p>Physiological assessment. Heart rate (bpm; Polar SR 400; Polar Electro Oy, Kempele, Finland) was measured throughout the entire trial and every 10 repetitions during the leg extension task. Before and after the leg extension task, both glucose concentration (in millimoles per liter; Bayer Contour Next USB Glucosemeter, Leverkusen, Germany) and lactate (in millimoles per liter; determined enzymatically; EKF; BIOSEN 5030, Magdeburg, Germany) concentration were measured at the index finger.</p><p>Subjective assessment. Subjective workload was measured using the NASA-TLX and was composed of six subscales assessing subjective workload of the past task. It was administered after the post-flanker task and after the leg extension task. The self-reported feeling of sleepiness was assessed <ref type="url" target="http://www.acsm-msse.org">http://www.acsm-msse.org</ref> using the S-VAS by asking "How are you feeling now?" where participants had to indicate this on a continuum ranging from "extremely alert" to "extremely sleepy. Impossible to stay awake." This scale was conducted at the start of the trial, after the post-flanker task and at the end of the trial. Furthermore, boredom was assessed using the B-VAS asking "How boring did you find this task?" in which participants had to indicate the self-reported feeling of boredom on a scale ranging from "totally not" to "extremely boring." The self-reported feeling of mental fatigue was also measured using the M-VAS, which assessed how mentally fatigued the participants were feeling at that specific moment, and ranged from "not at all mentally fatigued" to "extremely mentally fatigued." This scale was taken before and after both flanker tasks, during the 60-min task (verbally assessed), and before and after the leg extension task. Lastly, RPEs, using a CR100 scale, were assessed every 10 repetitions of the leg extension task. For this scale, participants were verbally asked "How heavy did the past effort feel?" which they had to indicate on a scale ranging from 0 ("no exertion") to 100 ("maximal exertion"), which was presented visually in front of them. The choice for the CR100 scale was made based on the several advantages in assessing perceived exertion for a submaximal endurance leg extension task <ref type="bibr" target="#b36">(37,</ref><ref type="bibr" target="#b37">38)</ref>. See Figure <ref type="figure" target="#fig_0">1</ref> for a more detailed overview of when each questionnaire was conducted.</p><p>EEG recordings. Brain activity of the participants was continuously measured by 32 active Ag/AgCl electrodes attached to their head (actiCAP; Brain Products GmbH) according to the "10:20 International System" (39) throughout all trials. During the recording, electrode impedance was kept less than 15 kΩ, and sampling rate was set at 1000 Hz (BrainVision Recorder; Brain Products GmbH). After data collection, BrainVision Analyzer (Brain Products GmbH) was used to preprocess and analyze the gathered EEG data. Regarding the data of the Stroop task and control task, sampling rate for the brain activity was first down-sampled to an 256-Hz, re-referenced to average and then filtered (high pass: 0.01 Hz, low pass: 45 Hz and Notch: 50 Hz, order: 8) using a Butterworth filter design. Afterward, the recording was di-vided into the different data sets of interest (i.e., first 10 min of the 60-min task and last 10 min of the 60-min task) in which artifacts were manually removed using raw data inspection. Subsequently, an independent component analysis and reverse independent component analysis were performed to further reduce periodically recurring artifacts. Regarding the data sets of the 60-min task, the continuous EEG data set was segmented in sets of 4 s with an overlap of 2 s. These segments were then tapered with a Hanning window of 10% of the total length of the segment. Afterward, a Fast Fourier transform with a spectral resolution of 0.25 Hz was used to extract spectral power data. To stabilize the spectral content, the segments were then averaged. At different regions of interest, that is, inferior/ orbitofrontal cortex (IOC), Broca's area (BA), dorsolateral prefrontal cortex (DPC), anterior prefrontal cortex (APC), premotor cortex (PC), primary motor cortex (PMC), somatosensory association cortex (SAC), angular gyrus (AG) and fusiform gyrus (FG), power of theta wave activity (4-8 Hz), and power of alpha wave activity (8-13 Hz) were extracted as described by Habay and Proost et al. <ref type="bibr" target="#b8">(9)</ref>.</p><p>For the leg extension data sets, six electrodes (i.e., Fp1, Fp2, T7, T8, TP9, and TP10) were removed from further analysis because of excessive noise in the channels, to avoid contamination of the remaining data. This resulted in a total of 26 remaining electrodes, which still adequately covered the regions of interest. After executing the same preanalyses using the same parameters as the analyses of the Stroop and control task, the leg extension task was segmented into two data sets: the first 50 repetitions and the last 50 repetitions. The EMG Onset Search solution (BrainVision Recorder; Brain Products) was used in each data set to identify the start of an EMG burst. Markers were placed based on this identification to facilitate segmentation (start: -2000 ms, end: 4000 ms) for MRCP detection. EMG activity was amplified with a bandwidth frequency ranging from 10 to 500 Hz (gain, 1000), digitized online at a sampling frequency of 1 kHz, and recorded with BrainVision Recorder (Brain Products) and as such synchronized with the EEG data. All segments were then baseline corrected with -2000 to -1500 ms and averaged over the first 50 repetitions or last 50 repetitions, respectively. Subsequently, a second Butterworth filter (low pass: 5 Hz and order 8) was used to focus on the frequency domains in which MRCPs are observed. The built-in peak detection tool from BrainVision Analyzer was used to extract maximal amplitude and latency of the MRCPs at Cz, and the results were extracted for statistical analysis. To quantify the extent of the MRCP activity, the data were exported to MATLAB (MathWorks, Natick, MA), and the area under the curve (AUC) was determined as integration over time. Lastly, the continuous EEG data of each data set were segmented in 4-s segments with an overlap of 2 s and processed in the same way as the data sets of the 60-min task to extract power of theta wave activity (4-8 Hz) and power of alpha wave activity (8-13 Hz) at DPC, PC, and PMC <ref type="bibr" target="#b8">(9)</ref>.</p><p>Statistical analysis. Statistical analyses were performed using the Statistical Package for the Social Sciences, version 28 (SPSS Inc., Chicago, IL). Data are presented as means ± SD. Normality was assessed using the Shapiro-Wilk test and visually confirmed with histograms and Q-Q plots. If data did not show normal distribution, nonparametric equivalents were applied. Mauchly's test verified sphericity, and when necessary, the Greenhouse-Geisser procedure corrected the F values' significance. Two-way repeated-measures (RM) ANOVA (2 Â 2) was used to evaluate the effects of condition (EXP vs CON) and time (PRE vs POST) on the M-VAS during the leg extension task, glucose and lactate concentration, average reaction time on the flanker task, and AUC of the MRCPs. Two-way RM ANOVAs (2 Â 3) examined the effects of condition and time (first to third measurements) on the S-VAS and RPEs (i.e., RPE1, RPE5, and RPE10) during the leg extension task. Another two-way RM ANOVA (2 Â 7) analyzed the effects of time and condition on the self-reported feeling of mental fatigue (using the M-VAS) and HR during the first part of the trial (HR 1-7 and M-VAS 1-7). The HR during the leg extension task was analyzed using a two-way RM ANOVA (2 Â 4) using four time points (HR7, HR8, HR12, and HR17) from both conditions. In the absence of interaction effects but a presence of main effects of condition and/or time, these were interpreted using the aforementioned statistical tests and Bonferroni corrections. Paired-samples t-tests were utilized to clarify the main effect of condition for B-VAS 1, B-VAS 2, the subscales tempo and effort of the NASA-TLX 2, and the subscales mental workload, tempo, and performance of the NASA-TLX 1. For all other measures (accuracy of the flanker task, power of theta and alpha wave activity of the leg extension task, latency and amplitude of the MRCPs during the leg extension task, and theta and alpha activity of the 60-min task) nonparametric equivalents Wilcoxon signed ranks test (for measures with two time points over the two conditions) and Friedman tests (for measures with more than two time points over the two conditions) were conducted. Partial eta square (η p 2 ) and Cohen's d served as effect sizes. Ranges for η p 2 were small, 0.01; medium, 0.06; and large, 0.14. Ranges for d were &lt;0.2, trivial; 0.2-0.6, small; 0.6-1.2, moderate; 1.2-2.0, large; and &gt;2.0, very large. The significance level was set at 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Manipulation Checks of Mental Fatigue</head><p>Subjective Self-reported feeling of mental fatigue (M-VAS 1-7). A significant interaction effect between time and condition was present (F(2.2,29.2) = 20.9, P &lt; 0.001, η p 2-= 0.616). Subjective mental fatigue increased over time both in EXP (F(2.0,26.4) = 52.5, P &lt; 0.001, η p 2 = 0.801) and CON (F(2.0,25.4) = 6.2, P = 0.007, η p 2 = 0.324; see Fig. <ref type="figure" target="#fig_2">3</ref>). Regarding condition, M-VAS was significantly higher in EXP compared with CON from M-VAS 3 (i.e., 15 min into the 60-min task) and onward ( P &lt; 0.001); see Fig. <ref type="figure" target="#fig_2">3</ref>).</p><p>Subjective workload (NASA-TLX 1). Regarding the post-flanker task, participants perceived a higher mental demand in EXP (79 ± 17) compared with CON (55 ± 20; t(13) = 3.6, P = 0.003, d = 0.954). Furthermore, participants also experienced to be less successful in their post-flanker cognitive performance in EXP (58 ± 22) compared with CON (44 ± 22; t(13) = 2.3, P = 0.042, d = 0.604). In addition, they perceived the need to exert greater effort (EXP = 70 ± 14, CON = 48 ± 17; Z = -3.1, P = 0.002). Lastly, the experienced frustration was also significantly higher in EXP (70 ± 24) than in CON (28 ± 18; Z = -3.2, P = 0.001). Regarding the subscales physical (EXP: 12 ± 14; CON: 13 ± 14; Z = -1.1, P = 0.256) and temporal demand (EXP: 50 ± 25; CON: 45 ± 23; t(13) = 0.536, P = 0.601, d = 0.143), no significant effect of condition was found.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sleepiness (S-VAS).</head><p>A main effect of time was found (F(2,26) = 8.7, P = 0.001, η p 2 = 0.400). The self-reported feeling of sleepiness significantly increased between the moment of entering the laboratory (S-VAS 1; 38 ± 20) and the moment of finishing the post-flanker task (S-VAS 2; 55 ± 23; P = 0.036). Subsequently, it significantly decreased from S-VAS 2 to S-VAS 3 (i.e., immediately after the leg extension task; S-VAS 3; 37 ± 15; P = 0.006). No effect of condition was present (F(2,26) = 0.3, P = 0.721, η p 2 = 0.025). Boredom (B-VAS 1). A significant difference between EXP and CON was found for the self-reported feeling of boredom after the 60-min task (t(13) = 3.5, P = 0.004, d = 0.925). In EXP, the mean score was 69 ± 27, whereas in CON, this was 35 ± 17.</p><p>Behavioral (flanker task). Nonparametric testing revealed a significant effect of time only in EXP (Z = -2.0, P = 0.045), indicating that accuracy in the pre-flanker task (0.96 ± 0.03%) was higher compared with the accuracy in the post-flanker task (0.94 ± 0.03%) in EXP. For reaction time, no significant interaction or main effect of time or condition (F(1,13) ≤ 3.5, P ≥ 0.085, η p 2 ≤ 0.211) was found (preflanker task: 389 ± 43 ms; post-flanker task: 385 ± 40 ms).</p><p>Neurophysiological (spectral band activity) Power of theta wave activity (4-8 Hz). No significant effect of time (theta wave activity in the first 10 min of the 60-min task compared with the last 10 min of theta wave activity) or condition (EXP compared with CON) was found for the IOC, BA, DPC, APC, PMC, SAC, AG, and FG (Z ≥ -1.8, P ≥ 0.074). Only within the PC, a significant difference for condition was found in the theta wave activity in the first 10 min of the 60-min task (Z = -2.2, P = 0.03) where the power of the theta wave activity in EXP (0.20 ± 0.21 μV 2 ) was higher compared with CON (0.13 ± 0.13 μV 2 ).</p><p>Power of alpha wave activity <ref type="bibr" target="#b7">(8)</ref><ref type="bibr" target="#b8">(9)</ref><ref type="bibr" target="#b9">(10)</ref><ref type="bibr" target="#b10">(11)</ref><ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref>. No significant effect of time or condition was found for IOC, BA, DPC, PC, SAC, PMC, AG, and FG (Z ≥ -1.9, P ≥ 0.064). However, a significant difference was found for time in the APC (Z = -2.2, P = 0.026), where power of alpha wave activity was higher in EXP in the last 10 min of the 60-min task (1.07 ± 1.53 μV 2 ) compared with the first 10 min of the 60-min task (0.59 ± 0.87 μV 2 ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The Effect of Mental Fatigue during the Leg Extension Task</head><p>Subjective parameters Self-reported feeling of mental fatigue (M-VAS 7-8). An interaction effect between time and condition (F(1,13) = 24.2, P &lt; 0.001, η p 2-= 0.650) was observed. In terms of the effect of time, posthoc paired sample t-tests showed a significant decrease in M-VAS from pre to post the leg extension task, both in EXP (M-VAS 7 = 72 ± 18; M-VAS 8 = 33 ± 20; t(13) = 6.5, P &lt; 0.001, d = 1.7) and in CON (M-VAS 7 = 37 ± 17; M-VAS 8 = 23 ± 16; t(13) = 2.8, P = 0.014, d = 0.8). Regarding an effect of condition, a higher M-VAS score was observed in EXP (72 ± 18) than in CON (37 ± 17) right before starting the leg extension task (i.e., M-VAS 7; t(13) = 7.1, P &lt; 0.001, d = 1.891) but not after (i.e., M-VAS 8; t(13) = 1.5, P = 0.162, d = 0.396). See Figure <ref type="figure" target="#fig_3">4</ref> for an overview.</p><p>Ratings of perceived exertion. No significant interaction effect (F(2,26) = 0.9, P = 0.407, η p 2 = 0.067) or main effect of condition (F(1,13) = 0.6, P = 0.443, η p 2 = 0.046) was present. Only a main effect of time was found (F(1.3,16.8) = 58.9, P &lt; 0.001, η p 2 = 0.8; see Fig. <ref type="figure" target="#fig_4">5</ref>). Boredom (B-VAS 2). Paired-samples t-test indicated no significant difference in the perceived boredom of the leg extension task between both conditions (EXP: 33 ± 21; CON: 33 ± 20; t(13) = 0.165, P = 0.871, d = 0.044).</p><p>Subjective workload (NASA-TLX 2). Upon administering the perceived workload during the leg extension task, a significant effect of condition was found for temporal workload (t(13) = -2.7, P = 0.017, d = -0.727), where tempo was higher in CON <ref type="bibr">(35 ± 16)</ref> in comparison to EXP <ref type="bibr">(26 ± 13)</ref>. Regarding the other subscales (i.e., mental workload, physical workload, performance, effort, and frustration), no effect of condition was found (Z ≥ -1.7, P ≥ 0.085).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(Neuro)Physiological Parameters</head><p>Brain activity Movement-related cortical potentials. Concerning the MRCP amplitude, no interaction effect was detected (F(1,13) = 0.9, P = 0.367, η p 2 = 0.063), nor were there any effects of time (comparing the first 50 repetitions to the last 50 repetitions) or condition. Similarly, for the latency of the MRCP peaks, no interaction effect was found (F(1,13)  = 1.7, P = 0.212, η p 2 = 0.117), nor were any effects of time or condition present. When looking at the AUC, no interaction (F(1,13) = 0.2, P = 0.684, η p 2 = 0.013) or main effect of condition was present (F(1,13) = 0.8, P = 0.387, η p 2 = 0.058), but a marginal nonsignificant main effect of time was found (F(1,13) = 4.5, P = 0.053, η p 2 = 0.259). See Figure <ref type="figure" target="#fig_5">6</ref> for visual presentation of the different grand averages and Table <ref type="table" target="#tab_0">1</ref> for values of the different outcomes.</p><p>Spectral band activity. No effect of condition or time was found for power of theta wave activity in DPC, PC, and PMC (F(1,12) ≤ 3.9, P ≥ 0.070, η p 2 ≤ 0.4). However, significant effects of time were found for power of alpha wave activity between the first 50 repetitions and the last 50 repetitions in EXP for the DPC, PC, and PMC. At the DPC, power values raised from 0.10 ± 0.09 μV 2 during the first 50 repetitions to 0.12 ± 0.11 μV 2 during the last 50 repetitions (Z = -2.7, P = 0.008). Similarly for the PC, values of power raised from 0.08 ± 0.07 μV 2 to 0.10 ± 0.10 μV 2 (Z = -2.7, P = 0.006). This was also the case at the PMC, where power of alpha wave activity raised from 0.14 ± 0.33 μV 2 to 0.21 ± 0.52 μV 2 (Z = -2.9, P = 0.004). See Table <ref type="table" target="#tab_0">1</ref> for values of the different outcomes.</p><p>Glucose concentration. Only a main effect of time was present (F(1,12) = 6.4, P = 0.027, η p 2 = 0.4). Glucose concentration decreased from pre (101 ± 2 mmol•L -1 ) to post (98 ± 2 mmol•L -1 ) leg extension task.</p><p>Lactate concentration. No interaction or main effect of time or condition (F(1,10) ≤ 3.8, P ≥ 0.080, η p 2 ≤ 0.275) was found for lactate concentration measured before (1.78 ± 0.20 mmol•L -1 ) and after (1.55 ± 0.15 mmol•L -1 ) the leg extension task. Heart rate. A main effect of time was observed (F(3,39) = 36.0, P &lt; 0.001, η p 2 = 0.735). Heart rate before the leg extension task was 71 ± 11 bpm in HR 7 and increased until the last measurement (HR 17, after the leg extension task) to 87 ± 16 bpm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>The primary aim of this study was to investigate whether mental fatigue would result in higher RPEs, reflected through an elevated central motor command and consequently an increased amplitude of the MRCP, during a submaximal leg extension task. The most important findings of our study are as follows: 1) the manipulation checks (i.e., higher M-VAS scores, a drop in flanker performance and increased power of alpha wave activity in the APC in the experimental condition) confirmed the successful induction of mental fatigue in the experimental condition; 2) perceived exertion during the submaximal strength task was not significantly impacted by mental fatigue; 3) no significant effects of mental fatigue were observed on MRCP amplitude, latency, or AUC, or power of theta wave activity during the leg extension task; 4) only in the experimental condition a significantly greater power of alpha wave activity was measured during the second 50 repetitions of the leg extension task compared with the first 50 repetitions; and 5) M-VAS scores decreased in both conditions by the end of the leg  extension task, with the decrease in the experimental group being so substantial that the scores were no longer significantly different between the experimental and control conditions.</p><p>Mental fatigue, perceived exertion, and motor-related cortical potential. Our findings demonstrate that mental fatigue did not influence multiple characteristics of MRCP (i.e., amplitude, latency, and AUC). However, this outcome does not come as a surprise, given the initial hypothesis suggesting that a mental fatigue-associated impact on RPEs would be linked with alterations in MRCP characteristics. In contrast to prior research demonstrating an elevation in RPEs due to mental fatigue during endurance tasks <ref type="bibr" target="#b2">(3,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b39">40)</ref>, the present study observed no such alterations in perceived exertion during the submaximal strength task. This discrepancy could explain why mental fatigue did not alter MRCP characteristics in this study.</p><p>Compared with the studies that did report a mental fatigueassociated increase in RPEs during an endurance task <ref type="bibr" target="#b2">(3,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b39">40)</ref>, the present study differed in terms of intensity of the endurance task. The choice for the specific strength endurance task was made based on a study of Jacquet et al. <ref type="bibr" target="#b30">(31)</ref> (i.e., to our best knowledge, the only other mental fatigue study that monitored MRCP characteristics). The authors provided compelling evidence to conclude that mental fatigue induced by prolonged motor imagery may alter the motor command required to perform imagined and actual contractions, yet they were unable to report an effect of mental fatigue on the MRCP amplitude. Jacquet et al. <ref type="bibr" target="#b30">(31)</ref> put forward that the absence of a mental fatigue-related impact on MRCP could be related to the confounding effects of exercise-induced fatigue on the MRCP amplitude. Therefore, in the current study, we sought to mitigate the influence of neuromuscular fatigue by using a submaximal task that was based on the studies of De Morree et al. <ref type="bibr" target="#b28">(29,</ref><ref type="bibr" target="#b29">30)</ref>. This study reported an association between the amplitude of the MRCP and RPEs (i.e., a caffeine-induced lower RPE was associated with a decreased MRCP amplitude <ref type="bibr" target="#b29">(30)</ref>), demonstrating the usefulness of this submaximal task to study the link between MRCP and perceived exertion. However, in the present study, the submaximal leg extension endurance task resulted in an average RPE of 35, which could be too low to maximize the chances of observing a mental fatigue-related impact on perceived exertion and maybe even too low to see a link between RPEs and MRCP <ref type="bibr" target="#b40">(41)</ref>. For example, in the present study, the RPEs showed a steady increase over time; however, no corresponding changes in time were observed in MRCP amplitude or latency. Moreover, the endurance task used in the present study did not incorporate any elements of performance motivation (e.g., complete the task as fast as possible, perform as many repetitions as possible within a given amount of time), which might be another task characteristic why no significant effect of mental fatigue on perceived exertion was observed <ref type="bibr" target="#b40">(41)</ref>.</p><p>Another potential explanation for the absence of an effect of mental fatigue on the RPEs during the leg extension task could be the use of a different scale for RPEs. In this study, the CR100 scale was used with the assumption that it would be more discriminatory, leading to the identification of smaller and more discrete differences. Although this holds true to some extent, it also poses the risk of requiring a higher number of measurements to achieve statistical significance <ref type="bibr" target="#b36">(37)</ref>. In the current study, 14 participants were included. Based on the sample size calculation, this was deemed sufficient to detect a difference in the RPE potentially linked to changes in MRCP. However, this number may have been insufficient to yield significant differences on the CR100 scale. This hypothesis is further substantiated by the fact that, visually, higher average RPEs can be observed in the mentally fatigued condition compared with the control condition during the leg extension task (see Fig. <ref type="figure" target="#fig_4">5</ref>). Moreover, the visually observable differences are of a similar magnitude to the significant differences reported in the study of <ref type="bibr">Marcora et al. (11)</ref>. A similar observation and interpretation was put forward in the study of Alix-Fages et al. <ref type="bibr" target="#b41">(42)</ref>. They also did not report a significant effect of mental fatigue on RPEs, despite using the CR10 scale, which is, like the CR100 scale, thought to be more discriminatory than the classical Borg RPE scale <ref type="bibr" target="#b36">(37)</ref>. Interestingly, as in the current study, visual inspection revealed higher RPEs in the intervention condition compared with the control condition.</p><p>Mental fatigue and EEG outcomes during a strength endurance task. Aside from a possible role for the MRCP in the mental fatigue-associated increase in perceived exertion, the present study also provides more insight in the direct effect of mental fatigue on EEG outcomes, that is, the motor-related cortical potential characteristics and spectral power.</p><p>Looking at both the self-reported level of mental fatigue and the motor-related cortical potential, a high level of interindividual variability is present (see also Table <ref type="table" target="#tab_0">1</ref>). For instance, several subjects did not report a self-reported feeling of mental fatigue exceeding 50 during the Stroop task, whereas others reported values greater than 90. Upon examining a similar increase between M-VAS 2 (just before the Stroop task) and M-VAS 7 (just before the leg extension task), notable differences can be found. For instance, subject 1's self-reported feeling of mental fatigue rose from 38 to 75 during the Stroop task, whereas for subject 2, it rose from 0 to 37. Despite this similar relative increase, their MRCP amplitudes during the first 50 repetitions were remarkably different (subject 1: -16.3 μV, subject 2: -3.2 μV). These results underline the interindividual variability mental fatigue-associated neurophysiological outcomes and the complex picture of mental fatigue and its effects. This aligns with recent findings reported by Habay et al. <ref type="bibr" target="#b42">(43)</ref>, who provided initial evidence that individual factors may play a crucial role in the manifestation of mental fatigue and in its impact on performance. Despite these large interindividual differences, a consistent pattern emerged across several subjects: self-reported mental fatigue decreased during the leg extension task and did not differ anymore between EXP and CON immediately after completing the physical task. This observation aligns with the review of Proost et al. <ref type="bibr" target="#b43">(44)</ref>, where two included studies identified a relieving effect of physical activity on mental fatigue. In the current study, it was found that, only in EXP, there was an increase in alpha power in the DPC, PC and PMC during the physical task. This was rather unexpected as an increase in alpha power usually serves as a neurophysiological marker of an increase in mental fatigue <ref type="bibr" target="#b44">(45)</ref><ref type="bibr" target="#b45">(46)</ref><ref type="bibr" target="#b46">(47)</ref> and not a decrease. Moreover, during the Stroop task in the experimental condition, no increase in alpha power was detected, whereas self-reported mental fatigue did increase. The increase in alpha power and decrease in self-reported mental fatigue during the physical task may be explained by a compensatory mechanism involving focused internal attention <ref type="bibr" target="#b47">(48)</ref>. Benedek et al. <ref type="bibr" target="#b47">(48)</ref> found that an increase in alpha power in the right parietal cortex was associated with a state of focused internal attention. Alpha power is often associated with a relaxed, wakeful state, and is thought to reflect the inhibition of irrelevant sensory input, allowing the individual to focus more effectively on the task at hand. However, as Tran et al. <ref type="bibr" target="#b44">(45)</ref> suggests, increases in alpha power may also be related to a higher degree of attention, potentially indicating a higher workload as opposed to mental fatigue <ref type="bibr" target="#b44">(45)</ref>. In the context of the present study, the increase in alpha power in EXP from the first 50 repetitions to the last 50, suggests that participants may have entered a state of focused internal attention to counter the effects of (mental) fatigue, which could be a strategy to maintain performance during the physical task, despite the presence of mental fatigue. In this study, it is possible that participants directed their attention internally, thereby blocking out irrelevant sensory input. This internal focus could potentially mitigate their self-reported feelings of fatigue. Therefore, it is important to note that an increase in alpha power-although typically an indicator of mental fatiguecould, in this context, reflect increased attention toward the task.</p><p>Future research. Although this study has provided some intriguing insights, future research has the potential to greatly expand our understanding of mental fatigue, physical exercise, and their interplay with perceived exertion. One clear area is the examination of the intensity of the endurance task and the inclusion of a real performance goal. This could provide more insight into how mental fatigue and perceived exertion interact during endurance performances. Moreover, further research should be mindful about the selection of the RPE scale. In the present study, the CR100 scale was used, noted for its increased discrimination and adaptability across different physical tasks. However, the choice of scale could introduce variability, necessitating a careful weighing of its advantages against this potential limitation. Lastly, future research should further investigate the degree of interindividual and intraindividual variability in responses to mental fatigue and evaluate a possible role of factors such as sex and, specifically for women, the menstrual cycle <ref type="bibr" target="#b48">(49)</ref>. This could potentially guide the development of countermeasures that are tailored to the individual, thereby improving their effectiveness.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>Mental fatigue was successfully induced, as evidenced by subjective, behavioral, and neurophysiological markers. However, contrary to the initial hypothesis, it was not found to significantly impact either the RPEs or the MRCP characteristics (i.e., amplitude, latency, and AUC) during a submaximal leg extension task. The absence of a mental fatigue-related impact could possibly be ascribed to specific methodological choices such as the inclusion of a low-intensity strength endurance task or the use of the CR100 scale for perceived exertion. The increase in alpha power during the leg extension task in EXP suggests that participants may engage a focused internal attention mechanism to maintain performance and mitigate feelings of fatigue. This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors. No conflict of interest is declared by the authors. The results of the study are presented clearly, honestly, and without fabrication, falsification, or inappropriate data manipulation. The results of the present study do not constitute endorsement by the American College of Sports Medicine.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIGURE 1 -</head><label>1</label><figDesc>FIGURE 1-Schematic representation of the experimental and control trials.</figDesc><graphic coords="4,126.20,37.87,332.61,115.37" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIGURE 2 -</head><label>2</label><figDesc>FIGURE 2-Participant positioned on the leg extension device, equipped with EEG and electromyography.</figDesc><graphic coords="5,169.29,37.87,246.46,168.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIGURE 3 -</head><label>3</label><figDesc>FIGURE 3-Effect of time and condition on the M-VAS measurements in all time points during the 60-min task. Graph lines represent means ± SD. *Significant difference between conditions ( P &lt; 0.001). §Main effect of time ( P &lt; 0.001).</figDesc><graphic coords="7,169.29,37.87,246.46,129.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>FIGURE 4 -</head><label>4</label><figDesc>FIGURE 4-M-VAS values before (M-VAS 7) and after (M-VAS 8) the leg extension task. Graph lines represent means ± SD. *Significant difference between conditions (P &lt; 0.001). §Significant main effect of time in both conditions ( P &lt; 0.05).</figDesc><graphic coords="7,169.29,553.38,246.46,129.43" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>FIGURE 5 -</head><label>5</label><figDesc>FIGURE 5-RPEs during the leg extension task. Graph lines represent means ± SD. §Significant main effect of time in both conditions ( P &lt; 0.001).</figDesc><graphic coords="8,169.29,37.87,246.46,129.43" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>FIGURE 6 -</head><label>6</label><figDesc>FIGURE 6-Grand averages of MRCPs of the first and last 50 repetitions between conditions. Lines represent means ± SD.</figDesc><graphic coords="8,126.20,547.54,332.61,144.23" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Bart</head><figDesc>Roelands is a Collen-Francqui research professor. The research foundation Flanders kindly supported this study through a PhD research grant awarded to Jelle Habay. Bart Roelands, Sander De Bock, Kevin De Pauw, and Romain Meeusen are members of the Strategic Research Program Exercise and the Brain in Health &amp; Disease: The Added Value of Human-Centered Robotics (SRP77). Uros Marusic gratefully acknowledges funding from the European Union's Horizon 2020 Research and Innovation Program under grant agreement no. 952401 (TwinBrain-TWINning the BRAIN with machine learning for neuro-muscular efficiency). The authors would also like to thank Chaïma Ahidar, Nora Appelmans, Nora Kemp, Isaline Pourtois, and the participants for their contribution to this study.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1 .</head><label>1</label><figDesc>Values of the different EEG outcomes during the leg extension task (mean ± SD).</figDesc><table><row><cell>Condition</cell><cell cols="2">EXP</cell><cell cols="2">CON</cell></row><row><cell>Repetitions</cell><cell>1-50</cell><cell>51-100</cell><cell>1-50</cell><cell>51-100</cell></row><row><cell>MRCP characteristics</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Amplitude, μV</cell><cell>-9.7 ± 4.4</cell><cell>-9.7 ± 6.1</cell><cell>-10.4 ± 7.3</cell><cell>-11.6 ± 6.1</cell></row><row><cell>Latency, ms</cell><cell cols="4">609.4 ± 212.4 657.7 ± 266.6 666.6 ± 380.6 615.8 ± 345.9</cell></row><row><cell>AUC, μV Â s</cell><cell cols="4">-23.5 ± 15.9 -19.7 ± 10.1 -28.3 ± 19.6 -22.9 ± 16.6</cell></row><row><cell>Spectral power activity</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Theta wave activity,</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>μV 2</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>DPC</cell><cell>0.15 ± 0.09</cell><cell>0.15 ± 0.09</cell><cell>0.22 ± 0.19</cell><cell>0.20 ± 0.13</cell></row><row><cell>PC</cell><cell>0.11 ± 0.07</cell><cell>0.11 ± 0.07</cell><cell>0.10 ± 0.06</cell><cell>0.09 ± 0.04</cell></row><row><cell>PMC</cell><cell>0.17 ± 0.32</cell><cell>0.18 ± 0.37</cell><cell>0.10 ± 0.06</cell><cell>0.10 ± 0.06</cell></row><row><cell>Alpha wave activity,</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>μV 2</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>DPC</cell><cell cols="3">0.10 ± 0.09* 0.13 ± 0.08* 0.12 ± 0.11</cell><cell>0.15 ± 0.10</cell></row><row><cell>PC</cell><cell cols="3">0.08 ± 0.07* 0.10 ± 0.10* 0.07 ± 0.05</cell><cell>0.08 ± 0.07</cell></row><row><cell>PMC</cell><cell cols="3">0.15 ± 0.33* 0.21 ± 0.52* 0.08 ± 0.05</cell><cell>0.08 ± 0.06</cell></row><row><cell cols="2">*Significant effect of time ( P &lt; 0.05).</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The physiological nature of mental fatigue: current knowledge and future avenues for sport science</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Roelands</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Habay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="149" to="150" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roelands B, Kelly V, Russell S, Habay J. The physiological nature of mental fatigue: current knowledge and future avenues for sport sci- ence. Int J Sports Physiol Perform. 2022;17(2):149-50.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The application of mental fatigue research to elite team sport performance: new perspectives</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jenkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Halson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kelly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sci Med Sport</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="723" to="728" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Russell S, Jenkins D, Smith M, Halson S, Kelly V. The application of mental fatigue research to elite team sport performance: new perspec- tives. J Sci Med Sport. 2019;22(6):723-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The effects of mental fatigue on sport performance: an update</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Cutsem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Marcora</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Motivation and Self-regulation in Sport and Exercise</title>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Englert</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="page" from="134" to="148" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Van Cutsem J, Marcora S. The effects of mental fatigue on sport perfor- mance: an update. In: Englert C, Taylor IM, editors. Motivation and Self-regulation in Sport and Exercise. New York: Routledge; 2021. pp. 134-48.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Effects of prior cognitive exertion on physical performance: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">Dmy</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">I</forename><surname>Innes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Flemington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Bray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="497" to="529" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brown DMY, Graham JD, Innes KI, Harris S, Flemington A, Bray SR. Effects of prior cognitive exertion on physical performance: a system- atic review and meta-analysis. Sports Med. 2020;50(3):497-529.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The effects of mental fatigue on physical performance: a systematic review</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Cutsem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Marcora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Pauw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Meeusen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Roelands</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+		<ptr target="http://www.acsm-msse.org" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1569" to="1588" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Van Cutsem J, Marcora S, De Pauw K, Bailey S, Meeusen R, Roelands B. The effects of mental fatigue on physical performance: a systematic review. Sports Med. 2017;47(8):1569-88. http://www.acsm-msse.org</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Cognitive fatigue effects on physical performance: a systematic review and metaanalysis</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mcmorris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Hale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dicks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Corbett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Behav</title>
+		<imprint>
+			<biblScope unit="volume">188</biblScope>
+			<biblScope unit="page" from="103" to="107" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McMorris T, Barwood M, Hale BJ, Dicks M, Corbett J. Cognitive fa- tigue effects on physical performance: a systematic review and meta- analysis. Physiol Behav. 2018;188:103-7.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Effects of acute fatigue on cognitive performance in team sport players: does it change the way they perform?</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Skala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zemková</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">A scoping review. Appl Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">1736</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Skala F, Zemková E. Effects of acute fatigue on cognitive perfor- mance in team sport players: does it change the way they perform? A scoping review. Appl Sci. 2022;12(3):1736.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Mental fatigue and physical and cognitive performance during a 2-bout exercise test</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vrijkotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Meeusen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vandervaeren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="510" to="516" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vrijkotte S, Meeusen R, Vandervaeren C, et al. Mental fatigue and physical and cognitive performance during a 2-bout exercise test. Int J Sports Physiol Perform. 2018;13(4):510-6.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Mental fatigue-associated decrease in table tennis performance: is there an electrophysiological signature?</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Habay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Proost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Wachter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Environ Res Public Health</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page">12906</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Habay J, Proost M, De Wachter J, et al. Mental fatigue-associated de- crease in table tennis performance: is there an electrophysiological signature? Int J Environ Res Public Health. 2021;18(24):12906.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Mental fatigue and sport-specific psychomotor performance: a systematic review</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Habay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Cutsem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Verschueren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1527" to="1548" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Habay J, Van Cutsem J, Verschueren J, et al. Mental fatigue and sport-specific psychomotor performance: a systematic review. Sports Med. 2021;51(7):1527-48.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Mental fatigue impairs physical performance in humans</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Marcora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Staiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Manning</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="857" to="864" />
+			<date type="published" when="1985">1985. 2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marcora SM, Staiano W, Manning V. Mental fatigue impairs physical performance in humans. J Appl Physiol (1985). 2009;106(3):857-64.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Cognitive tasks elicit mental fatigue and impair subsequent physical task endurance: effects of task duration and type</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Dallaway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sje</forename><surname>Lucas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ring</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychophysiology</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">14126</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dallaway N, Lucas SJE, Ring C. Cognitive tasks elicit mental fatigue and impair subsequent physical task endurance: effects of task dura- tion and type. Psychophysiology. 2022;59(12):e14126.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Mental fatigue impairs endurance performance: a physiological explanation</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Meeusen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Keegan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rattray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2041" to="2051" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martin K, Meeusen R, Thompson KG, Keegan R, Rattray B. Mental fatigue impairs endurance performance: a physiological explanation. Sports Med. 2018;48(9):2041-51.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Fatigue and human performance: an updated framework</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Behrens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gube</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chaabene</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="7" to="31" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Behrens M, Gube M, Chaabene H, et al. Fatigue and human perfor- mance: an updated framework. Sports Med. 2023;53(1):7-31.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Role of ratings of perceived exertion during self-paced exercise: what are we actually measuring?</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Abbiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Peiffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Meeusen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Skorski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1235" to="1243" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abbiss CR, Peiffer JJ, Meeusen R, Skorski S. Role of ratings of per- ceived exertion during self-paced exercise: what are we actually mea- suring? Sports Med. 2015;45(9):1235-43.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Mental fatigue induced by prolonged self-regulation does not exacerbate central fatigue during subsequent whole-body endurance exercise</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pageaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Marcora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Rozand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lepers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Hum Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">67</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pageaux B, Marcora SM, Rozand V, Lepers R. Mental fatigue induced by prolonged self-regulation does not exacerbate central fatigue during subse- quent whole-body endurance exercise. Front Hum Neurosci. 2015;9:67.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Pharmacological blockade of muscle afferents and perception of effort: a systematic review with meta-analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bergevin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Steele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Payen</forename><surname>Dela Garanderie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="415" to="435" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bergevin M, Steele J, Payen dela Garanderie M, et al. Pharmacolog- ical blockade of muscle afferents and perception of effort: a system- atic review with meta-analysis. Sports Med. 2023;53(2):415-35.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Impact of mental fatigue on self-paced exercise</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brownsberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Crowther</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cottrell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1029" to="1036" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brownsberger J, Edwards A, Crowther R, Cottrell D. Impact of mental fatigue on self-paced exercise. Int J Sports Med. 2013;34(12):1029-36.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Mental fatigue alters cortical activation and psychological responses, impairing performance in a distance-based cycling trial</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">O</forename><surname>Pires</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Silva-Júnior</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brietzke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">227</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pires FO, Silva-Júnior FL, Brietzke C, et al. Mental fatigue alters cor- tical activation and psychological responses, impairing performance in a distance-based cycling trial. Front Physiol. 2018;9:227.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Time-frequency analysis methods and their application in developmental EEG data</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Morales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Bowers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dev Cogn Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page">101067</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morales S, Bowers ME. Time-frequency analysis methods and their application in developmental EEG data. Dev Cogn Neurosci. 2022; 54:101067.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Measuring electrical activity in the brain during exercise: a review of methods, challenges, and opportunities</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bigliassi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Karageorghis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Nowicky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sport Exerc Psychol Rev</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="4" to="19" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bigliassi M, Wright MJ, Karageorghis CI, Nowicky AV. Measuring electrical activity in the brain during exercise: a review of methods, chal- lenges, and opportunities. Sport Exerc Psychol Rev. 2020;16(1):4-19.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<monogr>
+		<title level="m" type="main">A drop in cognitive performance, whodunit? Subjective mental fatigue, brain deactivation or increased parasympathetic activity? It&apos;s complicated! Cortex</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Cutsem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Van</forename><surname>Schuerbeek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pattyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="30" to="45" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Van Cutsem J, Van Schuerbeek P, Pattyn N, et al. A drop in cognitive per- formance, whodunit? Subjective mental fatigue, brain deactivation or in- creased parasympathetic activity? It&apos;s complicated! Cortex. 2022;155:30-45.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Neural mechanisms underlying state mental fatigue: a systematic review and activation likelihood estimation meta-analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Salihu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Hill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jaberzadeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rev Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="889" to="917" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Salihu AT, Hill KD, Jaberzadeh S. Neural mechanisms underlying state mental fatigue: a systematic review and activation likelihood es- timation meta-analysis. Rev Neurosci. 2022;33(8):889-917.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Using the movement-related cortical potential to study motor skill learning</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Holmes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mot Behav</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="193" to="201" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wright DJ, Holmes PS, Smith D. Using the movement-related cortical po- tential to study motor skill learning. J Mot Behav. 2011;43(3):193-201.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A review of techniques for detection of movement intention using movement-related cortical potentials</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shakeel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Navid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Anwar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mazhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jochumsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">K</forename><surname>Niazi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Math Methods Med</title>
+		<imprint>
+			<biblScope unit="volume">2015</biblScope>
+			<biblScope unit="page" from="346217" to="346220" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shakeel A, Navid MS, Anwar MN, Mazhar S, Jochumsen M, Niazi IK. A review of techniques for detection of movement intention using movement-related cortical potentials. Comput Math Methods Med. 2015;2015:346217-3.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Electroencephalographic recording of the movement-related cortical potential in ecologically valid movements: a scoping review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Olsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Alder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Williams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">721387</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Olsen S, Alder G, Williams M, et al. Electroencephalographic record- ing of the movement-related cortical potential in ecologically valid movements: a scoping review. Front Neurosci. 2021;15:721387.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Neural bases of age-related sensorimotor slowing in the upper and lower limbs</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Marusic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Peskar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Pauw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Aging Neurosci</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">819576</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marusic U, Peskar M, De Pauw K, et al. Neural bases of age-related sensorimotor slowing in the upper and lower limbs. Front Aging Neurosci. 2022;14:819576.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">What is the bereitschaftspotential?</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shibasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hallett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2341" to="2356" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shibasaki H, Hallett M. What is the bereitschaftspotential? Clin Neurophysiol. 2006;117(11):2341-56.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Perception of effort reflects central motor command during movement execution</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>De Morree</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Marcora</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychophysiology</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1242" to="1253" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">de Morree HM, Klein C, Marcora SM. Perception of effort reflects central motor command during movement execution. Psychophysiol- ogy. 2012;49(9):1242-53.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Cortical substrates of the effects of caffeine and time-on-task on perception of effort</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>De Morree</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Marcora</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1514" to="1523" />
+			<date type="published" when="1985">1985. 2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">de Morree HM, Klein C, Marcora SM. Cortical substrates of the ef- fects of caffeine and time-on-task on perception of effort. J Appl Physiol (1985). 2014;117(12):1514-23.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Mental fatigue induced by prolonged motor imagery increases perception of effort and the activity of motor areas</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jacquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lepers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Poulin-Charronnat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pfister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pageaux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychologia</title>
+		<imprint>
+			<biblScope unit="volume">150</biblScope>
+			<biblScope unit="page">107701</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jacquet T, Lepers R, Poulin-Charronnat B, Bard P, Pfister P, Pageaux B. Mental fatigue induced by prolonged motor imagery increases per- ception of effort and the activity of motor areas. Neuropsychologia. 2021;150:107701.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Guidelines to classify subject groups in sport-science research</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>De Pauw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Roelands</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Cheung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>De Geus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rietjens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Meeusen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="111" to="122" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">De Pauw K, Roelands B, Cheung SS, de Geus B, Rietjens G, Meeusen R. Guidelines to classify subject groups in sport-science re- search. Int J Sports Physiol Perform. 2013;8(2):111-22.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Guidelines to classify female subject groups in sport-science research</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Decroix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Pauw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meeusen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="204" to="213" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Decroix L, De Pauw K, Foster C, Meeusen R. Guidelines to classify female subject groups in sport-science research. Int J Sports Physiol Perform. 2016;11(2):204-13.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Validation of submaximal prediction equations for the 1 repetition maximum bench press test on a group of collegiate football players</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Whisenant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Panton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>East</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Broeder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="221" to="227" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Whisenant MJ, Panton LB, East WB, Broeder CE. Validation of sub- maximal prediction equations for the 1 repetition maximum bench press test on a group of collegiate football players. J Strength Cond Res. 2003;17(2):221-7.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Mental fatigue impairs visuomotor response time in badminton players and controls</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Cutsem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Pauw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Vandervaeren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Marcora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Meeusen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Roelands</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychol Sport Exerc</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page">101579</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Van Cutsem J, De Pauw K, Vandervaeren C, Marcora S, Meeusen R, Roelands B. Mental fatigue impairs visuomotor response time in bad- minton players and controls. Psychol Sport Exerc. 2019;45:101579.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Does mental fatigue negatively affect outcomes of functional performance tests?</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Verschueren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tassignon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Proost</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2002" to="2010" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Verschueren JO, Tassignon B, Proost M, et al. Does mental fatigue negatively affect outcomes of functional performance tests? Med Sci Sports Exerc. 2020;52(9):2002-10.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">A comparison between three rating scales for perceived exertion and two different work tests</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Borg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kaijser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="57" to="69" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Borg E, Kaijser L. A comparison between three rating scales for per- ceived exertion and two different work tests. Scand J Med Sci Sports. 2006;16(1):57-69.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Rating of perceived effort: methodological concerns and future directions</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Halperin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Emanuel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="679" to="687" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Halperin I, Emanuel A. Rating of perceived effort: methodological concerns and future directions. Sports Med. 2020;50(4):679-87.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Report of committee on methods of clinical exam in EEG</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jasper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electroencephalogr Clin Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="370" to="375" />
+			<date type="published" when="1958">1958</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jasper H. Report of committee on methods of clinical exam in EEG. Electroencephalogr Clin Neurophysiol. 1958;10(2):370-5.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Chapter 16-The effects of mental fatigue on sport-related performance</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pageaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lepers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Progress in Brain Research</title>
+		<editor>
+			<persName><forename type="first">S</forename><surname>Marcora</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Sarkar</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="page" from="291" to="315" />
+			<date type="published" when="2018">2018</date>
+			<publisher>Elsevier</publisher>
+			<pubPlace>Amsterdam (the Netherlands</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pageaux B, Lepers R. Chapter 16-The effects of mental fatigue on sport-related performance. In: Marcora S, Sarkar M, editors. Progress in Brain Research. Amsterdam (the Netherlands): Elsevier; 2018. pp. 291-315.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Effects of mental fatigue on strength endurance: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">Alix-Fages C</forename><surname>Grgic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jiménez</forename><surname>Martínez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Baz-Valle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Balsalobre-Fernández</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Motor Control</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="442" to="461" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alix-Fages C, Grgic J, Jiménez Martínez P, Baz-Valle E, Balsalobre- Fernández C. Effects of mental fatigue on strength endurance: a sys- tematic review and meta-analysis. Motor Control. 2022;27(2):442-61.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Mental fatigue impairs physical performance but not the neural drive to the muscle: a preliminary analysis</title>
+		<author>
+			<persName><forename type="first">Alix-Fages C</forename><surname>Jiménez-Martínez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>De Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Möck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Balsalobre-Fernández</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Del</forename><surname>Vecchio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1671" to="1684" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alix-Fages C, Jiménez-Martínez P, de Oliveira DS, Möck S, Balsalobre-Fernández C, Del Vecchio A. Mental fatigue impairs physical performance but not the neural drive to the muscle: a prelim- inary analysis. Eur J Appl Physiol. 2023;123(8):1671-84.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Interindividual variability in mental fatigue-related impairments in endurance performance: a systematic review and multiple meta-regression</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Habay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Uylenbroeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Van Droogenbroeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med Open</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">14</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Habay J, Uylenbroeck R, Van Droogenbroeck R, et al. Interindivid- ual variability in mental fatigue-related impairments in endurance performance: a systematic review and multiple meta-regression. Sports Med Open. 2023;9(1):14.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">How to tackle mental fatigue: a systematic review of potential countermeasures and their underlying mechanisms</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Proost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Habay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Wachter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2129" to="2158" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Proost M, Habay J, De Wachter J, et al. How to tackle mental fatigue: a systematic review of potential countermeasures and their underly- ing mechanisms. Sports Med. 2022;52(9):2129-58.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The influence of mental fatigue on brain activity: evidence from a systematic review with meta-analyses</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nguyen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychophysiology</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">13554</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tran Y, Craig A, Craig R, Chai R, Nguyen H. The influence of men- tal fatigue on brain activity: evidence from a systematic review with meta-analyses. Psychophysiology. 2020;57(5):e13554.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Applications of EEG indices for the quantification of human cognitive performance: a systematic review and bibliometric analysis</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Ismail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Karwowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PloS One</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">242857</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ismail LE, Karwowski W. Applications of EEG indices for the quan- tification of human cognitive performance: a systematic review and bibliometric analysis. PloS One. 2020;15(12):e0242857.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b46">
+	<analytic>
+		<title level="a" type="main">EEG power spectral measures of cognitive workload: a meta-analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chikhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Matton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Blanchet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychophysiology</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">e14009</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chikhi S, Matton N, Blanchet S. EEG power spectral measures of cognitive workload: a meta-analysis. Psychophysiology. 2022; 59(6):e14009.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Alpha power increases in right parietal cortex reflects focused internal attention</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Benedek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Schickel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Jauk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Neubauer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychologia</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">100</biblScope>
+			<biblScope unit="page" from="393" to="400" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Benedek M, Schickel RJ, Jauk E, Fink A, Neubauer AC. Alpha power increases in right parietal cortex reflects focused internal atten- tion. Neuropsychologia. 2014;56(100):393-400.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Mental fatigue does not substantially alter neuromuscular function in young, healthy males and females</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Kowalski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Tierney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Christie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Behav</title>
+		<imprint>
+			<biblScope unit="volume">253</biblScope>
+			<biblScope unit="page">113855</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kowalski KL, Tierney BC, Christie AD. Mental fatigue does not sub- stantially alter neuromuscular function in young, healthy males and females. Physiol Behav. 2022;253:113855.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Fatigue-Induced Hip-Abductor Weakness and Changes in Biomechanical Risk Factors for Running-Related Injuries</title>
+				<funder>
+					<orgName type="full">National Athletic Trainers&apos; Association, Inc www</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>PhD, LAT</roleName><forename type="first">Kara</forename><forename type="middle">N</forename><surname>Radzak</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Nevada</orgName>
+								<orgName type="institution" key="instit2">Las Vegas; †University of Hawaii</orgName>
+								<address>
+									<settlement>Manoa Honolulu</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Christopher</forename><forename type="middle">D</forename><surname>Stickley</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">University of Nevada</orgName>
+								<orgName type="institution" key="instit2">Las Vegas; †University of Hawaii</orgName>
+								<address>
+									<settlement>Manoa Honolulu</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Fatigue-Induced Hip-Abductor Weakness and Changes in Biomechanical Risk Factors for Running-Related Injuries</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BC62E85EC23CA6F4491548690AD7A965</idno>
+					<idno type="DOI">10.4085/1062-6050-531-19</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>knee overuse injuries</term>
+					<term>gait analysis</term>
+					<term>hipabductor strength</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Context: Despite overlap between hip-abductor (HABD) weakness and fatigue-induced changes in running, the interaction of these theorized contributors to running injuries has been underevaluated.</p><p>Objective: To assess the effects of a fatiguing run on HABD torque and evaluate the correlation between HABD torque and previously identified running-related injury pathomechanics while participants were rested or fatigued.</p><p>Design: Crossover study. Setting: Laboratory.</p><p>Patients or Other Participants: A total of 38 healthy, physically active males (age ¼ 21.61 6 4.02 years, height ¼ 1.78 6 0.08 m, body mass ¼ 76.00 6 12.39 kg).</p><p>Intervention(s): Data collection consisted of rested-state collection, a fatiguing treadmill-run protocol, and fatigued-state collection. For the HABD measures, side-lying handhelddynamometer isometric tests were performed and converted to torque using femur length. For the gait analysis, kinematic (240 Hz) and kinetic (960 Hz) running (4.0 m/s) data were collected for 3 trials. The fatigue protocol involved a graded exercise test and 80% VO 2 max run to exhaustion. Immediately after the run, fatigued-state measures were obtained.</p><p>Main Outcome Measure(s): Variables of interest were HABD torque and peak angles, velocities, and moments for hip and knee adduction and internal rotation. Differences between conditions were compared using paired t tests. Pearson correlation coefficients were calculated to evaluate relationships between HABD torque and biomechanical variables.</p><p>Results: Fatigue decreased HABD torque and increased hip-adduction angle, knee-adduction velocity, and hip and knee internal-rotation velocities and moments (all P values , .05). In the rested state, HABD torque was correlated with hip-adduction velocity (r ¼ -0.322, P ¼ .049). In the fatigued state, HABD torque was correlated with hip-adduction velocity (r ¼ -0.393, P ¼ .015), hip internal-rotation velocity (r ¼ -0.410, P ¼ .01), and knee-adduction angle (r ¼ 0.385, P ¼ .017) and velocity (r ¼ À0.378, P ¼ .019).</p><p>Conclusions: Changes in joint velocities due to fatigue and correlations between HABD torque and hip-and knee-joint velocities highlight the need to consider not only the quantity of HABD strength but also the rate of eccentric control of HABDs.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>U</head><p>p to 79% of people who participated in running for fitness or sport sustained a lower extremity overuse injury. <ref type="bibr" target="#b0">1</ref> In addition, populations who consistently incorporate running into their training programs, such as military members, commonly experience lower extremity overuse injuries. <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b3">[3]</ref><ref type="bibr" target="#b4">[4]</ref> Considering the popularity of running and the incorporation of running in physical training programs, the high incidence of overuse injuries has resulted in a substantial need for targeted rehabilitation and injury-prevention strategies. The development of an overuse, running-related injury is multifactorial in nature. <ref type="bibr" target="#b5">5</ref> A person's training, <ref type="bibr" target="#b6">6</ref> strength, <ref type="bibr" target="#b7">7</ref> biomechanical, <ref type="bibr" target="#b6">6,</ref><ref type="bibr" target="#b8">8,</ref><ref type="bibr" target="#b9">9</ref> and anatomical <ref type="bibr" target="#b6">6,</ref><ref type="bibr" target="#b9">9</ref> profiles have all been prospectively attributed to injury risk. Modifying training loads provides an easily accessible and direct route to influencing injury risk. However, altering training loads and mileage may not be feasible due to pending personal (eg, marathon entry) or professional (eg, military training) goals. Therefore, pathomechanics and intrinsic risk factors are often investigated as potential intervention points that would augment, or even supersede, training-load modifications. Sufficient strength of the hip abductors (HABDs), including the gluteus medius, gluteus minimus, and tensor fasciae latae, is required to maintain stability during the stance phase of gait. Thus, HABD strength has become an appealing target for rehabilitation and injury-prevention strategies. Motions eccentrically controlled by the HABDs have been established as biomechanical risk factors for lower extremity overuse injuries due to increased hip adduction, <ref type="bibr" target="#b10">10,</ref><ref type="bibr" target="#b11">11</ref> hip internal rotation, <ref type="bibr" target="#b12">12</ref> and knee internal rotation <ref type="bibr" target="#b11">11,</ref><ref type="bibr" target="#b13">13</ref> during running.</p><p>The role of HABD strengthening in addressing runningrelated overuse injuries is supported by retrospective findings of HABD weakness in injured participants compared with healthy control participants. <ref type="bibr" target="#b14">14,</ref><ref type="bibr" target="#b15">15</ref> Furthermore, HABD strengthening during rehabilitation has been shown to decrease patients' pain. <ref type="bibr" target="#b16">[16]</ref><ref type="bibr" target="#b17">[17]</ref><ref type="bibr" target="#b18">[18]</ref> However, the ability of HABD strengthening programs to produce beneficial biomechanical changes in the running gait is unclear. <ref type="bibr" target="#b19">19,</ref><ref type="bibr" target="#b20">20</ref> Additionally, patients with symptomatic iliotibial band syndrome did not demonstrate decreases in HABD strength compared with healthy control individuals. <ref type="bibr" target="#b21">21,</ref><ref type="bibr" target="#b22">22</ref> Although HABD strengthening may be an effective intervention for those with current lower extremity overuse injuries, its role in injury prevention remains largely theoretical and warrants further biomechanical evaluation.</p><p>Isokinetic HABD strength has been negatively correlated with hip-adduction range of motion during running in a healthy population, but no other associations with hip or knee biomechanical variables were found. <ref type="bibr" target="#b23">23</ref> Yet this evaluation was performed with participants in a rested state, <ref type="bibr" target="#b23">23</ref> despite running-related fatigue being a theorized factor in the development of overuse injury. <ref type="bibr" target="#b24">24</ref> Isolated fatigue of the HABDs increased frontal-plane hip excursion through loading and the knee-adduction and hip-abduction angles at initial contact during running and jumping tasks. <ref type="bibr" target="#b25">25</ref> Similarly, a fatiguing run influenced gait in ways that emulated the biomechanics of persons with decreased HABD strength. <ref type="bibr" target="#b26">26</ref> Therefore, the purpose of our study was to assess the effect of a fatiguing run on HABD torque and to evaluate correlations, in both rested and fatigued states, between HABD torque and gait mechanics previously associated with running-related injuries. We hypothesized that HABD torque would decrease after a fatiguing run and that gait variables previously associated with lower extremity overuse injury would be negatively correlated with HABD torque.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>College-aged males who were active participants in the university's Army Reserve Officers' Training Corps were recruited, as running is consistently used in physical training, and lower extremity overuse injuries are prevalent in this population. <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b8">8</ref> Before data collection, all participants underwent the informed consent process and signed the consent form approved by the university institutional review board, which also approved the study. All participants completed a brief questionnaire that assessed previous lower extremity injury and a medical history form, both of which were evaluated by an athletic trainer. All participants were considered healthy; those with a physician's orders prohibiting them from being involved in physical activity or who had undergone lower extremity surgery within the previous 6 months were excluded from the study. Only those in the low-risk group according to the American College of Sports Medicine Risk Stratification Categories (<ref type="url" target="https://www.acsm.org/blog-detail/acsm-">https://www.acsm.org/blog-detail/acsm-</ref>certified-blog/2019/11/11/acsm-risk-stratification-chart-download) were included in the study. All participants reported right-leg dominance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Protocol</head><p>A single data-collection session consisted of HABD testing and a biomechanical running analysis before and after a fatiguing run. All participants underwent the following sequence: (1) rested-state HABD testing, (2) rested-state running biomechanics, (3) fatiguing-run protocol, (4) fatigued-state running biomechanics, and (5) fatigued-state HABD testing. The data-collection procedures for HABD testing were identical for the rested and fatigued states. The data-collection procedures for running biomechanics were identical for the rested-and fatiguedstate gait analyses, except that participants ran, as opposed to walked, back to the starting position during the latter trials.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hip-Abductor Strength-Testing Procedures</head><p>All isometric HABD measures were collected by the same nonauthor researcher. Isometric HABD was measured in the right limb with the participant lying on his contralateral side with a pillow between the knees to align the hip in frontal-plane neutral position. <ref type="bibr" target="#b27">27</ref> A Microfet (Hogan Industries, Draper, UT) handheld dynamometer was placed on the lateral femoral epicondyle and secured with a nylon strap anchored to the testing table. <ref type="bibr" target="#b27">27</ref> Each individual was instructed to maximally abduct the hip against the dynamometer for 3 seconds. <ref type="bibr" target="#b19">19</ref> Five trials were performed: 2 initial practice trials and 3 data-collection trials. The force production during the final 3 trials was averaged for data analysis. <ref type="bibr" target="#b28">28</ref> A 30-second rest was allowed between trials. <ref type="bibr" target="#b27">27</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Running Biomechanics Procedures</head><p>Recruits wore their personal running shoes during data collection. Retroreflective markers were attached bilaterally on the thorax, pelvis, and lower extremity in accordance with previously published methods. <ref type="bibr" target="#b8">8</ref> A 3-dimensional motion-capture system situated along an 18-m runway and Nexus software (Vicon Motion Systems Ltd, Centennial, CO) were used to capture kinematic data. Kinetic data were recorded using a force platform (Advanced Mechanical Technology Inc, Watertown, MA) embedded flush with the runway. Kinetic data were collected at 960 Hz and time synchronized with kinematic data collected at 240 Hz.</p><p>A static calibration trial was conducted before the dynamic trials. Markers on the medial femoral condyles and medial malleoli were removed for the dynamic trials. Running data-collection trials began after the calibration trial, which enabled participants to become familiar with the collection procedures and running velocity. A trial was considered successful if the individual ran at the correct velocity (4.0 m/s 6 10%), as measured by Speedtrap II (Brower Timing Systems, Draper, UT) infrared sensors placed 4 m apart in the middle third of the runway, and landed with the entire foot on the force plate without apparent targeting. Data from 3 successful running trials were collected for the right limb. To assess exertion and fatigue, we obtained ratings of perceived exertion (RPEs) on the Borg scale and ratings of physical fatigue on the fatigue analog scale (FAS) before and after the running trials.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fatiguing-Run Protocol Procedures</head><p>After completing the rested-state running trials, participants began the fatiguing-run protocol, which consisted of a graded exercise test, 5-minute seated rest, and exhaustive run. The protocol was performed on a treadmill (model Quinton Medtrack T65; Cardiac Science Corp, Bothell, WA). Retroreflective markers on the shoes and anteriorsuperior iliac spines were removed for the treadmill protocol. Metabolic data were collected using a metabolic cart via open-circuit indirect calorimetry (model TrueOne 2400; ParvoMedics, Inc, Sandy, UT). Calibration was conducted before each data-collection session according to the manufacturer's instructions.</p><p>The treadmill protocol began with a speed-blinded modified Astrand graded exercise test (GXT) to determine maximum oxygen consumption ( VO 2 max). <ref type="bibr" target="#b29">29</ref> Standardized instructions were given before the GXT, with an emphasis on the importance of maximum effort. The GXT was stopped when the participant reached the point of volitional exhaustion, and VO 2 max was confirmed based on his meeting 1 of the following criteria: respiratory exchange ratio .1.15, plateau in maximum oxygen output with an increase in work rate, blood lactate .8 mmol, or RPE .17 on termination of the GXT. <ref type="bibr" target="#b29">29</ref> After the GXT, the individual rested while seated for 5 minutes; blood lactate was collected via finger prick during the final minute of the rest period. The RPE and FAS data were collected immediately at the point of volitional exhaustion on the GXT and after the 5-minute rest period.</p><p>After the seated rest, the breathing apparatus was refitted, and the participant began the exhaustive run at a speed calculated to elicit 80% of VO 2 max at a 1% grade. Metabolic data were collected during the first 3 minutes of the run to confirm attainment of 80% 6 5% VO 2 max. If this metabolic threshold was not met, the speed was increased until it was achieved, and then the breathing apparatus was removed. To gauge the individual's fatigue level, RPE and FAS measurements were collected during the exhaustive run at 5 minutes, the GXT time, twice the GXT time, and the end of the exhaustive run. Participants were encouraged to continue running at the prescribed treadmill speed for twice the length of the GXT or until each reported an RPE .17 or an FAS score .7, whichever came second. Those who met the RPE and FAS criteria but thought they could not maintain the running pace for twice the length of the GXT were allowed to decrease the pace, within a 5-8 mph (8-13 kph) range, as long as the RPE and FAS criteria were maintained until the time criterion was achieved. If the participant needed to discontinue due to volitional exhaustion, the exhaustive run was ended.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Fatigued-State Data Collection</head><p>Immediately after the fatiguing-run protocol, the retroreflective markers were replaced as needed, a static calibration trail was repeated, and data collection for the fatigued-state biomechanics began, followed by the isometric HABD measures. Collection of the fatigued-state running biomechanical, RPE, FAS, and isometric HABD measures was performed using the same methods as for the rested state, with the addition of running between gait trials. Water was available to each person during all aspects of data collection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Reduction and Statistical Analysis</head><p>Data from participants who did not meet at least 1 of the criteria for VO 2 max were excluded from analysis. The kinematic and kinetic data were filtered using a low-pass, fourth-order Butterworth filter with a 10-Hz cutoff frequency. Kinematic variables of interest were peak angles and velocities for hip adduction, hip internal rotation, knee adduction (varus), and knee internal rotation. Kinetic data used for joint moments were filtered before moment calculations. Kinetic variables of interest were peak hip and knee adduction and internal-rotation moments. All moments were expressed as external moments and normalized to body mass. Variables of interest were identified from each of the 3 successful trials, and an ensemble mean was used for analysis. Isometric HABD measures were normalized to body mass (N/kg) and then converted to torque (Nm/kg) by multiplying by the length of the lever arm. <ref type="bibr" target="#b17">17,</ref><ref type="bibr" target="#b28">28</ref> The lever arm was the distance (meters) from the greater trochanter to the lateral femoral epicondyle, where the dynamometer was placed. <ref type="bibr" target="#b28">28</ref> We analyzed the data using SPSS (version 24.0; IBM Corp, Armonk, NY) with the a level set a priori at P , .05. Differences in HABD torque, biomechanical variables, and the RPE and FAS measures between conditions (rested versus fatigued) were compared using paired t tests. Pearson correlation coefficients were calculated to evaluate correlations between (1) rested isometric HABD torque and rested biomechanical variables, (2) fatigued-state isometric HABD torque and fatigued-state biomechanical variables, and (3) percentage change in isometric HABD torque and the biomechanical variables due to fatigue.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>A total of 38 males successfully completed the study protocol, and their data were analyzed. Five participants terminated the exhaustive run due to volitional exhaustion, and the exhaustive runs of 33 participants were ended because the termination criteria outlined in the ''Methods'' were met. Participant demographics and data-collection metrics are reported in Table <ref type="table" target="#tab_0">1</ref>. Rested-and fatigued-state HABD torque and the biomechanical variables of interest are provided in Table <ref type="table" target="#tab_1">2</ref>. The HABD torque decreased from the rested to the fatigued state. Hip-adduction angle, hip internal-rotation velocity, hip internal-rotation moment, knee-adduction (varus) velocity, knee internal-rotation velocity, and knee internal-rotation moment increased from the rested to the fatigued state.</p><p>In the rested state, HABD torque was significantly correlated with maximum hip-adduction velocity (r ¼ À0.322, P ¼ .049). In the fatigued state (Figure ), HABD torque was correlated with maximum hip-adduction velocity (r ¼ -0.393, P ¼ .015), hip internal-rotation velocity (r ¼ -0.410, P ¼ .01), maximum knee-adduction (r ¼ 0.385, P ¼ .017), and maximum knee-adduction velocity (r ¼ -0.378, P ¼ .019). The percentage change in HABD torque was not significantly correlated (P ! .05) with the percentage change in any of the biomechanical variables.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>In healthy, physically active males, an exhaustive running bout at 80% of VO 2 max produced a 15% decrease in HABD torque. In addition, we observed fatigue-induced changes in biomechanical variables that were previously associated with running-related injury, <ref type="bibr" target="#b8">8,</ref><ref type="bibr" target="#b10">10,</ref><ref type="bibr" target="#b11">11</ref> including increased hip-adduction angle and knee-adduction (varus) and internal-rotation velocities. The fatigued state also elicited significant correlations that were not present during the rested state between HABD torque and the biomechanical variables of interest. Use of the fatigued state to uncover underlying, potentially injurious metrics is endorsed. Compared with control individuals, patients with iliotibial band syndrome displayed increased knee adduction after 30 minutes of running but not at the onset of running. <ref type="bibr" target="#b30">30</ref> Collectively, these findings support the need to evaluate theoretical frameworks for the development of running injuries in a fatigued state.</p><p>The influence of fatigue on HABD torque and, subsequently, the relationship between HABD torque and the biomechanical variables previously associated with running-related injury, were our primary interest in the current study. The decrease we noted in HABD torque (15%) was similar to that reported earlier after an exhaustive run (11%). <ref type="bibr" target="#b10">10</ref> Although HABD torque was correlated with peak hip adduction in participants with patellofemoral pain syndrome, <ref type="bibr" target="#b10">10</ref> we observed no correlation between these variables in our population of healthy males (rested state: r ¼ -0.263, P ¼ .10; fatigued state: r ¼ -0.189, P ¼ .24). Our findings support the healthy control group findings reported by Dierks et al <ref type="bibr" target="#b10">10</ref> (before a prolonged run: r ¼ 0.017, P ¼ .472; after a prolonged run: r ¼ 0.051, P ¼ .208). Thus, HABD weakness, which resulted from a fatiguing run in our investigation, was not related to the increased hipadduction angle. Similarly, Pohl et al <ref type="bibr" target="#b31">31</ref> demonstrated no compensatory patterns in walking after a nerve block to simulate HABD weakness. Previous associations between HABD weakness and hip adduction in those with runningrelated injuries may not have been due to muscle weakness alone; pain may be related to compensatory patterns for increased hip adduction, not strength. <ref type="bibr" target="#b21">21,</ref><ref type="bibr" target="#b22">22</ref> Muscle weakness and pain from lower extremity overuse injury occur over an extended period, allowing compensatory patterns to develop. <ref type="bibr" target="#b31">31,</ref><ref type="bibr" target="#b32">32</ref> Decreases in strength from fatigue may not persist long enough for compensatory patterns to develop, <ref type="bibr" target="#b31">31</ref> which may explain the absence of a correlation between HABD torque and hip-adduction angle in our research.</p><p>The only peak angle significantly correlated with HABD torque was knee adduction in the fatigued state (r ¼ 0.385, P ¼ .017); in contrast, Dierks et al 10 observed no relationship. However, different populations might have contributed to the contradictory findings, as Dierks et al 10 studied a mixed-sex population (5 males, 15 females). Movement patterns associated with running-related injuries have differed between sexes. <ref type="bibr" target="#b33">33,</ref><ref type="bibr" target="#b34">34</ref> Furthermore, knee adduction was greater in males with patellofemoral pain syndrome than in male control participants and females with patellofemoral pain syndrome. <ref type="bibr" target="#b34">34</ref> Our fatigued-state findings occurred in a healthy population; future investigators should continue to evaluate knee adduction in relation to running-related injury in males.</p><p>We assessed HABD torque in relation to not only the magnitude of movement (peak angle) but also the rate of movement (velocity). The relationship between HABD torque and velocities at the hip and knee was examined because prospective findings <ref type="bibr" target="#b8">8,</ref><ref type="bibr" target="#b35">35</ref> indicated that rate of motion may be a better variable for determining injury risk than joint angles alone. Hip-adduction velocity was significantly correlated with HABD torque in both the rested and fatigued states. In addition, knee adduction and hip internal-rotation velocity were negatively correlated with HABD torque. These results, in relation to evidence supporting the importance of the rate of movement in the development of running-related injuries,</p><p>8,35 have applications for clinical injury prevention. In a randomized, controlled trial, Toresdahl et al 36 evaluated how a homeexercise strength-training intervention influenced injury rates in first-time marathon participants. The study design allowed the effects of the intervention to be appropriately assessed because the strength-training and non-strengthtraining groups did not differ in training loads or finishing times. 36 Despite 12 weeks of strength training by the experimental group, no difference in injury rate was reported between groups. 36 Our findings suggest that the velocity of a task performed for injury-prevention purposes must be considered. Exercises performed in the Toresdahl et al 36 intervention were primarily focused on sagittal-plane movements (eg, squats, lunges, and single-legged toe touches) or isometric stability (eg, plank and side plank). Although additional work is needed to identify the role of HABD strength in running-related injury prevention, 37 clinicians should take into account both the magnitude and rate of force development when incorporating HABD strength training.</p><p>A primary limitation of our research was the use of isometric handheld dynamometry to evaluate HABD torque. During gait, the HABDs are required to act eccentrically to stabilize the pelvis. Thus, isometric measures may lack construct validity. <ref type="bibr" target="#b23">23,</ref><ref type="bibr" target="#b38">38</ref> Eccentric isokinetic measures may have more ecologic validity; however, we chose isometric testing due to its clinical utility. Significant correlations between HABD torque and joint velocities warrant further investigations using measures of eccentric HABD capabilities. Another measure of muscle performance that we did not explore but which may be related to injury is hip power. Authors 39 of a prospective investigation noted that decreased average hip externalrotator power predicted lower extremity injury in females; however, HABD peak torque was not predictive. Including only male participants may have been a further limitation of our study, yet because increasing evidence <ref type="bibr" target="#b33">33,</ref><ref type="bibr" target="#b34">34</ref> indicates that sex may play a role in pathomechanics, we excluded females. Future researchers should evaluate the effects of fatigue on HABD torque and gait mechanics in females and, ideally, should compare sexes.</p><p>In summary, we demonstrated that a fatiguing run resulted in decreased HABD torque and changes in biomechanical variables that were previously associated with running-related injury. The biomechanical variables increased by fatigue were hip adduction, knee-adduction (varus) velocity, and knee internal-rotation velocity. Although HABD torque and peak hip-adduction angle had earlier been associated with running-related injury and were negatively affected by fatigue in our analysis, no relationship between these variables was present. Our investigation was performed in healthy males, but our findings support the growing body of literature indicating that HABD weakness and increased hip-adduction angle during gait may be secondary to injury and not causal. The HABD torque was not correlated with peak hip adduction, yet it was associated with knee adduction in the fatigued state. This result may be unique due to our all-male population. Finally, changes in joint velocities due to fatigue and correlations between HABD torque and hipand knee-joint velocities highlight the clinical need to consider not only the quantity of HABD strength but also the quality of motion and eccentric control provided by the HABDs.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure .</head><label>.</label><figDesc>Figure. Significant correlations with hip-abductor torque in the fatigued state.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Participants' Descriptive Data (n ¼ 38)</figDesc><table><row><cell>Variable</cell><cell>Mean 6 SD</cell></row><row><cell>Age, y</cell><cell>21.61 6 4.02</cell></row><row><cell>Height, m</cell><cell>1.78 6 0.08</cell></row><row><cell>Body mass, kg</cell><cell>76.00 6 12.39</cell></row><row><cell>Body fat, %</cell><cell>13.18 6 5.70</cell></row><row><cell>Resting heart rate, beats/min</cell><cell>68.53 6 10.05</cell></row><row><cell>Femur length, m</cell><cell>0.41 6 0.03</cell></row><row><cell>VO 2 max, mL/kg/min</cell><cell>53.11 6 6.39</cell></row><row><cell>Blood lactate, mmol</cell><cell>12.53 6 2.50</cell></row><row><cell>Exhaustive run pace, mph</cell><cell>7.43 6 0.64</cell></row><row><cell>Time of exhaustive run, min:s</cell><cell>19:38 6 4:09</cell></row><row><cell>Rating of perceived exertion at run termination</cell><cell></cell></row><row><cell>(scale ¼ 6-20)</cell><cell>16.76 6 1.99</cell></row><row><cell>Rating of fatigue at run termination (scale ¼ 0-10)</cell><cell>7.66 6 1.40</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Differences Between Rested and Fatigued States (n ¼ 38)</figDesc><table><row><cell>State, Mean 6 SD</cell></row></table><note><p>a Different at the P , .05 level.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Downloaded from http://meridian.allenpress.com/jat/article-pdf/55/12/1270/2681396/i1062-6050-55-12-1270.pdf by guest on 01 July 2024</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Volume 55 Number 12 December 2020 Downloaded from http://meridian.allenpress.com/jat/article-pdf/55/12/1270/2681396/i1062-6050-55-12-1270.pdf by guest on 01 July 2024</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>This research was partially funded by a grant from the <rs type="institution">Far West Athletic Trainers' Association</rs>. We thank <rs type="person">Ms Katlin Michaels</rs> and <rs type="person">Bethany Wisthoff, PhD</rs>, ATC, for their assistance with data collection.</p></div>
+			</div>
+			<div type="funding">
+<div><p>Ó by the National Athletic Trainers' Association, Inc <ref type="url" target="www.natajournals.org">www.natajournals.org</ref> </p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Relation between running injury and static lower limb alignment in recreational runners</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Meeuwisse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Stergiou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Stefanyshyn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="576" to="580" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lun V, Meeuwisse WH, Stergiou P, Stefanyshyn D. Relation between running injury and static lower limb alignment in recreational runners. Br J Sports Med. 2004;38(5):576-580.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Patient and injury demographics of athletic training medical care for Reserve Officer Training Corps (ROTC): a report from the Athletic Training Practice-Based Research Network</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Radzak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Sufton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Timmons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lopp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Stickley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Lam</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>abstract</note>
+	<note type="raw_reference">Radzak K, Sufton JM, Timmons MK, Lopp R, Stickley CD, Lam KC. Patient and injury demographics of athletic training medical care for Reserve Officer Training Corps (ROTC): a report from the Athletic Training Practice-Based Research Network [abstract].</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">125</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>suppl</note>
+	<note type="raw_reference">J Athl Train. 2019;54(6 suppl):S-125.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<monogr>
+		<title level="m" type="main">The Cost of Basic Combat Training Injuries in the US Army: Injury-Related Medical Care and Risk Factors</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Bulzacchelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Sulsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barenberg</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<pubPlace>Amherst, MA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>US Army Research Institute of Environmental Medicine</orgName>
+		</respStmt>
+	</monogr>
+	<note type="raw_reference">Bulzacchelli MT, Sulsky SI, Zhu L, Brandt S, Barenberg A. The Cost of Basic Combat Training Injuries in the US Army: Injury- Related Medical Care and Risk Factors. Amherst, MA: US Army Research Institute of Environmental Medicine; 2017.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Military training-related injuries: surveillance, research, and prevention</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Kaufman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brodine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Shaffer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Prev Med</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="54" to="63" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note>suppl</note>
+	<note type="raw_reference">Kaufman KR, Brodine S, Shaffer R. Military training-related injuries: surveillance, research, and prevention. Am J Prev Med. 2000;18(3 suppl):54-63.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Etiology, prevention, and early intervention of overuse injuries in runners: a biomechanical perspective</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hreljac</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Med Rehabil Clin N Am</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="651" to="667" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hreljac A. Etiology, prevention, and early intervention of overuse injuries in runners: a biomechanical perspective. Phys Med Rehabil Clin N Am. 2005;16(3):651-667, vi.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<monogr>
+		<title level="m" type="main">A multifactorial approach to overuse running injuries: a 1-year prospective study. Sports Health</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Winter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Brice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lindsay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barrs</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page">1941738119888504</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Winter SC, Gordon S, Brice SM, Lindsay D, Barrs S. A multifactorial approach to overuse running injuries: a 1-year prospective study. Sports Health. 2020. doi:1941738119888504</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Association of isometric strength of hip and knee muscles with injury risk in high school cross country runners</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Luedke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Heiderscheit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Rauh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="868" to="876" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Luedke LE, Heiderscheit BC, Williams DS, Rauh MJ. Association of isometric strength of hip and knee muscles with injury risk in high school cross country runners. Int J Sports Phys Ther. 2015;10(6):868-876.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Dynamic varus and the development of iliotibial band syndrome</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Stickley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Presuto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Radzak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bourbeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Hetzler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="128" to="134" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stickley CD, Presuto MM, Radzak KN, Bourbeau CM, Hetzler RK. Dynamic varus and the development of iliotibial band syndrome. J Athl Train. 2018;53(2):128-134.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A 2-year prospective cohort study of overuse running injuries: The Runners and Injury Longitudinal Study (TRAILS)</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Messier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mihalko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2211" to="2221" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Messier SP, Martin DF, Mihalko SL, et al. A 2-year prospective cohort study of overuse running injuries: The Runners and Injury Longitudinal Study (TRAILS). Am J Sports Med. 2018;46(9):2211- 2221.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Proximal and distal influences on hip and knee kinematics in runners with patellofemoral pain during a prolonged run</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Dierks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Manal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hamill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="448" to="456" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dierks TA, Manal KT, Hamill J, Davis IS. Proximal and distal influences on hip and knee kinematics in runners with patellofem- oral pain during a prolonged run. J Orthop Sports Phys Ther. 2008;38(8):448-456.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Competitive female runners with a history of iliotibial band syndrome demonstrate atypical hip and knee kinematics</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ferber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Noehren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hamill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="52" to="58" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ferber R, Noehren B, Hamill J, Davis IS. Competitive female runners with a history of iliotibial band syndrome demonstrate atypical hip and knee kinematics. J Orthop Sports Phys Ther. 2010;40(2):52-58.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The role of proximal dynamic joint stability in the development of exertional medial tibial pain: a prospective study</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verrelst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Clercq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vanrenterghem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Willems</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Palmans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Witvrouw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="388" to="393" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Verrelst R, De Clercq D, Vanrenterghem J, Willems T, Palmans T, Witvrouw E. The role of proximal dynamic joint stability in the development of exertional medial tibial pain: a prospective study. Br J Sports Med. 2014;48(5):388-393.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">ASB Clinical Biomechanics Award Winner 2006: Prospective study of the biomechanical factors associated with iliotibial band syndrome</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Noehren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hamill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Biomech</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="951" to="956" />
+			<date type="published" when="2007">2007</date>
+			<pubPlace>Bristol, Avon)</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Noehren B, Davis I, Hamill J. ASB Clinical Biomechanics Award Winner 2006: Prospective study of the biomechanical factors associated with iliotibial band syndrome. Clin Biomech (Bristol, Avon). 2007;22(9):951-956.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Hip abductor weakness in distance runners with iliotibial band syndrome</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fredericson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Cookingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Chaudhari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Dowdell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Oestreicher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Sahrmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin J Sport Med</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="169" to="175" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fredericson M, Cookingham CL, Chaudhari AM, Dowdell BC, Oestreicher N, Sahrmann SA. Hip abductor weakness in distance runners with iliotibial band syndrome. Clin J Sport Med. 2000;10(3):169-175.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Hip muscle weakness and overuse injuries in recreational runners</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Niemuth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Thieman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin J Sport Med</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="14" to="21" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Niemuth PE, Johnson RJ, Myers MJ, Thieman TJ. Hip muscle weakness and overuse injuries in recreational runners. Clin J Sport Med. 2005;15(1):14-21.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The effects of isolated hip abductor and external rotator muscle strengthening on pain, health status, and hip strength in females with patellofemoral pain: a randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Khayambashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Mohammadkhani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ghaznavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Lyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Powers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="22" to="29" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Khayambashi K, Mohammadkhani Z, Ghaznavi K, Lyle MA, Powers CM. The effects of isolated hip abductor and external rotator muscle strengthening on pain, health status, and hip strength in females with patellofemoral pain: a randomized controlled trial. J Orthop Sports Phys Ther. 2012;42(1):22-29.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Hip strengthening prior to functional exercises reduces pain sooner than quadriceps strengthening in females with patellofemoral pain syndrome: a randomized clinical trial</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Dolak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Silkman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Medina</forename><surname>Mckeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hosey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Lattermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Uhl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="560" to="570" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dolak KL, Silkman C, Medina McKeon J, Hosey RG, Lattermann C, Uhl TL. Hip strengthening prior to functional exercises reduces pain sooner than quadriceps strengthening in females with patellofemoral pain syndrome: a randomized clinical trial. J Orthop Sports Phys Ther. 2011;41(8):560-570.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Changes in knee biomechanics after a hip-abductor strengthening protocol for runners with patellofemoral pain syndrome</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ferber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Farr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="142" to="149" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ferber R, Kendall KD, Farr L. Changes in knee biomechanics after a hip-abductor strengthening protocol for runners with patellofem- oral pain syndrome. J Athl Train. 2011;46(2):142-149.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The effect of a hip-strengthening program on mechanics during running and during a single-leg squat</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Willy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="625" to="632" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Willy RW, Davis IS. The effect of a hip-strengthening program on mechanics during running and during a single-leg squat. J Orthop Sports Phys Ther. 2011;41(9):625-632.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Resistance training is accompanied by increases in hip strength and changes in lower extremity biomechanics during running</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Snyder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Earl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Ebersole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Biomech</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="26" to="34" />
+			<date type="published" when="2009">2009</date>
+			<pubPlace>Bristol, Avon</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Snyder KR, Earl JE, O&apos;Connor KM, Ebersole KT. Resistance training is accompanied by increases in hip strength and changes in lower extremity biomechanics during running. Clin Biomech (Bristol, Avon). 2009;24(1):26-34.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Hip abductor weakness is not the cause for iliotibial band syndrome</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Krauss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Maiwald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Best</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Horstmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="579" to="583" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grau S, Krauss I, Maiwald C, Best R, Horstmann T. Hip abductor weakness is not the cause for iliotibial band syndrome. Int J Sports Med. 2008;29(7):579-583.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Associations between iliotibial band injury status and running biomechanics in women</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Foch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Reinbolt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Fitzhugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Milner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gait Posture</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="706" to="710" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Foch E, Reinbolt JA, Zhang S, Fitzhugh EC, Milner CE. Associations between iliotibial band injury status and running biomechanics in women. Gait Posture. 2015;41(2):706-710.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Reduced hip strength is associated with increased hip motion during running in young adult and adolescent male long-distance runners</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Taylor-Haas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hugentobler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Dicesare</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="456" to="467" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Taylor-Haas JA, Hugentobler JA, DiCesare CA, et al. Reduced hip strength is associated with increased hip motion during running in young adult and adolescent male long-distance runners. Int J Sports Phys Ther. 2014;9(4):456-467.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The effect of muscle fatigue on in vivo tibial strains</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Milgrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Radeva-Petrova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Finestone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="845" to="850" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Milgrom C, Radeva-Petrova DR, Finestone A, et al. The effect of muscle fatigue on in vivo tibial strains. J Biomech. 2007;40(4):845- 850.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Effects of isolated hip abductor fatigue on frontal plane knee mechanics</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Geiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Earl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="535" to="545" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Geiser CF, O&apos;Connor KM, Earl JE. Effects of isolated hip abductor fatigue on frontal plane knee mechanics. Med Sci Sports Exerc. 2010;42(3):535-545.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Asymmetry between lower limbs during rested and fatigued state running gait in healthy individuals</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Radzak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Putnam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Hetzler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Stickley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gait Posture</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="268" to="274" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Radzak KN, Putnam AM, Tamura K, Hetzler RK, Stickley CD. Asymmetry between lower limbs during rested and fatigued state running gait in healthy individuals. Gait Posture. 2017;51:268-274.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Frontal plane biomechanics in males and females with and without patellofemoral pain</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Nakagawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Moriya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Maciel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Serrao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1747" to="1755" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nakagawa TH, Moriya ET, Maciel CD, Serrao AF. Frontal plane biomechanics in males and females with and without patellofemoral pain. Med Sci Sports Exerc. 2012;44(9):1747-1755.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Experimentally reduced hip-abductor muscle strength and frontalplane biomechanics during walking</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Pohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Wiley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Emery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ferber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="385" to="391" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pohl MB, Kendall KD, Patel C, Wiley JP, Emery C, Ferber R. Experimentally reduced hip-abductor muscle strength and frontal- plane biomechanics during walking. J Athl Train. 2015;50(4):385- 391.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Advanced Fitness Assessment and Exercise Prescription</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">H</forename><surname>Heyward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gibson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>Human Kinetics</publisher>
+			<pubPlace>Champaign, IL</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Heyward VH, Gibson A. Advanced Fitness Assessment and Exercise Prescription. 7th ed. Champaign, IL: Human Kinetics; 2014.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Differences in knee and hip adduction and hip muscle activation in runners with and without iliotibial band syndrome</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Rauh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fredericson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Rosenthal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PM R</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1032" to="1039" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baker RL, Souza RB, Rauh MJ, Fredericson M, Rosenthal MD. Differences in knee and hip adduction and hip muscle activation in runners with and without iliotibial band syndrome. PM R. 2018;10(10):1032-1039.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Experimentally reduced hip-abductor muscle strength and frontalplane biomechanics during walking</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Pohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Wiley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Emery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ferber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="385" to="391" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pohl MB, Kendall KD, Patel C, Wiley JP, Emery C, Ferber R. Experimentally reduced hip-abductor muscle strength and frontal- plane biomechanics during walking. J Athl Train. 2015;50(4):385- 391.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Experimentally reduced hip abductor function during walking: Implications for knee joint loads</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Henriksen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aaboe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Simonsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Alkjaer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bliddal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1236" to="1240" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Henriksen M, Aaboe J, Simonsen EB, Alkjaer T, Bliddal H. Experimentally reduced hip abductor function during walking: Implications for knee joint loads. J Biomech. 2009;42(9):1236- 1240.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Gender differences in gait kinematics in runners with iliotibial band syndrome</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Phinyomark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Osis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Hettinga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Leigh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ferber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="744" to="753" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Phinyomark A, Osis S, Hettinga BA, Leigh R, Ferber R. Gender differences in gait kinematics in runners with iliotibial band syndrome. Scand J Med Sci Sports. 2015;25(6):744-753.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Are mechanics different between male and female runners with patellofemoral pain?</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Willy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Manal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Witvrouw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2165" to="2171" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Willy RW, Manal KT, Witvrouw EE, Davis IS. Are mechanics different between male and female runners with patellofemoral pain? Med Sci Sports Exerc. 2012;44(11):2165-2171.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A prospective study of iliotibial band strain in runners</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hamill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Noehren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Biomech</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1018" to="1025" />
+			<date type="published" when="2008">2008</date>
+			<pubPlace>Bristol, Avon</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hamill J, Miller R, Noehren B, Davis I. A prospective study of iliotibial band strain in runners. Clin Biomech (Bristol, Avon). 2008;23(8):1018-1025.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">A randomized study of a strength training program to prevent injuries in runners of the New York City Marathon</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Toresdahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mcelheny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Metzl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ammerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kinderknecht</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Health</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="74" to="79" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Toresdahl BG, McElheny K, Metzl J, Ammerman B, Chang B, Kinderknecht J. A randomized study of a strength training program to prevent injuries in runners of the New York City Marathon. Sports Health. 2020;12(1):74-79.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Is hip strength a risk factor for patellofemoral pain? A systematic review and metaanalysis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Rathleff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Rathleff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Crossley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Barton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page">1088</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rathleff MS, Rathleff CR, Crossley KM, Barton CJ. Is hip strength a risk factor for patellofemoral pain? A systematic review and meta- analysis. Br J Sports Med. 2014;48(14):1088.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Relationship between eccentric hip torque and lower-limb kinematics: gender differences</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baldon Rde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lobato</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Fm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Santiago</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Rp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Benze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">V</forename><surname>Serrão</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Biomech</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="223" to="232" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baldon Rde M, Lobato D FM, Carvalho LP, Santiago P RP, Benze BG, Serrão FV. Relationship between eccentric hip torque and lower-limb kinematics: gender differences. J Appl Biomech. 2011;27(3):223-232.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Decreased average power of the hip external muscles as a predictive parameter for lower extremity injury in women: a prospective study</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verrelst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Van Tiggelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Ridder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Witvrouw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin J Sport Med</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="533" to="537" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Verrelst R, Van Tiggelen D, De Ridder R, Witvrouw E. Decreased average power of the hip external muscles as a predictive parameter for lower extremity injury in women: a prospective study. Clin J Sport Med. 2018;28(6):533-537.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

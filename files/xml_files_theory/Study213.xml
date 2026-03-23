@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The effects of visual feedback disruption on postural control with chronic ankle instability</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-08-05">5 August 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Seunguk</forename><surname>Han</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Exercise Sciences</orgName>
+								<orgName type="institution">Brigham Young University</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hyunwook</forename><surname>Lee</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Exercise Sciences</orgName>
+								<orgName type="institution">Brigham Young University</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><forename type="middle">Jun</forename><surname>Son</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Graduate School of Sports Medicine</orgName>
+								<orgName type="institution">CHA University</orgName>
+								<address>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">Ty</forename><surname>Hopkins</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Exercise Sciences</orgName>
+								<orgName type="institution">Brigham Young University</orgName>
+								<address>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The effects of visual feedback disruption on postural control with chronic ankle instability</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-08-05">5 August 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E27F5F9C543E046BF09B01CF606EB2F3</idno>
+					<idno type="DOI">10.1016/j.jsams.2021.07.014</idno>
+					<note type="submission">Received 27 October 2020 Received in revised form 19 July 2021 Accepted 29 July 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Chronic ankle instability Dynamic postural stability index Stroboscopic glasses Coper</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The purpose of this study was to identify the effects of reduced visual feedback via stroboscopic glasses on dynamic postural control among chronic ankle instability (CAI), lateral ankle sprain (LAS) coper and uninjured control participants. Design: Controlled trial in a laboratory setting. Methods: Twenty CAI patients, 20 copers, and 20 controls participated in this study. Each participant performed a single-leg hop stabilization test with eyes open (EO) and stroboscopic vision (SV). Two-way ANOVAs (group × condition) were used to examine the differences between group (CAI, coper, and control) and condition (EO and SV).</p><p>Results: There was a significant group by condition interaction for DPSI scores. CAI patients displayed increased DPSI scores with SV compared to EO (p &lt; 0.01), and CAI patients had increased DPSI scores only with SV when compared with controls. All participants displayed decreased dynamic postural control under the SV condition compared to the EO condition (p &lt; 0.01) regardless of ankle group. Conclusions: CAI patients rely more on visual feedback during dynamic postural control than copers and controls. However, they may not be as able to compensate for the disrupted visual feedback during a dynamic task. Regardless of ankle injury history, stroboscopic glasses could be cost-effective visual disruption devices during a dynamic balance task.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Lateral ankle sprains (LASs) are one of the most frequent musculoskeletal injuries among physically active populations. <ref type="bibr" target="#b0">1</ref> &gt; 70% of LAS patients have experienced ongoing symptoms (e.g., swelling, pain, weakness, or decreased range of motion) for 7 years after their first-time LAS. <ref type="bibr" target="#b1">2</ref> Up to 75% of initial LAS patients suffer from these persistent symptoms <ref type="bibr" target="#b2">3</ref> along with decreased self-reported function and repetitive giving-way episodes, which can lead to a chronically unstable condition defined as chronic ankle instability (CAI). CAI may result from interrelationships among pathomechanical, sensory-perceptual, and motor-behavioral impairments. <ref type="bibr" target="#b3">4</ref> Despite a history of initial LAS, some individuals can return to pre-injury levels of activity without residual symptoms, self-reported dysfunction, or a feeling of giving way, and they are referred to as 'copers'. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6</ref> Understanding differences among CAI, copers, and control participants would elucidate not just factors contributing to CAI, but also protective strategies in copers to prevent further injuries.</p><p>It is well established that individuals with CAI displayed decreased dynamic postural control in a variety of tasks, such as the dynamic postural stability index (DPSI), <ref type="bibr" target="#b6">7</ref> and the star excursion balance test. <ref type="bibr" target="#b7">8</ref> However, it is still unclear how exactly sensorimotor dysfunction contributes to the deficits in postural control in CAI patients. Maintaining postural control is a combination of the appropriate efferent neuromuscular control system (e.g., increased muscular activity of the lower extremity for controlling upright stance) <ref type="bibr" target="#b8">9</ref> and the integration of the sensory information from visual, vestibular and somatosensory systems. <ref type="bibr" target="#b9">10</ref> Particularly, the interplay between somatosensory and visual feedback plays a significant role in providing appropriate afferent information to the central nervous system (CNS) to manage neuromuscular control during movements. <ref type="bibr" target="#b10">11</ref> When one or more of these sensory information sources is altered, the CNS can shift its reliance to more reliable information sources among these sensory systems to stabilize posture; this is called sensory reweighting. <ref type="bibr" target="#b9">10</ref> To compensate for alterations in afferent information from the injured joint, individuals with musculoskeletal pathologies decrease the utilization of the somatosensory system and reweight more reliable sensory information. <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12</ref> Specifically, individuals with multiple sclerosis have increased reliance on visual information during postural control. <ref type="bibr" target="#b12">13</ref> Moreover, individuals with anterior cruciate ligament reconstruction displayed increased activation in the posterior inferior temporal gyrus of the brain which is responsible for visual processing. <ref type="bibr" target="#b10">11</ref> CAI patients also have shown greater visual reliance <ref type="bibr" target="#b11">12</ref> and decreased ability to dynamically reweight the reaming sensory information when the somatosensory signals are altered via textured shoe insoles or through ankle joint anesthesia. <ref type="bibr" target="#b13">14</ref> However, there is still limited evidence of sensory reweighting in CAI patients.</p><p>In order to demonstrate the ability to successfully reweight visual feedback, clinicians or researchers have simply modified surfaces with foam pads <ref type="bibr" target="#b14">15</ref> or textured insoles <ref type="bibr" target="#b15">16</ref> to alter somatosensory information input. However, due to the lack of clinically implemented methods to disrupt visual feedback, assessing the reliance on vision has been limited to two extreme conditions: with and without vision. Recently, the development of novel technology, such as stroboscopic glasses, has made possible a visual disruption condition, which can be applied even during dynamic maneuvers. <ref type="bibr" target="#b10">11</ref> Previous research <ref type="bibr" target="#b14">15</ref> demonstrated the effects of visual perturbation on static postural control using stroboscopic glasses. It suggested that a condition with stroboscopic glasses could provide an intermediary between the two extreme visual conditions during static postural control. <ref type="bibr" target="#b14">15</ref> However, the results were limited because static postural control cannot reflect the sensory reweighting of visual information during functional movements. <ref type="bibr" target="#b14">15</ref> In addition, sensory reweighting in healthy participants cannot be applied to CAI patients.</p><p>Since multiple studies have demonstrated the positive effects of stroboscopic glasses on conditioning, including skill training and sporting performance in various populations (e.g., normal students, ice hockey, baseball, etc.), <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18</ref> the implications of these devices need to be extended beyond conditioning and into clinical practice, such as injury rehabilitation. If the condition with stroboscopic glasses could induce the sensory reweighing in CAI patients during dynamic balance, clinicians and researchers would have an easy and cost effective device to observe visual reliance during dynamic tasks. Therefore, the purpose of this study was to identify the effects of reduced visual feedback via stroboscopic glasses on dynamic postural control among CAI, coper and uninjured control participants. We hypothesized that CAI patients would demonstrate decreased dynamic postural control in the SV condition compared to copers and controls, based on their increased reliance on visual input.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methods</head><p>A total of 60 physically active individuals (20 per group) with an age range of 18 to 35 years volunteered (Table <ref type="table" target="#tab_0">1</ref>). A priori sample size was calculated based on data from previous study investigating postural control among three groups. <ref type="bibr" target="#b18">19</ref> Approximated for two-way repeated measures ANOVA, a required sample size of 18 participants per group was estimated in order to reveal a group by condition interaction (α = 0.05; β = 0.2). All participants in the three groups were matched for age (within 2 years), weight (within 5%), height (within 5%), sex and involved limbs. Inclusion criteria for CAI and coper groups were based on the recommendation by the International Ankle Consortium. <ref type="bibr" target="#b19">20</ref> Participants were identified using the Foot and Ankle Ability Measure (FAAM) <ref type="bibr" target="#b20">21</ref> and the Ankle Instability Instrument (AII) <ref type="bibr" target="#b21">22</ref> questionnaires. Specific inclusion criteria for each group is presented in Table <ref type="table" target="#tab_1">2</ref>. <ref type="bibr" target="#b5">6</ref> For the CAI patients who reported bilateral LASs, the injured ankle with the lowest FAAM scores was designated as the involved limb for the testing. Participants exclusion criteria were;</p><p>(1) a history of surgery, (2) a history of fracture in the lower extremity, (3) a history of neurologic disorders, and (4) acute injury to musculoskeletal structures of lower extremity joints in the past 3 months. Prior to participation, all participants provided written informed consent prior to participation as approved by the Brigham Young University Institutional Review Board (Human Research Ethics Committee approval number: X18418). Supplementary Fig. <ref type="figure">1</ref> details the study flow from participant recruitment to data analysis.</p><p>All participants dressed with shorts, shirts, and athletic shoes (T-Lite XI; Nike, Beaverton, OR). Anthropometric data including height, mass, leg length, and age were recorded for each participant. Dynamic postural control was measured using an in-ground force plate (200 Hz, AMTI Corp., Watertown, MA) during a single-leg hop stabilization task. <ref type="bibr" target="#b22">23</ref> To begin the jump-landing protocol, each participant stood 70 cm from the center of the force plate and was instructed to jump with both limbs to a height at which she or he could touch 50% of their maximum jump height target with a single hand and land in the center of the force plate. The participants were instructed to land in the center of the force plate on only the involved leg, stabilize as quickly as possible, and balance while standing erect and looking straight forward with the hands on their hips for 10 s. <ref type="bibr" target="#b22">23</ref> Up to three successful trials of practice under each condition were allowed for each participant to decrease learning effects before actual data collection. Each participant performed three trials of the jump-landing test with eyes open (EO) and stroboscopic vision (SV) with a rest period of at least 60 s between trials. The order of conditions was randomized between participants. For the SV condition, we used stroboscopic glasses (Senaptec, Beaverton, OR) at 3 Hz (0.1 s of clear and 0.233 s of opaque). A trial was discarded and repeated if the participant lost their balance or did not touch the target.</p><p>During all testing conditions, postural control data were collected at a sample rate of 200 Hz using an in-ground force plate. <ref type="bibr" target="#b22">23</ref> Dynamic postural stability data were reduced and calculated using a custom-written Matlab code (Version R2019b, MathWorks Inc., Natick, MA). For dynamic postural control, DPSI was calculated using GRF data from the force plate. Since the DPSI is a composite of the ML, AP, and vertical GRFs, stability indices for three directions were also calculated by a previous study's methods. <ref type="bibr" target="#b22">23</ref> Three directional indices are mean square deviations assessing fluctuations around a zero point, rather than SDs assessing fluctuations around a group mean. The MLSI and APSI assess the fluctuations from 0 along the frontal and sagittal axes of the force plate, respectively. The VSI assesses the fluctuations from the participant's body weight to standardize the vertical GRF along the vertical axis of the force plate.</p><p>All data analyses were performed using JMP Pro 14 software (SAS Institute Inc., Cary, NC). One-way analysis of variance (ANOVA) were used to determine if differences in participant demographics including age, height, mass, FAAM-ADL, FAAM-Sports, and AII existed among groups. All data were inspected form normality using the Shapiro-Wilk test and normal Q-Q plots. Two-way repeated measures ANOVAs were used to examine differences between condition (EO and SV) and group (CAI, coper, and control). The Tukey HSD post-hoc tests were used when the omnibus F p-value was &lt;0.05. In addition, Cohen d effect sizes and 95% CIs were calculated to estimate the magnitude of visual condition effects in each group.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>The means, standard deviations, and effect sizes for each dynamic postural control measure by group and condition are presented in Table <ref type="table" target="#tab_2">3</ref>. There was a significant group by visual condition interaction for the DPSI scores (p = 0.02). However, there were no significant interactions for the other dynamic postural control measures (e.g., APSI, MLSI, and VSI). Post hoc analysis indicated that only CAI patients displayed increased DPSI scores with SV compared to the EO condition (p &lt; 0.01). In addition, while CAI participants had no differences in DPSI scores with EO relative to copers and controls, they had increased DPSI scores compared with controls with SV (p &lt; 0.01). There were significant group effects for DPSI (p &lt; 0.01) and MLSI scores (p &lt; 0.01). CAI patients had worse DPSI scores than controls (p = 0.02) and worse MLSI scores than both controls (p &lt; 0.01) and copers (p &lt; 0.01). Visual condition main effects (p &lt; 0.01) were driven by differences in DPSI and MLSI scores between EO and SV. These results indicate that all participants had increased DPSI and MLSI scores (p &lt; 0.01) with SV compared to the EO condition regardless of ankle group. The specific collapsed values for main effects for group and condition are presented in Supplementary Table <ref type="table" target="#tab_0">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>A stroboscopic visual disruption to decrease the dependence on visual feedback during dynamic postural control provides a novel approach to investigating the sensory reweighting of visual feedback in individuals with CAI. The primary finding of this study was that the stroboscopic vision condition increased the DPSI scores in CAI patients relative to controls (p &lt; 0.01). Moreover, only CAI patients displayed decreased dynamic postural control with SV compared to the EO condition. In contrast to the CAI group, copers displayed no differences in dynamic postural control during SV compared with controls, suggesting that copers may have the coping mechanisms to maintain balance. As such, copers may be able to effectively reweight their remaining sensory information when the visual information is limited. The secondary finding of the current study was that stroboscopic glasses alter performance in all three groups regardless of ankle injury status. Thus, stroboscopic glasses can be an effective rehabilitation and/or training equipment to provide the visual disruption condition during functional movements.</p><p>To our knowledge, the current study is the first to comprehensively examine the effects of visual feedback disruption on dynamic postural control among CAI, coper, and control participants. Previous research <ref type="bibr" target="#b14">15</ref> identified the fact that altered visual feedback via stroboscopic glasses decreased static postural control among healthy participants. However, because only uninjured healthy participants were enrolled in the previous study, <ref type="bibr" target="#b14">15</ref> we cannot apply their sensory reweighting findings to other pathological conditions such as CAI patients. In addition, data were limited to static postural control, <ref type="bibr" target="#b14">15</ref> which may be less applicable to dynamic tasks. Therefore, the results of current study provide a novel contribution toward understanding how CAI, coper, and control participants reweight their remaining sensory information to maintain dynamic postural control when the visual information is limited.</p><p>Current data partially confirm the hypothesis that dynamic postural control with SV could observe the differences in visual reliance between CAI patients and controls. Specifically, relative to controls, only CAI patients showed deficits only during SV conditions, but no differences under the EO conditions. Once peripheral mechanoreceptors around the foot and ankle joints are damaged from LASs, absent or inaccurate afferent information from the somatosensory sensory system may result in neuromuscular control deficits (e.g., postural control). <ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b24">25</ref> To sustain and/or restore neuromuscular control in individuals with CAI, the CNS may compensate with increased reliance on visual feedback, <ref type="bibr" target="#b11">12</ref> which is defined as sensory reweighting. <ref type="bibr" target="#b9">10</ref> The differences between EO and SV conditions which occurred only in the CAI group in this study may be attributed to the aforementioned altered sensory reweighting mechanism. In other words, current data support the idea that CAI patients cannot successfully reweight other sensory information <ref type="bibr" target="#b15">16</ref> and/or their impaired somatosensory system may limit efficient postural control when the visual information is altered. <ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b26">27</ref> Therefore, we postulate that rehabilitation under the SV condition could be an effective method in clinical settings to potentially restore the ability of the CAI patients to reweight their remaining sensory information during dynamic postural control. Current data support the idea that CAI patients have impaired dynamic balance compared with uninjured controls. <ref type="bibr" target="#b27">28</ref> Particularly, only CAI patients displayed greater DPSI scores than controls (but not copers), which were consistent with previous research on dynamic balance between individuals with and without CAI. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b22">23</ref> Increased DPSI scores in CAI patients may be due to the inadequate somatosensory input from damaged ankle joint after LASs, <ref type="bibr" target="#b28">29</ref> whereas copers may restore their normal neuromuscular function to prevent further injuries. Interestingly, only MLSI scores of the three directional indices were worse in CAI patients relative to controls and copers regardless of the visual conditions. Previous studies <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b26">27</ref> recommended that ML GRF data is the most accurate measurement for the force plate in identifying balance deficits related to CAI; therefore, MLSI scores during a single-leg hop stabilization test are more accurate than APSI and VSI scores at distinguishing among the three groups. <ref type="bibr" target="#b4">5</ref> However, since the current method that requires the use of high-cost force plate equipment is not readily available in clinical settings, researchers need to examine what other low-cost devices are available to detect similar outcomes.</p><p>Our data were consistent with a previous study <ref type="bibr" target="#b14">15</ref> that the stroboscopic glasses provided a mechanism of visual disruption during postural control. Specifically, the ability to maintain dynamic balance decreased with SV compared with EO (p &lt; 0.01). Although the visual reliance during postural control can be postulated by differences between EO and eyes closed conditions, comparing two different conditions is limited to only investigating the sensory substitution in which vestibular and somatosensory systems contribute to postural control without visual information. <ref type="bibr" target="#b10">11</ref> However, utilizing disruption of the visual feedback condition may more closely simulate neurocognitive demands of daily living and sporting activities rather than using removed visual feedback conditions. In addition, it may demonstrate how individuals effectively reweight the remaining sensory information relative to injurious situations via visual disruption. Prospective studies should investigate how different sensory reweighting affects recurrent injuries among CAI patients.</p><p>It was also interesting to note that copers displayed similar postural control ability compared controls regardless of visual condition. That being said, copers may have different strategies to deal with limited visual information during dynamic balance tasks after their initial LAS, which may be a positive neuromuscular adaptation. Therefore, our results support the idea that copers do not heavily rely on visual feedback, <ref type="bibr" target="#b29">30</ref> and may rather have greater movement strategy variability to compensate effectively for damage following an initial LAS. <ref type="bibr" target="#b22">23</ref> Future research is needed to investigate the effect of visual disruption on functional movement strategies such as joint kinematics and EMG activation among individuals with and without CAI. However, as copers failed to show their superior ability in dynamic balance compare to CAI patients under the SV condition, positive neuromuscular adaption in copers may be less effective than strategies used by controls.</p><p>Although it remains unclear how intermittent visual feedback exactly affects the mechanism of sensory reweighting, stroboscopic glasses allowed all participants to dynamically reweight the remaining sensory information to maintain postural control. However, as all participants showed worse DPSI and MLSI scores under the SV condition compared to the EO condition regardless of ankle group, other residual sensory information sources (e.g., vestibular, somatosensory) may not provide sufficient afferent information to fully compensate for the limited visual feedback during dynamic postural control. Therefore, stroboscopic glasses could be cost-effective visual disruption devices that can provide neurocognitive demanding condition during functional movements for a physically active population. Furthermore, these devices may be beneficial in upregulating reliance on somatosensory information for motor programming. Future research is needed to investigate the effects of rehabilitation and/or training with SV on sensory reweighting strategies during functional movements or postural control in individuals with altered somatosensory input due to musculoskeletal injuries.</p><p>There are several limitations in the current study. First, the population of this study was physically active and young adults. The current findings can be generalized to only the particular populations. Second, due to the limitation of a cross-sectional design, it is unclear whether CAI and coper participants had altered visual reliance prior to their LASs or whether alterations are caused by ankle injury. Third, all postural control abilities were interpreted by the GRF based data. Future research is needed to identify altered joint kinematics and musculature activation to compensate for limited visual information during the tasks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>In conclusion, CAI patients rely more on visual feedback during dynamic balance than copers and controls. However, copers displayed no differences regardless of visual condition compared to controls, which may be a positive neuromuscular adaptation following an initial LAS. Regardless of ankle injury history, stroboscopic glasses could be effective visual disruption devices during a dynamic balance task. However, across all groups, other remaining sensory information (e.g., vestibular, somatosensory information) may not provide sufficient afferent information to overcome the reduced visual feedback during dynamic postural control.</p><p>Supplementary data to this article can be found online at <ref type="url" target="https://doi.org/10.1016/j.jsams.2021.07.014">https://doi.  org/10.1016/j.jsams.2021.07.014</ref>.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Participant demographics.</figDesc><table><row><cell></cell><cell>CAI</cell><cell>Coper</cell><cell>Control</cell></row><row><cell>N</cell><cell>10 M, 10 F</cell><cell>10 M, 10 F</cell><cell>10 M, 10 F</cell></row><row><cell>Age (years)</cell><cell>23.6 (3.9)</cell><cell>22.2 (1.4)</cell><cell>22.6 (2.7)</cell></row><row><cell>Height (cm)</cell><cell>174.5 (11.8)</cell><cell>176.4 (10.2)</cell><cell>174.4 (7.2)</cell></row><row><cell>Mass (kg)</cell><cell>76.3 (17.5)</cell><cell>69.3 (10.9)</cell><cell>75.7 (15.8)</cell></row><row><cell>FAAM-ADL (%)</cell><cell>83.04 (5.7)</cell><cell>100</cell><cell>100</cell></row><row><cell>FAAM-Sports (%)</cell><cell>64.22 (14.2)</cell><cell>100</cell><cell>100</cell></row><row><cell>AII (No. Yes)</cell><cell>6.4 (1.1)</cell><cell>0</cell><cell>0</cell></row><row><cell>Data are mean (SD).</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">ADL, active daily living; AII, ankle instability instrument; CAI, chronic ankle instability; F,</cell></row><row><cell cols="3">female; FAAM, foot and ankle ability; M, male; N, number of participants.</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Specific inclusion criteria for each group. "yes" answers on the AII. 6. No LE surgery and/or fracture. 7. Physical activity ≥3 d's/wk. for 90 min within the past 3 m. 1. ≥ 1 acute LASs required immobilization and/or non-weight bearing for ≥3 d's or external supports for ≥7 d's or both. 2. Return to moderate levels of weight-bearing physical activity without repeated ankle injury within past 12 months.</figDesc><table><row><cell>CAI</cell><cell>Coper</cell><cell>Control</cell></row><row><cell>1. ≥ 2 acute LASs required immobilization and/or non-weight</cell><cell></cell><cell>1. No history of previous LAS.</cell></row><row><cell>bearing for ≥3 d's or external supports for ≥7 d's or both.</cell><cell></cell><cell>2. FAAM-ADL = 100%</cell></row><row><cell>2. History of at least two giving way episodes within past six</cell><cell></cell><cell>3. FAAM-Sports =100%</cell></row><row><cell>months.</cell><cell></cell><cell>4. No "yes" answers on the AII.</cell></row><row><cell cols="2">3. FAAM-ADL &lt; 90% 4. FAAM-Sports &lt;80% 5. ≥ 5 3. FAAM-ADL = 100% 5. No "yes" answers on the AII. 4. FAAM-Sports =100%</cell><cell>5. Physical activity ≥3 d's/wk. for 90 min within the past 3 m</cell></row><row><cell></cell><cell>6. Had not attended previous rehabilitation for the involved limb.</cell><cell></cell></row><row><cell></cell><cell>7. Physical activity ≥3 d's/wk. for 90 min within the past 3 m</cell><cell></cell></row><row><cell cols="3">ADL, active daily living; CAI, chronic ankle instability; d's, days; FAAM, foot and ankle ability measure; m, month; min, minutes; AII, ankle instability instrument; wk., week;</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Values for the dynamic postural control measure by group and visual condition.</figDesc><table><row><cell></cell><cell>CAI</cell><cell cols="2">Effect size (95% CI) Coper</cell><cell cols="2">Effect size (95% CI) Control</cell><cell cols="3">Effect size (95% CI) Main effect</cell><cell cols="2">Main effect</cell><cell>Interaction</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>group</cell><cell></cell><cell cols="2">visual condition</cell></row><row><cell></cell><cell>Mean (SD)</cell><cell></cell><cell>Mean (SD)</cell><cell></cell><cell>Mean (SD)</cell><cell></cell><cell>F</cell><cell cols="2">p-Value F</cell><cell>p-Value F</cell><cell>p-Value</cell></row><row><cell cols="2">DPSI EO 0.47 (0.05)</cell><cell>-1.15</cell><cell cols="2">0.47 (0.06) -0.66</cell><cell>0.46 (0.04)</cell><cell>-0.16</cell><cell cols="2">4.24 &lt;0.02 b</cell><cell cols="2">20.89 &lt;0.01 d</cell><cell>3.98 0.02 a</cell></row><row><cell></cell><cell>SV 0.52 (0.03) e</cell><cell>(-1.79, -0.52)</cell><cell>0.50 (0.03)</cell><cell>(-1.28, -0.03)</cell><cell>0.47 (0.05) f</cell><cell>(-0.78, 0.46)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>APSI</cell><cell>EO 0.31 (0.04)</cell><cell>0.00</cell><cell cols="2">0.30 (0.03) -0.64</cell><cell>0.30 (0.02)</cell><cell>-0.02</cell><cell cols="2">1.07 0.35</cell><cell>1.81</cell><cell>0.18</cell><cell>1.65 0.20</cell></row><row><cell></cell><cell>SV 0.31 (0.02)</cell><cell>(-0.62, 0.62)</cell><cell>0.32 (0.03)</cell><cell>(-1.26, -0.01)</cell><cell>0.30 (0.03)</cell><cell>(-0.64, 0.60)</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">MLSI EO 0.15 (0.05)</cell><cell>-0.41</cell><cell cols="2">0.11 (0.04) -0.29</cell><cell>0.11 (0.04)</cell><cell>-0.27</cell><cell cols="3">9.62 &lt;0.02 b,c 7.16</cell><cell>&lt;0.01 d</cell><cell>0.13 0.88</cell></row><row><cell></cell><cell>SV 0.17 (0.04)</cell><cell>(-1.03, 0.21)</cell><cell>0.13 (0.03)</cell><cell>(-0.91, 0.303)</cell><cell>0.12 (0.03)</cell><cell>(-0.89, 0.35)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>VSI</cell><cell>EO 0.34 (0.05)</cell><cell>0.11</cell><cell cols="2">0.34 (0.05) 0.02</cell><cell>0.33 (0.04)</cell><cell>0.04</cell><cell cols="2">0.75 0.48</cell><cell>0.37</cell><cell>0.55</cell><cell>0.11 0.90</cell></row><row><cell></cell><cell>SV 0.34 (0.04)</cell><cell>(-0.73, 0.51)</cell><cell>0.34 (0.05)</cell><cell>(-0.63, 0.60)</cell><cell>0.33 (0.04)</cell><cell>(-0.66, 0.58)</cell><cell></cell><cell></cell><cell></cell></row></table><note><p>a Indicates a statistically significant group by visual condition interaction (p = 0.02). b Indicates a statistically significantly difference between CAI and Control regardless of the visual condition (p &lt; 0.02). c Indicates a statistically significantly difference between CAI and Coper regardless of the visual condition (p &lt; 0.02). d Indicates a statistically significantly difference between EO and SV regardless of the group (p &lt; 0.01). e Indicates a statistically significantly difference between EO and SV within a group (p &lt; 0.01). f Indicates a statistically significantly difference between CAI and Control in SV condition (p &lt; 0.01).</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p><rs type="person">Dr. Garritt Page</rs>, of <rs type="affiliation">Brigham Young University</rs>, provided guidance regarding statistics. <rs type="person">Sean Cooley</rs> and <rs type="person">McKay Harding</rs>, or Brigham Young University, were involved in data collection.</p></div>
+			</div>
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding information</head><p>This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of interest statement</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Confirmation of ethical compliance</head><p>Institutional Review Board (IRB) approval was granted for all procedures.</p><p>Consent to participate. Written informed consent was received from all participants following IRB guidelines and approvals.</p><p>Consent for publication. Written informed consent was received from all participants following IRB guidelines and approvals.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The epidemiology of ankle sprains in the United States</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Waterman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Owens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Davey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Am</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="2279" to="2284" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Waterman BR, Owens BD, Davey S et al. The epidemiology of ankle sprains in the United States. J Bone Joint Surg Am 2010;92(13):2279-2284.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Seven years follow-up after ankle inversion trauma</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Konradsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ehrenbjerg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="129" to="135" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Konradsen L, Bech L, Ehrenbjerg M et al. Seven years follow-up after ankle inversion trauma. Scand J Med Sci Sports 2002;12(3):129-135.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Recovery from a first-time lateral ankle sprain and the predictors of chronic ankle instability: a prospective cohort analysis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Doherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bleakley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="995" to="1003" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Doherty C, Bleakley C, Hertel J et al. Recovery from a first-time lateral ankle sprain and the predictors of chronic ankle instability: a prospective cohort analysis. Am J Sports Med 2016;44(4):995-1003.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">An updated model of chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Corbett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="572" to="588" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hertel J, Corbett RO. An updated model of chronic ankle instability. J Athl Train 2019;54(6):572-588.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Discriminating between copers and people with chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Wikstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Tillman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Chmielewski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="136" to="142" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wikstrom EA, Tillman MD, Chmielewski TL et al. Discriminating between copers and people with chronic ankle instability. J Athl Train 2012;47(2):136-142.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Minimum reporting standards for copers in chronic ankle instability research</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Wikstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="251" to="268" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wikstrom EA, Brown CN. Minimum reporting standards for copers in chronic ankle instability research. Sports Med 2014;44(2):251-268.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Dynamic postural stability deficits in subjects with self-reported ankle instability</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Wikstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Tillman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Chmielewski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="397" to="402" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wikstrom EA, Tillman MD, Chmielewski TL et al. Dynamic postural stability deficits in subjects with self-reported ankle instability. Med Sci Sports Exerc 2007;39(3): 397-402.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Simplifying the star excursion balance test: analyses of subjects with and without chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Braham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Hale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="131" to="137" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hertel J, Braham RA, Hale SA et al. Simplifying the star excursion balance test: anal- yses of subjects with and without chronic ankle instability. J Orthop Sports Phys Ther 2006;36(3):131-137.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">How attentional focus on body sway affects postural control during quiet standing</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vuillerme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nafati</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychol Res</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="192" to="200" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vuillerme N, Nafati G. How attentional focus on body sway affects postural control during quiet standing. Psychol Res 2007;71(2):192-200.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Sensorimotor integration in human postural control</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Peterka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Neurophysiol</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1097" to="1118" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Peterka RJ. Sensorimotor integration in human postural control. J Neurophysiol 2002;88(3):1097-1118.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Neuroplasticity following anterior cruciate ligament injury: a framework for visual-motor training approaches in rehabilitation</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Grooms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Appelbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Onate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="381" to="393" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grooms D, Appelbaum G, Onate J. Neuroplasticity following anterior cruciate liga- ment injury: a framework for visual-motor training approaches in rehabilitation. J Orthop Sports Phys Ther 2015;45(5):381-393.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Increased visual use in chronic ankle instability: a meta-analysis</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Burcal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2046" to="2056" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Song K, Burcal CJ, Hertel J et al. Increased visual use in chronic ankle instability: a meta-analysis. Med Sci Sports Exerc 2016;48(10):2046-2056.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Postural control in women with multiple sclerosis: effects of task, vision and symptomatic fatigue</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Van Emmerik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Remelius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gait Posture</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="608" to="614" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Van Emmerik RE, Remelius JG, Johnson MB et al. Postural control in women with multiple sclerosis: effects of task, vision and symptomatic fatigue. Gait Posture 2010;32(4):608-614.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Balance training does not Alter reliance on visual information during static stance in those with chronic ankle instability: a systematic review with meta-analysis</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rhodes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Wikstrom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="893" to="905" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Song K, Rhodes E, Wikstrom EA. Balance training does not Alter reliance on visual in- formation during static stance in those with chronic ankle instability: a systematic re- view with meta-analysis. Sports Med 2018;48(4):893-905.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Stroboscopic vision to induce sensory reweighting during postural control</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Grooms</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kim KM, Kim JS, Grooms DR. Stroboscopic vision to induce sensory reweighting dur- ing postural control. J Sport Rehabil 2017;26(5):1-5.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Altered plantar-receptor stimulation impairs postural control in those with chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">O</forename><surname>Mckeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Stein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Ingersoll</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McKeon PO, Stein AJ, Ingersoll CD et al. Altered plantar-receptor stimulation im- pairs postural control in those with chronic ankle instability. J Sport Rehabil 2012;21(1):1-6.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">An early review of stroboscopic visual training: insights, challenges and accomplishments to guide future studies</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wilkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Appelbaum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int Rev Sport Exerc Psychol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="65" to="80" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilkins L, Appelbaum LG. An early review of stroboscopic visual training: insights, challenges and accomplishments to guide future studies. Int Rev Sport Exerc Psychol 2020;13(1):65-80.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Effects of stroboscopic visual training on visual attention, motion perception, and catching performance</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wilkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Percept Mot Skills</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="57" to="79" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilkins L, Gray R. Effects of stroboscopic visual training on visual attention, motion perception, and catching performance. Percept Mot Skills 2015;121(1):57-79.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Postural control differs between those with and without chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Wikstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Fournier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">O</forename><surname>Mckeon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gait Posture</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="82" to="86" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wikstrom EA, Fournier KA, McKeon PO. Postural control differs between those with and without chronic ankle instability. Gait Posture 2010;32(1):82-86.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Selection criteria for patients with chronic ankle instability in controlled research: a position statement of the international ankle consortium</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Gribble</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Delahunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bleakley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="121" to="127" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gribble PA, Delahunt E, Bleakley CM et al. Selection criteria for patients with chronic ankle instability in controlled research: a position statement of the international ankle consortium. J Athl Train 2014;49(1):121-127.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Validity of the foot and ankle ability measure in athletes with chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Carcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Drouin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="179" to="183" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carcia CR, Martin RL, Drouin JM. Validity of the foot and ankle ability measure in ath- letes with chronic ankle instability. J Athl Train 2008;43(2):179-183.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Development and reliability of the ankle instability instrument</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Docherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Gansneder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Arnold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">154</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Docherty CL, Gansneder BM, Arnold BL et al. Development and reliability of the ankle instability instrument. J Athl Train 2006;41(2):154.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Dynamic postural control but not mechanical stability differs among those with and without chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Wikstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tillman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chmielewski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="137" to="e144" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wikstrom E, Tillman M, Chmielewski T et al. Dynamic postural control but not me- chanical stability differs among those with and without chronic ankle instability. Scand J Med Sci Sports 2010;20(1):e137-e144.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The sensorimotor system, part I: the physiologic basis of functional joint stability</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Riemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Lephart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">71</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Riemann BL, Lephart SM. The sensorimotor system, part I: the physiologic basis of functional joint stability. J Athl Train 2002;37(1):71.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Ankle joint proprioception and postural control in basketball players with bilateral ankle sprains</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Hui-Chan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1174" to="1182" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fu AS, Hui-Chan CW. Ankle joint proprioception and postural control in basketball players with bilateral ankle sprains. Am J Sports Med 2005;33(8):1174-1182.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Spatiotemporal postural control deficits are present in those with chronic ankle instability</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">O</forename><surname>Mckeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hertel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Musculoskelet Disord</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">76</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McKeon PO, Hertel J. Spatiotemporal postural control deficits are present in those with chronic ankle instability. BMC Musculoskelet Disord 2008;9:76.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Balance measures for discriminating between functionally unstable and stable ankles</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Guskiewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Gross</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="399" to="407" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ross SE, Guskiewicz KM, Gross MT et al. Balance measures for discriminating be- tween functionally unstable and stable ankles. Med Sci Sports Exerc 2009;41(2): 399-407.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Clinical assessment of acute lateral ankle sprain injuries (ROAST): 2019 consensus statement and recommendations of the International Ankle Consortium</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Delahunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bleakley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Bossard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="1304" to="1310" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Delahunt E, Bleakley CM, Bossard DS et al. Clinical assessment of acute lateral ankle sprain injuries (ROAST): 2019 consensus statement and recommendations of the In- ternational Ankle Consortium. Br J Sports Med 2018;52(20):1304-1310.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Examination of static and dynamic postural stability in individuals with functionally stable and unstable ankles</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Guskiewicz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin J Sport Med</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="332" to="338" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ross SE, Guskiewicz KM. Examination of static and dynamic postural stability in indi- viduals with functionally stable and unstable ankles. Clin J Sport Med 2004;14(6): 332-338.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Static postural stability in chronic ankle instability, an ankle sprain and healthy ankles</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">U</forename><surname>Kwon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="625" to="629" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kwon YU. Static postural stability in chronic ankle instability, an ankle sprain and healthy ankles. Int J Sports Med 2018;39(8):625-629.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

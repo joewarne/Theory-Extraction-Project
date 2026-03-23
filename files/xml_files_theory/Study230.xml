@@ -1,0 +1,1845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Physiological and performance effects of dietary nitrate and N-acetylcysteine supplementation during prolonged heavy-intensity cycling</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-02-09">09 Feb 2023.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Rachel</forename><surname>Tan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matthew</forename><surname>Black</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Joseph</forename><surname>Home</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jamie</forename><surname>Blackwell</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ida</forename><surname>Clark</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lee</forename><surname>Wylie</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anni</forename><surname>Vanhatalo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andrew</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Sport and Health Sciences</orgName>
+								<orgName type="department" key="dep2">College of Life and Environmental Sciences</orgName>
+								<orgName type="institution" key="instit1">St. Luke&apos;s Campus</orgName>
+								<orgName type="institution" key="instit2">University of Exeter</orgName>
+								<address>
+									<settlement>Exeter</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Physiological and performance effects of dietary nitrate and N-acetylcysteine supplementation during prolonged heavy-intensity cycling</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">Print</idno>
+						<imprint>
+							<date type="published" when="2023-02-09">09 Feb 2023.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C55EE71B2F5BBE7E3CF0D239A406FBBB</idno>
+					<idno type="DOI">10.1080/02640414.2023.2176052</idno>
+					<note type="submission">Received 31 October 2022 Revised 24 January 2023 Accepted 30 January 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:19+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Nitric oxide</term>
+					<term>reactive oxygen species</term>
+					<term>endurance</term>
+					<term>beetroot</term>
+					<term>antioxidant</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The purpose of this study was to investigate effects of concurrent and independent administration of dietary nitrate (NO 3 -), administered as NO 3 --rich beetroot juice (BR; ~12.4 mmol of NO 3 -), and N-acetylcysteine (NAC; 70 mg•kg -1 ) on physiological responses during prolonged exercise and subsequent high-intensity exercise tolerance. Sixteen recreationally active males supplemented with NO 3 -depleted beetroot juice (PL) or BR for 6 days and ingested an acute dose of NAC or maltodextrin (MAL) 1 h prior to performing 1 h of heavy-intensity cycling exercise immediately followed by a severe-intensity time-to-exhaustion (TTE) test in four conditions: 1) PL+MAL, 2) PL+NAC, 3) BR+MAL and 4) BR+NAC. Preexercise plasma [NO 3 -] and nitrite ([NO 2 -]) were elevated following BR+NAC and BR+MAL (both P &lt; 0.01) compared with PL+NAC and PL+MAL; plasma [cysteine]  was increased in PL+NAC and BR+NAC (both P &lt; 0.01) compared to PL+MAL. Muscle excitability declined over time during the prolonged cycling bout in all conditions but was better preserved in PL+NAC compared to BR+NAC (P &lt; 0.01) and PL+MAL (P &lt; 0.05). There was no effect of supplementation on subsequent TTE . These findings indicate that coingestion of BR and NAC does not appreciably alter physiological responses during prolonged heavyintensity cycling or enhance subsequent exercise tolerance.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Dietary nitrate (NO 3 -) supplementation increases nitric oxide (NO) bioavailability and has been reported to enhance muscle contractility <ref type="bibr" target="#b0">(Bailey et al., 2010;</ref><ref type="bibr" target="#b16">Hernández et al., 2012)</ref>, oxygenation <ref type="bibr" target="#b11">(Ferguson et al., 2013)</ref> and exercise performance <ref type="bibr" target="#b19">(Jones et al., 2018)</ref>. The ergogenic potential of NO 3 -supplementation is more often apparent during intense short-duration exercise <ref type="bibr" target="#b35">(Senefeld et al., 2020)</ref> and less often apparent during longer-duration exercise <ref type="bibr" target="#b6">(Christensen et al., 2013;</ref><ref type="bibr" target="#b38">Tan et al., 2018;</ref><ref type="bibr" target="#b40">Wilkerson et al., 2012)</ref>. <ref type="bibr" target="#b40">Wilkerson et al. (2012)</ref> reported that following NO 3 ingestion, a greater elevation in plasma nitrite (NO 2 -), a precursor for NO production, was associated with greater ergogenic effects during prolonged exercise. Thus, it is possible that the ergogenic potential of NO 3 -supplementation during prolonged exercise requires a more pronounced or protracted elevation of NO bioavailability. While acute dietary NO 3 -supplementation has been shown to result in physiological and ergogenic effects, it has been recommended that combined chronic (several days) and acute (2-3 h pre-exercise) supplementation might optimise efficacy <ref type="bibr" target="#b20">(Jones et al., 2021)</ref>. N-acetylcysteine (NAC) donates thiols (i.e., cysteine (CYS), the precursor for glutathione (GSH)), which directly quench reactive oxygen species (ROS) and could protect NO from being scavenged by ROS <ref type="bibr" target="#b32">(Powers &amp; Jackson, 2008)</ref>. Since ROS production may increase with repetitive skeletal muscle contraction <ref type="bibr" target="#b33">(Reid et al., 1992)</ref>, such as during prolonged exercise, it is possible that co-ingesting NAC with NO 3 -before prolonged heavy-intensity exercise could preserve NO bioavailability over time due to the antioxidant properties of NAC <ref type="bibr" target="#b3">(Baldelli et al., 2019;</ref><ref type="bibr" target="#b23">Mason et al., 2020)</ref>. Moreover, neuromuscular fatigue during prolonged exercise is, in part, related to a decline in muscle excitability <ref type="bibr" target="#b5">(Black et al., 2017)</ref> which is, in turn, related to Na + /K + ATPase activity. It has been reported that acute NAC supplementation (i.e., 1 h prior to exercise) enhances fatigue resistance via effects on the Na + /K + pump <ref type="bibr" target="#b24">(McKenna et al., 2006)</ref> and that NO 3 -attenuates the rise in plasma [K + ] during intense exercise <ref type="bibr">(Wylie et al., 2013b)</ref>. These results suggest a possible common mechanism of action. Further research is required to assess the independent and combined effects of NO 3 -and NAC supplementation on muscle excitability during prolonged exercise.</p><p>The purpose of the present study was, therefore, to investigate the independent and combined effects of NO 3 -and NAC supplementation on NO bioavailability and neuromuscular function during a preload of 1 h of heavy-intensity cycling exercise and on exercise tolerance during a subsequent severeintensity time-to-exhaustion (TTE) task. We hypothesized that combining NO 3 -and NAC supplementation before 1 h of cycling in the heavy-intensity domain would 1) elevate preexercise plasma</p><formula xml:id="formula_0">[NO 3 - ], [NO 2 -],</formula><p>[CYS] and [GSH] while reducing the oxidative stress biomarker plasma malondialdehyde ([MDA]), to a greater extent compared to ingestion of NO 3 -or NAC alone; 2) attenuate the expected decline in neuromuscular function to a greater extent than ingestion of NO 3 -or NAC alone; and therefore, 3) improve TTE to a greater extent than ingestion of NO 3 -or NAC alone.</p><p>CONTACT Andrew M. Jones a.m.jones@exeter.ac.uk St. Luke's Campus, University of Exeter, EX1 2LU, Exeter, United Kingdom</p><p>(+16%, effect size = 0.78; <ref type="bibr" target="#b2">Bailey et al., 2009)</ref> and NAC (+9.6%, effect size = 1.19; unpublished meta-analysis) relative to placebo on TTE for a matched paired t-test indicated a sample size of n = 15 and n = 8, respectively, using a power of 0.80 and alpha of 0.05, and thus, a sample size of n = 16 was chosen. All participants completed a screening and a physical activity readiness questionnaire to ensure that they were safe to exercise and were familiarized to the exercise protocol to minimize any learning effects throughout the study. Participant exclusion criteria included individuals with contraindications to exercise, cardiometabolic disease, users of dietary supplements and smokers <ref type="bibr" target="#b4">(Baranauskas et al., 2022)</ref>. The protocols, risks and benefits of participating were explained prior to the participants providing written informed consent. This study was approved by the Institutional Research Ethics Committee and conformed to the code of ethics of the Declaration of Helsinki.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental overview</head><p>Participants reported to the laboratory on six separate occasions over an ~ 7-week period. All exercise tests were performed on an electrically braked cycle ergometer and controlled using the associated software (Lode Excalibur Sport, Groningen, The Netherlands).</p><p>During visit 1, participants completed a ramp incremental test to volitional exhaustion for the determination of gas exchange threshold (GET) and VO 2peak . The test began with 3 min of baseline cycling at 20 W, after which the work rate was increased by 30 W/min until task failure. Participants were asked to select a preferred cadence between 70 and 90 rpm and to maintain that cadence throughout the test. Task failure was recorded when the cadence fell by &gt;10 rpm below the selected cadence. The self-selected cadence and seat height and handlebar configuration were recorded for each participant and reproduced on subsequent visits.</p><p>For the main experiment, participants commenced baseline cycling at 20 W for 3 min and then completed 1 h of cycling at 20%∆ (where ∆ represents the difference between work rates at the GET and VO 2peak , plus the work rate at GET) at their selfselected cadence. The TTE commenced immediately after the 1 h was completed at a work rate equivalent to 70%∆ until task failure (Figure <ref type="figure" target="#fig_0">1A.</ref>). Blood samples were taken, and neuromuscular function was assessed at baseline and at discrete time points during and post-exercise (see below; Figure <ref type="figure" target="#fig_0">1B</ref>.).</p><p>Participants were instructed to maintain their habitual physical activity, to avoid consuming foods high in NO 3 -and to refrain from taking dietary supplements or using antibacterial mouthwash as the latter inhibits NO 3 -reduction to NO 2 - <ref type="bibr" target="#b14">(Govoni et al., 2008)</ref>. In a double-blind, randomized, crossover design, participants were assigned to four conditions to receive NO 3 --rich beetroot juice (BR) or NO 3 --depleted beetroot juice placebo (PL) supplementation for 6 days and an acute dose of NAC or maltodextrin (MAL) 1 h prior to the commencement of the exercise protocol. The dosing protocols we used were based on current recommendations for BR supplementation (A.M. <ref type="bibr" target="#b20">Jones et al., 2021)</ref> and previous studies involving oral NAC administration <ref type="bibr" target="#b8">(Corn &amp; Barstow, 2011;</ref><ref type="bibr" target="#b12">Ferreira et al., 2011;</ref><ref type="bibr" target="#b30">Pendyala &amp; Creaven, 1995)</ref>. Each condition was separated by a wash-out period of 7-10 days <ref type="bibr" target="#b34">(Reid et al., 1994;</ref><ref type="bibr">Wylie et al., 2013a)</ref>. On day 6 of each of the four supplementation periods, participants reported to the laboratory to complete the experimental protocol. Experimental visits were performed in the morning at the same time of day (8 a.m. ± 2 h). Participants recorded their activity and diet during the 24 h prior to the first experimental visit and were asked to repeat these for subsequent visits. Participants were also instructed to arrive at the laboratory following a 10 h overnight fast, having avoided strenuous exercise and alcohol in the 24 h preceding and caffeine in the 8 h preceding, each experimental visit.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementation</head><p>Participants completed four 6-day supplementation periods in which they consumed 2 × 70 mL doses per day of either BR (~6.2 mmol of NO 3 -per 70 mL; Beet It Sport, James White Drinks Ltd., Ipswich, UK) or PL (~0.04 mmol of NO 3 -per 70 mL; Beet It Sport, James White Drinks Ltd., Ipswich, UK). On day 1-5 of each supplementation period, participants consumed one 70 mL beverage in the morning and one in the evening. On the experimental day, participants consumed 2 × 70 mL of their allocated beverage 2.5 h prior to exercise <ref type="bibr">(Wylie et al., 2013a)</ref> and ingested 70 mg kg -1 of NAC (Piping Rock Health Products, New York, USA, 600 mg NAC per capsule; <ref type="bibr" target="#b12">Ferreira et al., 2011)</ref> or maltodextrin (MAL: Bulk Powders, Sports Supplements Ltd., Essex, UK, 600 mg per capsule) 1 h prior to exercise <ref type="bibr" target="#b8">(Corn &amp; Barstow, 2011)</ref> before arriving to the laboratory. Capsules for NAC and MAL were identical in size and appearance. Peppermint-scented oil was applied to the outside of all capsules to mask the sulphur smell of NAC.</p><p>The four supplementation conditions were (1) PL with MAL (PL+MAL), (2) PL with NAC (PL+NAC), (3) BR with MAL (BR+MAL) and ( <ref type="formula">4</ref>) BR with NAC (BR+NAC). Participants were contacted on a daily basis to ensure the consumption of supplement via text or email.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Blood analyses</head><p>Venous blood was sampled at baseline, 30 min and 60 min during the 1 h cycling bout and within 15 s post-TTE. Blood samples were obtained from a cannula (Insyte-W TM Becton-Dickinson, Madrid, Spain) that was inserted in the participant's antecubital vein and drawn into 6 mL lithium heparin tubes (Vacutainer, Becton-Dickinson, New Jersey, USA). For plasma <ref type="bibr">[CYS]</ref> and <ref type="bibr">[GSH]</ref> analysis <ref type="bibr" target="#b29">(Newton et al., 1981;</ref><ref type="bibr" target="#b36">Shen et al., 2015)</ref>, within 1 min of collection, 200 µL of whole blood was added to 800 µL of ice-cold deionized water and centrifuged at 16000G, 4°C for 10 min to liberate and detect biological thiols through erythrocyte lysation. Following this, 60 µL of the supernatant was extracted and added to 140 µL of reaction buffer (Tris-HCl, 100 mM, pH 9.5, 0.1 mM Diethylenetriaminepentaacetic acid, DPTA), to release and stabilize thiols, and 100 µL of 10 mM monobromobimane in acetonitrile (CH 3 CN) was added <ref type="bibr" target="#b29">(Newton et al., 1981;</ref><ref type="bibr" target="#b36">Shen et al., 2015)</ref>. After 30 min of incubation in the dark, 100 µL of ice-cold 200 mM sulfosalicyclic acid solution was added. The mixture was then incubated on ice for 10 min and then centrifuged at16000G at 4°C for 10 min. The supernatant was extracted and frozen at -80°C for subsequent injection into the high performance liquid chromatography (HPLC) system (Perkin Elmer® Flexar™ Chomera® software version v.4.1.2.6410, Perkin Elmer Inc., MA, USA). The supernatant was diluted (1:20 fold) in deionized water and injected (10 µL) into the HPLC for analysis. The HPLC mobile phase was 0.1% trifluoroacetic acid aqueous and 0.1% trifluoroacetic acid in acetonitrile running through a 250 × 4.6 C18 5 µm Brownlee validated column (Perkin Elmer Inc., MA, USA) at 0.9 mL/min flow rate, with fluorescence detection at 390 nm excitation and 475 nm emission, determined against standard curves from commercially available CYS and GSH (Figure <ref type="figure" target="#fig_1">2</ref>).</p><p>The remaining whole blood samples were centrifuged within 2 min of collection at 4000 rpm and 4°C for 10 min, and plasma was then extracted and frozen at -80°C. For the analysis of plasma [NO 3 -] and [NO 2 -], samples were deproteinized and analysed via gas phase chemiluminescence as previously described <ref type="bibr" target="#b38">(Tan et al., 2018)</ref>. For plasma MDA analysis <ref type="bibr" target="#b28">(Moselhy et al., 2013)</ref>, 100 µL of plasma was added to 25 µL of 3 M NaOH and heated at 60°C in a water bath for 30 min for alkaline hydrolysis <ref type="bibr" target="#b15">(Grotto et al., 2007)</ref>. Following this, 1 mL of 0.05 sulphuric acid and 500 µL of 20% w/v trichloroacetic acid were added. The samples were centrifuged at 3000 rpm for 10 min, and 1 mL of the supernatant was extracted into a new heat- resistant tube. Following this, 500 µL of 0.355% w/v thiobarbituric acid was added and the samples were vortexed. Samples were heated at 90°C for 40 min. Once cooled, the samples were centrifuged at 3000 rpm for 10 min and were injected (25 µL) into the HPLC for analysis.</p><p>The HPLC mobile phase was 0.1% formic acid aqueous solution and methanol organic running through a 150 × 4.6 C18 5 µm Brownlee validated column (Perkin Elmer Inc., MA, USA) at a 1.0 mL/min flow rate, with photodiode array detection analytical absorbance measured at 532 nm, reference 395 nm, determined against standard curves from commercially available MDA (Figure <ref type="figure" target="#fig_1">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Neuromuscular function</head><p>Neuromuscular function was assessed at baseline, 0 min, 30 min, 57 min and post-TTE as previously described <ref type="bibr" target="#b5">(Black et al., 2017)</ref>. Briefly, EMG was recorded continuously on the vastus lateralis (VL) using electrodes (DE2.1; Delsys, Boston, MA) positioned over the muscle belly after shaving and cleaning the skin [surface EMG for non-invasive measurement of muscles (SENIAM) guidelines]. The ground electrode was positioned on the patella. EMG signals were pre-amplified (1,000x), band-pass filtered (20-450 Hz, Bagnioli-8; Delsys), and digitized at a sampling rate of 2,000 Hz and a resolution of 16 bits using a Power 1401 mk-II analog-to-digital converter and Spike 2 data collection software run by custom-written sampling configuration (CED; Cambridge Electronic Design, UK). For transcutaneous femoral nerve stimulation, an adhesive cathode (Boots UK, Nottingham, England) was placed ~2 cm medial of the femoral pulse, and an adhesive anode (Boots UK) was placed at the anterior aspect of the iliac crest. Single electrical pulses were generated by a stimulator (DS7 A; Digitimer, UK) and randomly delivered at an identified crank angle for all trials for each participant (65 ± 5° relative to the top dead centre; <ref type="bibr" target="#b37">Sidhu et al., 2012)</ref>.</p><p>A standard M-wave recruitment curve protocol was completed during each laboratory visit. Participants cycled at 20 W below GET throughout the recruitment curve protocol. A single-pulse electrical stimulation (200 µs) was delivered at the individually identified crank angle as described above. The current was increased in 20-mA increments until the M-wave amplitude reached a plateau at the maximal M-wave amplitude (M max ). A pulse of 120% M max current was applied during the exercise tests (mean stimulation intensity, 290 ± 48 mA).</p><p>EMG signals from the VL were processed using a customwritten script to measure peak-to-peak M-wave amplitude and M-wave area. The root mean square (RMS) of the EMG signal (an index of the power of the signal) was calculated as the mean over a 25-ms pre-stimulation period at each stimulation time point. The EMG RMS amplitudes were normalized to the corresponding values attained after 1 min of exercise during each trial to evaluate temporal changes in the voluntary muscle activation level (i.e., EMG RMS amplitude). M-wave parameters were normalized to baseline values to evaluate temporal changes in the peripheral neuromuscular excitability (i.e., M-wave amplitude and area). Voluntary EMG RMS amplitude was normalized to the M-wave amplitude to assess changes in neural drive (RMS/M; <ref type="bibr" target="#b27">Millet &amp; Lepers, 2004)</ref>. The rates of change in M-wave and EMG parameters from baseline to post-TTE were calculated for each exercise to quantify the rate of neuromuscular fatigue development. The coefficients of variation (CV%) for M-wave amplitude and M-wave total area between trials were 10% and 8%, respectively, and between stimulations, they were 11% and 9%, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analyses</head><p>Two-way (condition x time) repeated ANOVAs were used to analyse differences in plasma</p><formula xml:id="formula_1">[NO 3 -], [NO 2 -], [CYS], [GSH],</formula><p>[MDA] and neuromuscular function during the 1 h heavyintensity exercise bout. One-way repeated measures ANOVAs were used to analyse differences in TTE and physiological performance differences in the mean and change values from pre-to post-1 h exercise and post-TTE. Significant main and interaction effects were further explored using Fisher's LSD test.</p><p>A full set of blood data were only available for n = 14 for time points 0 to 60 min and n = 13 for time point post-TTE due to problems with cannulation and/or blood draw. Neuromuscular data were analysed for a subset of n = 12. Data for TTE are reported for n = 15 owing to n = 1 having foot slip out of pedal. Statistical significance was accepted at P ≤ 0.05. Results are presented as mean ± SD unless otherwise stated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Plasma [NO 3 -] and [NO 2 -]</head><p>There were an interaction (condition x time) (P &lt; 0.05) and effect of condition (P &lt; 0.01), but no effect of time (P &gt; 0.05) for plasma [NO 3 -] (Figure <ref type="figure" target="#fig_2">3A</ref>). Plasma [NO 3 -] was greater in BR +NAC (P &lt; 0.01) and BR+MAL (P &lt; 0.01) compared to PL+NAC and PL+MAL at all time points. Plasma [NO 3  -] in BR+NAC compared to BR+MAL was elevated at 60 min (P &lt; 0.05). There was no difference in plasma [NO 3 -] between PL+NAC and PL+MAL at any time point (P &gt; 0.05). Plasma [NO 3 -] declined from 0 min to 60 min in BR+MAL (P &lt; 0.05), PL+MAL (P &lt; 0.05) and PL+NAC (P &lt; 0.01) but not in BR+NAC (P &gt; 0.05). Plasma [NO 3 -] did not change from 60 min to post-TTE in any condition (P &gt; 0.05) There were an interaction (condition x time) (P = 0.05), effect of time (P &lt; 0.01), and effect of condition (P &lt; 0.01) for plasma [NO 2 -] (Figure <ref type="figure" target="#fig_2">3B</ref>). At baseline, plasma [NO 2 -] was elevated in BR+NAC (P &lt; 0.01) and BR+MAL (P &lt; 0.01) compared to PL+NAC and PL+MAL. There was no difference in plasma [NO 2 -] at baseline between BR+NAC and BR+MAL (P &gt; 0.05) or PL+NAC and PL+MAL (P &gt; 0.05). Plasma [NO 2 -] did not change over 1 h of exercise in any of the conditions (P &gt; 0.05). Plasma [NO 2 -] declined from 60 min to post-TTE in BR+NAC (P &lt; 0.05), BR +MAL (P &lt; 0.05) and PL+NAC (P &lt; 0.05) but not PL+MAL (P &gt; 0.05).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Plasma [CYS], [GSH] and [MDA]</head><p>There was an effect of time (P &lt; 0.01) for plasma <ref type="bibr">[CYS]</ref> (Figure <ref type="figure" target="#fig_3">4A</ref>). Plasma <ref type="bibr">[CYS]</ref> was greater in PL+NAC (11 ± 5 µM, P &lt; 0.01) and BR+NAC (15 ± 6 µM, P &lt; 0.01) compared to PL+MAL (7 ± 3 µM) at rest. Plasma <ref type="bibr">[CYS]</ref> increased over time compared to 0 min (P &lt; 0.01). There was a difference between the change in plasma [CYS] from 0 to 60 min in BR+NAC and BR+MAL compared to PL+NAC and PL+MAL (P &lt; 0.05; Figure <ref type="figure" target="#fig_3">4B</ref>). Plasma <ref type="bibr">[GSH]</ref> increased from 0 to 60 min (P &lt; 0.01) and post-TTE (P &lt; 0.01; Figure <ref type="figure" target="#fig_3">4C</ref>). There was effect of condition in the change of plasma [GSH] from 0 to 60 min (P &gt; 0.05; Figure <ref type="figure" target="#fig_3">4D</ref>). There were no interaction, effect of time or effect of condition on plasma [MDA] (all P &gt; 0.05; Figure <ref type="figure" target="#fig_3">4E</ref>) or the change in plasma [MDA] from 0 to 60 min (all P &gt; 0.05; Fig. <ref type="figure" target="#fig_3">4F</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Peripheral neuromuscular excitability: M-wave amplitude and M-wave area</head><p>There was an effect of time (P &lt; 0.001) but no effect of condition on the M-wave amplitude (P &gt; 0.05) or M-wave area (P &gt; 0.05, Figure <ref type="figure">5A</ref> and <ref type="figure">B</ref>). There was an effect of condition (P &lt; 0.05) in the change of M-wave amplitude from 0 to 57 min (Figure <ref type="figure">6</ref>), with the change being smaller in PL+NAC (-16 ± 28%) compared to PL+MAL (-45 ± 24%; P &lt; 0.05) and BR+NAC (-51 ± 41%; P &lt; 0.01). There was no effect of condition (P &gt; 0.05) or time (P &gt; 0.05) on the change in the M-wave area from 0 to 57 min.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Voluntary activation and neural drive</head><p>Voluntary muscle activation level (EMG RMS amplitude) and neural drive (RMS/M-wave amplitude) at 0, 30 and 57 min and post-TTE are shown in Figure <ref type="figure">5C</ref> and <ref type="figure">D</ref>. There was an effect of time (P &lt; 0.001) but no effect of condition on EMG RMS (P &gt; 0.05) or RMS/M-wave amplitude (P &gt; 0.05). There was no effect of condition (P &gt; 0.05) or time (P &gt; 0.05) on the change from 0 to 57 min in voluntary activation or neural drive.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Time-to-exhaustion</head><p>No differences were found between conditions for TTE at 70%∆ (PL+MAL: 246 ± 134 vs. PL+NAC: 238 ± 149 vs. BR+MAL: 252 ± 118 vs. BR+NAC: 235 ± 140 s; P &gt; 0.05).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>This study investigated the independent and combined influence of BR and NAC administration on NO bioavailability and neuromuscular function during a preload of 1 h of heavyintensity cycling and on subsequent severe-intensity exercise tolerance in humans. The major novel findings were that 1) co- PL+MAL PL+NAC BR+MAL BR+NAC -80 -60 -40 -20 0 Change 0 to 60 min M-wave amplitude (%) PL+MAL PL+NAC BR+MAL BR+NAC * * Figure 6. Change from 0 to 60 min in compound action potential (M-wave) amplitude indicating peripheral neuromuscular excitability, following four supplementation conditions of PL+MAL, PL+NAC, BR+MAL and BR+NAC. * = significantly different to PL+NAC. Data shown for subset of n = 12.</p><p>ingestion of BR and NAC (BR+NAC) better maintained plasma [NO 3 -] during exercise; 2) the decline in muscle excitability during the 1 h exercise bout was significantly attenuated in NAC alone (PL+NAC) compared to PL+MAL and BR+NAC and 3) there was no influence of any supplementation condition on severe-intensity exercise tolerance. These findings are partly in agreement with our first hypothesis that BR+NAC would better preserve plasma [NO 3  -] during prolonged exercise although this did not translate into better preserved plasma [NO 2 -]. However, these findings do not support our second and third hypotheses as neither independent nor combined ingestion of BR and NAC were effective at improving muscle excitability or TTE.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effects of BR and NAC supplementation on blood biomarkers</head><p>Plasma [NO 3 -] was better preserved in BR+NAC compared to BR +MAL at 1 h, suggesting that co-ingestion of BR and NAC better maintains plasma [NO 3 -] during prolonged exercise. However, there was no additional increase in plasma [NO 2  -] in BR+NAC compared to BR+MAL, and thus, it is unclear whether coingesting BR and NAC appreciably augmented NO bioavailability <ref type="bibr">(Wylie et al., 2013a)</ref>. The failure of BR+NAC to augment plasma [NO 2 -] compared to BR alone is consistent with the limited existing data <ref type="bibr" target="#b1">(Bailey et al., 2011;</ref><ref type="bibr" target="#b9">Crum et al., 2018)</ref>. One possible explanation could be a limitation in the rate of reduction of NO 3 -to NO 2 -by the oral microbiota <ref type="bibr" target="#b14">(Govoni et al., 2008)</ref> or differences in the rate of entry of NO 3 -or NO 2 -into skeletal muscle <ref type="bibr" target="#b31">(Piknova et al., 2015)</ref>. It is also possible that the exercise task did not appreciably increase ROS, thereby negating any antioxidant effects of NAC in preserving NO, a possibility that is supported by the absence of changes to plasma <ref type="bibr">[MDA]</ref>. It should also be noted that BR contains numerous antioxidant compounds <ref type="bibr" target="#b41">(Wootton-Beard &amp; Ryan, 2012)</ref> such that NAC may not have been required to quench ROS and maintain NO bioavailability.</p><p>Following BR+NAC and PL+NAC, plasma [CYS] increased, which is consistent with other reports <ref type="bibr" target="#b12">(Ferreira et al., 2011;</ref><ref type="bibr" target="#b26">Medved et al., 2004)</ref>, but plasma [GSH] and [MDA] did not change. Given that CYS is the precursor to GSH, an increase in plasma [GSH] might be expected following NAC supplementation. It is possible that methodological differences between studies, such as analysis of whole blood vs. plasma, administration of capsules vs. solution and assessment of total vs. reduced/oxidized GSH, may impact the ability to observe changes in GSH <ref type="bibr" target="#b8">(Corn &amp; Barstow, 2011;</ref><ref type="bibr" target="#b12">Ferreira et al., 2011)</ref>. Despite this, it is worth mentioning that previous investigations have observed favourable performance effects following NAC supplementation independent of changes to plasma [GSH] <ref type="bibr" target="#b21">(Kelly et al., 2009)</ref>. Plasma [MDA] was our only marker of oxidative damage via measuring lipid peroxidation <ref type="bibr" target="#b18">(Janero, 1990)</ref>, and the lack of change in plasma [MDA] could suggest that the exercise protocol did not induce significant changes to lipid peroxidation or that GSH promoted a more favourable cellular environment. However, it should be recognised that MDA and GSH provide only limited information on overall oxidative stress and redox balance, and the inclusion of additional biomarkers would have provided greater insight <ref type="bibr" target="#b7">(Cobley et al., 2017)</ref>. It is also possible that NAC supplementation is only effective in individuals with an antioxidant deficiency <ref type="bibr" target="#b22">(Margaritelis et al., 2020)</ref> and this might be one explanation for the limited effects of NAC in the present study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effects of BR and NAC supplementation on neuromuscular function</head><p>Muscle excitability (M-wave amplitude and area) and voluntary activation (EMG RMS) declined over the 1 h exercise bout, irrespective of supplementation, which is consistent with previous findings <ref type="bibr" target="#b5">(Black et al., 2017)</ref>. Interestingly, muscle excitability was better preserved in PL+NAC compared to PL+MAL and BR+NAC, results which are partly consistent with earlier studies <ref type="bibr" target="#b24">(McKenna et al., 2006;</ref><ref type="bibr" target="#b26">Medved et al., 2004)</ref>. The mechanisms responsible for improved muscle excitability following independent ingestion of NAC could be related to preserved membrane depolarization via enhanced Na + /K + ATPase activity <ref type="bibr" target="#b13">(Gandevia, 2001;</ref><ref type="bibr" target="#b24">McKenna et al., 2006)</ref> and thus better regulation of muscle and plasma [K + ] <ref type="bibr" target="#b26">(Medved et al., 2004)</ref>. We observed that BR ingestion did not impact muscle excitability despite a previous report that plasma [K + ] was reduced during intense exercise following BR compared to placebo <ref type="bibr">(Wylie et al., 2013b)</ref>. Very few studies have examined the effect of BR on neuromuscular function during voluntary contractions. One study reported that motor unit firing rate was enhanced following BR <ref type="bibr" target="#b10">(Esen et al., 2022)</ref> but this was not confirmed in other studies <ref type="bibr" target="#b17">(Husmann et al., 2019;</ref><ref type="bibr" target="#b39">Thurston et al., 2021)</ref>. When BR and NAC are consumed together, it is possible that antagonistic molecular signalling occurs, negating any possible positive effects when either supplement is ingested alone <ref type="bibr" target="#b32">(Powers &amp; Jackson, 2008)</ref>. Further research is required to resolve the potential effects of independently ingesting BR and coingesting BR+NAC on neuromuscular function during prolonged exercise.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effects of BR and NAC supplementation on exercise tolerance</head><p>TTE during severe-intensity exercise was not different between conditions. This is in contrast to previous reports that BR <ref type="bibr" target="#b0">(Bailey et al., 2010</ref><ref type="bibr" target="#b2">(Bailey et al., , 2009) )</ref> and NAC <ref type="bibr" target="#b24">(McKenna et al., 2006;</ref><ref type="bibr" target="#b26">Medved et al., 2004)</ref> supplementation may independently improve performance during TTE tests. It has been suggested that BR is more likely to enhance performance in less trained individuals <ref type="bibr" target="#b35">(Senefeld et al., 2020)</ref>, whereas NAC is more likely to enhance performance in well-trained individuals <ref type="bibr" target="#b26">(Medved et al., 2004)</ref> and, therefore, combining these supplements might be ineffective. A limitation of this study is that it only included recreationally active males, and further research is required to examine other populations. Additionally, our exercise protocol was somewhat unusual in that it involved a prolonged (1 h) heavy-intensity pre-load prior to the TTE test. The available evidence suggests that BR might be more beneficial during shorter-duration, higher-intensity activities <ref type="bibr" target="#b35">(Senefeld et al., 2020)</ref> and it is possible that the performance of the pre-load reduces the potential efficacy of BR supplementation <ref type="bibr" target="#b40">(Wilkerson et al., 2012)</ref>. Consistent with this, two previous studies that employed a prolonged bout of exercise prior to the exercise performance task also failed to find a positive effect of BR <ref type="bibr" target="#b6">(Christensen et al., 2013;</ref><ref type="bibr" target="#b38">Tan et al., 2018)</ref>. In contrast, NAC supplementation appears to favour exercise performance following a longer duration pre-load <ref type="bibr">(≥ 45 min;</ref><ref type="bibr" target="#b24">McKenna et al., 2006;</ref><ref type="bibr" target="#b26">Medved et al., 2004;</ref><ref type="bibr">cf., Bailey et al., 2011)</ref>. Thus, because BR and NAC are more likely to be ergogenic in different scenarios, combining them may not be efficacious. Also, under the conditions of the present study in which both BR and NAC had limited effects when taken in isolation, it might not be surprising to find a lack of synergy when they are combined.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>Combining BR and NAC better maintained the elevation of plasma [NO 3 -] during 1 h of heavy-intensity cycling compared to BR alone; however, there was no synergistic effect of coingesting BR and NAC on maintaining plasma [NO 2 -] compared to BR alone. Muscle excitability during 1 h of heavy-intensity cycling was better preserved following independent ingestion of NAC, but there was no effect of ingestion of BR alone or coingestion of BR and NAC on muscle excitability compared to placebo. Moreover, TTE during severe-intensity exercise was not different between the four conditions such that, under the conditions of the present study, BR and NAC did not enhance exercise performance either when taken separately or when combined.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Schematic diagram of the experimental protocol.</figDesc><graphic coords="4,49.61,53.23,510.24,480.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Individual representative chromatogram/trace for plasma cysteine and glutathione (panel A) and plasma malondialdehyde (panel B) assessed via high performance liquid chromatography.</figDesc><graphic coords="5,92.13,53.21,425.16,545.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Mean ± SE plasma (NO 3 -; panel A) and nitrite (NO 2 -; panel B) over 1 h of heavy-intensity exercise and a subsequent TTE following: PL+MAL (solid circle and solid line); PL+NAC (open circle and solid line); BR+MAL (solid triangle and dotted line); and BR+NAC (open triangle and dotted line). * = significantly different from 0 min (P &lt; 0.05), † = significantly different from TTE (P &lt; 0.05), § = significantly different in BR+NAC compared to PL+MAL and PL +NAC (P &lt; 0.01), # = significantly different in BR+MAL compared to PL+MAL and PL+NAC (P &lt; 0.01), ‡ = significantly different in BR+NAC compared to BR+MAL (P &lt; 0.05). Data shown for a subset of n = 14 from 0 to 60 min and for n = 13 for post-TTE.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Mean ± SE plasma cysteine (panel A), glutathione (panel C) and malondialdehyde (panel E) over 1 h of heavy-intensity exercise and a subsequent TTE. Change from 0 to 60 min in plasma [cysteine] (panel B), change in plasma [glutathione] (panel D) and change in plasma [MDA] (panel F) following four supplementation conditions of PL+MAL, PL+NAC, BR+MAL and BR+NAC. * = significantly different from 0 min (P &lt; 0.01). § = significantly different to PL+NAC and PL+MAL (P &lt; 0.05). Data shown for a subset of n = 14 for time points 0 to 60 min and n = 13 for time point post-TTE for plasma [cysteine] and [glutathione] and a subset of n = 13 for plasma [malondialdehyde].</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .Figure 6 .</head><label>56</label><figDesc>Figure 5. Compound muscle action (M-wave) amplitude and M-wave area (normalized to maximum M-wave during baseline pedalling) indicating peripheral neuromuscular excitability (panel A and B); voluntary electromyographic root mean square (EMG RMS) amplitude (normalized to M-wave amplitude at 1 min of exercise) indicating muscle activation level (panel C) and RMS/M-wave (normalized to corresponding M-wave amplitude at each measurement time point) (panel D) during 1 h of heavy-intensity cycling at 0, 30 and 57 min, as well as at the end of the time-to-exhaustion (Post-TTE), following four supplementation conditions of PL +MAL, PL+NAC, BR+MAL and BR+NAC. * = significantly different from 0 min (P &lt; 0.01); ‡ = significantly different from 30 min; † = significantly different from post-TTE (P &lt; 0.01). Data shown for the subset of n = 12.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>R. TAN ET AL.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We thank <rs type="person">Adam Linoby</rs>, <rs type="person">Felix Leonard-Fox</rs>, <rs type="person">Tuesday Platt</rs> and <rs type="person">James Lewis</rs> for assistance with data collection and data analysis. We thank <rs type="person">Dr Stephen Bailey</rs> for discussions regarding the study design.</p></div>
+			</div>
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding</head><p>This research received no external funding.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Disclosure statement</head><p>The authors report there are no competing interests to declare. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Dietary nitrate supplementation enhances muscle contractile efficiency during knee-extensor exercise in humans</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fulford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Winyard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Blackwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Dimenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Wilkerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Benjamin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.00046.2010</idno>
+		<ptr target="https://doi.org/10.1152/japplphysiol.00046" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="135" to="148" />
+			<date type="published" when="1985">2010. 1985. 2010</date>
+			<pubPlace>Bethesda, Md</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bailey, S. J., Fulford, J., Vanhatalo, A., Winyard, P. G., Blackwell, J. R., DiMenna, F. J., Wilkerson, D. P., Benjamin, N., &amp; Jones, A. M. (2010). Dietary nitrate supplementation enhances muscle contractile efficiency during knee-extensor exercise in humans. Journal of Applied Physiology (Bethesda, Md.: 1985), 109(1), 135-148. https://doi.org/10.1152/japplphy siol.00046.2010</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Influence of N-acetylcysteine administration on pulmonary O2 uptake kinetics and exercise tolerance in humans</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Winyard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Blackwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Lansley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Dimenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Wilkerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">T</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.resp.2010.10.002</idno>
+		<ptr target="https://doi.org/10.1016/j.resp.2010.10.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Respiratory Physiology &amp; Neurobiology</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="121" to="129" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bailey, S. J., Winyard, P. G., Blackwell, J. R., Vanhatalo, A., Lansley, K. E., Dimenna, F. J., Wilkerson, D. P., Campbell, I. T., &amp; Jones, A. M. (2011). Influence of N-acetylcysteine administration on pulmonary O2 uptake kinetics and exercise tolerance in humans. Respiratory Physiology &amp; Neurobiology, 175(1), 121-129. https://doi.org/10.1016/j.resp.2010.10. 002</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Dietary nitrate supplementation reduces the O2 cost of low-intensity exercise and enhances tolerance to high-intensity exercise in humans</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Winyard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Blackwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Dimenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Wilkerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tarr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Benjamin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.00722.2009</idno>
+		<ptr target="https://doi.org/10.1152/japplphysiol.00722.2009" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1144" to="1155" />
+			<date type="published" when="1985">2009. 1985</date>
+			<pubPlace>Bethesda, Md</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bailey, S. J., Winyard, P., Vanhatalo, A., Blackwell, J. R., Dimenna, F. J., Wilkerson, D. P., Tarr, J., Benjamin, N., &amp; Jones, A. M. (2009). Dietary nitrate supplementation reduces the O2 cost of low-intensity exercise and enhances tolerance to high-intensity exercise in humans. Journal of Applied Physiology (Bethesda, Md.: 1985), 107(4), 1144-1155. https://doi. org/10.1152/japplphysiol.00722.2009</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Glutathione and Nitric Oxide: Key Team Players in Use and Disuse of Skeletal Muscle</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Baldelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ciccarone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Limongi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Checconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Palamara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Ciriolo</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/nu11102318</idno>
+		<ptr target="https://doi.org/10.3390/nu11102318" />
+	</analytic>
+	<monogr>
+		<title level="j">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">2318</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baldelli, S., Ciccarone, F., Limongi, D., Checconi, P., Palamara, A. T., &amp; Ciriolo, M. R. (2019). Glutathione and Nitric Oxide: Key Team Players in Use and Disuse of Skeletal Muscle. Nutrients, 11(10), 2318. https://doi. org/10.3390/nu11102318</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Moving beyond inclusion: Methodological considerations for the menstrual cycle and menopause in research evaluating effects of dietary nitrate on vascular function</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Baranauskas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Freemas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Carter</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.niox.2021.11.001</idno>
+		<ptr target="https://doi.org/10.1016/j.niox.2021.11.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Nitric Oxide: Biology and Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="39" to="48" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baranauskas, M. N., Freemas, J. A., Tan, R., &amp; Carter, S. J. (2022). Moving beyond inclusion: Methodological considerations for the menstrual cycle and menopause in research evaluating effects of dietary nitrate on vascular function. Nitric Oxide: Biology and Chemistry, 118, 39-48. https://doi.org/10.1016/j.niox.2021.11.001</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Muscle metabolic and neuromuscular determinants of fatigue during cycling in different exercise intensity domains</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Blackwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Wylie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Mcdonagh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sumners</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Mileva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Bowtell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.00942.2016</idno>
+		<ptr target="https://doi.org/10.1152/japplphysiol.00942.2016" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="446" to="459" />
+			<date type="published" when="1985">2017. 1985</date>
+			<pubPlace>Bethesda, Md</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Black, M. I., Jones, A. M., Blackwell, J. R., Bailey, S. J., Wylie, L. J., McDonagh, S. T., Thompson, C., Kelly, J., Sumners, P., Mileva, K. N., Bowtell, J. L., &amp; Vanhatalo, A. (2017). Muscle metabolic and neuromus- cular determinants of fatigue during cycling in different exercise inten- sity domains. Journal of Applied Physiology (Bethesda, Md.: 1985), 122(3), 446-459. https://doi.org/10.1152/japplphysiol.00942.2016</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Influence of nitrate supplementation on VO₂ kinetics and endurance of elite cyclists</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Christensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nyberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bangsbo</surname></persName>
+		</author>
+		<ptr target="https://pubmed.ncbi.nlm.nih.gov/23020760/" />
+	</analytic>
+	<monogr>
+		<title level="j">Scandinavian Journal of Medicine in Science &amp; Sports</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="21" to="e31" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Christensen, P. M., Nyberg, M., &amp; Bangsbo, J. (2013). Influence of nitrate supplementation on VO₂ kinetics and endurance of elite cyclists. Scandinavian Journal of Medicine in Science &amp; Sports, 23(1), e21-e31. https://pubmed.ncbi.nlm.nih.gov/23020760/</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Exercise redox biochemistry: Conceptual, methodological and technical recommendations</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Cobley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Close</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Davison</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.redox.2017.03.022</idno>
+		<ptr target="https://doi.org/10.1016/j.redox.2017.03.022" />
+	</analytic>
+	<monogr>
+		<title level="j">Redox Biology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="540" to="548" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cobley, J.N., Close, G.L., Bailey, D.M., &amp; Davison, G.W. (2017). Exercise redox biochemistry: Conceptual, methodological and technical recommendations. Redox Biology, 12, 540-548. https://doi.org/10.1016/ j.redox.2017.03.022</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Effects of oral N-acetylcysteine on fatigue, critical power, and W&apos; in exercising humans</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Corn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Barstow</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.resp.2011.06.020</idno>
+		<ptr target="https://doi.org/10.1016/j.resp.2011.06.020" />
+	</analytic>
+	<monogr>
+		<title level="j">Respiratory Physiology &amp; Neurobiology</title>
+		<imprint>
+			<biblScope unit="volume">178</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="261" to="268" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Corn, S. D., &amp; Barstow, T. J. (2011). Effects of oral N-acetylcysteine on fatigue, critical power, and W&apos; in exercising humans. Respiratory Physiology &amp; Neurobiology, 178(2), 261-268. https://doi.org/10.1016/j.resp.2011.06. 020</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Multiday pomegranate extract supplementation decreases oxygen uptake during submaximal cycling exercise, but cosupplementation with N-acetylcysteine negates the effect</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Crum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Barnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Stannard</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijsnem.2017-0407</idno>
+		<ptr target="https://doi.org/10.1123/ijsnem.2017-0407" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sport Nutrition and Exercise Metabolism</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="586" to="592" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Crum, E. M., Barnes, M. J., &amp; Stannard, S. R. (2018). Multiday pomegranate extract supplementation decreases oxygen uptake during submaximal cycling exercise, but cosupplementation with N-acetylcysteine negates the effect. International Journal of Sport Nutrition and Exercise Metabolism, 28(6), 586-592. https://doi.org/10.1123/ijsnem.2017-0407</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Effect of nitrate supplementation on skeletal muscle motor unit activity during isometric blood flow restriction exercise</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Esen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Faisal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zambolin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Callaghan</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-022-04946-y</idno>
+		<ptr target="https://doi.org/10.1007/s00421-022-04946-y" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1683" to="1693" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Esen, O., Faisal, A., Zambolin, F., Bailey, S. J., &amp; Callaghan, M. J. (2022). Effect of nitrate supplementation on skeletal muscle motor unit activity during isometric blood flow restriction exercise. European Journal of Applied Physiology, 122(7), 1683-1693. https://doi.org/10.1007/s00421-022- 04946-y</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Impact of dietary nitrate supplementation via beetroot juice on exercising muscle vascular control in rats</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Hirai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Copp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Holdsworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">I</forename><surname>Musch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Poole</surname></persName>
+		</author>
+		<idno type="DOI">10.1113/jphysiol.2012.243121</idno>
+		<ptr target="https://doi.org/10.1113/jphysiol.2012.243121" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physiology</title>
+		<imprint>
+			<biblScope unit="volume">591</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="547" to="557" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ferguson, S. K., Hirai, D. M., Copp, S. W., Holdsworth, C. T., Allen, J. D., Jones, A. M., Musch, T. I., &amp; Poole, D. C. (2013). Impact of dietary nitrate supplementation via beetroot juice on exercising muscle vascular con- trol in rats. The Journal of Physiology, 591(2), 547-557. https://doi.org/10. 1113/jphysiol.2012.243121</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">N-acetylcysteine in handgrip exercise: Plasma thiols and adverse reactions</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Reid</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijsnem.21.2.146</idno>
+		<ptr target="https://doi.org/10.1123/ijsnem.21.2.146" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sport Nutrition and Exercise Metabolism</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="146" to="154" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ferreira, L. F., Campbell, K. S., &amp; Reid, M. B. (2011). N-acetylcysteine in handgrip exercise: Plasma thiols and adverse reactions. International Journal of Sport Nutrition and Exercise Metabolism, 21(2), 146-154. https://doi.org/10.1123/ijsnem.21.2.146</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Spinal and supraspinal factors in human muscle fatigue</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Gandevia</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/physrev.2001.81.4.1725</idno>
+		<ptr target="https://doi.org/10.1152/physrev.2001.81.4.1725" />
+	</analytic>
+	<monogr>
+		<title level="j">Physiological Reviews</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1725" to="1789" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gandevia, S. C. (2001). Spinal and supraspinal factors in human muscle fatigue. Physiological Reviews, 81(4), 1725-1789. https://doi.org/10. 1152/physrev.2001.81.4.1725</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The increase in plasma nitrite after a dietary nitrate load is markedly attenuated by an antibacterial mouthwash</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Govoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Jansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Weitzberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Lundberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.niox.2008.08.003</idno>
+		<ptr target="https://doi.org/10.1016/j.niox.2008.08.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Nitric Oxide: Biology and Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="333" to="337" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Govoni, M., Jansson, E. A., Weitzberg, E., &amp; Lundberg, J. O. (2008). The increase in plasma nitrite after a dietary nitrate load is markedly attenu- ated by an antibacterial mouthwash. Nitric Oxide: Biology and Chemistry, 19(4), 333-337. https://doi.org/10.1016/j.niox.2008.08.003</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Rapid quantification of malondialdehyde in plasma by high performance liquid chromatography-visible detection</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Grotto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Santa Maria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Valentini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Charao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Moro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Nascimento</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">J</forename><surname>Pomblum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Garcia</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jpba.2006.07.030</idno>
+		<ptr target="https://doi.org/10.1016/j.jpba.2006.07.030" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Pharmaceutical and Biomedical Analysis</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="619" to="624" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grotto, D., Santa Maria, L. D., Boeira, S., Valentini, J., Charao, M. F., Moro, A. M., Nascimento, P. C., Pomblum, V. J., &amp; Garcia, S. C. (2007). Rapid quantification of malondialdehyde in plasma by high perfor- mance liquid chromatography-visible detection. Journal of Pharmaceutical and Biomedical Analysis, 43(2), 619-624. https://doi.org/ 10.1016/j.jpba.2006.07.030</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Dietary nitrate increases tetanic [Ca2+]i and contractile force in mouse fast-twitch muscle</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hernández</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Schiffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ivarsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Bruton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Lundberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Weitzberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Westerblad</surname></persName>
+		</author>
+		<idno type="DOI">10.1113/jphysiol.2012.232777</idno>
+		<ptr target="https://doi.org/10.1113/jphysiol.2012.232777" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physiology</title>
+		<imprint>
+			<biblScope unit="volume">590</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="3575" to="3583" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hernández, A., Schiffer, T. A., Ivarsson, N., Cheng, A. J., Bruton, J. D., Lundberg, J. O., Weitzberg, E., &amp; Westerblad, H. (2012). Dietary nitrate increases tetanic [Ca2+]i and contractile force in mouse fast-twitch muscle. The Journal of Physiology, 590(15), 3575-3583. https://doi.org/ 10.1113/jphysiol.2012.232777</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Dietary nitrate supplementation improves exercise tolerance by reducing muscle fatigue and perceptual responses</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Husmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bruhn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mittlmeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Zschorlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Behrens</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphys.2019.00404</idno>
+		<ptr target="https://doi.org/10.3389/fphys.2019.00404" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Physiology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">404</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Husmann, F., Bruhn, S., Mittlmeier, T., Zschorlich, V., &amp; Behrens, M. (2019). Dietary nitrate supplementation improves exercise tolerance by redu- cing muscle fatigue and perceptual responses. Frontiers in Physiology, 10, 404. https://doi.org/10.3389/fphys.2019.00404</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Malondialdehyde and thiobarbituric acid-reactivity as diagnostic indices of lipid peroxidation and peroxidative tissue injury</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Janero</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0891-5849(90</idno>
+		<ptr target="https://doi.org/10.1016/0891-5849(90" />
+	</analytic>
+	<monogr>
+		<title level="j">Free Radical Biology &amp; Medicine</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="515" to="540" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Janero, D. R. (1990). Malondialdehyde and thiobarbituric acid-reactivity as diagnostic indices of lipid peroxidation and peroxidative tissue injury. Free Radical Biology &amp; Medicine, 9(6), 515-540. https://doi.org/10.1016/ 0891-5849(90 )</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Dietary Nitrate and Physical Performance</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Wylie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-nutr-082117-051622</idno>
+		<ptr target="https://doi.org/10.1146/annurev-nutr-082117-051622" />
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Nutrition</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="303" to="328" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jones, A. M., Thompson, C., Wylie, L. J., &amp; Vanhatalo, A. (2018). Dietary Nitrate and Physical Performance. Annual Review of Nutrition, 38, 303-328. https://doi.org/10.1146/annurev-nutr-082117-051622</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Dietary nitrate and nitric oxide metabolism: mouth, circulation, skeletal muscle, and exercise performance</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Seals</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Rossman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Piknova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Jonvik</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0000000000002470</idno>
+		<ptr target="https://doi.org/10.1249/MSS.0000000000002470" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine &amp; Science in Sports &amp; Exercise</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="280" to="294" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jones, A. M., Vanhatalo, A., Seals, D. R., Rossman, M. J., Piknova, B., &amp; Jonvik, K. L. (2021). Dietary nitrate and nitric oxide metabolism: mouth, circulation, skeletal muscle, and exercise performance. Medicine &amp; Science in Sports &amp; Exercise, 53(2), 280-294. https://doi.org/10.1249/ MSS.0000000000002470</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Effects of N-acetylcysteine on respiratory muscle fatigue during heavy exercise</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Wicker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Barstow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Harms</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.resp.2008.10.008</idno>
+		<ptr target="https://doi.org/10.1016/j.resp" />
+	</analytic>
+	<monogr>
+		<title level="j">Respiratory Physiology &amp; Neurobiology</title>
+		<imprint>
+			<biblScope unit="volume">165</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">8</biblScope>
+			<date type="published" when="2008">2009. 2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kelly, M. K., Wicker, R. J., Barstow, T. J., &amp; Harms, C. A. (2009). Effects of N-acetylcysteine on respiratory muscle fatigue during heavy exercise. Respiratory Physiology &amp; Neurobiology, 165(1), 67-72. https://doi.org/10. 1016/j.resp.2008.10.008</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Antioxidant supplementation, redox deficiencies and exercise performance: A falsification design</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Margaritelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Paschalis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Theodorou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kyparos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Nikolaidis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.freeradbiomed.2020.06.029</idno>
+		<ptr target="https://doi.org/10.1016/j.freeradbiomed.2020.06.029" />
+	</analytic>
+	<monogr>
+		<title level="j">Free Radical Biology and Medicine</title>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<biblScope unit="page" from="44" to="52" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Margaritelis, N. V., Paschalis, V., Theodorou, A. A., Kyparos, A., &amp; Nikolaidis, M. G. (2020). Antioxidant supplementation, redox deficiencies and exercise performance: A falsification design. Free Radical Biology and Medicine, 158, 44-52. https://doi.org/10.1016/j.freeradbiomed.2020.06. 029</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Antioxidant supplements and endurance exercise: Current evidence and mechanistic insights</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Trewin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Wadley</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.redox.2020.101471</idno>
+		<ptr target="https://doi.org/10.1016/j.redox.2020.101471" />
+	</analytic>
+	<monogr>
+		<title level="j">Redox Biology</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">101471</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mason, S. A., Trewin, A. J., Parker, L., &amp; Wadley, G. D. (2020). Antioxidant supplements and endurance exercise: Current evidence and mechanistic insights. Redox Biology, 35, 101471. https://doi.org/10.1016/j.redox.2020. 101471</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mckenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Medved</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Goodman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Bjorksten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sostaric</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gong</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McKenna, M. J., Medved, I., Goodman, C. A., Brown, M. J., Bjorksten, A. R., Murphy, K. T., Petersen, A. C., Sostaric, S., &amp; Gong, X. (2006).</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">attenuates the decline in muscle Na+,K+-pump activity and delays fatigue during prolonged exercise in humans</title>
+		<author>
+			<persName><forename type="first">N-Acetylcysteine</forename></persName>
+		</author>
+		<idno type="DOI">10.1113/jphysiol.2006.115352</idno>
+		<ptr target="https://doi.org/10.1113/jphysiol.2006.115352" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Physiology</title>
+		<imprint>
+			<biblScope unit="volume">576</biblScope>
+			<biblScope unit="page" from="279" to="288" />
+		</imprint>
+	</monogr>
+	<note>Pt 1</note>
+	<note type="raw_reference">N-acetylcysteine attenuates the decline in muscle Na+,K+-pump activity and delays fatigue during prolonged exercise in humans. The Journal of Physiology, 576(Pt 1), 279-288. https://doi.org/10.1113/jphysiol.2006. 115352</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">N-acetylcysteine enhances muscle cysteine and glutathione availability and attenuates fatigue during prolonged exercise in endurance-trained individuals</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Medved</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Bjorksten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sostaric</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mckenna</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.00371.2004</idno>
+		<ptr target="https://doi.org/10.1152/japplphysiol.00371.2004" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1477" to="1485" />
+			<date type="published" when="1985">2004. 1985</date>
+			<pubPlace>Bethesda, Md</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Medved, I., Brown, M. J., Bjorksten, A. R., Murphy, K. T., Petersen, A. C., Sostaric, S., Gong, X., &amp; McKenna, M. J. (2004). N-acetylcysteine enhances muscle cysteine and glutathione availability and attenuates fatigue during prolonged exercise in endurance-trained individuals. Journal of Applied Physiology (Bethesda, Md.: 1985), 97(4), 1477-1485. https://doi. org/10.1152/japplphysiol.00371.2004</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Alterations of neuromuscular function after prolonged running, cycling and skiing exercises</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Millet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lepers</surname></persName>
+		</author>
+		<idno type="DOI">10.2165/00007256-200434020-00004</idno>
+		<ptr target="https://doi.org/10.2165/00007256-200434020-00004" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="105" to="116" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Millet, G. Y., &amp; Lepers, R. (2004). Alterations of neuromuscular function after prolonged running, cycling and skiing exercises. Sports Medicine, 34(2), 105-116. https://doi.org/10.2165/00007256-200434020-00004</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A specific, accurate, and sensitive measure of total plasma malondialdehyde by HPLC</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Moselhy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yousef</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Boyle</surname></persName>
+		</author>
+		<idno type="DOI">10.1194/jlr.D032698</idno>
+		<ptr target="https://doi.org/10.1194/jlr.D032698" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Lipid Research</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="852" to="858" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moselhy, H. F., Reid, R. G., Yousef, S., &amp; Boyle, S. P. (2013). A specific, accurate, and sensitive measure of total plasma malondialdehyde by HPLC. Journal of Lipid Research, 54(3), 852-858. https://doi.org/10.1194/ jlr.D032698</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Analysis of biological thiols: Derivatization with monobromobimane and separation by reverse-phase high-performance liquid chromatography</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Newton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dorian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Fahey</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0003-2697(81</idno>
+		<ptr target="https://doi.org/10.1016/0003-2697(81" />
+	</analytic>
+	<monogr>
+		<title level="j">Analytical Biochemistry</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="383" to="387" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Newton, G. L., Dorian, R., &amp; Fahey, R. C. (1981). Analysis of biological thiols: Derivatization with monobromobimane and separation by reverse-phase high-performance liquid chromatography. Analytical Biochemistry, 114(2), 383-387. https://doi.org/10.1016/0003-2697(81 )</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Pharmacokinetic and pharmacodynamic studies of N-acetylcysteine, a potential chemopreventive agent during a phase I trial</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pendyala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Creaven</surname></persName>
+		</author>
+		<ptr target="https://pubmed.ncbi.nlm.nih.gov/7606199" />
+	</analytic>
+	<monogr>
+		<title level="j">Cancer, Epidemiology, Biomarkers &amp; Prevention</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="245" to="251" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pendyala, L., &amp; Creaven, P. J. (1995). Pharmacokinetic and pharmacody- namic studies of N-acetylcysteine, a potential chemopreventive agent during a phase I trial. Cancer, Epidemiology, Biomarkers &amp; Prevention, 4(3), 245-251. https://pubmed.ncbi.nlm.nih.gov/7606199</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<author>
+			<persName><forename type="first">B</forename><surname>Piknova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Swanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Noguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Schechter</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.niox.2015.02.145</idno>
+		<ptr target="https://doi.org/10.1016/j.niox.2015.02.145" />
+	</analytic>
+	<monogr>
+		<title level="m">Skeletal muscle as an endogenous nitrate reservoir</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="10" to="16" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Piknova, B., Park, J. W., Swanson, K. M., Dey, S., Noguchi, C. T., &amp; Schechter, A. N. (2015). Skeletal muscle as an endogenous nitrate reservoir. Nitric Oxide: Biology and Chemistry, 47, 10-16. https://doi.org/ 10.1016/j.niox.2015.02.145</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Exercise-induced oxidative stress: Cellular mechanisms and impact on muscle force production</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Powers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Jackson</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/physrev.00031.2007</idno>
+		<ptr target="https://doi.org/10.1152/physrev.00031" />
+	</analytic>
+	<monogr>
+		<title level="j">Physiological Reviews</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1243" to="1276" />
+			<date type="published" when="2007">2008. 2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Powers, S. K., &amp; Jackson, M. J. (2008). Exercise-induced oxidative stress: Cellular mechanisms and impact on muscle force production. Physiological Reviews, 88(4), 1243-1276. https://doi.org/10.1152/phys rev.00031.2007</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Reactive oxygen in skeletal muscle I. Intracellular oxidant kinetics and fatigue in vitro</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Haack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Franchek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Valberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kobzik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>West</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/jappl.1992.73.5.1797</idno>
+		<ptr target="https://doi.org/10.1152/jappl.1992.73.5.1797" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1797" to="1804" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reid, M. B., Haack, K. E., Franchek, K. M., Valberg, P. A., Kobzik, L., &amp; West, M. S. (1992). Reactive oxygen in skeletal muscle I. Intracellular oxidant kinetics and fatigue in vitro. Journal of Applied Physiology, 73 (5), 1797-1804. https://doi.org/10.1152/jappl.1992.73.5.1797</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">N-acetylcysteine inhibits muscle fatigue in humans</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Stokić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Khawli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Leis</surname></persName>
+		</author>
+		<idno type="DOI">10.1172/JCI117615</idno>
+		<ptr target="https://doi.org/10.1172/JCI117615" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Clinical Investigation</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2468" to="2474" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reid, M. B., Stokić, D. S., Koch, S. M., Khawli, F. A., &amp; Leis, A. A. (1994). N-acetylcysteine inhibits muscle fatigue in humans. Journal of Clinical Investigation, 94(6), 2468-2474. https://doi.org/10.1172/JCI117615</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Ergogenic Effect of Nitrate Supplementation: A Systematic Review and Meta-analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Senefeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Wiggins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Regimbal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Dominelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Joyner</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0000000000002363</idno>
+		<ptr target="https://doi.org/10.1249/MSS.0000000000002363" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine &amp; Science in Sports &amp; Exercise</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2250" to="2261" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Senefeld, J. W., Wiggins, C. C., Regimbal, R. J., Dominelli, P. B., Baker, S. E., &amp; Joyner, M. J. (2020). Ergogenic Effect of Nitrate Supplementation: A Systematic Review and Meta-analysis. Medicine &amp; Science in Sports &amp; Exercise, 52(10), 2250-2261. https://doi.org/10.1249/MSS. 0000000000002363</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Measurement of H2S in vivo and in vitro by the monobromobimane method</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Kolluru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Kevil</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/bs.mie.2014.11.039</idno>
+		<ptr target="https://doi.org/10.1016/bs.mie.2014.11.039" />
+	</analytic>
+	<monogr>
+		<title level="j">Methods in Enzymology</title>
+		<imprint>
+			<biblScope unit="volume">554</biblScope>
+			<biblScope unit="page" from="31" to="45" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shen, X., Kolluru, G. K., Yuan, S., &amp; Kevil, C. G. (2015). Measurement of H2S in vivo and in vitro by the monobromobimane method. Methods in Enzymology, 554, 31-45. https://doi.org/10.1016/bs.mie.2014.11.039</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Motor cortex excitability does not increase during sustained cycling exercise to volitional exhaustion</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Sidhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Cresswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Carroll</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.00486.2012</idno>
+		<ptr target="https://doi.org/10.1152/japplphysiol.00486.2012" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="401" to="409" />
+			<date type="published" when="1985">2012. 1985</date>
+			<pubPlace>Bethesda, Md</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sidhu, S. K., Cresswell, A. G., &amp; Carroll, T. J. (2012). Motor cortex excitability does not increase during sustained cycling exercise to volitional exhaustion. Journal of Applied Physiology (Bethesda, Md.: 1985), 113(3), 401-409. https://doi.org/10.1152/japplphysiol.00486.2012</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Beetroot juice ingestion during prolonged moderate-intensity exercise attenuates progressive rise in O 2 uptake</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Wylie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Blackwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.01006.2017</idno>
+		<ptr target="https://doi.org/10.1152/japplphysiol.01006.2017" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1254" to="1263" />
+			<date type="published" when="1985">2018. 1985</date>
+			<pubPlace>Bethesda, Md</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tan, R., Wylie, L. J., Thompson, C., Blackwell, J. R., Bailey, S. J., Vanhatalo, A., &amp; Jones, A. M. (2018). Beetroot juice ingestion during prolonged moderate-intensity exercise attenuates progressive rise in O 2 uptake. Journal of Applied Physiology (Bethesda, Md.: 1985), 124(5), 1254-1263. https://doi.org/10.1152/japplphysiol.01006.2017</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">On the implication of dietary nitrate supplementation for the hemodynamic and fatigue response to cycling exercise</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Thurston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Weavil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Hureau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Gifford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">P</forename><surname>Georgescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>La Salle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Amann</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.00400.2021</idno>
+		<ptr target="https://doi.org/10.1152/japplphysiol.00400.2021" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1691" to="1700" />
+			<date type="published" when="1985">2021. 1985</date>
+			<pubPlace>Bethesda, Md</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thurston, T. S., Weavil, J. C., Hureau, T. J., Gifford, J. R., Georgescu, V. P., Wan, H. Y., La Salle, D. T., Richardson, R. S., &amp; Amann, M. (2021). On the implication of dietary nitrate supplementation for the hemodynamic and fatigue response to cycling exercise. Journal of Applied Physiology (Bethesda, Md.: 1985), 131(6), 1691-1700. https://doi.org/10.1152/jappl physiol.00400.2021</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Influence of acute dietary nitrate supplementation on 50 mile time trial performance in well-trained cyclists</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Wilkerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Hayward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Blackwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-012-2397-6</idno>
+		<ptr target="https://doi.org/10.1007/s00421-012-2397-6" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="4127" to="4134" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilkerson, D. P., Hayward, G. M., Bailey, S. J., Vanhatalo, A., Blackwell, J. R., &amp; Jones, A. M. (2012). Influence of acute dietary nitrate supplementation on 50 mile time trial performance in well-trained cyclists. European Journal of Applied Physiology, 112(12), 4127-4134. https://doi.org/10. 1007/s00421-012-2397-6</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Combined use of multiple methodologies for the measurement of total antioxidant capacity in UK commercially available vegetable juices</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Wootton-Beard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ryan</surname></persName>
+		</author>
+		<ptr target="https://doi.org/10/1007/s11130-012-0287-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Plant Foods for Human Nutrition</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="142" to="147" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wootton-Beard, P. C., &amp; Ryan, L. (2012). Combined use of multiple methodologies for the measurement of total antioxidant capacity in UK commercially available vegetable juices. Plant Foods for Human Nutrition, 67(2), 142-147. https://doi.org/10/1007/s11130- 012-0287-z</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Beetroot juice and exercise: Pharmacodynamic and dose-response relationships</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Wylie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Blackwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Skiba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Winyard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Jeukendrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.00372.2013</idno>
+		<ptr target="https://doi.org/10.1152/japplphysiol.00372.2013" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="325" to="336" />
+			<date type="published" when="1985">2013. 1985</date>
+			<pubPlace>Bethesda, Md</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wylie, L. J., Kelly, J., Bailey, S. J., Blackwell, J. R., Skiba, P. F., Winyard, P. G., Jeukendrup, A. E., Vanhatalo, A., &amp; Jones, A. M. (2013a). Beetroot juice and exercise: Pharmacodynamic and dose-response relationships. Journal of Applied Physiology (Bethesda, Md.: 1985), 115(3), 325-336. https://doi.org/10.1152/japplphysiol.00372.2013</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Dietary nitrate supplementation improves team sport-specific intense intermittent exercise performance</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Wylie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Krustrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Jackman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ermιdis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-013-2589-8</idno>
+		<ptr target="https://doi.org/10.1007/s00421-013-2589-8" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1673" to="1684" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wylie, L. J., Mohr, M., Krustrup, P., Jackman, S. R., Ermιdis, G., Kelly, J., Black, M. I., Bailey, S. J., Vanhatalo, A., &amp; Jones, A. M. (2013b). Dietary nitrate supplementation improves team sport-specific intense intermittent exercise performance. European Journal of Applied Physiology, 113(7), 1673-1684. https://doi.org/10.1007/ s00421-013-2589-8</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

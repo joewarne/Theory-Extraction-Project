@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Acute effects of caffeine supplementation on kinematics and kinetics of sprinting</title>
+				<funder ref="#_WDzS9tB">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_f6VjPPg">
+					<orgName type="full">Japan Society for the Promotion of Science</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Masahiro</forename><surname>Horiuchi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Sports and Life Science</orgName>
+								<orgName type="institution">National Institute of Fitness and Sports in KANOYA</orgName>
+								<address>
+									<settlement>Kagoshima</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Faculty of Sport and Budo Coaching Studies</orgName>
+								<orgName type="institution">National Institute of Fitness and Sports in KANOYA Shiromizu</orgName>
+								<address>
+									<addrLine>1, Kanoya city</addrLine>
+									<postCode>8912393</postCode>
+									<region>Kagoshima Kagoshima</region>
+									<country>Japan Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">|</forename><forename type="middle">Ryu</forename><surname>Nagahara</surname></persName>
+							<email>nagahara@nifs-k.ac.jp</email>
+							<affiliation key="aff1">
+								<orgName type="department">Faculty of Sport and Budo Coaching Studies</orgName>
+								<orgName type="institution" key="instit1">National Institute of Fitness and Sports</orgName>
+								<orgName type="institution" key="instit2">KANOYA Shiromizu</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ryu</forename><surname>Nagahara</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Masahiro</forename><surname>Orcid</surname></persName>
+							<idno type="ORCID">0000-0001-5784-5694</idno>
+						</author>
+						<author>
+							<persName><surname>Horiuchi</surname></persName>
+						</author>
+						<title level="a" type="main">Acute effects of caffeine supplementation on kinematics and kinetics of sprinting</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">494D36D319D98AA2FA3F300EFE75A844</idno>
+					<idno type="DOI">10.1111/sms.14595</idno>
+					<note type="submission">Received: 15 October 2023 | Revised: 19 December 2023 | Accepted: 26 February 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:09+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>acceleration</term>
+					<term>ergogenic aid</term>
+					<term>ground reaction force</term>
+					<term>muscle contraction speed</term>
+					<term>spatiotemporal variables</term>
+					<term>velocity</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Caffeine is one of the most commonly consumed drugs in the world and has been used as an ergogenic aid for exercise performance. <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> The effect that caffeine improved exercise performance, showing an increase in cycling time to exhaustion following coffee consumption was first suggested by Costill et al. in 1978. 5  A recent metaanalysis demonstrated that caffeine supplementation has positive effects on exercise performance including aerobic</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>endurance, muscle strength, and muscle endurance in humans. <ref type="bibr" target="#b5">6</ref> To date, many previous studies have examined the acute effects of caffeine supplementation on sprint running (hereafter, sprinting) performance. Indeed, acute caffeine supplementation improved single sprint times for 20-30 m by approximately 2.5%, <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref> or times taken for multiple sprint performance by approximately 1.3%. <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref> Moreover, acute caffeine supplementation improved peak power during repeated sprint leg cycling by 7%, <ref type="bibr" target="#b12">13</ref> and 1 repetition maximum of leg press by 2.5%. <ref type="bibr" target="#b13">14</ref> As a shortcoming, although characteristics of sprinting between track and field sprinters and the other sports athletes are different, <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16</ref> the previous studies have investigated the effects of caffeine supplementation using ball game athletes. <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref> In this regard, a recent study examined the acute effects of caffeine supplementation on 100-m sprint performance in a field test using track and field sprinters, and they found that the 100-m sprint time corrected by environmental conditions (i.e., barometric pressure, ambient temperature, and wind speed) was shorter with caffeine supplementation compared with placebo by 1.2% despite no differences in step length (SL) and frequency (SF) between the two trials. <ref type="bibr" target="#b16">17</ref> Nonetheless, this remarkable study has also some shortcomings. First, as the uncorrected 100-m sprint time was not significantly different between placebo and caffeine trials, <ref type="bibr" target="#b16">17</ref> a complete control environmental condition study may be ideal. Second, the trial was conducted once for each condition on two separate days, <ref type="bibr" target="#b16">17</ref> possibly resulting in the difference in baseline physical condition. To overcome this problem, it is necessary to evaluate caffeine-induced change in performance within a day, and then compare the changes in two trials (caffeine and placebo). Finally, and most importantly, the previous study evaluated only sprint velocity at every 10 m distance and the mean SL and SF of the entire 100 m sprint. <ref type="bibr" target="#b16">17</ref> It has been reported that caffeine supplementation improved the rate of force development, <ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref> which may be associated with an improvement of sprint performance, <ref type="bibr" target="#b20">21</ref> and thus, verification from the aspects of ground reaction force (GRF) at multiple locations during the entire sprint acceleration could provide further insight the effects of acute caffeine supplementation on sprint performance.</p><p>Accordingly, the aim of the present study was to investigate the acute effects of caffeine supplementation on sprint performance with a step-to-step measurement of GRF. It was hypothesized that acute caffeine supplementation would improve sprint performance, along with, increases in propulsive forces as propulsive forces are determinants of sprint acceleration performance. <ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b22">23</ref> 2 | METHODS</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Participants</head><p>Fifteen male sprinters from a university athletic club participated in this study. After a detailed explanation of the study procedure, possible risks, and benefits of participation in this study, all participants signed an informed consent form. This study was approved by the Ethical Committee of the National Institute of Fitness and Sports in KANOYA in Japan and was performed in accordance with the guidelines of the Declaration of Helsinki (No. 23-1-2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Experimental procedures</head><p>The experimental procedure is shown in Figure <ref type="figure">1</ref>. All studies were performed on an indoor athletic track at the Sports Performance Research Center at our university on June 24 and July 1 and 15. Indoor temperature was almost comparable between the two measurements (26.9 ± 1.1°C for placebo vs. 27.6 ± 1.5°C for caffeine conditions, mean ± standard deviation [SD]). Participants were asked to abstain from caffeine for 48 h, from alcohol for 24 h, and from strenuous exercise for 12 h before the study. They were also provided with a list of foods or drinks rich in caffeine and instructed to avoid the consumption of these foods or drinks and to maintain their normal dietary intake for the duration of the study. They visited the research center on two occasions to undertake the following procedures: Visits 1 and 2 to complete two experimental conditions (placebo and caffeine). The order of the conditions was randomized and counterbalanced with a washout period of at least 1 week between conditions. <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b16">17</ref> The measurements in two conditions were completed at the same time of day (08:00-12:00 h) to avoid any circadian rhythm effects. On both visits, upon arrival at the research center at 08:00, their stature and body mass were measured (DC-217A; TANITA, Tokyo, Japan). Then, participants took the prescribed light meal, a block-type (i.e., a nutrition bar) breakfast, for a total of 200 kcal, containing carbohydrate 21.5 g, protein 4.1 g, fat: 11.1 g, and sodium 0.44 g. At 9:00, they started individual warming-up for approximately 50 min, and performed the first round of 60-m sprint as a control without any supplements. Thereafter, they consumed an energy jelly (energy 180 kcal, carbohydrate 45.2 g, fat and protein 0 g, sodium 0.67 g), and either placebo or caffeine with a double-blinded manner. After 60 min free activities (e.g., rest, walking, stretching, or the second warming-up), they performed the second round of 60-m sprint as with either placebo or caffeine. This is because a previous study reported that most of the participants showed peak values of the blood caffeine concentrations at 60 min after caffeine supplementation. <ref type="bibr" target="#b16">17</ref> From 08:00 to the end of the second sprint round, they were allowed to drink a bottle of water freely. About a 1 or 2 week of washout period, each participant performed the same measurements with a different dosage (i.e., placebo to caffeine or caffeine to placebo).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| Supplements</head><p>For the second round in the caffeine condition, the dose of caffeine was 6 mg/kg (body mass) (Pure Caffeine; Myprotein, Manchester, United Kingdom) based on previous studies. <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b16">17</ref> For the second round in the placebo condition, a commercial placebo tablet was used (Place-plus; Placebo Pharmaceutical Co., Ltd., Shiga, Japan). To provide an accurate dose, we used an exclusive tablet crusher (navis, Japan), and powder was put into a capsule. We used the same capsules for both conditions, and thus, the participants could not discriminate whether they were taking either placebo or caffeine via appearance, smell, and taste. We conducted a randomized, placebo-controlled, doubleblind crossover study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| Measurements</head><p>After self-selected warm-up, participants performed a maximal effort 60-m sprint from the starting blocks. The participants wore their own spiked shoes. The 60-m sprint time was measured using a photocell system (TC Timing System; Brower Timing Systems, Draper, UT, USA). The photocell units were set at 1-m above the ground using tripods. A long force platform system which consisted of 54 force platforms (1000 Hz) connected to a single computer (TF-90100, TF-3055, TF-32120, Tec Gihan, Uji, Japan) measured GRFs during sprint running across a 52-m distance from approximately 1.5 m behind the starting line to the 50.5-m mark. <ref type="bibr" target="#b21">22</ref> A start pistol provided a start signal and initiated measurements of the photocell and long force platform system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">| Data analysis</head><p>Step-to-step spatiotemporal and GRF variables during sprint acceleration from the first step after cleared the blocks to the 50.5-m mark were calculated in accordance with previous studies. <ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b22">23</ref> Briefly, a Butterworth low-pass digital filter at a cut-off frequency of 50 Hz was used for smoothing the GRF signals, and 20 N vertical force was used as a threshold for detecting the foot contact and takeoff instants. Running speed, SL, SF, support time, and flight time were computed using the center of pressure location and foot contact and take-off instants. Integrating and averaging GRFs during the support phase, breaking, propulsive, net anteroposterior, and effective vertical impulses and mean forces, respectively, at every step were calculated. The effective vertical impulse and mean force respectively reflect changes in and rate of changes in the vertical velocity of the body center of mass during the support phase. Average horizontal external power (AHEP), which has been used as the most reliable sprint acceleration performance indicator, at each step was computed at each step with an equation</p><formula xml:id="formula_0">P = m v 2 f -v 2 i 2 • Δt</formula><p>proposed by Bezodis et al. <ref type="bibr" target="#b23">24</ref> The v i and v f were the anteroposterior velocities at the foot strike and toe-off, respectively, Δ t was the support time, and m was the mass of the sprinter. Moreover, instantaneous anteroposterior velocity was calculated by integrating mass-specific anteroposterior GRF subtracting the influence of aerodynamic drag. <ref type="bibr" target="#b14">15</ref> All the GRF-related variables and AHEP were divided by body mass. The breaking and propulsive times at each step were obtained as durations during which the breaking and propulsive forces were applied onto the ground. Average values for every four steps until the 24th step for each variable were calculated. <ref type="bibr" target="#b24">25</ref> The minimum number of steps measured among the participants was 24. Variables at the block clearance phase were calculated in reference to previous studies that investigated sprint start performance. <ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b25">26</ref> The onset of the force production was identified using the mean and standard deviation of total raw vertical force for feet during the 0.075 s immediately following the start signal, and then identifying the instant where the raw vertical force data first exceeded two standard deviations above the mean value and remained above this threshold for greater than 0.05 s. The GRF signals were filtered using a Butterworth low-pass digital filter at a cut-off frequency of 50 Hz. Using the filtered GRF signals, toe-off was defined when the resultant GRF from each of the force platforms fell below 30 N. The push-off duration was determined as a duration from the onset to the front leg toe-off. The duration from the start signal to the onset of force production was determined as the reaction time. Total propulsive impulse and mean force were calculated by integrating and averaging anteroposterior forces respectively during the push-off duration. The AHEP during push-off was calculated by the method shown above, while the velocity at the onset was used as v i . All the block start GRF variables and AHEP were divided by body mass. The ratio of force for both legs was calculated as the ratio of the total propulsive to the total resultant impulses for the push-off duration and expressed as percentages.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6">| Statistical analyses</head><p>All data were presented as mean ± SD. A paired t-test was used for comparisons in habitual caffeine intake, and water consumption on the experimental day, changes in sprint time between the first and second rounds in each condition (placebo or caffeine). Two-way repeated measures analysis of variance (ANOVA) (conditions × rounds) was conducted for comparisons of 60-m sprint time, spatiotemporal, and GRF variables. A Tukey post hoc test was performed for further analysis. All statistical analyses were performed using commercial statistical software (GraphPad Prism, ver. 7.02). Effect size (ES) was calculated as Cohen's d for t-test and η 2 for ANOVA. An ES was defined as trivial (&lt;0.2), small (0.2), moderate (0.5), or large (0.8) for "d," <ref type="bibr" target="#b26">27</ref> and as small (0.01), medium (0.06), and large (0.14) for "η 2 ," <ref type="bibr" target="#b27">28</ref> A p-value &lt;0.05 was considered statistically significant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">| RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">| Participants</head><p>Two of the 15 participants dropped out before the second experimental day due to injury, therefore, data from 13 participants were used for further analysis. Age, stature, body mass, and body mass index of these 13 participants were 20 ± 1 years, 1.74 ± 0.05 m, 68.1 ± 4.4 kg, and 22.6 ± 1.9 kg･(m 2 ) -1 , respectively (mean ± SD). Their personal best time of 100 m race was 11.39 ± 0.42 s.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">| Amounts of caffeine and water intake</head><p>The estimated amount of daily caffeine supplementation was 27.3 ± 29.9 mg per day (range: 0-89 mg per day), which was defined as low caffeine users. <ref type="bibr" target="#b28">29</ref> On the experimental days, amounts of water intake were 509 ± 170 mL per day for the placebo condition and 557 ± 163 mL per day for the caffeine condition with no statistical difference between the two conditions (p = 0.33, ES = -0.28).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">| Sprint time</head><p>Figure <ref type="figure" target="#fig_0">2</ref> shows changes in 60-m sprint time in the placebo and caffeine conditions. Due to device troubles, the sprint time for one participant could not be obtained in the first round on the caffeine condition, resulting in a lack of one participant's data (n = 12). A significant interaction effect was found (F = 10.13, ES = 0.03). There was no significant difference in the sprint times in the first round between the placebo (7.769 ± 0.218 s) and caffeine (7.811 ± 0.264 s) conditions (p = 0.50). In the second round, the sprint times for placebo and caffeine were 7.768 ± 0.220 s and 7.648 ± 0.238 s, respectively. After caffeine supplementation, sprint time was significantly shortened (p = 0.004), and changes in sprint time were -0.002 ± 0.071 s for placebo vs. -0.163 ± 0.124 s for caffeine with Δ2.05 [0.65, 3.46]% (ES = 0.93, n = 12).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">| A relationship between habitual caffeine intake and sprint performance</head><p>There was no relationship between habitual caffeine intake and caffeine-induced improvement (first vs. second round) of 60-m sprint time (r = 0.341, n = 12, p = 0.279).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5">| Spatiotemporal and ground reaction force variables</head><p>Significant interaction effects were found for the running speed (all the step groups), SF (13th-20th step groups), support time (5th-8th and 17th-20th step groups), braking time (17th-20th step group), propulsive time (5th-8th and 17th-20th step groups), and AHEP (1st-12th and 17th-20th step groups) (Figure <ref type="figure" target="#fig_1">3</ref>). Moreover, significant differences between first and second rounds in the caffeine condition were found for the running speed (all the step groups), SF (5th-16th and 21st-24th step groups), support time (all the step groups except for 13th-16th step), braking time (9th-24th step groups), propulsive time (1st-8th and 17th-20th step groups), and AHEP (1st-4th, 9th-12th and 17th-20th step groups) (Figure <ref type="figure" target="#fig_1">3</ref>). Regarding GRF variables, significant interaction effects were found for the braking impulse (17th-20th step group), propulsive mean force (1st-12th and 17th-20th step groups), net anteroposterior mean force (1st-12th and 17th-20th step groups), and effective vertical mean force (17th-20th step group) (Figure <ref type="figure" target="#fig_2">4</ref>). Moreover, significant differences between the first and second rounds in the caffeine condition were found for the propulsive impulse (9th-12th and 17th-20th step groups), net anteroposterior impulse (9th-12th and 17th-20th step groups), braking mean force (13th-19th step group), propulsive mean force (1st-12th and 17th-20th step groups), net anteroposterior mean force (1st-12th and 17th-20th step groups), and effective vertical mean force (9th-12th step group) (Figure <ref type="figure" target="#fig_2">4</ref>). For the block clearance phase, significant interaction effects were found for the total anteroposterior mean force, ratio of force and AHEP, and significant differences between the first and second rounds in the caffeine condition were found for the total anteroposterior impulse and mean force, ratio of force and AHEP (Table <ref type="table">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| DISCUSSION</head><p>This study is the first to investigate the acute effects of dietary caffeine supplementation on sprint performance and its underlying components for the entire acceleration phase from the start. Our results indicate that, compared with placebo, caffeine supplementation acutely improved sprint performance regardless of sprint sections through increases in SF with decreases in the support time. Moreover, acute caffeine supplementation promoted increases in the propulsive mean force which resulted in an improvement in the sprint performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">| Acute effect of caffeine supplementation on sprint performance and underlying components</head><p>In agreement with previous studies using ball game athletes <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref> and sprinters, <ref type="bibr" target="#b16">17</ref> the current results demonstrate that acute caffeine supplementation could improve 60-m sprint time for 11 out of 12 participants (excluding one from all the 13 participants who could not be measured at the time). The magnitudes of the improvement in sprint performance in this study were 2.1% for the first (7.811 s) versus second round (7.648 s) for the caffeine condition and 1.5% for placebo (7.768 s) versus caffeine condition (7.648 s) at the second round. This magnitude is large enough to influence the finishing place of an athlete in a sprint race, which was greater than the values in a previous study (1.2% for placebo [11.40 s] versus caffeine trials [11.26 s]). <ref type="bibr" target="#b16">17</ref> Moreover, comparing the effect sizes between the present (d = 0.93) and a previous study (d = 0.38 in a corrected 100 m sprint time between placebo and caffeine) <ref type="bibr" target="#b16">17</ref> highlights that the improvement in sprint performance after acute caffeine supplementation of the present study is more robust. These numerical values may overcome relatively small sample size-induced type II error.</p><p>In addition to the sprint time, the current results demonstrate that acute caffeine supplementation could improve running speed at all four step groups and AHEP at 1st-12th and 17th-20th step groups during the entire acceleration phase (Figure <ref type="figure" target="#fig_1">3</ref>), as well as block clearance performance evaluated by AHEP (Table <ref type="table">1</ref>). Running speed can be calculated as a product of SL and SF, and thus, the increases in running speed seem to be achieved by the increases in SF. Moreover, this increment of SF might be due to the decreases in the support time, because the SF is an inverse of step duration and the step duration consists of support and flight times. For the underlying components of the support time, both propulsive and braking times could be decreased by the acute caffeine supplementation mainly during the initial acceleration section (to the eighth step) and middle and later acceleration sections (from the ninth step), respectively. Taken together, the current findings suggest that the acute caffeine supplementation could improve sprint performance regardless of sprint sections through decreases in support time and increases in SF. Thus, an acute caffeine supplementation can be recommended for improving sprint performance. The only available study showed no significant effect of the acute caffeine supplementation on SL or SF, <ref type="bibr" target="#b16">17</ref> contradicting the current findings. The reason for this contradiction could be the examined range of steps (mean of all steps in the previous study <ref type="bibr" target="#b16">17</ref> versus every four steps group in this study) or experimental protocol (without baseline trial in the previous study <ref type="bibr" target="#b16">17</ref> versus with the baseline trial in this study).</p><p>The running speed is accelerated by the anteroposterior forces, <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b22">23</ref> and the high maximal running speed is achieved by large vertical force. <ref type="bibr" target="#b22">23</ref> Thus, the improvement in sprint performance can be caused by changes in GRF variables. In this regard, the current results demonstrate that acute caffeine supplementation could increase the net anteroposterior mean force through an increment of the propulsive mean force (Figure <ref type="figure" target="#fig_2">4</ref>), resulting in greater acceleration for higher running speed. In contrast, the acute caffeine supplementation did not affect anteroposterior impulse. These results indicate that the total amount of force production did not largely change while greater force was applied onto the ground within a short duration. Moreover, these changes could result in decreases in support time and increases in SF. Regarding the acceleration section-specific effect of the acute caffeine supplementation, the propulsive mean force tends to have greater increases during initial and middle acceleration sections, while a decrease in the braking impulse and increase in the effective vertical mean force were found when approaching maximal speed. These sectionspecific effects can be in line with the determinants of sprint acceleration performance verified in a previous cross sectional study. <ref type="bibr" target="#b22">23</ref> Consequently, the acute caffeine supplementation probably leads to improvement of force production ability within a short duration, and this could make it possible to increase propulsive force and shorten support time.</p><p>For the block clearance phase at the sprint start, pushoff and reaction times did not change, while the total anteroposterior mean force, AHEP, and ratio of force were improved (Table <ref type="table">1</ref>). These results indicate that the propulsive force production ability was promoted by the acute caffeine supplementation, resulting in the improvement of block clearance performance. The improvement of the anteroposterior mean force, AHEP, and ratio of force are in line with determinants of the block clearance performance examined using a cross-sectional design. <ref type="bibr" target="#b29">30</ref> It has been reported that reaction time was improved by the acute caffeine supplementation, <ref type="bibr" target="#b30">31</ref> but this study did not find the improvement. Although it is difficult to explain the reason, the reaction time in a specific task, sprint start, could possibly not be affected by the acute caffeine supplementation, because no previous study examined the effect on the reaction time in the sprint start.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">| Possible mechanisms</head><p>Yet, the detailed physiological mechanisms to improve sprint performance with acute caffeine supplementation are still unclear. It has been reported that caffeine supplementation increased muscle activation, <ref type="bibr" target="#b31">32</ref> and motor unit recruitment, <ref type="bibr" target="#b32">33</ref> perhaps, due to central nervous facilitation, <ref type="bibr" target="#b33">34</ref> and enhanced muscle contraction force via increases in the release of calcium from the sarcoplasmic reticulum. <ref type="bibr" target="#b34">35</ref> In the present study, compared with the first round in the caffeine condition, support time, braking time, and propulsive time (Figure <ref type="figure" target="#fig_1">3D</ref>,<ref type="figure">G</ref>,<ref type="figure">H</ref>, respectively) were shorter in the second round in the caffeine condition. Similarly, average horizontal external power, propulsive mean force, and net anteroposterior mean force (Figures <ref type="figure" target="#fig_1">3F</ref> and <ref type="figure" target="#fig_2">4E</ref>,F, respectively) were greater in the second round than those in the first round in the caffeine condition. Since better sprint performance has been reported to require explosive muscle activation, <ref type="bibr" target="#b35">36</ref> the findings of GRF in the present study can explain caffeine-induced faster 60-m sprint time. However, the present study did not evaluate the aforementioned physiological varibles, <ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref> therefore, future studies to elucidate the detailed mechanisms underlying acute ergogenic effects of caffeine supplementation on sprint performance may be needed.</p><p>T A B L E 1 Spatiotemporal and ground reaction force variables at the block clearance. Placebo Caffeine p-Values Pre Post Δ Post-Pre Pre Post Δ Post-pre Interaction (Effect size) Caffeine first vs. second rounds Push-off time [s] 0.356 ± 0.026 0.359 ± 0.015 0.003 ± 0.017 0.358 ± 0.02 0.349 ± 0.02 -0.009 ± 0.015 0.089 (-0.023) 0.054 Reaction time [s] 0.169 ± 0.029 0.168 ± 0.022 -0.001 ± 0.036 0.173 ± 0.033 0.18 ± 0.031 0.007 ± 0.028 0.582 (-0.005) 0.386 Total anteroposterior impulse [Ns/kg] 3.14 ± 0.19 3.16 ± 0.17 0.023 ± 0.058 3.14 ± 0.17 3.2 ± 0.19 0.062 ± 0.077 0.164 (-0.003) 0.017 Total anteroposterior mean force [N/kg] 8.85 ± 0.7 8.81 ± 0.55 -0.045 ± 0.364 8.77 ± 0.64 9.18 ± 0.66 0.406 ± 0.363 0.012 (-0.030) 0.002 Ratio of force [%] 61.3 ± 2.2 61.1 ± 1.9 -0.286 ± 1.736 60.7 ± 2.2 61.9 ± 2.5 1.246 ± 1.631 0.026 (-0.029) 0.021 AHEP [W/kg] 13.8 ± 1.7 13.8 ± 1.6 0.011 ± 0.478 13.6 ± 1.7 14.5 ± 1.8 0.881 ± 0.714 0.002 (-0.016) 0.001 Note: Values are mean±standard deviation. The bold p-values indicate statistical significance.</p><p>Abbreviation: AHEP, average horizontal external power.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">| Methodological considerations</head><p>There are several methodological considerations when interpreting our findings. First, our participants were sub-elite sprinters (national to regional levels) who were previously identified to have a season's best time of 10.35-11.50 s for 100 m. <ref type="bibr" target="#b36">37</ref> Therefore, whether the findings can be further applied to elite sprinters may be limited. Similarly, we could recruit only male sprinters, not female sprinters. Some previous literature demonstrated that caffeine supplementation induced sex-specific effects on exercise performance; men <ref type="bibr" target="#b37">38</ref> or women <ref type="bibr" target="#b38">39</ref> were highly responder compared with women or men. Future studies for elite sprinters including female sprinters may be required. Finally, our study protocol was limited up to 60 m, which can be applied to only indoor sprint events, not to Olympic games etc. as the shortest distance is 100 m. However, the maximal sprint velocity was observed between the 50-m and 60-m marks, <ref type="bibr" target="#b16">17</ref> and 100 m sprint performance was closely associated with 60-m sprint performance, <ref type="bibr" target="#b16">17</ref> or the maximal velocity <ref type="bibr" target="#b39">40</ref> though future investigations of deceleration phase could provide further insight for understanding the caffeine supplementation effects.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">| PERSPECTIVE</head><p>This study demonstrated that experimental doses of 6 mg･kg -1 improved 60-m sprint time for most of the participants. This study could provide further information about acute caffeine-induced improvement of sprint speed regardless of acceleration sections during the entire acceleration phase from the start through increases in SF and decreases in support time, as well as increases in the propulsive force. These findings could yield more robust evidence rather than a previous study that evaluated only mean step length and frequency for the enitre distance. <ref type="bibr" target="#b16">17</ref> Moreover, as caffeine was removed from the World Antidoping Agency's list of prohibited substances in 2004, the doors have opened up for various athletes such as sprinters, handlers, or long jumpers to exploit its ergogenic properties. Based on the marked increases in step frequency after caffeine supplementation in the present study, and changes in the international doping standards, our findings could future prospects of acute supplementation of caffeine's ergogenicity on sprint performance.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>F I G U R E 2</head><label>2</label><figDesc>Comparisons in 60-m sprint time between the placebo and caffeine conditions. Bar graphs indicate mean values with error bars of standard deviation (SD). White and gray bars indicate the first round without any supplements as a control and the second round (placebo or caffeine). Figures with dotted lines indicate individual data. CON, control. *p &lt; 0.05 between the first and second rounds in the caffeine condition.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>F I G U R E 3</head><label>3</label><figDesc>Spatiotemporal variables and average horizontal external power at four step groups during sprinting (○; first in the placebo, •; second in the placebo, △; first in the caffeine, and ▲ second in the caffeine). Each panel indicates speed (A), step length (B), step frequency (C), support time (D), flight time (E), average horizontal external power (F), braking time (G), and propulsive time (H). Values are mean with error bars of SD. ES, effect size.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>F I G U R E 4</head><label>4</label><figDesc>Ground reaction force variables at four step groups during sprinting (○; first in the placebo, •; second in the placebo, △; first in the caffeine, and ▲ second in the caffeine). Each panel indicates braking impulse (A), propulsive impulse (B), net anteroposterior impulse (C), braking mean force (D), propulsive mean force (E), net anteroposterior mean force (F), effective vertical impulse (G), and effective vertical mean force. Values are mean with error bars of SD. ES, effect size.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="2,84.78,536.06,425.71,178.16" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>16000838, 2024, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14595 by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [10/08/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>We appreciate the time and effort spent by our volunteers.</p></div>
+<div><head>FUNDING INFORMATION</head><p>This study was partly supported by the <rs type="funder">Japan Society for the Promotion of Science</rs> (No.: <rs type="grantNumber">23H00953</rs>).</p></div>
+			</div>
+			<div type="funding">
+<div><p>Japan Society for the Promotion of <rs type="grantName">Science, Grant/Award Number</rs>: <rs type="grantNumber">23H00953</rs></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_f6VjPPg">
+					<idno type="grant-number">23H00953</idno>
+				</org>
+				<org type="funding" xml:id="_WDzS9tB">
+					<idno type="grant-number">23H00953</idno>
+					<orgName type="grant-name">Science, Grant/Award Number</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head><p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST STATEMENT</head><p>No conflict of interest, financial or otherwise, is declared by the authors.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Effects of caffeine consumption combined with listening to music during warm-up on taekwondo physical performance, perceived exertion and psychological aspects</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Delleli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ouergui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Messaoudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Ballmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Ardigo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chtourou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">292498</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Delleli S, Ouergui I, Messaoudi H, Ballmann CG, Ardigo LP, Chtourou H. Effects of caffeine consumption combined with listening to music during warm-up on taekwondo physical per- formance, perceived exertion and psychological aspects. PLoS One. 2023;18(10):e0292498.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Caffeine and exercise: metabolism, endurance and performance</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Graham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="785" to="807" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Graham TE. Caffeine and exercise: metabolism, endurance and performance. Sports Med. 2001;31(11):785-807.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Acute effects of caffeine supplementation on taekwondo performance: the influence of competition level and sex</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ouergui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Delleli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Bridge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">13795</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ouergui I, Delleli S, Bridge CA, et al. Acute effects of caffeine supplementation on taekwondo performance: the influence of competition level and sex. Sci Rep. 2023;13(1):13795.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Acute effects of low dose of caffeine ingestion combined with conditioning activity on psychological and physical performances of male and female taekwondo athletes</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ouergui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mahdi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Delleli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nutrients</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">571</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ouergui I, Mahdi N, Delleli S, et al. Acute effects of low dose of caffeine ingestion combined with conditioning activity on psychological and physical performances of male and female taekwondo athletes. Nutrients. 2022;14(3):571.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Effects of caffeine ingestion on metabolism and exercise performance</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Costill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Dalsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Fink</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="155" to="158" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Costill DL, Dalsky GP, Fink WJ. Effects of caffeine ingestion on metabolism and exercise performance. Med Sci Sports. 1978;10(3):155-158.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Wake up and smell the coffee: caffeine supplementation and exercise performance-an umbrella review of 21 published meta-analyses</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grgic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Grgic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pickering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Schoenfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Pedisic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="681" to="688" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grgic J, Grgic I, Pickering C, Schoenfeld BJ, Bishop DJ, Pedisic Z. Wake up and smell the coffee: caffeine supplementation and exercise performance-an umbrella review of 21 published meta-analyses. Br J Sports Med. 2020;54(11):681-688.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Effects of acute caffeine ingestion on futsal performance in subelite players</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lopez-Samanes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Moreno-Perez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Travassos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Del</forename><surname>Coso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Nutr</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="4531" to="4540" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lopez-Samanes A, Moreno-Perez V, Travassos B, Del Coso J. Effects of acute caffeine ingestion on futsal performance in sub- elite players. Eur J Nutr. 2021;60(8):4531-4540.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Effects of caffeine ingestion on physical performance in elite women handball players: a randomized, controlled study</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Munoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lopez-Samanes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Perez-Lopez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1406" to="1413" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Munoz A, Lopez-Samanes A, Perez-Lopez A, et al. Effects of caffeine ingestion on physical performance in elite women handball players: a randomized, controlled study. Int J Sports Physiol Perform. 2020;15(10):1406-1413.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Acute caffeine supplementation promotes small to moderate improvements in performance tests indicative of in-game success in professional female basketball players</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stojanovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Stojiljkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Scanlan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Physiol Nutr Metab</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="849" to="856" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stojanovic E, Stojiljkovic N, Scanlan AT, et al. Acute caffeine supplementation promotes small to moderate improvements in performance tests indicative of in-game success in profes- sional female basketball players. Appl Physiol Nutr Metab. 2019;44(8):849-856.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Effect of caffeine supplementation on repeated sprint running performance</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schneiker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Goodman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Med Phys Fitness</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="472" to="478" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carr A, Dawson B, Schneiker K, Goodman C, Lay B. Effect of caffeine supplementation on repeated sprint running perfor- mance. J Sports Med Phys Fitness. 2008;48(4):472-478.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Acute ingestion of caffeinated chewing gum improves repeated Sprint performance of team sport athletes with low habitual caffeine consumption</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tierney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hawe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Macken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Egan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Nutr Exerc Metab</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="221" to="227" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Evans M, Tierney P, Gray N, Hawe G, Macken M, Egan B. Acute ingestion of caffeinated chewing gum improves repeated Sprint performance of team sport athletes with low habitual caffeine consumption. Int J Sport Nutr Exerc Metab. 2018;28(3):221-227.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Caffeine supplementation and multiple sprint running performance</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Glaister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Howatson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Abraham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1835" to="1840" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Glaister M, Howatson G, Abraham CS, et al. Caffeine supple- mentation and multiple sprint running performance. Med Sci Sports Exerc. 2008;40(10):1835-1840.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Effects of caffeine on prolonged intermittent-sprint ability in team-sport athletes</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Schneiker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Hackett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="578" to="585" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schneiker KT, Bishop D, Dawson B, Hackett LP. Effects of caf- feine on prolonged intermittent-sprint ability in team-sport athletes. Med Sci Sports Exerc. 2006;38(3):578-585.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Effects of coffee and caffeine anhydrous on strength and sprint performance</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Trexler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Smith-Ryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Roelofs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Hirsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Mock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="702" to="710" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Trexler ET, Smith-Ryan AE, Roelofs EJ, Hirsch KR, Mock MG. Effects of coffee and caffeine anhydrous on strength and sprint performance. Eur J Sport Sci. 2016;16(6):702-710.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">How sprinters accelerate beyond the velocity plateau of soccer players: waveform analysis of ground reaction forces</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Colyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Takai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ait</forename><surname>Salo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2527" to="2535" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Colyer SL, Nagahara R, Takai Y, Salo AIT. How sprinters accel- erate beyond the velocity plateau of soccer players: waveform analysis of ground reaction forces. Scand J Med Sci Sports. 2018;28(12):2527-2535.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Differences in step characteristics and linear kinematics between rugby players and sprinters during initial sprint acceleration</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Wild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">N</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>North</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Bezodis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1327" to="1337" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wild JJ, Bezodis IN, North JS, Bezodis NE. Differences in step characteristics and linear kinematics between rugby players and sprinters during initial sprint acceleration. Eur J Sport Sci. 2018;18(10):1327-1337.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Acute effect of caffeine supplementation on 100-m Sprint running performance: a field test</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsumura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tomoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sugimoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="525" to="533" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matsumura T, Tomoo K, Sugimoto T, et al. Acute effect of caf- feine supplementation on 100-m Sprint running performance: a field test. Med Sci Sports Exerc. 2023;55(3):525-533.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The effects of caffeine on vertical jump height and execution in collegiate athletes</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Bloms</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Fitzgerald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Short</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Whitehead</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1855" to="1861" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bloms LP, Fitzgerald JS, Short MW, Whitehead JR. The effects of caffeine on vertical jump height and execution in collegiate athletes. J Strength Cond Res. 2016;30(7):1855-1861.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A comprehensive assessment of caffeine&apos;s effects on components of countermovement jump performance</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grgic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Sport</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="515" to="520" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grgic J. A comprehensive assessment of caffeine&apos;s effects on components of countermovement jump performance. Biol Sport. 2022;39(3):515-520.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Effects of caffeine on rate of force development: a meta-analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grgic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mikulic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="644" to="653" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grgic J, Mikulic P. Effects of caffeine on rate of force devel- opment: a meta-analysis. Scand J Med Sci Sports. 2022;32(4): 644-653.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Explosive force production during isometric squats correlates with athletic performance in rugby union players</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Tillin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Pain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Folland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="66" to="76" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tillin NA, Pain MT, Folland J. Explosive force production during isometric squats correlates with athletic performance in rugby union players. J Sports Sci. 2013;31(1):66-76.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Step-to-step spatiotemporal variables and ground reaction forces of intra-individual fastest sprinting in a single session</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mizutani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukunaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1392" to="1401" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nagahara R, Mizutani M, Matsuo A, Kanehisa H, Fukunaga T. Step-to-step spatiotemporal variables and ground reaction forces of intra-individual fastest sprinting in a single session. J Sports Sci. 2018;36(12):1392-1401.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Association of Sprint Performance with Ground Reaction Forces during Acceleration and Maximal Speed Phases in a single Sprint</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mizutani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukunaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Biomech</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="104" to="110" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nagahara R, Mizutani M, Matsuo A, Kanehisa H, Fukunaga T. Association of Sprint Performance with Ground Reaction Forces during Acceleration and Maximal Speed Phases in a sin- gle Sprint. J Appl Biomech. 2018;34(2):104-110.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Choice of sprint start performance measure affects the performance-based ranking within a group of sprinters: which is the most appropriate measure?</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Salo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Trewartha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Biomech</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="258" to="269" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bezodis NE, Salo AI, Trewartha G. Choice of sprint start perfor- mance measure affects the performance-based ranking within a group of sprinters: which is the most appropriate measure? Sports Biomech. 2010;9(4):258-269.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Association of Step Width with accelerated sprinting performance and ground reaction force</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mizutani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukunaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="534" to="540" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nagahara R, Mizutani M, Matsuo A, Kanehisa H, Fukunaga T. Association of Step Width with accelerated sprinting perfor- mance and ground reaction force. Int J Sports Med. 2017;38(7): 534-540.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Improvement in sprint start performance by modulating an initial loading location on the starting blocks</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gleadhill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ohshima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="2437" to="2445" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nagahara R, Gleadhill S, Ohshima Y. Improvement in sprint start performance by modulating an initial loading location on the starting blocks. J Sports Sci. 2020;38(21):2437-2445.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Progressive statistics for studies in sports medicine and exercise science</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Hopkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Batterham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hanin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="13" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hopkins WG, Marshall SW, Batterham AM, Hanin J. Progressive statistics for studies in sports medicine and exercise science. Med Sci Sports Exerc. 2009;41(1):3-13.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Calculating and reporting effect sizes to facilitate cumulative science: a practical primer for t-tests and ANOVAs</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lakens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Psychol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">863</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lakens D. Calculating and reporting effect sizes to facilitate cumulative science: a practical primer for t-tests and ANOVAs. Front Psychol. 2013;4:863.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Acute effects of caffeine supplementation on resistance exercise, jumping, and Wingate performance: no influence of habitual caffeine intake</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grgic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mikulic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1165" to="1175" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Grgic J, Mikulic P. Acute effects of caffeine supplementation on resistance exercise, jumping, and Wingate performance: no influence of habitual caffeine intake. Eur J Sport Sci. 2021;21(8):1165-1175.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Understanding the track and field sprint start through a functional analysis of the external force features which contribute to higher levels of block phase performance</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Walton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="560" to="567" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bezodis NE, Walton SP, Nagahara R. Understanding the track and field sprint start through a functional analysis of the ex- ternal force features which contribute to higher levels of block phase performance. J Sports Sci. 2019;37(5):560-567.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A review of caffeine&apos;s effects on cognitive, physical and occupational performance</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Mclellan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Caldwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Lieberman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurosci Biobehav Rev</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="294" to="312" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McLellan TM, Caldwell JA, Lieberman HR. A review of caf- feine&apos;s effects on cognitive, physical and occupational perfor- mance. Neurosci Biobehav Rev. 2016;71:294-312.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Caffeineinduced increase in voluntary activation and strength of the quadriceps muscle during isometric, concentric and eccentric contractions</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Behrens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mau-Moeller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Weippert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">10209</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Behrens M, Mau-Moeller A, Weippert M, et al. Caffeine- induced increase in voluntary activation and strength of the quadriceps muscle during isometric, concentric and eccentric contractions. Sci Rep. 2015;5:10209.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Caffeine improves neuromuscular function during maximal dynamic exercise</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bazzucchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Felici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Montini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Figura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sacchetti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Muscle Nerve</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="839" to="844" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bazzucchi I, Felici F, Montini M, Figura F, Sacchetti M. Caffeine improves neuromuscular function during maximal dynamic exercise. Muscle Nerve. 2011;43(6):839-844.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Caffeine, neuromuscular function and highintensity exercise performance</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Williams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Med Phys Fitness</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="481" to="489" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Williams JH. Caffeine, neuromuscular function and high- intensity exercise performance. J Sports Med Phys Fitness. 1991;31(3):481-489.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The brain ryanodine receptor: a caffeine-sensitive calcium release channel</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Mcpherson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Valdivia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuron</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="17" to="25" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McPherson PS, Kim YK, Valdivia H, et al. The brain ryanodine receptor: a caffeine-sensitive calcium release channel. Neuron. 1991;7(1):17-25.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The biological limits to running speed are imposed from the ground up</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Weyand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Sandell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Prime</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Bundle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="950" to="961" />
+			<date type="published" when="1985">1985. 2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weyand PG, Sandell RF, Prime DN, Bundle MW. The biological limits to running speed are imposed from the ground up. J Appl Physiol (1985). 2010;108(4):950-961.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The muscle morphology of elite Sprint running</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Balshaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Massey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="804" to="815" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Miller R, Balshaw TG, Massey GJ, et al. The muscle morphology of elite Sprint running. Med Sci Sports Exerc. 2021;53(4):804-815.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Effects of caffeine chewing gum on race performance and physiology in male and female cyclists</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Paton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guglielmo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1076" to="1083" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paton C, Costa V, Guglielmo L. Effects of caffeine chewing gum on race performance and physiology in male and female cy- clists. J Sports Sci. 2015;33(10):1076-1083.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Effect of energy drink consumption on power and velocity of selected sport performance activities</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Jacobson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Hester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Palmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1613" to="1618" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jacobson BH, Hester GM, Palmer TB, et al. Effect of energy drink consumption on power and velocity of selected sport performance activities. J Strength Cond Res. 2018;32(6): 1613-1618.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">How 100-m event analyses improve our understanding of world-class men&apos;s and women&apos;s sprint performance</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Slawinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Termoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rabita</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="45" to="54" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Slawinski J, Termoz N, Rabita G, et al. How 100-m event analyses improve our understanding of world-class men&apos;s and women&apos;s sprint performance. Scand J Med Sci Sports. 2017;27(1):45-54.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

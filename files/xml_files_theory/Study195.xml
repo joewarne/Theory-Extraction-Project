@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Lower-limb wearable resistance overloads joint angular velocity during early acceleration sprint running</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-05-14">14 May 2023.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Erin</forename><forename type="middle">H</forename><surname>Feser</surname></persName>
+							<email>erin.feser@belmont.edu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Sports Performance Research Institute New Zealand (SPRINZ) at AUT Millennium</orgName>
+								<orgName type="institution" key="instit2">Auckland University of Technology</orgName>
+								<address>
+									<settlement>Auckland</settlement>
+									<country>New Zealand;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Exercise Science</orgName>
+								<orgName type="institution">Belmont University</orgName>
+								<address>
+									<settlement>Nashville</settlement>
+									<region>TN</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jonathon</forename><surname>Neville</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Sports Performance Research Institute New Zealand (SPRINZ) at AUT Millennium</orgName>
+								<orgName type="institution" key="instit2">Auckland University of Technology</orgName>
+								<address>
+									<settlement>Auckland</settlement>
+									<country>New Zealand;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Denny</forename><surname>Wells</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Sports Performance Research Institute New Zealand (SPRINZ) at AUT Millennium</orgName>
+								<orgName type="institution" key="instit2">Auckland University of Technology</orgName>
+								<address>
+									<settlement>Auckland</settlement>
+									<country>New Zealand;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shelley</forename><surname>Diewald</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Sports Performance Research Institute New Zealand (SPRINZ) at AUT Millennium</orgName>
+								<orgName type="institution" key="instit2">Auckland University of Technology</orgName>
+								<address>
+									<settlement>Auckland</settlement>
+									<country>New Zealand;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mai</forename><surname>Kameda</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">National Institute of Fitness and Sports in Kanoya</orgName>
+								<address>
+									<settlement>Kanoya</settlement>
+									<country>Japan;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Neil</forename><forename type="middle">E</forename><surname>Bezodis</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">A-STEM Research Centre</orgName>
+								<orgName type="institution">Swansea University</orgName>
+								<address>
+									<settlement>Swansea</settlement>
+									<country>UK;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kenneth</forename><surname>Clark</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Department of Kinesiology</orgName>
+								<orgName type="institution">West Chester University</orgName>
+								<address>
+									<settlement>WestChester</settlement>
+									<region>PA</region>
+									<country>USA;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ryu</forename><surname>Nagahara</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">National Institute of Fitness and Sports in Kanoya</orgName>
+								<address>
+									<settlement>Kanoya</settlement>
+									<country>Japan;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paul</forename><surname>Macadam</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Sports Performance Research Institute New Zealand (SPRINZ) at AUT Millennium</orgName>
+								<orgName type="institution" key="instit2">Auckland University of Technology</orgName>
+								<address>
+									<settlement>Auckland</settlement>
+									<country>New Zealand;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Aaron</forename><forename type="middle">M</forename><surname>Uthoff</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Sports Performance Research Institute New Zealand (SPRINZ) at AUT Millennium</orgName>
+								<orgName type="institution" key="instit2">Auckland University of Technology</orgName>
+								<address>
+									<settlement>Auckland</settlement>
+									<country>New Zealand;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Farhan</forename><surname>Tinwala</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Sports Performance Research Institute New Zealand (SPRINZ) at AUT Millennium</orgName>
+								<orgName type="institution" key="instit2">Auckland University of Technology</orgName>
+								<address>
+									<settlement>Auckland</settlement>
+									<country>New Zealand;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Exercise Science</orgName>
+								<orgName type="institution">High Performance Sport</orgName>
+								<address>
+									<settlement>New Zealand</settlement>
+									<country key="NZ">New Zealand</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">John</forename><forename type="middle">B</forename><surname>Cronin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Sports Performance Research Institute New Zealand (SPRINZ) at AUT Millennium</orgName>
+								<orgName type="institution" key="instit2">Auckland University of Technology</orgName>
+								<address>
+									<settlement>Auckland</settlement>
+									<country>New Zealand;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tinwala</forename><surname>Farhan</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="institution">Belmont University</orgName>
+								<address>
+									<addrLine>2110 Belmont Blvd</addrLine>
+									<postCode>37212</postCode>
+									<settlement>Nashville</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Lower-limb wearable resistance overloads joint angular velocity during early acceleration sprint running</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">Print</idno>
+						<imprint>
+							<date type="published" when="2023-05-14">14 May 2023.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">35672AC193AEA6158897222D4619AE8B</idno>
+					<idno type="DOI">10.1080/02640414.2023.2209759</idno>
+					<note type="submission">View supplementary material Received 30 September 2022 Accepted 24 April 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Specificity</term>
+					<term>motion analysis</term>
+					<term>limb loading</term>
+					<term>sprinting</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Lower-limb wearable resistance (WR) facilitates targeted resistance-based training during sports-specific movement tasks. The purpose of this study was to determine the effect of two different WR placements (thigh and shank) on joint kinematics during the acceleration phase of sprint running. Eighteen participants completed maximal effort sprints while unloaded and with 2% body mass thigh-or shank-placed WR. The main findings were as follows: 1) the increase to 10 m sprint time was small with thigh WR (effect size [ES] = 0.24), and with shank WR, the increase was also small but significant (ES = 0.33); 2) significant differences in peak joint angles between the unloaded and WR conditions were small (ES = 0.23-0.38), limited to the hip and knee joints, and &lt;2° on average; 3) aside from peak hip flexion angles, no clear trends were observed in individual difference scores; and, 4) thigh and shank WR produced similar reductions in average hip flexion and extension angular velocities. The significant overload to hip flexion and extension velocity with both thigh-and shank-placed WR may be beneficial to target the flexion and extension actions associated with fast sprint running.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Wearable resistance (WR) loading involves attaching an external load to one or more of the segments of the body <ref type="bibr" target="#b9">(Macadam et al., 2017)</ref>. The low load magnitude used with this training method (e.g., ≤5% of body mass <ref type="bibr">[BM]</ref>) <ref type="bibr" target="#b6">(Feser, Macadam, et al., 2020)</ref> allows for targeted resistance-based training during sports-specific movement tasks. Practitioners can selectively place a WR load to overload specific joints, and, therefore, target specific muscles and specific muscular adaptations. This has made the thigh-or shankplaced WR an attractive training option for improving sprint running performance. However, an external load attached to a limb changes the limb's inertial properties and can potentially alter joint kinematics during movement training. This is an important consideration for using lower-limb WR for sprint running.</p><p>The influence of thigh or shank WR on leg joint kinematics during sprint running has primarily been investigated during maximal velocity overground sprint running. Researchers have reported mean changes to joint position and limb segment displacement measures to be within ±3° with thigh (~1.7% BM) <ref type="bibr" target="#b7">(Hurst et al., 2020)</ref> and shank (~0.6-1.1% BM) <ref type="bibr" target="#b7">(Hurst et al., 2020;</ref><ref type="bibr" target="#b15">Zhang et al., 2019)</ref> WR. These reported measures were nonsignificant <ref type="bibr" target="#b7">(Hurst et al., 2020;</ref><ref type="bibr" target="#b15">Zhang et al., 2019)</ref> with the exception of knee joint angle at touchdown, where sprint running with 1.1% BM shank WR resulted in a small, significant decrease in knee flexion (-1.7°, effect size [ES] = 0.28, p = 0.03) <ref type="bibr" target="#b15">(Zhang et al., 2019)</ref>. The loading schemes evaluated to-date do not appear to produce aberrant movement patterns during maximal velocity sprint running. However, the characteristics of typical joint kinematics during unloaded sprint running change as an athlete transition through acceleration to maximal velocity <ref type="bibr" target="#b13">(Nagahara et al., 2014)</ref>. Therefore, the effects of thigh and shank WR on joint kinematics during acceleration should also be investigated.</p><p>The available research on the acute effects of lower-limb WR on acceleration phase joint kinematics is limited to one study published to-date. Researchers investigated the effect of sprint running with 2% BM thigh WR compared to unloaded sprint running on thigh kinematics and found non-significant increases in thigh flexion and extension displacement ranging from 0.8° to 2.8° across the acceleration phase (ES = 0.10-0.27, all p &gt; 0.05) <ref type="bibr" target="#b8">(Macadam, 2020;</ref><ref type="bibr">Macadam, Cronin, et al., 2020)</ref>. It seems that thigh angular displacement is minimally affected by the increase in rotational inertia from 2% BM thigh WR. Although thigh angular velocity was significantly decreased during all step phases measured (-2.3 to -8.0%, ES = 0.26-0.51, p &lt; 0.05; steps 1-2, 3-6 and 7-10), the rotational work at the hip joint was significantly increased with the thigh WR (9.8-18.8%, ES 0.09-0.55, p &lt; 0.01) <ref type="bibr">(Macadam, Cronin, et al., 2020)</ref>. However, the joint kinematic measures at the knee and ankle joints were not reported nor is there currently any information available on the effects of shank WR on acceleration phase joint kinematics during overground sprint running. Comparing the effect of thigh versus shank WR is especially important considering the progressive increase in the moment of inertia of the hip joint as a given WR load is placed more distally during sprint running <ref type="bibr" target="#b4">(Dolcetti et al., 2019)</ref>.</p><p>Researchers have begun to establish how lower-limb WR may influence joint kinematics during sprint running, but further investigation is needed to better understand the effects of thigh and shank WR on hip, knee, and ankle joint kinematics during sprint-running acceleration. The information available to date is limited to the acceleration phase since only one WR load placement (thigh) has been used and one joint (hip) has been analysed. The outcomes of this study will help improve practitioners' understanding of how changing the limb's inertial properties with shank or thigh WR influences joint kinematics across the whole leg, enabling them to make more informed decisions when programming training with lowerlimb WR. Therefore, the primary purpose of this study was to determine the effect of two different WR placements (thigh and shank) on hip, knee, and ankle joint kinematics during the acceleration phase of sprint running. It is hypothesised that any significant changes to the joint position when loaded would be of a small effect and any significant changes to angular velocity would be classified as small or moderate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Eighteen male, university-level sprinters volunteered to participate in this study (age = 20.9 ± 2.05 years, mass = 66.3 ± 5.06 kg, height = 1.74 ± 0.05 m). The athletes had a combined training experience of 9.17 ± 2.57 years and a mean 100 m best time of 11.46 ± 0.40 s. All study procedures were approved by the host University Institutional Review Board. Each athlete provided written informed consent prior to study participation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental procedures</head><p>Athletes reported to the testing facility for two randomly ordered testing sessions, separated by a minimum of 72 h. The testing occurred during the athletes' late off-season at a time of day that represented their normal training hours (between 10 am to 3 pm). One testing session utilised thigh WR for the loaded experimental condition while the other utilised shank WR. Each testing session began with the athletes completing a prescribed warm-up and then four maximal effort 50 m sprints from the starting blocks wearing spiked shoes. During the warm-up, the athletes were asked to spend the first 5 min performing low-intensity dynamic movements (e.g., jogging and skipping variations) and muscle activation exercises (e.g., glute bridges), then 5 min of dynamic stretching to target the primary lower-limb muscles, and finally 5 min of sprint-specific drills (e.g., A-skips) and submaximal runs at ~70% and ~90% effort in both the unloaded and loaded experimental conditions. Each sprint trial was separated by a minimum of 5-min rest. Two sprints were completed under each experimental condition -loaded (with thigh or shank WR) and unloaded (no WR). The order of the sprints and the loading conditions were randomly assigned.</p><p>Each sprint trial was completed on an indoor track surface (Hasegawa Sports Facilities Co., Hasegawa, Japan). An electronic starting gun (Digi Pistol, Molten, Hiroshima, Japan) was used to signal the start of each sprint. A retro-reflective marker set to record the three-dimensional kinematics of the lower limb and torso was affixed to the athletes. The position of the WR limited the placement of markers on the loaded segment, so two marker sets were developed, one for each condition (Appendix A). The relevant marker set applied was a modified version of the University of Western Australia (UWA) lower limb marker set <ref type="bibr" target="#b0">(Besier et al., 2003)</ref>. At the start of each testing session, the athletes performed a static pose calibration trial to determine anatomical landmark positions of the knee and ankle. The marker data were recorded at 250 Hz using a highspeed motion capture system (Motion Analysis Corporation, Santa Rosa, California, USA, 21 Raptor-E cameras) to capture the first 9 m of the acceleration phase of the sprint. The 10 m sprint times were measured using a photocell system (TC Timing System; Brower Timing Systems, Draper, UT, USA), initiated by the electric starting gun.</p><p>The WR was attached to the limb with a specialised formfitting garment (Lila™ Exogen™, Sportboleh Sdh Bhd, Kuala Lumpur, Malaysia) that allows for Velcro backed micro-loads to be attached to the garment. The Exogen™ garments were worn for all sprint trials. For the thigh-loaded experimental condition, WR was attached to the Exogen™ shorts in a horizontal orientation on the distal aspect of the thigh. Consistent with previous thigh WR research, two-thirds of the load was placed more anteriorly and one-third placed more posteriorly (Figure <ref type="figure" target="#fig_0">1a</ref>) <ref type="bibr">(Macadam, Cronin, et al., 2020;</ref><ref type="bibr" target="#b12">Macadam, Nuell, et al., 2020)</ref>. For the shank-loaded experimental condition, WR was attached to the Exogen™ calf sleeves along the long axis of the shank in a manner to balance the loading around the limb (Figure <ref type="figure" target="#fig_0">1b</ref>). The exact loading magnitudes ranged from 1.92% to 2.06% of BM due to the load increments available (50, 100, and 200 g).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data analysis</head><p>Marker trajectory data was filtered by a fourth-order Butterworth low-pass digital filter at participant-specific cutoff frequencies (13-18 Hz) via residual analysis performed on a tibia-mounted marker <ref type="bibr" target="#b14">(Winter, 2009)</ref>. The data were modelled using the UWA lower-limb model <ref type="bibr" target="#b0">(Besier et al., 2003)</ref> modified to be compatible with the adjusted marker sets. All data modelling was performed using Vicon Nexus 2 (Vicon, Oxford Metrics, Oxford, UK). Modelled kinematic outputs were exported from Vicon Nexus 2 into CSV format and imported in MATLAB (MATLAB R2019b, The MathWorks, Inc., Natick, Massachusetts, USA) for post-processing and feature extraction. A custom algorithm was developed to extract the joint angle vector data associated with the sagittal plane of movement, specifically hip flexion and extension, knee flexion and extension, and ankle dorsiflexion angles, for the stride cycles of interest. The short presence of ankle plantar flexion that occurs prior to weight acceptance was used to help identify the start of the stance phase. Specifically, the timepoint of the transition back to dorsiflexion marked the start of the stance phase and subsequent stride cycle. The stride cycles commencing from the start of the first and third ground contacts on the track after clearing the starting blocks were identified for each athlete's trials and used for the analysis. For each stride, peak hip flexion and extension, knee flexion and extension, and ankle dorsiflexion angles were identified for the limb that made the first ground contact. Therefore, data from only one limb was used for the analysis. The angles corresponded with the late stance phase (i.e., peak hip and knee extension), the late swing phase (i.e., peak hip and knee flexion), and the early-mid stance phase (i.e., peak ankle dorsiflexion). The average flexion and extension velocities were calculated for the hip and knee joints across each stride from the time points of peak joint angle values (e.g., hip extension velocity was calculated from the time point of peak hip flexion to peak hip extension). The average ankle joint dorsiflexion velocity was calculated from the onset of dorsiflexion at the start of the stance phase to the time point of peak dorsiflexion, thus corresponding to the weight acceptance portion of the early-mid stance phase. To represent the average athlete performance for each sprint condition, the mean values for all dependent variables across the two trials were used for statistical analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>Athletes who were only able to attend one testing session due to scheduling conflicts were included in the analysis of the testing session in which they participated. A paired-samples t-test was used to test for differences between the thigh WR and unloaded conditions (n = 14) and between the shank WR and unloaded conditions (n = 15). For the athletes who attended both testing sessions (n = 11), a paired-samples t-test was also used to test for differences between the thigh and shank WR conditions. The between-condition difference scores were inspected for normality and outlier data samples. Outliers classified as extreme (&gt;3 box-lengths from the edge of the boxplot) or those that prevented a normal distribution (assessed by Shapiro-Wilk's test) were removed from the final analysis. Marker failure resulted in missing angle data at the knee and ankle for the thigh testing session (n = 1 and 2, respectively) and the shank testing session (n = 1 and 2, respectively). Analyses were performed using SPSS Statistics (Version 25, IBM, Armonk, NY, USA). Significance was set at p ≤ 0.05. ES statistics (Cohen's d) were calculated and described as trivial (&lt;0.20), small (0.20), moderate (0.50) and large (0.80) <ref type="bibr" target="#b3">(Cohen, 1988)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>The 10 m sprint times increased with thigh WR by a mean difference of 0.02 s compared with unloaded sprinting (unloaded = 2.16 ± 0.09 s and loaded = 2.18 ± 0.08 s, ES = 0.24, p = 0.13). Shank WR significantly increased 10 m sprint times by a mean difference of 0.03 s compared with unloaded sprinting (unloaded = 2.15 ± 0.09 s and loaded = 2.18 ± 0.09 s, ES = 0.33, p = 0.02).</p><p>All group-averaged changes to peak joint angles with thigh and shank WR were classified as trivial or small (ES = 0.00-0.38) and &lt; ±2°. The peak joint angles for each experimental condition are presented in Tables <ref type="table" target="#tab_0">1</ref> and <ref type="table" target="#tab_1">2</ref>. With thigh WR, significantly less hip flexion occurred at the end of the forward swing phase during stride 1 and stride 3 and significantly less knee extension occurred at the end of the stance phase during stride 3 compared with unloaded sprinting (ES = 0.27-0.32). With shank WR, significantly less hip flexion occurred at the end of the forward swing phase during stride 1 and significantly less hip extension occurred at the end of the stance phase during stride 3 compared with unloaded sprinting (ES = 0.23-0.38). A visual display of the individual response to each experimental condition for the peak hip and knee joint angles is given in Figure <ref type="figure" target="#fig_1">2a</ref>,b. With the exception of hip flexion, where the majority of athletes responded to the WR loading by reaching smaller peak hip flexion angles at the end of the forward swing, no clear trends in individual responses were identified across both strides within an experimental condition (i.e., stride 1 versus stride 3) or between experimental conditions (i.e., thigh versus shank WR).</p><p>All group-averaged changes in angular velocity ranged from trivial to moderate with thigh WR (ES = 0.00-0.70) and shank WR (ES = 0.06-0.50) across stride 1 and 3. The average angular velocities for each experimental condition are presented in Tables <ref type="table" target="#tab_0">1</ref> and <ref type="table" target="#tab_1">2</ref>. Thigh WR significantly reduced hip and knee extension velocity and hip flexion velocity during strides 1 and 3 compared with unloaded sprinting (ES = 0.43-0.70). Shank WR significantly reduced hip extension and flexion velocity during strides 1 and 3 and significantly increased knee flexion velocity during stride 3 compared with unloaded sprinting (ES = 0.22-0.50).</p><p>When comparing the thigh versus the shank loaded conditions, with thigh WR, athletes reached significantly less knee extension at the end of the stance phase during stride 1 by a mean difference of 4.34 ± 6.17° (ES = 0.73, p = 0.05). Also, with thigh WR, the average knee extension and ankle dorsiflexion velocities were significantly slower during stride 1 by 30.8 ± 25.1°/s (ES = 0.93, p &lt; 0.01) and 29.1 ± 38.7°/s (ES = 0.70, p = 0.05), respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>In this study, we determined the effect of 2% BM WR placed on two different lower-limb segments (thigh and shank) on hip, knee, and ankle joint kinematics during the early acceleration phase of sprint running. The hypothesis that any significant changes to the peak joint angles would be of a small effect and any significant changes to angular velocity would be classified as small or moderate was supported. The main findings were as follows: 1) the increase to 10 m sprint time was small with thigh WR (ES = 0.24) and with shank WR the increase was also small but significant (ES = 0.33); 2) significant differences in peak joint angles between the unloaded and WR conditions were small (ES = 0.23-0.38), limited to the hip and knee joints, and &lt;2° on average; 3) aside from peak hip flexion angles, no clear trends were observed in individual difference scores between the WR and unloaded conditions for peak joint angles; and, 4) thigh and shank WR produced similar reductions in average hip flexion and extension angular velocities, while thigh WR decreased average knee extension velocity and shank WR increased average knee flexion velocity compared with unloaded sprint running (all &lt; ±27°/s, ES = 0.22-0.70, p &lt; 0.05).</p><p>Lower-limb WR has been purported as a movement-and speed-specific training option for sprint running <ref type="bibr" target="#b4">(Dolcetti et al., 2019;</ref><ref type="bibr" target="#b6">Feser, Macadam, et al., 2020;</ref><ref type="bibr" target="#b10">Macadam et al., 2019)</ref> and initial evidence appears to favour training with WR compared training with no load for maintaining <ref type="bibr" target="#b5">(Feser, Bayne, et al., 2020)</ref> and improving sprint running performance <ref type="bibr" target="#b1">(Bustos et al., 2020)</ref>. However, it is important to ascertain if global changes to movement speed when loaded maintain specificity to the maximal speeds associated with sprint running. In this study, sprint running with WR increased 10 m sprint times by &lt;1.5%. This indicates that the athletes were moving at near maximal acceleration speeds through the early acceleration phase under resistance. This is similar to changes reported previously where thigh and shank WR of ≤2% BM has been shown to affect sprint running speed and time measures by 0.9-2.23% (ES = 0.22-0.55) <ref type="bibr" target="#b7">(Hurst et al., 2020;</ref><ref type="bibr">Macadam, Cronin, et al., 2020;</ref><ref type="bibr" target="#b12">Macadam, Nuell, et al., 2020;</ref><ref type="bibr" target="#b15">Zhang et al., 2019)</ref>. These measures were taken across early acceleration to maximal velocity, with the largest changes occurring at maximal velocity <ref type="bibr" target="#b7">(Hurst et al., 2020;</ref><ref type="bibr">Macadam, Cronin, et al., 2020;</ref><ref type="bibr" target="#b12">Macadam, Nuell, et al., 2020;</ref><ref type="bibr" target="#b15">Zhang et al., 2019)</ref>. In the current study, a significant increase in sprint time occurred when the WR was placed on the shank, which corresponded to the experimental condition with the greater rotational overload about the hip given the increased distance between this joint and the applied load. A method to increase the rotational overload with WR; therefore, is to move the load distally from the primary joint axis of rotation <ref type="bibr" target="#b4">(Dolcetti et al., 2019)</ref>. As a result, moving the same load magnitude from the thigh to the shank will create a greater rotational overload about the hip joint and additionally overload the knee joint during sprinting.</p><p>The athletes in this study were able to achieve similar ranges of motion to unloaded sprint running with thigh or shank WR with all changes to peak joint angles &lt; ±2°. These Values reported as mean ± standard deviation, Difference score reported as mean difference of the shank-loaded -unloaded conditions, * = significantly different from the unloaded condition at p ≤ 0.05.  findings confirm that the WR placement schemes deployed in this study do not produce appreciably different movement patterns across the early acceleration phase of sprint running. However, it is important to note the variation in individual responses. Other than the exception to hip flexion, where the majority of athletes responded to the WR loading by reaching smaller peak hip flexion angles at the end of the forward swing phase, no clear trends in responses to the WR can be observed. Additionally, the effects for some athletes were upwards of ±8°. Given the clear variation in individual responses (direction and magnitude), coaches are encouraged to assess the acute effects of lower-limb WR loading on their athletes on an individual basis to determine whether the addition of the WR is having the desired effect for the individual's training needs. Research continuing on this topic may consider kinematic waveform analysis to provide a more complete analysis across the entire stride and further context for discrete variable analysis.</p><p>The effect of WR loading had a greater overall influence on the average angular velocities than the average peak joint angles of the lower-limb joints with significant changes from unloaded sprint running considered small to moderate. This highlights the specific overload to the speed of the stride cycle (i.e., stride frequency) that occurs with this resistance training method. The stride cycle of sprint running encompasses open kinetic-chain and closed kinetic-chain movements for the joints of the lower-limb, the swing and stance phases, respectively. With thigh WR, the significant overload to the average hip joint velocity occurred during the open kinetic-chain (hip flexion) and closed kinetic-chain (hip extension) portions of the movement. However, the significant overload to the average knee joint velocity only occurred during knee extension, which primarily occurs during the closed kinetic-chain portion of the stride cycle. Considering that there was no load placed distal to the knee joint in the thigh-loaded condition, it would be expected that the knee joint would not experience significant changes to the measures associated with the swing phase. With shank WR, athletes responded similarly at the hip joint, i.e., the velocity at the hip joint was significantly decreased during the open kinetic-chain and closed kinetic-chain portions of the stride cycle. However, shank WR did not significantly alter the average knee or ankle velocities during the closed kineticchain portion of the stride cycle (i.e., knee extension and ankle dorsiflexion). Thus, the athletes did not experience knee extension overload during stance that was evident in the thighloaded condition. Further, there were no consequent effects further down the chain at the ankle joint even though the shank load placement was proximal to the joint. Conversely, athletes increased their average knee flexion velocity (p &lt; 0.05 at stride 3) during the forward swing phase. The increased average knee flexion velocity at stride 3 coincided with a greater peak knee flexion angle (by 1.72°, ES = 0.21, p &gt; 0.05). This may indicate a kinematic mechanism to reduce the rotational inertia of the hip joint in an effort to maintain swingphase timing and have the limb prepared for its next touchdown.</p><p>The findings of this study further highlight the movementspecificity of placing the WR load on the lower-limbs compared to other load placement options, such as the torso with vest loading, for sprint running. With lower-limb placed WR, the resistance must be overcome during both the open and closed kinetic-chain portions of the movement pattern, whereas a specific lower-limb overload is only incurred during the closed kinetic-chain portion of the movement pattern with vest loading. Recent research has demonstrated a strong correlation between running speed and thigh angular velocity during both the swing and ground contact phases of the stride cycle during upright running <ref type="bibr" target="#b2">(Clark et al., 2020)</ref>. Thus, training should work to produce adaptations to both the flexion and extension actions to support the necessary reciprocal action of the thighs and contribute to the vertical forces necessary to produce faster running speeds <ref type="bibr" target="#b2">(Clark et al., 2020)</ref>. Given that both shank and thigh WR reduce the average angular velocities of the hip joint, programmatic use of lower-limb WR may be a method to develop the speedspecific strength associated with the fast flexion and extension actions at hip joint during sprint running.</p><p>Although this was not the primary purpose of this study, 11 of the athletes participated in both thigh-and shank-loaded testing sessions. Direct comparison between the two loaded conditions (i.e., thigh versus shank loading) revealed that with thigh WR athletes performed less knee extension at the end of the stance phase and average knee extension and ankle dorsiflexion velocities were reduced (p ≤ 0.05, ES = 0.70-0.93). However, these effects were limited to stride 1. These findings provide further insights into the effects of thigh-and shankplaced WRs on sprint running, which, in tandem with future research, can be used to better inform WR placement.</p><p>A limitation to this research is that only a snapshot of the joint kinematics (i.e., two strides) during early acceleration were able to be included due to motion capture volume limitations. It is unknown how the joint kinematics of the remainder of the acceleration phase compares to unloaded sprint running. Further, ankle joint kinematics were used to identify the onset of the stance phase. And although the same identification method was used for every trial, it is unknown if any differences between the method used here and a more direct stance-phase identification method (such as using force plates) exist. Another limitation is that the training intensity prior to the study was not controlled. Additionally, the athletes that participated in this study were not familiarised with lower-limb WR outside of what was provided for this study. It is unknown how the joint kinematics of sprint running with WR might change following repeated exposure to lower-limb WR. Similarly, the kinematic adaptations that occur following sprint running training with lower-limb WR and potential differences present between the leading and trailing legs during the early steps of acceleration require investigation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>Sprint running with 2% BM thigh and shank WR produced small changes to 10 m sprint times (&lt;1.50%; ES = 0.24-0.33) and lower-limb joint angles (all &lt;2° on average; ES = 0.23-0.38). It appears that lower-limb WR of ≤2% BM does not significantly disrupt the movement patterns associated with sprint running; however, individual responses will likely vary and can be considered on case-by-case bases to determine whether the addition of the WR is having the desired effect for the individual's training needs. The effect of WR loading had a greater overall influence on angular velocity compared to the influence on the peak joint angles at the hip and knee joints, with significant changes considered small to moderate (≤ ± 27°/s, ES = 0.22-0.70). This highlights the specific overload to the movement speed of the stride cycle that occurs with this training method. Further, the significant overload to hip flexion and extension velocity with both thigh and shank-placed WR may be especially helpful to target the flexion and extension actions associated with fast sprint running.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Example wearable resistance load placements for (a) the thigh wearable resistance experimental condition and (b) the shank wearable resistance experimental condition.</figDesc><graphic coords="3,322.70,53.23,226.80,123.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2a .</head><label>2a</label><figDesc>Figure 2a. Individual difference scores (loaded -unloaded) for the thigh WR experimental condition. Group average difference scores represented with the horizontal lines. Note: Values are organised by the athlete. A positive difference score means a decrease in hip extension, while a negative difference score means a decrease in knee extension, hip flexion, and knee flexion for the loaded condition. Horizontal lines indicate the group mean difference score for stride 1 (black) and stride 3 (grey). No knee data was available for athlete M in the thigh WR experimental condition due to marker failure.</figDesc><graphic coords="6,69.85,53.22,207.00,567.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2b .</head><label>2b</label><figDesc>Figure 2b. Individual difference scores (loaded -unloaded) for the shank WR experimental condition. Group average difference scores represented with the horizontal lines. Note: Values are organised by the athlete. A positive difference score means a decrease in hip extension, while a negative difference score means a decrease in knee extension, hip flexion, and knee flexion for the loaded condition. Horizontal lines indicate the group mean difference score for stride 1 (black) and stride 3 (grey). No knee data was available for athlete N and Q in the shank WR experimental condition due to marker failure.</figDesc><graphic coords="6,330.52,53.22,211.08,567.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Peak joint angle and average velocity of the hip, knee, and ankle for the unloaded and thigh wearable resistance conditions during the first and third strides of sprint acceleration.</figDesc><table><row><cell></cell><cell></cell><cell cols="2">Peak Joint Angle (°)</cell><cell></cell><cell></cell><cell cols="2">Average Velocity (°/s)</cell><cell></cell></row><row><cell></cell><cell>Unloaded</cell><cell>Thigh-loaded</cell><cell>Difference</cell><cell>Effect Size</cell><cell>Unloaded</cell><cell>Thigh-loaded</cell><cell>Difference</cell><cell>Effect Size</cell></row><row><cell>Stride 1</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Hip Extension</cell><cell>3.35 ± 5.18</cell><cell>4.07 ± 4.86</cell><cell>0.72</cell><cell>0.14</cell><cell>-360 ± 26.0</cell><cell>-343 ± 30.5*</cell><cell>16.6</cell><cell>0.60</cell></row><row><cell>Hip Flexion</cell><cell>98.7 ± 5.04</cell><cell>97.0 ± 5.56*</cell><cell>-1.81</cell><cell>0.32</cell><cell>445 ± 37.6</cell><cell>423 ± 39.4*</cell><cell>-22.6</cell><cell>0.57</cell></row><row><cell>Knee Extension</cell><cell>17.8 ± 5.78</cell><cell>18.3 ± 5.11</cell><cell>0.47</cell><cell>0.09</cell><cell>-311 ± 30.1</cell><cell>-301 ± 24.8*</cell><cell>10.8</cell><cell>0.36</cell></row><row><cell>Knee Flexion</cell><cell>126 ± 7.75</cell><cell>125 ± 10.2</cell><cell>-0.82</cell><cell>0.11</cell><cell>657 ± 50.3</cell><cell>648 ± 65.0</cell><cell>-8.44</cell><cell>0.16</cell></row><row><cell>Ankle Dorsiflexion</cell><cell>30.0 ± 5.98</cell><cell>29.2 ± 5.41</cell><cell>-0.81</cell><cell>0.14</cell><cell>168 ± 41.5</cell><cell>160 ± 38.7</cell><cell>-8.11</cell><cell>0.20</cell></row><row><cell>Stride 3</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Hip Extension</cell><cell>-3.20 ± 4.87</cell><cell>-2.15 ± 4.83</cell><cell>1.05</cell><cell>0.22</cell><cell>-422 ± 28.2</cell><cell>-407 ± 24.5*</cell><cell>14.8</cell><cell>0.57</cell></row><row><cell>Hip Flexion</cell><cell>98.0 ± 6.43</cell><cell>96.4 ± 5.28*</cell><cell>-1.53</cell><cell>0.27</cell><cell>459 ± 41.8</cell><cell>442 ± 37.9*</cell><cell>-16.8</cell><cell>0.43</cell></row><row><cell>Knee Extension</cell><cell>15.0 ± 5.40</cell><cell>16.8 ± 5.86*</cell><cell>1.81</cell><cell>0.32</cell><cell>-381 ± 37.7</cell><cell>-354 ± 39.6*</cell><cell>26.7</cell><cell>0.70</cell></row><row><cell>Knee Flexion</cell><cell>136 ± 7.93</cell><cell>134 ± 9.32</cell><cell>1.33</cell><cell>0.23</cell><cell>736 ± 53.0</cell><cell>722 ± 47.3</cell><cell>14.6</cell><cell>0.28</cell></row><row><cell>Ankle Dorsiflexion</cell><cell>28.8 ± 4.26</cell><cell>28.5 ± 5.11</cell><cell>0.24</cell><cell>0.06</cell><cell>232 ± 30.5</cell><cell>232 ± 35.2</cell><cell>0.89</cell><cell>0.00</cell></row><row><cell cols="9">Values reported as mean ± standard deviation, Difference score reported as mean difference of the thigh-loaded -unloaded conditions, * = significantly different from</cell></row><row><cell cols="2">the unloaded condition at p ≤ 0.05.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Peak joint angle and average velocity of the hip, knee, and ankle for the unloaded and shank wearable resistance conditions during the first and third strides of sprint acceleration.</figDesc><table><row><cell></cell><cell></cell><cell cols="2">Peak Joint Angle (°)</cell><cell></cell><cell></cell><cell cols="2">Average Velocity (°/s)</cell><cell></cell></row><row><cell></cell><cell>Unloaded</cell><cell>Shank-loaded</cell><cell>Difference</cell><cell>Effect Size</cell><cell>Unloaded</cell><cell>Shank-loaded</cell><cell>Difference</cell><cell>Effect Size</cell></row><row><cell>Stride 1</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Hip Extension</cell><cell>1.46 ± 6.81</cell><cell>1.60 ± 6.90</cell><cell>0.14</cell><cell>0.02</cell><cell>-368 ± 23.5</cell><cell>-359 ± 22.3*</cell><cell>8.64</cell><cell>0.39</cell></row><row><cell>Hip Flexion</cell><cell>99.5 ± 4.16</cell><cell>97.8 ± 4.85*</cell><cell>-1.76</cell><cell>0.38</cell><cell>454 ± 39.2</cell><cell>445 ± 41.5*</cell><cell>-8.76</cell><cell>0.22</cell></row><row><cell>Knee Extension</cell><cell>12.5 ± 6.23</cell><cell>12.2 ± 5.66</cell><cell>-0.27</cell><cell>0.05</cell><cell>-340 ± 44.3</cell><cell>-335 ± 34.7</cell><cell>4.79</cell><cell>0.13</cell></row><row><cell>Knee Flexion</cell><cell>129 ± 7.99</cell><cell>129 ± 6.53</cell><cell>-0.21</cell><cell>0.00</cell><cell>686 ± 85.9</cell><cell>694 ± 64.5</cell><cell>7.69</cell><cell>0.11</cell></row><row><cell>Ankle Dorsiflexion</cell><cell>28.9 ± 3.82</cell><cell>29.9 ± 4.16</cell><cell>0.97</cell><cell>0.25</cell><cell>178 ± 47.3</cell><cell>192 ± 43.5</cell><cell>13.6</cell><cell>0.31</cell></row><row><cell>Stride 3</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Hip Extension</cell><cell>-5.31 ± 6.48</cell><cell>-3.98 ± 5.14*</cell><cell>1.33</cell><cell>0.23</cell><cell>-432 ± 28.1</cell><cell>-418 ± 28.4*</cell><cell>14.4</cell><cell>0.50</cell></row><row><cell>Hip Flexion</cell><cell>98.3 ± 4.52</cell><cell>97.2 ± 5.17</cell><cell>-1.05</cell><cell>0.23</cell><cell>466 ± 39.1</cell><cell>450 ± 31.4*</cell><cell>-15.5</cell><cell>0.45</cell></row><row><cell>Knee Extension</cell><cell>11.7 ± 6.38</cell><cell>11.9 ± 6.76</cell><cell>0.20</cell><cell>0.03</cell><cell>-402 ± 57.0</cell><cell>-394 ± 41.9</cell><cell>7.57</cell><cell>0.16</cell></row><row><cell>Knee Flexion</cell><cell>136 ± 4.43</cell><cell>137 ± 5.13</cell><cell>1.72</cell><cell>0.21</cell><cell>740 ± 56.4</cell><cell>763 ± 58.8*</cell><cell>23.4</cell><cell>0.40</cell></row><row><cell>Ankle Dorsiflexion</cell><cell>28.8 ± 4.08</cell><cell>29.1 ± 2.93</cell><cell>0.29</cell><cell>0.09</cell><cell>244 ± 34.1</cell><cell>242 ± 35.3</cell><cell>-1.59</cell><cell>0.06</cell></row></table></figure>
+		</body>
+		<back>
+
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding</head><p>The author(s) reported that there is no funding associated with the work featured in this article.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Disclosure statement</head><p>John Cronin was the Head of Research for Lila at the time of this project but was blinded from data and statistical analyses and writing of this manuscript. His participation was limited to methodological design and final proofing. The remainding authors report no conflicts of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Repeatability of gait data using a functional hip joint centre and a mean helical knee axis</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Besier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Sturnieks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Alderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Lloyd</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0021-9290(03)00087-3</idno>
+		<ptr target="https://doi.org/10.1016/S0021-9290(03)00087-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1159" to="1168" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Besier, T. F., Sturnieks, D. L., Alderson, J. A., &amp; Lloyd, D. G. (2003). Repeatability of gait data using a functional hip joint centre and a mean helical knee axis. Journal of Biomechanics, 36(8), 1159-1168. https://doi.org/10.1016/S0021-9290(03)00087-3</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Effects of warming up with lower-body wearable resistance on physical performance measures in soccer players over an 8-week training cycle</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bustos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Metral</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cronin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Uthoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dolcetti</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/JSC.0000000000003498</idno>
+		<ptr target="https://doi.org/10.1519/JSC.0000000000003498" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Strength &amp; Conditioning Research</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1220" to="1226" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bustos, A., Metral, G., Cronin, J., Uthoff, A., &amp; Dolcetti, J. (2020). Effects of warming up with lower-body wearable resistance on physical perfor- mance measures in soccer players over an 8-week training cycle. Journal of Strength &amp; Conditioning Research, 34(5), 1220-1226. https://doi.org/10. 1519/JSC.0000000000003498</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Whip from the hip&apos;: Thigh angular motion, ground contact mechanics, and running speed</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Stearne</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/bio.053546</idno>
+		<ptr target="https://doi.org/10.1242/bio.053546" />
+	</analytic>
+	<monogr>
+		<title level="j">Biology Open</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">53546</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Clark, K. P., Meng, C. R., &amp; Stearne, D. J. (2020). &apos;Whip from the hip&apos;: Thigh angular motion, ground contact mechanics, and running speed. Biology Open, 9(10), bio053546. https://doi.org/10.1242/bio.053546</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+		<title level="m">Statistical power analysis for the behavioral sciences</title>
+		<imprint>
+			<publisher>Lawrence Erlbaum Associates</publisher>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note>nd ed.</note>
+	<note type="raw_reference">Cohen, J. (1988). Statistical power analysis for the behavioral sciences (2nd ed.). Lawrence Erlbaum Associates.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Wearable resistance training for speed and agility</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Dolcetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Cronin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Macadam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Feser</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/SSC.0000000000000436</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Strength &amp; Conditioning J o u r n a l , 4</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="0" to="5" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dolcetti, J. C., Cronin, J. B., Macadam, P., &amp; Feser, E. H. (2019). Wearable resistance training for speed and agility. Strength &amp; Conditioning J o u r n a l , 4 1 ( 4 ) , 1 0 5 -1 1 1 . h t t p s : / / d o i . o r g / 1 0 . 1 5 1 9 / S S C . 0000000000000436</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Wearable resistance sprint running is superior to training with no load for retaining performance in pre-season training for rugby athletes</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Feser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bayne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Loubser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Cronin</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17461391.2020.1802516</idno>
+		<ptr target="https://doi.org/10.1080/17461391.2020.1802516" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Sport Science</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="967" to="975" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Feser, E. H., Bayne, H., Loubser, I., Bezodis, N. E., &amp; Cronin, J. B. (2020). Wearable resistance sprint running is superior to training with no load for retaining performance in pre-season training for rugby athletes. European Journal of Sport Science, 21(7), 967-975. https://doi.org/10. 1080/17461391.2020.1802516</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The effects of lower limb wearable resistance on sprint running performance: A systematic review</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Feser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Macadam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Cronin</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17461391.2019.1629631</idno>
+		<ptr target="https://doi.org/10.1080/17461391" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Sport Science</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="394" to="406" />
+			<date type="published" when="2019">2020. 2019.1629631</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Feser, E. H., Macadam, P., &amp; Cronin, J. B. (2020). The effects of lower limb wearable resistance on sprint running performance: A systematic review. European Journal of Sport Science, 20(3), 394-406. https://doi.org/10. 1080/17461391.2019.1629631</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Acute effects of wearable thigh and shank loading on spatiotemporal and kinematic variables during maximal velocity sprinting</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hurst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Kilduff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Cronin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Bezodis</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14763141.2020.1748099</idno>
+		<ptr target="https://doi.org/10.1080/14763141.2020.1748099" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Biomechanics / International Society of Biomechanics in Sports</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1234" to="1248" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hurst, O., Kilduff, L. P., Johnston, M., Cronin, J. B., &amp; Bezodis, N. E. (2020). Acute effects of wearable thigh and shank loading on spatiotemporal and kinematic variables during maximal velocity sprinting. Sports Biomechanics / International Society of Biomechanics in Sports, 21(10), 1234-1248. https://doi.org/10.1080/14763141.2020.1748099</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Macadam</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020-08-14">2020. August 14</date>
+		</imprint>
+	</monogr>
+	<note>Email correspondance</note>
+	<note type="raw_reference">Macadam, P. (2020, August 14). Email correspondance.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The effects of wearable resistance training on metabolic, kinematic and kinetic variables during walking, running, sprint running and jumping: A systematic review</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Macadam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cronin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Simperingham</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40279-016-0622-x</idno>
+		<ptr target="https://doi.org/10.1007/s40279-016-0622-x" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="887" to="906" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Macadam, P., Cronin, J., &amp; Simperingham, K. (2017). The effects of wearable resistance training on metabolic, kinematic and kinetic variables during walking, running, sprint running and jumping: A systematic review. Sports Medicine, 47(5), 887-906. https://doi.org/10.1007/s40279-016-0622-x</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The effects of different wearable resistance placements on sprint-running performance: A review and practical applications</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Macadam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Cronin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Uthoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Feser</surname></persName>
+		</author>
+		<idno type="DOI">10.1519/SSC.0000000000000444</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Strength &amp; Conditioning J o u r n a l</title>
+		<imprint>
+			<date type="published" when="1524">2019. 4 1 ( 3 ) , 1 5 2 4 -1 6 0 2</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Macadam, P., Cronin, J. B., Uthoff, A. M., &amp; Feser, E. H. (2019). The effects of different wearable resistance placements on sprint-running perfor- mance: A review and practical applications. Strength &amp; Conditioning J o u r n a l , 4 1 ( 3 ) , 1 5 2 4 -1 6 0 2 . h t t p s : / / d o i . o r g / 1 0 . 1 5 1 9 / S S C . 0000000000000444</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Thigh loaded wearable resistance increases sagittal plane rotational work of the thigh resulting in slower 50-m sprint times</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Macadam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Cronin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Uthoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Diewald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tinwala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Neville</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14763141.2020.1762720</idno>
+		<ptr target="https://doi.org/10.1080/14763141.2020.1762720" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Biomechanics / International Society of Biomechanics in Sports</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1291" to="1302" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Macadam, P., Cronin, J. B., Uthoff, A. M., Nagahara, R., Zois, J., Diewald, S., Tinwala, F., &amp; Neville, J. (2020). Thigh loaded wearable resistance increases sagittal plane rotational work of the thigh resulting in slower 50-m sprint times. Sports Biomechanics / International Society of Biomechanics in Sports, 21(10), 1291-1302. https://doi.org/10.1080/ 14763141.2020.1762720</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Thigh positioned wearable resistance affects step frequency not step length during 50 m sprint-running</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Macadam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nuell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Cronin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Uthoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Neville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tinwala</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17461391.2019.1641557</idno>
+		<ptr target="https://doi.org/10.1080/17461391" />
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Sport Science</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="444" to="451" />
+			<date type="published" when="2019">2020. 2019.1641557</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Macadam, P., Nuell, S., Cronin, J. B., Uthoff, A. M., Nagahara, R., Neville, J., Graham, S. P., &amp; Tinwala, F. (2020). Thigh positioned wearable resistance affects step frequency not step length during 50 m sprint-running. European Journal of Sport Science, 20(4), 444-451. https://doi.org/10. 1080/17461391.2019.1641557</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Kinematics of transition during human accelerated sprinting</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsubayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zushi</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/bio.20148284</idno>
+		<ptr target="https://doi.org/10.1242/bio.20148284" />
+	</analytic>
+	<monogr>
+		<title level="j">Biology Open</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="689" to="699" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nagahara, R., Matsubayashi, T., Matsuo, A., &amp; Zushi, K. (2014). Kinematics of transition during human accelerated sprinting. Biology Open, 3(8), 689-699. https://doi.org/10.1242/bio.20148284</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><surname>Winter</surname></persName>
+		</author>
+		<title level="m">Biomechanics and motor control of human movement</title>
+		<imprint>
+			<publisher>John Wiley &amp; Sons, Inc</publisher>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Winter, D. (2009). Biomechanics and motor control of human movement. John Wiley &amp; Sons, Inc.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Effects of shank mass manipulation on sprinting techniques</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14763141.2019.1646796</idno>
+		<ptr target="https://doi.org/10.1080/14763141.2019.1646796" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Biomechanics / International Society of Biomechanics in Sports</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="142" to="154" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zhang, C., Yu, B., Yang, C., Yu, J., Sun, Y., Wang, D., Yin, K., Zhuang, W., &amp; Liu, Y. (2019). Effects of shank mass manipulation on sprinting techniques. Sports Biomechanics / International Society of Biomechanics in Sports, 21(2), 142-154. https://doi.org/10.1080/14763141.2019. 1646796</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

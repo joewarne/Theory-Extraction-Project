@@ -1,0 +1,1813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Exercise-Induced Fatigue in Hamstring versus Quadriceps Muscles and Consequences on the Torque-Duration Relationship in Men</title>
+				<funder>
+					<orgName type="full">Racing Club de Strasbourg Alsace</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">French Government</orgName>
+				</funder>
+				<funder ref="#_cemtUuc">
+					<orgName type="full">French Ministry of Higher Education and Research at the University of Strasbourg</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-03-12">12/03/2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Anasthase</forename><surname>Massamba</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Medicine</orgName>
+								<orgName type="laboratory">Oxidative Stress and Muscular Protection laboratory (UR 3072)</orgName>
+								<orgName type="institution">University of Strasbourg</orgName>
+								<address>
+									<settlement>Mitochondria Strasbourg</settlement>
+									<country>FRANCE;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Faculty of Sport Sciences</orgName>
+								<orgName type="department" key="dep2">European Centre for Education, Research and Innovation in Exercise Physiology (CEERIPE)</orgName>
+								<orgName type="institution">University of Strasbourg</orgName>
+								<address>
+									<settlement>Strasbourg</settlement>
+									<country>FRANCE;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Racing Club de Strasbourg Alsace</orgName>
+								<address>
+									<settlement>Strasbourg</settlement>
+									<country key="FR">FRANCE</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elyse</forename><surname>Hucteau</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Medicine</orgName>
+								<orgName type="laboratory">Oxidative Stress and Muscular Protection laboratory (UR 3072)</orgName>
+								<orgName type="institution">University of Strasbourg</orgName>
+								<address>
+									<settlement>Mitochondria Strasbourg</settlement>
+									<country>FRANCE;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Faculty of Sport Sciences</orgName>
+								<orgName type="department" key="dep2">European Centre for Education, Research and Innovation in Exercise Physiology (CEERIPE)</orgName>
+								<orgName type="institution">University of Strasbourg</orgName>
+								<address>
+									<settlement>Strasbourg</settlement>
+									<country>FRANCE;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Joris</forename><surname>Mallard</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Medicine</orgName>
+								<orgName type="laboratory">Oxidative Stress and Muscular Protection laboratory (UR 3072)</orgName>
+								<orgName type="institution">University of Strasbourg</orgName>
+								<address>
+									<settlement>Mitochondria Strasbourg</settlement>
+									<country>FRANCE;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Faculty of Sport Sciences</orgName>
+								<orgName type="department" key="dep2">European Centre for Education, Research and Innovation in Exercise Physiology (CEERIPE)</orgName>
+								<orgName type="institution">University of Strasbourg</orgName>
+								<address>
+									<settlement>Strasbourg</settlement>
+									<country>FRANCE;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Guillaume</forename><forename type="middle">P</forename><surname>Ducrocq</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Medicine</orgName>
+								<orgName type="laboratory">Oxidative Stress and Muscular Protection laboratory (UR 3072)</orgName>
+								<orgName type="institution">University of Strasbourg</orgName>
+								<address>
+									<settlement>Mitochondria Strasbourg</settlement>
+									<country>FRANCE;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Faculty of Sport Sciences</orgName>
+								<orgName type="department" key="dep2">European Centre for Education, Research and Innovation in Exercise Physiology (CEERIPE)</orgName>
+								<orgName type="institution">University of Strasbourg</orgName>
+								<address>
+									<settlement>Strasbourg</settlement>
+									<country>FRANCE;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fabrice</forename><surname>Favret</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Medicine</orgName>
+								<orgName type="laboratory">Oxidative Stress and Muscular Protection laboratory (UR 3072)</orgName>
+								<orgName type="institution">University of Strasbourg</orgName>
+								<address>
+									<settlement>Mitochondria Strasbourg</settlement>
+									<country>FRANCE;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Faculty of Sport Sciences</orgName>
+								<orgName type="department" key="dep2">European Centre for Education, Research and Innovation in Exercise Physiology (CEERIPE)</orgName>
+								<orgName type="institution">University of Strasbourg</orgName>
+								<address>
+									<settlement>Strasbourg</settlement>
+									<country>FRANCE;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><roleName>Ph.D</roleName><forename type="first">Thomas</forename><forename type="middle">J</forename><surname>Hureau</surname></persName>
+							<email>t.hureau@unistra.fr.</email>
+							<affiliation key="aff0">
+								<orgName type="department">Faculty of Medicine</orgName>
+								<orgName type="laboratory">Oxidative Stress and Muscular Protection laboratory (UR 3072)</orgName>
+								<orgName type="institution">University of Strasbourg</orgName>
+								<address>
+									<settlement>Mitochondria Strasbourg</settlement>
+									<country>FRANCE;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Faculty of Sport Sciences</orgName>
+								<orgName type="department" key="dep2">European Centre for Education, Research and Innovation in Exercise Physiology (CEERIPE)</orgName>
+								<orgName type="institution">University of Strasbourg</orgName>
+								<address>
+									<settlement>Strasbourg</settlement>
+									<country>FRANCE;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Faculté des Sciences du Sport</orgName>
+								<orgName type="institution">Bâtiment Le Portique</orgName>
+								<address>
+									<addrLine>4, rue Blaise Pascal</addrLine>
+									<postCode>FR-67081</postCode>
+									<settlement>Strasbourg Cedex</settlement>
+									<country>France;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Exercise-Induced Fatigue in Hamstring versus Quadriceps Muscles and Consequences on the Torque-Duration Relationship in Men</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024-03-12">12/03/2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E72560F02AEE458DD5618877021CE70D</idno>
+					<idno type="DOI">10.1249/MSS.0000000000003007</idno>
+					<note type="submission">Submitted for publication January 2022. Accepted for publication July 2022.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:15+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Purpose: The present study investigated the mechanisms of neuromuscular fatigue in quadriceps and hamstring muscles and its consequences on the torque-duration relationship. Methods: Twelve healthy men performed a 5-min all-out exercise (3-s contraction, 2-s relaxation) with either quadriceps or hamstring muscles on separate days. Central fatigue and peripheral fatigue were quantified via changes in preto postexercise voluntary activation (VA) and potentiated twitch (P Tw ) torque evoked by supramaximal electrical stimulation, respectively. Critical torque was determined as the mean torque of the last six contractions, whereas W′ was calculated as the torque impulse done above critical torque. Results: After exercise, maximal voluntary contraction (MVC) decreased to a greater magnitude (P &lt; 0.001) in quadriceps (-67% ± 9%) compared with hamstring (-51% ± 10%). ΔP Tw was also greater in quadriceps compared with hamstring (-69% ± 15% vs 55% ± 10%, P &lt; 0.01), whereas central fatigue only developed in quadriceps (ΔVA, -25% ± 28%). Hamstring demonstrated reduced critical torque compared with quadriceps (60 ± 12 vs 97 ± 26 N•m, P &lt; 0.001) as well as drastically lower W′ (1001 ± 696 vs 8111 ± 2073 N•m•s, P &lt; 0.001). No correlation was found between quadriceps and hamstring for any index of neuromuscular fatigue (ΔMVC, ΔP Tw , or ΔVA). Conclusions: These findings revealed that hamstring presented different etiology and magnitude of neuromuscular fatigue compared with quadriceps. The absence of correlation observed between quadriceps and hamstring fatigue parameters (ΔMVC, ΔP Tw , or ΔVA) suggests no interrelation in fatigue etiology between these two muscle groups within individuals and, therefore, highlights the need to investigate specifically hamstring muscle fatigue.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>T he hamstring muscles play a major role in sprinting performance <ref type="bibr" target="#b0">(1)</ref> and are a common location for severe muscle injuries <ref type="bibr" target="#b1">(2)</ref>. Exercise-induced neuromuscular fatigue has been suggested as a risk factor for hamstring muscle injuries, as indirectly evidenced by a greater injury incidence in the later stages of soccer <ref type="bibr" target="#b1">(2)</ref> or rugby (3) matches. Neuromuscular fatigue is attributed to reductions in maximal voluntary contraction (MVC) because of central and/or peripheral factors. Central fatigue refers to a failure of the central nervous system to maintain force, resulting in a reduction in descending neural drive and/or output from the spinal motoneurons <ref type="bibr" target="#b3">(4)</ref>. Peripheral fatigue is the result of biochemical changes within skeletal muscle, yielding an attenuated response to neural stimulation <ref type="bibr" target="#b4">(5)</ref>. Central and peripheral fatigue can be quantified noninvasively via reductions in the voluntary muscle activation and in the resting twitch force, respectively.</p><p>The proportion of fatigue-resistant Type I muscle fibers is greater in hamstring compared with quadriceps muscles <ref type="bibr" target="#b5">(6,</ref><ref type="bibr" target="#b6">7)</ref>, suggesting that the hamstring muscles are less fatigable than the quadriceps muscles. However, Coratella et al. <ref type="bibr" target="#b7">(8)</ref> demonstrated greater neuromuscular fatigue in hamstring than quadriceps after intermittent isometric exercise performed at the same relative intensity (70% of the MVC). Nevertheless, in this scenario, time to task failure was drastically different between muscle groups, with quadriceps exercising two times longer than hamstring before reaching task failure. Importantly, it has been documented that exercise duration/intensity is a strong determinant of neuromuscular fatigue etiology <ref type="bibr" target="#b8">(9)</ref>, with relatively more peripheral fatigue, and less central fatigue, for short/intense trials compared with longer/less intense trials. To circumvent the confounding effect associated with differences in exercise duration/intensity while comparing quadriceps and hamstring muscle groups, the use of an intermittent all-out exercise protocol might be insightful <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b10">11)</ref>.</p><p>Moreover, the use of an intermittent all-out exercise presents the opportunity to assess the development of neuromuscular fatigue throughout exercise (i.e., using rests between contractions). In this context, key parameters derived from the torque-duration relationship provide a cohesive framework within which to investigate the mechanistic bases of neuromuscular fatigue and exercise performance. Critical torque is mathematically defined as the asymptote of the hyperbolic torque-duration relationship, whereas the curvature constant (W′) represents the fixed amount of torque impulse that can be performed above critical torque <ref type="bibr" target="#b11">(12)</ref>. Physiologically, critical torque is associated with the greatest oxidative metabolic rate that can be sustained without a continuous reduction in W′ (13). Vanhatalo et al. <ref type="bibr" target="#b12">(13)</ref> observed a positive correlation between critical power (equivalent to critical torque during a cycling exercise) and the proportion of fatigue-resistant Type I muscle fibers. Moreover, the magnitude of W′ depleted was associated with the development of both neuromuscular fatigue <ref type="bibr" target="#b13">(14)</ref><ref type="bibr" target="#b14">(15)</ref><ref type="bibr" target="#b15">(16)</ref><ref type="bibr" target="#b16">(17)</ref> and maximal force capacity <ref type="bibr" target="#b17">(18)</ref>. Therefore, the characterization of critical torque and W′ would provide insights into exercise performance and neuromuscular fatigue for the comparison of hamstring and quadriceps muscles.</p><p>The present study aimed to investigate the mechanisms of hamstring neuromuscular fatigue and recovery, compared with quadriceps, during all-out exercise to match both exercise duration and relative intensity between muscle groups. Moreover, we sought to determine and compare the parameters of the torque-duration relationship between hamstring and quadriceps. We hypothesized that hamstring would develop less neuromuscular fatigue than quadriceps muscles. As a consequence of this presumably lower fatigability, recovery from fatiguing exercise would be slower, and W′ and critical torque (in absolute) would be lower, in hamstring compared with quadriceps.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>Subjects. Twelve healthy men participated in the present study (mean ± SD: age, 26 ± 4 yr; height, 174 ± 7 cm; body mass, 76 ± 17 kg; body fat percentage, 14.8% ± 5.6%). Body mass and composition were assessed by using a bioelectrical impedance meter (Tanita DC-13C; Tanita Corporation, Tokyo, Japan). All subjects were recreational athletes, nonsmokers, and were not taking any medications. They were requested to prohibit physical activity for 24 h before each experimental session. Written informed consent was obtained from each participant before the beginning of the study. The study was approved by the local ethics committee and conducted according to the Declaration of Helsinki for human experimentation.</p><p>Experimental design. After familiarization sessions (one for each muscle group), all participants visited the laboratory for two experimental sessions where they performed a fatiguing exercise protocol with either quadriceps or hamstring muscles in a randomized order. Each visit was separated by at least 48 h and performed with the right leg at the same time of day (±1 h).</p><p>Experimental protocol. Sessions started with a standardized warm-up consisting of a set of 10 graded submaximal isometric contractions with visual feedback displayed on a computer screen. All torque measurements were conducted using an isokinetic dynamometer (Biodex System 3; Biodex Medical Systems, Inc., Shirley, NY), following standardized procedures and instructions given by the same examiner. Participants were seated on the dynamometer with 85°of hip flexion for quadriceps measurements while they laid prone with 10°of hip flexion for hamstring measurements. They were stabilized with safety belts strapped across the chest and hips to avoid lateral, vertical, or frontal displacements. Torque (N•m) was collected from a lever arm attached to the subject by a noncompliant strap located ~2 cm superior to the lateral malleolus. To ensure maximal torque development, each quadriceps and hamstring measurement was conducted at an optimal angle, namely, the angle where torque output was maximal (i.e., 83°± 6°and 28°± 8°, respectively). The isometric torqueangle relationship was determined on an individual basis during the familiarization sessions. To this end, participants performed 3 MVC interspersed by 1 min of rest at each angle tested (every 10°from 0°to 90°in hamstring and from 50°t o 90°in quadriceps, where 0°is full knee extension). If the coefficient of variation between the three MVC was greater than 5%, a fourth MVC was completed. Thereafter, neuromuscular function assessments and exercise procedures (i.e., 60 MVC) were conducted.</p><p>Participants performed 60 intermittent isometric single-leg MVC over a 5-min period (3-s contraction/2-s relaxation) with either quadriceps or hamstring muscles. A recording cued the start and stop of each 3-s contraction. A visual feedback of torque output was provided on the computer screen, and participants were strongly encouraged to maximize performance. To ensure that subjects reached their best performance during the first contraction, all participants had to satisfy the criterion score corresponding to 95% of their best MVC performed during baseline measurement. The development of neuromuscular fatigue was tracked during the 5-min all-out test by delivering superimposed and potentiated twitches every 10 contractions (Fig. <ref type="figure" target="#fig_0">1</ref>).</p><p>Neuromuscular function assessment. Neuromuscular tests were conducted before, during (every 10 MVC), and directly after (60th MVC) the fatiguing exercise protocol. Recovery was assessed at 1, 2, 3, 5, 10, and 15 min postexercise. A constant current stimulator (DS7AH; Digitimer Limited, Hertfordshire, UK) delivered single square-wave stimuli of 0.2-ms duration with maximal voltage of 400 V over the femoral nerve (quadriceps), or over the muscle belly (hamstring). For quadriceps, the cathode (self-adhesive electrode: 3 Â 3 cm, Ag/AgCl, Mini-KR; Contrôle-Graphique, Brie-Comte-Robert, France) was positioned on the femoral nerve. The anode, a 10 Â 5 cm self-adhesive stimulation electrode (Compex Medical SA, Ecublens, Switzerland), was placed midway between the greater trochanter and the iliac crest. Direct muscle stimulation was used for hamstring using two self-adhesive electrodes (10 Â 5 cm, Compex Medical SA), with the cathode placed immediately below the gluteal fold and the anode approximately 5 cm superior to the popliteal fossa <ref type="bibr" target="#b18">(19)</ref>. Electrode positions were marked with indelible ink to ensure a reproducible stimulation between visits. To ensure supramaximality during these tests, the stimulation intensity (quadriceps, 136 ± 54 mA; hamstring, 176 ± 47 mA) was set to 120% of the intensity eliciting the maximal spatial recruitment of the targeted muscle, as confirmed by both maximal torque response and maximal vastus lateralis or biceps femoral muscle compound action potential (M max ) for quadriceps and hamstring, respectively. Participants subsequently completed six MVC (3-s duration) before exercise, separated by 30 s rest. For the final four contractions, single potentiated twitch (P Tw ), 10 Hz doublet (D 10 ), and 100 Hz doublet (D 100 ) were delivered 1, 3, and 5 s after every MVC, respectively. For all MVC, D 10 , and D 100 , peak torque was determined. In addition, the following mechanical measures of muscle contractility were derived from P Tw : peak torque, contraction time, maximal rate of torque development (MRTD), and half relaxation time. During MVC, superimposed P Tw were delivered to estimate voluntary activation (VA) according to the following formula <ref type="bibr" target="#b19">(20)</ref>:</p><formula xml:id="formula_0">VA % ð Þ ¼ 1 -superimposed twitch ð Þ = P Tw ð Þ ½ Â 100:</formula><p>Peripheral and central fatigue levels were quantified via changes in preexercise to postexercise P Tw torque and VA, respectively. Global (peripheral + central) fatigue was determined as the difference in MVC from baseline.</p><p>Surface EMG. Electrical activities of quadriceps and hamstring were assessed using surface EMG (Octal Bio-Amp.; ADInstruments, Bella Vista, NSW, Australia). Bipolar pregelled Ag/AgCL electrodes (15-mm interelectrode distance) were placed over biceps femoris (BF), and semitendinosus (ST) for hamstring, as well as over vastus lateralis (VL), vastus medialis (VM), and rectus femoris (RF) for quadriceps. For each visit, the skin was shaved, abraded with emery paper, and cleaned with alcohol. Electrodes were placed according the SENIAM recommendations <ref type="bibr" target="#b20">(21)</ref>. Electrode positions had to be adjusted to optimize M-wave shape and amplitude. The reference electrode was placed over the head of the fibula. The EMG signals were amplified, filtered with a bandwidth frequency ranging from 10 Hz to 1 kHz and recorded at a sampling frequency of 4 kHz using a commercially software (LabChart 8). During the 5-min all-out exercise, muscle activation was calculated for each muscle group with the root-mean-square (RMS) on EMG signals. Specifically, the RMS was determined over a fixed 500-ms window starting 250 ms before peak torque. For data analysis, the muscle activation was normalized by the maximal amplitude of the M-wave (RMS.M max -1 ). Determination of critical torque and W′. The critical torque was estimated as the mean torque recorded over the last six contractions of the 5-min all-out test, whereas W′ was calculated as the total torque impulse (N•m•s) done above critical torque <ref type="bibr" target="#b9">(10)</ref>.</p><p>Statistics. Descriptive statistics are presented in the Results section as mean ± SD. Normality of all dependent variables and sphericity of variance of the distribution were assessed using the Kolmogorov-Smirnov test and the Mauchly test, respectively. A Greenhouse-Geisser correction was used when sphericity was violated. A two-way (condition-time) repeated-measures ANOVA was used to assess differences in neuromuscular fatigue indices (ΔMVC, ΔP Tw , VA, and RMS.M max -1 ) between muscle groups (hamstring vs quadriceps) and over time during exercise period. A second two-way (condition-time) repeated-measures ANOVA was performed to compare differences between conditions (hamstring vs quadriceps) and over time for the recovery period (Pre, Post, and 1, 2, 3, 5, 10, and 15 min postexercise). When a significant difference was identified, multiple-comparison analysis was performed using Tukey post hoc test. Student's paired t-test was performed for variables relative to torque-duration relationship (i.e., critical torque and W′). Relationship between MVC and ΔMVC postexercise and fatigue parameters between muscle groups were tested by calculating individual Person correlation coefficients (r 2 ). Statistical analyses were conducted using GraphPad Prism, v8.3.0 (GraphPad, La Jolla, CA). Statistical significance was set at P &lt; 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Baseline. Preexercise MVC values did not differ from the first MVC of the 5-min all-out protocol for each muscle group (quadriceps: 295 ± 50 vs 296 ± 53 N•m, P = 0.70; hamstring: 119 ± 26 vs 121 ± 27 N•m; P = 0.35). As shown in Figure <ref type="figure" target="#fig_1">2A</ref>, the torque developed during the first MVC was significantly lower in hamstring than quadriceps ( P &lt; 0.001).</p><p>Torque output during the 5-min all-out protocol and recovery. As illustrated in Figure <ref type="figure" target="#fig_1">2</ref>, torque output decreased during exercise on average from the first to the 39th MVC in quadriceps and from the first to the 34th MVC in hamstring. Thereafter, torque output plateaued until the last MVC for both muscle groups. The decrease in MVC induced by the all-out exercise protocol (ΔMVC) was lower in hamstring (-51% ± 10%) compared with quadriceps (-67% ± 9%; P &lt; 0.001). Interestingly, ΔMVC (expressed in newton-meter) was correlated with preexercise MVC (r 2 = 0.993, P &lt; 0.001), and this relationship was independent of the muscle group (Fig. <ref type="figure" target="#fig_2">3</ref>). All muscles (VL, VM, RF, BF, and ST) demonstrated a decline in RMS.M max -1 during exercise ( P = 0.002), with no difference between hamstring and quadriceps (Fig. <ref type="figure" target="#fig_1">2C</ref>).</p><p>During the 15-min recovery period (Fig. <ref type="figure" target="#fig_3">4A</ref>), MVC did not return to preexercise values (-15% ± 11% in quadriceps and -11% ± 9% in hamstring, P &lt; 0.001 vs preexercise). Both muscle groups followed similar recovery kinetics, characterized by a large recovery rate during the first minute postexercise (28% ± 11%•min -1 in quadriceps vs 26% ± 14%•min -1 in hamstring), followed by a drastically slower recovery rate from 1 to 15 min postexercise (1.7% ± 0.8%•min -1 in quadriceps vs 2.9% ± 0.7%•min -1 in hamstring).</p><p>Peripheral fatigue and recovery (ΔP Tw , D 10 , D 100 , and M-waves). Neuromuscular fatigue parameters are shown in Figure <ref type="figure" target="#fig_3">4</ref> and Table <ref type="table" target="#tab_0">1</ref>. At the peripheral level, significant interaction effect (i.e., time-muscle group) was found for P Tw ( P &lt; 0.001; Fig. <ref type="figure" target="#fig_3">4B</ref>) and D 10 /D 100 ( P &lt; 0.001; Fig. <ref type="figure" target="#fig_3">4D</ref>). The magnitude of peripheral fatigue was lower in hamstring compared with quadriceps (ΔP Tw , -55% ± 10% vs -69% ± 15%). For both muscle groups, the development of ΔP Tw was large during the first half of exercise (hamstring, -20.0% ± 2.8%•min -1 ; quadriceps, -26.9% ± 4.4%•min -1 ), followed by a drastically slower rate during the second half (hamstring, -1.9% ± 2.6%•min -1 ; quadriceps, -0.7% ± 3.3%•min -1 ). The decrease in D 10 /D 100 , indicating low-frequency fatigue, was greater in quadriceps compared with hamstring ( P &lt; 0.001; Fig. <ref type="figure" target="#fig_3">4D</ref>). No change in M-waves amplitudes, demonstrating no alteration in membrane excitability after the all-out exercise, was found for all muscles (all P &gt; 0.05; Table <ref type="table" target="#tab_0">1</ref>).</p><p>Both muscle groups displayed large recovery during the first minute postexercise (P Tw , 21% ± 8%•min -1 in quadriceps vs 9% ± 10%•min -1 in hamstring) followed by a slower recovery rate from 1 to 15 min postexercise (P Tw , 0.3% ± 1.0%•min -1 in quadriceps vs 0.3% ± 0.7%•min -1 in hamstring). However, a significant interaction effect demonstrated a slower recovery rate in hamstring compared with quadriceps for P Tw (40% ± 10% in hamstring vs 52% ± 12% in quadriceps, P &lt; 0.001), D 10 (0% ± 9% in hamstring vs 19% ± 9% in quadriceps, P &lt; 0.001), and D 100 (4% ± 10% in hamstring vs 17% ± 11% in quadriceps, P = 0.013). Specifically, P Tw recovery was ~2 times slower in hamstring compared with quadriceps during the first minute postexercise. At 15 min postexercise, indicators of peripheral fatigue (P Tw , D 10 , D 100 , and D 10 /D 100 ) did not return to baseline values ( P &lt; 0.001) in both conditions.</p><p>Central fatigue and recovery (VA). For central fatigue, a significant interaction effect was found for VA ( P &lt; 0.001; Fig. <ref type="figure" target="#fig_3">4C</ref>). Specifically, although VA was reduced to 68% ± 23% at exercise cessation in quadriceps, it remained unchanged from baseline in hamstring (95% ± 5%).</p><p>At 15 min postexercise, VA returned to baseline ( P = 0.999 for quadriceps and P = 0.941 for hamstring). As illustrated in Figure <ref type="figure" target="#fig_4">5</ref>, there was no correlation between quadriceps and hamstring for any index of neuromuscular fatigue (MVC, P Tw , or VA) measured immediately after the 5-min all-out protocol (MVC, r 2 = 0.137, P = 0.238; P Tw, r 2 = 0.000, P = 0.990; VA, r 2 = 0.065, P = 0.425).</p><p>Parameters associated with the torque-duration relationship. As illustrated in Figure <ref type="figure" target="#fig_5">6</ref>, critical torque was ~1.6 times lower in hamstring compared with quadriceps when expressed in absolute units (60 ± 12 vs 97 ± 26 N•m, P &lt; 0.001).  Contrastingly, when expressed in relative units (%MVC), critical torque was greater in hamstring than quadriceps (50% ± 7 % MVC vs 33% ± 9% MVC, P &lt; 0.001). W′ was ~8 times lower in hamstring compared with quadriceps (1001 ± 696 vs 8111 ± 2073 N•m•s, respectively, P &lt; 0.001).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>The present study investigated the mechanisms of neuromuscular fatigue in hamstring versus quadriceps muscles induced by an isometric exercise and its consequences on the torque-duration relationship in men. After an all-out exercise used to match exercise duration and relative intensity between muscle groups, hamstring appeared ~15% less fatigable (ΔMVC) compared with quadriceps. Mechanistically, this discrepancy between muscle groups was driven by the development of less peripheral fatigue, and no central fatigue, compared with quadriceps. Additionally, exercise capacity was lower in hamstring compared with quadriceps, as a result of a drastically lower W′ associated with a lower absolute critical torque. Thereafter, the recovery kinetics of peripheral fatigue was slower in hamstring compared with quadriceps. Importantly, there was no correlation between hamstring and quadriceps for any index of neuromuscular fatigue, indicating no interrelation between these two muscle groups.</p><p>Neuromuscular fatigue in hamstring versus quadriceps muscles. Peripheral fatigue was significantly lower in hamstring compared with quadriceps throughout exercise (Fig. <ref type="figure" target="#fig_3">4</ref>), suggesting less intramuscular metabolic perturbation <ref type="bibr" target="#b21">(22,</ref><ref type="bibr" target="#b22">23)</ref>. As M-waves were unchanged in both hamstring and quadriceps (Table <ref type="table" target="#tab_0">1</ref>), peripheral fatigue was not explained by a reduction in membrane excitability and originated beyond the sarcolemma <ref type="bibr" target="#b23">(24)</ref>. Specifically, the difference observed in the D 10 /D 100 ratio, showing less low-frequency fatigue in hamstring compared with quadriceps, indicates that the attenuated peripheral fatigue observed in hamstring was attributed to a relatively preserved decrease in myofibrillar sensitivity to Ca 2+ and/or in the reduction of Ca 2+ released from the sarcoplasmic reticulum compared with quadriceps <ref type="bibr" target="#b24">(25,</ref><ref type="bibr" target="#b25">26)</ref>. This difference between the two muscle groups might be explained, at least in part, by the greater proportion of fatigue-resistant Type I muscle fibers in hamstring compared with quadriceps (6,7). Of note, this result contrasts with a previous investigation showing that peripheral fatigue was greater in hamstring compared with quadriceps <ref type="bibr" target="#b7">(8)</ref>. Given the influence of the exercise duration/intensity on neuromuscular fatigue etiology <ref type="bibr" target="#b8">(9)</ref>, the discrepancy between studies might be explained by the drastically different exercise duration between muscle groups in Coratella et al. <ref type="bibr" target="#b7">(8)</ref> while it was matched in the present investigation. Additionally, the selection of the muscle length (60°for both muscles in Coratella et al. vs the optimal angle of each muscle group in the present study) likely contributed to the differences observed in neuromuscular fatigue <ref type="bibr" target="#b26">(27,</ref><ref type="bibr" target="#b27">28)</ref>.</p><p>VA remained unaltered throughout exercise in hamstring, whereas a significant decrease was observed in quadriceps.</p><p>If the absence of central fatigue in hamstring contrasts with what we and others found for this type of exercise in quadriceps <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b28">29)</ref>, this result is supported by previous studies showing no decrease in VA after fatiguing hamstring exercises such as simulated soccer game <ref type="bibr" target="#b18">(19)</ref> or repeated sprints <ref type="bibr" target="#b29">(30)</ref>. Mechanistically, the absence of central fatigue in hamstring might be related to group III/IV sensory neurons, which project from skeletal muscles to the central nervous system. Indeed, group III/IV muscle afferents feedback promotes central fatigue during exercise to restrict peripheral fatigue and to protect the exercising muscles from severe threats to homeostasis <ref type="bibr" target="#b30">(31)</ref>. Interestingly, peripheral fatigue, which is lower in hamstring compared with quadriceps, was identified to promote group III/IV muscle afferents firing <ref type="bibr" target="#b30">(31,</ref><ref type="bibr" target="#b31">32)</ref>. Therefore, group III/IV muscle afferents were likely more stimulated in quadriceps, leading to a significant decrease in VA during exercise only for this muscle group. The substantial differences observed in the magnitude and etiology of neuromuscular fatigue between muscle groups might be related to the lower torque capacity of hamstring compared with quadriceps. Indeed, the classic correlation between maximal torque and fatigability <ref type="bibr" target="#b32">(33)</ref> was also found in the present study (Fig. <ref type="figure" target="#fig_2">3</ref>). Interestingly, the nature of this relationship was independent of the muscle group, suggesting that maximal torque might explain, at least in part, the higher development of neuromuscular fatigue observed in strong quadriceps compared with weaker hamstring muscles. Moreover, it was established that hamstring displayed a greater proportion in Type I muscle fibers than quadriceps (6,7), as evidenced indirectly in this study by a lower MRTD in hamstring <ref type="bibr" target="#b33">(34,</ref><ref type="bibr" target="#b34">35)</ref>. Given the influence of muscle typology on both fatigue resistance and muscle torque capacity <ref type="bibr" target="#b35">(36)</ref>, muscle typology is likely a major characteristic explaining the discrepancies we observed between hamstring and quadriceps muscles.</p><p>Exercise performance was lower in hamstring compared with quadriceps, as a result of a drastically lower W′ associated with a lower absolute critical torque. The lower W′ in hamstring is consistent with the lower level of peripheral fatigue obtained following exercise using this muscle group, as these two parameters have been previously related <ref type="bibr" target="#b13">(14,</ref><ref type="bibr" target="#b16">17)</ref>. Moreover, critical torque has been related to skeletal muscle typology. Indeed, for a given muscle mass, a greater proportion in Type I muscle fibers was associated with a greater critical torque <ref type="bibr" target="#b12">(13)</ref>. Therefore, the greater proportion in Type I muscle fibers in hamstring (47% <ref type="bibr" target="#b5">[6]</ref>) compared with quadriceps (34% <ref type="bibr" target="#b6">[7]</ref>), indirectly evidenced in the present study by the lower MRTD in hamstring <ref type="bibr" target="#b33">(34)</ref>, likely explain why hamstring maintained a higher relative critical torque than quadriceps. However, absolute critical torque  was lower in hamstring, as muscle mass, which has a direct influence on the muscle torque capacity <ref type="bibr" target="#b36">(37)</ref>, was greater in quadriceps. Together, these results highlight a greater fatigue resistance and a reduced exercise capacity in hamstring compared with quadriceps in men.</p><p>Recovery kinetics in hamstring versus quadriceps muscles. Although hamstring and quadriceps demonstrated different magnitude and etiology in neuromuscular fatigue, recovery kinetics were also significantly different for all indices (Fig. <ref type="figure" target="#fig_2">3</ref>). Indeed, although quadriceps was the only muscle group to display central fatigue, VA fully recovered within 2 min postexercise, which is consistent with previous results <ref type="bibr" target="#b37">(38,</ref><ref type="bibr" target="#b38">39)</ref>. Moreover, with a greater level of peripheral fatigue developed throughout exercise, quadriceps also recovered faster than hamstring. Regardless, both muscle groups followed a biphasic recovery kinetics for MVC and P Tw <ref type="bibr" target="#b39">(40)</ref>, with 1) a large recovery during the first minute postexercise, succeeded by 2) a slower recovery phase where MVC and P Tw remained depressed compared with baseline. Mechanistically, this prolonged low-frequency force depression <ref type="bibr" target="#b23">(24)</ref>, as evidenced in the present study by the D 10 /D 100 ratio (Fig. <ref type="figure" target="#fig_3">4</ref>), is the consequence of a reduction in Ca 2+ release into the sarcoplasmic reticulum due to intrinsic alterations in the Ca 2+ pump <ref type="bibr" target="#b24">(25,</ref><ref type="bibr" target="#b40">41)</ref>.</p><p>Is neuromuscular fatigue interrelated between hamstring and quadriceps muscles? The present study documented the absence of interrelation between hamstring and quadriceps for all neuromuscular fatigue indices (Fig. <ref type="figure" target="#fig_4">5</ref>), indicating that a highly fatigable individual in quadriceps is not necessarily highly fatigable in hamstring. Therefore, the fatigability that an individual can develop in quadriceps cannot be used to extrapolate his/her fatigability in hamstring. Although muscle groups presented very different fatigue etiology, the absence of interrelation between quadriceps and hamstring was not surprising. Moreover, the interrelation in peripheral fatigue between muscles might be limited to those with similar fiber type proportion <ref type="bibr" target="#b41">(42)</ref>, which is not the case for quadriceps and hamstring <ref type="bibr" target="#b5">(6,</ref><ref type="bibr" target="#b6">7)</ref>. For central fatigue, no correlation was found between hamstring and quadriceps, which is consistent with a previous study comparing fatigue in plantar flexors and finger flexors <ref type="bibr" target="#b42">(43)</ref>. In conclusion, although neuromuscular fatigue research focusing on hamstring is scarce compared with quadriceps or calf muscles <ref type="bibr" target="#b43">(44)</ref>, there is a need to investigate specifically hamstring muscles fatigue.</p><p>Perspectives for hamstring muscle injuries. Given the higher injury prevalence in hamstring than quadriceps in sports requiring sprints and high-intensity actions <ref type="bibr" target="#b2">(3,</ref><ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b45">46)</ref> and the identification of fatigue as a risk factor for injuries <ref type="bibr" target="#b1">(2,</ref><ref type="bibr" target="#b46">(47)</ref><ref type="bibr" target="#b47">(48)</ref><ref type="bibr" target="#b48">(49)</ref><ref type="bibr" target="#b49">(50)</ref>, observation of less neuromuscular fatigue in hamstring versus quadriceps might seem paradoxical. However, although lower, the magnitude of peripheral fatigue observed in hamstring was still substantial (~55%), which cannot rule out the implication of fatigue in hamstrings injuries. Moreover, preexercise MVC and absolute critical torque were both lower in hamstring compared with quadriceps. Importantly, a deficit in maximal strength, leading the muscle to operate closer to its mechanical limit, has been identified as a risk factor for hamstring muscle injuries <ref type="bibr" target="#b50">(51,</ref><ref type="bibr" target="#b51">52)</ref>. Therefore, either or both muscle strength and fatigue, two interconnected parameters <ref type="bibr" target="#b32">(33,</ref><ref type="bibr" target="#b52">53)</ref>, are likely involved in hamstring muscle injuries. Further studies are needed to dissociate and quantify their relative contribution.</p><p>In practice, although greater preexercise torque is associated with greater fatigability (Fig. <ref type="figure" target="#fig_2">3</ref>), one could argue that specific resistance training might be counterproductive for injury prevention by decreasing critical torque. However, the present study showed that the relationship between torque output and fatigue was not parallel to the identity line (i.e., less steep, see Fig. <ref type="figure" target="#fig_2">3</ref>), indicating that for a given amount of force gained, the amount of fatigue exacerbated is relatively smaller (by 21%).</p><p>In other words, the extra MVC torque earned is greater than the associated decrease in critical torque, and resistance training will lead to an increase in absolute critical torque.</p><p>The exercise modality selected in the present study was designed to activate independently quadriceps or hamstring muscles during exercise; however, it did not reproduce specifically the physiological demand observed during whole-body exercise "on the field." For example, the number of muscle groups involved during exercise influences the magnitude of neuromuscular fatigue and exercise performance <ref type="bibr" target="#b30">(31,</ref><ref type="bibr" target="#b53">54)</ref>. Further studies are needed to characterize neuromuscular fatigue in hamstring and quadriceps during competitions and typical training sessions with a high risk of hamstrings muscle injuries such as sprints or agility training. This will help to delineate the role of exercise-induced fatigue in the occurrence of injuries, documented as a multifactorial event <ref type="bibr" target="#b54">(55)</ref>.</p><p>This study was only performed on men, and given existing sex differences in skeletal muscle typology <ref type="bibr" target="#b55">(56)</ref>, maximal force, and neuromuscular fatigue development <ref type="bibr" target="#b56">(57,</ref><ref type="bibr" target="#b57">58)</ref>, the conclusion may not be generalizable to women.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>The present study documented differences in neuromuscular fatigue etiology between quadriceps and hamstring muscles while exercise was matched for duration and relative intensity in men. Hamstring developed less peripheral fatigue, and no central fatigue, during the 5-min all-out protocol. Moreover, exercise performance was lower in hamstring compared with quadriceps, as a result of a drastically lower W′ associated with a lower absolute critical torque. The absence of correlation observed between quadriceps and hamstring fatigue parameters suggests no interrelation in fatigue etiology between both muscle groups within individuals and, therefore, highlights the need to investigate specifically hamstring muscle fatigue (e.g., to better understand hamstring muscle injuries).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIGURE 1 -</head><label>1</label><figDesc>FIGURE 1-Schematic diagram of the experimental protocol. After familiarization sessions (one for each muscle group), all participants visited the laboratory for two experimental sessions where they performed a fatiguing 5-min all-out exercise protocol (3-s contraction, 2-s relaxation) with either quadriceps or hamstring muscles. After a standardized warm-up, the neuromuscular function was assessed preexercise to determine baseline values that were used to quantify neuromuscular fatigue development during exercise (assessment every 10 MVC) and short-term recovery (postexercise assessments). Central fatigue and peripheral fatigue were quantified via changes in pre-to postexercise VA and P Tw torque (single twitch, P Tw ; doublets at 10 Hz, D 10 ; doublets at 100 Hz, D 100 ) evoked by supramaximal electrical stimulation, respectively. Dashed arrows depict superimposed stimulations during the MVC, and solid arrows indicate potentiated stimulations delivered at rest.</figDesc><graphic coords="3,42.46,37.87,500.10,179.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIGURE 2 -</head><label>2</label><figDesc>FIGURE 2-Torque production and muscle activation during the 5-min all-out exercise protocol. Data are expressed in newton-meter (A) and normalized as a percent of baseline (B) to compare quadriceps and hamstring muscles. Muscle activation (C) was normalized to M max for each muscle group. M max , maximal M-wave amplitude; RF, rectus femoris; ST, semitendinosus; VL, vastus lateralis; VM, vastus medialis. Data are presented as means ± SD. Significant time, condition, and interaction effects are indicated on the graphs.</figDesc><graphic coords="4,304.44,37.87,239.50,463.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIGURE 3 -</head><label>3</label><figDesc>FIGURE 3-Correlation between peak torque and muscle fatigue. MVC peak torque (N•m) was the MVC measured preexercise, whereas muscle fatigue was the decrease in MVC reached from pre-to immediately postexercise (ΔMVC, expressed in N•m) in quadriceps and hamstring muscles.</figDesc><graphic coords="5,43.94,38.55,234.18,162.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>FIGURE 4 -</head><label>4</label><figDesc>FIGURE 4-Neuromuscular fatigue during the 5-min all-out exercise protocol and recovery kinetics. MVC (A), P Tw (B), VA (C), and D 10 /D 100 ratio (D) assessed during exercise (gray areas) and recovery (white areas). D 10 /D 100 , low-frequency fatigue ratio. Data are presented as means ± SD. Significant time, condition, and interaction effects are indicated on the graphs for both exercise (gray boxes) and recovery (white boxes).</figDesc><graphic coords="5,41.90,351.61,501.29,322.19" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>FIGURE 5 -</head><label>5</label><figDesc>FIGURE 5-Correlations between quadriceps and hamstring for neuromuscular fatigue parameters. Correlation for MVC (A), peripheral fatigue (P Tw , B), and central fatigue (VA, C) for quadriceps and hamstring. Data are expressed in percentage of decrease from baseline.</figDesc><graphic coords="7,43.94,37.87,234.18,443.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>FIGURE 6 -</head><label>6</label><figDesc>FIGURE 6-Parameters of torque-duration relationship. Critical torque was expressed in newton-meter (A) and normalized as a percent of MVC (B). The work performed above critical torque (W′) was expressed in newton-meters-second (C) for both quadriceps and hamstring muscles. *Significant difference vs quadriceps (P &lt; 0.05).</figDesc><graphic coords="7,306.94,186.01,234.18,469.93" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1 .</head><label>1</label><figDesc>Effects of 5-min all-out exercise on neuromuscular variables measured immediately at exercise termination and during recovery.</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Recovery</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Parameters</cell><cell>Condition</cell><cell>Pre</cell><cell>Post</cell><cell>1 Min</cell><cell>2 Min</cell><cell>3 Min</cell><cell>5 Min</cell><cell>10 Min</cell><cell>15 Min</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>This work has been published under the framework of the <rs type="institution">IdEX Unistra</rs> supported by the investments for the future program of the <rs type="funder">French Government</rs>. <rs type="person">Anasthase Massamba</rs> was supported by a doctoral research grant from <rs type="funder">Racing Club de Strasbourg Alsace</rs> and the <rs type="funder">French Ministry of Higher Education and Research at the University of Strasbourg</rs> (<rs type="grantNumber">CIFRE 2019/0708</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_cemtUuc">
+					<idno type="grant-number">CIFRE 2019/0708</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Sprint acceleration mechanics: the major role of hamstrings in horizontal force production</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gimenez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Edouard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">404</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morin JB, Gimenez P, Edouard P, et al. Sprint acceleration mechan- ics: the major role of hamstrings in horizontal force production. Front Physiol. 2015;6:404.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The Football Association Medical Research Programme: an audit of injuries in professional football-analysis of hamstring injuries</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Hawkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maltby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="36" to="41" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Woods C, Hawkins RD, Maltby S, et al. The Football Association Medical Research Programme: an audit of injuries in professional football-analysis of hamstring injuries. Br J Sports Med. 2004; 38(1):36-41.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Incidence, risk, and prevention of hamstring muscle injuries in professional rugby union</title>
+		<author>
+			<persName><forename type="first">Jhm</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Fuller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Spt</forename><surname>Kemp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Reddin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1297" to="1306" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brooks JHM, Fuller CW, Kemp SPT, Reddin DB. Incidence, risk, and prevention of hamstring muscle injuries in professional rugby union. Am J Sports Med. 2006;34(8):1297-306.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Spinal and supraspinal factors in human muscle fatigue</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Gandevia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1725" to="1789" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gandevia SC. Spinal and supraspinal factors in human muscle fa- tigue. Physiol Rev. 2001;81(4):1725-89.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Skeletal muscle fatigue: cellular mechanisms</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Lamb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Westerblad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiol Rev</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="287" to="332" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Allen DG, Lamb GD, Westerblad H. Skeletal muscle fatigue: cellular mechanisms. Physiol Rev. 2008;88(1):287-332.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The functional significance of hamstrings composition: is it really a &quot;fast&quot; muscle group?</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Evangelidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Massey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mtg</forename><surname>Pain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Folland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1181" to="1189" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Evangelidis PE, Massey GJ, Ferguson RA, Wheeler PC, Pain MTG, Folland JP. The functional significance of hamstrings composition: is it really a &quot;fast&quot; muscle group? Scand J Med Sci Sports. 2017;27(11): 1181-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Fiber type composition of the vastus lateralis muscle of young men and women</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Staron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Hagerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Hikida</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Histochem Cytochem</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="623" to="629" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Staron RS, Hagerman FC, Hikida RS, et al. Fiber type composition of the vastus lateralis muscle of young men and women. J Histochem Cytochem. 2000;48(5):623-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Greater fatigability in knee-flexors vs. knee-extensors after a standardized fatiguing protocol</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Coratella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grosprêtre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gimenez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mourot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1110" to="1118" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Coratella G, Grosprêtre S, Gimenez P, Mourot L. Greater fatigability in knee-flexors vs. knee-extensors after a standardized fatiguing pro- tocol. Eur J Sport Sci. 2018;18(8):1110-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Recovery from fatigue following cycling time-trials in elite endurance athletes</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Ducrocq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Hureau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bøgseth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Meste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Blain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="904" to="917" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ducrocq GP, Hureau TJ, Bøgseth T, Meste O, Blain GM. Recovery from fatigue following cycling time-trials in elite endurance athletes. Med Sci Sports Exerc. 2021;53(5):904-17.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Estimation of critical torque using intermittent isometric maximal voluntary contractions of the quadriceps in humans</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burnley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="975" to="983" />
+			<date type="published" when="1985">1985. 2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burnley M. Estimation of critical torque using intermittent isometric maximal voluntary contractions of the quadriceps in humans. J Appl Physiol (1985). 2009;106(3):975-83.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Exercise tolerance during muscle contractions below and above the critical torque in different muscle groups</title>
+		<author>
+			<persName><forename type="first">Lhp</forename><surname>Abdalla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Denadai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Bassan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Greco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Physiol Nutr Metab</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="174" to="179" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abdalla LHP, Denadai BS, Bassan NM, Greco CC. Exercise tolerance during muscle contractions below and above the critical torque in dif- ferent muscle groups. Appl Physiol Nutr Metab. 2018;43(2):174-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Critical power: possibly the most important fatigue threshold in exercise physiology</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burnley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Poole</surname></persName>
+		</author>
+		<editor>Zoladz JA</editor>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>Academic Press</publisher>
+			<biblScope unit="page" from="159" to="181" />
+		</imprint>
+	</monogr>
+	<note>Muscle and Exercise Physiology</note>
+	<note type="raw_reference">Craig JC, Vanhatalo A, Burnley M, Jones AM, Poole DC. Critical power: possibly the most important fatigue threshold in exercise physiology. In: Zoladz JA, editor. Muscle and Exercise Physiology. Academic Press; 2019. pp. 159-81.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The mechanistic bases of the power-time relationship: muscle metabolic responses and relationships to muscle fibre type</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Dimenna</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">594</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="4407" to="4423" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vanhatalo A, Black MI, DiMenna FJ, et al. The mechanistic bases of the power-time relationship: muscle metabolic responses and rela- tionships to muscle fibre type. J Physiol. 2016;594(15):4407-23.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The magnitude of neuromuscular fatigue is not intensity dependent when cycling above critical power but relates to aerobic and anaerobic capacities</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">U</forename><surname>Schäfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dekerle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="209" to="219" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schäfer LU, Hayes M, Dekerle J. The magnitude of neuromuscular fatigue is not intensity dependent when cycling above critical power but relates to aerobic and anaerobic capacities. Exp Physiol. 2019; 104(2):209-19.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Influence of blood flow occlusion on the development of peripheral and central fatigue during small muscle mass handgrip exercise</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Broxterman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">593</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="4043" to="4054" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Broxterman RM, Craig JC, Smith JR, et al. Influence of blood flow occlusion on the development of peripheral and central fatigue during small muscle mass handgrip exercise. J Physiol. 2015;593(17):4043-54.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The relationship between W′ and peripheral fatigue considered</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Broxterman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Craig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Weavil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Hureau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="211" to="212" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Broxterman RM, Craig JC, Weavil JC, Hureau TJ. The relationship between W′ and peripheral fatigue considered. Exp Physiol. 2020; 105(1):211-2.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Aging reduces the maximal level of peripheral fatigue tolerable and impairs exercise capacity</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zarzissi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Bouzid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zghal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rebai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Hureau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Regul Integr Comp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="617" to="625" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zarzissi S, Bouzid MA, Zghal F, Rebai H, Hureau TJ. Aging reduces the maximal level of peripheral fatigue tolerable and impairs exercise capac- ity. Am J Physiol Regul Integr Comp Physiol. 2020;319(6):R617-25.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Relationship between power-duration parameters and mechanical and anthropometric properties of the thigh in elite cyclists</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kordi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Menzies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Parker</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="637" to="645" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kordi M, Menzies C, Parker Simpson L. Relationship between power-duration parameters and mechanical and anthropometric properties of the thigh in elite cyclists. Eur J Appl Physiol. 2018; 118(3):637-45.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Hamstring muscle fatigue and central motor output during a simulated soccer match</title>
+		<author>
+			<persName><forename type="first">Pwm</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lovell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Jeppesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Siegler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">102753</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Marshall PWM, Lovell R, Jeppesen GK, Andersen K, Siegler JC. Hamstring muscle fatigue and central motor output during a simu- lated soccer match. PLoS One. 2014;9(7):e102753.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Voluntary strength and fatigue</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Merton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="553" to="564" />
+			<date type="published" when="1954">1954</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Merton PA. Voluntary strength and fatigue. J Physiol. 1954;123(3): 553-64.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Development of recommendations for SEMG sensors and sensor placement procedures</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Hermens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Freriks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Disselhorst-Klug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="361" to="374" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hermens HJ, Freriks B, Disselhorst-Klug C, Rau G. Development of recommendations for SEMG sensors and sensor placement proce- dures. J Electromyogr Kinesiol. 2000;10(5):361-74.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Skeletal muscle bioenergetics during all-out exercise: mechanistic insight into the oxygen uptake slow component and neuromuscular fatigue</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Broxterman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Layec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Hureau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Amann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Richardson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1208" to="1217" />
+			<date type="published" when="1985">1985. 2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Broxterman RM, Layec G, Hureau TJ, Amann M, Richardson RS. Skeletal muscle bioenergetics during all-out exercise: mechanistic in- sight into the oxygen uptake slow component and neuromuscular fa- tigue. J Appl Physiol (1985). 2017;122(5):1208-17.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">On the role of skeletal muscle acidosis and inorganic phosphates as determinants of central and peripheral fatigue: a 31P-MRS study</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Hureau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Broxterman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Weavil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Layec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Amann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">600</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="3069" to="3081" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hureau TJ, Broxterman RM, Weavil JC, Layec G, Amann M. On the role of skeletal muscle acidosis and inorganic phosphates as determi- nants of central and peripheral fatigue: a 31P-MRS study. J Physiol. 2022;600(13):3069-81.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Comparison of quadriceps inactivation between nerve and muscle stimulation</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Place</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Casartelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Glatthorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Maffiuletti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Muscle Nerve</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="894" to="900" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Place N, Casartelli N, Glatthorn JF, Maffiuletti NA. Comparison of quadriceps inactivation between nerve and muscle stimulation. Mus- cle Nerve. 2010;42(6):894-900.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Predominant cause of prolonged low-frequency force depression changes during recovery after in situ fatiguing stimulation of rat fast-twitch muscle</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Watanabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Regul Integr Comp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">311</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="919" to="929" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Watanabe D, Wada M. Predominant cause of prolonged low-frequency force depression changes during recovery after in situ fatiguing stimulation of rat fast-twitch muscle. Am J Physiol Regul Integr Comp Physiol. 2016;311(5):R919-29.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">High-and low-frequency fatigue revisited</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol Scand</title>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="265" to="270" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jones DA. High-and low-frequency fatigue revisited. Acta Physiol Scand. 1996;156(3):265-70.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Effect of muscle-tendon unit length on child-adult difference in neuromuscular fatigue</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Piponnier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chalchat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1961" to="1970" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Piponnier E, Martin V, Chalchat E, et al. Effect of muscle-tendon unit length on child-adult difference in neuromuscular fatigue. Med Sci Sports Exerc. 2019;51(9):1961-70.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Diminished fatigue at reduced muscle length in human skeletal muscle</title>
+		<author>
+			<persName><forename type="first">Sck</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Braim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Prosser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Tokay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Binder-Macleod</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Muscle Nerve</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="789" to="797" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lee SCK, Braim A, Becker CN, Prosser LA, Tokay AM, Binder- Macleod SA. Diminished fatigue at reduced muscle length in human skeletal muscle. Muscle Nerve. 2007;36(6):789-97.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Acute acetaminophen ingestion improves performance and muscle activation during maximal intermittent knee extensor exercise</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Bowtell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vanhatalo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bailey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="595" to="605" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morgan PT, Bowtell JL, Vanhatalo A, Jones AM, Bailey SJ. Acute acetaminophen ingestion improves performance and muscle activa- tion during maximal intermittent knee extensor exercise. Eur J Appl Physiol. 2018;118(3):595-605.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Neuromuscular fatigue and recovery after strenuous exercise depends on skeletal muscle size and stem cell characteristics</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Baumert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Temple</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Stanley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">7733</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Baumert P, Temple S, Stanley JM, et al. Neuromuscular fatigue and recovery after strenuous exercise depends on skeletal muscle size and stem cell characteristics. Sci Rep. 2021;11(1):7733.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The &quot;sensory tolerance limit&quot;: a hypothetical construct determining exercise performance?</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Hureau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Romer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Amann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="13" to="24" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hureau TJ, Romer LM, Amann M. The &quot;sensory tolerance limit&quot;: a hypothetical construct determining exercise performance? Eur J Sport Sci. 2018;18(1):13-24.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Opioid-mediated muscle afferents inhibit central motor drive and limit peripheral muscle fatigue development in humans</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Amann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Sebranek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Pegelow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Dempsey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">587</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="271" to="283" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Amann M, Proctor LT, Sebranek JJ, Pegelow DF, Dempsey JA. Opioid-mediated muscle afferents inhibit central motor drive and limit peripheral muscle fatigue development in humans. J Physiol. 2009;587(1):271-83.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Neurobiology of muscle fatigue</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Enoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Stuart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1631" to="1648" />
+			<date type="published" when="1985">1985. 1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Enoka RM, Stuart DG. Neurobiology of muscle fatigue. J Appl Phys- iol (1985). 1992;72(5):1631-48.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Fiber type composition and rate of force development in endurance-and resistance-trained individuals</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Methenitis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Spengos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zaras</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2388" to="2397" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Methenitis S, Spengos K, Zaras N, et al. Fiber type composition and rate of force development in endurance-and resistance-trained indi- viduals. J Strength Cond Res. 2019;33(9):2388-97.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Interaction of fibre type, potentiation and fatigue in human knee extensor muscles</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Sale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Macdougall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tarnopolsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol Scand</title>
+		<imprint>
+			<biblScope unit="volume">178</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="165" to="173" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hamada T, Sale DG, MacDougall JD, Tarnopolsky MA. Interaction of fibre type, potentiation and fatigue in human knee extensor mus- cles. Acta Physiol Scand. 2003;178(2):165-73.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Metabolism changes in single human fibres during brief maximal exercise</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Karatzaferi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>De Haan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Van Mechelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Sargeant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="411" to="415" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karatzaferi C, de Haan A, van Mechelen W, Sargeant AJ. Metabo- lism changes in single human fibres during brief maximal exercise. Exp Physiol. 2001;86(3):411-5.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Strength and size relationships of the quadriceps and hamstrings with special reference to reciprocal muscle balance</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Evangelidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Massey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mtg</forename><surname>Pain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Folland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="593" to="600" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Evangelidis PE, Massey GJ, Pain MTG, Folland JP. Strength and size relationships of the quadriceps and hamstrings with special refer- ence to reciprocal muscle balance. Eur J Appl Physiol. 2016;116(3): 593-600.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Dynamics of corticospinal changes during and after high-intensity quadriceps exercise</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gruet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Temesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rupp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Verges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Millet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1053" to="1064" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gruet M, Temesi J, Rupp T, Levy P, Verges S, Millet GY. Dynamics of corticospinal changes during and after high-intensity quadriceps exercise. Exp Physiol. 2014;99(8):1053-64.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Peripheral and central fatigue development during all-out repeated cycling sprints</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Hureau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Ducrocq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Blain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="391" to="401" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hureau TJ, Ducrocq GP, Blain GM. Peripheral and central fatigue de- velopment during all-out repeated cycling sprints. Med Sci Sports Exerc. 2016;48(3):391-401.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Recovery of central and peripheral neuromuscular fatigue after exercise</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Carroll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Gandevia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1068" to="1076" />
+			<date type="published" when="1985">1985. 2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carroll TJ, Taylor JL, Gandevia SC. Recovery of central and periph- eral neuromuscular fatigue after exercise. J Appl Physiol (1985). 2017;122(5):1068-76.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Postcontractile force depression in humans is associated with an impairment in SR Ca(2+) pump function</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tupling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ranney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Regul Integr Comp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">278</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="87" to="94" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tupling R, Green H, Grant S, Burnett M, Ranney D. Postcontractile force depression in humans is associated with an impairment in SR Ca(2+) pump function. Am J Physiol Regul Integr Comp Physiol. 2000;278(1):R87-94.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Intermuscular relationship of human muscle fiber type proportions: slow leg muscles predict slow neck muscles</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Vikne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gundersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liestøl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Maelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vøllestad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Muscle Nerve</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="527" to="535" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vikne H, Gundersen K, Liestøl K, Maelen J, Vøllestad N. Intermuscular relationship of human muscle fiber type proportions: slow leg muscles predict slow neck muscles. Muscle Nerve. 2012;45(4):527-35.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Neuromuscular fatigability amplitude and aetiology are interrelated across muscles</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chartogne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rahmani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Nicolon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jubeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Morel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1758" to="1766" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Chartogne M, Rahmani A, Nicolon L, Jubeau M, Morel B. Neuro- muscular fatigability amplitude and aetiology are interrelated across muscles. Exp Physiol. 2020;105(10):1758-66.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Neuromuscular responses to fatiguing locomotor exercise</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Brownstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Millet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Thomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol (Oxf )</title>
+		<imprint>
+			<biblScope unit="volume">231</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">13533</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brownstein CG, Millet GY, Thomas K. Neuromuscular responses to fatiguing locomotor exercise. Acta Physiol (Oxf ). 2021;231(2): e13533.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Epidemiology of muscle injuries in professional football (soccer)</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ekstrand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hägglund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Waldén</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1226" to="1232" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ekstrand J, Hägglund M, Waldén M. Epidemiology of muscle in- juries in professional football (soccer). Am J Sports Med. 2011; 39(6):1226-32.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Muscle injury is the principal injury type and hamstring muscle injury is the first injury diagnosis during top-level international athletics championships between 2007 and 2015</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Edouard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Branco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Alonso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="619" to="630" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Edouard P, Branco P, Alonso JM. Muscle injury is the principal in- jury type and hamstring muscle injury is the first injury diagnosis dur- ing top-level international athletics championships between 2007 and 2015. Br J Sports Med. 2016;50(10):619-30.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Extrinsic and intrinsic risk factors associated with hamstring injury</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pizzari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Van Dyk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Prevention and Rehabilitation of Hamstring Injuries</title>
+		<editor>
+			<persName><forename type="first">K</forename><surname>Thorborg</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><surname>Opar</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Shield</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="83" to="115" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pizzari T, Green B, van Dyk N. Extrinsic and intrinsic risk factors as- sociated with hamstring injury. In: Thorborg K, Opar D, Shield A, ed- itors. Prevention and Rehabilitation of Hamstring Injuries. Cham: Springer International Publishing; 2020. pp. 83-115.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Recommendations for hamstring injury prevention in elite football: translating research into practice</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Buckthorpe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bruce-Low</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="449" to="456" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Buckthorpe M, Wright S, Bruce-Low S, et al. Recommendations for hamstring injury prevention in elite football: translating research into practice. Br J Sports Med. 2019;53(7):449-56.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Effect of 2 soccer matches in a week on physical performance and injury rate</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dupont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nedelec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mccall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mccormack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Berthoin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Wisløff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1752" to="1758" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dupont G, Nedelec M, McCall A, McCormack D, Berthoin S, Wisløff U. Effect of 2 soccer matches in a week on physical perfor- mance and injury rate. Am J Sports Med. 2010;38(9):1752-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The impact of short periods of match congestion on injury risk and patterns in an elite football club</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Carling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mccall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Gall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dupont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="764" to="768" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carling C, McCall A, Le Gall F, Dupont G. The impact of short pe- riods of match congestion on injury risk and patterns in an elite foot- ball club. Br J Sports Med. 2016;50(12):764-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Eccentric hamstring strength and hamstring injury risk in Australian footballers</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Opar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Timmins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hickey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Duhig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Shield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="857" to="865" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Opar DA, Williams MD, Timmins RG, Hickey J, Duhig SJ, Shield AJ. Eccentric hamstring strength and hamstring injury risk in Australian footballers. Med Sci Sports Exerc. 2015;47(4):857-65.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Low horizontal force production capacity during sprinting as a potential risk factor of hamstring injury in football</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Edouard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lahti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Environ Res Public Health</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page">7827</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Edouard P, Lahti J, Nagahara R, et al. Low horizontal force production capacity during sprinting as a potential risk factor of hamstring injury in football. Int J Environ Res Public Health. 2021;18(15):7827.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Skeletal muscle fatigue and endurance in young and old men and women</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lindström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lexell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gerdle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Downham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Gerontol A Biol Sci Med Sci</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="59" to="66" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lindström B, Lexell J, Gerdle B, Downham D. Skeletal muscle fa- tigue and endurance in young and old men and women. J Gerontol A Biol Sci Med Sci. 1997;52(1):B59-66.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b53">
+	<analytic>
+		<title level="a" type="main">The role of active muscle mass in determining the magnitude of peripheral fatigue during dynamic exercise</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Rossman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Garten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Venturelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Amann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Richardson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol Regul Integr Comp Physiol</title>
+		<imprint>
+			<biblScope unit="volume">306</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="934" to="940" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rossman MJ, Garten RS, Venturelli M, Amann M, Richardson RS. The role of active muscle mass in determining the magnitude of pe- ripheral fatigue during dynamic exercise. Am J Physiol Regul Integr Comp Physiol. 2014;306(12):R934-40.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Hamstring strain injuries: factors that lead to injury and re-injury</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Opar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Shield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="209" to="226" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Opar DA, Williams MD, Shield AJ. Hamstring strain injuries: factors that lead to injury and re-injury. Sports Med. 2012;42(3):209-26.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Sex differences in semitendinosus muscle fiber-type composition</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fournier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bernard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cievet-Bonfils</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="720" to="727" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fournier G, Bernard C, Cievet-Bonfils M, et al. Sex differences in semitendinosus muscle fiber-type composition. Scand J Med Sci Sports. 2022;32(4):720-7.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Sex differences in fatigability and recovery relative to the intensity-duration relationship</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ansdell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Brownstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Škarabot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">597</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="5577" to="5595" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ansdell P, Brownstein CG, Škarabot J, et al. Sex differences in fati- gability and recovery relative to the intensity-duration relationship. J Physiol. 2019;597(23):5577-95.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Sex differences in human fatigability: mechanisms and insight to physiological responses</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Hunter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol (Oxf )</title>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="768" to="789" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hunter SK. Sex differences in human fatigability: mechanisms and insight to physiological responses. Acta Physiol (Oxf ). 2014;210(4):768-89.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

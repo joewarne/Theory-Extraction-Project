@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mental fatigue impairs repeated sprint and jump performance in team sport athletes</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-11-02">2 November 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Walter</forename><surname>Staiano</surname></persName>
+							<email>walterstaiano@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physical Education and Sport</orgName>
+								<orgName type="institution">University of Valencia</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Psychology, Biological and Cognitive Psychology</orgName>
+								<orgName type="institution">University of Southern Denmark</orgName>
+								<address>
+									<country key="DK">Denmark</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Luis</forename><surname>Raimon</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Salazar</forename><surname>Bonet</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">International University SEK</orgName>
+								<address>
+									<country key="EC">Ecuador</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marco</forename><surname>Romagnoli</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physical Education and Sport</orgName>
+								<orgName type="institution">University of Valencia</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christopher</forename><surname>Ring</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">School of Sport, Exercise &amp; Rehabilitation Sciences</orgName>
+								<orgName type="institution">University of Birmingham</orgName>
+								<address>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mental fatigue impairs repeated sprint and jump performance in team sport athletes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2023-11-02">2 November 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1C31C37F1669A31E8842F59A69E191DF</idno>
+					<idno type="DOI">10.1016/j.jsams.2023.10.016</idno>
+					<note type="submission">Received 4 March 2023 Received in revised form 19 October 2023 Accepted 22 October 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:13+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Anaerobic exercise Cognitive load Cognitive performance Sport performance Physical fatigue Strength endurance</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objectives: We tested whether mental fatigue (MF), induced by a cognitively-demanding task, would impair repeated sprint ability (RSA) and repeated jump ability (RJA) performance, and whether physical fatigue and MF would impair psychomotor vigilance. Design: Randomized within-participant design. Methods: After establishing baseline peak countermovement jump (CMJ), 18 male participants performed 12 maximal 20-m (10-m linear + 10-m directional) repeated sprints (RSA random test) followed by 12 maximal repeated CMJs (RJA test) subsequent to 30-min Stroop task (MF) or a documentary (Control). Peak and mean running time and height, percent decrement score (S dec ), blood lactate, heart rate and RPE were measured for CMJ, RSA, and RJA tests. MF (M-VAS) and psychomotor vigilance [psychomotor vigilance test (PVT)] were measured at baseline, after each condition, and after the RSA/RJA tests. Results: Compared to Control, the Stroop task elevated MF (p = .001), RPE ratings (all p &lt; .031), and mean and S dec performance in directional (but not linear) RSA (all p &lt; .032) and RJA tests (all p &lt; .034). PVT score worsened after Stroop task (p = .011) but not Control, declined after RSA/RJA tests in both conditions (all p &lt; .023) and was lower in the MF condition (p = .029). No condition differences were noted for peak (CMJ, RSA and RJA tests) performance, blood lactate, and heart rate. Conclusions: MF impairs directional RSA, and RJA performance. This impairment was linked with increased RPE and without physiological changes. The progressive impairment in PVT score suggests a cumulatively negative effect of mental and physical fatigue on psychomotor vigilance.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Mental fatigue (MF) is a psychobiological state that can be induced by cognitively demanding tasks, characterized by subjective tiredness or lack of energy and impaired cognitive performance. <ref type="bibr" target="#b0">1</ref> Sport scientists have confirmed that MF can impair aerobic endurance performance <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> as well as sports-specific psychomotor performance, defined as highly complex motor behavior that results from the cognitive processing of sensory and perceptual information in a sport-specific context. <ref type="bibr" target="#b2">3</ref> On the other hand, evidence on the effect of MF on anaerobic performance and strength is less explored. Reviews conclude that MF does not affect physical activities that require brief bursts of strength, such as sprints, jumps, and maximal contractions. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b2">3</ref> Indeed, studies report that countermovement jumps (CMJ) and running sprints are unaffected by MF. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> Other studies note that MF does not impair short-lasting (&lt;3 min) strength/power and sprint exercises. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b5">6</ref> For instance, linear repeated sprint ability (RSA) performance was unaffected by MF. <ref type="bibr" target="#b6">7</ref> However, another line of investigation concerning strength endurance proved otherwise, with studies showing that MF can impair submaximal strength endurance exercise. <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref> For instance, when performing submaximal contractions repeatedly at 20 % of maximum voluntary contraction, MF increased the time to exhaustion. <ref type="bibr" target="#b7">8</ref> Other research, including a recent review on strength endurance, showed that MF reduced the number of repetitions and sets of strength exercise performed. <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10</ref> It can be argued that strength endurance, similarly to aerobic endurance performance, is susceptible to MF due to higher cognitive components of pacing, decision-making, and, perceived effort moderation. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b2">3</ref> In addition, it is worth considering that such cognitive components are more relevant when the physical demand is accompanied by the situational demands that players experience when processing information before deciding where and how to move, while also considering their physical demands, such as postural control and balance stabilization. <ref type="bibr" target="#b11">12</ref> In this complex environment, the negative impact of MF could be exacerbated, with greater impairments of decision-making, ball passing, dribbling accuracy, directional changes, reactive balance and stability. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12</ref> Therefore, it is worth noting that evidence to date on the effect of MF on anaerobic performance and strength endurance is restricted to studies that examined the effects of MF on either isolated anaerobic physical tests, such as CMJ, or on physical tests that do not incorporate complex cognitive components, such as decision-making, pacing, directional changes, and balance control, which are important features of sport performance. Accordingly, studies of the effects of MF on anaerobic strength and strength endurance could/should consider how multiple elements of complex situations (e.g., situation demands and personal capabilities) might interact to determine performance outcome in sport. <ref type="bibr" target="#b12">13</ref> In other words, to increase ecological validity, protocols could examine the effects of mental and physical fatigue on subsequent repeated performance of tasks that require control of posture/balance as well as decision-making and visuo-motor reactions. Scarce examples of this approach can be found in the literature. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b2">3</ref> First, the only study using a repeated jump ability (RJA) test explored whether RJA is affected by the environmental factor heat stress. <ref type="bibr" target="#b13">14</ref> Secondly, performance of a repeated sprint ability (RSA) test was only tested linearly and, notably, no study has explored the effect of MF on the RSA test with a linear and directional component combined. Previously, this specific RSA test with both of these components, was used in a training study and was sensitive to mental fatigue-inoculation cognitive training. <ref type="bibr" target="#b14">15</ref> In addition, in sports, such as football, basketball and volleyball, athletic actions, such as high intensity sprinting, changing direction, jumping, accelerating, and decelerating (which are typically examined only from a physiological perspective), have a negative impact on cognition and in particular in vigilance and sustained attention. <ref type="bibr" target="#b15">16</ref> Despite such impact, there is scarce evidence of the impact of physical fatigue and the combination of physical and mental fatigue on cognitive performance.</p><p>Therefore our study was designed to address these gaps in the literature and its purposes were twofold. Our first purpose was to determine the effect of a highly demanding cognitive task inducing MF on subsequent repeated sprinting and jumping performance using a protocol with multiple elements to increase complexity, in terms of cognitive demands (e.g., sprinting with changes of direction) and exercise demands (e.g., completing repetitive bouts with incomplete recovery). We hypothesized that a 30-min response inhibition cognitive task would induce MF and impair peak and mean time of the directional component but not the linear component of RSA. Furthermore, we hypothesized that MF would not affect peak height during isolated CMJs (measured at baseline and after each experimental treatment) and the RJA, whereas MF would impair mean height and fatigue index (measured as decrement score) during the RJA. Our second study purpose was to determine the serial effects of MF alone and combined with physical fatigue on the performance of a psychomotor vigilance test (PVT). Previous studies have shown that high intensity aerobic endurance exercise can impair subsequent cognitive performance. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b15">16</ref> Together with evidence that MF impairs cognitive performance, <ref type="bibr" target="#b6">7</ref> this literature highlights a shared neurocognitive connection concerning the regulation of mental and physical effort. Here we hypothesized that reaction times during the PVT would be slower following 30 min of a mentally fatiguing task compared to watching neutral videos, and slowest following the serial combination of MF plus physical fatigue.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methods</head><p>Eighteen healthy and fit male [mean ± SD, age 25 ± 5 years, height 181 ± 5 cm, weight 75 ± 8 kg, peak oxygen uptake 55 ± 4 ml•kg -1 •min -1 ] participants were recruited from amateur basketball (n = 6), handball (n = 7) and football (n = 5) clubs. They had at least three years playing experience and were classified as performance level 2 (trained/development). <ref type="bibr" target="#b16">17</ref> Given that we only had access to male clubs, we were not able to test female participants. They signed an informed consent and the study protocol was approved by the Ethics Committee of the School of Sport and Physical Education at Valencia University in accordance with the Declaration of Helsinki. All participants were unaware of the study purposes and hypotheses.</p><p>This study employed a randomized counterbalanced withinparticipant experimental design. Participants completed 3 laboratory sessions: a familiarization session followed by two counterbalanced (mental fatigue, control) testing sessions (Fig. <ref type="figure" target="#fig_0">1</ref>). Time of testing, environmental conditions, and exercise equipment settings were standardized. At least 10 days separated testing sessions to allow recovery from potential muscle damage. Participants were instructed to sleep for at least 7 h, drink 35 ml of water per kilogram of body weight, refrain from alcohol and caffeine, and avoid any vigorous exercise 24 h prior each laboratory session. Their compliance with instructions was checked and verified. Participants declared any medication/drug use and acute illness, injury, or infection. Time of testing, environmental conditions, meal times and equipment settings were standardized.</p><p>During the familiarization session, participants were provided with standardized instructions for anchoring of Borg 6-20 rating of perceived exertion (RPE) and completed the RSA random test, <ref type="bibr" target="#b17">18</ref> counter movement jump test, <ref type="bibr" target="#b13">14</ref> and RJA test. <ref type="bibr" target="#b13">14</ref> Furthermore, they were familiarized with the Stroop task, PVT, <ref type="bibr" target="#b18">19</ref> and the psychological and physiological measures. During the testing sessions, participants rated their motivation to complete the whole testing session, and MF, warmed-up, and performed the baseline CMJ test, which comprised three vertical jumps on a force plate (Kistler, Arizona, US) separated by 20 s rest. Afterwards they performed a 10-min PVT using a computer running E-prime 2.0 (Pittsburg, USA) software to assess sustained attention and vigilance to perform. Next, they completed one of two 30-min experimental conditions while sitting comfortably in a quiet, dimly lit room. In the MF condition they performed an incongruent Stroop color-word task using a tablet running the SOMA-NPT app (Sswitch, Lucerne, Switzerland). In the control condition (CON) they watched an emotional neutral documentary about cars on the same screen. <ref type="bibr" target="#b0">1</ref> At the end of each condition, they completed the National Aeronautics and Space Administration Task Load Index (NASA-TLX), <ref type="bibr" target="#b19">20</ref> performed a 10-min PVT, and rated MF. After warming up, they completed another CMJ test, rested 5-min, provided a blood sample, rated their motivation to complete the whole testing session, warmed up for 10-min, and completed the RSA random test. This running test measures linear acceleration, change of direction, visuomotor response, and decision-making. The test comprised of 12 sprints, with each sprint followed by 10 s active recovery while jogging 20 m to the starting position. Each sprint comprised a 10-m linear sprint plus a 10-m directional sprint to 1 of 3 randomly cued locations (straight or 45°to the right or to the left). The location of each directional sprint was cued by the illumination of 1 of 3 colored lights after completing the previous 10-m linear sprint. We used a FitLight Trainer system (Fitlight Corp, Ontario, Canada) to measure linear and directional sprints and to cue directions. Performance was measured as peak and mean time taken to complete the 10-m linear acceleration sprint (time [s]) and 10-m directional sprint (time [s]). HR and RPE were measured after every sprint. At completion of the test, participants rested for 10-min and provided a blood sample. They then warmed up for 5-min and completed the RJA test. This jumping test comprised 12 maximal jumps on a force plate (Kistler, Arizona, US) separated by 5 s intervals. Participants were instructed to jump from a stationary standing position, to use a preparatory countermovement consisting of a 90°knee flexion, and to keep their hands on their waist. <ref type="bibr" target="#b13">14</ref> Finally, they completed a NASA-TLX and performed a 10-min PVT. All warm-up protocols preceding the CMJ, RSA and RJA tests were standardized across experimental visits.</p><p>For the CMJ test, the peak force and height for each of the three jumps were recorded, and the two closest values were averaged. For the RSA random test, peak performance time, mean performance time, and percentage decrement score (S dec ) were measured. For the RJA test, peak height, mean height, and S dec were computed. S dec is a measure of fatigue expressed as percentage of decline in maximal performance and it is computed using Eqs. ( <ref type="formula">2</ref>) for RJA and (3) for RSA as formulated by Girard and colleagues. <ref type="bibr" target="#b20">21</ref> For the PVT, mean reaction time (ms) for responses between 100 and 500 ms, and number of lapses, defined as responses slower than 500 ms, were computed. <ref type="bibr" target="#b18">19</ref> Heart rate was measured using a telemetric chest sensor (Polar H10, Polar Electro Oy, Kempele, Finland) during the RSA random test, specifically at the end of each sprint completed. Blood lactate concentration (mmol/l) was measured by taking a 5-μl sample of whole fresh capillary blood from the right middle finger and analyzed using a portable analyzer (Lactate Pro LT-1710, Arkray, Shiga, Japan). Samples were collected at baseline before each condition, before the RSA and before RJA tests. A 6-20 Borg scale <ref type="bibr" target="#b21">22</ref> was used to assess perceived effort during each sprint of the RSA random test, and overall effort across the RJA test.</p><p>Motivation to complete the testing session was measured by rating the statement "I am motivated to perform the test" using a 5-point Likert scale, with anchors of 0 (not at all) and 4 (extremely). Subjective workload after each condition and physical test was measured using the mental, physical demand, frustration and effort subscales of the NASA-TLX. <ref type="bibr" target="#b19">20</ref> MF before and after each condition was measured using a specific visual analogue scale (M-VAS): participants indicated how mentally tired they were on a scale, anchored by "not all exhausted" and "completely exhausted", by placing a mark on a 10-cm line.</p><p>All data are presented as mean ± SD. After testing for normality using Shapiro-Wilk test, histograms, Q-Q plots, and box-plots, RSA and RJA performance parameters, blood lactate measures, motivation data, NASA TLX, and RPE after the RJA test were analyzed using paired sample t tests. M-VAS scales and CMJ parameters were analyzed using 2 condition (MF, Control) by 2 time (pre 30-min manipulation, post 30-min manipulation) ANOVAs. HR and RPE (during the RSA) were analyzed using 2 condition (MF, Control) by 12 sprints (1 … 12) ANOVAs. PVT reaction time and lapses were analyzed using 2 condition (MF, Control) by 3 time (pre 30-min manipulations, pre RSA test, post RJA test) ANOVAs. Interaction effects were followed up with relevant corrected pairwise comparisons using the Bonferroni method (post hoc analysis) for simple main effects, otherwise main effects are reported. Significance was set at 0.05 (2-tailed) for all analyses. The effect sizes for the ANOVAs were calculated as partial eta squared (η 2 p), with the small = 0.02, medium = 0.13 and large = 0.26 interpretation. For t tests, Cohen's d was calculated as effect size, with the small = 0.20, medium = 0.50 and large = 0.80 interpretation. Data analysis was conducted using the Statistical Package for Social Sciences (SPSS 27).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>In the RSA random test (Fig. <ref type="figure" target="#fig_1">2A</ref>), mean running time was significantly longer for MF than control during the directional phase (p = .032, d = 0.491) but not the acceleration phase (p = .192, d = 0.112). Moreover, running S dec was significantly greater (p = .027, d = 0.511) in the MF condition compared to control (Fig. <ref type="figure" target="#fig_1">2C</ref>). Similarly, in the RJA test (Fig. <ref type="figure" target="#fig_1">2B</ref>), the MF condition was characterized by significantly poorer jumping, namely shorter mean height (p = .009, d = 0.599), and greater S dec (p = .034, d = 0.523) (Fig. <ref type="figure" target="#fig_1">2B</ref>), compared to the control condition.</p><p>In contrast, in the RSA random test, no significant condition differences were detected for peak running time during the acceleration (p = .371, d = 0.291) and directional (p = .271, d = 0.211) phases (Fig. <ref type="figure" target="#fig_1">2A</ref>). In the case of jumping performance, there were no significant condition (p = .581, η 2 p = 0.10; p = .272, η 2 p = 0.11), time (p = .183, η 2 p = 0.10; p = .212, η 2 p = 0.11), or condition by time (p = .321, η 2 p = 0.10; p = .441, η 2 p = 0.06) effects for peak height during the CMJ test (Fig. <ref type="figure" target="#fig_1">2B</ref>). Moreover, we failed to detect any significant condition differences in peak height (p = .217, d = 0.141) during the RJA test (Fig. <ref type="figure" target="#fig_1">2B</ref>).</p><p>The impact of MF on vigilance was assessed by performance on the PVT. 2 condition by 3 time ANOVAs generated significant interaction effects for RT (p = .021, η 2 p = 0.18). Follow-up tests revealed no significant condition differences at baseline (p = .531) whereas reaction time slowed significantly relative to baseline after the MF manipulation only (p = .011), which was slower (p = .002) than CON. Moreover, after the physical tests, reaction time significantly slowed in both MF (p = .015) and CON (p = .023) conditions, and was slower in the MF (p = .029) compared to control condition (Fig. <ref type="figure" target="#fig_1">2D</ref>). No significant interaction or main effects were noted for lapses.</p><p>Regarding heart rate, ANOVA yielded a significant main effect of time, confirming that heart rate (p &lt; .001, η 2 p = 0.91) increased over the 12 sprints. Importantly, no significant condition (p = .291, η 2 p = 0.10) or condition by time (p = .237, η 2 p = 0.09) effects were found (Fig. <ref type="figure" target="#fig_2">3A</ref>). Similarly, no significant condition differences in blood lactate were observed before the manipulations (p = .321, d = 0.181), before the RSA random test (p = .211, d = 0.154) and before the RJA test (p = .611, d = 0.222) (Fig. <ref type="figure" target="#fig_2">3B</ref>).</p><p>RPE during the RSA random test yielded a significant condition by time interaction (p = .031, η 2 p = 0.18); effort increased over the 12 sprints in both conditions (p &lt; .001, η 2 p = 0.44), and running was more effortful during the MF condition (p = .022) (Fig. <ref type="figure" target="#fig_2">3C</ref>). Similarly, effort at completion of the RJA test was significantly higher in the MF condition compared to CON (p = .017, d = 0.698) (Fig. <ref type="figure" target="#fig_2">3D</ref>).  Motivation did not significantly differ between conditions before the manipulations (p = .422, d = 0.279) and physical tests (p = .515, d = 0.176). The NASA TLX subscales completed after the manipulations revealed significantly higher mental demand (p &lt; .001, d = 0.999) and effort (p = .031, d = 0.713) during the MF than CON condition. No significant condition difference was noted for physical demand (p = .519, d = 0.154) and frustration (p = .714, d = 0.231) (Table <ref type="table" target="#tab_0">1</ref>). The NASA TLX subscales completed after the physical tests revealed significantly higher mental demand (p = .021, d = 0.375), effort (p = .035, d = 0.272), and frustration (p = .037, d = 0.455) during the MF than CON condition. No significant condition difference was noted for physical demand (p = .813, d = 0.199) (Table <ref type="table" target="#tab_0">1</ref>). A 2 condition by 2 time ANOVA on the M-VAS ratings produced an significant interaction effect (p = .001, η 2 p = 0.31); MF increased from pre (1.3 ± 0.5) to post (7.2 ± 1.1) cognitive task (p = .021), whereas MF did not change from pre (1.0 ± 0.7) to post (2.4 ± 0.8) video task (p = .713).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>Our study examined whether a state of MF, induced by a highly demanding cognitive task, would impair repeated sprinting (RSA) and jumping (RJA) performance, increase rating of perceived exertion (RPE), and impair sustained attention and vigilance (PVT). In line with our hypotheses, we found that MF impaired mean running time and running S dec during the directional phase of the RSA test as well as mean jumping height and S dec during the RJA test. However, no differences were detected for peak running time (RSA random test) and height (CMJ and RJA tests). Moreover, PVT performance was affected by MF and combined physical and mental fatigue. These key findings are discussed below.</p><p>Our first study purpose was to determine the effects of MF on subsequent repeated sprinting and jumping performance. In partial support of our hypothesis that MF would impair repeated exercise performance, we found that a state of MF, induced by performing a highly demanding 30-min classic Stroop response inhibition task, slowed mean running time by 9 % during the directional phase of the RSA random test compared to control. This finding is in line with another study showing that fatigue-inoculation training improved intermittent running performance during the directional phase of the RSA random test. <ref type="bibr" target="#b14">15</ref> Furthermore, it corroborates previous studies showing that mental fatigue is associated with poorer physical and technical performance in football and decreased decision-making skill and visual search performance in basketball. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b10">11</ref> Taken together, these findings provide evidence that the complex cognitive requirement to respond to a visual stimulus and decide which direction to take while sprinting is slowed when mentally fatigued. We also found that MF increased the S dec during the RSA random test, a measure of sprinting fatigue over time. This evidence demonstrates that MF also reduced resilience to physical fatigue during repeated high intensity running, and it is in line with previous studies on the negative effects of MF on shuttle and Yo-Yo Tests. The present data corroborate the argument that Yo-Yo Tests and intermittent high-intensity running tests in soccer players and other team sport athletes are affected by mental fatigue by altering their perception of effort. <ref type="bibr" target="#b23">23</ref> As hypothesized, we failed to observe any effect of MF on peak time, mean time, and S dec during the linear acceleration phase of the RSA random test. These null findings for basic high intensity running (i.e., sprinting) in a straight line, add to those yielded by a previous study that also failed to detect any effect of MF on repeated straight line sprinting in footballers. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b6">7</ref> These null findings argue that high intensity linear sprinting performance, which in general relies on energy supply, metabolic accumulation, reduced neural drive and environmental factors, is immune to the deleterious effects of MF. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b6">7</ref> Similarly, and in partial support of our hypothesis, we found that MF impaired performance of the 12-jump RJA test, whereas MF did not impair performance of the 3-jump CMJ test. Jump height during the CMJ tests did not differ between the MF and control conditions. This null finding is broadly in agreement with previous studies <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> that reported no effect of MF on single CMJ performance. Importantly, when participants were required to execute a series of jumps, with incomplete recovery between jumps, as required by our RJA protocol, we now found that MF impaired jumping mean height by 8 % and S dec by 58 % compared to control. Our RJA results are broadly compatible with those showing that mean (but not peak) height during a series of 5 repeated jumps was impaired by heat stress. <ref type="bibr" target="#b13">14</ref> Our RJA protocol comprising 12 jumps, proved that repeated jumping is sensitive to increased cognitive demands faced by the performer. Although we did not perform any biomechanical analysis, we could speculate that MF impacted the control of posture. <ref type="bibr" target="#b11">12</ref> It is possible that MF impaired the ability of participants to balance based on external environmental cues. In this case, the taking off and landing phases of jumping may be impaired if insufficient recovery is granted to allow proper readjustment. MF may have impaired the ability to create faster adjustment of reactive balance and adaptability. <ref type="bibr" target="#b24">24</ref> This explanation could account for why peak height was not affected by MF whereas mean height and S dec were impaired by MF. It is worth noting that the impaired S dec due to MF in the present study is in line with previous studies showing that MF affected the number of repetitions and volume-load ratio in resistance exercise and training to exhaustion. <ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b25">25</ref> Although our protocols were submaximal and not until exhaustion, it is evident from the S dec that MF would have affected the number of repetitions if exercise had carried on to exhaustion. Overall, the present study shows that MF affected the higher order components required to perform the RSA and RJA tests, namely, the directional phase of repeated running and the repeated jumps with uncomplete recovery.</p><p>Our second study purpose was to determine the effects of mental and physical fatigue on sustained attention and vigilance as measured by the psychomotor vigilance test. In support of our hypothesis, we found that reaction times were 18 % slower following the 30-min Stroop task compared to control. These results, indicating that a state of MF reduced vigilance task performance, are in line with previous studies assessing the effect of MF on cognitive performance. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b18">19</ref> This behavioral measure of MF provided by the PVT is corroborated by the subjective MF and NASA TLX ratings, which confirmed that the Stroop task was more mentally fatiguing, mentally demanding, and effortful than watching emotionally neutral videos. Also, in line with our hypothesis, we found that reaction times were slowest after completion of the exercise tasks. Previous studies show that exercise can have positive, null, or negative effects on cognition depending on the exercise dose. <ref type="bibr" target="#b26">26</ref> In line with previous research, <ref type="bibr" target="#b15">16</ref> here we found that high intensity exercise impaired reaction times during a vigilance task. That the MF condition slowed reaction time during the PVT more than the control condition after the RSA and RJA tests establishes a cumulative effect of mental and physical fatigue on participants' sustained attention and vigilance to perform. Indeed, MF plus physical fatigue slowed reaction time 16 % more compared to physical fatigue alone. These results are in line with the only two previous studies, to our knowledge, <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b27">27</ref> which illustrate the additive negative effects of MF and physical fatigue on reaction times during a vigilance task. Vigilance is an important cognitive element in sport performance, and, therefore, the present findings highlight the importance of considering the cumulative effects of mental and physical fatigue on athletic performance.</p><p>It is worth mentioning that HR and blood lactate did not differ between conditions. Accordingly, these metabolic and cardiac factors are unlikely to mediate the decline in performance of the RSA and RJA tests observed in the MF condition. These results are in line with studies of MF and sport performance, and underscore the view that physiological measures are not affected by MF and they do not change during the RSA and RJAperformance. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b2">3</ref> Although we did not take any biomechanical measure, we speculate that MF may impact motor control and intra/intermuscular coordination of complex movement, alter volitional, reactive balance and postural control and impair one's ability to maintain and regain stability. <ref type="bibr" target="#b11">12</ref> The RPE measured during the RSA random test and at completion of the RJA test confirmed the increased effort associated with performing the physical tests and are in line with the previous literature indicating that RPE may be a main mediator between MF and sport performance. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b2">3</ref> The RPE scale in this paradigm represented the effort needed to sprint and jump repetitively. Participants in the MF condition rated their effort to complete the RSA and RJA tests to be between 5 % and 8 % more effortful than control, which supported the hypothesis that MF increased RPE. The available data demonstrate that MF negatively impacts the perceived effort to perform. It appears in our study as in previous ones <ref type="bibr" target="#b3">4</ref> that MF has no effect on peak time and height. However, when running and jumping exercises are performed repetitively and with more complex cognitive demands, it makes these exercises more effortful. The present study helps clarify the relationship between MF and repeated anaerobic performance/strength endurance, an important component in team sport. <ref type="bibr" target="#b23">23</ref> However, studies using strength endurance components and MF, biomechanical measures, and a range of athletic levels are necessary to better understand the effect of MF on postural control, and to clarify how the level of the athletes impacts resilience toward mental fatigue. Indeed, a limitation of the present study was the lack of in depth measures and analysis of biomechanical postural control which would have better elucidated the biomechanical postural mechanisms affected by MF.</p><p>Future studies should evaluate short-term recovery strategies to reduce MF such as binaural sounds <ref type="bibr" target="#b28">28</ref> or psychological and nutritional interventions. <ref type="bibr" target="#b29">29</ref> Alternatively, coaches could train athletes to cope better with MF using brain endurance training, <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b30">30</ref> a form of fatigueinoculation training.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>Our study showed that a state of MF, induced by a highly demanding 30-min cognitive task, impaired repeated directional sprint and jumping ability. Neither repeated linear running nor singular CMJ were influenced by MF. Our findings may help to resolve the mixed findings in the extant literature. Specifically, strength endurance performance is vulnerable to MF when the task requires a higher level of cognitive engagement/demand. In sum, ecologically-valid studies on the effects of MF on strength endurance performance in sport would do well to consider the complexity and multiple determinants of athletic performance.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Schematic of the experimental protocol. Overall view of the experimental protocol. CMJ: counter movement jump test; PVT: psychomotor vigilant task; EC: experimental condition; RSA: repeated-sprint ability random test; RJA: repeated-jump ability test; M-VAS: visual analogue mental fatigue scale; NASA TLX: National Aeronautics and Space Administration Task Load Index.</figDesc><graphic coords="3,42.12,53.18,511.17,100.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Cognitive and physical performance. A Peak and mean time, during the linear and directional phase of the repeated sprint ability (RSA) random test for the experimental conditions: Mental fatigue and Control. B Peak height of the counter movement jump test (CMJ) pre and post the experimental conditions on the left; peak and mean height during the repeated jumping ability (RJA) test on the right; for the experimental conditions: Mental fatigue and Control. C Decrement score expressed in percentage during the repeated sprint ability (RSA) Random test and the repeated jumping ability (RJA) test for the experimental conditions: Mental fatigue and control. D Reaction time (ms) of the psychomotor vigilance test (PVT) before the experimental conditions (PRE EC), following the experimental conditions (POST EC) and following the physical tests (POST RSA-RJA) for the experimental conditions: Mental fatigue and Control. Data are presented as mean (SD). $ = significant condition × time interaction. # = significant main effect of condition. + = significant difference from Control (simple main effect of condition).</figDesc><graphic coords="4,42.12,78.29,511.17,570.67" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Psycho-physiological measures. A Heart rate measured during the 12 sprints in the repeated sprint ability random test for the experimental conditions: Mental fatigue and Control. B Blood lactate concentration measured before the experimental conditions (PRE EC), before the repeated sprint ability random test (PRE RSA) and before the repeated jump ability test (PRE RJA) for the experimental conditions: Mental fatigue and Control. C RPE measured at completion of the 12 Sprints in the repeated sprint ability random test for the experimental conditions: Mental fatigue and Control. D RPE measured at completion of the repeated jump ability for the experimental conditions: Mental fatigue and Control. Data are presented as mean (SD). $ = significant condition × time interaction. * = significant main effect of time. # = significant main effect of condition.</figDesc><graphic coords="5,85.27,53.18,424.80,475.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Subjective ratings of workload.Abbreviations: EC, experimental condition; MF, mental fatigue condition; CON, control condition. Note: Data are presented as mean (SD).⁎ Significant difference between conditions (p &lt; .05).</figDesc><table><row><cell></cell><cell cols="2">Mental demand (0-100)</cell><cell cols="2">Physical demand (0-100)</cell><cell>Effort (0-100)</cell><cell></cell><cell cols="2">Frustration (0-100)</cell></row><row><cell></cell><cell>MF</cell><cell>CON</cell><cell>MF</cell><cell>CON</cell><cell>MF</cell><cell>CON</cell><cell>MF</cell><cell>CON</cell></row><row><cell>POST EC</cell><cell>62 (15)</cell><cell>35 (12) ⁎</cell><cell>5 (3)</cell><cell>7 (3)</cell><cell>51(23)</cell><cell>19 (19) ⁎</cell><cell>31 (19)</cell><cell>21 (25)</cell></row><row><cell>POST RSA-RJA</cell><cell>87 (13)</cell><cell>69 (16) ⁎</cell><cell>89 (11)</cell><cell>86 (13)</cell><cell>91 (12)</cell><cell>78 (16) ⁎</cell><cell>69 (21)</cell><cell>50 (17) ⁎</cell></row></table></figure>
+		</body>
+		<back>
+
+			
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>We would like to thank all the participants who took part in the study.</p></div>
+			</div>
+
+
+			<div type="funding">
+<div><head>Funding information</head><p>The studies did not receive any funding.</p></div>
+<div><head>Confirmation of ethical compliance</head><p>The study was approved by the <rs type="institution">Ethics Committee</rs> for the <rs type="institution">University of Valencia</rs> in accordance with the <rs type="institution">Declaration of Helsinki</rs>.</p></div>
+			</div>			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CRediT authorship contribution statement</head><p>We would like to confirm below the contribution of each author using the typical 14 role-model.</p><p>X X Funding acquisition I, hereby, acknowledge that all authors have revised and agreed upon the contribution table here presented.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of interest statement</head><p>We declare that any author of the present study does not have any conflict or personal interest related to the data collected.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The effects of mental fatigue on physical performance: a systematic review</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Cutsem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Marcora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Pauw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+		<idno type="DOI">10.1007/s40279-016-0672-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1569" to="1588" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Van Cutsem J, Marcora S, De Pauw K et al. The effects of mental fatigue on physical performance: a systematic review. Sports Med 2017;47(8):1569-1588. doi:10.1007/ s40279-016-0672-0.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Kayaking performance is altered in mentally fatigued young elite athletes</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Staiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bosio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Piazza</surname></persName>
+		</author>
+		<idno type="DOI">10.23736/S0022-4707.18</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Med Phys Fitness</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="9051" to="9055" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Staiano W, Bosio A, Piazza G et al. Kayaking performance is altered in mentally fatigued young elite athletes. J Sports Med Phys Fitness 2019;59:1253-1262. doi:10. 23736/S0022-4707.18.09051-5.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Mental fatigue and sport-specific psychomotor performance: a systematic review</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Habay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Cutsem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Verschueren</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40279-021-01429-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1527" to="1548" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Habay J, Van Cutsem J, Verschueren J et al. Mental fatigue and sport-specific psycho- motor performance: a systematic review. Sports Med 2021;51(7):1527-1548. doi:10. 1007/s40279-021-01429-6.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Mental fatigue does not affect maximal anaerobic exercise performance</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Keegan</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00421-014-3052-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="715" to="725" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martin K, Thompson KG, Keegan R et al. Mental fatigue does not affect maximal an- aerobic exercise performance. Eur J Appl Physiol 2015;115(4):715-725. doi:10.1007/ s00421-014-3052-1.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Effect of mental fatigue on mean propulsive velocity, countermovement jump, and 100-m and 200-m dash performance in male college sprinters</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Fortes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>De Lima-Júnior</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Fonseca</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/23279095.2021.2020791</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Neuropsychol Adult</title>
+		<imprint>
+			<biblScope unit="volume">0</biblScope>
+			<biblScope unit="issue">0</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fortes LS, de Lima-Júnior D, Fonseca FS et al. Effect of mental fatigue on mean propul- sive velocity, countermovement jump, and 100-m and 200-m dash performance in male college sprinters. Appl Neuropsychol Adult 2021;0(0):1-10. doi:10.1080/ 23279095.2021.2020791.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The acute effect of mental fatigue on badminton performance in elite players</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Kosack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Staiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Folino</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2019-0361</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="632" to="638" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kosack MH, Staiano W, Folino R et al. The acute effect of mental fatigue on badmin- ton performance in elite players. Int J Sports Physiol Perform 2020;15(5):632-638. doi: 10.1123/ijspp.2019-0361.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Physical and mental fatigue reduce psychomotor vigilance in professional football players</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Angius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Merlini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hopker</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2021-0387</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">2022</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date>April 27</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Angius L, Merlini M, Hopker J et al. Physical and mental fatigue reduce psychomotor vigilance in professional football players. Int J Sports Physiol Perform April 27, 2022:1-8. doi:10.1123/ijspp.2021-0387.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Prolonged mental exertion does not alter neuromuscular function of the knee extensors</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pageaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Marcora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lepers</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0b013e31829b504a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2254" to="2264" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>b013e31829b504a</note>
+	<note type="raw_reference">Pageaux B, Marcora SM, Lepers R. Prolonged mental exertion does not alter neuromuscular function of the knee extensors. Med Sci Sports Exerc 2013;45(12): 2254-2264. doi:10.1249/MSS.0b013e31829b504a.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Effects of mental fatigue on strength endurance: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">Alix-Fages C</forename><surname>Grgic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jiménez-Martínez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+		<idno type="DOI">10.1123/mc.2022-0051</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Motor Control</title>
+		<imprint>
+			<biblScope unit="volume">2022</biblScope>
+			<biblScope unit="page" from="1" to="20" />
+			<date type="published" when="2022-12-12">2022 Dec 12</date>
+		</imprint>
+	</monogr>
+	<note>published online ahead of print</note>
+	<note type="raw_reference">Alix-Fages C, Grgic J, Jiménez-Martínez P et al. Effects of mental fatigue on strength endurance: a systematic review and meta-analysis [published online ahead of print, 2022 Dec 12]. Motor Control 2022:1-20. doi:10.1123/mc.2022-0051.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Mental fatigue reduces training volume in resistance exercise: a cross-over and randomized study</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">S</forename><surname>De Queiros</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dantas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fortes</forename><surname>Lds</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0031512520958935</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Percept Mot Skills</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="409" to="423" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">de Queiros VS, Dantas M, Fortes LdS et al. Mental fatigue reduces training volume in re- sistance exercise: a cross-over and randomized study. Percept Mot Skills 2021;128(1): 409-423. doi:10.1177/0031512520958935.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Effect of mental fatigue on decision-making skill and visual search behaviour in basketball players: an experimental and randomised study</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Fortes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lima-Junior</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Barbosa</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/1612197X.2022.2058055</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Exerc Psychol</title>
+		<imprint>
+			<date type="published" when="2022-03-31">March 31, 2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fortes LS, Lima-Junior D, Barbosa BT et al. Effect of mental fatigue on decision-making skill and visual search behaviour in basketball players: an experimental and randomised study. Int J Sport Exerc Psychol March 31, 2022. doi:10.1080/1612197X. 2022.2058055.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Effects of mentally induced fatigue on balance control: a systematic review</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pitts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bhatt</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00221-022-06464-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Brain Res</title>
+		<imprint>
+			<biblScope unit="volume">241</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="13" to="30" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pitts J, Bhatt T. Effects of mentally induced fatigue on balance control: a systematic review. Exp Brain Res 2023;241(1):13-30. doi:10.1007/s00221-022-06464-x.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Interindividual variability in mental fatigue-related impairments in endurance performance: a systematic review and multiple meta-regression</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Habay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Uylenbroeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Van Droogenbroeck</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40798-023-00559-7</idno>
+		<idno type="PMID">36808018</idno>
+		<idno type="PMCID">PMC9941412</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med Open Feb</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">14</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Habay J, Uylenbroeck R, Van Droogenbroeck R et al. Interindividual variability in mental fatigue-related impairments in endurance performance: a systematic review and multiple meta-regression. Sports Med Open Feb 20, 2023;9(1):14. doi:10.1186/ s40798-023-00559-7. [PMID: 36808018; PMCID: PMC9941412].</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Heat stress impairs repeated jump ability after competitive elite soccer games</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Krustrup</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/JSC.0b013e31825c3266</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="683" to="689" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mohr M, Krustrup P. Heat stress impairs repeated jump ability after competitive elite soccer games. J Strength Cond Res 2013;27(3):683-689. doi:10.1097/JSC. 0b013e31825c3266.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Brain endurance training improves physical, cognitive, and multitasking performance in professional football players</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Staiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Merlini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Romagnoli</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2022-0144</idno>
+		<idno type="PMID">36370703</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1732" to="1740" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Staiano W, Merlini M, Romagnoli M et al. Brain endurance training improves physi- cal, cognitive, and multitasking performance in professional football players. Int J Sports Physiol Perform 2022;17(12):1732-1740. doi:10.1123/ijspp.2022-0144. PMID: 36370703.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Effects of acute bouts of exercise on cognition</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Tomporowski</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0001-6918(02)00134-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Psychol (Amst)</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="297" to="324" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tomporowski PD. Effects of acute bouts of exercise on cognition. Acta Psychol (Amst) 2003;112(3):297-324. doi:10.1016/s0001-6918(02)00134-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Defining training and performance caliber: a participant classification framework</title>
+		<author>
+			<persName><forename type="first">Aka</forename><surname>Mckay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Stellingwerff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2021-0451</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="317" to="331" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McKay AKA, Stellingwerff T, Smith ES et al. Defining training and performance cali- ber: a participant classification framework. Int J Sports Physiol Perform 2022;17(2): 317-331. doi:10.1123/ijspp.2021-0451.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Validity of the RSA-RANDOM test for young soccer players</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sanchez-Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ramírez-Campillo</surname></persName>
+		</author>
+		<idno type="DOI">10.1055/a-0637-2094</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="813" to="821" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martin V, Sanchez-Sanchez J, Ramírez-Campillo R et al. Validity of the RSA-RANDOM test for young soccer players. Int J Sports Med 2018;39(11):813-821. doi:10.1055/a- 0637-2094.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Maximizing sensitivity of the Psychomotor Vigilance Test (PVT) to sleep loss</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Basner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Dinges</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/sleep/34.5.581</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sleep</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="581" to="591" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Basner M, Dinges DF. Maximizing sensitivity of the Psychomotor Vigilance Test (PVT) to sleep loss. Sleep 2011;34(5):581-591. doi:10.1093/sleep/34.5.581.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Development of NASA-TLX (Task Load Index): results of empirical and theoretical research</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Hart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Staveland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Human Mental Workload</title>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Hancock</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">N</forename><surname>Meshkati</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1988">1988</date>
+			<biblScope unit="page" from="139" to="183" />
+		</imprint>
+	</monogr>
+	<note>North-Holland</note>
+	<note type="raw_reference">Hart SG, Staveland LE. Development of NASA-TLX (Task Load Index): results of em- pirical and theoretical research, In: Hancock PA, Meshkati N, eds. Human Mental Workload, 1988. p. 139-183. [North-Holland].</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Repeated-sprint ability -part I: factors contributing to fatigue</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Girard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mendez-Villanueva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bishop</surname></persName>
+		</author>
+		<idno type="DOI">10.2165/11590550-000000000-00000</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="673" to="694" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Girard O, Mendez-Villanueva A, Bishop D. Repeated-sprint ability -part I: factors contrib- uting to fatigue. Sports Med 2011;41(8):673-694. doi:10.2165/11590550-000000000- 00000.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Perceived exertion as an indicator of somatic stress</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Borg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Rehabil Med</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="92" to="98" />
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+	<note>pmid:5523831</note>
+	<note type="raw_reference">Borg G. Perceived exertion as an indicator of somatic stress. Scand J Rehabil Med 1970;2:92-98. [pmid:5523831].</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Staiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R S</forename><surname>Bonet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Romagnoli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Science and Medicine in Sport</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="105" to="112" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">W. Staiano, L.R.S. Bonet, M. Romagnoli et al. Journal of Science and Medicine in Sport 27 (2024) 105-112</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Negative effects of mental fatigue on performance in the Yo-Yo Test, Loughborough Soccer Passing and Shooting Tests: a meta-analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grgic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mikulic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mikulic</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/jfmk7010010</idno>
+		<ptr target="https://doi.org/10.3390/jfmk7010010" />
+	</analytic>
+	<monogr>
+		<title level="j">J Funct Morphol Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">10</biblScope>
+			<date type="published" when="2022-01-13">2022. 2022 Jan 13</date>
+		</imprint>
+	</monogr>
+	<note>Published</note>
+	<note type="raw_reference">Grgic J, Mikulic I, Mikulic P. Negative effects of mental fatigue on performance in the Yo-Yo Test, Loughborough Soccer Passing and Shooting Tests: a meta-analysis. J Funct Morphol Kinesiol 2022;7(1):10. [Published 2022 Jan 13]: https://doi.org/10.3390/ jfmk7010010.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Does mental fatigue negatively affect outcomes of functional performance tests?</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Verschueren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tassignon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Proost</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/mss.0000000000002323</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="2002" to="2010" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Verschueren J, Tassignon B, Proost M et al. Does mental fatigue negatively affect out- comes of functional performance tests? Med Sci Sports Exerc 2020;52:2002-2010. doi: 10.1249/mss.0000000000002323.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Mental fatigue from smartphone use reduces volume-load in resistance training: a randomized, single-blinded cross-over study</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gantois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>De Lima-Júnior</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fortes</forename><surname>Lds</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/00315125211016233</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Percept Mot Skills</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1640" to="1659" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gantois P, de Lima-Júnior D, Fortes LdS et al. Mental fatigue from smartphone use re- duces volume-load in resistance training: a randomized, single-blinded cross-over study. Percept Mot Skills 2021;128(4):1640-1659. doi:10.1177/00315125211016233.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Differential effects of differing intensities of acute exercise on speed and accuracy of cognition: a meta-analytical investigation</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mcmorris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Hale</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bandc.2012.09.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Cogn</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="338" to="351" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">McMorris T, Hale BJ. Differential effects of differing intensities of acute exercise on speed and accuracy of cognition: a meta-analytical investigation. Brain Cogn 2012;80(3):338-351. doi:10.1016/j.bandc.2012.09.001.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Mental fatigue: the cost of cognitive loading on weight lifting, resistance training, and cycling performance</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Staiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lrs</forename><surname>Bonet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Romagnoli</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.2022-0356</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Physiol Perform</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="465" to="473" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Staiano W, Bonet LRS, Romagnoli M et al. Mental fatigue: the cost of cognitive loading on weight lifting, resistance training, and cycling performance. Int J Sports Physiol Perform 2023;18(5):465-473. doi:10.1123/ijspp.2022-0356.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">On-the-spot binaural beats and mindfulness reduces the effect of mental fatigue</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Axelsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Kirk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Staiano</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s41465-019-00162-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Cogn Enhanc</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="31" to="39" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Axelsen JL, Kirk U, Staiano W. On-the-spot binaural beats and mindfulness reduces the effect of mental fatigue. J Cogn Enhanc 2020;4:31-39. doi:10.1007/s41465-019- 00162-3.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">How to tackle mental fatigue: a systematic review of potential countermeasures and their underlying mechanisms</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Proost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Habay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Wachter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1007/s40279-022-01678-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2129" to="2158" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Proost M, Habay J, De Wachter J et al. How to tackle mental fatigue: a systematic re- view of potential countermeasures and their underlying mechanisms. Sports Med 2022;52(9):2129-2158. doi:10.1007/s40279-022-01678-z.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Brain endurance training improves endurance and cognitive performance in road cyclists</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Staiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marcora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Romagnoli</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jsams.2023.05.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Sci Med Sport</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Staiano W, Marcora M, Romagnoli M et al. Brain endurance training improves endur- ance and cognitive performance in road cyclists. J Sci Med Sport 2023. doi:10.1016/j. jsams.2023.05.008.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

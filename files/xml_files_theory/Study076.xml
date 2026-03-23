@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Relationships between kinematic characteristics and ratio of forces during initial sprint acceleration</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-02-01">01 Feb 2023.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Daniel</forename><surname>King</surname></persName>
+							<idno type="ORCID">0000-0002-9700-7158</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Applied Sports, Technology, Exercise and Medicine Research Centre</orgName>
+								<orgName type="institution">Swansea University</orgName>
+								<address>
+									<settlement>Swansea</settlement>
+									<country>UK;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Louise</forename><surname>Burnie</surname></persName>
+							<idno type="ORCID">0000-0002-6426-6727</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Sport, Exercise and Rehabilitation</orgName>
+								<orgName type="institution">Northumbria University</orgName>
+								<address>
+									<settlement>Newcastle upon Tyne</settlement>
+									<country>UK;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ryu</forename><surname>Nagahara</surname></persName>
+							<idno type="ORCID">0000-0001-9101-9759</idno>
+							<affiliation key="aff2">
+								<orgName type="department">Sports Performance Research Center</orgName>
+								<orgName type="institution">National Institute of Fitness and Sports in Kanoya</orgName>
+								<address>
+									<settlement>Kanoya</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Neil</forename><forename type="middle">E</forename><surname>Bezodis</surname></persName>
+							<email>n.e.bezodis@swansea.ac.uk</email>
+							<idno type="ORCID">0000-0003-2229-3310</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Applied Sports, Technology, Exercise and Medicine Research Centre</orgName>
+								<orgName type="institution">Swansea University</orgName>
+								<address>
+									<settlement>Swansea</settlement>
+									<country>UK;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department" key="dep1">CONTACT Neil E Bezodis</orgName>
+								<orgName type="department" key="dep2">Exercise and Medicine Research Centre</orgName>
+								<orgName type="institution">Swansea University Bay Campus</orgName>
+								<address>
+									<postCode>SA1 8EN</postCode>
+									<settlement>Swansea</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Daniel King http://orcid.org</orgName>
+								<address>
+									<addrLine>7158 Louise Burnie http://orcid.org/0000-0002-6426-6727 Ryu Nagahara http://orcid.org</addrLine>
+									<postCode>0000-0002-9700 0000-0001-9101</postCode>
+									<settlement>-9759 Neil E Bezodis</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Relationships between kinematic characteristics and ratio of forces during initial sprint acceleration</title>
+					</analytic>
+					<monogr>
+						<idno type="ISSN">Print</idno>
+						<imprint>
+							<date type="published" when="2023-02-01">01 Feb 2023.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7E065366CA05BC8083CCA3F4920DEFBB</idno>
+					<idno type="DOI">10.1080/02640414.2023.2172797</idno>
+					<note type="submission">Received 1 July 2022 Revised 10 December 2022 Accepted 18 January 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:12+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Ground reaction forces</term>
+					<term>performance</term>
+					<term>sprint start</term>
+					<term>sprinting</term>
+					<term>technique</term>
+					<term>track and field</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In track sprinting, acceleration performance is largely determined by the ability to generate a high ratio of forces (RF), but the technical features associated with this remain unknown. This study therefore investigated the relationships between selected kinematic characteristics and RF during the initial acceleration phase. Fourteen male sprinters completed two maximal 60 m sprints from a block start. Fullbody kinematic and external kinetic data were obtained from the first four steps, and the relationships between selected kinematic characteristics and mean RF over the first four steps were determined. Placing the stance foot further behind (or less far in front of) the whole-body centre of mass at touchdown was significantly related to greater RF (r = -0.672), and more anterior orientation of the proximal end of the foot (r = -0.724) and shank (r = -0.764) segments at touchdown were also significantly related to greater RF. Following touchdown, greater ankle dorsiflexion range of motion during early stance was significantly related to greater RF (r = 0.728). When aiming to enhance RF during initial acceleration, practitioners should be encouraged to focus on lower leg configurations when manipulating touchdown distance, and the role of dorsiflexion during early stance is also an important consideration.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Maximal sprint running is typically broadly divided into acceleration, maximum velocity and deceleration phases <ref type="bibr" target="#b21">(Mero et al., 1992;</ref><ref type="bibr" target="#b35">Volkov &amp; Lapin, 1979)</ref>. The first step of a sprint is when the largest forward accelerations are observed, with the magnitude of acceleration progressively decreasing with each successive step <ref type="bibr">(Nagahara et al., 2018a)</ref>. During this initial acceleration phase, athletes typically reach approximately 70% of their maximum velocity by the end of step four <ref type="bibr" target="#b23">(Nagahara et al., 2020</ref><ref type="bibr" target="#b24">(Nagahara et al., , 2021</ref><ref type="bibr" target="#b25">(Nagahara et al., , 2014))</ref>. Whilst large ground reaction forces and impulses are required to achieve this acceleration, a key element of high performance during the acceleration phase is the effective orientation of the external force vector <ref type="bibr" target="#b22">(Morin et al., 2011;</ref><ref type="bibr" target="#b30">Rabita et al., 2015;</ref><ref type="bibr" target="#b32">Samozino et al., 2016)</ref>. This "technical ability" is typically quantified by the ratio of forces (RF), which describes the proportion of the step-averaged resultant ground reaction force vector (F R ) that is directed horizontally (F H ), i.e., RF = F H /F R <ref type="bibr" target="#b22">(Morin et al., 2011)</ref>.</p><p>Although it has been established that RF is a determining factor for sprint acceleration performance <ref type="bibr" target="#b20">(Kugler &amp; Janshen, 2010;</ref><ref type="bibr" target="#b22">Morin et al., 2011;</ref><ref type="bibr" target="#b30">Rabita et al., 2015)</ref>, the relationships between stance leg and whole-body kinematics and RF during acceleration remain unknown. Previous investigations have highlighted kinematic characteristics that may be favourable for performance or for the production of horizontal propulsive forces during acceleration <ref type="bibr" target="#b5">(Bezodis et al., 2017</ref><ref type="bibr" target="#b9">(Bezodis et al., , 2015;;</ref><ref type="bibr" target="#b18">Jacobs &amp; van Ingen Schenau, 1992;</ref><ref type="bibr" target="#b20">Kugler &amp; Janshen, 2010)</ref>, but the relationships between these kinematic characteristics and RF were not directly investigated. During the second step of a maximal sprint, <ref type="bibr" target="#b18">Jacobs and van Ingen Schenau (1992)</ref> found that highly trained sprinters delayed "extension" of the whole-body centre of mass (CM) away from the base of support until the CM had been "rotated" further forwards about the base of support. These findings suggest that changes in the configuration of body segments to assist the forward translation of the whole-body CM during the early part of stance may be favourable for performance.</p><p>Whilst <ref type="bibr" target="#b18">Jacobs and van Ingen Schenau (1992)</ref> reported stance leg joint kinematics and suggested potential kinematic and muscular mechanisms behind the delayed CM "extension", they did not report relationships to quantify this. <ref type="bibr" target="#b20">Kugler and Janshen (2010)</ref> found that greater forward lean of the body throughout stance (defined as the angle between the whole-body CM, centre of pressure and the global vertical) was associated with a higher RF, and this was facilitated by a more posterior foot placement, whilst <ref type="bibr" target="#b9">Bezodis et al. (2015)</ref> used computer simulation to determine that placing the foot further back at touchdown relative to the CM led to a near linear increase in RF during stance. The available research therefore suggests that the stance foot position relative to the CM, often termed touchdown distance when measured at the instant of touchdown, could influence RF.</p><p>It is important to consider that the stance leg is multisegmented, so achieving a position in which the stance foot is further behind a given whole-body CM position at touchdown is primarily a function of the stance ankle, knee, and hip joint angles because the CM position is largely predetermined from the prior toe-off. In previous research, these kinematics were either not reported <ref type="bibr" target="#b20">(Kugler &amp; Janshen, 2010)</ref>, not related directly to RF <ref type="bibr" target="#b18">(Jacobs &amp; van Ingen Schenau, 1992)</ref>, or were directly theoretically manipulated <ref type="bibr" target="#b9">(Bezodis et al., 2015)</ref>. Acute experimental alterations to kinematics during sprint acceleration have been attempted <ref type="bibr" target="#b5">(Bezodis et al., 2017)</ref>, and it was found that greater antero-posterior force production during stance was preceded by a more dorsiflexed ankle and a more flexed knee at touchdown, and greater hip extension velocity at touchdown. However, <ref type="bibr" target="#b5">Bezodis et al. (2017)</ref> used a simple acute experimental within-athlete design with field sports athletes, and further cross-sectional research considering both linear and angular kinematic characteristics in trained sprinters during initial acceleration is required.</p><p>There is clearly a need to understand whether certain kinematic features of technique are exhibited by athletes who are capable of achieving higher RF values, and therefore performance levels, during initial acceleration. The aim of this study was therefore to determine the relationships between selected kinematic characteristics and RF during initial acceleration, and consequently to quantify how the kinematic characteristics which are related to RF also relate to overall initial acceleration performance. It was firstly hypothesised that a more negative touchdown distance (i.e., landing with the stance foot further behind/less far in front of the CM) would be associated with a greater ratio of forces during the first four steps of a maximal effort sprint and that specific joint and segment angular kinematics would underpin this. Secondly, it was also hypothesised that a more negative touchdown distance would be associated with greater initial acceleration performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Fourteen collegiate-level male sprinters (mean ± SD; age: 20 ± 1 years, height: 1.73 ± 0.07 m, mass: 68.6 ± 4.9 kg, 100 m personal best time: 11.15 ± 0.33 s [min = 10.68 s; max = 11.67 s]) provided written informed consent to participate, and the study was approved by the local research ethics committee. All participants were injury-free and trained 5 days per week at the time of data collection; they had 8.1 ± 1.8 years of sprint training experience (range = 5-10 years). All data were collected over 11 days in early August 2020 during the competition phase of the season (no major COVID-19 training restrictions had been in place since May and domestic competitions were re-started in July).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data collection</head><p>Participants completed their preferred self-led warm-up routine. After setting the starting blocks to their preference, two maximal sprint efforts were performed up to 60 m, wearing spiked shoes on an indoor athletics track. Participants were provided with a rest period of at least 10 minutes between sprint efforts. All data were collected from five sessions over 10 days, with a temperature and atmospheric pressure (mean ± SD) of 31.3 ± 0.9°C and 1010 ± 2 kPa, respectively.</p><p>Three-dimensional trajectories of 47 retro-reflective markers attached to each participant were captured at 250 Hz using a 16-camera motion capture system (Kestrel 4200, Motion Analysis Corporation, California, USA). The cameras were positioned to capture data up to the end of the fourth step and the markers were placed according to the model of <ref type="bibr" target="#b34">Suzuki et al. (2014)</ref>. Ground reaction force (GRF) data were collected at 1000 Hz from 52 force plates (TF-3055, TF-32120, TF-90100, Tec Gihan, Uji, Japan) mounted in series under the track. An electric starting gun was used to synchronously initiate GRF data collection, send a pulse to the motion capture system and emit an auditory starting signal. The global Z-axis was defined as vertical, Y as horizontal in the direction of the running lane and X as the cross product of the Y-and Z-axes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data processing</head><p>The marker trajectories were exported to Visual3D (v6, C-Motion, Maryland, USA), where they were smoothed using a 4 th order low-pass Butterworth filter at a cut-off frequency of 14 Hz, which was selected using residual analysis <ref type="bibr" target="#b37">(Winter, 2009)</ref>. Kinematic data were resampled at 1000 Hz using an interpolating cubic spline to align with the kinetic data. A 15-segment rigid-body model was created, consisting of hands, forearms, upper arms, feet, shanks, thighs, head, upper trunk and lower trunk (full details are available in <ref type="bibr" target="#b25">Nagahara et al. (2014)</ref> and <ref type="bibr" target="#b34">Suzuki et al. (2014)</ref>). Each segment was reconstructed from the corresponding markers using a six degrees-of-freedom approach <ref type="bibr" target="#b33">(Spoor &amp; Veldpaus, 1980)</ref>. The position of the wholebody CM was calculated using the segmental inertia parameters of Japanese athletes <ref type="bibr" target="#b0">(Ae et al., 1992)</ref>, with 200 g added to each foot to account for the mass of the shoe <ref type="bibr" target="#b17">(Hunter et al., 2004)</ref>.</p><p>Analysis of the GRF data was conducted using MATLAB (R2021a, Natick, USA). Movement onset was defined as the instant at which the raw vertical GRF signal exceeded, and remained, two standard deviations above the mean signal from the period in which participants were deemed clearly stationary in the blocks <ref type="bibr" target="#b4">(Bezodis et al., 2021)</ref>. Where participants contacted the track across two adjacent force plates, the required data were reconstructed using the approach outlined by <ref type="bibr" target="#b15">Exell et al. (2012)</ref>. A 50 N threshold in raw vertical GRF data was used to define contact with the track. Following the identification of touchdown and toe-off using raw signals, each component of the raw GRF data was smoothed using a 4 th order low-pass Butterworth filter at a cut-off frequency of 50 Hz <ref type="bibr">(Nagahara et al., 2017</ref><ref type="bibr" target="#b28">(Nagahara et al., , 2018b))</ref>.</p><p>To calculate instantaneous horizontal velocity (v H ), the net anteroposterior force (i.e., filtered anteroposterior GRF component minus drag force) was divided by body mass and integrated (trapezium rule) with respect to time <ref type="bibr" target="#b13">(Colyer et al., 2018;</ref><ref type="bibr" target="#b32">Samozino et al., 2016)</ref>. The drag force during each trial was estimated using the athlete's height and mass, and the aerodynamic friction coefficient <ref type="bibr" target="#b2">(Arsac &amp; Locatelli, 2002;</ref><ref type="bibr" target="#b32">Samozino et al., 2016)</ref>. Horizontal velocity was then integrated (trapezium rule) with respect to time to calculate horizontal CM displacement, which was expressed relative to CM location in the "set" position.</p><p>Contact time and flight time for each of the first four steps were calculated from touchdown and toe-off timings. So that our analysis started from the instant of the first contact on the track, we defined a step as the ground contact phase followed by the subsequent flight phase.</p><p>Step time was calculated as the sum of contact time and flight time, and step frequency (steps/ s) as the inverse of total step time.</p><p>Step length (m) was determined from the anteroposterior centre of pressure data, where values were extracted from mid-stance. The horizontal and vertical components of displacement and velocity of the wholebody CM were extracted at each touchdown and toe-off.</p><p>Joint angles were calculated for the ankle, knee and hip joints from the respective adjacent segments using Cardan/ Euler angles <ref type="bibr" target="#b31">(Robertson et al., 2004)</ref>, with extension/plantar flexion defined as positive (Figure <ref type="figure" target="#fig_0">1a</ref>). Ankle angle was defined as the angle between the shank and rearfoot segments, with the latter defined from the ankle to the metatarsophalangeal (MTP) joint centres. Angular velocities for each joint were expressed as the distal segment relative to the proximal segment, using the proximal segment as the resolution coordinate system <ref type="bibr" target="#b5">(Bezodis et al., 2017)</ref>. Absolute segment angles were also calculated for the foot, shank, thigh and (upper) trunk. These were expressed relative to the horizontal with positive rotation representing an anti-clockwise rotation of the proximal end about the distal end when viewed from the right-hand side (Figure <ref type="figure" target="#fig_0">1b</ref>). For these absolute segment angles, the foot was modelled as a single rigid segment from the toe marker to the heel marker to provide a general representation of the orientation of the foot as a whole.</p><p>Foot touchdown velocity was defined as the global Y-axis component of the distal endpoint velocity of the foot at each touchdown. The global Y-axis displacement between each toe marker and the whole-body CM was calculated, and the value of this for the stance foot at each touchdown and toe-off was   <ref type="table" target="#tab_1">2</ref>). Knee flexion during late stance (termed "Late flexion RoM" in Table <ref type="table" target="#tab_1">2</ref>) was greatest during the first stance phase (when there was no knee flexion during early stance) and can be visualised between the two markers on the inset in sub-figure b.</p><p>extracted as touchdown distance and toe-off distance, respectively, with a negative value representing the foot behind the CM. Touchdown and toe-off distances, CM height and step length were normalised to account for differences in leg length between sprinters by dividing each by the individual's greater trochanter height. Discrete angular kinematics (e.g., angles and angular velocities at touchdown and toe-off, peak and minimum values, ranges of motion (RoM)) were extracted from the continuous angular kinematic waveforms (see Figure <ref type="figure" target="#fig_1">2</ref> for definitions).</p><p>Step-averaged kinetic data from each of the first four stance phases were determined from the resultant GRF (F R ) and its vertical (F V ) and antero-posterior (F H ) components. Stepaveraged RF was then calculated as step-averaged F H divided by step-averaged F R <ref type="bibr" target="#b4">(Bezodis et al., 2021)</ref>. RF over each of the first four steps was averaged (RF MEAN ) and used as a dependent measure against which to correlate the kinematic characteristics. This was selected based on the prior work of <ref type="bibr" target="#b19">King et al. (2021)</ref> who identified that step-to-step variation in RF (and linearity in the RF-v H profile) was not related to initial acceleration performance; RF MEAN over the first four steps was identified as the metric derived from the RF-v H relationship most strongly related to performance during the initial acceleration phase.</p><p>Average horizontal external power from the beginning of the first contact to the end of the fourth contact was calculated as the change in external kinetic energy of the CM (based on horizontal CM velocity) divided by the change in time over this period <ref type="bibr" target="#b6">(Bezodis et al., 2010)</ref>. These external power data were normalised to dimensionless values to account for differences in stature <ref type="bibr" target="#b6">(Bezodis et al., 2010;</ref><ref type="bibr" target="#b16">Hof, 1996)</ref>. Normalised average horizontal external power (NAHEP) over these four steps was used as an objective measure of initial acceleration phase performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistical analysis</head><p>Consistent with similar sprint acceleration biomechanics research which has related features of technique to performance (e.g., <ref type="bibr">Nagahara et al., 2017</ref><ref type="bibr">Nagahara et al., , 2018a))</ref>, the trial with the highest performance was analysed. The trial in which each participant displayed the highest NAHEP was therefore used in all statistical analyses (for three of the sprinters only one trial was available due to incomplete data), which were conducted in SPSS (v28.0, IBM, Illinois, USA). Bivariate correlations (Pearson's r) between the four-step mean value of each of the kinematic variables of interest (Tables <ref type="table" target="#tab_0">1</ref><ref type="table" target="#tab_1">2</ref><ref type="table" target="#tab_2">3</ref>) and RF MEAN were performed, with statistical significance accepted at p &lt; 0.05. Following this, the bivariate correlations with NAHEP for each of the variables which were significantly related to RF MEAN were determined. Thresholds for the magnitudes of all correlation coefficients were defined according to <ref type="bibr" target="#b3">Batterham and Hopkins (2006)</ref> as trivial (0.0), small (0.1), moderate (0.3), large (0.5), very large (0.7), nearly perfect (0.9) and perfect (1.0). Descriptive statistics are presented as mean values (± SD) across the 14 sprinters.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Relationships between linear kinematics, spatiotemporal variables and RF</head><p>The correlation coefficient between RF MEAN and normalised touchdown distance over the four steps was large and significant (r = -0.672, p &lt; 0.01; Table <ref type="table" target="#tab_0">1</ref>; Figure <ref type="figure" target="#fig_2">3a</ref>), with its negative direction indicating that touchdown foot placement further behind the CM (or less far in front of the CM as the acceleration phase progressed) was associated with higher RF. A very large, significant correlation coefficient was found between mean step frequency and RF MEAN (r = 0.715, p &lt; 0.01; Figure <ref type="figure" target="#fig_2">3b</ref>). The correlation coefficients between RF MEAN and all other linear kinematics ranged from trivial to moderate and were not significant (Table <ref type="table" target="#tab_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Relationships between angular kinematics and RF</head><p>There was a very large significant correlation coefficient between mean ankle dorsiflexion RoM and RF MEAN (r = 0.728 p &lt; 0.01; Figure <ref type="figure" target="#fig_2">3c</ref>) during the initial acceleration phase (Table <ref type="table" target="#tab_1">2</ref>). All other correlation coefficients between RF MEAN and the ankle, knee and hip joint angular kinematics ranged from trivial to moderate and were not significant (Table <ref type="table" target="#tab_1">2</ref>).</p><p>Very large and significant correlation coefficients were observed between both mean foot and shank angle at touchdown and RF MEAN (r = -0.724 and -0.764, respectively, both p &lt; 0.01; Table <ref type="table" target="#tab_2">3</ref>; Figures <ref type="figure" target="#fig_2">3d</ref> and <ref type="figure" target="#fig_2">3e</ref>). As these coefficients were negative, they relate to higher RF MEAN being associated with more forward-orientated proximal ends of the foot and shank segments (see, Figure <ref type="figure" target="#fig_0">1b</ref>). There were no other significant correlation coefficients between RF MEAN and the remaining segment angular kinematic variables, although the coefficient with mean shank angle at toe-off was large (r = -0.511, p = 0.06; Table <ref type="table" target="#tab_2">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Relationships between kinematics favourable for RF and initial acceleration phase performance</head><p>Of the kinematic characteristics that were significantly related to RF MEAN , only the mean normalised touchdown distance was also significantly related to NAHEP over the four steps (r = -0.710, p &lt; 0.01; Figure <ref type="figure" target="#fig_2">3f</ref>). Moderate correlation coefficients with initial acceleration performance were found for each of the other measures related to RF MEAN (Table <ref type="table" target="#tab_3">4</ref>), and all were in the same direction as the relationships between the respective variables and RF MEAN .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>This study determined the relationships between selected kinematic characteristics and RF during the initial acceleration phase of sprinting, and quantified how those which were related to RF were also related to overall initial acceleration performance. Our first hypothesis was accepted as landing with the stance foot further behind/less far in front of the CM (i.e., a more negative touchdown distance) was associated with better "technical ability" during initial acceleration, namely a significantly greater RF MEAN over the first four steps, and a higher step frequency was also associated with a greater RF MEAN . Specific angular kinematics underpinned this; a more forwards orientated foot and shank at touchdown, as well as greater ankle dorsiflexion range of motion during early stance, were associated with significantly greater RF MEAN . Of these kinematic characteristics associated with RF MEAN , only the normalised touchdown distance was also significantly related to performance (NAHEP) over the initial acceleration phase, and thus our second hypothesis was also accepted.</p><p>The very large negative correlation coefficient between touchdown distance and RF MEAN over the initial acceleration phase is a novel finding which extends the current understanding. <ref type="bibr" target="#b18">Jacobs and van Ingen Schenau (1992)</ref> had previously identified the need for the CM to be "rotated" further ahead of the stance foot before it is "extended" away from it, and <ref type="bibr" target="#b20">Kugler and Janshen (2010)</ref> had identified a link between touchdown distance and propulsive force magnitude. The current findings extend this to RF and raise the possibility that a more negative touchdown distance could be one means through which to reduce the requirement for "rotation" of the CM prior to it "extending" away from the stance foot. The current study also extends from the findings of Bezodis et al. ( <ref type="formula">2017</ref>) by directly identifying this relationship between touchdown distance and RF in a cohort of well-trained sprinters. Although it is not possible to keep the stance foot behind the whole-body CM at touchdown throughout the initial acceleration phase (mean touchdown distance progressively increased from steps 1 to 4, respectively: -0.15, -0.05, 0.02, 0.07 [normalised to greater trochanter height]), aiming to limit the increase in touchdown distance by keeping the stance foot as close to the whole-body CM as possible once touchdown distances become positive appears preferable.</p><p>For a given CM position at touchdown, which is largely determined from the prior instant of toe-off given the projectile motion of the sprinter's CM during flight, touchdown distance must primarily be manipulated through kinematics of the leg swinging through to become the stance leg at touchdown. More forwards rotated proximal ends (see, Figure <ref type="figure" target="#fig_0">1b</ref>) of the foot and shank segments at touchdown over the first four steps were also associated with achieving a high RF MEAN during initial acceleration (Table <ref type="table" target="#tab_2">3</ref>). The very large relationships confirm the importance of these lower leg segment orientations for high RF  production during initial acceleration and identify potential specific kinematic features which may be important for achieving a high RF through a more negative touchdown distance.</p><p>Although <ref type="bibr" target="#b5">Bezodis et al. (2017)</ref> experimentally manipulated technique and only reported angles about joints, the current cross-sectional results appear to align with their withinindividual results given the importance of the lower part of the leg. As ankle angle at touchdown was not significantly related to RF MEAN in the current study, sprinters who achieved a higher RF during initial acceleration did not typically have a more plantarflexed or dorsiflexed ankle at touchdown. Given the linked-segment nature of the swinging leg prior to touchdown, this suggests that the more forward orientation of the foot and shank was likely primarily achieved through a change in shank orientation. This supports the applied interest in shin (i.e., shank) angles (Von Lieres Und <ref type="bibr" target="#b36">Wilkau et al., 2020)</ref>, but practitioners should therefore also be cognisant of the orientation of the foot to ensure that a more forward shank orientation is also accompanied by a more forward foot orientation, and that any attempts to manipulate shank angle do not negatively affect the foot and ankle kinematics.</p><p>Immediately after touchdown, the ankle dorsiflexed for a short period during the early part of each stance phase (mean ankle dorsiflexion RoM was 13°, 13°, 15°, 16° in steps 1 to 4, respectively). The very large positive relationship between the average dorsiflexion RoM and RF MEAN over four steps is novel and provides further empirical support for the theory of <ref type="bibr" target="#b18">Jacobs and van Ingen Schenau (1992)</ref>. These findings suggest that ankle dorsiflexion may be a primary means through which the CM can be "rotated" forwards about the foot during early stance before the sequential proximal-to-distal extension of the stance leg joints <ref type="bibr" target="#b8">(Bezodis et al., 2014</ref><ref type="bibr" target="#b10">(Bezodis et al., , 2019;;</ref><ref type="bibr" target="#b11">Brazil et al., 2017;</ref><ref type="bibr" target="#b12">Charalambous et al., 2012;</ref><ref type="bibr" target="#b18">Jacobs &amp; van Ingen Schenau, 1992)</ref> then "extends" the CM away from the foot as the stance phase progresses. This provides evidence for a specific mechanism through which the more general "rotate" then "extend" strategy of <ref type="bibr" target="#b18">Jacobs and van Ingen Schenau (1992)</ref> could be realised when considering the action of the linked segments within the system. This finding also provides empirical support for the "shin roll" conceptual framework of <ref type="bibr" target="#b1">Alt et al. (2022)</ref> which proposes the need for the shank to rotate forwards about a relatively stationary foot segment. Whilst the current findings provide new evidence to potentially support this theory, and to confirm a relationship between ankle dorsiflexion and the ability to generate a higher RF, quantification of the coordination of shank and foot motion is required to provide a more complete understanding of the complex role of the foot, ankle and shank during early stance in sprint acceleration <ref type="bibr" target="#b14">(Donaldson et al., 2022)</ref>. However, it must also be considered that ankle dorsiflexion may be constrained by a sprinter's passive range of motion. Further direct investigation with more complex foot models where possible, as well as consideration of the coordination between segments, is required to better understand foot-ankle-shank motion during early acceleration. Furthermore, given that limiting dorsiflexion during early stance when in a more upright configuration in maximal velocity sprinting may be important for performance <ref type="bibr" target="#b29">(Nagahara &amp; Zushi, 2017)</ref>, consideration should also be given to the changing demands of different sprint phases.</p><p>The very large positive correlation coefficient between average step frequency and RF MEAN during initial acceleration is likely a function of a relatively smaller vertical impulse component being applied. As a large relative horizontal component of F R is fundamentally required for achieving high RF, this is inherently accompanied by a relatively smaller vertical component of the vector. As F R and RF were not related in the current study (r = -0.176), this suggests that higher step frequencies may be a function of the RF achieved (i.e., the relatively smaller vertical component of the GRF did not prolong contact time and led to higher step frequencies), rather than being a technical feature that leads to a higher RF. However, due to the nature of the study design, causality cannot be determined, and the interaction between RF and step frequency during initial acceleration may warrant further direct investigation.</p><p>Having identified kinematic features which were related to RF during initial acceleration, it was important to also consider the role of these in overall performance, or to identify any potentially conflicting findings between RF-associated kinematics and performance-associated kinematics. Of the RF-associated kinematics, only average normalised touchdown distance was also significantly related to performance over the initial acceleration phase. Each of the other kinematic characteristics of interest were moderately, but nonsignificantly, related to performance. Whilst some caution must therefore be given to ensure that any technical changes intended to affect RF actually translate to performance improvements, the fact that each of the relationships observed with performance were in the same direction as those observed with RF MEAN gives confidence that they are unlikely to be detrimental to performance for a given individual. However, further investigation is required to understand the additional technical or physical features which may be required in order to translate a change in a given kinematic variable and in RF, to a change in performance. As an example, <ref type="bibr" target="#b9">Bezodis et al. (2015)</ref> demonstrated through computer simulation that progressively more negative touchdown distances (achieved through manipulations to knee joint angle) were associated with greater RF, but the ability for this to continue contributing to increased performance was limited because touchdown distances which became too negative limited the ability of the sprinter to produce the necessary vertical impulse.</p><p>Whilst the current study provides new empirical data to support existing theories, it is not without limitations. Due to the applied nature of the data collection undertaken only a simple model of the foot was used. Whilst different foot models were used to quantify each of the ankle and foot motion separately, future studies which are able to implement more complex foot models would be ideal given the clear importance of the foot-ankle-shank complex, but these are challenging to implement with sufficient internal and ecological validity in a sprint environment. Furthermore, we only considered the joint and segment kinematics; the underlying joint kinetics were not investigated. It may be useful for future studies to consider the joint moment and power profiles at the ankle, particularly during the energy absorption phase in early stance when the ankle is dorsiflexing <ref type="bibr" target="#b8">(Bezodis et al., 2014)</ref>, and also to consider the MTP joint kinetics if more complex foot models can be implemented <ref type="bibr" target="#b7">(Bezodis et al., 2012)</ref>. Future work could also consider analysis of the swing leg kinematics to understand its potential role in the CM kinematics and RF, the potential role of movements outside of the sagittal plane, and how sprinters coordinate their movements to obtain the specific body configurations identified at touchdown in the current study. Our analysis also removed the block phase from consideration so that block phase performance did not bias our direct comparison of technique and performance during the first four steps on the track as block phase RF values do not always correspond well with the subsequent steps (e.g., <ref type="bibr" target="#b4">Bezodis et al., 2021;</ref><ref type="bibr" target="#b30">Rabita et al., 2015)</ref>. Future research may also wish to consider, or account for, the influence of block phase performance, for example, using the approach adopted by <ref type="bibr" target="#b19">King et al. (2021)</ref>.</p><p>During the initial acceleration phase, placement of the stance foot in a more posterior position relative to the CM at touchdown is significantly associated with a higher mean RF. A more forward orientation of both the foot and shank segments at touchdown was also associated with higher RF and thus practitioners should pay particular attention to the orientation of the lower stance leg when focusing on touchdown distance manipulations. Immediately after touchdown, a greater ankle dorsiflexion range of motion is also significantly associated with a higher mean RF, and these empirical data have revealed specific linear and angular kinematic features of technique which provide further details to underpin existing sprint acceleration theories.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Angular kinematic conventions for a) the three stance leg joints; and b) the four segments of interest. Extension/plantar flexion were defined as positive. Segment conventions for the positive direction are displayed on the stance leg, following the conventions of Nagahara et al. (2014).</figDesc><graphic coords="4,124.67,254.00,360.12,159.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure2. Illustration of the typical angular kinematic profiles from the fourth stance phase for a) ankle angle; b) knee angle; c) hip angle; d) ankle angular velocity; e) knee angular velocity; and f) hip angular velocity. The discrete variables identified from these time histories are 1) touchdown angle; 2) dorsiflexion/flexion range of motion; 3) peak dorsiflexion/flexion angle; 4) plantar flexion/extension range of motion; 5) toe-off angle; 6) touchdown angular velocity; 7) peak dorsiflexion/flexion angular velocity; 8) peak plantar flexion/extension angular velocity; and 9) toe-off angular velocity. Note: data from the fourth stance phase are used to facilitate the illustration of knee flexion during early stance (termed "Early flexion RoM" in Table2). Knee flexion during late stance (termed "Late flexion RoM" in Table2) was greatest during the first stance phase (when there was no knee flexion during early stance) and can be visualised between the two markers on the inset in sub-figure b.</figDesc><graphic coords="4,94.68,464.35,420.12,228.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Scatter plots for the relationships which were statistically significant (note the change in dependent variable to NAHEP (normalised average horizontal external power) in sub-plot f).</figDesc><graphic coords="7,94.79,398.36,419.88,188.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Mean ± SD linear kinematics and spatiotemporal variables over the first four steps and their relationships with RF MEAN , including 95% confidence intervals for the r values.</figDesc><table><row><cell></cell><cell>Four step mean</cell><cell>Correlation (r)</cell><cell>95% Confidence Intervals</cell></row><row><cell>Centre of mass</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Normalised CM height at touchdown</cell><cell>0.86 ± 0.03</cell><cell>0.000</cell><cell>-0.531: 0.530</cell></row><row><cell>Normalised CM height at toe-off</cell><cell>0.95 ± 0.04</cell><cell>-0.046</cell><cell>-0.563: 0.497</cell></row><row><cell>Normalised touchdown distance</cell><cell>-0.03 ± 0.04</cell><cell>-0.672**</cell><cell>-0.887: -0.220</cell></row><row><cell>Normalised toe-off distance</cell><cell>-0.89 ± 0.04</cell><cell>-0.428</cell><cell>-0.781: 0.132</cell></row><row><cell>Spatiotemporal</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Contact time (s) Flight time ^ (s)</cell><cell>0.189 ± 0.014 0.078 ± 0.017</cell><cell>-0.406 -0.242</cell><cell>-0.771: 0.159 -0.685: 0.331</cell></row><row><cell>Normalised step length</cell><cell>1.44 ± 0.11</cell><cell>-0.296</cell><cell>-0.714: 0.279</cell></row><row><cell>Step frequency (steps/s)</cell><cell>4.26 ± 0.29</cell><cell>0.715**</cell><cell>0.297: 0.903</cell></row><row><cell>Foot</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Touchdown velocity (m/s)</cell><cell>0.32 ± 0.44</cell><cell>-0.398</cell><cell>-0.767: 0.168</cell></row></table><note><p>^Following contact phase. ** Correlation is significant at the 0.01 level (2-tailed).</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Mean ± SD joint angular kinematics over the first four steps and their relationships with RF MEAN , including 95% confidence intervals for the r values.</figDesc><table><row><cell></cell><cell>Four step mean</cell><cell>Correlation (r)</cell><cell>95% Confidence Intervals</cell></row><row><cell>Ankle</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Angle</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Touchdown (°)</cell><cell>102 ± 5</cell><cell>0.154</cell><cell>-0.410: 0.633</cell></row><row><cell>Dorsiflexion RoM (°)</cell><cell>14 ± 3</cell><cell>0.728**</cell><cell>0.321: 0.908</cell></row><row><cell>Peak dorsiflexion (°)</cell><cell>88 ± 4</cell><cell>-0.258</cell><cell>-0.693: 0.316</cell></row><row><cell>Plantar flexion RoM (°)</cell><cell>53 ± 3</cell><cell>0.110</cell><cell>-0.447: 0.605</cell></row><row><cell>Toe-off (°)</cell><cell>140 ± 5</cell><cell>-0.141</cell><cell>-0.625: 0.421</cell></row><row><cell>Angular velocity</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Touchdown (°/s)</cell><cell>-271 ± 66</cell><cell>-0.072</cell><cell>-0.580: 0.477</cell></row><row><cell>Peak dorsiflexion (°/s)</cell><cell>-457 ± 56</cell><cell>-0.449</cell><cell>-0.791: 0.107</cell></row><row><cell>Peak plantar flexion (°/s)</cell><cell>1147 ± 84</cell><cell>0.311</cell><cell>-0.263: 0.722</cell></row><row><cell>Toe-off (°/s)</cell><cell>815 ± 118</cell><cell>-0.087</cell><cell>-0.590: 0.465</cell></row><row><cell>Knee</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Angle</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Touchdown (°)</cell><cell>117 ± 5</cell><cell>-0.326</cell><cell>-0.730: 0.247</cell></row><row><cell>Early flexion RoM (°)</cell><cell>0 ± 1</cell><cell>-0.292</cell><cell>-0.712: 0.283</cell></row><row><cell>Peak flexion (°)</cell><cell>116 ± 5</cell><cell>-0.277</cell><cell>-0.704: 0.297</cell></row><row><cell>Extension RoM (°)</cell><cell>41 ± 5</cell><cell>0.149</cell><cell>-0.414: 0.630</cell></row><row><cell>Peak extension (°)</cell><cell>158 ± 5</cell><cell>-0.168</cell><cell>-0.642: 0.398</cell></row><row><cell>Late flexion RoM (°)</cell><cell>0 ± 1</cell><cell>0.372</cell><cell>-0.198: 0.754</cell></row><row><cell>Toe-off (°)</cell><cell>158 ± 5</cell><cell>-0.202</cell><cell>-0.662: 0.368</cell></row><row><cell>Angular velocity</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Touchdown (°/s)</cell><cell>216 ± 70</cell><cell>-0.226</cell><cell>-0.676: 0.346</cell></row><row><cell>Peak extension (°/s)</cell><cell>636 ± 89</cell><cell>-0.167</cell><cell>-0.641: 0.399</cell></row><row><cell>Peak flexion (°/s)</cell><cell>-100 ± 83</cell><cell>-0.228</cell><cell>-0.677: 0.344</cell></row><row><cell>Toe-off (°/s)</cell><cell>-27 ± 144</cell><cell>-0.413</cell><cell>-0.774: 0.151</cell></row><row><cell>Hip</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Angle</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Touchdown (°)</cell><cell>114 ± 6</cell><cell>0.295</cell><cell>-0.280: 0.714</cell></row><row><cell>Extension RoM (°)</cell><cell>59 ± 5</cell><cell>-0.234</cell><cell>-0.680: 0.339</cell></row><row><cell>Toe-off (°)</cell><cell>173 ± 6</cell><cell>0.098</cell><cell>-0.456: 0.598</cell></row><row><cell>Angular velocity</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Touchdown (°/s)</cell><cell>549 ± 37</cell><cell>0.201</cell><cell>-0.369: 0.661</cell></row><row><cell>Peak extension (°/s)</cell><cell>604 ± 32</cell><cell>-0.268</cell><cell>-0.699: 0.306</cell></row><row><cell>Toe-off (°/s)</cell><cell>116 ± 88</cell><cell>0.036</cell><cell>-0.504: 0.556</cell></row></table><note><p>** Correlation is significant at the 0.01 level (2-tailed).</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Mean ± SD segment angular kinematics over the first four steps and their relationships with RF MEAN , including 95% confidence intervals for the r values.</figDesc><table><row><cell></cell><cell>Four step mean</cell><cell>Correlation (r)</cell><cell>95% Confidence Intervals</cell></row><row><cell>Foot</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Angle</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Touchdown (°)</cell><cell>164 ± 5</cell><cell>-0.724**</cell><cell>-0.906: -0.313</cell></row><row><cell>Toe-off (°)</cell><cell>105 ± 4</cell><cell>-0.334</cell><cell>-0.734: 0.239</cell></row><row><cell>Angular velocity</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Touchdown (°/s)</cell><cell>-25 ± 66</cell><cell>0.408</cell><cell>-0.156: 0.772</cell></row><row><cell>Toe-off (°/s)</cell><cell>-1310 ± 121</cell><cell>0.214</cell><cell>-0.357: 0.669</cell></row><row><cell>Shank</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Angle</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Touchdown (°)</cell><cell>55 ± 3</cell><cell>-0.764**</cell><cell>-0.921: -0.392</cell></row><row><cell>Toe-off (°)</cell><cell>33 ± 3</cell><cell>-0.235</cell><cell>-0.680: 0.338</cell></row><row><cell>Angular velocity</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Touchdown (°/s)</cell><cell>-235 ± 69</cell><cell>-0.309</cell><cell>-0.721: 0.265</cell></row><row><cell>Toe-off (°/s)</cell><cell>-142 ± 65</cell><cell>-0.511</cell><cell>-0.820: 0.026</cell></row><row><cell>Thigh</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Angle</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Touchdown (°)</cell><cell>118 ± 3</cell><cell>-0.252</cell><cell>-0.690: 0.322</cell></row><row><cell>Toe-off (°)</cell><cell>55 ± 4</cell><cell>0.076</cell><cell>-0.473: 0.583</cell></row><row><cell>Angular velocity</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Touchdown (°/s)</cell><cell>-456 ± 32</cell><cell>-0.174</cell><cell>-0.645: 0.393</cell></row><row><cell>Toe-off (°/s)</cell><cell>-126 ± 96</cell><cell>0.304</cell><cell>-0.270: 0.719</cell></row><row><cell>Trunk</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Angle</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Touchdown (°)</cell><cell>34 ± 8</cell><cell>-0.151</cell><cell>-0.631: 0.413</cell></row><row><cell>Toe-off (°)</cell><cell>44 ± 8</cell><cell>-0.180</cell><cell>-0.649: 0.388</cell></row><row><cell>Angular velocity</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Touchdown (°/s)</cell><cell>-14 ± 48</cell><cell>-0.272</cell><cell>-0.702: 0.302</cell></row><row><cell>Toe-off (°/s)</cell><cell>-24 ± 55</cell><cell>-0.223</cell><cell>-0.674: 0.348</cell></row></table><note><p>** Correlation is significant at the 0.01 level (2-tailed).</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 .</head><label>4</label><figDesc>Mean ± SD relationships between kinematic characteristics favourable for RF MEAN and their relationships with initial acceleration phase performance (normalised average horizontal external power; NAHEP), including 95% confidence intervals for the r values.</figDesc><table><row><cell>Measure</cell><cell>Correlation (r)</cell><cell>95% Confidence Intervals</cell></row><row><cell>Normalised touchdown distance</cell><cell>-0.710**</cell><cell>-0.901: -0.287</cell></row><row><cell>Step frequency (steps/s)</cell><cell>0.434</cell><cell>-0.126: 0.784</cell></row><row><cell>Ankle dorsiflexion RoM (°)</cell><cell>0.458</cell><cell>-0.096: 0.795</cell></row><row><cell>Touchdown foot angle (°)</cell><cell>-0.406</cell><cell>-0.771: 0.158</cell></row><row><cell>Touchdown shank angle (°)</cell><cell>-0.330</cell><cell>-0.732: 0.244</cell></row><row><cell cols="2">** Correlation is significant at the 0.01 level (2-tailed).</cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>D. KING ET AL.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The authors are grateful to <rs type="person">Dr Sam Gleadhill</rs> (<rs type="affiliation">University of South Australia, Australia</rs>) for his assistance during data collection.</p></div>
+			</div>
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding</head><p>The author(s) reported that there is no funding associated with the work featured in this article.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Disclosure statement</head><p>The authors report there are no competing interests to declare.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Estimation of inertia properties of the body segments in Japanese athletes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yokoi</surname></persName>
+		</author>
+		<idno type="DOI">10.3951/biomechanisms.11.23</idno>
+		<ptr target="https://doi.org/10.3951/biomechanisms.11.23" />
+	</analytic>
+	<monogr>
+		<title level="j">Biomechanisms</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="23" to="33" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ae, M., Tang, H., &amp; Yokoi, T. (1992). Estimation of inertia properties of the body segments in Japanese athletes. Biomechanisms, 11, 23-33. https:// doi.org/10.3951/biomechanisms.11.23</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A novel guideline for the analysis of linear acceleration mechanics -Outlining a conceptual framework of &apos;shin roll&apos; motion</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Alt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Oeppert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zedler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Goldmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Braunstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Willwacher</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14763141.2022.2094827</idno>
+		<ptr target="https://doi.org/10.1080/14763141.2022.2094827" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Biomechanics</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="18" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alt, T., Oeppert, T. J., Zedler, M., Goldmann, J.-P., Braunstein, B., &amp; Willwacher, S. (2022). A novel guideline for the analysis of linear accel- eration mechanics -Outlining a conceptual framework of &apos;shin roll&apos; motion. Sports Biomechanics, 1-18. https://doi.org/10.1080/14763141. 2022.2094827</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Modeling the energetics of 100-m running by using speed curves of world champions</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Arsac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Locatelli</surname></persName>
+		</author>
+		<idno type="DOI">10.1152/japplphysiol.00754.2001</idno>
+		<ptr target="https://doi.org/10.1152/japplphysiol.00754.2001" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physiology</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1781" to="1788" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Arsac, L. M., &amp; Locatelli, E. (2002). Modeling the energetics of 100-m running by using speed curves of world champions. Journal of Applied Physiology, 92(5), 1781-1788. https://doi.org/10.1152/japplphysiol.00754.2001</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Making meaningful inferences about magnitudes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Batterham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hopkins</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/ijspp.1.1.50</idno>
+		<ptr target="https://doi.org/10.1123/ijspp.1.1.50" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sports Physiology and Performance</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="50" to="57" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Batterham, A., &amp; Hopkins, W. (2006). Making meaningful inferences about magnitudes. International Journal of Sports Physiology and Performance, 1, 50-57. https://doi.org/10.1123/ijspp.1.1.50</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Ratio of forces during sprint acceleration: A comparison of different calculation methods</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Colyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bayne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">N</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-B</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Murata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbiomech.2021.110685</idno>
+		<ptr target="https://doi.org/10.1016/j.jbiomech.2021.110685" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">110685</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bezodis, N. E., Colyer, S., Nagahara, R., Bayne, H., Bezodis, I. N., Morin, J.-B., Murata, M., &amp; Samozino, P. (2021). Ratio of forces during sprint accelera- tion: A comparison of different calculation methods. Journal of Biomechanics, 127(5), 110685. https://doi.org/10.1016/j.jbiomech.2021. 110685</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Alterations to the orientation of the ground reaction force vector affect sprint acceleration performance in team sports athletes</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>North</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Razavet</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2016.1239024</idno>
+		<ptr target="https://doi.org/10.1080/02640414.2016.1239024" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page" from="1817" to="1824" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bezodis, N. E., North, J. S., &amp; Razavet, J. L. (2017). Alterations to the orienta- tion of the ground reaction force vector affect sprint acceleration per- formance in team sports athletes. Journal of Sports Sciences, 35(18), 1817-1824. https://doi.org/10.1080/02640414.2016.1239024</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Choice of sprint start performance measure affects the performance-based ranking within a group of sprinters: Which is the most appropriate measure?</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I T</forename><surname>Salo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Trewartha</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14763141.2010.538713</idno>
+		<ptr target="https://doi.org/10.1080/14763141.2010" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="258" to="269" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bezodis, N. E., Salo, A. I. T., &amp; Trewartha, G. (2010). Choice of sprint start performance measure affects the performance-based ranking within a group of sprinters: Which is the most appropriate measure? Sports Biomechanics, 9(4), 258-269. https://doi.org/10.1080/14763141.2010.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Modeling the stance leg in two-dimensional analyses of sprinting: Inclusion of the MTP joint affects joint kinetics</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I T</forename><surname>Salo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Trewartha</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/jab.28.2.222</idno>
+		<ptr target="https://doi.org/10.1123/jab.28.2.222" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="222" to="227" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bezodis, N. E., Salo, A. I. T., &amp; Trewartha, G. (2012). Modeling the stance leg in two-dimensional analyses of sprinting: Inclusion of the MTP joint affects joint kinetics. Journal of Applied Biomechanics, 28(2), 222-227. https:// doi.org/10.1123/jab.28.2.222</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Lower limb joint kinetics during the first stance phase in athletics sprinting: Three elite case-studies</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I T</forename><surname>Salo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Trewartha</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2013.849000</idno>
+		<ptr target="https://doi.org/10.1080/02640414.2013.849000" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="738" to="746" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bezodis, N. E., Salo, A. I. T., &amp; Trewartha, G. (2014). Lower limb joint kinetics during the first stance phase in athletics sprinting: Three elite case-studies. Journal of Sports Sciences, 32(8), 738-746. https://doi.org/ 10.1080/02640414.2013.849000</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Understanding the effect of touchdown distance and ankle joint kinematics on sprint acceleration performance through computer simulation</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Trewartha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Salo</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14763141.2015.1052748</idno>
+		<ptr target="https://doi.org/10.1080/14763141.2015.1052748" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="232" to="245" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bezodis, N. E., Trewartha, G., &amp; Salo, A. I. T. (2015). Understanding the effect of touchdown distance and ankle joint kinematics on sprint acceleration performance through computer simulation. Sports Biomechanics, 14(2), 232-245. https://doi.org/10.1080/14763141.2015.1052748</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The biomechanics of the track and field sprint start: A narrative review</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Willwacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Salo</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40279-019-01138-1</idno>
+		<ptr target="https://doi.org/10.1007/s40279-019-01138-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1345" to="1364" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bezodis, N. E., Willwacher, S., &amp; Salo, A. I. T. (2019). The biomechanics of the track and field sprint start: A narrative review. Sports Medicine, 49(9), 1345-1364. https://doi.org/10.1007/s40279-019-01138-1</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Lower limb joint kinetics in the starting blocks and first stance in athletic sprinting</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Brazil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Exell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Willwacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Irwin</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2016.1227465</idno>
+		<ptr target="https://doi.org/10.1080/02640414.2016.1227465" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="1629" to="1635" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brazil, A., Exell, T., Wilson, C., Willwacher, S., Bezodis, I., &amp; Irwin, G. (2017). Lower limb joint kinetics in the starting blocks and first stance in athletic sprinting. Journal of Sports Sciences, 35(16), 1629-1635. https://doi.org/ 10.1080/02640414.2016.1227465</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Lower limb joint kinetics and ankle joint stiffness in the sprint start push-off</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Charalambous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Irwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">N</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kerwin</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2011.616948</idno>
+		<ptr target="https://doi.org/10.1080/02640414.2011.616948" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Charalambous, L., Irwin, G., Bezodis, I. N., &amp; Kerwin, D. (2012). Lower limb joint kinetics and ankle joint stiffness in the sprint start push-off. Journal of Sports Sciences, 30(1), 1-9. https://doi.org/10.1080/02640414.2011. 616948</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Kinetic demands of sprinting shift across the acceleration phase: Novel analysis of entire force waveforms</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Colyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Salo</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sms.13093</idno>
+		<ptr target="https://doi.org/10.1111/sms.13093" />
+	</analytic>
+	<monogr>
+		<title level="j">Scandinavian Journal of Medicine and Science in Sports</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1784" to="1792" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Colyer, S. L., Nagahara, R., &amp; Salo, A. I. T. (2018). Kinetic demands of sprinting shift across the acceleration phase: Novel analysis of entire force waveforms. Scandinavian Journal of Medicine and Science in Sports, 28 (7), 1784-1792. https://doi.org/10.1111/sms.13093</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Inter-and intra-limb coordination during initial sprint acceleration</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Donaldson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bayne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Bezodis</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/bio.059501</idno>
+		<ptr target="https://doi.org/10.1242/bio.059501" />
+	</analytic>
+	<monogr>
+		<title level="j">Biology Open</title>
+		<imprint>
+			<biblScope unit="issue">11</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>bio059501</note>
+	<note type="raw_reference">Donaldson, B. J., Bayne, H., &amp; Bezodis, N. E. (2022). Inter-and intra-limb coordination during initial sprint acceleration. Biology Open, 11 (bio059501). https://doi.org/10.1242/bio.059501</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Considerations of force plate transitions on centre of pressure calculation for maximal velocity sprint running</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Exell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J R</forename><surname>Gittoes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Irwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Kerwin</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14763141.2012.684698</idno>
+		<ptr target="https://doi.org/10.1080/14763141.2012.684698" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="532" to="541" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Exell, T. A., Gittoes, M. J. R., Irwin, G., &amp; Kerwin, D. G. (2012). Considerations of force plate transitions on centre of pressure calculation for maximal velocity sprint running. Sports Biomechanics, 11(4), 532-541. https:// doi.org/10.1080/14763141.2012.684698</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Scaling gait data to body size</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hof</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0966-6362(95)01057-2</idno>
+		<ptr target="https://doi.org/10.1016/0966-6362(95)01057-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Gait &amp; Posture</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="222" to="223" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hof, A. (1996). Scaling gait data to body size. Gait &amp; Posture, 4(3), 222-223. https://doi.org/10.1016/0966-6362(95)01057-2</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Interaction of step length and step rate during sprint running</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcnair</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/01.MSS.0000113664.15777.53</idno>
+		<idno>MSS.0000113664. 15777.53</idno>
+		<ptr target="https://doi.org/10.1249/01" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine &amp; Science in Sports &amp; Exercise</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="261" to="271" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hunter, J., Marshall, R., &amp; McNair, P. (2004). Interaction of step length and step rate during sprint running. Medicine &amp; Science in Sports &amp; Exercise, 36(2), 261-271. https://doi.org/10.1249/01.MSS.0000113664. 15777.53</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Intermuscular coordination in a sprint push-off</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Van Ingen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Schenau</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0021-9290(92)90031-u</idno>
+		<ptr target="https://doi.org/10.1016/0021-9290(92)90031-u" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="953" to="965" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jacobs, R., &amp; van Ingen Schenau, G. J. (1992). Intermuscular coordination in a sprint push-off. Journal of Biomechanics, 25(9), 953-965. https://doi. org/10.1016/0021-9290(92)90031-u</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Linearity of the ratio of forces-velocity relationship is not related to initial acceleration performance in sprinting</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Burnie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bezodis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the XXXIX Annual Conference of the International Society of Biomechanics in Sports</title>
+		<meeting>the XXXIX Annual Conference of the International Society of Biomechanics in Sports</meeting>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="292" to="295" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">King, D., Burnie, L., Nagahara, R., &amp; Bezodis, N. (2021). Linearity of the ratio of forces-velocity relationship is not related to initial acceleration perfor- mance in sprinting. Proceedings of the XXXIX Annual Conference of the International Society of Biomechanics in Sports, 39, 292-295.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Body position determines propulsive forces in accelerated running</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kugler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Janshen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbiomech.2009.07.041</idno>
+		<ptr target="https://doi.org/10.1016/j.jbiomech.2009.07.041" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="343" to="348" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kugler, F., &amp; Janshen, L. (2010). Body position determines propulsive forces in accelerated running. Journal of Biomechanics, 43(2), 343-348. https:// doi.org/10.1016/j.jbiomech.2009.07.041</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Biomechanics of sprint running: A review</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Komi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Gregor</surname></persName>
+		</author>
+		<idno type="DOI">10.2165/00007256-199213060-00002</idno>
+		<ptr target="https://doi.org/10.2165/00007256-199213060-00002" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="376" to="392" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mero, A., Komi, P. V., &amp; Gregor, R. J. (1992). Biomechanics of sprint running: A review. Sports Medicine, 13(6), 376-392. https://doi.org/10.2165/ 00007256-199213060-00002</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Technical ability of force application as a determinant factor of sprint performance</title>
+		<author>
+			<persName><forename type="first">J.-B</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Edouard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0b013e318216ea37</idno>
+		<ptr target="https://doi.org/10.1249/MSS.0" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and Science in Sports and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1680" to="1688" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>b013e318216ea37</note>
+	<note type="raw_reference">Morin, J.-B., Edouard, P., &amp; Samozino, P. (2011). Technical ability of force application as a determinant factor of sprint performance. Medicine and Science in Sports and Exercise, 43(9), 1680-1688. https://doi.org/10.1249/ MSS.0b013e318216ea37</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Ground reaction force across the transition during sprint acceleration</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukunaga</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sms.13596</idno>
+		<ptr target="https://doi.org/10.1111/sms.13596" />
+	</analytic>
+	<monogr>
+		<title level="j">Scandinavian Journal of Medicine &amp; Science in Sports</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="450" to="461" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nagahara, R., Kanehisa, H., &amp; Fukunaga, T. (2020). Ground reaction force across the transition during sprint acceleration. Scandinavian Journal of Medicine &amp; Science in Sports, 30(3), 450-461. https://doi.org/10.1111/sms. 13596</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Are peak ground reaction forces related to better sprint acceleration performance?</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukunaga</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14763141.2018.1560494</idno>
+		<ptr target="https://doi.org/10.1080/14763141.2018.1560494" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="363" to="369" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nagahara, R., Kanehisa, H., Matsuo, A., &amp; Fukunaga, T. (2021). Are peak ground reaction forces related to better sprint acceleration performance? Sports Biomechanics, 20(3), 363-369. https://doi.org/10. 1080/14763141.2018.1560494</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Kinematics of transition during human accelerated sprinting</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsubayashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zushi</surname></persName>
+		</author>
+		<idno type="DOI">10.1242/bio.20148284</idno>
+		<ptr target="https://doi.org/10.1242/bio.20148284" />
+	</analytic>
+	<monogr>
+		<title level="j">Biology Open</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="689" to="699" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nagahara, R., Matsubayashi, T., Matsuo, A., &amp; Zushi, K. (2014). Kinematics of transition during human accelerated sprinting. Biology Open, 3(8), 689-699. https://doi.org/10.1242/bio.20148284</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Association of step width with accelerated sprinting performance and ground reaction force</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mizutani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukunaga</surname></persName>
+		</author>
+		<idno type="DOI">10.1055/s-0043-106191</idno>
+		<ptr target="https://doi.org/10.1055/s-0043-106191" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sports Medicine</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="534" to="540" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nagahara, R., Mizutani, M., Matsuo, A., Kanehisa, H., &amp; Fukunaga, T. (2017). Association of step width with accelerated sprinting performance and ground reaction force. International Journal of Sports Medicine, 38(7), 534-540. https://doi.org/10.1055/s-0043-106191</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Association of sprint performance with ground reaction forces during acceleration and maximal speed phases in a single sprint</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mizutani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukunaga</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/jab.2016-0356</idno>
+		<ptr target="https://doi.org/10.1123/jab.2016-0356" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="104" to="110" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>a)</note>
+	<note type="raw_reference">Nagahara, R., Mizutani, M., Matsuo, A., Kanehisa, H., &amp; Fukunaga, T. (2018a). Association of sprint performance with ground reaction forces during acceleration and maximal speed phases in a single sprint. Journal of Applied Biomechanics, 34(2), 104-110. https://doi.org/10.1123/jab.2016- 0356</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Step-to-step spatiotemporal variables and ground reaction forces of intra-individual fastest sprinting in a single session</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mizutani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukunaga</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2017.1389101</idno>
+		<ptr target="https://doi.org/10.1080/02640414.2017.1389101" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1392" to="1401" />
+			<date type="published" when="2018">2018b)</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nagahara, R., Mizutani, M., Matsuo, A., Kanehisa, H., &amp; Fukunaga, T. (2018b). Step-to-step spatiotemporal variables and ground reaction forces of intra-individual fastest sprinting in a single session. Journal of Sports Sciences, 36(12), 1392-1401. https://doi.org/10.1080/02640414.2017. 1389101</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Development of maximal speed sprinting performance with changes in vertical, leg and joint stiffness</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nagahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zushi</surname></persName>
+		</author>
+		<idno type="DOI">10.23736/S0022-4707.16.06622-6</idno>
+		<ptr target="https://doi.org/10.23736/S0022-4707.16.06622-6" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Sports Medicine and Physical Fitness</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1572" to="1578" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nagahara, R., &amp; Zushi, K. (2017). Development of maximal speed sprinting performance with changes in vertical, leg and joint stiffness. The Journal of Sports Medicine and Physical Fitness, 57(12), 1572-1578. https://doi. org/10.23736/S0022-4707.16.06622-6</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Sprint mechanics in world-class athletes: A new insight into the limits of human locomotion</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rabita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dorel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Slawinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sàez-De-Villarreal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Couturier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-B</forename><surname>Morin</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sms.12389</idno>
+		<ptr target="https://doi.org/10.1111/sms.12389" />
+	</analytic>
+	<monogr>
+		<title level="j">Scandinavian Journal of Medicine &amp; Science in Sports</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="583" to="594" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rabita, G., Dorel, S., Slawinski, J., Sàez-de-Villarreal, E., Couturier, A., Samozino, P., &amp; Morin, J.-B. (2015). Sprint mechanics in world-class athletes: A new insight into the limits of human locomotion. Scandinavian Journal of Medicine &amp; Science in Sports, 25(5), 583-594. https://doi.org/10.1111/sms.12389</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G E</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Caldwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hamill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kamen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Whittlesey</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>Research methods in biomechanics. Human Kinetics</note>
+	<note type="raw_reference">Robertson, D. G. E., Caldwell, G. E., Hamill, J., Kamen, G., &amp; Whittlesey, S. N. (2004). Research methods in biomechanics. Human Kinetics.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A simple method for measuring power, force, velocity properties, and mechanical effectiveness in sprint running</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rabita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dorel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Slawinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Peyrot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>De Villarreal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-B</forename><surname>Morin</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/sms.12490</idno>
+		<ptr target="https://doi.org/10.1111/sms.12490" />
+	</analytic>
+	<monogr>
+		<title level="j">Scandinavian Journal of Medicine &amp; Science in Sports</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="648" to="658" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Samozino, P., Rabita, G., Dorel, S., Slawinski, J., Peyrot, N., de Villarreal, E. S., &amp; Morin, J.-B. (2016). A simple method for measuring power, force, velocity properties, and mechanical effectiveness in sprint running. Scandinavian Journal of Medicine &amp; Science in Sports, 26(6), 648-658. https://doi.org/10. 1111/sms.12490</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Rigid body motion calculated from spatial co-ordinates of markers</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Spoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Veldpaus</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0021-9290(80)90020-2</idno>
+		<ptr target="https://doi.org/10.1016/0021-9290(80)90020-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="391" to="393" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Spoor, C. W., &amp; Veldpaus, F. E. (1980). Rigid body motion calculated from spatial co-ordinates of markers. Journal of Biomechanics, 13(4), 391-393. https://doi.org/10.1016/0021-9290(80)90020-2</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Comparison of support leg kinetics between side-step and cross-step cutting techniques</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Takenaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fujii</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14763141.2014.910264</idno>
+		<ptr target="https://doi.org/10.1080/14763141.2014.910264" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="144" to="153" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Suzuki, Y., Ae, M., Takenaka, S., &amp; Fujii, N. (2014). Comparison of support leg kinetics between side-step and cross-step cutting techniques. Sports Biomechanics, 13(2), 144-153. https://doi.org/10.1080/14763141.2014. 910264</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Analysis of the velocity curve in sprint running</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">I</forename><surname>Volkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Lapin</surname></persName>
+		</author>
+		<idno type="DOI">10.1249/00005768-197901140-00004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine and Science in Sports</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="332" to="337" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Volkov, N. I., &amp; Lapin, V. I. (1979). Analysis of the velocity curve in sprint running. Medicine and Science in Sports, 11(4), 332-337. doi:10.1249/ 00005768-197901140-00004.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Phase analysis in maximal sprinting: An investigation of step-to-step technical changes between the initial acceleration, transition and maximal velocity phases</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Von Lieres Und Wilkau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Irwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">N</forename><surname>Bezodis</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14763141.2018.1473479</idno>
+		<ptr target="https://doi.org/10.1080/14763141.2018.1473479" />
+	</analytic>
+	<monogr>
+		<title level="j">Sports Biomechanics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="141" to="156" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">von Lieres Und Wilkau, H. C., Irwin, G., Bezodis, N. E., Simpson, S., &amp; Bezodis, I. N. (2020). Phase analysis in maximal sprinting: An investiga- tion of step-to-step technical changes between the initial acceleration, transition and maximal velocity phases. Sports Biomechanics, 19(2), 141-156. https://doi.org/10.1080/14763141.2018.1473479</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><surname>Winter</surname></persName>
+		</author>
+		<title level="m">Biomechanics and motor control of human movement</title>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>4th) ed.</note>
+	<note type="raw_reference">Winter, D. (2009). Biomechanics and motor control of human movement (4th) ed.). Wiley.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

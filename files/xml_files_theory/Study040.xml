@@ -1,0 +1,1552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Carbohydrate Ingestion during Prolonged Cycling Improves Next-Day Time Trial Performance and Alters Amino Acid Concentrations</title>
+				<funder>
+					<orgName type="full">American College of Sports Medicine</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Norwegian School of Sport Sciences</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024">25/2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Matthieu</forename><surname>Clauss</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physical Performance</orgName>
+								<orgName type="institution">Norwegian School of Sport Sciences</orgName>
+								<address>
+									<settlement>Oslo</settlement>
+									<country>NORWAY;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Øyvind</forename><surname>Skattebo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physical Performance</orgName>
+								<orgName type="institution">Norwegian School of Sport Sciences</orgName>
+								<address>
+									<settlement>Oslo</settlement>
+									<country>NORWAY;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Malin</forename><forename type="middle">Rasen</forename><surname>Daehli</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physical Performance</orgName>
+								<orgName type="institution">Norwegian School of Sport Sciences</orgName>
+								<address>
+									<settlement>Oslo</settlement>
+									<country>NORWAY;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Thorhildur</forename><surname>Ditta Valsdottir</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physical Performance</orgName>
+								<orgName type="institution">Norwegian School of Sport Sciences</orgName>
+								<address>
+									<settlement>Oslo</settlement>
+									<country>NORWAY;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Health Sciences</orgName>
+								<orgName type="institution">Kristiania University College</orgName>
+								<address>
+									<settlement>Oslo</settlement>
+									<country>NORWAY;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nasser</forename><forename type="middle">Ezzatkhah</forename><surname>Bastani</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physical Performance</orgName>
+								<orgName type="institution">Norwegian School of Sport Sciences</orgName>
+								<address>
+									<settlement>Oslo</settlement>
+									<country>NORWAY;</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Nutrition</orgName>
+								<orgName type="department" key="dep2">Division for Molecular Nutrition</orgName>
+								<orgName type="institution">University of Oslo</orgName>
+								<address>
+									<settlement>Oslo</settlement>
+									<country>NORWAY;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kristoffer</forename><surname>Jensen Kolnes</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Steno Diabetes Center Odense</orgName>
+								<orgName type="institution">Odense University Hospital</orgName>
+								<address>
+									<settlement>Odense</settlement>
+									<country key="DK">DENMARK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bjørn</forename><surname>Steen Skålhegg</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Nutrition</orgName>
+								<orgName type="department" key="dep2">Division for Molecular Nutrition</orgName>
+								<orgName type="institution">University of Oslo</orgName>
+								<address>
+									<settlement>Oslo</settlement>
+									<country>NORWAY;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><roleName>Ph.D</roleName><forename type="first">Jørgen</forename><surname>Jensen</surname></persName>
+							<email>jorgen.jensen@nih.no.</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Physical Performance</orgName>
+								<orgName type="institution">Norwegian School of Sport Sciences</orgName>
+								<address>
+									<settlement>Oslo</settlement>
+									<country>NORWAY;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Norwegian School of Sport Sciences</orgName>
+								<orgName type="institution">Ullevål Stadion</orgName>
+								<address>
+									<postBox>PO Box 4014</postBox>
+									<postCode>0806</postCode>
+									<settlement>Oslo</settlement>
+									<country>Norway;</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Carbohydrate Ingestion during Prolonged Cycling Improves Next-Day Time Trial Performance and Alters Amino Acid Concentrations</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2024">25/2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6BD15041BA7F28B722586217A822E2E5</idno>
+					<idno type="DOI">10.1249/MSS.0000000000003264</idno>
+					<note type="submission">Submitted for publication March 2023. Accepted for publication July 2023.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:10+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction:</head><p>Exercise with low carbohydrate availability increases protein degradation, which may reduce subsequent performance considerably. The present study aimed to investigate the effect of carbohydrate ingestion during standardized exercise with and without exhaustion on protein degradation and next-day performance. Methods: Seven trained male cyclists ( VO 2max 66.8 ± 1.9 mL•kg -1 •min -1 ; mean ± SEM) cycled to exhaustion (~2.5 h) at a power output eliciting 68% of VO 2max (W 68% ). This was followed by repeating 1-min work/1-min recovery intervals at 90% of VO 2max (W 90% ) until exhaustion. During W 68% , cyclists consumed a placebo water drink (PLA) the first time and a carbohydrate drink (CHO), 1 g carbohydrate•kg -1 •h -1 , the second time. The participants performed the same amount of work under the two conditions, separated by at least 1 wk. A standardized diet was provided to the participants so that the two conditions were isoenergetic. To test the impact of carbohydrates on recovery, participants completed a time trial (TT) the next day. Results: Carbohydrate ingestion maintained carbohydrate availability during W 68% and W 90% : total carbohydrate oxidation was significantly higher in CHO (P = 0.022), and plasma glucose concentration was maintained compared with PLA (P = 0.025). Next-day performance during TT was better after CHO ingestion (CHO, 41:49 ± 1:38 min; PLA, 42:50 ± 1:46 min; P = 0.020; effect size d = 0.23, small), as was gross efficiency (CHO, 18.6% ± 0.3%; PLA, 17.9% ± 0.3%; P = 0.019). Urinary nitrogen excretion (P = 0.897) and urinary 3-methylhistidine excretion (P = 0.673) did not significantly differ during the study period. Finally, tyrosine and phenylalanine plasma concentrations increased in PLA but not in CHO (P = 0.018). Conclusions: Carbohydrate ingestion during exhaustive exercise reduced deterioration in next-day performance through reduced metabolic stress and development of fatigue. In addition, some parameters point toward less protein degradation, which would preserve muscle function. Key Words: PROTEIN DEGRADATION, NITROGEN BALANCE, 3-METHYLHISTIDINE, BRANCHED-CHAIN AMINO ACIDS, GLUCOSE C arbohydrates and fat are the primary energy substrates during endurance exercise. However, their relative contributions depend on the intensity and duration of exercise (1,2). During moderate-and high-intensity exercise, carbohydrates provide the majority of the energy supply, but carbohydrate reserves are limited (3).</p><p>Protein usually contributes only marginally to energy production (4-7). However, when exercising with low carbohydrate availability, protein degradation is more than double when exercising with high carbohydrate availability (6,8). Cycling to exhaustion is known to deplete carbohydrate reserves, with participants exhibiting low muscle glycogen levels (3) and low plasma glucose concentrations at exhaustion <ref type="bibr" target="#b2">(3,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b9">10)</ref>. This form of exercise also induces high nitrogen excretion (3,9,10), which is indicative of protein degradation, most probably from muscle protein (11). When proteins are degraded, the amino groups are mainly converted to urea and excreted in the urine. Next-day performance has been found to increase when nitrogen excretion is lower (9,10).</p><p>Interestingly, ingesting carbohydrates during exercise is an established way to maintain carbohydrate availability (12-14).</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This has been shown when plasma glucose concentration dropped significantly when participants cycled to exhaustion while drinking water compared with a glucose drink <ref type="bibr" target="#b11">(12)</ref>. Carbohydrate ingestion also delayed exhaustion by 60 min. However, to what extent carbohydrate ingestion influences protein degradation during strenuous endurance cycling has not been clarified.</p><p>The aim of the present study was to investigate the effect of carbohydrate ingestion during standardized exercise with and without exhaustion on protein degradation and next-day performance. Therefore, participants cycled to exhaustion without an energy supply and repeated the same amount of work a week later while consuming a carbohydrate drink to avoid voluntary exhaustion. We hypothesized that ingesting carbohydrates during standardized exercise with and without exhaustion would maintain carbohydrate availability, reduce protein degradation, and reduce next-day performance degradation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Participants</head><p>Seven male trained endurance cyclists (mean ± SEM; age, 29.3 ± 2.6 yr; height, 1.83 ± 0.03 m; body mass, 78.0 ± 3.8 kg; VO 2max , 5.2 ± 0.2 L•min -1 , 66.8 ± 1.9 mL•kg -1 •min -1 ) were recruited for the study. To physically take part in this study, the participants had to train in cycling more than three times a week for the last 6 months. They achieved a weekly training volume of 10.0 ± 0.9 h. Participants were informed about the study before providing their written informed consent. The Norwegian School of Sport Sciences Ethics Committee (application 121-241019) and the Norwegian Centre for Research Data (reference number 253131) approved the study, which conformed to the standards set by the latest revision of the Declaration of Helsinki.</p><p>Study design. The study was completed in a single-blinded, balanced, crossover experimental design, as depicted in Figure <ref type="figure">1</ref>. The participants performed two initial tests to determine physiological parameters and for familiarization. The first time, they performed the 2-d exercise protocol (day 1 and day 2) while consuming a water placebo. They then repeated the exercise protocol at least 1 wk later, while consuming a carbohydrate drink.</p><p>Physiological testing. On the first visit to the laboratory, participants performed an incremental test on a cycle ergometer (Lode Excalibur; Lode, Groningen, The Netherlands) during which the relationship between work rate (W) and oxygen uptake ( VO 2 ) was established. This test and all tests in this study were performed in a controlled environment, free from distractions, under similar ambient conditions (18°C-19°C). The saddle and handle positions were individually adjusted and recorded for replication on the remaining test days.</p><p>Participants started the incremental test at 200 W, and the load was increased by 25 W every 5 min. VO 2 was measured online (Oxycon Pro, Jager Instruments, Hoechberg, Germany) over 150 s (from ~2.5-5 min at each intensity level), and capillary blood samples were collected for lactate analysis (Biosen C-Line Lactate analyzer, EKF Diagnostics, UK). The incremental test was terminated after approximately four to five steps when the blood lactate concentration exceeded 4 mM. Participants selected a pedaling frequency above 75 rpm, and the self-selected pedaling frequency was used throughout the study. After 10 min of rest, maximal oxygen uptake ( VO 2max ) was measured. Participants started the VO 2max test at the second to last step of the first test, and intensity was increased by 25 W steps every 60 s until voluntary exhaustion. VO 2 FIGURE 1-Design of the interventions. A, The protocol was completed twice in a single-blinded, balanced, crossover experimental design. On day 1, the participants reported to the laboratory at 9:30 AM and at 10:00 AM prepared for an exhaustive training protocol. After an incremental fat oxidation profile warm-up, participants performed a 10-s sprint (sprint 1), followed by an exhaustive cycling exercise at 68% of VO 2max (W 68% ) for a total of 147 ± 17 min. During the exhaustive cycling exercise, the participants drank a flavored water placebo drink (PLA) in week 1 and a similar-flavored carbohydrate drink (CHO) in week 2. After exhaustion, 1-min intervals at 90% of VO 2max , interspersed with a minute of recovery, were performed until exhaustion. After the exercise, the diet was standardized during the 17-h recovery period. On day 2, the participants reported to the laboratory at 6:30 AM. The incremental fat oxidation profile warm-up started at 7:00 AM, followed by a 10-s sprint (sprint 2), a 15-min cycling exercise at W 68% (Pre-TT), a time trial performance test (TT), a second 10-s (sprint 3), and a carbohydrate drink. The names of the urine collection periods are indicated in the figure. B, Description of the cycling protocol on day 1. C, Description of the cycling protocol on day 2.</p><p>was measured continuously, and the mean of the two highest consecutive 30-s epochs was defined as the maximal oxygen uptake ( VO 2max ).</p><p>Linear regression analysis from this incremental cycling test was used with VO 2max to determine the work rates corresponding to 68% of VO 2max (W 68% ) and 90% of VO 2max (W 90% ).</p><p>Familiarization session. The participants returned to the laboratory 2 to 4 d after the physiological testing to complete a familiarization session. They performed the exercise protocol's second day (day 2), including the performance test. First, participants completed an incremental fat oxidation profile warm-up (6 Â 3 min at 30%, 40%, 50%, 60%, 70%, and 80% of VO 2max in this order). VO 2 was measured continuously during this warm-up. After 2 min, participants carried out a 10-s maximal sprint. All sprints during the study were all-out efforts using a torque factor of 0.7 N•m•kg -1 . After 4 min of recovery, participants performed a 15-min exercise at a fixed intensity corresponding to 68% of VO 2max . VO 2 was measured from 0 to 5 min and 12 to 15 min. Calculations were made after this session to ensure that the work rate to achieve a VO 2 corresponding to 68% of VO 2max was correct.</p><p>If not, the work rate was adjusted for the next time to meet the expected value. After a 5-min recovery, participants performed TT, during which they had to complete a specific amount of mechanical work <ref type="bibr" target="#b9">(10)</ref>. The total work to be completed was equivalent to 30 min (1800 s) at a work rate corresponding to 100% of VO 2max [work output (kJ) = power output at VO 2max (W) Â 1800 s]. TT started at W 68% , but the participants could adjust the work rate during the TT on a panel mounted on the bike as they preferred. Time was blinded during TT, but accumulated work was shown on a screen in front of the participants. Participants were also informed when they had completed 10%, 20%, 40%, 60%, 80%, 95%, and 100% of TT. Two minutes after the end of TT, participants performed a second 10-s maximal sprint.</p><p>Diet intervention before the exercise protocol. Participants recorded their dietary intake 24 h before the first intervention and were asked to follow the same diet before the next intervention. Participants were asked to avoid consuming meat, fish, and soy-based products 3 d before the start of each intervention to control for 3-methylhistine concentration <ref type="bibr" target="#b14">(15)</ref>. Participants did not consume meat, fish, and soy-based products during the study protocol. Participants received a stan-dardized dinner the day before and were asked to consume it at 2100 h. This meal was composed of a vegetarian pizza (Grandiosa Mandagspizza, Grandiosa, Norway). Additional cheese or fruit cocktail was given to adjust the macronutrient content of the meal to body weight. This meal adjustment of macronutrient and energy content to body weight was performed for every meal. The macronutrient content of this meal was carbohydrate 2.03 g•kg -1 , protein 0.81 g•kg -1 , and fat 0.57 g•kg -1 (69.7 kJ•kg -1 ). The energy intake and the content of macronutrients for the different standardized meals and supplements during the study protocol are described in Table <ref type="table" target="#tab_0">1</ref>. No exercise or only light exercise was allowed for a minimum of 24 h before the exhaustive exercise.</p><p>Day 1. Participants reported to the laboratory at 0930 h after a 12-to 14-h fast. A Venflon catheter was inserted into an antecubital vein. Participants were weighed (Seca 877; Seca GmbH &amp; Co, Hamburg, Germany). They then prepared for the exhaustive bouts of exercise starting at 1000 h. The training session was initiated with an incremental fat oxidation profile warm-up followed by 2 min recovery and a 10-s maximal sprint (Sprint 1). After 4 min of recovery, participants cycled at W 68% until exhaustion. Exhaustion was defined as when participants could not maintain their pedal frequency over 60 rpm at the desired work rate despite three verbal encouragements to maintain their pedaling frequency. After exhaustion, participants recovered for 5 min and then performed 1-min intervals at a power output eliciting 90% of VO 2max (W 90% ) followed by 1 min recovery, repeatedly, until voluntary exhaustion. VO 2 and RER were measured continuously during the warm-up, every 15 min, and at exhaustion during the exercise at W 68% and continuously during the intervals at W 90% for calculation of carbohydrate and fat oxidations. Lactate, glucose, other metabolites, and blood gas parameters were measured (ABL800; Radiometer Medical, Copenhagen, Denmark). HR was measured continuously (Polar RS800CX, Kempele, Finland).</p><p>During the exhaustive exercise, participants consumed flavored water the first time and a carbohydrate drink (1 g•kg -1 •h -1 ) the second time. Drinks were served in opaque flasks and were indistinguishable by taste. The drinks were supplied in equal portions every 15 min. The carbohydrate drink was a 10% solution containing 50% glucose (GPR RECTAPUR®; VWR Chemicals, Radnor, PA) and 50% maltodextrin (Dextri-maltose®; MP Biomedicals, Santa Ana, CA). All drinks contained the same quantity of electrolytes The two conditions were isoenergetic between groups and adjusted for body weight. The exercise started at 10:00 am on day 1 and 7:00 am on day 2 (0.7 g•L -1 NaCl) and were flavored with 100 g•L -1 of drink flavoring (Fun light, Stabburet, Norway). In total, participants ingested 193 ± 21 g of carbohydrates during W 68% .</p><p>During the intervention, all participants were free to drink additional water. The total fluid intake was 3256 ± 208 mL during CHO and 3340 ± 274 mL during PLA, with no significant difference between conditions (P = 0.342). The total weight loss during exercise was lower in CHO than in PLA (CHO, 3.2 ± 0.3 kg; PLA, 3.6 ± 0.3 kg; P = 0.048).</p><p>The aim of the present study was to compare an exercise of cycling to exhaustion without energy supply versus the same duration of exercise in which participants consumed a carbohydrate drink to prevent exhaustion. As the interindividual variation in time to exhaustion varies greatly whereas intraindividual variation is much less <ref type="bibr" target="#b15">(16)</ref>, the design of the present investigation was inspired by the study of Coyle et al. <ref type="bibr" target="#b11">(12)</ref>. In this design, participants received the placebo at the first test to determine the time points for measurements during the carbohydrate supplementation condition. In the present study, participants were blinded (single-blinded design) and exercised until exhaustion under the placebo condition at the first test to determine the quantity of work. In the second test, carbohydrate was supplied, and participants completed exactly the same amount of work before being stopped by the experimenter. The two interventions were separated by at least 7 d to allow participants to recover <ref type="bibr" target="#b16">(17)</ref><ref type="bibr" target="#b17">(18)</ref><ref type="bibr" target="#b18">(19)</ref>.</p><p>After the exercise, participants received a drink with carbohydrate (1.2 g carbohydrate•kg -1 ; 17%) that was to be consumed within 5 min. The last blood sample was collected 30 min after ingestion of this drink. After this blood sample and once they had provided the first urine sample after exercise, participants were served a standardized meal (composed of pasta, tomato sauce, chocolate protein pudding, and a banana). This meal had a macronutrient content of carbohydrate 2.02 g•kg -1 , protein 0.48 g•kg -1 , and fat 0.07 g•kg -1 (45.0 kJ•kg -1 ). The participants returned home with an additional drink and evening food. Participants were asked to consume a meal at 1600 h composed of oats, raisins, milk, and a banana. The macronutrient content of this meal was carbohydrate 2.51 g•kg -1 , protein 0.50 g•kg -1 , and fat 0.21 g•kg -1 (59.1 kJ•kg -1 ). During PLA, participants consumed a drink containing 1 g carbohydrate•kg -1 at 1700 h, whereas during CHO they received a similar-flavored water drink without energy. This was done to match the energy content of the carbohydrate drink consumed during the exhaustive exercise in CHO and avoid any energy difference between the two conditions that could explain differences in performance in the time trial test the next day <ref type="bibr" target="#b13">(14)</ref>. At 1900 h, participants had a prepared dinner (composed of couscous, kidney beans, corn, chopped tomatoes, milk, and an apple) with the following energy content: carbohydrate 2.02 g•kg -1 , protein 0.68 g•kg -1 , and fat 0.12 g•kg -1 (50.6 kJ•kg -1 ). Water was allowed ad libitum. Participants were not allowed to eat food other than that provided.</p><p>Day 2. The following day, participants reported to the laboratory at 0630 h after an overnight fast. If the participants lived further than 2 km from the laboratory, they were instructed to come by car or public transportation. A Venflon catheter was inserted into an antecubital vein. Participants were weighed and then prepared for the performance test. The performance test was defined as a time trial cycling exercise. At 0700 h, approximately 17 h after the end of the exhaustive exercise, participants completed the incremental fat oxidation profile warm-up. After 2 min recovery, a 10-s maximal sprint was performed (sprint 2). After that, participants cycled 15 min at W 68% . After 5 min of recovery, participants started the time trial TT, which was the same as during the familiarization day. Participants were blinded to time during TT and received only feedback on the accumulated external energy produced (percent from target total work output). They did not receive their TT performance times until they had completed both TT. Two minutes after TT, participants performed a 10-s maximal sprint (sprint 3).</p><p>After sprint 3, participants received a drink with carbohydrate (1.2 g carbohydrate•kg -1 ; 17%). The study was designed with similar total energy intakes in CHO and PLA during the protocol (Table <ref type="table" target="#tab_0">1</ref>). On days 1 and 2, there were mean intakes of carbohydrate 11.44 g•kg -1 , protein 1.67 g•kg -1 , and fat 0.40 g•kg -1 (238.0 kJ•kg -1 ). Over 24 h, this meant intakes of carbohydrate 13.08 g•kg -1 , protein 1.90 g•kg -1 , and fat 0.46 g•kg -1 (272.1 kJ•kg -1 ).</p><p>VO 2 and RER were measured continuously during the incremental fat oxidation profile warm-up, at the start and the end of the exercise at W 68% , at the start of TT, as the rider completed 20%, 40%, 60%, 80%, and continuously during the last 5% of TT. HR was recorded continuously. Participants reported a rate of perceived exertion according to the Borg scale. Gross efficiency was calculated during TT as [gross efficiency (%) = work accomplished (kJ)/energy expended (kJ) Â 100]. The energy expended was calculated using the VO 2 and RER measured continuously during TT <ref type="bibr" target="#b19">(20)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Biological Samples</head><p>Blood analyses. Venous blood samples were drawn anaerobically with a 1-mL heparinized syringe (SafePICO, Radiometer, Denmark) for blood gas parameter analysis. Venous blood samples were also drawn anaerobically with 10-mL heparinized syringes (Omnifix, B Braun, Melsungen, Germany), into 6-mL K2E K2EDTA tubes (Vacuette tubes; Greiner Bio-One, Kremsmünster, Austria) and into 5-mL lithium heparin tubes (Vacuette tubes, Greiner Bio-One) and placed on ice. Blood samples were collected before and at the end of the warm-up, before the exhaustive exercise (W 68% ), and every 30 min during the exercise at W 68% , at exhaustion at W 68% , at exhaustion at W 90% , and 30 min after all exercise (day 1). Blood samples were also collected before and at the end of the warm-up; before and at the end of the exercise at W 68% ; before, and at the 25%, 50%, 75% stages, and at the end of TT; and 30 min after all exercise (day 2).</p><p>All blood samples were kept on ice until centrifugation (2500 g; 10 min; 4°C), pipetted into 1.5-mL Eppendorf tubes, and stored at -80°C until subsequent analysis. All analytic processes were conducted according to the manufacturer's instructions.</p><p>Blood gas analyzer. Blood gas parameters and blood metabolite concentrations were determined with an ABL800 (Radiometer, Copenhagen, Denmark). Standard plasma bicarbonate, equilibrated to CO 2 and O 2 partial pressures of 40 and 100 mm Hg, respectively, was calculated according to the ABL800 instruction manual.</p><p>Plasma amino acids. Plasma amino acid (AA) concentrations were determined from blood samples collected into EDTA tubes at the start of W 68% and at the end of W 90% to quantify the effect of the exhaustive exercise on the amino acid plasma levels.</p><p>Plasma AA were quantified using liquid chromatographytandem mass spectrometry (LC-MS/MS). Briefly, isotopically labeled internal standards were added to plasma, followed by reduction of disulfides using dithioerythritol and then protein precipitation using 5-sulfosalicyclic acid. The extracts were diluted with an aqueous solution of formic acid (0.5%) and heptafluorobutyric acid (HFBA) (0.3%) before analysis. LC-MS/ MS was carried out using a Shimadzu LC-20ADXR Prominence LC system (Kyoto, Japan) coupled to a Sciex QTRAP5500 mass spectrometer with a Turbo V ion source and TurboIonspray probe (Framingham, MA). Chromatographic separation was achieved on a Phenomenex Kinetex Core Shell C18 (100 Â 4.6 mm, 2.6 μm) LC column (Torrance, CA) with an aqueous solution of formic acid (0.5%) and HFBA acid (0.3%) and acetonitrile gradient mobile phase. Positive mode multiple reaction monitoring was used for detection. Linear calibration curves of the peak area ratios of analyte and internal standard were used for quantification. The coefficients of variation for the analytes were 3.4% and 6.7%.</p><p>Plasma ammonia. Plasma ammonia was quantified from blood samples collected into EDTA tubes at the start of W 68% and the end of W 90% using an enzymatic UV kit (AM 1015; Randox Laboratories Ltd., Crumlin, United Kingdom).</p><p>Urine analyses. All the urine samples from the participants were collected in plastic containers in four consecutive batches: 1) from the start of day 1 until the start of exhaustive exercise (duration ~10 h), 2) from after the start of exhaustive exercise until the first urine after exhaustive exercise (~4 h), 3) from the first urine after exhaustive exercise until midnight of day 1 (~10 h), and 4) from midnight of day 1 until the start of TT (~7 h). Participants were instructed to void their bladders before the start of the exhaustive exercise. Volume was measured for each period, and a 15-mL sample was frozen at -20°C for analysis.</p><p>Urinary 3-methylhistidine. The urines from periods 2, 3, and 4 were mixed in proportions relative to the volume of urine during these periods. The concentration of 3-methylhistine was then quantified in these pooled urine samples using LC-MS/MS.</p><p>Calculation of nitrogen balance. The nitrogen concentration in the urine was analyzed using the Kjeldahl method <ref type="bibr" target="#b20">(21)</ref>. The nitrogen balance was calculated based on protein intake and urinary nitrogen excretion assuming that nitrogen makes up 16% of the protein and a nonurinary nitrogen loss of 23.2% <ref type="bibr" target="#b22">(22)</ref>. These calculations were carried out over a period of 21 h for the period of the protocol after the consumption of the drinks. Nitrogen intake was calculated assuming a nitrogen-to-amino acid constant of 6.25 <ref type="bibr" target="#b23">(23)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Calculation of Carbohydrate and Fat Oxidation</head><p>Carbohydrate and fat oxidation were calculated from RER, oxygen uptake, and nitrogen excretion, according to the method of Jeukendrup and Wallis <ref type="bibr" target="#b24">(24)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RPE</head><p>RPE was rated on the 6-20 Borg scale <ref type="bibr" target="#b25">(25)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statistics</head><p>All values are expressed as mean ± SEM. Shapiro-Wilk tests were carried out to investigate whether the data were normally distributed: the data passed these tests, and parametric tests were used. Two-way repeated-measures ANOVA were used to determine treatment differences, with treatment and time used as factors. When differences were detected, Tukey's honest significant difference post hoc test was performed. Performances during TT were compared using a paired sample t-test and calculating Cohen's d effect size by dividing their difference score by their pooled SD. Differences were considered significant when P &lt; 0.05. Statistical analyses were performed using Sigma Plot 14.0 software.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Exhaustive Exercise Day 1</head><p>Participants cycled to exhaustion at a relative intensity of 68.2% ± 0.7% of VO 2max , corresponding to a work rate of 236 ± 10 W (W 68% ). Participants cycled for 147 ± 17 min (range, 95 to 225 min) before voluntary exhaustion in PLA. After 5 min of recovery, they performed 8 ± 1 1-min intervals at 329 ± 18 W corresponding to 90% of VO 2max (W 90% ). Participants completed the same amount of exercise a week later while receiving CHO.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Indirect Calorimetry</head><p>RER was significantly higher in CHO compared with PLA during W 68% (CHO, 0.918 ± 0.004; PLA, 0.882 ± 0.005; P = 0.030) (Fig. <ref type="figure" target="#fig_0">2B</ref>), resulting in larger total carbohydrate oxidation (P = 0.018) (Table <ref type="table" target="#tab_1">2</ref>) and lower total fat oxidation in CHO than in PLA (CHO, 82 ± 12 g; PLA, 128 ± 25 g; P = 0.028). The protein oxidation was not significantly different between CHO and PLA (CHO, 25 ± 5 g; PLA, 28 ± 2 g; P = 0.599).</p><p>VO 2 , ventilation, HR, and RPE increased during W 68% (time effect, P &lt; 0.001), but with no significant difference between conditions (Fig. <ref type="figure" target="#fig_0">2A</ref>, <ref type="figure">E</ref>, <ref type="figure">F</ref>, <ref type="figure">G</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Plasma Metabolites</head><p>The plasma glucose concentration continually decreased from 5.2 ± 0.2 mM at baseline to 3.7 ± 0.4 mM at exhaustion in PLA (P &lt; 0.001) (Fig. <ref type="figure" target="#fig_0">2H</ref>). The plasma glucose concentration did not change during the exhaustive exercise in CHO (P = 0.523): from 5.1 ± 0.1 mM at baseline of W 68% to 4.7 ± 0.1 mM at the end of W 90% , leading to a significant interaction effect (time-condition, P &lt; 0.0001).</p><p>Participants performed a 10-s maximal sprint 2 min before W 68% started. Therefore, the plasma lactate concentration was high at the start of W 68% . In CHO and PLA, plasma lactate concentrations did not differ significantly (P = 0.176) during the exhaustive exercise (Fig. <ref type="figure" target="#fig_0">2I</ref>).</p><p>The plasma potassium concentration increased continually during exercise in both CHO and PLA (time effect P &lt; 0.0001). At the end of W 90% , plasma concentrations of potassium were significantly higher in CHO than in PLA (P = 0.005) (Fig. <ref type="figure" target="#fig_0">2J</ref>).</p><p>The plasma bicarbonate concentration decreased during the incremental fat oxidation profile warm-up and the initial sprint before increasing continually during W 68% toward the rested value in both CHO and PLA (time effect P &lt; 0.0001) (Fig. <ref type="figure" target="#fig_0">2K</ref>).</p><p>The plasma ammonia concentration was not different before exercise and at exhaustion between CHO and PLA. There was also no significant effect of the exhaustive exercise between the two conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Postexercise Recovery Drink</head><p>Post-W 90% , the participants consumed a recovery carbohydrate drink under both conditions. Plasma glucose rose in both CHO and PLA (CHO, from 4.7 ± 0.1 mM after W 90% to 6.6 ± 0.3 mM 30 min after the consumption of the recovery drink; PLA, from 3.7 ± 0.4 mM to 6.3 ± 0.5 mM; time effect P &lt; 0.001). There was no significant difference in the increase between the conditions (P = 0.541). Moreover, plasma lactate concentrations decreased 30 min after the consumption of the recovery drink, with no difference between conditions (P = 0.600).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Performance Day 2</head><p>Incremental fat oxidation profile warm-up. During the initial incremental fat oxidation profile warm-up on day 2, fat oxidation (P = 0.066) tended to be higher on day 2 after PLA than after CHO. Maximal fat oxidation was 0.61 g•min -1 after PLA and 0.55 g•min -1 after CHO (P = 0.149). Fat max was 39.2% VO 2max after PLA and 36.5% VO 2max after CHO (P = 0.264). VO 2 , HR, and RPE increased with exercise intensity (P &lt; 0.001) but with no significant difference between conditions (Supplemental Fig. <ref type="figure">1</ref>, Supplemental Digital Content, Metabolic and blood parameters during the incremental fat oxidation profile warm-up on day 2, <ref type="url" target="http://links.lww.com/MSS/C894">http://links.lww.  com/MSS/C894</ref>).</p><p>Sprint 2. During the following 10-s maximal sprint (sprint 2), mean power output was significantly higher after CHO than after PLA (CHO, 1024 ± 62 W; PLA, 951 ± 86 W; P = 0.011) (Fig. <ref type="figure">3C</ref>) and decreased from day 1 (sprint 1) only  in PLA (P = 0.009). During sprint 1 on day 1, there was no significant difference in mean power output between the two conditions (CHO, 1050 ± 59 W; PLA, 1060 ± 71 W; P = 0.716). Pre-TT. After the sprint, participants cycled for 15 min at the same power output of W 68% as the exhaustive exercise on day 1 (Pre-TT). Ventilation (P = 0.018), HR (P = 0.020), and RPE (P = 0.002) were higher on day 2 than during the first 15 min on day 1 (Pre-TT vs W 68% ).</p><p>Gross efficiency decreased during W 68% on day 1 in both PLA and CHO, with no difference between the two conditions (P = 0.708). During Pre-TT, gross efficiency returned to the baseline level at the start of W 68% on day 1 after both CHO and PLA (Fig. <ref type="figure">3D</ref>).</p><p>VO 2 , RER, carbohydrate oxidation, fat oxidation, ventilation, HR, and RPE did not significantly differ between conditions during Pre-TT. Plasma glucose and lactate decreased significantly during Pre-TT (glucose, P = 0.005; lactate, P = 0.005) with no difference between conditions (glucose, P = 0.144; lactate, P = 0.101) (Fig. <ref type="figure" target="#fig_1">4H</ref>, <ref type="figure">I</ref>). Plasma glucose tended to be lower at the start of Pre-TT than of W 68% on day 1 (P = 0.052), but not significantly after CHO compared with after PLA (CHO, day 1 = 5.2 ± 0.1 mM, day 2 = 4.9 ± 0.1 mM, P = 0.112; PLA, day 1 = 5.3 ± 0.2 mM, day 2 = 5.0 ± 0.1 mM; interaction P = 0.153).</p><p>Time trial. After CHO, participants performed TT 2.4% faster than after PLA (CHO, 41:49 ± 1:38 min; PLA, 42:50 ± 1:46 min; P = 0.020; effect size d = 0.23, small) (Fig. <ref type="figure">3A</ref>), with a significantly higher mean power output (CHO, 268 ± 4 W; PLA, 261 ± 4 W; P = 0.007) (Fig. <ref type="figure">3B</ref>).</p><p>Gross efficiency during TT was significantly higher on average after CHO than after PLA (P = 0.019) (Fig. <ref type="figure">3E</ref>). Starting from the same level of gross efficiency at the start of TT, participants maintained better gross efficiency during the remainder of TT after CHO (Fig. <ref type="figure">3F</ref>).</p><p>Furthermore, after PLA, TT performance was significantly lower than during the familiarization session (P = 0.030) but not after CHO (P = 0.058). The familiarization session was performed rested and was completed in 39:14 ± 0:55 min with a mean power output of 281 ± 5 W.</p><p>VO 2 , RER, carbohydrate oxidation, fat oxidation, HR, RPE, and ventilation increased during TT (P &lt; 0.001), but with no significant difference between the two conditions, although after CHO the participants cycled at a significantly higher power output (Fig. <ref type="figure" target="#fig_1">4A</ref>, <ref type="figure">B</ref>, <ref type="figure">C</ref>, <ref type="figure">D</ref>, <ref type="figure">E</ref>, <ref type="figure">F</ref>, <ref type="figure">G</ref>).</p><p>Plasma glucose decreased during the start of TT before increasing continually toward the end (time effect, P &lt; 0.0001) (Fig. <ref type="figure" target="#fig_1">4H</ref>). Plasma glucose was significantly higher after PLA than after CHO (P = 0.005). There were no significant differences between interventions during TT concerning plasma concentrations of lactate (P = 0.078) (Fig. <ref type="figure" target="#fig_1">4I</ref>). Only the lactate concentration at the end of TT was significantly higher after PLA than after CHO (P = 0.002).</p><p>Sprint 3. The participants finished the performance session on day 2 with a second 10-s maximal sprint 2 min after TT (sprint 3). The mean power output was not significantly different between conditions (CHO, 996 ± 76 W; PLA, 951 ± 67 W; P = 0.103). However, it should be noted that mean power output after PLA appeared significantly lower during sprint 3 than sprint 1 (P = 0.009), but there was no significant difference after CHO (P = 0.277).</p><p>Nitrogen balance and urinary nitrogen excretion. During the 21-h study period, nitrogen intake was 266.5 ± 3.7 mg•kg -1 (20.7 ± 0.7 g), assuming that nitrogen makes up 16% of the protein (in mass) <ref type="bibr" target="#b23">(23)</ref>. Relative total nitrogen excretions during this period were 232.3 ± 15.2 mg•kg -1 for CHO and 234.5 ± 11.6 mg•kg -1 for PLA (Fig. <ref type="figure" target="#fig_2">5A</ref>) and were not significantly different (P = 0.897). Moreover, the nitrogen balance in the two conditions was positive (CHO, 34.2 ± 14.6 mg•kg -1 ; PLA, 32.0 ± 11.1 mg•kg -1 ), and there was no significant difference between the two conditions (P = 0.803). Urine nitrogen excretion, normalized for time, did not significantly differ between the two conditions (P = 0.635; start day 1, P = 0.732; exercise, P = 0.713; end day 1, P = 0.511; start day 2, P = 0.345) (Fig. <ref type="figure" target="#fig_2">5B</ref>). However, there was a significant effect of time (P &lt; 0.0001) on the relative total nitrogen excretion: these quantities were significantly higher at the start of day 2 than during exercise (P &lt; 0.001) and at the end of day 1 (P = 0.002) as well as at the start of day 1 compared with during exercise (P = 0.006).</p><p>Plasma amino acid concentrations on day 1. Plasma amino acid concentrations were measured before exercise and at exhaustion on day 1 (Table <ref type="table" target="#tab_2">3</ref> and Supplemental Table <ref type="table" target="#tab_0">1</ref>, Supplemental Digital Content, Plasma amino acid concentrations before and after exhaustive exercise in PLA and CHO, <ref type="url" target="http://links.lww.com/MSS/C894">http://  links.lww.com/MSS/C894</ref>).</p><p>The plasma concentrations of the AA tyrosine and phenylalanine increased from before to after exhaustive exercise (W 68% and W 90% ) only in PLA (tyrosine, the difference from zero P = 0.025; phenylalanine, P = 0.008) and remained stable in CHO (tyrosine, P = 0.483; phenylalanine, P = 0.677) (Table <ref type="table" target="#tab_2">3</ref>). Moreover, plasma tyrosine (P = 0.033) and phenylalanine (P = 0.026) concentrations increased more in PLA than in CHO (Fig. <ref type="figure" target="#fig_2">5D</ref>).</p><p>The plasma concentrations of branched-chain amino acid (BCAA) decreased at exhaustion in both conditions (Table <ref type="table" target="#tab_2">3</ref>), but more in CHO than in PLA (P &lt; 0.001) (Fig. <ref type="figure" target="#fig_2">5C</ref>).</p><p>3-Methylhistidine excretion. 3-Methylhistidine excretion in the pooled urine samples was lower in CHO (86.3 ± 15.6 μmol) than in PLA (109.3 ± 48.9 μmol) but was not significantly different between the two conditions (P = 0.673) (Fig. <ref type="figure" target="#fig_2">5E</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Time trial performance was ~1 min (2.4%) better the day after ~2.5 h of fatiguing exercise while consuming a carbohydrate drink compared with after the same exercise carried out while consuming a similar-flavored placebo drink. Nitrogen-and 3-methylhistidine excretion were similar in both conditions, which argues against our hypothesis that carbohydrate intake would reduce protein degradation. However, this hypothesis is supported by the higher tyrosine and phenylalanine plasma concentrations at exhaustion and a lower gross efficiency during the time trial in PLA than in CHO.</p><p>Carbohydrate intake maintained carbohydrate availability. Inspired by Coyle et al. <ref type="bibr" target="#b11">(12)</ref>, the present experimental study was designed for participants to reach exhaustion in PLA on day 1. By contrast, ingestion of carbohydrate would prevent exhaustion and reduce metabolic stress. It is well-documented that carbohydrate intake during exercise prolongs time to exhaustion <ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b13">(14)</ref><ref type="bibr" target="#b26">26,</ref><ref type="bibr" target="#b27">27)</ref>. As in Coyle et al. <ref type="bibr" target="#b11">(12)</ref>, there was no significant difference between the conditions during exercise on day 1 in RPE, oxygen uptake, and HR. Plasma lactate concentration tended to be higher in PLA, as Coyle et al. ( <ref type="formula">12</ref>) also reported, but the prevention of the development of exhaustion was mainly induced by the maintenance of carbohydrate availability.</p><p>Ingesting carbohydrates during exercise significantly increased carbohydrate oxidation during exercise (518 ± 55 g in CHO vs 426 ± 31 g in PLA) and supports the findings of Coyle et al. <ref type="bibr" target="#b11">(12)</ref>. The carbohydrate intake in CHO was 193 ± 21 g, leading to a net utilization of endogenous glycogen of 325 ± 34 g in CHO. This was significantly lower than the net carbohydrate oxidation in PLA from endogenous reserves. However, Coyle et al. <ref type="bibr" target="#b11">(12)</ref> did not report any difference in glycogen utilization between cycling to exhaustion with or without carbohydrate ingestion: the increase in net carbohydrate oxidation came from greater glucose availability in the blood. In the present study, carbohydrate intake during exercise prevented the decline in plasma glucose observed in PLA. Participants did not reach hypoglycemia at exhaustion in CHO, in agreement with Coyle et al. <ref type="bibr" target="#b11">(12)</ref>. Similarly, plasma glucose was maintained at resting levels during the whole cycling exercise in CHO. All this indicates that ingesting carbohydrates during exercise maintained carbohydrate availability.</p><p>Protein degradation measured with urinary nitrogen excretion. In the present study, nitrogen excretion was not different between conditions. Our hypothesis was that ingesting carbohydrates during exercise would reduce urinary nitrogen excretion. Indeed previous studies have shown greater protein degradation when endogenous carbohydrate availability was limited <ref type="bibr" target="#b5">(6,</ref><ref type="bibr" target="#b7">8)</ref>. Based on our data, carbohydrate availability was maintained during exercise in CHO, but this did not lead to a difference in urinary nitrogen excretion.</p><p>Rustad et al. <ref type="bibr" target="#b8">(9)</ref> reported in a double-blinded, randomized, balanced crossover design with exhaustive exercises on two consecutive days that nitrogen excretion was lower when carbohydrate was ingested in recovery (PLA, 195.8 ± 13.6 mg•kg -1 ; CHO, 169.7 ± 9.3 mg•kg -1 ; P = 0.05). Similarly, the ingestion of 100 g of carbohydrate 1 h after a resistance exercise bout (10 sets of 8 repetitions of leg presses at 80% of 1RM) resulted in decreased muscle protein breakdown compared with the placebo <ref type="bibr" target="#b28">(28)</ref>. Nitrogen excretion provides a reasonable estimate of whole-body protein degradation (29): a parallel can be drawn between nitrogen excretion and protein degradation. This suggests that a lower energy and/or carbohydrate availability increased nitrogen excretion in the above studies. In the present study, the diet was standardized and the energy intake was exactly similar between the conditions as well as the carbohydrate intake. Only the timing of the intake differed.</p><p>Differences in nitrogen excretion in other compartments, such as sweat and feces, may explain the absence of difference in nitrogen excretion. Lemon and Mullin (6) reported higher sweat nitrogen concentrations during exercise with low carbohydrate availability than with high. This was not considered in the present study, in which, due to practical considerations, nitrogen excretion in sweat was estimated. A measurement of sweat nitrogen excretion could have led to differences between the conditions, especially because the sweat rate was significantly higher in PLA than in CHO (P = 0.049).</p><p>Protein degradation measured with urinary 3-methylhistidine excretion. 3-Methylhistidine constitutes an integral part of the myofibrillar proteins found in both actin and myosin <ref type="bibr" target="#b14">(15)</ref>. It is neither reutilized for protein synthesis <ref type="bibr" target="#b30">(30)</ref> nor metabolized <ref type="bibr" target="#b31">(31)</ref> and is excreted in the urine. Consequently, the urinary excretion of 3-methylhistidine may be used to estimate the rate of myofibrillar protein breakdown <ref type="bibr" target="#b32">(32,</ref><ref type="bibr" target="#b33">33)</ref>. In the present study, participants consumed a 3-methylhistidine-free diet for the last 3 d before each intervention's start and during the study protocol. An increase in 3-methylhistidine excretion would thus mean an increase in myofibrillar protein breakdown. Table 1, Supplemental Digital Content, Plasma amino acid concentrations before and after exhaustive exercise in PLA and CHO, <ref type="url" target="http://links.lww.com/MSS/C894">http://links.lww.com/MSS/C894</ref>). The BCAA concentration is the sum of the concentrations of leucine, isoleucine, and valine. Values are presented as mean ± SEM. *P &lt; 0.05, compared with placebo (PLA).</p><p>Urinary 3-methylhistidine excretion was not significantly different between the conditions. Our data do not support the idea that carbohydrate intake reduces degradation in the myosin and actin muscles' myofibrillar protein compartment.</p><p>In the present study, daily urinary excretion of 3-methylhistidine was 98.6 ± 17.8 μmol•day -1 in CHO and 124.9 ± 55.1 μmol•day -1 in PLA. Both were lower than the mean daily urinary excretion of 3-methylhistidine in a similar meat-free diet, which has been reported to be ~200 μmol•day -1 <ref type="bibr" target="#b34">(34,</ref><ref type="bibr" target="#b35">35)</ref>. This could be explained by the fact that the urinary production of 3-methylhistidine is said to fall during exercise <ref type="bibr" target="#b36">(36)</ref>. Similarly, Carraro et al. <ref type="bibr" target="#b37">(37)</ref> did not show an increase in 3-methylhistidine excretion during an exercise versus a control period. However, excretion was significantly elevated in the samples after the exercise period. Measuring 3-methylhistidine excretion during the days after the exhaustive exercise could resolve this issue. Including a control day without exercise in this study could also have made it possible to measure the basal level of urinary excretion of 3-methylhistidine and thus helped to interpret the difference between the conditions.</p><p>Protein degradation measured with tyrosine and phenylalanine. Plasma tyrosine and phenylalanine concentrations increased significantly in PLA during the exhaustive exercise, but not in CHO. These two AA are not metabolized in skeletal muscles, and their release from skeletal muscle, measured with arterio-venous difference, is used as a marker of skeletal muscle protein degradation <ref type="bibr" target="#b38">(38)</ref>. Unfortunately, Blomstrand et al. <ref type="bibr" target="#b39">(39,</ref><ref type="bibr" target="#b40">40)</ref> did not report plasma tyrosine and phenylalanine concentrations, but other studies have reported increased plasma concentrations of tyrosine and phenylalanine with exercise. Although increased plasma tyrosine and phenylalanine concentrations during exercise are not established markers of protein degradation, the increased plasma tyrosine and phenylalanine concentration must have resulted from either an increase of their release from tissues or a decrease in their uptake and metabolism in the liver.</p><p>Tyrosine and phenylalanine are taken up by the liver at rest, and exercise of an intensity close to that of the present study decreased the absorption of tyrosine and phenylalanine by the liver <ref type="bibr" target="#b41">(41)</ref>. However, the order of magnitude of the decrease in absorption reported (~1.5 μmol•min -1 ) cannot fully explain the increase in concentration reported in the present study. In the present study, the increase in concentration of tyrosine and phenylalanine was ~20 μM in PLA, which indicates a total release of ~100 μmol of tyrosine and phenylalanine (with an estimated blood volume of ~5 L). Hence, it seems likely that part of the increase in tyrosine and phenylalanine is the result of increased release from muscles or other tissues. This release may not come from the skeletal muscles' free amino acid pool, as Essén-Gustavsson and Blomstrand <ref type="bibr" target="#b42">(42)</ref> reported that the quantity of tyrosine and phenylalanine increased in this pool during a cycling exercise. In addition, whereas phenylalanine is an essential amino acid and tyrosine is metabolized from phenylalanineand in humans <ref type="bibr" target="#b38">(38)</ref>, it indicates that a release of these AA from muscles is likely to come from increased protein degradation during exercise.</p><p>However, it is important to note that CHO prevented the increase in plasma concentrations of tyrosine and phenylalanine occurring in PLA, which may suggest that carbohydrate intake during exercise reduced protein degradation. Further studies are required to establish the origin of the increase in plasma tyrosine and phenylalanine concentrations during exercise and whether the increase is a valid marker for protein degradation.</p><p>Performance. TT performance and gross efficiency were significantly better the day after CHO than after PLA: this indicates the development of less fatigue and/or an improved recovery after the CHO trial. No other parameters (oxygen consumption, RPE, HR, and carbohydrate oxidation) significantly differed between conditions during TT that could explain the difference in performance. Glucose and lactate concentrations were higher after PLA during TT, but the later intake of carbohydrates in PLA compared with CHO during the evening could explain this difference.</p><p>Both conditions showed reduced TT performance compared with the rested state measured during familiarization. After CHO, performance was better maintained compared with after PLA. Even if the purpose of this test was familiarization, it still gives some indication of an incomplete recovery on day 2 after both CHO and PLA. Another marker of a poorer recovery after PLA compared with after CHO is the mean power output during the sprint at the start of day 2 (sprint 2): it was also lower in PLA than in CHO, and there was no difference at the start of day 1 (sprint 1). These findings suggest that either carbohydrate intake during the exhaustive exercise on day 1 reduced metabolic stress and the development of fatigue (during or after exercise) or gross efficiency was maintained through maintained muscle function with less protein degradation. To support this, in another study, participants had varying levels of recovery after an exercise to exhaustion after the ingestion of supplements in recovery <ref type="bibr" target="#b9">(10)</ref>: the results were that the more complete the recovery and the less protein degradation, the better the performance was maintained in a time trial the following day.</p><p>Other factors for the maintenance of performance. Significantly higher plasma potassium concentrations on day 2 after PLA compared with after CHO also indicate more pronounced fatigue after PLA than after CHO, as increased plasma potassium concentrations have been identified as a marker of muscle fatigue <ref type="bibr" target="#b43">(43)</ref>. All this goes toward reduced metabolic stress and development of fatigue.</p><p>In addition, Coyle et al. <ref type="bibr" target="#b11">(12)</ref> reported no glycogen sparing with carbohydrate intake during an exhaustive exercise. In the present study, participants received the same amount of carbohydrates after the exercise in PLA as during exercise in CHO. The energy intake during day 1 was identical between the two conditions. Therefore, we have no reason to believe glycogen was lower at day 2 in one of the conditions and that this could have explained the difference in TT performance.</p><p>Differences in BCAA metabolism. Plasma BCAA concentrations decreased significantly in PLA during the exhaustive exercise, as reported previously <ref type="bibr" target="#b8">(9,</ref><ref type="bibr" target="#b9">10)</ref>. Interestingly, the plasma BCAA concentrations decreased more in CHO than in PLA. In compliance with our results, previous studies found a more pronounced reduction in plasma BCAA concentrations during exercise while consuming carbohydrates compared with a placebo <ref type="bibr" target="#b39">(39,</ref><ref type="bibr" target="#b40">40)</ref>. However, previous studies reported on smaller differences between the effects of CHO and PLA during exercise than in the present study. This may be because the present study was the first to address the impact during an exhaustive exercise: exhaustive exercise has previously been shown to induce more significant responses in plasma AA concentrations <ref type="bibr" target="#b8">(9,</ref><ref type="bibr" target="#b9">10)</ref> than nonexhaustive exercise <ref type="bibr" target="#b39">(39,</ref><ref type="bibr" target="#b40">40,</ref><ref type="bibr" target="#b44">44,</ref><ref type="bibr" target="#b45">45)</ref>.</p><p>One possible explanation for the greater decrease in plasma BCAA concentrations in CHO could be an increased metabolism of BCAA in CHO compared with PLA. BCAA can undergo a transamination with the Krebs cycle intermediate α-ketoglutarate <ref type="bibr" target="#b46">(46)</ref>. The consumption of carbohydrates during exercise increases the glycolytic flux and, subsequently, the flux of the Krebs cycle <ref type="bibr" target="#b47">(47,</ref><ref type="bibr" target="#b48">48)</ref>. Consequently, more BCAA can be transaminated with carbohydrate ingestion, which could explain the more significant decrease in plasma BCAA concentrations in CHO.</p><p>However, the body has few possibilities to store AA (49), and there was no protein intake before and during the exhaustive exercise. The plasma BCAA must therefore come from endogenous stores of AA: the free AA pool of BCAA in skeletal muscles has been reported to be around 2500-3000 mg <ref type="bibr" target="#b42">(42,</ref><ref type="bibr" target="#b45">45,</ref><ref type="bibr" target="#b50">50)</ref>. In the present study, the utilization of BCAA represented 77.26 ± 9.11 mg of BCAA in CHO and 42.40 ± 8.76 mg in PLA (condition effect, P &lt; 0.0001). Therefore, these quantities could likely have come from the free amino acid pool in muscle and do not imply the need to break down muscle proteins.</p><p>Strengths and limitations. The strengths of this study were a single-blinded, balanced crossover design, the inclusion of well-trained cyclists familiarized with the tests, and the standardization of the diet and training the day before and during the 2 d of the protocol. One limitation is the nonrandomization of the order of consumption of drinks. Participants were expected to have a longer time to exhaustion in the CHO condition <ref type="bibr" target="#b11">(12)</ref><ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b13">(14)</ref><ref type="bibr" target="#b26">26,</ref><ref type="bibr" target="#b27">27)</ref>. Hence, the placebo condition had to be performed first to determine the quantity of work they could produce before being exhausted. However, conditions were separated by at least 7 d, and no difference in recovery or performance markers during the incremental fat oxidation profile warm-up or sprint 1 indicates that recovery was incomplete. Additionally, in a similar exercise design, repeating the placebo condition 1 wk after the cycling exercise to exhaustion while ingesting carbohydrate resulted in only a 4% variation in time to exhaustion compared with the first exercise until exhaustion with placebo: this suggests that the order of these exercises only causes a slight variation in the results <ref type="bibr" target="#b11">(12)</ref>. Another limitation is the absence of muscle biopsies in the design that could enable measurements of muscle glycogen levels during the 2 d of the protocol. Muscle concentrations of free AA could also have been measured to refine estimates of the effects of exercise. Another area for improvement is the relatively low sample number and statistical power of some variables.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>In conclusion, ingesting a carbohydrate drink during an exhaustive exercise reduced deterioration in next-day performance compared with a placebo drink. Maintained gross efficiency explained this performance difference during the time trial. Carbohydrate intake during the exhaustive exercise maintained carbohydrate availability and reduced metabolic stress and the development of fatigue. Carbohydrate intake also induced a better recovery by preventing, to some degree, the muscle damage that occurs during exhaustive exercise. This study highlights the importance of consuming carbohydrates during long-lasting exercise to maintain subsequent performance. Carbohydrate ingestion during exercise is even more critical during competitions over consecutive days.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIGURE 2 -</head><label>2</label><figDesc>FIGURE 2-Metabolic and blood parameters during the exhaustive exercise W 68% on day 1. A, Absolute oxygen consumption. B, RER. C, Absolute carbohydrate oxidation. D, Absolute fat oxidation. E, Rate of perceived exertion. F, HR. G, Ventilation. H, Venous plasma glucose concentration (mM). I, Venous plasma lactate concentration (mM). Note that venous plasma lactate concentrations are high at the start of exercise due to the maximum sprint performed 2 min before the start of exercise until exhaustion. J, Venous plasma potassium K + concentration (mM). K, Standard venous plasma bicarbonate concentration (mM). Values are presented as mean ± SEM. *P &lt; 0.05, time points with differences between carbohydrate (CHO) and placebo (PLA).</figDesc><graphic coords="6,112.20,37.87,360.69,236.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIGURE 4 -</head><label>4</label><figDesc>FIGURE 4-Metabolic and blood parameters during Pre-TT and TT on day 2. A, Absolute oxygen consumption. B, RER. C, Absolute carbohydrate oxidation. D, Absolute fat oxidation. E, Rate of perceived exertion. F, HR. G, Ventilation. H, Venous plasma glucose concentration (mM). I, Venous plasma lactate concentration (mM). Note that venous plasma lactate concentrations are high at the start of exercise due to the maximum sprint completed 2 min before the start of Pre-TT. J, Venous plasma potassium K + concentration (mM). K, Venous plasma bicarbonate concentration (mM). Values are presented as mean ± SEM. *P &lt; 0.05, time points with differences between carbohydrate (CHO) and placebo (PLA).</figDesc><graphic coords="8,112.20,415.79,360.69,240.09" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIGURE 5 -</head><label>5</label><figDesc>FIGURE 5-Urine nitrogen concentration during the 21-h study protocol period and difference in plasma amino acid concentrations before and after exhaustive exercise A, Relative levels of total urine nitrogen. B, Relative levels of total urine nitrogen through the various periods adjusted for time. C, Difference in plasma BCAA concentrations during exhaustive exercise. D, Difference in plasma tyrosine and phenylalanine concentrations during exhaustive exercise. E, 3-Methylhistidine excretion. The differences in plasma amino acid concentrations were calculated as the concentration after exercise minus the concentration before exercise. A negative value indicates that the concentration after is less than the value before. Values are presented as mean ± SEM. *P &lt; 0.05, compared with carbohydrate (CHO). #P &lt; 0.05, the effect of the time.</figDesc><graphic coords="9,112.20,37.87,360.69,378.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="2,304.44,37.87,246.46,370.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="7,112.20,151.03,360.69,504.91" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1 .</head><label>1</label><figDesc>Energy intake and content of macronutrients for the different standardized meals and supplements during the study protocol.</figDesc><table><row><cell>Carbohydrate (g•kg -1 )</cell><cell>Protein (g•kg -1 )</cell><cell>Fat (g•kg -1 )</cell><cell>Energy Content (kJ•kg -1 )</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE 2 .</head><label>2</label><figDesc>Carbohydrate oxidation during exercise after consumption of the drinks on day 1.</figDesc><table><row><cell>Carbohydrate Oxidation (g)</cell><cell>CHO</cell><cell>PLA</cell><cell>P</cell></row><row><cell>W 68%</cell><cell>467 ± 50</cell><cell>386 ± 30</cell><cell>0.020</cell></row><row><cell>W 90%</cell><cell>50 ± 7</cell><cell>40 ± 5</cell><cell>0.047</cell></row><row><cell>Total</cell><cell>518 ± 55</cell><cell>426 ± 31</cell><cell>0.022</cell></row></table><note><p>Values are obtained from indirect calorimetry measurements. Values are presented as mean ± SEM.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>TABLE 3 .</head><label>3</label><figDesc>The change in plasma amino acid concentrations (μM) from before to after the exhaustive exercise (W 68% ) in the PLA or CHO trials.</figDesc><table><row><cell></cell><cell>ΔPLA (μM)</cell><cell>ΔCHO (μM)</cell><cell>Difference Trials ( P-Value)</cell></row><row><cell>Phenylalanine</cell><cell>10.6 ± 2.7</cell><cell>1.0 ± 2.2*</cell><cell>0.026</cell></row><row><cell>Tyrosine</cell><cell>8.2 ± 2.8</cell><cell>-1.5 ± 2.1*</cell><cell>0.033</cell></row><row><cell>Leucine</cell><cell>-16.6 ± 4.2</cell><cell>-36.5 ± 4.1*</cell><cell>P &lt; 0.001</cell></row><row><cell>Isoleucine</cell><cell>-7.1 ± 2.7</cell><cell>-17.3 ± 3.7*</cell><cell>0.017</cell></row><row><cell>Valine</cell><cell>-37.5 ± 11.9</cell><cell>-64.0 ± 8.9*</cell><cell>0.009</cell></row><row><cell>BCAA</cell><cell>-61.2 ± 17.4</cell><cell>-117.8 ± 16.0*</cell><cell>P &lt; 0.001</cell></row><row><cell>Glutamic acid</cell><cell>9.1 ± 4.0</cell><cell>22.5 ± 3.4*</cell><cell>0.004</cell></row><row><cell>Aspartic acid</cell><cell>0.1 ± 0.5</cell><cell>1.1 ± 0.5*</cell><cell>0.045</cell></row><row><cell>Alanine</cell><cell>-66.5 ± 41.8</cell><cell>-77.5 ± 18.3</cell><cell>0.777</cell></row><row><cell>Glutamine</cell><cell>-42.7 ± 42.3</cell><cell>-47.5 ± 22.3</cell><cell>0.912</cell></row><row><cell>Arginine</cell><cell>-14.4 ± 7.3</cell><cell>-13.4 ± 3.6</cell><cell>0.846</cell></row><row><cell>Asparagine</cell><cell>-3.9 ± 5.7</cell><cell>-6.5 ± 3.0</cell><cell>0.599</cell></row><row><cell>Cysteine</cell><cell>29.9 ± 8.6</cell><cell>33.6 ± 4.9</cell><cell>0.720</cell></row><row><cell>Glycine</cell><cell>-35.8 ± 16.2</cell><cell>-39.2 ± 6.7</cell><cell>0.814</cell></row><row><cell>Histidine</cell><cell>-4.4 ± 7.6</cell><cell>-6.3 ± 2.4</cell><cell>0.778</cell></row><row><cell>Lysine</cell><cell>-28.4 ± 11.4</cell><cell>-26.1 ± 8.2</cell><cell>0.779</cell></row><row><cell>Methionine</cell><cell>1.6 ± 1.4</cell><cell>-0.2 ± 0.8</cell><cell>0.304</cell></row><row><cell>Proline</cell><cell>-53.7 ± 15.1</cell><cell>-61.8 ± 12.4</cell><cell>0.362</cell></row><row><cell>Serine</cell><cell>-9.3 ± 6.0</cell><cell>-22.9 ± 4.2</cell><cell>0.094</cell></row><row><cell>Threonine</cell><cell>-18.9 ± 10.2</cell><cell>-16.8 ± 4.7</cell><cell>0.811</cell></row><row><cell>Tryptophan</cell><cell>4.2 ± 1.6</cell><cell>2.6 ± 1.6</cell><cell>0.575</cell></row><row><cell>Creatinine</cell><cell>21.4 ± 6.2</cell><cell>27.1 ± 5.4</cell><cell>0.410</cell></row><row><cell>Cystathionine</cell><cell>0.3 ± 0.1</cell><cell>0.2 ± 0.0</cell><cell>0.094</cell></row><row><cell>Glutathione</cell><cell>1.5 ± 0.4</cell><cell>1.8 ± 0.3</cell><cell>0.547</cell></row><row><cell>Homocysteine</cell><cell>0.7 ± 0.4</cell><cell>1.2 ± 0.3</cell><cell>0.343</cell></row><row><cell>Ornithine</cell><cell>-11.9 ± 2.8</cell><cell>-14.4 ± 2.4</cell><cell>0.210</cell></row><row><cell>Taurine</cell><cell>70.5 ± 18.8</cell><cell>92.2 ± 11.6</cell><cell>0.116</cell></row><row><cell cols="4">The raw values before and after the exhaustive exercise can be obtained in the supplements</cell></row><row><cell>(Supplemental</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>The authors thank the volunteers for participating and cooperating during the study.</p><p>Internal funding from the <rs type="funder">Norwegian School of Sport Sciences</rs> supported this investigation.</p><p>Author contributions: conception and design of the experiment, M. C., E. I. J., B. S. S., and J. J.; data collection, M. C., Ø. S., M. R. D., D. V., N. E. B., and K. J. K.; analysis of data, M. C.; interpretation of data, M. C., Ø. S., B. S. S., and J. J.; writing the first draft, M. C.; revising the manuscript, all authors.</p><p>All authors have read and approved the final version of the manuscript.</p><p>Conflict of interest: The authors declare that they have no conflicts of interest regarding the publication of this paper. There are no financial conflicts of interest to disclose. The results of the study are presented clearly, honestly, and without fabrication, falsification, or inappropriate data manipulation. The results of the present study do not constitute an endorsement by the <rs type="funder">American College of Sports Medicine</rs>.</p><p>Data availability statement: The data supporting this study's findings are available from the corresponding author upon reasonable request.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Regulation of endogenous fat and carbohydrate metabolism in relation to exercise intensity and duration</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Romijn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Coyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Sidossis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">265</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note>Pt 1):E380-91</note>
+	<note type="raw_reference">Romijn JA, Coyle EF, Sidossis LS, et al. Regulation of endogenous fat and carbohydrate metabolism in relation to exercise intensity and duration. Am J Physiol. 1993;265(3 Pt 1):E380-91.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The effects of increasing exercise intensity on muscle fuel utilisation in humans</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Van Loon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Greenhaff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Constantin-Teodosiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Saris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Wagenmakers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">536</biblScope>
+			<biblScope unit="page" from="295" to="304" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note>Pt 1</note>
+	<note type="raw_reference">van Loon LJ, Greenhaff PL, Constantin-Teodosiu D, Saris WH, Wagenmakers AJ. The effects of increasing exercise intensity on mus- cle fuel utilisation in humans. J Physiol. 2001;536(Pt 1):295-304.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Coingestion of protein and carbohydrate in the early recovery phase, compared with carbohydrate only, improves endurance performance despite similar glycogen degradation and AMPK phosphorylation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Dahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Areta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Jeppesen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="297" to="310" />
+			<date type="published" when="1985">1985. 2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dahl MA, Areta JL, Jeppesen PB, et al. Coingestion of protein and carbohydrate in the early recovery phase, compared with carbohy- drate only, improves endurance performance despite similar glyco- gen degradation and AMPK phosphorylation. J Appl Physiol (1985). 2020;129(2):297-310.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Amino acid and protein metabolism during exercise and recovery</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Brooks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">Suppl 5</biblScope>
+			<biblScope unit="page" from="150" to="156" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Brooks GA. Amino acid and protein metabolism during exercise and recovery. Med Sci Sports Exerc. 1987;19(Suppl 5):S150-6.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Effects of high-fat and high-carbohydrate diets on metabolism and performance in cycling</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Rowlands</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Hopkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metabolism</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="678" to="690" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rowlands DS, Hopkins WG. Effects of high-fat and high-carbohydrate diets on metabolism and performance in cycling. Metabolism. 2002; 51(6):678-90.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Effect of initial muscle glycogen levels on protein catabolism during exercise</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Lemon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Mullin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol Respir Environ Exerc Physiol</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="624" to="629" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lemon PW, Mullin JP. Effect of initial muscle glycogen levels on protein catabolism during exercise. J Appl Physiol Respir Environ Exerc Physiol. 1980;48(4):624-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Biochemical changes in a 100 km run: free amino acids, urea, and creatinine</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Décombaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Reinhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Anantharaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Von</forename><surname>Glutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Poortmans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol Occup Physiol</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="61" to="72" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Décombaz J, Reinhardt P, Anantharaman K, von Glutz G, Poortmans JR. Biochemical changes in a 100 km run: free amino acids, urea, and creatinine. Eur J Appl Physiol Occup Physiol. 1979;41(1):61-72.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Effect of glycogen availability on human skeletal muscle protein turnover during exercise and recovery</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Howarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Macdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Richards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Moreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Gibala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="431" to="438" />
+			<date type="published" when="1985">1985. 2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Howarth KR, Phillips SM, MacDonald MJ, Richards D, Moreau NA, Gibala MJ. Effect of glycogen availability on human skeletal muscle protein turnover during exercise and recovery. J Appl Physiol (1985). 2010;109(2):431-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Intake of protein plus carbohydrate during the first two hours after exhaustive cycling improves performance the following day</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">I</forename><surname>Rustad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sailer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Cumming</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">153229</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rustad PI, Sailer M, Cumming KT, et al. Intake of protein plus carbo- hydrate during the first two hours after exhaustive cycling improves performance the following day. PLoS One. 2016;11(4):e0153229.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Protein intake in the early recovery period after exhaustive exercise improves performance the following day</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Sollie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Jeppesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tangen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1731" to="1742" />
+			<date type="published" when="1985">1985. 2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sollie O, Jeppesen PB, Tangen DS, et al. Protein intake in the early recovery period after exhaustive exercise improves performance the following day. J Appl Physiol (1985). 2018;125(6):1731-42.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Protein metabolism during moderate exercise in cystic fibrosis patients</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Lemon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Orenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Henke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="47" to="55" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lemon PW, Orenstein DM, Henke KG. Protein metabolism during mod- erate exercise in cystic fibrosis patients. J Sports Sci. 1984;2(1):47-55.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Muscle glycogen utilization during prolonged strenuous exercise when fed carbohydrate</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Coyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Coggan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Hemmert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Ivy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="165" to="172" />
+			<date type="published" when="1985">1985. 1986</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Coyle EF, Coggan AR, Hemmert MK, Ivy JL. Muscle glycogen uti- lization during prolonged strenuous exercise when fed carbohydrate. J Appl Physiol (1985). 1986;61(1):165-72.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Influence of glucose and fructose ingestion on the capacity for long-term exercise in well-trained men</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Björkman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sahlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hagenfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wahren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Physiol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="483" to="494" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Björkman O, Sahlin K, Hagenfeldt L, Wahren J. Influence of glucose and fructose ingestion on the capacity for long-term exercise in well-trained men. Clin Physiol. 1984;4(6):483-94.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Influence of carbohydrate-protein beverage on cycling endurance and indices of muscle disruption</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Valentine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Saunders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">St</forename><surname>Laurent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Nutr Exerc Metab</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="363" to="378" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Valentine RJ, Saunders MJ, Todd MK, St Laurent TG. Influence of carbohydrate-protein beverage on cycling endurance and indices of muscle disruption. Int J Sport Nutr Exerc Metab. 2008;18(4):363-78.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Evaluation of urinary 3-methylhistidine excretion in infection by measurements of 1-methylhistidine and the creatinine ratios</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sjölin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Stjernström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Henneberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hambraeus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Friman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Clin Nutr</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="62" to="70" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sjölin J, Stjernström H, Henneberg S, Hambraeus L, Friman G. Eval- uation of urinary 3-methylhistidine excretion in infection by measure- ments of 1-methylhistidine and the creatinine ratios. Am J Clin Nutr. 1989;49(1):62-70.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Validity, reliability and sensitivity of measures of sporting performance</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Currell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Jeukendrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="297" to="316" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Currell K, Jeukendrup AE. Validity, reliability and sensitivity of mea- sures of sporting performance. Sports Med. 2008;38(4):297-316.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Acute effects of chocolate milk and a commercial recovery beverage on postexercise recovery indices and endurance cycling performance</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pritchett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pritchett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Katica</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Physiol Nutr Metab</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1017" to="1022" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pritchett K, Bishop P, Pritchett R, Green M, Katica C. Acute effects of chocolate milk and a commercial recovery beverage on postexer- cise recovery indices and endurance cycling performance. Appl Phys- iol Nutr Metab. 2009;34(6):1017-22.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Effect of an isocaloric carbohydrate-protein-antioxidant drink on cycling performance</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Romano-Ely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Saunders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Laurent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1608" to="1616" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Romano-Ely BC, Todd MK, Saunders MJ, Laurent TS. Effect of an isocaloric carbohydrate-protein-antioxidant drink on cycling perfor- mance. Med Sci Sports Exerc. 2006;38(9):1608-16.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Effects of a carbohydrate-protein beverage on cycling endurance and muscle damage</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Saunders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Kane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Todd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1233" to="1238" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saunders MJ, Kane MD, Todd MK. Effects of a carbohydrate-protein beverage on cycling endurance and muscle damage. Med Sci Sports Exerc. 2004;36(7):1233-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Table of nonprotein respiratory quotient: an update</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Péronnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Massicotte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="23" to="29" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Péronnet F, Massicotte D. Table of nonprotein respiratory quotient: an update. Can J Sport Sci. 1991;16(1):23-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kjeldahl</surname></persName>
+		</author>
+		<title level="m">Neue methode zur bestimmung des stickstoffs in organischen körpern [New method for determining nitrogen in organic bodies</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Kjeldahl J. Neue methode zur bestimmung des stickstoffs in organischen körpern [New method for determining nitrogen in organic bodies].</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Fresenius Zeitschrift F Anal Chemie</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="366" to="382" />
+			<date type="published" when="1883">1883</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fresenius Zeitschrift F Anal Chemie. 1883;22(1):366-82.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Effect of dietary protein content during recovery from high-intensity cycling on subsequent performance and markers of stress, inflammation, and muscle damage in well-trained men</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Rowlands</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rössler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Thorp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Physiol Nutr Metab</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="39" to="51" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rowlands DS, Rössler K, Thorp RM, et al. Effect of dietary protein content during recovery from high-intensity cycling on subsequent performance and markers of stress, inflammation, and muscle dam- age in well-trained men. Appl Physiol Nutr Metab. 2008;33(1):39-51.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Converting nitrogen into proteinbeyond 6.25 and Jones&apos; factors</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mariotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tomé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Mirand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Crit Rev Food Sci Nutr</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="177" to="184" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mariotti F, Tomé D, Mirand PP. Converting nitrogen into protein- beyond 6.25 and Jones&apos; factors. Crit Rev Food Sci Nutr. 2008;48(2): 177-84.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Measurement of substrate oxidation during exercise by means of gas exchange measurements</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Jeukendrup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Wallis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">Suppl 1</biblScope>
+			<biblScope unit="page" from="28" to="37" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jeukendrup AE, Wallis GA. Measurement of substrate oxidation dur- ing exercise by means of gas exchange measurements. Int J Sports Med. 2005;26(Suppl 1):S28-37.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Perceived exertion: a note on &quot;history&quot; and methods</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Borg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="90" to="93" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Borg GA. Perceived exertion: a note on &quot;history&quot; and methods. Med Sci Sports. 1973;5(2):90-3.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Carbohydrate feeding during prolonged strenuous exercise can delay fatigue</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Coyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hagberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Hurley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Ehsani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Holloszy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol Respir Environ Exerc Physiol</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="230" to="235" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note>Pt 1</note>
+	<note type="raw_reference">Coyle EF, Hagberg JM, Hurley BF, Martin WH, Ehsani AA, Holloszy JO. Carbohydrate feeding during prolonged strenuous exer- cise can delay fatigue. J Appl Physiol Respir Environ Exerc Physiol. 1983;55(1 Pt 1):230-5.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Effect of carbohydrate ingestion subsequent to carbohydrate supercompensation on endurance performance</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Denys</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sport Nutr</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="329" to="343" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kang J, Robertson RJ, Denys BG, et al. Effect of carbohydrate inges- tion subsequent to carbohydrate supercompensation on endurance performance. Int J Sport Nutr. 1995;5(4):329-43.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Effect of carbohydrate intake on net muscle protein synthesis during recovery from resistance exercise</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Børsheim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Cree</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Tipton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Elliott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aarsland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Wolfe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="674" to="678" />
+			<date type="published" when="1985">1985. 2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Børsheim E, Cree MG, Tipton KD, Elliott TA, Aarsland A, Wolfe RR. Ef- fect of carbohydrate intake on net muscle protein synthesis during recov- ery from resistance exercise. J Appl Physiol (1985). 2004;96(2):674-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Meta-analysis of nitrogen balance studies for estimating protein requirements in healthy adults</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Rand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Pellett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Young</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Clin Nutr</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="109" to="127" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rand WM, Pellett PL, Young VR. Meta-analysis of nitrogen balance studies for estimating protein requirements in healthy adults. Am J Clin Nutr. 2003;77(1):109-27.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Metabolism of administered 3-methylhistidine. Lack of muscle transfer ribonucleic acid charging and quantitative excretion as 3-methylhistidine and its N-acetyl derivative</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Alexis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Baliga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Munro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Muecke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biol Chem</title>
+		<imprint>
+			<biblScope unit="volume">247</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="3592" to="3600" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Young VR, Alexis SD, Baliga BS, Munro HN, Muecke W. Metabolism of administered 3-methylhistidine. Lack of muscle transfer ribonucleic acid charging and quantitative excretion as 3-methylhistidine and its N-acetyl derivative. J Biol Chem. 1972;247(11):3592-600.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Metabolism of 3-methylhistidine in man</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Haverberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Kinney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Munro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Geiger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metabolism</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="929" to="935" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Long CL, Haverberg LN, Young VR, Kinney JM, Munro HN, Geiger JW. Metabolism of 3-methylhistidine in man. Metabolism. 1975;24(8):929-35.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Muscle-protein catabolism after injury in man, as measured by urinary excretion of 3methylhistidine</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Farrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kerr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Sci Mol Med</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="527" to="533" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Williamson DH, Farrell R, Kerr A, Smith R. Muscle-protein catabo- lism after injury in man, as measured by urinary excretion of 3- methylhistidine. Clin Sci Mol Med. 1977;52(5):527-33.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Protein degradation during endurance exercise and recovery</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Dohm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Tapscott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Kasperek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="166" to="171" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+	<note type="raw_reference">Dohm GL, Tapscott EB, Kasperek GJ. Protein degradation during endurance exercise and recovery. Med Sci Sports Exerc. 1987; 19(5 Suppl):S166-71.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Musle protein breakdown rates in humans based on Ntau-methylhistidine (3-methylhistidine) content of mixed proteins in skeletal muscle and urinary output of Ntau-methylhistidine</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bilmazes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Uauy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Haverberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Munro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Young</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metabolism</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="525" to="530" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bilmazes C, Uauy R, Haverberg LN, Munro HN, Young VR. Musle protein breakdown rates in humans based on Ntau-methylhistidine (3-methylhistidine) content of mixed proteins in skeletal muscle and uri- nary output of Ntau-methylhistidine. Metabolism. 1978;27(5):525-30.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Clinical usefulness of urinary 3-methylhistidine excretion in indicating muscle protein breakdown</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bacon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Winearls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br Med J (Clin Res Ed)</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="issue">6261</biblScope>
+			<biblScope unit="page" from="351" to="354" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Elia M, Carter A, Bacon S, Winearls CG, Smith R. Clinical useful- ness of urinary 3-methylhistidine excretion in indicating muscle pro- tein breakdown. Br Med J (Clin Res Ed). 1981;282(6261):351-4.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Effect of exercise on protein turnover in man</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Rennie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Krywawych</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Sci (Lond)</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="627" to="639" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rennie MJ, Edwards RH, Krywawych S, et al. Effect of exercise on protein turnover in man. Clin Sci (Lond). 1981;61(5):627-39.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Effect of exercise and recovery on muscle protein synthesis in human subjects</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Carraro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Stuart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Hartl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rosenblatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Wolfe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">259</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="470" to="476" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note>Pt 1</note>
+	<note type="raw_reference">Carraro F, Stuart CA, Hartl WH, Rosenblatt J, Wolfe RR. Effect of exercise and recovery on muscle protein synthesis in human subjects. Am J Physiol. 1990;259(4 Pt 1):E470-6.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Effect of muscle glycogen on glucose, lactate and amino acid metabolism during exercise and recovery in human subjects</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Blomstrand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Saltin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">514</biblScope>
+			<biblScope unit="page" from="293" to="302" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note>Pt 1</note>
+	<note type="raw_reference">Blomstrand E, Saltin B. Effect of muscle glycogen on glucose, lactate and amino acid metabolism during exercise and recovery in human subjects. J Physiol. 1999;514(Pt 1):293-302.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Effect of branched-chain amino acid and carbohydrate supplementation on the exercise-induced change in plasma and muscle concentration of amino acids in human subjects</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Blomstrand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Andersson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hassmén</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ekblom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Newsholme</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol Scand</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="87" to="96" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blomstrand E, Andersson S, Hassmén P, Ekblom B, Newsholme EA. Effect of branched-chain amino acid and carbohydrate supplementation on the exercise-induced change in plasma and muscle concentration of amino acids in human subjects. Acta Physiol Scand. 1995;153(2):87-96.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Effect of carbohydrate ingestion on brain exchange of amino acids during sustained exercise in human subjects</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Blomstrand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Møller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Secher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Nybo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol Scand</title>
+		<imprint>
+			<biblScope unit="volume">185</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="203" to="209" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blomstrand E, Møller K, Secher NH, Nybo L. Effect of carbohydrate ingestion on brain exchange of amino acids during sustained exercise in human subjects. Acta Physiol Scand. 2005;185(3):203-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Amino acid metabolism in exercising man</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Felig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wahren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Invest</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2703" to="2714" />
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Felig P, Wahren J. Amino acid metabolism in exercising man. J Clin Invest. 1971;50(12):2703-14.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Effect of exercise on concentrations of free amino acids in pools of type I and type II fibres in human muscle with reduced glycogen stores</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Essén-Gustavsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Blomstrand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Physiol Scand</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="275" to="281" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Essén-Gustavsson B, Blomstrand E. Effect of exercise on concentra- tions of free amino acids in pools of type I and type II fibres in human muscle with reduced glycogen stores. Acta Physiol Scand. 2002; 174(3):275-81.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Effects of high-intensity intermittent training on potassium kinetics and performance in human skeletal muscle</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Klarskov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">554</biblScope>
+			<biblScope unit="page" from="857" to="870" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>Pt 3</note>
+	<note type="raw_reference">Nielsen JJ, Mohr M, Klarskov C, et al. Effects of high-intensity inter- mittent training on potassium kinetics and performance in human skeletal muscle. J Physiol. 2004;554(Pt 3):857-70.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Influence of ingesting a solution of branched-chain amino acids on plasma and muscle concentrations of amino acids during prolonged submaximal exercise. Nutrition</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Blomstrand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Newsholme</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="485" to="490" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blomstrand E, Ek S, Newsholme EA. Influence of ingesting a solu- tion of branched-chain amino acids on plasma and muscle concentra- tions of amino acids during prolonged submaximal exercise. Nutri- tion. 1996;12(7-8):485-90.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Seven days of oral taurine supplementation does not increase muscle taurine content or alter substrate metabolism during prolonged exercise in humans</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Galloway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Talanian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Shoveller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Heigenhauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Spriet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="643" to="651" />
+			<date type="published" when="1985">1985. 2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Galloway SD, Talanian JL, Shoveller AK, Heigenhauser GJ, Spriet LL. Seven days of oral taurine supplementation does not increase muscle taurine content or alter substrate metabolism during prolonged exercise in humans. J Appl Physiol (1985). 2008;105(2):643-51.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Metabolism of branchedchain amino acids and ammonia during exercise: clues from McArdle&apos;s disease</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Wagenmakers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Coakley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Edwards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">Suppl 2</biblScope>
+			<biblScope unit="page" from="101" to="113" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wagenmakers AJ, Coakley JH, Edwards RH. Metabolism of branched- chain amino acids and ammonia during exercise: clues from McArdle&apos;s disease. Int J Sports Med. 1990;11(Suppl 2):S101-13.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Tricarboxylic acid cycle intermediate pool size and estimated cycle flux in human muscle during exercise</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Gibala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Maclean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Saltin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="235" to="242" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gibala MJ, MacLean DA, Graham TE, Saltin B. Tricarboxylic acid cycle intermediate pool size and estimated cycle flux in human mus- cle during exercise. Am J Physiol. 1998;275(2):E235-42.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Tricarboxylic acid cycle intermediates during incremental exercise in healthy subjects and in patients with McArdle&apos;s disease</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sahlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jorfeldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Henriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Haller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Sci</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="687" to="693" />
+			<date type="published" when="1995">1995</date>
+			<pubPlace>Lond</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sahlin K, Jorfeldt L, Henriksson KG, Lewis SF, Haller RG. Tricarbox- ylic acid cycle intermediates during incremental exercise in healthy subjects and in patients with McArdle&apos;s disease. Clin Sci (Lond). 1995;88(6):687-93.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Is there a body protein reserve?</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Garrow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Nutr Soc</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="373" to="379" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Garrow JS. Is there a body protein reserve? Proc Nutr Soc. 1982; 41(3):373-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Changes in amino acid concentration in plasma and type I and type II fibres during resistance exercise and recovery in human subjects</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Blomstrand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Essén-Gustavsson</surname></persName>
+		</author>
+		<ptr target="http://www.acsm-msse.org" />
+	</analytic>
+	<monogr>
+		<title level="j">Amino Acids</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="629" to="636" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Blomstrand E, Essén-Gustavsson B. Changes in amino acid concentra- tion in plasma and type I and type II fibres during resistance exercise and recovery in human subjects. Amino Acids. 2008;37(4):629-36. http://www.acsm-msse.org</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

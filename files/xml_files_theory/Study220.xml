@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Influence of different midsole foam in advanced footwear technology use on running economy and biomechanics in trained runners</title>
+				<funder ref="#_DZe4xsd">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_vD2ERX4">
+					<orgName type="full">Spanish Ministry of Science and Innovation</orgName>
+				</funder>
+				<funder ref="#_N3p3Prr">
+					<orgName type="full">Spanish Ministry of Science and Innovation, Call &quot;Generation of Knowledge 2022</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Víctor</forename><surname>Rodrigo-Carranza</surname></persName>
+							<idno type="ORCID">0000-0003-1637-7550</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Sports Performance Research Group (GIRD)</orgName>
+								<orgName type="institution">University of Castilla-La Mancha</orgName>
+								<address>
+									<settlement>Toledo</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Kinesiology</orgName>
+								<orgName type="laboratory">Integrative Locomotion Laboratory</orgName>
+								<orgName type="institution">University of Massachusetts</orgName>
+								<address>
+									<settlement>Amherst</settlement>
+									<region>Massachusetts</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wouter</forename><surname>Hoogkamer</surname></persName>
+							<idno type="ORCID">0000-0003-0524-0196</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Kinesiology</orgName>
+								<orgName type="laboratory">Integrative Locomotion Laboratory</orgName>
+								<orgName type="institution">University of Massachusetts</orgName>
+								<address>
+									<settlement>Amherst</settlement>
+									<region>Massachusetts</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">José</forename><forename type="middle">María</forename><surname>González-Ravé</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Sports Performance Research Group (GIRD)</orgName>
+								<orgName type="institution">University of Castilla-La Mancha</orgName>
+								<address>
+									<settlement>Toledo</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sergio</forename><surname>Horta-Muñoz</surname></persName>
+							<idno type="ORCID">0000-0002-6539-7980</idno>
+							<affiliation key="aff2">
+								<orgName type="department">Escuela Técnica Superior Ingenieros Industriales de Ciudad Real</orgName>
+								<orgName type="institution" key="instit1">Universidad de Castilla-La Mancha</orgName>
+								<orgName type="institution" key="instit2">Instituto de Investigaciones Energéticas y Aplicaciones Industriales</orgName>
+								<orgName type="institution" key="instit3">Ciudad Real</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>María</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Carmen</forename><surname>Serna-Moreno</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Escuela Técnica Superior Ingenieros Industriales de Ciudad Real</orgName>
+								<orgName type="institution" key="instit1">Universidad de Castilla-La Mancha</orgName>
+								<orgName type="institution" key="instit2">Instituto de Investigaciones Energéticas y Aplicaciones Industriales</orgName>
+								<orgName type="institution" key="instit3">Ciudad Real</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ana</forename><surname>Romero-Gutierrez</surname></persName>
+							<idno type="ORCID">0000-0002-6672-7734</idno>
+							<affiliation key="aff2">
+								<orgName type="department">Escuela Técnica Superior Ingenieros Industriales de Ciudad Real</orgName>
+								<orgName type="institution" key="instit1">Universidad de Castilla-La Mancha</orgName>
+								<orgName type="institution" key="instit2">Instituto de Investigaciones Energéticas y Aplicaciones Industriales</orgName>
+								<orgName type="institution" key="instit3">Ciudad Real</orgName>
+								<address>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Fernando González-Mohíno</surname></persName>
+							<idno type="ORCID">0000-0002-6327-6958</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Sports Performance Research Group (GIRD)</orgName>
+								<orgName type="institution">University of Castilla-La Mancha</orgName>
+								<address>
+									<settlement>Toledo</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Faculty of Sport Sciences</orgName>
+								<orgName type="laboratory">Sport Training Lab</orgName>
+								<orgName type="institution" key="instit1">Facultad de Ciencias de la Vida y de la Naturaleza</orgName>
+								<orgName type="institution" key="instit2">Universidad Nebrija</orgName>
+								<address>
+									<settlement>Madrid</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fernando</forename><surname>González-Mo</surname></persName>
+							<idno type="ORCID">0000-0002-6327-6958</idno>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="institution">University of Castilla</orgName>
+								<address>
+									<addrLine>La Mancha, Avenida Carlos III s/n</addrLine>
+									<postCode>45071</postCode>
+									<settlement>Toledo</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Influence of different midsole foam in advanced footwear technology use on running economy and biomechanics in trained runners</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D5FB9E06EFA12BC09D051D9654B73310</idno>
+					<idno type="DOI">10.1111/sms.14526</idno>
+					<note type="submission">Received: 24 March 2023 | Revised: 27 September 2023 | Accepted: 8 October 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:18+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>energetic</term>
+					<term>EVA</term>
+					<term>PEBA</term>
+					<term>running performance</term>
+					<term>running shoes</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Background: Ethylene and vinyl acetate (EVA) and polyether block amide (PEBA) are recently the most widely used materials for advanced footwear technology (AFT) that has been shown to improve running economy (RE). This study investigated the effects of these midsole materials on RE and biomechanics, in both fresh and worn state (after 450 km).</p><p>Methods: Twenty-two male trained runners participated in this study. Subjects ran four 4-min trials at 13 km‧h -1 with both fresh EVA and PEBA AFT and with the same models with 450 km of wear using a randomized crossover experimental design. We measured energy cost of running (W/kg), spatiotemporal, and neuromuscular parameters.</p><p>Results: There were significant differences in RE between conditions (p = 0.01; n 2 = 0.17).</p><p>There was a significant increase in energy cost in the worn PEBA condition compared with new (15.21 ± 1.01 and 14.87 ± 0.99 W/kg; p &lt; 0.05; ES = 0.54), without differences between worn EVA (15.13 ± 1.14 W/kg; p &gt; 0.05), and new EVA (15.15 ± 1.13 w/kg; ES = 0.02). The increase in energy cost between new and worn was significantly higher for the PEBA shoes (0.32 ± 0.38 W/kg) but without significant increase for the EVA shoes (0.06 ± 0.58 W/kg) (p &lt; 0.01; ES = 0.51) with changes in step frequency and step length. The new PEBA shoes had lower energy cost than the new EVA shoes (p &lt; 0.05; ES = 0.27) with significant differences between conditions in contact time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion:</head><p>There is a clear RE advantage of incorporating PEBA versus EVA in an AFT when the models are new. However, after 450 km of use, the PEBA and EVA shoes had similar RE.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">| INTRODUCTION</head><p>Advanced footwear technology (AFT) such a s the "Vaporfly" series of Nike or similar shoe models of other companies is characterized by a very light shoe mass, a curved carbon fiber plate embedded in the midsole to increase the longitudinal bending stiffness (LBS), along with more resilient and compliant midsole foams to provide cushioning and energy return. It is known that the amount of cushioning material in the shoe, <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> and the increase of LBS with a curved carbon fiber plate can influence running economy (RE) <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4</ref> and performance <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref> accompanied by slight biomechanical changes. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4</ref> AFT usually use different methodologies to increase the LBS (full or partial and flat or curved carbon fiber plate) and different midsole cushioning technologies. However, it has recently been shown that midsole material may be of greater role than increased LBS in improving RE in AFT <ref type="bibr" target="#b7">8</ref> showing a higher energy return form compression than form bending of the midsole. <ref type="bibr" target="#b8">9</ref> The most used midsole foams in running shoes are ethylene-vinyl acetate (EVA), thermoplastic polyurethane, and polyether block amide (PEBA). Hoogkamer et al. <ref type="bibr" target="#b9">10</ref> analyzed the mechanical energy return of these three midsole materials, which was 66% for an EVA midsole with air bag, 76% for a thermoplastic polyurethane midsole, and 87% for a PEBA midsole. Thus, PEBA which is less dense and lighter than traditional foams <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11</ref> preserves more mechanical energy from each footfall. Low-density foam (i.e., PEBA) allows for adding more cushioning material in the midsole without adding mass and thus allowing for a taller stack height (now limited to 40 mm for competition shoes) compared with other, traditional, midsole foams (thermoplastic polyurethane or EVA). As a result, when comparing RE between different models of AFT, the best results have been observed for models using PEBA midsole foam as opposed to traditional materials (EVA or thermoplastic polyurethane) <ref type="bibr" target="#b11">12</ref> ; however, due to the low density, PEBA could suffer greater wear of the material with use during the run.</p><p>Each running shoe model has an approximate average life depending mainly on the midsole material. <ref type="bibr" target="#b12">13</ref> Cook et al. <ref type="bibr" target="#b13">14</ref> tested a range of different running shoes (different compositions of EVA) in terms of continuous machine-simulated running distance. They found that, on average, the shoes retained approximately 67% of their initial shock-absorbing capacity after 160-240 km, but less than 60% after 400-800 km. Shoes were also tested at similar velocity after having been worn by volunteers during normal training, which showed smaller changes in initial shock-absorbing capacity (∼30% less at 480 km) than machine-simulated running distance testing. <ref type="bibr" target="#b13">14</ref> Similarly, Escamilla-Martínez et al. <ref type="bibr" target="#b12">13</ref> found that the EVA midsole shoes started to deteriorate at 350 km by evaluating plantar pressure distribution. Moreover, Kong et al. <ref type="bibr" target="#b14">15</ref> suggested that slight modifications in the mechanical characteristics of shoes result in kinematic changes after about 320 km of running.</p><p>Importantly, mechanical tests do not predict shock during actual running because of neuromuscular adaptation. <ref type="bibr" target="#b14">15,</ref><ref type="bibr" target="#b15">16</ref> There are several studies that analyzed the effect of shoe use on biomechanics in traditional running shoes, <ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref> but there is a lack of studies evaluating the effects of shoe use on RE. <ref type="bibr" target="#b14">15</ref> Moreover, there are no known studies that evaluate the effects of wear of different midsole materials on RE for AFT. Thus, the objective of this study was to evaluate RE and biomechanics in new and worn AFT of different midsole materials (EVA vs. PEBA). We hypothesized that PEBA midsole would have better RE than EVA midsole when both conditions are fresh; however, the PEBA midsole would suffer more wear after 450 km, which could negatively affect biomechanics and RE.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Participants</head><p>Twenty-two male runners participated in this study. The inclusion criteria were the following: (1) participation in a running training program for at least 3 days per week during the previous 6 months without injury and (2) having a men's US 9 shoe size. Exclusion criterion was inability to run at 13 km h -1 while below the onset of blood lactate accumulation of 4 mmol L -1 with respiratory exchange ratio values below 1.0 during all the tests. Participants were recruited from different teams in the same city during the winter after the cross-country season had ended by contacting their coaches or contacting them directly. Data collection was conducted during the outdoor season (May-June). During the screening process, participants were asked about their foot size, previous injuries, training days, and 10-km time.</p><p>Prior to the study, all participants were informed about the testing protocols, possible risks involved, and were invited to provide written informed consent. The study was performed in accordance with the principles of the Declaration of Helsinki (October 2008, Seoul), and the experimental protocols were approved by the local ethics committee.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Shoes characteristics</head><p>Four different prototype shoes conditions were manufactured (On running) specifically for this study and tested:</p><p>(1) a new AFT with EVA midsole, (2) an AFT with EVA midsole with a use of 450 km, (3) a new AFT with PEBA midsole, and (4) an AFT with PEBA midsole with a use of 450 km. Shoe characteristics are presented in Table <ref type="table">1</ref>, and all experimental conditions had a similar curved carbon fiber plate with similar LBS properties. The shoe wear process was carried out by one of the researchers. The shoes were worn by running at an average speed of 13 km/h on asphalt. The 450 km were done in 40 sessions with an average of 11.25 km/day. Both shoe models (new and worn conditions) were identical in the composition and characteristics (last, upper, color, and shape), with the aim to control a possible placebo effect. <ref type="bibr" target="#b16">17</ref> None of the tested shoes differed by more than 9 g. Even though additional shoe mass is known to deteriorate RE and running performance by around 1% per 100 g, <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b17">18</ref> previous research suggests that changes of up to 50 g do not affect performance at high running intensity. <ref type="bibr" target="#b18">19</ref> The LBS of the shoes was determined by a threepoint bending test on the complete shoe (including shoe upper) <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21</ref> where the forefoot of the shoe was placed on a custom-made structure with two supporting pins, 80 mm apart, to a material testing machine that measures force and displacement (Microtest, S.A., Madrid, Spain) (Figure <ref type="figure">1</ref>). The machine was set to displace the center point of the forefoot 20 mm vertically downward at a speed of 4 mm/s, at which point it returned to its original position in the same amount of time. This was repeated 10 times for each shoe condition. The slope of the force-displacement curve (i.e., stiffness) was determined for all 10 loading cycles. The stiffness values were first averaged between 80 and 90% of each loading curve (i.e., linear portion of the force-displacement curve) and then across all 10 cycles. The shoes' hysteresis (i.e., lost energy) was determined as the difference in mechanical energy that was stored during the loading phase and that was returned during the unloading phase. The lost energy was represented as a percentage of the energy stored during the loading phase. Note that this represents the energy lost in bending, not in vertical compression.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| Design and methodology</head><p>STROBE statement checklist <ref type="bibr" target="#b21">22</ref> was performed. These recommendations, collected in 22 items, describe the proper way of reporting the title, abstract, introduction, methods, results, discussion, and funding.</p><p>The effect of shoe use on RE and biomechanics was evaluated using a randomized crossover experimental design. Each participant visited the laboratory for a single visit (under controlled environmental conditions: 550 m altitude, 20-23°C, 35%-37% relative humidity) in a nonfatigued state (no intense exercise in the previous 48 h). During this session, RE (oxygen and energy cost measured at metabolic steady state at a specific speed), biomechanics (spatiotemporal variables), and neuromuscular parameters (leg stiffness) were assessed with four shoes models: new and worn (450 km of use) EVA and PEBA shoe models. The sequence of the shoes was randomized for each participant using a random number generator.</p><p>First, anthropometrical variables were measured. Height was measured to the nearest 0.1 cm with a portable stadiometer (Seca, Bonn, Germany), and body mass was measured to the nearest 0.1 kg with a portable balance (Seca, Bonn, Germany), while barefoot and wearing light shorts.</p><p>Then, the participants tested all the shoe conditions, but they were not allowed to manipulate the footwear at any time and were fitted by the researchers. Prior to beginning the RE testing trials, all participants completed 10 min of jogging as a warm-up in their own shoes at a self-selected pace slower than 13 km‧h -1 . Participants then completed 4 × 4 min trials at 13 km h -1 with each shoe model. This speed was selected so that</p><p>Characteristics New EVA shoe Worn EVA shoe New PEBA shoe Worn PEBA shoe Midsole material EVA EVA PEBA PEBA LBS (N•mm -1 ) 35.3 ± 1.4 23.9 ± 1.1 35.5 ± 1.8 21.6 ± 1.3 Energy return (J) 4.39 ± 0.02 3.93 ± 0.05 4.83 ± 0.14 3.64 ± 0.18 % Hysteresis 26.0 ± 1.3 39.5 ± 0.6 24.7 ± 0.8 42.4 ± 1.1 Mass (g) 234 231 226 225 Heel stack (mm) 39 39 38 38 Forefoot stack (mm) 31 31 29 29 Heel-Toe offset 8 8 9 9</p><p>Note: Mean ± SD.</p><p>Abbreviations: EVA, ethylene and vinyl acetate; LBS, longitudinal bending stiffness; PEBA, polyether block amide.</p><p>T A B L E 1 Shoe characteristics, comfort, and experience.</p><p>participants were able to run below of the respiratory-exchange ratio (&lt;1) to ensure steady-state oxygen uptake (VO 2 ) values and also confirmed by blood lactate measures (values below 4 mmol). At the end of each trial, participants rated their perceived shoe comfort, acute muscle soreness and rating of perceived exertion on the visual analogue scale and rested 10 min before the beginning of the trials with the other models. All run testing was performed on a motorized treadmill (HP Cosmos Pulsar, HP Cosmos Sports &amp; Medical GMBH, Nussdorf-Traunstein, Germany) that has a stiffness value around 300 kN/m. <ref type="bibr" target="#b22">23</ref> During the RE trials, respiratory variables were measured using a gas analyzer (CPX Ultima Series MedGraphics, St. Paul, Minnesota, USA), which was calibrated prior to each session (CO 2 4.10%; O 2 15.92%). VO 2 values collected during the last 60 s of each 4 min bout was used to determine RE as oxygen cost of running. <ref type="bibr" target="#b23">24</ref> The energy cost of running was calculated (W kg -1 ) following previous calculations <ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b25">26</ref> and it was the main outcome. Blood samples were collected from the fingertip in the final minute before finishing the stage for blood lactate determination (Lactate Scout, SensLab GmbH, Germany). <ref type="bibr" target="#b26">27</ref> Main spatiotemporal outcomes during the gait cycle (contact time, step frequency, step length, and flight time) were measured for every step during treadmill running using an optical measurement system (Optojump-next, Microgate, Bolzano, Italy) during all the running bouts, with a sampling frequency of 1000 Hz. Complementary, leg stiffness and vertical oscillation were estimated using a Stryd® device with a sampling frequency of 1000 Hz. The device uses a triaxial accelerometer that has shown an adequate reliability and excellent validity of these measures evaluated and reported by García-Pinillos et al. <ref type="bibr" target="#b27">28</ref> The Stryd® device was paired with a Polar® watch (Vantage M GPS system; Polar, Kempele, Finland) and the information was analyzed using the Stryd Power Center program available on the web and mobile application. Data were recorded, and the final minute of each RE trial was averaged for subsequent analyses. The 1-min period provided well over the 25 steps recommended for running mechanics measurements to distinguish running technique between people. <ref type="bibr" target="#b28">29</ref> Rate of perceived exertion from 0 to 100, shoe comfort and acute muscle soreness while running with every shoe condition were recorded using a visual analogue scale. <ref type="bibr" target="#b29">30</ref> The questions were, "how comfortable were the shoes?" and "how much acute muscle soreness do you have?" The corresponding anchor points for these scales were 0-"Not comfortable at all" to 100-"Maximal comfort", and 0-"Absolutely no muscle soreness" to 100-"Severe acute muscle soreness", respectively. Shoe comfort and acute muscle soreness were measurement once with each condition. <ref type="bibr" target="#b30">31</ref> F I G U R E 1 Setup of mechanical stiffness test on running shoes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| Statistical analysis</head><p>Statistical analyses were conducted using SPSS 24.0 (SPSS Inc., Chicago, IL) for Mac. Data were screened for normality of distribution and homogeneity of variance using a Shapiro-Wilk Normality Test. Repeated-measures ANOVA was conducted to compare shoe conditions. When a significant main effect for shoe was observed, a Bonferroni post-hoc test was performed. Complementarily, a paired t-test was performed to evaluate if the difference on RE between new and worn conditions was different between the two shoe models with different foams. Effect sizes were measured using partial eta squared in the ANOVA and values of 0.01, 0.06 and above 0.15 were considered as small, medium, and large, respectively <ref type="bibr" target="#b31">32</ref> and Cohen's D was used to compare between worn and control conditions with values of 0.2, 0.5, and above 0.8 were considered as small, medium, and large, respectively. <ref type="bibr" target="#b31">32</ref> Significance level for all analyses was set at α = 0.05.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">| RESULTS</head><p>Twenty-two male runners (mean ± SD: 28.3 ± 5.2 years; 65.2 ± 5.4 kg and 168.0 ± 34.9 cm) volunteered to participate in this study. All 22 were eligible and completed the full protocol. The average blood lactate at the conclusion of all conditions was 1.98 ± 0.92 mmol L -1 and was below 4 mmol L -1 for all subjects included in the final analysis (Table <ref type="table">2</ref>). Respiratory-exchange ratio remained below 1.0 across all trials for all subjects (0.83 ± 0.05, 0.84 ± 0.06 for new and worn in EVA conditions and 0.84 ± 0.05, 0.83 ± 0.05 for new and worn in PEBA conditions; p = 0.26; n 2 = 0.05). There was no indication of any substantial VȮ 2 slow component, as oxygen uptake differed by a nonsignificant 0.32% on average between Minute 3 and Minute 4 (p = 0.64).</p><p>Table <ref type="table">2</ref> shows the results of the variables analyzed during the study for each shoe condition. Results of the ANOVA test revealed that there were significant differences between conditions for the main outcome (RE), expressed as energy cost and oxygen cost (p = 0.01; n 2 = 0.17). The Bonferroni post-hoc showed that there was a significant increase in energy cost (worse RE) in the worn PEBA condition in comparison to the new PEBA condition (15.21 ± 1.01 and 14.87 ± 0.99 w/kg; p = 0.02; ES = 0.54). RE was similar between the new (15.15 ± 1.13 w/kg) and worn EVA (15.13 ± 1.14 w/kg) conditions (p = 0.47; ES = 0.02) (Figure <ref type="figure" target="#fig_0">2</ref>). There was a significantly larger increase in RE between new-worn conditions in the PEBA condition (0.32 ± 0.38 w/kg) in comparison with EVA condition (0.06 ± 0.58 w/kg) (p = 0.01; ES = 0.51). Moreover, RE was lower (better RE) in the new PEBA condition than the new EVA condition (14.87 ± 0.99 and 15.15 ± 1.13 w/kg; p = 0.02; ES = 0.27).</p><p>Regarding biomechanics outcomes, there were significant differences between conditions in step length (p &lt; 0.01; n 2 = 0.25), step frequency (p = 0.01; n 2 = 0.14), and contact time (p = 0.01; n 2 = 0.28) without changes in the other biomechanical variables (p &gt; 0.05). The Bonferroni post-hoc test showed that there was a significant increase in step length in the worn PEBA condition in comparison with the new EVA condition (1.12 ± 0.20 and 1.10 ± 0.19 cm; p = 0.03; ES = 0.11).</p><p>Step frequency significantly increased in worn EVA condition in comparison with the new EVA condition (163.3 ± 6.5 and 162.1 ± 6.5 step/min; p &lt; 0.03; ES = 0.18) with no differences between PEBA conditions (p &gt; 0.05). Contact time was lower in the new PEBA (0.257 ± 0.033 s; p = 0.04; ES = 0.14) and worn PEBA condition (0.257 ± 0.033 s; p = 0.02; ES = 0.14) in comparison with worn EVA condition (0.262 ± 0.036 s). Vertical oscillation, flight time, leg stiffness, and subjective acute muscle soreness, comfort, and rating of perceived exertion scales did not change between conditions (p &lt; 0.05). Heart rate did not change between footwear conditions (p = 0.11; n 2 = 0.10).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| DISCUSSION</head><p>The objective of this study was to evaluate the effects on RE and biomechanics in a new and worn AFT of different midsole materials (EVA vs. PEBA). The results of the present study provide new data about changes on RE and biomechanics when wearing new AFT of different midsole materials (EVA and PEBA) and after 450 km of use during real road running. Fulfilling our hypothesis, the main finding was that the worn PEBA shoe model had a 2.28% worse RE compared with the same new shoe model, while there were no differences between new and worn EVA shoe models after 450 km of road running. There were minor modifications on running biomechanics using both worn shoes conditions compare to new shoes conditions. Moreover, the PEBA shoe model improved RE a 1.88% together with a reduction in the contact time compared with EVA shoe model when the shoes were new.</p><p>Several studies have investigated the changes in the cushioning characteristics of running shoes, either in running <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b33">34</ref> or in mechanically simulated tests. <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b34">35</ref> To our knowledge, there are no known studies that evaluated the effect of shoe wears on RE or performance. Wang et al. <ref type="bibr" target="#b33">34</ref> suggested that running shoes show a greater loss of shock absorption during mechanically repeated tests than kinematic analysis during actual running so that tests during actual running can provide more ecological information. Our study evaluated RE, which is a strong predictor of running performance in</p><p>T A B L E 2 Results for variables analyzed during the study for each shoe condition. EVA PEBA New Worn Cohen's d New Worn Cohen's d ANOVA n 2 Energy cost (W/kg) 15.15 ± 1.13 15.13 ± 1.14 0.02 14.87 ± 0.99 $ 15.21 ± 1.01* 0.54 0.01 0.17 Oxygen cost (mL•kg -1 •km -1 ) 38.28 ± 6.07 37.76 ± 5.64 0.08 37.35 ± 5.74 38.45 ± 5.64* 0.34 &lt;0.01 0.12 Respiratory exchange ratio (RER) 0.83 ± 0.05 0.84 ± 0.06 0.18 0.84 ± 0.05 0.83 ± 0.05 0.18 0.26 0.05 Δ lactate (mmol -1 ) 0.25 ± 0.69 0.52 ± 0.65 0.28 0.42 ± 0.77 0.11 ± 0.56 0.41 0.15 0.08 Heart rate (bpm) 146.5 ± 12.4 146.4 ± 12.6 0.01 146.4 ± 12.3 148.4 ± 12.8 0.16 0.11 0.10 Step length (m) 1.10 ± 0.19 1.10 ± 0.19 0.04 1.11 ± 0.20 1.12 ± 0.20$ 0.05 &lt;0.01 0.25 Step frequency (step/min) 162.10 ± 6.49 163.30 ± 6.51 * 0.18 163.22 ± 6.98 163.21 ± 6.22 0.01 0.01 0.12 Contact time (s) 0.260 ± 0.035 0.262 ± 0.036 0.06 0.257 ± 0.033 † 0.257 ± 0.033 † 0.00 &lt;0.01 0.28 Flight time (s) 0.108 ± 0.030 0.104 ± 0.030 0.13 0.109 ± 0.030 0.109 ± 0.030 0.00 0.05 0.12 Vertical oscillation (cm) 8.25 ± 1.41 8.05 ± 1.38 0.14 8.21 ± 1.39 8.20 ± 1.19 0.01 0.15 0.08 Leg stiffness (kN•m -1 ) 9.57 ± 0.98 9.47 ± 1.02 0.11 9.63 ± 0.92 9.59 ± 0.98 0.04 0.08 0.10 Muscle soreness VAS (0-100) 20.3 ± 19.0 21.4 ± 18.8 0.06 18.7 ± 18.8 23.7 ± 20.4 0.25 0.28 0.05 Comfort VAS (0-100) 70.2 ± 18.8 68.45 ± 20.9 0.11 73.9 ± 14.6 73.8 ± 16.6 0.02 0.34 0.05 Rate of perceived exertion (0-100) 43.3 ± 18.1 43.62 ± 18.6 0.02 42.7 ± 17.3 45.5 ± 17.8 0.16 0.29 0.05 Note: Data are presented as mean ± standard deviation. Post-hoc analysis: * different from new condition at p &lt; 0.05; $ different from EVA-new condition at p &lt; 0.05; † different from EVA-worn condition at p &lt; 0.05 # different from PEBA-worn condition at p &lt; 0.05. Abbreviations: EVA, ethylene and vinyl acetate; PEBA, polyether block amide; VAS, visual analogue scale. 16000838, 2024, 1, Downloaded from <ref type="url" target="https://onlinelibrary.wiley.com/doi/10.1111/sms.14526">https://onlinelibrary.wiley.com/doi/10.1111/sms.14526</ref> by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [10/08/2024]. See the Terms and Conditions (<ref type="url" target="https://onlinelibrary.wiley.com/terms-and-conditions">https://onlinelibrary.wiley.com/terms-and-conditions</ref>) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p><p>trained runners. <ref type="bibr" target="#b17">18</ref> Our RE results suggest that in AFT, PEBA midsoles suffers greater degradation than EVA midsoles over 450 km of road running with a similar pattern of RE deterioration among all runners when comparing the worn-PEBA condition with the new-PEBA condition, while the worn-EVA condition had a wide variability among participants compared with new-EVA (Figure <ref type="figure" target="#fig_0">2</ref>). This may be due to the different composition of the material. PEBA is a polyether, which is less dense and therefore lighter material than traditional EVA, that achieves a higher energy return. <ref type="bibr" target="#b9">10</ref> In our study, the PEBA and EVA condition had a similar shoe mass, so the differences between conditions had to be due to the difference between materials and the higher energy return of PEBA compared with EVA. <ref type="bibr" target="#b9">10</ref> The PEBA condition ceased to improve the RE after 450 km. This may be because PEBA being a less dense material the compression and the wrinkling between the air cells that compose the material could be greater, <ref type="bibr" target="#b34">35</ref> showing a slightly greater difference in energy returned to bending between the new and worn condition in the PEBA condition than in EVA (Table <ref type="table">1</ref>). However, of all the energy return that materials achieve in mechanical testing, only a limited percentage of mechanical energy return is found to be used to improve RE. <ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b35">36</ref> Energy return sometimes occurs at the wrong time, frequency, location, and direction during running, thereby compromising the ultimate effect on performance. Have been showed that the magnitude of mechanical energy return of midsoles in traditional running shoes with modified LBS (48.2% vs. 62.2%) had no effect on RE in shoes of equal mass. <ref type="bibr" target="#b36">37</ref> Therefore, although PEBA midsoles have a higher energy return than EVA midsoles, it seems that not all the differences between the shoes can be explained by the difference in energy return and could possibly also be due to the interaction between the midsole material and the embedded curved carbon fiber plate. <ref type="bibr" target="#b37">38</ref> Based on a recent meta-analysis by our research group, footwear with a curved carbon fiber plate and with the plate embedded in the midsole improved RE more than footwear with flat plates and stiff insoles. <ref type="bibr" target="#b3">4</ref> It could be that an embedded plate is more effective in PEBA than EVA foam.</p><p>Kong et al. <ref type="bibr" target="#b14">15</ref> investigated the effect of shoe degradation (new and worn running shoes) on running kinetics and kinematics measured using a force platform and video motion analysis. They found that as shoe cushioning capability after about 320 km of running decreased, runners modified their running biomechanics to maintain constant external loads. Although our study did not measure kinetics data, our results are in concordance with the modification of running kinematics when the AFT is worn.</p><p>Runners tend to adjust the kinematics to reduce the impact force during running, typically increase leg stiffness, when running on compliant surfaces and decrease leg stiffness on hard surfaces. <ref type="bibr" target="#b38">39</ref> The differences in leg stiffness are primarily due to reduced contact time <ref type="bibr" target="#b39">40</ref> produced by increased ground impact forces <ref type="bibr" target="#b40">41</ref> and muscle activity, <ref type="bibr" target="#b41">42</ref> which are also related to improvements in RE. <ref type="bibr" target="#b42">43</ref> The LBS test showed that the worn conditions of both materials were more compliant to longitudinal bending; however, it was not enough to make a significant difference in leg stiffness, although a decreasing trend is shown for both materials in the worn conditions (Table <ref type="table">2</ref>). Thus, the slight changes in running kinematic as increased step length and reduced contact time in PEBA conditions in comparison with EVA condition could be the small mechanisms causing the higher efficiency in the new PEBA condition. It is known that in runners of similar level (with shoes of similar LBS) less contact time is relation with better RE, characterized by earlier propulsive subphase and more economical energy transfer during the propulsive. <ref type="bibr" target="#b43">44</ref> Moreover, the worn EVA condition showed a significant increase in step frequency in comparison with the new EVA; however, the worn EVA condition and the new EVA showed similar RE. It is known that the best strategy to limit the negative effects of excessive vertical oscillation or excessive stride length on RE is to increase the stride frequency, <ref type="bibr" target="#b42">43,</ref><ref type="bibr" target="#b44">45</ref> thus achieving the same distance with more steps and maintaining the same running efficiency, as opposed to increasing stride length to maintain running speed, which would mean greater muscles activation and also increasing the braking phase worsening the RE.</p><p>Surprisingly, despite differences in RE between the new and worn PEBA conditions, there were no biomechanical changes between conditions in spite of a 39% reduction in LBS and of the increase of energy lost by hysteresis from 25% to 42% after 450 km of real road running in new PEBA versus worn PEBA condition. Previous studies have shown a reduction in shoe shock absorption capability after 240 km 14 and 500 km. <ref type="bibr" target="#b34">35</ref> Thus, the worn PEBA condition in the present study may have become less "bouncing" with use, resulting in a loss of shock attenuation capacity and a loss of rebound effect for the runner. However, it seems that the change in the properties of the worn PEBA shoes does did not cause kinematic changes. Thus, we can assume that the worse RE with the worn PEBA condition is due to the adjustments the runner has to make in order not to change his running biomechanics.</p><p>Regarding the subjective measures, there were no significant differences between the new and worn conditions for both materials. The higher LBS levels of the new conditions compared with the worn conditions did not result in greater discomfort, muscle soreness and rating of perceived exertion for runners. Overall, consistent with previous research, <ref type="bibr" target="#b29">30</ref> where changes in comfort at the foot/shoe interface did not result in changes in RE or significant changes in biomechanical variables.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">| Limitations</head><p>The present study has several limitations. The total running distance was 450 km, a longer running distance was not considered because of time constraints. The midsole characteristics of AFT, especially of EVA midsoles shoes over distances greater than 450 km remains unknown. Several studies indicate that the collapse of air cells <ref type="bibr" target="#b45">46</ref> and the wrinkling of cell faces <ref type="bibr" target="#b34">35</ref> affect the shock absorption capacity of the EVA running shoes, but perhaps the combination of EVA and carbon fiber plate results in a longer life of the EVA midsole. Stiffness and energy return measures for compression, rather than just for bending, would have allowed to further explore differences between the foams and the effects of wear. Furthermore, not all PEBA or EVA midsoles from shoe companies have the same characteristics. Importantly, the EVA and PEBA shoes evaluated in this study were separate shoe models, but with similar midsole dimensions (Table <ref type="table">1</ref>). Therefore, the results of the present study should not be generalized across other shoe types. The mechanical LBS test conducted in our study was performed at similar speeds from previous studies <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b46">47</ref> but substantially slower than bending speeds observed during running. Moreover, this study was done only with male runners and only at one velocity. Hence, it is possible that the present results are limited to male runners of similar competitive levels because it is known that lower limb strength levels and the contact time that the runners have during treadmill running may affect the optimal LBS between subjects. 38,48</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">| Perspective</head><p>Most major running shoe companies now have a new style of road racing shoe with a thick lightweight midsole and accompanied by a carbon fiber plate that increases the LBS of the shoe like the ones used in this study. Therefore, these results generate important new knowledge for the footwear industry. General recommendations for shoe life range between 400 and 500 km for racing shoes, such as AFT. However, our results demonstrate different changes in AFT with PEBA and EVA midsole properties after 450 km of road running, leading to changes in RE and minor kinematic adaptations. Therefore, our results suggest that shoe companies can create AFT with EVA midsole for use in training with a longer shoe life, and design AFT with PEBA for use only in competition to achieve better RE results. However, future studies should compare the wear process in shoes with PEBA midsole with a carbon fiber plate to increase LBS and without carbon fiber plate to analyze the influence of the element to increase the LBS (carbon fiber plate) on AFT wear. In addition, since there is recent discussion about the possible risk of injury when using AFT, <ref type="bibr" target="#b48">49,</ref><ref type="bibr" target="#b49">50</ref> future studies should also investigate the influence of using AFT with EVA and PEBA midsole and their corresponding worn conditions on the risk of injury.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">| CONCLUSIONS</head><p>There is a clear RE advantage to incorporating PEBA versus EVA along with a curved carbon fiber plate in AFT. However, the PEBA midsole experienced greater wear over 450 km and worsened RE compared with the new PEBA condition. While for the shoes with an EVA midsole, RE was not affected when the shoe was worn for 450 km. However, there were minor spatiotemporal modifications on running biomechanics using worn shoes conditions compare to new shoes conditions.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>F I G U R E 2</head><label>2</label><figDesc>Running economy (W kg -1 ) at 13 km h -1 . Bar graphs represent mean values and lines represent the individual trend with each shoe condition. *p ≤ 0.05 during post hoc comparisons when main effect of footwear significant (n = 22).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="4,175.74,46.70,243.79,289.87" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>16000838, 2024, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14526 by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [10/08/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><head>Funding information</head><p><rs type="projectName">REDACAL</rs> project funded by the <rs type="funder">Spanish Ministry of Science and Innovation</rs>, <rs type="projectName">Call "Generation of Knowledge 2022</rs>", Grant/Award Number: ref: <rs type="grantNumber">PID2022 7 140452NB I00</rs></p></div>
+			</div>
+			<div type="funding">
+<div><head>FUNDING INFORMATION</head><p>This article is part of the <rs type="projectName">REDACAL</rs> project (ref: <rs type="grantNumber">PID2022-140452NB-I00</rs>) funded by the <rs type="funder">Spanish Ministry of Science and Innovation, Call "Generation of Knowledge 2022</rs>."</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_vD2ERX4">
+					<orgName type="project" subtype="full">REDACAL</orgName>
+				</org>
+				<org type="funded-project" xml:id="_DZe4xsd">
+					<idno type="grant-number">PID2022 7 140452NB I00</idno>
+					<orgName type="project" subtype="full">Call &quot;Generation of Knowledge 2022</orgName>
+				</org>
+				<org type="funded-project" xml:id="_N3p3Prr">
+					<idno type="grant-number">PID2022-140452NB-I00</idno>
+					<orgName type="project" subtype="full">REDACAL</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST STATEMENT</head><p>VRC, FGM, SHM, MCSM, ARG, and JMGR have no conflicts of interest relevant to the content of this article. WH has received research grants from PUMA and Saucony. No footwear company had any influence on the conceptualization or presented in this publication.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head><p>The data that support the finding of this study are available from the corresponding author upon reasonable request.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PATIENT CONSENT STATEMENT</head><p>All participants were informed about the testing protocols, possible risks involved, and were invited to provide written informed consent.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PERMISSION TO REPRODUCE MATERIAL FROM OTHER SOURCES</head><p>Not applicable.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A test of the metabolic cost of cushioning hypothesis during unshod and shod running</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Tung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Franz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="324" to="329" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tung KD, Franz JR, Kram R. A test of the metabolic cost of cushioning hypothesis during unshod and shod running. Med Sci Sports Exerc. 2014;46:324-329.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Physiological and ergonomics factors in running shoe design</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Frederick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Ergon</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="281" to="287" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Frederick EC. Physiological and ergonomics factors in running shoe design. Appl Ergon. 1984;15:281-287.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Energetics and biomechanics of running footwear with increased longitudinal bending stiffness: a narrative review</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Healey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Swinnen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hoogkamer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="873" to="894" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ortega JA, Healey LA, Swinnen W, Hoogkamer W. Energetics and biomechanics of running footwear with increased lon- gitudinal bending stiffness: a narrative review. Sports Med. 2021;51:873-894.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The effects of footwear midsole longitudinal bending stiffness on running economy and ground contact biomechanics: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">Rodrigo-Carranza V</forename><surname>González-Mohíno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Santos-Concejero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">González-Ravé</forename><surname>Jm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rodrigo-Carranza V, González-Mohíno F, Santos-Concejero J, González-Ravé JM. The effects of footwear midsole longitudi- nal bending stiffness on running economy and ground contact biomechanics: a systematic review and meta-analysis. Eur J Sport Sci. 2022;22:1-14.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Influence of advanced shoe technology on the top 100 annual performances in men&apos;s marathon from 2015 to</title>
+		<author>
+			<persName><forename type="first">Rodrigo-Carranza V</forename><surname>González-Mohíno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Santos</forename><surname>Del Cerro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Santos-Concejero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">González-Ravé</forename><surname>Jm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">22458</biblScope>
+			<date type="published" when="2019">2019. 2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rodrigo-Carranza V, González-Mohíno F, Santos del Cerro J, Santos-Concejero J, González-Ravé JM. Influence of advanced shoe technology on the top 100 annual performances in men&apos;s marathon from 2015 to 2019. Sci Rep. 2021;11:22458.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Impact of advanced footwear technology on elite men&apos;s in the evolution of road race performance</title>
+		<author>
+			<persName><forename type="first">Rodrigo-Carranza V</forename><surname>González-Mohíno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Santos-Concejero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">González-Ravé</forename><surname>Jm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="2661" to="2668" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rodrigo-Carranza V, González-Mohíno F, Santos-Concejero J, González-Ravé JM. Impact of advanced footwear technol- ogy on elite men&apos;s in the evolution of road race performance. J Sports Sci. 2023;40:2661-2668.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Impact of advanced footwear technology on critical speed and performance in elite runners</title>
+		<author>
+			<persName><forename type="first">Rodrigo-Carranza V</forename><surname>González-Mohíno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Casado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Santos-Concejero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Galán-Rioja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Á</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">González-Ravé</forename><surname>Jm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Footwear Sci</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="9" to="15" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rodrigo-Carranza V, González-Mohíno F, Casado A, Santos- Concejero J, Galán-Rioja MÁ, González-Ravé JM. Impact of ad- vanced footwear technology on critical speed and performance in elite runners. Footwear Sci. 2023;15:9-15.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Longitudinal bending stiffness does not affect running economy in Nike Vaporfly shoes</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Healey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hoogkamer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Health Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="285" to="292" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Healey LA, Hoogkamer W. Longitudinal bending stiffness does not affect running economy in Nike Vaporfly shoes. J Sport Health Sci. 2022;11:285-292.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The biomechanics of competitive male runners in three Marathon racing shoes: a randomized crossover study</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hoogkamer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kipp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="133" to="143" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoogkamer W, Kipp S, Kram R. The biomechanics of compet- itive male runners in three Marathon racing shoes: a random- ized crossover study. Sports Med. 2019;49:133-143.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A comparison of the energetic cost of running in Marathon racing shoes</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hoogkamer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kipp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Frank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Farina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1009" to="1019" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoogkamer W, Kipp S, Frank JH, Farina EM, Luo G, Kram R. A comparison of the energetic cost of running in Marathon rac- ing shoes. Sports Med. 2018;48:1009-1019.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Is it the shoes? A simple proposal for regulating footwear in road running</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="439" to="441" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burns GT, Tam N. Is it the shoes? A simple proposal for regulat- ing footwear in road running. Br J Sports Med. 2020;54:439-441.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A comparison of running economy across seven highly cushioned racing shoes with carbon-fibre plates</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Joubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Footwear Sci</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="71" to="83" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Joubert DP, Jones GP. A comparison of running economy across seven highly cushioned racing shoes with carbon-fibre plates. Footwear Sci. 2022;14:71-83.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Longitudinal analysis of plantar pressures with wear of a running shoe</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Escamilla-Martínez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gómez-Martín</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Fernández-Seguín</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Martínez-Nova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Pedrera-Zamorano</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sánchez-Rodríguez R</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Environ Res Public Health</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Escamilla-martínez E, Gómez-martín B, Fernández-Seguín LM, Martínez-nova A, Pedrera-Zamorano JD, Sánchez-rodríguez R. Longitudinal analysis of plantar pressures with wear of a run- ning shoe. Int J Environ Res Public Health. 2020;17:1-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Shock absorption characteristics of running shoes</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Kester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Brunet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="248" to="253" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cook SD, Kester MA, Brunet ME. Shock absorption character- istics of running shoes. Am J Sports Med. 1985;13:248-253.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Running in new and worn shoes: a comparison of three types of cushioning footwear</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Candelaria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="745" to="749" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kong PW, Candelaria NG, Smith DR. Running in new and worn shoes: a comparison of three types of cushioning footwear. Br J Sports Med. 2009;43:745-749.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Kinematic and kinetic parameters associated with running in different shoes</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Mcnair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Marshall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="256" to="261" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mcnair PJ, Marshall RN. Kinematic and kinetic parameters associated with running in different shoes. Br J Sports Med. 1994;28:256-261.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Running economy, mechanics, and marathon racing shoes</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hunter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mcleod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Valentine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Low</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hager</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="2367" to="2373" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hunter I, McLeod A, Valentine D, Low T, Ward J, Hager R. Running economy, mechanics, and marathon racing shoes. J Sports Sci. 2019;37:2367-2373.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Altered running economy directly translates to altered distance-running performance</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hoogkamer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kipp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Spiering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="2175" to="2180" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoogkamer W, Kipp S, Spiering BA, Kram R. Altered running economy directly translates to altered distance-running perfor- mance. Med Sci Sports Exerc. 2016;48:2175-2180.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Influence of shoe mass on performance and running economy in trained runners</title>
+		<author>
+			<persName><forename type="first">Rodrigo-Carranza V</forename><surname>González-Mohíno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Santos-Concejero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">González-Ravé</forename><surname>Jm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Physiol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rodrigo-Carranza V, González-Mohíno F, Santos-Concejero J, González-Ravé JM. Influence of shoe mass on performance and running economy in trained runners. Front Physiol. 2020;11:1-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Shoe midsole longitudinal bending stiffness and running economy, joint energy, and EMG</title>
+		<author>
+			<persName><forename type="first">Jpr</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Stefanyshyn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="562" to="569" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Roy JPR, Stefanyshyn DJ. Shoe midsole longitudinal bending stiffness and running economy, joint energy, and EMG. Med Sci Sports Exerc. 2006;38:562-569.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Increasing the midsole bending stiffness of shoes alters gastrocnemius medialis muscle function during running</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cigoja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Fletcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Esposito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Stefanyshyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Nigg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">749</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cigoja S, Fletcher JR, Esposito M, Stefanyshyn DJ, Nigg BM. Increasing the midsole bending stiffness of shoes alters gas- trocnemius medialis muscle function during running. Sci Rep. 2021;11:749.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The strengthening the reporting of observational studies in epidemiology (STROBE) statement: guidelines for reporting observational studies</title>
+		<author>
+			<persName><forename type="first">Von</forename><surname>Elm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Altman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Egger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pocock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Gøtzsche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Vandenbroucke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">370</biblScope>
+			<biblScope unit="page" from="1453" to="1457" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Von Elm E, Altman DG, Egger M, Pocock SJ, Gøtzsche PC, Vandenbroucke JP. The strengthening the reporting of observa- tional studies in epidemiology (STROBE) statement: guidelines for reporting observational studies. Lancet. 2007;370:1453-1457.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Metabolic cost of running is greater on a treadmill with a stiffer running platform</title>
+		<author>
+			<persName><forename type="first">Jah</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Mckerrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Kohn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1592" to="1597" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smith JAH, McKerrow AD, Kohn TA. Metabolic cost of run- ning is greater on a treadmill with a stiffer running platform. J Sports Sci. 2017;35:1592-1597.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Factors affecting running economy in trained distance runners</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">U</forename><surname>Saunders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Pyne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Telford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hawley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="465" to="485" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Saunders PU, Pyne DB, Telford RD, Hawley JA. Factors affect- ing running economy in trained distance runners. Sports Med. 2004;34:465-485.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">What determines the metabolic cost of human running across a wide range of velocities?</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kipp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Grabowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">221</biblScope>
+			<date type="published" when="2018">2018. 184218</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kipp S, Grabowski AM, Kram R. What determines the meta- bolic cost of human running across a wide range of velocities? J Exp Biol. 2018;221:jeb184218.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Table of nonprotein respiratory quotient: an update</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Peronnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Massicotte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="23" to="29" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Peronnet F, Massicotte D. Table of nonprotein respiratory quo- tient: an update. Can J Sport Sci. 1991;16:23-29.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The reliability of lactate measurements during exercise</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pfitzinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Freedson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="349" to="357" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pfitzinger P, Freedson PS. The reliability of lactate measure- ments during exercise. Int J Sports Med. 1998;19:349-357.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Absolute reliability and concurrent validity of the Stryd system for the assessment of running stride kinematics at different velocities</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>García-Pinillos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Roche-Seruendo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Marcén-Cinca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><forename type="middle">-</forename><surname>Contreras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Latorre-Román</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="78" to="84" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">García-Pinillos F, Roche-Seruendo LE, Marcén-Cinca N, Marco-Contreras LA, Latorre-Román PA. Absolute reliability and concurrent validity of the Stryd system for the assessment of running stride kinematics at different velocities. J Strength Cond Res. 2021;35:78-84.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Implications of sample size and acquired number of steps to investigate running biomechanics</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Pirscoveanu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Oliveira AS, Pirscoveanu CI. Implications of sample size and acquired number of steps to investigate running biomechanics. Sci Rep. 2021;11:1-15.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Comfort assessment of running footwear: does assessment type affect inter-session reliability?</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lindorfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kröll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schwameder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="177" to="185" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lindorfer J, Kröll J, Schwameder H. Comfort assessment of running footwear: does assessment type affect inter-session re- liability? Eur J Sport Sci. 2019;19:177-185.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Reliability of the visual analog scale for measurement of acute pain</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Bijur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Silver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Gallagher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acad Emerg Med</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1153" to="1157" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bijur PE, Silver W, Gallagher EJ. Reliability of the visual an- alog scale for measurement of acute pain. Acad Emerg Med. 2001;8:1153-1157.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Statistical power analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Dir Psychol Sci</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="98" to="101" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cohen J. Statistical power analysis. Curr Dir Psychol Sci. 1992;1:98-101.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The modelling and performance of training shoe cushioning system</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Thomson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Birkbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Mccafferty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Sports Eng</title>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="109" to="120" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Thomson RD, Birkbeck AE, Tan WL, McCafferty LF, Grant S, Wilson J. The modelling and performance of training shoe cushioning system. Sports Eng. 1999;2:109-120.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Changes in heel cushioning characteristics of running shoes with running mileage</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xian</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">He</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Footwear Sci</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="141" to="147" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang L, Xian Li J, Hong Y, He Zhou J. Changes in heel cush- ioning characteristics of running shoes with running mileage. Footwear Sci. 2010;2:141-147.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Heel-shoe interactions and the durability of EVA foam running-shoe midsoles</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Verdejo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Mills</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="1379" to="1386" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Verdejo R, Mills NJ. Heel-shoe interactions and the du- rability of EVA foam running-shoe midsoles. J Biomech. 2004;37:1379-1386.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The energetics of running and running shoes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Shorten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="41" to="51" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Shorten MR. The energetics of running and running shoes. J Biomech. 1993;26:41-51.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Does an increase in energy return and/or longitudinal bending stiffness shoe features reduce the energetic cost of running?</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Flores</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Delattre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Berton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="429" to="439" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Flores N, Delattre N, Berton E, Rao G. Does an increase in energy return and/or longitudinal bending stiffness shoe fea- tures reduce the energetic cost of running? Eur J Appl Physiol. 2019;119:429-439.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Influence of running shoe longitudinal bending stiffness on running economy and performance in trained and national level runners</title>
+		<author>
+			<persName><forename type="first">Rodrigo-Carranza V</forename><surname>Hoogkamer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Salinero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Rodríguez-Barbero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>González-Ravé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>González-Mohíno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+		<idno type="DOI">10.1249/MSS.0000000000003254</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rodrigo-Carranza V, Hoogkamer W, Salinero JJ, Rodríguez- Barbero S, González-Ravé JM, González-Mohíno F. Influence of running shoe longitudinal bending stiffness on running econ- omy and performance in trained and national level runners. Med Sci Sports Exerc. 2023. doi:10. 1249/ MSS. 00000 00000 003254</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Running in the real world: adjusting leg stiffness for different surfaces</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Ferris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Louie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Farley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Biol Sci</title>
+		<imprint>
+			<biblScope unit="volume">265</biblScope>
+			<biblScope unit="page" from="989" to="994" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ferris DP, Louie M, Farley CT. Running in the real world: adjusting leg stiffness for different surfaces. Proc Biol Sci. 1998;265:989-994.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Effects of altered stride frequency and contact time on leg-spring behavior in human running</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Samozino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zameziati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Belli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="3341" to="3348" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Morin JB, Samozino P, Zameziati K, Belli A. Effects of altered stride frequency and contact time on leg-spring behavior in human running. J Biomech. 2007;40:3341-3348.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Influence of maximal running shoes on biomechanics before and after a 5K run</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ter</forename><surname>Har</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hannigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Norcross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Orthop J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pollard CD, Ter Har JA, Hannigan JJ, Norcross MF. Influence of maximal running shoes on biomechanics before and after a 5K run. Orthop J Sports Med. 2018;6:1-5.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Kinematics and muscle activity when running in partial minimalist, traditional, and maximalist shoes</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Borgia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Electromyogr Kinesiol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page">102379</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Becker J, Borgia B. Kinematics and muscle activity when run- ning in partial minimalist, traditional, and maximalist shoes. J Electromyogr Kinesiol. 2020;50:102379.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Is there an economical running technique? A review of modifiable biomechanical factors affecting running economy</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Moore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="793" to="807" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moore IS. Is there an economical running technique? A review of modifiable biomechanical factors affecting running econ- omy. Sports Med. 2016;46:793-807.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Differences in ground contact time explain the less efficient running economy in north African runners</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Santos-Concejero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Granados</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Irazusta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol Sport</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="181" to="187" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Santos-Concejero J, Granados C, Irazusta J, et al. Differences in ground contact time explain the less efficient running economy in north African runners. Biol Sport. 2013;30:181-187.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Acute effects of reducing vertical displacement and step frequency on running economy</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Halvorsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gullstrand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="2065" to="2070" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Halvorsen K, Eriksson M, Gullstrand L. Acute effects of reduc- ing vertical displacement and step frequency on running econ- omy. J Strength Cond Res. 2012;26:2065-2070.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Role of EVA viscoelastic properties in the protective performance of a sport shoe: computational studies</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Even-Tzur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Weisz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hirsch-Falk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gefen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed Mater Eng</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="289" to="299" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Even-Tzur N, Weisz E, Hirsch-Falk Y, Gefen A. Role of EVA vis- coelastic properties in the protective performance of a sport shoe: computational studies. Biomed Mater Eng. 2006;16:289-299.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Effects of running shoe construction on performance in long distance running</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Nigg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cigoja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Nigg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Footwear Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="133" to="138" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nigg BM, Cigoja S, Nigg SR. Effects of running shoe construc- tion on performance in long distance running. Footwear Sci. 2020;12:133-138.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Creating footwear for performance running</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Farina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Haigh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Footwear Sci</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="134" to="S135" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Farina EM, Haigh D, Luo G. Creating footwear for performance running. Footwear Sci. 2019;11:S134-S135.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Bone stress injuries in runners using carbon fiber plate footwear</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tenforde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hoenig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saxena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hollander</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tenforde A, Hoenig T, Saxena A, Hollander K. Bone stress in- juries in runners using carbon fiber plate footwear. Sports Med. 2023;53:1-7.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Navigating the challenges and opportunities with &apos;super shoes&apos;: balancing performance gains with injury risk</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hoenig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saxena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Rice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hollander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Tenforde</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bjsports-2023-106875</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hoenig T, Saxena A, Rice HM, Hollander K, Tenforde AS. Navigating the challenges and opportunities with &apos;super shoes&apos;: balancing performance gains with injury risk. Br J Sports Med. 2023;bjsports-2023-106875. doi:10. 1136/ bjspo rts-2023-106875</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

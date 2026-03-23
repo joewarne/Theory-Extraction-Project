@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Increasing Step Rate Reduces Peak and Cumulative Insole Force in Collegiate Runners</title>
+				<funder ref="#_yy662Fm">
+					<orgName type="full">ACSM</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">American College of Sports Medicine</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Thomas</forename><forename type="middle">S</forename><surname>Madden</surname></persName>
+							<email>thomasmadden4@montana.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">Montana State University</orgName>
+								<address>
+									<settlement>Bozeman</settlement>
+									<region>MT</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><forename type="middle">A</forename><surname>Hawkins</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Biomedical Engineering Graduate Group</orgName>
+								<orgName type="department" key="dep2">Davis</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Davis</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Neurobiology, Physiology, and Behavior</orgName>
+								<orgName type="department" key="dep2">Davis</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<region>Davis CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><forename type="middle">O</forename><surname>Box</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MT</roleName><surname>Bozeman</surname></persName>
+						</author>
+						<title level="a" type="main">Increasing Step Rate Reduces Peak and Cumulative Insole Force in Collegiate Runners</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1FA9693F1FD502AFEECFF6BDAE458046</idno>
+					<idno type="DOI">10.1249/MSS.0000000000003261</idno>
+					<note type="submission">Submitted for publication March 2023. Accepted for publication July 2023.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:12+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>GROUND REACTION FORCE</term>
+					<term>INJURY</term>
+					<term>ACCELERATION</term>
+					<term>WEARABLE SENSORS</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Increasing step rate has been proposed to reduce overuse injury risk in runners by reducing the magnitude of musculoskeletal loading. Although estimating structure-specific loads is challenging, during level running, changes in a runner's vertical ground reaction force (vGRF) may provide insight to changes in their musculoskeletal loading. Further, vGRF can be approximated using force sensing insoles. Purpose: The primary goal of this study was to examine changes in peak insole force and cumulative weighted peak force (CWPF)/km with increased step rate in collegiate runners. The secondary goal was to determine whether sacral acceleration correlates with insole force when increasing step rate. Methods: Twelve collegiate distance runners ran 1000 m outdoors at 3.83 m•s -1 at preferred and 10% increased step rates while insole force and sacral acceleration were recorded. Cumulative weighted peak force/km was calculated from insole force based on cumulative damage models. The effects of step rate on peak insole force and CWPF•km -1 were tested using paired t tests or Wilcoxon tests. Correlation coefficients between peak axial (approximately vertical) sacral acceleration times body mass and peak insole force were calculated on cohort and individual levels. Results: Peak insole force and CWPF•km -1 decreased (P &lt; 0.001) with increased step rate. Peak axial sacral acceleration did not correlate with peak insole force on the cohort level (r = 0.35, P = 0.109) but did within individuals (mean, r = 0.69-0.78; P &lt; 0.05). Conclusions: Increasing step rate may reduce peak vGRF and CWPF•km -1 in collegiate runners. Therefore, clinicians should consider step rate interventions to reduce peak and cumulative vGRF in this population. Individual-specific calibrations may be required to assess changes in peak vGRF in response to increasing step rate using wearable accelerometers.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>decreasing stride length) has been shown to reduce loads at the hip <ref type="bibr" target="#b7">(7,</ref><ref type="bibr" target="#b8">8)</ref>, knee <ref type="bibr" target="#b7">(7)</ref><ref type="bibr" target="#b8">(8)</ref><ref type="bibr" target="#b9">(9)</ref><ref type="bibr" target="#b10">(10)</ref><ref type="bibr" target="#b11">(11)</ref><ref type="bibr" target="#b12">(12)</ref><ref type="bibr" target="#b13">(13)</ref><ref type="bibr" target="#b14">(14)</ref><ref type="bibr" target="#b15">(15)</ref>, ankle <ref type="bibr" target="#b7">(7,</ref><ref type="bibr" target="#b12">12,</ref><ref type="bibr" target="#b16">16)</ref>, soleus <ref type="bibr" target="#b10">(10)</ref>, and Achilles tendon <ref type="bibr" target="#b16">(16)</ref> in recreational runners and tibia loads in experienced runners <ref type="bibr" target="#b17">(17)</ref>.</p><p>Whereas estimates of structure-specific loads based on motion capture and musculoskeletal modeling are currently limited to laboratory settings, wearable devices allow estimates of vGRF in natural running environments. Force sensing insoles, which measure the force normal to the plantar surface of the foot, have been used to approximate the peak vGRF during running <ref type="bibr" target="#b18">(18)</ref><ref type="bibr" target="#b19">(19)</ref><ref type="bibr" target="#b20">(20)</ref>. Compared with force instrumented treadmill values, the 200 Hz Loadsol device showed excellent intraclass correlation coefficients (0.95-0.96), mean bias of 0.20 body weight, and standard error of the mean of 0.07 to 0.08 body weight <ref type="bibr" target="#b19">(19)</ref>. As a practical alternative to laboratory-based assessments, peak insole force may be used to assess the influence of increasing step rate on peak vGRF in settings where estimating structure-specific loads is not yet feasible (e.g., during outdoor running). Further, this approach does not limit vGRF measurements to a treadmill at constrained speed or to a few steps over a force plate in the laboratory, which may not be representative of normal running. Although the vGRF itself does not indicate structural loading, when constrained to level running at submaximal speeds, muscle-tendon and bone forces increase with increasing vGRF <ref type="bibr" target="#b21">(21,</ref><ref type="bibr" target="#b22">22)</ref>. Therefore, reductions in vGRF in response to increased step rate during level running may reflect reductions in structure-specific loads.</p><p>Overuse injuries are generally understood to occur due to accumulating microstructural damage, which for a single run depends on the number of loading cycles and the load magnitude per cycle. To develop effective training strategies that modify these factors to reduce the risk of overuse injury, it is important to understand the relative weight the number of loading cycles and the load magnitude have on microstructural damage. Fatigue failure behavior of musculoskeletal structures suggests the damage accumulated depends more strongly on load magnitude than the number of loading cycles <ref type="bibr" target="#b23">(23)</ref>. Therefore, a reduction in load magnitude with increased step rate is likely to reduce the damage accumulated for a given running distance despite the increased number of steps. Metrics of cumulative damage <ref type="bibr" target="#b23">(23)</ref> can help test this hypothesis and provide greater insight to potential changes in injury risk than estimating peak vGRF alone.</p><p>Inexpensive wearable devices, such as accelerometers, may be able to estimate changes in peak vGRF in response to increasing step rate in the field. The product of body mass and peak axial (approximately vertical) acceleration at the sacrum can provide a simplified estimate of peak vGRF. This method produced a moderate (r = 0.64) and significant correlation with force-instrumented treadmill measurements of vGRF in collegiate cross-country runners <ref type="bibr" target="#b24">(24)</ref>. Therefore, measuring changes in sacral acceleration may provide a less expensive and intrusive approach than laboratory-based assessments or force sensing insoles to assess changes in peak vGRF when running with increased step rate.</p><p>Increasing step rate at constant running speed has been shown to decrease peak vGRF <ref type="bibr" target="#b8">(8,</ref><ref type="bibr" target="#b10">10,</ref><ref type="bibr" target="#b25">25)</ref> and insole force <ref type="bibr" target="#b26">(26)</ref> in recreational runners, but few studies have evaluated the effect of the intervention on metrics of cumulative damage potentially related to injury risk <ref type="bibr" target="#b17">(17)</ref>, and no study to date has investigated these effects in collegiate runners specifically. In addition, it is unknown whether sacral acceleration can assess (i.e., correlates with) changes in peak vGRF with increased step rate.</p><p>The primary purpose of this study was to examine the changes in peak insole force and cumulative weighted peak force (CWPF) per kilometer, with increased step rate in collegiate distance runners. As a secondary purpose, we also aimed to determine whether peak sacral acceleration correlates with peak insole force when increasing step rate. Our primary hypothesis was that peak insole force and CWPF would decrease with increased step rate. Our secondary hypothesis was that peak axial sacral acceleration would decrease with increased step rate and that peak axial sacral acceleration multiplied by body mass would correlate with peak insole force on cohort and individual levels.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>Participants. NCAA and club collegiate cross-country runners (n = 12) from UC Davis and St. Mary's College of California were recruited (Table <ref type="table" target="#tab_0">1</ref>). Runners competed in events of 1500 m or longer. All participants were uninjured at the time of study, where injury was defined as a reduction in training due to pain. Sample size was determined via an a priori power analysis using G*Power software (Dusseldorf, Germany). The expected effect size was determined from preliminary data of five collegiate or former collegiate distance runners (2 female/3 male). At a constant speed of 3.83 m•s -1 , peak insole force decreased by 0.0908 ± 0.0849 body weight  (mean ± SD) on average from preferred to 10% increased step rate conditions, resulting in an effect size of 1.07. No sex-based difference in response was observed. With this expected effect size, power of 0.80, and significance level of 0.05, a minimum of nine participants was determined necessary to detect differences in peak insole force with sufficient power. Participants provided written informed consent and the study was approved by the UC Davis Institutional Review Board. Experimental protocol. Participants were fit to wireless force sensing insoles (Novel Loadsol, St. Paul, MN), which measure the normal force under the plantar surface of the foot (Fig. <ref type="figure" target="#fig_0">1B</ref>). These sensors were previously validated to measure vGRF accurately and reliably during running <ref type="bibr" target="#b18">(18)</ref><ref type="bibr" target="#b19">(19)</ref><ref type="bibr" target="#b20">(20)</ref>. Three insole sizes were used in this study. Participants were fit to the smallest insole size that covered the entire plantar area of the foot. The insoles were inserted into the shoes over the insoles of the participants' own shoes and calibrated according to manufacturer instructions. The calibration for each sensor was verified with static single leg stance force within 5% of the participant's body weight, measured using an electronic scale. Insole forces were recorded at 200 Hz.</p><p>A wearable inertial measurement unit (IMU) (ProMove Mini, Inertia Technology, Enschede, The Netherlands) with an acceleration measurement range of ±16 g was mounted on the sacrum (Fig. <ref type="figure" target="#fig_0">1A</ref>) using a neoprene belt over the waistband of the shorts and secured as tightly as comfortable. The vertical axis of the IMU coordinate system was aligned with the vertical axis of the trunk. The acceleration along this axis was taken as the vertical sacral acceleration and recorded at 200 Hz.</p><p>To provide performance-related context to our results, we also examined the effect of increased step rate on heart rate and perceived exertion. Participants wore a Polar chest strap heart rate monitor (H10, Kempele, Finland) that updated heart rate data at 1 Hz via a Garmin device (Forerunner 230, Olathe, KS). After each trial, participants reported their rating of perceived exertion (RPE) using a modified Borg CR10 scale <ref type="bibr" target="#b27">(27)</ref>.</p><p>To determine each participant's preferred step rate, participants first ran for 400 m around a synthetic outdoor track at their preferred step rate next to a pacer running at 3.83 m•s -1 . This speed was chosen to represent the speed used during most training runs for the NCAA distance runners at UC Davis, based on conversations with athletes. Insole force data were transmitted via Bluetooth from the electronics housing, attached to the laces of the participants' shoes, to an Android device with Loadsol software (Fig. <ref type="figure" target="#fig_0">1C</ref>). The preferred step rate was taken as the average step rate calculated using the Loadsol software during the final 30 s of the trial.</p><p>Participants then ran 1000 m around the track next to the pacer at 3.83 m•s -1 at their preferred step rate and at a 10% greater step rate in random counterbalanced order. One 1000-m trial was completed for each step rate condition. Step rate was enforced using an audible metronome. After acclimating to the specified step rate for 200 m, data were recorded for 1000 m. Trials were accepted if the average speed, calculated from 1000-m time, was within 5% of 3.83 m•s -1 and the average speeds of the two trials were within 2.5% of each other. To synchronize the force and acceleration data, participants performed a vertical countermovement jump before and after each trial. Participants rested for a minimum of 3 minutes between trials.</p><p>Data processing. Force data were imported into MATLAB (R2021b, Natwick, MA) for data processing and analysis using custom MATLAB scripts. Raw force data were left unfiltered <ref type="bibr" target="#b19">(19)</ref>. Vertical sacral acceleration data were low-pass filtered using a zero-lag 4th order Butterworth filter with a 5-Hz cutoff frequency. This cutoff frequency was found to result in the lowest absolute error between predicted peak vGRF using peak sacral acceleration times body mass and the observed peak vGRF in collegiate cross-country runners <ref type="bibr" target="#b24">(24)</ref>. Although those results suggested a 10-Hz cutoff frequency yields stronger correlations between peak sacral acceleration times body mass and peak vGRF than a 5-Hz cutoff frequency <ref type="bibr" target="#b24">(24)</ref>, in the current study, a 5-Hz cutoff frequency resulted in stronger correlations between peak sacral acceleration times body mass and peak insole force. The gravitational component of the vertical sacral acceleration was calculated as the mean static acceleration and subtracted from the acceleration signal during dynamic trials. Force and acceleration data were time synchronized (Fig. <ref type="figure">2</ref>) via cross-correlation of the peak force and vertical sacral acceleration signals obtained during the countermovement jumps <ref type="bibr" target="#b24">(24)</ref>. Heart rate data were downloaded from the Garmin device and analyzed in MATLAB.</p><p>Cumulative damage model. To investigate changes in cumulative loading with increased step rate, we defined a cumulative weighted peak force metric based on fatigue failure behavior of repetitively loaded musculoskeletal structures FIGURE 2-Synchronized force and acceleration for preferred step rate (left) and 10% increased step rate (right). <ref type="bibr" target="#b23">(23)</ref>. Using the Palmgren-Miner rule <ref type="bibr" target="#b28">(28)</ref> and empirical relationships between the number of cycles to failure and peak cyclic stress of musculoskeletal structures loaded to fatigue failure <ref type="bibr" target="#b29">(29)</ref><ref type="bibr" target="#b30">(30)</ref><ref type="bibr" target="#b31">(31)</ref><ref type="bibr" target="#b32">(32)</ref>, cumulative damage (CD) is proportional to the product of the number of steps (n) and peak stress per step (S i ) weighted by an experimentally derived factor (b), summed over i steps of varying peak stress <ref type="bibr" target="#b23">(23)</ref>:</p><formula xml:id="formula_0">CD ∝ ∑ i n i S b i 1 ð Þ</formula><p>The constant b varies by tissue: 4.3 for patellar tendon (29), 6.6 for cortical bone <ref type="bibr" target="#b17">(17,</ref><ref type="bibr" target="#b32">32)</ref>, and 9.3 for the Achilles tendon <ref type="bibr" target="#b31">(31)</ref>.</p><p>For a specific runner, a metric for cumulative loading to the leg (cumulative weighted peak force, CWPF) during a run can be defined by replacing stress in Eq. 1 with peak vGRF:</p><formula xml:id="formula_1">CWPF ¼ S n i¼1 F 6:6 i 2 ð Þ</formula><p>where n is the total number of steps and F i is the peak vGRF force of the ith step for each leg. Given the association between step rate and the risk of bone stress injury in collegiate runners (5), a common (2,5), and debilitating <ref type="bibr" target="#b33">(33)</ref> injury in this population, we chose to weight the peak force by a factor of 6.6, although the exact weighting is not critical to the goals of this study. Previous work has shown a relationship between a similar measure of cumulative weighted vGRF, estimated using accelerometry, and injury <ref type="bibr" target="#b34">(34)</ref>.</p><p>Analysis. Variables of interest were calculated for each step rate condition. Step rate was calculated using the insole force data. Peak insole force, peak sacral acceleration, impulse, and contact time were analyzed as per-step averages over each 1000-m trial. Peak insole force and peak axial sacral acceleration were determined for each step and these values were averaged over each 1000-m trial. Impulse per step was calculated from the insole force data as the integral of the force-time curve over stance, where stance start and end points were defined as the times at which the slope of the force-time curve exceeded 2500 N•s -1 and fell below -2500 N•s -1 , respectively. This method was based on that of Seiberl et al. <ref type="bibr" target="#b20">(20)</ref>, who used a ± 1500 N•s -1 threshold to identify stance start and end points with insole force data recorded at 100 Hz in participants running at 2.2-3.3 m•s -1 . For the faster running speed in this study, we used a threshold of ±2500 N•s -1 to account for elevated forces near a clear stance phase. Contact time in seconds was calculated from the stance start and end times for each step. Percent of time in ground contact was calculated as the sum of the left and right ratios of contact time to stride time, which was determined using the stance start points of consecutive ipsilateral steps. Cumulative weighted peak force per kilometer was calculated for each 1000-m trial according to Eq. 2 using the peak insole force. Values for each parameter were averaged across right and left legs for each trial. Finally, the heart rate for each step rate condition was averaged over the final 60 seconds of each trial.</p><p>For data visualization, insole force was calculated at each relative point of the stride cycle. Data were normalized to 101 points for each stride cycle (stance start to subsequent stance start). At each point in the stride cycle, the mean insole force of each participant was calculated across right and left sides for each trial. The means across participants were then calculated for each step rate condition.</p><p>The effect of step rate on each variable of interest was tested for significance using matched pairs tests. Data were evaluated for normality using Q-Q plots and Shapiro-Wilk tests with a significance level of 0.05. For normally distributed data, differences in variables between step rate conditions were tested for significance using paired t-tests with a significance level of 0.05. For variables that violated the assumption of normality (CWPF per kilometer and RPE), differences were tested for significance using Wilcoxon signed rank tests with significance level of 0.05. Acceleration data were analyzed for 11 participants due to lost signal for one participant. Heart rate data were analyzed for 11 participants due to a lost connection between devices for one participant.</p><p>Correlations between peak insole force and peak sacral acceleration multiplied by body mass were evaluated on the cohort level and within participants. The peak accelerations corresponding to the peak forces per step were extracted by identifying the peak accelerations nearest in time to the peak forces. Peak acceleration per step was then multiplied by participant body mass. The Pearson correlation coefficient, r, was calculated for the cohort between average peak sacral acceleration multiplied by body mass and average peak insole force. These values were normalized by body weight before calculating the correlation coefficient. We also evaluated within-participant correlations between peak sacral acceleration multiplied by body mass and peak insole force. Left and right sides were evaluated separately. The average correlation coefficients were then calculated across participants. A strong correlation was defined as r ≥ 0.80, moderate as 0.50 ≤ r &lt; 0.80, and weak as r &lt; 0.50.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Peak insole force was lower in the increased step rate condition compared with the preferred step rate condition (Fig. <ref type="figure" target="#fig_1">3</ref>). Average peak insole force, CWPF, and peak sacral acceleration significantly decreased with increased step rate (Table <ref type="table" target="#tab_1">2</ref>). Average peak insole force decreased by 0.16 ± 0.07 BW (mean ± SD), which represents a 5.9 ± 2.7% decrease in peak force with increased step rate relative to preferred step rate. The decrease in average peak insole force translated to an average 26.1 ± 12.6% decrease in CWPF.</p><p>The increased step rate resulted in significant differences in all other parameters tested (Table <ref type="table" target="#tab_1">2</ref>). Participants increased step rate by an average of 9.7 ± 0.9% (mean ± SD) relative to the preferred step rate. Running speed showed a slight (&lt;1%) but significant increase with increased step rate. Impulse and contact time per step also decreased with increased step rate; however, percent of time in ground contact increased. RPE and heart rate both significantly increased with increased step rate. Consistent with the decrease in peak force, peak vertical sacral acceleration decreased by 5.8 ± 4.6% with increased step rate.</p><p>Peak sacral acceleration multiplied by body mass did not correlate with peak insole force on the cohort level but did within individuals. On the cohort level, the correlation between peak sacral acceleration multiplied by body mass and peak insole force was weak and not statistically significant (r = 0.35, P = 0.109; Fig. <ref type="figure" target="#fig_2">4</ref>). Within individuals, relationships varied by participant and sides within participants (Fig. <ref type="figure" target="#fig_3">5</ref>). Although all statistically significant ( P &lt; 0.05), individual and side-specific correlations ranged from weak (r = 0.19) to strong (r = 0.92). Left and right correlations were on average moderate (Table <ref type="table" target="#tab_2">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>Our primary objective was to examine changes in peak insole force and CWPF per kilometer with increased step rate in collegiate runners. Our primary hypothesis was that average peak insole force and CWPF per kilometer would decrease with increased step rate. In support of our hypothesis, average peak insole force and CWPF per kilometer significantly decreased while running at a 10% increased step rate relative to preferred, indicating that increasing step rate results in decreased peak vGRF and cumulative weighted peak vGRF per kilometer. results are consistent with peak insole force changes <ref type="bibr" target="#b26">(26)</ref> and peak vGRF changes <ref type="bibr" target="#b8">(8,</ref><ref type="bibr" target="#b10">10,</ref><ref type="bibr" target="#b25">25)</ref> reported for recreational runners. A decrease in CWPF per kilometer may suggest a decrease in cumulative damage in bone structures for which loads are reduced, such as the tibia <ref type="bibr" target="#b17">(17)</ref>. Since other structures exhibit similar fatigue failure behavior <ref type="bibr" target="#b29">(29)</ref><ref type="bibr" target="#b30">(30)</ref><ref type="bibr" target="#b31">(31)</ref>, it may also indicate a decrease in cumulative damage of other musculoskeletal structures for which structure-specific loads are reduced. Therefore, the observed decreases in peak insole force and CWPF over 1000 m of outdoor running provide ecologically valid evidence that a 10% increase in step rate may reduce the peak and cumulative weighted vGRF, which may also suggest decreases in bone and other structure-specific cumulative damage and relative decreases in structure-specific injury risk. Although we tested peak insole force and CWPF at an arbitrary 10% increase in step rate, our results suggest that a more subtle increase in step rate may still elicit meaningful reductions in peak and cumulative weighted vGRF.</p><p>As a secondary objective, this study also evaluated the use of sacral acceleration to assess changes in peak insole force (i.e., explain variation in peak force). Our secondary hypothesis was that peak axial sacral acceleration would decrease with increased step rate and that peak axial sacral acceleration multiplied by body mass would correlate with peak insole force on cohort and individual levels. Consistent with decreased peak force, peak axial sacral acceleration significantly decreased with increased step rate. However, peak axial sacral acceleration multiplied by body mass did not significantly correlate with peak insole force on the cohort level ( P = 0.109). In contrast, on the individual level, correlations between peak axial sacral acceleration multiplied by body mass and peak insole force were all significant and on average moderate (r = 0.69-0.78). In partial support of our hypothesis, these results suggest that sacral acceleration can be used to assess changes in peak insole force not on a group level but only on an individual level. Day et al. <ref type="bibr" target="#b24">(24)</ref> showed peak vGRF correlates with sacral acceleration multiplied by body mass across speeds in collegiate runners. Differences between this correlation and the results of the present study may be because of the smaller range in peak insole force observed when increasing step rate (0.8 BW) compared with the range in peak vGRF observed across speeds (1.2 BW, 24) and errors between peak vGRF and peak insole force <ref type="bibr" target="#b18">(18)</ref><ref type="bibr" target="#b19">(19)</ref><ref type="bibr" target="#b20">(20)</ref>. To assess changes in peak vGRF (and thus CWPF) with increased step rate, this approach may require individual-specific calibrations in which an initial session with force sensing insoles, force plates, or an instrumented treadmill is used to generate a model to predict the individual's peak insole force or vGRF given peak sacral acceleration. Practitioners can then use that relationship to estimate peak vGRF in response to increased step rate or other interventions in the field. A secondary analysis of our results revealed that changes in estimated peak insole force with increased step rate correlated strongly with changes in measured values only when individual-specific calibrations  were applied (r = 0.92, P &lt; 0.001 with vs. r = 0.52, P = 0.101 without). Although individual-specific calibrations may allow the use of sacral acceleration to assess changes in peak vGRF, the requirement of an initial insole or laboratory-based calibration session limits the large-scale feasibility of this approach. Furthermore, if the goal is to estimate vGRF magnitude (e.g., to make comparisons between individuals or against normative data), more accurate prediction models with additional variables <ref type="bibr" target="#b35">(35,</ref><ref type="bibr" target="#b36">36)</ref> are likely needed.</p><p>Increasing step rate also resulted in changes in impulse and spatiotemporal measures. Impulse per step significantly decreased with increased step rate, likely due in part to decreased peak force and contact time. A decrease in vertical impulse suggests a lower vertical take-off velocity and thus a lower center of mass vertical excursion <ref type="bibr" target="#b8">(8)</ref>. These changes contribute to the decrease in step time that is required to increase step frequency. Although contact time per step significantly decreased, the percent of stride time in ground contact significantly increased with increased step rate. On average, percent of time in ground contact was 2.9% longer when increasing step rate, which is consistent with Heiderscheit et al. <ref type="bibr" target="#b8">(8)</ref>. Interestingly, a shorter percent of time in ground contact was consistent with greater peak vGRF and associated with a higher risk of bone stress injury in collegiate runners <ref type="bibr" target="#b37">(37)</ref>. However, the difference in percent of time in ground contact observed here is smaller than the differences between clusters of different injury incidences <ref type="bibr" target="#b37">(37)</ref>.</p><p>RPE and heart rate significantly increased with increased step rate. These changes could be a result of increased mental focus and/or increased metabolic energy consumption to run at a higher step rate. The increase in heart rate contrasts with previous studies showing no significant increase in heart rate and metabolic cost with 10% increase in step rate <ref type="bibr" target="#b38">(38)</ref> and no significant increase in metabolic cost with 8% increased step rate <ref type="bibr" target="#b39">(39)</ref>. These differences may be due to differences in competition level of the samples. Hamill et al. <ref type="bibr" target="#b38">(38)</ref> studied healthy male adults who showed a U-shaped trend for heart rate and oxygen consumption where the minimum occurred at a step rate greater than preferred. The collegiate runners in this study may have preferred step rates that are already at or near optimum for metabolic cost such that increasing step rate may increase the metabolic energy consumption at a given speed. Given the increases in RPE and heart rate with increased step rate in collegiate runners observed here, increasing step rate should be prescribed only for "easy" runs in which the performance for that run is not the primary goal.</p><p>Slight changes in running speed and individual differences in responses may have contributed to the large variability in CWPF changes with increased step rate (SD = 12.6%). Although speed was controlled to within 2.5% between trials, there was a small (&lt;1%) and significant increase in speed with increased step rate. Preferred step rate tends to increase with speed <ref type="bibr" target="#b21">(21)</ref>. Therefore, participants may have tended to run slightly faster in attempt to maintain a more comfortable step rate for their running speed. Despite a slightly faster speed on average with increased step rate, all participants showed reduced peak insole force and CWPF and results are consistent with studies that constrained speed using instrumented treadmills <ref type="bibr" target="#b8">(8,</ref><ref type="bibr" target="#b10">10,</ref><ref type="bibr" target="#b25">25)</ref>.</p><p>The peak and cumulative weighted force measurements of this study were limited to insole force used to approximate the vGRF. Therefore, we cannot infer relative changes in the risk of injury for specific musculoskeletal structures. However, in level running, changes in vGRF reflect changes in structurespecific forces <ref type="bibr" target="#b21">(21,</ref><ref type="bibr" target="#b22">22)</ref>. Other studies have shown decreased hip extensor <ref type="bibr" target="#b10">(10)</ref>, patellar tendon <ref type="bibr" target="#b10">(10)</ref>, patellofemoral <ref type="bibr" target="#b10">(10,</ref><ref type="bibr" target="#b11">11,</ref><ref type="bibr" target="#b13">13,</ref><ref type="bibr" target="#b14">14)</ref>, tibiofemoral <ref type="bibr" target="#b9">(9,</ref><ref type="bibr" target="#b14">14,</ref><ref type="bibr" target="#b15">15)</ref>, tibia <ref type="bibr" target="#b17">(17)</ref>, soleus <ref type="bibr" target="#b10">(10)</ref>, and Achilles tendon loads <ref type="bibr" target="#b16">(16)</ref> with increased step rate. Therefore, the decrease in CWPF observed here may indicate a decrease in cumulative damage for those structures. However, increasing step rate may increase hip flexor muscle forces during early swing and hamstring muscle forces during late swing <ref type="bibr" target="#b10">(10)</ref> and therefore may not be appropriate for reducing the risk of all injuries. For some of the most common running injuries including Achilles  tendinopathy, patellar tendinopathy, and tibial stress fracture <ref type="bibr" target="#b40">(40)</ref>, increasing step rate may be an appropriate intervention. Clinicians should consider interventions to increase step rate in runners susceptible to such injuries (e.g., those with a frequent injury history or those returning from injury) and implement interventions gradually to allow adaptation to potential shifts in load to different musculoskeletal structures.</p><p>The CWPF metric in this study (Eq. 2) represents a surrogate of cumulative damage in bone (e.g., the tibia). When peak force was weighted by factors reflecting the fatigue failure behavior of Achilles tendon <ref type="bibr">(9.3; 31)</ref> or patellar tendon (4.3; 29), CWPF per kilometer decreased by 36.2% ( P &lt; 0.001) and 16.8% ( P &lt; 0.001) on average, respectively, which is consistent with the 26.1% decrease specific to bone. This metric only represents a surrogate of cumulative damage for a single loading bout and thus does not consider damage repair and adaptation of musculoskeletal structures. More detailed, and structure-specific models of damage repair and adaptation would need to be incorporated to infer differences in cumulative damage over multiple training sessions.</p><p>The results of this study are specific to level track running at 3.8 m•s -1 . It is unknown whether the same effects of increasing step rate on normal or vGRF are observed during graded running. In addition, peak vGRF does not adequately reflect structure-specific loads during graded running <ref type="bibr" target="#b22">(22)</ref>. Although our results are limited to a track surface, similar results were observed for running on treadmill <ref type="bibr" target="#b8">(8,</ref><ref type="bibr" target="#b10">10,</ref><ref type="bibr" target="#b25">25)</ref> and road <ref type="bibr" target="#b26">(26)</ref> surfaces in recreational runners. The speed used in this study represents easy run speeds and the majority of runs in the population of NCAA runners. It is unknown whether increasing step rate at faster speeds would have the same effects on biomechanical and physiological parameters.</p><p>The results of this study are also specific to the acute effects of increasing step rate in collegiate runners; the longitudinal effects of increasing step rate in this population are unknown. Future work should investigate the longitudinal effects of a training protocol to increase step rate on vGRF, structure-specific loads, and performance-related metrics in collegiate runners. Prospective studies should be conducted to determine whether interventions targeting an increase in step rate reduce the risk of running injuries.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>In conclusion, our results provide ecologically valid evidence that increasing step rate results in decreased peak vGRF and CWPF per kilometer in collegiate distance runners. The decrease in CWPF, which represents a potential surrogate of the general damage accumulated in musculoskeletal structures for a given training session, may reflect relative decreases in structure-specific injury risk. Therefore, clinicians should consider interventions to increase step rate in runners susceptible to injury (e.g., those with a history of frequent injuries or those returning from injury). Increases in RPE and heart rate suggest a greater mental focus and/or metabolic cost with increased step rate in this population, therefore interventions to increase step rate should be constrained to easy running. Correlation results suggest individual-specific calibrations are required to use sacral acceleration as a surrogate to assess changes in peak vGRF in response to increased step rate or other training or footwear interventions in the field. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIGURE 1 -</head><label>1</label><figDesc>FIGURE 1-Experimental protocol overview. (A) Participants matched steps to an audible metronome set to frequencies of preferred step rate (PSR) and 10% increased step rate. Acceleration was recorded from an IMU placed over the sacrum. (B) Loadsol force sensing insoles recorded insole force data via (C) the Loadsol app on an Android device.</figDesc><graphic coords="2,126.20,491.30,332.61,175.07" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIGURE 3 -</head><label>3</label><figDesc>FIGURE 3-Average insole forces over the stride cycle for preferred and 10% increased step rate conditions. Values were averaged across all participants.</figDesc><graphic coords="5,42.75,38.89,236.61,192.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIGURE 4 -</head><label>4</label><figDesc>FIGURE 4-Average peak insole force and peak acceleration multiplied by body mass, each normalized by body weight. Each color represents one participant (n = 11).</figDesc><graphic coords="6,42.75,39.35,236.61,186.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>FIGURE 5 -</head><label>5</label><figDesc>FIGURE 5-Peak insole force and peak acceleration multiplied by body mass for left and right side steps. Each color represents one participant (n = 11).</figDesc><graphic coords="6,305.75,496.69,236.61,177.11" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1 .</head><label>1</label><figDesc>Participant characteristics (mean ± SD).</figDesc><table><row><cell></cell><cell>Female (n = 6)</cell><cell>Male (n = 6)</cell></row><row><cell>Age (y)</cell><cell>23.7 ± 2.9</cell><cell>23.0 ± 3.5</cell></row><row><cell>Mass (kg)</cell><cell>58.8 ± 6.2</cell><cell>74.3 ± 10.1</cell></row><row><cell>Height (cm)</cell><cell>165.7 ± 6.8</cell><cell>179.5 ± 5.7</cell></row><row><cell>5000 m best (min)</cell><cell>19.4 ± 1.7</cell><cell>15.1 ± 0.8</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE 2 .</head><label>2</label><figDesc>Variables for each step rate condition and changes from preferred to 10% increased step rate (mean ± SD).</figDesc><table><row><cell></cell><cell cols="2">Step Rate Condition</cell><cell></cell><cell></cell></row><row><cell>Variables</cell><cell>Preferred</cell><cell>10% Increased</cell><cell>Change</cell><cell>P</cell></row><row><cell>Speed (m•s -1 )</cell><cell>3.79 ± 0.07</cell><cell>3.83 ± 0.06</cell><cell>0.04 ± 0.04</cell><cell>0.010</cell></row><row><cell>Step rate (min -1 )</cell><cell>176 ± 8</cell><cell>193 ± 8</cell><cell>17 ± 1</cell><cell>&lt;0.001</cell></row><row><cell>Peak insole force (BW)</cell><cell>2.64 ± 0.23</cell><cell>2.49 ± 0.24</cell><cell cols="2">-0.16 ± 0.07 &lt;0.001</cell></row><row><cell>CWPF (10 5 BW 6.6 )</cell><cell>2.85 ± 1.64</cell><cell>2.14 ± 1.38</cell><cell cols="2">-0.71 ± 0.55 &lt;0.001</cell></row><row><cell>Impulse (BW*s)</cell><cell cols="4">0.352 ± 0.026 0.318 ± 0.023 -0.034 ± 0.008 &lt;0.001</cell></row><row><cell>Contact time (s)</cell><cell cols="4">0.228 ± 0.014 0.217 ± 0.014 -0.011 ± 0.004 &lt;0.001</cell></row><row><cell cols="2">% time in ground contact 66.8 ± 2.9</cell><cell>69.7 ± 3.1</cell><cell>2.9 ± 0.9</cell><cell>&lt;0.001</cell></row><row><cell cols="2">Peak acceleration (m•s -2 ) 15.2 ± 1.8</cell><cell>14.3 ± 1.8</cell><cell>-0.9 ± 0.7</cell><cell>0.002</cell></row><row><cell>RPE</cell><cell>3.3 ± 1.4</cell><cell>4.6 ± 1.6</cell><cell>1.3 ± 1.5</cell><cell>0.016</cell></row><row><cell>Heart rate (bpm)</cell><cell>161 ± 14</cell><cell>164 ± 12</cell><cell>3 ± 3</cell><cell>0.015</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>TABLE 3 .</head><label>3</label><figDesc>Participant-specific correlations between peak sacral acceleration multiplied by body mass and peak insole force.</figDesc><table><row><cell></cell><cell>Correlation Coefficient</cell><cell></cell></row><row><cell>Participants</cell><cell>Left</cell><cell>Right</cell></row><row><cell>1</cell><cell>0.57</cell><cell>0.76</cell></row><row><cell>2</cell><cell>0.89</cell><cell>0.89</cell></row><row><cell>3</cell><cell>0.92</cell><cell>0.89</cell></row><row><cell>4</cell><cell>0.87</cell><cell>0.89</cell></row><row><cell>5</cell><cell>0.32</cell><cell>0.60</cell></row><row><cell>6</cell><cell>0.19</cell><cell>0.40</cell></row><row><cell>7</cell><cell>0.87</cell><cell>0.89</cell></row><row><cell>8</cell><cell>0.87</cell><cell>0.90</cell></row><row><cell>9</cell><cell>0.62</cell><cell>0.75</cell></row><row><cell>10</cell><cell>0.55</cell><cell>0.77</cell></row><row><cell>11</cell><cell>0.91</cell><cell>0.85</cell></row><row><cell>Mean ± SD</cell><cell>0.69 ± 0.26</cell><cell>0.78 ± 0.16</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Copyright © 2024 by the American College of Sports Medicine. Unauthorized reproduction of this article is prohibited.</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><p>T. M. was supported by an <rs type="funder">ACSM</rs> <rs type="grantName">Research Fellowship and NCAA Postgraduate Scholarship</rs>. The results of this study are presented clearly, honestly, and without fabrication, falsification, or inappropriate data manipulation. Results of the present study do not constitute endorsement by the <rs type="funder">American College of Sports Medicine</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_yy662Fm">
+					<orgName type="grant-name">Research Fellowship and NCAA Postgraduate Scholarship</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<monogr>
+		<title level="m">NCAA sports sponsorship and participation rates database</title>
+		<imprint/>
+	</monogr>
+	<note>Internet</note>
+	<note type="raw_reference">NCAA sports sponsorship and participation rates database [Inter- net].</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<monogr>
+		<author>
+			<persName><surname>Indianapolis</surname></persName>
+		</author>
+		<ptr target="https://www.ncaa.org/sports/2018/10/10/ncaa-sports-sponsorship-and-participation-rates-database.aspx" />
+		<title level="m">National Collegiate Athletics Association</title>
+		<imprint>
+			<date type="published" when="2022-11-09">2022 Nov 9</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Indianapolis (IN): National Collegiate Athletics Association; [cited 2022 Nov 9]. Available from: https://www.ncaa.org/sports/ 2018/10/10/ncaa-sports-sponsorship-and-participation-rates- database.aspx.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Epidemiology of NCAA XC injuries</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Kerr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kroshus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Athl Train</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="57" to="64" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kerr ZY, Kroshus E, Grant J, et al. Epidemiology of NCAA XC in- juries. J Athl Train. 2016;51(1):57-64.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Performance success or failure is influenced by weeks lost to injury and illness in elite Australian track and field athletes: a 5-year prospective study</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Raysmith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Drew</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sci Med Sport</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="778" to="783" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Raysmith BP, Drew MK. Performance success or failure is influenced by weeks lost to injury and illness in elite Australian track and field ath- letes: a 5-year prospective study. J Sci Med Sport. 2016;19(10):778-83.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The impact of injury on health-related quality of life in college athletes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Houston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hoch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Van Lunen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Hoch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sport Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="365" to="375" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Houston MN, Hoch JM, Van Lunen BL, Hoch MC. The impact of injury on health-related quality of life in college athletes. J Sport Rehabil. 2017;26(5):365-75.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Lower step rate is associated with a higher risk of bone stress injury: a prospective study of collegiate cross country runners</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Kliethermes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Stiffler-Joachim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Sanfilippo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zavala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Heiderscheit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="851" to="856" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kliethermes SA, Stiffler-Joachim MR, Wille CM, Sanfilippo JL, Zavala P, Heiderscheit BC. Lower step rate is associated with a higher risk of bone stress injury: a prospective study of collegiate cross country runners. Br J Sports Med. 2021;55(15):851-6.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Influence of step rate on shin injury and anterior knee pain in high school runners</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Luedke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Heiderscheit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dsb</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Rauh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1244" to="1250" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Luedke LE, Heiderscheit BC, Williams DSB, Rauh MJ. Influence of step rate on shin injury and anterior knee pain in high school runners. Med Sci Sports Exerc. 2016;48(7):1244-50.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Lower extremity joint loads in habitual rearfoot and mid/forefoot strike runners with normal and shortened stride lengths</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Boyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Derrick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="499" to="505" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boyer ER, Derrick TR. Lower extremity joint loads in habitual rearfoot and mid/forefoot strike runners with normal and shortened stride lengths. J Sports Sci. 2018;36(5):499-505.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Effects of step rate manipulation on joint mechanics during running</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Heiderscheit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Chumanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Michalski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Ryan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="296" to="302" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Heiderscheit BC, Chumanov ES, Michalski MP, Wille CM, Ryan MB. Effects of step rate manipulation on joint mechanics during run- ning. Med Sci Sports Exerc. 2011;43(2):296-302.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Independent effects of step length and foot strike pattern on tibiofemoral joint forces during running</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Bowersock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Willy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Devita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Willson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="2005" to="2013" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bowersock CD, Willy RW, DeVita P, Willson JD. Independent ef- fects of step length and foot strike pattern on tibiofemoral joint forces during running. J Sports Sci. 2017;35(20):2005-13.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Increasing running step rate reduces patellofemoral joint forces</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Lenhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Thelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Chumanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Heiderscheit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="557" to="564" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lenhart RL, Thelen DG, Wille CM, Chumanov ES, Heiderscheit BC. Increasing running step rate reduces patellofemoral joint forces. Med Sci Sports Exerc. 2014;46(3):557-64.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Influence of step rate and quadriceps load distribution on patellofemoral cartilage contact pressures during running</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Lenhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Vignos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kaiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Heiderscheit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Thelen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2871" to="2878" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lenhart RL, Smith CR, Vignos MF, Kaiser J, Heiderscheit BC, Thelen DG. Influence of step rate and quadriceps load distribution on patellofemoral cartilage contact pressures during running. J Biomech. 2015;48(11):2871-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The effects of cadence manipulation on joint kinetic patterns and stride-to-stride kinetic variability in female runners</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Massie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Redman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Casper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Biomech</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="373" to="381" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Massie C, Redman K, Casper S, et al. The effects of cadence manip- ulation on joint kinetic patterns and stride-to-stride kinetic variability in female runners. J Appl Biomech. 2022;38(6):373-81.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Effects of step length on patellofemoral joint stress in female runners with and without patellofemoral pain</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Willson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sharpee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Meardon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Kernozek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Biomech</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="243" to="247" />
+			<date type="published" when="2014">2014</date>
+			<pubPlace>Bristol, Avon</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Willson JD, Sharpee R, Meardon SA, Kernozek TW. Effects of step length on patellofemoral joint stress in female runners with and without patellofemoral pain. Clin Biomech (Bristol, Avon). 2014;29(3):243-7.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Changes in tibiofemoral contact forces during running in response to in-field gait retraining</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Willy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Meardon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Blaylock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Hadding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Willson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="1602" to="1611" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Willy RW, Meardon SA, Schmidt A, Blaylock NR, Hadding SA, Willson JD. Changes in tibiofemoral contact forces during running in response to in-field gait retraining. J Sports Sci. 2016;34(17):1602-11.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The effects of body-borne loads and cadence manipulation on patellofemoral and tibiofemoral joint kinetics during running</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Willy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Willson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Clowers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baggaley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Murray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="4028" to="4033" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Willy RW, Willson JD, Clowers K, Baggaley M, Murray N. The effects of body-borne loads and cadence manipulation on patellofemoral and tibiofemoral joint kinetics during running. J Biomech. 2016;49(16): 4028-33.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Effects of foot strike and step frequency on Achilles tendon stress during running</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lyght</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nockerts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Kernozek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ragan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Biomech</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="365" to="372" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lyght M, Nockerts M, Kernozek TW, Ragan R. Effects of foot strike and step frequency on Achilles tendon stress during running. J Appl Biomech. 2016;32(4):365-72.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Effects of stride length and running mileage on a probabilistic stress fracture model</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Rudolphi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Gillette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Derrick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2177" to="2184" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Edwards WB, Taylor D, Rudolphi TJ, Gillette JC, Derrick TR. Ef- fects of stride length and running mileage on a probabilistic stress fracture model. Med Sci Sports Exerc. 2009;41(12):2177-84.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Validation of a wireless shoe insole for ground reaction force measurement</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Deneweth</forename><surname>Zendler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zernicke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1129" to="1138" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Burns GT, Deneweth Zendler J, Zernicke RF. Validation of a wire- less shoe insole for ground reaction force measurement. J Sports Sci. 2019;37(10):1129-38.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<monogr>
+		<title level="m" type="main">The reliability and validity of the Loadsol® under various walking and running conditions. Sensors (Basel)</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Renner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dsb</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Queen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">265</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Renner KE, Williams DSB, Queen RM. The reliability and validity of the Loadsol® under various walking and running conditions. Sen- sors (Basel). 2019;19(2):265.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Accuracy and precision of Loadsol® insole force-sensors for the quantification of ground reaction force-based biomechanical running parameters</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Seiberl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Merker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leitel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schwirtz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1100" to="1109" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Seiberl W, Jensen E, Merker J, Leitel M, Schwirtz A. Accuracy and precision of Loadsol® insole force-sensors for the quantification of ground reaction force-based biomechanical running parameters. Eur J Sport Sci. 2018;18(8):1100-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Muscular strategy shift in human running: dependence of running speed on hip and ankle muscle performance</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Dorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Schache</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Pandy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1944" to="1956" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dorn TW, Schache AG, Pandy MG. Muscular strategy shift in hu- man running: dependence of running speed on hip and ankle muscle performance. J Exp Biol. 2012;215(11):1944-56.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Ground reaction force metrics are not strongly correlated with tibial bone load when running across speeds and slopes: implications for science, sport and wearable tech</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Matijevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Branscombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Zelik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">210000</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Matijevich ES, Branscombe LM, Scott LR, Zelik KE. Ground reac- tion force metrics are not strongly correlated with tibial bone load when running across speeds and slopes: implications for science, sport and wearable tech. PLoS One. 2019;14(1):e0210000.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Modeling overuse injuries in sport as a mechanical fatigue phenomenon</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Edwards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exerc Sport Sci Rev</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="224" to="231" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Edwards WB. Modeling overuse injuries in sport as a mechanical fa- tigue phenomenon. Exerc Sport Sci Rev. 2018;46(4):224-31.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Low-pass filter cutoff frequency affects sacral-mounted inertial measurement unit estimations of peak vertical ground reaction force and contact time during treadmill running</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Day</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Alcantara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mcgeehan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Grabowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Hahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page">110323</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Day EM, Alcantara RS, McGeehan MA, Grabowski AM, Hahn ME. Low-pass filter cutoff frequency affects sacral-mounted inertial mea- surement unit estimations of peak vertical ground reaction force and contact time during treadmill running. J Biomech. 2021;119:110323.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Altering cadence or vertical oscillation during running: effects on running related injury factors</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Adams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pozzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Willy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carrol</forename><forename type="middle">A</forename><surname>Zeni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="633" to="642" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Adams D, Pozzi F, Willy RW, Carrol A, Zeni J. Altering cadence or vertical oscillation during running: effects on running related injury factors. Int J Sports Phys Ther. 2018;13(4):633-42.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Effect of increasing running cadence on peak impact force in an outdoor environment</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Musgjerd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Anason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rutherford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Kernozek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1076" to="1083" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Musgjerd T, Anason J, Rutherford D, Kernozek TW. Effect of in- creasing running cadence on peak impact force in an outdoor envi- ronment. Int J Sports Phys Ther. 2021;16(4):1076-83.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A new approach to monitoring exercise training</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Florhaug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Franklin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Strength Cond Res</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="109" to="115" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Foster C, Florhaug JA, Franklin J, et al. A new approach to monitor- ing exercise training. J Strength Cond Res. 2001;15(1):109-15.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Cumulative fatigue damage</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Miner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Mech</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="159" to="164" />
+			<date type="published" when="1945">1945</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Miner MA. Cumulative fatigue damage. J Appl Mech. 1945;12(3): A159-64.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Effects of cyclic loading on the mechanical properties and failure of human patellar tendon</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Firminger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Edwards</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page">110345</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Firminger CR, Edwards WB. Effects of cyclic loading on the me- chanical properties and failure of human patellar tendon. J Biomech. 2021;120:110345.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Fatigue damage of human tendons</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schechtman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Bader</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="347" to="353" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Schechtman H, Bader DL. Fatigue damage of human tendons. J Biomech. 2002;35(3):347-53.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Effects of creep and cyclic loading on the mechanical properties and failure of human Achilles tendons</title>
+		<author>
+			<persName><forename type="first">Tal</forename><surname>Wren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Lindsey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Beaupre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Carter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Biomed Eng</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="710" to="717" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wren TAL, Lindsey DP, Beaupre GS, Carter DR. Effects of creep and cyclic loading on the mechanical properties and failure of human Achilles tendons. Ann Biomed Eng. 2003;31(6):710-7.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">A cumulative damage model for bone fracture</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Caler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Res</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="84" to="90" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Carter DR, Caler WE. A cumulative damage model for bone fracture. J Orthop Res. 1985;3(1):84-90.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Expected time to return to athletic participation after stress fracture in division I collegiate athletes</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jamieson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Everson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Siegel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Health</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="340" to="344" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Miller TL, Jamieson M, Everson S, Siegel C. Expected time to return to athletic participation after stress fracture in division I collegiate ath- letes. Sports Health. 2018;10(4):340-4.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Accelerometerbased prediction of running injury in National Collegiate Athletic Association track athletes</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kiernan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Hawkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mac</forename><surname>Manoukian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="201" to="209" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kiernan D, Hawkins DA, Manoukian MAC, et al. Accelerometer- based prediction of running injury in National Collegiate Athletic As- sociation track athletes. J Biomech. 2018;73:201-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Sacral acceleration can predict whole-body kinetics and stride kinematics across running speeds</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Alcantara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Day</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Hahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Grabowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">11199</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Alcantara RS, Day EM, Hahn ME, Grabowski AM. Sacral accelera- tion can predict whole-body kinetics and stride kinematics across run- ning speeds. PeerJ. 2021;9:e11199.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Ground reaction force estimates from ActiGraph GT3X+ hip accelerations</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Neugebauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Hawkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">99023</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Neugebauer JM, Collins KH, Hawkins DA. Ground reaction force es- timates from ActiGraph GT3X+ hip accelerations. PLoS One. 2014; 9(6):e99023.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">A hierarchical clustering approach for examining potential risk factors for bone stress injury in runners</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Stiffler-Joachim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Heiderscheit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page">111136</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Martin JA, Stiffler-Joachim MR, Wille CM, Heiderscheit BC. A hier- archical clustering approach for examining potential risk factors for bone stress injury in runners. J Biomech. 2022;141:111136.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Shock attenuation and stride frequency during running</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hamill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Derrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Holt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum Mov Sci</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="45" to="60" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hamill J, Derrick TR, Holt KG. Shock attenuation and stride fre- quency during running. Hum Mov Sci. 1995;14(1):45-60.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Changing stride frequency alters average joint power and power distributions during ground contact and leg swing in running</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Swinnen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mylle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hoogkamer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Groote</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vanwanseele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2111" to="2118" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Swinnen W, Mylle I, Hoogkamer W, De Groote F, Vanwanseele B. Changing stride frequency alters average joint power and power dis- tributions during ground contact and leg swing in running. Med Sci Sports Exerc. 2021;53(10):2111-8.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">What are the main running-related musculoskeletal injuries? A systematic review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Lopes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hespanhol</forename><surname>Júnior</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Yeung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Costa</forename><surname>Lo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="891" to="905" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lopes AD, Hespanhol Júnior LC, Yeung SS, Costa LO. What are the main running-related musculoskeletal injuries? A systematic review. Sports Med. 2012;42(10):891-905.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

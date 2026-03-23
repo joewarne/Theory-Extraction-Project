@@ -1,0 +1,2031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Psychology of Sport &amp; Exercise</title>
+				<funder ref="#_VXdp79K">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2019-02-04">04 February 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Yingying</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Kinesiology</orgName>
+								<orgName type="institution">Shanghai University of Sport</orgName>
+								<address>
+									<postCode>200438</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Qingchun</forename><surname>Ji</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Kinesiology</orgName>
+								<orgName type="institution">Shanghai University of Sport</orgName>
+								<address>
+									<postCode>200438</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Chenglin</forename><surname>Zhou</surname></persName>
+							<email>chenglin_600@126.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Kinesiology</orgName>
+								<orgName type="institution">Shanghai University of Sport</orgName>
+								<address>
+									<postCode>200438</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Psychology of Sport &amp; Exercise</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-02-04">04 February 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">019B33E0B518686DDC25E886307045AF</idno>
+					<idno type="DOI">10.1016/j.psychsport.2019.02.001</idno>
+					<note type="submission">Received 13 August 2018; Received in revised form 31 December 2018; Accepted 2 February 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:20+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Action anticipation Prior cue Goalkeeper Event-related potential</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Visual kinematic information is crucial to successful action anticipation in professional athletes. Here, we examined whether nonkinematic prior cues would influence the anticipatory judgment of penalty kicks and explored the neural correlates underlying expert advantage. Method: In the cue-anticipation task, congruency was manipulated such that the direction of a prior cue (directional arrow) was either congruent (i.e., same direction) or incongruent (i.e., opposite direction) with the subsequent direction of the penalty kick. Both behavioral performance and event-related potential activity elicited by cues and kicks were compared between expert goalkeepers and novices. Results: Action anticipation performance was increased in the congruent condition and was decreased in the incongruent condition. Expert goalkeepers outperformed novices both when the prior cue provided no directional information (neutral condition) and when it provided directional information incongruent, but not congruent, with the subsequent kick. Event-related potential activity analyses showed N1 and N2 amplitudes elicited by the kicks for the incongruent condition were larger than those for the congruent and neutral conditions only for expert goalkeepers. No significant difference was detected between experts and novices in the amplitude of the contingent negative variation elicited by the cues. Conclusions: In addition to the contribution of visual kinematic body information on action anticipation, prior cues significantly influenced predictions of action outcome. Expert advantage of action anticipation may be associated with proficient modulation of brain activity in early attention processing and conflict monitoring during the integration of these two kinds of information.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Action anticipation, which involves observing and predicting the behavior of other individuals, is a crucial prerequisite for success in interceptive sports, such as soccer <ref type="bibr" target="#b49">(Reilly, Williams, Nevill, &amp; Franks, 2000)</ref>. The penalty kick provides a helpful model to understand action anticipation and can often determine the victory in a soccer game, such as it did in the 2016 America Cup final. The ability of goalkeepers to anticipate the outcome of a penalty kick at high speed is important to save time for subsequent execution of blocking the ball. In the last four decades, studies have shown that elite athletes present superior abilities compared with novices in anticipating other athletes' actions in a variety of different sport domains <ref type="bibr" target="#b0">(Abernethy, 1990;</ref><ref type="bibr" target="#b2">Abernethy &amp; Zawi, 2007;</ref><ref type="bibr" target="#b6">Causer, Smeeton, &amp; Williams, 2017;</ref><ref type="bibr" target="#b14">Farrow &amp; Abernethy, 2003;</ref><ref type="bibr">Jones &amp; Miles, 1978;</ref><ref type="bibr" target="#b53">Savelsbergh, Williams, Kamp, &amp; Ward, 2002;</ref><ref type="bibr" target="#b60">Weissensteiner, Abernethy, Farrow, &amp; Müller, 2008;</ref><ref type="bibr" target="#b61">Williams &amp; Davids, 1998)</ref>. Using a temporal occlusion paradigm, in which the presentation of an action sequence is interrupted early at various time points to limit visual information, research has demonstrated that this kind of expert advantage is associated with the motor simulation of the observed body kinematic information <ref type="bibr" target="#b3">(Aglioti, Cesari, Romani, &amp; Urgesi, 2008;</ref><ref type="bibr">Blakemore &amp; Decety, 2001;</ref><ref type="bibr">Jones &amp; Miles, 1978;</ref><ref type="bibr" target="#b35">Loffing, Hagemann, Schorer, &amp; Baker, 2015;</ref><ref type="bibr" target="#b55">Tomeo, Cesari, Aglioti, &amp; Urgesi, 2012;</ref><ref type="bibr" target="#b56">Urgesi, Savonitto, Fabbro, &amp; Aglioti, 2012)</ref>. However, action anticipation based on limited visual information is risky, and goalkeepers may make use of other nonkinematic information sources <ref type="bibr" target="#b39">(Mann, Schaefers, &amp; Cañal-Bruland, 2014;</ref><ref type="bibr" target="#b45">Navia Manzano &amp; Ruiz Perez, 2013)</ref>. Athletes often obtain knowledge of this probabilistic information from previous competitions or performance profiles. However, systematic research on the role of nonkinematic information in action anticipation is limited, and the neural activity underlying nonkinematic information in action anticipation remains unclear <ref type="bibr" target="#b32">(Loffing &amp; Cañal-Bruland, 2017)</ref>.</p><p>Using Bayesian statistics and tennis as an example, <ref type="bibr" target="#b31">Körding (2007)</ref> proposed that athletes usually combine prior known (nonkinematic) information with current visual (kinematic) information when they predict where the ball will land. Athletes tend to use various sources of information to make rapid predictions under uncertain situations with limited visual information presented <ref type="bibr" target="#b46">(de Oliveira, Lobinger, &amp; Raab, 2014;</ref><ref type="bibr" target="#b48">Raab, 2012)</ref>. <ref type="bibr" target="#b9">Dicks, Button, and Davids (2010)</ref> found that goalkeepers are likely to benefit from the kinematic information that emerges just before the initiation of the penalty taker's kick action when they anticipate a deceptive penalty kick. In addition to the relatively high number of studies on kinematic information, several recent studies have investigated the contribution of prior information to anticipatory behavior, such as an opponent's court position <ref type="bibr" target="#b1">(Abernethy, Gill, Parks, &amp; Packer, 2001;</ref><ref type="bibr" target="#b33">Loffing &amp; Hagemann, 2014a;</ref><ref type="bibr" target="#b36">Loffing, Sölter, Hagemann, &amp; Strauss, 2016)</ref>, action patterns or action preference <ref type="bibr" target="#b15">(Farrow &amp; Reid, 2012;</ref><ref type="bibr">Loffing, Stern, &amp; Hagemann, 2015;</ref><ref type="bibr" target="#b39">Mann et al., 2014;</ref><ref type="bibr" target="#b41">Murphy et al., 2016;</ref><ref type="bibr" target="#b42">Murphy, Jackson, &amp; Williams, 2018;</ref><ref type="bibr" target="#b45">Navia Manzano &amp; Ruiz Perez, 2013;</ref><ref type="bibr">Runswick et al., 2018)</ref>, and sport and field settings <ref type="bibr" target="#b52">(Runswick, Roca, Williams, McRobert, &amp; North, 2018b)</ref>. In soccer, only two studies, to our knowledge, have discussed this issue. One explored whether the probability of a kicker's kick direction could affect the goalkeeper's anticipatory performance <ref type="bibr" target="#b45">(Navia Manzano &amp; Ruiz Perez, 2013)</ref>. Their results, based on only nine goalkeepers, showed that soccer goalkeepers can benefit from other information, in this case the high probability of a kick to one side (left or right) of the goal. However, because expert athletes have been reported to have an ability superior to that of novices in picking up kinematic information, the absence of novices as controls in that study may not illustrate the expert advantage expressed in the effect of prior information. Another study using a soccer-based attack context also found significant effects of prior action probability on anticipatory performance as well as the visual dwell time spent on the context among expert soccer players <ref type="bibr" target="#b23">(Gredin, Bishop, Broadbent, Tucker, &amp; Williams, 2018</ref>). Yet, the neural correlates underlying skilled-based differences in anticipatory performance influenced by prior information remain unclear and should be determined to further understanding of action anticipation behavior.</p><p>The neural underpinnings of expert advantage have been examined in previous studies <ref type="bibr" target="#b44">(Nakata, Yoshie, Miura, &amp; Kudo, 2010;</ref><ref type="bibr" target="#b54">Smith, 2016)</ref>. Some neuroimaging studies have found that athletes show stronger activation than novices in both visual attention areas and motor areas during a sports anticipation task, which reflects the processing of kinematic information for anticipation <ref type="bibr" target="#b63">(Wright, Bishop, Jackson, &amp; Abernethy, 2010</ref><ref type="bibr">, 2011)</ref>. However, in the sport-related domain, only a few studies investigating event-related potentials (ERPs) have explored this issue. For example, <ref type="bibr" target="#b27">Jin et al. (2011)</ref> found that athletes exhibited larger P3 amplitudes than novices did during anticipation of an opponent's serving action, which suggests that athletes could be better at attention allocation, facilitating their action anticipation ability. In contrast to the limited number of studies examining the sport-related domain, many ERP studies have focused on the superiority of athletes in domain-general cognition <ref type="bibr" target="#b43">(Nakamoto &amp; Mori, 2008;</ref><ref type="bibr" target="#b59">Wang, Yang, Moreau, &amp; Muggleton, 2017;</ref><ref type="bibr" target="#b65">Yamashiro et al., 2015)</ref>. For example, <ref type="bibr" target="#b25">Hung, Spalding, Maria, and Hatfield (2004)</ref> used a classic cue-target task and observed a greater contingent negative variation (CNV) amplitude elicited by cues in athletes than in novices. The CNV is a negative wave arising after a cue and typically in preparation for an upcoming stimulus <ref type="bibr" target="#b30">(Kononowicz &amp; Penney, 2016;</ref><ref type="bibr" target="#b58">Wang &amp; Tu, 2017)</ref>. These results indicated that athletes could effectively use the advanced cues to enhance their attention and thus make a quicker and more accurate response to targets. Using this type of task and the CNV component, the present study could investigate how goalkeepers extract and utilize information from prior cues to affect the cognitive processing of kinematic information and predict the outcomes of actions.</p><p>To address this issue, we compared behavioral and ERP measures in goalkeepers to those in novices when performing a cue-anticipation task, in which the prior cues were directional arrows followed by videos of penalty kicks as targets, to examine the effects of preceding cues on the ability to anticipate the direction of the player's kicks. Three different experimental conditions were then utilized based on the validity of the prior cues: (1) neutral cues providing no directional information,</p><p>(2) congruent cues showing the prior cue in the same direction as the subsequent kick, and (3) incongruent cues showing the prior cue in adirection different from that of the subsequent kick. Therefore, in addition to the processing the occurs during the cue-target interval reflected by the CNV component, this task also enables investigation of the temporal modulation in neural activity during the subsequent target processing among the different conditions. With regard to the ERP components elicited by targets, the N2 component has been demonstrated to reflect conflict monitoring on congruency during stimuli detection <ref type="bibr" target="#b10">(Dong &amp; Zhong, 2017;</ref><ref type="bibr" target="#b57">Veen &amp; Carter, 2002)</ref>, which can be used to show how goalkeepers integrate the different kinds of prior cues with visual kinematic information. Experts identify this congruency earlier than novices by using selective attention and conflict monitoring of the kinematic information. Thus, in the present study, both cuelocked and target-locked components were recorded and analyzed to help clarify the neural mechanisms underlying the cognitive processing of prior information (cues) and visual information (penalty kicks) during action anticipation. We hypothesized that (1) based on those aforementioned studies, prior cues would influence action anticipation;</p><p>(2) expert goalkeepers would outperform novices on the cue-anticipation task because long-term sports training may improve the efficiency of information processing related to their field of expertise; and (3) the amplitudes of both cue-locked and target-locked components would be influenced by prior cues. We also anticipated that the ERP components would show a between-group effect. By revealing the temporal evolution of cognitive processing, the present study may shed new light on the effect of nonkinematic information on action anticipation within sport expertise at the neural level.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Method</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Participants</head><p>Twenty-five soccer players (considered experts) and 25 age-matched college students (considered novices) were recruited for the study (Table <ref type="table" target="#tab_0">1</ref>). All participants were men and were right-handed. The experts had more than 4 years of soccer goalkeeping training and played in professional football clubs, whereas the novices had no soccer experience. All participants had normal or corrected-to-normal vision and had no history of psychiatric, medical, or neurologic illness. All participants provided written informed consent prior to the study. The experimental protocol was approved by the Shanghai University of Sport ethics committee.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Stimulus and task</head><p>Videos of an expert male soccer player performing a series of penalty kicks were recorded using a digital video camera (Canon 1D; 23 Hz; resolution, 1920 × 1080 pixels) that was placed in the center of the goal and positioned 1.65 m above the ground to simulate the point of view of a goalkeeper attempting to save penalty shots at the goal. The ball was positioned 9.15 m from the camera. The player was instructed to kick the ball toward one of the four corners of the goal and to start running from the left rear of the ball. These videos were then processed using Adobe Premiere software (Adobe Systems Incorporated, San Jose, CA, USA). The kicker's face in the video was blurred to eliminate the influence of facial features. Those videos with obvious head movements were excluded to retain only the kinematic information of the kicker. Furthermore, each video was temporally occluded 50 ms before the ball left the kicker's foot and modified to the same duration (750 ms). Pilot testing showed that this moment of occlusion ensured prior information and expert advantage effects. Finally, we selected 122 videos, with 29 exhibiting top-left-directed kicks, 40 exhibiting down-left-directed kicks, 24 exhibiting top-right-directed kicks, and 29 exhibiting downright-directed kicks (resolution, 1024 × 576 pixels).</p><p>In the cue-anticipation task, participants were required to predict the fate of the ball and press the corresponding keys as quickly and as accurately as possible (top-left, press "A" key; down-left, press "X" key; top-right, press "L" key; down-right, press "M" key). Before that, participants were instructed to watch the arrows carefully. The arrows were used as prior cues and did or did not provide accurate information about the ball trajectory in the upcoming videos (target stimuli). Three experimental conditions were used based on the consistency between the prior cue and target: (1) neutral, (2) congruent, and (3) incongruent. To ensure that the participants believed and used the cues, the directional arrows correctly indicated the ball trajectory 60% of the time (congruent). For incongruent trials, the cue arrow was followed by a target video showing a kick in a different direction. The cue for the neutral condition was an asterisk, and its appearance provided no directional information. The incongruent and neutral trials alternated with 20% probability each. All participants were told that the prior cues may or may not provide accurate information and that the probability of congruent trials would be greater than that of the other two types of trials.</p><p>The task included two blocks of 300 total trials, with a rest provided between blocks. The probabilities of kicks toward the four corners in each block were equal. A trial started with the presentation of a central 3.3°× 3.3°arrow lasting for 500 ms, followed by a blank screen for 1500 ms (Fig. <ref type="figure" target="#fig_0">1</ref>). A kick video was then presented at the center of the monitor, in which the player's angle was 3.3°(horizontal) × 5.0°( vertical). At the end of each video presentation, a prompt frame with the word "Press" was presented, requesting participants to press a key to indicate the predicted direction of the kick. The intertrial interval was varied between 1500 and 2000 ms.</p><p>During the experiment, participants sat in a quiet room approximately 60 cm from a 19-inch Lenovo monitor on which stimuli were presented on a gray background. The experimental task was designed and run using E-Prime software (Vision 2.0, PST, Inc., Pittsburgh, PA, USA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">ERP data recording and preprocessing</head><p>Brain electrical activity was recorded from 64 Ag/AgCl electrodes arranged according to the International 10-20 System with a sampling rate of 500 Hz (Brain Products GmbH, Munich, Germany). The vertical electrooculogram (VEOG) was placed below the left eye and horizontal electrooculogram (HEOG) was placed lateral to the right eye. Electroencephalography (EEG) activity was online referenced to the FCz site; the AFz site served as the ground electrode. All electrode impedances were maintained below 10 kΩ.</p><p>The EEG activity was analyzed off-line. First, the signals were rereferenced to that for the mean of the left and right mastoid <ref type="bibr" target="#b20">(Gootjes, Coppens, Zwaan, Franken, &amp; Van Strien, 2011)</ref>. The ocular artifacts were removed from the EEG signal using a regression procedure implemented in the Brain Vision Analyzer software <ref type="bibr" target="#b21">(Gratton, Coles, &amp; Donchin, 1983)</ref>. The epochs were then filtered with a 30 Hz low-pass cutoff and a 0.1 Hz high-pass cutoff (slope, 24 dB/oct). One of the classic ERP components elicited by the classic cue-target paradigm is the contingent negative variation (CNV), which reflects preparation to the target response based on the information conveyed by the cue <ref type="bibr" target="#b13">(Fan et al., 2007;</ref><ref type="bibr" target="#b18">Gómez et al., 2004;</ref><ref type="bibr" target="#b19">Gomez, Marco, &amp; Grau, 2003)</ref>. For each of the three conditions, the CNV component was acquired by segmenting into 2200 ms with respect to cue markers (-200-2000 ms relative to prior cue onset). The target-locked ERP components were acquired by segmenting into 1000 ms with respect to the video presentation (-200-800 ms relative to onset of the kicking video). The baseline was corrected using the -200 to 0 ms prestimulus period. Epochs with signals that exceeded ± 100 μV were rejected.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Data analysis</head><p>For the behavioral data, we calculated the percentage of correct responses (accuracy) and the reaction time (RT) for each experimental condition. Trials in which participants responded earlier than 100 ms or later than 3000 ms from the end of the video presentation were discarded from the analysis <ref type="bibr" target="#b55">(Tomeo et al., 2012)</ref>. Discarded trials amounted to 5.4% (SD = 5.43%) of the total trials and no difference between the two groups was found (t = 0.15, p = .882). Both accuracy and RT were then entered into a two-way mixed-model analysis of variance (ANOVA), with group (expert vs. novice) as the betweensubject factor, and condition (neutral, congruent, and incongruent) as the within-subject factor.</p><p>For the CNV component, based on visual inspection of the grandaveraged ERP waveforms, early CNV was measured as the mean amplitude in the 270-700-ms window following cue onset <ref type="bibr" target="#b29">(Klorman &amp; Bentsen, 1975)</ref>. On the basis of the topographical distribution of grandaveraged ERP activity and of results from previous studies <ref type="bibr" target="#b12">(Duan et al., 2015;</ref><ref type="bibr" target="#b17">Funderud et al., 2013;</ref><ref type="bibr" target="#b24">Hong, Wang, Sun, Li, &amp; Tong, 2017)</ref>, the average of the CNV amplitude measured on six electrode sites (Fz, FCz, F1, F2, FC1, and FC2) was used for statistical analysis. For the target-locked components, we analyzed the averaged peak amplitudes of the N1, N2, and P3 components across different sets of electrodes in accordance with grand-averaged waveforms and the topographical distribution of grand-averaged ERP activity (for N1: FCz, Cz and CPz; for N2: Fz, FCz and Cz; for P3: Fz, FCz, FC1 and FC2). The time windows were 90-140 ms for N1, 205-270 ms for N2, and 270-340 ms for P3. The mean amplitude for each component in the selected electrode sites was also entered into a 2 (Group: expert and novice) × 3 (Condition: neutral, congruent and incongruent) ANOVA.</p><p>Statistical analysis was performed using SPSS 20.0 (IBM SPSS, Inc., Chicago, IL, USA). The post hoc test of significant main effects was corrected using Bonferroni corrections. A simple effects test, which also used Bonferroni corrections, was conducted when the interaction was significant. All statistical analyses were conducted using a significance level of p = .05. Partial eta-squared (η p 2 ) values were reported to demonstrate the effect size in the ANOVA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Behavioral results</head><p>The results of the ANOVA examining accuracy revealed significant main effects of group (F(1, 48) = 8.84, p = .005, η p 2 = 0.16) and condition (F(2, 96) = 166.66, p &lt; .001, η p 2 = 0.78). The interaction between group and condition was also significant (F(2, 96) = 12.22, p &lt; .001, η p 2 = 0.20). The simple effects analysis of the interaction indicated that for both neutral and incongruent conditions, experts showed greater accuracy than novices (p &lt; .001 for both), whereas there was no significant difference in accuracy between the groups for the congruent condition (p = .107). The accuracy for the congruent condition was greater than that for the neutral condition, which was in turn greater than that for the incongruent condition for both groups (p &lt; .001 for all).</p><p>The results of the ANOVA examining RT revealed a significant main effect of condition (F(2, 96) = 24.43, p &lt; .001, η p 2 = 0.34). The RT for the congruent condition was lower than that for the neutral condition (p = .001), and the RT for the neutral condition was lower than that for the incongruent condition (p &lt; .001). The group factor and its interaction with condition were not significant (Table <ref type="table" target="#tab_1">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">ERP results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1.">Cue-locked ERP component</head><p>Based on the grand-averaged waveforms (Fig. <ref type="figure" target="#fig_1">2</ref>), the early CNV component was elicited by the cues. The results of the 2 × 3 ANOVA for the CNV amplitude revealed a significant main effect of condition (F(2, 96) = 12.26, p &lt; .001, η p 2 = 0.20). The post hoc test showed that the CNV amplitude was larger in the neutral condition than in the congruent (p = .006) and incongruent (p &lt; .001) conditions. The group factor and its interaction with condition were not significant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2.">Target-locked ERP components</head><p>The N1 component was elicited approximately 100 ms after the onset of the video. The results of a 2 × 3 ANOVA indicated that the main effect of group was significant (F(1, 48) = 29.24, p &lt; .001, η p 2 = 0.38). The group × condition interaction was also significant (F(2, 96) = 3.66, p = .029, η p 2 = 0.07). Simple effects analyses showed that the N1 amplitude was larger for the incongruent than for the congruent condition in experts (p = .017), but no significant difference was found among the three conditions in novices (p ≥ .060 for all). In addition, the N1 amplitude was larger in experts than in novices for all three conditions (p ≤ .001 for all).</p><p>In addition to the N1 component, a frontal N2 component was also observed (at approximately 200 ms after the onset of the video). The results of a 2 × 3 ANOVA indicated that the interaction between group and condition was significant (F(2, 96) = 4.13, p = .019, η p 2 = 0.08).</p><p>Simple effects analyses showed that the N2 amplitude was larger for the incongruent condition than for the neutral condition in experts (p = .030), but no significant difference among the three conditions was found for novices (p ≥ .993 for all). The N2 amplitude was larger in experts than in novices only for the incongruent condition (p = .029), with no difference in N2 amplitude found between groups for both the neutral and congruent conditions (p ≥ .243 for all). However, the main effects of group and condition, as well as the interaction with P3 amplitude, were not significant (Fig. <ref type="figure" target="#fig_2">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>The present study explored the effect of prior cues on action anticipation in experts compared with that in novices. A cue-anticipation task was used that asked participants to predict the fate of soccer-specific penalty kicks that had been visually cued by the presentation of one of three images, namely, two directional arrows or a nondirectional asterisk. As expected, we found that the prior cues significantly influenced action anticipation of the penalty kick outcome and that experts outperformed novices even when the direction of the kick anticipated by the visual body kinematics and the direction of the prior arrow were incongruent. The different behavioral performances observed between these two groups were unrelated to the processing of prior cues but were reflected in the effects of these cues on early visual attention processing and the upregulation of cognitive control during the observation of incongruent versus congruent actions.</p><p>Consistent with the study by <ref type="bibr" target="#b39">Mann et al. (2014)</ref>, the anticipatory  performance of experts was decreased when anticipating kicks incongruent with prior cues and increased when anticipating kicks congruent with prior cues. These results suggested that prior cues influence anticipatory judgments of experts in both a faciliatory and detrimental manner. We also found that experts were more accurate than novices in both neutral and incongruent conditions. Such an expert advantage is unsurprising. Expert athletes are able to use body kinematic information to predict the outcomes of actions in their domain of expertise <ref type="bibr" target="#b2">(Abernethy &amp; Zawi, 2007;</ref><ref type="bibr" target="#b3">Aglioti et al., 2008;</ref><ref type="bibr" target="#b14">Farrow &amp; Abernethy, 2003;</ref><ref type="bibr" target="#b56">Urgesi et al., 2012)</ref>. Our results indicated that experts inhibited or updated (or both) the expectations from the incongruent prior cues and predicted the fate of penalty kicks based on information provided by body kinematics. In support of Bayesian theory, individuals would strive to reduce the uncertainty and integrate prior information and visual kinematic information when they made final judgements. Compared with novices, experts used more optimal integration, resulting in superior anticipatory performance especially on incongruent trials <ref type="bibr" target="#b23">(Gredin et al., 2018)</ref>. Previous studies have primarily focused on the visual kinematic body information needed for action anticipation, whereas the present study provides evidence that the use of multiple sources of information may be more successful.</p><p>An entirely novel result of the present study is the comparable level of cognitive processing between experts and novices during the cueanticipation task. Inconsistent with our hypothesis, no significant difference was found between experts and novices in the frontal CNV amplitude in response to the presentation of cue arrows. Taken together with the behavioral results, this finding suggests that expert advantage may not be related to the cognitive preparation before the target video presentation <ref type="bibr" target="#b28">(Kamijo &amp; Masaki, 2016)</ref>. However, this result is inconsistent with those of some previous studies that have shown that expert athletes could effectively use advanced cues to enhance their cognitive or response preparation during the cue-target interval in a domaingeneral spatial cueing task <ref type="bibr" target="#b25">(Hung et al., 2004;</ref><ref type="bibr" target="#b58">Wang &amp; Tu, 2017)</ref>. One plausible explanation for this discrepancy may be the differences in the nature of the target task (i.e., a domain-general reaction task vs. a sportspecific anticipation task). Although the experts could use the prior cue to create an anticipatory representation of the action outcome, they tended to integrate it with body kinematic information to optimize the anticipatory performance under uncertain circumstances (such as anticipating the occluded penalty kick actions).</p><p>In line with this interpretation, a significant interaction was found between group and condition, such that experts, but not novices, showed higher N1 and N2 amplitudes elicited by the kick videos for the incongruent condition than for the congruent or neutral condition. These N1 and N2 amplitude findings indicated that experts were more susceptible than novices to the influence of different kinds of cues on action anticipation. Specifically, experts could distinguish the congruency between prior information and kinematic information during the early processing of the kicking videos, which was also supported by the behavioral results. This idea is consistent with recent findings that the anticipatory performance of athletes is strongly influenced by nonkinematic (contextual or situational) information <ref type="bibr" target="#b5">(Broadbent, Gredin, Rye, Williams, &amp; Bishop, 2018;</ref><ref type="bibr" target="#b22">Gray &amp; Cañal-Bruland, 2018;</ref><ref type="bibr" target="#b32">Loffing &amp; Cañal-Bruland, 2017;</ref><ref type="bibr">Runswick, Roca, Williams, McRobert, &amp; North, 2018a)</ref>. Although the performance of novices was also affected by prior information, the ERP results suggested that novices anticipated solely based on the advance visual cues, ignoring the visual kinematic body information provided by the videos. These data also support the experts' superiority over novices in predicting action outcomes based on body kinematics <ref type="bibr" target="#b26">(Huys et al., 2009;</ref><ref type="bibr" target="#b34">Loffing &amp; Hagemann, 2014b;</ref><ref type="bibr">Williams, Huys, Canal-Bruland, &amp; Hagemann, 2009)</ref>.</p><p>Given that the N1 amplitude reflects selective attention to stimulus properties <ref type="bibr" target="#b40">(Moore, Lepine, &amp; Ellemberg, 2017)</ref>, we suggest that the N1related findings indicate that experts paid greater attention when observing kick actions that were incongruent with prior cues than when observing kick actions that were congruent with prior cues. Previous evaluations of athletes have also observed their higher N1 amplitudes relative to novices (Di <ref type="bibr" target="#b8">Russo &amp; Spinelli, 2010;</ref><ref type="bibr" target="#b25">Hung et al., 2004)</ref>. We also found that the frontal N2 amplitude for the incongruent condition was larger than that for the neutral condition only in experts. In addition, a larger N2 amplitude was observed in the experts than in the novices only for the incongruent condition. This provides strong support for the conflict interpretation of the N2 component because the N2 amplitude was previously found to be increased for an unexpected or incongruent stimulus <ref type="bibr" target="#b11">(Donkers &amp; Van Boxtel, 2004;</ref><ref type="bibr" target="#b47">Purmann, Badde, Luna-Rodriguez, &amp; Wendt, 2011)</ref>. The findings of these early activities are in support of a study exploring the neural correlates of sport-related action observation <ref type="bibr" target="#b4">(Amoruso et al., 2014)</ref>. In their study, participants watched realistic videos of tango steps in which the end of the step could be correctly or incorrectly executed. Compared with novices, expert dancers showed greater positive activity while observing incorrect videos than correct ones, even from 250 ms before the last step. The authors proposed that experts could predict the future steps based on their own motor system in a dance context, and the incongruent step with the triggered expectation would elicit enhanced activity <ref type="bibr" target="#b16">(Friston, 2012)</ref>. Therefore, the difference between the conditions for this early activity may be due to the expectation of incoming kinematic information triggered by prior cues for experts. Experts could identify this congruency earlier than novices by using selective attention and conflict monitoring of the kinematic information. These results, together with the greater accuracy of experts relative to novices, indicate that attention and conflict monitoring during the observation of the incongruent actions underpin the superior action anticipation in experts. Thus, early perceptual and conflict ongoing brain activities can be used to discriminate sport expertise and prior cues.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Limitations</head><p>The first limitation of the present study was the enrollment of all men. Although this helped to ensure homogeneity among the participants, future studies could explore these issues in women or consider gender as a factor. Second, multiple levels of athletic ability could be considered to further investigate the interaction between expertise level and prior information on action anticipation. Third, we used a traditional analysis of EEG data even for the video-elicited EEG. To gain a deeper understanding of the neural mechanisms involved in the role that prior information plays in action anticipation, other data analysis methods, such as time-frequency analysis, should be used <ref type="bibr" target="#b7">(Denis, Rowe, Williams, &amp; Milne, 2017;</ref><ref type="bibr">Wang et al., 2017)</ref>. The time frequency allows for the investigation of event-related changes in the magnitude (power) and temporal synchronicity (phase) of oscillations at specific frequencies <ref type="bibr" target="#b38">(Makeig, Debener, Onton, &amp; Delorme, 2004)</ref>, which could provide more information about ERP data. Finally, the current findings may not be generalizable to the anticipation of deceptive actions, because the kicker in the videos was required to not act deceptively <ref type="bibr" target="#b9">(Dicks et al., 2010)</ref>. Therefore, the present work needs to be extended to additional types of actions, which may induce different cognitive processing during the integration of prior and kinematic information. Despite these limitations, we believe the present study adds novel findings to the current literature on motor expertise.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Conclusion</head><p>In summary, the present study showed that improved anticipation of penalty kick direction in soccer may be achieved by using prior cues that reflect the potential kick direction. Experts were better than novices at integrating prior cues and kinematic body information to more accurately anticipate the direction of the penalty kicks. This superior performance in experts was associated with greater attention invested at an early stage of cognitive processing and continued conflict monitoring.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declarations of interest</head><p>None.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. The procedure showing the three types of trials: 20% neutral (Neu) trials, 60% congruent (Con) trials, and 20% incongruent (InCon) trials. Cue-locked and target-locked event-related potential components were analyzed.</figDesc><graphic coords="3,127.56,562.62,340.29,156.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. The grand-averaged ERPs elicited by the cues at the Fz and the scalp topography reflect the distribution of the CNV component. Neu, neutral condition; Con, congruent condition; InCon, incongruent condition.</figDesc><graphic coords="4,308.81,57.03,246.72,131.02" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. (A) The grand-averaged ERP waveforms and the scalp topographies of the three target-locked components. (B) The N1 and N2 amplitudes in response to the three experimental conditions (Neu, neutral; Con, congruent; InCon, incongruent) in both groups (expert and novice). *p &lt; .05 between the conditions or groups indicated.</figDesc><graphic coords="5,85.04,57.03,425.25,292.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Participant Characteristics.</figDesc><table><row><cell>Experts</cell><cell>Novices</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Accuracy and reaction time (RT) for the three conditions in both groups.</figDesc><table><row><cell>Condition</cell><cell></cell><cell>Neutral</cell><cell></cell><cell>Congruent</cell><cell></cell><cell>Incongruent</cell><cell></cell></row><row><cell>Variable</cell><cell>Group</cell><cell>Mean</cell><cell>SD</cell><cell>Mean</cell><cell>SD</cell><cell>Mean</cell><cell>SD</cell></row><row><cell>Accuracy (%)</cell><cell>Experts</cell><cell>48.02</cell><cell>8.62</cell><cell>69.08</cell><cell>15.28</cell><cell>36.82</cell><cell>11.91</cell></row><row><cell></cell><cell>Novices</cell><cell>37.94</cell><cell>9.87</cell><cell>76.04</cell><cell>14.65</cell><cell>20.24</cell><cell>14.45</cell></row><row><cell>RT (milliseconds)</cell><cell>Experts</cell><cell>482.56</cell><cell>257.83</cell><cell>411.01</cell><cell>177.24</cell><cell>555.86</cell><cell>301.20</cell></row><row><cell></cell><cell>Novices</cell><cell>425.82</cell><cell>160.28</cell><cell>369.07</cell><cell>148.07</cell><cell>477.82</cell><cell>232.15</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><head>Funding</head><p>This work was supported by the <rs type="funder">National Natural Science Foundation of China</rs> (grant No. <rs type="grantNumber">31571151</rs>), China.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_VXdp79K">
+					<idno type="grant-number">31571151</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Role of the funding source</head><p>The National Natural Science Foundation of China played no role in the study design; in the collection, analysis and interpretation of data; in the writing of the report; or in the decision to submit the article for publication.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Expertise, visual search, and information pick-up in squash</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Abernethy</surname></persName>
+		</author>
+		<idno type="DOI">10.1068/p190063</idno>
+		<ptr target="https://doi.org/10.1068/p190063" />
+	</analytic>
+	<monogr>
+		<title level="j">Perception</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="63" to="77" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abernethy, B. (1990). Expertise, visual search, and information pick-up in squash. Perception, 19(1), 63-77. https://doi.org/10.1068/p190063.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Expertise and the perception of kinematic and situational probability information</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Abernethy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Gill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Parks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Packer</surname></persName>
+		</author>
+		<idno type="DOI">10.1068/p2872</idno>
+		<ptr target="https://doi.org/10.1068/p2872" />
+	</analytic>
+	<monogr>
+		<title level="j">Perception</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="233" to="252" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abernethy, B., Gill, D. P., Parks, S. L., &amp; Packer, S. T. (2001). Expertise and the perception of kinematic and situational probability information. Perception, 30(2), 233-252. https://doi.org/10.1068/p2872.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Pickup of essential kinematics underpins expert perception of movement patterns</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Abernethy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zawi</surname></persName>
+		</author>
+		<idno type="DOI">10.3200/JMBR.39.5.353-368</idno>
+		<ptr target="https://doi.org/10.3200/JMBR.39.5.353-368" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Motor Behavior</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="353" to="367" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Abernethy, B., &amp; Zawi, K. (2007). Pickup of essential kinematics underpins expert per- ception of movement patterns. Journal of Motor Behavior, 39(5), 353-367. https:// doi.org/10.3200/JMBR.39.5.353-368.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Action anticipation and motor resonance in elite basketball players</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Aglioti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cesari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Romani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urgesi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nn.2182</idno>
+		<ptr target="https://doi.org/10.1038/nn.2182" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1109" to="1116" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Aglioti, S. M., Cesari, P., Romani, M., &amp; Urgesi, C. (2008). Action anticipation and motor resonance in elite basketball players. Nature Neuroscience, 11(9), 1109-1116. https:// doi.org/10.1038/nn.2182.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Time to tango: Expertise and contextual anticipation during action observation</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Amoruso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sedeno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Huepe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tomio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kamienkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hurtado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Ibanez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1038/35086023</idno>
+		<ptr target="https://doi.org/10.1038/35086023" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Neuroscience</title>
+		<editor>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Blakemore</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Decety</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="561" to="567" />
+			<date type="published" when="2001">2014. 2001</date>
+		</imprint>
+	</monogr>
+	<note>From the perception of action to the understanding of intention NeuroImage</note>
+	<note type="raw_reference">Amoruso, L., Sedeno, L., Huepe, D., Tomio, A., Kamienkowski, J., Hurtado, E., ... Ibanez, A. (2014). Time to tango: Expertise and contextual anticipation during action ob- servation. NeuroImage, 98, 366-385. https://doi.org/10.1016/j.neuroimage.2014.05. 005. Blakemore, S. J., &amp; Decety, J. (2001). From the perception of action to the understanding of intention. Nature Reviews Neuroscience, 2(8), 561-567. https://doi.org/10.1038/ 35086023.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The impact of contextual priors and anxiety on performance effectiveness and processing efficiency in anticipation</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Broadbent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Gredin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Rye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Bishop</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02699931.2018.1464434</idno>
+		<ptr target="https://doi.org/10.1080/02699931.2018.1464434" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognition &amp; Emotion</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Broadbent, D. P., Gredin, N. V., Rye, J. L., Williams, A. M., &amp; Bishop, D. T. (2018). The impact of contextual priors and anxiety on performance effectiveness and processing efficiency in anticipation. Cognition &amp; Emotion, 1-8. https://doi.org/10.1080/ 02699931.2018.1464434.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Expertise differences in anticipatory judgements during a temporally and spatially occluded task</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Causer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Smeeton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0171330</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0171330" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Causer, J., Smeeton, N. J., &amp; Williams, A. M. (2017). Expertise differences in anticipatory judgements during a temporally and spatially occluded task. PLoS One, 12(2), https://doi.org/10.1371/journal.pone.0171330.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The role of cortical sensorimotor oscillations in action anticipation</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Denis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Milne</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuroimage.2016.10.022</idno>
+		<ptr target="https://doi.org/10.1016/j.neuroimage.2016.10.022" />
+	</analytic>
+	<monogr>
+		<title level="j">NeuroImage</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="1102" to="1114" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Denis, D., Rowe, R., Williams, A. M., &amp; Milne, E. (2017). The role of cortical sensorimotor oscillations in action anticipation. NeuroImage, 146, 1102-1114. https://doi.org/10. 1016/j.neuroimage.2016.10.022.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Sport is not always healthy: Executive brain dysfunction in professional boxers</title>
+		<author>
+			<persName><forename type="first">Di</forename><surname>Russo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Spinelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1469-8986.2009.00950.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1469-8986.2009.00950.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychophysiology</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="425" to="434" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Di Russo, F., &amp; Spinelli, D. (2010). Sport is not always healthy: Executive brain dys- function in professional boxers. Psychophysiology, 47(3), 425-434. https://doi.org/ 10.1111/j.1469-8986.2009.00950.x.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Availability of advance visual information constrains association-football goalkeeping performance during penalty kicks</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dicks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Button</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Davids</surname></persName>
+		</author>
+		<idno type="DOI">10.1068/p6442</idno>
+		<ptr target="https://doi.org/10.1068/p6442" />
+	</analytic>
+	<monogr>
+		<title level="j">Perception</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1111" to="1124" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dicks, M., Button, C., &amp; Davids, K. (2010). Availability of advance visual information constrains association-football goalkeeping performance during penalty kicks. Perception, 39(8), 1111-1124. https://doi.org/10.1068/p6442.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Interpreting experience enhances early attentional processing, conflict monitoring and interference suppression along the time course of processing</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhong</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuropsychologia.2016.12.007</idno>
+		<ptr target="https://doi.org/10.1016/j.neuropsychologia.2016.12.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuropsychologia</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="193" to="203" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dong, Y., &amp; Zhong, F. (2017). Interpreting experience enhances early attentional pro- cessing, conflict monitoring and interference suppression along the time course of processing. Neuropsychologia, 95, 193-203. https://doi.org/10.1016/j. neuropsychologia.2016.12.007.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The N2 in go/no-go tasks reflects conflict monitoring not response inhibition</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Donkers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Van Boxtel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bandc.2004.04.005</idno>
+		<ptr target="https://doi.org/10.1016/j.bandc.2004.04.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="165" to="176" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Donkers, F. C., &amp; Van Boxtel, G. J. (2004). The N2 in go/no-go tasks reflects conflict monitoring not response inhibition. Brain and Cognition, 56(2), 165-176. https://doi. org/10.1016/j.bandc.2004.04.005.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Anticipatory processes under academic stress: An ERP study</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.bandc.2015.01.002</idno>
+		<ptr target="https://doi.org/10.1016/j.bandc.2015.01.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="60" to="67" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Duan, H., Yuan, Y., Yang, C., Zhang, L., Zhang, K., &amp; Wu, J. (2015). Anticipatory pro- cesses under academic stress: An ERP study. Brain and Cognition, 94, 60-67. https:// doi.org/10.1016/j.bandc.2015.01.002.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Response anticipation and response conflict: An event-related potential and functional magnetic resonance imaging study</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kolster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ghajar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Suh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sarkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Mccandliss</surname></persName>
+		</author>
+		<idno type="DOI">10.1523/JNEUROSCI.3470-06.2007</idno>
+		<ptr target="https://doi.org/10.1523/JNEUROSCI.3470-06.2007" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2272" to="2282" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fan, J., Kolster, R., Ghajar, J., Suh, M., Knight, R. T., Sarkar, R., &amp; McCandliss, B. D. (2007). Response anticipation and response conflict: An event-related potential and functional magnetic resonance imaging study. Journal of Neuroscience, 27(9), 2272-2282. https://doi.org/10.1523/JNEUROSCI.3470-06.2007.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Do expertise and the degree of perception-action coupling affect natural anticipatory performance?</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Farrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Abernethy</surname></persName>
+		</author>
+		<idno type="DOI">10.1068/p3323</idno>
+		<ptr target="https://doi.org/10.1068/p3323" />
+	</analytic>
+	<monogr>
+		<title level="j">Perception</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1127" to="1139" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Farrow, D., &amp; Abernethy, B. (2003). Do expertise and the degree of perception-action coupling affect natural anticipatory performance? Perception, 32(9), 1127-1139. https://doi.org/10.1068/p3323.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The contribution of situational probability information to anticipatory skill</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Farrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reid</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jsams.2011.12.007</idno>
+		<ptr target="https://doi.org/10.1016/j.jsams.2011.12.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Science and Medicine in Sport</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="368" to="373" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Farrow, D., &amp; Reid, M. (2012). The contribution of situational probability information to anticipatory skill. Journal of Science and Medicine in Sport, 15(4), 368-373. https:// doi.org/10.1016/j.jsams.2011.12.007.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Prediction, perception and agency</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Friston</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijpsycho.2011.11.014</idno>
+		<ptr target="https://doi.org/10.1016/j.ijpsycho.2011.11.014" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Psychophysiology</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="248" to="252" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Friston, K. (2012). Prediction, perception and agency. International Journal of Psychophysiology, 83(2), 248-252. https://doi.org/10.1016/j.ijpsycho.2011.11.014.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Preparatory attention after lesions to the lateral or orbital prefrontal cortex-an event-related potentials study</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Funderud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Løvstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lindgren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Endestad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Due-Tønnessen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Meling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Solbakk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A.-K</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.brainres.2013.06.017</idno>
+		<ptr target="https://doi.org/10.1016/j.brainres.2013.06.017" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain Research</title>
+		<imprint>
+			<biblScope unit="volume">1527</biblScope>
+			<biblScope unit="page" from="174" to="188" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Funderud, I., Løvstad, M., Lindgren, M., Endestad, T., Due-Tønnessen, P., Meling, T. R., ... Solbakk, A.-K. (2013). Preparatory attention after lesions to the lateral or orbital prefrontal cortex-an event-related potentials study. Brain Research, 1527, 174-188. https://doi.org/10.1016/j.brainres.2013.06.017.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Task-specific sensory and motor preparatory activation revealed by contingent magnetic variation</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Gómez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fernández</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Maestú</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Amo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gonzalez-Rosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Vaquero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ortiz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cogbrainres.2004.05.005</idno>
+		<ptr target="https://doi.org/10.1016/j.cogbrainres.2004.05.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Brain Research</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="59" to="68" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gómez, C. M., Fernández, A., Maestú, F., Amo, C., Gonzalez-Rosa, J., Vaquero, E., &amp; Ortiz, T. (2004). Task-specific sensory and motor preparatory activation revealed by contingent magnetic variation. Cognitive Brain Research, 21(1), 59-68. https://doi. org/10.1016/j.cogbrainres.2004.05.005.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Preparatory visuo-motor cortical network of the contingent negative variation estimated by current density</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gomez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Marco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Grau</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1053-8119(03)00295-7</idno>
+		<ptr target="https://doi.org/10.1016/S1053-8119(03)00295-7" />
+	</analytic>
+	<monogr>
+		<title level="j">NeuroImage</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="216" to="224" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gomez, C., Marco, J., &amp; Grau, C. (2003). Preparatory visuo-motor cortical network of the contingent negative variation estimated by current density. NeuroImage, 20(1), 216-224. https://doi.org/10.1016/S1053-8119(03)00295-7.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Effects of recent word exposure on emotion-word Stroop interference: An ERP study</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gootjes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Coppens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Zwaan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">H A</forename><surname>Franken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Van Strien</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijpsycho.2010.12.003</idno>
+		<ptr target="https://doi.org/10.1016/j.ijpsycho.2010.12.003" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Psychophysiology</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="356" to="363" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gootjes, L., Coppens, L. C., Zwaan, R. A., Franken, I. H. A., &amp; Van Strien, J. W. (2011). Effects of recent word exposure on emotion-word Stroop interference: An ERP study. International Journal of Psychophysiology, 79(3), 356-363. https://doi.org/10.1016/j. ijpsycho.2010.12.003.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A new method for off-line removal of ocular artifact</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gratton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Coles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Donchin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0013-4694(83)90135-9</idno>
+		<ptr target="https://doi.org/10.1016/0013-4694(83)90135-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Electroencephalography and Clinical Neurophysiology</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="468" to="484" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gratton, G., Coles, M. G., &amp; Donchin, E. (1983). A new method for off-line removal of ocular artifact. Electroencephalography and Clinical Neurophysiology, 55(4), 468-484. https://doi.org/10.1016/0013-4694(83)90135-9.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Integrating visual trajectory and probabilistic information in baseball batting</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cañal-Bruland</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2018.02.009</idno>
+		<ptr target="https://doi.org/10.1016/j.psychsport.2018.02.009" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology of Sport and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="123" to="131" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gray, R., &amp; Cañal-Bruland, R. (2018). Integrating visual trajectory and probabilistic in- formation in baseball batting. Psychology of Sport and Exercise, 36, 123-131. https:// doi.org/10.1016/j.psychsport.2018.02.009.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Experts integrate explicit contextual priors and environmental information to improve anticipation efficiency</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Gredin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Broadbent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/xap0000174</idno>
+		<ptr target="https://doi.org/10.1037/xap0000174" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Applied</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="509" to="520" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gredin, N. V., Bishop, D. T., Broadbent, D. P., Tucker, A., &amp; Williams, A. M. (2018). Experts integrate explicit contextual priors and environmental information to im- prove anticipation efficiency. Journal of Experimental Psychology: Applied, 24(4), 509-520. https://doi.org/10.1037/xap0000174.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Segregating top-down selective attention from response inhibition in a spatial cueing go/nogo task: An ERP and source localization study</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tong</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-017-08807-z</idno>
+		<ptr target="https://doi.org/10.1038/s41598-017-08807-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">9662</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hong, X., Wang, Y., Sun, J., Li, C., &amp; Tong, S. (2017). Segregating top-down selective attention from response inhibition in a spatial cueing go/nogo task: An ERP and source localization study. Scientific Reports, 7(1), 9662. https://doi.org/10.1038/ s41598-017-08807-z.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Assessment of reactive motor performance with event-related brain potentials: Attention processes in elite table tennis players</title>
+		<author>
+			<persName><forename type="first">T.-M</forename><surname>Hung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Spalding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L S</forename><surname>Maria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Hatfield</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/jsep.26.2.317</idno>
+		<ptr target="https://doi.org/10.1123/jsep.26.2.317" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sport &amp; Exercise Psychology</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="317" to="337" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hung, T.-M., Spalding, T. W., Maria, D. L. S., &amp; Hatfield, B. D. (2004). Assessment of reactive motor performance with event-related brain potentials: Attention processes in elite table tennis players. Journal of Sport &amp; Exercise Psychology, 26(2), 317-337. https://doi.org/10.1123/jsep.26.2.317.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Global information pickup underpins anticipation of tennis shot direction</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Huys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cañal-Bruland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hagemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Beek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Smeeton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<idno type="DOI">10.3200/JMBR.41.2.158-171</idno>
+		<ptr target="https://doi.org/10.3200/JMBR.41.2.158-171" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Motor Behavior</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="158" to="171" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Huys, R., Cañal-Bruland, R., Hagemann, N., Beek, P. J., Smeeton, N. J., &amp; Williams, A. M. (2009). Global information pickup underpins anticipation of tennis shot direction. Journal of Motor Behavior, 41(2), 158-171. https://doi.org/10.3200/JMBR.41.2.158- 171.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Event-related potential effects of superior action anticipation in professional badminton players</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-D</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neulet.2011.01.074</idno>
+		<ptr target="https://doi.org/10.1016/j.neulet.2011.01.074" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Human Movement Studies</title>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Jones</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Miles</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">492</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="231" to="235" />
+			<date type="published" when="1978">2011. 1978</date>
+		</imprint>
+	</monogr>
+	<note>Use of advance cues in predicting the flight of a lawn tennis ball Neuroscience Letters</note>
+	<note type="raw_reference">Jin, H., Xu, G., Zhang, J. X., Gao, H., Ye, Z., Wang, P., ... Lin, C.-D. (2011). Event-related potential effects of superior action anticipation in professional badminton players. Neuroscience Letters, 492(3), 139-144. https://doi.org/10.1016/j.neulet.2011.01. 074. Jones, C. M., &amp; Miles, T. R. (1978). Use of advance cues in predicting the flight of a lawn tennis ball. Journal of Human Movement Studies, 4(4), 231-235.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Fitness and ERP indices of cognitive control mode during task preparation in preadolescent children</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kamijo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Masaki</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fnhum.2016.00441</idno>
+		<ptr target="https://doi.org/10.3389/fnhum.2016.00441" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Human Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">441</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kamijo, K., &amp; Masaki, H. (2016). Fitness and ERP indices of cognitive control mode during task preparation in preadolescent children. Frontiers in Human Neuroscience, 10, 441. https://doi.org/10.3389/fnhum.2016.00441.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Effects of warning-signal duration on the early and late components of the contingent negative variation</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Klorman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bentsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0301-0511(75)90025-3</idno>
+		<ptr target="https://doi.org/10.1016/0301-0511(75)90025-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Biological Psychology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="263" to="275" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Klorman, R., &amp; Bentsen, E. (1975). Effects of warning-signal duration on the early and late components of the contingent negative variation. Biological Psychology, 3(4), 263-275. https://doi.org/10.1016/0301-0511(75)90025-3.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The contingent negative variation (CNV): Timing isn&apos;t everything</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Kononowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Penney</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cobeha.2016.02.022</idno>
+		<ptr target="https://doi.org/10.1016/j.cobeha.2016.02.022" />
+	</analytic>
+	<monogr>
+		<title level="j">Current Opinion in Behavioral Sciences</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="231" to="237" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kononowicz, T. W., &amp; Penney, T. B. (2016). The contingent negative variation (CNV): Timing isn&apos;t everything. Current Opinion in Behavioral Sciences, 8, 231-237. https:// doi.org/10.1016/j.cobeha.2016.02.022.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Decision theory: What&quot; should&quot; the nervous system do?</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Körding</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1142998</idno>
+		<ptr target="https://doi.org/10.1126/science.1142998" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">318</biblScope>
+			<biblScope unit="issue">5850</biblScope>
+			<biblScope unit="page" from="606" to="610" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Körding, K. (2007). Decision theory: What&quot; should&quot; the nervous system do? Science, 318(5850), 606-610. https://doi.org/10.1126/science.1142998.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Anticipation in sport. Current opinion in psychology</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Loffing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cañal-Bruland</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.copsyc.2017.03.008</idno>
+		<ptr target="https://doi.org/10.1016/j.copsyc.2017.03.008" />
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="6" to="11" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Loffing, F., &amp; Cañal-Bruland, R. (2017). Anticipation in sport. Current opinion in psy- chology, 16, 6-11. https://doi.org/10.1016/j.copsyc.2017.03.008.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">On-court position influences skilled tennis players&apos; anticipation of shot outcome</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Loffing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hagemann</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/jsep.2013-0082</idno>
+		<ptr target="https://doi.org/10.1123/jsep.2013-0082" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sport &amp; Exercise Psychology</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="14" to="26" />
+			<date type="published" when="2014">2014a</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Loffing, F., &amp; Hagemann, N. (2014a). On-court position influences skilled tennis players&apos; anticipation of shot outcome. Journal of Sport &amp; Exercise Psychology, 36(1), 14-26. https://doi.org/10.1123/jsep.2013-0082.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Skill differences in visual anticipation of type of throw in team-handball penalties</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Loffing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hagemann</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2014.01.006</idno>
+		<ptr target="https://doi.org/10.1016/j.psychsport.2014.01.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology of Sport and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="260" to="267" />
+			<date type="published" when="2014">2014b</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Loffing, F., &amp; Hagemann, N. (2014b). Skill differences in visual anticipation of type of throw in team-handball penalties. Psychology of Sport and Exercise, 15(3), 260-267. https://doi.org/10.1016/j.psychsport.2014.01.006.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Skilled players&apos; and novices&apos; difficulty anticipating left-vs. right-handed opponents&apos; action intentions varies across different points in time</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Loffing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hagemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schorer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baker</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.humov.2015.01.018</idno>
+		<ptr target="https://doi.org/10.1016/j.humov.2015.01.018" />
+	</analytic>
+	<monogr>
+		<title level="j">Human Movement Science</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="410" to="421" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Loffing, F., Hagemann, N., Schorer, J., &amp; Baker, J. (2015a). Skilled players&apos; and novices&apos; difficulty anticipating left-vs. right-handed opponents&apos; action intentions varies across different points in time. Human Movement Science, 40, 410-421. https://doi.org/10. 1016/j.humov.2015.01.018.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">On-court position and handedness in visual anticipation of stroke direction in tennis</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Loffing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sölter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hagemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Strauss</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2016.08.014</idno>
+		<ptr target="https://doi.org/10.1016/j.psychsport.2016.08.014" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology of Sport and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="195" to="204" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Loffing, F., Sölter, F., Hagemann, N., &amp; Strauss, B. (2016). On-court position and hand- edness in visual anticipation of stroke direction in tennis. Psychology of Sport and Exercise, 27, 195-204. https://doi.org/10.1016/j.psychsport.2016.08.014.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Pattern-induced expectation bias in visual anticipation of action outcomes</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Loffing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hagemann</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actpsy.2015.08.007</idno>
+		<ptr target="https://doi.org/10.1016/j.actpsy.2015.08.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Psychologica</title>
+		<imprint>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="page" from="45" to="53" />
+			<date type="published" when="2015">2015b</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Loffing, F., Stern, R., &amp; Hagemann, N. (2015b). Pattern-induced expectation bias in visual anticipation of action outcomes. Acta Psychologica, 161, 45-53. https://doi.org/10. 1016/j.actpsy.2015.08.007.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Mining event-related brain dynamics</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Makeig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Debener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Onton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Delorme</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tics.2004.03.008</idno>
+		<ptr target="https://doi.org/10.1016/j.tics.2004.03.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cognitive Sciences</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="204" to="210" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Makeig, S., Debener, S., Onton, J., &amp; Delorme, A. (2004). Mining event-related brain dynamics. Trends in Cognitive Sciences, 8(5), 204-210. https://doi.org/10.1016/j.tics. 2004.03.008.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Action preferences and the anticipation of action outcomes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schaefers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cañal-Bruland</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actpsy.2014.07.004</idno>
+		<ptr target="https://doi.org/10.1016/j.actpsy.2014.07.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Psychologica</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mann, D. L., Schaefers, T., &amp; Cañal-Bruland, R. (2014). Action preferences and the an- ticipation of action outcomes. Acta Psychologica, 152, 1-9. https://doi.org/10.1016/j. actpsy.2014.07.004.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The independent influence of concussive and sub-concussive impacts on soccer players&apos; neurophysiological and neuropsychological function</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lepine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ellemberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijpsycho.2016.11.011</idno>
+		<ptr target="https://doi.org/10.1016/j.ijpsycho.2016.11.011" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Psychophysiology</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="22" to="30" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Moore, R. D., Lepine, J., &amp; Ellemberg, D. (2017). The independent influence of concussive and sub-concussive impacts on soccer players&apos; neurophysiological and neu- ropsychological function. International Journal of Psychophysiology, 112, 22-30. https://doi.org/10.1016/j.ijpsycho.2016.11.011.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Contextual information and perceptual-cognitive expertise in a dynamic, temporally-constrained task</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cooke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Benguigui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/xap0000094</idno>
+		<ptr target="https://doi.org/10.1037/xap0000094" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Applied</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="455" to="470" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Murphy, C. P., Jackson, R. C., Cooke, K., Roca, A., Benguigui, N., &amp; Williams, A. M. (2016). Contextual information and perceptual-cognitive expertise in a dynamic, temporally-constrained task. Journal of Experimental Psychology: Applied, 22(4), 455-470. https://doi.org/10.1037/xap0000094.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b42">
+	<analytic>
+		<title level="a" type="main">The role of contextual information during skilled anticipation</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1747021817739201</idno>
+		<ptr target="https://doi.org/10.1177/1747021817739201" />
+	</analytic>
+	<monogr>
+		<title level="j">Quarterly Journal of Experimental Psychology</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2070" to="2087" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Murphy, C. P., Jackson, R. C., &amp; Williams, A. M. (2018). The role of contextual in- formation during skilled anticipation. Quarterly Journal of Experimental Psychology, 71(10), 2070-2087. https://doi.org/10.1177/1747021817739201.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Effects of stimulus-response compatibility in mediating expert performance in baseball players</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nakamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mori</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.brainres.2007.10.096</idno>
+		<ptr target="https://doi.org/10.1016/j.brainres.2007.10.096" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain Research</title>
+		<imprint>
+			<biblScope unit="volume">1189</biblScope>
+			<biblScope unit="page" from="179" to="188" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nakamoto, H., &amp; Mori, S. (2008). Effects of stimulus-response compatibility in mediating expert performance in baseball players. Brain Research, 1189, 179-188. https://doi. org/10.1016/j.brainres.2007.10.096.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Characteristics of the athletes&apos; brain: Evidence from neurophysiology and neuroimaging</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nakata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yoshie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Miura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kudo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.brainresrev.2009.11.006</idno>
+		<ptr target="https://doi.org/10.1016/j.brainresrev.2009.11.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain Research Reviews</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="197" to="211" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nakata, H., Yoshie, M., Miura, A., &amp; Kudo, K. (2010). Characteristics of the athletes&apos; brain: Evidence from neurophysiology and neuroimaging. Brain Research Reviews, 62(2), 197-211. https://doi.org/10.1016/j.brainresrev.2009.11.006.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b45">
+	<analytic>
+		<title level="a" type="main">On the use of situational and body information in goalkeeper actions during a soccer penalty kick</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Navia Manzano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Ruiz Perez</surname></persName>
+		</author>
+		<idno type="DOI">10.7352/IJSP2013.43.000</idno>
+		<ptr target="https://doi.org/10.7352/IJSP2013.43.000" />
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Sport Psychology</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="234" to="251" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Navia Manzano, J. A., &amp; Ruiz Perez, L. M. (2013). On the use of situational and body information in goalkeeper actions during a soccer penalty kick. International Journal of Sport Psychology, 44(3), 234-251. https://doi.org/10.7352/IJSP 2013.43.000.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b46">
+	<analytic>
+		<title level="a" type="main">An adaptive toolbox approach to the route to expertise in sport</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>De Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Lobinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Raab</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2014.00709</idno>
+		<ptr target="https://doi.org/10.3389/fpsyg.2014.00709" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Psychology</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">709</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">de Oliveira, R. F., Lobinger, B. H., &amp; Raab, M. (2014). An adaptive toolbox approach to the route to expertise in sport. Frontiers in Psychology, 5, 709. https://doi.org/10. 3389/fpsyg.2014.00709.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Adaptation to frequent conflict in the eriksen flanker task</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Purmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Badde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Luna-Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wendt</surname></persName>
+		</author>
+		<idno type="DOI">10.1027/0269-8803/a000041</idno>
+		<ptr target="https://doi.org/10.1027/0269-8803/a000041" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Psychophysiology</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Purmann, S., Badde, S., Luna-Rodriguez, A., &amp; Wendt, M. (2011). Adaptation to frequent conflict in the eriksen flanker task. Journal of Psychophysiology. https://doi.org/10. 1027/0269-8803/a000041.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Simple heuristics in sports</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Raab</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/1750984X.2012.654810</idno>
+		<ptr target="https://doi.org/10.1080/1750984X.2012.654810" />
+	</analytic>
+	<monogr>
+		<title level="j">International Review of Sport and Exercise Psychology</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="104" to="120" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Raab, M. (2012). Simple heuristics in sports. International Review of Sport and Exercise Psychology, 5(2), 104-120. https://doi.org/10.1080/1750984X.2012.654810.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b49">
+	<analytic>
+		<title level="a" type="main">A multidisciplinary approach to talent identification in soccer</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Reilly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nevill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Franks</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640410050120078</idno>
+		<ptr target="https://doi.org/10.1080/02640410050120078" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="695" to="702" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Reilly, T., Williams, A. M., Nevill, A., &amp; Franks, A. (2000). A multidisciplinary approach to talent identification in soccer. Journal of Sports Sciences, 18(9), 695-702. https://doi. org/10.1080/02640410050120078.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b50">
+	<analytic>
+		<title level="a" type="main">The impact of contextual information and a secondary task on anticipation performance: An interpretation using cognitive load theory</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">R</forename><surname>Runswick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mark Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Bezodis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Mcrobert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>North</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/acp.3386</idno>
+		<ptr target="https://doi.org/10.1002/acp.3386" />
+	</analytic>
+	<monogr>
+		<title level="j">Applied Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="141" to="149" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Runswick, O. R., Roca, A., Mark Williams, A., Bezodis, N. E., Mcrobert, A. P., &amp; North, J. S. (2018). The impact of contextual information and a secondary task on anticipation performance: An interpretation using cognitive load theory. Applied Cognitive Psychology, 32(2), 141-149. https://doi.org/10.1002/acp.3386.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b51">
+	<analytic>
+		<title level="a" type="main">The temporal integration of information during anticipation</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">R</forename><surname>Runswick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Mcrobert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>North</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.psychsport.2018.05.001</idno>
+		<ptr target="https://doi.org/10.1016/j.psychsport.2018.05.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychology of Sport and Exercise</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="100" to="108" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>a)</note>
+	<note type="raw_reference">Runswick, O. R., Roca, A., Williams, A. M., McRobert, A. P., &amp; North, J. S. (2018a). The temporal integration of information during anticipation. Psychology of Sport and Exercise, 37, 100-108. https://doi.org/10.1016/j.psychsport.2018.05.001.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Why do bad balls get wickets? The role of congruent and incongruent information in anticipation</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">R</forename><surname>Runswick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Mcrobert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>North</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02640414.2018.1514165</idno>
+		<ptr target="https://doi.org/10.1080/02640414.2018.1514165" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2018">2018b)</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Runswick, O. R., Roca, A., Williams, A. M., McRobert, A. P., &amp; North, J. S. (2018b). Why do bad balls get wickets? The role of congruent and incongruent information in an- ticipation. Journal of Sports Sciences, 1-7. https://doi.org/10.1080/02640414.2018. 1514165.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Visual search, anticipation and expertise in soccer goalkeepers</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Savelsbergh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V D</forename><surname>Kamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ward</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/026404102317284826</idno>
+		<ptr target="https://doi.org/10.1080/026404102317284826" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sports Sciences</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="279" to="287" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Savelsbergh, G. J., Williams, A. M., Kamp, J. V. D., &amp; Ward, P. (2002). Visual search, anticipation and expertise in soccer goalkeepers. Journal of Sports Sciences, 20(3), 279-287. https://doi.org/10.1080/026404102317284826.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Neurophysiology of action anticipation in athletes: A systematic review</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neubiorev.2015.11.007</idno>
+		<ptr target="https://doi.org/10.1016/j.neubiorev.2015.11.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience &amp; Biobehavioral Reviews</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="115" to="120" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Smith, D. M. (2016). Neurophysiology of action anticipation in athletes: A systematic review. Neuroscience &amp; Biobehavioral Reviews, 60, 115-120. https://doi.org/10.1016/ j.neubiorev.2015.11.007.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Fooling the kickers but not the goalkeepers: Behavioral and neurophysiological correlates of fake action detection in soccer</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tomeo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cesari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Aglioti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urgesi</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/cercor/bhs279</idno>
+		<ptr target="https://doi.org/10.1093/cercor/bhs279" />
+	</analytic>
+	<monogr>
+		<title level="j">Cerebral Cortex</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2765" to="2778" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Tomeo, E., Cesari, P., Aglioti, S. M., &amp; Urgesi, C. (2012). Fooling the kickers but not the goalkeepers: Behavioral and neurophysiological correlates of fake action detection in soccer. Cerebral Cortex, 23(11), 2765-2778. https://doi.org/10.1093/cercor/bhs279.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Long-and short-term plastic modeling of action prediction abilities in volleyball</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urgesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Savonitto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fabbro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Aglioti</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00426-011-0383-y</idno>
+		<ptr target="https://doi.org/10.1007/s00426-011-0383-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Research</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="542" to="560" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Urgesi, C., Savonitto, M. M., Fabbro, F., &amp; Aglioti, S. M. (2012). Long-and short-term plastic modeling of action prediction abilities in volleyball. Psychological Research, 76(4), 542-560. https://doi.org/10.1007/s00426-011-0383-y.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b57">
+	<analytic>
+		<title level="a" type="main">The timing of action-monitoring processes in the anterior cingulate cortex</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Veen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Carter</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/08989290260045837</idno>
+		<ptr target="https://doi.org/10.1162/08989290260045837" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cognitive Neuroscience</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="593" to="602" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Veen, V. v., &amp; Carter, C. S. (2002). The timing of action-monitoring processes in the anterior cingulate cortex. Journal of Cognitive Neuroscience, 14(4), 593-602. https:// doi.org/10.1162/08989290260045837.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Neural correlates of expert behavior during a domainspecific attentional cueing task in badminton players</title>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-C</forename><surname>Tu</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/jsep.2016-0335</idno>
+		<ptr target="https://doi.org/10.1123/jsep.2016-0335" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sport &amp; Exercise Psychology</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="209" to="221" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, C.-H., &amp; Tu, K.-C. (2017). Neural correlates of expert behavior during a domain- specific attentional cueing task in badminton players. Journal of Sport &amp; Exercise Psychology, 39(3), 209-221. https://doi.org/10.1123/jsep.2016-0335.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Motor expertise modulates neural oscillations and temporal dynamics of cognitive control</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Moreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Muggleton</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neuroimage.2017.07.009</idno>
+		<ptr target="https://doi.org/10.1016/j.neuroimage.2017.07.009" />
+	</analytic>
+	<monogr>
+		<title level="j">NeuroImage</title>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<biblScope unit="page" from="260" to="270" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wang, C. H., Yang, C. T., Moreau, D., &amp; Muggleton, N. G. (2017). Motor expertise modulates neural oscillations and temporal dynamics of cognitive control. NeuroImage, 158, 260-270. https://doi.org/10.1016/j.neuroimage.2017.07.009.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b60">
+	<analytic>
+		<title level="a" type="main">The development of anticipation: A cross-sectional examination of the practice experiences contributing to skill in cricket batting</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Weissensteiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Abernethy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Farrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Müller</surname></persName>
+		</author>
+		<idno type="DOI">10.1123/jsep.30.6.663</idno>
+		<ptr target="https://doi.org/10.1123/jsep.30.6.663" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Sport &amp; Exercise Psychology</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="663" to="684" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weissensteiner, J., Abernethy, B., Farrow, D., &amp; Müller, S. (2008). The development of anticipation: A cross-sectional examination of the practice experiences contributing to skill in cricket batting. Journal of Sport &amp; Exercise Psychology, 30(6), 663-684. https://doi.org/10.1123/jsep.30.6.663.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Visual search strategy, selective attention, and expertise in soccer</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Davids</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02701367.1998.10607677</idno>
+		<ptr target="https://doi.org/10.1080/02701367.1998.10607677" />
+	</analytic>
+	<monogr>
+		<title level="j">Research Quarterly for Exercise &amp; Sport</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="111" to="128" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Williams, A. M., &amp; Davids, K. (1998). Visual search strategy, selective attention, and expertise in soccer. Research Quarterly for Exercise &amp; Sport, 69(2), 111-128. https:// doi.org/10.1080/02701367.1998.10607677.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b62">
+	<analytic>
+		<title level="a" type="main">The dynamical information underpinning anticipation skill</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Huys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cañal-Bruland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hagemann</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.humov.2008.10.006</idno>
+		<ptr target="https://doi.org/10.1016/j.humov.2008.10.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Human Movement Science</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="362" to="370" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Williams, A. M., Huys, R., Cañal-Bruland, R., &amp; Hagemann, N. (2009). The dynamical information underpinning anticipation skill. Human Movement Science, 28(3), 362-370. https://doi.org/10.1016/j.humov.2008.10.006.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Functional MRI reveals expert-novice differences during sport-related anticipation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Abernethy</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/WNR.0b013e328333dff2</idno>
+		<ptr target="https://doi.org/10.1097/WNR.0b013e328333dff2" />
+	</analytic>
+	<monogr>
+		<title level="j">NeuroReport</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="94" to="98" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wright, M. J., Bishop, D. T., Jackson, R. C., &amp; Abernethy, B. (2010). Functional MRI reveals expert-novice differences during sport-related anticipation. NeuroReport, 21(2), 94-98. https://doi.org/10.1097/WNR.0b013e328333dff2.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Cortical fMRI activation to opponents&apos; body kinematics in sport-related anticipation: Expert-novice differences with normal and point-light video</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Bishop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Abernethy</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neulet.2011.06.045</idno>
+		<ptr target="https://doi.org/10.1016/j.neulet.2011.06.045" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuroscience Letters</title>
+		<imprint>
+			<biblScope unit="volume">500</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="216" to="221" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wright, M. J., Bishop, D. T., Jackson, R. C., &amp; Abernethy, B. (2011). Cortical fMRI acti- vation to opponents&apos; body kinematics in sport-related anticipation: Expert-novice differences with normal and point-light video. Neuroscience Letters, 500(3), 216-221. https://doi.org/10.1016/j.neulet.2011.06.045.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Skill-specific changes in somatosensory nogo potentials in baseball players</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yamashiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Onishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sugawara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nakazawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shimojo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Maruyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0142581</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0142581e0142581" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yamashiro, K., Sato, D., Onishi, H., Sugawara, K., Nakazawa, S., Shimojo, H., ... Maruyama, A. (2015). Skill-specific changes in somatosensory nogo potentials in baseball players. PLoS One, 10(11), https://doi.org/10.1371/journal.pone.0142581 e0142581.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

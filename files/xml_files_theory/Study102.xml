@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Gender differences on the age-related distal-to-proximal shift in joint kinetics during running</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Zoey</forename><forename type="middle">C</forename><surname>Kearns</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Health Sciences</orgName>
+								<orgName type="institution">University of Memphis</orgName>
+								<address>
+									<settlement>Memphis</settlement>
+									<region>Tennessee</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">|</forename><surname>Paul Devita</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Kinesiology</orgName>
+								<orgName type="institution">East Carolina University</orgName>
+								<address>
+									<settlement>Greenville</settlement>
+									<region>North Carolina</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Max</forename><forename type="middle">R</forename><surname>Paquette</surname></persName>
+							<email>mrpqette@memphis.edu</email>
+							<idno type="ORCID">0000-0002-6671-4570</idno>
+							<affiliation key="aff0">
+								<orgName type="department">College of Health Sciences</orgName>
+								<orgName type="institution">University of Memphis</orgName>
+								<address>
+									<settlement>Memphis</settlement>
+									<region>Tennessee</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">College of Health Studies</orgName>
+								<orgName type="institution">University of Memphis</orgName>
+								<address>
+									<addrLine>171B Elma Roane Fieldhouse</addrLine>
+									<postCode>38152</postCode>
+									<settlement>Memphis</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Gender differences on the age-related distal-to-proximal shift in joint kinetics during running</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4B1A988AA6D23254A9C543ABD5C2F48D</idno>
+					<idno type="DOI">10.1111/sms.14552</idno>
+					<note type="submission">Received: 18 April 2022 | Revised: 10 November 2023 | Accepted: 5 December 2023</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.3-SNAPSHOT" ident="GROBID" when="2026-03-22T22:13+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">b64991a</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=0, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=true, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>age</term>
+					<term>biomechanics</term>
+					<term>gender</term>
+					<term>kinetics</term>
+					<term>running</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Distance running races worldwide are seeing increasing participation levels, primarily driven by skyrocketing participation of runners over the age of 35. <ref type="bibr" target="#b0">1</ref> The New York City Marathon, one of the premier road races in the World, exemplifies this trend. Women over the age of 40 years accounted for 24% of female finishers from 1980 to 1989 and by 2000-2009, this age group comprised 40% of all female finishers. Similarly, male finishers over the age of 40 years increased from 36% to 53% of all male finishers in the same time period. 2 This increased running participation</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>in adults over 40 years, and in women in particular, has contributed to the scientific interest on the age-related and gender-related differences in running performance and biomechanics over the last decade.</p><p>Gender differences in running biomechanics have been studied extensively in young runners. <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref> However, gender differences in sagittal plane joint kinetics have been inconsistent. Similar peak knee extensor torque and knee positive power have been observed in young men and women <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b7">8</ref> while lower peak knee extensor torque in women compared to men have also been reported. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b8">9</ref> Women tend to run with greater peak hip extensor torque compared to men <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b7">8</ref> but again, this finding is not consistent. <ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b8">9</ref> Women also tend to run with lower <ref type="bibr" target="#b5">6</ref> and similar <ref type="bibr" target="#b7">8</ref> peak plantarflexor torque compared to men at the same, relatively fast, running speed (3.5 m/s). The inconsistencies in reported differences in joint kinetics make it difficult to pinpoint clear gender differences. These conflicting findings may be the result of different testing speeds, running styles (e.g., strike patterns), testing footwear, and runner population. Gender differences have mostly been studied in young runners with limited research on middle-aged or older runners. In recreational runners (~16 km/week), peak ankle plantarflexor and knee extensor torques are larger in young (~22 years) and middle-aged (~50 years) men compared to women, but peak hip flexor or extensor torques are not different between genders of either age groups at a relatively fast pace of ~7:40 min per mile. <ref type="bibr" target="#b5">6</ref> The early stance peak and maximal peak vertical ground reaction force (GRF) in midstance tend to be similar between genders in either young (~33 years) or older (~63 years) runners. <ref type="bibr" target="#b9">10</ref> Thus, any gender effects within age groups in joint kinetics may be the result of differences in joint extensor capacity (i.e., strength) or position while running, which have not been investigated. In order to refine our ability to prescribe training interventions across different runner populations, it would be valuable to better understand how age may influence running biomechanics differently in men and women. Among many adaptations, aging is also characterized by distal-to-proximal (i.e., ankle to hip) shift in peak joint extensor moments and powers in older compared to younger adults during walking. <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> This distal-toproximal shift in kinetics is also observed while running in middle-aged runners <ref type="bibr" target="#b14">15</ref> and older runners. <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref> The proximal shift in joint work suggests increased use of proximal musculature (e.g., gluteal muscles) with shorter tendons compared to distal muscles (e.g., plantarflexors). Shorter tendons have a lower capacity for elastic energy storage <ref type="bibr" target="#b18">19</ref> and generally result in faster maximum muscle shortening velocities. <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21</ref> Faster maximum muscle shortening velocities yield higher muscular heat production in frogs <ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b22">23</ref> which may partly explain the lower relative economy (i.e., relative to maximal oxygen consumption [VO 2 max]) welldocumented in older compared to younger runners. <ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b24">25</ref> Further, at a given force demand, distal muscles have smaller volumes of activated muscles which lowers the energetic demands for contractions. <ref type="bibr" target="#b25">26</ref> These established biomechanical phenomena observed in middle-aged and older runners that may limit their running economy (i.e., the submaximal rate of oxygen consumption [VO 2 ]) and propulsive function are logical targets for training interventions in these populations of runners. Filling the current literature gap to understand how age may influence, albeit conflicting, gender differences in running mechanics could help develop training interventions or running equipment such as footwear to address any potential different mechanical demands among various age groups and genders.</p><p>The purpose of this study was to assess gender and age effects on lower limb joint mechanics while running. We hypothesized that, regardless of age, women would run with lower magnitudes of ankle and knee extensor torques and positive power and work, but with greater hip joint torques and positive power and work compared to men. Given the plethora of evidence of a distal-to-proximal shift in joint kinetics in aging runners, we also expected lower magnitudes of ankle kinetics but greater hip kinetics in middle-aged compared to young runners.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">| MATERIALS AND METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">| Participants</head><p>A total of 47 runners participated in the study with 24 young (12 women) and 23 middle-aged (11 women) runners. Participants were included if they were either 18-30 years (young) or 50-70 years (middle-aged), ran more than 16 km/week over the last 2 years, did not have metabolic or orthopedic conditions, and were injury-free at the time of testing. Further, since weekly running distance can influence lower limb joint kinetics, <ref type="bibr" target="#b26">27</ref> young runners were also included based on weekly running distance matched with the middle-aged runners (~43 km/week). All participants signed an informed consent form which was approved by the university Institutional Review Board.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">| Experimental protocol</head><p>A nine-camera motion capture system (240 Hz, Qualisys AB) was used to collect three-dimensional (3D) kinematic data. GRF data were collected using a 3D force platform imbedded in the laboratory floor at the midpoint of the 25 m runway (1200 Hz, AMTI, Watertown, MA, USA). Two photo-cells (63501 IR, Lafayette Instruments Inc., IN, USA) placed 3 m apart in the middle of the runway and an electronic timer (54035A, Lafayette Instruments Inc.) were used to control running speed during each trial.</p><p>Participants first filled out an online survey regarding their training and body mass and height were measured. Before testing, runners completed a 5-min running warm-up at their reported preferred training pace on a treadmill (C962i, PRECOR, USA). Thermoplastic shells with four reflective markers were placed on the pelvis, thigh, and shank and, a plastic shell with three reflective markers was placed on the heel counter of the shoe to track each segment. The pelvis was defined with the iliac crests and greater trochanters, and the hip joint center was calculated at the location of one-quarter the distance between the ipsilateral and contralateral greater trochanters. <ref type="bibr" target="#b27">28</ref> The full anatomical marker model was used as previously described. <ref type="bibr" target="#b28">29</ref> A 1-s static calibration trial was recorded before the start of data collection to define joint centers and, segment coordinate systems and dimensions. Anatomical markers were removed, and participants completed five overground running trials at a set speed of 2.7 m/s (±5%). <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b23">24,</ref><ref type="bibr" target="#b29">30</ref> Two to three practice trials were provided to allow the participants to achieve the desired testing speed using photo-cells placed 3 m apart at shoulder height and timer while contacting the force platform with their right foot without visual targeting. Participants wore their own shoes for the running tests to ensure external validity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">| Data analyses</head><p>Visual3D biomechanical analysis software suite (C-Motion, Inc., MD, USA) was used to compute the 3D kinematic and kinetic variables of the right limb during running. Kinematic and GRF data were filtered using a fourth order Butterworth low-pass filter of 8 and 40 Hz, respectively. A right-hand rule with a Cardan rotational sequence (xyz) was used for 3D angular computations where x represents the ML axis, y represents the AP axis, and z represents the vertical axis. A threshold of 20 N for the vertical GRF was used to detect the start and end of the stance phase during running. The ankle, knee, and hip joint angular kinematic and kinetic variables were resolved in the shank, thigh, and pelvis coordinate systems, respectively. Net internal joint moments were computed using Newtonian inverse dynamics and normalized to body mass (Nm/kg). Joint angular powers were computed as the scalar product of joint angular velocities and joint moments during the stance phase (W/kg). Stance phase negative and positive joint work (J/kg) was calculated using trapezoidal integration of angular power with respect to time. The distal-to-proximal shift in joint kinetics (i.e., biomechanical plasticity) was quantified as the ratio of hip to ankle ratio of positive joint work (i.e., larger magnitude signifies more reliance on hip joint). The strike index (SI) was used to quantify strike pattern and is calculated as the ratio of the center of pressure (COP) location at foot strike relative to the length of the foot. <ref type="bibr" target="#b30">31</ref> The length of the foot was defined as the distance between the heel marker and midpoint of the first and fifth metatarsal head marker. With this foot segment definition, a forefoot strike pattern can yield SI values greater than 100% of foot length. The average horizontal speed during stance was calculated as the horizontal displacement of a pelvis marker divided by ground contact time (i.e., stance phase). The average of each dependent variable from the five stance phases of each group was included in statistical analyses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">| Statistical analysis</head><p>Data normality was assessed using the Shapiro-Wilk test and confirmed normal distribution among our data. Thus, two-factor analyses of variance were used (SPSS 24.0, IBM) to test our hypotheses. Independent t-tests were used for pairwise comparisons of dependent variables when interaction effects were observed. Significance was set at an alpha level ≤0.05. Cohen's d effect sizes were also calculated for pairwise comparisons of dependent variable means among groups when interaction effects were observed (i.e., small: d &lt; 0.2, moderate: 0.2 ≥ d &lt; 0.8; large: d ≥ 0.8). <ref type="bibr" target="#b31">32</ref> 3 | RESULTS</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">| Training characteristics</head><p>Participant training and anthropometric characteristics can be found in Table <ref type="table">1</ref>. There were no interaction or age effects for participant characteristics, but women had lower mass (d = 1.7), height (d = 2.1), and body mass index (d = 0.7) compared to men. There were no interaction or gender effects in running experience, but middleaged runners (22 ± 15 years) had more running experience compared to young runners (8 ± 3 years, d = 1.3). There were no interaction or main effects for weekly running distance, but there were significant age and gender differences in preferred speed. Women (6:01 ± 0:43 min/km) reported slower preferred running paces compared to men (5:37 ± 0:25 min/km, d = 0.7) and middle-aged runners (6:05 ± 0:36 min/km) reported slower preferred running paces compared to young runners (5:34 ± 0:31 min/km,</p><p>T A B L E 1 Participant characteristics and training details for all groups (mean ± SD). Young Middle-aged p-values Women Men Women Men Age Gender Interaction Age (years) 30 ± 6 28 ± 6 57 ± 8 57 ± 5 ---Mass (kg) a 64.4 ± 10.0 81.2 ± 15.6 61.5 ± 8.3 81.5 ± 9.1 0.70 &lt;0.001 0.63 Height (m) a 1.7 ± 0.1 1.8 ± 0.1 1.7 ± 0.1 1.8 ± 0.1 0.95 &lt;0.001 0.55 Body mass index (kg/m 2 ) a 23.2 ± 2.7 25.1 ± 4.2 22.5 ± 2.0 24.8 ± 2.1 0.56 0.019 0.83 Weekly distance (km) 42.8 ± 26.5 38.5 ± 26.4 42.6 ± 24.1 44.2 ± 23.2 0.71 0.86 0.69 Running experience (years) b 8.6 ± 3.2 8.3 ± 3.8 21.2 ± 16.6 23.2 ± 14.1 &lt;0.001 0.79 0.74 Preferred pace (min/km) a,b 5:44 ± 0:36 5:23 ± 0:23 6:21 ± 0:44 5:50 ± 0:19 0.001 0.017 0.74 Relative preferred pace (%) a,b,c 93 ± 10 87 ± 6 103 ± 12 94 ± 5 0.02 0.003 0.001 Note: Relative preferred pace: testing pace relative to preferred training pace; bold: p &lt; 0.05. a Gender group main effect. b Age group main effect. c Age × gender interaction. T A B L E 2 Peak lower limb joint torque (Nm/kg) and peak angular powers (W/kg), lower limb joint and total angular work (J/kg) at a set running speed for all groups (mean ± SD). Young Middle-aged p-values Women Men Women Men Age Gender Interaction Peak joint torque Hip extensor a -1.28 ± 0.28 -1.76 ± 0.38 -1.46 ± 0.31 -2.00 ± 0.59 0.087 &lt;0.001 0.80 Knee extensor a 2.25 ± 0.31 2.49 ± 0.44 2.01 ± 0.41 2.45 ± 0.30 0.20 0.003 0.36 Ankle plantarflexor b -2.40 ± 0.31 -2.33 ± 0.41 -2.15 ± 0.39 -2.15 ± 0.22 0.038 0.69 0.71 Peak joint powers Hip negative b -1.53 ± 0.97 -1.82 ± 1.42 -2.44 ± 1.95 -3.40 ± 2.03 0.013 0.20 0.48 Hip positive a,b 1.23 ± 0.79 1.83 ± 0.92 1.90 ± 1.18 2.68 ± 1.26 0.018 0.029 0.79 Knee negative -9.13 ± 2.17 -9.32 ± 3.41 -9.18 ± 2.62 -10.95 ± 3.02 0.32 0.25 0.35 Knee positive 3.78 ± 1.02 3.97 ± 1.42 3.37 ± 0.70 3.83 ± 0.82 0.36 0.28 0.65 Ankle negative -6.27 ± 2.30 -5.48 ± 2.13 -5.31 ± 2.21 -4.56 ± 0.73 0.11 0.18 0.96 Ankle positive a,b 9.42 ± 1.84 7.69 ± 2.26 7.65 ± 1.43 6.43 ± 1.50 0.006 0.007 0.63 Joint work Hip negative -0.38 ± 0.10 -0.38 ± 0.20 -0.32 ± 0.10 -0.33 ± 0.08 0.13 0.85 0.89 Hip positive b 0.34 ± 0.12 0.38 ± 0.17 0.48 ± 0.20 0.52 ± 0.11 0.003 0.32 0.99 Knee negative b -0.78 ± 0.10 -0.82 ± 0.15 -0.89 ± 0.13 -0.96 ± 0.19 0.005 0.21 0.81 Knee positive 0.37 ± 0.07 0.40 ± 0.10 0.35 ± 0.06 0.37 ± 0.05 0.27 0.23 0.59 Ankle negative b -0.62 ± 0.26 -0.59 ± 0.27 -0.47 ± 0.10 -0.46 ± 0.08 0.023 0.76 0.87 Ankle positive a,b 0.73 ± 0.08 0.63 ± 0.17 0.65 ± 0.10 0.57 ± 0.13 0.052 0.018 0.75 Total negative -1.78 ± 0.22 -1.79 ± 0.40 -1.68 ± 0.26 -1.75 ± 0.27 0.43 0.62 0.77 Total positive 1.43 ± 0.15 1.42 ± 0.31 1.48 ± 0.15 1.46 ± 0.21 0.48 0.78 0.99 Hip:ankle positive (%) c 46.3 ± 16.2 65.5 ± 33.8 81.3 ± 50.9 97.0 ± 31.2 0.002 0.093 0.86 Note: Bold: p &lt; 0.05. a Gender group main effect. b Age group main effect. c Age × gender interaction.</p><p>d = 1.0). An interaction effect was observed for relative running pace. Although, men (91 ± 7%) generally reported faster relative paces than women (98 ± 12%, d = 1.0), the difference was larger in the middle-aged group compared to the young group (Table <ref type="table">1</ref>). Relative running pace (testing pace relative to training pace) was below 100% for all but middle-aged women (~103%) suggesting this was the only group running at a slightly higher relative speed than their own during testing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">| Running Biomechanics</head><p>A similar horizontal speed was confirmed for all four groups with values of 2.69 ± 0.20, 2.72 ± 0.16, 2.73 ± 0.12, and 2.68 ± 0.24 m/s for young women, young men, middleaged women, and middle-aged men, respectively. No age by gender interaction effects were observed but age and gender main effects were observed for many of the running biomechanics variables (Tables <ref type="table">2</ref> and <ref type="table">3</ref>).</p><p>T A B L E 3 Secondary biomechanical variables at a set running speed for all groups (mean ± SD).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Young</head><p>Middle-aged p-values Women Men Women Men Age Gender Interaction Stance time (s) a 0.27 ± 0.03 0.29 ± 0.02 0.29 ± 0.02 0.30 ± 0.02 0.16 0.042 0.26 Stride index (%) b 0.41 ± 0.39 0.45 ± 0.41 0.17 ± 0.08 0.24 ± 0.29 0.021 0.56 0.87 Peak braking GRF (BW) -0.28 ± 0.02 -0.28 ± 0.04 -0.26 ± 0.04 -0.28 ± 0.06 0.51 0.66 0.40 Peak propulsive GRF (BW) a,b 0.26 ± 0.04 0.23 ± 0.04 0.22 ± 0.02 0.20 ± 0.03 0.005 0.009 0.49 Peak vertical GRF (BW) b,c 2.30 ± 0.32 2.27 ± 0.17 2.09 ± 0.16 2.19 ± 0.19 0.030 0.61 0.31 Note: Bold: p &lt; 0.05. a Gender group main effect. b Age group main effect. c Age × gender interaction.</p><p>F I G U R E 1 Box plots for peak ankle, knee, and hip extensor torque, positive power, and joint positive work for women and men; *Gender differences (p &lt; 0.05).</p><p>Peak ankle positive power (d = 0.8) and ankle positive work (d = 1.0) were higher while peak hip extensor torque (d = 1.2), knee extensor torque (d = 1.0), and hip positive power (d = 0.7) were smaller in women compared to men (Figures <ref type="figure">1</ref> and <ref type="figure">6</ref>). Hip to ankle positive work ratio was not different between men and women (d = 0.3). Peak propulsive GRF (d = 0.6) was higher while stance time (d = 0.4) was shorter in women compared to men (Figure <ref type="figure" target="#fig_1">2</ref>). Finally, strike index was not different between men (34.5 ± 36.2%) and women (29.5 ± 30.7%; d = 0.2).</p><p>Peak ankle plantarflexor torque (d = 0.6), ankle positive power (d = 0.8), and ankle joint positive (d = 0.6) and negative (d = 0.7) work were all greater in young compared to middle-aged runners (Figure <ref type="figure">3</ref>). Peak hip joint positive (d = 0.9) and negative (d = 0.8) power, hip joint positive work (d = 0.9), and knee joint negative work (d = 0.3) were all smaller in young compared to middle-aged runners (Figure <ref type="figure">4</ref>). Hip to ankle positive work ratio was larger in middle-aged compared to young runners suggesting more reliance on hip compared to ankle positive work (d = 1.0). Peak propulsive GRF (d = 0.9) and peak vertical GRF (d = 0.7) were all greater in young compared to middleaged runners (Figure <ref type="figure" target="#fig_2">5</ref>).  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">| DISCUSSION</head><p>This study assessed gender differences in ankle, knee, and hip joint kinetics of young and middle-aged runners. As expected, we did not observe any interaction effects, but observed both gender and age effects on running mechanics. These findings suggest that gender effects on running biomechanics are similar in young and middle-aged runners and that age effects are similar in women and men. The discussion section will therefore focus on the age and gender effects separately.</p><p>Contrary to our hypothesis, women ran with higher peak ankle positive power, ankle positive work, and propulsive GRF but with similar ankle plantarflexor torque compared to men (Figure <ref type="figure">6</ref>). The similar peak plantarflexor torque with greater generation of ankle work, peak power, and shorter contact times suggests that women plantarflex their ankles with more angular velocity and thus, are able to generate more propulsive GRF than men at the same speed. Given the set testing speeds (i.e., braking and propulsive impulses would be equal) with shorter contact times, women likely produced greater peak propulsive force to maintain the required running speed. Further, on average, shorter feet in women would require higher angular plantarflexion velocity due to slower distal linear velocity from shorter foot radii to maintain the testing speed and would explain the greater mass normalized peak positive ankle power compared to men. Thus, the shorter stature of women, and proportionally shorter feet, may require women increase net ankle plantarflexor involvement for propulsion. It is important to note that two of the 23 women in the study ran with much lower contact times than the others and may have contributed to this lower average for women.</p><p>In this study, although men and women had similar running experience and weekly running distance, women (6:01 min/km or 2.8 m/s) reported moderately slower preferred running paces (~24 s/km) than men (5:37 min/km or 3.0 m/s). As the testing speed was set at 2.7 m/s, men ran at a much lower relative intensity (~10% lower than their preferred speed) than women (~4% lower than their preferred speed) which may partly explain the higher ankle power and work generation observed in women compared to men. The similar peak plantarflexor torque between genders is consistent with findings of one previous study 8 but contrary to another in which women ran with lower plantarflexor torque. <ref type="bibr" target="#b5">6</ref> To our knowledge, no previous study has compared ankle power or work generation between men and women. Given the discussion of testing speed above, these conflicting findings are potentially explained by varying testing and preferred running speed for each study. Boyer et al. <ref type="bibr" target="#b5">6</ref> and Willson et al., <ref type="bibr" target="#b7">8</ref> used testing speeds of at 3.5 and 3.3 m/s, respectively, which are considerably faster than the 2.7 m/s used in our study.</p><p>Differences in preferred running pace between genders may partly explain these conflicting findings but unfortunately, preferred running pace was not reported in these previous studies. Another factor that could explain the conflicting findings is strike pattern between genders. It has been well-documented that strike pattern contributes greatly to changes in ankle joint kinetics while running. Specifically, a more anterior COP at foot contact (i.e., mid or forefoot strike) yields greater magnitudes of ankle joint kinetics compared to a rearfoot strike pattern. <ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b33">34</ref> In the current study, strike index was not different between genders but was not reported in those previous studies. However, ankle dorsiflexion at initial contact was slightly greater in women compared to men in Boyer et al. <ref type="bibr" target="#b5">6</ref> Given the set testing speed, the larger ankle dorsiflexion at contact likely suggests a more posterior strike position (i.e., closer to the center of gravity) which could explain the lower peak plantarflexor torque reported in women compared to men. Finally, peak force of the ankle plantarflexors (soleus and gastrocnemius) provide the greatest contribution to peak vertical GRF development and thus, longer stride length while running at speeds ranging between 3.5 and 7.0 m/s. <ref type="bibr" target="#b34">35</ref> The gender differences in ankle joint kinetics suggest that women may have better propulsive function relative to their mass compared to men at a running speed slightly slower (98% on average) than their preferred running speed.</p><p>Further, and in disagreement with our hypothesis, we observed lower peak knee and hip extensor torque, and peak hip positive power in women compared to men (Figure <ref type="figure">6</ref>). The higher knee and hip extensor torques may be less helpful when it comes to steady-state running because of the lower relative contribution to the peak vertical GRF and stride length from the hip and knee extensor muscles at those speeds. <ref type="bibr" target="#b34">35</ref> The higher knee and hip extensor torque could also be attributed to the decreased range of motion at the hip and knee generally observed in male runners. <ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b4">5</ref> Potential training implications of this finding may include different training foci and recommendations based on age or gender, including an increased emphasis on improving ankle plantarflexor power in men and middle-aged runners.</p><p>As expected, middle-aged runners ran with lower magnitudes of mass normalized peak ankle plantarflexor torque, peak positive ankle power, negative and positive ankle work, peak propulsive GRF and vertical GRF, and with higher magnitudes of peak negative and positive hip power and positive hip work compared to young runners while running at the same test speed. The lower peak propulsive GRF and vertical GRF in aging runners has already been well-established, <ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b24">25,</ref><ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b35">36,</ref><ref type="bibr" target="#b36">37</ref> and are likely related to the decline in ankle propulsive function with aging. <ref type="bibr" target="#b15">16</ref> Indeed, lower involvement of ankle plantarflexors with more use of hip musculature during gait is a biomechanical hallmark of aging. <ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b16">17</ref> Finally, these findings confirm the previously described distalto-proximal redistribution of joint kinetics in middleaged <ref type="bibr" target="#b14">15</ref> runners and contribute novel evidence that this age-related biomechanical phenomenon is not different for men and women.</p><p>Although weekly distance was not different between age groups, preferred running pace was moderately faster in young compared to middle-aged runners. Given that training pace, more so than weekly distance, may influence ankle kinetics while running, <ref type="bibr" target="#b26">27</ref> a slower preferred training pace in middle-aged runners may explain their lower magnitudes of ankle kinetics compared to young runners even though both groups ran at the same speed in this study. Future studies should assess the longitudinal effects of faster training paces on joint mechanics in middle-aged runners to confirm this hypothesis. Further, strike index was moderately smaller in middleaged compared to young runners indicating a more anterior COP location under the foot at time of foot contact (i.e., non-rearfoot strike). Because a more anterior COP location at foot contact increases peak plantarflexor torque and peak positive power, <ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b33">34</ref> it is possible that running style (i.e., strike pattern) confounds age effects on ankle kinetics while running. However, given that aging reduces plantarflexor strength and Achilles tendon stiffness, 17,38-41 a non-rearfoot strike may demand F I G U R E 6 Time series normalized to stance phase (100%) for net internal ankle (A), knee (B), and hip (C) torques and, ankle (D), knee (E), and hip (F) angular power for both men and women (age-pooled).</p><p>plantarflexor involvement that approaches, or possibly exceeds, their capacity in middle-aged or older runners. Further, given that rearfoot strikers run with higher peak knee extensor torque and negative knee power than forefoot strikers, <ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b41">42</ref> the lower strike index in the middle-aged group may contribute to the greater peak negative knee power compared to young runners in the current study. As a preliminary investigation into the influence of strike index as a confounder to the age effects on joint kinetics in running, we compared the hip to ankle ratio of positive work of 15 young and 15 middleaged runners from our full dataset selected to yield similar strike indices between groups. From this subanalysis, despite the similar strike index between age groups (young: 19 ± 5%, middle-aged: 18 ± 4%, p = 0.39), we still observed a large effect for a slightly higher hip to ankle ratio of positive work in middle aged (91 ± 47%) compared to young runners (60 ± 29%; p = 0.037, d = 0.8) suggesting a greater reliance on hip joint kinetics in middle-aged compared to young runners independent of strike pattern.</p><p>The primary limitation of this study is its crosssectional design, which does not reflect longitudinal aging effects on running biomechanics of men and women. In addition, as all runners wore their own shoes during testing, footwear effects may have influenced the age and gender effects. However, by permitting the participants to run in their own shoes, we avoided any potential discomfort or unfamiliar perception of standard laboratory shoes and retained some external validity. Finally, the set testing speed of 2.7 m/s used in the current study reflected a slightly relative running pace compared to preferred pace for women (~98%) compared to men (~91%). As the relative pace was, on average, slower than self-reported preferred running pace, the testing speed was still submaximal for all runners and likely does not confound the gender differences observed in the current study. Future studies should consider testing these gender differences at relatively similar running speeds although different testing speeds could likely confound running joint kinetics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">| Perspectives</head><p>In general, our findings suggest that gender and age have independent effects on running biomechanics. We present a novel finding that women ran with more mass normalized ankle, but less mass-normalized hip peak positive power compared to men suggesting an ankle dominant strategy in women at a preferred and comfortable running pace. Further, and as previously reported, young runners ran with more mass-normalized ankle, but less mass-normalized hip positive work and peak positive power compared to middle-aged runners. Finally, we also provide preliminary evidence that age effects on joint kinetics are not primarily driven by strike pattern.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>Finally, stride index (d = 0.7) was greater young (43.1 ± 39.1%) compared to middle-aged runners (20.6 ± 21.5%).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>F I G U R E 2</head><label>2</label><figDesc>Box plots for peak propulsive GRF and stance time for women and men; *Gender differences (p &lt; 0.05).F I G U R E 3 Box plots for peak ankle plantarflexor torque, positive power, negative work, and positive work for middle-aged and young runners; *Age group difference (p &lt; 0.05).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>F I G U R E 5</head><label>5</label><figDesc>Box plots for peak propulsive GRF and peak vertical GRF for middle-aged and young runners; *Age group difference (p &lt; 0.05).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="5,53.14,394.54,489.00,307.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="7,98.50,46.70,398.28,459.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="9,70.12,46.70,455.04,452.16" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>16000838, 2024, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14552 by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [10/08/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>F I G U R E 4Box plots for peak knee and hip negative power, positive power, positive work, and negative work for middle-aged and young runners; *Age group difference (p &lt; 0.05). 16000838, 2024, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/sms.14552 by &lt;Shibboleth&gt; member@tudublin.ie, Wiley Online Library on [10/08/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNO WLE DGE MENTS</head><p>The authors would like to thank <rs type="person">Dallis Forsythe</rs>, <rs type="person">Clara Amat Fernandez</rs>, <rs type="person">Alicia Washington</rs>, and <rs type="person">Sydney Wright</rs> for their help with data collections and, all volunteers for participating in the study.</p></div>
+			</div>
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head><p>The data that support the findings of this study are openly available in Paquette Group Data Repository at <ref type="url" target="https://docs.google.com/spreadsheets/d/1WitvPg_7cfSngXeJnzNpqyy6UwF5cDj_/edit?usp=sharing&amp;ouid=112806615222802949206&amp;rtpof=true&amp;sd=true">https://  docs</ref>. google. com/ sprea dshee ts/d/ 1Witv Pg_ 7cfSn gXeJn zNpqy y6UwF 5cDj_/ edit? usp= shari ng&amp; ouid= 11280 66152 22802 94920 6&amp; rtpof = true&amp; sd= true.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FUNDING INFORMATION</head><p>No funding was received for this study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST STATEMENT</head><p>No conflicts of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct status="extracted"  xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Master runners dominate 24-h ultramarathons worldwide-a retrospective data analysis from 1998 to 2011</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zingg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Rüst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lepers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rosemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Knechtle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Extrem Physiol Med</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">21</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Zingg M, Rüst CA, Lepers R, Rosemann T, Knechtle B. Master runners dominate 24-h ultramarathons worldwide-a retro- spective data analysis from 1998 to 2011. Extrem Physiol Med. 2013;2:21.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Do older athletes reach limits in their performance during marathon running?</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lepers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cattagni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Age</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="773" to="781" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Lepers R, Cattagni T. Do older athletes reach limits in their per- formance during marathon running? Age. 2012;34:773-781.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Gender differences in lower extremity mechanics during running</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ferber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Imc</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Williams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Biomech</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="350" to="357" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ferber R, Davis IMC, Williams DS. Gender differences in lower extremity mechanics during running. Clin Biomech. 2003;18:350-357.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Sex-specific hip movement is correlated with pelvis and upper body rotation during running</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pieper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Löffler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Federolf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Bioeng Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mohr M, Pieper R, Löffler S, Schmidt AR, Federolf PA. Sex-spe- cific hip movement is correlated with pelvis and upper body rotation during running. Front Bioeng Biotechnol. 2021;9:1-11.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Gender differences in hip and ankle joint kinematics on knee abduction during running</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sakaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ogawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kanehisa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yanai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawakami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="302" to="S309" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sakaguchi M, Ogawa H, Shimizu N, Kanehisa H, Yanai T, Kawakami Y. Gender differences in hip and ankle joint ki- nematics on knee abduction during running. Eur J Sport Sci. 2014;14:S302-S309.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Age and sex influences on running mechanics and coordination variability</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Boyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Freedman</forename><surname>Silvernail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hamill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Sports Sci</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="2225" to="2231" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Boyer KA, Freedman Silvernail J, Hamill J. Age and sex influ- ences on running mechanics and coordination variability. J Sports Sci. 2017;35:2225-2231.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Knee and hip joint biomechanics are gender-specific in runners with high running mileage</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gehring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mornieux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fleischmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gollhofer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Med</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="153" to="158" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Gehring D, Mornieux G, Fleischmann J, Gollhofer A. Knee and hip joint biomechanics are gender-specific in runners with high running mileage. Int J Sports Med. 2014;35:153-158.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Sex differences in running mechanics and patellofemoral joint kinetics following an exhaustive run</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Willson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Loss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Willy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Meardon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="4155" to="4159" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Willson JD, Loss JR, Willy RW, Meardon SA. Sex differences in running mechanics and patellofemoral joint kinetics following an exhaustive run. J Biomech. 2015;48:4155-4159.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Male and female runners demonstrate different sagittal plane mechanics as a function of static hamstring flexibility</title>
+		<author>
+			<persName><forename type="first">Dsb</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Welch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Braz J Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="421" to="428" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Williams DSB, Welch LM. Male and female runners demon- strate different sagittal plane mechanics as a function of static hamstring flexibility. Braz J Phys Ther. 2015;19:421-428.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Effects of normal aging on lower extremity loading and coordination during running in males and females</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Kline</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dsb</forename><surname>Williams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="901" to="909" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kline PW, Williams DSB. Effects of normal aging on lower ex- tremity loading and coordination during running in males and females. Int J Sports Phys Ther. 2015;10:901-909.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Aging modifies joint power and work when gait speeds are matched</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Cofré</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lythgo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Galea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gait Posture</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="484" to="489" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cofré LE, Lythgo N, Morgan D, Galea MP. Aging modifies joint power and work when gait speeds are matched. Gait Posture. 2011;33:484-489.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Age causes a redistribution of joint torques and powers during gait</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Devita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hortobágyi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="1804" to="1811" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">DeVita P, Hortobágyi T. Age causes a redistribution of joint torques and powers during gait. J Appl Physiol. 2000;88:1804-1811.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Step length reductions in advanced age: the role of ankle and hip kinetics</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Judge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Öunpuu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Gerontol Series A Biol Sci Med Sci</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="303" to="M312" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Judge JO, Davis RB, Öunpuu S. Step length reductions in ad- vanced age: the role of ankle and hip kinetics. J Gerontol Series A Biol Sci Med Sci. 1996;51:M303-M312.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Advanced age and the mechanics of uphill walking: a joint-level, inverse dynamic analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Franz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gait Posture</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="135" to="140" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Franz J, Kram R. Advanced age and the mechanics of uphill walking: a joint-level, inverse dynamic analysis. Gait Posture. 2014;39:135-140.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Age and training volume influence joint kinetics during running</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Paquette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Powell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Devita</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Med Sci Sports</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="380" to="387" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paquette MR, Powell DW, DeVita P. Age and training volume influence joint kinetics during running. Scand J Med Sci Sports. 2021;31:380-387.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The relationships between age and running biomechanics</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Devita</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="98" to="106" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">DeVita P et al. The relationships between age and running bio- mechanics. Med Sci Sports Exerc. 2016;48:98-106.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Adaptational phenomena and mechanical responses during running: effect of surface, aging and task experience</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Karamanidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Arampatzis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Brüggemann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="284" to="298" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karamanidis K, Arampatzis A, Brüggemann GP. Adaptational phenomena and mechanical responses during running: ef- fect of surface, aging and task experience. Eur J Appl Physiol. 2006;98:284-298.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Which muscles compromise human locomotor performance with age?</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Kulmala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Korhonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kuitunen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J R Soc Interface</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2014">2014. 20140858</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kulmala JP, Korhonen MT, Kuitunen S, et al. Which muscles compromise human locomotor performance with age? J R Soc Interface. 2014;11:20140858.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Why are mammalian tendons so thick?</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bennett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Zool</title>
+		<imprint>
+			<biblScope unit="volume">216</biblScope>
+			<biblScope unit="page" from="309" to="324" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ker R, Alexander R, Bennett M. Why are mammalian tendons so thick? J Zool. 1988;216:309-324.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Contraction dynamics and function of the muscle-tendon complex depend on the muscle fibre-tendon length ratio: a simulation study</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mörl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Siebert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Häufle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomech Model Mechanobiol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="245" to="258" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Mörl F, Siebert T, Häufle D. Contraction dynamics and func- tion of the muscle-tendon complex depend on the muscle fibre-tendon length ratio: a simulation study. Biomech Model Mechanobiol. 2016;15:245-258.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The anatomical arrangement of muscle and tendon enhances limb versatility and locomotor performance</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lichtwark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos Trans R Soc B Biol Sci</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="1540" to="1553" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Wilson A, Lichtwark G. The anatomical arrangement of mus- cle and tendon enhances limb versatility and locomotor perfor- mance. Philos Trans R Soc B Biol Sci. 2011;366:1540-1553.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The heat of shortening and the dynamic constants of muscle</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc R Soc Lond B Biol Sci</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="136" to="195" />
+			<date type="published" when="1938">1938</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hill A. The heat of shortening and the dynamic constants of muscle. Proc R Soc Lond B Biol Sci. 1938;126:136-195.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Activation heat, activation metabolism and tension-related heat in frog semitendinosus muscles</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Homsher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Mommaerts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ricchiuti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wallner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Physiol</title>
+		<imprint>
+			<biblScope unit="volume">220</biblScope>
+			<biblScope unit="page" from="601" to="625" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Homsher E, Mommaerts W, Ricchiuti N, Wallner A. Activation heat, activation metabolism and tension-related heat in frog semitendinosus muscles. J Physiol. 1972;220:601-625.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Running energy cost and spring-mass behavior in young versus older trained athletes</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Pantoja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Peyré-Tartaruga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brisswalter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1779" to="1786" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Pantoja PD, Morin JB, Peyré-Tartaruga LA, Brisswalter J. Running energy cost and spring-mass behavior in young versus older trained athletes. Med Sci Sports Exerc. 2016;48:1779-1786.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Older runners retain youthful running economy despite biomechanical differences</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Beck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="697" to="704" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Beck ON et al. Older runners retain youthful running econ- omy despite biomechanical differences. Med Sci Sports Exerc. 2016;48:697-704.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Positive work contribution shifts from distal to proximal joints during a prolonged run</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sanno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Willwacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Epro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Brüggemann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="2507" to="2517" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Sanno M, Willwacher S, Epro G, Brüggemann G. Positive work contribution shifts from distal to proximal joints during a pro- longed run. Med Sci Sports Exerc. 2018;50:2507-2517.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Biomechanical implications of training volume and intensity in aging runners</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Paquette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Devita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dsb</forename><surname>Williams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="510" to="515" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paquette MR, DeVita P, Williams DSB. Biomechanical implica- tions of training volume and intensity in aging runners. Med Sci Sports Exerc. 2018;50:510-515.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Assessment of a greater trochanter-based method of locating the hip joint center</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Weinhandl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="2633" to="2636" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Weinhandl JT, O&apos;Connor KM. Assessment of a greater trochanter-based method of locating the hip joint center. J Biomech. 2010;43:2633-2636.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Ankle and knee kinetics between strike patterns at common training speeds in competitive male runners</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kuhman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Melcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Paquette</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Sport Sci</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="433" to="440" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kuhman D, Melcher D, Paquette MR. Ankle and knee kinetics between strike patterns at common training speeds in competi- tive male runners. Eur J Sport Sci. 2016;16:433-440.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Flexibility, muscle strength and running biomechanical adaptations in older runners</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Fukuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Stefanyshyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Stirling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Duarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ferber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Biomech</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="304" to="310" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Fukuchi RK, Stefanyshyn DJ, Stirling L, Duarte M, Ferber R. Flexibility, muscle strength and running biomechanical adap- tations in older runners. Clin Biomech. 2014;29:304-310.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Ground reaction forces in distance running</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Cavanagh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Lafortune</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomech</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="397" to="406" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Cavanagh PR, Lafortune MA. Ground reaction forces in dis- tance running. J Biomech. 1980;13:397-406.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Progressive statistics for studies in sports medicine and exercise science</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Hopkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Batterham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hanin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="3" to="12" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Hopkins WG, Marshall SW, Batterham AM, Hanin J. Progressive statistics for studies in sports medicine and exercise science. Med Sci Sports Exerc. 2009;41:3-12.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Forefoot strikers exhibit lower running-induced knee loading than rearfoot strikers</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Kulmala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Avela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pasanen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Parkkari</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="2306" to="2313" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Kulmala JP, Avela J, Pasanen K, Parkkari J. Forefoot strikers ex- hibit lower running-induced knee loading than rearfoot strik- ers. Med Sci Sports Exerc. 2013;45:2306-2313.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Joint kinetics in rearfoot versus forefoot running: implications of switching technique</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Stearne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Alderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Donnelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rubenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="1578" to="1587" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stearne SM, Alderson JA, Green BA, Donnelly CJ, Rubenson J. Joint kinetics in rearfoot versus forefoot running: im- plications of switching technique. Med Sci Sports Exerc. 2014;46:1578-1587.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Muscular strategy shift in human running: dependence of running speed on hip and ankle muscle performance</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Dorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Schache</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Pandy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="page" from="1944" to="1956" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Dorn TW, Schache AG, Pandy MG. Muscular strategy shift in human running: dependence of running speed on hip and ankle muscle performance. J Exp Biol. 2012;215:1944-1956.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Ground reaction forces and kinematics in distance running in older-aged men</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Bus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1167" to="1175" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Bus SA. Ground reaction forces and kinematics in dis- tance running in older-aged men. Med Sci Sports Exerc. 2003;35:1167-1175.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Running mechanics and variability with aging</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Silvernail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Boyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Brüggemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hamill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Sci Sports Exerc</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="2175" to="2180" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Silvernail JF, Boyer K, Rohr E, Brüggemann GP, Hamill J. Running mechanics and variability with aging. Med Sci Sports Exerc. 2015;47:2175-2180.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Mechanical and morphological properties of different muscle-tendon units in the lower extremity and running mechanics: effect of aging and physical activity</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Karamanidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Arampatzis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Exp Biol</title>
+		<imprint>
+			<biblScope unit="volume">208</biblScope>
+			<biblScope unit="page" from="3907" to="3923" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Karamanidis K, Arampatzis A. Mechanical and morphological properties of different muscle-tendon units in the lower ex- tremity and running mechanics: effect of aging and physical activity. J Exp Biol. 2005;208:3907-3923.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Age-related differences in Achilles tendon properties and triceps surae muscle architecture in vivo</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Stenroth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peltonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Cronin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sipilã</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Finni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="1537" to="1544" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Stenroth L, Peltonen J, Cronin NJ, Sipilã S, Finni T. Age-related differences in Achilles tendon properties and triceps surae mus- cle architecture in vivo. J Appl Physiol. 2012;113:1537-1544.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Aging and the effects of a half marathon on Achilles tendon force-elongation relationship</title>
+		<author>
+			<persName><forename type="first">Tma</forename><surname>Ackermans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Epro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mccrum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Appl Physiol</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="2281" to="2292" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ackermans TMA, Epro G, McCrum C, et al. Aging and the ef- fects of a half marathon on Achilles tendon force-elongation relationship. Eur J Appl Physiol. 2016;116:2281-2292.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Achilles tendon loading is lower in older adults than young adults across a broad range of walking speeds</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ebrahimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">F</forename><surname>Loegering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Pomeroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Thelen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Exp Gerontol</title>
+		<imprint>
+			<biblScope unit="volume">137</biblScope>
+			<biblScope unit="page">110966</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Ebrahimi A, Loegering IF, Martin JA, Pomeroy RL, Roth JD, Thelen DG. Achilles tendon loading is lower in older adults than young adults across a broad range of walking speeds. Exp Gerontol. 2020;137:110966.</note>
+</biblStruct>
+
+<biblStruct status="extracted"  xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Acute effects of barefoot, minimal shoes and running shoes on lower limb mechanics in rear and forefoot strike runners</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Paquette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Baumgartner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Footwear Sci</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="9" to="18" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Paquette MR, Zhang S, Baumgartner LD. Acute effects of bare- foot, minimal shoes and running shoes on lower limb mechan- ics in rear and forefoot strike runners. Footwear Sci. 2013;5:9-18.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
