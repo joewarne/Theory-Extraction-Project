@@ -14,17 +14,23 @@
 #'   - `theory_reengagement`: "full" | "partial" | "absent"
 #'   - `reengagement_evidence`: character
 #'   - `theories_mentioned_in_discussion`: character vector
+#'   - `theory_revision_signal`: "none" | "refined" | "partially_disconfirming" | "new_prediction_generated"
+#'   - `theory_revision_detail`: character or NA
 #'   - `claims_beyond_hypothesis`: logical
 #'   - `beyond_hypothesis_detail`: character or NA
+#'   - `null_result_present`: logical
+#'   - `null_result_handling`: "accepted_as_disconfirming" | "auxiliary_hypothesis" | "methodological_artefact" | "not_addressed" | "not_applicable"
+#'   - `study_positioning`: "novel_prediction" | "replication" | "extension" | "boundary_test" | "unclear"
 #'   - `discussion_quality`: "strong" | "adequate" | "weak"
 #'   - `extraction_error`: logical
 #'   - `raw_response`: raw model response
 #'
 #' @export
 extract_discussion <- function(text,
-                               theories = character(0),
-                               model    = NULL,
-                               log_file = NULL) {
+                               theories           = character(0),
+                               tested_predictions = character(0),
+                               model              = NULL,
+                               log_file           = NULL) {
 
   cfg           <- .get_config()
   template_name <- cfg$prompts$discussion_analysis
@@ -44,9 +50,16 @@ extract_discussion <- function(text,
     "None identified"
   }
 
+  predictions_list <- if (length(tested_predictions) > 0 && any(nzchar(tested_predictions))) {
+    paste(paste0("- ", tested_predictions[nzchar(tested_predictions)]), collapse = "\n")
+  } else {
+    "None identified"
+  }
+
   prompt <- template |>
-    stringr::str_replace("\\{\\{THEORY_LIST\\}\\}",    theory_list) |>
-    stringr::str_replace("\\{\\{DISCUSSION_TEXT\\}\\}", text)
+    stringr::str_replace("\\{\\{THEORY_LIST\\}\\}",        theory_list) |>
+    stringr::str_replace("\\{\\{TESTED_PREDICTIONS\\}\\}",  predictions_list) |>
+    stringr::str_replace("\\{\\{DISCUSSION_TEXT\\}\\}",     text)
 
   raw_text <- call_model(prompt, model = model, log_file = log_file)
   parsed   <- .safe_parse_json(raw_text)
@@ -56,8 +69,13 @@ extract_discussion <- function(text,
       theory_reengagement              = NA_character_,
       reengagement_evidence            = NA_character_,
       theories_mentioned_in_discussion = character(0),
+      theory_revision_signal           = NA_character_,
+      theory_revision_detail           = NA_character_,
       claims_beyond_hypothesis         = NA,
       beyond_hypothesis_detail         = NA_character_,
+      null_result_present              = NA,
+      null_result_handling             = NA_character_,
+      study_positioning                = NA_character_,
       discussion_quality               = NA_character_,
       extraction_error                 = TRUE
     )
@@ -66,8 +84,13 @@ extract_discussion <- function(text,
       theory_reengagement              = parsed$theory_reengagement              %||% NA_character_,
       reengagement_evidence            = parsed$reengagement_evidence            %||% NA_character_,
       theories_mentioned_in_discussion = unlist(parsed$theories_mentioned_in_discussion) %||% character(0),
+      theory_revision_signal           = parsed$theory_revision_signal           %||% NA_character_,
+      theory_revision_detail           = parsed$theory_revision_detail           %||% NA_character_,
       claims_beyond_hypothesis         = parsed$claims_beyond_hypothesis         %||% NA,
       beyond_hypothesis_detail         = parsed$beyond_hypothesis_detail         %||% NA_character_,
+      null_result_present              = parsed$null_result_present              %||% NA,
+      null_result_handling             = parsed$null_result_handling             %||% NA_character_,
+      study_positioning                = parsed$study_positioning                %||% NA_character_,
       discussion_quality               = parsed$discussion_quality               %||% NA_character_,
       extraction_error                 = FALSE
     )
@@ -92,8 +115,13 @@ extract_discussion <- function(text,
 #' @return `df` with columns added:
 #'   - `disc_reengagement`: "full" | "partial" | "absent"
 #'   - `disc_evidence`: character
+#'   - `disc_revision_signal`: "none" | "refined" | "partially_disconfirming" | "new_prediction_generated"
+#'   - `disc_revision_detail`: character
 #'   - `disc_overclaim`: logical
 #'   - `disc_overclaim_detail`: character
+#'   - `disc_null_present`: logical
+#'   - `disc_null_handling`: character
+#'   - `disc_positioning`: character
 #'   - `disc_quality`: "strong" | "adequate" | "weak"
 #'   - `disc_error`: logical
 #'
@@ -123,30 +151,51 @@ batch_extract_discussion <- function(df,
 
     theories <- theories[nzchar(theories)]
 
+    # Extract tested_predictions from theory_explicit list-column (v3 schema)
+    tested_preds <- if ("theory_explicit" %in% names(df)) {
+      exp <- df$theory_explicit[[idx]]
+      if (is.list(exp) && length(exp) > 0) {
+        preds <- purrr::map_chr(exp, ~ .x$tested_prediction %||% "")
+        preds[nzchar(preds)]
+      } else character(0)
+    } else character(0)
+
+    .disc_null <- list(
+      theory_reengagement    = NA_character_, reengagement_evidence    = NA_character_,
+      theory_revision_signal = NA_character_, theory_revision_detail   = NA_character_,
+      claims_beyond_hypothesis = NA,          beyond_hypothesis_detail = NA_character_,
+      null_result_present    = NA,            null_result_handling     = NA_character_,
+      study_positioning      = NA_character_, discussion_quality       = NA_character_,
+      extraction_error       = TRUE
+    )
+
     if (is.na(text) || !nzchar(stringr::str_trim(as.character(text)))) {
       cli::cli_warn("Row {row_id}: empty discussion text — skipping.")
-      return(list(theory_reengagement = NA_character_, reengagement_evidence = NA_character_,
-                  claims_beyond_hypothesis = NA, beyond_hypothesis_detail = NA_character_,
-                  discussion_quality = NA_character_, extraction_error = TRUE))
+      return(.disc_null)
     }
 
     tryCatch(
-      extract_discussion(text, theories = theories, model = model, log_file = log_file),
+      extract_discussion(text, theories = theories, tested_predictions = tested_preds,
+                         model = model, log_file = log_file),
       error = function(e) {
         cli::cli_warn("Row {row_id} discussion extraction failed: {conditionMessage(e)}")
-        list(theory_reengagement = NA_character_, reengagement_evidence = NA_character_,
-             claims_beyond_hypothesis = NA, beyond_hypothesis_detail = NA_character_,
-             discussion_quality = NA_character_, extraction_error = TRUE)
+        .disc_null
       }
     )
   })
 
-  df$disc_reengagement    <- purrr::map_chr(results, ~ .x$theory_reengagement      %||% NA_character_)
-  df$disc_evidence        <- purrr::map_chr(results, ~ .x$reengagement_evidence     %||% NA_character_)
-  df$disc_overclaim       <- purrr::map_lgl(results, ~ isTRUE(.x$claims_beyond_hypothesis))
+  df$disc_reengagement     <- purrr::map_chr(results, ~ .x$theory_reengagement      %||% NA_character_)
+  df$disc_evidence         <- purrr::map_chr(results, ~ .x$reengagement_evidence     %||% NA_character_)
+  df$disc_revision_signal  <- purrr::map_chr(results, ~ .x$theory_revision_signal   %||% NA_character_)
+  df$disc_revision_detail  <- purrr::map_chr(results, ~ .x$theory_revision_detail   %||% NA_character_)
+  df$disc_overclaim        <- purrr::map_lgl(results, ~ isTRUE(.x$claims_beyond_hypothesis))
   df$disc_overclaim_detail <- purrr::map_chr(results, ~ .x$beyond_hypothesis_detail %||% NA_character_)
-  df$disc_quality         <- purrr::map_chr(results, ~ .x$discussion_quality        %||% NA_character_)
-  df$disc_error           <- purrr::map_lgl(results, ~ isTRUE(.x$extraction_error))
+  df$disc_null_present     <- purrr::map_lgl(results, ~ isTRUE(.x$null_result_present))
+  df$disc_null_handling    <- purrr::map_chr(results, ~ .x$null_result_handling      %||% NA_character_)
+  df$disc_positioning      <- purrr::map_chr(results, ~ .x$study_positioning         %||% NA_character_)
+  df$disc_quality          <- purrr::map_chr(results, ~ .x$discussion_quality        %||% NA_character_)
+  df$disc_error            <- purrr::map_lgl(results, ~ isTRUE(.x$extraction_error))
+  df$disc_raw_response     <- purrr::map_chr(results, ~ .x$raw_response              %||% NA_character_)
 
   cli::cli_inform(c("v" = "Discussion extraction complete. {sum(!df$disc_error)}/{n} rows succeeded."))
   df

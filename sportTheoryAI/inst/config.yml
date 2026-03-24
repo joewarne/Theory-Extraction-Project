@@ -12,7 +12,8 @@ model:
   top_p: 1                # FIXED — do not change for reproducibility
   top_k: 1                # FIXED — do not change for reproducibility
   seed: 42                # FIXED — ensures deterministic generation
-  num_predict: 1024       # max tokens in response
+  num_predict: 2048       # max tokens in response
+  num_ctx: 8192           # context window — needed for long intro + theory list prompts
 
 prompts:
   # v1: original — extracts explicit/implicit theories (primary/secondary role)
@@ -21,19 +22,51 @@ prompts:
   # v2: adds operational/contextual classification and tested_prediction
   theory_extraction_v2: "theory_extraction_v2.txt"
 
+  # v3: adds prediction_strength, rival_theories_acknowledged, calibrated confidence,
+  #     and stricter exclusion criteria (no physiological mechanisms, individuals, etc.)
+  theory_extraction_v3: "theory_extraction_v3.txt"
+
+  # v4: adds theory_type (causal/taxonomic/mathematical/paradigm),
+  #     multi_theory_coherence, boundary_conditions_met, intended_as_atheoretical
+  theory_extraction_v4: "theory_extraction_v4.txt"
+
   # default used by extract_theory() and build_prompt()
-  default_theory_extraction: "theory_extraction_v2.txt"
+  default_theory_extraction: "theory_extraction_v4.txt"
 
-  # hypothesis extraction: finds hypotheses and links them to theories
-  hypothesis_extraction: "hypothesis_extraction_v1.txt"
+  # hypothesis extraction v1: finds hypotheses and links them to theories
+  hypothesis_extraction_v1: "hypothesis_extraction_v1.txt"
 
-  # discussion analysis: assesses theory re-engagement in discussion sections
-  discussion_analysis: "discussion_analysis_v1.txt"
+  # hypothesis extraction v2: adds inference_type (derived/consistent/motivated),
+  #   mechanism_specified, mechanism_description, tested_predictions context
+  hypothesis_extraction_v2: "hypothesis_extraction_v2.txt"
+
+  # hypothesis extraction v3: adds abductive as fourth inference_type
+  hypothesis_extraction_v3: "hypothesis_extraction_v3.txt"
+
+  # default hypothesis extraction
+  hypothesis_extraction: "hypothesis_extraction_v3.txt"
+
+  # discussion analysis v1: theory re-engagement, overclaiming
+  discussion_analysis_v1: "discussion_analysis_v1.txt"
+
+  # discussion analysis v2: adds null_result_handling, study_positioning,
+  #   passes tested_predictions as context (not just theory names)
+  discussion_analysis_v2: "discussion_analysis_v2.txt"
+
+  # discussion analysis v3: adds theory_revision_signal, theory_revision_detail;
+  #   strong discussion_quality now requires revision signal present
+  discussion_analysis_v3: "discussion_analysis_v3.txt"
+
+  # default discussion analysis
+  discussion_analysis: "discussion_analysis_v3.txt"
+
+  # Pass 4 — construct validity (methods section)
+  methods_extraction: "methods_extraction_v1.txt"
 
 prompt:
   # kept for backwards compatibility with build_prompt()
-  template_file: "theory_extraction_v2.txt"
-  version: "2.0.0"
+  template_file: "theory_extraction_v4.txt"
+  version: "4.0.0"
 
 logging:
   enabled: true

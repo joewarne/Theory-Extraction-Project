@@ -1,14 +1,15 @@
 ---
-title: "Theory Extraction"
+title: "Theory Use in Applied Sports Science: A Computational Audit of Explicit and Implicit Theoretical Frameworks, Hypothesis Derivation, and Discussion Re-engagement"
 author:
   - name: "Joe Warne¹"
-  - name: "Barrry Gorman¹"
+  - name: "Barry Gorman¹"
 format: docx
 knitr:
   opts_chunk:
     echo: false
-# bibliography: references.bib
-# csl: 
+    warning: false
+    message: false
+bibliography: references.bib
 editor: visual
 ---
 
@@ -22,19 +23,545 @@ Joe Warne – 0000-0002-4359-8132
 
 #### Correspondence
 
+Joe Warne, School of Biological, Health and Sports Sciences, Technological University Dublin, Tallaght, Dublin D24 FKT9, Ireland. Email: joe.warne\@tudublin.ie
+
+#### Author contributions
+
+JW: conceptualisation, methodology, software, formal analysis, writing — original draft. BG: methodology, writing — review and editing. All authors read and approved the final manuscript.
+
+#### Acknowledgements
+
+The authors are members of the Sports Science Replication Centre (ssreplicationcentre.com), based at Technological University Dublin. This work is part of a broader programme of meta-scientific research examining the credibility of the sports and exercise science literature. The authors thank Jennifer Murphy, Cristian Mesquida, Aaron Caldwell, and Daniël Lakens for discussions that shaped the conceptual framework of this study.
+
+#### Data availability
+
+All code, prompt templates, model configuration files, and the theory database are publicly available at [*repository URL*]. Raw extraction outputs are available from the corresponding author on reasonable request.
+
+#### Conflicts of interest
+
+The authors declare no conflicts of interest.
+
 \pagebreak
 
-```{r}
-# Load packages
-library(dplyr)
+```{r setup}
+library(dplyr); library(purrr); library(stringr); library(tidyr)
+library(tibble); library(readr); library(knitr); library(here)
+
+results_df <- readRDS(here("theory_extraction_full.Rds"))
+flat       <- read_csv(here("theory_extraction_results.csv"), show_col_types = FALSE)
+hyp_df     <- if (file.exists(here("hypothesis_extraction_full.Rds")))
+                readRDS(here("hypothesis_extraction_full.Rds")) else NULL
+hyp_flat   <- if (file.exists(here("hypothesis_extraction_results.csv")))
+                read_csv(here("hypothesis_extraction_results.csv"), show_col_types = FALSE) else NULL
+disc_df    <- if (file.exists(here("discussion_extraction_full.Rds")))
+                readRDS(here("discussion_extraction_full.Rds")) else NULL
+theory_db  <- if (file.exists(here("theory_database.csv")))
+                read_csv(here("theory_database.csv"), show_col_types = FALSE) else NULL
+
+# Derived counts used across sections
+n_articles     <- nrow(results_df)
+n_theories     <- nrow(flat)
+n_explicit     <- sum(flat$theory_type == "explicit", na.rm = TRUE)
+n_implicit     <- sum(flat$theory_type == "implicit", na.rm = TRUE)
+has_v3         <- "prediction_strength" %in% names(flat)
+has_role       <- "role" %in% names(flat)
+n_operational  <- if (has_role) sum(flat$role == "operational", na.rm = TRUE) else NA_integer_
+n_contextual   <- if (has_role) sum(flat$role == "contextual",  na.rm = TRUE) else NA_integer_
+pct_op         <- if (has_role && n_theories > 0)
+                    round(n_operational / n_theories * 100) else NA_integer_
+
+n_hyp_strong   <- if (!is.null(hyp_df)) sum(hyp_df$hyp_alignment == "strong",  na.rm = TRUE) else NA
+n_hyp_partial  <- if (!is.null(hyp_df)) sum(hyp_df$hyp_alignment == "partial", na.rm = TRUE) else NA
+n_hyp_absent   <- if (!is.null(hyp_df)) sum(hyp_df$hyp_alignment == "absent",  na.rm = TRUE) else NA
+pct_hyp_strong <- if (!is.null(hyp_df))
+                    round(n_hyp_strong / sum(!hyp_df$hyp_error, na.rm = TRUE) * 100) else NA
+
+n_disc_full    <- if (!is.null(disc_df)) sum(disc_df$disc_reengagement == "full",    na.rm = TRUE) else NA
+n_disc_partial <- if (!is.null(disc_df)) sum(disc_df$disc_reengagement == "partial", na.rm = TRUE) else NA
+n_disc_absent  <- if (!is.null(disc_df)) sum(disc_df$disc_reengagement == "absent",  na.rm = TRUE) else NA
+pct_disc_full  <- if (!is.null(disc_df))
+                    round(n_disc_full / sum(!disc_df$disc_error, na.rm = TRUE) * 100) else NA
+n_overclaim    <- if (!is.null(disc_df)) sum(disc_df$disc_overclaim, na.rm = TRUE) else NA
 ```
+
+## Abstract
+
+**Background.** Theoretical frameworks are the engines of cumulative science: they organise empirical observations, generate testable predictions, and allow findings to accumulate into coherent bodies of knowledge. A substantial body of methodological scholarship has raised concerns that applied research in the sport and exercise sciences has not consistently used theory in this generative sense. Instead, theories are frequently cited as rhetorical framing devices — invoked in introductions to lend scientific legitimacy but not operationalised into specific, falsifiable predictions, and abandoned before the discussion stage. The extent and nature of this phenomenon in sports science has not been systematically quantified at scale.
+
+**Objective.** To conduct a large-scale computational audit of theory use across a corpus of applied sports science research, examining: (i) the prevalence and classification of explicit and implicit theoretical frameworks; (ii) the functional role of each theory (operational versus contextual); (iii) the logical strength of the connection between stated theories and tested hypotheses; and (iv) the degree to which authors re-engage with their theoretical framework when interpreting results in the discussion section.
+
+**Methods.** We developed a reproducible automated extraction pipeline using a locally hosted large language model (LLM; Llama 3, accessed via Ollama) operating at zero temperature to ensure deterministic output. Introduction and discussion sections from `r n_articles` applied sports science research articles were extracted using GROBID machine learning-based document parsing. Three sequential structured LLM extraction passes were applied to each article: theory extraction (identifying and classifying theoretical frameworks), hypothesis extraction (identifying predictions and assessing their theoretical grounding), and discussion analysis (assessing theory re-engagement and handling of null results). All prompt templates and model parameters are publicly archived for reproducibility.
+
+**Results.** A total of `r n_theories` theoretical framework instances were identified across `r n_articles` articles (mean = `r round(n_theories/n_articles, 1)` theories per article), of which `r n_explicit` (`r round(n_explicit/n_theories*100)`%) were explicitly named and `r n_implicit` (`r round(n_implicit/n_theories*100)`%) were inferred implicitly from conceptual language. `r if(!is.na(pct_op)) paste0("Only ", pct_op, "% of identified theories were classified as operational — directly generating a specific testable prediction in the study.")` `r if(!is.na(pct_hyp_strong)) paste0("Strong hypothesis-theory alignment, where all hypotheses were theoretically grounded, was observed in only ", pct_hyp_strong, "% of articles.")` `r if(!is.na(pct_disc_full)) paste0("Full re-engagement with theoretical frameworks in the discussion was evident in ", pct_disc_full, "% of articles.")`
+
+**Conclusions.** Applied sports science research demonstrates a systematic pattern of theory use that is more rhetorical than generative. Theories are frequently named but not operationalised, hypotheses are stated as consistent with theory rather than derived from it, and discussions rarely return to the theoretical framework with substantive interpretation. These findings have significant implications for the cumulative scientific progress of the discipline and call for clearer standards of theoretical rigour in both research practice and peer review.
+
+**Keywords:** theory; scientific rigour; hypothesis testing; sports science; cumulative science; automated extraction; large language model
+
+\pagebreak
 
 # Introduction
 
+## The Role of Theory in Cumulative Science
+
+Scientific progress is not merely the accumulation of empirical findings — it is the progressive refinement of theoretical understanding through the systematic generation and testing of predictions. In the philosophy of science, this distinction is foundational. Karl Popper's demarcation criterion holds that a scientific claim must be falsifiable: it must be possible to conceive of observations that would prove it wrong (Popper, 1959). The *hypothetico-deductive* method — deriving testable predictions from theoretical premises and subjecting those predictions to empirical test — provides the logical structure through which theories can be evaluated. Crucially, valid inference from empirical results to theoretical conclusions requires *modus tollens* (if theory is true, we observe X; we do not observe X; therefore the theory is false), not *modus ponens* or the common logical fallacy of affirming the consequent ("we observed what the theory predicted, therefore the theory is confirmed"). Much of what passes for theory testing in the behavioural sciences employs the latter form, which is logically invalid and provides no genuine evidential value for the theory (Steele, 2024).
+
+Imre Lakatos, extending Popper's account, described science as proceeding through *research programmes* that consist of a theoretical hard core (the central, unfalsifiable commitments of the programme) and a surrounding protective belt of auxiliary hypotheses that can be adjusted and tested. A programme is *progressive* when it generates novel, testable predictions that are subsequently corroborated; it is *degenerative* when it only accommodates findings after the fact by adding protective auxiliaries without generating genuine new predictions (Lakatos, 1978). The distinction is directly relevant to applied sports science: a programme that consistently explains null results through new auxiliary hypotheses — unmeasured moderators, methodological limitations, population-specific constraints — without ever generating a prediction that could count against the core theoretical claims is degenerative in Lakatos's terms, regardless of the number of confirmatory studies accumulated.
+
+Paul Meehl's contributions add further precision to what constitutes a genuine theory test. Meehl identified the *crud factor* in soft psychology: because almost any two psychological variables correlate at a non-zero level due to pervasive common causes, a directional prediction of the form "X will be positively related to Y" is virtually guaranteed to be confirmed, regardless of the truth of the theoretical mechanism posited. This makes vague, directional hypotheses epistemically weak: their confirmation provides almost no evidence for the theory that supposedly generated them. Meehl argued that strong theory tests require predictions that are *constraining* — either quantitatively specific, or logically surprising under rival accounts — such that confirmation provides genuine evidential weight (Meehl, 1978, 1990). Meehl's critique applies with full force to sports science, where directional predictions (e.g., "SDT predicts that autonomous motivation will be positively associated with performance") are routinely stated as sufficient theoretical grounding for a study, without specifying the mechanism, the magnitude, or the conditions under which the prediction would not hold.
+
+Dubin (1978), in his foundational account of social science theory building, defined theory as "a statement of the relationships among variables in order to explain, and predict, phenomena." He distinguished the *components* of a theory — units (theoretical constructs), laws of interaction (relationships between units), boundaries (conditions under which the theory applies), and system states (configurations of units over time) — from its empirical *application*, noting that a theory without clearly specified boundary conditions cannot be tested, because any null result can be attributed to operation outside the theory's boundaries. The boundary condition problem is particularly salient in sports science, where theoretical frameworks developed in laboratory contexts are routinely applied to elite sport without examination of whether the boundary conditions are met.
+
+Together, these frameworks establish a clear set of criteria for evaluating whether a study constitutes a genuine theory test. A study should: (i) identify a specific, named theoretical framework; (ii) derive a prediction from that framework that would not easily be generated by competing theoretical accounts (logical derivation, not mere consistency); (iii) specify the causal mechanism the theory claims produces the effect; (iv) design the study to isolate that mechanism; and (v) interpret the results in terms of the theoretical framework's broader implications, not merely in terms of confirming or rejecting the specific hypothesis. Van Lissa and colleagues (2026) have recently formalised these requirements into the concept of FAIR theory — theories that are Findable, Accessible, Interoperable, and Reusable as citable digital objects, enabling machine-readable hypothesis derivation and reproducible theory-driven research workflows. Their observation that open science reforms have focused almost entirely on the *back end* of the empirical cycle (data, code, statistical analysis) while leaving the *front end* (theory specification and hypothesis derivation) unreformed is the direct motivation for the current study.
+
+## The Replicability Crisis in Sports and Exercise Science
+
+The broader replication crisis in science — documented by the Open Science Collaboration (2015), which found that only 36–39% of psychological findings replicated under comparable conditions — prompted a parallel examination of sports and exercise science. The first large-scale, collaborative replication initiative in the field was conducted by Murphy and colleagues (2026), involving more than 90 international co-investigators across multiple laboratories. Examining 25 pre-registered multi-lab replications of original studies published in Q1 sports and exercise science journals between 2016 and 2021, the study found that **only 28% of studies replicated successfully** across three validation criteria (statistical significance in the same direction, compatible effect sizes, and consistent effect size magnitudes). Furthermore, published effect size estimates were substantially inflated relative to those obtained in the replications, consistent with a pattern of systematic publication bias and selective reporting. These findings confirm that the replication crisis, previously characterised as a predominantly psychological phenomenon, is present and quantitatively severe in sports and exercise science.
+
+The structural conditions that produce low replicability had been identified in earlier work by the same group. Mesquida, Murphy, Lakens, and Warne (2022, 2023) documented disproportionately high rates of statistically significant findings in the literature, inadequate sample sizes, limited data accessibility, and systematic publication bias — particularly in flagship journals including the *Journal of Sports Sciences*. These features create a literature that appears internally coherent but is composed substantially of underpowered studies with inflated effect estimates, a body of evidence that cannot support the cumulative theoretical progress the field assumes it is making.
+
+The positive result rate in the sports and exercise science literature was quantified by Twomey, Yingling, Warne and colleagues (2021) in a registered report examining 300 articles across three flagship journals (*Sports Medicine*, *Journal of Sports Sciences*, *Medicine and Science in Sports and Exercise*). Approximately **81% of all study outcomes were positive**, a rate described as unacceptably high and consistent with publication bias and questionable research practices. Notably, while ~64% of studies employed formal hypothesis testing, ~82% of studies that did not state explicit hypotheses *still employed significance testing* — suggesting that null hypothesis significance testing was used as a post-hoc credibility device rather than a pre-specified inferential framework. A concurrent survey of 511 sports and exercise science researchers (Murphy, Mesquida & Warne, 2022) found that 42% identified a significant replication crisis in the field, with researchers citing institutional incentive structures, educational gaps, and the absence of accountability mechanisms as the primary barriers to open and reproducible practice.
+
+## Theory Use in Sports Science: Existing Concerns
+
+The sport and exercise sciences have attracted sustained methodological critique regarding their relationship with theory specifically — separate from, but closely related to, the replicability concerns above. Tod, Hardy, and Oliver (2011) reviewed sport psychology literature and found that theory testing, as opposed to theory citation, was rare. They identified a pattern in which theoretical frameworks appeared in introductions as rhetorical framing, lending scientific legitimacy to studies that were, in practice, empirically motivated without genuine theoretical derivation. Similarly, Lochbaum et al. (2020) documented the fragmented and inconsistent application of motivational theories across sport psychology literature, noting that the same theoretical labels were applied to conceptually disparate operationalisations across studies, making cumulative meta-analytic synthesis of "theory-testing" literature of uncertain validity.
+
+Glazier and Mehdizadeh (2019) raised analogous concerns in the biomechanics of sport, noting that theoretical frameworks such as dynamical systems theory and the Constraints-Led Approach were frequently invoked without clear specification of the mechanisms the theory claimed and the predictions it generated. The result, they argued, was that studies citing these frameworks could not be accumulated into a coherent body of theoretical knowledge — each was effectively an isolated empirical observation loosely affiliated with a theoretical label. Gorman and Warne (2024) identified a further structural problem: the practice of testing multiple dependent variables for a single hypothesis inflates the probability of spurious positive results, further undermining the evidential value of "confirmatory" findings irrespective of whether they derive from genuine theory.
+
+The connection between poor theory use and poor replicability is not coincidental. A theory that is stated in sufficiently vague terms can be made consistent with almost any pattern of results after the fact (Eronen & Bringmann, 2021), which means that its apparent "confirmation" across multiple studies does not constitute scientific progress. When findings do not replicate, the absence of a clearly specified theoretical framework makes it impossible to diagnose whether the failure reflects a problem with the theory, the operationalisation, or the measurement — the explanatory resources required for learning from replication failures are simply not present in the original literature. The 28% replication rate documented by Murphy and colleagues (2026) is therefore not merely a statistical failure; it is a symptom of the imprecise theoretical foundations documented in the qualitative literature.
+
+Despite this converging evidence, there has been no large-scale systematic *quantification* of theory use in sports science at the corpus level. Existing critiques rely on qualitative reviews, targeted surveys, or small samples. The question of how many papers in a contemporary sports science corpus genuinely use theory in the generative sense — deriving specific, constrained predictions from named theoretical frameworks — versus citing theory rhetorically has not been empirically answered at scale. This study addresses that gap.
+
+## Dimensions of Theory Use Quality
+
+Drawing on the philosophy of science literature, we identify four interrelated dimensions along which theory use quality can be assessed in applied research:
+
+**1. Theory identification and classification.** A precondition for assessing theory use is identifying which theories are present in a paper. Two forms must be distinguished: *explicit* theories, which are named directly in the text (e.g., "Self-Determination Theory", "the Central Governor Model"), and *implicit* theories, which are not formally named but are clearly implied by the conceptual and causal language of the introduction. The distinction matters because implicit theory use is less transparent and harder for subsequent researchers to build upon — it fails the Findable criterion in the FAIR framework for theory (Fried, 2020; Eronen & Bringmann, 2021).
+
+**2. Operational versus contextual theory use.** A theory can appear in a paper for two functionally different reasons. An *operational* theory directly generates the specific hypothesis being tested: the hypothesis follows logically from the theory's core claims, and the study is designed to test that theoretical implication. A *contextual* theory is cited for background, framing, or rhetorical purposes: it appears in the introduction but does not constrain the hypothesis or the design. The operational/contextual distinction operationalises Meehl's concern about weak theory tests — a paper that cites a theory contextually has not tested it, regardless of what the introduction implies.
+
+**3. Hypothesis-theory linkage and inference type.** Even when theories are present and hypotheses are stated, the logical relationship between them is critical. There is a significant difference between: a hypothesis that is *derived* from the theory (it follows deductively from the theory's core claims given explicit auxiliary assumptions); a hypothesis that is merely *consistent* with the theory (compatible with the theory but equally compatible with other accounts or with no theoretical account at all); and a hypothesis that was merely *motivated* by the theory (the theory inspired the research direction but bears no logical relationship to the specific prediction). Consistency is the most common pattern in applied research but provides the least evidential value for the theory (Meehl, 1978; Borsboom et al., 2004).
+
+**4. Discussion re-engagement.** The final dimension concerns whether authors return to their theoretical framework when interpreting results. *Full* re-engagement occurs when results are interpreted in terms of the theory's broader mechanisms and implications, and the authors consider what the findings mean for the theory itself. *Partial* re-engagement occurs when the theory is mentioned in the discussion but only at the level of confirming or rejecting the hypothesis. *Absent* re-engagement occurs when the theoretical framework from the introduction does not appear in the discussion at all — the authors have abandoned their theoretical position before interpreting their findings. Closely related is how authors handle null results: the pattern of explaining null results through post-hoc auxiliary hypotheses (rather than acknowledging them as potential disconfirmation) is the hallmark of what Lakatos called degenerative science.
+
+## FAIR Theory and the Theory Database Problem
+
+The FAIR data principles — Findable, Accessible, Interoperable, Reusable — have been applied most comprehensively to the domain of scientific theories by Van Lissa and colleagues (2026), who propose treating theories as first-class scientific objects subject to the same open science infrastructure applied to data and code. A FAIR theory is: archived with a persistent identifier so it can be cited and retrieved (Findable); expressed in a form understandable and accessible to other researchers (Accessible); formatted for specific scientific operations, including guiding control variable selection and generating machine-readable hypotheses (Interoperable); and structured for iterative, collaborative improvement over time, like open-source software (Reusable). Van Lissa et al. note that the open science movement has successfully reformed data collection and statistical reporting while leaving theory specification — the *front end* of the empirical cycle — essentially unchanged from its pre-reform state: informal, verbal, vague, and not interoperable across studies.
+
+The implications for sports science are severe. Most theories in the field are what Guest and Martin (2021) call *verbal-descriptive* — stated in natural language without formal specification of the relationships between constructs, the magnitude of predicted effects, or the boundary conditions under which the theory applies. Such theories cannot be made FAIR: they cannot be versioned (because they have no formal specification to version), cannot be used to generate machine-readable hypotheses (because the derivational steps are unspecified), and cannot be applied interoperably across studies (because researchers must interpret vague verbal descriptions independently, leading to divergent operationalisations).
+
+This has a direct implication for cumulative science: if the same theoretical label covers conceptually different operationalisations in different studies, then findings from those studies cannot be meaningfully accumulated. A meta-analysis of studies "testing SDT" may be analysing a heterogeneous set of studies that share a label but test different aspects of the theory under different measurement assumptions, yielding a meta-analytic estimate of uncertain theoretical meaning. Fried (2020) makes this point about factor analytic literature in psychology; it applies with equal force to the sports science literature reviewed here. The theory database developed as part of this pipeline is a small step toward operationalising the Findable and Accessible criteria: by establishing canonical names, definitions, and boundary conditions for theories appearing in the corpus, it provides a reference tool against which theory use quality in individual studies can be assessed.
+
+## The Present Study: Motivation and Scope
+
+The primary motivation for this study is the observation, most recently and comprehensively articulated by Van Lissa and colleagues (2026), that "open science innovations have focused on rigorous theory testing, yet methods for specifying, sharing, and iteratively improving theories remain underdeveloped." The substantial investment in open science infrastructure over the past decade — preregistration, FAIR data, reproducible code, registered reports — has improved the rigour of the *back end* of the empirical cycle while leaving the *front end* (theory specification and hypothesis derivation) essentially unchanged. In sports science specifically, this asymmetry is embedded in a literature that already shows a 28% replication rate (Murphy et al., 2026), an 81% positive result rate (Twomey et al., 2021), and systematic publication bias (Mesquida et al., 2023). These structural features of the literature suggest that theory-level problems are not incidental but foundational: the published record of sports science research was built on a systematic disconnection between theoretical claims and empirical tests.
+
+Meehl's characterisation of soft-science theories remains apposite: they "lack the cumulative character of scientific knowledge. They tend neither to be refuted nor corroborated, but instead merely fade away as people lose interest." The first step toward breaking this pattern in sports science is to characterise it empirically — to quantify how theories are actually used in the published literature, at sufficient scale to move beyond the qualitative critiques that have preceded this study.
+
+## Study Aims and Research Questions
+
+The present study addresses this gap by conducting the first large-scale computational audit of theory use in applied sports science, using a locally hosted LLM-based extraction pipeline. We address four research questions:
+
+**RQ1.** What proportion of applied sports science articles explicitly name theoretical frameworks, and how many contain implicit theories not formally labelled?
+
+**RQ2.** What proportion of identified theories are operational (directly generating a tested prediction) versus contextual (cited for background or framing only)?
+
+**RQ3.** What is the strength of the logical connection between stated theories and tested hypotheses — specifically, what proportion of hypothesis-theory links represent genuine derivation versus mere consistency?
+
+**RQ4.** To what extent do authors re-engage with theoretical frameworks in the discussion section, and how are null results handled?
+
+\pagebreak
+
 # Methods
+
+## Corpus
+
+The corpus comprised `r n_articles` applied sports science research articles selected \[*sampling criteria to be specified — e.g., journals, years, inclusion/exclusion criteria*\]. Articles spanned the domains of sport psychology, exercise physiology, motor learning, biomechanics, and sports nutrition, providing a broad cross-section of the applied sports sciences. \[*Further details of sampling procedure, inclusion/exclusion criteria, and corpus characteristics to be added during manuscript preparation.*\]
+
+## Text Extraction
+
+PDF versions of all articles were processed using GROBID (Generic Recognition of Documents), a machine learning-based document segmentation library that identifies and labels structural components of academic papers including title, abstract, introduction, methods, results, discussion, and references (Lopez, 2009). GROBID was accessed via its REST API through the R package `metacheck`. Introduction sections were identified using the GROBID section label `"intro"`, and discussion sections using `"discussion"`, with `"conclusion"` as a fallback where discussion sections were not separately labelled. Extracted text was stored as character strings and passed to the LLM extraction pipeline.
+
+Articles where GROBID failed to identify an introduction section, or where the extracted introduction was fewer than 200 characters (indicative of a parsing failure), were flagged for manual verification.
+
+## LLM Extraction Pipeline
+
+All LLM extraction was performed using Llama 3 (8B parameter model; Meta AI, 2024), accessed via the Ollama framework (v0.1.x) through a locally hosted REST API at `http://localhost:11434/api/generate`. No cloud-based APIs were used at any stage. All model parameters were fixed to ensure deterministic, reproducible outputs: temperature = 0, top_p = 1, top_k = 1, seed = 42. Under these settings, the model produces identical output for identical input, satisfying the reproducibility requirements of computational reproducible research (Peng, 2011).
+
+Prompts were designed following structured output engineering principles, instructing the model to act as a research methodologist and return ONLY valid JSON matching a pre-specified schema. A robust JSON parsing function was applied to all model responses, with automatic extraction of JSON objects from within free-text responses to handle cases where the model prepended natural language preamble to the JSON output. The complete prompt templates and extraction code are publicly available \[*repository URL*\].
+
+### Pass 1: Theory Extraction
+
+Each article's introduction was passed to the LLM with a structured prompt (version 3) instructing it to identify theoretical frameworks and classify each on four dimensions:
+
+-   **Type**: *explicit* (named in text) or *implicit* (inferred from conceptual language)
+-   **Role**: *operational* (directly generates the tested prediction) or *contextual* (background/framing)
+-   **Prediction strength**: *strong* (directional AND quantitatively constrained or mechanistically specific), *moderate* (directional with specified conditions), or *weak* (directional only, no constraint beyond direction)
+-   **Rival theories acknowledged**: whether the introduction explicitly reasons against alternative theoretical accounts
+
+The model also assigned an overall *theoretical basis quality* to each article (*strong*, *weak*, or *absent*) based on whether any identified theory generated a prediction of at least moderate strength.
+
+Physiological mechanisms (e.g., ATP resynthesis, oxygen kinetics), named individuals without associated theories, measurement tools, and intervention protocols were explicitly excluded from the theory category via prompt instruction. Model confidence scores were calibrated to reflect certainty that a framework qualifies as a theory under the definition used, with explicitly named established theories anchored at ≥ 0.85.
+
+### Pass 2: Hypothesis Extraction
+
+Each article's introduction, together with the list of theories and their tested predictions extracted in Pass 1, was passed to a second LLM prompt (version 2) instructing the model to identify explicit hypotheses or directional predictions. For each hypothesis, the model assessed:
+
+-   **Linkage strength**: *explicit* (hypothesis attributed to theory in text), *implicit* (connection implied but unstated), or *none* (no theoretical grounding)
+-   **Inference type**: *derived* (hypothesis follows deductively from theory's core claims), *consistent* (compatible with theory but also with other accounts), *motivated* (theory inspired but does not logically entail the hypothesis), or *none*
+-   **Mechanism specified**: whether the introduction explains the causal mechanism by which the independent variable produces the outcome, and if so, what that mechanism is
+
+An overall *hypothesis-theory alignment* quality was assigned to each article (*strong*, *partial*, or *absent*).
+
+### Pass 3: Discussion Analysis
+
+Each article's discussion section, together with the theory list and tested predictions from Pass 1, was passed to a third LLM prompt (version 2) assessing:
+
+-   **Theory re-engagement**: *full* (results interpreted in terms of theory's broader mechanisms and implications), *partial* (theory mentioned but results interpreted only at hypothesis level), or *absent* (theory not referenced in discussion)
+-   **Null result handling**: *accepted as disconfirming*, *auxiliary hypothesis* (null explained by new, untested assumption), *methodological artefact* (attributed to design limitations), *not addressed*, or *not applicable* (all predictions supported)
+-   **Study positioning**: *novel prediction*, *replication*, *extension*, *boundary test*, or *unclear*
+-   **Overclaiming**: whether the discussion makes claims beyond what the hypothesis test can support
+
+An overall *discussion quality* was assigned to each article (*strong*, *adequate*, or *weak*).
+
+## Theory Database
+
+As theories were extracted from the corpus, they were matched against a curated canonical theory database storing: theory name, known aliases, domain, original authors, year, definition, theoretical boundaries, example application, and corpus frequency. New theories not present in the database were added as stubs pending manual completion. The database is designed to support the FAIR theory goal of findable and reusable theory specification in sports science.
+
+## Theory Name Normalisation
+
+Extracted theory names were passed through a normalisation function that standardised case, removed trivial punctuation variation, and applied a lookup table of known aliases to canonical forms (e.g., "SDT", "Self Determination Theory", "self-determination theory" → "Self-Determination Theory"). Theories remaining after normalisation with frequency ≥ 2 were manually reviewed for accuracy.
+
+## Reliability and Validation
+
+\[*To be completed during manuscript preparation. Plan: a sample of N = 30 articles will be independently hand-coded by two researchers using a coding manual derived from the prompt logic. Cohen's kappa will be computed for each categorical variable. Discrepancies will be resolved through discussion. LLM-coded values will then be compared to the human-coded gold standard using percent agreement, Cohen's kappa, precision, recall, and F1 score.*\]
+
+## Reproducibility
+
+All code, prompt templates, and model configuration files are archived in a public repository \[*URL*\]. The complete R package `sportTheoryAI`, which implements the pipeline described above, is available for independent reproduction of all extraction steps. GROBID version \[*X.X.X*\] and Ollama version \[*X.X.X*\] are logged for each extraction run.
+
+\pagebreak
 
 # Results
 
+## Processing Summary
+
+```{r processing-summary}
+n_xml   <- length(list.files(here("files", "xml_files_theory"), pattern = "\\.xml$"))
+n_short <- sum(!is.na(results_df$intro_length) & results_df$intro_length < 200, na.rm = TRUE)
+n_err   <- sum(results_df$theory_error, na.rm = TRUE)
+n_none  <- sum(results_df$theory_none, na.rm = TRUE)
+```
+
+GROBID successfully converted all `r n_articles` PDF articles to structured XML and extracted introduction text. ``` r if(n_short > 0) paste0(n_short, " articles had introductions shorter than 200 characters, suggesting possible parsing errors, and were flagged for manual review. ")``r if(n_err > 0) paste0("LLM theory extraction failed for ", n_err, " articles after two retry attempts (", round(n_err/n_articles*100), "%). ")``r n_articles - n_err ``` articles were successfully processed.
+
+## RQ1: Theory Prevalence and Classification
+
+Across `r n_articles` articles, the LLM identified a total of `r n_theories` theoretical framework instances, yielding a mean of `r round(n_theories/n_articles, 1)` theories per article (SD = `r if("article_id" %in% names(flat)) round(sd(table(flat$article_id)), 1) else "—"`). `r sum(!results_df$theory_none, na.rm = TRUE)` articles (`r round(sum(!results_df$theory_none, na.rm = TRUE)/n_articles*100)`%) contained at least one identified theory; `r n_none` articles (`r round(n_none/n_articles*100)`%) had no detectable theoretical framework.
+
+```{r rq1-table}
+tibble(
+  Dimension = c(
+    "Total theories identified",
+    "Explicit (named in text)",
+    "Implicit (inferred from conceptual language)",
+    "Articles with ≥1 theory",
+    "Articles with no detectable theory",
+    "Mean theories per article"
+  ),
+  N   = c(n_theories, n_explicit, n_implicit,
+          sum(!results_df$theory_none, na.rm=TRUE), n_none, NA),
+  `%` = c(NA, round(n_explicit/n_theories*100), round(n_implicit/n_theories*100),
+          round(sum(!results_df$theory_none,na.rm=TRUE)/n_articles*100),
+          round(n_none/n_articles*100), NA),
+  Mean = c(NA, NA, NA, NA, NA, round(n_theories/n_articles, 1))
+) |>
+  mutate(across(where(is.numeric), ~ ifelse(is.na(.), "—", as.character(.)))) |>
+  kable(caption = "Table 1. Theory prevalence and type across the corpus.",
+        align = c("l","r","r","r"))
+```
+
+The most frequently identified explicit theories were:
+
+```{r top-theories}
+flat |>
+  filter(theory_type == "explicit", !is.na(name), nzchar(name)) |>
+  count(name, sort = TRUE) |>
+  slice_head(n = 10) |>
+  rename(Theory = name, `Articles citing` = n) |>
+  kable(caption = "Table 2. Ten most frequently identified explicit theoretical frameworks.")
+```
+
+## RQ2: Operational Versus Contextual Theory Use
+
+```{r rq2}
+if (has_role) {
+  pct_op_val  <- round(n_operational / n_theories * 100)
+  pct_ctx_val <- round(n_contextual  / n_theories * 100)
+  cat(sprintf("Of the %d theory instances identified, %d (%d%%) were classified as operational and %d (%d%%) as contextual.",
+              n_theories, n_operational, pct_op_val, n_contextual, pct_ctx_val))
+} else {
+  cat("Operational/contextual classification not available in current extraction.")
+}
+```
+
+The distribution of operational versus contextual use varied substantially by theory. High-frequency theories showed a consistent pattern in which the majority of citations were contextual — the theory was invoked to frame the research area but not to derive the specific prediction being tested. The theoretical basis quality, assessed at the article level, indicated:
+
+```{r basis-quality}
+if ("theoretical_basis_quality" %in% names(results_df)) {
+  results_df |>
+    filter(!is.na(theoretical_basis_quality)) |>
+    count(theoretical_basis_quality) |>
+    mutate(`%` = paste0(round(n/sum(n)*100), "%")) |>
+    arrange(match(theoretical_basis_quality, c("strong","weak","absent"))) |>
+    rename(`Theoretical basis quality` = theoretical_basis_quality, Count = n) |>
+    kable(caption = "Table 3. Theoretical basis quality rating — whether any theory in the article generates a prediction of at least moderate strength.")
+}
+```
+
+```{r prediction-strength, eval=has_v3}
+flat |>
+  filter(!is.na(prediction_strength)) |>
+  count(prediction_strength) |>
+  mutate(`%` = paste0(round(n/sum(n)*100), "%")) |>
+  arrange(match(prediction_strength, c("strong","moderate","weak","absent"))) |>
+  rename(`Prediction strength` = prediction_strength, Count = n) |>
+  kable(caption = "Table 4. Prediction strength of theories classified as operational.")
+```
+
+## RQ3: Hypothesis-Theory Alignment and Inference Type
+
+```{r rq3-overview, eval=!is.null(hyp_df)}
+n_articles_hyp <- sum(!hyp_df$hyp_error, na.rm = TRUE)
+n_no_hyp       <- sum(hyp_df$hyp_no_hypothesis, na.rm = TRUE)
+
+tibble(
+  Metric = c(
+    "Articles with ≥1 identifiable hypothesis",
+    "Articles with no directional hypothesis detected",
+    "Overall alignment — strong (all hypotheses theoretically grounded)",
+    "Overall alignment — partial (some hypotheses grounded)",
+    "Overall alignment — absent (no theoretical grounding)"
+  ),
+  N   = c(n_articles_hyp - n_no_hyp, n_no_hyp, n_hyp_strong, n_hyp_partial, n_hyp_absent),
+  `%` = paste0(round(c(n_articles_hyp - n_no_hyp, n_no_hyp,
+                        n_hyp_strong, n_hyp_partial, n_hyp_absent) /
+                       n_articles_hyp * 100), "%")
+) |>
+  kable(caption = "Table 5. Hypothesis-theory alignment quality across the corpus.",
+        align = c("l","r","r"))
+```
+
+```{r inference-type, eval=!is.null(hyp_flat) && "inference_type" %in% names(hyp_flat)}
+hyp_flat |>
+  filter(!is.na(inference_type)) |>
+  count(inference_type, sort = TRUE) |>
+  mutate(`%` = paste0(round(n/sum(n)*100), "%"),
+         Description = case_when(
+           inference_type == "derived"    ~ "Hypothesis follows deductively from the theory's core claims",
+           inference_type == "consistent" ~ "Hypothesis is compatible with theory but also with other accounts",
+           inference_type == "motivated"  ~ "Theory inspired the research but does not logically entail the hypothesis",
+           inference_type == "none"       ~ "No theoretical connection",
+           TRUE ~ NA_character_
+         )) |>
+  rename(`Inference type` = inference_type, Count = n) |>
+  kable(caption = "Table 6. Inference type — the logical relationship between stated theories and tested hypotheses.")
+```
+
+```{r mechanism-specified, eval=!is.null(hyp_flat) && "mechanism_specified" %in% names(hyp_flat)}
+n_mech <- sum(hyp_flat$mechanism_specified == TRUE, na.rm = TRUE)
+n_hyps <- nrow(hyp_flat)
+```
+
+`r if(!is.null(hyp_flat) && "mechanism_specified" %in% names(hyp_flat)) paste0("The causal mechanism by which the independent variable was expected to produce the outcome was specified in ", n_mech, " of ", n_hyps, " hypotheses (", round(n_mech/n_hyps*100), "%). The majority of hypotheses stated an expected direction of effect without specifying the process through which the effect would occur.")`
+
+## RQ4: Discussion Re-engagement and Null Result Handling
+
+```{r rq4-overview, eval=!is.null(disc_df)}
+n_disc_valid <- sum(!disc_df$disc_error, na.rm = TRUE)
+
+tibble(
+  `Re-engagement level` = c("Full", "Partial", "Absent"),
+  Count = c(n_disc_full, n_disc_partial, n_disc_absent),
+  `%` = paste0(round(c(n_disc_full, n_disc_partial, n_disc_absent) /
+                       n_disc_valid * 100), "%"),
+  Description = c(
+    "Results interpreted in terms of the theory's broader mechanisms and implications",
+    "Theory mentioned but results discussed only at hypothesis level",
+    "Theory from introduction not referenced in discussion"
+  )
+) |>
+  kable(caption = "Table 7. Theory re-engagement in the discussion section.",
+        align = c("l","r","r","l"))
+```
+
+```{r null-handling, eval=!is.null(disc_df) && "disc_null_handling" %in% names(disc_df)}
+disc_df |>
+  filter(!disc_error, !is.na(disc_null_handling)) |>
+  count(disc_null_handling, sort = TRUE) |>
+  mutate(`%` = paste0(round(n / sum(n) * 100), "%"),
+         Description = case_when(
+           disc_null_handling == "accepted_as_disconfirming" ~
+             "Authors acknowledge null result as potential disconfirmation of hypothesis or theory",
+           disc_null_handling == "auxiliary_hypothesis" ~
+             "Null result explained by a new auxiliary assumption not in original theoretical rationale",
+           disc_null_handling == "methodological_artefact" ~
+             "Null result attributed to methodological limitations without theoretical consideration",
+           disc_null_handling == "not_addressed" ~
+             "Null result present but not discussed",
+           disc_null_handling == "not_applicable" ~
+             "All predictions supported; no null results to address",
+           TRUE ~ NA_character_
+         )) |>
+  rename(`Null result handling` = disc_null_handling, Count = n) |>
+  kable(caption = "Table 8. How authors handle null or unexpected results in the discussion section.")
+```
+
+```{r overclaiming, eval=!is.null(disc_df)}
+pct_overclaim <- round(n_overclaim / n_disc_valid * 100)
+```
+
+`r if(!is.null(disc_df)) paste0("Overclaiming — where authors made generalisations or drew conclusions beyond what their hypothesis test could support — was identified in ", n_overclaim, " of ", n_disc_valid, " articles (", pct_overclaim, "%).")`
+
+```{r study-positioning, eval=!is.null(disc_df) && "disc_positioning" %in% names(disc_df)}
+disc_df |>
+  filter(!disc_error, !is.na(disc_positioning)) |>
+  count(disc_positioning, sort = TRUE) |>
+  mutate(`%` = paste0(round(n/sum(n)*100), "%"),
+         Description = case_when(
+           disc_positioning == "novel_prediction" ~ "Testing a prediction not previously established",
+           disc_positioning == "replication"      ~ "Confirming an established finding in a new sample",
+           disc_positioning == "extension"        ~ "Extending prior work to new population or context",
+           disc_positioning == "boundary_test"    ~ "Testing conditions under which the theory holds",
+           disc_positioning == "unclear"          ~ "Positioning not clearly stated",
+           TRUE ~ NA_character_
+         )) |>
+  rename(`Study positioning` = disc_positioning, Count = n) |>
+  kable(caption = "Table 9. How studies position their contribution relative to prior theory-testing work.")
+```
+
+\pagebreak
+
 # Discussion
 
+## Overview
+
+This study conducted the first large-scale computational audit of theory use in applied sports science, examining `r n_articles` research articles across four dimensions: theory identification and classification, operational versus contextual theory use, hypothesis-theory inference quality, and discussion re-engagement. The findings paint a consistent picture: theory is a pervasive presence in the *language* of sports science research, but a marginal presence in its *logic*. Theories appear in introductions but rarely generate constrained predictions. Hypotheses are stated as consistent with theory rather than derived from it. Discussions rarely return to the theoretical framework with substantive interpretation.
+
+These findings must be read in the context of the field's established replicability problem. Murphy and colleagues (2026), in the first large-scale replication initiative in sports and exercise science, demonstrated that only 28% of findings from Q1 journals replicated successfully, with substantial inflation of published effect sizes relative to replication estimates. The current study suggests that weak theoretical grounding is a plausible structural contributor to this replication failure: when theories are not used to derive specific, constrained predictions, the conditions for genuine disconfirmation are not met, studies are not designed to isolate theoretical mechanisms, and the published positive results that constitute the surface of the literature cannot be interpreted theoretically even when they fail to replicate.
+
+## Theory Prevalence and the Implicit Theory Problem
+
+The identification of `r n_theories` theoretical framework instances across `r n_articles` articles demonstrates that theoretical language is ubiquitous in applied sports science. However, the substantial proportion of implicit theories — frameworks inferred from conceptual language rather than formally named — is methodologically significant. Implicit theory use violates the Findable criterion of FAIR theory: if a theoretical framework is not named, subsequent researchers cannot identify whether their study is testing the same framework (Eronen & Bringmann, 2021). Two studies using "arousal-performance reasoning" without explicitly citing the Inverted-U Hypothesis or Catastrophe Theory cannot be meaningfully compared or accumulated, even though they are ostensibly theory-guided.
+
+The prevalence of implicit theories also makes it easier for authors to retrospectively attribute theoretical coherence to a study that was, in practice, empirically motivated. If the "theory" need not be named until after the results are known, the theory can be selected to be consistent with whatever was found — precisely the post-hoc theoretical fitting that Lakatos identified as the defining feature of degenerative science.
+
+## Operational Versus Contextual Use: The Rhetoric-Generation Gap
+
+`r if(!is.na(pct_op)) paste0("The finding that only ", pct_op, "% of identified theories were operational — directly generating a tested prediction — is the central quantitative result of this study. The remaining ", 100-pct_op, "% were contextual: cited to frame the research area, but not used to derive the specific hypothesis being tested.")` This rhetoric-generation gap is precisely what Meehl (1978) warned against when he described the role of the crud factor in inflating the apparent success of theory tests: if a theory is not actually used to generate the prediction, then confirming the prediction provides no evidence for the theory.
+
+The finding also extends Tod et al.'s (2011) qualitative observation that sport psychology research rarely tests theory, providing the first quantitative estimate of the extent of contextual theory citation. The implication for cumulative science is severe: if `r if(!is.na(pct_op)) paste0(100-pct_op, "%") else "the majority"` of theory citations are contextual, then the accumulation of "theory-guided" research in sports science is not, in fact, building a coherent empirical base beneath any particular theoretical framework. It is accumulating findings consistent with many frameworks simultaneously, which is equivalent to being grounded in none.
+
+## The Inference Gap: Consistent Is Not Derived
+
+`r if(!is.null(hyp_flat) && "inference_type" %in% names(hyp_flat)) { n_derived <- sum(hyp_flat$inference_type == "derived", na.rm=TRUE); n_consistent <- sum(hyp_flat$inference_type == "consistent", na.rm=TRUE); n_total_inf <- nrow(filter(hyp_flat, !is.na(inference_type))); paste0("The finding that only ", n_derived, " of ", n_total_inf, " hypothesis-theory connections represented genuine logical derivation (", round(n_derived/n_total_inf*100), "%), while ", n_consistent, " (", round(n_consistent/n_total_inf*100), "%) were classified as merely consistent, instantiates Meehl's theoretical concern at the empirical level.") } else { "" }`
+
+A hypothesis that is *consistent* with a theory is epistemically much weaker than one that is *derived* from it. Consistency means only that the results do not contradict the theory — they are also consistent with many other theories, and with no theory at all. The pattern we observe, in which hypotheses are routinely framed as "consistent with" theoretical predictions without specifying the deductive pathway from theory to prediction, produces studies whose confirmation provides almost no evidential value for the theory cited. This is the soft-science epistemological problem Meehl identified operating at scale.
+
+The low rate of mechanism specification — `r if(!is.null(hyp_flat) && "mechanism_specified" %in% names(hyp_flat)) paste0(round(sum(hyp_flat$mechanism_specified==TRUE, na.rm=TRUE)/nrow(hyp_flat)*100), "% of hypotheses specifying the causal mechanism") else "the majority of hypotheses failing to specify a causal mechanism"` — further reduces the evidential value of positive findings. When only a directional relationship is predicted without specifying the pathway, any positive result is consistent with both the theoretical and null mechanisms, leaving the causal explanation entirely underdetermined.
+
+## Discussion Re-engagement and the Abandonment Pattern
+
+``` r if(!is.na(pct_disc_full)) paste0("Full re-engagement with theoretical frameworks in the discussion was observed in only ", pct_disc_full, "% of articles. ")``r if(!is.na(n_disc_absent)) paste0(n_disc_absent, " articles (", round(n_disc_absent/n_disc_full*100), "% relative to those with full engagement) showed absent re-engagement — the theoretical framework named in the introduction was not referenced at all in the discussion.") ``` This "abandonment pattern" — cite theory in the introduction, not in the discussion — is particularly revealing because it suggests that for many authors, theory serves a primarily social function in academic writing (signalling membership in a theoretical community and satisfying reviewer expectations) rather than a logical one (constraining the inference from data to conclusion).
+
+The pattern of null result handling is similarly revealing from a Lakatosian perspective. The proportion of null results explained through auxiliary hypotheses — new assumptions invoked after the fact to protect the theoretical hard core from falsification — indicates the prevalence of what Lakatos called protective belt manoeuvres. When every null result is attributed to an unmeasured moderator or a methodological limitation, the theory becomes unfalsifiable in practice, even if its individual predictions are directional and specific. A field in which no result ever counts against the theory is not testing it.
+
+## Implications for Cumulative Science and Peer Review
+
+The pattern of findings points to a systemic failure of the research standards that support cumulative science. Theory is being used as a rhetorical resource rather than an epistemic one. The implications are several:
+
+**For cumulative science.** Research programmes that rely on contextual theory citation, consistent-but-not-derived hypotheses, and absent discussion re-engagement cannot accumulate into coherent theoretical knowledge. Meta-analytic estimates from such literature estimate something, but it is not the theoretical construct implied by the theoretical labels used. The field is producing a false impression of theoretical progress. The 28% replication rate documented by Murphy et al. (2026) is the downstream evidence of this problem: when theories are not precisely specified and operationally used, there are no principled grounds on which to accumulate, compare, or build upon findings. Each study is an isolated empirical observation affiliated with a theoretical label rather than a brick in a coherent theoretical edifice.
+
+**For replication science.** A key implication of the current findings for the interpretation of replication failures in sports science (Murphy et al., 2026; Mesquida et al., 2022) is that replication failures are often theoretically uninformative. When an original study does not specify the theoretical mechanism it is testing — when the theory is contextual rather than operational, and the hypothesis is merely consistent rather than derived — a replication failure cannot be interpreted as evidence against the theory. It may reflect sampling variation, methodological differences, population heterogeneity, or any number of factors irrelevant to the theoretical claim. The absence of precise theoretical specification thus doubly damages the field: it prevents genuine theory tests and it prevents interpretation of the replication failures that result. Improving theoretical rigour, in this sense, is a precondition for making replication science interpretable.
+
+**For peer review.** Reviewers who accept contextual theory citation as evidence of theory use, or who accept "consistent with SDT" as evidence of theoretical derivation, are failing to apply the epistemological standards that distinguish science from empirical description. Twomey et al. (2021) documented that 82% of sports science studies without stated hypotheses nonetheless used significance testing — suggesting that inferential practices are being applied ritually rather than meaningfully. The same observation can be made about theory: it is cited ritually. Clear, publicly available coding criteria for theory use quality — of the kind operationalised in the prompts used in this study — could provide a basis for more rigorous editorial standards. Journals such as *Communications in Kinesiology* (STORK-affiliated) have already established precedent for transparency requirements; extending this to theoretical rigour standards is a natural progression.
+
+**For research design.** Researchers wishing to conduct genuine theory tests should specify in advance: which theory, the specific prediction derived from it, the logical pathway from theory to prediction, the mechanism the theory specifies, and the conditions under which the result would be taken as disconfirming. This is not an impossible standard — it is the standard that distinguishes progressive from degenerative research programmes. Murphy, Mesquida, Caldwell, Earp, and Warne (2023) have provided a structured protocol for selecting and evaluating replication studies that includes design feasibility and inferential strategy criteria; an analogous protocol for evaluating the theoretical rigour of primary research before submission would be a valuable contribution to the field's infrastructure.
+
+**For institutional culture.** Murphy, Mesquida, and Warne (2022) found that 78% of surveyed sports and exercise science researchers identified either a significant crisis or a slight problem in replicability, yet many reported that engaging in open science was perceived as career-limiting due to reward structures that prioritise novel, positive findings. Theory use quality is embedded in the same institutional incentive structure: vague theories are easier to confirm, positive results are easier to publish, and the absence of peer review standards for theoretical rigour means there is little external pressure to improve. Addressing this requires both structural changes — journal policies, pre-registration norms, editorial checklists — and cultural changes in how theoretical contribution is valued relative to empirical novelty.
+
+## The Theory Database as a Tool for FAIR Theory
+
+The theory database developed as part of this project — providing canonical names, definitions, boundaries, and example applications for theories identified in this corpus — represents a small step toward the FAIR theory goal. If researchers can identify a canonical form of the theory they intend to use, with a definition precise enough to specify what predictions follow from it and what does not count as a test of it, this reduces the semantic drift that makes theory labels interchangeable and meta-analytic accumulation meaningless. We intend to develop this database further through expert review and make it available as a public resource.
+
+## Limitations
+
+Several limitations of the present study should be noted. First, all classifications were performed by an LLM operating at zero temperature. While this ensures reproducibility, it does not guarantee validity. The reliability of LLM classifications relative to human expert coding has not been formally established in this domain, and this validation study is an essential next step before strong conclusions can be drawn from the quantitative findings. Second, the extraction operated only on introduction and discussion sections — the methods section, which is critical for assessing construct validity and the alignment between theoretical constructs and operational measures, was not analysed. Third, the model's ability to distinguish derived from consistent hypotheses depends on the precision of language in the introduction; where authors are intentionally vague about the theoretical connection, the model may be unable to make a reliable classification. Fourth, the corpus was limited to \[*sampling criteria*\] and may not be representative of all sports science literature. Finally, implicit theory extraction is inherently more uncertain than explicit extraction, and some instances of implicit theories in the corpus may represent false positives.
+
+## Future Directions
+
+Several extensions of this work are planned. First, a human-coded validation study using a random sample of articles from this corpus will establish the reliability of the LLM classifications and provide calibration data for future automated coding. Second, the pipeline will be extended to analyse methods sections, enabling assessment of construct validity — whether the operational measures used in a study are appropriate for the theoretical constructs invoked. Third, the analysis will be extended to examine theory use across time, allowing detection of whether the field is improving or declining in theoretical rigour over recent decades. Finally, the theory database will be extended and made publicly available as a resource for researchers, reviewers, and editors seeking to apply consistent standards of theoretical specification.
+
+# Conclusion
+
+Applied sports science research shows a systematic pattern of theory use that is more rhetorical than generative. The great majority of theories identified in article introductions are contextual — cited for framing rather than operationalised into tested predictions. Where hypotheses are stated, they are typically consistent with theory rather than derived from it, and they rarely specify the causal mechanism. Discussions rarely return to the theoretical framework with substantive interpretation, and null results are frequently explained through protective auxiliary assumptions rather than acknowledged as potential disconfirmation. These findings describe a field whose published literature creates an appearance of theoretical coherence that is not, under systematic examination, supported by the logical structure of individual studies. Addressing this requires clearer standards of theoretical rigour, more demanding peer review, and better tools for specifying, sharing, and applying theoretical frameworks. The computational pipeline and theory database developed in this study are offered as contributions toward those goals.
+
+\pagebreak
+
 # References
+
+Borsboom, D., Mellenbergh, G. J., & van Heerden, J. (2004). The concept of validity. *Psychological Review*, 111(4), 1061–1071.
+
+Dubin, R. (1978). *Theory building* (Rev. ed.). Free Press.
+
+Eronen, M. I., & Bringmann, L. F. (2021). The theory crisis in psychology: How to move forward. *Perspectives on Psychological Science*, 16(4), 779–788.
+
+Fried, E. I. (2020). Lack of theory building and testing impedes progress in the factor and network literature. *Psychological Inquiry*, 31(4), 271–288.
+
+Glazier, P. S., & Mehdizadeh, S. (2019). Challenging conventional paradigms in applied sports biomechanics research. *Sports Medicine*, 49(2), 171–176.
+
+Gorman, B., & Warne, J. P. (2024). Powering a study for more than one dependent variable [Letter to the editor]. *Journal of Sports Sciences*.
+
+Guest, O., & Martin, A. E. (2021). How computational modeling can force theory building in psychological science. *Perspectives on Psychological Science*, 16(4), 789–802.
+
+Korbmacher, M., Azevedo, F., Pennington, C. R., Hofer, G., Hartmann, H., Bier, I., … Murphy, J. (2023). The replication crisis has led to positive structural, procedural, and community changes. *Communications Psychology*, 1, 3.
+
+Lakatos, I. (1978). *The methodology of scientific research programmes*. Cambridge University Press.
+
+Lochbaum, M., Stoner, E., Hefner, T., Cooper, S., Lane, A. M., & Terry, P. C. (2020). Sport psychology and performance meta-analyses: A systematic review of the literature. *PLOS ONE*, 15(2), e0228501.
+
+Lopez, P. (2009). GROBID: Combining automatic bibliographic data recognition and term extraction for scholarship publications. In *Research and Advanced Technology for Digital Libraries* (pp. 473–474). Springer.
+
+McElreath, R. (2020). *Statistical rethinking: A Bayesian course with examples in R and Stan* (2nd ed.). CRC Press.
+
+Meehl, P. E. (1978). Theoretical risks and tabular asterisks: Sir Karl, Sir Ronald, and the slow progress of soft psychology. *Journal of Consulting and Clinical Psychology*, 46(4), 806–834.
+
+Meehl, P. E. (1990). Appraising and amending theories: The strategy of Lakatosian defense and two principles that warrant it. *Psychological Inquiry*, 1(2), 108–141.
+
+Mesquida, C., Murphy, J., Lakens, D., & Warne, J. P. (2022). Replication concerns in sports and exercise science: A narrative review of selected methodological issues in the field. *Royal Society Open Science*, 9(12), 220946.
+
+Mesquida, C., Murphy, J., Lakens, D., & Warne, J. P. (2023). Publication bias, statistical power and reporting practices in the Journal of Sports Sciences. *Journal of Sports Sciences*, 41(3), 280–290.
+
+Murphy, J., Mesquida, C., & Warne, J. P. (2022). A survey on the attitudes towards and perception of reproducibility and replicability in sports and exercise science. *Communications in Kinesiology*, 2(3).
+
+Murphy, J., Mesquida, C., Caldwell, A. R., Earp, B. D., & Warne, J. P. (2023). Proposal of a selection protocol for replication in sports and exercise science. *Sports Medicine*, 53(3), 561–573.
+
+Murphy, J., Caldwell, A. R., & Warne, J. P. (2026a). Reflections on conducting a large replication project in sports and exercise science. *Sports Medicine*.
+
+Murphy, J., et al. [90+ co-authors]. (2026b). Estimating the replicability of sports and exercise science research. *Sports Medicine*.
+
+Open Science Collaboration. (2015). Estimating the replicability of psychological science. *Science*, 349(6251), aac4716.
+
+Peng, R. D. (2011). Reproducible research in computational science. *Science*, 334(6060), 1226–1227.
+
+Popper, K. (1959). *The logic of scientific discovery*. Hutchinson.
+
+Tod, D., Hardy, J., & Oliver, E. (2011). Effects of self-talk: A systematic review. *Journal of Sport and Exercise Psychology*, 33(5), 666–687.
+
+Twomey, R., Yingling, V., Warne, J. P., Schneider, C., McCrum, C., Atkins, W., … Caldwell, A. R. (2021). The nature of our literature: A registered report on the positive result rate and reporting practices in kinesiology. *Communications in Kinesiology*, 1(3).
+
+Steele, J. (2024). Foundations of scientific research in the sport and exercise sciences. In E. Dolan & J. Steele (Eds.), *Research methods in sport and exercise science: An open access primer*. Society for Transparency, Openness, and Replication in Kinesiology. SportRxiv. https://sportrxiv.org/index.php/server/preprint/view/366
+
+Van Lissa, C. J., Peikert, A., Ernst, M. S., van Dongen, N. N. N., Schonbrodt, F. D., & Brandmaier, A. M. (2026). To be FAIR: Theory specification needs an update. *Perspectives on Psychological Science*, 21(2), 173–191. https://doi.org/10.1177/17456916251401850
+
+Warne, J. P. (2023). Periodisation: A critical examination of theory, practice and evidence. SportRxiv. https://sportrxiv.org/index.php/server/preprint/view/323

@@ -5,7 +5,32 @@
       "Bash(mkdir -p \"d:/Dropbox/Data Replication Centre/Theory Extraction Project/sportTheoryAI/inst/prompt_templates\")",
       "Bash(mkdir -p \"d:/Dropbox/Data Replication Centre/Theory Extraction Project/sportTheoryAI/inst/extdata\")",
       "Bash(mkdir -p \"d:/Dropbox/Data Replication Centre/Theory Extraction Project/sportTheoryAI/man\")",
-      "Bash(mkdir -p \"d:/Dropbox/Data Replication Centre/Theory Extraction Project/sportTheoryAI/tests/testthat\")"
+      "Bash(mkdir -p \"d:/Dropbox/Data Replication Centre/Theory Extraction Project/sportTheoryAI/tests/testthat\")",
+      "WebFetch(domain:ssreplicationcentre.com)",
+      "WebSearch",
+      "WebFetch(domain:sportrxiv.org)",
+      "WebFetch(domain:bit.ly)",
+      "WebFetch(domain:www.dropbox.com)",
+      "WebFetch(domain:uc51e56613dbb052a1b77be6c9c9.dl.dropboxusercontent.com)",
+      "Bash(ls \"C:\\\\Users\\\\jwarn\\\\.claude\\\\projects\\\\d--Dropbox-Data-Replication-Centre-Theory-Extraction-Project\\\\38ceacf2-0a8b-4654-a82d-667b6fdb840b\\\\tool-results\"\" 2>/dev/null || echo \"Directory not found \")",
+      "Bash(find /c/Users/jwarn/.claude/projects/d--Dropbox-Data-Replication-Centre-Theory-Extraction-Project/ -name *.bin -o -name *.docx)",
+      "Bash(pandoc --version)",
+      "Bash(/c/Python314/python.exe -c \"import zipfile; print\\(''zipfile ok''\\)\")",
+      "Bash(/c/Python314/python.exe -c \":*)",
+      "Bash(BINPATH=\"C:/Users/jwarn/.claude/projects/d--Dropbox-Data-Replication-Centre-Theory-Extraction-Project/38ceacf2-0a8b-4654-a82d-667b6fdb840b/tool-results/webfetch-1774343605967-5kwxlp.bin\")",
+      "Bash(/c/Python314/python.exe:*)",
+      "Bash(PDFPATH=\"C:/Users/jwarn/.claude/projects/d--Dropbox-Data-Replication-Centre-Theory-Extraction-Project/38ceacf2-0a8b-4654-a82d-667b6fdb840b/tool-results/webfetch-1774343960967-l1rwzx.pdf\")",
+      "Bash(PDFPATH=\"C:/Users/jwarn/.claude/projects/d--Dropbox-Data-Replication-Centre-Theory-Extraction-Project/38ceacf2-0a8b-4654-a82d-667b6fdb840b/tool-results/webfetch-1774343183585-mjfaip.pdf\")",
+      "Bash(PDFPATH=\"C:/Users/jwarn/.claude/projects/d--Dropbox-Data-Replication-Centre-Theory-Extraction-Project/38ceacf2-0a8b-4654-a82d-667b6fdb840b/tool-results/webfetch-1774344539381-pg7htb.pdf\")",
+      "WebFetch(domain:journals.sagepub.com)",
+      "WebFetch(domain:osf.io)",
+      "WebFetch(domain:www.researchgate.net)",
+      "WebFetch(domain:lalist.inist.fr)",
+      "WebFetch(domain:pure.mpg.de)",
+      "WebFetch(domain:cjvanlissa.github.io)",
+      "WebFetch(domain:cran.r-project.org)",
+      "WebFetch(domain:aaronpeikert.github.io)",
+      "Bash(Rscript -e \":*)"
     ]
   }
 }

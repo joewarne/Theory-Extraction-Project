@@ -51,7 +51,8 @@ call_model <- function(prompt,
       top_p       = cfg$model$top_p,
       top_k       = cfg$model$top_k,
       seed        = cfg$model$seed,
-      num_predict = cfg$model$num_predict
+      num_predict = cfg$model$num_predict,
+      num_ctx     = cfg$model$num_ctx %||% 8192
     )
   )
 

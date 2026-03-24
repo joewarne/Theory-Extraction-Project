@@ -1,9 +1,11 @@
 # =============================================================================
-# 02_pipeline.R  —  Theory Extraction Pipeline
+# 02_pipeline.R  —  Theory Extraction Pipeline  (v4.0.0)
 #
-# Converts a folder of PDFs → XML → extracts introductions + discussions →
-# runs LLM extraction (theories, hypotheses, discussion analysis) → saves
-# results ready for 03_report.qmd
+# Four-pass LLM extraction pipeline:
+#   Pass 1 — Theory classification  (introduction)
+#   Pass 2 — Hypothesis-theory linkage  (introduction)
+#   Pass 3 — Discussion re-engagement  (discussion/conclusion)
+#   Pass 4 — Construct validity  (methods section)
 #
 # USAGE:
 #   1. Set PDF_DIR below to point at your folder of papers
@@ -16,7 +18,8 @@
 # ── Package check ─────────────────────────────────────────────────────────────
 
 required_packages <- c("metacheck", "dplyr", "purrr", "stringr",
-                       "tibble", "readr", "here", "yaml", "httr", "jsonlite", "cli")
+                       "tibble", "readr", "here", "yaml", "httr", "jsonlite", "cli",
+                       "lubridate")
 
 missing <- required_packages[!required_packages %in% rownames(installed.packages())]
 if (length(missing) > 0) {
@@ -48,6 +51,8 @@ hyp_rds       <- file.path(OUT_DIR, "hypothesis_extraction_full.Rds")
 hyp_csv       <- file.path(OUT_DIR, "hypothesis_extraction_results.csv")
 disc_rds      <- file.path(OUT_DIR, "discussion_extraction_full.Rds")
 disc_csv      <- file.path(OUT_DIR, "discussion_extraction_results.csv")
+meth_rds      <- file.path(OUT_DIR, "methods_extraction_full.Rds")
+meth_csv      <- file.path(OUT_DIR, "methods_extraction_results.csv")
 log_file      <- file.path(OUT_DIR, "theory_extraction_log.jsonl")
 
 # ── Load sportTheoryAI functions ──────────────────────────────────────────────
@@ -58,7 +63,9 @@ source(here("sportTheoryAI", "R", "call_model.R"))
 source(here("sportTheoryAI", "R", "extract_theory.R"))
 source(here("sportTheoryAI", "R", "extract_hypotheses.R"))
 source(here("sportTheoryAI", "R", "extract_discussion.R"))
+source(here("sportTheoryAI", "R", "extract_methods.R"))
 source(here("sportTheoryAI", "R", "normalise_theories.R"))
+source(here("sportTheoryAI", "R", "theory_database.R"))
 
 # ── Step 1: Convert PDFs to XML via GROBID ───────────────────────────────────
 
@@ -120,6 +127,19 @@ if (file.exists(rds_path)) {
 message("Extracting introduction sections...")
 introductions <- .extract_section(articles, "intro")
 
+# Extract methods sections for Pass 4
+message("Extracting methods sections...")
+methods_sections <- .extract_section(articles, "methods")
+if (is.null(methods_sections) || nrow(methods_sections) == 0) {
+  message("'methods' label not found — trying 'method'...")
+  methods_sections <- .extract_section(articles, "method")
+}
+# Some GROBID versions label as "experiment" or "experimental"
+if (is.null(methods_sections) || nrow(methods_sections) == 0) {
+  message("'method' label not found — methods sections will not be extracted.")
+  methods_sections <- NULL
+}
+
 if (is.null(introductions)) {
   stop(
     "No introduction text found.\n",
@@ -130,9 +150,34 @@ if (is.null(introductions)) {
 message("Extracting discussion sections...")
 discussions <- .extract_section(articles, "discussion")
 
-if (is.null(discussions)) {
-  message("Warning: No discussion sections found — discussion analysis will be skipped.")
+# Fallback: some papers label this section "conclusion" in GROBID
+if (is.null(discussions) || nrow(discussions) == 0) {
+  message("'discussion' section not found — trying 'conclusion'...")
+  discussions <- .extract_section(articles, "conclusion")
 }
+
+# Merge: some papers have both discussion and conclusion — combine them
+disc_extra <- .extract_section(articles, "conclusion")
+if (!is.null(discussions) && !is.null(disc_extra)) {
+  missing_ids <- disc_extra$article_id[!disc_extra$article_id %in% discussions$article_id]
+  if (length(missing_ids) > 0) {
+    discussions <- bind_rows(discussions, filter(disc_extra, article_id %in% missing_ids))
+    message(sprintf("Added %d articles from 'conclusion' section.", length(missing_ids)))
+  }
+}
+
+if (is.null(discussions) || nrow(discussions) == 0) {
+  message("Warning: No discussion/conclusion sections found — discussion analysis will be skipped.")
+}
+
+# Extract publication year from article filename (expects pattern like "Author_2023_...")
+.extract_year_from_id <- function(article_id) {
+  yr <- stringr::str_extract(article_id, "\\b(19|20)\\d{2}\\b")
+  if (!is.na(yr)) as.integer(yr) else NA_integer_
+}
+
+introductions <- introductions |>
+  mutate(pub_year = purrr::map_int(article_id, .extract_year_from_id))
 
 # Report intro quality
 n_total <- length(xml_files)
@@ -174,6 +219,9 @@ if (file.exists(out_rds)) {
   saveRDS(results_df, out_rds)
   write_csv(flat, out_csv)
   message(sprintf("Theory results saved (%d theories across %d articles)", nrow(flat), nrow(results_df)))
+
+  # Update theory database with newly extracted theories
+  update_theory_database(flat, db_path = here("theory_database.csv"))
 }
 
 flat <- read_csv(out_csv, show_col_types = FALSE)
@@ -268,20 +316,86 @@ if (!is.null(discussions)) {
   message("Skipping Step 6 — no discussion sections found.")
 }
 
+# ── Step 7: Construct validity analysis (Pass 4 — methods section) ────────────
+
+if (!is.null(methods_sections) && nrow(methods_sections) > 0) {
+  message(sprintf("\n── Step 7: Construct validity analysis on %d articles ──", nrow(methods_sections)))
+
+  if (file.exists(meth_rds)) {
+    message("Loading cached methods results. Delete ", basename(meth_rds), " to rerun.")
+    meth_df <- readRDS(meth_rds)
+  } else {
+    theory_names_by_article <- flat |>
+      group_by(article_id) |>
+      summarise(theory_names = list(unique(name[!is.na(name)])), .groups = "drop")
+
+    meth_with_theories <- rename(methods_sections, methods_text = text) |>
+      left_join(theory_names_by_article, by = "article_id") |>
+      mutate(theory_names = map(theory_names, ~ .x %||% character(0)))
+
+    # Also join theory_explicit from results_df to pass tested_predictions
+    if (exists("results_df") && "theory_explicit" %in% names(results_df)) {
+      meth_with_theories <- meth_with_theories |>
+        left_join(select(results_df, article_id, theory_explicit), by = "article_id")
+    }
+
+    meth_df <- batch_extract_methods(
+      df            = meth_with_theories,
+      text_column   = "methods_text",
+      theory_column = "theory_names",
+      id_column     = "article_id",
+      log_file      = log_file
+    )
+
+    # Retry failures
+    for (attempt in 1:2) {
+      failed_ids <- meth_df$article_id[meth_df$meth_error == TRUE]
+      if (length(failed_ids) == 0) break
+      message(sprintf("Retry %d: %d failed...", attempt, length(failed_ids)))
+      retry_df <- filter(meth_df, article_id %in% failed_ids) |>
+        select(all_of(names(meth_with_theories)))
+      retry_res <- batch_extract_methods(retry_df, "methods_text", "theory_names",
+                                         "article_id", log_file = log_file)
+      meth_df[meth_df$article_id %in% failed_ids, ] <- retry_res
+    }
+
+    meth_summary <- meth_df |>
+      select(article_id, meth_cv_alignment, meth_mechanism_operationalised,
+             meth_population_fit, meth_error)
+    saveRDS(meth_df, meth_rds)
+    write_csv(meth_summary, meth_csv)
+    message(sprintf("Methods results saved (%d articles)", nrow(meth_df)))
+  }
+} else {
+  message("Skipping Step 7 — no methods sections found.")
+}
+
 # ── Final summary ─────────────────────────────────────────────────────────────
 
 hyp_flat  <- if (file.exists(hyp_csv))  read_csv(hyp_csv,  show_col_types = FALSE) else tibble()
-disc_data <- if (file.exists(disc_rds)) readRDS(disc_rds) else tibble()
+disc_data <- if (file.exists(disc_rds)) readRDS(disc_rds)                          else tibble()
+meth_data <- if (file.exists(meth_rds)) readRDS(meth_rds)                          else tibble()
 
 cat("\n=== Pipeline Complete ===\n")
-cat(sprintf("Articles processed       : %d\n", nrow(results_df)))
-cat(sprintf("Theory errors            : %d\n", sum(results_df$theory_error, na.rm = TRUE)))
-cat(sprintf("Theories found (total)   : %d\n", nrow(flat)))
-cat(sprintf("Hypotheses found         : %d\n", nrow(hyp_flat)))
+cat(sprintf("Articles processed          : %d\n", nrow(results_df)))
+cat(sprintf("Theory errors               : %d\n", sum(results_df$theory_error, na.rm = TRUE)))
+cat(sprintf("Theories found (total)      : %d\n", nrow(flat)))
+cat(sprintf("  Causal theories           : %d\n", sum(flat$theory_framework_type == "causal",      na.rm = TRUE)))
+cat(sprintf("  Taxonomic theories        : %d\n", sum(flat$theory_framework_type == "taxonomic",   na.rm = TRUE)))
+cat(sprintf("  Mathematical theories     : %d\n", sum(flat$theory_framework_type == "mathematical",na.rm = TRUE)))
+cat(sprintf("  Paradigm frameworks       : %d\n", sum(flat$theory_framework_type == "paradigm",    na.rm = TRUE)))
+cat(sprintf("Hypotheses found            : %d\n", nrow(hyp_flat)))
 if (nrow(disc_data) > 0) {
-  cat(sprintf("Discussion analyses      : %d\n", nrow(disc_data)))
-  cat(sprintf("  Full re-engagement     : %d\n", sum(disc_data$disc_reengagement == "full",   na.rm = TRUE)))
-  cat(sprintf("  Partial re-engagement  : %d\n", sum(disc_data$disc_reengagement == "partial", na.rm = TRUE)))
-  cat(sprintf("  Absent re-engagement   : %d\n", sum(disc_data$disc_reengagement == "absent",  na.rm = TRUE)))
+  cat(sprintf("Discussion analyses         : %d\n", nrow(disc_data)))
+  cat(sprintf("  Full re-engagement        : %d\n", sum(disc_data$disc_reengagement == "full",    na.rm = TRUE)))
+  cat(sprintf("  Partial re-engagement     : %d\n", sum(disc_data$disc_reengagement == "partial", na.rm = TRUE)))
+  cat(sprintf("  Absent re-engagement      : %d\n", sum(disc_data$disc_reengagement == "absent",  na.rm = TRUE)))
+  cat(sprintf("  Theory revision signal    : %d\n", sum(disc_data$disc_revision_signal != "none" & !is.na(disc_data$disc_revision_signal))))
+}
+if (nrow(meth_data) > 0) {
+  cat(sprintf("Construct validity analyses : %d\n", nrow(meth_data)))
+  cat(sprintf("  Aligned                   : %d\n", sum(meth_data$meth_cv_alignment == "aligned",    na.rm = TRUE)))
+  cat(sprintf("  Partial alignment         : %d\n", sum(meth_data$meth_cv_alignment == "partial",    na.rm = TRUE)))
+  cat(sprintf("  Misaligned                : %d\n", sum(meth_data$meth_cv_alignment == "misaligned", na.rm = TRUE)))
 }
 cat("\nRun quarto::quarto_render('03_report.qmd') to generate the report.\n")

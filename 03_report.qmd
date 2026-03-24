@@ -1,6 +1,6 @@
 ---
 title: "Theory Extraction Report"
-subtitle: "Automated identification of theoretical frameworks in sports science introductions"
+subtitle: "Automated identification of theoretical frameworks in sports science research"
 date: today
 format:
   html:
@@ -17,52 +17,42 @@ execute:
 ---
 
 ```{r setup}
-# ── Package check ─────────────────────────────────────────────────────────────
 required_packages <- c("dplyr", "purrr", "stringr", "tidyr",
                        "tibble", "readr", "knitr", "kableExtra", "here", "yaml")
-
 missing <- required_packages[!required_packages %in% rownames(installed.packages())]
 if (length(missing) > 0) {
-  stop(
-    "Required packages not installed:\n  ", paste(missing, collapse = ", "),
-    "\nRun 01_setup.R first."
-  )
+  stop("Required packages not installed:\n  ", paste(missing, collapse = ", "),
+       "\nRun 01_setup.R first.")
 }
 
-library(dplyr)
-library(purrr)
-library(stringr)
-library(tidyr)
-library(tibble)
-library(readr)
-library(knitr)
-library(kableExtra)
-library(here)
+library(dplyr); library(purrr); library(stringr); library(tidyr)
+library(tibble); library(readr); library(knitr); library(kableExtra); library(here)
 
 # ── Load results ───────────────────────────────────────────────────────────────
 results_df <- readRDS(here("theory_extraction_full.Rds"))
 flat       <- read_csv(here("theory_extraction_results.csv"), show_col_types = FALSE)
+hyp_df     <- if (file.exists(here("hypothesis_extraction_full.Rds")))
+                readRDS(here("hypothesis_extraction_full.Rds")) else NULL
+hyp_flat   <- if (file.exists(here("hypothesis_extraction_results.csv")))
+                read_csv(here("hypothesis_extraction_results.csv"), show_col_types = FALSE) else NULL
+disc_df    <- if (file.exists(here("discussion_extraction_full.Rds")))
+                readRDS(here("discussion_extraction_full.Rds")) else NULL
+meth_df    <- if (file.exists(here("methods_extraction_full.Rds")))
+                readRDS(here("methods_extraction_full.Rds")) else NULL
+theory_db  <- if (file.exists(here("theory_database.csv")))
+                read_csv(here("theory_database.csv"), show_col_types = FALSE) else NULL
 
-hyp_df   <- if (file.exists(here("hypothesis_extraction_full.Rds")))
-              readRDS(here("hypothesis_extraction_full.Rds")) else NULL
-hyp_flat <- if (file.exists(here("hypothesis_extraction_results.csv")))
-              read_csv(here("hypothesis_extraction_results.csv"), show_col_types = FALSE) else NULL
-
-disc_df  <- if (file.exists(here("discussion_extraction_full.Rds")))
-              readRDS(here("discussion_extraction_full.Rds")) else NULL
-
-# ── Helpers ───────────────────────────────────────────────────────────────────
+# ── Helpers ────────────────────────────────────────────────────────────────────
 extract_kwic <- function(text, article_id, keyword = "theory", window = 10) {
   words   <- str_split(text, "\\s+")[[1]]
   matches <- which(str_detect(words, regex(keyword, ignore_case = TRUE)))
   if (length(matches) == 0) return(NULL)
   map_dfr(matches, function(i) {
-    start <- max(1, i - window)
-    end   <- min(length(words), i + window)
-    tibble(article_id    = article_id,
-           left_context  = paste(words[start:(i - 1)], collapse = " "),
+    start <- max(1, i - window); end <- min(length(words), i + window)
+    tibble(article_id = article_id,
+           left_context  = paste(words[start:(i-1)], collapse = " "),
            keyword       = words[i],
-           right_context = paste(words[(i + 1):end], collapse = " "))
+           right_context = paste(words[(i+1):end], collapse = " "))
   })
 }
 
@@ -75,19 +65,17 @@ find_context_sentence <- function(results_df, theory_name) {
   NA_character_
 }
 
-badge <- function(x, colours) {
-  # colours: named vector of value → hex colour
-  col <- colours[x]
-  col[is.na(col)] <- "#cccccc"
-  sprintf('<span style="background:%s;color:white;padding:2px 7px;border-radius:3px;font-size:0.85em">%s</span>', col, x)
-}
+# Backward compatibility: flatten_results() v4 renamed theory_type → detection_type
+if ("detection_type" %in% names(flat) && !"theory_type" %in% names(flat))
+  flat <- rename(flat, theory_type = detection_type)
+# v4 added theory_framework_type column (causal/taxonomic/mathematical/paradigm)
+has_framework_type <- "theory_framework_type" %in% names(flat)
 
-# Ensure intro_length exists — compute from introduction text if missing
-if (!"intro_length" %in% names(results_df) && "introduction" %in% names(results_df)) {
+# Ensure intro_length exists
+if (!"intro_length" %in% names(results_df) && "introduction" %in% names(results_df))
   results_df$intro_length <- nchar(results_df$introduction)
-} else if (!"intro_length" %in% names(results_df)) {
+if (!"intro_length" %in% names(results_df))
   results_df$intro_length <- NA_integer_
-}
 
 # Pre-compute
 n_pdfs    <- length(list.files(here("Study_papers"), pattern = "\\.pdf$"))
@@ -96,40 +84,55 @@ n_intros  <- nrow(results_df)
 n_success <- sum(!results_df$theory_error, na.rm = TRUE)
 n_errors  <- sum(results_df$theory_error,  na.rm = TRUE)
 n_none    <- sum(results_df$theory_none,   na.rm = TRUE)
-short_ids <- results_df$article_id[
-  !is.na(results_df$intro_length) & results_df$intro_length < 200
-]
+n_atheoretical <- if ("theory_atheoretical" %in% names(results_df))
+  sum(results_df$theory_atheoretical, na.rm = TRUE) else 0L
+short_ids <- results_df$article_id[!is.na(results_df$intro_length) & results_df$intro_length < 200]
+has_v2    <- "role" %in% names(flat) && any(flat$role %in% c("operational","contextual"), na.rm = TRUE)
+has_revision_signal <- !is.null(disc_df) && "disc_revision_signal" %in% names(disc_df)
+has_meth  <- !is.null(meth_df) && "meth_cv_alignment" %in% names(meth_df)
+cfg       <- yaml::read_yaml(here("sportTheoryAI", "inst", "config.yml"))
 ```
+
+---
+
+## Overview
+
+This report documents the automated extraction of theoretical frameworks from a corpus of applied sports science research articles. Extraction was performed using a locally hosted large language model (LLM) accessed via Ollama, with all model parameters fixed to ensure deterministic and reproducible outputs. The pipeline identifies both explicitly named theories and implicitly inferred conceptual frameworks, assesses how well stated hypotheses are grounded in theory, and evaluates the extent to which authors re-engage with their theoretical framework in the discussion section.
+
+**Model:** `r cfg$model$name` | **Temperature:** `r cfg$model$temperature` | **Seed:** `r cfg$model$seed` | **Prompt version:** `r cfg$prompt$version`
 
 ---
 
 # Section 1: Processing Summary
 
+**Methods.** PDF articles were converted to structured XML using GROBID (Generic Recognition of Documents), a machine learning library that segments academic papers into labelled sections (introduction, methods, results, discussion, etc.). Each section was then extracted and passed to the LLM for analysis. This section reports the success and quality of the PDF parsing and text extraction steps before any LLM analysis took place.
+
+**How to read this section.** The table below shows counts at each processing stage. Highlighted rows indicate potential data quality issues that may affect downstream analyses. Articles with very short introductions may not have been parsed correctly by GROBID and should be manually verified.
+
 ```{r processing-summary-table}
 tibble(
-  Metric = c(
+  Stage = c(
     "PDFs found in Study_papers/",
-    "XMLs created by GROBID",
-    "Articles with introduction text extracted",
-    "Articles with very short introductions (< 200 chars)",
-    "LLM extraction successes",
-    "LLM extraction failures",
-    "Articles where no theory was detected"
+    "XML files created by GROBID",
+    "Articles with introduction text successfully extracted",
+    "Articles with very short introductions (< 200 characters) — possible parsing error",
+    "LLM theory extraction successes",
+    "LLM theory extraction failures",
+    "Articles where no theory was detected by the model"
   ),
-  Count = c(n_pdfs, n_xml, n_intros, length(short_ids),
-            n_success, n_errors, n_none)
+  Count = c(n_pdfs, n_xml, n_intros, length(short_ids), n_success, n_errors, n_none)
 ) |>
-  kable(align = c("l", "r")) |>
-  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover")) |>
-  row_spec(c(4, 6), background = "#fff3cd")
+  kable(align = c("l","r"), caption = "Processing pipeline counts") |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover")) |>
+  row_spec(c(4,6), background = "#fff3cd")
 ```
 
 ```{r intro-lengths}
 results_df |>
   filter(!is.na(intro_length)) |>
-  summarise(`Min (chars)` = min(intro_length), `Median` = median(intro_length),
-            `Mean` = round(mean(intro_length)), `Max` = max(intro_length)) |>
-  kable(caption = "Introduction length statistics") |>
+  summarise(`Minimum (chars)` = min(intro_length), `Median` = median(intro_length),
+            `Mean` = round(mean(intro_length)), `Maximum` = max(intro_length)) |>
+  kable(caption = "Introduction length — character counts across all articles") |>
   kable_styling(full_width = FALSE, bootstrap_options = "striped")
 ```
 
@@ -139,14 +142,17 @@ tibble(
   `Introduction (chars)` = results_df$intro_length[results_df$article_id %in% short_ids]
 ) |>
   arrange(`Introduction (chars)`) |>
-  kable(caption = "Articles with suspiciously short introductions") |>
-  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover")) |>
+  kable(caption = "Articles with very short introductions — recommend manual verification") |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover")) |>
   row_spec(0, background = "#f8d7da")
 ```
 
 ```{r failed-extractions, eval=n_errors > 0}
-tibble(`Failed Article IDs` = results_df$article_id[results_df$theory_error == TRUE]) |>
-  kable(caption = "Articles where LLM extraction failed") |>
+tibble(`Article ID` = results_df$article_id[results_df$theory_error == TRUE],
+       `Raw model response (truncated)` = str_trunc(
+         results_df$theory_raw_response[results_df$theory_error == TRUE] %||%
+         rep("not stored", n_errors), 120)) |>
+  kable(caption = "Articles where LLM theory extraction failed after two retry attempts") |>
   kable_styling(full_width = FALSE, bootstrap_options = "striped")
 ```
 
@@ -154,57 +160,67 @@ tibble(`Failed Article IDs` = results_df$article_id[results_df$theory_error == T
 
 # Section 2: Theory Extraction Overview
 
-> **Operational theory:** The theory directly generates a specific, falsifiable prediction that is actually tested in this study. The hypothesis follows logically from the theory — the theory is doing scientific work.
->
-> **Contextual theory:** The theory is cited as background, motivation, or general framing but does not generate the specific hypothesis being tested. The theory is present in the introduction but is not operationalised into a prediction.
+**Methods.** The introduction section of each article was passed to the LLM with a structured prompt instructing it to identify theoretical frameworks. The model was asked to distinguish between two types of theory and two functional roles:
+
+- **Explicit theory:** A named theoretical framework directly cited in the text (e.g., "Self-Determination Theory", "Central Governor Model").
+- **Implicit theory:** A conceptual or mechanistic framework that is not formally named but is clearly present in the language and reasoning of the introduction (e.g., describing arousal-performance curves without naming the Inverted-U Hypothesis).
+- **Operational theory:** The theory directly generates a specific, falsifiable prediction that is actually tested in this study. The hypothesis follows logically from the theory — the theory is doing scientific work.
+- **Contextual theory:** The theory is cited as background, motivation, or general framing but does not generate the specific hypothesis being tested. The theory is present in the introduction but is not operationalised into a testable prediction.
+
+**How to read this section.** The summary table reports counts of theories at different levels. The distinction between operational and contextual theories is particularly important: a high proportion of contextual theories suggests that researchers are citing theoretical frameworks for rhetorical purposes without using them to derive their hypotheses. **Confidence** reflects the model's self-assessed certainty (0–1) that the identified framework qualifies as a theory under the definition in the prompt.
 
 ```{r overview-stats}
 n_explicit <- nrow(filter(flat, theory_type == "explicit"))
 n_implicit <- nrow(filter(flat, theory_type == "implicit"))
 n_theories <- nrow(flat)
 n_articles_with_theory <- n_distinct(flat$article_id)
-
-# v2 fields (operational/contextual) — present if pipeline was run with v2 prompt
-has_v2 <- "role" %in% names(flat) &&
-  any(flat$role %in% c("operational", "contextual"), na.rm = TRUE)
 n_operational <- if (has_v2) sum(flat$role == "operational", na.rm = TRUE) else NA
 n_contextual  <- if (has_v2) sum(flat$role == "contextual",  na.rm = TRUE) else NA
 
 rows <- tibble(
-  Metric = c("Total theory instances extracted",
-             "Explicit theories (named in text)",
-             "Implicit theories (inferred by model)",
-             "Articles with at least one theory",
-             "Articles with no theory detected",
-             "Mean theories per article (all)",
-             "Mean theories per article (with theories)"),
-  Value  = c(n_theories, n_explicit, n_implicit, n_articles_with_theory, n_none,
-             round(n_theories / n_intros, 2),
-             round(n_theories / max(n_articles_with_theory, 1), 2))
+  Metric = c(
+    "Total theory instances extracted across all articles",
+    "Explicit theories (theory named directly in text)",
+    "Implicit theories (framework inferred from conceptual language)",
+    "Articles containing at least one theory",
+    "Articles where no theory was detected",
+    "Mean number of theories per article (all articles)",
+    "Mean number of theories per article (articles with at least one theory)"
+  ),
+  Value = c(n_theories, n_explicit, n_implicit, n_articles_with_theory, n_none,
+            round(n_theories / n_intros, 2),
+            round(n_theories / max(n_articles_with_theory, 1), 2))
 )
-
 if (has_v2) {
   rows <- bind_rows(rows, tibble(
-    Metric = c("Operational theories (drive a testable prediction)",
-               "Contextual theories (background/framing only)"),
-    Value  = c(n_operational, n_contextual)
+    Metric = c(
+      "Operational theories — drive a specific testable prediction in this study",
+      "Contextual theories — cited as background or framing only, not operationalised"
+    ),
+    Value = c(n_operational, n_contextual)
   ))
 }
-
 rows |>
-  kable(align = c("l", "r")) |>
-  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+  kable(align = c("l","r"), caption = "Theory extraction summary") |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover"))
 ```
 
 ```{r basis-quality, eval=has_v2 && "theoretical_basis_quality" %in% names(results_df)}
 results_df |>
   filter(!is.na(theoretical_basis_quality)) |>
   count(theoretical_basis_quality) |>
-  mutate(pct = paste0(round(n / sum(n) * 100), "%")) |>
-  rename(`Theoretical basis quality` = theoretical_basis_quality,
-         Count = n, `%` = pct) |>
-  kable(caption = "Overall theoretical basis quality per article (strong / weak / absent)") |>
-  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+  mutate(
+    `%` = paste0(round(n / sum(n) * 100), "%"),
+    `What this means` = case_when(
+      theoretical_basis_quality == "strong"  ~ "At least one theory generates a clear, testable prediction",
+      theoretical_basis_quality == "weak"    ~ "Theories are cited but none clearly drives a specific prediction",
+      theoretical_basis_quality == "absent"  ~ "No theoretical framework identified",
+      TRUE ~ NA_character_
+    )
+  ) |>
+  rename(`Theoretical basis quality` = theoretical_basis_quality, Count = n) |>
+  kable(caption = "Theoretical basis quality rating per article — assigned by the LLM based on whether any identified theory generates a testable prediction") |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover"))
 ```
 
 ```{r confidence-overview}
@@ -216,19 +232,89 @@ flat |>
             `Min`             = round(min(confidence,  na.rm = TRUE), 2),
             `Max`             = round(max(confidence,  na.rm = TRUE), 2),
             .groups = "drop") |>
-  kable(caption = "Model confidence scores by theory type") |>
+  kable(caption = "Model confidence scores by theory type. Confidence reflects the model's self-assessed certainty (0 = none, 1 = certain) that the identified framework meets the definition of theory used in the prompt.") |>
   kable_styling(full_width = FALSE, bootstrap_options = "striped")
+```
+
+## 2b: Theory Framework Type
+
+**What this means.** Not all frameworks called "theories" function equivalently from an epistemological standpoint. This classification distinguishes between four types of theoretical framework:
+
+- **Causal theories** specify a mechanism — a causal pathway by which one variable produces another. These are the only theories that can be tested in the strict hypothetico-deductive sense (e.g., Self-Determination Theory, Central Governor Model).
+- **Taxonomic frameworks** classify or organise constructs without specifying the causal mechanism. They provide a descriptive vocabulary but cannot be confirmed or disconfirmed in the same way as causal theories (e.g., Achievement Goal Theory as typically applied).
+- **Mathematical theories** specify relationships in formal quantitative terms, making strong, falsifiable predictions in the Meehlian sense.
+- **Paradigms** are broad metatheoretical orientations that frame questions and methods but do not generate specific testable predictions (e.g., Ecological Dynamics as a research orientation).
+
+This distinction is critical: studies using taxonomic or paradigm frameworks should not be assessed against the same epistemological standard as studies testing causal or mathematical theories.
+
+```{r framework-type, eval=has_framework_type}
+flat |>
+  filter(!is.na(theory_framework_type), nzchar(theory_framework_type)) |>
+  count(theory_framework_type, sort = TRUE) |>
+  mutate(
+    `%` = paste0(round(n / sum(n) * 100), "%"),
+    `Epistemological status` = case_when(
+      theory_framework_type == "causal"       ~ "Can be tested hypothetico-deductively — specifies a causal mechanism",
+      theory_framework_type == "taxonomic"    ~ "Organises constructs — no causal mechanism specified; not strictly testable",
+      theory_framework_type == "mathematical" ~ "Formal quantitative predictions — strong Meehlian falsifiability",
+      theory_framework_type == "paradigm"     ~ "Metatheoretical orientation — frames questions, does not generate specific predictions",
+      TRUE ~ NA_character_
+    )
+  ) |>
+  rename(`Framework type` = theory_framework_type, Count = n) |>
+  kable(caption = "Theory framework type — epistemological classification of identified theoretical frameworks") |>
+  kable_styling(bootstrap_options = c("striped","hover"))
+```
+
+```{r framework-type-by-role, eval=has_framework_type && has_v2}
+flat |>
+  filter(!is.na(theory_framework_type), !is.na(role)) |>
+  count(theory_framework_type, role) |>
+  pivot_wider(names_from = role, values_from = n, values_fill = 0L) |>
+  rename(`Framework type` = theory_framework_type) |>
+  kable(caption = "Theory framework type by operational/contextual role — causal theories used only contextually represent a particularly notable gap") |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover"))
+```
+
+## 2c: Multi-Theory Coherence
+
+**What this means.** Many articles invoke multiple theories simultaneously. When this occurs, the logical relationship between them matters: **complementary** frameworks each address a different component of the phenomenon and are logically coherent together; **redundant** frameworks make similar predictions for the same hypothesis (the researcher is hedging; no single theory is being tested); **contradictory** frameworks make incompatible claims and cannot logically both be invoked. Redundancy and contradiction are markers of theoretical confusion that are rarely flagged in peer review.
+
+```{r multi-theory-coherence, eval="multi_theory_coherence" %in% names(results_df)}
+n_multi <- sum(!is.na(results_df$multi_theory_coherence) &
+               results_df$multi_theory_coherence != "unassessed", na.rm = TRUE)
+results_df |>
+  filter(!is.na(multi_theory_coherence)) |>
+  count(multi_theory_coherence, sort = TRUE) |>
+  mutate(
+    `%` = paste0(round(n / sum(n) * 100), "%"),
+    `What this means` = case_when(
+      multi_theory_coherence == "complementary" ~ "Each theory addresses a different component — logically coherent together",
+      multi_theory_coherence == "redundant"     ~ "Multiple theories cited for the same prediction — no single theory being tested",
+      multi_theory_coherence == "contradictory" ~ "Theories make incompatible mechanistic claims — logically inconsistent",
+      multi_theory_coherence == "unassessed"    ~ "Only one theory identified, or coherence not determinable",
+      TRUE ~ NA_character_
+    )
+  ) |>
+  rename(`Multi-theory coherence` = multi_theory_coherence, Count = n) |>
+  kable(caption = sprintf("Multi-theory coherence — assessed in articles citing 2+ theories (%d articles)", n_multi)) |>
+  kable_styling(bootstrap_options = c("striped","hover"))
 ```
 
 ---
 
 # Section 3: Theory Frequency Tables
 
+**Methods.** All extracted theory names were passed through a normalisation step that standardises common variant spellings to a canonical form (e.g., "Self Determination Theory", "SDT", and "self-determination theory" are all mapped to "Self-Determination Theory"). Theories are then counted across the corpus. For explicit theories, an example sentence from the corpus is included to illustrate how the theory is typically invoked. For implicit theories, the model's justification — the specific language in the text that implied the framework — is shown.
+
+**How to read this section.** High counts indicate theoretically prominent frameworks in this literature. The example context column shows how the theory was used, not a definition of the theory. Consult Section 9 (Theory Database) for formal definitions. The operational/contextual columns (where present) show how often each theory is actually tested versus merely cited.
+
 ## 3a: Explicit Theories
+
+Theories directly named in the article text, ordered by frequency of appearance across the corpus.
 
 ```{r explicit-table}
 explicit_flat <- filter(flat, theory_type == "explicit", !is.na(name), nzchar(name))
-
 if (nrow(explicit_flat) == 0) {
   cat("No explicit theories found.")
 } else {
@@ -237,77 +323,112 @@ if (nrow(explicit_flat) == 0) {
 
   tbl <- explicit_flat |>
     count(name, sort = TRUE) |>
-    left_join(
-      explicit_flat |>
-        group_by(name) |>
-        summarise(avg_confidence = round(mean(confidence, na.rm = TRUE), 2),
-                  .groups = "drop"),
-      by = "name"
-    ) |>
-    left_join(tibble(name = unique_exp, `Example context` = context_map), by = "name") |>
-    rename(`Theory name` = name, Count = n, `Mean confidence` = avg_confidence)
+    left_join(explicit_flat |> group_by(name) |>
+                summarise(avg_confidence = round(mean(confidence, na.rm=TRUE), 2), .groups="drop"),
+              by = "name") |>
+    left_join(tibble(name = unique_exp, `Example sentence from corpus` = context_map), by = "name") |>
+    rename(`Theory name` = name, `Times cited` = n, `Mean confidence` = avg_confidence)
 
   if (has_v2) {
-    op_counts <- explicit_flat |>
-      group_by(name) |>
-      summarise(operational = sum(role == "operational", na.rm = TRUE),
-                contextual  = sum(role == "contextual",  na.rm = TRUE),
-                .groups = "drop")
-    tbl <- left_join(tbl, rename(op_counts, `Theory name` = name), by = "Theory name")
+    op <- explicit_flat |> group_by(name) |>
+      summarise(Operational = sum(role == "operational", na.rm=TRUE),
+                Contextual  = sum(role == "contextual",  na.rm=TRUE), .groups="drop")
+    tbl <- left_join(tbl, rename(op, `Theory name` = name), by = "Theory name")
   }
-
   tbl |>
-    kable(caption = "Explicit theories — frequency, confidence, and example usage") |>
-    kable_styling(bootstrap_options = c("striped", "hover")) |>
+    kable(caption = "Explicit theories — frequency and usage across the corpus") |>
+    kable_styling(bootstrap_options = c("striped","hover")) |>
     column_spec(ncol(tbl), width = "35em")
 }
 ```
 
 ## 3b: Implicit Theories
 
+Conceptual frameworks inferred by the model from the language of the introduction, even where no theory is formally named.
+
 ```{r implicit-table}
 implicit_flat <- filter(flat, theory_type == "implicit", !is.na(name), nzchar(name))
-
 if (nrow(implicit_flat) == 0) {
   cat("No implicit theories found.")
 } else {
   implicit_flat |>
     count(name, sort = TRUE) |>
-    left_join(
-      implicit_flat |>
-        group_by(name) |>
-        summarise(avg_confidence       = round(mean(confidence, na.rm = TRUE), 2),
-                  example_justification = first(justification[!is.na(justification)]),
-                  .groups = "drop"),
-      by = "name"
-    ) |>
-    rename(`Inferred framework` = name, Count = n,
-           `Mean confidence` = avg_confidence, `Example justification` = example_justification) |>
-    kable(caption = "Implicit theories — frequency and example justification") |>
-    kable_styling(bootstrap_options = c("striped", "hover")) |>
+    left_join(implicit_flat |> group_by(name) |>
+                summarise(avg_confidence = round(mean(confidence, na.rm=TRUE), 2),
+                          example_justification = first(justification[!is.na(justification)]),
+                          .groups = "drop"), by = "name") |>
+    rename(`Inferred framework` = name, `Times inferred` = n,
+           `Mean confidence` = avg_confidence,
+           `Example justification (language that implied this framework)` = example_justification) |>
+    kable(caption = "Implicit theories — inferred frameworks and the language that implied them") |>
+    kable_styling(bootstrap_options = c("striped","hover")) |>
     column_spec(4, width = "40em")
 }
 ```
 
-## 3c: Operational vs Contextual Breakdown {.conditional}
+## 3c: Operational vs Contextual Breakdown
+
+For each theory, the proportion of articles in which it drove a specific testable prediction (operational) versus appeared only as background framing (contextual). A theory with a high contextual count relative to its operational count is being frequently name-dropped without being scientifically used.
 
 ```{r operational-breakdown, eval=has_v2}
 flat |>
-  filter(!is.na(role), role %in% c("operational", "contextual")) |>
+  filter(!is.na(role), role %in% c("operational","contextual")) |>
   count(name, role) |>
   pivot_wider(names_from = role, values_from = n, values_fill = 0) |>
-  mutate(total = operational + contextual,
-         `% operational` = paste0(round(operational / total * 100), "%")) |>
-  arrange(desc(total)) |>
-  rename(Theory = name, Operational = operational, Contextual = contextual,
-         Total = total) |>
-  kable(caption = "For each theory: how often it drives a testable prediction vs. appears as background") |>
-  kable_styling(bootstrap_options = c("striped", "hover"))
+  mutate(Total = operational + contextual,
+         `% operational` = paste0(round(operational / Total * 100), "%")) |>
+  arrange(desc(Total)) |>
+  rename(Theory = name, Operational = operational, Contextual = contextual) |>
+  kable(caption = "Operational vs contextual use — a theory with a high contextual percentage is cited frequently but rarely used to generate testable predictions") |>
+  kable_styling(bootstrap_options = c("striped","hover"))
+```
+
+## 3d: Prediction Strength
+
+**What this means.** For theories classified as operational, how constraining is the prediction they generate? A **strong** prediction specifies direction AND either a quantitative constraint or the causal mechanism by which the effect occurs. A **moderate** prediction specifies direction and conditions. A **weak** prediction is directional only ("X > Y") — the most common form in applied research and the least evidentially useful for the theory (Meehl, 1978). Rival theories acknowledged = whether the introduction explicitly reasons against alternative theoretical explanations for the same prediction.
+
+```{r prediction-strength, eval="prediction_strength" %in% names(flat)}
+flat |>
+  filter(!is.na(prediction_strength), nzchar(prediction_strength)) |>
+  count(prediction_strength) |>
+  mutate(
+    `%` = paste0(round(n / sum(n) * 100), "%"),
+    `What this means` = case_when(
+      prediction_strength == "strong"   ~ "Directional AND quantitatively constrained or mechanistically specific",
+      prediction_strength == "moderate" ~ "Directional with specified conditions or moderators",
+      prediction_strength == "weak"     ~ "Directional only — no constraint beyond expected direction",
+      prediction_strength == "absent"   ~ "No prediction generated (contextual theory)",
+      TRUE ~ NA_character_
+    )
+  ) |>
+  arrange(match(prediction_strength, c("strong","moderate","weak","absent"))) |>
+  rename(`Prediction strength` = prediction_strength, Count = n) |>
+  kable(caption = "Prediction strength — how constraining are the theoretical predictions being tested?") |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover"))
+```
+
+```{r rival-theories}
+if ("rival_theories_acknowledged" %in% names(flat)) {
+  n_rival <- sum(flat$rival_theories_acknowledged == TRUE, na.rm = TRUE)
+  n_total <- sum(!is.na(flat$rival_theories_acknowledged))
+  tibble(
+    Metric = c("Theories where rival explanations are explicitly acknowledged and reasoned against",
+               "Theories where rival explanations are NOT addressed"),
+    Count = c(n_rival, n_total - n_rival),
+    `%` = paste0(round(c(n_rival, n_total - n_rival) / n_total * 100), "%")
+  ) |>
+    kable(caption = "Rival theory acknowledgement — how often do authors reason against alternative theoretical explanations?") |>
+    kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover"))
+}
 ```
 
 ---
 
 # Section 4: Paper × Theory Mapping
+
+**Methods.** Each extracted theory is linked to the article from which it was extracted. This table provides a complete record of every theory–article pairing, allowing readers to trace which papers cited which frameworks and in what capacity.
+
+**How to read this section.** Each row represents one theory in one article. The Role column distinguishes operational (theory generates a tested prediction) from contextual (background citation). The Justification column is populated only for implicit theories and contains the model's explanation of which language implied that framework.
 
 ```{r paper-theory-table}
 if (nrow(flat) == 0) {
@@ -320,9 +441,9 @@ if (nrow(flat) == 0) {
                                   str_trunc(justification, 120), NA_character_)) |>
     select(`Article` = article_id, `Theory` = name, `Type` = theory_type,
            `Role` = role, `Confidence` = confidence,
-           `Justification (implicit)` = justification) |>
-    kable(caption = "All theories by paper") |>
-    kable_styling(bootstrap_options = c("striped", "hover", "condensed")) |>
+           `Justification (implicit theories only)` = justification) |>
+    kable(caption = "Complete paper × theory mapping — every theory extracted from every article") |>
+    kable_styling(bootstrap_options = c("striped","hover","condensed")) |>
     column_spec(6, width = "30em")
 }
 ```
@@ -331,85 +452,142 @@ if (nrow(flat) == 0) {
 
 # Section 5: Hypothesis–Theory Alignment
 
+**Methods.** The introduction text and extracted theory list for each article were passed to the LLM with a prompt instructing it to identify explicit hypotheses or directional predictions and assess how well each is grounded in the identified theoretical framework. Linkage strength was classified as: **explicit** (the hypothesis is directly attributed to the theory in the text), **implicit** (the connection is clear but unstated), or **none** (the hypothesis has no apparent theoretical basis). Overall alignment quality was rated as **strong** (all hypotheses theoretically grounded), **partial** (some grounded, some not), or **absent** (no theoretical grounding, or no hypotheses).
+
+**How to read this section.** This analysis addresses the core scientific question: are researchers deriving their hypotheses from theory? Articles with `absent` alignment are making empirical predictions without theoretical justification. Articles with `partial` alignment have mixed theoretical grounding. The detail table shows each hypothesis as extracted, its linked theory, and the model's explanation of the connection.
+
 ```{r hyp-unavailable, eval=is.null(hyp_flat)}
-cat("Hypothesis extraction has not been run yet. Run 02_pipeline.R to generate these results.")
+cat("Hypothesis extraction results not found. Run 02_pipeline.R to generate.")
 ```
 
 ```{r hyp-overview, eval=!is.null(hyp_flat) && !is.null(hyp_df)}
-n_hyp_articles  <- n_distinct(hyp_flat$article_id)
-n_hyp_total     <- nrow(hyp_flat)
-n_no_hyp        <- sum(hyp_df$hyp_no_hypothesis, na.rm = TRUE)
-n_hyp_error     <- sum(hyp_df$hyp_error, na.rm = TRUE)
+n_hyp_articles <- n_distinct(hyp_flat$article_id)
+n_no_hyp       <- sum(hyp_df$hyp_no_hypothesis, na.rm = TRUE)
+n_hyp_error    <- sum(hyp_df$hyp_error, na.rm = TRUE)
 
 tibble(
-  Metric = c("Articles with at least one hypothesis",
-             "Articles with no hypothesis detected",
+  Metric = c("Articles containing at least one explicit hypothesis",
+             "Articles with no detectable hypothesis",
              "Total hypotheses extracted",
-             "Hypotheses with explicit theory link",
-             "Hypotheses with implicit theory link",
-             "Hypotheses with no theory link",
+             "Hypotheses with explicit theoretical link (directly attributed to a theory)",
+             "Hypotheses with implicit theoretical link (connection inferred but unstated)",
+             "Hypotheses with no theoretical link",
              "Extraction failures"),
-  Count = c(
-    n_hyp_articles, n_no_hyp, n_hyp_total,
-    sum(hyp_flat$linkage_strength == "explicit", na.rm = TRUE),
-    sum(hyp_flat$linkage_strength == "implicit", na.rm = TRUE),
-    sum(hyp_flat$linkage_strength == "none",     na.rm = TRUE),
-    n_hyp_error
-  )
+  Count  = c(n_hyp_articles, n_no_hyp, nrow(hyp_flat),
+             sum(hyp_flat$linkage_strength == "explicit", na.rm=TRUE),
+             sum(hyp_flat$linkage_strength == "implicit", na.rm=TRUE),
+             sum(hyp_flat$linkage_strength == "none",     na.rm=TRUE),
+             n_hyp_error)
 ) |>
-  kable(align = c("l","r")) |>
-  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+  kable(align = c("l","r"), caption = "Hypothesis extraction summary") |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover"))
 ```
 
 ```{r hyp-alignment-quality, eval=!is.null(hyp_df)}
 hyp_df |>
   filter(!is.na(hyp_alignment)) |>
   count(hyp_alignment) |>
-  mutate(pct = paste0(round(n / sum(n) * 100), "%")) |>
-  rename(`Hypothesis-theory alignment` = hyp_alignment, Count = n, `%` = pct) |>
-  kable(caption = "Overall hypothesis-theory alignment quality per article") |>
-  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+  mutate(
+    `%` = paste0(round(n / sum(n) * 100), "%"),
+    `What this means` = case_when(
+      hyp_alignment == "strong"  ~ "All hypotheses in this article are theoretically grounded",
+      hyp_alignment == "partial" ~ "Some hypotheses are grounded in theory, others are not",
+      hyp_alignment == "absent"  ~ "No hypotheses, or no theoretical grounding detected",
+      TRUE ~ NA_character_
+    )
+  ) |>
+  rename(`Alignment quality` = hyp_alignment, Count = n) |>
+  kable(caption = "Hypothesis-theory alignment quality per article") |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover"))
 ```
 
 ```{r hyp-detail-table, eval=!is.null(hyp_flat)}
 hyp_flat |>
   arrange(article_id) |>
-  mutate(
-    linkage_explanation = str_trunc(linkage_explanation, 140),
-    hypothesis_text     = str_trunc(hypothesis_text, 160)
-  ) |>
+  mutate(linkage_explanation = str_trunc(linkage_explanation, 140),
+         hypothesis_text     = str_trunc(hypothesis_text, 160)) |>
   select(`Article`          = article_id,
          `Hypothesis`       = hypothesis_text,
          `Linked theory`    = linked_theory,
          `Linkage strength` = linkage_strength,
          `Explanation`      = linkage_explanation) |>
-  kable(caption = "All hypotheses and their theoretical grounding") |>
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed")) |>
+  kable(caption = "All hypotheses — text, linked theory, and strength of theoretical grounding") |>
+  kable_styling(bootstrap_options = c("striped","hover","condensed")) |>
   column_spec(2, width = "25em") |>
   column_spec(5, width = "25em")
+```
+
+## 5b: Inference Type
+
+**What this means.** Inference type captures the *logical* relationship between a theory and a hypothesis — a distinction that linkage strength alone does not capture. **Derived** means the hypothesis follows deductively from the theory's core claims: you cannot hold the theory true and deny the hypothesis without contradiction. **Consistent** means the hypothesis is compatible with the theory but also compatible with other theories or no theory. **Abductive** means the hypothesis was arrived at through practical observation or prior empirical findings first, and a theoretical label was invoked post-hoc to provide mechanistic framing — legitimate scientific practice (Steele, 2024; Peirce), but epistemologically distinct from derivation. **Motivated** means the theory inspired the research but bears no logical or causal relationship to the specific prediction. Most applied research falls into the *consistent* or *abductive* categories — but both are evidentially much weaker than derivation, and their prevalence signals a systematic gap between theoretical claims and empirical practice in this literature.
+
+```{r inference-type, eval=!is.null(hyp_flat) && "inference_type" %in% names(hyp_flat)}
+hyp_flat |>
+  filter(!is.na(inference_type)) |>
+  count(inference_type, sort = TRUE) |>
+  mutate(
+    `%` = paste0(round(n / sum(n) * 100), "%"),
+    `What this means` = case_when(
+      inference_type == "derived"    ~ "Hypothesis follows deductively from theory — cannot hold theory true and deny the hypothesis",
+      inference_type == "consistent" ~ "Hypothesis compatible with theory, but also compatible with other theories or no theory",
+      inference_type == "abductive"  ~ "Hypothesis emerged from practical observation; theory invoked post-hoc to provide mechanistic framing",
+      inference_type == "motivated"  ~ "Theory inspired research direction but bears no logical connection to the specific prediction",
+      inference_type == "none"       ~ "No logical connection to any theory",
+      TRUE ~ NA_character_
+    )
+  ) |>
+  arrange(match(inference_type, c("derived","consistent","abductive","motivated","none"))) |>
+  rename(`Inference type` = inference_type, Count = n) |>
+  kable(caption = "Inference type — the logical relationship between theories and hypotheses across the corpus") |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover"))
+```
+
+## 5c: Mechanism Specification
+
+**What this means.** A hypothesis specifies a mechanism when it explains *how* or *why* the effect will occur — not just *that* it will occur. Mechanism specification transforms a directional prediction into a test of a causal claim. Its absence means confirmation of the prediction does not distinguish between the theoretical mechanism and any alternative causal pathway producing the same directional result.
+
+```{r mechanism-spec, eval=!is.null(hyp_flat) && "mechanism_specified" %in% names(hyp_flat)}
+n_mech     <- sum(hyp_flat$mechanism_specified == TRUE,  na.rm = TRUE)
+n_no_mech  <- sum(hyp_flat$mechanism_specified == FALSE, na.rm = TRUE)
+n_mech_na  <- sum(is.na(hyp_flat$mechanism_specified))
+
+tibble(
+  `Mechanism specification` = c(
+    "Specified — introduction explains HOW or WHY the effect will occur",
+    "Not specified — only THAT an effect will occur is stated"
+  ),
+  Count = c(n_mech, n_no_mech),
+  `%`   = paste0(round(c(n_mech, n_no_mech) / (n_mech + n_no_mech) * 100), "%")
+) |>
+  kable(caption = "Mechanism specification — proportion of hypotheses that explain the causal pathway, not just the predicted direction") |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover"))
 ```
 
 ---
 
 # Section 6: Discussion — Theory Re-engagement
 
+**Methods.** The discussion section of each article was passed to the LLM alongside the list of theories identified in the introduction. The model was asked to assess: (1) whether the discussion re-engages with the theoretical framework when interpreting results; (2) whether results are interpreted in terms of the theory's broader predictions or only in terms of confirming or rejecting the specific hypothesis; and (3) whether the authors make claims that go beyond what their hypothesis test can support.
+
+**How to read this section.** Re-engagement quality indicates the depth of theoretical reasoning at the interpretation stage. **Full** re-engagement means results are interpreted in terms of the theory and its broader implications. **Partial** means the theory is mentioned but results are only discussed at the hypothesis level. **Absent** means the theory named in the introduction is not referenced when interpreting results — the authors have abandoned their theoretical framework before interpreting their findings. **Overclaiming** refers to generalisations or conclusions that exceed what the hypothesis test can support.
+
 ```{r disc-unavailable, eval=is.null(disc_df)}
-cat("Discussion analysis has not been run yet. Run 02_pipeline.R to generate these results.")
+cat("Discussion extraction results not found. Run 02_pipeline.R to generate.")
 ```
 
 ```{r disc-overview, eval=!is.null(disc_df)}
-n_disc_full    <- sum(disc_df$disc_reengagement == "full",    na.rm = TRUE)
-n_disc_partial <- sum(disc_df$disc_reengagement == "partial", na.rm = TRUE)
-n_disc_absent  <- sum(disc_df$disc_reengagement == "absent",  na.rm = TRUE)
-n_disc_error   <- sum(disc_df$disc_error, na.rm = TRUE)
-n_overclaim    <- sum(disc_df$disc_overclaim, na.rm = TRUE)
+n_disc_full    <- sum(disc_df$disc_reengagement == "full",    na.rm=TRUE)
+n_disc_partial <- sum(disc_df$disc_reengagement == "partial", na.rm=TRUE)
+n_disc_absent  <- sum(disc_df$disc_reengagement == "absent",  na.rm=TRUE)
+n_disc_error   <- sum(disc_df$disc_error, na.rm=TRUE)
+n_overclaim    <- sum(disc_df$disc_overclaim, na.rm=TRUE)
 
 tibble(
   Metric = c(
-    "Articles with full theory re-engagement in discussion",
-    "Articles with partial theory re-engagement",
-    "Articles with absent theory re-engagement",
-    "Articles making claims beyond their hypothesis",
+    "Full re-engagement — results interpreted in terms of the theory",
+    "Partial re-engagement — theory mentioned but results discussed only at hypothesis level",
+    "Absent re-engagement — theory not referenced in the discussion",
+    "Articles where authors make claims beyond what their hypothesis test supports",
     "Discussion extraction failures"
   ),
   Count = c(n_disc_full, n_disc_partial, n_disc_absent, n_overclaim, n_disc_error),
@@ -417,8 +595,9 @@ tibble(
                         n_overclaim, n_disc_error) /
                        max(nrow(disc_df) - n_disc_error, 1) * 100), "%")
 ) |>
-  kable(align = c("l", "r", "r")) |>
-  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover")) |>
+  kable(align = c("l","r","r"),
+        caption = "Discussion analysis summary — theory re-engagement and overclaiming rates") |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover")) |>
   row_spec(3, background = "#f8d7da") |>
   row_spec(4, background = "#fff3cd")
 ```
@@ -427,87 +606,376 @@ tibble(
 disc_df |>
   filter(!is.na(disc_quality)) |>
   count(disc_quality) |>
-  mutate(pct = paste0(round(n / sum(n) * 100), "%")) |>
-  rename(`Discussion quality` = disc_quality, Count = n, `%` = pct) |>
+  mutate(
+    `%` = paste0(round(n / sum(n) * 100), "%"),
+    `What this means` = case_when(
+      disc_quality == "strong"   ~ "Theory re-engaged, results interpreted theoretically, claims proportionate",
+      disc_quality == "adequate" ~ "Some theoretical interpretation, minor overclaiming",
+      disc_quality == "weak"     ~ "No theoretical re-engagement or substantial overclaiming",
+      TRUE ~ NA_character_
+    )
+  ) |>
+  rename(`Discussion quality` = disc_quality, Count = n) |>
   kable(caption = "Overall discussion quality rating") |>
-  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover"))
 ```
 
 ```{r disc-detail, eval=!is.null(disc_df)}
 disc_df |>
   filter(!disc_error) |>
   arrange(disc_reengagement, article_id) |>
-  mutate(
-    disc_evidence        = str_trunc(disc_evidence, 160),
-    disc_overclaim_detail = str_trunc(disc_overclaim_detail, 120)
-  ) |>
-  select(`Article`            = article_id,
-         `Re-engagement`      = disc_reengagement,
-         `Quality`            = disc_quality,
-         `Evidence`           = disc_evidence,
-         `Overclaim?`         = disc_overclaim,
-         `Overclaim detail`   = disc_overclaim_detail) |>
-  kable(caption = "Discussion analysis — all articles") |>
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed")) |>
+  mutate(disc_evidence         = str_trunc(disc_evidence, 160),
+         disc_overclaim_detail = str_trunc(disc_overclaim_detail, 120)) |>
+  select(`Article`          = article_id,
+         `Re-engagement`    = disc_reengagement,
+         `Quality`          = disc_quality,
+         `Evidence`         = disc_evidence,
+         `Overclaim?`       = disc_overclaim,
+         `Overclaim detail` = disc_overclaim_detail) |>
+  kable(caption = "Discussion analysis — article-level detail") |>
+  kable_styling(bootstrap_options = c("striped","hover","condensed")) |>
   column_spec(4, width = "28em") |>
   column_spec(6, width = "22em")
+```
+
+## 6b: Null Result Handling
+
+**What this means.** How authors respond to null or unexpected results is one of the most revealing indicators of theoretical rigour. **Accepted as disconfirming** is the scientifically strongest response — the authors acknowledge the failure and consider its implications for theory. **Auxiliary hypothesis** — invoking a new, untested moderator to explain the null away — is the Lakatosian *protective belt manoeuvre*: it preserves the theory at the cost of making it unfalsifiable. **Methodological artefact** attributes the null to design limitations without considering theoretical implications. **Not addressed** is the weakest response: null results are ignored. The distribution across these categories reveals whether the field treats disconfirmation as evidence or as noise to be explained away.
+
+```{r null-handling, eval=!is.null(disc_df) && "disc_null_handling" %in% names(disc_df)}
+disc_df |>
+  filter(!disc_error, !is.na(disc_null_handling)) |>
+  count(disc_null_handling, sort = TRUE) |>
+  mutate(
+    `%` = paste0(round(n / sum(n) * 100), "%"),
+    `What this means` = case_when(
+      disc_null_handling == "accepted_as_disconfirming" ~
+        "Authors treat the null as genuine evidence against the hypothesis/theory — scientifically strongest",
+      disc_null_handling == "auxiliary_hypothesis" ~
+        "Null explained by a new assumption not in original rationale — Lakatosian protective belt",
+      disc_null_handling == "methodological_artefact" ~
+        "Null attributed to design limitations without theoretical consideration",
+      disc_null_handling == "not_addressed" ~
+        "Null results present but not discussed by authors",
+      disc_null_handling == "not_applicable" ~
+        "Not applicable — all predictions were supported",
+      TRUE ~ NA_character_
+    )
+  ) |>
+  rename(`Null result handling` = disc_null_handling, Count = n) |>
+  kable(caption = "Null result handling — the epistemological quality of how authors respond to disconfirmatory evidence") |>
+  kable_styling(bootstrap_options = c("striped","hover"))
+```
+
+## 6c: Study Positioning
+
+**What this means.** How each study positions its contribution relative to the existing theory-testing literature. **Novel prediction** studies test something genuinely new — progressive science in Lakatosian terms. **Replication** and **extension** studies confirm established findings. **Boundary test** studies examine conditions under which a theory holds or fails — theoretically valuable. **Unclear** studies do not specify their contribution relative to prior work.
+
+```{r study-positioning, eval=!is.null(disc_df) && "disc_positioning" %in% names(disc_df)}
+disc_df |>
+  filter(!disc_error, !is.na(disc_positioning)) |>
+  count(disc_positioning, sort = TRUE) |>
+  mutate(
+    `%` = paste0(round(n / sum(n) * 100), "%"),
+    `What this means` = case_when(
+      disc_positioning == "novel_prediction" ~
+        "Testing a prediction not previously established — progressive in Lakatosian terms",
+      disc_positioning == "replication"      ~
+        "Confirming an established finding in a new sample or context",
+      disc_positioning == "extension"        ~
+        "Extending prior work to a new population, sport, or condition",
+      disc_positioning == "boundary_test"    ~
+        "Explicitly testing conditions under which the theory holds or fails",
+      disc_positioning == "unclear"          ~
+        "Contribution not clearly positioned relative to prior theory-testing work",
+      TRUE ~ NA_character_
+    )
+  ) |>
+  rename(`Study positioning` = disc_positioning, Count = n) |>
+  kable(caption = "Study positioning — how studies frame their contribution to the theory-testing literature") |>
+  kable_styling(bootstrap_options = c("striped","hover"))
+```
+
+## 6d: Theory Revision Signal
+
+**What this means.** This is the most important dimension for assessing whether a study contributes to theoretical *progress* (Lakatos, 1978). A progressive study does not merely confirm or fail to confirm its hypothesis — it uses its findings to say something new about the theory. **None** is the baseline: the theoretical position after reading the discussion is identical to before. **Refined** means the authors specify conditions, boundary conditions, or mechanisms with greater precision. **Partially disconfirming** means the authors acknowledge their results are difficult to reconcile with the theory as stated. **New prediction generated** is the hallmark of a progressive contribution: the authors use their findings to derive an untested prediction for future research. The distribution across these categories is the clearest indicator of whether a literature is advancing theoretically.
+
+```{r revision-signal, eval=has_revision_signal}
+disc_df |>
+  filter(!disc_error, !is.na(disc_revision_signal)) |>
+  count(disc_revision_signal, sort = FALSE) |>
+  mutate(
+    `%` = paste0(round(n / sum(n) * 100), "%"),
+    `What this means` = case_when(
+      disc_revision_signal == "none" ~
+        "Theory treated as static backdrop — confirmation or failure without theoretical development",
+      disc_revision_signal == "refined" ~
+        "Findings used to specify conditions, boundary conditions, or mechanisms more precisely",
+      disc_revision_signal == "partially_disconfirming" ~
+        "Authors acknowledge results are difficult to reconcile with theory — revision may be required",
+      disc_revision_signal == "new_prediction_generated" ~
+        "Findings used to derive a new, untested theoretical prediction — progressive contribution",
+      TRUE ~ NA_character_
+    )
+  ) |>
+  arrange(match(disc_revision_signal,
+                c("new_prediction_generated","refined","partially_disconfirming","none"))) |>
+  rename(`Theory revision signal` = disc_revision_signal, Count = n) |>
+  kable(caption = "Theory revision signal — the extent to which discussions advance rather than merely confirm theoretical frameworks") |>
+  kable_styling(bootstrap_options = c("striped","hover"))
+```
+
+```{r revision-detail, eval=has_revision_signal}
+disc_df |>
+  filter(!disc_error, !is.na(disc_revision_signal),
+         disc_revision_signal != "none", !is.na(disc_revision_detail)) |>
+  select(`Article`          = article_id,
+         `Signal`           = disc_revision_signal,
+         `What changes`     = disc_revision_detail) |>
+  mutate(`What changes` = str_trunc(`What changes`, 200)) |>
+  arrange(Signal) |>
+  kable(caption = "Articles with a theory revision signal — what specifically is proposed or changed") |>
+  kable_styling(bootstrap_options = c("striped","hover","condensed")) |>
+  column_spec(3, width = "36em")
+```
+
+---
+
+# Section 6e: Construct Validity — Methods Analysis
+
+**Methods.** The methods section of each article was passed to the LLM alongside the theories and tested predictions identified in Pass 1. The model assessed whether the operational measures used in the study correspond to the theoretical constructs the theory specifies — the construct validity problem (Borsboom et al., 2004; Cronbach & Meehl, 1955). A study that cites Self-Determination Theory and states a hypothesis about need satisfaction, but then measures only performance outcomes, is not a genuine test of SDT regardless of its statistical results. This analysis reveals the extent to which the field's empirical methods are matched to its theoretical claims.
+
+**How to read this section.** **Aligned** means the primary outcome measures directly operationalise the constructs the theory specifies. **Partial** means some measures correspond to theoretical constructs, others do not. **Misaligned** means the measures do not correspond to the theoretical constructs at all — the study cannot provide evidence for or against the theory it cites. **Mechanism operationalisation** assesses whether the study measures the intermediate constructs in the theory's causal chain, or only the endpoints.
+
+```{r meth-unavailable, eval=!has_meth}
+cat("Methods extraction results not found. Run 02_pipeline.R to generate.")
+```
+
+```{r meth-overview, eval=has_meth}
+n_meth_total   <- nrow(meth_df)
+n_meth_error   <- sum(meth_df$meth_error, na.rm = TRUE)
+n_aligned      <- sum(meth_df$meth_cv_alignment == "aligned",       na.rm = TRUE)
+n_partial      <- sum(meth_df$meth_cv_alignment == "partial",       na.rm = TRUE)
+n_misaligned   <- sum(meth_df$meth_cv_alignment == "misaligned",    na.rm = TRUE)
+n_unclear_cv   <- sum(meth_df$meth_cv_alignment == "unclear",       na.rm = TRUE)
+n_na_cv        <- sum(meth_df$meth_cv_alignment == "not_applicable", na.rm = TRUE)
+
+tibble(
+  Metric = c(
+    "Articles with methods sections analysed",
+    "Construct validity: aligned — measures match theoretical constructs",
+    "Construct validity: partial — some measures correspond, others do not",
+    "Construct validity: misaligned — measures categorically different from constructs the theory specifies",
+    "Construct validity: unclear — insufficient information or overly vague theory",
+    "Construct validity: not applicable — no operational theory identified",
+    "Extraction failures"
+  ),
+  Count = c(n_meth_total - n_meth_error, n_aligned, n_partial, n_misaligned, n_unclear_cv, n_na_cv, n_meth_error),
+  `%` = paste0(round(c(n_meth_total - n_meth_error, n_aligned, n_partial, n_misaligned,
+                        n_unclear_cv, n_na_cv, n_meth_error) /
+                       max(n_meth_total - n_meth_error, 1) * 100), "%")
+) |>
+  kable(align = c("l","r","r"),
+        caption = "Construct validity alignment — are the measures used appropriate for the theoretical constructs cited?") |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover")) |>
+  row_spec(4, background = "#f8d7da")
+```
+
+```{r meth-mechanism, eval=has_meth && "meth_mechanism_operationalised" %in% names(meth_df)}
+meth_df |>
+  filter(!meth_error, !is.na(meth_mechanism_operationalised)) |>
+  count(meth_mechanism_operationalised, sort = TRUE) |>
+  mutate(
+    `%` = paste0(round(n / sum(n) * 100), "%"),
+    `What this means` = case_when(
+      meth_mechanism_operationalised == "mechanism_measured" ~
+        "The study measures the intermediate construct(s) the theory specifies as the causal mechanism",
+      meth_mechanism_operationalised == "endpoints_only" ~
+        "Only the input and output are measured — the theoretical mechanism between them is not tested",
+      meth_mechanism_operationalised == "not_applicable" ~
+        "Theory type (taxonomic, paradigm) does not specify a measurable mechanism",
+      TRUE ~ NA_character_
+    )
+  ) |>
+  rename(`Mechanism operationalisation` = meth_mechanism_operationalised, Count = n) |>
+  kable(caption = "Mechanism operationalisation — does the study measure the causal pathway or only its endpoints?") |>
+  kable_styling(bootstrap_options = c("striped","hover"))
+```
+
+```{r meth-population, eval=has_meth && "meth_population_fit" %in% names(meth_df)}
+meth_df |>
+  filter(!meth_error, !is.na(meth_population_fit)) |>
+  count(meth_population_fit, sort = TRUE) |>
+  mutate(
+    `%` = paste0(round(n / sum(n) * 100), "%"),
+    `What this means` = case_when(
+      meth_population_fit == "within"  ~ "Sample is consistent with the population for which the theory was developed",
+      meth_population_fit == "outside" ~ "Sample is outside the theory's original specification — boundary condition concern",
+      meth_population_fit == "unclear" ~ "Insufficient information to assess population-theory boundary fit",
+      TRUE ~ NA_character_
+    )
+  ) |>
+  rename(`Population boundary fit` = meth_population_fit, Count = n) |>
+  kable(caption = "Population boundary fit — whether the study sample matches the population for which the theory was developed") |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover"))
+```
+
+```{r meth-detail, eval=has_meth}
+meth_df |>
+  filter(!meth_error, !is.na(meth_cv_alignment)) |>
+  arrange(meth_cv_alignment, article_id) |>
+  mutate(meth_cv_rationale = str_trunc(meth_cv_rationale, 180)) |>
+  select(`Article`           = article_id,
+         `CV alignment`      = meth_cv_alignment,
+         `Mechanism`         = meth_mechanism_operationalised,
+         `Population fit`    = meth_population_fit,
+         `Rationale`         = meth_cv_rationale) |>
+  kable(caption = "Construct validity — article-level detail") |>
+  kable_styling(bootstrap_options = c("striped","hover","condensed")) |>
+  column_spec(5, width = "32em")
 ```
 
 ---
 
 # Section 7: Full Theory Chain
 
-This table shows the complete arc for each article: whether a theory was cited,
-whether a hypothesis derived from it, and whether the discussion re-engaged with it.
+**Methods.** This section synthesises results from the three preceding analyses into a single article-level summary. For each article, it shows whether a theory was identified, whether hypotheses were theoretically grounded, and whether the discussion re-engaged with the theory. Together, these constitute the full scientific reasoning chain: Theory → Hypothesis → Test → Interpretation.
+
+**How to read this section.** Articles showing a complete and coherent chain (strong theoretical basis, strong hypothesis alignment, full discussion re-engagement, no overclaiming) demonstrate best-practice theoretical reasoning. Articles with gaps at any stage represent specific types of theoretical weakness.
 
 ```{r chain-table, eval=!is.null(hyp_df) && !is.null(disc_df)}
 theory_summary <- flat |>
   group_by(article_id) |>
-  summarise(
-    theories      = paste(unique(name[!is.na(name)]), collapse = "; "),
-    n_theories    = n_distinct(name[!is.na(name)]),
-    has_operational = if ("role" %in% names(flat))
-      any(role == "operational", na.rm = TRUE) else NA,
-    .groups = "drop"
+  summarise(theories   = paste(unique(name[!is.na(name)]), collapse = "; "),
+            n_theories = n_distinct(name[!is.na(name)]),
+            has_operational = if (has_v2) any(role == "operational", na.rm=TRUE) else NA,
+            .groups = "drop")
+
+hyp_df |>
+  select(article_id, hyp_alignment) |>
+  right_join(theory_summary, by = "article_id") |>
+  left_join(select(disc_df, article_id, disc_reengagement, disc_quality, disc_overclaim),
+            by = "article_id") |>
+  arrange(article_id) |>
+  mutate(theories = str_trunc(theories, 70)) |>
+  select(`Article`              = article_id,
+         `Theories (n)`         = n_theories,
+         `Theories cited`       = theories,
+         `Hypothesis alignment` = hyp_alignment,
+         `Discussion quality`   = disc_quality,
+         `Re-engagement`        = disc_reengagement,
+         `Overclaim`            = disc_overclaim) |>
+  kable(caption = "Full theory chain per article: Introduction → Hypothesis → Discussion") |>
+  kable_styling(bootstrap_options = c("striped","hover","condensed")) |>
+  column_spec(3, width = "22em")
+```
+
+---
+
+# Section 7b: Theory Quality Index
+
+**What this means.** The Theory Quality Index (TQI) is a composite score combining six dimensions of theory use quality at the article level. It provides a single summary measure of how rigorously theory was used in each study, suitable for distributional analysis and for identifying studies at different quality levels. Each dimension is scored 0–1 and averaged.
+
+| Dimension | 1 point | 0 points |
+|---|---|---|
+| Theory present | ≥1 theory identified | No theory |
+| Operational | ≥1 theory operational | All theories contextual |
+| Hypothesis grounded | Alignment = strong | Partial or absent |
+| Discussion re-engaged | Re-engagement = full | Partial or absent |
+| No overclaiming | No overclaims detected | Overclaiming detected |
+| Construct validity | Methods aligned to theory | Partial, misaligned, or unclear |
+
+**How to read this section.** A TQI of 1.0 (6/6) indicates a study that named a theory, used it to generate a prediction, grounded its hypotheses in that theory, operationalised the correct constructs in its methods, returned to the theory in the discussion, and made no unsupported claims. A TQI of 0.0 indicates failure at all criteria. The distribution across the corpus reveals the overall state of theoretical rigour in the literature.
+
+```{r tqi, eval=!is.null(hyp_df) && !is.null(disc_df)}
+tqi <- results_df |>
+  select(article_id) |>
+  mutate(
+    d1_theory_present  = as.numeric(!results_df$theory_none),
+    d2_operational     = as.numeric(
+      map_lgl(results_df$theory_explicit, function(x)
+        any(purrr::map_chr(x, ~ .x$role %||% "") == "operational")
+      )
+    )
+  ) |>
+  left_join(
+    hyp_df |> select(article_id,
+                     d3_hyp_strong = hyp_alignment) |>
+      mutate(d3_hyp_strong = as.numeric(d3_hyp_strong == "strong")),
+    by = "article_id"
+  ) |>
+  left_join(
+    disc_df |> select(article_id, disc_reengagement, disc_overclaim) |>
+      mutate(d4_full_reengagement = as.numeric(disc_reengagement == "full"),
+             d5_no_overclaim      = as.numeric(!disc_overclaim)) |>
+      select(article_id, d4_full_reengagement, d5_no_overclaim),
+    by = "article_id"
   )
 
-hyp_summary <- hyp_df |>
-  select(article_id, hyp_alignment, hyp_no_hypothesis)
+# Optionally join construct validity dimension (Pass 4)
+if (has_meth) {
+  cv_scores <- meth_df |>
+    select(article_id, meth_cv_alignment) |>
+    mutate(d6_cv_aligned = as.numeric(meth_cv_alignment == "aligned"))
+  tqi <- left_join(tqi, select(cv_scores, article_id, d6_cv_aligned), by = "article_id")
+  tqi_dims <- c("d1_theory_present","d2_operational","d3_hyp_strong",
+                "d4_full_reengagement","d5_no_overclaim","d6_cv_aligned")
+} else {
+  tqi_dims <- c("d1_theory_present","d2_operational","d3_hyp_strong",
+                "d4_full_reengagement","d5_no_overclaim")
+}
 
-disc_summary <- disc_df |>
-  select(article_id, disc_reengagement, disc_quality, disc_overclaim)
+tqi <- tqi |>
+  mutate(
+    tqi = rowMeans(pick(all_of(tqi_dims)), na.rm = TRUE),
+    tqi_band = case_when(
+      tqi >= 0.84 ~ "High (≥5/6 criteria met)",
+      tqi >= 0.67 ~ "Moderate (4/6 criteria met)",
+      tqi >= 0.50 ~ "Low (3/6 criteria met)",
+      TRUE        ~ "Very low (0–2/6 criteria met)"
+    )
+  )
 
-theory_summary |>
-  left_join(hyp_summary,  by = "article_id") |>
-  left_join(disc_summary, by = "article_id") |>
-  arrange(article_id) |>
-  mutate(theories = str_trunc(theories, 80)) |>
-  select(
-    `Article`              = article_id,
-    `Theories (n)`         = n_theories,
-    `Theories cited`       = theories,
-    `Hypothesis alignment` = hyp_alignment,
-    `Discussion quality`   = disc_quality,
-    `Re-engagement`        = disc_reengagement,
-    `Overclaim`            = disc_overclaim
-  ) |>
-  kable(caption = "Full theory chain: Introduction → Hypothesis → Discussion") |>
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed")) |>
-  column_spec(3, width = "22em")
+tqi |>
+  count(tqi_band) |>
+  arrange(desc(tqi_band)) |>
+  mutate(`%` = paste0(round(n / sum(n) * 100), "%")) |>
+  rename(`TQI band` = tqi_band, Count = n) |>
+  kable(caption = "Theory Quality Index distribution — proportion of articles meeting each quality threshold") |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover"))
+```
+
+```{r tqi-detail, eval=!is.null(hyp_df) && !is.null(disc_df)}
+detail_cols <- c("article_id", tqi_dims, "tqi")
+tqi |>
+  arrange(desc(tqi)) |>
+  select(any_of(detail_cols)) |>
+  rename(`Article` = article_id, `TQI` = tqi) |>
+  rename_with(~ case_when(
+    .x == "d1_theory_present"    ~ "Theory present",
+    .x == "d2_operational"       ~ "Operational",
+    .x == "d3_hyp_strong"        ~ "Hyp grounded",
+    .x == "d4_full_reengagement" ~ "Disc re-engaged",
+    .x == "d5_no_overclaim"      ~ "No overclaim",
+    .x == "d6_cv_aligned"        ~ "CV aligned",
+    TRUE ~ .x
+  )) |>
+  mutate(TQI = round(TQI, 2)) |>
+  kable(caption = "Theory Quality Index per article — 1 = criterion met, 0 = criterion not met, NA = data unavailable") |>
+  kable_styling(bootstrap_options = c("striped","hover","condensed"))
 ```
 
 ---
 
 # Section 8: Keyword-in-Context — "theory"
 
-Every occurrence of *theory* in each article introduction, with 10 words either side.
+**Methods.** As an independent validity check on the LLM extraction, a direct lexical search was conducted across all introduction texts for the word *theory* (case-insensitive). For each occurrence, the ten words immediately before and after are shown. This allows readers to verify that the LLM-extracted theories correspond to genuine theoretical language in the text, and to identify cases where the word "theory" appears in contexts that do not represent genuine theoretical frameworks (e.g., "no theoretical basis exists for...").
+
+**How to read this section.** Each row is one occurrence of the word "theory" in one article's introduction. The article identifier is shown in the left column, the word "theory" (highlighted in red) is in the centre, and the surrounding words provide context. Compare these entries against the theories extracted in Section 3 to assess the model's accuracy.
 
 ```{r kwic-analysis}
-kwic_df <- map2_dfr(
-  results_df$introduction,
-  results_df$article_id,
-  ~ extract_kwic(.x, .y, keyword = "theory", window = 10)
-)
+kwic_df <- map2_dfr(results_df$introduction, results_df$article_id,
+                    ~ extract_kwic(.x, .y, keyword = "theory", window = 10))
 
 if (nrow(kwic_df) == 0) {
   cat("The word 'theory' was not found in any introduction.")
@@ -515,18 +983,14 @@ if (nrow(kwic_df) == 0) {
   kwic_df |>
     arrange(article_id) |>
     mutate(`THEORY` = paste0("**", keyword, "**")) |>
-    select(`Article`              = article_id,
+    select(`Article` = article_id,
            `...left context...`  = left_context,
            `THEORY`,
            `...right context...` = right_context) |>
-    kable(
-      escape  = FALSE,
-      caption = sprintf(
-        "All occurrences of 'theory' in introductions (±10 words). Total: %d across %d articles.",
-        nrow(kwic_df), n_distinct(kwic_df$article_id)
-      )
-    ) |>
-    kable_styling(bootstrap_options = c("striped", "hover", "condensed")) |>
+    kable(escape = FALSE,
+          caption = sprintf("All occurrences of 'theory' in article introductions (±10 words). Total: %d occurrences across %d articles.",
+                            nrow(kwic_df), n_distinct(kwic_df$article_id))) |>
+    kable_styling(bootstrap_options = c("striped","hover","condensed")) |>
     column_spec(2, width = "25em", italic = TRUE, color = "grey") |>
     column_spec(3, bold = TRUE, color = "#c0392b") |>
     column_spec(4, width = "25em", italic = TRUE, color = "grey")
@@ -535,6 +999,51 @@ if (nrow(kwic_df) == 0) {
 
 ---
 
+# Section 9: Theory Database
+
+**Methods.** As theories were extracted from the corpus, they were matched against a curated database of established theoretical frameworks. The database stores a canonical name, known aliases, domain, original authors, year proposed, a formal definition, the boundaries of the theory (what it covers and what it does not), and an example of how it is used in sports science research. New theories not yet in the database are added as stubs and flagged for manual completion. This database is designed to grow over time and may eventually serve as a reference tool for researchers selecting theoretical frameworks for new studies.
+
+**How to read this section.** Each row is one theoretical framework. The Definition column states what the theory proposes. The Boundaries column is particularly important — it clarifies what the theory can and cannot explain, which is relevant for assessing whether it has been applied appropriately in the articles reviewed. Entries marked STUB have been identified in the corpus but not yet formally defined.
+
+```{r theory-db, eval=!is.null(theory_db)}
+db_display <- theory_db |>
+  arrange(canonical_name) |>
+  mutate(
+    definition  = str_trunc(definition, 200),
+    boundaries  = str_trunc(boundaries, 180),
+    example_use = str_trunc(example_use, 160)
+  )
+
+# Build select call dynamically based on available columns
+db_cols <- list(
+  `Theory`          = "canonical_name",
+  `Framework type`  = "theory_type",
+  `Domain`          = "domain",
+  `Authors`         = "key_authors",
+  `Year`            = "year_proposed",
+  `Definition`      = "definition",
+  `Boundaries`      = "boundaries",
+  `Example use`     = "example_use",
+  `Times extracted` = "times_extracted"
+)
+db_cols_present <- db_cols[unlist(db_cols) %in% names(db_display)]
+db_display <- db_display |> select(!!!db_cols_present)
+
+db_display |>
+  kable(caption = "Theory database — canonical definitions, framework type, boundaries, and usage examples") |>
+  kable_styling(bootstrap_options = c("striped","hover","condensed")) |>
+  column_spec(which(names(db_display) == "Definition"),  width = "26em") |>
+  column_spec(which(names(db_display) == "Boundaries"),  width = "22em") |>
+  column_spec(which(names(db_display) == "Example use"), width = "20em")
+```
+
+```{r theory-db-unavailable, eval=is.null(theory_db)}
+cat("Theory database file not found at theory_database.csv.")
+```
+
+---
+
 *Report generated: `r format(Sys.time(), "%Y-%m-%d %H:%M")`*
-*Model: `r yaml::read_yaml(here("sportTheoryAI", "inst", "config.yml"))$model$name`*
-*Pipeline version: sportTheoryAI v`r tryCatch(read.dcf(here("sportTheoryAI", "DESCRIPTION"), fields = "Version")[1], error = function(e) "dev")`*
+*Model: `r cfg$model$name` (temperature = `r cfg$model$temperature`, seed = `r cfg$model$seed`)*
+*Prompt version: `r cfg$prompt$version`*
+*sportTheoryAI v`r tryCatch(read.dcf(here("sportTheoryAI","DESCRIPTION"), fields="Version")[1], error=function(e) "dev")`*

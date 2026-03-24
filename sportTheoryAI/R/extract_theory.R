@@ -40,18 +40,30 @@ extract_theory <- function(text,
   if (is.null(parsed)) {
     result <- .null_result()
   } else {
-    # Handle both v1 schema (explicit_theories / implicit_theories)
-    # and v2 schema (theories[] with type field)
+    # Handle v1 schema (explicit_theories / implicit_theories)
+    # and v2/v3 schema (theories[] with type field)
     if (!is.null(parsed$theories)) {
       all_theories      <- parsed$theories
       explicit_theories <- Filter(function(t) identical(t$type, "explicit"), all_theories)
       implicit_theories <- Filter(function(t) identical(t$type, "implicit"), all_theories)
-      # Normalise implicit entries to v1 field names for flatten_results()
+      # Normalise implicit entries to unified field names for flatten_results()
       implicit_theories <- lapply(implicit_theories, function(t) {
-        list(inferred_name = t$name,
-             justification = t$tested_prediction %||% NA_character_,
-             confidence    = t$confidence,
-             role          = t$role)
+        list(inferred_name               = t$name,
+             justification               = t$tested_prediction              %||% NA_character_,
+             confidence                  = t$confidence,
+             role                        = t$role                           %||% NA_character_,
+             theory_type                 = t$theory_type                    %||% NA_character_,
+             prediction_strength         = t$prediction_strength            %||% NA_character_,
+             boundary_conditions_met     = t$boundary_conditions_met        %||% NA_character_,
+             rival_theories_acknowledged = t$rival_theories_acknowledged    %||% FALSE)
+      })
+      # Carry v3/v4 fields through for explicit theories too
+      explicit_theories <- lapply(explicit_theories, function(t) {
+        t$prediction_strength           <- t$prediction_strength            %||% NA_character_
+        t$theory_type                   <- t$theory_type                    %||% NA_character_
+        t$boundary_conditions_met       <- t$boundary_conditions_met        %||% NA_character_
+        t$rival_theories_acknowledged   <- t$rival_theories_acknowledged    %||% FALSE
+        t
       })
     } else {
       explicit_theories <- parsed$explicit_theories %||% list()
@@ -62,6 +74,8 @@ extract_theory <- function(text,
       explicit_theories          = explicit_theories,
       implicit_theories          = implicit_theories,
       no_theory_present          = parsed$no_theory_present          %||% NA,
+      intended_as_atheoretical   = parsed$intended_as_atheoretical   %||% NA,
+      multi_theory_coherence     = parsed$multi_theory_coherence     %||% NA_character_,
       theoretical_basis_quality  = parsed$theoretical_basis_quality  %||% NA_character_,
       extraction_error           = FALSE
     )
@@ -165,10 +179,14 @@ batch_extract <- function(df,
     }
   )
 
-  df$theory_explicit <- purrr::map(results, "explicit_theories")
-  df$theory_implicit <- purrr::map(results, "implicit_theories")
-  df$theory_none     <- purrr::map_lgl(results, ~ isTRUE(.x$no_theory_present))
-  df$theory_error    <- purrr::map_lgl(results, ~ isTRUE(.x$extraction_error))
+  df$theory_explicit            <- purrr::map(results, "explicit_theories")
+  df$theory_implicit            <- purrr::map(results, "implicit_theories")
+  df$theory_none                <- purrr::map_lgl(results, ~ isTRUE(.x$no_theory_present))
+  df$theory_atheoretical        <- purrr::map_lgl(results, ~ isTRUE(.x$intended_as_atheoretical))
+  df$multi_theory_coherence     <- purrr::map_chr(results, ~ .x$multi_theory_coherence    %||% NA_character_)
+  df$theory_error               <- purrr::map_lgl(results, ~ isTRUE(.x$extraction_error))
+  df$theory_raw_response        <- purrr::map_chr(results, ~ .x$raw_response              %||% NA_character_)
+  df$theoretical_basis_quality  <- purrr::map_chr(results, ~ .x$theoretical_basis_quality %||% NA_character_)
 
   n_errors <- sum(df$theory_error, na.rm = TRUE)
   if (n_errors > 0) {
@@ -191,8 +209,10 @@ batch_extract <- function(df,
 #'   identifiers (e.g. `"article_id"`).
 #'
 #' @return A tibble with one row per detected theory and columns:
-#'   `article_id` (if supplied), `theory_type` ("explicit" | "implicit"),
-#'   `name`, `role` (explicit only), `justification` (implicit only),
+#'   `article_id` (if supplied), `detection_type` ("explicit" | "implicit"),
+#'   `name`, `theory_framework_type` ("causal" | "taxonomic" | "mathematical" | "paradigm"),
+#'   `role` ("operational" | "contextual"), `tested_prediction`, `prediction_strength`,
+#'   `boundary_conditions_met`, `rival_theories_acknowledged`, `justification` (implicit only),
 #'   `confidence`.
 #'
 #' @export
@@ -211,12 +231,17 @@ flatten_results <- function(df, id_column = NULL) {
     exp_rows <- if (length(explicit) > 0) {
       purrr::map_dfr(explicit, function(t) {
         tibble::tibble(
-          article_id    = as.character(id_val),
-          theory_type   = "explicit",
-          name          = t$name          %||% NA_character_,
-          role          = t$role          %||% NA_character_,
-          justification = NA_character_,
-          confidence    = t$confidence    %||% NA_real_
+          article_id                  = as.character(id_val),
+          detection_type              = "explicit",
+          name                        = t$name                        %||% NA_character_,
+          theory_framework_type       = t$theory_type                 %||% NA_character_,
+          role                        = t$role                        %||% NA_character_,
+          tested_prediction           = t$tested_prediction           %||% NA_character_,
+          prediction_strength         = t$prediction_strength         %||% NA_character_,
+          boundary_conditions_met     = t$boundary_conditions_met     %||% NA_character_,
+          rival_theories_acknowledged = t$rival_theories_acknowledged %||% FALSE,
+          justification               = NA_character_,
+          confidence                  = t$confidence                  %||% NA_real_
         )
       })
     } else {
@@ -226,12 +251,17 @@ flatten_results <- function(df, id_column = NULL) {
     imp_rows <- if (length(implicit) > 0) {
       purrr::map_dfr(implicit, function(t) {
         tibble::tibble(
-          article_id    = as.character(id_val),
-          theory_type   = "implicit",
-          name          = t$inferred_name %||% NA_character_,
-          role          = NA_character_,
-          justification = t$justification %||% NA_character_,
-          confidence    = t$confidence    %||% NA_real_
+          article_id                  = as.character(id_val),
+          detection_type              = "implicit",
+          name                        = t$inferred_name               %||% NA_character_,
+          theory_framework_type       = t$theory_type                 %||% NA_character_,
+          role                        = t$role                        %||% NA_character_,
+          tested_prediction           = t$justification               %||% NA_character_,
+          prediction_strength         = t$prediction_strength         %||% NA_character_,
+          boundary_conditions_met     = t$boundary_conditions_met     %||% NA_character_,
+          rival_theories_acknowledged = t$rival_theories_acknowledged %||% FALSE,
+          justification               = t$justification               %||% NA_character_,
+          confidence                  = t$confidence                  %||% NA_real_
         )
       })
     } else {

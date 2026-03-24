@@ -19,9 +19,10 @@
 #'
 #' @export
 extract_hypotheses <- function(text,
-                               theories  = character(0),
-                               model     = NULL,
-                               log_file  = NULL) {
+                               theories          = character(0),
+                               tested_predictions = character(0),
+                               model             = NULL,
+                               log_file          = NULL) {
 
   cfg           <- .get_config()
   template_name <- cfg$prompts$hypothesis_extraction
@@ -41,9 +42,16 @@ extract_hypotheses <- function(text,
     "None identified"
   }
 
+  predictions_list <- if (length(tested_predictions) > 0 && any(nzchar(tested_predictions))) {
+    paste(paste0("- ", tested_predictions[nzchar(tested_predictions)]), collapse = "\n")
+  } else {
+    "None identified"
+  }
+
   prompt <- template |>
-    stringr::str_replace("\\{\\{THEORY_LIST\\}\\}",       theory_list) |>
-    stringr::str_replace("\\{\\{INTRODUCTION_TEXT\\}\\}", text)
+    stringr::str_replace("\\{\\{THEORY_LIST\\}\\}",         theory_list) |>
+    stringr::str_replace("\\{\\{TESTED_PREDICTIONS\\}\\}",  predictions_list) |>
+    stringr::str_replace("\\{\\{INTRODUCTION_TEXT\\}\\}",   text)
 
   raw_text <- call_model(prompt, model = model, log_file = log_file)
   parsed   <- .safe_parse_json(raw_text)
@@ -57,8 +65,8 @@ extract_hypotheses <- function(text,
     )
   } else {
     result <- list(
-      hypotheses                  = parsed$hypotheses              %||% list(),
-      no_hypothesis_present       = parsed$no_hypothesis_present   %||% NA,
+      hypotheses                  = parsed$hypotheses                  %||% list(),
+      no_hypothesis_present       = parsed$no_hypothesis_present       %||% NA,
       hypothesis_theory_alignment = parsed$hypothesis_theory_alignment %||% NA_character_,
       extraction_error            = FALSE
     )
@@ -112,13 +120,23 @@ batch_extract_hypotheses <- function(df,
 
     theories <- theories[nzchar(theories)]
 
+    # Extract tested_predictions from theory_explicit list-column (v3 schema)
+    tested_preds <- if ("theory_explicit" %in% names(df)) {
+      exp <- df$theory_explicit[[idx]]
+      if (is.list(exp) && length(exp) > 0) {
+        preds <- purrr::map_chr(exp, ~ .x$tested_prediction %||% "")
+        preds[nzchar(preds)]
+      } else character(0)
+    } else character(0)
+
     if (is.na(text) || !nzchar(stringr::str_trim(as.character(text)))) {
       return(list(hypotheses = list(), no_hypothesis_present = NA,
                   hypothesis_theory_alignment = NA_character_, extraction_error = TRUE))
     }
 
     tryCatch(
-      extract_hypotheses(text, theories = theories, model = model, log_file = log_file),
+      extract_hypotheses(text, theories = theories, tested_predictions = tested_preds,
+                         model = model, log_file = log_file),
       error = function(e) {
         cli::cli_warn("Row {row_id} hypothesis extraction failed: {conditionMessage(e)}")
         list(hypotheses = list(), no_hypothesis_present = NA,
@@ -131,6 +149,7 @@ batch_extract_hypotheses <- function(df,
   df$hyp_no_hypothesis <- purrr::map_lgl(results, ~ isTRUE(.x$no_hypothesis_present))
   df$hyp_alignment     <- purrr::map_chr(results, ~ .x$hypothesis_theory_alignment %||% NA_character_)
   df$hyp_error         <- purrr::map_lgl(results, ~ isTRUE(.x$extraction_error))
+  df$hyp_raw_response  <- purrr::map_chr(results, ~ .x$raw_response %||% NA_character_)
 
   cli::cli_inform(c("v" = "Hypothesis extraction complete. {sum(!df$hyp_error)}/{n} rows succeeded."))
   df
@@ -160,6 +179,9 @@ flatten_hypotheses <- function(df, id_column = NULL) {
         hypothesis_text        = h$hypothesis_text        %||% NA_character_,
         linked_theory          = h$linked_theory          %||% NA_character_,
         linkage_strength       = h$linkage_strength       %||% NA_character_,
+        inference_type         = h$inference_type         %||% NA_character_,
+        mechanism_specified    = h$mechanism_specified    %||% NA,
+        mechanism_description  = h$mechanism_description %||% NA_character_,
         linkage_explanation    = h$linkage_explanation    %||% NA_character_
       )
     })
