@@ -4,6 +4,30 @@ All notable changes to this project are documented here.
 
 ---
 
+## [4.1.0] — 2026-03-24
+
+### Changed
+
+**Model migration: `llama3:8b` → `qwen2.5:7b`**
+- Upgraded local LLM from LLaMA 3 8B to Qwen 2.5 7B across all extraction passes
+- Motivation: v4 schema introduces nuanced philosophical distinctions (causal/taxonomic theory types, abductive inference, construct validity alignment) that require stronger instruction-following and reasoning ability than llama3 8B reliably provides
+- `qwen2.5:14b` was evaluated first but exceeds VRAM limits on consumer GPUs (CUDA OOM error); `qwen2.5:7b` is the highest-capacity model that runs reliably on 6GB VRAM
+- All cached extraction `.Rds` files must be deleted and re-generated when switching models — previous llama3 results are not directly comparable
+- `config.yml` `model` field updated; README reproducibility section updated with model selection rationale
+- Pull command: `ollama pull qwen2.5:7b`
+
+### Fixed
+
+- Report rendering error: `object 'theory_type' not found` — column aliasing added for pre-v4 cached data where detection type column name differs from v4 schema
+- `manuscript.qmd` bibliography reference error: `references.bib` not found — bibliography stub file created; render path corrected
+- Section 3a example sentences showing NA — defensive extraction added for intro text fallback
+- Section 4 implicit theory justification column showing NA — `flatten_results()` updated to carry `justification` for implicit theories
+- Discussion section table (`disc_overclaim_detail`) truncating text — column now uses `kableExtra::column_spec` word-wrap
+- "corpus" terminology replaced with "sample" throughout report and manuscript for appropriate academic register
+- Tables in report widened using `kableExtra` `full_width = TRUE` and horizontal scroll for wide column sets
+
+---
+
 ## [4.0.0] — 2026-03-24
 
 ### Added

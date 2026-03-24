@@ -26,7 +26,7 @@ There are three scripts, run in order:
 ```r
 # 1. Install Ollama: https://ollama.com/download
 # 2. In a terminal: ollama serve
-# 3. In a second terminal: ollama pull llama3
+# 3. In a second terminal: ollama pull qwen2.5:7b
 
 # In R:
 source("01_setup.R")     # first time only
@@ -229,12 +229,16 @@ The HTML report (`03_report.qmd`) contains fourteen sections:
 
 ## Reproducibility
 
-- **Model:** `llama3` via Ollama (local, no internet required after pull)
+- **Model:** `qwen2.5:7b` via Ollama (local, no internet required after pull)
 - **Parameters:** `temperature = 0`, `top_p = 1`, `top_k = 1`, `seed = 42`
-- **Prompt versions:** v3 (theory), v2 (hypothesis), v2 (discussion) — all in `sportTheoryAI/inst/prompt_templates/`
+- **Prompt versions:** v4 (theory), v3 (hypothesis), v3 (discussion), v1 (methods) — all in `sportTheoryAI/inst/prompt_templates/`
 - **Config:** `sportTheoryAI/inst/config.yml`
 
+**Model selection rationale:** `qwen2.5:7b` replaces the original `llama3:8b` from v1–v3. The v4 extraction schema introduces nuanced philosophical distinctions (causal vs taxonomic theory types, abductive inference, construct validity) that benefit from a more capable instruction-following model. `qwen2.5:14b` requires ~10GB VRAM and will produce a CUDA OOM error on most consumer GPUs; `qwen2.5:7b` runs reliably on 6GB VRAM with meaningfully improved JSON fidelity and reasoning quality.
+
 To re-run on a new set of papers, edit `PDF_DIR` in `02_pipeline.R` and delete only the extraction `.Rds` files. Keep `theory_pipeline_articles.Rds` if re-using the same PDFs.
+
+**Changing models invalidates cached extractions.** Delete all `*_full.Rds` files if switching model mid-project to ensure comparability.
 
 ---
 
