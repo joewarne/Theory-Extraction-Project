@@ -7,12 +7,12 @@ ollama:
   timeout_seconds: 120
 
 model:
-  name: "llama3"          # change to "mistral" or any Ollama model
+  name: "qwen2.5:7b"      # upgraded from llama3 (8B); 14b exceeded GPU VRAM
   temperature: 0          # FIXED — do not change for reproducibility
   top_p: 1                # FIXED — do not change for reproducibility
   top_k: 1                # FIXED — do not change for reproducibility
   seed: 42                # FIXED — ensures deterministic generation
-  num_predict: 2048       # max tokens in response
+  num_predict: 4096       # max tokens in response — increased for qwen2.5 verbosity
   num_ctx: 8192           # context window — needed for long intro + theory list prompts
 
 prompts:

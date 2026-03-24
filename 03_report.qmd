@@ -10,6 +10,10 @@ format:
     theme: flatly
     embed-resources: true
     df-print: kable
+    css: |
+      .table-responsive { overflow-x: auto; }
+      table { min-width: 100%; }
+      td, th { white-space: normal !important; word-wrap: break-word; }
 execute:
   echo: false
   warning: false
@@ -57,10 +61,20 @@ extract_kwic <- function(text, article_id, keyword = "theory", window = 10) {
 }
 
 find_context_sentence <- function(results_df, theory_name) {
+  if (!"introduction" %in% names(results_df)) return(NA_character_)
+  # Try full name first, then first two significant words as fallback
+  words    <- str_split(theory_name, "\\s+")[[1]]
+  patterns <- unique(c(theory_name,
+                        paste(head(words, 2), collapse = " "),
+                        words[1]))
   for (i in seq_len(nrow(results_df))) {
-    sentences <- str_split(results_df$introduction[i], "(?<=[.!?])\\s+")[[1]]
-    hit <- sentences[str_detect(sentences, regex(fixed(theory_name), ignore_case = TRUE))]
-    if (length(hit) > 0) return(str_trunc(str_trim(hit[1]), 200))
+    intro <- results_df$introduction[i]
+    if (is.na(intro) || !nzchar(intro)) next
+    sentences <- str_split(intro, "(?<=[.!?])\\s+")[[1]]
+    for (pat in patterns) {
+      hit <- sentences[str_detect(sentences, fixed(pat, ignore_case = TRUE))]
+      if (length(hit) > 0) return(str_trunc(str_trim(hit[1]), 220))
+    }
   }
   NA_character_
 }
@@ -97,7 +111,7 @@ cfg       <- yaml::read_yaml(here("sportTheoryAI", "inst", "config.yml"))
 
 ## Overview
 
-This report documents the automated extraction of theoretical frameworks from a corpus of applied sports science research articles. Extraction was performed using a locally hosted large language model (LLM) accessed via Ollama, with all model parameters fixed to ensure deterministic and reproducible outputs. The pipeline identifies both explicitly named theories and implicitly inferred conceptual frameworks, assesses how well stated hypotheses are grounded in theory, and evaluates the extent to which authors re-engage with their theoretical framework in the discussion section.
+This report documents the automated extraction of theoretical frameworks from a sample of applied sports science research articles. Extraction was performed using a locally hosted large language model (LLM) accessed via Ollama, with all model parameters fixed to ensure deterministic and reproducible outputs. The pipeline identifies both explicitly named theories and implicitly inferred conceptual frameworks, assesses how well stated hypotheses are grounded in theory, and evaluates the extent to which authors re-engage with their theoretical framework in the discussion section.
 
 **Model:** `r cfg$model$name` | **Temperature:** `r cfg$model$temperature` | **Seed:** `r cfg$model$seed` | **Prompt version:** `r cfg$prompt$version`
 
@@ -305,13 +319,13 @@ results_df |>
 
 # Section 3: Theory Frequency Tables
 
-**Methods.** All extracted theory names were passed through a normalisation step that standardises common variant spellings to a canonical form (e.g., "Self Determination Theory", "SDT", and "self-determination theory" are all mapped to "Self-Determination Theory"). Theories are then counted across the corpus. For explicit theories, an example sentence from the corpus is included to illustrate how the theory is typically invoked. For implicit theories, the model's justification — the specific language in the text that implied the framework — is shown.
+**Methods.** All extracted theory names were passed through a normalisation step that standardises common variant spellings to a canonical form (e.g., "Self Determination Theory", "SDT", and "self-determination theory" are all mapped to "Self-Determination Theory"). Theories are then counted across the sample. For explicit theories, an example sentence from the sample is included to illustrate how the theory is typically invoked. For implicit theories, the model's justification — the specific language in the text that implied the framework — is shown.
 
 **How to read this section.** High counts indicate theoretically prominent frameworks in this literature. The example context column shows how the theory was used, not a definition of the theory. Consult Section 9 (Theory Database) for formal definitions. The operational/contextual columns (where present) show how often each theory is actually tested versus merely cited.
 
 ## 3a: Explicit Theories
 
-Theories directly named in the article text, ordered by frequency of appearance across the corpus.
+Theories directly named in the article text, ordered by frequency of appearance across the sample.
 
 ```{r explicit-table}
 explicit_flat <- filter(flat, theory_type == "explicit", !is.na(name), nzchar(name))
@@ -326,7 +340,7 @@ if (nrow(explicit_flat) == 0) {
     left_join(explicit_flat |> group_by(name) |>
                 summarise(avg_confidence = round(mean(confidence, na.rm=TRUE), 2), .groups="drop"),
               by = "name") |>
-    left_join(tibble(name = unique_exp, `Example sentence from corpus` = context_map), by = "name") |>
+    left_join(tibble(name = unique_exp, `Example sentence from sample` = context_map), by = "name") |>
     rename(`Theory name` = name, `Times cited` = n, `Mean confidence` = avg_confidence)
 
   if (has_v2) {
@@ -336,8 +350,8 @@ if (nrow(explicit_flat) == 0) {
     tbl <- left_join(tbl, rename(op, `Theory name` = name), by = "Theory name")
   }
   tbl |>
-    kable(caption = "Explicit theories — frequency and usage across the corpus") |>
-    kable_styling(bootstrap_options = c("striped","hover")) |>
+    kable(caption = "Explicit theories — frequency and usage across the sample") |>
+    kable_styling(full_width = TRUE, bootstrap_options = c("striped","hover")) |>
     column_spec(ncol(tbl), width = "35em")
 }
 ```
@@ -347,21 +361,28 @@ if (nrow(explicit_flat) == 0) {
 Conceptual frameworks inferred by the model from the language of the introduction, even where no theory is formally named.
 
 ```{r implicit-table}
-implicit_flat <- filter(flat, theory_type == "implicit", !is.na(name), nzchar(name))
+# Filter: confidence >= 0.5 removes noise (exercise modalities, named individuals etc.)
+implicit_flat <- filter(flat, theory_type == "implicit", !is.na(name), nzchar(name),
+                        is.na(confidence) | confidence >= 0.5)
 if (nrow(implicit_flat) == 0) {
-  cat("No implicit theories found.")
+  cat("No implicit theories found (after confidence filter ≥ 0.5).")
 } else {
   implicit_flat |>
     count(name, sort = TRUE) |>
     left_join(implicit_flat |> group_by(name) |>
-                summarise(avg_confidence = round(mean(confidence, na.rm=TRUE), 2),
-                          example_justification = first(justification[!is.na(justification)]),
-                          .groups = "drop"), by = "name") |>
+                summarise(
+                  avg_confidence = round(mean(confidence, na.rm = TRUE), 2),
+                  # justification = tested_prediction for operational; show role otherwise
+                  example_justification = {
+                    j <- first(tested_prediction[!is.na(tested_prediction) & nzchar(tested_prediction)])
+                    if (is.na(j)) first(role[!is.na(role)]) else j
+                  },
+                  .groups = "drop"), by = "name") |>
     rename(`Inferred framework` = name, `Times inferred` = n,
            `Mean confidence` = avg_confidence,
-           `Example justification (language that implied this framework)` = example_justification) |>
-    kable(caption = "Implicit theories — inferred frameworks and the language that implied them") |>
-    kable_styling(bootstrap_options = c("striped","hover")) |>
+           `Tested prediction or role` = example_justification) |>
+    kable(caption = "Implicit theories (confidence ≥ 0.5) — inferred frameworks, frequency, and tested prediction where available") |>
+    kable_styling(full_width = TRUE, bootstrap_options = c("striped","hover")) |>
     column_spec(4, width = "40em")
 }
 ```
@@ -436,15 +457,26 @@ if (nrow(flat) == 0) {
 } else {
   flat |>
     arrange(article_id, theory_type, name) |>
-    mutate(confidence    = round(confidence, 2),
-           justification = ifelse(theory_type == "implicit" & !is.na(justification),
-                                  str_trunc(justification, 120), NA_character_)) |>
-    select(`Article` = article_id, `Theory` = name, `Type` = theory_type,
-           `Role` = role, `Confidence` = confidence,
-           `Justification (implicit theories only)` = justification) |>
+    mutate(
+      confidence = round(confidence, 2),
+      # For implicit theories show tested_prediction; for explicit show nothing
+      context_note = case_when(
+        theory_type == "implicit" & !is.na(tested_prediction) & nzchar(tested_prediction) ~
+          str_trunc(tested_prediction, 140),
+        theory_type == "implicit" & !is.na(justification) & nzchar(justification) ~
+          str_trunc(justification, 140),
+        TRUE ~ NA_character_
+      )
+    ) |>
+    select(`Article`    = article_id,
+           `Theory`     = name,
+           `Detected`   = theory_type,
+           `Role`       = role,
+           `Conf.`      = confidence,
+           `Prediction / context (implicit)` = context_note) |>
     kable(caption = "Complete paper × theory mapping — every theory extracted from every article") |>
-    kable_styling(bootstrap_options = c("striped","hover","condensed")) |>
-    column_spec(6, width = "30em")
+    kable_styling(full_width = TRUE, bootstrap_options = c("striped","hover","condensed")) |>
+    column_spec(6, width = "32em")
 }
 ```
 
@@ -504,17 +536,18 @@ hyp_df |>
 ```{r hyp-detail-table, eval=!is.null(hyp_flat)}
 hyp_flat |>
   arrange(article_id) |>
-  mutate(linkage_explanation = str_trunc(linkage_explanation, 140),
-         hypothesis_text     = str_trunc(hypothesis_text, 160)) |>
+  mutate(linkage_explanation = str_trunc(linkage_explanation, 160),
+         hypothesis_text     = str_trunc(hypothesis_text, 180)) |>
   select(`Article`          = article_id,
          `Hypothesis`       = hypothesis_text,
          `Linked theory`    = linked_theory,
-         `Linkage strength` = linkage_strength,
+         `Linkage`          = linkage_strength,
+         `Inference`        = inference_type,
          `Explanation`      = linkage_explanation) |>
   kable(caption = "All hypotheses — text, linked theory, and strength of theoretical grounding") |>
-  kable_styling(bootstrap_options = c("striped","hover","condensed")) |>
-  column_spec(2, width = "25em") |>
-  column_spec(5, width = "25em")
+  kable_styling(full_width = TRUE, bootstrap_options = c("striped","hover","condensed")) |>
+  column_spec(2, width = "24em") |>
+  column_spec(6, width = "24em")
 ```
 
 ## 5b: Inference Type
@@ -538,7 +571,7 @@ hyp_flat |>
   ) |>
   arrange(match(inference_type, c("derived","consistent","abductive","motivated","none"))) |>
   rename(`Inference type` = inference_type, Count = n) |>
-  kable(caption = "Inference type — the logical relationship between theories and hypotheses across the corpus") |>
+  kable(caption = "Inference type — the logical relationship between theories and hypotheses across the sample") |>
   kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover"))
 ```
 
@@ -624,8 +657,7 @@ disc_df |>
 disc_df |>
   filter(!disc_error) |>
   arrange(disc_reengagement, article_id) |>
-  mutate(disc_evidence         = str_trunc(disc_evidence, 160),
-         disc_overclaim_detail = str_trunc(disc_overclaim_detail, 120)) |>
+  mutate(disc_evidence = str_trunc(disc_evidence, 180)) |>
   select(`Article`          = article_id,
          `Re-engagement`    = disc_reengagement,
          `Quality`          = disc_quality,
@@ -633,9 +665,9 @@ disc_df |>
          `Overclaim?`       = disc_overclaim,
          `Overclaim detail` = disc_overclaim_detail) |>
   kable(caption = "Discussion analysis — article-level detail") |>
-  kable_styling(bootstrap_options = c("striped","hover","condensed")) |>
-  column_spec(4, width = "28em") |>
-  column_spec(6, width = "22em")
+  kable_styling(full_width = TRUE, bootstrap_options = c("striped","hover","condensed")) |>
+  column_spec(4, width = "26em") |>
+  column_spec(6, width = "28em")
 ```
 
 ## 6b: Null Result Handling
@@ -866,7 +898,7 @@ hyp_df |>
          `Re-engagement`        = disc_reengagement,
          `Overclaim`            = disc_overclaim) |>
   kable(caption = "Full theory chain per article: Introduction → Hypothesis → Discussion") |>
-  kable_styling(bootstrap_options = c("striped","hover","condensed")) |>
+  kable_styling(full_width = TRUE, bootstrap_options = c("striped","hover","condensed")) |>
   column_spec(3, width = "22em")
 ```
 
@@ -885,7 +917,7 @@ hyp_df |>
 | No overclaiming | No overclaims detected | Overclaiming detected |
 | Construct validity | Methods aligned to theory | Partial, misaligned, or unclear |
 
-**How to read this section.** A TQI of 1.0 (6/6) indicates a study that named a theory, used it to generate a prediction, grounded its hypotheses in that theory, operationalised the correct constructs in its methods, returned to the theory in the discussion, and made no unsupported claims. A TQI of 0.0 indicates failure at all criteria. The distribution across the corpus reveals the overall state of theoretical rigour in the literature.
+**How to read this section.** A TQI of 1.0 (6/6) indicates a study that named a theory, used it to generate a prediction, grounded its hypotheses in that theory, operationalised the correct constructs in its methods, returned to the theory in the discussion, and made no unsupported claims. A TQI of 0.0 indicates failure at all criteria. The distribution across the sample reveals the overall state of theoretical rigour in the literature.
 
 ```{r tqi, eval=!is.null(hyp_df) && !is.null(disc_df)}
 tqi <- results_df |>
@@ -962,7 +994,7 @@ tqi |>
   )) |>
   mutate(TQI = round(TQI, 2)) |>
   kable(caption = "Theory Quality Index per article — 1 = criterion met, 0 = criterion not met, NA = data unavailable") |>
-  kable_styling(bootstrap_options = c("striped","hover","condensed"))
+  kable_styling(full_width = TRUE, bootstrap_options = c("striped","hover","condensed"))
 ```
 
 ---
@@ -1001,9 +1033,9 @@ if (nrow(kwic_df) == 0) {
 
 # Section 9: Theory Database
 
-**Methods.** As theories were extracted from the corpus, they were matched against a curated database of established theoretical frameworks. The database stores a canonical name, known aliases, domain, original authors, year proposed, a formal definition, the boundaries of the theory (what it covers and what it does not), and an example of how it is used in sports science research. New theories not yet in the database are added as stubs and flagged for manual completion. This database is designed to grow over time and may eventually serve as a reference tool for researchers selecting theoretical frameworks for new studies.
+**Methods.** As theories were extracted from the sample, they were matched against a curated database of established theoretical frameworks. The database stores a canonical name, known aliases, domain, original authors, year proposed, a formal definition, the boundaries of the theory (what it covers and what it does not), and an example of how it is used in sports science research. New theories not yet in the database are added as stubs and flagged for manual completion. This database is designed to grow over time and may eventually serve as a reference tool for researchers selecting theoretical frameworks for new studies.
 
-**How to read this section.** Each row is one theoretical framework. The Definition column states what the theory proposes. The Boundaries column is particularly important — it clarifies what the theory can and cannot explain, which is relevant for assessing whether it has been applied appropriately in the articles reviewed. Entries marked STUB have been identified in the corpus but not yet formally defined.
+**How to read this section.** Each row is one theoretical framework. The Definition column states what the theory proposes. The Boundaries column is particularly important — it clarifies what the theory can and cannot explain, which is relevant for assessing whether it has been applied appropriately in the articles reviewed. Entries marked STUB have been identified in the sample but not yet formally defined.
 
 ```{r theory-db, eval=!is.null(theory_db)}
 db_display <- theory_db |>
