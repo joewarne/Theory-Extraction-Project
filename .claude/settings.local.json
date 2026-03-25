@@ -30,7 +30,12 @@
       "WebFetch(domain:cjvanlissa.github.io)",
       "WebFetch(domain:cran.r-project.org)",
       "WebFetch(domain:aaronpeikert.github.io)",
-      "Bash(Rscript -e \":*)"
+      "Bash(Rscript -e \":*)",
+      "Bash(Rscript -e \"cat\\(''Theory extraction flat CSV columns:\\\\n''\\); flat <- read.csv\\(''theory_extraction_results.csv''\\); print\\(names\\(flat\\)\\); cat\\(''\\\\n---\\\\n''\\); cat\\(''Hypothesis extraction CSV columns:\\\\n''\\); hyp <- read.csv\\(''hypothesis_extraction_results.csv''\\); print\\(names\\(hyp\\)\\); cat\\(''\\\\n---\\\\n''\\); cat\\(''Discussion extraction CSV columns:\\\\n''\\); disc <- read.csv\\(''discussion_extraction_results.csv''\\); print\\(names\\(disc\\)\\)\")",
+      "Bash(python3:*)",
+      "Bash(wc -l \"/d/Dropbox/Data Replication Centre/Theory Extraction Project/\"*.csv)",
+      "Bash(ls -lah \"/d/Dropbox/Data Replication Centre/Theory Extraction Project/\"*.Rds)",
+      "Bash(ls \"d:/Dropbox/Data Replication Centre/Theory Extraction Project/\"*.Rds)"
     ]
   }
 }

@@ -58,18 +58,22 @@ disc_df    <- if (file.exists(here("discussion_extraction_full.Rds")))
                 readRDS(here("discussion_extraction_full.Rds")) else NULL
 theory_db  <- if (file.exists(here("theory_database.csv")))
                 read_csv(here("theory_database.csv"), show_col_types = FALSE) else NULL
+meth_df    <- if (file.exists(here("methods_extraction_full.Rds")))
+                readRDS(here("methods_extraction_full.Rds")) else NULL
 
 # Backward compatibility: flatten_results() v4 renamed theory_type → detection_type
 if ("detection_type" %in% names(flat) && !"theory_type" %in% names(flat))
   flat <- rename(flat, theory_type = detection_type)
 
 # Derived counts used across sections
-n_articles     <- nrow(results_df)
-n_theories     <- nrow(flat)
-n_explicit     <- sum(flat$theory_type == "explicit", na.rm = TRUE)
-n_implicit     <- sum(flat$theory_type == "implicit", na.rm = TRUE)
-has_v3         <- "prediction_strength" %in% names(flat)
-has_role       <- "role" %in% names(flat)
+n_articles        <- nrow(results_df)
+n_theories        <- nrow(flat)
+n_explicit        <- sum(flat$theory_type == "explicit", na.rm = TRUE)
+n_implicit        <- sum(flat$theory_type == "implicit", na.rm = TRUE)
+has_v3            <- "prediction_strength" %in% names(flat)
+has_role          <- "role" %in% names(flat)
+has_framework_type <- "theory_framework_type" %in% names(flat)
+has_meth          <- !is.null(meth_df) && "meth_cv_alignment" %in% names(meth_df)
 n_operational  <- if (has_role) sum(flat$role == "operational", na.rm = TRUE) else NA_integer_
 n_contextual   <- if (has_role) sum(flat$role == "contextual",  na.rm = TRUE) else NA_integer_
 pct_op         <- if (has_role && n_theories > 0)
@@ -84,8 +88,9 @@ pct_hyp_strong <- if (!is.null(hyp_df))
 n_disc_full    <- if (!is.null(disc_df)) sum(disc_df$disc_reengagement == "full",    na.rm = TRUE) else NA
 n_disc_partial <- if (!is.null(disc_df)) sum(disc_df$disc_reengagement == "partial", na.rm = TRUE) else NA
 n_disc_absent  <- if (!is.null(disc_df)) sum(disc_df$disc_reengagement == "absent",  na.rm = TRUE) else NA
+n_disc_valid   <- if (!is.null(disc_df)) sum(!disc_df$disc_error, na.rm = TRUE) else NA
 pct_disc_full  <- if (!is.null(disc_df))
-                    round(n_disc_full / sum(!disc_df$disc_error, na.rm = TRUE) * 100) else NA
+                    round(n_disc_full / n_disc_valid * 100) else NA
 n_overclaim    <- if (!is.null(disc_df)) sum(disc_df$disc_overclaim, na.rm = TRUE) else NA
 ```
 
@@ -95,7 +100,7 @@ n_overclaim    <- if (!is.null(disc_df)) sum(disc_df$disc_overclaim, na.rm = TRU
 
 **Objective.** To conduct a large-scale computational audit of theory use across a sample of applied sports science research, examining: (i) the prevalence and classification of explicit and implicit theoretical frameworks; (ii) the functional role of each theory (operational versus contextual); (iii) the logical strength of the connection between stated theories and tested hypotheses; and (iv) the degree to which authors re-engage with their theoretical framework when interpreting results in the discussion section.
 
-**Methods.** We developed a reproducible automated extraction pipeline using a locally hosted large language model (LLM; Llama 3, accessed via Ollama) operating at zero temperature to ensure deterministic output. Introduction and discussion sections from `r n_articles` applied sports science research articles were extracted using GROBID machine learning-based document parsing. Three sequential structured LLM extraction passes were applied to each article: theory extraction (identifying and classifying theoretical frameworks), hypothesis extraction (identifying predictions and assessing their theoretical grounding), and discussion analysis (assessing theory re-engagement and handling of null results). All prompt templates and model parameters are publicly archived for reproducibility.
+**Methods.** We developed a reproducible automated extraction pipeline using a locally hosted large language model (LLM; Qwen 2.5, 7B parameter model, accessed via Ollama) operating at zero temperature to ensure deterministic output. Introduction, discussion, and methods sections from `r n_articles` applied sports science research articles were extracted using GROBID machine learning-based document parsing. Four sequential structured LLM extraction passes were applied to each article: theory extraction (identifying and classifying theoretical frameworks including their epistemological type), hypothesis extraction (identifying predictions and assessing their theoretical grounding and inference structure), discussion analysis (assessing theory re-engagement, null result handling, and theory revision signals), and construct validity analysis (assessing alignment between theoretical constructs and operationalisation choices in the methods section). All prompt templates and model parameters are publicly archived for reproducibility.
 
 **Results.** A total of `r n_theories` theoretical framework instances were identified across `r n_articles` articles (mean = `r round(n_theories/n_articles, 1)` theories per article), of which `r n_explicit` (`r round(n_explicit/n_theories*100)`%) were explicitly named and `r n_implicit` (`r round(n_implicit/n_theories*100)`%) were inferred implicitly from conceptual language. `r if(!is.na(pct_op)) paste0("Only ", pct_op, "% of identified theories were classified as operational — directly generating a specific testable prediction in the study.")` `r if(!is.na(pct_hyp_strong)) paste0("Strong hypothesis-theory alignment, where all hypotheses were theoretically grounded, was observed in only ", pct_hyp_strong, "% of articles.")` `r if(!is.na(pct_disc_full)) paste0("Full re-engagement with theoretical frameworks in the discussion was evident in ", pct_disc_full, "% of articles.")`
 
@@ -191,43 +196,56 @@ Articles where GROBID failed to identify an introduction section, or where the e
 
 ## LLM Extraction Pipeline
 
-All LLM extraction was performed using Llama 3 (8B parameter model; Meta AI, 2024), accessed via the Ollama framework (v0.1.x) through a locally hosted REST API at `http://localhost:11434/api/generate`. No cloud-based APIs were used at any stage. All model parameters were fixed to ensure deterministic, reproducible outputs: temperature = 0, top_p = 1, top_k = 1, seed = 42. Under these settings, the model produces identical output for identical input, satisfying the reproducibility requirements of computational reproducible research (Peng, 2011).
+All LLM extraction was performed using Qwen 2.5 (7B parameter model; Alibaba Cloud, 2024), accessed via the Ollama framework through a locally hosted REST API at `http://localhost:11434/api/generate`. Qwen 2.5 was selected over earlier-generation 8B models (e.g., Llama 3) on the basis of superior instruction-following performance and structured JSON output reliability, particularly for the nuanced epistemological classification tasks introduced in v4 of the prompt templates (theory type, inference structure, construct validity). No cloud-based APIs were used at any stage. All model parameters were fixed to ensure deterministic, reproducible outputs: temperature = 0, top_p = 1, top_k = 1, seed = 42. Under these settings, the model produces identical output for identical input, satisfying the reproducibility requirements of computational reproducible research (Peng, 2011).
 
 Prompts were designed following structured output engineering principles, instructing the model to act as a research methodologist and return ONLY valid JSON matching a pre-specified schema. A robust JSON parsing function was applied to all model responses, with automatic extraction of JSON objects from within free-text responses to handle cases where the model prepended natural language preamble to the JSON output. The complete prompt templates and extraction code are publicly available \[*repository URL*\].
 
 ### Pass 1: Theory Extraction
 
-Each article's introduction was passed to the LLM with a structured prompt (version 3) instructing it to identify theoretical frameworks and classify each on four dimensions:
+Each article's introduction was passed to the LLM with a structured prompt (version 4) instructing it to identify theoretical frameworks and classify each on six dimensions:
 
 -   **Type**: *explicit* (named in text) or *implicit* (inferred from conceptual language)
 -   **Role**: *operational* (directly generates the tested prediction) or *contextual* (background/framing)
+-   **Theory type**: *causal* (posits a directional mechanism between variables), *taxonomic* (classifies phenomena without specifying causation), *mathematical* (expresses relationships in formal quantitative terms), or *paradigm* (a broad orienting framework not directly testable)
 -   **Prediction strength**: *strong* (directional AND quantitatively constrained or mechanistically specific), *moderate* (directional with specified conditions), or *weak* (directional only, no constraint beyond direction)
+-   **Boundary conditions**: whether the study population and setting fall *within*, *outside*, or *unclear* relative to the theory's stated scope conditions
 -   **Rival theories acknowledged**: whether the introduction explicitly reasons against alternative theoretical accounts
 
-The model also assigned an overall *theoretical basis quality* to each article (*strong*, *weak*, or *absent*) based on whether any identified theory generated a prediction of at least moderate strength.
+The model also assessed **multi-theory coherence** where multiple frameworks were identified (*complementary*, *redundant*, *contradictory*, or *unassessed*), and whether studies appeared *intended as atheoretical*. The model assigned an overall *theoretical basis quality* to each article (*strong*, *weak*, or *absent*) based on whether any identified theory generated a prediction of at least moderate strength.
 
-Physiological mechanisms (e.g., ATP resynthesis, oxygen kinetics), named individuals without associated theories, measurement tools, and intervention protocols were explicitly excluded from the theory category via prompt instruction. Model confidence scores were calibrated to reflect certainty that a framework qualifies as a theory under the definition used, with explicitly named established theories anchored at ≥ 0.85.
+Physiological mechanisms (e.g., ATP resynthesis, oxygen kinetics), named individuals without associated theories, measurement tools, and intervention protocols were explicitly excluded from the theory category via prompt instruction. Model confidence scores were calibrated to reflect certainty that a framework qualifies as a theory under the definition used, with explicitly named established theories anchored at ≥ 0.85. Critically, only causal and mathematical theories were expected to support hypothetico-deductive inference; taxonomic frameworks were not penalised for low prediction strength, as generating directional predictions is not their epistemological function.
 
 ### Pass 2: Hypothesis Extraction
 
-Each article's introduction, together with the list of theories and their tested predictions extracted in Pass 1, was passed to a second LLM prompt (version 2) instructing the model to identify explicit hypotheses or directional predictions. For each hypothesis, the model assessed:
+Each article's introduction, together with the list of theories and their tested predictions extracted in Pass 1, was passed to a second LLM prompt (version 3) instructing the model to identify explicit hypotheses or directional predictions. For each hypothesis, the model assessed:
 
 -   **Linkage strength**: *explicit* (hypothesis attributed to theory in text), *implicit* (connection implied but unstated), or *none* (no theoretical grounding)
--   **Inference type**: *derived* (hypothesis follows deductively from theory's core claims), *consistent* (compatible with theory but also with other accounts), *motivated* (theory inspired but does not logically entail the hypothesis), or *none*
+-   **Inference type**: *derived* (hypothesis follows deductively from theory's core claims), *consistent* (compatible with theory but also with other accounts), *abductive* (hypothesis emerged from practical observation first, with theory invoked post-hoc to provide mechanistic framing), *motivated* (theory cited rhetorically without logical entailment), or *none*
 -   **Mechanism specified**: whether the introduction explains the causal mechanism by which the independent variable produces the outcome, and if so, what that mechanism is
 
-An overall *hypothesis-theory alignment* quality was assigned to each article (*strong*, *partial*, or *absent*).
+The addition of *abductive* as a distinct inference type reflects a key epistemological pattern common in applied sports science: researchers observe a practical effect in the field, and subsequently draw on theoretical frameworks to lend mechanistic credibility. This is structurally distinct from both deductive derivation and mere theoretical consistency (Steele, 2024). An overall *hypothesis-theory alignment* quality was assigned to each article (*strong*, *partial*, or *absent*).
 
 ### Pass 3: Discussion Analysis
 
-Each article's discussion section, together with the theory list and tested predictions from Pass 1, was passed to a third LLM prompt (version 2) assessing:
+Each article's discussion section, together with the theory list and tested predictions from Pass 1, was passed to a third LLM prompt (version 3) assessing:
 
 -   **Theory re-engagement**: *full* (results interpreted in terms of theory's broader mechanisms and implications), *partial* (theory mentioned but results interpreted only at hypothesis level), or *absent* (theory not referenced in discussion)
+-   **Theory revision signal**: *none* (results simply accepted), *refined* (theory boundaries or conditions updated), *partially disconfirming* (partial challenge to the theory acknowledged), or *new prediction generated* (findings motivate a novel theoretical claim)
 -   **Null result handling**: *accepted as disconfirming*, *auxiliary hypothesis* (null explained by new, untested assumption), *methodological artefact* (attributed to design limitations), *not addressed*, or *not applicable* (all predictions supported)
 -   **Study positioning**: *novel prediction*, *replication*, *extension*, *boundary test*, or *unclear*
 -   **Overclaiming**: whether the discussion makes claims beyond what the hypothesis test can support
 
-An overall *discussion quality* was assigned to each article (*strong*, *adequate*, or *weak*).
+The *theory revision signal* variable was added to operationalise Lakatos's (1978) distinction between progressive research programmes (where anomalies prompt theory refinement or new predictions) and degenerative ones (where anomalies are absorbed without theoretical modification). An overall *discussion quality* was assigned to each article (*strong*, *adequate*, or *weak*); a *strong* rating required evidence of an explicit revision signal (refined or better), not merely re-engagement with the theory.
+
+### Pass 4: Construct Validity Analysis
+
+Each article's methods section was passed to a fourth LLM prompt (version 1) assessing the degree of alignment between the theoretical constructs identified in Pass 1 and the operationalisation choices made in the study. For each article, the model assessed:
+
+-   **Construct validity alignment**: *aligned* (measures directly target the theoretical construct), *partial* (measures partially capture the construct but with notable gaps), *misaligned* (measures operationalise a related but distinct construct), or *unclear* (insufficient information to judge)
+-   **Mechanism operationalisation**: *mechanism measured* (the theoretical mechanism itself is directly measured), *endpoints only* (only the predicted outcome is measured, not the intervening mechanism), or *not applicable* (theory does not specify a measurable mechanism)
+-   **Population boundary fit**: whether the sample population falls within the boundary conditions specified or implied by the theory
+
+This pass operationalises the construct validity problem described by Borsboom, Mellenbergh, and van Heerden (2004): a test of a theoretical prediction is only informative to the extent that the measured variables faithfully represent the theoretical constructs. Studies that test only distal endpoints — without measuring the mechanism the theory specifies — provide weak evidential leverage regardless of their statistical power.
 
 ## Theory Database
 
@@ -243,7 +261,7 @@ Extracted theory names were passed through a normalisation function that standar
 
 ## Reproducibility
 
-All code, prompt templates, and model configuration files are archived in a public repository \[*URL*\]. The complete R package `sportTheoryAI`, which implements the pipeline described above, is available for independent reproduction of all extraction steps. GROBID version \[*X.X.X*\] and Ollama version \[*X.X.X*\] are logged for each extraction run.
+All code, prompt templates, and model configuration files are archived in a public repository \[*URL*\]. The complete R package `sportTheoryAI`, which implements the four-pass pipeline described above, is available for independent reproduction of all extraction steps. The Qwen 2.5 7B model weights are publicly available via the Ollama model registry (`qwen2.5:7b`), enabling complete local reproduction without cloud dependency. GROBID version \[*X.X.X*\] and Ollama version \[*X.X.X*\] are logged for each extraction run. The fixed random seed (42) and deterministic decoding parameters (temperature = 0, top_k = 1) ensure that re-running the pipeline on the same input will produce byte-identical outputs.
 
 \pagebreak
 
@@ -368,7 +386,8 @@ hyp_flat |>
          Description = case_when(
            inference_type == "derived"    ~ "Hypothesis follows deductively from the theory's core claims",
            inference_type == "consistent" ~ "Hypothesis is compatible with theory but also with other accounts",
-           inference_type == "motivated"  ~ "Theory inspired the research but does not logically entail the hypothesis",
+           inference_type == "abductive"  ~ "Hypothesis emerged from observation first; theory invoked post-hoc for mechanistic framing",
+           inference_type == "motivated"  ~ "Theory cited rhetorically; does not logically entail the hypothesis",
            inference_type == "none"       ~ "No theoretical connection",
            TRUE ~ NA_character_
          )) |>
@@ -386,8 +405,6 @@ n_hyps <- nrow(hyp_flat)
 ## RQ4: Discussion Re-engagement and Null Result Handling
 
 ```{r rq4-overview, eval=!is.null(disc_df)}
-n_disc_valid <- sum(!disc_df$disc_error, na.rm = TRUE)
-
 tibble(
   `Re-engagement level` = c("Full", "Partial", "Absent"),
   Count = c(n_disc_full, n_disc_partial, n_disc_absent),
@@ -480,7 +497,7 @@ The low rate of mechanism specification — `r if(!is.null(hyp_flat) && "mechani
 
 ## Discussion Re-engagement and the Abandonment Pattern
 
-`` `r if (!is.na(pct_disc_full) & !is.na(n_disc_absent)) paste0("Full re-engagement with theoretical frameworks in the discussion was observed in only ", pct_disc_full, "% of articles. ")` ``  This "abandonment pattern" — cite theory in the introduction, not in the discussion — is particularly revealing because it suggests that for many authors, theory serves a primarily social function in academic writing (signalling membership in a theoretical community and satisfying reviewer expectations) rather than a logical one (constraining the inference from data to conclusion).
+`r if (!is.na(pct_disc_full) & !is.na(n_disc_absent)) paste0("Full re-engagement with theoretical frameworks in the discussion was observed in only ", pct_disc_full, "% of articles. ")` This "abandonment pattern" — cite theory in the introduction, not in the discussion — is particularly revealing because it suggests that for many authors, theory serves a primarily social function in academic writing (signalling membership in a theoretical community and satisfying reviewer expectations) rather than a logical one (constraining the inference from data to conclusion).
 
 The pattern of null result handling is similarly revealing from a Lakatosian perspective. The proportion of null results explained through auxiliary hypotheses — new assumptions invoked after the fact to protect the theoretical hard core from falsification — indicates the prevalence of what Lakatos called protective belt manoeuvres. When every null result is attributed to an unmeasured moderator or a methodological limitation, the theory becomes unfalsifiable in practice, even if its individual predictions are directional and specific. A field in which no result ever counts against the theory is not testing it.
 
