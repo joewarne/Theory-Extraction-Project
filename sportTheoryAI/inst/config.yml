@@ -1,72 +1,48 @@
 # sportTheoryAI configuration
-# Edit model.name to switch models. Do not change reproducibility parameters.
+# Backends: "deepseek", "claude", "kimi"
+# Set with: options(sportTheoryAI.backend = "deepseek")
 
-ollama:
-  base_url: "http://localhost:11434"
-  endpoint: "/api/generate"
-  timeout_seconds: 120
+# Claude API backend configuration
+# Activated with: options(sportTheoryAI.backend = "claude")
+claude:
+  model: "claude-sonnet-4-6"
+  max_tokens: 4096
+  temperature: 0
+  timeout_seconds: 180
+  api_version: "2023-06-01"
+  # v5 prompts are Claude-optimised with system/user separation
+  prompts:
+    theory_extraction: "theory_extraction_v5_claude.txt"
+    hypothesis_extraction: "hypothesis_extraction_v5_claude.txt"
+    discussion_analysis: "discussion_analysis_v5_claude.txt"
+    methods_extraction: "methods_extraction_v5_claude.txt"
 
-model:
-  name: "qwen2.5:7b"      # upgraded from llama3 (8B); 14b exceeded GPU VRAM
-  temperature: 0          # FIXED — do not change for reproducibility
-  top_p: 1                # FIXED — do not change for reproducibility
-  top_k: 1                # FIXED — do not change for reproducibility
-  seed: 42                # FIXED — ensures deterministic generation
-  num_predict: 4096       # max tokens in response — increased for qwen2.5 verbosity
-  num_ctx: 8192           # context window — needed for long intro + theory list prompts
+# Kimi (Moonshot AI) backend configuration
+# Activated with: options(sportTheoryAI.backend = "kimi")
+kimi:
+  model: "moonshot-v1-32k"
+  max_tokens: 4096
+  temperature: 0
+  timeout_seconds: 180
+  # Reuses Claude v5 prompts (same system/user delimiter format)
+  prompts:
+    theory_extraction: "theory_extraction_v5_claude.txt"
+    hypothesis_extraction: "hypothesis_extraction_v5_claude.txt"
+    discussion_analysis: "discussion_analysis_v5_claude.txt"
+    methods_extraction: "methods_extraction_v5_claude.txt"
 
-prompts:
-  # v1: original — extracts explicit/implicit theories (primary/secondary role)
-  theory_extraction_v1: "theory_extraction_v1.txt"
-
-  # v2: adds operational/contextual classification and tested_prediction
-  theory_extraction_v2: "theory_extraction_v2.txt"
-
-  # v3: adds prediction_strength, rival_theories_acknowledged, calibrated confidence,
-  #     and stricter exclusion criteria (no physiological mechanisms, individuals, etc.)
-  theory_extraction_v3: "theory_extraction_v3.txt"
-
-  # v4: adds theory_type (causal/taxonomic/mathematical/paradigm),
-  #     multi_theory_coherence, boundary_conditions_met, intended_as_atheoretical
-  theory_extraction_v4: "theory_extraction_v4.txt"
-
-  # default used by extract_theory() and build_prompt()
-  default_theory_extraction: "theory_extraction_v4.txt"
-
-  # hypothesis extraction v1: finds hypotheses and links them to theories
-  hypothesis_extraction_v1: "hypothesis_extraction_v1.txt"
-
-  # hypothesis extraction v2: adds inference_type (derived/consistent/motivated),
-  #   mechanism_specified, mechanism_description, tested_predictions context
-  hypothesis_extraction_v2: "hypothesis_extraction_v2.txt"
-
-  # hypothesis extraction v3: adds abductive as fourth inference_type
-  hypothesis_extraction_v3: "hypothesis_extraction_v3.txt"
-
-  # default hypothesis extraction
-  hypothesis_extraction: "hypothesis_extraction_v3.txt"
-
-  # discussion analysis v1: theory re-engagement, overclaiming
-  discussion_analysis_v1: "discussion_analysis_v1.txt"
-
-  # discussion analysis v2: adds null_result_handling, study_positioning,
-  #   passes tested_predictions as context (not just theory names)
-  discussion_analysis_v2: "discussion_analysis_v2.txt"
-
-  # discussion analysis v3: adds theory_revision_signal, theory_revision_detail;
-  #   strong discussion_quality now requires revision signal present
-  discussion_analysis_v3: "discussion_analysis_v3.txt"
-
-  # default discussion analysis
-  discussion_analysis: "discussion_analysis_v3.txt"
-
-  # Pass 4 — construct validity (methods section)
-  methods_extraction: "methods_extraction_v1.txt"
-
-prompt:
-  # kept for backwards compatibility with build_prompt()
-  template_file: "theory_extraction_v4.txt"
-  version: "4.0.0"
+# DeepSeek API backend configuration
+# Activated with: options(sportTheoryAI.backend = "deepseek")
+deepseek:
+  model: "deepseek-chat"      # V3 — best value; use "deepseek-reasoner" for R1
+  max_tokens: 4096
+  temperature: 0
+  timeout_seconds: 180
+  prompts:
+    theory_extraction: "theory_extraction_v5_claude.txt"
+    hypothesis_extraction: "hypothesis_extraction_v5_claude.txt"
+    discussion_analysis: "discussion_analysis_v5_claude.txt"
+    methods_extraction: "methods_extraction_v5_claude.txt"
 
 logging:
   enabled: true

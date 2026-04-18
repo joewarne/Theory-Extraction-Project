@@ -1,13 +1,12 @@
 # =============================================================================
 # 01_setup.R  —  One-time setup for the Theory Extraction Project
 #
-# Run this script ONCE before using 02_pipeline.R for the first time.
-# It installs all required R packages and verifies Ollama is reachable.
+# Run this script ONCE before using any pipeline for the first time.
+# It installs all required R packages and verifies your API key is set.
 #
-# Prerequisites (do these manually before running this script):
-#   1. Install Ollama from https://ollama.com/download
-#   2. In a terminal run:  ollama serve
-#   3. In a second terminal run: ollama pull llama3
+# Pipelines available:
+#   04_pipeline_claude.R   — Anthropic Claude (requires ANTHROPIC_API_KEY)
+#   05_pipeline_deepseek.R — DeepSeek V3      (requires DEEPSEEK_API_KEY)
 # =============================================================================
 
 # ── 1. Install required R packages ───────────────────────────────────────────
@@ -45,74 +44,51 @@ if (length(missing) > 0) {
   message("All required packages already installed.")
 }
 
-# ── 2. Verify Ollama is running ───────────────────────────────────────────────
-
-message("\nChecking Ollama connection...")
-
-ollama_ok <- tryCatch({
-  resp <- httr::GET("http://localhost:11434", httr::timeout(5))
-  httr::status_code(resp) == 200
-}, error = function(e) FALSE)
-
-if (!ollama_ok) {
-  stop(
-    "Cannot reach Ollama at http://localhost:11434.\n",
-    "Open a terminal and run:  ollama serve\n",
-    "Then re-run this script."
-  )
-}
-
-message("Ollama is running.")
-
-# ── 3. Verify the model is available ─────────────────────────────────────────
-
-message("Checking available models...")
-
-models_resp <- httr::GET("http://localhost:11434/api/tags")
-models      <- jsonlite::fromJSON(
-  httr::content(models_resp, as = "text", encoding = "UTF-8")
-)$models$name
-
-if (length(models) == 0) {
-  stop(
-    "No models found in Ollama.\n",
-    "In a terminal run:  ollama pull llama3"
-  )
-}
-
-message("Models available: ", paste(models, collapse = ", "))
-
-# Check that the configured model is present
-config_path <- here::here("sportTheoryAI", "inst", "config.yml")
-cfg         <- yaml::read_yaml(config_path)
-target      <- cfg$model$name
-
-if (!any(grepl(target, models, fixed = TRUE))) {
-  warning(
-    sprintf("Model '%s' not found in Ollama.\n", target),
-    sprintf("Run in a terminal:  ollama pull %s\n", target),
-    sprintf("Or edit sportTheoryAI/inst/config.yml and change model.name to one of: %s",
-            paste(models, collapse = ", "))
-  )
-} else {
-  message(sprintf("Model '%s' is ready.", target))
-}
-
-# ── 4. Source sportTheoryAI functions ─────────────────────────────────────────
-# The package is loaded by sourcing its R files directly (avoids install issues).
+# ── 2. Load sportTheoryAI functions ──────────────────────────────────────────
 
 message("\nLoading sportTheoryAI functions...")
 
 source(here::here("sportTheoryAI", "R", "utils.R"))
 source(here::here("sportTheoryAI", "R", "build_prompt.R"))
+source(here::here("sportTheoryAI", "R", "call_deepseek_api.R"))
+source(here::here("sportTheoryAI", "R", "call_claude_api.R"))
 source(here::here("sportTheoryAI", "R", "call_model.R"))
 source(here::here("sportTheoryAI", "R", "extract_theory.R"))
 
 message("Functions loaded: build_prompt, call_model, extract_theory, batch_extract, flatten_results")
 
-# ── 5. Quick smoke test ───────────────────────────────────────────────────────
+# ── 3. Verify API key ─────────────────────────────────────────────────────────
 
-message("\nRunning smoke test on one sentence...")
+message("\nChecking API keys...")
+
+deepseek_ok  <- nzchar(Sys.getenv("DEEPSEEK_API_KEY"))
+anthropic_ok <- nzchar(Sys.getenv("ANTHROPIC_API_KEY"))
+
+if (deepseek_ok) {
+  message("  DEEPSEEK_API_KEY  : set")
+} else {
+  message("  DEEPSEEK_API_KEY  : NOT SET — run: Sys.setenv(DEEPSEEK_API_KEY = 'sk-...')")
+}
+
+if (anthropic_ok) {
+  message("  ANTHROPIC_API_KEY : set")
+} else {
+  message("  ANTHROPIC_API_KEY : NOT SET — run: Sys.setenv(ANTHROPIC_API_KEY = 'sk-ant-...')")
+}
+
+if (!deepseek_ok && !anthropic_ok) {
+  stop("At least one API key must be set before running a pipeline.")
+}
+
+# ── 4. Quick smoke test ───────────────────────────────────────────────────────
+
+if (deepseek_ok) {
+  message("\nRunning DeepSeek smoke test...")
+  options(sportTheoryAI.backend = "deepseek")
+} else {
+  message("\nRunning Claude smoke test...")
+  options(sportTheoryAI.backend = "claude")
+}
 
 test_result <- extract_theory(
   "This study applies Self-Determination Theory (Deci & Ryan, 1985) to examine
@@ -120,10 +96,11 @@ test_result <- extract_theory(
 )
 
 if (isTRUE(test_result$extraction_error)) {
-  warning("Smoke test failed — model returned an unparseable response. Check Ollama.")
+  warning("Smoke test failed — model returned an unparseable response. Check your API key.")
 } else {
   n_exp <- length(test_result$explicit_theories)
   message(sprintf("Smoke test passed. Explicit theories found: %d", n_exp))
 }
 
-message("\nSetup complete. You can now run 02_pipeline.R")
+message("\nSetup complete.")
+message("Run 05_pipeline_deepseek.R (DeepSeek) or 04_pipeline_claude.R (Claude) to extract theories.")

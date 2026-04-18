@@ -4,6 +4,51 @@ All notable changes to this project are documented here.
 
 ---
 
+## [4.2.0] — 2026-04-01
+
+### Added
+
+**Claude API backend — full optimisation pass**
+- v5 Claude-optimised prompt templates for all 4 extraction passes:
+  - `theory_extraction_v5_claude.txt` — system/user prompt separation, `notes` field per theory and top-level, streamlined guardrails
+  - `hypothesis_extraction_v5_claude.txt` — inference type × theory type consistency rule, `notes` field, `{{THEORY_DETAILS}}` context
+  - `discussion_analysis_v5_claude.txt` — `{{HYPOTHESIS_CONTEXT}}` and `{{THEORY_DETAILS}}` cross-pass context, `notes` field
+  - `methods_extraction_v5_claude.txt` — `{{MECHANISM_CONTEXT}}` from Pass 2, `notes` field
+- All v5 templates use `---SYSTEM/USER---` delimiter: system instructions (persona, definitions, schema) are sent via Claude's `system` parameter; article text sent as `user` message
+- `validate_consistency.R` — new cross-pass consistency validator:
+  - `validate_cross_pass_consistency()` checks 6 logical rules across Passes 1–4
+  - `batch_validate_consistency()` runs validation across all articles
+  - Rules: no-theory → none inference; taxonomic → no derived; contextual → no full re-engagement; no mechanism specified → no mechanism_measured; etc.
+- Claude-specific config block in `config.yml` with model, max_tokens, timeout, and v5 prompt references
+- `PROJECT_REVIEW_CLAUDE_OPTIMISATION.md` — comprehensive 12-point architectural review with implementation priorities
+
+### Changed
+
+- `call_claude_api.R` — major upgrade:
+  - `max_tokens` increased from 1024 to 4096 (prevents silent JSON truncation on complex articles)
+  - System prompt auto-detection: prompts containing `---SYSTEM/USER---` delimiter are automatically split
+  - Retry logic with exponential backoff for rate limits (HTTP 429) and server errors (5xx)
+  - Extended timeout from 120s to 180s for complex articles
+  - Logging now captures `cache_read` tokens, `stop_reason`, exact `model` ID from response, and `system_length`
+- `call_model.R` — Claude path now reads `max_tokens` from `config.yml` `claude` block
+- `build_prompt.R` — auto-selects Claude v5 template when `sportTheoryAI.backend = "claude"`; extracted `.resolve_template_path()` helper for reuse across all extraction functions
+- `extract_hypotheses.R` — Claude backend auto-selects v5 template; passes `{{THEORY_DETAILS}}` context
+- `extract_discussion.R` — new `hypothesis_context` parameter; Claude v5 template passes full Pass 2 context
+- `extract_methods.R` — new `mechanism_context` parameter; Claude v5 template passes mechanism descriptions from Pass 2
+- `.validate_schema()` in `utils.R` — now supports both v1 (explicit/implicit arrays) and v2+/v4/v5 (theories[] array) schemas
+
+### 10-Paper Comparison Results (Claude vs Qwen 2.5 7B)
+
+| Dimension | Qwen 2.5 7B | Claude Sonnet | Assessment |
+|-----------|-------------|---------------|------------|
+| Theory hallucination | ~44% | 0% | Critical gap |
+| Inference type calibration | 80% "motivated" | Balanced distribution | Severe miscalibration |
+| Mechanism specification | 0/10 | 3/10 with pathways | Total blindspot in Qwen |
+| Cross-pass consistency | Frequent contradictions | Coherent | Structural |
+| Atheoretical classification | Inconsistent | 2/2 correct | Reliable |
+
+---
+
 ## [4.1.0] — 2026-03-24
 
 ### Changed

@@ -2,6 +2,8 @@
 title: "Theory Extraction Report"
 subtitle: "Automated identification of theoretical frameworks in sports science research"
 date: today
+params:
+  results_dir: "."
 format:
   html:
     toc: true
@@ -33,18 +35,37 @@ library(dplyr); library(purrr); library(stringr); library(tidyr)
 library(tibble); library(readr); library(knitr); library(kableExtra); library(here)
 
 # ── Load results ───────────────────────────────────────────────────────────────
-results_df <- readRDS(here("theory_extraction_full.Rds"))
-flat       <- read_csv(here("theory_extraction_results.csv"), show_col_types = FALSE)
-hyp_df     <- if (file.exists(here("hypothesis_extraction_full.Rds")))
-                readRDS(here("hypothesis_extraction_full.Rds")) else NULL
-hyp_flat   <- if (file.exists(here("hypothesis_extraction_results.csv")))
-                read_csv(here("hypothesis_extraction_results.csv"), show_col_types = FALSE) else NULL
-disc_df    <- if (file.exists(here("discussion_extraction_full.Rds")))
-                readRDS(here("discussion_extraction_full.Rds")) else NULL
-meth_df    <- if (file.exists(here("methods_extraction_full.Rds")))
-                readRDS(here("methods_extraction_full.Rds")) else NULL
-theory_db  <- if (file.exists(here("theory_database.csv")))
-                read_csv(here("theory_database.csv"), show_col_types = FALSE) else NULL
+# params$results_dir defaults to "." (project root = Ollama run).
+# For Claude run: quarto_render(..., execute_params = list(results_dir = "claude_results"))
+rdir <- if (identical(params$results_dir, ".")) here() else here(params$results_dir)
+
+# Resolve filenames by globbing for any file matching stem*.Rds / stem*.csv
+.rds <- function(stem) {
+  found <- list.files(rdir, pattern = paste0("^", stem, ".*\\.Rds$"),
+                      full.names = TRUE, ignore.case = TRUE)
+  if (length(found) == 0) NULL else found[1]
+}
+.csv <- function(stem) {
+  found <- list.files(rdir, pattern = paste0("^", stem, ".*\\.csv$"),
+                      full.names = TRUE, ignore.case = TRUE)
+  # exclude theory_database files when looking for extraction results
+  found <- found[!grepl("theory_database", found)]
+  if (length(found) == 0) NULL else found[1]
+}
+
+results_df <- readRDS(.rds("theory_extraction"))
+flat       <- read_csv(.csv("theory_extraction"), show_col_types = FALSE)
+hyp_df     <- if (!is.null(.rds("hypothesis_extraction"))) readRDS(.rds("hypothesis_extraction")) else NULL
+hyp_flat   <- if (!is.null(.csv("hypothesis_extraction")))
+                read_csv(.csv("hypothesis_extraction"), show_col_types = FALSE) else NULL
+disc_df    <- if (!is.null(.rds("discussion_extraction"))) readRDS(.rds("discussion_extraction")) else NULL
+meth_df    <- if (!is.null(.rds("methods_extraction")))   readRDS(.rds("methods_extraction"))   else NULL
+theory_db  <- {
+  db_candidates <- list.files(rdir, pattern = "^theory_database.*\\.csv$",
+                               full.names = TRUE, ignore.case = TRUE)
+  if (length(db_candidates) > 0)
+    read_csv(db_candidates[1], show_col_types = FALSE) else NULL
+}
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
 extract_kwic <- function(text, article_id, keyword = "theory", window = 10) {
@@ -111,9 +132,15 @@ cfg       <- yaml::read_yaml(here("sportTheoryAI", "inst", "config.yml"))
 
 ## Overview
 
-This report documents the automated extraction of theoretical frameworks from a sample of applied sports science research articles. Extraction was performed using a locally hosted large language model (LLM) accessed via Ollama, with all model parameters fixed to ensure deterministic and reproducible outputs. The pipeline identifies both explicitly named theories and implicitly inferred conceptual frameworks, assesses how well stated hypotheses are grounded in theory, and evaluates the extent to which authors re-engage with their theoretical framework in the discussion section.
+This report documents the automated extraction of theoretical frameworks from a sample of applied sports science research articles. Extraction was performed using a large language model (LLM) API with temperature fixed at zero to ensure deterministic and reproducible outputs. The pipeline identifies both explicitly named theories and implicitly inferred conceptual frameworks, assesses how well stated hypotheses are grounded in theory, and evaluates the extent to which authors re-engage with their theoretical framework in the discussion section.
 
-**Model:** `r cfg$model$name` | **Temperature:** `r cfg$model$temperature` | **Seed:** `r cfg$model$seed` | **Prompt version:** `r cfg$prompt$version`
+```{r model-line, results="asis"}
+backend <- if (!is.null(cfg$deepseek)) "DeepSeek" else if (!is.null(cfg$claude)) "Claude" else "Unknown"
+model_name <- cfg$deepseek$model %||% cfg$claude$model %||% "unknown"
+temp <- cfg$deepseek$temperature %||% cfg$claude$temperature %||% 0
+cat(sprintf("**Backend:** %s | **Model:** `%s` | **Temperature:** %s",
+            backend, model_name, temp))
+```
 
 ---
 
@@ -654,20 +681,30 @@ disc_df |>
 ```
 
 ```{r disc-detail, eval=!is.null(disc_df)}
-disc_df |>
+disc_tbl <- disc_df |>
   filter(!disc_error) |>
   arrange(disc_reengagement, article_id) |>
   mutate(disc_evidence = str_trunc(disc_evidence, 180)) |>
-  select(`Article`          = article_id,
-         `Re-engagement`    = disc_reengagement,
-         `Quality`          = disc_quality,
-         `Evidence`         = disc_evidence,
-         `Overclaim?`       = disc_overclaim,
-         `Overclaim detail` = disc_overclaim_detail) |>
+  select(`Article`       = article_id,
+         `Re-engagement` = disc_reengagement,
+         `Quality`       = disc_quality,
+         `Evidence`      = disc_evidence,
+         `Overclaim?`    = disc_overclaim)
+
+has_overclaim_detail <- "disc_overclaim_detail" %in% names(disc_df) &&
+  any(!is.na(disc_df$disc_overclaim_detail))
+
+if (has_overclaim_detail) {
+  disc_tbl <- disc_tbl |>
+    mutate(`Overclaim detail` = str_trunc(disc_df$disc_overclaim_detail[!disc_df$disc_error], 180))
+}
+
+k <- disc_tbl |>
   kable(caption = "Discussion analysis — article-level detail") |>
   kable_styling(full_width = TRUE, bootstrap_options = c("striped","hover","condensed")) |>
-  column_spec(4, width = "26em") |>
-  column_spec(6, width = "28em")
+  column_spec(4, width = "26em")
+if (has_overclaim_detail) k <- column_spec(k, 6, width = "28em")
+k
 ```
 
 ## 6b: Null Result Handling

@@ -1,16 +1,12 @@
-#' Send a prompt to a locally hosted Ollama model and return the raw response
+#' Route a prompt to the configured LLM backend and return the raw response
 #'
-#' Posts to the Ollama `/api/generate` endpoint with parameters fixed for
-#' deterministic, reproducible output (`temperature = 0`, `top_p = 1`,
-#' `top_k = 1`, `seed = 42`). These values are read from `inst/config.yml`
-#' and must not be changed between runs to preserve reproducibility.
+#' Dispatches to the Claude or Kimi API based on the
+#' `sportTheoryAI.backend` option. Set the backend with:
+#'   `options(sportTheoryAI.backend = "kimi")` or `"claude"`
 #'
 #' @param prompt Character scalar. The fully assembled prompt (use
 #'   [build_prompt()] to generate this).
-#' @param model Character scalar. Ollama model name. Defaults to the value in
-#'   `inst/config.yml` (e.g. `"llama3"` or `"mistral"`).
-#' @param base_url Character scalar. Ollama server base URL. Defaults to
-#'   `"http://localhost:11434"`.
+#' @param model Character scalar. Model name override (optional).
 #' @param log_file Character scalar or NULL. Path to a `.jsonl` log file.
 #'   `NULL` disables logging regardless of the config setting.
 #'
@@ -20,6 +16,7 @@
 #'
 #' @examples
 #' \dontrun{
+#' options(sportTheoryAI.backend = "kimi")
 #' prompt <- build_prompt("Athletes used Self-Determination Theory to frame...")
 #' raw    <- call_model(prompt)
 #' cat(raw)
@@ -28,83 +25,40 @@
 #' @export
 call_model <- function(prompt,
                        model    = NULL,
-                       base_url = NULL,
                        log_file = NULL) {
 
   if (!is.character(prompt) || length(prompt) != 1L || !nzchar(prompt)) {
     cli::cli_abort("{.arg prompt} must be a non-empty character scalar.")
   }
 
-  cfg <- .get_config()
+  backend <- getOption("sportTheoryAI.backend", default = "kimi")
 
-  model    <- model    %||% cfg$model$name
-  base_url <- base_url %||% cfg$ollama$base_url
-  endpoint <- paste0(base_url, cfg$ollama$endpoint)
-  timeout  <- cfg$ollama$timeout_seconds %||% 120
-
-  body <- list(
-    model  = model,
-    prompt = prompt,
-    stream = FALSE,
-    options = list(
-      temperature = cfg$model$temperature,
-      top_p       = cfg$model$top_p,
-      top_k       = cfg$model$top_k,
-      seed        = cfg$model$seed,
-      num_predict = cfg$model$num_predict,
-      num_ctx     = cfg$model$num_ctx %||% 8192
-    )
-  )
-
-  cli::cli_progress_step("Querying {.val {model}} via Ollama...")
-
-  response <- tryCatch(
-    httr::POST(
-      url     = endpoint,
-      body    = jsonlite::toJSON(body, auto_unbox = TRUE),
-      encode  = "raw",
-      httr::content_type_json(),
-      httr::timeout(timeout)
-    ),
-    error = function(e) {
-      cli::cli_abort(c(
-        "Failed to reach Ollama at {.url {endpoint}}.",
-        "i" = "Is Ollama running? Try: {.code ollama serve}",
-        "x" = conditionMessage(e)
-      ))
-    }
-  )
-
-  if (httr::http_error(response)) {
-    status <- httr::status_code(response)
-    body_txt <- httr::content(response, as = "text", encoding = "UTF-8")
-    cli::cli_abort(c(
-      "Ollama returned HTTP {status}.",
-      "x" = body_txt
-    ))
+  if (identical(backend, "claude")) {
+    claude_model  <- model %||% "claude-sonnet-4-6"
+    claude_cfg    <- tryCatch(.get_config()$claude, error = function(e) NULL)
+    max_tokens    <- claude_cfg$max_tokens %||% 4096L
+    return(call_claude_api(prompt, model = claude_model,
+                           max_tokens = max_tokens, log_file = log_file))
   }
 
-  parsed_response <- httr::content(response, as = "parsed", encoding = "UTF-8")
-  raw_text        <- parsed_response$response
-
-  if (is.null(raw_text) || !nzchar(raw_text)) {
-    cli::cli_abort("Ollama returned an empty response body.")
+  if (identical(backend, "kimi")) {
+    kimi_cfg    <- tryCatch(.get_config()$kimi, error = function(e) NULL)
+    kimi_model  <- model %||% kimi_cfg$model %||% "moonshot-v1-32k"
+    max_tokens  <- kimi_cfg$max_tokens %||% 4096L
+    return(call_kimi_api(prompt, model = kimi_model,
+                         max_tokens = max_tokens, log_file = log_file))
   }
 
-  # Optional logging
-  do_log <- isTRUE(cfg$logging$enabled) && !is.null(log_file)
-  if (do_log) {
-    log_entry <- list(
-      model          = model,
-      prompt_length  = nchar(prompt),
-      response_length = nchar(raw_text),
-      template       = attr(prompt, "template_name") %||% NA_character_
-    )
-    if (isTRUE(cfg$logging$log_prompts)) {
-      log_entry$prompt <- prompt
-    }
-    .write_log(log_entry, log_file)
+  if (identical(backend, "deepseek")) {
+    ds_cfg     <- tryCatch(.get_config()$deepseek, error = function(e) NULL)
+    ds_model   <- model %||% ds_cfg$model %||% "deepseek-chat"
+    max_tokens <- ds_cfg$max_tokens %||% 4096L
+    return(call_deepseek_api(prompt, model = ds_model,
+                             max_tokens = max_tokens, log_file = log_file))
   }
 
-  raw_text
+  cli::cli_abort(c(
+    "Unknown backend: {.val {backend}}",
+    "i" = "Set {.code options(sportTheoryAI.backend = 'kimi')} or {.code 'claude'}"
+  ))
 }

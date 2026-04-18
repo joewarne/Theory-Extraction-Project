@@ -53,11 +53,22 @@
 #' @keywords internal
 #' Validate that a parsed theory object conforms to the expected schema.
 #'
+#' Supports both v1 schema (explicit_theories/implicit_theories) and
+#' v2+/v4 schema (theories[] array with type field).
+#'
 #' @param parsed List. Parsed JSON from model.
 #' @return Invisibly TRUE if valid; emits warnings for schema violations.
 .validate_schema <- function(parsed) {
-  required_keys <- c("explicit_theories", "implicit_theories", "no_theory_present")
-  missing_keys  <- setdiff(required_keys, names(parsed))
+  # v2/v3/v4/v5 schema uses 'theories' array
+
+  if (!is.null(parsed$theories)) {
+    required_keys <- c("theories", "no_theory_present")
+  } else {
+    # v1 schema uses separate explicit/implicit lists
+    required_keys <- c("explicit_theories", "implicit_theories", "no_theory_present")
+  }
+
+  missing_keys <- setdiff(required_keys, names(parsed))
 
   if (length(missing_keys) > 0) {
     cli::cli_warn(c(

@@ -29,19 +29,27 @@
 extract_discussion <- function(text,
                                theories           = character(0),
                                tested_predictions = character(0),
+                               hypothesis_context = NULL,
                                model              = NULL,
                                log_file           = NULL) {
 
   cfg           <- .get_config()
-  template_name <- cfg$prompts$discussion_analysis
-  template_path <- system.file(
-    file.path("prompt_templates", template_name),
-    package = "sportTheoryAI"
-  )
-  if (!nzchar(template_path) || !file.exists(template_path)) {
-    template_path <- here::here("sportTheoryAI", "inst", "prompt_templates", template_name)
+  backend       <- getOption("sportTheoryAI.backend", default = "ollama")
+
+  template_name <- if (identical(backend, "claude") &&
+                       !is.null(cfg$claude$prompts$discussion_analysis)) {
+    cfg$claude$prompts$discussion_analysis
+  } else if (identical(backend, "kimi") &&
+             !is.null(cfg$kimi$prompts$discussion_analysis)) {
+    cfg$kimi$prompts$discussion_analysis
+  } else if (identical(backend, "deepseek") &&
+             !is.null(cfg$deepseek$prompts$discussion_analysis)) {
+    cfg$deepseek$prompts$discussion_analysis
+  } else {
+    cfg$claude$prompts$discussion_analysis
   }
 
+  template_path <- .resolve_template_path(template_name)
   template <- paste(readLines(template_path, encoding = "UTF-8"), collapse = "\n")
 
   theory_list <- if (length(theories) > 0) {
@@ -56,8 +64,14 @@ extract_discussion <- function(text,
     "None identified"
   }
 
+  # v5 templates support additional context from prior passes
+  theory_details <- attr(theories, "details") %||% "Not available"
+  hyp_ctx        <- hypothesis_context %||% "Not available"
+
   prompt <- template |>
-    stringr::str_replace("\\{\\{THEORY_LIST\\}\\}",        theory_list) |>
+    stringr::str_replace("\\{\\{THEORY_LIST\\}\\}",         theory_list) |>
+    stringr::str_replace("\\{\\{THEORY_DETAILS\\}\\}",      theory_details) |>
+    stringr::str_replace("\\{\\{HYPOTHESIS_CONTEXT\\}\\}",  hyp_ctx) |>
     stringr::str_replace("\\{\\{TESTED_PREDICTIONS\\}\\}",  predictions_list) |>
     stringr::str_replace("\\{\\{DISCUSSION_TEXT\\}\\}",     text)
 

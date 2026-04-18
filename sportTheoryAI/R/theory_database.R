@@ -16,10 +16,26 @@ update_theory_database <- function(flat,
                                    db_path = here::here("theory_database.csv")) {
 
   if (!file.exists(db_path)) {
-    cli::cli_abort("Theory database not found at {.path {db_path}}.")
+    cli::cli_inform(c("i" = "No existing database found — creating new one at {.path {db_path}}."))
+    db <- dplyr::tibble(
+      canonical_name           = character(0),
+      aliases                  = character(0),
+      domain                   = character(0),
+      key_authors              = character(0),
+      year_proposed            = integer(0),
+      definition               = character(0),
+      boundaries               = character(0),
+      example_use              = character(0),
+      times_extracted          = integer(0),
+      last_updated             = character(0),
+      theory_type              = character(0),
+      testability_ceiling      = character(0),
+      home_domain              = character(0),
+      cross_domain_application = character(0)
+    )
+  } else {
+    db <- readr::read_csv(db_path, show_col_types = FALSE)
   }
-
-  db <- readr::read_csv(db_path, show_col_types = FALSE)
 
   # Schema migration: add v4 columns if missing
   for (col in c("theory_type", "testability_ceiling", "home_domain", "cross_domain_application")) {
@@ -36,7 +52,7 @@ update_theory_database <- function(flat,
     dplyr::left_join(theory_counts, by = c("canonical_name" = "name")) |>
     dplyr::mutate(
       times_extracted = times_extracted + dplyr::coalesce(run_count, 0L),
-      last_updated    = ifelse(!is.na(run_count), as.character(Sys.Date()), as.character(last_updated))
+      last_updated    = as.character(ifelse(!is.na(run_count), as.character(Sys.Date()), as.character(last_updated)))
     ) |>
     dplyr::select(-run_count)
 

@@ -25,15 +25,23 @@ extract_hypotheses <- function(text,
                                log_file          = NULL) {
 
   cfg           <- .get_config()
-  template_name <- cfg$prompts$hypothesis_extraction
-  template_path <- system.file(
-    file.path("prompt_templates", template_name),
-    package = "sportTheoryAI"
-  )
-  if (!nzchar(template_path) || !file.exists(template_path)) {
-    template_path <- here::here("sportTheoryAI", "inst", "prompt_templates", template_name)
+  backend       <- getOption("sportTheoryAI.backend", default = "ollama")
+
+  # Select v5 template for Claude/Kimi, or standard template
+  template_name <- if (identical(backend, "claude") &&
+                       !is.null(cfg$claude$prompts$hypothesis_extraction)) {
+    cfg$claude$prompts$hypothesis_extraction
+  } else if (identical(backend, "kimi") &&
+             !is.null(cfg$kimi$prompts$hypothesis_extraction)) {
+    cfg$kimi$prompts$hypothesis_extraction
+  } else if (identical(backend, "deepseek") &&
+             !is.null(cfg$deepseek$prompts$hypothesis_extraction)) {
+    cfg$deepseek$prompts$hypothesis_extraction
+  } else {
+    cfg$claude$prompts$hypothesis_extraction
   }
 
+  template_path <- .resolve_template_path(template_name)
   template <- paste(readLines(template_path, encoding = "UTF-8"), collapse = "\n")
 
   theory_list <- if (length(theories) > 0) {
@@ -48,8 +56,12 @@ extract_hypotheses <- function(text,
     "None identified"
   }
 
+  # v5 templates support additional context placeholders
+  theory_details <- attr(theories, "details") %||% "Not available"
+
   prompt <- template |>
     stringr::str_replace("\\{\\{THEORY_LIST\\}\\}",         theory_list) |>
+    stringr::str_replace("\\{\\{THEORY_DETAILS\\}\\}",      theory_details) |>
     stringr::str_replace("\\{\\{TESTED_PREDICTIONS\\}\\}",  predictions_list) |>
     stringr::str_replace("\\{\\{INTRODUCTION_TEXT\\}\\}",   text)
 

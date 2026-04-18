@@ -29,19 +29,27 @@
 extract_methods_validity <- function(text,
                                      theories           = character(0),
                                      tested_predictions = character(0),
+                                     mechanism_context  = NULL,
                                      model              = NULL,
                                      log_file           = NULL) {
 
   cfg           <- .get_config()
-  template_name <- cfg$prompts$methods_extraction %||% "methods_extraction_v1.txt"
-  template_path <- system.file(
-    file.path("prompt_templates", template_name),
-    package = "sportTheoryAI"
-  )
-  if (!nzchar(template_path) || !file.exists(template_path)) {
-    template_path <- here::here("sportTheoryAI", "inst", "prompt_templates", template_name)
+  backend       <- getOption("sportTheoryAI.backend", default = "ollama")
+
+  template_name <- if (identical(backend, "claude") &&
+                       !is.null(cfg$claude$prompts$methods_extraction)) {
+    cfg$claude$prompts$methods_extraction
+  } else if (identical(backend, "kimi") &&
+             !is.null(cfg$kimi$prompts$methods_extraction)) {
+    cfg$kimi$prompts$methods_extraction
+  } else if (identical(backend, "deepseek") &&
+             !is.null(cfg$deepseek$prompts$methods_extraction)) {
+    cfg$deepseek$prompts$methods_extraction
+  } else {
+    cfg$claude$prompts$methods_extraction
   }
 
+  template_path <- .resolve_template_path(template_name)
   template <- paste(readLines(template_path, encoding = "UTF-8"), collapse = "\n")
 
   theory_list <- if (length(theories) > 0 && any(nzchar(theories))) {
@@ -56,9 +64,13 @@ extract_methods_validity <- function(text,
     "None identified"
   }
 
+  # v5 templates support mechanism context from Pass 2
+  mech_ctx <- mechanism_context %||% "Not available"
+
   prompt <- template |>
     stringr::str_replace("\\{\\{THEORY_LIST\\}\\}",        theory_list) |>
     stringr::str_replace("\\{\\{TESTED_PREDICTIONS\\}\\}", predictions_list) |>
+    stringr::str_replace("\\{\\{MECHANISM_CONTEXT\\}\\}",  mech_ctx) |>
     stringr::str_replace("\\{\\{METHODS_TEXT\\}\\}",       text)
 
   raw_text <- call_model(prompt, model = model, log_file = log_file)

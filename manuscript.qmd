@@ -48,18 +48,19 @@ The authors declare no conflicts of interest.
 library(dplyr); library(purrr); library(stringr); library(tidyr)
 library(tibble); library(readr); library(knitr); library(here)
 
-results_df <- readRDS(here("theory_extraction_full.Rds"))
-flat       <- read_csv(here("theory_extraction_results.csv"), show_col_types = FALSE)
-hyp_df     <- if (file.exists(here("hypothesis_extraction_full.Rds")))
-                readRDS(here("hypothesis_extraction_full.Rds")) else NULL
-hyp_flat   <- if (file.exists(here("hypothesis_extraction_results.csv")))
-                read_csv(here("hypothesis_extraction_results.csv"), show_col_types = FALSE) else NULL
-disc_df    <- if (file.exists(here("discussion_extraction_full.Rds")))
-                readRDS(here("discussion_extraction_full.Rds")) else NULL
-theory_db  <- if (file.exists(here("theory_database.csv")))
-                read_csv(here("theory_database.csv"), show_col_types = FALSE) else NULL
-meth_df    <- if (file.exists(here("methods_extraction_full.Rds")))
-                readRDS(here("methods_extraction_full.Rds")) else NULL
+rdir       <- here("deepseek_results")
+results_df <- readRDS(file.path(rdir, "theory_extraction_deepseek.Rds"))
+flat       <- read_csv(file.path(rdir, "theory_extraction_deepseek.csv"), show_col_types = FALSE)
+hyp_df     <- if (file.exists(file.path(rdir, "hypothesis_extraction_deepseek.Rds")))
+                readRDS(file.path(rdir, "hypothesis_extraction_deepseek.Rds")) else NULL
+hyp_flat   <- if (file.exists(file.path(rdir, "hypothesis_extraction_deepseek.csv")))
+                read_csv(file.path(rdir, "hypothesis_extraction_deepseek.csv"), show_col_types = FALSE) else NULL
+disc_df    <- if (file.exists(file.path(rdir, "discussion_extraction_deepseek.Rds")))
+                readRDS(file.path(rdir, "discussion_extraction_deepseek.Rds")) else NULL
+theory_db  <- if (file.exists(file.path(rdir, "theory_database_deepseek.csv")))
+                read_csv(file.path(rdir, "theory_database_deepseek.csv"), show_col_types = FALSE) else NULL
+meth_df    <- if (file.exists(file.path(rdir, "methods_extraction_deepseek.Rds")))
+                readRDS(file.path(rdir, "methods_extraction_deepseek.Rds")) else NULL
 
 # Backward compatibility: flatten_results() v4 renamed theory_type → detection_type
 if ("detection_type" %in% names(flat) && !"theory_type" %in% names(flat))
@@ -100,7 +101,7 @@ n_overclaim    <- if (!is.null(disc_df)) sum(disc_df$disc_overclaim, na.rm = TRU
 
 **Objective.** To conduct a large-scale computational audit of theory use across a sample of applied sports science research, examining: (i) the prevalence and classification of explicit and implicit theoretical frameworks; (ii) the functional role of each theory (operational versus contextual); (iii) the logical strength of the connection between stated theories and tested hypotheses; and (iv) the degree to which authors re-engage with their theoretical framework when interpreting results in the discussion section.
 
-**Methods.** We developed a reproducible automated extraction pipeline using a locally hosted large language model (LLM; Qwen 2.5, 7B parameter model, accessed via Ollama) operating at zero temperature to ensure deterministic output. Introduction, discussion, and methods sections from `r n_articles` applied sports science research articles were extracted using GROBID machine learning-based document parsing. Four sequential structured LLM extraction passes were applied to each article: theory extraction (identifying and classifying theoretical frameworks including their epistemological type), hypothesis extraction (identifying predictions and assessing their theoretical grounding and inference structure), discussion analysis (assessing theory re-engagement, null result handling, and theory revision signals), and construct validity analysis (assessing alignment between theoretical constructs and operationalisation choices in the methods section). All prompt templates and model parameters are publicly archived for reproducibility.
+**Methods.** We developed a reproducible automated extraction pipeline using a large language model API (DeepSeek V3; deepseek-chat model, accessed via the DeepSeek API) operating at zero temperature to ensure deterministic output. Introduction, discussion, and methods sections from `r n_articles` applied sports science research articles were extracted using GROBID machine learning-based document parsing. Four sequential structured LLM extraction passes were applied to each article: theory extraction (identifying and classifying theoretical frameworks including their epistemological type), hypothesis extraction (identifying predictions and assessing their theoretical grounding and inference structure), discussion analysis (assessing theory re-engagement, null result handling, and theory revision signals), and construct validity analysis (assessing alignment between theoretical constructs and operationalisation choices in the methods section). All prompt templates and model parameters are publicly archived for reproducibility.
 
 **Results.** A total of `r n_theories` theoretical framework instances were identified across `r n_articles` articles (mean = `r round(n_theories/n_articles, 1)` theories per article), of which `r n_explicit` (`r round(n_explicit/n_theories*100)`%) were explicitly named and `r n_implicit` (`r round(n_implicit/n_theories*100)`%) were inferred implicitly from conceptual language. `r if(!is.na(pct_op)) paste0("Only ", pct_op, "% of identified theories were classified as operational — directly generating a specific testable prediction in the study.")` `r if(!is.na(pct_hyp_strong)) paste0("Strong hypothesis-theory alignment, where all hypotheses were theoretically grounded, was observed in only ", pct_hyp_strong, "% of articles.")` `r if(!is.na(pct_disc_full)) paste0("Full re-engagement with theoretical frameworks in the discussion was evident in ", pct_disc_full, "% of articles.")`
 
@@ -170,7 +171,7 @@ Meehl's characterisation of soft-science theories remains apposite: they "lack t
 
 ## Study Aims and Research Questions
 
-The present study addresses this gap by conducting the first large-scale computational audit of theory use in applied sports science, using a locally hosted LLM-based extraction pipeline. We address four research questions:
+The present study addresses this gap by conducting the first large-scale computational audit of theory use in applied sports science, using an LLM API-based extraction pipeline. We address four research questions:
 
 **RQ1.** What proportion of applied sports science articles explicitly name theoretical frameworks, and how many contain implicit theories not formally labelled?
 
@@ -196,13 +197,13 @@ Articles where GROBID failed to identify an introduction section, or where the e
 
 ## LLM Extraction Pipeline
 
-All LLM extraction was performed using Qwen 2.5 (7B parameter model; Alibaba Cloud, 2024), accessed via the Ollama framework through a locally hosted REST API at `http://localhost:11434/api/generate`. Qwen 2.5 was selected over earlier-generation 8B models (e.g., Llama 3) on the basis of superior instruction-following performance and structured JSON output reliability, particularly for the nuanced epistemological classification tasks introduced in v4 of the prompt templates (theory type, inference structure, construct validity). No cloud-based APIs were used at any stage. All model parameters were fixed to ensure deterministic, reproducible outputs: temperature = 0, top_p = 1, top_k = 1, seed = 42. Under these settings, the model produces identical output for identical input, satisfying the reproducibility requirements of computational reproducible research (Peng, 2011).
+All LLM extraction was performed using DeepSeek V3 (deepseek-chat; DeepSeek AI, 2025), accessed via the DeepSeek API (`api.deepseek.com/v1`). DeepSeek V3 was selected on the basis of strong instruction-following performance, reliable structured JSON output, and research-grade reasoning capability at low cost — enabling large-scale systematic extraction that would be prohibitively expensive with larger frontier models. Temperature was fixed at zero for all API calls to ensure deterministic, reproducible outputs, satisfying the reproducibility requirements of computational research (Peng, 2011).
 
 Prompts were designed following structured output engineering principles, instructing the model to act as a research methodologist and return ONLY valid JSON matching a pre-specified schema. A robust JSON parsing function was applied to all model responses, with automatic extraction of JSON objects from within free-text responses to handle cases where the model prepended natural language preamble to the JSON output. The complete prompt templates and extraction code are publicly available \[*repository URL*\].
 
 ### Pass 1: Theory Extraction
 
-Each article's introduction was passed to the LLM with a structured prompt (version 4) instructing it to identify theoretical frameworks and classify each on six dimensions:
+Each article's introduction was passed to the LLM with a structured prompt (version 5, optimised for API backends with system/user separation) instructing it to identify theoretical frameworks and classify each on six dimensions:
 
 -   **Type**: *explicit* (named in text) or *implicit* (inferred from conceptual language)
 -   **Role**: *operational* (directly generates the tested prediction) or *contextual* (background/framing)
@@ -217,7 +218,7 @@ Physiological mechanisms (e.g., ATP resynthesis, oxygen kinetics), named individ
 
 ### Pass 2: Hypothesis Extraction
 
-Each article's introduction, together with the list of theories and their tested predictions extracted in Pass 1, was passed to a second LLM prompt (version 3) instructing the model to identify explicit hypotheses or directional predictions. For each hypothesis, the model assessed:
+Each article's introduction, together with the list of theories and their tested predictions extracted in Pass 1, was passed to a second LLM prompt (version 5) instructing the model to identify explicit hypotheses or directional predictions. For each hypothesis, the model assessed:
 
 -   **Linkage strength**: *explicit* (hypothesis attributed to theory in text), *implicit* (connection implied but unstated), or *none* (no theoretical grounding)
 -   **Inference type**: *derived* (hypothesis follows deductively from theory's core claims), *consistent* (compatible with theory but also with other accounts), *abductive* (hypothesis emerged from practical observation first, with theory invoked post-hoc to provide mechanistic framing), *motivated* (theory cited rhetorically without logical entailment), or *none*
@@ -227,7 +228,7 @@ The addition of *abductive* as a distinct inference type reflects a key epistemo
 
 ### Pass 3: Discussion Analysis
 
-Each article's discussion section, together with the theory list and tested predictions from Pass 1, was passed to a third LLM prompt (version 3) assessing:
+Each article's discussion section, together with the theory list and tested predictions from Pass 1, was passed to a third LLM prompt (version 5) assessing:
 
 -   **Theory re-engagement**: *full* (results interpreted in terms of theory's broader mechanisms and implications), *partial* (theory mentioned but results interpreted only at hypothesis level), or *absent* (theory not referenced in discussion)
 -   **Theory revision signal**: *none* (results simply accepted), *refined* (theory boundaries or conditions updated), *partially disconfirming* (partial challenge to the theory acknowledged), or *new prediction generated* (findings motivate a novel theoretical claim)
@@ -261,7 +262,7 @@ Extracted theory names were passed through a normalisation function that standar
 
 ## Reproducibility
 
-All code, prompt templates, and model configuration files are archived in a public repository \[*URL*\]. The complete R package `sportTheoryAI`, which implements the four-pass pipeline described above, is available for independent reproduction of all extraction steps. The Qwen 2.5 7B model weights are publicly available via the Ollama model registry (`qwen2.5:7b`), enabling complete local reproduction without cloud dependency. GROBID version \[*X.X.X*\] and Ollama version \[*X.X.X*\] are logged for each extraction run. The fixed random seed (42) and deterministic decoding parameters (temperature = 0, top_k = 1) ensure that re-running the pipeline on the same input will produce byte-identical outputs.
+All code, prompt templates, and model configuration files are archived in a public repository \[*URL*\]. The complete R package `sportTheoryAI`, which implements the four-pass pipeline described above, is available for independent reproduction of all extraction steps. DeepSeek V3 is accessible via the DeepSeek API; the model identifier (`deepseek-chat`) and API version are logged alongside each extraction run to enable future researchers to reproduce the environment. GROBID version \[*X.X.X*\] is also logged for each run. Temperature fixed at zero ensures that re-running the pipeline against the same model version will produce identical outputs.
 
 \pagebreak
 

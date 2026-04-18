@@ -1,10 +1,12 @@
 # sportTheoryAI
 
-An R-based pipeline for conducting computational audits of theory use in applied sports science research. The system uses a locally hosted large language model (via Ollama) to extract and classify theoretical frameworks from article introductions and discussions, assess the logical quality of hypothesis-theory connections, and evaluate how authors re-engage with theory in their conclusions.
+An R-based pipeline for conducting computational audits of theory use in applied sports science research. The system uses a large language model to extract and classify theoretical frameworks from article introductions and discussions, assess the logical quality of hypothesis-theory connections, and evaluate how authors re-engage with theory in their conclusions.
 
-The pipeline operationalises concepts from the philosophy of science — Meehl's prediction strength criteria, Lakatos's progressive/degenerative programme distinction, and FAIR theory principles — into automated, reproducible classifications across large paper corpora.
+The pipeline operationalises concepts from the philosophy of science — Meehl's prediction strength criteria, Lakatos's progressive/degenerative programme distinction, and FAIR theory principles — into automated, reproducible classifications across large paper samples.
 
-No cloud APIs are used at any stage. All outputs are deterministic and reproducible.
+**Two backends supported:**
+- **Local (Ollama)**: Qwen 2.5 7B via Ollama — fully offline, no cloud APIs, deterministic
+- **Cloud (Claude API)**: Anthropic Claude Sonnet via API — significantly higher extraction quality (see [10-paper comparison](#claude-vs-local-model-comparison))
 
 **NOTE:** THIS IS A LLM PROJECT AND CANNOT REPLACE THE HUMAN FACTOR IN DECISION MAKING AND INFERRING THEORY IN SCIENCE. USERS SHOULD ALWAYS VALIDATE AND INTERPRET RESULTS WITH DOMAIN EXPERTISE. LLM MODELS ALLOW COMPUTATIONAL EXTRACTION BUT NOT INFERENCE OR JUDGMENT.
 
@@ -19,9 +21,10 @@ There are three scripts, run in order:
 | `01_setup.R` | Install packages, verify Ollama, smoke test | Once (first time only) |
 | `02_pipeline.R` | Convert PDFs → XML → extract text → LLM extraction (**4 passes**) | Each new paper set |
 | `03_report.qmd` | Generate the full HTML report | After pipeline completes |
+| `04_pipeline_claude.R` | Same pipeline routed through Claude API | Alternative to 02 |
 | `manuscript.qmd` | Generate the academic manuscript (Word format) | For publication |
 
-### Quickstart
+### Quickstart (Local — Ollama)
 
 ```r
 # 1. Install Ollama: https://ollama.com/download
@@ -36,10 +39,24 @@ source("02_pipeline.R")  # runs extraction (~3-4 hrs for 269 papers on CPU)
 
 # Render the report:
 quarto::quarto_render("03_report.qmd")
-
-# Render the manuscript:
-quarto::quarto_render("manuscript.qmd")
 ```
+
+### Quickstart (Cloud — Claude API)
+
+```r
+# 1. Set your Anthropic API key:
+Sys.setenv(ANTHROPIC_API_KEY = "sk-ant-...")
+# Or add to .Renviron: ANTHROPIC_API_KEY=sk-ant-...
+
+# 2. Run the Claude pipeline (uses v5 optimised prompts):
+source("04_pipeline_claude.R")  # ~18 min for 269 papers, ~$6 total
+
+# 3. Render the report with Claude results:
+quarto::quarto_render("03_report.qmd",
+  execute_params = list(results_dir = "claude_results"))
+```
+
+The Claude backend uses v5 prompt templates with system/user prompt separation, richer cross-pass context threading, and `notes` fields for reasoning transparency. See [Claude vs Local Model Comparison](#claude-vs-local-model-comparison) below.
 
 ---
 
@@ -83,28 +100,21 @@ Theory Extraction Project/
     │   ├── extract_methods.R        extract_methods_validity(), batch_extract_methods()  ← Pass 4
     │   ├── normalise_theories.R     normalise_flat(), normalise_theory_names()
     │   ├── theory_database.R        update_theory_database()
+    │   ├── validate_consistency.R   cross-pass consistency checks (v4.2)
+    │   ├── call_claude_api.R        Anthropic Claude API backend (v4.2)
     │   ├── evaluate_model.R         evaluate_extraction(), print_evaluation()
     │   └── utils.R                  internal helpers
     ├── inst/
-    │   ├── config.yml               model parameters and Ollama settings
+    │   ├── config.yml               model parameters, Ollama + Claude settings
     │   └── prompt_templates/
-    │       ├── theory_extraction_v1.txt    original schema
-    │       ├── theory_extraction_v2.txt    adds operational/contextual, tested_prediction
-    │       ├── theory_extraction_v3.txt    adds prediction_strength, rival_theories_acknowledged,
-    │       │                               calibrated confidence, stricter exclusion criteria
-    │       ├── theory_extraction_v4.txt    adds theory_type (causal/taxonomic/mathematical/paradigm),
-    │       │                               multi_theory_coherence, boundary_conditions_met,
-    │       │                               intended_as_atheoretical  ← CURRENT DEFAULT
-    │       ├── hypothesis_extraction_v1.txt  basic linkage strength classification
-    │       ├── hypothesis_extraction_v2.txt  adds inference_type, mechanism_specified,
-    │       │                                  tested_predictions context
-    │       ├── hypothesis_extraction_v3.txt  adds abductive inference type  ← CURRENT DEFAULT
-    │       ├── discussion_analysis_v1.txt    re-engagement and overclaiming
-    │       ├── discussion_analysis_v2.txt    adds null_result_handling, study_positioning,
-    │       │                                  tested_predictions context
-    │       ├── discussion_analysis_v3.txt    adds theory_revision_signal, theory_revision_detail
-    │       │                                  ← CURRENT DEFAULT
-    │       └── methods_extraction_v1.txt     Pass 4 — construct validity analysis
+    │       ├── theory_extraction_v1–v4.txt    Ollama prompt evolution (v4 = current default)
+    │       ├── hypothesis_extraction_v1–v3.txt Ollama prompts (v3 = current default)
+    │       ├── discussion_analysis_v1–v3.txt   Ollama prompts (v3 = current default)
+    │       ├── methods_extraction_v1.txt        Pass 4 construct validity
+    │       ├── theory_extraction_v5_claude.txt      Claude-optimised (system/user split, notes)
+    │       ├── hypothesis_extraction_v5_claude.txt  Claude-optimised
+    │       ├── discussion_analysis_v5_claude.txt    Claude-optimised
+    │       └── methods_extraction_v5_claude.txt     Claude-optimised
     └── tests/testthat/
 ```
 
@@ -229,16 +239,49 @@ The HTML report (`03_report.qmd`) contains fourteen sections:
 
 ## Reproducibility
 
+### Local backend (Ollama)
+
 - **Model:** `qwen2.5:7b` via Ollama (local, no internet required after pull)
 - **Parameters:** `temperature = 0`, `top_p = 1`, `top_k = 1`, `seed = 42`
-- **Prompt versions:** v4 (theory), v3 (hypothesis), v3 (discussion), v1 (methods) — all in `sportTheoryAI/inst/prompt_templates/`
+- **Prompt versions:** v4 (theory), v3 (hypothesis), v3 (discussion), v1 (methods)
 - **Config:** `sportTheoryAI/inst/config.yml`
 
-**Model selection rationale:** `qwen2.5:7b` replaces the original `llama3:8b` from v1–v3. The v4 extraction schema introduces nuanced philosophical distinctions (causal vs taxonomic theory types, abductive inference, construct validity) that benefit from a more capable instruction-following model. `qwen2.5:14b` requires ~10GB VRAM and will produce a CUDA OOM error on most consumer GPUs; `qwen2.5:7b` runs reliably on 6GB VRAM with meaningfully improved JSON fidelity and reasoning quality.
+### Cloud backend (Claude API)
+
+- **Model:** `claude-sonnet-4-6` via Anthropic Messages API
+- **Parameters:** `temperature = 0`, `max_tokens = 4096`
+- **Prompt versions:** v5 (all passes) — Claude-optimised with system/user separation
+- **Results directory:** `claude_results/`
+- **Estimated cost:** ~$6 for 269 articles × 4 passes
+
+### Model selection rationale
+
+`qwen2.5:7b` replaces the original `llama3:8b` from v1–v3. However, a 10-paper comparison revealed that 7B-parameter models are inadequate for this classification task (44% theory hallucination rate, 0% mechanism detection, systematic inference type miscalibration). **Claude Sonnet is the recommended backend** for production use — see comparison below.
 
 To re-run on a new set of papers, edit `PDF_DIR` in `02_pipeline.R` and delete only the extraction `.Rds` files. Keep `theory_pipeline_articles.Rds` if re-using the same PDFs.
 
-**Changing models invalidates cached extractions.** Delete all `*_full.Rds` files if switching model mid-project to ensure comparability.
+**Changing models invalidates cached extractions.** Delete all `*_full.Rds` files if switching model mid-project.
+
+---
+
+## Claude vs Local Model Comparison
+
+A 10-paper head-to-head comparison was conducted using identical article text and classification criteria. Key findings:
+
+| Dimension | Qwen 2.5 7B (local) | Claude Sonnet (API) |
+|-----------|---------------------|---------------------|
+| **Theory hallucination** | ~44% (fabricated theory names) | 0% |
+| **Inference type calibration** | 80% classified as "motivated" | Balanced (derived/consistent/abductive) |
+| **Mechanism specification** | 0/10 detected | 3/10 detected with causal pathways |
+| **Cross-pass consistency** | Frequent contradictions | Coherent across all 4 passes |
+| **Atheoretical classification** | Inconsistent | 2/2 descriptive studies correctly identified |
+| **Null result handling** | Often "not_applicable" when nulls present | Distinguished "not_addressed" vs "auxiliary_hypothesis" |
+| **Reasoning transparency** | No reasoning visible | Detailed `notes` fields for every judgement |
+
+**Recommendation**: Use Claude Sonnet for production runs. Use local models only for development, testing, or offline-only requirements. The quality gap is not addressable through prompt engineering alone — it reflects a fundamental capability threshold around 14B+ parameters for philosophy-of-science-level classification.
+
+Full comparison report: `06_report_10paper_comparison.qmd`
+Detailed review: `PROJECT_REVIEW_CLAUDE_OPTIMISATION.md`
 
 ---
 
