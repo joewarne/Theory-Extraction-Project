@@ -101,7 +101,7 @@ n_overclaim    <- if (!is.null(disc_df)) sum(disc_df$disc_overclaim, na.rm = TRU
 
 **Objective.** To conduct a large-scale computational audit of theory use across a sample of applied sports science research, examining: (i) the prevalence and classification of explicit and implicit theoretical frameworks; (ii) the functional role of each theory (operational versus contextual); (iii) the logical strength of the connection between stated theories and tested hypotheses; and (iv) the degree to which authors re-engage with their theoretical framework when interpreting results in the discussion section.
 
-**Methods.** We developed a reproducible automated extraction pipeline using a large language model API (DeepSeek V3; deepseek-chat model, accessed via the DeepSeek API) operating at zero temperature to ensure deterministic output. Introduction, discussion, and methods sections from `r n_articles` applied sports science research articles were extracted using GROBID machine learning-based document parsing. Four sequential structured LLM extraction passes were applied to each article: theory extraction (identifying and classifying theoretical frameworks including their epistemological type), hypothesis extraction (identifying predictions and assessing their theoretical grounding and inference structure), discussion analysis (assessing theory re-engagement, null result handling, and theory revision signals), and construct validity analysis (assessing alignment between theoretical constructs and operationalisation choices in the methods section). All prompt templates and model parameters are publicly archived for reproducibility.
+**Methods.** We developed a reproducible automated extraction pipeline using a large language model API (DeepSeek V4 Pro; deepseek-v4-pro model, accessed via the DeepSeek API) operating at zero temperature to ensure deterministic output. Introduction, discussion, and methods sections from `r n_articles` applied sports science research articles were extracted using GROBID machine learning-based document parsing. Four sequential structured LLM extraction passes were applied to each article: theory extraction (identifying and classifying theoretical frameworks, including whether each is causal, taxonomic, or paradigmatic), hypothesis extraction (identifying predictions and assessing their theoretical grounding and inference structure), discussion analysis (assessing theory re-engagement, null result handling, and theory revision signals), and construct validity analysis (assessing alignment between theoretical constructs and operationalisation choices in the methods section). All prompt templates and model parameters are publicly archived for reproducibility.
 
 **Results.** A total of `r n_theories` theoretical framework instances were identified across `r n_articles` articles (mean = `r round(n_theories/n_articles, 1)` theories per article), of which `r n_explicit` (`r round(n_explicit/n_theories*100)`%) were explicitly named and `r n_implicit` (`r round(n_implicit/n_theories*100)`%) were inferred implicitly from conceptual language. `r if(!is.na(pct_op)) paste0("Only ", pct_op, "% of identified theories were classified as operational — directly generating a specific testable prediction in the study.")` `r if(!is.na(pct_hyp_strong)) paste0("Strong hypothesis-theory alignment, where all hypotheses were theoretically grounded, was observed in only ", pct_hyp_strong, "% of articles.")` `r if(!is.na(pct_disc_full)) paste0("Full re-engagement with theoretical frameworks in the discussion was evident in ", pct_disc_full, "% of articles.")`
 
@@ -185,7 +185,7 @@ The present study addresses this gap by conducting the first large-scale computa
 
 # Methods
 
-## sample
+## Sample
 
 The sample comprised `r n_articles` applied sports science research articles selected \[*sampling criteria to be specified — e.g., journals, years, inclusion/exclusion criteria*\]. Articles spanned the domains of sport psychology, exercise physiology, motor learning, biomechanics, and sports nutrition, providing a broad cross-section of the applied sports sciences. \[*Further details of sampling procedure, inclusion/exclusion criteria, and sample characteristics to be added during manuscript preparation.*\]
 
@@ -197,20 +197,21 @@ Articles where GROBID failed to identify an introduction section, or where the e
 
 ## LLM Extraction Pipeline
 
-All LLM extraction was performed using DeepSeek V3 (deepseek-chat; DeepSeek AI, 2025), accessed via the DeepSeek API (`api.deepseek.com/v1`). DeepSeek V3 was selected on the basis of strong instruction-following performance, reliable structured JSON output, and research-grade reasoning capability at low cost — enabling large-scale systematic extraction that would be prohibitively expensive with larger frontier models. Temperature was fixed at zero for all API calls to ensure deterministic, reproducible outputs, satisfying the reproducibility requirements of computational research (Peng, 2011).
+All LLM extraction was performed using DeepSeek V4 Pro (deepseek-v4-pro; DeepSeek AI, 2025), accessed via the DeepSeek API (`api.deepseek.com/v1`). DeepSeek V4 Pro was selected on the basis of strong instruction-following performance, reliable structured JSON output, and research-grade reasoning capability at low cost — enabling large-scale systematic extraction that would be prohibitively expensive with larger frontier models. Temperature was fixed at zero for all API calls to ensure deterministic, reproducible outputs, satisfying the reproducibility requirements of computational research (Peng, 2011).
 
 Prompts were designed following structured output engineering principles, instructing the model to act as a research methodologist and return ONLY valid JSON matching a pre-specified schema. A robust JSON parsing function was applied to all model responses, with automatic extraction of JSON objects from within free-text responses to handle cases where the model prepended natural language preamble to the JSON output. The complete prompt templates and extraction code are publicly available \[*repository URL*\].
 
 ### Pass 1: Theory Extraction
 
-Each article's introduction was passed to the LLM with a structured prompt (version 5, optimised for API backends with system/user separation) instructing it to identify theoretical frameworks and classify each on six dimensions:
+Each article's introduction was passed to the LLM with a structured prompt instructing it to identify theoretical frameworks and classify each on six dimensions:
 
--   **Type**: *explicit* (named in text) or *implicit* (inferred from conceptual language)
--   **Role**: *operational* (directly generates the tested prediction) or *contextual* (background/framing)
--   **Theory type**: *causal* (posits a directional mechanism between variables), *taxonomic* (classifies phenomena without specifying causation), *mathematical* (expresses relationships in formal quantitative terms), or *paradigm* (a broad orienting framework not directly testable)
--   **Prediction strength**: *strong* (directional AND quantitatively constrained or mechanistically specific), *moderate* (directional with specified conditions), or *weak* (directional only, no constraint beyond direction)
--   **Boundary conditions**: whether the study population and setting fall *within*, *outside*, or *unclear* relative to the theory's stated scope conditions
--   **Rival theories acknowledged**: whether the introduction explicitly reasons against alternative theoretical accounts
+- **Type**: *explicit* (named directly in the text) or *implicit* (not formally named, but inferred from the conceptual language used)
+- **Role**: *operational* (the theory is the source of the specific prediction being tested) or *contextual* (cited as background or framing without generating the hypothesis)
+- **Theory type**: *causal* (specifies a directional mechanism linking variables), *taxonomic* (classifies phenomena without specifying causation — e.g. stage models), *mathematical* (expresses relationships in formal quantitative terms), or *paradigm* (a broad orienting framework, such as dynamical systems, not directly testable on its own)
+- **Prediction strength**: *strong* (directional AND quantitatively constrained or mechanistically specific), *moderate* (directional with specified conditions), or *weak* (directional only — the most common form, stating only that one variable will be higher or lower than another)
+- **Boundary conditions**: whether the study's sample and setting fall *within*, *outside*, or *unclear* relative to the population and context the theory was developed for
+- **Rival theories acknowledged**: whether the introduction explicitly reasons against alternative theoretical explanations for the same effect
+- **Requires review**: a flag indicating that a human reviewer should inspect the extraction, set automatically when the model identifies a combined or integrated framework merging two or more named theories, an unnamed theoretical extension, or model confidence below 0.55
 
 The model also assessed **multi-theory coherence** where multiple frameworks were identified (*complementary*, *redundant*, *contradictory*, or *unassessed*), and whether studies appeared *intended as atheoretical*. The model assigned an overall *theoretical basis quality* to each article (*strong*, *weak*, or *absent*) based on whether any identified theory generated a prediction of at least moderate strength.
 
@@ -220,33 +221,34 @@ Physiological mechanisms (e.g., ATP resynthesis, oxygen kinetics), named individ
 
 Each article's introduction, together with the list of theories and their tested predictions extracted in Pass 1, was passed to a second LLM prompt (version 5) instructing the model to identify explicit hypotheses or directional predictions. For each hypothesis, the model assessed:
 
--   **Linkage strength**: *explicit* (hypothesis attributed to theory in text), *implicit* (connection implied but unstated), or *none* (no theoretical grounding)
--   **Inference type**: *derived* (hypothesis follows deductively from theory's core claims), *consistent* (compatible with theory but also with other accounts), *abductive* (hypothesis emerged from practical observation first, with theory invoked post-hoc to provide mechanistic framing), *motivated* (theory cited rhetorically without logical entailment), or *none*
--   **Mechanism specified**: whether the introduction explains the causal mechanism by which the independent variable produces the outcome, and if so, what that mechanism is
+- **Linkage strength**: *explicit* (hypothesis attributed to theory in text), *implicit* (connection implied but unstated), or *none* (no theoretical grounding)
+- **Inference type**: *derived* (hypothesis follows deductively from theory's core claims), *consistent* (compatible with theory but also with other accounts), *abductive* (hypothesis emerged from practical observation first, with theory invoked post-hoc to provide mechanistic framing), *motivated* (theory cited rhetorically without logical entailment), or *none*
+- **Mechanism specified**: whether the introduction explains the causal mechanism by which the independent variable produces the outcome, and if so, what that mechanism is
 
-The addition of *abductive* as a distinct inference type reflects a key epistemological pattern common in applied sports science: researchers observe a practical effect in the field, and subsequently draw on theoretical frameworks to lend mechanistic credibility. This is structurally distinct from both deductive derivation and mere theoretical consistency (Steele, 2024). An overall *hypothesis-theory alignment* quality was assigned to each article (*strong*, *partial*, or *absent*).
+The addition of *abductive* as a distinct inference type reflects a common pattern in applied sports science: researchers observe a practical effect first (in the field or from pilot data), and then draw on a theoretical framework to explain it. This is structurally different from deriving a prediction from theory before data collection, and also different from a hypothesis that is merely compatible with a theory (Steele, 2024). An overall *hypothesis-theory alignment* quality was assigned to each article (*strong*, *partial*, or *absent*).
 
 ### Pass 3: Discussion Analysis
 
 Each article's discussion section, together with the theory list and tested predictions from Pass 1, was passed to a third LLM prompt (version 5) assessing:
 
--   **Theory re-engagement**: *full* (results interpreted in terms of theory's broader mechanisms and implications), *partial* (theory mentioned but results interpreted only at hypothesis level), or *absent* (theory not referenced in discussion)
--   **Theory revision signal**: *none* (results simply accepted), *refined* (theory boundaries or conditions updated), *partially disconfirming* (partial challenge to the theory acknowledged), or *new prediction generated* (findings motivate a novel theoretical claim)
--   **Null result handling**: *accepted as disconfirming*, *auxiliary hypothesis* (null explained by new, untested assumption), *methodological artefact* (attributed to design limitations), *not addressed*, or *not applicable* (all predictions supported)
--   **Study positioning**: *novel prediction*, *replication*, *extension*, *boundary test*, or *unclear*
--   **Overclaiming**: whether the discussion makes claims beyond what the hypothesis test can support
+- **Theory re-engagement**: *full* (results interpreted in terms of theory's broader mechanisms and implications), *partial* (theory mentioned but results interpreted only at hypothesis level), or *absent* (theory not referenced in discussion)
+- **Theory revision signal**: *none* (results simply accepted), *refined* (the finding adds any contextual specificity — population scope, conditions, accumulating evidence in a domain, or boundary conditions), or *partially disconfirming* (a null or contrary result is acknowledged and an explanation is offered that implicates the theory's scope or mechanism)
+- **New prediction generated**: a separate boolean field, true when the authors explicitly derive a novel untested prediction from the theory for future research. Coded independently of the revision signal, as a discussion can simultaneously refine a theory and generate a new prediction from that refinement.
+- **Null result handling**: *accepted as disconfirming*, *auxiliary hypothesis* (null explained by a new substantive assumption about the study's context — population characteristics, ceiling effects — that modifies the theory's conditions), *methodological artefact* (null attributed to design limitations without theoretical implication), *not addressed*, or *not applicable* (all predictions supported)
+- **Study positioning**: *novel prediction*, *replication*, *extension*, *boundary test*, or *unclear*
+- **Overclaiming**: whether the discussion makes claims beyond what the hypothesis test can support
 
-The *theory revision signal* variable was added to operationalise Lakatos's (1978) distinction between progressive research programmes (where anomalies prompt theory refinement or new predictions) and degenerative ones (where anomalies are absorbed without theoretical modification). An overall *discussion quality* was assigned to each article (*strong*, *adequate*, or *weak*); a *strong* rating required evidence of an explicit revision signal (refined or better), not merely re-engagement with the theory.
+The *theory revision signal* and *new prediction generated* variables were added to operationalise Lakatos's (1978) distinction between progressive research programmes (where anomalies prompt theory refinement or new predictions are derived from findings) and degenerative ones (where anomalies are absorbed without theoretical modification). An overall *discussion quality* was assigned to each article (*strong*, *adequate*, or *weak*); a *strong* rating required full theoretical re-engagement with at least a refined revision signal, not merely confirmation of the hypothesis.
 
 ### Pass 4: Construct Validity Analysis
 
-Each article's methods section was passed to a fourth LLM prompt (version 1) assessing the degree of alignment between the theoretical constructs identified in Pass 1 and the operationalisation choices made in the study. For each article, the model assessed:
+Each article's methods section was passed to a fourth LLM prompt (version 5) assessing the degree of alignment between the theoretical constructs identified in Pass 1 and the operationalisation choices made in the study. For each article, the model assessed:
 
--   **Construct validity alignment**: *aligned* (measures directly target the theoretical construct), *partial* (measures partially capture the construct but with notable gaps), *misaligned* (measures operationalise a related but distinct construct), or *unclear* (insufficient information to judge)
--   **Mechanism operationalisation**: *mechanism measured* (the theoretical mechanism itself is directly measured), *endpoints only* (only the predicted outcome is measured, not the intervening mechanism), or *not applicable* (theory does not specify a measurable mechanism)
--   **Population boundary fit**: whether the sample population falls within the boundary conditions specified or implied by the theory
+- **Construct validity alignment**: *aligned* (measures directly target the theoretical construct), *partial* (measures partially capture the construct but with notable gaps), *misaligned* (measures operationalise a related but distinct construct), or *unclear* (insufficient information to judge)
+- **Mechanism operationalisation**: *mechanism measured* (the theoretical mechanism itself is directly measured), *endpoints only* (only the predicted outcome is measured, not the intervening mechanism), or *not applicable* (theory does not specify a measurable mechanism)
+- **Population boundary fit**: whether the sample population falls within the boundary conditions specified or implied by the theory
 
-This pass operationalises the construct validity problem described by Borsboom, Mellenbergh, and van Heerden (2004): a test of a theoretical prediction is only informative to the extent that the measured variables faithfully represent the theoretical constructs. Studies that test only distal endpoints — without measuring the mechanism the theory specifies — provide weak evidential leverage regardless of their statistical power.
+This pass addresses a fundamental measurement problem: a hypothesis test is only informative to the extent that the variables measured actually represent what the theory is about. A study can be statistically rigorous yet provide no genuine evidence for a theory if the outcome measures do not correspond to the theory's constructs (Borsboom, Mellenbergh, & van Heerden, 2004). Studies that measure only a distal endpoint — for example, a performance score — without measuring the intervening mechanism the theory specifies provide weak evidence regardless of statistical power.
 
 ## Theory Database
 
@@ -258,11 +260,43 @@ Extracted theory names were passed through a normalisation function that standar
 
 ## Reliability and Validation
 
-\[*To be completed during manuscript preparation. Plan: a sample of N = 30 articles will be independently hand-coded by two researchers using a coding manual derived from the prompt logic. Cohen's kappa will be computed for each categorical variable. Discrepancies will be resolved through discussion. LLM-coded values will then be compared to the human-coded gold standard using percent agreement, Cohen's kappa, precision, recall, and F1 score.*\]
+### Validation Framework
+
+The validity of the LLM-generated classifications was assessed using the annotation validation framework proposed by Pangakis and Wolken (2024), which structures the validation of automated text annotation around the characteristics of the annotation task and corpus. This study corresponds to use case (d) in that framework: a growing corpus processed in periodic batches, requiring ongoing validation rather than a one-time comparison against a fixed gold standard.
+
+### Codebook Development
+
+Before human validation could begin, a formal annotation codebook was developed through structured elicitation between the research team (primary researcher) and an expert AI assistant (Claude, Anthropic) acting as a Socratic interlocutor. This codebook elicitation process (Pangakis & Wolken, 2024, Phase 2) proceeded by presenting the primary researcher with concrete classification decisions rather than abstract category definitions, progressively surfacing decision rules for each pass and for each ambiguous boundary case. The process covered all four passes and resulted in 18 formalised decision rules across passes 1–4 (documented in the supplementary codebook).
+
+Key decision rules established through elicitation included:
+
+- **Pass 1 (Theory extraction)**: Theories were required to be falsifiable — capable of being disconfirmed by an empirical result. Frameworks used as measurement or staging tools (e.g., the Transtheoretical Model used to stage readiness), prescriptive acronym frameworks (e.g., FITT), and broad integrative orientations (e.g., the biopsychosocial framework) were explicitly excluded. Implicit theory extraction was restricted to the primary framing of the introduction and required the implied theory to be inferable from the text itself. Author-year citation strings without an accompanying theory name were excluded as theory identifiers. Multi-theory papers required extraction of all named theories as separate entries, with combined/integrated frameworks flagged for human review.
+
+- **Pass 2 (Hypothesis–theory linkage)**: Genuine hypotheses were required to appear at or near the end of the introduction with a directional outcome prediction. Directional statements supporting a contention in the body of the introduction were excluded. The boundary between `consistent` and `motivated` inference types was operationalised as whether the theory's construct domain directly addresses the hypothesis's dependent variable. `Abductive` inference was identified from textual evidence of observation-first reasoning (practitioner observation, pilot data), not inferred from the researcher's domain knowledge.
+
+- **Pass 3 (Discussion re-engagement)**: Full re-engagement required substantive text connecting the finding to the theory's mechanism — "aligns with theory" alone was insufficient. `Refined` revision signal was set to a lower threshold than initially assumed: adding a result to "a growing body of evidence in athletic populations" qualifies. The null result handling distinction between `auxiliary_hypothesis` and `methodological_artefact` was operationalised by whether the explanation invokes a property of the theoretical conditions/population (auxiliary) or the study design/measurement (methodological).
+
+- **Pass 4 (Construct validity)**: `Misaligned` required that nothing in the study's measures corresponds to the theory's construct domain. If at least one theoretical construct is measured, even if the primary outcome is non-theoretical, the classification is `partial`. `Mechanism_measured` required evidence that the intermediate construct in the theory's causal chain was operationalised, not merely the endpoints.
+
+The codebook also incorporated structural changes to the extraction schema informed by the elicitation: `new_prediction_generated` was separated from `theory_revision_signal` as an independent boolean field, recognising that a discussion can simultaneously refine a theory and derive a new prediction from that refinement, and `requires_review` was added to the Pass 1 per-theory schema to flag combined frameworks and low-confidence extractions for human inspection.
+
+### Gold Sample Design
+
+A gold sample of N = 30 articles was designed for independent double-coding. Articles were selected using a purposive plus random strategy: candidate articles for purposive selection were identified algorithmically from the pipeline output based on signals associated with difficult or edge-case classifications (low model confidence, `requires_review` flags, implicit theory detection, multi-theory coherence issues, abductive or motivated inference types, null results present, and partial or misaligned construct validity). Up to 15 articles were selected purposively to ensure coverage of the full range of classification difficulty; the remaining slots were filled by random selection from non-flagged articles.
+
+Both coders share domain expertise in applied sports and exercise science. Coders received a full instruction manual derived from the codebook prior to independent coding. The coding procedure followed the four-pass order: introduction (Pass 1 and 2), discussion (Pass 3), and methods (Pass 4). Coders recorded a best-judgement classification for all variables, with free-text notes for uncertain cases.
+
+### Inter-Rater Reliability and Criterion Validity
+
+Inter-rater reliability (IRR) between the two human coders was computed using Cohen's kappa for all categorical variables, and weighted kappa (linear weights) for ordinal variables. The minimum acceptable threshold for reporting a variable in primary conclusions was κ ≥ 0.61 (substantial agreement; Landis & Koch, 1977). Variables below threshold were treated as exploratory and excluded from inferential claims.
+
+Criterion validity — agreement between LLM-generated classifications and the human gold standard — was assessed using Cohen's kappa (treating the LLM as one rater and the gold standard as the other), together with precision, recall, and F1 for multi-class variables. Systematic directional biases (e.g., LLM consistently over-classifying theories as operational) were examined through error pattern analysis.
+
+\[*IRR and criterion validity results are pending completion of the gold sample coding and will be reported in the final manuscript. All validation results will be reported in full in a supplementary validation report released with the paper data.*\]
 
 ## Reproducibility
 
-All code, prompt templates, and model configuration files are archived in a public repository \[*URL*\]. The complete R package `sportTheoryAI`, which implements the four-pass pipeline described above, is available for independent reproduction of all extraction steps. DeepSeek V3 is accessible via the DeepSeek API; the model identifier (`deepseek-chat`) and API version are logged alongside each extraction run to enable future researchers to reproduce the environment. GROBID version \[*X.X.X*\] is also logged for each run. Temperature fixed at zero ensures that re-running the pipeline against the same model version will produce identical outputs.
+All code, prompt templates, and model configuration files are archived in a public repository \[*URL*\]. The complete R package `sportTheoryAI`, which implements the four-pass pipeline described above, is available for independent reproduction of all extraction steps. DeepSeek V4 Pro is accessible via the DeepSeek API; the model identifier (`deepseek-v4-pro`) and API version are logged alongside each extraction run to enable future researchers to reproduce the environment. GROBID version \[*X.X.X*\] is also logged for each run. Temperature fixed at zero ensures that re-running the pipeline against the same model version will produce identical outputs.
 
 \pagebreak
 
@@ -277,10 +311,7 @@ n_err   <- sum(results_df$theory_error, na.rm = TRUE)
 n_none  <- sum(results_df$theory_none, na.rm = TRUE)
 ```
 
-GROBID successfully converted all `r n_articles` PDF articles to structured XML and extracted introduction text. 
-`r if(n_short > 0) paste0(n_short, " articles had introductions shorter than 200 characters, suggesting possible parsing errors, and were flagged for manual review. ")`
-`r if(n_err > 0) paste0("LLM theory extraction failed for ", n_err, " articles after two retry attempts (", round(n_err/n_articles*100), "%). ")`
-`r n_articles - n_err` articles were successfully processed.
+GROBID successfully converted all `r n_articles` PDF articles to structured XML and extracted introduction text. `r if(n_short > 0) paste0(n_short, " articles had introductions shorter than 200 characters, suggesting possible parsing errors, and were flagged for manual review. ")` `r if(n_err > 0) paste0("LLM theory extraction failed for ", n_err, " articles after two retry attempts (", round(n_err/n_articles*100), "%). ")` `r n_articles - n_err` articles were successfully processed.
 
 ## RQ1: Theory Prevalence and Classification
 
@@ -522,11 +553,11 @@ The theory database developed as part of this project — providing canonical na
 
 ## Limitations
 
-Several limitations of the present study should be noted. First, all classifications were performed by an LLM operating at zero temperature. While this ensures reproducibility, it does not guarantee validity. The reliability of LLM classifications relative to human expert coding has not been formally established in this domain, and this validation study is an essential next step before strong conclusions can be drawn from the quantitative findings. Second, the extraction operated only on introduction and discussion sections — the methods section, which is critical for assessing construct validity and the alignment between theoretical constructs and operational measures, was not analysed. Third, the model's ability to distinguish derived from consistent hypotheses depends on the precision of language in the introduction; where authors are intentionally vague about the theoretical connection, the model may be unable to make a reliable classification. Fourth, the corpus was limited to \[*sampling criteria*\] and may not be representative of all sports science literature. Finally, implicit theory extraction is inherently more uncertain than explicit extraction, and some instances of implicit theories in the sample may represent false positives.
+Several limitations of the present study should be noted. First, all classifications were performed by an LLM operating at zero temperature. While this ensures reproducibility, it does not guarantee validity. The reliability of LLM classifications relative to human expert coding has not been formally established in this domain, and this validation study is an essential next step before strong conclusions can be drawn from the quantitative findings. Second, the model's ability to distinguish derived from consistent hypotheses depends on the precision of language in the introduction; where authors are intentionally vague about the theoretical connection, the model may be unable to make a reliable classification. Third, the corpus was limited to \[*sampling criteria*\] and may not be representative of all sports science literature. Finally, implicit theory extraction is inherently more uncertain than explicit extraction, and some instances of implicit theories in the sample may represent false positives.
 
 ## Future Directions
 
-Several extensions of this work are planned. First, a human-coded validation study using a random sample of articles from this sample will establish the reliability of the LLM classifications and provide calibration data for future automated coding. Second, the pipeline will be extended to analyse methods sections, enabling assessment of construct validity — whether the operational measures used in a study are appropriate for the theoretical constructs invoked. Third, the analysis will be extended to examine theory use across time, allowing detection of whether the field is improving or declining in theoretical rigour over recent decades. Finally, the theory database will be extended and made publicly available as a resource for researchers, reviewers, and editors seeking to apply consistent standards of theoretical specification.
+Several extensions of this work are planned. First, a human-coded validation study using a random sample of articles from this sample will establish the reliability of the LLM classifications and provide calibration data for future automated coding. Second, the analysis will be extended to examine theory use across time, allowing detection of whether the field is improving or declining in theoretical rigour over recent decades. Third, the pipeline's construct validity analysis (Pass 4) will be extended to larger samples and additional subfields within sports and exercise science. Finally, the theory database will be extended and made publicly available as a resource for researchers, reviewers, and editors seeking to apply consistent standards of theoretical specification.
 
 # Conclusion
 

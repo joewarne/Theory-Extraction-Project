@@ -55,14 +55,16 @@ extract_theory <- function(text,
              theory_type                 = t$theory_type                    %||% NA_character_,
              prediction_strength         = t$prediction_strength            %||% NA_character_,
              boundary_conditions_met     = t$boundary_conditions_met        %||% NA_character_,
-             rival_theories_acknowledged = t$rival_theories_acknowledged    %||% FALSE)
+             rival_theories_acknowledged = t$rival_theories_acknowledged    %||% FALSE,
+             requires_review             = t$requires_review                %||% FALSE)
       })
-      # Carry v3/v4 fields through for explicit theories too
+      # Carry v3/v4/v5 fields through for explicit theories too
       explicit_theories <- lapply(explicit_theories, function(t) {
         t$prediction_strength           <- t$prediction_strength            %||% NA_character_
         t$theory_type                   <- t$theory_type                    %||% NA_character_
         t$boundary_conditions_met       <- t$boundary_conditions_met        %||% NA_character_
         t$rival_theories_acknowledged   <- t$rival_theories_acknowledged    %||% FALSE
+        t$requires_review               <- t$requires_review                %||% FALSE
         t
       })
     } else {
@@ -240,6 +242,7 @@ flatten_results <- function(df, id_column = NULL) {
           prediction_strength         = t$prediction_strength         %||% NA_character_,
           boundary_conditions_met     = t$boundary_conditions_met     %||% NA_character_,
           rival_theories_acknowledged = t$rival_theories_acknowledged %||% FALSE,
+          requires_review             = t$requires_review             %||% FALSE,
           justification               = NA_character_,
           confidence                  = t$confidence                  %||% NA_real_
         )
@@ -260,6 +263,7 @@ flatten_results <- function(df, id_column = NULL) {
           prediction_strength         = t$prediction_strength         %||% NA_character_,
           boundary_conditions_met     = t$boundary_conditions_met     %||% NA_character_,
           rival_theories_acknowledged = t$rival_theories_acknowledged %||% FALSE,
+          requires_review             = t$requires_review             %||% FALSE,
           justification               = t$justification               %||% NA_character_,
           confidence                  = t$confidence                  %||% NA_real_
         )

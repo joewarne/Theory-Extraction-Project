@@ -2,16 +2,23 @@
 # sportTheoryAI — Example Usage Script
 # =============================================================================
 # Prerequisites:
-#   1. Install Ollama:  https://ollama.com/download
-#   2. Start Ollama:    ollama serve          (in a terminal)
-#   3. Pull a model:    ollama pull llama3    (once; ~4 GB)
-#   4. Install package (from this directory):
+#   1. Set your DeepSeek API key:
+#        Sys.setenv(DEEPSEEK_API_KEY = "your-key-here")
+#      Or add to your .Renviron file:
+#        DEEPSEEK_API_KEY=your-key-here
+#   2. Source the package (development mode):
+#        source("sportTheoryAI/R/utils.R")
+#        source("sportTheoryAI/R/call_deepseek_api.R")
+#        ... (see 01_setup.R for full source list)
+#      Or install the package:
 #        devtools::install("sportTheoryAI")
 # =============================================================================
 
-library(sportTheoryAI)
 library(dplyr)
 library(readr)
+
+# Set DeepSeek as the active backend
+options(sportTheoryAI.backend = "deepseek")
 
 # ── 1. Single article extraction ─────────────────────────────────────────────
 
@@ -36,6 +43,9 @@ result$implicit_theories
 # Was any theory present?
 result$no_theory_present
 
+# Were any entries flagged for human review?
+purrr::map_lgl(result$explicit_theories, ~ isTRUE(.x$requires_review))
+
 
 # ── 2. Inspect the assembled prompt (without running the model) ──────────────
 
@@ -45,20 +55,23 @@ cat(prompt)
 
 # ── 3. Batch extraction from a data frame ────────────────────────────────────
 
-# Load example data included with the package
-examples_path <- system.file("extdata", "example_introductions.csv",
-                             package = "sportTheoryAI")
-articles <- read_csv(examples_path, show_col_types = FALSE)
+articles <- tibble::tibble(
+  article_id   = c("A1", "A2"),
+  introduction = c(
+    intro_text,
+    "Progressive overload and periodisation principles were applied across a
+     16-week training block. We hypothesised that the periodised group would
+     show greater gains in VO2max than the non-periodised control group."
+  )
+)
 
-# Run batch extraction (requires Ollama running)
 results_df <- batch_extract(
   df          = articles,
   text_column = "introduction",
   id_column   = "article_id",
-  log_file    = "extraction_log.jsonl"   # saved to working directory
+  log_file    = "extraction_log.jsonl"
 )
 
-# Inspect the raw results
 glimpse(results_df)
 
 
@@ -67,49 +80,16 @@ glimpse(results_df)
 flat <- flatten_results(results_df, id_column = "article_id")
 flat
 
-# Count theory types detected
-flat |>
-  count(theory_type, sort = TRUE)
+# Theories flagged for human review
+flat |> filter(requires_review == TRUE)
 
-# Most common explicit theories in the corpus
+# Most common explicit theories
 flat |>
-  filter(theory_type == "explicit") |>
+  filter(detection_type == "explicit") |>
   count(name, sort = TRUE)
 
 
-# ── 5. Evaluate against human-coded ground truth ────────────────────────────
+# ── 5. Export results ────────────────────────────────────────────────────────
 
-human_codes_path <- system.file("extdata", "example_human_codes.csv",
-                                package = "sportTheoryAI")
-human_codes <- read_csv(human_codes_path, show_col_types = FALSE) |>
-  filter(!is.na(theory_name), theory_name != "")
-
-eval_result <- evaluate_extraction(
-  human_df          = human_codes,
-  model_df          = flat,
-  id_column         = "article_id",
-  human_name_column = "theory_name",
-  fuzzy             = TRUE,
-  fuzzy_threshold   = 0.5
-)
-
-# Print formatted summary
-print_evaluation(eval_result)
-
-# Inspect per-article confusion
-eval_result$confusion
-
-# Matched name pairs (human label ↔ model label)
-eval_result$matched_pairs
-
-
-# ── 6. Export results ────────────────────────────────────────────────────────
-
-# Save tidy extraction results as CSV
 write_csv(flat, "theory_extraction_results.csv")
-
-# Save full list (including raw model responses) as RDS
 saveRDS(results_df, "theory_extraction_full.Rds")
-
-# Save evaluation metrics
-write_csv(eval_result$metrics, "evaluation_metrics.csv")

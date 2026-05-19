@@ -85,6 +85,8 @@ extract_discussion <- function(text,
       theories_mentioned_in_discussion = character(0),
       theory_revision_signal           = NA_character_,
       theory_revision_detail           = NA_character_,
+      new_prediction_generated         = NA,
+      new_prediction_detail            = NA_character_,
       claims_beyond_hypothesis         = NA,
       beyond_hypothesis_detail         = NA_character_,
       null_result_present              = NA,
@@ -100,6 +102,8 @@ extract_discussion <- function(text,
       theories_mentioned_in_discussion = unlist(parsed$theories_mentioned_in_discussion) %||% character(0),
       theory_revision_signal           = parsed$theory_revision_signal           %||% NA_character_,
       theory_revision_detail           = parsed$theory_revision_detail           %||% NA_character_,
+      new_prediction_generated         = parsed$new_prediction_generated         %||% NA,
+      new_prediction_detail            = parsed$new_prediction_detail            %||% NA_character_,
       claims_beyond_hypothesis         = parsed$claims_beyond_hypothesis         %||% NA,
       beyond_hypothesis_detail         = parsed$beyond_hypothesis_detail         %||% NA_character_,
       null_result_present              = parsed$null_result_present              %||% NA,
@@ -175,12 +179,13 @@ batch_extract_discussion <- function(df,
     } else character(0)
 
     .disc_null <- list(
-      theory_reengagement    = NA_character_, reengagement_evidence    = NA_character_,
-      theory_revision_signal = NA_character_, theory_revision_detail   = NA_character_,
-      claims_beyond_hypothesis = NA,          beyond_hypothesis_detail = NA_character_,
-      null_result_present    = NA,            null_result_handling     = NA_character_,
-      study_positioning      = NA_character_, discussion_quality       = NA_character_,
-      extraction_error       = TRUE
+      theory_reengagement      = NA_character_, reengagement_evidence    = NA_character_,
+      theory_revision_signal   = NA_character_, theory_revision_detail   = NA_character_,
+      new_prediction_generated = NA,            new_prediction_detail    = NA_character_,
+      claims_beyond_hypothesis = NA,            beyond_hypothesis_detail = NA_character_,
+      null_result_present      = NA,            null_result_handling     = NA_character_,
+      study_positioning        = NA_character_, discussion_quality       = NA_character_,
+      extraction_error         = TRUE
     )
 
     if (is.na(text) || !nzchar(stringr::str_trim(as.character(text)))) {
@@ -198,18 +203,20 @@ batch_extract_discussion <- function(df,
     )
   })
 
-  df$disc_reengagement     <- purrr::map_chr(results, ~ .x$theory_reengagement      %||% NA_character_)
-  df$disc_evidence         <- purrr::map_chr(results, ~ .x$reengagement_evidence     %||% NA_character_)
-  df$disc_revision_signal  <- purrr::map_chr(results, ~ .x$theory_revision_signal   %||% NA_character_)
-  df$disc_revision_detail  <- purrr::map_chr(results, ~ .x$theory_revision_detail   %||% NA_character_)
-  df$disc_overclaim        <- purrr::map_lgl(results, ~ isTRUE(.x$claims_beyond_hypothesis))
-  df$disc_overclaim_detail <- purrr::map_chr(results, ~ .x$beyond_hypothesis_detail %||% NA_character_)
-  df$disc_null_present     <- purrr::map_lgl(results, ~ isTRUE(.x$null_result_present))
-  df$disc_null_handling    <- purrr::map_chr(results, ~ .x$null_result_handling      %||% NA_character_)
-  df$disc_positioning      <- purrr::map_chr(results, ~ .x$study_positioning         %||% NA_character_)
-  df$disc_quality          <- purrr::map_chr(results, ~ .x$discussion_quality        %||% NA_character_)
-  df$disc_error            <- purrr::map_lgl(results, ~ isTRUE(.x$extraction_error))
-  df$disc_raw_response     <- purrr::map_chr(results, ~ .x$raw_response              %||% NA_character_)
+  df$disc_reengagement       <- purrr::map_chr(results, ~ .x$theory_reengagement        %||% NA_character_)
+  df$disc_evidence           <- purrr::map_chr(results, ~ .x$reengagement_evidence       %||% NA_character_)
+  df$disc_revision_signal    <- purrr::map_chr(results, ~ .x$theory_revision_signal     %||% NA_character_)
+  df$disc_revision_detail    <- purrr::map_chr(results, ~ .x$theory_revision_detail     %||% NA_character_)
+  df$disc_new_prediction     <- purrr::map_lgl(results, ~ isTRUE(.x$new_prediction_generated))
+  df$disc_new_prediction_detail <- purrr::map_chr(results, ~ .x$new_prediction_detail   %||% NA_character_)
+  df$disc_overclaim          <- purrr::map_lgl(results, ~ isTRUE(.x$claims_beyond_hypothesis))
+  df$disc_overclaim_detail   <- purrr::map_chr(results, ~ .x$beyond_hypothesis_detail   %||% NA_character_)
+  df$disc_null_present       <- purrr::map_lgl(results, ~ isTRUE(.x$null_result_present))
+  df$disc_null_handling      <- purrr::map_chr(results, ~ .x$null_result_handling        %||% NA_character_)
+  df$disc_positioning        <- purrr::map_chr(results, ~ .x$study_positioning           %||% NA_character_)
+  df$disc_quality            <- purrr::map_chr(results, ~ .x$discussion_quality          %||% NA_character_)
+  df$disc_error              <- purrr::map_lgl(results, ~ isTRUE(.x$extraction_error))
+  df$disc_raw_response       <- purrr::map_chr(results, ~ .x$raw_response                %||% NA_character_)
 
   cli::cli_inform(c("v" = "Discussion extraction complete. {sum(!df$disc_error)}/{n} rows succeeded."))
   df

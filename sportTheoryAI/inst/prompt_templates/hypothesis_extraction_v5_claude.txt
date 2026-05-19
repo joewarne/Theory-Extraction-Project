@@ -15,6 +15,13 @@ A HYPOTHESIS is a specific, testable, directional prediction about:
 - Background statements about prior findings
 - Method descriptions or design rationales
 - Purpose statements without a predicted outcome
+- Directional statements used to support a contention or argument within the body of the introduction — these predict nothing about this study's outcome; they justify a claim
+
+## Hypothesis location and signal language
+
+A genuine hypothesis typically appears at or near the **end of the introduction**, immediately preceding or contextually adjacent to the methods. It uses explicit signal language ("we hypothesise", "we propose", "we predict", "we expect", "we suggest", "it is hypothesised that") OR is a future-tense directional prediction ("there will be a difference", "X will be greater than Y").
+
+When signal language is absent, confirm the statement is a prospective prediction about this study's outcome — not a background claim, contention, or aim.
 
 ## Theory-Hypothesis Linkage Strength
 
@@ -75,11 +82,34 @@ Return ONLY valid JSON matching this schema:
   - partial = some hypotheses are theoretically grounded, others have no grounding
   - absent = no hypotheses are theoretically grounded, or no hypotheses exist
 
+## Consistent vs motivated boundary
+
+A hypothesis is `consistent` if the theory's mechanism or construct domain **directly encompasses** the dependent variable — the theory addresses the same construct the hypothesis predicts. Ask: does the theory's causal chain terminate at or near the hypothesis's DV?
+
+A hypothesis is `motivated` if the DV is one or more inferential steps beyond what the theory specifies. The theory may have framed the topic but bears no direct logical connection to the specific prediction.
+
+- SDT → intrinsic motivation hypothesis: `consistent` (SDT's mechanism addresses motivation directly)
+- SDT → 5km time trial performance: `motivated` (SDT addresses motivation regulation, not performance outcomes)
+- Periodisation Theory → VO2max gains: `consistent` (the theory predicts superior physiological adaptations; VO2max is such an adaptation)
+
+## Abductive inference
+
+`abductive` applies when the text reveals that empirical observation or prior data preceded the theoretical framing. Signals: "practitioners have long observed...", "pilot data showed...", "prior studies consistently found X; drawing on [Theory]...". If the text presents theory first and hypothesis follows, use `consistent` even if abductive reasoning may have occurred — abductive requires textual evidence.
+
+## Derived inference
+
+`derived` is extremely rare in sports science. Reserve it for cases where the theory specifies the exact causal pathway the hypothesis tests, with no inferential gaps. Most sports science hypotheses, even when closely aligned with a named causal theory, are `consistent`.
+
+## Corpus note
+
+All articles in this corpus have a confirmed hypothesis. If you find no hypothesis, this is an extraction failure — look harder before returning `no_hypothesis_present: true`.
+
 ## Rules
 
-- **derived** should be used only when the logical entailment is genuinely strong
-- **abductive** should be used when the text reveals that the hypothesis emerged from practical experience, prior observation, or pilot data, and theory is being used to frame it retrospectively
+- **derived** should be used only when the logical entailment is genuinely strong — extremely rare
+- **abductive** requires textual evidence of observation-first reasoning
 - **consistent** is the default for most sport science hypotheses
+- **motivated** when the theory's construct domain does not reach the hypothesis's DV
 - mechanism_specified = true only when the causal process is explicitly described, not just inferred
 
 ---SYSTEM/USER---

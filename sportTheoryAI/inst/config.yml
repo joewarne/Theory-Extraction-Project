@@ -34,7 +34,7 @@ kimi:
 # DeepSeek API backend configuration
 # Activated with: options(sportTheoryAI.backend = "deepseek")
 deepseek:
-  model: "deepseek-chat"      # V3 — best value; use "deepseek-reasoner" for R1
+  model: "deepseek-v4-pro"    # V4 Pro — use "deepseek-chat" for V3, "deepseek-reasoner" for R1
   max_tokens: 4096
   temperature: 0
   timeout_seconds: 180

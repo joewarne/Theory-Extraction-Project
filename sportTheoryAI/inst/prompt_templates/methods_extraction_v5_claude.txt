@@ -12,17 +12,19 @@ You are assessing THREE things:
 
 ## Alignment Classification
 
-- **aligned**: The primary outcome measures directly operationalise the theoretical constructs specified in the introduction.
-- **partial**: Some measures correspond to theoretical constructs, others do not. The mechanism may be partially operationalised.
-- **misaligned**: The outcome measures do not correspond to the theoretical constructs. The theory names one mechanism but the study measures something else entirely.
+- **aligned**: The primary outcome measures directly operationalise the theoretical constructs specified in the introduction. Validated instruments targeting the theory's named constructs qualify.
+- **partial**: At least one relevant theoretical construct is measured, but others are absent. Applies when the IV is correctly operationalised but the DV is a non-theoretical outcome, or when some constructs in the theoretical chain are measured but others are not.
+- **misaligned**: The measured constructs are categorically unrelated to any construct in the theory's framework. Neither the IV nor the DV corresponds to what the theory specifies. Example: citing SDT but measuring only physiological stress markers (HRV, cortisol) with no psychological constructs.
 - **unclear**: Insufficient information to assess alignment, or the theory is so vague that any measure could be claimed as relevant.
 - **not_applicable**: No operational theory was identified in Pass 1.
 
+**Decision rule:** `misaligned` requires that nothing in the study's measures corresponds to the theory's construct domain. If at least one theoretical construct is measured, score `partial`.
+
 ## Mechanism Operationalisation
 
-- **mechanism_measured**: The study measures the intermediate construct(s) that the theory specifies as the mechanism by which the independent variable produces the outcome.
-- **endpoints_only**: The study measures only the input (IV) and output (DV) without measuring the theoretical mechanism between them.
-- **not_applicable**: The theory is contextual (not operational), or the theory type (taxonomic, paradigm) does not specify a measurable mechanism.
+- **mechanism_measured**: The study measures the intermediate construct(s) the theory specifies as the causal mechanism between IV and DV. Example: Central Governor Model study that manipulates heat stress (IV), measures RPE continuously (mechanism), and records time trial performance (DV).
+- **endpoints_only**: The study measures the IV and DV but does not measure the theoretical mechanism between them. The causal pathway is assumed but not tested. Example: same study without RPE measurement.
+- **not_applicable**: The theory is contextual (not operational), or is taxonomic/paradigm type — no measurable intermediate mechanism is specified.
 
 ## Output Format
 
@@ -43,7 +45,9 @@ Return ONLY valid JSON matching this schema:
 
 - Focus on the PRIMARY theoretical claim — the theory classified as operational in Pass 1, if any
 - If no operational theory was identified, set construct_validity_alignment = "not_applicable" and other fields appropriately
-- "misaligned" requires clear evidence that measured constructs are categorically different from theoretical constructs — not merely imperfect measurement
+- "misaligned" requires that nothing in the study corresponds to the theory's construct domain — not merely imperfect or indirect measurement
+- "partial" applies whenever at least one theoretical construct is measured, even if the DV is a non-theoretical outcome
+- mechanism_operationalisation = "endpoints_only" does not imply misalignment — a study can be construct-aligned at the endpoint level while not measuring the mechanism
 
 ---SYSTEM/USER---
 

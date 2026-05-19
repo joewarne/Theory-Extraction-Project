@@ -1,7 +1,7 @@
 # =============================================================================
 # 02_pipeline_deepseek.R  —  Theory Extraction Pipeline (DeepSeek API backend)
 #
-# Four-pass LLM extraction pipeline using DeepSeek V3 (deepseek-chat):
+# Four-pass LLM extraction pipeline using DeepSeek V4 Pro (deepseek-v4-pro):
 #   Pass 1 — Theory classification  (introduction)
 #   Pass 2 — Hypothesis-theory linkage  (introduction)
 #   Pass 3 — Discussion re-engagement  (discussion/conclusion)
@@ -53,7 +53,7 @@ library(here)
 # ── Route all LLM calls through the DeepSeek API ─────────────────────────────
 
 options(sportTheoryAI.backend = "deepseek")
-DS_MODEL <- "deepseek-chat"
+DS_MODEL <- "deepseek-v4-pro"
 
 # ── Configuration ─────────────────────────────────────────────────────────────
 

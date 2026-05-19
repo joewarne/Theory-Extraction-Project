@@ -22,9 +22,10 @@ Note: If no operational theory was identified in Pass 1, score re-engagement rel
 This is the most important dimension for assessing whether the study contributes to theoretical progress (Lakatos, 1978):
 
 - **none**: The study simply confirms or fails to confirm the hypothesis; the theoretical position after the discussion is identical to the theoretical position before it. The theory is treated as a static backdrop.
-- **refined**: The authors use the findings to specify conditions, boundary conditions, moderators, or mechanisms with greater precision than before.
+- **refined**: The authors use the findings to add any contextual specificity to the theory — population scope, conditions under which it holds, accumulating support in a domain, boundary conditions, or moderating factors. Adding a result to "a growing body of evidence in athletic populations" qualifies as refined.
 - **partially_disconfirming**: The authors acknowledge that results are difficult to reconcile with the theory as stated and that revision or qualification may be needed.
-- **new_prediction_generated**: The authors use their findings to derive a new, untested prediction from the theory for future research — the hallmark of a progressive research contribution.
+
+Note: `theory_revision_signal` and `new_prediction_generated` are independent. A discussion can refine a theory AND generate a new prediction — score both.
 
 ## Null Result Handling
 
@@ -58,8 +59,10 @@ Return ONLY valid JSON matching this schema:
   "theory_reengagement": "<full | partial | absent>",
   "reengagement_evidence": "<one to two sentences describing how authors connect results back to theory, or why this is absent>",
   "theories_mentioned_in_discussion": ["<theory name>"],
-  "theory_revision_signal": "<none | refined | partially_disconfirming | new_prediction_generated>",
-  "theory_revision_detail": "<if not none: what specifically changes or is generated for the theory — otherwise null>",
+  "theory_revision_signal": "<none | refined | partially_disconfirming>",
+  "theory_revision_detail": "<if not none: what specifically is refined or disconfirmed — otherwise null>",
+  "new_prediction_generated": <true | false>,
+  "new_prediction_detail": "<if true: the specific untested prediction derived for future research — otherwise null>",
   "claims_beyond_hypothesis": <true | false>,
   "beyond_hypothesis_detail": "<if true: describe the specific overclaim — otherwise null>",
   "null_result_present": <true | false>,
@@ -76,12 +79,33 @@ Return ONLY valid JSON matching this schema:
   - adequate = some theoretical interpretation present, minor overclaiming or partial null-result avoidance, revision signal may be absent
   - weak = no theoretical re-engagement, substantial overclaiming, systematic avoidance of null result implications, or theory_revision_signal = none across the whole discussion
 
+## Reengagement threshold
+
+`full` requires the finding to be connected to the theory's mechanism, construct, or predictions — not merely labelled as "consistent with" or "aligned with". There must be a substantive body of text situating the result within the theory's framework.
+
+`partial` = theory named but discussion stays at hypothesis level only ("our hypothesis was supported").
+
+`absent` = theory not named AND theory's construct vocabulary absent. Before scoring absent, check whether the discussion uses conceptual vocabulary from the theory identified in Pass 1 — implicit reengagement without naming qualifies as `partial` or `full`.
+
+## Null result handling — methodological_artefact vs auxiliary_hypothesis
+
+`methodological_artefact`: null attributed to design or measurement limitations (sample size, power, instrumentation, procedure). No claim about the theory's conditions.
+
+`auxiliary_hypothesis`: null explained by a substantive assumption about the study's context that modifies the theory's conditions — ceiling effects, population characteristics, baseline state. A new subsidiary assumption is introduced to protect the theory from the disconfirming result.
+
+- *"Small sample size and lack of statistical power"* → `methodological_artefact`
+- *"Athletes already highly motivated at baseline, leaving little room for the intervention"* → `auxiliary_hypothesis`
+
+Decision rule: does the explanation invoke a property of the *design/measurement*, or a property of the *theoretical conditions/population*?
+
 ## Rules
 
 - Do NOT penalise for finding null results — assess quality of reasoning, not direction
 - Distinguish between the theory being *mentioned* (insufficient for "full") and results being *interpreted through the theoretical framework* (required for "full")
 - null_result_handling = "not_applicable" only when ALL predictions were supported
 - theory_revision_signal = "none" is the baseline — most applied sports science discussions fall here
+- theory_revision_signal and new_prediction_generated are independent — score both when both are present
+- new_prediction_generated = true only when the authors explicitly derive an untested prediction for future research, not merely suggest further work is needed
 
 ---SYSTEM/USER---
 

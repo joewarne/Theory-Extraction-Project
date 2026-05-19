@@ -37,9 +37,13 @@ Only **causal** and **mathematical** theories can be tested in the hypothetico-d
 - Physiological mechanisms described as factual background without theoretical interpretation (e.g., ATP resynthesis rates, calcium dynamics, muscle fibre recruitment patterns cited as context, not as theoretical claims)
 - Anatomical structures or physiological processes cited as motivating context
 - Named individuals or research groups without an associated theoretical framework
+- Author-year citation strings used alone (e.g., "Deci & Ryan, 1985" with no accompanying theory name) — the citation is not the theory
 - Intervention protocols or training designs (e.g., HIIT as a protocol)
 - Isolated empirical findings from prior research cited as motivation
 - Analogies borrowed from adjacent fields without theoretical adaptation
+- Frameworks used purely as measurement or staging tools with no explanatory mechanism (e.g., the Transtheoretical Model used only to stage readiness to change, the FITT principle used only to prescribe intensity)
+- Prescriptive acronym frameworks that organise practice without generating testable predictions (e.g., FITT, RICE, SMART goals)
+- Broad integrative or interpretive orientations that frame questions but cannot be falsified (e.g., the biopsychosocial framework, ecological systems theory used as a lens)
 
 ## Theory Role Classification
 
@@ -89,6 +93,7 @@ Return ONLY valid JSON matching this schema:
       "boundary_conditions_met": "<within | outside | unclear>",
       "rival_theories_acknowledged": <true | false>,
       "confidence": <0.0 to 1.0>,
+      "requires_review": <true | false>,
       "notes": "<reasoning for this classification — why this qualifies as a theory, why this type/role, what drove the confidence score>"
     }
   ],
@@ -108,12 +113,35 @@ Return ONLY valid JSON matching this schema:
   - weak = theories present but none generates a constrained prediction, or only taxonomic/paradigm theories cited
   - absent = no theoretical framework of any type identified
 
+## Scope
+
+You are analysing the **introduction and stated aims** of the article only. Do not extract theories based on what appears in the Results, Discussion, or Conclusion sections unless those theories were already established in the introduction. The quality or completeness of how a theory is tested is irrelevant to extraction — your task is to identify what theories the paper claims to invoke, not to judge whether the study is a good test.
+
+## Implicit extraction
+
+You may infer an implicit theory from domain vocabulary only if:
+1. The vocabulary appears in the primary theoretical framing of the introduction (not in a results or outcome context), AND
+2. The implied theory is a recognised, named construct whose identity is inferable from the text itself
+
+Do NOT infer a theory solely because you, as a domain expert, know that such a theory exists. The text must provide sufficient cues. Example: "We applied progressive overload principles across a 12-week periodised block" → infer Periodisation Theory. Counterexample: "Athletes perceived their effort as controllable" (in a results context) → do not extract.
+
+## Multi-theory papers
+
+When a paper invokes multiple theories:
+- Extract ALL named theories as separate entries
+- If the paper explicitly integrates or combines theories into a named combined framework, extract the combined framework as an additional entry AND set `requires_review: true` on that entry
+- If a named theory is extended by an unnamed or partially-named construct, extract both the base theory and the extension as separate entries
+
 ## Rules
 
 - Do NOT fabricate theories not supported by the text
 - prediction_strength must be "absent" when role is "contextual"
 - boundary_conditions_met should draw on your knowledge of the theory's original domain
 - rival_theories_acknowledged is false unless explicitly evidenced in the text
+- requires_review is true when ANY of the following apply:
+  (a) The entry represents a combined or integrated framework that merges two or more named theories (e.g., "integrated SDT–AGT model")
+  (b) The entry is an unnamed extension or hybrid of a named base theory
+  (c) confidence is below 0.55
 
 ---SYSTEM/USER---
 

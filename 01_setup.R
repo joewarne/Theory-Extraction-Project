@@ -5,8 +5,8 @@
 # It installs all required R packages and verifies your API key is set.
 #
 # Pipelines available:
-#   04_pipeline_claude.R   — Anthropic Claude (requires ANTHROPIC_API_KEY)
-#   05_pipeline_deepseek.R — DeepSeek V3      (requires DEEPSEEK_API_KEY)
+#   03_pipeline_claude.R  — Anthropic Claude (requires ANTHROPIC_API_KEY)
+#   02_pipeline_deepseek.R — DeepSeek V4 Pro  (requires DEEPSEEK_API_KEY)
 # =============================================================================
 
 # ── 1. Install required R packages ───────────────────────────────────────────
@@ -103,4 +103,4 @@ if (isTRUE(test_result$extraction_error)) {
 }
 
 message("\nSetup complete.")
-message("Run 05_pipeline_deepseek.R (DeepSeek) or 04_pipeline_claude.R (Claude) to extract theories.")
+message("Run 02_pipeline_deepseek.R (DeepSeek) or 03_pipeline_claude.R (Claude) to extract theories.")

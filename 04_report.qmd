@@ -35,8 +35,8 @@ library(dplyr); library(purrr); library(stringr); library(tidyr)
 library(tibble); library(readr); library(knitr); library(kableExtra); library(here)
 
 # ── Load results ───────────────────────────────────────────────────────────────
-# params$results_dir defaults to "." (project root = Ollama run).
-# For Claude run: quarto_render(..., execute_params = list(results_dir = "claude_results"))
+# params$results_dir defaults to "deepseek_results".
+# Override: quarto_render(..., execute_params = list(results_dir = "claude_results"))
 rdir <- if (identical(params$results_dir, ".")) here() else here(params$results_dir)
 
 # Resolve filenames by globbing for any file matching stem*.Rds / stem*.csv
@@ -470,6 +470,29 @@ if ("rival_theories_acknowledged" %in% names(flat)) {
 }
 ```
 
+## 3e: Requires Review Flags
+
+Extractions where a human reviewer should verify the model's output. Flags are set automatically when the model identifies a combined or integrated framework merging two or more named theories, an unnamed theoretical extension, or model confidence below 0.55.
+
+```{r requires-review, eval="requires_review" %in% names(flat)}
+rv <- flat |> filter(isTRUE(requires_review))
+if (nrow(rv) == 0) {
+  cat("No theories flagged for review in this run.")
+} else {
+  rv |>
+    select(`Article` = article_id, `Theory` = name, `Type` = theory_type,
+           `Role` = role, `Conf.` = confidence) |>
+    mutate(`Conf.` = round(`Conf.`, 2)) |>
+    arrange(Article, Theory) |>
+    kable(caption = paste0("Theories flagged requires_review = TRUE (n = ", nrow(rv), ")")) |>
+    kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover"))
+}
+```
+
+```{r requires-review-absent, eval=!"requires_review" %in% names(flat)}
+cat("requires_review field not present in current extraction output.")
+```
+
 ---
 
 # Section 4: Paper × Theory Mapping
@@ -516,7 +539,7 @@ if (nrow(flat) == 0) {
 **How to read this section.** This analysis addresses the core scientific question: are researchers deriving their hypotheses from theory? Articles with `absent` alignment are making empirical predictions without theoretical justification. Articles with `partial` alignment have mixed theoretical grounding. The detail table shows each hypothesis as extracted, its linked theory, and the model's explanation of the connection.
 
 ```{r hyp-unavailable, eval=is.null(hyp_flat)}
-cat("Hypothesis extraction results not found. Run 02_pipeline.R to generate.")
+cat("Hypothesis extraction results not found. Run 02_pipeline_deepseek.R to generate.")
 ```
 
 ```{r hyp-overview, eval=!is.null(hyp_flat) && !is.null(hyp_df)}
@@ -632,7 +655,7 @@ tibble(
 **How to read this section.** Re-engagement quality indicates the depth of theoretical reasoning at the interpretation stage. **Full** re-engagement means results are interpreted in terms of the theory and its broader implications. **Partial** means the theory is mentioned but results are only discussed at the hypothesis level. **Absent** means the theory named in the introduction is not referenced when interpreting results — the authors have abandoned their theoretical framework before interpreting their findings. **Overclaiming** refers to generalisations or conclusions that exceed what the hypothesis test can support.
 
 ```{r disc-unavailable, eval=is.null(disc_df)}
-cat("Discussion extraction results not found. Run 02_pipeline.R to generate.")
+cat("Discussion extraction results not found. Run 02_pipeline_deepseek.R to generate.")
 ```
 
 ```{r disc-overview, eval=!is.null(disc_df)}
@@ -767,7 +790,7 @@ disc_df |>
 
 ## 6d: Theory Revision Signal
 
-**What this means.** This is the most important dimension for assessing whether a study contributes to theoretical *progress* (Lakatos, 1978). A progressive study does not merely confirm or fail to confirm its hypothesis — it uses its findings to say something new about the theory. **None** is the baseline: the theoretical position after reading the discussion is identical to before. **Refined** means the authors specify conditions, boundary conditions, or mechanisms with greater precision. **Partially disconfirming** means the authors acknowledge their results are difficult to reconcile with the theory as stated. **New prediction generated** is the hallmark of a progressive contribution: the authors use their findings to derive an untested prediction for future research. The distribution across these categories is the clearest indicator of whether a literature is advancing theoretically.
+**What this means.** This dimension captures whether a study contributes to theoretical *progress* (Lakatos, 1978). A progressive study does not merely confirm or fail to confirm its hypothesis — it uses its findings to say something new about the theory. **None** is the baseline: the theoretical position after reading the discussion is identical to before. **Refined** means the authors use their findings to specify conditions, populations, or mechanisms with greater precision — including adding a study to a growing body of evidence in a domain. **Partially disconfirming** means the authors acknowledge their results are difficult to reconcile with the theory as stated. Whether the discussion also generates a new testable prediction is captured separately in Section 6d-ii below.
 
 ```{r revision-signal, eval=has_revision_signal}
 disc_df |>
@@ -779,16 +802,14 @@ disc_df |>
       disc_revision_signal == "none" ~
         "Theory treated as static backdrop — confirmation or failure without theoretical development",
       disc_revision_signal == "refined" ~
-        "Findings used to specify conditions, boundary conditions, or mechanisms more precisely",
+        "Findings used to specify conditions, populations, or mechanisms more precisely",
       disc_revision_signal == "partially_disconfirming" ~
         "Authors acknowledge results are difficult to reconcile with theory — revision may be required",
-      disc_revision_signal == "new_prediction_generated" ~
-        "Findings used to derive a new, untested theoretical prediction — progressive contribution",
       TRUE ~ NA_character_
     )
   ) |>
   arrange(match(disc_revision_signal,
-                c("new_prediction_generated","refined","partially_disconfirming","none"))) |>
+                c("refined","partially_disconfirming","none"))) |>
   rename(`Theory revision signal` = disc_revision_signal, Count = n) |>
   kable(caption = "Theory revision signal — the extent to which discussions advance rather than merely confirm theoretical frameworks") |>
   kable_styling(bootstrap_options = c("striped","hover"))
@@ -808,6 +829,38 @@ disc_df |>
   column_spec(3, width = "36em")
 ```
 
+## 6d-ii: New Prediction Generated
+
+**What this means.** A discussion that generates a new testable prediction is the hallmark of a progressive research programme (Lakatos, 1978): the authors have used their findings to derive a novel claim for future research to test, rather than simply confirming or rejecting the hypothesis. This flag is coded independently of the revision signal — a discussion can simultaneously refine an existing theory *and* derive a new prediction from that refinement.
+
+```{r new-prediction, eval=!is.null(disc_df) && "disc_new_prediction" %in% names(disc_df)}
+n_new_pred    <- sum(disc_df$disc_new_prediction, na.rm = TRUE)
+n_disc_valid2 <- sum(!disc_df$disc_error, na.rm = TRUE)
+
+tibble(
+  Metric = c("New prediction generated — authors derive a novel untested prediction",
+             "No new prediction generated"),
+  Count = c(n_new_pred, n_disc_valid2 - n_new_pred),
+  `%` = paste0(round(c(n_new_pred, n_disc_valid2 - n_new_pred) / n_disc_valid2 * 100), "%")
+) |>
+  kable(caption = "New prediction generated — proportion of discussions that derive a novel testable prediction for future research") |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped","hover"))
+```
+
+```{r new-prediction-detail, eval=!is.null(disc_df) && "disc_new_prediction" %in% names(disc_df) && "disc_new_prediction_detail" %in% names(disc_df)}
+disc_df |>
+  filter(!disc_error, isTRUE(disc_new_prediction), !is.na(disc_new_prediction_detail)) |>
+  select(`Article` = article_id, `Prediction derived` = disc_new_prediction_detail) |>
+  mutate(`Prediction derived` = str_trunc(`Prediction derived`, 200)) |>
+  kable(caption = "Articles where a new prediction was generated — what was predicted") |>
+  kable_styling(bootstrap_options = c("striped","hover","condensed")) |>
+  column_spec(2, width = "40em")
+```
+
+```{r new-prediction-absent, eval=is.null(disc_df) || !"disc_new_prediction" %in% names(disc_df)}
+cat("New prediction field not present in current extraction output.")
+```
+
 ---
 
 # Section 6e: Construct Validity — Methods Analysis
@@ -817,7 +870,7 @@ disc_df |>
 **How to read this section.** **Aligned** means the primary outcome measures directly operationalise the constructs the theory specifies. **Partial** means some measures correspond to theoretical constructs, others do not. **Misaligned** means the measures do not correspond to the theoretical constructs at all — the study cannot provide evidence for or against the theory it cites. **Mechanism operationalisation** assesses whether the study measures the intermediate constructs in the theory's causal chain, or only the endpoints.
 
 ```{r meth-unavailable, eval=!has_meth}
-cat("Methods extraction results not found. Run 02_pipeline.R to generate.")
+cat("Methods extraction results not found. Run 02_pipeline_deepseek.R to generate.")
 ```
 
 ```{r meth-overview, eval=has_meth}
@@ -1113,6 +1166,6 @@ cat("Theory database file not found at theory_database.csv.")
 ---
 
 *Report generated: `r format(Sys.time(), "%Y-%m-%d %H:%M")`*
-*Model: `r cfg$model$name` (temperature = `r cfg$model$temperature`, seed = `r cfg$model$seed`)*
-*Prompt version: `r cfg$prompt$version`*
+*Model: `r cfg$deepseek$model %||% cfg$claude$model %||% "unknown"` (temperature = `r cfg$deepseek$temperature %||% cfg$claude$temperature %||% 0`)*
+*Prompt template version: v5*
 *sportTheoryAI v`r tryCatch(read.dcf(here("sportTheoryAI","DESCRIPTION"), fields="Version")[1], error=function(e) "dev")`*
